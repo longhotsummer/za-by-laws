@@ -14,7 +14,7 @@
         <FRBRExpression>
           <FRBRthis value="/za/by-law/cape-town/2010/liquor-trading-days-and-hours/main/eng@2012-04-26"/>
           <FRBRuri value="/za/by-law/cape-town/2010/liquor-trading-days-and-hours/eng@2012-04-26"/>
-          <FRBRdate date="1980-01-01" name="Generation"/>
+          <FRBRdate date="2012-04-26" name="Generation"/>
           <FRBRauthor href="#council" as="#author"/>
           <FRBRlanguage language="eng"/>
         </FRBRExpression>
@@ -28,14 +28,14 @@
       <publication date="2010-07-10" name="Province of Western Cape: Provincial Gazette" number="6788" showAs="Province of Western Cape: Provincial Gazette"/>
       <lifecycle source="#this">
         <eventRef id="e1" date="2010-07-28" source="#original" type="generation"/>
-        <eventRef id="e2" date="2012-04-26" source="#original" type="amendment"/>
+        <eventRef id="e2" date="2012-04-26" source="#amendment-1" type="amendment"/>
       </lifecycle>
       <references source="#this">
         <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
         <TLCOrganization id="council" href="/ontology/organization/za/council.cape-town" showAs="Cape Town City Council"/>
         <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
-        <original id="original" href="/za/by-law/cape-town/2010-07-28/liquor-trading-days-and-hours" showAs="Original"/>
-        <passiveRef id="amendment-1" href="/za/by-law/cape-town/2012-02-09/liquor-trading-days-and-hours" showAs="Liquor Trading Days and Hours By-law, 2012"/>
+        <original id="original" href="/za/by-law/cape-town/2010/liquor-trading-days-and-hours" showAs="Original"/>
+        <passiveRef id="amendment-1" href="/za/by-law/cape-town/2012/liquor-trading-days-and-hours" showAs="Liquor Trading Days and Hours By-law, 2012"/>
         <TLCTerm id="term-agricultural_area" href="/ontology/term/this.eng.agricultural_area" showAs="agricultural area"/>
         <TLCTerm id="term-business_premises" href="/ontology/term/this.eng.business_premises" showAs="business premises"/>
         <TLCTerm id="term-City_of_Cape_Town" href="/ontology/term/this.eng.City_of_Cape_Town" showAs="City of Cape Town"/>
