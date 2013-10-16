@@ -33,6 +33,7 @@
         <TLCTerm id="term-beg" href="/ontology/term/this.eng.beg" showAs="beg"/>
         <TLCTerm id="term-City" href="/ontology/term/this.eng.City" showAs="City"/>
         <TLCTerm id="term-collection" href="/ontology/term/this.eng.collection" showAs="collection"/>
+        <TLCTerm id="term-heavy_motor_vehicle" href="/ontology/term/this.eng.heavy_motor_vehicle" showAs="heavy motor vehicle"/>
         <TLCTerm id="term-kerb_line" href="/ontology/term/this.eng.kerb_line" showAs="kerb line"/>
         <TLCTerm id="term-informal_settlement" href="/ontology/term/this.eng.informal_settlement" showAs="informal settlement"/>
         <TLCTerm id="term-motor_vehicle" href="/ontology/term/this.eng.motor_vehicle" showAs="motor vehicle"/>
@@ -82,7 +83,14 @@
           <point id="def-term-collection">
             <subsection id="def-term-collection.subsection-0">
               <content>
-                <p>"<def refersTo="#term-collection">collection</def>" means the door-to-door collection of money or some other thing of value in terms of written permission obtained from the <term refersTo="#term-City" id="trm0">City</term>; "heavy <term refersTo="#term-motor_vehicle" id="trm1">motor vehicle</term>" includes a truck, light truck, bus, horse-and-trailer, caravan, or any other like <term refersTo="#term-vehicle" id="trm2">vehicle</term> wherein it is possible to have persons residing, sleeping or committing any unlawful act or conduct;</p>
+                <p>"<def refersTo="#term-collection">collection</def>" means the door-to-door collection of money or some other thing of value in terms of written permission obtained from the <term refersTo="#term-City" id="trm0">City</term>;</p>
+              </content>
+            </subsection>
+          </point>
+          <point id="def-term-heavy_motor_vehicle">
+            <subsection id="def-term-heavy_motor_vehicle.subsection-0">
+              <content>
+                <p>"<def refersTo="#term-heavy_motor_vehicle">heavy motor vehicle</def>" includes a truck, light truck, bus, horse-and-trailer, caravan, or any other like <term refersTo="#term-vehicle" id="trm2">vehicle</term> wherein it is possible to have persons residing, sleeping or committing any unlawful act or conduct;</p>
               </content>
             </subsection>
           </point>
@@ -463,7 +471,7 @@ The <term refersTo="#term-City" id="trm48">City</term> may, after consideration 
         <subsection id="section-6.1">
           <num>(1)</num>
           <content>
-            <p>No driver or person in control of a heavy <term refersTo="#term-motor_vehicle" id="trm55">motor vehicle</term> shall park or leave such <term refersTo="#term-motor_vehicle" id="trm56">motor vehicle</term> parked overnight in a <term refersTo="#term-public_place" id="trm57">public place</term> in a residential area.</p>
+            <p>No driver or person in control of a <term refersTo="#term-heavy_motor_vehicle" id="trm55">heavy motor vehicle</term> shall park or leave such <term refersTo="#term-motor_vehicle" id="trm56">motor vehicle</term> parked overnight in a <term refersTo="#term-public_place" id="trm57">public place</term> in a residential area.</p>
           </content>
         </subsection>
         <subsection id="section-6.2">
