@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openbylaws">
+        <FRBRWork>
+          <FRBRthis value="/za/by-law/cape-town/2010/problem-building/main"/>
+          <FRBRuri value="/za/by-law/cape-town/2010/problem-building"/>
+          <FRBRalias value="City of Cape Town: Problem Builder By-law, 2010"/>
+          <FRBRdate date="2010-07-09" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za/by-law/cape-town/2010/problem-building/main/eng@"/>
+          <FRBRuri value="/za/by-law/cape-town/2010/problem-building/eng@"/>
+          <FRBRdate date="2010-07-09" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za/by-law/cape-town/2010/problem-building/main/eng@"/>
+          <FRBRuri value="/za/by-law/cape-town/2010/problem-building/eng@"/>
+          <FRBRdate date="2013-12-10" name="Generation"/>
+          <FRBRauthor href="#openbylaws" as="#author"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-07-09" name="Province of Western Cape: Provincial Gazette" number="6767" showAs="Province of Western Cape: Provincial Gazette"/>
+      <references source="#this">
+        <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council.cape-town" showAs="Cape Town City Council"/>
+        <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCTerm id="term-authorised_official" href="/ontology/term/this.eng.authorised_official" showAs="authorised official"/>
+        <TLCTerm id="term-City" href="/ontology/term/this.eng.City" showAs="City"/>
+        <TLCTerm id="term-licensed_waste_disposal_facility" href="/ontology/term/this.eng.licensed_waste_disposal_facility" showAs="licensed waste disposal facility"/>
+        <TLCTerm id="term-owner" href="/ontology/term/this.eng.owner" showAs="owner"/>
+        <TLCTerm id="term-problem_building" href="/ontology/term/this.eng.problem_building" showAs="problem building"/>
+      </references>
+    </meta>
+    <preamble>
+      <p>WHEREAS section 156(2) and (5) of the Constitution provides that a municipality may make and administer by-laws for the effective administration of the matters which it has the right to administer, and to exercise any power concerning a matter reasonably necessary for, or incidental to, the effective performance of its functions;</p>
+      <p>AND WHEREAS Part B of Schedule 4 to the Constitution lists building regulations as a local government matter to the extent set out in section 155(6) (a) and (7);</p>
+      <p>AND WHEREAS the City of Cape Town seeks to identify, control and manage dilapidated and problem buildings within its area of jurisdiction to ensure that such buildings comply with this By-law by—</p>
+      <p>— Formulating a coordinated integrated strategy plan, processes and procedures;</p>
+      <p>— Turning problem buildings around by rejuvenating and regenerating the buildings rather than demolishing them;</p>
+      <p>— Redeveloping the property where problem buildings can’t be rejuvenated or regenerated after consultation with the owners; — Facilitating the disposal of problem buildings for the purpose of achieving the objectives of this By-law.</p>
+      <p>AND NOW THEREFORE, BE IT ENACTED by the Council of the City of Cape Town, as follows:</p>
+    </preamble>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <list id="definitions">
+          <intro>
+            <p>In this By-law, unless the context otherwise indicates—</p>
+          </intro>
+          <point id="def-term-authorised_official">
+            <subsection id="def-term-authorised_official.subsection-0">
+              <content>
+                <p>"<def refersTo="#term-authorised_official">authorised official</def>" means an employee of the <term refersTo="#term-City" id="trm0">City</term> authorised by the <term refersTo="#term-City" id="trm1">City</term> Manager to implement and enforce the provisions of this By-law; "building" includes—</p>
+              </content>
+            </subsection>
+            <subsection id="def-term-authorised_official.subsection-1">
+              <content>
+                <blockList id="def-term-authorised_official.subsection-1.list0">
+                  <item id="def-term-authorised_official.subsection-1.list0.a">
+                    <num>(a)</num>
+                    <blockList id="def-term-authorised_official.subsection-1.list0.a.list0">
+                      <listIntroduction>any structure, whether of a temporary or permanent nature and irrespective of the materials used in the erection thereof, erected or used for or in connection with the—</listIntroduction>
+                      <item id="def-term-authorised_official.subsection-1.list0.a.list0.i">
+                        <num>(i)</num>
+                        <p>accommodation or convenience of human beings or animals; (ii) manufacture, processing, storage, display or sale of any goods;</p>
+                      </item>
+                      <item id="def-term-authorised_official.subsection-1.list0.a.list0.iii">
+                        <num>(iii)</num>
+                        <p>rendering of any service;</p>
+                      </item>
+                      <item id="def-term-authorised_official.subsection-1.list0.a.list0.iv">
+                        <num>(iv)</num>
+                        <p>destruction or treatment of refuse or other waste materials;</p>
+                      </item>
+                      <item id="def-term-authorised_official.subsection-1.list0.a.list0.v">
+                        <num>(v)</num>
+                        <p>cultivation or growing of any plant or crop;</p>
+                      </item>
+                    </blockList>
+                  </item>
+                  <item id="def-term-authorised_official.subsection-1.list0.b">
+                    <num>(b)</num>
+                    <p>any wall or part of a building;</p>
+                  </item>
+                  <item id="def-term-authorised_official.subsection-1.list0.c">
+                    <num>(c)</num>
+                    <p>a unit or common property as defined in the Sectional Titles Act, 1986 (Act No. 95 of 1986); or</p>
+                  </item>
+                  <item id="def-term-authorised_official.subsection-1.list0.d">
+                    <num>(d)</num>
+                    <p>any vacant or unoccupied erf;</p>
+                  </item>
+                </blockList>
+              </content>
+            </subsection>
+          </point>
+          <point id="def-term-City">
+            <subsection id="def-term-City.subsection-0">
+              <content>
+                <p>"<def refersTo="#term-City">City</def>" means the City of Cape Town established in terms of section 12 of the Local Government: Municipal Structures Act, 1998 (Act No. 117 of 1998), by Provincial Notice No. 479 dated 22 December 2000;</p>
+              </content>
+            </subsection>
+          </point>
+          <point id="def-term-licensed_waste_disposal_facility">
+            <subsection id="def-term-licensed_waste_disposal_facility.subsection-0">
+              <content>
+                <p>"<def refersTo="#term-licensed_waste_disposal_facility">licensed waste disposal facility</def>" means a site, or premises which is licensed in terms of the National Environmental Management: Waste Act, 2008 (Act No. 59 of 2008) and used for the accumulation or disposal of waste;</p>
+              </content>
+            </subsection>
+          </point>
+          <point id="def-term-owner">
+            <subsection id="def-term-owner.subsection-0">
+              <content>
+                <p>"<def refersTo="#term-owner">owner</def>" in relation to a building means the person in whose name the land on which such building was or is erected, as the case may be, is registered in the deeds office in question and includes a person in charge of such building: Provided that if—</p>
+              </content>
+            </subsection>
+            <subsection id="def-term-owner.subsection-1">
+              <content>
+                <blockList id="def-term-owner.subsection-1.list0">
+                  <item id="def-term-owner.subsection-1.list0.a">
+                    <num>(a)</num>
+                    <p>such person, in the case of a natural person, is deceased or was declared by any court to be incapable of managing his or her own affairs or a prodigal or is a patient as defined in section 1 of the Mental Health Act, 1973 (Act No. 18 of 1973), or if his or her estate has been sequestrated, the executor or curator concerned, as the case may be;</p>
+                  </item>
+                  <item id="def-term-owner.subsection-1.list0.b">
+                    <num>(b)</num>
+                    <p>such person, in the case of a juristic person or trust, has been liquidated or placed under judicial management, the liquidator or judicial manager concerned, as the case may be;</p>
+                  </item>
+                  <item id="def-term-owner.subsection-1.list0.c">
+                    <num>(c)</num>
+                    <p>such person is absent from the Republic or if his or her whereabouts are unknown, any person who, as agent or otherwise, undertakes the management, maintenance or collection of rentals or other moneys in respect of such building or who is responsible there for;</p>
+                  </item>
+                  <item id="def-term-owner.subsection-1.list0.d">
+                    <num>(d)</num>
+                    <p>in the case of a sectional title scheme, a sectional title unit is registered in the name of a person, that person;</p>
+                  </item>
+                  <item id="def-term-owner.subsection-1.list0.e">
+                    <num>(e)</num>
+                    <p>in the case of a trust, the trustees of such trust;</p>
+                  </item>
+                  <item id="def-term-owner.subsection-1.list0.f">
+                    <num>(f)</num>
+                    <p>in the case of a sectional title scheme, a body corporate responsible for the control, administration and management of the common property; or</p>
+                  </item>
+                  <item id="def-term-owner.subsection-1.list0.g">
+                    <num>(g)</num>
+                    <p>where the <term refersTo="#term-City" id="trm2">City</term> is unable to determine the identity of such person, any person who is entitled to the benefit of the use of such building or who enjoys such benefit;</p>
+                  </item>
+                </blockList>
+              </content>
+            </subsection>
+          </point>
+          <point id="def-term-problem_building">
+            <subsection id="def-term-problem_building.subsection-0">
+              <content>
+                <p>"<def refersTo="#term-problem_building">problem building</def>" includes any building or portion of a building—</p>
+              </content>
+            </subsection>
+            <subsection id="def-term-problem_building.subsection-1">
+              <content>
+                <blockList id="def-term-problem_building.subsection-1.list0">
+                  <item id="def-term-problem_building.subsection-1.list0.a">
+                    <num>(a)</num>
+                    <p>that appears to have been abandoned by the <term refersTo="#term-owner" id="trm3">owner</term> with or without the consequence that rates or other service charges are not being paid;</p>
+                  </item>
+                  <item id="def-term-problem_building.subsection-1.list0.b">
+                    <num>(b)</num>
+                    <p>that is derelict in appearance, overcrowded or is showing signs of becoming unhealthy, unsanitary, unsightly or objectionable;</p>
+                  </item>
+                  <item id="def-term-problem_building.subsection-1.list0.c">
+                    <num>(c)</num>
+                    <p>that is the subject of written complaints in respect of criminal activities, including drug dealings and prostitution;</p>
+                  </item>
+                  <item id="def-term-problem_building.subsection-1.list0.d">
+                    <num>(d)</num>
+                    <p>that is illegally occupied;</p>
+                  </item>
+                  <item id="def-term-problem_building.subsection-1.list0.e">
+                    <num>(e)</num>
+                    <p>where refuse or waste material is accumulated, dumped, stored or deposited with the exception of licensed waste disposal facilities; or</p>
+                  </item>
+                  <item id="def-term-problem_building.subsection-1.list0.f">
+                    <num>(f)</num>
+                    <p>that is partially completed or structurally unsound and is a threat or danger to the safety of the general public.</p>
+                  </item>
+                </blockList>
+              </content>
+            </subsection>
+          </point>
+        </list>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Application of this by-law</heading>
+        <subsection id="section-2.subsection-0">
+          <content>
+            <p>This By-law applies to all problem buildings situated within the area of jurisdiction of the <term refersTo="#term-City" id="trm4">City</term>, except those situated in areas exempted from the application of the National Building Regulations and Building Standards Act, 1977 (Act No. 103 of 1977.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Appointment of authorised officials</heading>
+        <subsection id="section-3.subsection-0">
+          <content>
+            <p>The <term refersTo="#term-City" id="trm5">City</term> Manager may appoint authorised officials to implement and enforce the provisions of this By-law.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Delegation</heading>
+        <subsection id="section-4.subsection-0">
+          <content>
+            <p>The <term refersTo="#term-City" id="trm6">City</term> Manager may exercise all powers, duties and functions conferred upon the <term refersTo="#term-City" id="trm7">City</term> in terms of this By-law and to delegate such powers, duties and functions to authorised officials.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Entry by authorised officials of buildings and land</heading>
+        <subsection id="section-5.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-5.1.list0">
+              <listIntroduction>
+Any <term refersTo="#term-authorised_official" id="trm8">authorised official</term> may enter any building at any reasonable time with a view to—              </listIntroduction>
+              <item id="section-5.1.list0.a">
+                <num>(a)</num>
+                <p>inspect or determine whether the building complies with any provision of this By-law subject to 7 days notice of such intended inspection having been given to the <term refersTo="#term-owner" id="trm9">owner</term>; or</p>
+              </item>
+              <item id="section-5.1.list0.b">
+                <num>(b)</num>
+                <p>serve the <term refersTo="#term-owner" id="trm10">owner</term> of the building with the compliance notice as referred to in section 7.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-5.2">
+          <num>(2)</num>
+          <content>
+            <p>No person shall hinder or obstruct the <term refersTo="#term-authorised_official" id="trm11">authorised official</term> in the exercise of his her powers in terms of the By-law.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.3">
+          <num>(3)</num>
+          <content>
+            <p>An <term refersTo="#term-authorised_official" id="trm12">authorised official</term> shall, when entering the building, produce a valid identification document issued to him or her by the <term refersTo="#term-City" id="trm13">City</term> to the <term refersTo="#term-owner" id="trm14">owner</term> of such building.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Declaration of a building, a <term refersTo="#term-problem_building" id="trm15">problem building</term></heading>
+        <subsection id="section-6.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-authorised_official" id="trm16">authorised official</term> may, subject to subsections (2) to (5), if a building falls within the definition of "<term refersTo="#term-problem_building" id="trm17">problem building</term>" as defined in section 1, declare such building a <term refersTo="#term-problem_building" id="trm18">problem building</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-authorised_official" id="trm19">authorised official</term> shall, by notice in writing, before declaring such building a <term refersTo="#term-problem_building" id="trm20">problem building</term>, inform the <term refersTo="#term-owner" id="trm21">owner</term> of his or her intention to declare such building a <term refersTo="#term-problem_building" id="trm22">problem building</term>, giving the reasons for such declaration.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-authorised_official" id="trm23">authorised official</term> may carry out an investigation in respect of a building which he or she intends to declare a <term refersTo="#term-problem_building" id="trm24">problem building</term> as contemplated in subsection (2), provided that he or she must display a notice of such investigation on the building concerned.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.4">
+          <num>(4)</num>
+          <content>
+            <p>The <term refersTo="#term-authorised_official" id="trm25">authorised official</term> shall give the <term refersTo="#term-owner" id="trm26">owner</term> a period of seven days to make representations on why the building should not be declared a <term refersTo="#term-problem_building" id="trm27">problem building</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.5">
+          <num>(5)</num>
+          <content>
+            <p>The <term refersTo="#term-authorised_official" id="trm28">authorised official</term> shall, after considering the representations referred to in subsection (4), take a decision either to declare or not to declare a building a <term refersTo="#term-problem_building" id="trm29">problem building</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.6">
+          <num>(6)</num>
+          <content>
+            <p>The <term refersTo="#term-owner" id="trm30">owner</term> shall, in respect of a declaration in terms of subsection (1), have a right of appeal in terms of section 62 of the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000).</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Compliance notice</heading>
+        <subsection id="section-7.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-7.1.list0">
+              <listIntroduction>
+The <term refersTo="#term-authorised_official" id="trm31">authorised official</term> shall serve a written notice on the <term refersTo="#term-owner" id="trm32">owner</term> of any building which has been declared a <term refersTo="#term-problem_building" id="trm33">problem building</term> as referred to in section 6, requiring such <term refersTo="#term-owner" id="trm34">owner</term> within a specified period to—              </listIntroduction>
+              <item id="section-7.1.list0.a">
+                <num>(a)</num>
+                <p>repair, renovate, repaint, alter, close, demolish, secure, or remove all refuse from, such <term refersTo="#term-problem_building" id="trm35">problem building</term>;</p>
+              </item>
+              <item id="section-7.1.list0.b">
+                <num>(b)</num>
+                <p>complete the construction of a <term refersTo="#term-problem_building" id="trm36">problem building</term> or any structure of such building;</p>
+              </item>
+              <item id="section-7.1.list0.c">
+                <num>(c)</num>
+                <p>enclose, fence or barricade such <term refersTo="#term-problem_building" id="trm37">problem building</term> to the satisfaction of the <term refersTo="#term-City" id="trm38">City</term>;</p>
+              </item>
+              <item id="section-7.1.list0.d">
+                <num>(d)</num>
+                <p>appoint and instruct, at the cost of such <term refersTo="#term-owner" id="trm39">owner</term>, an approved competent person referred to in Part A 19 of the National Building Regulations, to examine a condition that gave rise to the declaration of a building a <term refersTo="#term-problem_building" id="trm40">problem building</term> and to report to the <term refersTo="#term-authorised_official" id="trm41">authorised official</term> on the nature and extent of the steps to be taken, which in the opinion of such approved competent person needs to be taken in order to render such <term refersTo="#term-problem_building" id="trm42">problem building</term> safe;</p>
+              </item>
+              <item id="section-7.1.list0.e">
+                <num>(e)</num>
+                <p>dispose of, destroy or remove any material or article accumulated, dumped, stored or deposited in any building, which is refuse or waste and which is showing signs of becoming unsightly, insanitary, unhealthy or objectionable or is likely to constitute an obstruction; or</p>
+              </item>
+              <item id="section-7.1.list0.f">
+                <num>(f)</num>
+                <p>comply with any provision of this By-law.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-7.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-City" id="trm43">City</term> may, if such <term refersTo="#term-owner" id="trm44">owner</term> fails to comply with a notice served on him or her in terms of subsection (1), repair, renovate, repaint, alter, close, demolish, remove all refuse or secure any <term refersTo="#term-problem_building" id="trm45">problem building</term> at the cost of the <term refersTo="#term-owner" id="trm46">owner</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-City" id="trm47">City</term> may, if the <term refersTo="#term-owner" id="trm48">owner</term> fails to pay such cost, recover the cost in terms of the Credit Control and Debt Collection By-law, 2006.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.4">
+          <num>(4)</num>
+          <content>
+            <p>Despite subsection (1), section 6 and subject to any applicable legislation, if the <term refersTo="#term-authorised_official" id="trm49">authorised official</term> has reason to believe that the condition of any building is such that steps should forthwith be taken to protect life or property, he or she may take such steps as may be necessary in the circumstances without serving or delivering such notice on or to the <term refersTo="#term-owner" id="trm50">owner</term> of such building and may recover the cost of such steps from such <term refersTo="#term-owner" id="trm51">owner</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.5">
+          <num>(5)</num>
+          <content>
+            <blockList id="section-7.5.list4">
+              <listIntroduction>
+If the <term refersTo="#term-authorised_official" id="trm52">authorised official</term> deems it necessary for the safety of any person, he or she may by notice in writing—              </listIntroduction>
+              <item id="section-7.5.list4.a">
+                <num>(a)</num>
+                <p>order the <term refersTo="#term-owner" id="trm53">owner</term> of any <term refersTo="#term-problem_building" id="trm54">problem building</term> to remove, within the period specified in such notice, any person occupying or working, or who for any other purpose is in such <term refersTo="#term-problem_building" id="trm55">problem building</term>, and to take care that no person who is not authorised by the <term refersTo="#term-City" id="trm56">City</term> enters such <term refersTo="#term-problem_building" id="trm57">problem building</term>;</p>
+              </item>
+              <item id="section-7.5.list4.b">
+                <num>(b)</num>
+                <p>order any person occupying or working, or who for any other purpose is in any <term refersTo="#term-problem_building" id="trm58">problem building</term>, to vacate such building.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-7.6">
+          <num>(6)</num>
+          <content>
+            <p>No person shall occupy, use or permit the occupation or use of any <term refersTo="#term-problem_building" id="trm59">problem building</term> or continue to occupy, use or permit, the occupation or use of any <term refersTo="#term-problem_building" id="trm60">problem building</term> in respect of which a notice was served or delivered in terms of this section or steps were taken by the <term refersTo="#term-City" id="trm61">City</term> in terms of subsection (2), unless he or she has been granted permission by <term refersTo="#term-City" id="trm62">City</term> in writing that such building may be occupied or used or continue to be occupied or used, as the case may be.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Service of a notice</heading>
+        <subsection id="section-8.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-8.1.list0">
+              <listIntroduction>
+Whenever a compliance notice is authorised or required to be served on a person in terms of this By-law, it shall be deemed to have been effectively and sufficiently served on such person—              </listIntroduction>
+              <item id="section-8.1.list0.a">
+                <num>(a)</num>
+                <p>when it has been delivered to him or her personally;</p>
+              </item>
+              <item id="section-8.1.list0.b">
+                <num>(b)</num>
+                <p>when it has been left at his or her place of residence or business in the Republic with a person apparently over the age of 16 years;</p>
+              </item>
+              <item id="section-8.1.list0.c">
+                <num>(c)</num>
+                <p>when it has been posted by registered or certified mail to his or her last known residential or business address in the Republic and an acknowledgment of the posting thereof is produced;</p>
+              </item>
+              <item id="section-8.1.list0.d">
+                <num>(d)</num>
+                <p>if his or her address in the Republic is unknown, when it has been served on his or her agent or representative in the Republic in the manner contemplated in paragraph (a), (b) or (c); or</p>
+              </item>
+              <item id="section-8.1.list0.e">
+                <num>(e)</num>
+                <p>if his or her address and agent in the Republic are unknown, when it has been posted in a conspicuous place on the immovable property, if any, to which it relates.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-8.2">
+          <num>(2)</num>
+          <content>
+            <p>When a compliance notice as aforesaid is authorised or required to be served on a person by reason of his or her being or having been the <term refersTo="#term-owner" id="trm63">owner</term> or holding some other right in respect of immovable property, it shall not be necessary to name him or her, but it shall be sufficient if he or she is therein described as the <term refersTo="#term-owner" id="trm64">owner</term> or holder of such immovable property or other right, as the case may be.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Indemnity</heading>
+        <subsection id="section-9.subsection-0">
+          <content>
+            <p>The <term refersTo="#term-City" id="trm65">City</term> or any <term refersTo="#term-authorised_official" id="trm66">authorised official</term> of the <term refersTo="#term-City" id="trm67">City</term> shall not be liable to a third party for any damage caused by anything lawfully done or omitted by the <term refersTo="#term-City" id="trm68">City</term> or any <term refersTo="#term-authorised_official" id="trm69">authorised official</term> in carrying out any function or duty in terms of this By-law.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Offences and penalties</heading>
+        <subsection id="section-10.1">
+          <num>(1)</num>
+          <content>
+            <p>Any person who contravenes any provision, or fails to comply with any notice issued in terms, of this By-law commits an offence.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.2">
+          <num>(2)</num>
+          <content>
+            <p>A person who is guilty of an offence in terms of this By-law is upon conviction liable to a fine not exceeding R300 000.00 or imprisonment for a period not exceeding three years or to both such fine and imprisonment.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.3">
+          <num>(3)</num>
+          <content>
+            <p>In the case of a continuing offence an additional fine or imprisonment for a period not exceeding ten days for each day on which such offence continued may be imposed.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.4">
+          <num>(4)</num>
+          <content>
+            <p>In addition to any penalty imposed in terms of subsections (2) and (3), the person so convicted shall be liable to pay the cost of repair of any damage caused or costs incurred in remedying any damage resulting from such an offence.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-11">
+        <num>11.</num>
+        <heading>Short title</heading>
+        <subsection id="section-11.subsection-0">
+          <content>
+            <p>This By law is called the <term refersTo="#term-City" id="trm70">City</term> of Cape Town: Problem Building By-law, 2010.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>
