@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
-  <act contains="originalVersion">
+  <act contains="singleVersion">
     <meta>
       <identification source="#openbylaws">
         <FRBRWork>
@@ -26,10 +26,16 @@
         </FRBRManifestation>
       </identification>
       <publication date="2002-02-28" name="Province of Western Cape: Provincial Gazette" number="5832" showAs="Province of Western Cape: Provincial Gazette"/>
+      <lifecycle source="#this">
+        <eventRef id="e1" date="2002-02-28" source="#original" type="generation"/>
+        <eventRef id="e2" date="2007-06-29" source="#amendment-1" type="amendment"/>
+      </lifecycle>
       <references source="#this">
         <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
         <TLCOrganization id="council" href="/ontology/organization/za/council.cape-town" showAs="Cape Town City Council"/>
         <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <original id="original" href="/za/by-law/cape-town/2002/community-fire-safety" showAs="Original"/>
+        <passiveRef id="amendment-1" href="/za/by-law/cape-town/2007/community-fire-safety-amendment" showAs="Community Fire Safety Amendment By-law"/>
         <TLCTerm id="term-above_ground_storage_tank" href="/ontology/term/this.eng.above_ground_storage_tank" showAs="above ground storage tank"/>
         <TLCTerm id="term-automatic_releasing_hold-open_device" href="/ontology/term/this.eng.automatic_releasing_hold-open_device" showAs="automatic releasing hold-open device"/>
         <TLCTerm id="term-boundary" href="/ontology/term/this.eng.boundary" showAs="boundary"/>
@@ -197,7 +203,7 @@
             <point id="def-term-bund_wall">
               <subsection id="def-term-bund_wall.subsection-0">
                 <content>
-                  <p>"<def refersTo="#term-bund_wall">bund wall</def>" means a containment wall surrounding an <term refersTo="#term-above_ground_storage_tank" id="trm15">above ground storage tank</term>, constructed of an impervious material and designed to contain 110% of the contents of the <term refersTo="#term-tank" id="trm16">tank</term>;</p>
+                  <p>"<def refersTo="#term-bund_wall">bund wall</def>" means a containment wall surrounding an <term refersTo="#term-above_ground_storage_tank" id="trm15">above ground storage tank</term>, constructed of impervious material;</p>
                 </content>
               </subsection>
             </point>
@@ -299,6 +305,31 @@
                 </content>
               </subsection>
             </point>
+            <point id="def-term-firebreak">
+              <subsection id="def-term-firebreak.subsection-0">
+                <content>
+                  <p>"<def refersTo="#term-firebreak">firebreak</def>" means a natural or constructed strip of land where vegetation has been removed or modified to contain or to reduce the spread and intensity of any fire that may occur in or enter a premises, and may consist of one or more of the following:</p>
+                </content>
+              </subsection>
+              <subsection id="def-term-firebreak.subsection-1">
+                <content>
+                  <blockList id="def-term-firebreak.subsection-1.list0">
+                    <item id="def-term-firebreak.subsection-1.list0.a">
+                      <num>(a)</num>
+                      <p>grass or vegetation that does not exceed 50 mm in height;</p>
+                    </item>
+                    <item id="def-term-firebreak.subsection-1.list0.b">
+                      <num>(b)</num>
+                      <p>lawn or cultivated garden, or</p>
+                    </item>
+                    <item id="def-term-firebreak.subsection-1.list0.c">
+                      <num>(c)</num>
+                      <p>a road or driveway;</p>
+                    </item>
+                  </blockList>
+                </content>
+              </subsection>
+            </point>
             <point id="def-term-Fire_Brigade_Services_Act">
               <subsection id="def-term-Fire_Brigade_Services_Act.subsection-0">
                 <content>
@@ -371,6 +402,13 @@
               <subsection id="def-term-fire_wall.subsection-0">
                 <content>
                   <p>"<def refersTo="#term-fire_wall">fire wall</def>" means a wall that is able to withstand the effects of fire for a specific period of time as contemplated in the <term refersTo="#term-National_Building_Regulations" id="trm42">National Building Regulations</term> (T1) read with SABS 0400;</p>
+                </content>
+              </subsection>
+            </point>
+            <point id="def-term-firework">
+              <subsection id="def-term-firework.subsection-0">
+                <content>
+                  <p>"<def refersTo="#term-firework">firework</def>" has the meaning assigned thereto in section 1 of the Explosives Act, Act 15 of 2003;</p>
                 </content>
               </subsection>
             </point>
@@ -500,6 +538,13 @@
               <subsection id="def-term-Hazardous_Substances_Act.subsection-0">
                 <content>
                   <p>"<def refersTo="#term-Hazardous_Substances_Act">Hazardous Substances Act</def>" means the Hazardous Substances Act, 1973 (Act 15 of 1973);</p>
+                </content>
+              </subsection>
+            </point>
+            <point id="def-term-Mobile_filling_station">
+              <subsection id="def-term-Mobile_filling_station.subsection-0">
+                <content>
+                  <p>"<def refersTo="#term-Mobile_filling_station">Mobile filling station</def>" a site that is being used temporarily or permanently for the filling of refillable liquefied petroleum gas containers from a mobile unit;</p>
                 </content>
               </subsection>
             </point>
@@ -724,7 +769,14 @@
             <point id="def-term-SABS_Codes">
               <subsection id="def-term-SABS_Codes.subsection-0">
                 <content>
-                  <p>"<def refersTo="#term-SABS_Codes">SABS Codes</def>" means South African Bureau of Standards SABS Codes of Practice and Specifications issued in terms of the <term refersTo="#term-Standards_Act" id="trm88">Standards Act</term>;</p>
+                  <p>"<def refersTo="#term-SABS_Codes">SABS Codes</def>" means South African Bureau of Standards SABS Codes of Practice and Specifications issued in terms of the <term refersTo="#term-Standards_Act" id="trm88">Standards Act</term>, and shall include SANS Codes;</p>
+                </content>
+              </subsection>
+            </point>
+            <point id="def-term-SANS_Codes">
+              <subsection id="def-term-SANS_Codes.subsection-0">
+                <content>
+                  <p>"<def refersTo="#term-SANS_Codes">SANS Codes</def>" means South African Bureau of Standards Sans Codes of Practice and Specifications issued in terms of the <term refersTo="#term-Standards_Act" id="trm88">Standards Act</term>, and shall include SABS Codes;</p>
                 </content>
               </subsection>
             </point>
@@ -797,7 +849,14 @@
             <point id="def-term-tank">
               <subsection id="def-term-tank.subsection-0">
                 <content>
-                  <p>"<def refersTo="#term-tank">tank</def>" for purposes of chapter 9 of <term refersTo="#term-this_By-law" id="trm94">this By-law</term>, means a container mounted permanently or temporarily on or embodied in a <term refersTo="#term-vehicle" id="trm95">vehicle</term> and so constructed to be suitable for the containment of <term refersTo="#term-flammable_liquid" id="trm96">flammable liquid</term> or gas cargo;</p>
+                  <p>"<def refersTo="#term-tank">tank</def>" means a portable or temporary structure of canvas, cloth or other similar material, consisting of a canopy. which may have walls, supported by poles and stretched by cords secured to pegs driven into the ground;</p>
+                </content>
+              </subsection>
+            </point>
+            <point id="def-term-tent">
+              <subsection id="def-term-tent.subsection-0">
+                <content>
+                  <p>"<def refersTo="#term-tent">tent</def>" for purposes of chapter 9 of <term refersTo="#term-this_By-law" id="trm94">this By-law</term>, means a container mounted permanently or temporarily on or embodied in a <term refersTo="#term-vehicle" id="trm95">vehicle</term> and so constructed to be suitable for the containment of <term refersTo="#term-flammable_liquid" id="trm96">flammable liquid</term> or gas cargo;</p>
                 </content>
               </subsection>
             </point>
@@ -805,6 +864,13 @@
               <subsection id="def-term-this_By-law.subsection-0">
                 <content>
                   <p>"<def refersTo="#term-this_By-law">this By-law</def>" includes the Schedules published in terms of this By-law;</p>
+                </content>
+              </subsection>
+            </point>
+            <point id="def-term-threatening_danger">
+              <subsection id="def-term-threatening_danger.subsection-0">
+                <content>
+                  <p>"<def refersTo="#term-threatening_danger">threatening danger</def>" means the existence of an unwelcome or undesirable situation which causes or has the potential to cause imminent harm, risk, peril or injury in the event of an emergency or fire;</p>
                 </content>
               </subsection>
             </point>
@@ -960,7 +1026,7 @@ A <term refersTo="#term-controlling_authority" id="trm143">controlling authority
             <content>
               <blockList id="section-6.1.list0">
                 <listIntroduction>
-When a <term refersTo="#term-controlling_authority" id="trm148">controlling authority</term> finds that there is non-compliance with the provisions of <term refersTo="#term-this_By-law" id="trm149">this By-law</term>, excluding the situation in section 4(2), a written notice must be issued and include the following:—                </listIntroduction>
+When a <term refersTo="#term-controlling_authority" id="trm148">controlling authority</term> finds that there is non-compliance with the provisions of <term refersTo="#term-this_By-law" id="trm149">this By-law</term>, excluding the situation in section 4(2), a written notice may be issued and should include the following:—                </listIntroduction>
                 <item id="section-6.1.list0.a">
                   <num>(a)</num>
                   <p>confirmation of the findings;</p>
@@ -1193,14 +1259,14 @@ A <term refersTo="#term-fire_door" id="trm205">fire door</term> and assembly may
             <content>
               <blockList id="section-16.1.list0">
                 <listIntroduction>
-Prior to the erection and usage of a tent as an <term refersTo="#term-occupancy" id="trm214">occupancy</term> contemplated in the <term refersTo="#term-National_Building_Regulations" id="trm215">National Building Regulations</term> (A20), an applicant must:—                </listIntroduction>
+Prior to the erection and usage of a tent as an <term refersTo="#term-occupancy" id="trm214">occupancy</term> contemplated in the <term refersTo="#term-National_Building_Regulations" id="trm215">National Building Regulations</term> (A20), the owner or person in charge of a premises must:—                </listIntroduction>
                 <item id="section-16.1.list0.a">
                   <num>(a)</num>
-                  <p>submit an application in terms of the <term refersTo="#term-National_Building_Regulations" id="trm216">National Building Regulations</term> (A2) to the <term refersTo="#term-Municipality" id="trm217">Municipality</term> for the erection and usage of the tent, and</p>
+                  <p>submit an application in terms of the <term refersTo="#term-National_Building_Regulations" id="trm216">National Building Regulations</term> (A2) and (A23) to the <term refersTo="#term-Municipality" id="trm217">Municipality</term> for the approval to erect and use the tent, and</p>
                 </item>
                 <item id="section-16.1.list0.b">
                   <num>(b)</num>
-                  <p>submit an application in terms of the section 21 of <term refersTo="#term-this_By-law" id="trm218">this By-law</term> to the <term refersTo="#term-controlling_authority" id="trm219">controlling authority</term> for a temporary <term refersTo="#term-population" id="trm220">population</term> certificate.</p>
+                  <p>submit an application in terms of section 21 of <term refersTo="#term-this_By-law" id="trm218">this By-law</term> to the <term refersTo="#term-controlling_authority" id="trm219">controlling authority</term> for a temporary <term refersTo="#term-population" id="trm220">population</term> certificate.</p>
                 </item>
               </blockList>
             </content>
@@ -1213,7 +1279,11 @@ Prior to the erection and usage of a tent as an <term refersTo="#term-occupancy"
 The application submitted in terms of subsection (1)(a) must comply with the following:—                </listIntroduction>
                 <item id="section-16.2.list1.a">
                   <num>(a)</num>
-                  <p>The tent must be erected at least 4,5 metres from a <term refersTo="#term-boundary" id="trm221">boundary</term>, combustible store or material and the <term refersTo="#term-controlling_authority" id="trm222">controlling authority</term> may require that this distance be increased should the situation require it.</p>
+                  <p>The safety distance between a tent and any building or <term refersTo="#term-boundary" id="trm221">boundary</term> shall be determined in accordance with TT2 of the SABS 0400. The <term refersTo="#term-controlling_authority" id="trm222">controlling authority</term> may require that this distance be increased should the situation require it.</p>
+                </item>
+                <item id="section-16.2.list1.aA">
+                  <num>(aA)</num>
+                  <p>The tent must be erected at least 4,5 metres from any combustible material or dangerous goods</p>
                 </item>
                 <item id="section-16.2.list1.b">
                   <num>(b)</num>
@@ -1285,7 +1355,7 @@ The application submitted in terms of subsection (1)(a) must comply with the fol
           <subsection id="section-17.1">
             <num>(1)</num>
             <content>
-              <p>Fire extinguishers must be provided and installed on <term refersTo="#term-premises" id="trm230">premises</term> as required by the <term refersTo="#term-controlling_authority" id="trm231">controlling authority</term> and in accordance with the <term refersTo="#term-National_Building_Regulations" id="trm232">National Building Regulations</term> (T1) and (T2).</p>
+              <p>The owner or person in charge, as the case may be, must provide and install fire extinguishers on <term refersTo="#term-premises" id="trm230">premises</term> as required by the <term refersTo="#term-controlling_authority" id="trm231">controlling authority</term> and in accordance with the <term refersTo="#term-National_Building_Regulations" id="trm232">National Building Regulations</term> (T1) and (T2).</p>
             </content>
           </subsection>
           <subsection id="section-17.2">
@@ -1337,7 +1407,7 @@ The application submitted in terms of subsection (1)(a) must comply with the fol
           <subsection id="section-18.1">
             <num>(1)</num>
             <content>
-              <p>A <term refersTo="#term-fire_protection_system" id="trm253">fire protection system</term> must be tested and maintained on a regular basis and the <term refersTo="#term-owner" id="trm254">owner</term> or <term refersTo="#term-person_in_charge" id="trm255">person in charge</term> of the <term refersTo="#term-premises" id="trm256">premises</term> must keep a detailed record of the test and maintenance of the system.</p>
+              <p>The owner or person in charge must ensure that a fire protection system is tested and maintained on a regular basis and that a detailed record of such tests and maintenance of the system be kept</p>
             </content>
           </subsection>
           <subsection id="section-18.2">
@@ -1445,7 +1515,13 @@ Without compensation to the <term refersTo="#term-owner" id="trm283">owner</term
           <subsection id="section-21.1">
             <num>(1)</num>
             <content>
-              <p>Prior to the usage of the <term refersTo="#term-premises" id="trm294">premises</term> for entertainment or public assembly, the <term refersTo="#term-owner" id="trm295">owner</term> or <term refersTo="#term-person_in_charge" id="trm296">person in charge</term> of such <term refersTo="#term-premises" id="trm297">premises</term> must submit an application for a <term refersTo="#term-population" id="trm298">population</term> certificate to the <term refersTo="#term-controlling_authority" id="trm299">controlling authority</term>, as prescribed in the Schedule 2 of <term refersTo="#term-this_By-law" id="trm300">this By-law</term>.</p>
+              <p>Prior to the usage of the <term refersTo="#term-premises" id="trm294">premises</term> for entertainment or public assembly where the population including staff exceeds 50 people, the <term refersTo="#term-owner" id="trm295">owner</term> or <term refersTo="#term-person_in_charge" id="trm296">person in charge</term> of such <term refersTo="#term-premises" id="trm297">premises</term> must submit an application for a <term refersTo="#term-population" id="trm298">population</term> certificate to the <term refersTo="#term-controlling_authority" id="trm299">controlling authority</term>, as prescribed in the Schedule 2 of <term refersTo="#term-this_By-law" id="trm300">this By-law</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.1A">
+            <num>(1A)</num>
+            <content>
+              <p>The owner or person in charge of a premises for which a population certificate is required shall not utilise such premises if a population certificate has not been issued by the Controlling Authority.</p>
             </content>
           </subsection>
           <subsection id="section-21.2">
@@ -1712,6 +1788,12 @@ The register mentioned in subsection (4) must contain the following information:
               <p>A person may not light or smoke a cigar, cigarette, pipe, tobacco or other substance or ignite or otherwise set fire to other material, nor hold, possess, throw or deposit any lighted or smouldering substance in any place where expressly prohibited.</p>
             </content>
           </subsection>
+          <subsection id="section-31.3A">
+            <num>(3A)</num>
+            <content>
+              <p>The owner or person in charge of premises may not allow or permit any person to light or smoke a cigar, cigarette, pipe, tobacco or other substance or ignite or otherwise set fire to other material in any place where expressly prohibited</p>
+            </content>
+          </subsection>
           <subsection id="section-31.4">
             <num>(4)</num>
             <content>
@@ -1722,6 +1804,12 @@ The register mentioned in subsection (4) must contain the following information:
             <num>(5)</num>
             <content>
               <p>A person may not throw, put down or drop a burning match, burning cigarette, or other burning material or any material capable of spontaneous combustion or self-ignition in a road or any other place.</p>
+            </content>
+          </subsection>
+          <subsection id="section-31.6">
+            <num>(6)</num>
+            <content>
+              <p>Where any person throws, puts down or drops a burning match or similar item, burning cigarette or similar item, or other burning or smouldering material or item, any material or item capable of spontaneous combustion or self--ignition or any material or item capable of causing the spontaneous combustion or ignition of any material in a road or any other place, from a vehicle, it shall be presumed, in the absence of evidence to the contrary, that such action was performed by the owner of such vehicle.</p>
             </content>
           </subsection>
         </section>
@@ -1753,7 +1841,7 @@ The register mentioned in subsection (4) must contain the following information:
       </chapter>
       <chapter id="chapter-7">
         <num>7</num>
-        <heading>Fire hazards</heading>
+        <heading>Fire hazards and Firebreaks</heading>
         <section id="section-34">
           <num>34.</num>
           <heading>Combustible material</heading>
@@ -1795,6 +1883,34 @@ The register mentioned in subsection (4) must contain the following information:
             <num>(4)</num>
             <content>
               <p>Burning may take place on <term refersTo="#term-State" id="trm430">State</term> land, a farm, a small holding, or land within a proclaimed township that is not utilised for residential purposes provided that the prior approval is obtained from the <term refersTo="#term-controlling_authority" id="trm431">controlling authority</term> which approval shall be applied for in writing after approval has been obtained in terms of the applicable legislation set out in Schedule 3.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-35A">
+          <num>35A.</num>
+          <heading>Firebreaks</heading>
+          <subsection id="section-35A.1">
+            <num>(1)</num>
+            <content>
+              <p>Notwithstanding anything contained in the National Veld and Forest Fire Act, the owner or person in charge of a premises that has vegetation growing thereon shall where necessary prepare and maintain sufficient firebreak(s) to ensure that the risk of a vegetation fire arising on or spreading from one premises to another is minimised.</p>
+            </content>
+          </subsection>
+          <subsection id="section-35A.2">
+            <num>(2)</num>
+            <content>
+              <p>Where an owner or person in charge fails to prepare or maintain a firebreak or where in the opinion of the controlling authority, the firebreak is insufiicient for the prevailing circumstances, the controlling authority may act in terms of section 4(2) or 6(1) of this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-35A.3">
+            <num>(3)</num>
+            <content>
+              <p>Where a firebreak has been prepared, the vegetative material from within the firebreak must be removed from the area of the firebreak and must be disposed of in a manner acceptable to the controlling authority.</p>
+            </content>
+          </subsection>
+          <subsection id="section-35A.4">
+            <num>(4)</num>
+            <content>
+              <p>Subsection (1) is not applicable in cases where an exemption has been granted in terms of the National Veld and Forest Fire Act.</p>
             </content>
           </subsection>
         </section>
@@ -1852,7 +1968,7 @@ The register mentioned in subsection (4) must contain the following information:
 The <term refersTo="#term-owner" id="trm458">owner</term> or <term refersTo="#term-person_in_charge" id="trm459">person in charge</term> of the <term refersTo="#term-premises" id="trm460">premises</term> may not store or use:—                </listIntroduction>
                 <item id="section-37.6.list5.i">
                   <num>(i)</num>
-                  <p>a <term refersTo="#term-flammable_gas" id="trm461">flammable gas</term> in excess of 19 kilogram, or</p>
+                  <p>a <term refersTo="#term-flammable_gas" id="trm461">flammable gas</term> in excess of 38 kilogram, or</p>
                 </item>
                 <item id="section-37.6.list5.ii">
                   <num>(ii)</num>
@@ -1886,7 +2002,7 @@ The <term refersTo="#term-owner" id="trm458">owner</term> or <term refersTo="#te
           <subsection id="section-38.4">
             <num>(4)</num>
             <content>
-              <p>A <term refersTo="#term-flammable_substance" id="trm484">flammable substance</term> certificate must be renewed annually, on or before the date as indicated on the <term refersTo="#term-flammable_substance" id="trm485">flammable substance</term> certificate, and whenever the quantity or class of the <term refersTo="#term-flammable_substance" id="trm486">flammable substance</term> requires to be changed or when section 37(5) applies.</p>
+              <p>A <term refersTo="#term-flammable_substance" id="trm484">flammable substance</term> certificate must be renewed whenever the quantity or class of the <term refersTo="#term-flammable_substance" id="trm486">flammable substance</term> requires to be changed or when section 37(5) applies.</p>
             </content>
           </subsection>
           <subsection id="section-38.5">
@@ -1904,7 +2020,19 @@ The <term refersTo="#term-owner" id="trm458">owner</term> or <term refersTo="#te
           <subsection id="section-38.7">
             <num>(7)</num>
             <content>
-              <p>A supplier may not supply flammable substances to the <term refersTo="#term-owner" id="trm494">owner</term> or <term refersTo="#term-person_in_charge" id="trm495">person in charge</term> of the <term refersTo="#term-premises" id="trm496">premises</term>, unless the <term refersTo="#term-owner" id="trm497">owner</term> or <term refersTo="#term-person_in_charge" id="trm498">person in charge</term> of the <term refersTo="#term-premises" id="trm499">premises</term> is in possession of a valid <term refersTo="#term-flammable_substance" id="trm500">flammable substance</term> certificate issued by the <term refersTo="#term-controlling_authority" id="trm501">controlling authority</term>.</p>
+              <blockList id="section-38.7.list1">
+                <listIntroduction>
+                  A supplier may not:-
+                </listIntroduction>
+                <item id="section-38.7.list1.a">
+                  <num>(a)</num>
+                  <p>supply in excess of 38 kg of a flammable gas or 200 litres of a flammable liquid of danger group (i), (ii), (iii) or (iv), as the case may be, to any person without proof that the person being supplied is in possession of a valid flammable substance certificate as contemplated in section 37(6), or</p>
+                </item>
+                <item id="section-38.7.list1.b">
+                  <num>(b)</num>
+                  <p>deliver to the owner or person in charge of a premises, in excess of 38 kg of a flammable gas or 200 litres of a flammable liquid of danger group (i), (ii), (iii) or (iv), as the case may be, unless the owner or person in charge of a premises is in possession of a valid flammable substance certificate as contemplated in subsection 37(6).</p>
+                </item>
+              </blockList>
             </content>
           </subsection>
           <subsection id="section-38.8">
@@ -2008,7 +2136,7 @@ A temporary <term refersTo="#term-above_ground_storage_tank" id="trm512">above g
           <subsection id="section-39.8">
             <num>(8)</num>
             <content>
-              <p>A permanent or temporary <term refersTo="#term-tank" id="trm528">tank</term> must have a <term refersTo="#term-bund_wall" id="trm529">bund wall</term>.</p>
+              <p>A permanent or temporary <term refersTo="#term-tank" id="trm528">tank</term> must have a <term refersTo="#term-bund_wall" id="trm529">bund wall</term> that shall be so designed as to contain 110% of the contents of the tank within the bund or, in the case where more than one tank is within a bund area, the bund wall shall be in accordance with the requirements of SANS 0089 part 1.</p>
             </content>
           </subsection>
           <subsection id="section-39.9">
@@ -2077,28 +2205,53 @@ A temporary <term refersTo="#term-above_ground_storage_tank" id="trm512">above g
         </section>
         <section id="section-43">
           <num>43.</num>
-          <heading>Liquid petroleum gas installation in mobile units and small non-permanent buildings</heading>
+          <heading>Liquefied petroleum gas installation in mobile units and small non-permanent buildings</heading>
           <subsection id="section-43.subsection-0">
             <content>
-              <p>A liquid petroleum gas installation in mobile units and small non-permanent buildings shall be in accordance with S.A.B.S. 087: Part 2.</p>
+              <p>A liquefied petroleum gas installation in mobile units and small non-permanent buildings shall be in accordance with SANS 10087: Part 1.</p>
             </content>
           </subsection>
         </section>
         <section id="section-44">
           <num>44.</num>
-          <heading>The fuelling of forklift trucks and other lp gas operated vehicles</heading>
+          <heading>The fuelling of forklift trucks and other liquid petroleum gas operated vehicles</heading>
           <subsection id="section-44.subsection-0">
             <content>
-              <p>The fuelling of forklift trucks and other LP gas operated vehicles shall be in accordance with S.A.B.S. 087: Part 8</p>
+              <p>The fuelling of forklift trucks and other liquid petroleum gas operated vehicles shall be in accordance with S.A.B.S. 087: Part 8.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-44A">
+          <num>44A.</num>
+          <heading>The application of liquid petroleum and compressed natural gases as engine fuels</heading>
+          <subsection id="section-44A.subsection-0">
+            <content>
+              <p>The use of liquid petroleum gas and compressed natural gas as a fuel for intemal combustion engines and for the operation of equipment built for or converted to the use of liquid petroleum gas shall comply fully with SANS 10087 part 6.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-44B">
+          <num>44B.</num>
+          <heading>Mobile filling stations for refillable liquid petroleum gas (LPG) containers</heading>
+          <subsection id="section-44B.1">
+            <num>(1)</num>
+            <content>
+              <p>The use of a mobile filling station to refill liquefied petroleum gas containers is prohibited.</p>
+            </content>
+          </subsection>
+          <subsection id="section-44B.2">
+            <num>(2)</num>
+            <content>
+              <p>No person shall have a refillable liquefied petroleum gas container filled at a mobile filling station.</p>
             </content>
           </subsection>
         </section>
         <section id="section-45">
           <num>45.</num>
-          <heading>The storage and filling of refillable liquid petroleum gas containers</heading>
+          <heading>The storage and filling of refillable liquefied petroleum gas containers</heading>
           <subsection id="section-45.subsection-0">
             <content>
-              <p>Storage and filling sites used for refillable liquid petroleum gas containers of capacity not exceeding 9kg must be in accordance with S.A.B.S. 087: Part 7.</p>
+              <p>Storage and filling sites used for refillable liquefied petroleum gas containers of capacity not exceeding 9kg must be in accordance with SANS 10087: Part 8.</p>
             </content>
           </subsection>
         </section>
@@ -2229,7 +2382,7 @@ When required by the <term refersTo="#term-controlling_authority" id="trm575">co
           <subsection id="section-49.6">
             <num>(6)</num>
             <content>
-              <p>Notwithstanding the <term refersTo="#term-National_Building_Regulations" id="trm581">National Building Regulations</term> (T1) read in conjunction with SABS 0400, a <term refersTo="#term-flammable_store" id="trm582">flammable store</term> door must be constructed of material with a fire resistance of two hours, provided that all relevant safety distances are complied with, and the door must open outwards.</p>
+              <p>Notwithstanding the <term refersTo="#term-National_Building_Regulations" id="trm581">National Building Regulations</term> (T1) read in conjunction with SABS 0400, the controlling authority may allow a <term refersTo="#term-flammable_store" id="trm582">flammable store</term> door to be constructed of non-combustible material, provided that it is outward opening and that all relevant safety distances are complied with.</p>
             </content>
           </subsection>
           <subsection id="section-49.7">
@@ -2253,7 +2406,19 @@ When required by the <term refersTo="#term-controlling_authority" id="trm575">co
           <subsection id="section-49.10">
             <num>(10)</num>
             <content>
-              <p>A <term refersTo="#term-flammable_store" id="trm589">flammable store</term> must be provided with a foam inlet consisting of a 65 millimetre male instantaneous coupling and mild steel pipework leading to the inside thereof and the foam inlet must be identified by means of a sign displaying the words "Foam Inlet" in 100 millimetre block letters.</p>
+              <p>A <term refersTo="#term-flammable_store" id="trm589">flammable store</term> storing in excess of 5 000 ℓ of flammable liquid must be provided with a foam inlet consisting of a 65 millimetre male instantaneous coupling fitted with a non-return valve and mild steel pipework leading to the inside thereof. Where deemed necessary the controlling authority may require more than one foam inlet.</p>
+            </content>
+          </subsection>
+          <subsection id="section-49.10A">
+            <num>(10A)</num>
+            <content>
+              <p>The foam inlet and pipework must ensure adequate distribution of the foam.</p>
+            </content>
+          </subsection>
+          <subsection id="section-49.10B">
+            <num>(10B)</num>
+            <content>
+              <p>A foam inlet must be identified by means of a sign displaying the words "Foam Inlet" in 50 millimetre block letters.</p>
             </content>
           </subsection>
           <subsection id="section-49.11">
@@ -2265,7 +2430,7 @@ When required by the <term refersTo="#term-controlling_authority" id="trm575">co
           <subsection id="section-49.12">
             <num>(12)</num>
             <content>
-              <p>The <term refersTo="#term-flammable_store" id="trm592">flammable store</term> must be identified by the words, "Flammable Store—Bewaarplek vir Vlambare Vloeistowwe—Isitoro Indawo Yokugcina Izixhobo Ezithatha Lula Umlilo", and the permissible quantity allowed within the <term refersTo="#term-flammable_store" id="trm593">flammable store</term>, indicated in 100 millimetre block letters on both the inside and outside of all doors communicating directly with the store.</p>
+              <p>The <term refersTo="#term-flammable_store" id="trm592">flammable store</term> must be identified by the words, "Flammable Store—Bewaarplek vir Vlambare Vloeistowwe—Isitoro Indawo Yokugcina Izixhobo Ezithatha Lula Umlilo", and the permissible quantity allowed within the <term refersTo="#term-flammable_store" id="trm593">flammable store</term>, indicated in 50 millimetre block letters on both the inside and outside of all doors communicating directly with the store.</p>
             </content>
           </subsection>
           <subsection id="section-49.13">
@@ -2448,6 +2613,22 @@ Where a <term refersTo="#term-flammable_store" id="trm618">flammable store</term
             </content>
           </subsection>
         </section>
+        <section id="section-52A">
+          <num>52A.</num>
+          <heading>Major hazard installations</heading>
+          <subsection id="section-52A.1">
+            <num>(1)</num>
+            <content>
+              <p>Notwithstanding anything contained in the Occupational Health and Safety Act (Act 85 of 1993) and the Major Hazard Installation Regulations, (R692 of 2001), the controlling authority may require a risk assessment to be carried out on a premises or portion of a premises where an installation or a quantity of a substance is present which in the opinion of the controlling authority poses a risk that could affect the health and safety of employees and the public.</p>
+            </content>
+          </subsection>
+          <subsection id="section-52A.2">
+            <num>(2)</num>
+            <content>
+              <p>A risk assessment must be performed by an Approved Inspection Authority and comply with the requirements of Regulation 5 of the Major Hazard Installation Regulations.</p>
+            </content>
+          </subsection>
+        </section>
       </chapter>
       <chapter id="chapter-9">
         <num>9</num>
@@ -2458,7 +2639,7 @@ Where a <term refersTo="#term-flammable_store" id="trm618">flammable store</term
           <subsection id="section-53.1">
             <num>(1)</num>
             <content>
-              <p>The operator of a <term refersTo="#term-vehicle" id="trm630">vehicle</term> designed for the transportation of <term refersTo="#term-dangerous_goods" id="trm631">dangerous goods</term> may not operate such a <term refersTo="#term-vehicle" id="trm632">vehicle</term> in the jurisdiction of the <term refersTo="#term-controlling_authority" id="trm633">controlling authority</term>, unless he has obtained a <term refersTo="#term-dangerous_goods" id="trm634">dangerous goods</term> certificate issued by a fire brigade <term refersTo="#term-service" id="trm635">service</term> in terms of the <term refersTo="#term-National_Road_Traffic_Act" id="trm636">National Road Traffic Act</term>.</p>
+              <p>The operator of a vehicle designed for the transportation of flammable materials in excess of the exempt quantities as contained in Annexure A of SABS 0232-1 may not operate such a vehicle in the jurisdiction of the controlling authority, unless he has obtained a dangerous goods certificate issued by a fire brigade service in terms of the National Road Traffic Act.</p>
             </content>
           </subsection>
           <subsection id="section-53.2">
@@ -2619,12 +2800,102 @@ Any person who:—                </listIntroduction>
             </content>
           </subsection>
         </section>
+      </chapter>
+      <chapter id="chapter-11">
+        <num>11</num>
+        <heading>Fireworks</heading>
         <section id="section-58">
           <num>58.</num>
-          <heading>Schedules</heading>
-          <subsection id="section-58.subsection-0">
+          <heading>Firework certificates and permits</heading>
+          <subsection id="section-58.1">
+            <num>(1)</num>
             <content>
-              <p>XXX SCHEDULES</p>
+              <p>Notwithstanding the provisions in the Explosives Act or Regulations, this Chapter regulates fireworks in the local government sphere so as to prevent and reduce fire hazards or other threatening dangers.</p>
+            </content>
+          </subsection>
+          <subsection id="section-58.2">
+            <num>(2)</num>
+            <content>
+              <p>No owner or person in charge of premises may sell or store fireworks unless such owner or person has obtained a fireworks certificate from the controlling authority.</p>
+            </content>
+          </subsection>
+          <subsection id="section-58.3">
+            <num>(3)</num>
+            <content>
+              <p>Notwithstanding the provisions of subsection (1), the sale and storage of fireworks are prohibited on or in any building used for residential or part-residential purposes, vehicle, beach, land, terrain, road, vessel, train or aircraft.</p>
+            </content>
+          </subsection>
+          <subsection id="section-58.4">
+            <num>(4)</num>
+            <content>
+              <p>No person may operate a public fireworks display without receiving prior permission and having obtained a permit from the controlling authority.</p>
+            </content>
+          </subsection>
+          <subsection id="section-58.5">
+            <num>(5)</num>
+            <content>
+              <p>No person may use theatrical pyrotechnics or other fireworks during a live performance, film or television recording without receiving prior permission and having obtained a permit from the controlling authority.</p>
+            </content>
+          </subsection>
+          <subsection id="section-58.6">
+            <num>(6)</num>
+            <content>
+              <p>A permit for the operation of a public fireworks display must be applied for at least 14 days before the date of the letting oil of the fireworks and will be subject to compliance with any conditions a controlling authority may impose.</p>
+            </content>
+          </subsection>
+          <subsection id="section-58.7">
+            <num>(7)</num>
+            <content>
+              <blockList id="section-58.7.list6">
+                <listIntroduction>
+                  A fireworks certificate or permit is valid only in respect of:-</listIntroduction>
+                <item id="section-58.7.list6.a">
+                  <num>(a)</num>
+                  <p>the premises or public fireworks display for which it was issued;</p>
+                </item>
+                <item id="section-58.7.list6.b">
+                  <num>(b)</num>
+                  <p>the owner, person in charge or person whose name appears on the certificate or permit;</p>
+                </item>
+                <item id="section-58.7.list6.c">
+                  <num>(c)</num>
+                  <p>the state of the premises at the time of issue, and</p>
+                </item>
+                <item id="section-58.7.list6.d">
+                  <num>(d)</num>
+                  <p>the quantifies and types of fireworks or theatrical pyrotechnics stated on the certificate or permit.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-58.8">
+            <num>(8)</num>
+            <content>
+              <p>A fireworks certificate is issued to the owner or person in charge of premises and is valid until any condition of approval changes or the certificate is withdrawn or suspended.</p>
+            </content>
+          </subsection>
+          <subsection id="section-58.9">
+            <num>(9)</num>
+            <content>
+              <p>A fireworks permit is issued to a specific person and is valid for a set time period or until the conditions of approval change or the permit is withdrawn or suspended.</p>
+            </content>
+          </subsection>
+          <subsection id="section-58.10">
+            <num>(10)</num>
+            <content>
+              <p>A fireworks wholesaler or other supplier may not supply fireworks to any person not in possession of a valid certificate or permit issued by the controlling authority, as the case may be.</p>
+            </content>
+          </subsection>
+          <subsection id="section-58.11">
+            <num>(11)</num>
+            <content>
+              <p>The fireworks certificate or permit must be available on the premises for inspection at all times and does not exempt the applicant from compliance with the By-law relating to the Management and Administration of the City of Cape Town's immovable Property or any other applicable legislation.</p>
+            </content>
+          </subsection>
+          <subsection id="section-58.12">
+            <num>(12)</num>
+            <content>
+              <p>A controlling authority may set aside municipal land for the purpose of the letting off of fireworks by the public, subject to such conditions as may be determined by the controlling authority and indicated by a notice at the site.</p>
             </content>
           </subsection>
         </section>
@@ -3033,6 +3304,10 @@ Any person who:—                </listIntroduction>
                   <tr>
                     <td><p>SABS 087: Part 4</p></td>
                     <td><p>The handling, storage and distribution of liquefied petroleum gas in domestic, commercial and industrial installations, Part 4: Transportation of liquefied petroleum gas in bulk by road.</p></td>
+                  </tr>
+                  <tr>
+                    <td><p>SANS 087: Part 6</p></td>
+                    <td><p>The handling, storage, and distribution of liquefied petroleum gas in domestic, commercial and industrial installations</p></td>
                   </tr>
                   <tr>
                     <td><p>SABS 087: Part 7</p></td>
