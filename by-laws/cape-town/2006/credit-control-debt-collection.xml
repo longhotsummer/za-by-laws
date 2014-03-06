@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
-  <act contains="originalVersion">
+  <act contains="singleVersion">
     <meta>
       <identification source="#openbylaws">
         <FRBRWork>
           <FRBRthis value="/za/by-law/cape-town/2006/credit-control-debt-collection/main"/>
           <FRBRuri value="/za/by-law/cape-town/2006/credit-control-debt-collection"/>
-          <FRBRalias value="City of Cape Town: Credit Control and Debt Collection By-law, 2006"/>
+          <FRBRalias value="City of Cape Town: Credit Control and Debt Collection By-law, 2006 as amended"/>
           <FRBRdate date="2006-06-15" name="Generation"/>
           <FRBRauthor href="#council" as="#author"/>
           <FRBRcountry value="za"/>
@@ -26,10 +26,16 @@
         </FRBRManifestation>
       </identification>
       <publication date="2006-06-15" name="Province of Western Cape: Provincial Gazette" number="6364" showAs="Province of Western Cape: Provincial Gazette"/>
+      <lifecycle source="#this">
+        <eventRef id="e1" date="2006-06-15" source="#original" type="generation"/>
+        <eventRef id="e2" date="2012-12-14" source="#amendment-1" type="amendment"/>
+      </lifecycle>
       <references source="#this">
         <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
         <TLCOrganization id="council" href="/ontology/organization/za/council.cape-town" showAs="Cape Town City Council"/>
         <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <original id="original" href="/za/by-law/cape-town/2006/credit-control-debt-collection" showAs="Original"/>
+        <passiveRef id="amendment-1" href="/za/by-law/cape-town/2006/credit-control-debt-collection-first-amendment" showAs="Credit Control and Debt Collection First Amendment By-law, 2012"/>
         <TLCTerm id="term-arrangement" href="/ontology/term/this.eng.arrangement" showAs="arrangement"/>
         <TLCTerm id="term-arrears" href="/ontology/term/this.eng.arrears" showAs="arrears"/>
         <TLCTerm id="term-board_of_directors" href="/ontology/term/this.eng.board_of_directors" showAs="board of directors"/>
