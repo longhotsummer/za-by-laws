@@ -6,7 +6,7 @@
         <FRBRWork>
           <FRBRthis value="/za/by-law/cape-town/2010/treated-effluent/main"/>
           <FRBRuri value="/za/by-law/cape-town/2010/treated-effluent"/>
-          <FRBRalias value="Treated Effluent by-law"/>
+          <FRBRalias value="City of Cape Town: Treated Effluent By-law"/>
           <FRBRdate date="2010-07-30" name="Generation"/>
           <FRBRauthor href="#council" as="#author"/>
           <FRBRcountry value="za"/>
@@ -1545,4 +1545,43 @@ Any <term refersTo="#term-person" id="trm367">person</term> who—              
       </chapter>
     </body>
   </act>
+  <components>
+    <component id="component-0">
+      <doc name="schedules">
+        <meta>
+          <identification source="#openbylaws">
+            <FRBRWork>
+              <FRBRthis value="/za/by-law/cape-town/2010/treated-effluent/schedules"/>
+              <FRBRuri value="/za/by-law/cape-town/2010/treated-effluent"/>
+              <FRBRdate date="2010-07-30" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za/by-law/cape-town/2010/treated-effluent/schedules/eng@"/>
+              <FRBRuri value="/za/by-law/cape-town/2010/treated-effluent/eng@"/>
+              <FRBRdate date="2010-07-30" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za/by-law/cape-town/2010/treated-effluent/schedules/eng@"/>
+              <FRBRuri value="/za/by-law/cape-town/2010/treated-effluent/eng@"/>
+              <FRBRdate date="2014-03-17" name="Generation"/>
+              <FRBRauthor href="#openbylaws" as="#author"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <chapter id="schedules">
+            <section id="schedule-0.section-0">
+              <content>
+                <p>The schedules for this by-law are not available in this form. Please see the original enacted PDF.</p>
+              </content>
+            </section>
+          </chapter>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
 </akomaNtoso>
