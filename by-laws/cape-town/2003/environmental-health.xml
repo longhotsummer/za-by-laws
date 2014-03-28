@@ -4,28 +4,28 @@
     <meta>
       <identification source="#openbylaws">
         <FRBRWork>
-          <FRBRthis value="/za/by-law/cape-town/2010//main"/>
-          <FRBRuri value="/za/by-law/cape-town/2010/"/>
-          <FRBRalias value=""/>
-          <FRBRdate date="2010-01-01" name="Generation"/>
+          <FRBRthis value="/za/by-law/cape-town/2003/environmental-health/main"/>
+          <FRBRuri value="/za/by-law/cape-town/2003/environmental-health"/>
+          <FRBRalias value="Environmental Health By-law"/>
+          <FRBRdate date="2003-06-30" name="Generation"/>
           <FRBRauthor href="#council" as="#author"/>
           <FRBRcountry value="za"/>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/za/by-law/cape-town/2010//main/eng@"/>
-          <FRBRuri value="/za/by-law/cape-town/2010//eng@"/>
-          <FRBRdate date="2010-01-01" name="Generation"/>
+          <FRBRthis value="/za/by-law/cape-town/2003/environmental-health/main/eng@"/>
+          <FRBRuri value="/za/by-law/cape-town/2003/environmental-health/eng@"/>
+          <FRBRdate date="2003-06-30" name="Generation"/>
           <FRBRauthor href="#council" as="#author"/>
           <FRBRlanguage language="eng"/>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/za/by-law/cape-town/2010//main/eng@"/>
-          <FRBRuri value="/za/by-law/cape-town/2010//eng@"/>
+          <FRBRthis value="/za/by-law/cape-town/2003/environmental-health/main/eng@"/>
+          <FRBRuri value="/za/by-law/cape-town/2003/environmental-health/eng@"/>
           <FRBRdate date="2014-03-28" name="Generation"/>
           <FRBRauthor href="#openbylaws" as="#author"/>
         </FRBRManifestation>
       </identification>
-      <publication date="2010-01-01" name="Province of Western Cape: Provincial Gazette" number="" showAs="Province of Western Cape: Provincial Gazette"/>
+      <publication date="2003-06-30" name="Province of Western Cape: Provincial Gazette" number="6041" showAs="Province of Western Cape: Provincial Gazette"/>
       <references source="#this">
         <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
         <TLCOrganization id="council" href="/ontology/organization/za/council.cape-town" showAs="Cape Town City Council"/>
@@ -67,7 +67,6 @@
     </meta>
     <body>
       <section id="section-0">
-        <num>0.</num>
         <heading>Definitions</heading>
         <list id="definitions">
           <intro>
@@ -1176,15 +1175,17 @@ Every <term refersTo="#term-accommodation_establishment" id="trm276">accommodati
                 </item>
                 <item id="section-28.1.list0.i">
                   <num>(i)</num>
-                  <p>If ten (10) or more boarders can at any one time be lodged on the <term refersTo="#term-premises" id="trm283">premises</term>, it shall have —</p>
-                </item>
-                <item id="section-28.1.list0.i">
-                  <num>(i)</num>
-                  <p>a suitable sitting room or sitting rooms so furnished and of such capacity as to meet the reasonable requirements of the boarders, and</p>
-                </item>
-                <item id="section-28.1.list0.ii">
-                  <num>(ii)</num>
-                  <p>where meals are provided, a suitable dining room or dining rooms which shall provide seating accommodation on the basis of not less than one (1) square meter for each <term refersTo="#term-boarder" id="trm284">boarder</term>.</p>
+                  <blockList id="section-28.1.list0.i.list0">
+                    <listIntroduction>If ten (10) or more boarders can at any one time be lodged on the <term refersTo="#term-premises" id="trm283">premises</term>, it shall have —</listIntroduction>
+                    <item id="section-28.1.list0.i.list0.i">
+                      <num>(i)</num>
+                      <p>a suitable sitting room or sitting rooms so furnished and of such capacity as to meet the reasonable requirements of the boarders, and</p>
+                    </item>
+                    <item id="section-28.1.list0.i.list0.ii">
+                      <num>(ii)</num>
+                      <p>where meals are provided, a suitable dining room or dining rooms which shall provide seating accommodation on the basis of not less than one (1) square meter for each <term refersTo="#term-boarder" id="trm284">boarder</term>.</p>
+                    </item>
+                  </blockList>
                 </item>
                 <item id="section-28.1.list0.j">
                   <num>(j)</num>
@@ -1723,4 +1724,351 @@ Whenever any notice, order, demand or other document is authorised or required t
       </part>
     </body>
   </act>
+  <components>
+    <component id="component-0">
+      <doc name="schedules">
+        <meta>
+          <identification source="#openbylaws">
+            <FRBRWork>
+              <FRBRthis value="/za/by-law/cape-town/2003/environmental-health/schedules"/>
+              <FRBRuri value="/za/by-law/cape-town/2003/environmental-health"/>
+              <FRBRdate date="2003-06-30" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za/by-law/cape-town/2003/environmental-health/schedules/eng@"/>
+              <FRBRuri value="/za/by-law/cape-town/2003/environmental-health/eng@"/>
+              <FRBRdate date="2003-06-30" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za/by-law/cape-town/2003/environmental-health/schedules/eng@"/>
+              <FRBRuri value="/za/by-law/cape-town/2003/environmental-health/eng@"/>
+              <FRBRdate date="2014-03-28" name="Generation"/>
+              <FRBRauthor href="#openbylaws" as="#author"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <chapter id="schedule-1">
+            <num>1</num>
+            <content>
+              <table id="schedule-1.table0">
+                <tr>
+                  <th><p>PN NO.</p></th>
+                  <th><p>BY-LAW</p></th>
+                </tr>
+                <tr>
+                  <td><p>65/1962</p></td>
+                  <td><p>Bellville Municipality: Regulations relating to the prevention of Fires</p></td>
+                </tr>
+                <tr>
+                  <td><p>1022/1977</p></td>
+                  <td><p>Durbanville Municipality: By-law Relating to Nuisances</p></td>
+                </tr>
+                <tr>
+                  <td><p>131/1961</p></td>
+                  <td><p>Bellville Municipality: Regulations relating to the Removal of Vegetation from Land</p></td>
+                </tr>
+                <tr>
+                  <td><p>483/1961</p></td>
+                  <td><p>Goodwood Municipality: Regulations relating to the Removal of Vegetation from Land</p></td>
+                </tr>
+                <tr>
+                  <td><p>133/1949</p></td>
+                  <td><p>Regulations relating to the Compelling of Residents to keep their premises free from offensive, infectious or unwholesome matter, the suppression of Nuisances and the Preservation of the Public Health.</p></td>
+                </tr>
+                <tr>
+                  <td><p>34/1941</p></td>
+                  <td><p>Municipality of Goodwood: Standard Regulations dealing with Public Health</p></td>
+                </tr>
+                <tr>
+                  <td><p>100/1993</p></td>
+                  <td><p>Goodwood Municipality: By-law Relating to Nuisances</p></td>
+                </tr>
+                <tr>
+                  <td><p>297/1982</p></td>
+                  <td><p>Goodwood Municipality: By-law Relating to Smoking in certain premises or vehicles</p></td>
+                </tr>
+                <tr>
+                  <td><p>607/1991</p></td>
+                  <td><p>Bellville Municipality: Amendment to the Standard By-law relating to the Keeping of Animals</p></td>
+                </tr>
+                <tr>
+                  <td><p>831/1989</p></td>
+                  <td><p>Bellville Municipality: Standard By-law relating to the Keeping of Animals</p></td>
+                </tr>
+                <tr>
+                  <td><p>517/1986</p></td>
+                  <td><p>Bellville Municipality: Standard By-law Relating to the Keeping of Poultry</p></td>
+                </tr>
+                <tr>
+                  <td><p>541/1953</p></td>
+                  <td><p>Goodwood Municipality: Standard Regulations relating to the Keeping of Poultry</p></td>
+                </tr>
+                <tr>
+                  <td><p>42/1947</p></td>
+                  <td><p>Municipality of Durbanville: Regulations relating to the Slaughterhouse and the Inspection of meat</p></td>
+                </tr>
+                <tr>
+                  <td><p>133/1949</p></td>
+                  <td><p>Goodwood Municipality: Regulations relating to Hairdressers</p></td>
+                </tr>
+                <tr>
+                  <td><p></p></td>
+                  <td><p>Goodwood Municipality: Regulations relating to Tenement Houses</p></td>
+                </tr>
+                <tr>
+                  <td><p></p></td>
+                  <td><p>Goodwood Municipality: Regulations relating to Boarding Houses and similar premises</p></td>
+                </tr>
+                <tr>
+                  <td><p></p></td>
+                  <td><p>Goodwood Municipality: Regulations relating to Tea-rooms, Coffee-rooms, Restaurants and Eating-houses</p></td>
+                </tr>
+                <tr>
+                  <td><p></p></td>
+                  <td><p>Goodwood Municipality: Regulations relating to the Sale, preparation and Storage of foodstuffs</p></td>
+                </tr>
+                <tr>
+                  <td><p>774/1954</p></td>
+                  <td><p>Goodwood Municipality: Standard Regulations relating to Restaurants, Refreshment or tea-rooms and eating-houses</p></td>
+                </tr>
+                <tr>
+                  <td><p>775/1954</p></td>
+                  <td><p>Goodwood Municipality: Additional Regulations relating to Restaurants, Refreshment or tea-rooms and eating-houses</p></td>
+                </tr>
+                <tr>
+                  <td><p>330/1957</p></td>
+                  <td><p>Goodwood Municipality: Standard Butchery Regulations</p></td>
+                </tr>
+                <tr>
+                  <td><p>547/1969</p></td>
+                  <td><p>Goodwood Municipality: Amendment to the Regulations relating to the sale, preparation and storage of foodstuffs</p></td>
+                </tr>
+                <tr>
+                  <td><p>314/1990</p></td>
+                  <td><p>Cape Town Municipality: Environmental Health By-law</p></td>
+                </tr>
+                <tr>
+                  <td><p>PG5642/2000</p></td>
+                  <td><p>South Peninsula Municipality: By-law Relating to the Keeping of Animals and Poultry</p></td>
+                </tr>
+                <tr>
+                  <td><p>760/1951</p></td>
+                  <td><p>Amendments to the Standard Regulations to the Keeping of Poultry</p></td>
+                </tr>
+                <tr>
+                  <td><p>453/1962</p></td>
+                  <td><p>Local Authorities: Amendment to the Standard Regulations to the Keeping of Poultry</p></td>
+                </tr>
+                <tr>
+                  <td><p>531/1962</p></td>
+                  <td><p>Amendments to the Standard Regulations to the Keeping of Poultry</p></td>
+                </tr>
+                <tr>
+                  <td><p>742/1963</p></td>
+                  <td><p>Local Authorities: Amendment to the Standard Regulations to the Keeping of Poultry</p></td>
+                </tr>
+                <tr>
+                  <td><p>365/1984</p></td>
+                  <td><p>Cape Provincial Council: By-law Relating to the Keeping of Poultry on Premises within Local Areas: Correction Notice</p></td>
+                </tr>
+                <tr>
+                  <td><p>593/1992</p></td>
+                  <td><p>Standard By-laws Relating to Barbers &amp; Hairdressers</p></td>
+                </tr>
+                <tr>
+                  <td><p>630/1990</p></td>
+                  <td><p>Somerset West Municipality: Standard By-law relating to Accommodation Establishments</p></td>
+                </tr>
+                <tr>
+                  <td><p>784/1988</p></td>
+                  <td><p>Somerset West Municipality: By-law relating to the accumulation, Dumping, Storage or Depositing of material</p></td>
+                </tr>
+                <tr>
+                  <td><p>870/1989</p></td>
+                  <td><p>Somerset West Municipality: By-law relating to the removal of vegetation from land</p></td>
+                </tr>
+                <tr>
+                  <td><p>563/1961</p></td>
+                  <td><p>Amendment to the Standard Regulations relating to Barbers and Hairdressers</p></td>
+                </tr>
+                <tr>
+                  <td><p>348/1954</p></td>
+                  <td><p>Standard: Standard Regulations relating to Restaurants, refreshments or tea-rooms and eating-houses</p></td>
+                </tr>
+                <tr>
+                  <td><p>509/1962</p></td>
+                  <td><p>Standard Regulations relating to Fishmongers</p></td>
+                </tr>
+                <tr>
+                  <td><p>705/1953</p></td>
+                  <td><p>Amendment to Standard Boarding-house regulations</p></td>
+                </tr>
+                <tr>
+                  <td><p>830/1954</p></td>
+                  <td><p>Standard Boarding-house regulations</p></td>
+                </tr>
+                <tr>
+                  <td><p>602/1950</p></td>
+                  <td><p>Standard Bakery By-laws</p></td>
+                </tr>
+                <tr>
+                  <td><p>875/1988</p></td>
+                  <td><p>Standard By-law relating to Butcheries</p></td>
+                </tr>
+                <tr>
+                  <td><p>210/1947</p></td>
+                  <td><p>Municipality of Fish Hoek: Regulations relating to Boarding Houses</p></td>
+                </tr>
+                <tr>
+                  <td><p>193/1983</p></td>
+                  <td><p>Brackenfell Municipality: Health By-law relating to créches and créches-cum-nursery schools.</p></td>
+                </tr>
+                <tr>
+                  <td><p>451/1988</p></td>
+                  <td><p>Kuils River Municipality: Standard By-law relating to accommodation establishments</p></td>
+                </tr>
+                <tr>
+                  <td><p>232/1991</p></td>
+                  <td><p>Milnerton Municipality: Repeal and adoption of Standard By-law relating to the Keeping of Animals</p></td>
+                </tr>
+                <tr>
+                  <td><p>603/1989</p></td>
+                  <td><p>Standard By-law relating the keeping of Animals</p></td>
+                </tr>
+                <tr>
+                  <td><p>348/1973</p></td>
+                  <td><p>Divisional Council of the Cape: Regulations relating to the keeping of certain animals</p></td>
+                </tr>
+                <tr>
+                  <td><p>340/1958</p></td>
+                  <td><p>Amendment to the Standard Regulations relating to the keeping of animals</p></td>
+                </tr>
+                <tr>
+                  <td><p>577/1950</p></td>
+                  <td><p>Standard Regulations relating to the keeping of animals</p></td>
+                </tr>
+                <tr>
+                  <td><p>454/1983</p></td>
+                  <td><p>Provincial Council: By-law relating to the keeping of poultry on premises within local areas</p></td>
+                </tr>
+                <tr>
+                  <td><p>117/1988</p></td>
+                  <td><p>Standard By-law relating to the keeping of poultry</p></td>
+                </tr>
+                <tr>
+                  <td><p>591/1955</p></td>
+                  <td><p>Milnerton Municipality: Additional regulations relating to the Keeping of animals.</p></td>
+                </tr>
+                <tr>
+                  <td><p>520/1983</p></td>
+                  <td><p>Divisional Council of the Cape: By-law relating to the keeping of Pigeons and Doves on premises within local areas</p></td>
+                </tr>
+                <tr>
+                  <td><p>956/1989</p></td>
+                  <td><p>Somerset West Municipality: Standard By-law relating to the Keeping of Animals</p></td>
+                </tr>
+                <tr>
+                  <td><p>603/1989</p></td>
+                  <td><p>Standard By-law relating to the keeping of animals</p></td>
+                </tr>
+                <tr>
+                  <td><p>822/1989</p></td>
+                  <td><p>Gordon’s Bay Municipality: Standard By-law relating to the keeping of animals</p></td>
+                </tr>
+                <tr>
+                  <td><p>705/1958</p></td>
+                  <td><p>Gordon’s Bay Village Management Board: Standard Regulations relating to the keeping of poultry</p></td>
+                </tr>
+                <tr>
+                  <td><p>372/1976</p></td>
+                  <td><p>Stellenbosch Divisional Council: Regulations relating to the keeping of animals in local areas</p></td>
+                </tr>
+                <tr>
+                  <td><p>956/1977</p></td>
+                  <td><p>Strand Municipality: By-law Relating to the cleanliness of premises</p></td>
+                </tr>
+                <tr>
+                  <td><p>703/1976</p></td>
+                  <td><p>Strand Municipality: By-law relating to the Dumping and accumulation of refuse</p></td>
+                </tr>
+                <tr>
+                  <td><p>664/1988</p></td>
+                  <td><p>Kraaifontein Municipality: By-law relating to the prevention of nuisances</p></td>
+                </tr>
+                <tr>
+                  <td><p>321/1957</p></td>
+                  <td><p>Divisional Council: Regulations for the prevention and suppression of nuisances as amended</p></td>
+                </tr>
+                <tr>
+                  <td><p>503/1977</p></td>
+                  <td><p>Divisional Council of the Cape: Amendment to the By-law for the prevention and suppression of nuisances</p></td>
+                </tr>
+                <tr>
+                  <td><p>13/1998</p></td>
+                  <td><p>Malmesbury Transitional Local Council: By-law relating to the prevention and suppression of nuisances</p></td>
+                </tr>
+                <tr>
+                  <td><p>92/1972</p></td>
+                  <td><p>Gordon’s Bay Municipality: By-law Relating to the cleanliness of premises</p></td>
+                </tr>
+                <tr>
+                  <td><p>773/1989</p></td>
+                  <td><p>Gordon’s Bay Municipality: Amendment to the Standard By-law relating to Barbers and Hairdressers</p></td>
+                </tr>
+                <tr>
+                  <td><p>668/1950</p></td>
+                  <td><p>Standard Regulations relating to Barbers and Hairdressers</p></td>
+                </tr>
+                <tr>
+                  <td><p>115/1956</p></td>
+                  <td><p>Amendment to the Standard Regulations relating to Barbers and Hairdressers</p></td>
+                </tr>
+                <tr>
+                  <td><p>167/1988</p></td>
+                  <td><p>Standard By-laws relating to accommodation establishments</p></td>
+                </tr>
+                <tr>
+                  <td><p>428/1989</p></td>
+                  <td><p>Gordon’s Bay Municipality: By-law relating to nuisances</p></td>
+                </tr>
+                <tr>
+                  <td><p>114/1969</p></td>
+                  <td><p>Strand Municipality: Amendment to the General Series of Regulations—Transportation of foodstuff</p></td>
+                </tr>
+                <tr>
+                  <td><p>997/1964</p></td>
+                  <td><p>Strand Municipality: Amendment to the Regulations relating to the Pasteurisation of Milk</p></td>
+                </tr>
+                <tr>
+                  <td><p>426/1980</p></td>
+                  <td><p>Strand Municipality: Amendment to the General By-law</p></td>
+                </tr>
+                <tr>
+                  <td><p>545/1972</p></td>
+                  <td><p>Divisional Council of the Cape: Regulations Relating to the Sale and Preparation of Foodstuffs.</p></td>
+                </tr>
+                <tr>
+                  <td><p>395/1939</p></td>
+                  <td><p>Divisional Council of the Cape: Regulations Relating to the Sale and Preparation of foodstuffs.</p></td>
+                </tr>
+                <tr>
+                  <td><p>41/1945</p></td>
+                  <td><p>Municipality of Cape Town: Regulation No 1933 as regards the compelling of Residents to keep their Premises Free from offensive, infectious or unwholesome matter, the suppression of Nuisances and the preservation of the Public Health</p></td>
+                </tr>
+                <tr>
+                  <td><p>441/1938</p></td>
+                  <td><p>Simon’s Town Municipality: Fish Market Regulations as amended 479/1957; 51/1959; 432/1963.</p></td>
+                </tr>
+              </table>
+            </content>
+          </chapter>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
 </akomaNtoso>
