@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
-  <act contains="originalVersion">
+  <act contains="singleVersion">
     <meta>
       <identification source="#openbylaws">
         <FRBRWork>
           <FRBRthis value="/za/by-law/cape-town/2003/environmental-health/main"/>
           <FRBRuri value="/za/by-law/cape-town/2003/environmental-health"/>
-          <FRBRalias value="Environmental Health By-law"/>
+          <FRBRalias value="Environmental Health By-law 2003, as amended"/>
           <FRBRdate date="2003-06-30" name="Generation"/>
           <FRBRauthor href="#council" as="#author"/>
           <FRBRcountry value="za"/>
@@ -26,10 +26,16 @@
         </FRBRManifestation>
       </identification>
       <publication date="2003-06-30" name="Province of Western Cape: Provincial Gazette" number="6041" showAs="Province of Western Cape: Provincial Gazette"/>
+      <lifecycle source="#this">
+        <eventRef id="e1" date="2003-06-30" source="#original" type="generation"/>
+        <eventRef id="e2" date="2011-08-05" source="#amendment-1" type="amendment"/>
+      </lifecycle>
       <references source="#this">
         <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
         <TLCOrganization id="council" href="/ontology/organization/za/council.cape-town" showAs="Cape Town City Council"/>
         <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <original id="original" href="/za/by-law/cape-town/2003/environmental-heath" showAs="Original"/>
+        <passiveRef id="amendment-1" href="/za/by-law/cape-town/2011/animal" showAs="City of Cape Town: Animal By-law, 2010"/>
         <TLCTerm id="term-accommodation_establishment" href="/ontology/term/this.eng.accommodation_establishment" showAs="accommodation establishment"/>
         <TLCTerm id="term-agent" href="/ontology/term/this.eng.agent" showAs="agent"/>
         <TLCTerm id="term-animal" href="/ontology/term/this.eng.animal" showAs="animal"/>
@@ -552,319 +558,7 @@ Where any <term refersTo="#term-objectionable_material" id="trm82">objectionable
             </content>
           </subsection>
         </section>
-      </part>
-      <part id="part-2">
-        <num>2</num>
-        <heading>Keeping of animals and <term refersTo="#term-poultry" id="trm123">poultry</term></heading>
-        <section id="section-11">
-          <num>11.</num>
-          <heading/>
-          <subsection id="section-11.subsection-0">
-            <content>
-              <p>In order to promote public health no <term refersTo="#term-person" id="trm124">person</term> shall keep or <term refersTo="#term-permit" id="trm125">permit</term> to be kept on any <term refersTo="#term-premises" id="trm126">premises</term> or property any <term refersTo="#term-animal" id="trm127">animal</term> or <term refersTo="#term-poultry" id="trm128">poultry</term> without the permission of the <term refersTo="#term-Council" id="trm129">Council</term>.</p>
-            </content>
-          </subsection>
-        </section>
-        <section id="section-12">
-          <num>12.</num>
-          <heading/>
-          <subsection id="section-12.1">
-            <num>(1)</num>
-            <content>
-              <p>For the purpose of promoting public health and restricting public nuisances, the <term refersTo="#term-Council" id="trm130">Council</term> may from time to time determine the number, kinds and sex of animals or <term refersTo="#term-poultry" id="trm131">poultry</term> that may be kept per unit area and the areas within which such animals or <term refersTo="#term-poultry" id="trm132">poultry</term> shall be prohibited.</p>
-            </content>
-          </subsection>
-          <subsection id="section-12.2">
-            <num>(2)</num>
-            <content>
-              <p>The <term refersTo="#term-Council" id="trm133">Council</term> may from time to time, determine the kinds of animals and <term refersTo="#term-poultry" id="trm134">poultry</term> for which a <term refersTo="#term-permit" id="trm135">permit</term> is required and the relevant application fee and annual fee for such <term refersTo="#term-permit" id="trm136">permit</term>. Applications for such permits must be made on the prescribed form made available by the <term refersTo="#term-Council" id="trm137">Council</term> for such purposes.</p>
-            </content>
-          </subsection>
-          <subsection id="section-12.3">
-            <num>(3)</num>
-            <content>
-              <p>Permits issued in terms hereof are not transferable and shall only be valid for the specific property in respect of which the application was made.</p>
-            </content>
-          </subsection>
-        </section>
-        <section id="section-13">
-          <num>13.</num>
-          <heading/>
-          <subsection id="section-13.1">
-            <num>(1)</num>
-            <content>
-              <p>The <term refersTo="#term-Council" id="trm138">Council</term> may require an application in terms of section 12(2) to be accompanied by a detailed site plan indicating all existing or proposed structures and fences on the property for which the <term refersTo="#term-permit" id="trm139">permit</term> is required.</p>
-            </content>
-          </subsection>
-          <subsection id="section-13.2">
-            <num>(2)</num>
-            <content>
-              <p>The <term refersTo="#term-Council" id="trm140">Council</term> may require detailed plans and specifications of structures wherein it is proposed to keep animals and <term refersTo="#term-poultry" id="trm141">poultry</term>, in order to evaluate whether or not to grant a <term refersTo="#term-permit" id="trm142">permit</term> applied for in terms of section 12(2).</p>
-            </content>
-          </subsection>
-          <subsection id="section-13.3">
-            <num>(3)</num>
-            <content>
-              <p>Notwithstanding anything to the contrary contained in this by-law, the <term refersTo="#term-Council" id="trm143">Council</term> may refuse to approve an application or grant approval subject to specific conditions if, in its opinion, the property owing to its location, siting or geographical features or size, is unsuitable for the keeping of animals or <term refersTo="#term-poultry" id="trm144">poultry</term>.</p>
-            </content>
-          </subsection>
-          <subsection id="section-13.4">
-            <num>(4)</num>
-            <content>
-              <blockList id="section-13.4.list3">
-                <listIntroduction>
-No <term refersTo="#term-structure" id="trm145">structure</term> that accommodates animals shall be sited:                </listIntroduction>
-                <item id="section-13.4.list3.a">
-                  <num>(a)</num>
-                  <p>within 15m of any boundary of the erf which abuts another residential erf; and</p>
-                </item>
-                <item id="section-13.4.list3.b">
-                  <num>(b)</num>
-                  <p>within 6m of any boundary of the erf which abuts any road or public open space.</p>
-                </item>
-                <item id="section-13.4.list3.c">
-                  <num>(c)</num>
-                  <p>within 4,5m from any dwelling, servants quarters, inhabited outbuilding and shop or building where food is processed.</p>
-                </item>
-              </blockList>
-            </content>
-          </subsection>
-          <subsection id="section-13.5">
-            <num>(5)</num>
-            <content>
-              <p>Where a <term refersTo="#term-structure" id="trm146">structure</term> in which animals will be kept forms part of an outbuilding used for human habitation, such <term refersTo="#term-structure" id="trm147">structure</term> must be sited at least 4,5m from such habitable room and must not be under the same roof space as the habitable room.</p>
-            </content>
-          </subsection>
-          <subsection id="section-13.6">
-            <num>(6)</num>
-            <content>
-              <blockList id="section-13.6.list5">
-                <listIntroduction>
-No <term refersTo="#term-structure" id="trm148">structure</term> in which <term refersTo="#term-poultry" id="trm149">poultry</term> is kept shall be sited :                </listIntroduction>
-                <item id="section-13.6.list5.a">
-                  <num>(a)</num>
-                  <p>within 1,5m from any boundary of a residential erf; and</p>
-                </item>
-                <item id="section-13.6.list5.b">
-                  <num>(b)</num>
-                  <p>within 1,5m from any dwelling, servants quarters, inhabited outbuilding and shop or building where food is processed, sold or stored.</p>
-                </item>
-              </blockList>
-            </content>
-          </subsection>
-          <subsection id="section-13.7">
-            <num>(7)</num>
-            <content>
-              <p>All structures in which animals or <term refersTo="#term-poultry" id="trm150">poultry</term> are kept shall be suitably screened from any street to the satisfaction of the <term refersTo="#term-Council" id="trm151">Council</term>.</p>
-            </content>
-          </subsection>
-          <subsection id="section-13.8">
-            <num>(8)</num>
-            <content>
-              <p>No <term refersTo="#term-structure" id="trm152">structure</term> in which <term refersTo="#term-poultry" id="trm153">poultry</term> is kept shall have a height in excess of 3,5m.</p>
-            </content>
-          </subsection>
-          <subsection id="section-13.9">
-            <num>(9)</num>
-            <content>
-              <p>Notwithstanding the aforementioned provisions, the <term refersTo="#term-Council" id="trm154">Council</term> may after considering conditions particular to the property and on condition that no objection is received from adjoining neighbours, waive any or all of the requirements of this part and impose other conditions if appropriate</p>
-            </content>
-          </subsection>
-        </section>
-        <section id="section-14">
-          <num>14.</num>
-          <heading/>
-          <subsection id="section-14.1">
-            <num>(1)</num>
-            <content>
-              <p>All manure resulting from the keeping of animals and <term refersTo="#term-poultry" id="trm155">poultry</term> shall, pending removal from the <term refersTo="#term-premises" id="trm156">premises</term>, be stored under shelter in sealed flyproof containers and disposed of on a regular basis so as to prevent any nuisance from being created, provided that such disposal may not include composting on the <term refersTo="#term-premises" id="trm157">premises</term>.</p>
-            </content>
-          </subsection>
-          <subsection id="section-14.2">
-            <num>(2)</num>
-            <content>
-              <p>All feed shall be stored in a rodent proof place, container or storeroom for the keeping of animals and <term refersTo="#term-poultry" id="trm158">poultry</term>.</p>
-            </content>
-          </subsection>
-          <subsection id="section-14.3">
-            <num>(3)</num>
-            <content>
-              <p>The <term refersTo="#term-premises" id="trm159">premises</term> for keeping of animals and <term refersTo="#term-poultry" id="trm160">poultry</term> shall be kept in such condition as not to attract or provide harbourage for rodents.</p>
-            </content>
-          </subsection>
-          <subsection id="section-14.4">
-            <num>(4)</num>
-            <content>
-              <p>Carcasses are to be disposed of at the <term refersTo="#term-owner" id="trm161">owner</term>’s expense and in a manner approved by the <term refersTo="#term-Council" id="trm162">Council</term>.</p>
-            </content>
-          </subsection>
-        </section>
-        <section id="section-15">
-          <num>15.</num>
-          <heading/>
-          <subsection id="section-15.subsection-0">
-            <content>
-              <p>The <term refersTo="#term-Council" id="trm163">Council</term> may from time to time determine that a fly and rodent proof manure store and feedstore of adequate size and constructed of permanent material, is required on <term refersTo="#term-premises" id="trm164">premises</term> where animals are kept.</p>
-            </content>
-          </subsection>
-        </section>
-        <section id="section-16">
-          <num>16.</num>
-          <heading/>
-          <subsection id="section-16.subsection-0">
-            <content>
-              <p>No <term refersTo="#term-person" id="trm165">person</term> shall keep a <term refersTo="#term-kennel" id="trm166">kennel</term> or <term refersTo="#term-cattery" id="trm167">cattery</term> unless the following requirements are complied with:</p>
-            </content>
-          </subsection>
-          <subsection id="section-16.1">
-            <num>(1)</num>
-            <content>
-              <blockList id="section-16.1.list1">
-                <listIntroduction>
-Dogs and cats shall be kept in a separate enclosures:                </listIntroduction>
-                <item id="section-16.1.list1.i">
-                  <num>(i)</num>
-                  <p>constructed of durable materials and with adequate access for cleaning, disinfecting and devermination purposes.</p>
-                </item>
-                <item id="section-16.1.list1.ii">
-                  <num>(ii)</num>
-                  <p>with a floor constructed of concrete or other durable and impervious material brought to a smooth finish and graded to a channel 100mm wide, extending over the full width of the floor and situated within the enclosure, which channel shall drain into a gully connected to the <term refersTo="#term-Council" id="trm168">Council</term> sewer system by means of a pipe of approved material with a minimum diameter of 100mm or to another approved disposal system.</p>
-                </item>
-                <item id="section-16.1.list1.iii">
-                  <num>(iii)</num>
-                  <p>with a kerb 150mm high along the entire length of the channel referred to in subparagraph (ii), to prevent stormwater from such area from entering the channel.</p>
-                </item>
-              </blockList>
-            </content>
-          </subsection>
-          <subsection id="section-16.2">
-            <num>(2)</num>
-            <content>
-              <blockList id="section-16.2.list2">
-                <listIntroduction>
-Every enclosure referred to in section 16(1) shall contain a roofed shelter for the accommodation of dogs and cats of which:                </listIntroduction>
-                <item id="section-16.2.list2.i">
-                  <num>(i)</num>
-                  <p>every wall shall be constructed of brick, stone, concrete or other durable material and shall have a smooth internal surface without cracks or open joints.</p>
-                </item>
-                <item id="section-16.2.list2.ii">
-                  <num>(ii)</num>
-                  <p>the floor shall be of concrete or other impervious and durable material brought to a smooth finish without cracks or open joints and the surface between the floor and the walls of a permanent <term refersTo="#term-structure" id="trm169">structure</term> shall be coved.</p>
-                </item>
-              </blockList>
-            </content>
-          </subsection>
-          <subsection id="section-16.3">
-            <num>(3)</num>
-            <content>
-              <p>In the case of dogs, a dog <term refersTo="#term-kennel" id="trm170">kennel</term> of moulded fibre cement or other similar material which is movable and placed on a base constructed of concrete or other durable material with an easily cleaned finish, without cracks or open joints, may be provided instead of a shelter contemplated in section 16(2) and if the base of such <term refersTo="#term-kennel" id="trm171">kennel</term> is not rendered waterproof, a raised sleeping board which will enable the dog to keep dry shall be provided in every such <term refersTo="#term-kennel" id="trm172">kennel</term>.</p>
-            </content>
-          </subsection>
-          <subsection id="section-16.4">
-            <num>(4)</num>
-            <content>
-              <p>A concrete apron at least 1m wide shall be provided at the entrance of the enclosure over its full width, the apron to be graded to allow for the drainage of water away from the enclosure.</p>
-            </content>
-          </subsection>
-          <subsection id="section-16.5">
-            <num>(5)</num>
-            <content>
-              <p>A supply of potable water, adequate for drinking and cleaning purposes, shall be provided in or adjacent to every enclosure.</p>
-            </content>
-          </subsection>
-          <subsection id="section-16.6">
-            <num>(6)</num>
-            <content>
-              <p>Separate isolation facilities for sick dogs and cats shall be provided to the satisfaction of the <term refersTo="#term-Council" id="trm173">Council</term>.</p>
-            </content>
-          </subsection>
-          <subsection id="section-16.7">
-            <num>(7)</num>
-            <content>
-              <p>If cages are provided for the keeping of cats, such cages shall be of durable, impervious material and constructed so as to be easily cleaned.</p>
-            </content>
-          </subsection>
-        </section>
-        <section id="section-17">
-          <num>17.</num>
-          <heading/>
-          <subsection id="section-17.subsection-0">
-            <content>
-              <p>All structures shall at all times be kept in a proper state of repair by the <term refersTo="#term-owner" id="trm174">owner</term> or <term refersTo="#term-occupier" id="trm175">occupier</term> of the <term refersTo="#term-premises" id="trm176">premises</term>.</p>
-            </content>
-          </subsection>
-        </section>
-        <section id="section-18">
-          <num>18.</num>
-          <heading/>
-          <subsection id="section-18.1">
-            <num>(1)</num>
-            <content>
-              <p>If, in the opinion of the <term refersTo="#term-Council" id="trm177">Council</term>, any animals kept on any property in terms of which a <term refersTo="#term-permit" id="trm178">permit</term> has been issued by the <term refersTo="#term-Council" id="trm179">Council</term> under this By-law cause a <term refersTo="#term-health_nuisance" id="trm180">health nuisance</term>, danger to health or endanger the safety of the public or where more animals are kept than authorised in the <term refersTo="#term-permit" id="trm181">permit</term> issued, the <term refersTo="#term-Council" id="trm182">Council</term> may serve written notice on the holder of the <term refersTo="#term-permit" id="trm183">permit</term>, or in his absence the <term refersTo="#term-person" id="trm184">person</term> in charge, to remove or cause to be removed such nuisance or danger or excess number of animals within a specified period.</p>
-            </content>
-          </subsection>
-          <subsection id="section-18.2">
-            <num>(2)</num>
-            <content>
-              <blockList id="section-18.2.list1">
-                <listIntroduction>
-The holder of a <term refersTo="#term-permit" id="trm185">permit</term> or the <term refersTo="#term-person" id="trm186">person</term> in charge, on receiving a notice in terms of section 18(1), shall comply with the requirements as specified by the <term refersTo="#term-Council" id="trm187">Council</term> in such notice, failing which the <term refersTo="#term-Council" id="trm188">Council</term> may at its discretion —                </listIntroduction>
-                <item id="section-18.2.list1.a">
-                  <num>(a)</num>
-                  <p>cancel the <term refersTo="#term-permit" id="trm189">permit</term> to keep animals on such property, or</p>
-                </item>
-                <item id="section-18.2.list1.b">
-                  <num>(b)</num>
-                  <p>amend the <term refersTo="#term-permit" id="trm190">permit</term></p>
-                </item>
-              </blockList>
-            </content>
-          </subsection>
-        </section>
-        <section id="section-19">
-          <num>19.</num>
-          <heading/>
-          <subsection id="section-19.subsection-0">
-            <content>
-              <p>The holder of a <term refersTo="#term-permit" id="trm191">permit</term> shall, when requested by <term refersTo="#term-Council" id="trm192">Council</term> to do so, return the <term refersTo="#term-permit" id="trm193">permit</term> issued to him for amendment or cancellation, as the case may be.</p>
-            </content>
-          </subsection>
-        </section>
-        <section id="section-20">
-          <num>20.</num>
-          <heading/>
-          <subsection id="section-20.subsection-0">
-            <content>
-              <p>No <term refersTo="#term-person" id="trm194">person</term> shall alter or use a <term refersTo="#term-structure" id="trm195">structure</term> for the keeping of animals or <term refersTo="#term-poultry" id="trm196">poultry</term> for purposes other than those specified in the <term refersTo="#term-permit" id="trm197">permit</term>.</p>
-            </content>
-          </subsection>
-        </section>
-        <section id="section-21">
-          <num>21.</num>
-          <heading/>
-          <subsection id="section-21.1">
-            <num>(1)</num>
-            <content>
-              <p>Any <term refersTo="#term-premises" id="trm198">premises</term> on which animals or <term refersTo="#term-poultry" id="trm199">poultry</term> are already being kept shall be exempted from complying with requirements in respect of accommodation for animals for a period of 12 months from date of coming into operation of this By-law.</p>
-            </content>
-          </subsection>
-          <subsection id="section-21.2">
-            <num>(2)</num>
-            <content>
-              <p>All permits, authorisations and concessions to keep animals or <term refersTo="#term-poultry" id="trm200">poultry</term> granted in terms of any By-law or regulation repealed by section 42 shall be deemed to have been granted in terms of this By-law.</p>
-            </content>
-          </subsection>
-        </section>
-        <section id="section-22">
-          <num>22.</num>
-          <heading/>
-          <subsection id="section-22.subsection-0">
-            <content>
-              <p>Any <term refersTo="#term-person" id="trm201">person</term> who contravenes any of the provisions of this Part or fails to comply with any notice lawfully given thereunder shall be guilty of an offence.</p>
-            </content>
-          </subsection>
-        </section>
-      </part>
+      </part>      
       <part id="part-3">
         <num>3</num>
         <heading>Medical waste management</heading>
