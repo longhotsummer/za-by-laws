@@ -30,6 +30,17 @@
         <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
         <TLCOrganization id="council" href="/ontology/organization/za/council.johannesburg" showAs="Johannesburg City Council"/>
         <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCTerm id="authorised_official" href="/ontology/term/this.eng.authorised_official" showAs="authorised official"/>
+        <TLCTerm id="Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="Johannesburg_Metropolitan_Police_Department" href="/ontology/term/this.eng.Johannesburg_Metropolitan_Police_Department" showAs="Johannesburg Metropolitan Police Department"/>
+        <TLCTerm id="lift_club" href="/ontology/term/this.eng.lift_club" showAs="lift club"/>
+        <TLCTerm id="Medical_Officer_of_Health" href="/ontology/term/this.eng.Medical_Officer_of_Health" showAs="Medical Officer of Health"/>
+        <TLCTerm id="prescribed_fee" href="/ontology/term/this.eng.prescribed_fee" showAs="prescribed fee"/>
+        <TLCTerm id="public_road" href="/ontology/term/this.eng.public_road" showAs="public road"/>
+        <TLCTerm id="queue_marshal" href="/ontology/term/this.eng.queue_marshal" showAs="queue marshal"/>
+        <TLCTerm id="rank" href="/ontology/term/this.eng.rank" showAs="rank"/>
+        <TLCTerm id="cab_licence" href="/ontology/term/this.eng.cab_licence" showAs="cab licence"/>
+        <TLCTerm id="road-based_public_transport_operators" href="/ontology/term/this.eng.road-based_public_transport_operators" showAs="road-based public transport operators"/>
       </references>
     </meta>
     <preamble>
@@ -50,14 +61,13 @@
           </subsection>
           <subsection id="section-1.subsection-1">
             <content>
-              <p>“authorised official” means any official of the Council who has been authorised by it to administer, implement and enforce the provisions of these By-laws;</p>
+              <p>"<def refersTo="#authorised_official">authorised official</def>" means any official of the <term refersTo="#Council" id="trm0">Council</term> who has been authorised by it to administer, implement and enforce the provisions of these By-laws;</p>
             </content>
           </subsection>
           <subsection id="section-1.subsection-2">
             <content>
               <blockList id="section-1.subsection-2.list2">
-                <listIntroduction>
-“Council” means –                </listIntroduction>
+                <listIntroduction>"<def refersTo="#Council">Council</def>" means –                </listIntroduction>
                 <item id="section-1.subsection-2.list2.a">
                   <num>(a)</num>
                   <p>the Metropolitan Municipality of the City of Johannesburg established by Provincial Notice No. 6766 of 2000 dated 1 October 2000, as amended, exercising its legislative and executive authority through its municipal Council; or</p>
@@ -79,53 +89,53 @@
           </subsection>
           <subsection id="section-1.subsection-3">
             <content>
-              <p>“Johannesburg Metropolitan Police Department” means the municipal police department of the Council established in terms of section 64A of the South African Police Service Act, 1995 (Act No. 68 of 1995);</p>
+              <p>"<def refersTo="#Johannesburg_Metropolitan_Police_Department">Johannesburg Metropolitan Police Department</def>" means the municipal police department of the <term refersTo="#Council" id="trm1">Council</term> established in terms of section 64A of the South African Police Service Act, 1995 (Act No. 68 of 1995);</p>
             </content>
           </subsection>
           <subsection id="section-1.subsection-4">
             <content>
-              <p>“lift club” means any club of which every member shall, for no direct or indirect reward, have a turn to convey or cause to be conveyed by means of a motor car, the members of such a club or other persons designated by such members, to or from specified places for a specific purpose;</p>
+              <p>"<def refersTo="#lift_club">lift club</def>" means any club of which every member shall, for no direct or indirect reward, have a turn to convey or cause to be conveyed by means of a motor car, the members of such a club or other persons designated by such members, to or from specified places for a specific purpose;</p>
             </content>
           </subsection>
           <subsection id="section-1.subsection-5">
             <content>
-              <p>“Medical Officer of Health” means a person appointed as such under section 22 or 25 of the Health Act, 1977 (Act No. 63 of 1977);</p>
+              <p>"<def refersTo="#Medical_Officer_of_Health">Medical Officer of Health</def>" means a person appointed as such under section 22 or 25 of the Health Act, 1977 (Act No. 63 of 1977);</p>
             </content>
           </subsection>
           <subsection id="section-1.subsection-6">
             <content>
-              <p>“prescribed fee” means a fee determined by the Council by resolution in terms of section 10G(7)(a)(ii) of the Local Government Transition Act, 1993 (Act No. 209 of 1993), or any other applicable legislation.</p>
+              <p>"<def refersTo="#prescribed_fee">prescribed fee</def>" means a fee determined by the <term refersTo="#Council" id="trm2">Council</term> by resolution in terms of section 10G(7)(a)(ii) of the Local Government Transition Act, 1993 (Act No. 209 of 1993), or any other applicable legislation.</p>
             </content>
           </subsection>
           <subsection id="section-1.subsection-7">
             <content>
-              <p>“public road” means a public road as defined in the National Road Traffic Act, 1996;</p>
+              <p>"<def refersTo="#public_road">public road</def>" means a public road as defined in the National Road Traffic Act, 1996;</p>
             </content>
           </subsection>
           <subsection id="section-1.subsection-8">
             <content>
-              <p>“queue marshal” means a person designated by a taxi association to regulate minibus taxi-type services; and</p>
+              <p>"<def refersTo="#queue_marshal">queue marshal</def>" means a person designated by a taxi association to regulate minibus taxi-type services; and</p>
             </content>
           </subsection>
           <subsection id="section-1.subsection-9">
             <content>
-              <p>“rank” means a facility set aside by the Council for use by public passenger road transport;</p>
+              <p>"<def refersTo="#rank">rank</def>" means a facility set aside by the <term refersTo="#Council" id="trm3">Council</term> for use by public passenger road transport;</p>
             </content>
           </subsection>
           <subsection id="section-1.subsection-10">
             <content>
-              <p>“cab licence” means a payment that may be charged annually as a once-off charge, and which gives road-based public transport operators the “right” or “permission” to operate within the Council’s municipal boundary.</p>
+              <p>"<def refersTo="#cab_licence">cab licence</def>" means a payment that may be charged annually as a once-off charge, and which gives <term refersTo="#road-based_public_transport_operators" id="trm4">road-based public transport operators</term> the “right” or “permission” to operate within the <term refersTo="#Council" id="trm5">Council</term>’s municipal boundary.</p>
             </content>
           </subsection>
           <subsection id="section-1.subsection-11">
             <content>
-              <p>“road-based public transport operators” means operators of metered taxis, minibuses, midibuses and buses.</p>
+              <p>"<def refersTo="#road-based_public_transport_operators">road-based public transport operators</def>" means operators of metered taxis, minibuses, midibuses and buses.</p>
             </content>
           </subsection>
           <subsection id="section-1.2">
             <num>(2)</num>
             <content>
-              <p>If any provision in these by-laws vests or imposes any power, function or duty of the Council in or on an employee of the Council and such power, function or duty has in terms of section 81(2) of the Local Government: Municipal Systems Act, 2000 or any other law been assigned to a service provider, the reference in such provision to such employee must be read as a reference to the service provider or, where applicable, an employee of the service provider authorised by it.</p>
+              <p>If any provision in these by-laws vests or imposes any power, function or duty of the <term refersTo="#Council" id="trm6">Council</term> in or on an employee of the <term refersTo="#Council" id="trm7">Council</term> and such power, function or duty has in terms of section 81(2) of the Local Government: Municipal Systems Act, 2000 or any other law been assigned to a service provider, the reference in such provision to such employee must be read as a reference to the service provider or, where applicable, an employee of the service provider authorised by it.</p>
             </content>
           </subsection>
         </section>
@@ -205,7 +215,7 @@
           </subsection>
           <subsection id="section-5.subsection-1">
             <content>
-              <p>may stop it for the purpose of picking up or setting down any passenger, except at a stopping place designated by the Council.</p>
+              <p>may stop it for the purpose of picking up or setting down any passenger, except at a stopping place designated by the <term refersTo="#Council" id="trm8">Council</term>.</p>
             </content>
           </subsection>
         </section>
@@ -214,7 +224,7 @@
           <heading>Entering and alighting from a bus</heading>
           <subsection id="section-6.subsection-0">
             <content>
-              <p>A prospective passenger of a bus, as defined in the National Land Transport Transition Act, 2000 (No. 22 of 2000), may only enter or alight from a bus at a stopping place designated by the Council.</p>
+              <p>A prospective passenger of a bus, as defined in the National Land Transport Transition Act, 2000 (No. 22 of 2000), may only enter or alight from a bus at a stopping place designated by the <term refersTo="#Council" id="trm9">Council</term>.</p>
             </content>
           </subsection>
         </section>
@@ -236,7 +246,7 @@
           <heading>Parking of metered taxi, minibus, midibus or bus</heading>
           <subsection id="section-8.subsection-0">
             <content>
-              <p>No person may park a metered taxi, minibus, midibus or bus on any public road for the purpose of providing a public passenger road transport service, except in an exclusive parking bay, marked by a road traffic sign as prescribed in terms of the National Road Traffic Act, 1996 (Act No. 93 of 1996) for that vehicle.</p>
+              <p>No person may park a metered taxi, minibus, midibus or bus on any <term refersTo="#public_road" id="trm10">public road</term> for the purpose of providing a public passenger road transport service, except in an exclusive parking bay, marked by a road traffic sign as prescribed in terms of the National Road Traffic Act, 1996 (Act No. 93 of 1996) for that vehicle.</p>
             </content>
           </subsection>
         </section>
@@ -245,7 +255,7 @@
           <heading>Parking at places of entertainment or funeral</heading>
           <subsection id="section-9.subsection-0">
             <content>
-              <p>Notwithstanding the provision of section 8 of these By-laws, a metered taxi may park on a public road for the purpose of providing a metered taxi service, where a party or private entertainment is in progress or from which any funeral or wedding procession is about to start.</p>
+              <p>Notwithstanding the provision of section 8 of these By-laws, a metered taxi may park on a <term refersTo="#public_road" id="trm11">public road</term> for the purpose of providing a metered taxi service, where a party or private entertainment is in progress or from which any funeral or wedding procession is about to start.</p>
             </content>
           </subsection>
         </section>
@@ -261,7 +271,7 @@
           <subsection id="section-10.2">
             <num>(2)</num>
             <content>
-              <p>No person may use force, a threat, or any clandestine or other method, to prevent or attempt to prevent any person from participating in a lift club.</p>
+              <p>No person may use force, a threat, or any clandestine or other method, to prevent or attempt to prevent any person from participating in a <term refersTo="#lift_club" id="trm12">lift club</term>.</p>
             </content>
           </subsection>
           <subsection id="section-10.3">
@@ -342,7 +352,7 @@ any person suffering from a contagious disease; or                </listIntroduc
                 </item>
                 <item id="section-14.subsection-1.list1.c">
                   <num>(c)</num>
-                  <p>has been conveyed in or upon such vehicle engaged in a public passenger road transport service to report the matter to the Medical Officer of Health.</p>
+                  <p>has been conveyed in or upon such vehicle engaged in a public passenger road transport service to report the matter to the <term refersTo="#Medical_Officer_of_Health" id="trm13">Medical Officer of Health</term>.</p>
                 </item>
               </blockList>
             </content>
@@ -350,7 +360,7 @@ any person suffering from a contagious disease; or                </listIntroduc
           <subsection id="section-14.2">
             <num>(2)</num>
             <content>
-              <p>Any owner, driver, conductor or other person referred to in subsection (1) must carry out every instruction issued by the Medical Officer of Health with regard to the disinfection of such vehicle engaged in a public passenger road transport service.</p>
+              <p>Any owner, driver, conductor or other person referred to in subsection (1) must carry out every instruction issued by the <term refersTo="#Medical_Officer_of_Health" id="trm14">Medical Officer of Health</term> with regard to the disinfection of such vehicle engaged in a public passenger road transport service.</p>
             </content>
           </subsection>
         </section>
@@ -385,11 +395,11 @@ If any property left in a vehicle engaged in a public passenger road transport s
                 </item>
                 <item id="section-16.1.list0.b">
                   <num>(b)</num>
-                  <p>if he or she uses a bus depot for the purposes of the business in which he or she is engaged, take such property to such depot; or if he or she does not belong to a taxi association or use a bus depot for the purposes of the business concerned, take such property to the Johannesburg Metropolitan Police Department,</p>
+                  <p>if he or she uses a bus depot for the purposes of the business in which he or she is engaged, take such property to such depot; or if he or she does not belong to a taxi association or use a bus depot for the purposes of the business concerned, take such property to the <term refersTo="#Johannesburg_Metropolitan_Police_Department" id="trm15">Johannesburg Metropolitan Police Department</term>,</p>
                 </item>
                 <item id="section-16.1.list0.c">
                   <num>(c)</num>
-                  <p>and obtain a receipt from the person with whom the property is deposited, or the officer on duty at the Johannesburg Metropolitan Police Department, as the case may be.</p>
+                  <p>and obtain a receipt from the person with whom the property is deposited, or the officer on duty at the <term refersTo="#Johannesburg_Metropolitan_Police_Department" id="trm16">Johannesburg Metropolitan Police Department</term>, as the case may be.</p>
                 </item>
               </blockList>
             </content>
@@ -449,19 +459,19 @@ If any property left in a vehicle engaged in a public passenger road transport s
           <subsection id="section-19.1">
             <num>(1)</num>
             <content>
-              <p>A queue marshal at any rank must be clearly identifiable as to his or her employer and must display his or her name in a conspicuous manner on his or her clothing below the left shoulder.</p>
+              <p>A <term refersTo="#queue_marshal" id="trm17">queue marshal</term> at any <term refersTo="#rank" id="trm18">rank</term> must be clearly identifiable as to his or her employer and must display his or her name in a conspicuous manner on his or her clothing below the left shoulder.</p>
             </content>
           </subsection>
           <subsection id="section-19.2">
             <num>(2)</num>
             <content>
-              <p>A queue marshal must discharge his or her duties in a courteous and polite manner and show respect to every passenger.</p>
+              <p>A <term refersTo="#queue_marshal" id="trm19">queue marshal</term> must discharge his or her duties in a courteous and polite manner and show respect to every passenger.</p>
             </content>
           </subsection>
           <subsection id="section-19.3">
             <num>(3)</num>
             <content>
-              <p>Where a queue marshal is controlling the entry of passengers onto a metered taxi, minibus,</p>
+              <p>Where a <term refersTo="#queue_marshal" id="trm20">queue marshal</term> is controlling the entry of passengers onto a metered taxi, minibus,</p>
             </content>
           </subsection>
           <subsection id="section-19.subsection-3">
@@ -506,14 +516,14 @@ Any person who –                </listIntroduction>
                 </item>
                 <item id="section-21.subsection-0.list0.d">
                   <num>(d)</num>
-                  <p>who obstructs or hinders any authorised official of the Council in the execution of his or her duties under these By-laws,</p>
+                  <p>who obstructs or hinders any <term refersTo="#authorised_official" id="trm21">authorised official</term> of the <term refersTo="#Council" id="trm22">Council</term> in the execution of his or her duties under these By-laws,</p>
                 </item>
               </blockList>
             </content>
           </subsection>
           <subsection id="section-21.subsection-1">
             <content>
-              <p>is guilty of an offence and liable on conviction to a fine or in default of payment to imprisonment for a period not exceeding six months and in the case of a continuing offence, to a further fine not exceeding R50, or in default of payment to imprisonment not exceeding one day, for every day during the continuance of such offence, after a written notice has been issued by the Council, and served on the person concerned, requiring the discontinuance of such offence.</p>
+              <p>is guilty of an offence and liable on conviction to a fine or in default of payment to imprisonment for a period not exceeding six months and in the case of a continuing offence, to a further fine not exceeding R50, or in default of payment to imprisonment not exceeding one day, for every day during the continuance of such offence, after a written notice has been issued by the <term refersTo="#Council" id="trm23">Council</term>, and served on the person concerned, requiring the discontinuance of such offence.</p>
             </content>
           </subsection>
         </section>
@@ -537,10 +547,10 @@ Any person who –                </listIntroduction>
         </section>
         <section id="section-24">
           <num>24.</num>
-          <heading>Charging of the cab licence</heading>
+          <heading>Charging of the <term refersTo="#cab_licence" id="trm24">cab licence</term></heading>
           <subsection id="section-24.subsection-0">
             <content>
-              <p>The City may charge a cab licence to operators of all modes of road-based public transport on an annual basis as a once-off payment. The cab licence may also be reviewed annually.</p>
+              <p>The City may charge a <term refersTo="#cab_licence" id="trm25">cab licence</term> to operators of all modes of road-based public transport on an annual basis as a once-off payment. The <term refersTo="#cab_licence" id="trm26">cab licence</term> may also be reviewed annually.</p>
             </content>
           </subsection>
         </section>
@@ -582,24 +592,48 @@ Any person who –                </listIntroduction>
               <content>
                 <table id="schedule-1.table-0">
                   <tr>
-                    <th><p>Number and year</p></th>
-                    <th><p>Name of By-laws</p></th>
-                    <th><p>Extent of repeal</p></th>
+                    <th>
+                      <p>Number and year</p>
+                    </th>
+                    <th>
+                      <p>Name of By-laws</p>
+                    </th>
+                    <th>
+                      <p>Extent of repeal</p>
+                    </th>
                   </tr>
                   <tr>
-                    <td><p>Administrator’s Notice No 259 of 5 April 1950</p></td>
-                    <td><p>City of Johannesburg Transport By-laws</p></td>
-                    <td><p>Whole</p></td>
+                    <td>
+                      <p>Administrator’s Notice No 259 of 5 April 1950</p>
+                    </td>
+                    <td>
+                      <p>City of Johannesburg Transport By-laws</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
                   </tr>
                   <tr>
-                    <td><p>Administrator’s Notice No 697 of 27 August 1952</p></td>
-                    <td><p>Municipality of Roodepoort – Maraisburg Bus By-laws</p></td>
-                    <td><p>Whole</p></td>
+                    <td>
+                      <p>Administrator’s Notice No 697 of 27 August 1952</p>
+                    </td>
+                    <td>
+                      <p>Municipality of Roodepoort – Maraisburg Bus By-laws</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
                   </tr>
                   <tr>
-                    <td><p>Administrator’s Notice No 477 of 18 March 1987</p></td>
-                    <td><p>Midrand Municipality By-laws relating to the Allocation and Regulation of Taxi stands</p></td>
-                    <td><p>Whole</p></td>
+                    <td>
+                      <p>Administrator’s Notice No 477 of 18 March 1987</p>
+                    </td>
+                    <td>
+                      <p>Midrand Municipality By-laws relating to the Allocation and Regulation of Taxi stands</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
                   </tr>
                 </table>
               </content>
