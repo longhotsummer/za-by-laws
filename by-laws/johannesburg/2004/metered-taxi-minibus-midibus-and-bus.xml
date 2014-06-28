@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openbylaws">
+        <FRBRWork>
+          <FRBRthis value="/za/by-law/johannesburg/2004/metered-taxi-minibus-midibus-and-bus/main"/>
+          <FRBRuri value="/za/by-law/johannesburg/2004/metered-taxi-minibus-midibus-and-bus"/>
+          <FRBRalias value="Metered Taxi, Minibus, Midibus and Bus By-laws, 2003"/>
+          <FRBRdate date="2004-05-21" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za/by-law/johannesburg/2004/metered-taxi-minibus-midibus-and-bus/main/eng@"/>
+          <FRBRuri value="/za/by-law/johannesburg/2004/metered-taxi-minibus-midibus-and-bus/eng@"/>
+          <FRBRdate date="2004-05-21" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za/by-law/johannesburg/2004/metered-taxi-minibus-midibus-and-bus/main/eng@"/>
+          <FRBRuri value="/za/by-law/johannesburg/2004/metered-taxi-minibus-midibus-and-bus/eng@"/>
+          <FRBRdate date="2014-06-27" name="Generation"/>
+          <FRBRauthor href="#openbylaws" as="#author"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-05-21" name="Province of Gauteng: Provincial Gazette" number="179" showAs="Province of Gauteng: Provincial Gazette"/>
+      <references source="#this">
+        <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council.johannesburg" showAs="Johannesburg City Council"/>
+        <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCTerm id="authorised_official" href="/ontology/term/this.eng.authorised_official" showAs="authorised official"/>
+        <TLCTerm id="Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="Johannesburg_Metropolitan_Police_Department" href="/ontology/term/this.eng.Johannesburg_Metropolitan_Police_Department" showAs="Johannesburg Metropolitan Police Department"/>
+        <TLCTerm id="lift_club" href="/ontology/term/this.eng.lift_club" showAs="lift club"/>
+        <TLCTerm id="Medical_Officer_of_Health" href="/ontology/term/this.eng.Medical_Officer_of_Health" showAs="Medical Officer of Health"/>
+        <TLCTerm id="prescribed_fee" href="/ontology/term/this.eng.prescribed_fee" showAs="prescribed fee"/>
+        <TLCTerm id="public_road" href="/ontology/term/this.eng.public_road" showAs="public road"/>
+        <TLCTerm id="queue_marshal" href="/ontology/term/this.eng.queue_marshal" showAs="queue marshal"/>
+        <TLCTerm id="rank" href="/ontology/term/this.eng.rank" showAs="rank"/>
+        <TLCTerm id="cab_licence" href="/ontology/term/this.eng.cab_licence" showAs="cab licence"/>
+        <TLCTerm id="road-based_public_transport_operators" href="/ontology/term/this.eng.road-based_public_transport_operators" showAs="road-based public transport operators"/>
+      </references>
+    </meta>
+    <preamble>
+      <p>The Municipal Manager of the City of Johannesburg Metropolitan Municipality hereby, in terms of Section 13(a) of the Local Government: Municipal Systems Act, 2000 (Act No 32 of 2000), publishes the Metered Taxi, Minibus, Midibus and Bus By-laws for the City of Johannesburg Metropolitan Municipality, as approved by its Council and as concurred with by the Premier: Gauteng Province in terms of section 80A of the National Road Traffic Act, 1996 (Act 89 of 1996), as set out hereunder.</p>
+    </preamble>
+    <body>
+      <chapter id="chapter-1">
+        <num>1</num>
+        <heading>Interpretation</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <subsection id="section-1.1">
+            <num>(1)</num>
+            <content>
+              <p>In these By-laws, any word or expression that has been defined in the Gauteng Public Passenger Road Transport Act, 2001 (Act No. 7 of 2001) has that meaning and, unless the context otherwise indicates –</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-1">
+            <content>
+              <p>"<def refersTo="#authorised_official">authorised official</def>" means any official of the <term refersTo="#Council" id="trm0">Council</term> who has been authorised by it to administer, implement and enforce the provisions of these By-laws;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-2">
+            <content>
+              <blockList id="section-1.subsection-2.list2">
+                <listIntroduction>"<def refersTo="#Council">Council</def>" means –                </listIntroduction>
+                <item id="section-1.subsection-2.list2.a">
+                  <num>(a)</num>
+                  <p>the Metropolitan Municipality of the City of Johannesburg established by Provincial Notice No. 6766 of 2000 dated 1 October 2000, as amended, exercising its legislative and executive authority through its municipal Council; or</p>
+                </item>
+                <item id="section-1.subsection-2.list2.b">
+                  <num>(b)</num>
+                  <p>its successor in title; or</p>
+                </item>
+                <item id="section-1.subsection-2.list2.c">
+                  <num>(c)</num>
+                  <p>a structure or person exercising a delegated power or carrying out an instruction, where any power in these by-laws has been delegated or sub-delegated, or an instruction given, as contemplated in section 59 of the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000); or</p>
+                </item>
+                <item id="section-1.subsection-2.list2.d">
+                  <num>(d)</num>
+                  <p>a service provider fulfilling a responsibility under these by-laws, assigned to it in terms of section 81(2) of the Local Government: Municipal Systems Act, or any other law, as the case may be.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-3">
+            <content>
+              <p>"<def refersTo="#Johannesburg_Metropolitan_Police_Department">Johannesburg Metropolitan Police Department</def>" means the municipal police department of the <term refersTo="#Council" id="trm1">Council</term> established in terms of section 64A of the South African Police Service Act, 1995 (Act No. 68 of 1995);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-4">
+            <content>
+              <p>"<def refersTo="#lift_club">lift club</def>" means any club of which every member shall, for no direct or indirect reward, have a turn to convey or cause to be conveyed by means of a motor car, the members of such a club or other persons designated by such members, to or from specified places for a specific purpose;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-5">
+            <content>
+              <p>"<def refersTo="#Medical_Officer_of_Health">Medical Officer of Health</def>" means a person appointed as such under section 22 or 25 of the Health Act, 1977 (Act No. 63 of 1977);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-6">
+            <content>
+              <p>"<def refersTo="#prescribed_fee">prescribed fee</def>" means a fee determined by the <term refersTo="#Council" id="trm2">Council</term> by resolution in terms of section 10G(7)(a)(ii) of the Local Government Transition Act, 1993 (Act No. 209 of 1993), or any other applicable legislation.</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-7">
+            <content>
+              <p>"<def refersTo="#public_road">public road</def>" means a public road as defined in the National Road Traffic Act, 1996;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-8">
+            <content>
+              <p>"<def refersTo="#queue_marshal">queue marshal</def>" means a person designated by a taxi association to regulate minibus taxi-type services; and</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-9">
+            <content>
+              <p>"<def refersTo="#rank">rank</def>" means a facility set aside by the <term refersTo="#Council" id="trm3">Council</term> for use by public passenger road transport;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-10">
+            <content>
+              <p>"<def refersTo="#cab_licence">cab licence</def>" means a payment that may be charged annually as a once-off charge, and which gives <term refersTo="#road-based_public_transport_operators" id="trm4">road-based public transport operators</term> the “right” or “permission” to operate within the <term refersTo="#Council" id="trm5">Council</term>’s municipal boundary.</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-11">
+            <content>
+              <p>"<def refersTo="#road-based_public_transport_operators">road-based public transport operators</def>" means operators of metered taxis, minibuses, midibuses and buses.</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.2">
+            <num>(2)</num>
+            <content>
+              <p>If any provision in these by-laws vests or imposes any power, function or duty of the <term refersTo="#Council" id="trm6">Council</term> in or on an employee of the <term refersTo="#Council" id="trm7">Council</term> and such power, function or duty has in terms of section 81(2) of the Local Government: Municipal Systems Act, 2000 or any other law been assigned to a service provider, the reference in such provision to such employee must be read as a reference to the service provider or, where applicable, an employee of the service provider authorised by it.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-2">
+        <num>2</num>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Driver to take shortest route</heading>
+          <subsection id="section-2.1">
+            <num>(1)</num>
+            <content>
+              <p>A driver of any metered taxi must, while the metered taxi is hired, drive to the passenger’s destination along the shortest route, unless another route is agreed on or directed by the passenger.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.2">
+            <num>(2)</num>
+            <content>
+              <p>A metered taxi driver must have a current map of the municipal area in his or her possession,</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.subsection-2">
+            <content>
+              <p>which must be made available by the driver to a passenger on request.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Driver to keep engagement</heading>
+          <subsection id="section-3.1">
+            <num>(1)</num>
+            <content>
+              <p>A driver of any metered taxi must convey a passenger and his or her personal effects to the destination agreed upon between the passenger and the driver.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.2">
+            <num>(2)</num>
+            <content>
+              <p>Should the driver of a metered taxi for any reason whatsoever, be unable to convey the passenger and the passenger’s personal effects to the agreed destination, such driver must take all reasonable steps to arrange another metered taxi for the passenger, or let the passenger arrange for transport to get to his or her destination.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Operation of taximeter</heading>
+          <subsection id="section-4.1">
+            <num>(1)</num>
+            <content>
+              <p>The driver of a metered taxi fitted with a taximeter must, as soon as the driver arrives at the point where his or her hiring commences and not sooner, set the taximeter in motion, and must upon the termination of hiring immediately stop the taximeter from recording.</p>
+            </content>
+          </subsection>
+          <subsection id="section-4.2">
+            <num>(2)</num>
+            <content>
+              <p>Upon the occurrence of any stoppage not caused by traffic congestion or by the action or request of any passenger, the said driver must for the duration of such stoppage stop the taximeter from recording.</p>
+            </content>
+          </subsection>
+          <subsection id="section-4.3">
+            <num>(3)</num>
+            <content>
+              <p>The owner of a metered taxi must ensure that the provisions of subsections (1) and (2) and the minimum or maximum fare as determined in terms of section 8(2) of the Gauteng Public Passenger Road Transport Act, 2001, if any, are affixed to the interior of his or her taxi, in such a position that they can be easily read by a passenger in the taxi.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>Buses</heading>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Stopping places</heading>
+          <subsection id="section-5.subsection-0">
+            <content>
+              <p>No driver of a bus, as defined in the National Land Transport Transition Act, 2000 (No. 22 of 2000),</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.subsection-1">
+            <content>
+              <p>may stop it for the purpose of picking up or setting down any passenger, except at a stopping place designated by the <term refersTo="#Council" id="trm8">Council</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Entering and alighting from a bus</heading>
+          <subsection id="section-6.subsection-0">
+            <content>
+              <p>A prospective passenger of a bus, as defined in the National Land Transport Transition Act, 2000 (No. 22 of 2000), may only enter or alight from a bus at a stopping place designated by the <term refersTo="#Council" id="trm9">Council</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Driver to stop at stopping places</heading>
+          <subsection id="section-7.subsection-0">
+            <content>
+              <p>The driver of a vehicle engaged in a public passenger road transport service, which at the time is not carrying the maximum number of passengers the vehicle is lawfully entitled to carry, must stop at any designated stopping place if a prospective passenger is waiting at such stopping place.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-4">
+        <num>4</num>
+        <heading>General</heading>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Parking of metered taxi, minibus, midibus or bus</heading>
+          <subsection id="section-8.subsection-0">
+            <content>
+              <p>No person may park a metered taxi, minibus, midibus or bus on any <term refersTo="#public_road" id="trm10">public road</term> for the purpose of providing a public passenger road transport service, except in an exclusive parking bay, marked by a road traffic sign as prescribed in terms of the National Road Traffic Act, 1996 (Act No. 93 of 1996) for that vehicle.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Parking at places of entertainment or funeral</heading>
+          <subsection id="section-9.subsection-0">
+            <content>
+              <p>Notwithstanding the provision of section 8 of these By-laws, a metered taxi may park on a <term refersTo="#public_road" id="trm11">public road</term> for the purpose of providing a metered taxi service, where a party or private entertainment is in progress or from which any funeral or wedding procession is about to start.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Engagement of passengers</heading>
+          <subsection id="section-10.1">
+            <num>(1)</num>
+            <content>
+              <p>No driver of a metered taxi, minibus, midibus or bus, or any other person, may by using force or a threat, or in a clandestine manner or by any other means, prevent or seek to prevent any person from hiring any other metered taxi, minibus, midibus or bus or prevent or seek to prevent the driver of such other metered taxi, minibus, midibus or bus from obtaining or conveying a passenger or a load.</p>
+            </content>
+          </subsection>
+          <subsection id="section-10.2">
+            <num>(2)</num>
+            <content>
+              <p>No person may use force, a threat, or any clandestine or other method, to prevent or attempt to prevent any person from participating in a <term refersTo="#lift_club" id="trm12">lift club</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-10.3">
+            <num>(3)</num>
+            <content>
+              <p>The driver or conductor of a metered taxi, minibus, midibus or bus may not use a hooter or sounding device to attract the custom of potential passengers or customers.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Failing or refusing to pay or attempting to evade payment of the fare due</heading>
+          <subsection id="section-11.subsection-0">
+            <content>
+              <p>No hirer of, or passenger in or on a vehicle engaged in a public passenger road transport service, may fail or refuse to pay any fare due by such hirer or passenger.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Furnishing of name and address by person conveyed in or on metered taxi, minibus, midibus or bus</heading>
+          <subsection id="section-12.subsection-0">
+            <content>
+              <p>Any person hiring, or conveyed in or on, a vehicle engaged in a public passenger road transport service, who has failed or refused to pay any fare due by him or her, must when requested to do so by the driver, state his or her correct name and address.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Conveyance of filthy or diseased persons</heading>
+          <subsection id="section-13.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-13.1.list0">
+                <listIntroduction>
+A driver of a vehicle engaged in a public passenger road transport service may refuse to convey or carry                </listIntroduction>
+                <item id="section-13.1.list0.a">
+                  <num>(a)</num>
+                  <p>any person who is obviously in a state of filth or obviously suffering from any contagious disease; or</p>
+                </item>
+                <item id="section-13.1.list0.b">
+                  <num>(b)</num>
+                  <p>any dead animal except animals or poultry intended for human consumption if the animal or poultry is properly wrapped.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-13.2">
+            <num>(2)</num>
+            <content>
+              <p>No person who has another person in his or her care who to his or her knowledge has been exposed to, or contaminated with, any contagious disease, may place such person in any metered taxi, minibus, midibus or bus.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.3">
+            <num>(3)</num>
+            <content>
+              <p>No person who is obviously in a state of filth or obviously suffering from any contagious disease may enter any metered taxi, minibus, midibus or bus or, having entered, remain upon such vehicle after being requested by the driver or conductor thereof to leave the vehicle.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>Disinfection of metered taxi, minibus, midibus or bus</heading>
+          <subsection id="section-14.1">
+            <num>(1)</num>
+            <content>
+              <p>The owner, driver, conductor or any other person in charge of a vehicle engaged in a public passenger road transport service must take immediate steps as soon as it comes to his or her knowledge that (a)</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.subsection-1">
+            <content>
+              <blockList id="section-14.subsection-1.list1">
+                <listIntroduction>
+any person suffering from a contagious disease; or                </listIntroduction>
+                <item id="section-14.subsection-1.list1.b">
+                  <num>(b)</num>
+                  <p>the body of any person who has died of such disease; or anything which has been exposed to or contaminated with such disease,</p>
+                </item>
+                <item id="section-14.subsection-1.list1.c">
+                  <num>(c)</num>
+                  <p>has been conveyed in or upon such vehicle engaged in a public passenger road transport service to report the matter to the <term refersTo="#Medical_Officer_of_Health" id="trm13">Medical Officer of Health</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-14.2">
+            <num>(2)</num>
+            <content>
+              <p>Any owner, driver, conductor or other person referred to in subsection (1) must carry out every instruction issued by the <term refersTo="#Medical_Officer_of_Health" id="trm14">Medical Officer of Health</term> with regard to the disinfection of such vehicle engaged in a public passenger road transport service.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Driver’s right to refuse to convey passengers</heading>
+          <subsection id="section-15.1">
+            <num>(1)</num>
+            <content>
+              <p>The driver of a vehicle engaged in a public passenger road transport service may, if he or she so decides, or at the request of any passenger, refuse to convey any person who is obviously in a state of intoxication or who is noisy or rowdy or otherwise misbehaving himself or herself.</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.2">
+            <num>(2)</num>
+            <content>
+              <p>No person referred to in subsection (1), may remain in or upon such vehicle engaged in a public passenger road transport service, after having been requested by the driver or conductor thereof to leave the vehicle engaged in a public passenger road transport service.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Property left in metered taxi, minibus, midibus or bus</heading>
+          <subsection id="section-16.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-16.1.list0">
+                <listIntroduction>
+If any property left in a vehicle engaged in a public passenger road transport service is not claimed within 24 hours after it has been discovered in such vehicle engaged in a public passenger road transport service, the driver or conductor of the vehicle must –                </listIntroduction>
+                <item id="section-16.1.list0.a">
+                  <num>(a)</num>
+                  <p>if he or she belongs to a taxi association, take such property to the nearest office of such association;</p>
+                </item>
+                <item id="section-16.1.list0.b">
+                  <num>(b)</num>
+                  <p>if he or she uses a bus depot for the purposes of the business in which he or she is engaged, take such property to such depot; or if he or she does not belong to a taxi association or use a bus depot for the purposes of the business concerned, take such property to the <term refersTo="#Johannesburg_Metropolitan_Police_Department" id="trm15">Johannesburg Metropolitan Police Department</term>,</p>
+                </item>
+                <item id="section-16.1.list0.c">
+                  <num>(c)</num>
+                  <p>and obtain a receipt from the person with whom the property is deposited, or the officer on duty at the <term refersTo="#Johannesburg_Metropolitan_Police_Department" id="trm16">Johannesburg Metropolitan Police Department</term>, as the case may be.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-16.2">
+            <num>(2)</num>
+            <content>
+              <p>If the property referred to in paragraphs (a) and (b) of subsection (1) is not claimed within seven days of its receipt in the office of the relevant taxi association or bus depot, the person with whom it was deposited must take it to the Metropolitan Police department, and there deposit it with the officer on duty, who must issue a receipt for such property to the person depositing it.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Possession of dangerous or offensive articles</heading>
+          <subsection id="section-17.1">
+            <num>(1)</num>
+            <content>
+              <p>If the driver or conductor of a vehicle engaged in a public passenger road transport service reasonably suspects that any passenger is in possession of any dangerous or offensive article,</p>
+            </content>
+          </subsection>
+          <subsection id="section-17.subsection-1">
+            <content>
+              <p>except a fire-arm as described in subsection (2), the driver or conductor or any other passenger may request the first mentioned passenger to hand such article to the driver or conductor.</p>
+            </content>
+          </subsection>
+          <subsection id="section-17.2">
+            <num>(2)</num>
+            <content>
+              <p>If a passenger is in possession of a fire-arm, the driver or conductor may request the passenger to display a valid licence for such fire-arm or, if the passenger is required to carry the fire-arm as a member of the national or a municipal police service established in terms of the South African Police Service Act, 1995, or as a member of the National Defence Force established under the Defence Act, 1957 (Act No. 44 of 1957), the driver or conductor may request the passenger to display the current identity document which was issued to the passenger by such service or force.</p>
+            </content>
+          </subsection>
+          <subsection id="section-17.3">
+            <num>(3)</num>
+            <content>
+              <p>If the passenger refuses to hand the article referred to in subsection (1), or fails to display the licence or identity document referred to in subsection (2), to the driver or conductor, the driver may refuse to convey the passenger.</p>
+            </content>
+          </subsection>
+          <subsection id="section-17.4">
+            <num>(4)</num>
+            <content>
+              <p>The article referred to in subsection (1) must be returned to its owner at the conclusion of his or her journey.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Cleanliness</heading>
+          <subsection id="section-18.subsection-0">
+            <content>
+              <p>The driver or conductor of any vehicle engaged in a public passenger road transport service must be clean and neatly dressed at all times while conveying a passenger, and must treat every passenger politely and with respect.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-19">
+          <num>19.</num>
+          <heading>Queue marshal</heading>
+          <subsection id="section-19.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#queue_marshal" id="trm17">queue marshal</term> at any <term refersTo="#rank" id="trm18">rank</term> must be clearly identifiable as to his or her employer and must display his or her name in a conspicuous manner on his or her clothing below the left shoulder.</p>
+            </content>
+          </subsection>
+          <subsection id="section-19.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#queue_marshal" id="trm19">queue marshal</term> must discharge his or her duties in a courteous and polite manner and show respect to every passenger.</p>
+            </content>
+          </subsection>
+          <subsection id="section-19.3">
+            <num>(3)</num>
+            <content>
+              <p>Where a <term refersTo="#queue_marshal" id="trm20">queue marshal</term> is controlling the entry of passengers onto a metered taxi, minibus,</p>
+            </content>
+          </subsection>
+          <subsection id="section-19.subsection-3">
+            <content>
+              <p>midibus or bus, he or she must not allow more than the number of passengers permitted by law,</p>
+            </content>
+          </subsection>
+          <subsection id="section-19.subsection-4">
+            <content>
+              <p>to enter such metered taxi, minibus, midibus or bus.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>Clean vehicle</heading>
+          <subsection id="section-20.subsection-0">
+            <content>
+              <p>The owner and the driver of any metered taxi, minibus, midibus or bus must keep the vehicle clean and in good condition at all times while engaged in public passenger road transport services.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-21">
+          <num>21.</num>
+          <heading>Offences and penalties</heading>
+          <subsection id="section-21.subsection-0">
+            <content>
+              <blockList id="section-21.subsection-0.list0">
+                <listIntroduction>
+Any person who –                </listIntroduction>
+                <item id="section-21.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>contravenes or fails to comply with any provisions of these By-laws;</p>
+                </item>
+                <item id="section-21.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>fails to comply with any notice issued in terms of these By-laws;</p>
+                </item>
+                <item id="section-21.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>fails to comply with any lawful instruction given in terms of these By-laws; or</p>
+                </item>
+                <item id="section-21.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>who obstructs or hinders any <term refersTo="#authorised_official" id="trm21">authorised official</term> of the <term refersTo="#Council" id="trm22">Council</term> in the execution of his or her duties under these By-laws,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-21.subsection-1">
+            <content>
+              <p>is guilty of an offence and liable on conviction to a fine or in default of payment to imprisonment for a period not exceeding six months and in the case of a continuing offence, to a further fine not exceeding R50, or in default of payment to imprisonment not exceeding one day, for every day during the continuance of such offence, after a written notice has been issued by the <term refersTo="#Council" id="trm23">Council</term>, and served on the person concerned, requiring the discontinuance of such offence.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-22">
+          <num>22.</num>
+          <heading>Repeal of by-laws</heading>
+          <subsection id="section-22.subsection-0">
+            <content>
+              <p>The by-laws listed in Schedule 1 are hereby repealed.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-23">
+          <num>23.</num>
+          <heading>Short title</heading>
+          <subsection id="section-23.subsection-0">
+            <content>
+              <p>These By-laws are called the Metered Taxi, Minibus, Midibus and Bus By-laws, 2003.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-24">
+          <num>24.</num>
+          <heading>Charging of the <term refersTo="#cab_licence" id="trm24">cab licence</term></heading>
+          <subsection id="section-24.subsection-0">
+            <content>
+              <p>The City may charge a <term refersTo="#cab_licence" id="trm25">cab licence</term> to operators of all modes of road-based public transport on an annual basis as a once-off payment. The <term refersTo="#cab_licence" id="trm26">cab licence</term> may also be reviewed annually.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+    </body>
+  </act>
+  <components>
+    <component id="component-0">
+      <doc name="schedules">
+        <meta>
+          <identification source="#openbylaws">
+            <FRBRWork>
+              <FRBRthis value="/za/by-law/johannesburg/2004/metered-taxi-minibus-midibus-and-bus/schedules"/>
+              <FRBRuri value="/za/by-law/johannesburg/2004/metered-taxi-minibus-midibus-and-bus/schedules"/>
+              <FRBRdate date="2004-05-21" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za/by-law/johannesburg/2004/metered-taxi-minibus-midibus-and-bus/schedules/eng@"/>
+              <FRBRuri value="/za/by-law/johannesburg/2004/metered-taxi-minibus-midibus-and-bus/schedules/eng@"/>
+              <FRBRdate date="2004-05-21" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za/by-law/johannesburg/2004/metered-taxi-minibus-midibus-and-bus/main/schedules/eng@"/>
+              <FRBRuri value="/za/by-law/johannesburg/2004/metered-taxi-minibus-midibus-and-bus/schedules/eng@"/>
+              <FRBRdate date="2014-06-27" name="Generation"/>
+              <FRBRauthor href="#openbylaws" as="#author"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <chapter id="schedule-1">
+            <num>1</num>
+            <heading>Repealed by-laws</heading>
+            <section id="schedule-1.section-0">
+              <content>
+                <table id="schedule-1.table-0">
+                  <tr>
+                    <th>
+                      <p>Number and year</p>
+                    </th>
+                    <th>
+                      <p>Name of By-laws</p>
+                    </th>
+                    <th>
+                      <p>Extent of repeal</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Administrator’s Notice No 259 of 5 April 1950</p>
+                    </td>
+                    <td>
+                      <p>City of Johannesburg Transport By-laws</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Administrator’s Notice No 697 of 27 August 1952</p>
+                    </td>
+                    <td>
+                      <p>Municipality of Roodepoort – Maraisburg Bus By-laws</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Administrator’s Notice No 477 of 18 March 1987</p>
+                    </td>
+                    <td>
+                      <p>Midrand Municipality By-laws relating to the Allocation and Regulation of Taxi stands</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                </table>
+              </content>
+            </section>
+          </chapter>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>
