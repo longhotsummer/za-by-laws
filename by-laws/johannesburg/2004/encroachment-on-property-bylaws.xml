@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openbylaws">
+        <FRBRWork>
+          <FRBRthis value="/za/by-law/johannesburg/2004/encroachment-on-property-bylaws/main"/>
+          <FRBRuri value="/za/by-law/johannesburg/2004/encroachment-on-property-bylaws"/>
+          <FRBRalias value="Encroachment on Property By-laws"/>
+          <FRBRdate date="2004-05-21" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za/by-law/johannesburg/2004/encroachment-on-property-bylaws/main/eng@"/>
+          <FRBRuri value="/za/by-law/johannesburg/2004/encroachment-on-property-bylaws/eng@"/>
+          <FRBRdate date="2004-05-21" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za/by-law/johannesburg/2004/encroachment-on-property-bylaws/main/eng@"/>
+          <FRBRuri value="/za/by-law/johannesburg/2004/encroachment-on-property-bylaws/eng@"/>
+          <FRBRdate date="2014-08-06" name="Generation"/>
+          <FRBRauthor href="#openbylaws" as="#author"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-05-21" name="Province of Gauteng: Provincial Gazette" number="827" showAs="Province of Gauteng: Provincial Gazette"/>
+      <references source="#this">
+        <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council.johannesburg" showAs="City of Johannesburg Metropolity Municipality Council"/>
+        <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-encroachment" href="/ontology/term/this.eng.encroachment" showAs="encroachment"/>
+        <TLCTerm id="term-m" href="/ontology/term/this.eng.m" showAs="m"/>
+        <TLCTerm id="term-mm" href="/ontology/term/this.eng.mm" showAs="mm"/>
+        <TLCTerm id="term-prescribed" href="/ontology/term/this.eng.prescribed" showAs="prescribed"/>
+        <TLCTerm id="term-prescribed_fee" href="/ontology/term/this.eng.prescribed_fee" showAs="prescribed fee"/>
+        <TLCTerm id="term-public_road" href="/ontology/term/this.eng.public_road" showAs="public road"/>
+      </references>
+    </meta>
+    <preamble>
+      <p>The Municipal Manager of the City of Johannesburg metropolitan Municipality hereby, in terms of Section 13(a) of the Local government: Municipal Systems Act, 2000 (Act No 32 of 2000), publishes the Encroachment on Property By-laws for the City of Johannesburg Metropolitan Municipality, as approved by its Council, as set out hereunder.</p>
+    </preamble>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <subsection id="section-1.1">
+          <num>(1)</num>
+          <content>
+            <p>In these By-laws, any word or expression which has been defined in the National Building Regulations and Building Standards Act, 1977 (Act No. 103 of 1977), has that meaning and, unless the context otherwise indicates –</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-1">
+          <content>
+            <blockList id="def-term-Council">
+              <listIntroduction>"<def refersTo="#term-Council">Council</def>" means –              </listIntroduction>
+              <item id="section-1.subsection-1.list1.a">
+                <num>(a)</num>
+                <p>the Metropolitan Municipality of the City of Johannesburg established by Provincial Notice No 6766 of 2000 dated 1 October 2000, as amended, exercising its legislative and executive authority through its municipal Council; or</p>
+              </item>
+              <item id="section-1.subsection-1.list1.b">
+                <num>(b)</num>
+                <p>its successor in title; or</p>
+              </item>
+              <item id="section-1.subsection-1.list1.c">
+                <num>(c)</num>
+                <p>a structure or person exercising a delegated power or carrying out an instruction, where any power in these by-laws has been delegated or subdelegated, or an instruction given, as contemplated in section 59 of the Local Government: Municipal Systems Act, 2000 (Act No 32 of 2000); or</p>
+              </item>
+              <item id="section-1.subsection-1.list1.d">
+                <num>(d)</num>
+                <p>a service provider fulfilling a responsibility under these by-laws, assigned to it in terms of section 81(2) of the Local Government: Municipal Systems Act (Act No 32 of 2000) or any other law, as the case may be;</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="def-term-encroachment">
+          <content>
+            <p>"<def refersTo="#term-encroachment">encroachment</def>" means any physical object which intrudes on or over municipal property, or property which the <term refersTo="#term-Council" id="trm0">Council</term> has control over or other property in respect of which a servitude or other property right has been registered in favour of the <term refersTo="#term-Council" id="trm1">Council</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-m">
+          <content>
+            <p>"<def refersTo="#term-m">m</def>" means metre;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-mm">
+          <content>
+            <p>"<def refersTo="#term-mm">mm</def>" means millimetre;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-prescribed">
+          <content>
+            <p>"<def refersTo="#term-prescribed">prescribed</def>" means determined by resolution of the <term refersTo="#term-Council" id="trm2">Council</term> made from time to time;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-prescribed_fee">
+          <content>
+            <p>"<def refersTo="#term-prescribed_fee">prescribed fee</def>" means a fee determined by the <term refersTo="#term-Council" id="trm3">Council</term> by resolution in terms of section 10G(7)(a)(ii) of the Local Government Transition Act, 1993 (Act No. 209 of 1993), or any other applicable legislation;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-7">
+          <content>
+            <blockList id="def-term-public_road">
+              <listIntroduction>"<def refersTo="#term-public_road">public road</def>" means any road, street or thoroughfare or any other place (whether a thoroughfare or not) which is commonly used by the public or any section thereof or to which the public or any section thereof has a right of access, and includes –              </listIntroduction>
+              <item id="section-1.subsection-7.list7.a">
+                <num>(a)</num>
+                <p>the verge of any such road, street or thoroughfare;</p>
+              </item>
+              <item id="section-1.subsection-7.list7.b">
+                <num>(b)</num>
+                <p>any bridge, ferry or drift traversed by any such road, street or thoroughfare; and</p>
+              </item>
+              <item id="section-1.subsection-7.list7.c">
+                <num>(c)</num>
+                <p>any other work or object forming part of or connected with or belonging to such road, street or thoroughfare;</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-1.2">
+          <num>(2)</num>
+          <content>
+            <p>If any provision in these By-laws vests or imposes any power, function or duty of the <term refersTo="#term-Council" id="trm4">Council</term> in or on an employee of the <term refersTo="#term-Council" id="trm5">Council</term> and such power, function or duty has in terms of section 81(2) of the Local Government: Municipal Systems Act, 2000 (Act No 32 of 2000), or any other law been assigned to a service provider, the reference to such employee must be read as a reference to the service provider or, where applicable, an employee of the service provider authorised by it.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading><term refersTo="#term-Council" id="trm6">Council</term> permission required</heading>
+        <subsection id="section-2.1">
+          <num>(1)</num>
+          <content>
+            <p>No person may, without prior written permission of the <term refersTo="#term-Council" id="trm7">Council</term>, make or construct any colonnade, veranda, balcony, bay window, pavement light, showcase or other <term refersTo="#term-encroachment" id="trm8">encroachment</term> on or over any part of a <term refersTo="#term-public_road" id="trm9">public road</term>, and pavement opening in or under any <term refersTo="#term-public_road" id="trm10">public road</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-Council" id="trm11">Council</term> may refuse the permission required in terms of subsection (1) or may grant such permission either unconditionally or upon the conditions and subject to the payment of the <term refersTo="#term-prescribed_fee" id="trm12">prescribed fee</term> annually or the performance of the work or service determined by the <term refersTo="#term-Council" id="trm13">Council</term> in each case and subject to payment of the <term refersTo="#term-prescribed_fee" id="trm14">prescribed fee</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-prescribed_fee" id="trm15">prescribed fee</term> mentioned in subsection (2) is payable in advance at the beginning of each year which is calculated from date of the written permission or the date determined by the <term refersTo="#term-Council" id="trm16">Council</term>, and the owner of the <term refersTo="#term-encroachment" id="trm17">encroachment</term> is liable for the payment of the <term refersTo="#term-prescribed_fee" id="trm18">prescribed fee</term> for each <term refersTo="#term-encroachment" id="trm19">encroachment</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.4">
+          <num>(4)</num>
+          <content>
+            <blockList id="section-2.4.list3">
+              <listIntroduction>
+The owner of an <term refersTo="#term-encroachment" id="trm20">encroachment</term> must within 90 days after the date of commencement of these By-laws notify the <term refersTo="#term-Council" id="trm21">Council</term> in writing of -              </listIntroduction>
+              <item id="section-2.4.list3.a">
+                <num>(a)</num>
+                <p>the existence of the <term refersTo="#term-encroachment" id="trm22">encroachment</term>; and</p>
+              </item>
+              <item id="section-2.4.list3.b">
+                <num>(b)</num>
+                <p>the horizontal dimension of every <term refersTo="#term-encroachment" id="trm23">encroachment</term> measured - parallel to the road boundary on or over which the <term refersTo="#term-encroachment" id="trm24">encroachment</term> exists.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-2.5">
+          <num>(5)</num>
+          <content>
+            <p>Until the <term refersTo="#term-Council" id="trm25">Council</term> is notified of the horizontal dimension of the <term refersTo="#term-encroachment" id="trm26">encroachment</term> in terms of subsection (4)(b), every <term refersTo="#term-encroachment" id="trm27">encroachment</term> relating to a building is deemed to have an aggregate horizontal dimension equal to the total road frontage on or over which the <term refersTo="#term-encroachment" id="trm28">encroachment</term> exists, of the property on which the building concerned is situated.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Rules for the construction of encroachments</heading>
+        <subsection id="section-3.1">
+          <num>(1)</num>
+          <content>
+            <p>The design, arrangement and construction of a veranda, balcony, bay window or other <term refersTo="#term-encroachment" id="trm29">encroachment</term> on or over a <term refersTo="#term-public_road" id="trm30">public road</term>, as well as the paving, kerb and gutter thereof must be to the satisfaction of and to the levels approved by the <term refersTo="#term-Council" id="trm31">Council</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.2">
+          <num>(2)</num>
+          <content>
+            <p>If corrugated iron is used for covering a veranda, its exposed surfaces must be painted.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.3">
+          <num>(3)</num>
+          <content>
+            <p>A veranda over a <term refersTo="#term-public_road" id="trm32">public road</term> must correspond in line, height and detail with existing adjoining verandas.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Columns</heading>
+        <subsection id="section-4.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Council" id="trm33">Council</term> may determine areas within the municipal area where no person is permitted to place veranda columns over any <term refersTo="#term-public_road" id="trm34">public road</term> or pavement.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.2">
+          <num>(2)</num>
+          <content>
+            <p>No person is permitted to place any veranda column over any pavement where such pavement is less than 2,6 <term refersTo="#term-m" id="trm35">m</term> wide.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.3">
+          <num>(3)</num>
+          <content>
+            <p>No person may place any veranda column more than 3 <term refersTo="#term-m" id="trm36">m</term> from the building line measured to the outside of the column or at less than 3 <term refersTo="#term-m" id="trm37">m</term> centre to centre.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4">
+          <num>(4)</num>
+          <content>
+            <p>No person may place any veranda column over any pavement at the corner of a <term refersTo="#term-public_road" id="trm38">public road</term> that is beyond the alignment of the building lines.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.5">
+          <num>(5)</num>
+          <content>
+            <p>No person may place a portion of any veranda column at a distance less than 600 <term refersTo="#term-mm" id="trm39">mm</term> back from the front edge of any kerb.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.6">
+          <num>(6)</num>
+          <content>
+            <p>No person may place a twin or double veranda column over any <term refersTo="#term-public_road" id="trm40">public road</term> or pavement.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.7">
+          <num>(7)</num>
+          <content>
+            <p>If a veranda is supported on columns, the columns may not have square arris, no base may project more than 50 <term refersTo="#term-mm" id="trm41">mm</term> beyond the bottom diameter of the column and the maximum horizontal axial dimensions of such base may not exceed 350 <term refersTo="#term-mm" id="trm42">mm</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.8">
+          <num>(8)</num>
+          <content>
+            <p>If the form of a column is classic in character, the shaft must have suitable entasis and cap and base in due proportions.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.9">
+          <num>(9)</num>
+          <content>
+            <p>No column, including cap and base, may be less than 3 <term refersTo="#term-m" id="trm43">m</term> or more than 3,6 <term refersTo="#term-m" id="trm44">m</term> in height and more than 4,5 <term refersTo="#term-m" id="trm45">m</term> including plinth.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.10">
+          <num>(10)</num>
+          <content>
+            <p>No person may, without the prior written permission of the <term refersTo="#term-Council" id="trm46">Council</term> place a column on a <term refersTo="#term-public_road" id="trm47">public road</term> where the footway or sidewalk is, or is likely to be occupied by any cable, pipe or other municipal service.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.11">
+          <num>(11)</num>
+          <content>
+            <p>The minimum height from the footway or sidewalk to the underside of each cantilever or fascia girder is 3 <term refersTo="#term-m" id="trm48">m</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.12">
+          <num>(12)</num>
+          <content>
+            <p>Plain piping or tubing may not be used for any column for a veranda and balcony over or on a <term refersTo="#term-public_road" id="trm49">public road</term> unless architecturally treated for aesthetic purposes.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.13">
+          <num>(13)</num>
+          <content>
+            <p>The coping, blocking course or balustrade, if any, may not extend less than 750 <term refersTo="#term-mm" id="trm50">mm</term> nor more than 1,05 <term refersTo="#term-m" id="trm51">m</term> above the floor of a balcony.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.14">
+          <num>(14)</num>
+          <content>
+            <p>Nothing in these By-laws prohibits – (a) the erection and use of a party column common to two adjoining verandas if the column stands partly on the extended boundary lines of two properties or adjoins the same; or (b) in the case of adjoining verandas, the placement of any column upon a plinth if this is necessary for alignment and all the other provisions of these By-laws are complied with.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Balconies and bay windows</heading>
+        <subsection id="section-5.1">
+          <num>(1)</num>
+          <content>
+            <p>No balcony, bay window or <term refersTo="#term-encroachment" id="trm52">encroachment</term> may overhang a <term refersTo="#term-public_road" id="trm53">public road</term> if it is at a height of less than 3 <term refersTo="#term-m" id="trm54">m</term> above the pavement.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.2">
+          <num>(2)</num>
+          <content>
+            <p>No balcony may encroach more than 1,35 <term refersTo="#term-m" id="trm55">m</term> over any <term refersTo="#term-public_road" id="trm56">public road</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.3">
+          <num>(3)</num>
+          <content>
+            <p>No bay window may encroach more than 900 <term refersTo="#term-mm" id="trm57">mm</term> over any <term refersTo="#term-public_road" id="trm58">public road</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.4">
+          <num>(4)</num>
+          <content>
+            <p>The aggregate horizontal length of a bay window at any level over a <term refersTo="#term-public_road" id="trm59">public road</term> may not exceed one-third of the length of the building frontage on to that road.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.5">
+          <num>(5)</num>
+          <content>
+            <p>Any balcony superimposed upon a veranda must be set back at least 1,2 <term refersTo="#term-m" id="trm60">m</term> from the line of such veranda.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.6">
+          <num>(6)</num>
+          <content>
+            <p>No part of a balcony which is attached to any veranda may be carried up to a height greater than two storeys above the pavement level except that, if the top portion of the balcony is roofed with a concrete flat roof forming a floor, a balustrade not exceeding 1 <term refersTo="#term-m" id="trm61">m</term> in height is allowed above the level of the floor.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.7">
+          <num>(7)</num>
+          <content>
+            <p>No dividing wall across a balcony over a <term refersTo="#term-public_road" id="trm62">public road</term> may exceed 1 <term refersTo="#term-m" id="trm63">m</term> in height or 225 <term refersTo="#term-mm" id="trm64">mm</term> in thickness.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.8">
+          <num>(8)</num>
+          <content>
+            <p>A balcony over any <term refersTo="#term-public_road" id="trm65">public road</term> may not be the sole means of access to any room or apartment.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.9">
+          <num>(9)</num>
+          <content>
+            <p>No person may place or permit or cause to be placed any article upon any balcony over a <term refersTo="#term-public_road" id="trm66">public road</term>, except ornamental plants, tables, chairs, canvas blinds and awnings not used for signs or advertisements.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.10">
+          <num>(10)</num>
+          <content>
+            <p>If any floor of a building is used solely for the parking of motor vehicles, no bay window at the level of the floor may project over any <term refersTo="#term-public_road" id="trm67">public road</term> for more than 1,35 <term refersTo="#term-m" id="trm68">m</term> for the full length of the building frontage on to that road.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Plinths, pilasters, corbels and cornices</heading>
+        <subsection id="section-6.1">
+          <num>(1)</num>
+          <content>
+            <p>No plinth, pilaster or other <term refersTo="#term-encroachment" id="trm69">encroachment</term> beyond a building line carried up from ground level is permitted to encroach on a <term refersTo="#term-public_road" id="trm70">public road</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-6.2.list1">
+              <listIntroduction>
+Any pilaster, cornice, corbel or similar architectural feature which is at least 3 <term refersTo="#term-m" id="trm71">m</term> above the ground may not exceed the following <term refersTo="#term-encroachment" id="trm72">encroachment</term> over a <term refersTo="#term-public_road" id="trm73">public road</term>:              </listIntroduction>
+              <item id="section-6.2.list1.a">
+                <num>(a)</num>
+                <p>A pilaster : 450 <term refersTo="#term-mm" id="trm74">mm</term> the total aggregate frontage length of the pilaster may not exceed one-fifth of the building frontage and any bay window in the same storey must be included in the calculation of the maximum aggregate length for bay windows;</p>
+              </item>
+              <item id="section-6.2.list1.b">
+                <num>(b)</num>
+                <p>a fire-resisting ornamental hood or pediment over a door : 600 <term refersTo="#term-mm" id="trm75">mm</term> and in any part not less than 2,75 <term refersTo="#term-m" id="trm76">m</term> in height above the footway or pavement;</p>
+              </item>
+              <item id="section-6.2.list1.c">
+                <num>(c)</num>
+                <p>a cornice : 1,05 <term refersTo="#term-m" id="trm77">m</term> if not exceeding 10,5 <term refersTo="#term-m" id="trm78">m</term> above the footway or pavement and one-tenth of the height from the footway or pavement if exceeding 10,5 <term refersTo="#term-m" id="trm79">m</term> with a maximum of 1,8 <term refersTo="#term-m" id="trm80">m</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Verandas around corners</heading>
+        <subsection id="section-7.subsection-0">
+          <content>
+            <p>If a veranda is built around a corner of a <term refersTo="#term-public_road" id="trm81">public road</term> it must be properly splayed or rounded to follow the curve of the kerb.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Pavement openings</heading>
+        <subsection id="section-8.1">
+          <num>(1)</num>
+          <content>
+            <p>No pavement opening may be the sole means of access to any vault or cellar.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.2">
+          <num>(2)</num>
+          <content>
+            <p>No pavement opening on any <term refersTo="#term-public_road" id="trm82">public road</term> may extend more than 1,2 <term refersTo="#term-m" id="trm83">m</term> beyond the building line.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.3">
+          <num>(3)</num>
+          <content>
+            <p>If flaps are permitted in a pavement opening, no flap may exceed 0,75 square metres in area and must open upwards and while open, must be provided with stout iron guardrails and stanchions.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.4">
+          <num>(4)</num>
+          <content>
+            <p>A flap opening may be opened and used only for the purpose of lowering and raising goods and must be kept closed except when lowering and raising operations are in progress.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.5">
+          <num>(5)</num>
+          <content>
+            <p>The front wall or wall parallel to the kerb in every pavement opening must be built with a suitable batter to the satisfaction of the <term refersTo="#term-Council" id="trm84">Council</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.6">
+          <num>(6)</num>
+          <content>
+            <p>No pavement opening may be covered with a metal bar grating or with a metal plate or with wood.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Maintenance, removal and tenancy of projections</heading>
+        <subsection id="section-9.1">
+          <num>(1)</num>
+          <content>
+            <p>The owner of any <term refersTo="#term-encroachment" id="trm85">encroachment</term> must maintain the <term refersTo="#term-encroachment" id="trm86">encroachment</term> in good order and repair.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.2">
+          <num>(2)</num>
+          <content>
+            <p>Any pavement opening, pavement light, wall thereof and basement wall must be made and kept water-tight by the owner.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Encroachment erected in front of building</heading>
+        <subsection id="section-10.subsection-0">
+          <content>
+            <blockList id="section-10.subsection-0.list0">
+              <listIntroduction>
+If any <term refersTo="#term-encroachment" id="trm87">encroachment</term> has been erected or constructed in front of any building, the owner must at his, her or its own expense –              </listIntroduction>
+              <item id="section-10.subsection-0.list0.a">
+                <num>(a)</num>
+                <p>pave the whole of the footway or pavement under the <term refersTo="#term-encroachment" id="trm88">encroachment</term> or in front of the building in which the pavement opening is fixed; and</p>
+              </item>
+              <item id="section-10.subsection-0.list0.b">
+                <num>(b)</num>
+                <p>lay the road kerbing and guttering and paving in front of the building for the full width of the footway or pavement.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-11">
+        <num>11.</num>
+        <heading>Encroachments</heading>
+        <subsection id="section-11.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-11.1.list0">
+              <item id="section-11.1.list0.a">
+                <num>(a)</num>
+                <p>Any person wishing to erect or construct an <term refersTo="#term-encroachment" id="trm89">encroachment</term> on, under or over any <term refersTo="#term-public_road" id="trm90">public road</term>, or any immovable property owned by or vested in the <term refersTo="#term-Council" id="trm91">Council</term>, must apply to the Building Control Officer on a form <term refersTo="#term-prescribed" id="trm92">prescribed</term> by the <term refersTo="#term-Council" id="trm93">Council</term> for that purpose.</p>
+              </item>
+              <item id="section-11.1.list0.b">
+                <num>(b)</num>
+                <p>If, in the opinion of the Building Control Officer, drawings are required for the conclusion of an <term refersTo="#term-encroachment" id="trm94">encroachment</term> agreement, the <term refersTo="#term-prescribed" id="trm95">prescribed</term> charge in addition to any other <term refersTo="#term-prescribed" id="trm96">prescribed</term> charge is payable to the <term refersTo="#term-Council" id="trm97">Council</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-11.2">
+          <num>(2)</num>
+          <content>
+            <p>The owner of any <term refersTo="#term-encroachment" id="trm98">encroachment</term> or fixture, whether in the course of construction or erection or completed, on, under or over any <term refersTo="#term-public_road" id="trm99">public road</term>, is regarded as a tenant in respect of the <term refersTo="#term-encroachment" id="trm100">encroachment</term> and, if notified in writing by the <term refersTo="#term-Council" id="trm101">Council</term> under the hand of the Building Control Officer to remove any such <term refersTo="#term-encroachment" id="trm102">encroachment</term> or fixture, must do so within a reasonable period stated in the notice.</p>
+          </content>
+        </subsection>
+        <subsection id="section-11.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-11.3.list2">
+              <listIntroduction>
+The owner of the building in connection with which any <term refersTo="#term-encroachment" id="trm103">encroachment</term> exists, or is proposed –              </listIntroduction>
+              <item id="section-11.3.list2.a">
+                <num>(a)</num>
+                <p>must defray any cost incurred in connection with wires or property of the <term refersTo="#term-Council" id="trm104">Council</term>;</p>
+              </item>
+              <item id="section-11.3.list2.b">
+                <num>(b)</num>
+                <p>must allow the <term refersTo="#term-Council" id="trm105">Council</term> to erect on, or attach to the <term refersTo="#term-encroachment" id="trm106">encroachment</term> or fixture or anything required in connection with electrical or other activities of the <term refersTo="#term-Council" id="trm107">Council</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-12">
+        <num>12.</num>
+        <heading>Offences and penalties</heading>
+        <subsection id="section-12.subsection-0">
+          <content>
+            <blockList id="section-12.subsection-0.list0">
+              <listIntroduction>
+Any person who –              </listIntroduction>
+              <item id="section-12.subsection-0.list0.a">
+                <num>(a)</num>
+                <p>contravenes or fails to comply with any provision of these By-laws</p>
+              </item>
+              <item id="section-12.subsection-0.list0.b">
+                <num>(b)</num>
+                <p>fails to comply with any notice issued in terms of these By-laws; or</p>
+              </item>
+              <item id="section-12.subsection-0.list0.c">
+                <num>(c)</num>
+                <p>fails to comply with any lawful instruction given in terms of these By-laws; or</p>
+              </item>
+              <item id="section-12.subsection-0.list0.d">
+                <num>(d)</num>
+                <p>who obstructs or hinders any authorised representative or employee of the <term refersTo="#term-Council" id="trm108">Council</term> in the execution of his or her duties under these By-laws, is guilty of an offence and liable on conviction to a fine or in default of payment to imprisonment for a period not exceeding six months, and in the case of a continuing offence, to a further fine not exceeding R50, or in default of payment to imprisonment not exceeding one day, for every day during the continuance of such offence after a written notice has been issued by the <term refersTo="#term-Council" id="trm109">Council</term> and served on the person concerned requiring the discontinuance of such offence.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-13">
+        <num>13.</num>
+        <heading>Repeal of by-laws</heading>
+        <subsection id="section-13.subsection-0">
+          <content>
+            <p>The By-laws listed in Schedule 1 are hereby repealed.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-14">
+        <num>14.</num>
+        <heading>Short title</heading>
+        <subsection id="section-14.subsection-0">
+          <content>
+            <p>These By-laws are called the Encroachment on Property By-laws, 2003.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+  <components>
+    <component id="component-0">
+      <doc name="schedules">
+        <meta>
+          <identification source="#openbylaws">
+            <FRBRWork>
+              <FRBRthis value="/za/by-law/johannesburg/2004/encroachment-on-property-bylaws/schedules"/>
+              <FRBRuri value="/za/by-law/johannesburg/2004/encroachment-on-property-bylaws"/>
+              <FRBRdate date="2004-05-21" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za/by-law/johannesburg/2004/encroachment-on-property-bylaws/schedules/eng@"/>
+              <FRBRuri value="/za/by-law/johannesburg/2004/encroachment-on-property-bylaws/eng@"/>
+              <FRBRdate date="2004-05-21" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za/by-law/johannesburg/2004/encroachment-on-property-bylaws/schedules/eng@"/>
+              <FRBRuri value="/za/by-law/johannesburg/2004/encroachment-on-property-bylaws/eng@"/>
+              <FRBRdate date="2014-08-06" name="Generation"/>
+              <FRBRauthor href="#openbylaws" as="#author"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <chapter id="schedule-1">
+            <num>1</num>
+            <heading>Repealed by-laws</heading>
+            <section id="schedule-1.section-0">
+              <content>
+                <p>The following by-laws are hereby repealed:</p>
+                <table id="schedule-1.section-0.table-0">
+                  <tr>
+                    <th>
+                      <p>Number and year</p>
+                    </th>
+                    <th>
+                      <p>Name of By-laws</p>
+                    </th>
+                    <th>
+                      <p>Extent of Repeal</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Local Authority Notice 4081 of 14 November 1990</p>
+                    </td>
+                    <td>
+                      <p>City of Johannesburg By-laws relating to Projections from Building, Verandahs, Balconies, Signs and Pavement Lights</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                </table>
+              </content>
+            </section>
+          </chapter>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>
