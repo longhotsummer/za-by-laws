@@ -1,0 +1,1449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openbylaws">
+        <FRBRWork>
+          <FRBRthis value="/za/by-law/cape-town/2013/city-of-cape-town-constitution-of-transport-for-cape-town-bylaw/main"/>
+          <FRBRuri value="/za/by-law/cape-town/2013/city-of-cape-town-constitution-of-transport-for-cape-town-bylaw"/>
+          <FRBRalias value="City of Cape Town: Constitution of Transport for Cape Town Bylaw, 2013."/>
+          <FRBRdate date="2013-12-06" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za/by-law/cape-town/2013/city-of-cape-town-constitution-of-transport-for-cape-town-bylaw/main/eng@"/>
+          <FRBRuri value="/za/by-law/cape-town/2013/city-of-cape-town-constitution-of-transport-for-cape-town-bylaw/eng@"/>
+          <FRBRdate date="2013-12-06" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za/by-law/cape-town/2013/city-of-cape-town-constitution-of-transport-for-cape-town-bylaw/main/eng@"/>
+          <FRBRuri value="/za/by-law/cape-town/2013/city-of-cape-town-constitution-of-transport-for-cape-town-bylaw/eng@"/>
+          <FRBRdate date="2014-08-06" name="Generation"/>
+          <FRBRauthor href="#openbylaws" as="#author"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-12-06" name="Province of Western Cape: Provincial Gazette" number="7208" showAs="Province of Western Cape: Provincial Gazette"/>
+      <references source="#this">
+        <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council.cape-town" showAs="Cape Town City Council"/>
+        <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCTerm id="term-City" href="/ontology/term/this.eng.City" showAs="City"/>
+        <TLCTerm id="term-City_Manager" href="/ontology/term/this.eng.City_Manager" showAs="City Manager"/>
+        <TLCTerm id="term-Commissioner" href="/ontology/term/this.eng.Commissioner" showAs="Commissioner"/>
+        <TLCTerm id="term-Committee" href="/ontology/term/this.eng.Committee" showAs="Committee"/>
+        <TLCTerm id="term-Constitution" href="/ontology/term/this.eng.Constitution" showAs="Constitution"/>
+        <TLCTerm id="term-Contracting_Authority" href="/ontology/term/this.eng.Contracting_Authority" showAs="Contracting Authority"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-Director" href="/ontology/term/this.eng.Director" showAs="Director"/>
+        <TLCTerm id="term-Executive_Mayor" href="/ontology/term/this.eng.Executive_Mayor" showAs="Executive Mayor"/>
+        <TLCTerm id="term-Financial_Management" href="/ontology/term/this.eng.Financial_Management" showAs="Financial Management"/>
+        <TLCTerm id="term-Financial_Year" href="/ontology/term/this.eng.Financial_Year" showAs="Financial Year"/>
+        <TLCTerm id="term-Function" href="/ontology/term/this.eng.Function" showAs="Function"/>
+        <TLCTerm id="term-Functional_Area" href="/ontology/term/this.eng.Functional_Area" showAs="Functional Area"/>
+        <TLCTerm id="term-Infrastructure_Management" href="/ontology/term/this.eng.Infrastructure_Management" showAs="Infrastructure Management"/>
+        <TLCTerm id="term-Integrated_Development_Plan" href="/ontology/term/this.eng.Integrated_Development_Plan" showAs="Integrated Development Plan"/>
+        <TLCTerm id="term-Integrated_Public_Transport_Network" href="/ontology/term/this.eng.Integrated_Public_Transport_Network" showAs="Integrated Public Transport Network"/>
+        <TLCTerm id="term-Integrated_Transport_Plan" href="/ontology/term/this.eng.Integrated_Transport_Plan" showAs="Integrated Transport Plan"/>
+        <TLCTerm id="term-Intermodal_Planning_Committee" href="/ontology/term/this.eng.Intermodal_Planning_Committee" showAs="Intermodal Planning Committee"/>
+        <TLCTerm id="term-Land_Transport_Advisory_Board" href="/ontology/term/this.eng.Land_Transport_Advisory_Board" showAs="Land Transport Advisory Board"/>
+        <TLCTerm id="term-Liaison__Communication_and_Stakeholder_Management" href="/ontology/term/this.eng.Liaison__Communication_and_Stakeholder_Management" showAs="Liaison, Communication and Stakeholder Management"/>
+        <TLCTerm id="term-Mayoral_Committee" href="/ontology/term/this.eng.Mayoral_Committee" showAs="Mayoral Committee"/>
+        <TLCTerm id="term-MEC" href="/ontology/term/this.eng.MEC" showAs="MEC"/>
+        <TLCTerm id="term-Minister" href="/ontology/term/this.eng.Minister" showAs="Minister"/>
+        <TLCTerm id="term-MRE_Committee" href="/ontology/term/this.eng.MRE_Committee" showAs="MRE Committee"/>
+        <TLCTerm id="term-Municipal_Entity" href="/ontology/term/this.eng.Municipal_Entity" showAs="Municipal Entity"/>
+        <TLCTerm id="term-Municipal_Land_Transport_Fund" href="/ontology/term/this.eng.Municipal_Land_Transport_Fund" showAs="Municipal Land Transport Fund"/>
+        <TLCTerm id="term-Municipal_Finance_Management_Act" href="/ontology/term/this.eng.Municipal_Finance_Management_Act" showAs="Municipal Finance Management Act"/>
+        <TLCTerm id="term-Municipality" href="/ontology/term/this.eng.Municipality" showAs="Municipality"/>
+        <TLCTerm id="term-Municipal_Regulatory_Entity" href="/ontology/term/this.eng.Municipal_Regulatory_Entity" showAs="Municipal Regulatory Entity"/>
+        <TLCTerm id="term-National_Road_Traffic_Act" href="/ontology/term/this.eng.National_Road_Traffic_Act" showAs="National Road Traffic Act"/>
+        <TLCTerm id="term-Network_Operations_Management" href="/ontology/term/this.eng.Network_Operations_Management" showAs="Network Operations Management"/>
+        <TLCTerm id="term-NLTA" href="/ontology/term/this.eng.NLTA" showAs="NLTA"/>
+        <TLCTerm id="term-Non-Member" href="/ontology/term/this.eng.Non-Member" showAs="Non-Member"/>
+        <TLCTerm id="term-Operating_Licence_Administrative_System" href="/ontology/term/this.eng.Operating_Licence_Administrative_System" showAs="Operating Licence Administrative System"/>
+        <TLCTerm id="term-Operating_Licence_Strategy" href="/ontology/term/this.eng.Operating_Licence_Strategy" showAs="Operating Licence Strategy"/>
+        <TLCTerm id="term-Operator_Association" href="/ontology/term/this.eng.Operator_Association" showAs="Operator Association"/>
+        <TLCTerm id="term-Performance_Monitoring_and_Evaluation" href="/ontology/term/this.eng.Performance_Monitoring_and_Evaluation" showAs="Performance Monitoring and Evaluation"/>
+        <TLCTerm id="term-Planning_Authority" href="/ontology/term/this.eng.Planning_Authority" showAs="Planning Authority"/>
+        <TLCTerm id="term-PLTF" href="/ontology/term/this.eng.PLTF" showAs="PLTF"/>
+        <TLCTerm id="term-PRASA" href="/ontology/term/this.eng.PRASA" showAs="PRASA"/>
+        <TLCTerm id="term-Province" href="/ontology/term/this.eng.Province" showAs="Province"/>
+        <TLCTerm id="term-Public_Transport_Law_Enforcement" href="/ontology/term/this.eng.Public_Transport_Law_Enforcement" showAs="Public Transport Law Enforcement"/>
+        <TLCTerm id="term-Roads_Ordinance" href="/ontology/term/this.eng.Roads_Ordinance" showAs="Roads Ordinance"/>
+        <TLCTerm id="term-Structures_Act" href="/ontology/term/this.eng.Structures_Act" showAs="Structures Act"/>
+        <TLCTerm id="term-Systems_Act" href="/ontology/term/this.eng.Systems_Act" showAs="Systems Act"/>
+        <TLCTerm id="term-TCT" href="/ontology/term/this.eng.TCT" showAs="TCT"/>
+        <TLCTerm id="term-TIC" href="/ontology/term/this.eng.TIC" showAs="TIC"/>
+        <TLCTerm id="term-TMC" href="/ontology/term/this.eng.TMC" showAs="TMC"/>
+        <TLCTerm id="term-Urban_Transport_Act" href="/ontology/term/this.eng.Urban_Transport_Act" showAs="Urban Transport Act"/>
+      </references>
+    </meta>
+    <preamble>
+      <p>WHEREAS section 156(2) of the Constitution provides that a Municipality may make and administer by-laws for the effective administration of the matters which it has the right to administer;</p>
+      <p>WHEREAS the allocation of responsibility for land transport matters in the City has previously been shared between the City, the Province and the Department of Transport;</p>
+      <p>WHEREAS pursuant to section 11 of the NLTA, a Municipality may have certain functions assigned to it;</p>
+      <p>WHEREAS in order to carry out its transport functions (including any such functions that may be assigned to it) effectively, the City wishes to establish a new transport authority within the City as a governance structure by which all such transport functions shall be collated so as to facilitate integrated transport for the benefit of the citizens of and visitors to the City;</p>
+      <p>WHEREAS such new transport authority shall be TCT and its functions shall be as set out in this By-law;</p>
+      <p>WHEREAS in response to the requirements of the NLTA, the City is required to improve the provision of transport services and to set standards which will change the way in which transport infrastructure, services, operations and systems are implemented and managed;</p>
+      <p>WHEREAS the City may exercise its powers in terms of sections 12 and 19 respectively of the NLTA, the relevant provisions of the Roads Ordinance, the National Road Traffic Act and the Urban Transport Act, and any other relevant transport related legislation and regulation; and</p>
+      <p>WHEREAS TCT shall be the body through which the City's functions under the NLTA are discharged;</p>
+      <p>AND NOW THEREFORE, BE IT ENACTED by the Council of the City of Cape Town, as follows:</p>
+      <p>GENERAL PROVISIONS</p>
+    </preamble>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <subsection id="section-1.subsection-0">
+          <content>
+            <p>In this By-law, unless the context indicates otherwise:</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-City">
+          <content>
+            <p>"<def refersTo="#term-City">City</def>" means the <term refersTo="#term-Municipality" id="trm0">Municipality</term> of the City of Cape Town;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-City_Manager">
+          <content>
+            <p>"<def refersTo="#term-City_Manager">City Manager</def>" means the person appointed as the municipal manager of the <term refersTo="#term-City" id="trm1">City</term> in terms of section 54A of the <term refersTo="#term-Structures_Act" id="trm2">Structures Act</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Commissioner">
+          <content>
+            <p>"<def refersTo="#term-Commissioner">Commissioner</def>" means the person appointed by the <term refersTo="#term-Council" id="trm3">Council</term> to be the commissioner of <term refersTo="#term-TCT" id="trm4">TCT</term> and whose appointment shall be made pursuant to section 57 of the <term refersTo="#term-Systems_Act" id="trm5">Systems Act</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Committee">
+          <content>
+            <p>"<def refersTo="#term-Committee">Committee</def>" means a section 79 <term refersTo="#term-Structures_Act" id="trm6">Structures Act</term> committee;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Constitution">
+          <content>
+            <p>"<def refersTo="#term-Constitution">Constitution</def>" means the Constitution of the Republic of South Africa, 1996;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Contracting_Authority">
+          <content>
+            <p>"<def refersTo="#term-Contracting_Authority">Contracting Authority</def>" means a <term refersTo="#term-Municipality" id="trm7">Municipality</term> to which the contracting authority function has been assigned in terms of the <term refersTo="#term-NLTA" id="trm8">NLTA</term>, and whose responsibilities are as set out in section 4 and which are to fall under <term refersTo="#term-TCT" id="trm9">TCT</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Council">
+          <content>
+            <p>"<def refersTo="#term-Council">Council</def>" means the municipal council of the <term refersTo="#term-City" id="trm10">City</term> as referred to in section 157 of the <term refersTo="#term-Constitution" id="trm11">Constitution</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Director">
+          <content>
+            <p>"<def refersTo="#term-Director">Director</def>" means any holder of the post of director (whether full or part time, temporary or permanent) in the <term refersTo="#term-City" id="trm12">City</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Executive_Mayor">
+          <content>
+            <p>"<def refersTo="#term-Executive_Mayor">Executive Mayor</def>" means the executive mayor of the <term refersTo="#term-City" id="trm13">City</term> elected in terms of section 55 of the <term refersTo="#term-Structures_Act" id="trm14">Structures Act</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Financial_Management">
+          <content>
+            <p>"<def refersTo="#term-Financial_Management">Financial Management</def>" means such responsibilities as set out in section 7 and which are to fall under <term refersTo="#term-TCT" id="trm15">TCT</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Financial_Year">
+          <content>
+            <p>"<def refersTo="#term-Financial_Year">Financial Year</def>" means 1 July to 30 June (inclusive);</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-12">
+          <content>
+            <blockList id="def-term-Function">
+              <listIntroduction>"<def refersTo="#term-Function">Function</def>" means any of the following functions to be performed through <term refersTo="#term-TCT" id="trm16">TCT</term> (as the context may require):              </listIntroduction>
+              <item id="section-1.subsection-12.list12.a">
+                <num>(a)</num>
+                <p><term refersTo="#term-Planning_Authority" id="trm17">Planning Authority</term>;</p>
+              </item>
+              <item id="section-1.subsection-12.list12.b">
+                <num>(b)</num>
+                <p><term refersTo="#term-Contracting_Authority" id="trm18">Contracting Authority</term>;</p>
+              </item>
+              <item id="section-1.subsection-12.list12.c">
+                <num>(c)</num>
+                <p><term refersTo="#term-Municipal_Regulatory_Entity" id="trm19">Municipal Regulatory Entity</term>;</p>
+              </item>
+              <item id="section-1.subsection-12.list12.d">
+                <num>(d)</num>
+                <p><term refersTo="#term-Performance_Monitoring_and_Evaluation" id="trm20">Performance Monitoring and Evaluation</term>;</p>
+              </item>
+              <item id="section-1.subsection-12.list12.e">
+                <num>(e)</num>
+                <p><term refersTo="#term-Financial_Management" id="trm21">Financial Management</term>;</p>
+              </item>
+              <item id="section-1.subsection-12.list12.f">
+                <num>(f)</num>
+                <p><term refersTo="#term-Public_Transport_Law_Enforcement" id="trm22">Public Transport Law Enforcement</term>;</p>
+              </item>
+              <item id="section-1.subsection-12.list12.g">
+                <num>(g)</num>
+                <p><term refersTo="#term-Liaison__Communication_and_Stakeholder_Management" id="trm23">Liaison, Communication and Stakeholder Management</term>;</p>
+              </item>
+              <item id="section-1.subsection-12.list12.h">
+                <num>(h)</num>
+                <p><term refersTo="#term-Infrastructure_Management" id="trm24">Infrastructure Management</term>; and</p>
+              </item>
+              <item id="section-1.subsection-12.list12.i">
+                <num>(i)</num>
+                <p><term refersTo="#term-Network_Operations_Management" id="trm25">Network Operations Management</term>;</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="def-term-Functional_Area">
+          <content>
+            <p>"<def refersTo="#term-Functional_Area">Functional Area</def>" means the area of the <term refersTo="#term-City" id="trm26">City</term> together with the areas of such other Municipalities with whom the <term refersTo="#term-City" id="trm27">City</term> has a transport planning relationship;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Infrastructure_Management">
+          <content>
+            <p>"<def refersTo="#term-Infrastructure_Management">Infrastructure Management</def>" means such responsibilities as set out in section 10 and which are to fall under <term refersTo="#term-TCT" id="trm28">TCT</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Integrated_Development_Plan">
+          <content>
+            <p>"<def refersTo="#term-Integrated_Development_Plan">Integrated Development Plan</def>" or "IDP" means the <term refersTo="#term-City" id="trm29">City</term>’s integrated development plan adopted in terms of chapter 5 of the <term refersTo="#term-Systems_Act" id="trm30">Systems Act</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Integrated_Public_Transport_Network">
+          <content>
+            <p>"<def refersTo="#term-Integrated_Public_Transport_Network">Integrated Public Transport Network</def>" or "IPTN" means the integrated public transport network (for both road and rail) for the <term refersTo="#term-City" id="trm31">City</term> as referred to in the <term refersTo="#term-NLTA" id="trm32">NLTA</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Integrated_Transport_Plan">
+          <content>
+            <p>"<def refersTo="#term-Integrated_Transport_Plan">Integrated Transport Plan</def>" or "ITP" means an integrated transport plan for the <term refersTo="#term-City" id="trm33">City</term> as contemplated in section 36 of the <term refersTo="#term-NLTA" id="trm34">NLTA</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Intermodal_Planning_Committee">
+          <content>
+            <p>"<def refersTo="#term-Intermodal_Planning_Committee">Intermodal Planning Committee</def>" means the intermodal planning committee established in terms of section 15 of the <term refersTo="#term-NLTA" id="trm35">NLTA</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Land_Transport_Advisory_Board">
+          <content>
+            <p>"<def refersTo="#term-Land_Transport_Advisory_Board">Land Transport Advisory Board</def>" means the land transport advisory board established in terms of section 16 of the <term refersTo="#term-NLTA" id="trm36">NLTA</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Liaison__Communication_and_Stakeholder_Management">
+          <content>
+            <p>"<def refersTo="#term-Liaison__Communication_and_Stakeholder_Management">Liaison, Communication and Stakeholder Management</def>" means such responsibilities as set out in section 9 and which are to fall under <term refersTo="#term-TCT" id="trm37">TCT</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Mayoral_Committee">
+          <content>
+            <p>"<def refersTo="#term-Mayoral_Committee">Mayoral Committee</def>" means the mayoral committee of the <term refersTo="#term-City" id="trm38">City</term> elected in terms of section 60 of the <term refersTo="#term-Structures_Act" id="trm39">Structures Act</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-MEC">
+          <content>
+            <p>"<def refersTo="#term-MEC">MEC</def>" means the member of the Executive <term refersTo="#term-Council" id="trm40">Council</term> of the <term refersTo="#term-Province" id="trm41">Province</term> who is responsible for transport in the <term refersTo="#term-Province" id="trm42">Province</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Minister">
+          <content>
+            <p>"<def refersTo="#term-Minister">Minister</def>" means the minister responsible for transport in the national sphere of government;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-MRE_Committee">
+          <content>
+            <p>"<def refersTo="#term-MRE_Committee">MRE Committee</def>" means the <term refersTo="#term-Municipal_Regulatory_Entity" id="trm43">Municipal Regulatory Entity</term> committee referred to in section 5(4);</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Municipal_Entity">
+          <content>
+            <p>"<def refersTo="#term-Municipal_Entity">Municipal Entity</def>" means a municipal entity as defined in section 1 of the <term refersTo="#term-Systems_Act" id="trm44">Systems Act</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Municipal_Land_Transport_Fund">
+          <content>
+            <p>"<def refersTo="#term-Municipal_Land_Transport_Fund">Municipal Land Transport Fund</def>" means a fund established pursuant to section 27 of the <term refersTo="#term-NLTA" id="trm45">NLTA</term> and which is to fall under <term refersTo="#term-TCT" id="trm46">TCT</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Municipal_Finance_Management_Act">
+          <content>
+            <p>"<def refersTo="#term-Municipal_Finance_Management_Act">Municipal Finance Management Act</def>" means the Local Government: Municipal Finance Management Act, No 56 of 2003;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Municipality">
+          <content>
+            <p>"<def refersTo="#term-Municipality">Municipality</def>" includes all types of municipalities contemplated in section 155 of the <term refersTo="#term-Constitution" id="trm47">Constitution</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Municipal_Regulatory_Entity">
+          <content>
+            <p>"<def refersTo="#term-Municipal_Regulatory_Entity">Municipal Regulatory Entity</def>" means a <term refersTo="#term-Municipality" id="trm48">Municipality</term> to which the operating licence function has been assigned in terms of the <term refersTo="#term-NLTA" id="trm49">NLTA</term>, and whose responsibilities are as set out in section 5 and which are to fall under <term refersTo="#term-TCT" id="trm50">TCT</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-National_Road_Traffic_Act">
+          <content>
+            <p>"<def refersTo="#term-National_Road_Traffic_Act">National Road Traffic Act</def>" means the National Road Traffic Act, No 93 of 1996;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Network_Operations_Management">
+          <content>
+            <p>"<def refersTo="#term-Network_Operations_Management">Network Operations Management</def>" means such responsibilities as set out in section 11 and which are to fall under <term refersTo="#term-TCT" id="trm51">TCT</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-NLTA">
+          <content>
+            <p>"<def refersTo="#term-NLTA">NLTA</def>" means the National Land Transport Act, No 5 of 2009;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Non-Member">
+          <content>
+            <p>"<def refersTo="#term-Non-Member">Non-Member</def>" means any operator operating in the <term refersTo="#term-City" id="trm52">City</term> who is not a member of an <term refersTo="#term-Operator_Association" id="trm53">Operator Association</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Operating_Licence_Administrative_System">
+          <content>
+            <p>"<def refersTo="#term-Operating_Licence_Administrative_System">Operating Licence Administrative System</def>" or "OLAS" means the operating licence administrative system that is to be used to manage the function of the <term refersTo="#term-Municipal_Regulatory_Entity" id="trm54">Municipal Regulatory Entity</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Operating_Licence_Strategy">
+          <content>
+            <p>"<def refersTo="#term-Operating_Licence_Strategy">Operating Licence Strategy</def>" or "OLS" means the operating licence strategy set out in the ITP and which is to be used to manage the function of the <term refersTo="#term-Municipal_Regulatory_Entity" id="trm55">Municipal Regulatory Entity</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Operator_Association">
+          <content>
+            <p>"<def refersTo="#term-Operator_Association">Operator Association</def>" means any operator association in relation to any on demand public transport service operating in the <term refersTo="#term-City" id="trm56">City</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Performance_Monitoring_and_Evaluation">
+          <content>
+            <p>"<def refersTo="#term-Performance_Monitoring_and_Evaluation">Performance Monitoring and Evaluation</def>" means such responsibilities as set out in section 6 and which are to fall under <term refersTo="#term-TCT" id="trm57">TCT</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Planning_Authority">
+          <content>
+            <p>"<def refersTo="#term-Planning_Authority">Planning Authority</def>" means a planning authority (as defined in the <term refersTo="#term-NLTA" id="trm58">NLTA</term>), and whose responsibilities are as set out in section 3 and which are to fall under <term refersTo="#term-TCT" id="trm59">TCT</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-PLTF">
+          <content>
+            <p>"<def refersTo="#term-PLTF">PLTF</def>" means a provincial land transport framework contemplated in section 35 of the <term refersTo="#term-NLTA" id="trm60">NLTA</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-PRASA">
+          <content>
+            <p>"<def refersTo="#term-PRASA">PRASA</def>" means the Passenger Rail Agency of South Africa established in terms of section 23 of the Legal Succession to the South African Transport Services Act, No 9 of 1989;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Province">
+          <content>
+            <p>"<def refersTo="#term-Province">Province</def>" means the Provincial Government of the Western Cape;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Public_Transport_Law_Enforcement">
+          <content>
+            <p>"<def refersTo="#term-Public_Transport_Law_Enforcement">Public Transport Law Enforcement</def>" means such responsibilities as set out in section 8 and which are to fall under <term refersTo="#term-TCT" id="trm61">TCT</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Roads_Ordinance">
+          <content>
+            <p>"<def refersTo="#term-Roads_Ordinance">Roads Ordinance</def>" means the Roads Ordinance, No 19 of 1976;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Structures_Act">
+          <content>
+            <p>"<def refersTo="#term-Structures_Act">Structures Act</def>" means the Local Government: Municipal Structures Act, No 117 of 1998;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Systems_Act">
+          <content>
+            <p>"<def refersTo="#term-Systems_Act">Systems Act</def>" means the Local Government: Municipal Systems Act, No 32 of 2000;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-TCT">
+          <content>
+            <p>"<def refersTo="#term-TCT">TCT</def>" means Transport for Cape Town, the <term refersTo="#term-City" id="trm62">City</term>'s transport authority;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-TIC">
+          <content>
+            <p>"<def refersTo="#term-TIC">TIC</def>" means the <term refersTo="#term-City" id="trm63">City</term>'s Transport Information Centre and which is to fall under <term refersTo="#term-TCT" id="trm64">TCT</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-TMC">
+          <content>
+            <p>"<def refersTo="#term-TMC">TMC</def>" means the <term refersTo="#term-City" id="trm65">City</term>'s Transport Management Centre and which is to fall under <term refersTo="#term-TCT" id="trm66">TCT</term>; and</p>
+          </content>
+        </subsection>
+        <subsection id="def-term-Urban_Transport_Act">
+          <content>
+            <p>"<def refersTo="#term-Urban_Transport_Act">Urban Transport Act</def>" means the Urban Transport Act, No 78 of 1977.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Establishment and functions of tct</heading>
+        <subsection id="section-2.1">
+          <num>(1)</num>
+          <content>
+            <p>Subject to subsection (2), the <term refersTo="#term-Council" id="trm67">Council</term> shall establish a transport authority, to be known as Transport for Cape Town, within the <term refersTo="#term-City" id="trm68">City</term> as a governance structure by which all the Functions shall be collated so as to facilitate integrated transport for the benefit of the citizens of and visitors to the <term refersTo="#term-City" id="trm69">City</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-2.2.list1">
+              <listIntroduction><term refersTo="#term-TCT" id="trm70">TCT</term> shall not be a separate juristic person and in particular shall not be a <term refersTo="#term-Municipal_Entity" id="trm71">Municipal Entity</term> and:              </listIntroduction>
+              <item id="section-2.2.list1.a">
+                <num>(a)</num>
+                <p><term refersTo="#term-TCT" id="trm72">TCT</term> shall remain in all respects part of the <term refersTo="#term-City" id="trm73">City</term> and the <term refersTo="#term-City" id="trm74">City</term>’s governance and reporting structure; and</p>
+              </item>
+              <item id="section-2.2.list1.b">
+                <num>(b)</num>
+                <p>the <term refersTo="#term-Commissioner" id="trm75">Commissioner</term> shall not acquire any functions or powers except those lawfully granted and delegated to the <term refersTo="#term-Commissioner" id="trm76">Commissioner</term> within the system of delegations, as amended from time to time.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-2.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm77">Commissioner</term> shall be responsible and accountable for the performance of the Functions and in particular (but without limitation) shall set and manage the implementation of the strategy for delivering integrated transport for the benefit of the citizens of and visitors to the <term refersTo="#term-City" id="trm78">City</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.4">
+          <num>(4)</num>
+          <content>
+            <blockList id="section-2.4.list3">
+              <listIntroduction>
+Without prejudice to subsection (3), the <term refersTo="#term-Commissioner" id="trm79">Commissioner</term> shall have such further functions as may be delegated to him or her by the <term refersTo="#term-Council" id="trm80">Council</term> from time to time:              </listIntroduction>
+              <item id="section-2.4.list3.a">
+                <num>(a)</num>
+                <p>in accordance with such guidance or directions as may be issued by the <term refersTo="#term-Council" id="trm81">Council</term>;</p>
+              </item>
+              <item id="section-2.4.list3.b">
+                <num>(b)</num>
+                <p>for the purpose of facilitating the discharge by the <term refersTo="#term-City" id="trm82">City</term> of the <term refersTo="#term-City" id="trm83">City</term>'s functions under the <term refersTo="#term-NLTA" id="trm84">NLTA</term>, the <term refersTo="#term-Urban_Transport_Act" id="trm85">Urban Transport Act</term>, the <term refersTo="#term-Roads_Ordinance" id="trm86">Roads Ordinance</term>, the <term refersTo="#term-National_Road_Traffic_Act" id="trm87">National Road Traffic Act</term> and any other relevant transport related legislation and regulation; and</p>
+              </item>
+              <item id="section-2.4.list3.c">
+                <num>(c)</num>
+                <p>for the purpose of securing or facilitating the implementation of the integrated transport strategy of the <term refersTo="#term-City" id="trm88">City</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-2.5">
+          <num>(5)</num>
+          <content>
+            <blockList id="section-2.5.list4">
+              <item id="section-2.5.list4.a">
+                <num>(a)</num>
+                <p><term refersTo="#term-TCT" id="trm89">TCT</term> shall be headed by the <term refersTo="#term-Commissioner" id="trm90">Commissioner</term>.</p>
+              </item>
+              <item id="section-2.5.list4.b">
+                <num>(b)</num>
+                <p>The <term refersTo="#term-Commissioner" id="trm91">Commissioner</term> shall report directly to the <term refersTo="#term-City_Manager" id="trm92">City Manager</term> in accordance with section 57 of the <term refersTo="#term-Systems_Act" id="trm93">Systems Act</term>.</p>
+              </item>
+              <item id="section-2.5.list4.c">
+                <num>(c)</num>
+                <p>The <term refersTo="#term-Council" id="trm94">Council</term> may delegate to the <term refersTo="#term-Commissioner" id="trm95">Commissioner</term> such powers in relation to the performance of the Functions of <term refersTo="#term-TCT" id="trm96">TCT</term> to enable the <term refersTo="#term-Commissioner" id="trm97">Commissioner</term> to be responsible and accountable for the Functions.</p>
+              </item>
+              <item id="section-2.5.list4.d">
+                <num>(d)</num>
+                <p>Subject to the prior delegation of such authority by the <term refersTo="#term-City_Manager" id="trm98">City Manager</term>, the <term refersTo="#term-Commissioner" id="trm99">Commissioner</term> shall, subject to following due process, in his or her discretion, appoint such Directors as may be necessary to carry out the Functions.</p>
+              </item>
+              <item id="section-2.5.list4.e">
+                <num>(e)</num>
+                <p>Subject to any express provision contained in this By-law, the <term refersTo="#term-Constitution" id="trm100">Constitution</term>, the <term refersTo="#term-NLTA" id="trm101">NLTA</term>, the <term refersTo="#term-Systems_Act" id="trm102">Systems Act</term>, the <term refersTo="#term-Structures_Act" id="trm103">Structures Act</term>, the <term refersTo="#term-Roads_Ordinance" id="trm104">Roads Ordinance</term>, the <term refersTo="#term-National_Road_Traffic_Act" id="trm105">National Road Traffic Act</term>, the <term refersTo="#term-Urban_Transport_Act" id="trm106">Urban Transport Act</term> and any other transport related legislation and regulation, the <term refersTo="#term-Commissioner" id="trm107">Commissioner</term> may delegate any of his or her functions in terms of this By-law to any one or more Directors.</p>
+              </item>
+              <item id="section-2.5.list4.f">
+                <num>(f)</num>
+                <blockList id="section-2.5.list4.f.list0">
+                  <listIntroduction>The exercise of any delegated authority conferred by the <term refersTo="#term-Commissioner" id="trm108">Commissioner</term> under this By-law or otherwise is subject to:</listIntroduction>
+                  <item id="section-2.5.list4.f.list0.i">
+                    <num>(i)</num>
+                    <p>any restrictions imposed by or in accordance with law;</p>
+                  </item>
+                  <item id="section-2.5.list4.f.list0.ii">
+                    <num>(ii)</num>
+                    <p>all other provisions of this By-law; and</p>
+                  </item>
+                  <item id="section-2.5.list4.f.list0.iii">
+                    <num>(iii)</num>
+                    <p>all other applicable policies, procedures and operational by-laws.</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-2.5.list4.g">
+                <num>(g)</num>
+                <p>Any reference to any enactment, regulation or other similar instrument in this By-law shall be construed as a reference to the enactment, regulation or instrument as amended, replaced, consolidated or re-enacted.</p>
+              </item>
+              <item id="section-2.5.list4.h">
+                <num>(h)</num>
+                <p>To the extent permitted or required by law, the <term refersTo="#term-Commissioner" id="trm109">Commissioner</term> shall, subject to the required authority being obtained, enter into such memoranda of agreement on behalf of the <term refersTo="#term-Council" id="trm110">Council</term> with any or all of the national or provincial spheres of government or other Municipalities in order to carry out the Functions performed through <term refersTo="#term-TCT" id="trm111">TCT</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-2.subsection-5">
+          <content>
+            <p>SPECIFIC FUNCTIONS OF <term refersTo="#term-TCT" id="trm112">TCT</term></p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Planning authority</heading>
+        <subsection id="section-3.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm113">Commissioner</term> shall be responsible for implementing section 14 (Planning authorities), section 15 (Intermodal planning committees), section 16 (Land transport advisory boards), sections 31 to 39 (Transport planning) (inclusive) of the <term refersTo="#term-NLTA" id="trm114">NLTA</term>, together with all other sections of the <term refersTo="#term-NLTA" id="trm115">NLTA</term> relevant to the activities of a planning authority (as defined in the <term refersTo="#term-NLTA" id="trm116">NLTA</term>).</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-3.2.list1">
+              <listIntroduction>
+Without prejudice to subsection (1), the <term refersTo="#term-Commissioner" id="trm117">Commissioner</term> shall develop, implement, manage and review the ITP for the <term refersTo="#term-City" id="trm118">City</term> and (without limitation) shall ensure that such ITP:              </listIntroduction>
+              <item id="section-3.2.list1.a">
+                <num>(a)</num>
+                <p>complies with all law, regulations and applicable guidance on the contents, manner and form of such ITP;</p>
+              </item>
+              <item id="section-3.2.list1.b">
+                <num>(b)</num>
+                <p>sets out the functional parameters for each <term refersTo="#term-Function" id="trm119">Function</term> and the obligations and standards that each <term refersTo="#term-Function" id="trm120">Function</term> is required to meet;</p>
+              </item>
+              <item id="section-3.2.list1.c">
+                <num>(c)</num>
+                <p>requires each <term refersTo="#term-Function" id="trm121">Function</term> to report regularly to the <term refersTo="#term-Performance_Monitoring_and_Evaluation" id="trm122">Performance Monitoring and Evaluation</term> <term refersTo="#term-Function" id="trm123">Function</term> on the progress and achievements against such obligations and standards referred to in subsection (2)(b);</p>
+              </item>
+              <item id="section-3.2.list1.d">
+                <num>(d)</num>
+                <blockList id="section-3.2.list1.d.list0">
+                  <listIntroduction>sets out how the <term refersTo="#term-Commissioner" id="trm124">Commissioner</term> shall:</listIntroduction>
+                  <item id="section-3.2.list1.d.list0.i">
+                    <num>(i)</num>
+                    <p>administer the awarding and management of contracts to be entered into by the <term refersTo="#term-City" id="trm125">City</term> as the <term refersTo="#term-Contracting_Authority" id="trm126">Contracting Authority</term>, subject to the <term refersTo="#term-City" id="trm127">City</term>’s Supply Chain Management regulations and policies;</p>
+                  </item>
+                  <item id="section-3.2.list1.d.list0.ii">
+                    <num>(ii)</num>
+                    <p>set out in the <term refersTo="#term-Operating_Licence_Strategy" id="trm128">Operating Licence Strategy</term> how it intends to regulate the operating licences to be granted by the <term refersTo="#term-City" id="trm129">City</term> as the <term refersTo="#term-Municipal_Regulatory_Entity" id="trm130">Municipal Regulatory Entity</term> (and the <term refersTo="#term-Commissioner" id="trm131">Commissioner</term> shall ensure that such <term refersTo="#term-Operating_Licence_Strategy" id="trm132">Operating Licence Strategy</term> complies with the <term refersTo="#term-Constitution" id="trm133">Constitution</term>, the <term refersTo="#term-NLTA" id="trm134">NLTA</term>, the <term refersTo="#term-Municipal_Finance_Management_Act" id="trm135">Municipal Finance Management Act</term>, the <term refersTo="#term-Systems_Act" id="trm136">Systems Act</term> and the IDP); and</p>
+                  </item>
+                  <item id="section-3.2.list1.d.list0.iii">
+                    <num>(iii)</num>
+                    <p>develop and maintain the <term refersTo="#term-City" id="trm137">City</term>'s transport infrastructure and related facilities; and</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-3.2.list1.e">
+                <num>(e)</num>
+                <p>is inclusive of the IPTN.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-3.3">
+          <num>(3)</num>
+          <content>
+            <p>The standards that each <term refersTo="#term-Function" id="trm138">Function</term> is required to meet as referred to in subsection (2)(b) shall, on certain issues, including (without limitation) universal access, specialised services, freight and non-motorised transport, be drawn from the sector plans forming part of the ITP.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.4">
+          <num>(4)</num>
+          <content>
+            <p>Without prejudice to subsections (1), (2) and (3), the <term refersTo="#term-Commissioner" id="trm139">Commissioner</term> shall prepare an ITP for each five year period (the first of which shall be for the period 2013 to 2018) and shall ensure that each such ITP is aligned to the corresponding IDP for the <term refersTo="#term-City" id="trm140">City</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.5">
+          <num>(5)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm141">Commissioner</term> shall establish and maintain suitable means to ensure that the <term refersTo="#term-Planning_Authority" id="trm142">Planning Authority</term> <term refersTo="#term-Function" id="trm143">Function</term> interfaces with the <term refersTo="#term-Municipal_Regulatory_Entity" id="trm144">Municipal Regulatory Entity</term> in relation to all matters relating to the planning of the IPTN and to all relevant obligations under the <term refersTo="#term-NLTA" id="trm145">NLTA</term>, including section 57 of the <term refersTo="#term-NLTA" id="trm146">NLTA</term> in particular.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.6">
+          <num>(6)</num>
+          <content>
+            <p>Without prejudice to subsection (5), the <term refersTo="#term-Commissioner" id="trm147">Commissioner</term> shall provide comments and directions based on its ITP to all relevant Regulatory Entities in connection with any application for the granting, renewal, amendment or transfer of an operating licence that relates to the <term refersTo="#term-City" id="trm148">City</term> and/or its <term refersTo="#term-Functional_Area" id="trm149">Functional Area</term> (other than a tourist transport service or charter service, and other than a contracted service contemplated in section 56 of the <term refersTo="#term-NLTA" id="trm150">NLTA</term>) pursuant to section 55 and other relevant provisions of the <term refersTo="#term-NLTA" id="trm151">NLTA</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.7">
+          <num>(7)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm152">Commissioner</term> shall, on behalf of the <term refersTo="#term-City" id="trm153">City</term> as the <term refersTo="#term-Planning_Authority" id="trm154">Planning Authority</term>, respond to all land use applications in the <term refersTo="#term-City" id="trm155">City</term> that have a potential transport and/or traffic impact and in particular the extent to which they are aligned with the ITP, taking into account their related traffic impact, travel demand management and cost, and having regard to the application of the development contribution policy.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.8">
+          <num>(8)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm156">Commissioner</term> shall be responsible for developing, implementing and managing the innovation strategy and for developing the associated requirements to keep <term refersTo="#term-TCT" id="trm157">TCT</term> at the forefront of advanced integrated transport systems to achieve the citizen service goals that are fundamental to <term refersTo="#term-TCT" id="trm158">TCT</term>'s overall business plan, and for medium and long term strategic planning in all Functions.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.9">
+          <num>(9)</num>
+          <content>
+            <blockList id="section-3.9.list8">
+              <listIntroduction>
+Without prejudice to subsection (8), the <term refersTo="#term-Commissioner" id="trm159">Commissioner</term> shall:              </listIntroduction>
+              <item id="section-3.9.list8.a">
+                <num>(a)</num>
+                <p>be responsible for continuous progress towards the goal of integrated transport management to better serve the citizens of and visitors to the <term refersTo="#term-City" id="trm160">City</term>; and</p>
+              </item>
+              <item id="section-3.9.list8.b">
+                <num>(b)</num>
+                <p>regularly review innovations made by transport authorities in other jurisdictions to ensure the <term refersTo="#term-City" id="trm161">City</term>’s transport systems and services meet the highest standards currently available.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-3.10">
+          <num>(10)</num>
+          <content>
+            <p>Without prejudice to subsection (1), the <term refersTo="#term-Commissioner" id="trm162">Commissioner</term> shall provide such information, analysis and advice to the <term refersTo="#term-Intermodal_Planning_Committee" id="trm163">Intermodal Planning Committee</term> and the <term refersTo="#term-Land_Transport_Advisory_Board" id="trm164">Land Transport Advisory Board</term> as shall be required from time to time.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.11">
+          <num>(11)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm165">Commissioner</term> shall, on a monthly basis, provide appropriate data in relation to its activities under this <term refersTo="#term-Planning_Authority" id="trm166">Planning Authority</term> <term refersTo="#term-Function" id="trm167">Function</term> to the <term refersTo="#term-Performance_Monitoring_and_Evaluation" id="trm168">Performance Monitoring and Evaluation</term> <term refersTo="#term-Function" id="trm169">Function</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Contracting authority</heading>
+        <subsection id="section-4.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm170">Commissioner</term> shall be responsible for implementing section 40 (Integration of bus contract system into larger public transport system), section 41 (Negotiated contracts), section 42 (Subsidised service contracts), section 43 (Commercial service contracts), section 44 (Requirements to qualify as tenderer for commercial or subsidised service contracts), section 45 (Involvement of Municipalities in public transport services) and section 46 (Existing contracting arrangements) of the <term refersTo="#term-NLTA" id="trm171">NLTA</term>, together with all other sections of the <term refersTo="#term-NLTA" id="trm172">NLTA</term> relevant to the activities of a <term refersTo="#term-Municipality" id="trm173">Municipality</term> as a contracting authority (as defined in the <term refersTo="#term-NLTA" id="trm174">NLTA</term>).</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-4.2.list1">
+              <listIntroduction>
+Without prejudice to subsection (1), the <term refersTo="#term-Commissioner" id="trm175">Commissioner</term> shall:              </listIntroduction>
+              <item id="section-4.2.list1.a">
+                <num>(a)</num>
+                <p>by reference to the ITP (including the IPTN), establish the standards, operational parameters, service specifications (including provision for the repair, maintenance and replacement of transport assets being provided by or on behalf of public transport service providers), (subject to section 7(3)(c)) tariffs, payment regimes and the interface of the operators with the <term refersTo="#term-City" id="trm176">City</term>'s transport network for all contracts to be awarded and managed by the <term refersTo="#term-City" id="trm177">City</term> as the <term refersTo="#term-Contracting_Authority" id="trm178">Contracting Authority</term> pursuant to the <term refersTo="#term-NLTA" id="trm179">NLTA</term>;</p>
+              </item>
+              <item id="section-4.2.list1.b">
+                <num>(b)</num>
+                <p>prepare and maintain the contract documentation for all the contracts referred to in subsection (2)(a) and administer the process of appointing public transport service providers for such contracts, together with such support service providers, to provide (without limitation) monitoring, information management, facilities management, advertising and automated fare collection services as may be necessary or desirable;</p>
+              </item>
+              <item id="section-4.2.list1.c">
+                <num>(c)</num>
+                <p>establish and maintain a system for monitoring the service delivery and performance standards which relate to the contracts referred to in subsection in (2)(a); and</p>
+              </item>
+              <item id="section-4.2.list1.d">
+                <num>(d)</num>
+                <p>provide details to the <term refersTo="#term-Performance_Monitoring_and_Evaluation" id="trm180">Performance Monitoring and Evaluation</term> <term refersTo="#term-Function" id="trm181">Function</term> of the performance of all public transport service providers under the contracts referred to in subsection (2)(a).</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-4.3.list2">
+              <listIntroduction>
+The <term refersTo="#term-Commissioner" id="trm182">Commissioner</term> shall be responsible for monitoring:              </listIntroduction>
+              <item id="section-4.3.list2.a">
+                <num>(a)</num>
+                <p>the maintenance and safety standards of all scheduled public transport vehicles (whether or not such vehicles are owned by the <term refersTo="#term-City" id="trm183">City</term>); and</p>
+              </item>
+              <item id="section-4.3.list2.b">
+                <num>(b)</num>
+                <p>compliance by the operators of such scheduled public transport vehicles in relation to any qualifications, licences and certificates required for the drivers of such vehicles,</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4.subsection-3">
+          <content>
+            <p>in each case in accordance with all applicable law and any contracts awarded to such operators of such scheduled public transport vehicles by the <term refersTo="#term-Commissioner" id="trm184">Commissioner</term> on behalf of the <term refersTo="#term-City" id="trm185">City</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4">
+          <num>(4)</num>
+          <content>
+            <blockList id="section-4.4.list4">
+              <listIntroduction>
+The <term refersTo="#term-Commissioner" id="trm186">Commissioner</term> shall ensure effective and efficient financial management and provide subsidy management support, including (without limitation) by:              </listIntroduction>
+              <item id="section-4.4.list4.a">
+                <num>(a)</num>
+                <p>processing contract claims;</p>
+              </item>
+              <item id="section-4.4.list4.b">
+                <num>(b)</num>
+                <p>entering claims into the subsidy management system;</p>
+              </item>
+              <item id="section-4.4.list4.c">
+                <num>(c)</num>
+                <p>completing financial documents for payments;</p>
+              </item>
+              <item id="section-4.4.list4.d">
+                <num>(d)</num>
+                <p>communicating with operators regarding payment; and</p>
+              </item>
+              <item id="section-4.4.list4.e">
+                <num>(e)</num>
+                <p>providing weekly and monthly expenditure reports.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4.5">
+          <num>(5)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm187">Commissioner</term> shall ensure that the <term refersTo="#term-City" id="trm188">City</term> is at all times compliant with the reporting and other information requirements of the Division of Revenue Act in force at the time in question.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.6">
+          <num>(6)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm189">Commissioner</term> shall establish and maintain suitable means to ensure that the <term refersTo="#term-City" id="trm190">City</term>'s <term refersTo="#term-Function" id="trm191">Function</term> as <term refersTo="#term-Contracting_Authority" id="trm192">Contracting Authority</term> interfaces with the <term refersTo="#term-City" id="trm193">City</term>'s Functions as <term refersTo="#term-Planning_Authority" id="trm194">Planning Authority</term> and <term refersTo="#term-Municipal_Regulatory_Entity" id="trm195">Municipal Regulatory Entity</term> respectively in relation to the IPTN and to all relevant obligations under the <term refersTo="#term-NLTA" id="trm196">NLTA</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.7">
+          <num>(7)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm197">Commissioner</term> shall, on a monthly basis, provide appropriate data in relation to its activities under this <term refersTo="#term-Contracting_Authority" id="trm198">Contracting Authority</term> <term refersTo="#term-Function" id="trm199">Function</term> to the <term refersTo="#term-Performance_Monitoring_and_Evaluation" id="trm200">Performance Monitoring and Evaluation</term> <term refersTo="#term-Function" id="trm201">Function</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Municipal regulatory entity</heading>
+        <subsection id="section-5.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm202">Commissioner</term> shall be responsible for implementing sections 17 to 19 (inclusive) and sections 47 to 84 (inclusive) of the <term refersTo="#term-NLTA" id="trm203">NLTA</term>, together with all other sections of the <term refersTo="#term-NLTA" id="trm204">NLTA</term> relevant to the activities of a <term refersTo="#term-Municipality" id="trm205">Municipality</term> as a regulatory entity (as defined in the <term refersTo="#term-NLTA" id="trm206">NLTA</term>).</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.2">
+          <num>(2)</num>
+          <content>
+            <p>Without prejudice to subsection (1), the <term refersTo="#term-Commissioner" id="trm207">Commissioner</term> shall be responsible for the operating licences for those persons wishing to undertake an intraprovincial service that either takes place in the <term refersTo="#term-City" id="trm208">City</term> or starts in the <term refersTo="#term-City" id="trm209">City</term> and also takes place in the area of another <term refersTo="#term-Municipality" id="trm210">Municipality</term>, as contemplated by section 54(2) of the <term refersTo="#term-NLTA" id="trm211">NLTA</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.3">
+          <num>(3)</num>
+          <content>
+            <p>Without prejudice to subsection (1), the <term refersTo="#term-Commissioner" id="trm212">Commissioner</term> shall be responsible for the smooth running of day to day operations in all operational areas, including existing functions of land transport and rail transport (primarily buses, minibus taxis and railways) and public transport safety and security.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.4">
+          <num>(4)</num>
+          <content>
+            <blockList id="section-5.4.list3">
+              <listIntroduction>
+The <term refersTo="#term-MRE_Committee" id="trm213">MRE Committee</term> shall (without limitation) fulfil the following functions on behalf of the <term refersTo="#term-City" id="trm214">City</term>, as the <term refersTo="#term-Municipal_Regulatory_Entity" id="trm215">Municipal Regulatory Entity</term>:              </listIntroduction>
+              <item id="section-5.4.list3.a">
+                <num>(a)</num>
+                <p>the granting, transferring, amendment and renewal of operating licences;</p>
+              </item>
+              <item id="section-5.4.list3.b">
+                <num>(b)</num>
+                <p>the amendment of operating licences resulting from the replacement of a vehicle;</p>
+              </item>
+              <item id="section-5.4.list3.c">
+                <num>(c)</num>
+                <p>the temporary replacement of a vehicle on an operating licence;</p>
+              </item>
+              <item id="section-5.4.list3.d">
+                <num>(d)</num>
+                <p>the conversion of permits to operating licences;</p>
+              </item>
+              <item id="section-5.4.list3.e">
+                <num>(e)</num>
+                <p>the duplication of operating licences;</p>
+              </item>
+              <item id="section-5.4.list3.f">
+                <num>(f)</num>
+                <p>the provision of temporary permits for special events;</p>
+              </item>
+              <item id="section-5.4.list3.g">
+                <num>(g)</num>
+                <p>the withdrawal, suspension or amendment of an operating licence; and</p>
+              </item>
+              <item id="section-5.4.list3.h">
+                <num>(h)</num>
+                <p>the imposition of law enforcement parameters and penalties, including (without limitation) making appropriate inspections of public transport vehicles and their related certification,</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-5.subsection-4">
+          <content>
+            <p>and (subject to subsection (5)) the <term refersTo="#term-Commissioner" id="trm216">Commissioner</term> shall, on behalf of the <term refersTo="#term-City" id="trm217">City</term>, as the <term refersTo="#term-Municipal_Regulatory_Entity" id="trm218">Municipal Regulatory Entity</term>, exercise such functions in accordance with the requirements, comments and directions of the <term refersTo="#term-Planning_Authority" id="trm219">Planning Authority</term> and in particular the <term refersTo="#term-Operating_Licence_Strategy" id="trm220">Operating Licence Strategy</term>, and not in contravention of any policy of theCouncil.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.5">
+          <num>(5)</num>
+          <content>
+            <p>In order to exercise such functions referred to in subsection (4), the <term refersTo="#term-Council" id="trm221">Council</term> shall appoint an <term refersTo="#term-MRE_Committee" id="trm222">MRE Committee</term> that shall comprise a minimum of three persons (including the chairperson) with an appropriate range of skillsets.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.6">
+          <num>(6)</num>
+          <content>
+            <p>The decisions of the <term refersTo="#term-MRE_Committee" id="trm223">MRE Committee</term> in exercising such functions referred to subsection (4) shall be independent of the <term refersTo="#term-Council" id="trm224">Council</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.7">
+          <num>(7)</num>
+          <content>
+            <p>All appeals against or in connection with any decision made by the <term refersTo="#term-MRE_Committee" id="trm225">MRE Committee</term> in exercise of the functions referred to in subsection (4) shall be made to the Transport Appeal Tribunal pursuant to section 92 of the <term refersTo="#term-NLTA" id="trm226">NLTA</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.8">
+          <num>(8)</num>
+          <content>
+            <blockList id="section-5.8.list8">
+              <listIntroduction>
+The <term refersTo="#term-Commissioner" id="trm227">Commissioner</term> shall ensure that the <term refersTo="#term-MRE_Committee" id="trm228">MRE Committee</term>:              </listIntroduction>
+              <item id="section-5.8.list8.a">
+                <num>(a)</num>
+                <p>follows such procedures in order to carry out its functions as the <term refersTo="#term-Council" id="trm229">Council</term> shall specify from time to time;</p>
+              </item>
+              <item id="section-5.8.list8.b">
+                <num>(b)</num>
+                <p>keeps up to date records in the <term refersTo="#term-Operating_Licence_Administrative_System" id="trm230">Operating Licence Administrative System</term> of the exercise of such functions referred to in subsection (4);</p>
+              </item>
+              <item id="section-5.8.list8.c">
+                <num>(c)</num>
+                <p>reports to the <term refersTo="#term-Council" id="trm231">Council</term> on the exercise of such functions at such intervals as the <term refersTo="#term-Council" id="trm232">Council</term> may require; and</p>
+              </item>
+              <item id="section-5.8.list8.d">
+                <num>(d)</num>
+                <p>publishes appropriate details of the exercise of such functions on <term refersTo="#term-TCT" id="trm233">TCT</term>'s website at such intervals as the <term refersTo="#term-Council" id="trm234">Council</term> deems fit.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-5.9">
+          <num>(9)</num>
+          <content>
+            <blockList id="section-5.9.list9">
+              <listIntroduction>
+Without prejudice to subsection (1) and subject to any restriction or requirement imposed by law, the <term refersTo="#term-Commissioner" id="trm235">Commissioner</term> may, if he or she deems fit, include information on the following in the <term refersTo="#term-Operating_Licence_Administrative_System" id="trm236">Operating Licence Administrative System</term>:              </listIntroduction>
+              <item id="section-5.9.list9.a">
+                <num>(a)</num>
+                <p>particulars of Operator Associations and their members;</p>
+              </item>
+              <item id="section-5.9.list9.b">
+                <num>(b)</num>
+                <p>particulars of Non-Members; and</p>
+              </item>
+              <item id="section-5.9.list9.c">
+                <num>(c)</num>
+                <p>where appropriate, particulars of the routes operated by the Operator Associations and Non-Members, the description of which routes are to correlate with those in the ITP.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-5.10">
+          <num>(10)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm237">Commissioner</term> shall use the information referred to in subsection (9), together with the ITP and IPTN, to manage the Operator Associations in such manner as <term refersTo="#term-TCT" id="trm238">TCT</term> deems fit.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.11">
+          <num>(11)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm239">Commissioner</term> shall, on a monthly basis, provide appropriate data in relation to its activities under this <term refersTo="#term-Municipal_Regulatory_Entity" id="trm240">Municipal Regulatory Entity</term> <term refersTo="#term-Function" id="trm241">Function</term> to the <term refersTo="#term-Performance_Monitoring_and_Evaluation" id="trm242">Performance Monitoring and Evaluation</term> <term refersTo="#term-Function" id="trm243">Function</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Performance monitoring and evaluation</heading>
+        <subsection id="section-6.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm244">Commissioner</term> shall be responsible for establishing, managing and maintaining a central system for collating information and data from all the Functions and shall support such Functions interfacing with each other.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm245">Commissioner</term> shall be responsible for the collation, maintenance and replacement of data and the maintenance, upgrading and replacement of the information systems and technology that in each case support all the Functions.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-6.3.list2">
+              <listIntroduction>
+The <term refersTo="#term-Commissioner" id="trm246">Commissioner</term> shall:              </listIntroduction>
+              <item id="section-6.3.list2.a">
+                <num>(a)</num>
+                <p>be responsible for the creation and maintenance of a website for <term refersTo="#term-TCT" id="trm247">TCT</term> across all the Functions;</p>
+              </item>
+              <item id="section-6.3.list2.b">
+                <num>(b)</num>
+                <p>subject to the prior approval of the <term refersTo="#term-Council" id="trm248">Council</term>, publish details on such website of the performance of <term refersTo="#term-TCT" id="trm249">TCT</term> against its targets across all the Functions on a quarterly basis;</p>
+              </item>
+              <item id="section-6.3.list2.c">
+                <num>(c)</num>
+                <p>subject to the prior approval of the <term refersTo="#term-Council" id="trm250">Council</term> as to the level of detail and format, publish details of the performance of all public transport service providers under the contracts referred to in section 4(2)(a) at such intervals as the <term refersTo="#term-Commissioner" id="trm251">Commissioner</term> deems fit from time to time (and no further approval of the <term refersTo="#term-Council" id="trm252">Council</term> shall be required for each such publication of such details of performance, provided that the publication complies with the level of detail and format so approved by the <term refersTo="#term-Council" id="trm253">Council</term>); and</p>
+              </item>
+              <item id="section-6.3.list2.d">
+                <num>(d)</num>
+                <p>provide a database of all stakeholders, together with appropriate fora to enable communication with the <term refersTo="#term-Commissioner" id="trm254">Commissioner</term> on all transport related matters.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-6.4">
+          <num>(4)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm255">Commissioner</term> shall create links to the datasets within other directorates of the <term refersTo="#term-City" id="trm256">City</term> and shall collate and maintain all transport use data in order to discharge its obligations under this section 6.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.5">
+          <num>(5)</num>
+          <content>
+            <p>Without prejudice to the foregoing subsections of this section 6, the <term refersTo="#term-Commissioner" id="trm257">Commissioner</term> shall record all transportation schemes to enable <term refersTo="#term-TCT" id="trm258">TCT</term> to respond to enquiries in an efficient and effective manner.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.6">
+          <num>(6)</num>
+          <content>
+            <blockList id="section-6.6.list5">
+              <item id="section-6.6.list5.a">
+                <num>(a)</num>
+                <p>The <term refersTo="#term-Commissioner" id="trm259">Commissioner</term> shall, as soon as possible after the end of each <term refersTo="#term-Financial_Year" id="trm260">Financial Year</term>, publish a report for inclusion as a separate chapter in the <term refersTo="#term-Council" id="trm261">Council</term>’s annual report on the performance of <term refersTo="#term-TCT" id="trm262">TCT</term> during that <term refersTo="#term-Financial_Year" id="trm263">Financial Year</term>.</p>
+              </item>
+              <item id="section-6.6.list5.b">
+                <num>(b)</num>
+                <blockList id="section-6.6.list5.b.list0">
+                  <listIntroduction>Such report referred to in subsection (6)(a) shall set out details of:</listIntroduction>
+                  <item id="section-6.6.list5.b.list0.i">
+                    <num>(i)</num>
+                    <p>the contribution made by <term refersTo="#term-TCT" id="trm264">TCT</term> towards the implementation of the IDP;</p>
+                  </item>
+                  <item id="section-6.6.list5.b.list0.ii">
+                    <num>(ii)</num>
+                    <p>the performance of <term refersTo="#term-TCT" id="trm265">TCT</term> against the ITP; and</p>
+                  </item>
+                  <item id="section-6.6.list5.b.list0.iii">
+                    <num>(iii)</num>
+                    <p>the performance of <term refersTo="#term-TCT" id="trm266">TCT</term> against its targets across all the Functions and in particular the performance of the <term refersTo="#term-Municipal_Land_Transport_Fund" id="trm267">Municipal Land Transport Fund</term> during that <term refersTo="#term-Financial_Year" id="trm268">Financial Year</term>.</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-6.6.list5.c">
+                <num>(c)</num>
+                <p>Such report referred to in subsection (6)(a) shall include such information as the <term refersTo="#term-Executive_Mayor" id="trm269">Executive Mayor</term> may from time to time specify in writing with respect to any matter the report is required to deal with by virtue of subsection (6)(b).</p>
+              </item>
+              <item id="section-6.6.list5.d">
+                <num>(d)</num>
+                <p>The <term refersTo="#term-Commissioner" id="trm270">Commissioner</term> shall keep a copy of any report made under this subsection (6) available for the appropriate period for inspection by any person on request free of charge at the principal offices of the <term refersTo="#term-City" id="trm271">City</term> at reasonable hours.</p>
+              </item>
+              <item id="section-6.6.list5.e">
+                <num>(e)</num>
+                <p>The <term refersTo="#term-Commissioner" id="trm272">Commissioner</term> shall supply a copy of any such report made under this subsection (6), or any part of any such report, to any person on request during the appropriate period for such reasonable fee as he or she may determine.</p>
+              </item>
+              <item id="section-6.6.list5.f">
+                <num>(f)</num>
+                <p>The "appropriate period" in the case of a report made under this subsection (6) is the period of three years beginning with the date of publication of such report.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-6.7">
+          <num>(7)</num>
+          <content>
+            <p>Without prejudice to the foregoing subsections of this section 6, the <term refersTo="#term-Commissioner" id="trm273">Commissioner</term> shall establish an electronic centralised knowledge management system to record all historic transport information and publications in order to achieve a single point of resource.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Financial management</heading>
+        <subsection id="section-7.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm274">Commissioner</term> shall be responsible for implementing section 27 (Municipal land transport funds), section 28 (Public transport user charges), section 29 (<term refersTo="#term-Minister" id="trm275">Minister</term> may provide funds for land transport) and section 30 (<term refersTo="#term-MEC" id="trm276">MEC</term> may provide funds for land transport) of the <term refersTo="#term-NLTA" id="trm277">NLTA</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.2">
+          <num>(2)</num>
+          <content>
+            <p>Without prejudice to subsection (1), the <term refersTo="#term-Commissioner" id="trm278">Commissioner</term> shall (subject always to the <term refersTo="#term-Municipal_Finance_Management_Act" id="trm279">Municipal Finance Management Act</term>) be responsible for all finance matters across all the Functions.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-7.3.list2">
+              <listIntroduction>
+Without prejudice to subsection (2), the <term refersTo="#term-Commissioner" id="trm280">Commissioner</term> shall (subject always to the <term refersTo="#term-Municipal_Finance_Management_Act" id="trm281">Municipal Finance Management Act</term>):              </listIntroduction>
+              <item id="section-7.3.list2.a">
+                <num>(a)</num>
+                <p>be responsible for operating an integrated financial management system and any other similar improvements that he or she may deem necessary and viable;</p>
+              </item>
+              <item id="section-7.3.list2.b">
+                <num>(b)</num>
+                <p>be responsible for the overall coordination of the budget process for <term refersTo="#term-TCT" id="trm282">TCT</term> and for making recommendations to the relevant Portfolio <term refersTo="#term-Committee" id="trm283">Committee</term> and/or Budget Steering <term refersTo="#term-Committee" id="trm284">Committee</term> of the <term refersTo="#term-City" id="trm285">City</term> for submission to the <term refersTo="#term-Council" id="trm286">Council</term> as part of the <term refersTo="#term-Council" id="trm287">Council</term>’s overall budgeting process, all of which shall be in accordance with the due process of the <term refersTo="#term-Council" id="trm288">Council</term> and the <term refersTo="#term-Municipal_Finance_Management_Act" id="trm289">Municipal Finance Management Act</term>;</p>
+              </item>
+              <item id="section-7.3.list2.c">
+                <num>(c)</num>
+                <p>propose tariffs in respect of public transport and transport infrastructure, facilities and services to the <term refersTo="#term-Council" id="trm290">Council</term> for approval, the <term refersTo="#term-Commissioner" id="trm291">Commissioner</term> having first assessed the appropriate level of such tariffs by means of a cost benefit analysis by all the relevant Functions within the parameters of the <term refersTo="#term-Municipal_Land_Transport_Fund" id="trm292">Municipal Land Transport Fund</term> referred to in subsection (4);</p>
+              </item>
+              <item id="section-7.3.list2.d">
+                <num>(d)</num>
+                <p>facilitate such international, national or provincial grants as may be appropriate to support the carrying out of the Functions and shall be responsible for the management of such grants within the parameters of the <term refersTo="#term-Municipal_Land_Transport_Fund" id="trm293">Municipal Land Transport Fund</term> referred to in subsection (4);</p>
+              </item>
+              <item id="section-7.3.list2.e">
+                <num>(e)</num>
+                <p>be responsible for the costing of all investment in line with the <term refersTo="#term-Council" id="trm294">Council</term>’s vision for transport in the <term refersTo="#term-City" id="trm295">City</term> as expressed in the ITP from time to time and, in particular, for costing all major projects and programmes that form part of the ITP, having regard to both the cost of initial investment and the need for long term maintenance and facilities management as appropriate;</p>
+              </item>
+              <item id="section-7.3.list2.f">
+                <num>(f)</num>
+                <blockList id="section-7.3.list2.f.list0">
+                  <listIntroduction>be responsible for all revenue generation activities across all the Functions and in particular in relation to all aspects of ticketing including:</listIntroduction>
+                  <item id="section-7.3.list2.f.list0.i">
+                    <num>(i)</num>
+                    <p>the development and implementation of an integrated ticketing system for public transport, including (without limitation) the Europay, Mastercard and VISA (EMV) card and billing system, as well as (without limitation) for parking, park and ride, dial-a-ride, events management, specialised services and bicycle hire services; and</p>
+                  </item>
+                  <item id="section-7.3.list2.f.list0.ii">
+                    <num>(ii)</num>
+                    <p>the establishment, roll out and management of the automated fare collection system;</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-7.3.list2.g">
+                <num>(g)</num>
+                <p>be responsible for providing assurance as to probity across all Functions relating to their contracting and procurement activities; and</p>
+              </item>
+              <item id="section-7.3.list2.h">
+                <num>(h)</num>
+                <p>continually strive to improve all areas of interoperability and the effectiveness, efficiency and economic viability of transport and related infrastructure for the benefit of the citizens of and visitors to the <term refersTo="#term-City" id="trm296">City</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-7.4">
+          <num>(4)</num>
+          <content>
+            <p>Without prejudice to subsections (1), (2) or (3), the <term refersTo="#term-Commissioner" id="trm297">Commissioner</term> shall be responsible for establishing and maintaining a <term refersTo="#term-Municipal_Land_Transport_Fund" id="trm298">Municipal Land Transport Fund</term> in terms of sections 27 and 28 of the <term refersTo="#term-NLTA" id="trm299">NLTA</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.5">
+          <num>(5)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm300">Commissioner</term> shall, on a monthly basis, provide appropriate data in relation to its activities under this <term refersTo="#term-Financial_Management" id="trm301">Financial Management</term> <term refersTo="#term-Function" id="trm302">Function</term> (including in relation to ticketing in particular) to the <term refersTo="#term-Performance_Monitoring_and_Evaluation" id="trm303">Performance Monitoring and Evaluation</term> <term refersTo="#term-Function" id="trm304">Function</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.6">
+          <num>(6)</num>
+          <content>
+            <p>Without prejudice to the foregoing subsections of this section 7 and subject always to the <term refersTo="#term-Municipal_Finance_Management_Act" id="trm305">Municipal Finance Management Act</term>, the <term refersTo="#term-Commissioner" id="trm306">Commissioner</term> shall appoint the <term refersTo="#term-Director" id="trm307">Director</term> of the <term refersTo="#term-Financial_Management" id="trm308">Financial Management</term> <term refersTo="#term-Function" id="trm309">Function</term> to ensure that <term refersTo="#term-TCT" id="trm310">TCT</term>'s financial affairs are administered in a proper manner, in compliance with all relevant professional codes of conduct, all statutory obligations and in accordance with the due process of the <term refersTo="#term-Council" id="trm311">Council</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Public transport law enforcement</heading>
+        <subsection id="section-8.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm312">Commissioner</term> shall be responsible for implementing sections 85 to 91 (inclusive) of the <term refersTo="#term-NLTA" id="trm313">NLTA</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.2">
+          <num>(2)</num>
+          <content>
+            <p>Without prejudice to subsection (1), the <term refersTo="#term-Commissioner" id="trm314">Commissioner</term> shall be responsible for the enforcement of the <term refersTo="#term-National_Road_Traffic_Act" id="trm315">National Road Traffic Act</term> insofar as it relates to public transport law enforcement.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.3">
+          <num>(3)</num>
+          <content>
+            <p>Without prejudice to subsections (1) or (2), the <term refersTo="#term-Commissioner" id="trm316">Commissioner</term> shall be responsible for enforcing safety in relation to the use of the <term refersTo="#term-City" id="trm317">City</term>'s public transport network and related infrastructure and facilities.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.4">
+          <num>(4)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm318">Commissioner</term> shall make appropriate use of the <term refersTo="#term-TMC" id="trm319">TMC</term> and <term refersTo="#term-TIC" id="trm320">TIC</term> and related technology, and shall work with other relevant agencies and stakeholders in order to discharge its responsibilities under this section 8.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.5">
+          <num>(5)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm321">Commissioner</term> shall provide such traffic management and enforcement services in terms of its public transport law enforcement and safety strategy as the <term refersTo="#term-Council" id="trm322">Council</term> shall determine from time to time.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.6">
+          <num>(6)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm323">Commissioner</term> shall, on a monthly basis, provide appropriate data in relation to its activities under this <term refersTo="#term-Public_Transport_Law_Enforcement" id="trm324">Public Transport Law Enforcement</term> <term refersTo="#term-Function" id="trm325">Function</term> to the <term refersTo="#term-Performance_Monitoring_and_Evaluation" id="trm326">Performance Monitoring and Evaluation</term> <term refersTo="#term-Function" id="trm327">Function</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Liaison, communication and stakeholder management</heading>
+        <subsection id="section-9.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm328">Commissioner</term> shall establish and maintain procedures and management practices in order to ensure the effective and efficient liaison and communication with all identified stakeholders.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm329">Commissioner</term> shall include in the procedures and management practices referred to in subsection (1) appropriate initiatives to enable successful and sustainable industry transition and empowerment according to parameters identified by the <term refersTo="#term-Council" id="trm330">Council</term> from time to time.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm331">Commissioner</term> shall be responsible for the internal and external marketing of <term refersTo="#term-TCT" id="trm332">TCT</term> to ensure that the citizens of and visitors to the <term refersTo="#term-City" id="trm333">City</term> are well-informed and satisfied, as measured by a programme of continuous monitoring of customer satisfaction, including (without limitation) readily available public information on performance against targets and service levels published by the <term refersTo="#term-Performance_Monitoring_and_Evaluation" id="trm334">Performance Monitoring and Evaluation</term> <term refersTo="#term-Function" id="trm335">Function</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.4">
+          <num>(4)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm336">Commissioner</term> shall communicate and interface with the public through (among other means of communication) the <term refersTo="#term-TIC" id="trm337">TIC</term> in relation to public transport operational matters.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.5">
+          <num>(5)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm338">Commissioner</term> shall assist the <term refersTo="#term-Mayoral_Committee" id="trm339">Mayoral Committee</term> Member for <term refersTo="#term-TCT" id="trm340">TCT</term> in connection with any dealings with the media that he or she may require.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.6">
+          <num>(6)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm341">Commissioner</term> shall, subject to the required authority being obtained, enter into appropriate memoranda of agreement, on behalf of the <term refersTo="#term-Council" id="trm342">Council</term>, with transport stakeholders, including (without limitation) Operator Associations, groups representing persons with specialised needs and educational forums.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.7">
+          <num>(7)</num>
+          <content>
+            <blockList id="section-9.7.list6">
+              <item id="section-9.7.list6.a">
+                <num>(a)</num>
+                <blockList id="section-9.7.list6.a.list0">
+                  <listIntroduction>Without prejudice to any other subsection of this section 9, the <term refersTo="#term-Commissioner" id="trm343">Commissioner</term> shall, by using the website, database and other fora for communication with stakeholders referred to in section 6(3), make available such information as he or she deems fit which:</listIntroduction>
+                  <item id="section-9.7.list6.a.list0.i">
+                    <num>(i)</num>
+                    <p>relates to public passenger transport services provided for the benefit of the citizens of and visitors to the <term refersTo="#term-City" id="trm344">City</term>; and</p>
+                  </item>
+                  <item id="section-9.7.list6.a.list0.ii">
+                    <num>(ii)</num>
+                    <p>is required by members of the general public to assist in deciding what use to make of such services.</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-9.7.list6.b">
+                <num>(b)</num>
+                <blockList id="section-9.7.list6.b.list1">
+                  <listIntroduction>Such information referred to in subsection (7)(a) shall be made available, in accordance with the provisions of the <term refersTo="#term-Systems_Act" id="trm345">Systems Act</term>, to:</listIntroduction>
+                  <item id="section-9.7.list6.b.list1.i">
+                    <num>(i)</num>
+                    <p>the general public; and</p>
+                  </item>
+                  <item id="section-9.7.list6.b.list1.ii">
+                    <num>(ii)</num>
+                    <p>such other persons as the <term refersTo="#term-Commissioner" id="trm346">Commissioner</term> deems fit.</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-9.7.list6.c">
+                <num>(c)</num>
+                <p>The <term refersTo="#term-Commissioner" id="trm347">Commissioner</term> may make such charges in accordance with the approved <term refersTo="#term-Council" id="trm348">Council</term> tariffs for any information which it makes available, but no such charge may be made if the information relates to public passenger transport services provided exclusively by <term refersTo="#term-TCT" id="trm349">TCT</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-9.8">
+          <num>(8)</num>
+          <content>
+            <blockList id="section-9.8.list7">
+              <listIntroduction>
+The <term refersTo="#term-Commissioner" id="trm350">Commissioner</term> shall:              </listIntroduction>
+              <item id="section-9.8.list7.a">
+                <num>(a)</num>
+                <p>establish, on behalf of the <term refersTo="#term-Council" id="trm351">Council</term>, an <term refersTo="#term-Intermodal_Planning_Committee" id="trm352">Intermodal Planning Committee</term> in accordance with section 15 of the <term refersTo="#term-NLTA" id="trm353">NLTA</term> in order to coordinate public transport between modes in order to achieve the objects of the <term refersTo="#term-NLTA" id="trm354">NLTA</term>; and</p>
+              </item>
+              <item id="section-9.8.list7.b">
+                <num>(b)</num>
+                <p>chair the <term refersTo="#term-Intermodal_Planning_Committee" id="trm355">Intermodal Planning Committee</term> and ensure that the membership of the <term refersTo="#term-Intermodal_Planning_Committee" id="trm356">Intermodal Planning Committee</term> complies with section 15(1) of the <term refersTo="#term-NLTA" id="trm357">NLTA</term>;</p>
+              </item>
+              <item id="section-9.8.list7.c">
+                <num>(c)</num>
+                <p>ensure that the <term refersTo="#term-Intermodal_Planning_Committee" id="trm358">Intermodal Planning Committee</term> reports to and consults regularly with the <term refersTo="#term-Land_Transport_Advisory_Board" id="trm359">Land Transport Advisory Board</term> (and the <term refersTo="#term-Commissioner" id="trm360">Commissioner</term> shall report to the <term refersTo="#term-Council" id="trm361">Council</term> as and when the matters being so reported or consulted on relate to the activities of <term refersTo="#term-TCT" id="trm362">TCT</term>);</p>
+              </item>
+              <item id="section-9.8.list7.d">
+                <num>(d)</num>
+                <p>ensure that the <term refersTo="#term-Intermodal_Planning_Committee" id="trm363">Intermodal Planning Committee</term> complies with all regulations as to its functions, membership and operations that may be made pursuant to the <term refersTo="#term-NLTA" id="trm364">NLTA</term>;</p>
+              </item>
+              <item id="section-9.8.list7.e">
+                <num>(e)</num>
+                <blockList id="section-9.8.list7.e.list0">
+                  <listIntroduction>without prejudice to the foregoing provisions of this subsection (8), ensure that the <term refersTo="#term-Intermodal_Planning_Committee" id="trm365">Intermodal Planning Committee</term> coordinates input and direction into the holistic integration of:</listIntroduction>
+                  <item id="section-9.8.list7.e.list0.i">
+                    <num>(i)</num>
+                    <p>rail passenger services in the <term refersTo="#term-Functional_Area" id="trm366">Functional Area</term> with road based public transport services;</p>
+                  </item>
+                  <item id="section-9.8.list7.e.list0.ii">
+                    <num>(ii)</num>
+                    <p>scheduled services, minibus taxi-type services and unscheduled services in the <term refersTo="#term-Functional_Area" id="trm367">Functional Area</term> with each other and with other public transport modes;</p>
+                  </item>
+                  <item id="section-9.8.list7.e.list0.iii">
+                    <num>(iii)</num>
+                    <p>all aspects of the ITP so as to ensure that the optimal use of infrastructure and services within the system and optimal utilization and prioritisation of funds, including freight transport and nonmotorised transport, is achieved; and</p>
+                  </item>
+                  <item id="section-9.8.list7.e.list0.iv">
+                    <num>(iv)</num>
+                    <p>the roles, responsibilities and interrelationships of all relevant transport stakeholders, including (without limitation) community transport fora, commerce, public transport operators and labour; and</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-9.8.list7.f">
+                <num>(f)</num>
+                <p>ensure that the <term refersTo="#term-Intermodal_Planning_Committee" id="trm368">Intermodal Planning Committee</term> establishes such sub committees, which may comprise rail, bus, taxi and land transport enforcement sub committees, as the <term refersTo="#term-Intermodal_Planning_Committee" id="trm369">Intermodal Planning Committee</term> deems fit.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-9.9">
+          <num>(9)</num>
+          <content>
+            <blockList id="section-9.9.list8">
+              <listIntroduction>
+The <term refersTo="#term-Commissioner" id="trm370">Commissioner</term> shall:              </listIntroduction>
+              <item id="section-9.9.list8.a">
+                <num>(a)</num>
+                <p>establish, on behalf of the <term refersTo="#term-Council" id="trm371">Council</term>, the <term refersTo="#term-Land_Transport_Advisory_Board" id="trm372">Land Transport Advisory Board</term> in accordance with section 16 of the <term refersTo="#term-NLTA" id="trm373">NLTA</term> and with representation from government and the private sector to advise it in relation to land transport matters;</p>
+              </item>
+              <item id="section-9.9.list8.b">
+                <num>(b)</num>
+                <p>ensure that the <term refersTo="#term-Land_Transport_Advisory_Board" id="trm374">Land Transport Advisory Board</term> complies with any regulations made from time to time by the <term refersTo="#term-Minister" id="trm375">Minister</term> responsible for transport in the national sphere of government under section 16(2) of the <term refersTo="#term-NLTA" id="trm376">NLTA</term> in relation to the membership of the <term refersTo="#term-Land_Transport_Advisory_Board" id="trm377">Land Transport Advisory Board</term>, the appointment and qualifications for membership, procedures and frequency of meetings, and related matters; and</p>
+              </item>
+              <item id="section-9.9.list8.c">
+                <num>(c)</num>
+                <blockList id="section-9.9.list8.c.list0">
+                  <listIntroduction>require that the <term refersTo="#term-Land_Transport_Advisory_Board" id="trm378">Land Transport Advisory Board</term>:</listIntroduction>
+                  <item id="section-9.9.list8.c.list0.i">
+                    <num>(i)</num>
+                    <p>receives input from the <term refersTo="#term-Intermodal_Planning_Committee" id="trm379">Intermodal Planning Committee</term>; and</p>
+                  </item>
+                  <item id="section-9.9.list8.c.list0.ii">
+                    <num>(ii)</num>
+                    <p>makes strategic policy recommendations to the <term refersTo="#term-Council" id="trm380">Council</term> and other relevant decision making bodies in relation to integrated land transport matters as referred to in subsections (8)(e) and (f), all of which shall be in the furtherance of integrated transport in the <term refersTo="#term-City" id="trm381">City</term>.</p>
+                  </item>
+                </blockList>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-9.10">
+          <num>(10)</num>
+          <content>
+            <p>The <term refersTo="#term-Mayoral_Committee" id="trm382">Mayoral Committee</term> Member for <term refersTo="#term-TCT" id="trm383">TCT</term> shall chair the <term refersTo="#term-Land_Transport_Advisory_Board" id="trm384">Land Transport Advisory Board</term> and the chairperson of the <term refersTo="#term-TCT" id="trm385">TCT</term> Portfolio <term refersTo="#term-Committee" id="trm386">Committee</term> shall be the deputy chairperson of the <term refersTo="#term-Land_Transport_Advisory_Board" id="trm387">Land Transport Advisory Board</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.11">
+          <num>(11)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm388">Commissioner</term> shall take all necessary steps to develop and roll out <term refersTo="#term-TCT" id="trm389">TCT</term>’s brand and its supporting logos and architecture to the intent that the brand of <term refersTo="#term-TCT" id="trm390">TCT</term> fully supports the <term refersTo="#term-Council" id="trm391">Council</term>’s vision of <term refersTo="#term-TCT" id="trm392">TCT</term> across the Functions.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Infrastructure management</heading>
+        <subsection id="section-10.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm393">Commissioner</term> shall be responsible for the planning, design, costing, construction, maintenance, replacement, extension and upgrading of the <term refersTo="#term-City" id="trm394">City</term>’s road network, the public transport network and public transport infrastructure, the stormwater network, stormwater infrastructure, sea walls and related facilities.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm395">Commissioner</term> shall be responsible as and shall perform all the functions of the road authority under the <term refersTo="#term-Roads_Ordinance" id="trm396">Roads Ordinance</term> for all public roads and public paths (as such public roads and public paths are defined in the <term refersTo="#term-Roads_Ordinance" id="trm397">Roads Ordinance</term>) in the <term refersTo="#term-City" id="trm398">City</term> and shall, to the extent necessary, make such further applications under the <term refersTo="#term-Roads_Ordinance" id="trm399">Roads Ordinance</term> in order to take up such responsibility.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm400">Commissioner</term> shall establish, manage and maintain an asset register relating to the <term refersTo="#term-City" id="trm401">City</term>'s road network, the public transport network and public transport infrastructure and related facilities referred to in subsection (1).</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.4">
+          <num>(4)</num>
+          <content>
+            <blockList id="section-10.4.list3">
+              <listIntroduction>
+In particular, the <term refersTo="#term-Commissioner" id="trm402">Commissioner</term> shall ensure that the asset register referred to in subsection (3) shall record the following information:              </listIntroduction>
+              <item id="section-10.4.list3.a">
+                <num>(a)</num>
+                <p>the location of the assets referred to in subsection (3);</p>
+              </item>
+              <item id="section-10.4.list3.b">
+                <num>(b)</num>
+                <p>the classification and definition of such assets;</p>
+              </item>
+              <item id="section-10.4.list3.c">
+                <num>(c)</num>
+                <p>the age of such assets;</p>
+              </item>
+              <item id="section-10.4.list3.d">
+                <num>(d)</num>
+                <p>the lifecycle costs of maintaining such assets and in particular the costs of deferring the maintenance of such assets; and</p>
+              </item>
+              <item id="section-10.4.list3.e">
+                <num>(e)</num>
+                <p>the quantification of such assets and the financial value of such assets.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-10.5">
+          <num>(5)</num>
+          <content>
+            <p>In making decisions as to the maintenance of the assets as referred to in subsection (4), the <term refersTo="#term-Commissioner" id="trm403">Commissioner</term> shall reach an appropriate balance between planned and reactive maintenance so as to ensure the long term and cost effective sustainability of such assets, as well as considering appropriate business planning scenarios to support the <term refersTo="#term-Commissioner" id="trm404">Commissioner</term>’s decisions to invest strategically in such assets as he or she shall consider to be of high importance.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.6">
+          <num>(6)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm405">Commissioner</term> shall, on a monthly basis, provide appropriate data in relation to its activities under this <term refersTo="#term-Infrastructure_Management" id="trm406">Infrastructure Management</term> <term refersTo="#term-Function" id="trm407">Function</term> to the <term refersTo="#term-Performance_Monitoring_and_Evaluation" id="trm408">Performance Monitoring and Evaluation</term> <term refersTo="#term-Function" id="trm409">Function</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-11">
+        <num>11.</num>
+        <heading>Network operations management</heading>
+        <subsection id="section-11.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-11.1.list0">
+              <listIntroduction>
+The <term refersTo="#term-Commissioner" id="trm410">Commissioner</term> shall be responsible for the planning, design, costing, management, operation and oversight of all activities on the integrated transport network and related infrastructure and facilities in the <term refersTo="#term-City" id="trm411">City</term> (and in particular the IPTN), including (without limitation) the operation of:              </listIntroduction>
+              <item id="section-11.1.list0.a">
+                <num>(a)</num>
+                <p>the traffic signalling systems;</p>
+              </item>
+              <item id="section-11.1.list0.b">
+                <num>(b)</num>
+                <p>the bus and minibus taxi (BMT) lanes;</p>
+              </item>
+              <item id="section-11.1.list0.c">
+                <num>(c)</num>
+                <p>the traffic management cameras;</p>
+              </item>
+              <item id="section-11.1.list0.d">
+                <num>(d)</num>
+                <p>parking management;</p>
+              </item>
+              <item id="section-11.1.list0.e">
+                <num>(e)</num>
+                <p>the freeway management system;</p>
+              </item>
+              <item id="section-11.1.list0.f">
+                <num>(f)</num>
+                <p>transport plans in relation to events management;</p>
+              </item>
+              <item id="section-11.1.list0.g">
+                <num>(g)</num>
+                <p>abnormal loads and transport of dangerous goods procedures;</p>
+              </item>
+              <item id="section-11.1.list0.h">
+                <num>(h)</num>
+                <p>the management of the <term refersTo="#term-TMC" id="trm412">TMC</term> and the <term refersTo="#term-TIC" id="trm413">TIC</term>;</p>
+              </item>
+              <item id="section-11.1.list0.i">
+                <num>(i)</num>
+                <p>communication systems, the comprehensive databank and <term refersTo="#term-TCT" id="trm414">TCT</term>'s information systems and technology, all of which shall be located at and managed from the <term refersTo="#term-TMC" id="trm415">TMC</term>;</p>
+              </item>
+              <item id="section-11.1.list0.j">
+                <num>(j)</num>
+                <p>communication facilities at all major public transport facilities, interchanges and on the integrated transport network and related infrastructure and facilities;</p>
+              </item>
+              <item id="section-11.1.list0.k">
+                <num>(k)</num>
+                <p>the integrated timetabling of all public transport services;</p>
+              </item>
+              <item id="section-11.1.list0.l">
+                <num>(l)</num>
+                <p>road closures; and</p>
+              </item>
+              <item id="section-11.1.list0.m">
+                <num>(m)</num>
+                <p>the granting of wayleaves.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-11.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm416">Commissioner</term> shall, on a monthly basis, provide appropriate data in relation to its activities under this <term refersTo="#term-Network_Operations_Management" id="trm417">Network Operations Management</term> <term refersTo="#term-Function" id="trm418">Function</term> to the <term refersTo="#term-Performance_Monitoring_and_Evaluation" id="trm419">Performance Monitoring and Evaluation</term> <term refersTo="#term-Function" id="trm420">Function</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-11.subsection-2">
+          <content>
+            <p>MISCELLANEOUS</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-12">
+        <num>12.</num>
+        <heading>General functions of tct</heading>
+        <subsection id="section-12.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm421">Commissioner</term> may promote and administer the carrying out of any activities which he or she has power to carry out, whether such power is conferred by statute, this By-law or delegated by the <term refersTo="#term-Council" id="trm422">Council</term> and, to the extent permitted by law, the <term refersTo="#term-Commissioner" id="trm423">Commissioner</term> shall be entitled to appoint such staff, agents and contractors as he or she thinks fit and/or is required to appoint by the <term refersTo="#term-Council" id="trm424">Council</term> to carry out such activities that the <term refersTo="#term-Commissioner" id="trm425">Commissioner</term> has power to carry out.</p>
+          </content>
+        </subsection>
+        <subsection id="section-12.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-Commissioner" id="trm426">Commissioner</term> may, subject to the required authority being obtained, enter into and carry out any agreement with any person for the carrying out by that person, whether as agent for <term refersTo="#term-TCT" id="trm427">TCT</term> or otherwise, of any activities which the <term refersTo="#term-Commissioner" id="trm428">Commissioner</term> has power to carry out (and, in particular, with respect to the provision or financing of any public passenger transport services which <term refersTo="#term-TCT" id="trm429">TCT</term> has power to provide), subject to due process being followed.</p>
+          </content>
+        </subsection>
+        <subsection id="section-12.3">
+          <num>(3)</num>
+          <content>
+            <p>To the extent permitted by law, it shall be within the capacity of the <term refersTo="#term-Commissioner" id="trm430">Commissioner</term> (subject to the required authority being obtained) to do such things and enter into such transactions as are calculated to facilitate, or are conducive or incidental to, the discharge of any of its functions.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-13">
+        <num>13.</num>
+        <heading>Agreements with the province and adjacent municipalities</heading>
+        <subsection id="section-13.subsection-0">
+          <content>
+            <p>Subject to the prior approval of the <term refersTo="#term-Council" id="trm431">Council</term>, the <term refersTo="#term-Commissioner" id="trm432">Commissioner</term> may enter into such arrangements with the <term refersTo="#term-Province" id="trm433">Province</term> or adjacent Municipalities in terms of section 12 of the <term refersTo="#term-NLTA" id="trm434">NLTA</term> and such arrangements with adjacent Municipalities in terms of section 19 of the <term refersTo="#term-NLTA" id="trm435">NLTA</term> as the <term refersTo="#term-Commissioner" id="trm436">Commissioner</term> deems fit.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-14">
+        <num>14.</num>
+        <heading>Short title</heading>
+        <subsection id="section-14.subsection-0">
+          <content>
+            <p>This By-law is called the <term refersTo="#term-City" id="trm437">City</term> of Cape Town: <term refersTo="#term-Constitution" id="trm438">Constitution</term> of Transport for Cape Town Bylaw, 2013.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>
