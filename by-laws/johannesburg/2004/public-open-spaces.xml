@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openbylaws">
+        <FRBRWork>
+          <FRBRthis value="/za/by-law/johannesburg/2004/public-open-spaces/main"/>
+          <FRBRuri value="/za/by-law/johannesburg/2004/public-open-spaces"/>
+          <FRBRalias value="Public Open Spaces By-laws, 2003"/>
+          <FRBRdate date="2004-05-21" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za/by-law/johannesburg/2004/public-open-spaces/main/eng@"/>
+          <FRBRuri value="/za/by-law/johannesburg/2004/public-open-spaces/eng@"/>
+          <FRBRdate date="2004-05-21" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za/by-law/johannesburg/2004/public-open-spaces/main/eng@"/>
+          <FRBRuri value="/za/by-law/johannesburg/2004/public-open-spaces/eng@"/>
+          <FRBRdate date="2014-08-11" name="Generation"/>
+          <FRBRauthor href="#openbylaws" as="#author"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-05-21" name="Province of Gauteng: Provincial Gazette" number="179" showAs="Province of Gauteng: Provincial Gazette"/>
+      <references source="#this">
+        <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council.johannesburg" showAs="City of Johannesburg Metropolity Municipality Council"/>
+        <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCTerm id="term-active_game" href="/ontology/term/this.eng.active_game" showAs="active game"/>
+        <TLCTerm id="term-authorised_official" href="/ontology/term/this.eng.authorised_official" showAs="authorised official"/>
+        <TLCTerm id="term-conservation_public_open_space" href="/ontology/term/this.eng.conservation_public_open_space" showAs="conservation public open space"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-designated_area" href="/ontology/term/this.eng.designated_area" showAs="designated area"/>
+        <TLCTerm id="term-environment" href="/ontology/term/this.eng.environment" showAs="environment"/>
+        <TLCTerm id="term-environmentally_sustainable" href="/ontology/term/this.eng.environmentally_sustainable" showAs="environmentally sustainable"/>
+        <TLCTerm id="term-local_community" href="/ontology/term/this.eng.local_community" showAs="local community"/>
+        <TLCTerm id="term-municipal_manager" href="/ontology/term/this.eng.municipal_manager" showAs="municipal manager"/>
+        <TLCTerm id="term-municipal_property" href="/ontology/term/this.eng.municipal_property" showAs="municipal property"/>
+        <TLCTerm id="term-notice" href="/ontology/term/this.eng.notice" showAs="notice"/>
+        <TLCTerm id="term-nuisance" href="/ontology/term/this.eng.nuisance" showAs="nuisance"/>
+        <TLCTerm id="term-organ_of_State" href="/ontology/term/this.eng.organ_of_State" showAs="organ of State"/>
+        <TLCTerm id="term-person" href="/ontology/term/this.eng.person" showAs="person"/>
+        <TLCTerm id="term-prescribed_fee" href="/ontology/term/this.eng.prescribed_fee" showAs="prescribed fee"/>
+        <TLCTerm id="term-printed_matter" href="/ontology/term/this.eng.printed_matter" showAs="printed matter"/>
+        <TLCTerm id="term-prohibited_activity" href="/ontology/term/this.eng.prohibited_activity" showAs="prohibited activity"/>
+        <TLCTerm id="term-public_open_space" href="/ontology/term/this.eng.public_open_space" showAs="public open space"/>
+        <TLCTerm id="term-public_utility_public_open_space" href="/ontology/term/this.eng.public_utility_public_open_space" showAs="public utility public open space"/>
+        <TLCTerm id="term-recreational_public_open_space" href="/ontology/term/this.eng.recreational_public_open_space" showAs="recreational public open space"/>
+        <TLCTerm id="term-road_reserve" href="/ontology/term/this.eng.road_reserve" showAs="road reserve"/>
+        <TLCTerm id="term-special_event" href="/ontology/term/this.eng.special_event" showAs="special event"/>
+        <TLCTerm id="term-urban_agricultural_public_open_space" href="/ontology/term/this.eng.urban_agricultural_public_open_space" showAs="urban agricultural public open space"/>
+        <TLCTerm id="term-vehicle" href="/ontology/term/this.eng.vehicle" showAs="vehicle"/>
+        <TLCTerm id="term-waste" href="/ontology/term/this.eng.waste" showAs="waste"/>
+        <TLCTerm id="term-watercraft" href="/ontology/term/this.eng.watercraft" showAs="watercraft"/>
+        <TLCTerm id="term-water_body" href="/ontology/term/this.eng.water_body" showAs="water body"/>
+      </references>
+    </meta>
+    <preamble>
+      <p>The Municipal Manager of the City of Johannesburg Metropolitan Municipality hereby, in terms of Section 13(a) of the Local Government: Municipal Systems Act, 2000 (Act No 32 of 2000), publishes the Public Open Spaces By-laws for the City of Johannesburg Metropolitan Municipality, as approved by its Council, as set out hereunder.</p>
+    </preamble>
+    <body>
+      <chapter id="chapter-1">
+        <num>1</num>
+        <heading>Interpretation and fundamental principles</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions and interpretation</heading>
+          <subsection id="section-1.1">
+            <num>(1)</num>
+            <content>
+              <p>In these By-laws, unless the context otherwise indicates –</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-active_game">
+            <content>
+              <p>"<def refersTo="#term-active_game">active game</def>" means any physical sport, game or other activity participated in by one or more persons which is undertaken within a <term refersTo="#term-public_open_space" id="trm0">public open space</term> other than in an area set aside for that purpose, and which may cause injury to other users of the <term refersTo="#term-public_open_space" id="trm1">public open space</term>, a <term refersTo="#term-nuisance" id="trm2">nuisance</term> or damage to vegetation or <term refersTo="#term-municipal_property" id="trm3">municipal property</term> within a <term refersTo="#term-public_open_space" id="trm4">public open space</term> and includes rugby, golf, archery, football, tennis, badminton, hockey, netball, volleyball, skate-boarding, roller-skating and in-line skating;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-authorised_official">
+            <content>
+              <p>"<def refersTo="#term-authorised_official">authorised official</def>" means any official of the <term refersTo="#term-Council" id="trm5">Council</term> who has been authorised by the <term refersTo="#term-Council" id="trm6">Council</term> to administer, implement, and enforce the provisions of these Bylaws;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-conservation_public_open_space">
+            <content>
+              <p>"<def refersTo="#term-conservation_public_open_space">conservation public open space</def>" means <term refersTo="#term-public_open_space" id="trm7">public open space</term> which is managed by or on behalf of the <term refersTo="#term-Council" id="trm8">Council</term> for conservation purposes, and includes any nature reserve, greenbelt, ravine, bird sanctuary and site of historic, ecological or archaeological value;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-4">
+            <content>
+              <blockList id="def-term-Council">
+                <listIntroduction>"<def refersTo="#term-Council">Council</def>" means –                </listIntroduction>
+                <item id="section-1.subsection-4.list4.a">
+                  <num>(a)</num>
+                  <p>the Metropolitan Municipality of the City of Johannesburg established by Provincial Notice No 6766 of 2000 dated I October 2000, as amended, exercising its legislative and executive authority through its municipal Council; or</p>
+                </item>
+                <item id="section-1.subsection-4.list4.b">
+                  <num>(b)</num>
+                  <p>its successor in title; or</p>
+                </item>
+                <item id="section-1.subsection-4.list4.c">
+                  <num>(c)</num>
+                  <p>a structure or <term refersTo="#term-person" id="trm9">person</term> exercising a delegated power or carrying out an instruction, where any power in these by-laws has been delegated or subdelegated, or an instruction given, as contemplated in section 59 of the Local Government: Municipal Systems Act, 2000 (Act No 32 of 2000); or</p>
+                </item>
+                <item id="section-1.subsection-4.list4.d">
+                  <num>(d)</num>
+                  <p>a service provider fulfilling a responsibility under these by-laws, assigned to it in terms of section 81(2) of the Local Government: Municipal Systems Act (Act No. 32 of 2000) or any other law, as the case may be.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="def-term-designated_area">
+            <content>
+              <p>"<def refersTo="#term-designated_area">designated area</def>" means an area designated by the <term refersTo="#term-Council" id="trm10">Council</term> as an area in which an <term refersTo="#term-active_game" id="trm11">active game</term> or any other activity or conduct, which would otherwise be prohibited under Chapter 3 of these By-laws, may be undertaken;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-6">
+            <content>
+              <blockList id="def-term-environment">
+                <listIntroduction>"<def refersTo="#term-environment">environment</def>" means the surroundings within which humans exist and that are made up of –                </listIntroduction>
+                <item id="section-1.subsection-6.list6.a">
+                  <num>(a)</num>
+                  <p>the land, water and atmosphere of the earth;</p>
+                </item>
+                <item id="section-1.subsection-6.list6.b">
+                  <num>(b)</num>
+                  <p>micro-organisms, plant and animal life;</p>
+                </item>
+                <item id="section-1.subsection-6.list6.c">
+                  <num>(c)</num>
+                  <p>any part or combination of paragraphs (a) and (b) and the interrelationships among and between them; and</p>
+                </item>
+                <item id="section-1.subsection-6.list6.d">
+                  <num>(d)</num>
+                  <p>the physical, chemical, aesthetic and cultural properties and conditions of the foregoing that influence human health and well-being;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-7">
+            <content>
+              <blockList id="def-term-environmentally_sustainable">
+                <listIntroduction>"<def refersTo="#term-environmentally_sustainable">environmentally sustainable</def>" means the exercising of any decision-making powers or performance of any activities in a manner aimed at ensuring that –                </listIntroduction>
+                <item id="section-1.subsection-7.list7.a">
+                  <num>(a)</num>
+                  <p>the risk of harm to the <term refersTo="#term-environment" id="trm12">environment</term> and to human health and safety is minimised to the extent reasonably possible under the circumstances;</p>
+                </item>
+                <item id="section-1.subsection-7.list7.b">
+                  <num>(b)</num>
+                  <p>the potential benefits to the <term refersTo="#term-environment" id="trm13">environment</term> and to human health and safety are maximised to the extent reasonably possible under the circumstances; and</p>
+                </item>
+                <item id="section-1.subsection-7.list7.c">
+                  <num>(c)</num>
+                  <p>legislation intended to protect the <term refersTo="#term-environment" id="trm14">environment</term> and human health and safety is complied with;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-8">
+            <content>
+              <blockList id="def-term-local_community">
+                <listIntroduction>"<def refersTo="#term-local_community">local community</def>" means that body of persons comprising –                </listIntroduction>
+                <item id="section-1.subsection-8.list8.a">
+                  <num>(a)</num>
+                  <p>the residents of the area in which a <term refersTo="#term-public_open_space" id="trm15">public open space</term> is situated;</p>
+                </item>
+                <item id="section-1.subsection-8.list8.b">
+                  <num>(b)</num>
+                  <p>the ratepayers of the area in which a <term refersTo="#term-public_open_space" id="trm16">public open space</term> is situated; and</p>
+                </item>
+                <item id="section-1.subsection-8.list8.c">
+                  <num>(c)</num>
+                  <p>any civic organisation and non-governmental or private sector organisation or body which are involved in local affairs in the area in which a <term refersTo="#term-public_open_space" id="trm17">public open space</term> is situated;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="def-term-municipal_manager">
+            <content>
+              <p>"<def refersTo="#term-municipal_manager">municipal manager</def>" means a <term refersTo="#term-person" id="trm18">person</term> appointed as such by the <term refersTo="#term-Council" id="trm19">Council</term> in terms of section 82 of the Local Government: Municipal Structures Act, 1998 (Act No 117 of 1998);</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-municipal_property">
+            <content>
+              <p>"<def refersTo="#term-municipal_property">municipal property</def>" means any structure or thing owned or managed by or on behalf of the <term refersTo="#term-Council" id="trm20">Council</term> and which is incidental to the use and enjoyment of a <term refersTo="#term-public_open_space" id="trm21">public open space</term> and includes any building, lapa, kiosk, bench, picnic table, playground equipment, fountain, statue, monument, fence, pole, <term refersTo="#term-notice" id="trm22">notice</term> and sign;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-notice">
+            <content>
+              <p>"<def refersTo="#term-notice">notice</def>" means a clear and legible official notice drawn up by the <term refersTo="#term-Council" id="trm23">Council</term> in English and Afrikaans and prominently displayed in a <term refersTo="#term-public_open_space" id="trm24">public open space</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-12">
+            <content>
+              <blockList id="def-term-nuisance">
+                <listIntroduction>"<def refersTo="#term-nuisance">nuisance</def>" means an unreasonable interference or likely interference with–                </listIntroduction>
+                <item id="section-1.subsection-12.list12.a">
+                  <num>(a)</num>
+                  <p>the health or well-being of any <term refersTo="#term-person" id="trm25">person</term>;</p>
+                </item>
+                <item id="section-1.subsection-12.list12.b">
+                  <num>(b)</num>
+                  <p>the use and enjoyment by an owner or occupier of his or her property; or</p>
+                </item>
+                <item id="section-1.subsection-12.list12.c">
+                  <num>(c)</num>
+                  <p>the use and enjoyment by a member of the public of a <term refersTo="#term-public_open_space" id="trm26">public open space</term>;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-13">
+            <content>
+              <blockList id="def-term-organ_of_State">
+                <listIntroduction>"<def refersTo="#term-organ_of_State">organ of State</def>" means –                </listIntroduction>
+                <item id="section-1.subsection-13.list13.a">
+                  <num>(a)</num>
+                  <p>any department of State or administration in the national, provincial or local sphere of government; and</p>
+                </item>
+                <item id="section-1.subsection-13.list13.b">
+                  <num>(b)</num>
+                  <blockList id="section-1.subsection-13.list13.b.list0">
+                    <listIntroduction>any other functionary or institution –</listIntroduction>
+                    <item id="section-1.subsection-13.list13.b.list0.i">
+                      <num>(i)</num>
+                      <p>exercising a power or performing a function in terms of the Constitution of the Republic of South Africa Act, 1996 (Act No. 108 of 1996) or a provincial Constitution; or</p>
+                    </item>
+                    <item id="section-1.subsection-13.list13.b.list0.ii">
+                      <num>(ii)</num>
+                      <p>exercising a public power or performing a public function in terms of any legislation, but does not include a court of law and a judicial officer;</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="def-term-person">
+            <content>
+              <p>"<def refersTo="#term-person">person</def>" means a natural person or a juristic person, and includes an <term refersTo="#term-organ_of_State" id="trm27">organ of State</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-prescribed_fee">
+            <content>
+              <p>"<def refersTo="#term-prescribed_fee">prescribed fee</def>" means a fee determined by the <term refersTo="#term-Council" id="trm28">Council</term> by resolution in terms of section 10G(7)(a)(ii) of the Local Government Transition Act, 1993 (Act No. 209 of 1993), or any other applicable legislation;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-printed_matter">
+            <content>
+              <p>"<def refersTo="#term-printed_matter">printed matter</def>" includes any advertisement, billboard, poster, book, pamphlet or handbill;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-prohibited_activity">
+            <content>
+              <p>"<def refersTo="#term-prohibited_activity">prohibited activity</def>" means any activity or behaviour which is prohibited in terms of Chapter 3 from being undertaken in a <term refersTo="#term-public_open_space" id="trm29">public open space</term>, either completely or without permission in terms of section 21, 22 or 23;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-18">
+            <content>
+              <blockList id="def-term-public_open_space">
+                <listIntroduction>"<def refersTo="#term-public_open_space">public open space</def>" means any land which –                </listIntroduction>
+                <item id="section-1.subsection-18.list18.a">
+                  <num>(a)</num>
+                  <p>is owned by an <term refersTo="#term-organ_of_State" id="trm30">organ of State</term>, or (b) over which an <term refersTo="#term-organ_of_State" id="trm31">organ of State</term> has certain real rights arising from the filing in the Deeds Office or other registration office of a general plan of a township, agricultural holding or other division of land, or any alteration, addition to or amendment of such land approved by the Surveyor-General, on which is marked the land to which the public has a common right of use; and</p>
+                </item>
+                <item id="section-1.subsection-18.list18.c">
+                  <num>(c)</num>
+                  <p>is controlled and managed by the <term refersTo="#term-Council" id="trm32">Council</term>; and</p>
+                </item>
+                <item id="section-1.subsection-18.list18.d">
+                  <num>(d)</num>
+                  <blockList id="section-1.subsection-18.list18.d.list0">
+                    <listIntroduction>is either –</listIntroduction>
+                    <item id="section-1.subsection-18.list18.d.list0.i">
+                      <num>(i)</num>
+                      <p>set aside in terms of any law, zoning scheme or spatial plan, for the purpose of public recreation, conservation, the installation of public infrastructure or agriculture; or</p>
+                    </item>
+                    <item id="section-1.subsection-18.list18.d.list0.ii">
+                      <num>(ii)</num>
+                      <p>predominantly undeveloped and open and has not yet been set aside for a particular purpose in terms of any law, zoning scheme or spatial plan;</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="def-term-public_utility_public_open_space">
+            <content>
+              <p>"<def refersTo="#term-public_utility_public_open_space">public utility public open space</def>" means <term refersTo="#term-public_open_space" id="trm33">public open space</term> which is managed by or on behalf of the <term refersTo="#term-Council" id="trm34">Council</term> for the purposes of providing a public service, which includes road reserves and areas subject to electrical, pipeline and other public utility servitudes, but excludes council housing, clinics and other social services;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-recreational_public_open_space">
+            <content>
+              <p>"<def refersTo="#term-recreational_public_open_space">recreational public open space</def>" means <term refersTo="#term-public_open_space" id="trm35">public open space</term> which is managed by or on behalf of the <term refersTo="#term-Council" id="trm36">Council</term> for public recreational purposes, and includes any park, botanical garden, sportsground and playground, but excludes any golf course;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-road_reserve">
+            <content>
+              <p>"<def refersTo="#term-road_reserve">road reserve</def>" means that portion of a road, street or thoroughfare improved, constructed or intended for vehicular traffic and which is between the edges of the roadway and that portion of a road, street or thoroughfare, including the sidewalk, which is not the roadway or shoulder;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-special_event">
+            <content>
+              <p>"<def refersTo="#term-special_event">special event</def>" means a parade, procession, race, concert, show, exhibition, festival, ceremony, film shoot, photographic shoot or similar event, which requires, for that purpose, exclusive use of a part of a <term refersTo="#term-public_open_space" id="trm37">public open space</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-urban_agricultural_public_open_space">
+            <content>
+              <p>"<def refersTo="#term-urban_agricultural_public_open_space">urban agricultural public open space</def>" means <term refersTo="#term-public_open_space" id="trm38">public open space</term> which is managed by or on behalf of the <term refersTo="#term-Council" id="trm39">Council</term> for urban agricultural purposes;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-vehicle">
+            <content>
+              <p>"<def refersTo="#term-vehicle">vehicle</def>" means a device designed or adapted mainly to travel on wheels, but excludes a wheelchair and children’s pushchair and perambulator;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-waste">
+            <content>
+              <p>"<def refersTo="#term-waste">waste</def>" means any substance or article which a <term refersTo="#term-person" id="trm40">person</term> wishes to dispose of because it is unwanted, superfluous, broken, worn out, contaminated or otherwise spoilt and that has been discarded or has been accumulated or stored so that it can be discarded, reused, reclaimed or recycled;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-watercraft">
+            <content>
+              <p>"<def refersTo="#term-watercraft">watercraft</def>" includes any boat, raft, yacht, canoe, inflatable mattress, model ship or boat, radio-controlled boat or similar device;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-water_body">
+            <content>
+              <p>"<def refersTo="#term-water_body">water body</def>" means any body of water within a <term refersTo="#term-public_open_space" id="trm41">public open space</term> and includes a pond, fountain, artificial watercourse, dam, lake, canal, reservoir, stream, river and wetland.</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.2">
+            <num>(2)</num>
+            <content>
+              <p>If any provision in these By-laws vests or imposes any power, function or duty of the <term refersTo="#term-Council" id="trm42">Council</term> in or on an employee of the <term refersTo="#term-Council" id="trm43">Council</term> and such power, function or duty has in terms of section 81(2) of the Local Government: Municipal systems Act, 2000, or any other law been assigned to a service provider, the reference in such provision to such employee must be read as a reference to the service provider or, where applicable, an employee of the service provider authorised by it.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Application of by-laws</heading>
+          <subsection id="section-2.1">
+            <num>(1)</num>
+            <content>
+              <p>These By-laws apply to every <term refersTo="#term-public_open_space" id="trm44">public open space</term> which falls under the jurisdiction of the <term refersTo="#term-Council" id="trm45">Council</term>, but do not apply to cemeteries.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.2">
+            <num>(2)</num>
+            <content>
+              <p>These By-laws are binding on the State.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Purpose of by-laws</heading>
+          <subsection id="section-3.subsection-0">
+            <content>
+              <blockList id="section-3.subsection-0.list0">
+                <listIntroduction>
+The purpose of these By-laws is to provide, in conjunction with other applicable legislation, an effective legal and administrative framework-                </listIntroduction>
+                <item id="section-3.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>to ensure that the way in which the <term refersTo="#term-Council" id="trm46">Council</term> controls, manages and develops public open spaces is <term refersTo="#term-environmentally_sustainable" id="trm47">environmentally sustainable</term>, and is in the long-term interests of the whole community of Johannesburg, including future generations; and</p>
+                </item>
+                <item id="section-3.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>which clearly defines the rights and obligations of the public in relation to public open spaces.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-2">
+        <num>2</num>
+        <heading>Management and administration of public open spaces</heading>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Principles of by-laws</heading>
+          <subsection id="section-4.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-4.1.list0">
+                <listIntroduction>
+Public open spaces must be managed, and where appropriate developed, in the interests of the whole community, and in determining the interests of the whole community –                </listIntroduction>
+                <item id="section-4.1.list0.a">
+                  <num>(a)</num>
+                  <p>the long-term collective interests of the people of Johannesburg, and of South Africa, must be prioritised over the interests of any specific interest group or sector of society;</p>
+                </item>
+                <item id="section-4.1.list0.b">
+                  <num>(b)</num>
+                  <p>a long-term perspective, which takes account the interests of future generations, must be adopted; and</p>
+                </item>
+                <item id="section-4.1.list0.c">
+                  <num>(c)</num>
+                  <p>the interests of other living organisms which depend on public open spaces must be taken into account.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-4.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-4.2.list1">
+                <listIntroduction>
+Public open spaces must be managed in an <term refersTo="#term-environmentally_sustainable" id="trm48">environmentally sustainable</term> manner. (3) Subject to the provisions of subsection (5) and section 7, people must be given access to public open spaces on a non-discriminatory and equitable basis. (4) If necessary, special measures must be taken to facilitate access to public open spaces by historically disadvantaged persons and by disabled persons. (5) Access to a <term refersTo="#term-public_open_space" id="trm49">public open space</term> may be restricted in a manner which does not unjustifiably discriminate against any <term refersTo="#term-person" id="trm50">person</term> or class of persons– (a) if the restriction is authorised by these By-laws or by any other law; or                </listIntroduction>
+                <item id="section-4.2.list1.b">
+                  <num>(b)</num>
+                  <p>in order to achieve the purposes of these By-laws. (6) The recreational, educational, social and other opportunities which public open spaces offer must be protected and enhanced to enable local communities, particularly historically disadvantaged communities, and the public to improve and enrich their quality of life. (7) Local communities must be encouraged to use and care for public open spaces in their areas. (8) The natural <term refersTo="#term-environment" id="trm51">environment</term> and heritage resources within public open spaces must be identified, preserved, protected and promoted, for the benefit of the <term refersTo="#term-local_community" id="trm52">local community</term>, the public and future generations.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Application of principles</heading>
+          <subsection id="section-5.subsection-0">
+            <content>
+              <blockList id="section-5.subsection-0.list0">
+                <listIntroduction>
+The <term refersTo="#term-public_open_space" id="trm53">public open space</term> management principles set out in section 4, and the national environmental management principles set out in section 2 of the National Environmental Management Act, 1998 (Act 107 of 1998), must be considered and applied by any <term refersTo="#term-person" id="trm54">person</term> –                </listIntroduction>
+                <item id="section-5.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>exercising a power or function or performing a duty under these By-laws;</p>
+                </item>
+                <item id="section-5.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>formulating or implementing any policy which is likely to have a significant effect on, or which concerns the use of, public open spaces within the <term refersTo="#term-Council" id="trm55">Council</term>’s jurisdiction; or</p>
+                </item>
+                <item id="section-5.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>exercising a public power or function or performing a public duty which is likely to have a significant effect on, or which concerns the use of, public open spaces.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>General powers of council</heading>
+          <subsection id="section-6.subsection-0">
+            <content>
+              <blockList id="section-6.subsection-0.list0">
+                <listIntroduction>
+The <term refersTo="#term-Council" id="trm56">Council</term> may in relation to any <term refersTo="#term-public_open_space" id="trm57">public open space</term> –                </listIntroduction>
+                <item id="section-6.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>designate any area within a <term refersTo="#term-public_open_space" id="trm58">public open space</term> as an area within which one or more activities otherwise prohibited in terms of these By-laws may be undertaken, and display a prominent <term refersTo="#term-notice" id="trm59">notice</term> to this effect at every entrance to the <term refersTo="#term-designated_area" id="trm60">designated area</term>;</p>
+                </item>
+                <item id="section-6.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>develop any <term refersTo="#term-public_open_space" id="trm61">public open space</term> in accordance with the principles set out in section 4;</p>
+                </item>
+                <item id="section-6.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>erect, construct, establish or demolish <term refersTo="#term-municipal_property" id="trm62">municipal property</term>; and</p>
+                </item>
+                <item id="section-6.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>exercise any other power reasonably necessary for the discharge of the <term refersTo="#term-Council" id="trm63">Council</term>’s obligations in terms of these By-laws relating to the management of public open spaces.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Fees</heading>
+          <subsection id="section-7.subsection-0">
+            <content>
+              <blockList id="section-7.subsection-0.list0">
+                <listIntroduction>
+Any member of the public must pay –                </listIntroduction>
+                <item id="section-7.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>a <term refersTo="#term-prescribed_fee" id="trm64">prescribed fee</term> to use recreational or other facilities which the <term refersTo="#term-Council" id="trm65">Council</term> provides within any <term refersTo="#term-public_open_space" id="trm66">public open space</term>;</p>
+                </item>
+                <item id="section-7.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>a <term refersTo="#term-prescribed_fee" id="trm67">prescribed fee</term> for entrance to any <term refersTo="#term-public_open_space" id="trm68">public open space</term> which is significantly more expensive to maintain than other public open spaces, such as botanical gardens;</p>
+                </item>
+                <item id="section-7.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>a <term refersTo="#term-prescribed_fee" id="trm69">prescribed fee</term> for the right to undertake a <term refersTo="#term-special_event" id="trm70">special event</term>;</p>
+                </item>
+                <item id="section-7.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>a <term refersTo="#term-prescribed_fee" id="trm71">prescribed fee</term> for the right to exclusively use <term refersTo="#term-municipal_property" id="trm72">municipal property</term> for a specific period;</p>
+                </item>
+                <item id="section-7.subsection-0.list0.e">
+                  <num>(e)</num>
+                  <p>a deposit prior to undertaking a <term refersTo="#term-prohibited_activity" id="trm73">prohibited activity</term> permitted by the <term refersTo="#term-Council" id="trm74">Council</term>;</p>
+                </item>
+                <item id="section-7.subsection-0.list0.f">
+                  <num>(f)</num>
+                  <p>an annual or monthly fee for the right to use <term refersTo="#term-urban_agricultural_public_open_space" id="trm75">urban agricultural public open space</term> to the exclusion of any other <term refersTo="#term-person" id="trm76">person</term>; and</p>
+                </item>
+                <item id="section-7.subsection-0.list0.g">
+                  <num>(g)</num>
+                  <p>a <term refersTo="#term-prescribed_fee" id="trm77">prescribed fee</term> for processing applications for permits or letters of permission under these By-laws,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-7.subsection-1">
+            <content>
+              <p>if such a fee or deposit has been determined by the <term refersTo="#term-Council" id="trm78">Council</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Restricting access</heading>
+          <subsection id="section-8.subsection-0">
+            <content>
+              <blockList id="section-8.subsection-0.list0">
+                <listIntroduction>
+The <term refersTo="#term-Council" id="trm79">Council</term> may restrict access to any <term refersTo="#term-public_open_space" id="trm80">public open space</term> or to any part of a <term refersTo="#term-public_open_space" id="trm81">public open space</term> for a specified period of time –                </listIntroduction>
+                <item id="section-8.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>to protect any aspect of the <term refersTo="#term-environment" id="trm82">environment</term> within a <term refersTo="#term-public_open_space" id="trm83">public open space</term>;</p>
+                </item>
+                <item id="section-8.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>to reduce vandalism and the destruction of property;</p>
+                </item>
+                <item id="section-8.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>to improve the administration of a <term refersTo="#term-public_open_space" id="trm84">public open space</term>;</p>
+                </item>
+                <item id="section-8.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>to develop a <term refersTo="#term-public_open_space" id="trm85">public open space</term>;</p>
+                </item>
+                <item id="section-8.subsection-0.list0.e">
+                  <num>(e)</num>
+                  <p>to enable a <term refersTo="#term-special_event" id="trm86">special event</term> which has been permitted in terms of section 22, to proceed; or</p>
+                </item>
+                <item id="section-8.subsection-0.list0.f">
+                  <num>(f)</num>
+                  <p>to undertake any activity which the <term refersTo="#term-Council" id="trm87">Council</term> reasonably considers necessary or appropriate to achieve the purposes of these By-laws.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Powers of authorised officials</heading>
+          <subsection id="section-9.subsection-0">
+            <content>
+              <blockList id="section-9.subsection-0.list0">
+                <listIntroduction>
+In relation to any <term refersTo="#term-public_open_space" id="trm88">public open space</term>, an authorized official may –                </listIntroduction>
+                <item id="section-9.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>to the extent authorised by the <term refersTo="#term-Council" id="trm89">Council</term> administer, implement and enforce the provisions of these By-laws;</p>
+                </item>
+                <item id="section-9.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>issue a <term refersTo="#term-notice" id="trm90">notice</term> in terms of section 20;</p>
+                </item>
+                <item id="section-9.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>instruct any <term refersTo="#term-person" id="trm91">person</term> to leave a <term refersTo="#term-public_open_space" id="trm92">public open space</term> if the authorized official reasonably believes that the <term refersTo="#term-person" id="trm93">person</term> is contravening any provision of these Bylaws, and fails to immediately terminate such contravention upon the instruction of that official; and</p>
+                </item>
+                <item id="section-9.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>if such official is a peace officer, exercise any power which may be exercised by a peace officer under the Criminal Procedure Act, 1977 (Act No. 51 of 1977).</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Obligations in relation to public open spaces</heading>
+          <subsection id="section-10.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm94">Council</term> must within a <term refersTo="#term-public_open_space" id="trm95">public open space</term> display any <term refersTo="#term-notice" id="trm96">notice</term> required under these By-laws.</p>
+            </content>
+          </subsection>
+          <subsection id="section-10.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-10.2.list1">
+                <listIntroduction>
+In relation to recreational public open spaces, the <term refersTo="#term-Council" id="trm97">Council</term> must –                </listIntroduction>
+                <item id="section-10.2.list1.a">
+                  <num>(a)</num>
+                  <p>ensure that they are open to the public between sunrise and sunset, unless specified otherwise in terms of a <term refersTo="#term-notice" id="trm98">notice</term>; and</p>
+                </item>
+                <item id="section-10.2.list1.b">
+                  <num>(b)</num>
+                  <blockList id="section-10.2.list1.b.list0">
+                    <listIntroduction>prominently display a <term refersTo="#term-notice" id="trm99">notice</term> at every entrance indicating:</listIntroduction>
+                    <item id="section-10.2.list1.b.list0.i">
+                      <num>(i)</num>
+                      <p>the opening and closing times of that <term refersTo="#term-recreational_public_open_space" id="trm100">recreational public open space</term>; and</p>
+                    </item>
+                    <item id="section-10.2.list1.b.list0.ii">
+                      <num>(ii)</num>
+                      <p>any rules made by the <term refersTo="#term-Council" id="trm101">Council</term> in relation to that <term refersTo="#term-recreational_public_open_space" id="trm102">recreational public open space</term>.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>Prohibited conduct</heading>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Prohibited activities</heading>
+          <subsection id="section-11.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-11.1.list0">
+                <listIntroduction>
+Any <term refersTo="#term-person" id="trm103">person</term> who undertakes an activity or behaves in a manner that is prohibited in terms of these By-laws, commits an offence unless, in addition to any exceptions contained in sections 12 to 19, that activity or conduct–                </listIntroduction>
+                <item id="section-11.1.list0.a">
+                  <num>(a)</num>
+                  <p>takes place in a <term refersTo="#term-designated_area" id="trm104">designated area</term> within which that activity or conduct is allowed; or</p>
+                </item>
+                <item id="section-11.1.list0.b">
+                  <num>(b)</num>
+                  <p>is authorised in terms of a permission granted or permit issued in terms of section 21, 22 or 23; or</p>
+                </item>
+                <item id="section-11.1.list0.c">
+                  <num>(c)</num>
+                  <p>is deemed to be authorised by the <term refersTo="#term-Council" id="trm105">Council</term> under subsection (2).</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-11.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-11.2.list1">
+                <listIntroduction>
+Subject to the provisions of subsection (3), a <term refersTo="#term-person" id="trm106">person</term> is not in contravention of any provision of section 12 to 19 if that <term refersTo="#term-person" id="trm107">person</term> needs to undertake the <term refersTo="#term-prohibited_activity" id="trm108">prohibited activity</term> –                </listIntroduction>
+                <item id="section-11.2.list1.a">
+                  <num>(a)</num>
+                  <p>to perform his or her obligations as an employee, agent or contractor of the <term refersTo="#term-Council" id="trm109">Council</term> under his or her contract with, or mandate from, the <term refersTo="#term-Council" id="trm110">Council</term> or to achieve the purposes of these By-laws;</p>
+                </item>
+                <item id="section-11.2.list1.b">
+                  <num>(b)</num>
+                  <p>to carry out public duties as an employee, agent or contractor of an <term refersTo="#term-organ_of_State" id="trm111">organ of State</term> within a <term refersTo="#term-public_open_space" id="trm112">public open space</term> which is subject to a public utility servitude in favour of that <term refersTo="#term-organ_of_State" id="trm113">organ of State</term>;</p>
+                </item>
+                <item id="section-11.2.list1.c">
+                  <num>(c)</num>
+                  <p>to fulfil his or her duties as an <term refersTo="#term-authorised_official" id="trm114">authorised official</term>; or</p>
+                </item>
+                <item id="section-11.2.list1.d">
+                  <num>(d)</num>
+                  <p>to fulfill his or her duties as a peace officer.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-11.3">
+            <num>(3)</num>
+            <content>
+              <p>Subsection (2) must not be interpreted to allow a contravention of section 12(a) or (e) or any activity which the <term refersTo="#term-Council" id="trm115">Council</term> has expressly refused to permit.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>General prohibition</heading>
+          <subsection id="section-12.subsection-0">
+            <content>
+              <blockList id="section-12.subsection-0.list0">
+                <listIntroduction>
+No <term refersTo="#term-person" id="trm116">person</term> may within a <term refersTo="#term-public_open_space" id="trm117">public open space</term> –                </listIntroduction>
+                <item id="section-12.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>act in a manner which is dangerous to life or property;</p>
+                </item>
+                <item id="section-12.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>contravene the provisions of any <term refersTo="#term-notice" id="trm118">notice</term> within any <term refersTo="#term-public_open_space" id="trm119">public open space</term>;</p>
+                </item>
+                <item id="section-12.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>unlawfully enter a <term refersTo="#term-public_open_space" id="trm120">public open space</term> to which access has been restricted in terms of section 8;</p>
+                </item>
+                <item id="section-12.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>cause a <term refersTo="#term-nuisance" id="trm121">nuisance</term>; or</p>
+                </item>
+                <item id="section-12.subsection-0.list0.e">
+                  <num>(e)</num>
+                  <p>behave in an indecent or offensive manner.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Prohibited use</heading>
+          <subsection id="section-13.subsection-0">
+            <content>
+              <blockList id="section-13.subsection-0.list0">
+                <listIntroduction>
+No <term refersTo="#term-person" id="trm122">person</term> may within a <term refersTo="#term-public_open_space" id="trm123">public open space</term> –                </listIntroduction>
+                <item id="section-13.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>bathe, wade, or swim in or wash him- or herself, an animal or any object, including clothing, in any <term refersTo="#term-water_body" id="trm124">water body</term>;</p>
+                </item>
+                <item id="section-13.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>make, light or otherwise start a fire except in a facility provided by the <term refersTo="#term-Council" id="trm125">Council</term> for that purpose;</p>
+                </item>
+                <item id="section-13.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>camp or reside;</p>
+                </item>
+                <item id="section-13.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>consume, brew, store or sell any alcoholic beverage;</p>
+                </item>
+                <item id="section-13.subsection-0.list0.e">
+                  <num>(e)</num>
+                  <p>use any sound equipment, including a radio, portable hi-fi or car stereo;</p>
+                </item>
+                <item id="section-13.subsection-0.list0.f">
+                  <num>(f)</num>
+                  <p>play an <term refersTo="#term-active_game" id="trm126">active game</term>, except in an area designated for that purpose on a sport playing field or on a golf course; or</p>
+                </item>
+                <item id="section-13.subsection-0.list0.g">
+                  <num>(g)</num>
+                  <p>shoot a projectile of any nature.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>Waste</heading>
+          <subsection id="section-14.subsection-0">
+            <content>
+              <blockList id="section-14.subsection-0.list0">
+                <listIntroduction>
+No <term refersTo="#term-person" id="trm127">person</term> may within a <term refersTo="#term-public_open_space" id="trm128">public open space</term> –                </listIntroduction>
+                <item id="section-14.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>deposit, dump or discard any <term refersTo="#term-waste" id="trm129">waste</term>, other than in a receptacle provided by the <term refersTo="#term-Council" id="trm130">Council</term> for that purpose; or</p>
+                </item>
+                <item id="section-14.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>pollute or deposit any <term refersTo="#term-waste" id="trm131">waste</term> or thing in a manner which may detrimentally impact on a <term refersTo="#term-water_body" id="trm132">water body</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Vehicles</heading>
+          <subsection id="section-15.subsection-0">
+            <content>
+              <blockList id="section-15.subsection-0.list0">
+                <listIntroduction>
+No <term refersTo="#term-person" id="trm133">person</term> may within a <term refersTo="#term-public_open_space" id="trm134">public open space</term> –                </listIntroduction>
+                <item id="section-15.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>except at times specified and on roads or pathways provided by the <term refersTo="#term-Council" id="trm135">Council</term>, drive, draw or propel any <term refersTo="#term-vehicle" id="trm136">vehicle</term> other than a bicycle;</p>
+                </item>
+                <item id="section-15.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>drive, draw or propel a <term refersTo="#term-vehicle" id="trm137">vehicle</term> in excess of five kilometres per hour; or</p>
+                </item>
+                <item id="section-15.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>park a <term refersTo="#term-vehicle" id="trm138">vehicle</term> in a <term refersTo="#term-public_open_space" id="trm139">public open space</term>, except in <term refersTo="#term-designated_area" id="trm140">designated area</term> or other area where parking is otherwise permitted by the <term refersTo="#term-Council" id="trm141">Council</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Vegetation and animals</heading>
+          <subsection id="section-16.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-16.1.list0">
+                <listIntroduction>
+Subject to the provisions of subsection (2), no <term refersTo="#term-person" id="trm142">person</term> may within a <term refersTo="#term-public_open_space" id="trm143">public open space</term> –                </listIntroduction>
+                <item id="section-16.1.list0.a">
+                  <num>(a)</num>
+                  <p>disturb, damage, destroy or remove any tree, shrub or other vegetation;</p>
+                </item>
+                <item id="section-16.1.list0.b">
+                  <num>(b)</num>
+                  <p>affix or place any <term refersTo="#term-printed_matter" id="trm144">printed matter</term> on a tree;</p>
+                </item>
+                <item id="section-16.1.list0.c">
+                  <num>(c)</num>
+                  <p>plant any vegetation;</p>
+                </item>
+                <item id="section-16.1.list0.d">
+                  <num>(d)</num>
+                  <p>alter the slope or drainage pattern so as to interfere with the access of water, air or nutrients to any tree or other plant;</p>
+                </item>
+                <item id="section-16.1.list0.e">
+                  <num>(e)</num>
+                  <p>capture or attempt to capture, chase, shoot at, injure, throw objects at, tease, molest or in any other way disturb any animal, fish, or bird;</p>
+                </item>
+                <item id="section-16.1.list0.f">
+                  <num>(f)</num>
+                  <p>disturb, damage or destroy any bird nest or egg;</p>
+                </item>
+                <item id="section-16.1.list0.g">
+                  <num>(g)</num>
+                  <blockList id="section-16.1.list0.g.list0">
+                    <listIntroduction>ride a horse, except-</listIntroduction>
+                    <item id="section-16.1.list0.g.list0.i">
+                      <num>(i)</num>
+                      <p>in a <term refersTo="#term-public_open_space" id="trm145">public open space</term> or any part thereof designated by the <term refersTo="#term-Council" id="trm146">Council</term> for that purpose; and</p>
+                    </item>
+                    <item id="section-16.1.list0.g.list0.ii">
+                      <num>(ii)</num>
+                      <p>a <term refersTo="#term-person" id="trm147">person</term> who in the performance of his or her official duties, patrols a <term refersTo="#term-public_open_space" id="trm148">public open space</term> on horseback;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-16.1.list0.h">
+                  <num>(h)</num>
+                  <p>walk, carry, ride or bring an animal other than a horse or dog; or</p>
+                </item>
+                <item id="section-16.1.list0.i">
+                  <num>(i)</num>
+                  <p>walk any dog unless-</p>
+                </item>
+                <item id="section-16.1.list0.i">
+                  <num>(i)</num>
+                  <p>it is in a <term refersTo="#term-public_open_space" id="trm149">public open space</term> or any part thereof which has not been designated by the <term refersTo="#term-Council" id="trm150">Council</term> as an area where no dogs are allowed, and it is on a leash and under control of a <term refersTo="#term-person" id="trm151">person</term>; or</p>
+                </item>
+                <item id="section-16.1.list0.ii">
+                  <num>(ii)</num>
+                  <p>it is in a <term refersTo="#term-public_open_space" id="trm152">public open space</term> or any part thereof designated by the <term refersTo="#term-Council" id="trm153">Council</term> as an area where dogs may run free:</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-16.subsection-1">
+            <content>
+              <p>Provided that if any dog excretes in a <term refersTo="#term-public_open_space" id="trm154">public open space</term>, the <term refersTo="#term-person" id="trm155">person</term> in control of the dog must immediately remove such excrement and dispose of it in a <term refersTo="#term-waste" id="trm156">waste</term> bin or other receptacle provided by the <term refersTo="#term-Council" id="trm157">Council</term> for that purpose.</p>
+            </content>
+          </subsection>
+          <subsection id="section-16.2">
+            <num>(2)</num>
+            <content>
+              <p>The provisions of subsection (1)(a) and (c) do not apply to any <term refersTo="#term-person" id="trm158">person</term> who has obtained a permit in terms of section 23 to undertake agricultural activities in an <term refersTo="#term-urban_agricultural_public_open_space" id="trm159">urban agricultural public open space</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Municipal property and erection of structures</heading>
+          <subsection id="section-17.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-17.1.list0">
+                <listIntroduction>
+Subject to the provisions of subsection (2), no <term refersTo="#term-person" id="trm160">person</term> may within a <term refersTo="#term-public_open_space" id="trm161">public open space</term> –                </listIntroduction>
+                <item id="section-17.1.list0.a">
+                  <num>(a)</num>
+                  <p>deface, damage, destroy or remove any <term refersTo="#term-municipal_property" id="trm162">municipal property</term>;</p>
+                </item>
+                <item id="section-17.1.list0.b">
+                  <num>(b)</num>
+                  <p>disturb the surface of any land, whether by digging, undertaking any earthworks or otherwise;</p>
+                </item>
+                <item id="section-17.1.list0.c">
+                  <num>(c)</num>
+                  <p>erect, build or assemble any structure, including a hut, tent, screen, bulletin board, pole, stand or stage;</p>
+                </item>
+                <item id="section-17.1.list0.d">
+                  <num>(d)</num>
+                  <p>affix or place on any <term refersTo="#term-municipal_property" id="trm163">municipal property</term>, or distribute, any <term refersTo="#term-printed_matter" id="trm164">printed matter</term>; or</p>
+                </item>
+                <item id="section-17.1.list0.e">
+                  <num>(e)</num>
+                  <p>plug, tamper with, or in any way damage any plumbing, electrical, heating or other fixtures or installations.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-17.2">
+            <num>(2)</num>
+            <content>
+              <p>The provisions of subsection (1)(b) do not apply to any <term refersTo="#term-person" id="trm165">person</term> who has obtained a permit in terms of section 23 to undertake agricultural activities in an <term refersTo="#term-urban_agricultural_public_open_space" id="trm166">urban agricultural public open space</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Selling and special events</heading>
+          <subsection id="section-18.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-18.1.list0">
+                <listIntroduction>
+No <term refersTo="#term-person" id="trm167">person</term> may within a <term refersTo="#term-public_open_space" id="trm168">public open space</term> –                </listIntroduction>
+                <item id="section-18.1.list0.a">
+                  <num>(a)</num>
+                  <p>use <term refersTo="#term-municipal_property" id="trm169">municipal property</term> in a way that unfairly restricts or prevents other users of the <term refersTo="#term-public_open_space" id="trm170">public open space</term> from enjoying that <term refersTo="#term-municipal_property" id="trm171">municipal property</term>; or</p>
+                </item>
+                <item id="section-18.1.list0.b">
+                  <num>(b)</num>
+                  <p>except within a <term refersTo="#term-public_open_space" id="trm172">public open space</term> or part thereof, which has been let to a <term refersTo="#term-person" id="trm173">person</term> by the <term refersTo="#term-Council" id="trm174">Council</term> for that purpose, sell, hawk, offer or display any goods or articles for sale or hire;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-18.2">
+            <num>(2)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm175">person</term> may undertake a <term refersTo="#term-special_event" id="trm176">special event</term>, except in terms of a permit issued in terms of section 22.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-19">
+          <num>19.</num>
+          <heading>Community service</heading>
+          <subsection id="section-19.subsection-0">
+            <content>
+              <p>Except in terms of an agreement entered into in terms of section 24, no <term refersTo="#term-person" id="trm177">person</term> may within a <term refersTo="#term-public_open_space" id="trm178">public open space</term> undertake any community or voluntary work of any description.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>Restoration or removal notices</heading>
+          <subsection id="section-20.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-20.1.list0">
+                <listIntroduction>
+Unless permission or a permit to do so has been obtained in terms of section 21, 22 or 23, an <term refersTo="#term-authorised_official" id="trm179">authorised official</term> may issue a restoration or removal <term refersTo="#term-notice" id="trm180">notice</term> to any <term refersTo="#term-person" id="trm181">person</term> who has in a <term refersTo="#term-public_open_space" id="trm182">public open space</term> –                </listIntroduction>
+                <item id="section-20.1.list0.a">
+                  <num>(a)</num>
+                  <p>damaged, defaced, disturbed, destroyed, demolished or removed vegetation or a municipal structure;</p>
+                </item>
+                <item id="section-20.1.list0.b">
+                  <num>(b)</num>
+                  <p>erected, built or assembled a structure; or</p>
+                </item>
+                <item id="section-20.1.list0.c">
+                  <num>(c)</num>
+                  <p>dumped, discarded or deposited any <term refersTo="#term-waste" id="trm183">waste</term>, other than in a receptacle provided by the <term refersTo="#term-Council" id="trm184">Council</term> for that purpose.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-20.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-20.2.list1">
+                <listIntroduction>
+The restoration or removal <term refersTo="#term-notice" id="trm185">notice</term> may direct the <term refersTo="#term-person" id="trm186">person</term> concerned within a reasonable time specified in the <term refersTo="#term-notice" id="trm187">notice</term> to take stated reasonable steps specified in the <term refersTo="#term-notice" id="trm188">notice</term>-                </listIntroduction>
+                <item id="section-20.2.list1.a">
+                  <num>(a)</num>
+                  <p>to restore or rehabilitate the affected area to the reasonable satisfaction of the <term refersTo="#term-Council" id="trm189">Council</term>; or</p>
+                </item>
+                <item id="section-20.2.list1.b">
+                  <num>(b)</num>
+                  <p>to remove a structure or thing and restore the affected site, as nearly as practicable, to its former condition.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-4">
+        <num>4</num>
+        <heading>Applications for authorisation</heading>
+        <section id="section-21">
+          <num>21.</num>
+          <heading>Application for permission</heading>
+          <subsection id="section-21.1">
+            <num>(1)</num>
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm190">person</term> who wants to undertake a <term refersTo="#term-prohibited_activity" id="trm191">prohibited activity</term> must make application in writing to the <term refersTo="#term-Council" id="trm192">Council</term> for permission to do so, which application must be accompanied by the <term refersTo="#term-prescribed_fee" id="trm193">prescribed fee</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm194">Council</term> may, after receiving an application, request the applicant to provide additional information which the <term refersTo="#term-Council" id="trm195">Council</term> reasonably requires in order to consider the application.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm196">Council</term> may refuse to consider an application until it has been provided with the information that it reasonably requires to make an informed decision and if the <term refersTo="#term-prescribed_fee" id="trm197">prescribed fee</term> has not been paid.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-21.4.list3">
+                <listIntroduction>
+Subject to the provisions of subsections (2) and (3), the <term refersTo="#term-Council" id="trm198">Council</term> must consider the application within a reasonable time and must either-                </listIntroduction>
+                <item id="section-21.4.list3.a">
+                  <num>(a)</num>
+                  <p>refuse the application; or</p>
+                </item>
+                <item id="section-21.4.list3.b">
+                  <num>(b)</num>
+                  <p>grant permission in writing to the applicant subject to such conditions as the <term refersTo="#term-Council" id="trm199">Council</term> may consider appropriate to best achieve the purposes of these Bylaws, which may include payment of a deposit, a <term refersTo="#term-prescribed_fee" id="trm200">prescribed fee</term> or both.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-21.5">
+            <num>(5)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm201">Council</term> may not grant permission for any <term refersTo="#term-person" id="trm202">person</term> to behave in a manner which is prohibited in terms of section 12(a) or (e).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-22">
+          <num>22.</num>
+          <heading>Application for a <term refersTo="#term-special_event" id="trm203">special event</term> permit</heading>
+          <subsection id="section-22.1">
+            <num>(1)</num>
+            <content>
+              <p>An application for permission to hold a <term refersTo="#term-special_event" id="trm204">special event</term> in a <term refersTo="#term-public_open_space" id="trm205">public open space</term> must be made at least 21 days prior to the proposed date of the <term refersTo="#term-special_event" id="trm206">special event</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-22.2">
+            <num>(2)</num>
+            <content>
+              <p>The time period referred to in subsection (1) may, on good cause shown, be reduced by the <term refersTo="#term-Council" id="trm207">Council</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-22.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-22.3.list2">
+                <listIntroduction>
+An application in terms of subsection (1), must contain the following information: (a) The name and full contact details of the applicant, including name, postal address, telephone and fax numbers and email address, if available;                </listIntroduction>
+                <item id="section-22.3.list2.b">
+                  <num>(b)</num>
+                  <p>the nature and purpose of the <term refersTo="#term-special_event" id="trm208">special event</term>;</p>
+                </item>
+                <item id="section-22.3.list2.c">
+                  <num>(c)</num>
+                  <p>the intended route or area proposed to be used for purposes of the <term refersTo="#term-special_event" id="trm209">special event</term>; and</p>
+                </item>
+                <item id="section-22.3.list2.d">
+                  <num>(d)</num>
+                  <p>any permission required under Chapter 3 of these By-laws.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-22.4">
+            <num>(4)</num>
+            <content>
+              <p>Subject to any permit conditions imposed by the <term refersTo="#term-Council" id="trm210">Council</term>, the holder of a special events permit has the right to use the area of <term refersTo="#term-public_open_space" id="trm211">public open space</term> specified in the permit to the exclusion of any other <term refersTo="#term-person" id="trm212">person</term> during the period specified in the permit.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-23">
+          <num>23.</num>
+          <heading>Application for permission to farm in an <term refersTo="#term-urban_agricultural_public_open_space" id="trm213">urban agricultural public open space</term></heading>
+          <subsection id="section-23.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-23.1.list0">
+                <listIntroduction>
+An application for permission to farm in an <term refersTo="#term-urban_agricultural_public_open_space" id="trm214">urban agricultural public open space</term> must contain the following information:                </listIntroduction>
+                <item id="section-23.1.list0.a">
+                  <num>(a)</num>
+                  <p>The name and full contact details of the applicant, including name, postal address, telephone and fax numbers and email address, if available;</p>
+                </item>
+                <item id="section-23.1.list0.b">
+                  <num>(b)</num>
+                  <p>the nature of the agricultural activity that the applicant proposes to undertake; and</p>
+                </item>
+                <item id="section-23.1.list0.c">
+                  <num>(c)</num>
+                  <p>the size and location of the area on which the applicant wishes to undertake the proposed agricultural activity.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-23.2">
+            <num>(2)</num>
+            <content>
+              <p>A permit under this section may require the permit holder to pay an annual or monthly fee for the use of the land.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.3">
+            <num>(3)</num>
+            <content>
+              <p>The holder of an urban agricultural permit may, subject to any condition specified in the permit, use the area of <term refersTo="#term-public_open_space" id="trm215">public open space</term> specified in the permit for agricultural purposes to the exclusion of any other <term refersTo="#term-person" id="trm216">person</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-5">
+        <num>5</num>
+        <heading>Co-operative management agreements</heading>
+        <section id="section-24">
+          <num>24.</num>
+          <heading>Entering into agreements</heading>
+          <subsection id="section-24.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-24.1.list0">
+                <listIntroduction>
+The <term refersTo="#term-Council" id="trm217">Council</term> may enter into a written agreement with any <term refersTo="#term-organ_of_State" id="trm218">organ of State</term>, <term refersTo="#term-local_community" id="trm219">local community</term> or organization to provide for –                </listIntroduction>
+                <item id="section-24.1.list0.a">
+                  <num>(a)</num>
+                  <p>he co-operative development of any <term refersTo="#term-public_open_space" id="trm220">public open space</term>; or</p>
+                </item>
+                <item id="section-24.1.list0.b">
+                  <num>(b)</num>
+                  <p>the co-operative management of any <term refersTo="#term-public_open_space" id="trm221">public open space</term>; and</p>
+                </item>
+                <item id="section-24.1.list0.c">
+                  <num>(c)</num>
+                  <p>the regulation of human activities within a <term refersTo="#term-public_open_space" id="trm222">public open space</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-24.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm223">Council</term> may not enter into an agreement in terms of subsection (1) (b) unless it reasonably believes that entering into such an agreement will promote the purpose of these By-laws.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm224">Council</term> must monitor the effectiveness of any agreement entered into in terms of subsection (1), in achieving the purposes for which it was entered into and may cancel the agreement after giving reasonable <term refersTo="#term-notice" id="trm225">notice</term> to the other party if the <term refersTo="#term-Council" id="trm226">Council</term> has reason to believe that the agreement is not effective, or is inhibiting the attainment of the purpose of these By-laws.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-6">
+        <num>6</num>
+        <heading>Tree preservation orders</heading>
+        <section id="section-25">
+          <num>25.</num>
+          <heading>General</heading>
+          <subsection id="section-25.1">
+            <num>(1)</num>
+            <content>
+              <p>If the <term refersTo="#term-Council" id="trm227">Council</term> believes that any tree or group of trees in a <term refersTo="#term-public_open_space" id="trm228">public open space</term> requires legal protection the <term refersTo="#term-Council" id="trm229">Council</term> may issue a tree preservation order in respect of that tree or group of trees.</p>
+            </content>
+          </subsection>
+          <subsection id="section-25.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-25.2.list1">
+                <listIntroduction>
+A tree preservation order-                </listIntroduction>
+                <item id="section-25.2.list1.a">
+                  <num>(a)</num>
+                  <p>must indicate the tree or trees to which it relates; and</p>
+                </item>
+                <item id="section-25.2.list1.b">
+                  <num>(b)</num>
+                  <p>may provide that any <term refersTo="#term-person" id="trm230">person</term> who cuts, disturbs, damages, destroys, removes, transports, exports, purchases, sells, donates or in any other manner acquires or disposes of the tree or trees to which it relates, commits an offence.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-25.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm231">Council</term> must prominently display a copy of a tree preservation order issued within 3 metres of the tree or trees to which the order relates.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-26">
+          <num>26.</num>
+          <heading>Procedure</heading>
+          <subsection id="section-26.subsection-0">
+            <content>
+              <blockList id="section-26.subsection-0.list0">
+                <listIntroduction>
+Unless, in the <term refersTo="#term-Council" id="trm232">Council</term>’s opinion, the issuing of a tree preservation order is required as a matter of urgency, the <term refersTo="#term-Council" id="trm233">Council</term> must, before issuing a tree preservation order in terms of section 25–                </listIntroduction>
+                <item id="section-26.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>give <term refersTo="#term-notice" id="trm234">notice</term> of the proposal to protect the tree or group of trees and invite comments and objections within a specified period, by publishing a <term refersTo="#term-notice" id="trm235">notice</term> in the Provincial Gazette and in two newspapers circulating in the area in which the tree or group of trees is situated;</p>
+                </item>
+                <item id="section-26.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>notify any affected organs of State; and</p>
+                </item>
+                <item id="section-26.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>consider any comments and objections received in response to the <term refersTo="#term-notice" id="trm236">notice</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-7">
+        <num>7</num>
+        <heading>Miscellaneous</heading>
+        <section id="section-27">
+          <num>27.</num>
+          <heading>Offences and penalties</heading>
+          <subsection id="section-27.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-27.1.list0">
+                <listIntroduction>
+Any <term refersTo="#term-person" id="trm237">person</term> who –                </listIntroduction>
+                <item id="section-27.1.list0.a">
+                  <num>(a)</num>
+                  <p>contravenes or fails to comply with any provisions of these By-laws;</p>
+                </item>
+                <item id="section-27.1.list0.b">
+                  <num>(b)</num>
+                  <p>fails to comply with any <term refersTo="#term-notice" id="trm238">notice</term> or other document issued or displayed in terms of these By-laws;</p>
+                </item>
+                <item id="section-27.1.list0.c">
+                  <num>(c)</num>
+                  <p>fails to comply with any lawful instruction given in terms of these By-laws; or</p>
+                </item>
+                <item id="section-27.1.list0.d">
+                  <num>(d)</num>
+                  <p>obstructs or hinders any <term refersTo="#term-authorised_official" id="trm239">authorised official</term> in the execution of his or her duties under these By-laws is guilty of an offence and liable on conviction to a fine or in default of payment to imprisonment for a period not exceeding six months and in the case of a continuing offence, to a further fine not exceeding R50, or in default of payment to imprisonment not exceeding one day, for every day during the continuance of such offence after a written <term refersTo="#term-notice" id="trm240">notice</term> has been issued by the <term refersTo="#term-Council" id="trm241">Council</term> and served on the <term refersTo="#term-person" id="trm242">person</term> concerned requiring the discontinuance of such offence.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-28">
+          <num>28.</num>
+          <heading>Repeal</heading>
+          <subsection id="section-28.subsection-0">
+            <content>
+              <p>The laws listed in Schedule 1 to these By-laws are hereby repealed.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-29">
+          <num>29.</num>
+          <heading>Short title</heading>
+          <subsection id="section-29.subsection-0">
+            <content>
+              <p>These By-laws are called the Public Open Spaces By-laws, 2003.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+    </body>
+  </act>
+  <components>
+    <component id="component-0">
+      <doc name="schedules">
+        <meta>
+          <identification source="#openbylaws">
+            <FRBRWork>
+              <FRBRthis value="/za/by-law/johannesburg/2004/public-open-spaces/schedules"/>
+              <FRBRuri value="/za/by-law/johannesburg/2004/public-open-spaces"/>
+              <FRBRdate date="2004-05-21" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za/by-law/johannesburg/2004/public-open-spaces/schedules/eng@"/>
+              <FRBRuri value="/za/by-law/johannesburg/2004/public-open-spaces/eng@"/>
+              <FRBRdate date="2004-05-21" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za/by-law/johannesburg/2004/public-open-spaces/schedules/eng@"/>
+              <FRBRuri value="/za/by-law/johannesburg/2004/public-open-spaces/eng@"/>
+              <FRBRdate date="2014-08-11" name="Generation"/>
+              <FRBRauthor href="#openbylaws" as="#author"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <chapter id="schedule-1">
+            <num>1</num>
+            <heading>Repealed by-laws</heading>
+            <section id="schedule-1.section-0">
+              <content>
+                <p>Number and Year Administrator’s Notice 50 dated 23 January 1963</p>
+                <p>Administrator’s Notice 166 dated 2 February 1972</p>
+                <p>Administrator’s Notice 1540 dated 4 September 1974 Administrator’s Notice 2176 dated 28 November 1984</p>
+                <p>Local Authority Notice 365 dated 23 January 1991</p>
+                <p>Name of By-laws</p>
+                <p>Transvaal Board for the Development of Peri-Urban Areas: By-laws Relating to Parks, Gardens, Pleasure Resorts and Open Spaces as applied by Midrand Municipality</p>
+                <p>Johannesburg Municipality: Parks, Gardens and Open Spaces Bylaws</p>
+                <p>Randburg Municipality: By-laws for the Regulation of Public Amenities</p>
+                <p>Roodepoort Municipality: By-laws for the Regulation of Parks, Open Spaces, Dams and Conservation Areas</p>
+                <p>Sandton Municipality: Adoption of Standard Public Amenities Bylaws</p>
+                <p>Extent of Repeal Whole</p>
+                <p>Whole Whole Whole</p>
+                <p>Whole</p>
+              </content>
+            </section>
+          </chapter>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>
