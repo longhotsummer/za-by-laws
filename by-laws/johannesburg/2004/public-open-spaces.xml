@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
-  <act contains="originalVersion">
+  <act contains="singleVersion">
     <meta>
       <identification source="#openbylaws">
         <FRBRWork>
@@ -26,10 +26,16 @@
         </FRBRManifestation>
       </identification>
       <publication date="2004-05-21" name="Province of Gauteng: Provincial Gazette" number="179" showAs="Province of Gauteng: Provincial Gazette"/>
+      <lifecycle source="#this">
+        <eventRef id="e1" date="2004-05-21" source="#original" type="generation"/>
+        <eventRef id="e2" date="2003" source="#amendment-1" type="amendment"/>
+      </lifecycle>
       <references source="#this">
         <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
         <TLCOrganization id="council" href="/ontology/organization/za/council.johannesburg" showAs="City of Johannesburg Metropolity Municipality Council"/>
         <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <original id="original" href="/za/by-law/johannesburg/2004/public-open-spaces" showAs="Original"/>
+        <passiveRef id="amendment-1" href="/za/by-law/johannesburg/2003/public-road-electronic-communications-networks-and-miscellaneous" showAs="Public Road, Electronic Communications Networks and Miscellaneous By-laws, 2003"/>
         <TLCTerm id="term-active_game" href="/ontology/term/this.eng.active_game" showAs="active game"/>
         <TLCTerm id="term-authorised_official" href="/ontology/term/this.eng.authorised_official" showAs="authorised official"/>
         <TLCTerm id="term-conservation_public_open_space" href="/ontology/term/this.eng.conservation_public_open_space" showAs="conservation public open space"/>
@@ -949,6 +955,12 @@ Subject to the provisions of subsection (2), no <term refersTo="#term-person" id
             <num>(2)</num>
             <content>
               <p>The provisions of subsection (1)(b) do not apply to any <term refersTo="#term-person" id="trm165">person</term> who has obtained a permit in terms of section 23 to undertake agricultural activities in an <term refersTo="#term-urban_agricultural_public_open_space" id="trm166">urban agricultural public open space</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-17.3">
+            <num>(3)</num>
+            <content>
+              <p>The provisions of this section are not applicable to the extent that the Public Road, Electronic Communications Networks and Miscellaneous By-laws, 2003 are applicable.</p>
             </content>
           </subsection>
         </section>
