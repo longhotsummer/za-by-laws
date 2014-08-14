@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
-  <act contains="originalVersion">
+  <act contains="singleVersion">
     <meta>
       <identification source="#openbylaws">
         <FRBRWork>
           <FRBRthis value="/za/by-law/johannesburg/2004/encroachment-on-property-bylaws/main"/>
           <FRBRuri value="/za/by-law/johannesburg/2004/encroachment-on-property-bylaws"/>
-          <FRBRalias value="Encroachment on Property By-laws"/>
+          <FRBRalias value="Encroachment on Property By-laws, 2003"/>
           <FRBRdate date="2004-05-21" name="Generation"/>
           <FRBRauthor href="#council" as="#author"/>
           <FRBRcountry value="za"/>
@@ -26,10 +26,16 @@
         </FRBRManifestation>
       </identification>
       <publication date="2004-05-21" name="Province of Gauteng: Provincial Gazette" number="179" showAs="Province of Gauteng: Provincial Gazette"/>
+      <lifecycle source="#this">
+        <eventRef id="e1" date="2004-05-21" source="#original" type="generation"/>
+        <eventRef id="e2" date="2003" source="#amendment-1" type="amendment"/>
+      </lifecycle>
       <references source="#this">
         <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
         <TLCOrganization id="council" href="/ontology/organization/za/council.johannesburg" showAs="City of Johannesburg Metropolity Municipality Council"/>
         <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <original id="original" href="/za/by-law/johannesburg/2004/encroachment-on-property-bylaws" showAs="Original"/>
+        <passiveRef id="amendment-1" href="/za/by-law/johannesburg/2003/public-road-electronic-communications-networks-and-miscellaneous" showAs="Public Road, Electronic Communications Networks and Miscellaneous By-laws, 2003"/>
         <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
         <TLCTerm id="term-encroachment" href="/ontology/term/this.eng.encroachment" showAs="encroachment"/>
         <TLCTerm id="term-m" href="/ontology/term/this.eng.m" showAs="m"/>
@@ -470,7 +476,7 @@ If any <term refersTo="#term-encroachment" id="trm87">encroachment</term> has be
             <blockList id="section-11.1.list0">
               <item id="section-11.1.list0.a">
                 <num>(a)</num>
-                <p>Any person wishing to erect or construct an <term refersTo="#term-encroachment" id="trm89">encroachment</term> on, under or over any <term refersTo="#term-public_road" id="trm90">public road</term>, or any immovable property owned by or vested in the <term refersTo="#term-Council" id="trm91">Council</term>, must apply to the Building Control Officer on a form <term refersTo="#term-prescribed" id="trm92">prescribed</term> by the <term refersTo="#term-Council" id="trm93">Council</term> for that purpose.</p>
+                <p>Any person wishing to erect or construct an <term refersTo="#term-encroachment" id="trm89">encroachment</term> on, under or over any <term refersTo="#term-public_road" id="trm90">public road</term>, or any immovable property owned by or vested in the <term refersTo="#term-Council" id="trm91">Council</term> must, save to the extent that the erection or construction is not governed by the Public Road, Electronic Communications Networks and Miscellaneous By-laws, 2003, apply to the Building Control Officer on a form <term refersTo="#term-prescribed" id="trm92">prescribed</term> by the <term refersTo="#term-Council" id="trm93">Council</term> for that purpose.</p>
               </item>
               <item id="section-11.1.list0.b">
                 <num>(b)</num>
