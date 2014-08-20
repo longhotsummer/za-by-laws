@@ -1,0 +1,2172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openbylaws">
+        <FRBRWork>
+          <FRBRthis value="/za/by-law/buffalo-city/2010//main"/>
+          <FRBRuri value="/za/by-law/buffalo-city/2010/"/>
+          <FRBRalias value=""/>
+          <FRBRdate date="2010-01-01" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za/by-law/buffalo-city/2010//main/eng@"/>
+          <FRBRuri value="/za/by-law/buffalo-city/2010//eng@"/>
+          <FRBRdate date="2010-01-01" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za/by-law/buffalo-city/2010//main/eng@"/>
+          <FRBRuri value="/za/by-law/buffalo-city/2010//eng@"/>
+          <FRBRdate date="2014-08-20" name="Generation"/>
+          <FRBRauthor href="#openbylaws" as="#author"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-01-01" name="Province of Western Cape: Provincial Gazette" number="" showAs="Province of Western Cape: Provincial Gazette"/>
+      <references source="#this">
+        <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council.buffalo-city" showAs="Buffalo City Municipality Council"/>
+        <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCTerm id="term-Administrator_of_cemeteries" href="/ontology/term/this.eng.Administrator_of_cemeteries" showAs="Administrator of cemeteries"/>
+        <TLCTerm id="term-adult" href="/ontology/term/this.eng.adult" showAs="adult"/>
+        <TLCTerm id="term-after-hours_fee" href="/ontology/term/this.eng.after-hours_fee" showAs="after-hours fee"/>
+        <TLCTerm id="term-anatomy_subject" href="/ontology/term/this.eng.anatomy_subject" showAs="anatomy subject"/>
+        <TLCTerm id="term-ashes" href="/ontology/term/this.eng.ashes" showAs="ashes"/>
+        <TLCTerm id="term-berm" href="/ontology/term/this.eng.berm" showAs="berm"/>
+        <TLCTerm id="term-berm_section" href="/ontology/term/this.eng.berm_section" showAs="berm section"/>
+        <TLCTerm id="term-Births_and_Deaths_Registration_Act" href="/ontology/term/this.eng.Births_and_Deaths_Registration_Act" showAs="Births and Deaths Registration Act"/>
+        <TLCTerm id="term-body" href="/ontology/term/this.eng.body" showAs="body"/>
+        <TLCTerm id="term-burial_order" href="/ontology/term/this.eng.burial_order" showAs="burial order"/>
+        <TLCTerm id="term-burial" href="/ontology/term/this.eng.burial" showAs="burial"/>
+        <TLCTerm id="term-cemetery" href="/ontology/term/this.eng.cemetery" showAs="cemetery"/>
+        <TLCTerm id="term-child" href="/ontology/term/this.eng.child" showAs="child"/>
+        <TLCTerm id="term-columbarium" href="/ontology/term/this.eng.columbarium" showAs="columbarium"/>
+        <TLCTerm id="term-Commonwealth_war_grave" href="/ontology/term/this.eng.Commonwealth_war_grave" showAs="Commonwealth war grave"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-cremation" href="/ontology/term/this.eng.cremation" showAs="cremation"/>
+        <TLCTerm id="term-crematorium" href="/ontology/term/this.eng.crematorium" showAs="crematorium"/>
+        <TLCTerm id="term-crematorium_section" href="/ontology/term/this.eng.crematorium_section" showAs="crematorium section"/>
+        <TLCTerm id="term-cremated_remains" href="/ontology/term/this.eng.cremated_remains" showAs="cremated remains"/>
+        <TLCTerm id="term-exhumation" href="/ontology/term/this.eng.exhumation" showAs="exhumation"/>
+        <TLCTerm id="term-garden_of_remembrance" href="/ontology/term/this.eng.garden_of_remembrance" showAs="garden of remembrance"/>
+        <TLCTerm id="term-grave" href="/ontology/term/this.eng.grave" showAs="grave"/>
+        <TLCTerm id="term-grave_of_conflict" href="/ontology/term/this.eng.grave_of_conflict" showAs="grave of conflict"/>
+        <TLCTerm id="term-hero" href="/ontology/term/this.eng.hero" showAs="hero"/>
+        <TLCTerm id="term-heroes_acre" href="/ontology/term/this.eng.heroes_acre" showAs="heroes acre"/>
+        <TLCTerm id="term-indigent_person" href="/ontology/term/this.eng.indigent_person" showAs="indigent person"/>
+        <TLCTerm id="term-indigent_relief" href="/ontology/term/this.eng.indigent_relief" showAs="indigent relief"/>
+        <TLCTerm id="term-landscape_section" href="/ontology/term/this.eng.landscape_section" showAs="landscape section"/>
+        <TLCTerm id="term-lawn_section" href="/ontology/term/this.eng.lawn_section" showAs="lawn section"/>
+        <TLCTerm id="term-medical_officer_of_health" href="/ontology/term/this.eng.medical_officer_of_health" showAs="medical officer of health"/>
+        <TLCTerm id="term-memorial_section" href="/ontology/term/this.eng.memorial_section" showAs="memorial section"/>
+        <TLCTerm id="term-memorial_wall" href="/ontology/term/this.eng.memorial_wall" showAs="memorial wall"/>
+        <TLCTerm id="term-memorial_work" href="/ontology/term/this.eng.memorial_work" showAs="memorial work"/>
+        <TLCTerm id="term-municipal_area" href="/ontology/term/this.eng.municipal_area" showAs="municipal area"/>
+        <TLCTerm id="term-niche" href="/ontology/term/this.eng.niche" showAs="niche"/>
+        <TLCTerm id="term-normal_operational_hours" href="/ontology/term/this.eng.normal_operational_hours" showAs="normal operational hours"/>
+        <TLCTerm id="term-office_hours" href="/ontology/term/this.eng.office_hours" showAs="office hours"/>
+        <TLCTerm id="term-officer-in-charge" href="/ontology/term/this.eng.officer-in-charge" showAs="officer-in-charge"/>
+        <TLCTerm id="term-ordinance" href="/ontology/term/this.eng.ordinance" showAs="ordinance"/>
+        <TLCTerm id="term-prescribed" href="/ontology/term/this.eng.prescribed" showAs="prescribed"/>
+        <TLCTerm id="term-prescribed_fee" href="/ontology/term/this.eng.prescribed_fee" showAs="prescribed fee"/>
+        <TLCTerm id="term-regulation" href="/ontology/term/this.eng.regulation" showAs="regulation"/>
+        <TLCTerm id="term-South_African_Heritage_Resources_Agency" href="/ontology/term/this.eng.South_African_Heritage_Resources_Agency" showAs="South African Heritage Resources Agency"/>
+        <TLCTerm id="term-tomb" href="/ontology/term/this.eng.tomb" showAs="tomb"/>
+        <TLCTerm id="term-victim_of_conflict" href="/ontology/term/this.eng.victim_of_conflict" showAs="victim of conflict"/>
+      </references>
+    </meta>
+    <preamble>
+      <p>The Municipal Manager of the City of Johannesburg Metropolitan Municipality hereby, in terms of section 13(a) of the Local Government Municipal Systems Act, 2000 (Act No. 32 of 2000), publishes the Cemeteries and Crematoria By-laws for the City of Johannesburg Metropolitan Municipality as approved by its Council, as set out hereunder.</p>
+    </preamble>
+    <body>
+      <chapter id="chapter-1">
+        <num>1</num>
+        <heading>Interpretation</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <subsection id="section-1.1">
+            <num>(1)</num>
+            <content>
+              <p>In these by-laws, unless the context otherwise indicates:-</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-Administrator_of_cemeteries">
+            <content>
+              <p>"<def refersTo="#term-Administrator_of_cemeteries">Administrator of cemeteries</def>" means the head of the section or department of the <term refersTo="#term-Council" id="trm0">Council</term> which has the responsibility for the administration of the cemeteries of the <term refersTo="#term-Council" id="trm1">Council</term>, and any person acting in his or her stead or any person duly authorised by the <term refersTo="#term-Council" id="trm2">Council</term> to act on his or her behalf.</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-adult">
+            <content>
+              <p>"<def refersTo="#term-adult">adult</def>" means a deceased person over the age of 12 years and any deceased person the dimensions of whose coffin cannot be accommodated in an excavation of 1,40 m in length and 400 mm in width;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-after-hours_fee">
+            <content>
+              <p>"<def refersTo="#term-after-hours_fee">after-hours fee</def>" means a fee over and above the set norm of fee for <term refersTo="#term-burial" id="trm3">burial</term> or <term refersTo="#term-cremation" id="trm4">cremation</term> outside normal week day <term refersTo="#term-cemetery" id="trm5">cemetery</term> operating hours, save in the case of cremations or burials, which, because of religious belief, are undertaken after such hours, or in the case of <term refersTo="#term-burial" id="trm6">burial</term>, where the mourners undertake to close the <term refersTo="#term-grave" id="trm7">grave</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-anatomy_subject">
+            <content>
+              <p>"<def refersTo="#term-anatomy_subject">anatomy subject</def>" means a <term refersTo="#term-body" id="trm8">body</term> delivered to an authorised school of anatomy in terms of the Anatomy Act, 1959 (Act No. 20 of 1959);</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-ashes">
+            <content>
+              <p>"<def refersTo="#term-ashes">ashes</def>" means the <term refersTo="#term-cremated_remains" id="trm9">cremated remains</term> of a <term refersTo="#term-body" id="trm10">body</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-berm">
+            <content>
+              <p>"<def refersTo="#term-berm">berm</def>" means a concrete base on which a memorial is erected;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-berm_section">
+            <content>
+              <p>"<def refersTo="#term-berm_section">berm section</def>" means a section set aside by the <term refersTo="#term-Council" id="trm11">Council</term> in a <term refersTo="#term-cemetery" id="trm12">cemetery</term>, where <term refersTo="#term-memorial_work" id="trm13">memorial work</term> is erected on a <term refersTo="#term-berm" id="trm14">berm</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-Births_and_Deaths_Registration_Act">
+            <content>
+              <p>"<def refersTo="#term-Births_and_Deaths_Registration_Act">Births and Deaths Registration Act</def>" means the Births and Deaths Registration Act, 1992 (Act No. 51 of 1992);</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-body">
+            <content>
+              <p>"<def refersTo="#term-body">body</def>" means any dead human body, including the body of a stillborn <term refersTo="#term-child" id="trm15">child</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-burial_order">
+            <content>
+              <p>"<def refersTo="#term-burial_order">burial order</def>" means an order issued in terms of the <term refersTo="#term-Births_and_Deaths_Registration_Act" id="trm16">Births and Deaths Registration Act</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-burial">
+            <content>
+              <p>"<def refersTo="#term-burial">burial</def>" means burial or inhumation into earth or any other form of burial and includes a <term refersTo="#term-tomb" id="trm17">tomb</term> and any other mode of disposal of a <term refersTo="#term-body" id="trm18">body</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-cemetery">
+            <content>
+              <p>"<def refersTo="#term-cemetery">cemetery</def>" means any land or part thereof within the <term refersTo="#term-municipal_area" id="trm19">municipal area</term> set aside by the <term refersTo="#term-Council" id="trm20">Council</term> or approved by the <term refersTo="#term-Council" id="trm21">Council</term> as a cemetery;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-child">
+            <content>
+              <p>"<def refersTo="#term-child">child</def>" means a deceased person who is not an <term refersTo="#term-adult" id="trm22">adult</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-columbarium">
+            <content>
+              <p>"<def refersTo="#term-columbarium">columbarium</def>" means the place set aside in the basement of the <term refersTo="#term-crematorium" id="trm23">crematorium</term> or chapel for the placement in a <term refersTo="#term-niche" id="trm24">niche</term> of a receptacle containing <term refersTo="#term-ashes" id="trm25">ashes</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-Commonwealth_war_grave">
+            <content>
+              <p>"<def refersTo="#term-Commonwealth_war_grave">Commonwealth war grave</def>" means any <term refersTo="#term-grave" id="trm26">grave</term>, tombstone, monument or memorial connected with a Commonwealth war <term refersTo="#term-burial" id="trm27">burial</term> in terms of the Commonwealth War Graves Act, 1992 (Act No. 8 of 1992);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-16">
+            <content>
+              <blockList id="def-term-Council">
+                <listIntroduction>"<def refersTo="#term-Council">Council</def>" means –                </listIntroduction>
+                <item id="section-1.subsection-16.list16.a">
+                  <num>(a)</num>
+                  <p>the Metropolitan Municipality of the City of Johannesburg established by Provincial Notice No. 6766 of 2000 dated 1 October 2000, as amended, exercising its legislative and executive authority through its municipal Council; or</p>
+                </item>
+                <item id="section-1.subsection-16.list16.b">
+                  <num>(b)</num>
+                  <p>its successor in title; or</p>
+                </item>
+                <item id="section-1.subsection-16.list16.c">
+                  <num>(c)</num>
+                  <p>a structure or person exercising a delegated power or carrying out an instruction, where any power in these by-laws has been delegated or subdelegated, or an instruction given, as contemplated in section 59 of the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000); or</p>
+                </item>
+                <item id="section-1.subsection-16.list16.d">
+                  <num>(d)</num>
+                  <p>a service provider fulfilling a responsibility under these by-laws, assigned to it in terms of section 81(2) of the Local Government: Municipal Systems Act, or any other law, as the case may be.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="def-term-cremation">
+            <content>
+              <p>"<def refersTo="#term-cremation">cremation</def>" means the process of disposing of a human <term refersTo="#term-body" id="trm28">body</term> by fire;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-crematorium">
+            <content>
+              <p>"<def refersTo="#term-crematorium">crematorium</def>" means a crematorium as defined in section 1 of the Ordinance and includes the buildings in which the ceremony is conducted and the <term refersTo="#term-cremation" id="trm29">cremation</term> carried out;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-crematorium_section">
+            <content>
+              <p>"<def refersTo="#term-crematorium_section">crematorium section</def>" means a section of a <term refersTo="#term-cemetery" id="trm30">cemetery</term> or <term refersTo="#term-crematorium" id="trm31">crematorium</term> set aside by the <term refersTo="#term-Council" id="trm32">Council</term> for the <term refersTo="#term-burial" id="trm33">burial</term> of <term refersTo="#term-ashes" id="trm34">ashes</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-cremated_remains">
+            <content>
+              <p>"<def refersTo="#term-cremated_remains">cremated remains</def>" means all recoverable <term refersTo="#term-ashes" id="trm35">ashes</term> after the <term refersTo="#term-cremation" id="trm36">cremation</term> process;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-exhumation">
+            <content>
+              <p>"<def refersTo="#term-exhumation">exhumation</def>" means the removal of a <term refersTo="#term-body" id="trm37">body</term> from its <term refersTo="#term-grave" id="trm38">grave</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-garden_of_remembrance">
+            <content>
+              <p>"<def refersTo="#term-garden_of_remembrance">garden of remembrance</def>" means a section of a <term refersTo="#term-cemetery" id="trm39">cemetery</term> or <term refersTo="#term-crematorium" id="trm40">crematorium</term> set aside for the erection of <term refersTo="#term-memorial_work" id="trm41">memorial work</term> , placing or scattering of <term refersTo="#term-ashes" id="trm42">ashes</term>, but does not include a <term refersTo="#term-columbarium" id="trm43">columbarium</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-grave">
+            <content>
+              <p>"<def refersTo="#term-grave">grave</def>" means any piece of land excavated for the <term refersTo="#term-burial" id="trm44">burial</term> of a <term refersTo="#term-body" id="trm45">body</term> within a <term refersTo="#term-cemetery" id="trm46">cemetery</term> and includes the contents, headstone or other marker of such place and any other structure on or associated with such place;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-grave_of_conflict">
+            <content>
+              <p>"<def refersTo="#term-grave_of_conflict">grave of conflict</def>" means the <term refersTo="#term-grave" id="trm47">grave</term> of a person who died while defending the country;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-hero">
+            <content>
+              <p>"<def refersTo="#term-hero">hero</def>" means a person who performed a heroic act for the country and is given the status of a hero by the <term refersTo="#term-Council" id="trm48">Council</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-heroes_acre">
+            <content>
+              <p>"<def refersTo="#term-heroes_acre">heroes acre</def>" means an area of land set aside for the <term refersTo="#term-burial" id="trm49">burial</term> of a <term refersTo="#term-hero" id="trm50">hero</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-indigent_person">
+            <content>
+              <p>"<def refersTo="#term-indigent_person">indigent person</def>" means a destitute person who has died in indigent circumstances, or if no relative or other person, welfare organisation or non governmental organization can be found to bear the <term refersTo="#term-burial" id="trm51">burial</term> or <term refersTo="#term-cremation" id="trm52">cremation</term> costs of such deceased person and includes a pauper;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-indigent_relief">
+            <content>
+              <p>"<def refersTo="#term-indigent_relief">indigent relief</def>" means assistance received for the <term refersTo="#term-burial" id="trm53">burial</term> or <term refersTo="#term-cremation" id="trm54">cremation</term> of an <term refersTo="#term-indigent_person" id="trm55">indigent person</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-landscape_section">
+            <content>
+              <p>"<def refersTo="#term-landscape_section">landscape section</def>" means a section in a <term refersTo="#term-cemetery" id="trm56">cemetery</term> set aside by the <term refersTo="#term-Council" id="trm57">Council</term> where <term refersTo="#term-memorial_work" id="trm58">memorial work</term> is restricted to a plaque or memorial slab;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-lawn_section">
+            <content>
+              <p>"<def refersTo="#term-lawn_section">lawn section</def>" means a section in a <term refersTo="#term-cemetery" id="trm59">cemetery</term> set aside by the <term refersTo="#term-Council" id="trm60">Council</term> where <term refersTo="#term-memorial_work" id="trm61">memorial work</term> is restricted to a headstone only;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-medical_officer_of_health">
+            <content>
+              <p>"<def refersTo="#term-medical_officer_of_health">medical officer of health</def>" means the officer appointed by <term refersTo="#term-Council" id="trm62">Council</term> or any other person acting in the capacity of the medical officer of health;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-memorial_section">
+            <content>
+              <p>"<def refersTo="#term-memorial_section">memorial section</def>" means a section of a <term refersTo="#term-cemetery" id="trm63">cemetery</term> set aside for the erection of memorials;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-memorial_wall">
+            <content>
+              <p>"<def refersTo="#term-memorial_wall">memorial wall</def>" means a wall in a <term refersTo="#term-cemetery" id="trm64">cemetery</term> or <term refersTo="#term-crematorium_section" id="trm65">crematorium section</term> provided for the placement of inscribed tablets commemorating deceased persons;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-memorial_work">
+            <content>
+              <p>"<def refersTo="#term-memorial_work">memorial work</def>" means any headstone, monument, plaque, or other work, or object, erected or intended to be erected in any <term refersTo="#term-cemetery" id="trm66">cemetery</term> or <term refersTo="#term-crematorium" id="trm67">crematorium</term> to commemorate a deceased person, and includes a kerb demarcating a <term refersTo="#term-grave" id="trm68">grave</term>, and a slab covering a <term refersTo="#term-grave" id="trm69">grave</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-municipal_area">
+            <content>
+              <p>"<def refersTo="#term-municipal_area">municipal area</def>" means the area under the control and jurisdiction of the <term refersTo="#term-Council" id="trm70">Council</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-niche">
+            <content>
+              <p>"<def refersTo="#term-niche">niche</def>" means a compartment in a <term refersTo="#term-columbarium" id="trm71">columbarium</term> or <term refersTo="#term-garden_of_remembrance" id="trm72">garden of remembrance</term> for the placing of <term refersTo="#term-ashes" id="trm73">ashes</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-normal_operational_hours">
+            <content>
+              <p>"<def refersTo="#term-normal_operational_hours">normal operational hours</def>" means Monday to Friday 08:00 to 15:00 excluding Saturdays, Sundays and Public holidays;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-office_hours">
+            <content>
+              <p>"<def refersTo="#term-office_hours">office hours</def>" means Monday to Friday 07:00 to 16:00 excluding Saturdays, Sundays and Public holidays;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-officer-in-charge">
+            <content>
+              <p>"<def refersTo="#term-officer-in-charge">officer-in-charge</def>" means the registrar of a <term refersTo="#term-crematorium" id="trm74">crematorium</term> appointed in terms of Regulation 21 of the Regulations Relating to Crematoria and Cremations, made in terms of Ordinance No. 18 of 1965, and includes a person authorized by the <term refersTo="#term-Council" id="trm75">Council</term> to be in control of any <term refersTo="#term-cemetery" id="trm76">cemetery</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-ordinance">
+            <content>
+              <p>"<def refersTo="#term-ordinance">ordinance</def>" means the Crematorium Ordinance, 1965 (Ordinance No. 18 0f 1965);</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-prescribed">
+            <content>
+              <p>"<def refersTo="#term-prescribed">prescribed</def>" means prescribed by the <term refersTo="#term-Council" id="trm77">Council</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-prescribed_fee">
+            <content>
+              <p>"<def refersTo="#term-prescribed_fee">prescribed fee</def>" means a fee determined by the <term refersTo="#term-Council" id="trm78">Council</term> by resolution in terms of section 10G(7)(a)(ii) of the Local Government Transition Act, 1993( Act No. 209 of 1993), or any other applicable legislation;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-regulation">
+            <content>
+              <p>"<def refersTo="#term-regulation">regulation</def>" means a regulation published in terms of the Ordinance;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-South_African_Heritage_Resources_Agency">
+            <content>
+              <p>"<def refersTo="#term-South_African_Heritage_Resources_Agency">South African Heritage Resources Agency</def>" means the South African Heritage Resources Agency, established in terms of section 11 of the National Heritage Resources Act, 1999 (Act No. 25 of 1999) “stone mason” means a person carrying on business as a stone mason;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-tomb">
+            <content>
+              <p>"<def refersTo="#term-tomb">tomb</def>" means an above ground <term refersTo="#term-burial" id="trm79">burial</term> vault;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-victim_of_conflict">
+            <content>
+              <p>"<def refersTo="#term-victim_of_conflict">victim of conflict</def>" means a person defined in section 1 of the National Heritage Resources Act, 1999 (Act No. 25 of 1999). (2) If any provision in these by-laws vests or imposes any power, function or duty of the <term refersTo="#term-Council" id="trm80">Council</term> in or on an employee of the <term refersTo="#term-Council" id="trm81">Council</term> and such power, function or duty has in terms of section 81(2) of the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000), or any other law been assigned to a service provider, the reference to such employee must be read as a reference to the service provider or, where applicable, an employee of the service provider authorised by it.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-2">
+        <num>2</num>
+        <heading>Disposal of a <term refersTo="#term-body" id="trm82">body</term></heading>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Requirements for disposal of a <term refersTo="#term-body" id="trm83">body</term></heading>
+          <subsection id="section-2.1">
+            <num>(1)</num>
+            <content>
+              <p>No person shall save with the prior written consent of the <term refersTo="#term-Council" id="trm84">Council</term>, dispose of or attempt to dispose of a <term refersTo="#term-body" id="trm85">body</term>, other than by <term refersTo="#term-burial" id="trm86">burial</term> in a <term refersTo="#term-cemetery" id="trm87">cemetery</term> or by <term refersTo="#term-cremation" id="trm88">cremation</term> in a <term refersTo="#term-crematorium" id="trm89">crematorium</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-2.2.list1">
+                <listIntroduction>
+A person may not bury or cremate a <term refersTo="#term-body" id="trm90">body</term> in a <term refersTo="#term-cemetery" id="trm91">cemetery</term> without                </listIntroduction>
+                <item id="section-2.2.list1.a">
+                  <num>(a)</num>
+                  <p>the permission of the <term refersTo="#term-officer-in-charge" id="trm92">officer-in-charge</term>; and</p>
+                </item>
+                <item id="section-2.2.list1.b">
+                  <num>(b)</num>
+                  <p>arranging a date and time of such <term refersTo="#term-burial" id="trm93">burial</term> with such officer-in- charge.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Application for <term refersTo="#term-burial" id="trm94">burial</term></heading>
+          <subsection id="section-3.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-3.1.list0">
+                <item id="section-3.1.list0.a">
+                  <num>(a)</num>
+                  <p>A person intending to bury a <term refersTo="#term-body" id="trm95">body</term> must complete and submit the <term refersTo="#term-prescribed" id="trm96">prescribed</term> application form to the <term refersTo="#term-officer-in-charge" id="trm97">officer-in-charge</term> for approval.</p>
+                </item>
+                <item id="section-3.1.list0.b">
+                  <num>(b)</num>
+                  <p>The next of kin of the deceased, or such other person who is authorized by the next of kin of the deceased, must sign such application.</p>
+                </item>
+                <item id="section-3.1.list0.c">
+                  <num>(c)</num>
+                  <p>Despite the provisions of paragraph (b) the <term refersTo="#term-officer-in-charge" id="trm98">officer-in-charge</term> may, if he or she is satisfied that the signature of the next of kin cannot be obtained timeously, approve an application by an interested party.</p>
+                </item>
+                <item id="section-3.1.list0.d">
+                  <num>(d)</num>
+                  <blockList id="section-3.1.list0.d.list0">
+                    <listIntroduction>The applicant must -</listIntroduction>
+                    <item id="section-3.1.list0.d.list0.i">
+                      <num>(i)</num>
+                      <p>submit the application at least three working days before the <term refersTo="#term-burial" id="trm99">burial</term>;</p>
+                    </item>
+                    <item id="section-3.1.list0.d.list0.ii">
+                      <num>(ii)</num>
+                      <p>indicate whether the application is in respect of a first, second or third <term refersTo="#term-burial" id="trm100">burial</term>, in respect of a particular <term refersTo="#term-grave" id="trm101">grave</term>; and</p>
+                    </item>
+                    <item id="section-3.1.list0.d.list0.iii">
+                      <num>(iii)</num>
+                      <p>indicate the date and time for such <term refersTo="#term-burial" id="trm102">burial</term>.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-3.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-3.2.list1">
+                <listIntroduction>
+The <term refersTo="#term-officer-in-charge" id="trm103">officer-in-charge</term> must approve an application if –                </listIntroduction>
+                <item id="section-3.2.list1.a">
+                  <num>(a)</num>
+                  <p>it is accompanied by an original <term refersTo="#term-burial_order" id="trm104">burial order</term> in terms of the Births and Registration Act;</p>
+                </item>
+                <item id="section-3.2.list1.b">
+                  <num>(b)</num>
+                  <p>the <term refersTo="#term-prescribed_fee" id="trm105">prescribed fee</term> has been paid; and</p>
+                </item>
+                <item id="section-3.2.list1.c">
+                  <num>(c)</num>
+                  <p>an application in terms of subsection (1) has been submitted.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-3.subsection-2">
+            <content>
+              <p>Deaths</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-officer-in-charge" id="trm106">officer-in-charge</term> must, where necessary, take into account the customs of the deceased, and the people responsible for the <term refersTo="#term-burial" id="trm107">burial</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Reservation of a <term refersTo="#term-grave" id="trm108">grave</term></heading>
+          <subsection id="section-4.1">
+            <num>(1)</num>
+            <content>
+              <p>An application to reserve a <term refersTo="#term-grave" id="trm109">grave</term> must be made to the <term refersTo="#term-officer-in-charge" id="trm110">officer-in-charge</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-4.2">
+            <num>(2)</num>
+            <content>
+              <p>A surviving spouse of the deceased may apply for an adjoining <term refersTo="#term-grave" id="trm111">grave</term> to be reserved.</p>
+            </content>
+          </subsection>
+          <subsection id="section-4.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-officer-in-charge" id="trm112">officer-in-charge</term> must allocate another <term refersTo="#term-grave" id="trm113">grave</term> within the <term refersTo="#term-cemetery" id="trm114">cemetery</term> to the applicant, where persons other than the applicant mistakenly utilized a reserved <term refersTo="#term-grave" id="trm115">grave</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-4.4">
+            <num>(4)</num>
+            <content>
+              <p>A <term refersTo="#term-grave" id="trm116">grave</term> will be reserved only upon payment of the <term refersTo="#term-prescribed_fee" id="trm117">prescribed fee</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Postponement or cancellation of a <term refersTo="#term-burial" id="trm118">burial</term></heading>
+          <subsection id="section-5.1">
+            <num>(1)</num>
+            <content>
+              <p>An applicant must give notice of the postponement or cancellation of a <term refersTo="#term-burial" id="trm119">burial</term>, by completing the <term refersTo="#term-prescribed" id="trm120">prescribed</term> application form, to the <term refersTo="#term-officer-in-charge" id="trm121">officer-in-charge</term>, who must approve the application at least one working day before the <term refersTo="#term-burial" id="trm122">burial</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-5.2.list1">
+                <listIntroduction>
+In a case of a cancellation of a <term refersTo="#term-burial" id="trm123">burial</term>-                </listIntroduction>
+                <item id="section-5.2.list1.a">
+                  <num>(a)</num>
+                  <p>a refund will not be made to the applicant for costs incurred for opening an existing <term refersTo="#term-grave" id="trm124">grave</term>;</p>
+                </item>
+                <item id="section-5.2.list1.b">
+                  <num>(b)</num>
+                  <p>the <term refersTo="#term-Council" id="trm125">Council</term> will only refund the applicant for costs incurred for opening a new <term refersTo="#term-grave" id="trm126">grave</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Number of bodies in a coffin</heading>
+          <subsection id="section-6.1">
+            <num>(1)</num>
+            <content>
+              <p>Only one <term refersTo="#term-body" id="trm127">body</term> in a coffin is allowed for <term refersTo="#term-burial" id="trm128">burial</term> or <term refersTo="#term-cremation" id="trm129">cremation</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.2">
+            <num>(2)</num>
+            <content>
+              <p>Burial of more than one <term refersTo="#term-body" id="trm130">body</term> in a coffin may be allowed if application is made to and approved by the <term refersTo="#term-officer-in-charge" id="trm131">officer-in-charge</term> and the <term refersTo="#term-prescribed_fee" id="trm132">prescribed fee</term> has been paid;</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-6.3.list2">
+                <listIntroduction>
+Such application may be made in respect of -                </listIntroduction>
+                <item id="section-6.3.list2.a">
+                  <num>(a)</num>
+                  <p>family members who either died together or a short while after each other, and the <term refersTo="#term-burial" id="trm133">burial</term> of the first dying member has not yet taken place;</p>
+                </item>
+                <item id="section-6.3.list2.b">
+                  <num>(b)</num>
+                  <p>a mother and <term refersTo="#term-child" id="trm134">child</term> who died during childbirth;</p>
+                </item>
+                <item id="section-6.3.list2.c">
+                  <num>(c)</num>
+                  <blockList id="section-6.3.list2.c.list0">
+                    <item id="section-6.3.list2.c.list0.i">
+                      <num>(i)</num>
+                      <p>two people who have lived together as partners; or</p>
+                    </item>
+                    <item id="section-6.3.list2.c.list0.ii">
+                      <num>(ii)</num>
+                      <p>unrelated deceased persons, whose families have no objection; or</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-6.3.list2.d">
+                  <num>(d)</num>
+                  <p>remains of an <term refersTo="#term-anatomy_subject" id="trm135">anatomy subject</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Burial and subsequent burials</heading>
+          <subsection id="section-7.1">
+            <num>(1)</num>
+            <content>
+              <p>Burial may take place only in a <term refersTo="#term-grave" id="trm136">grave</term> allocated by the <term refersTo="#term-officer-in-charge" id="trm137">officer-in-charge</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-7.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-7.2.list1">
+                <item id="section-7.2.list1.a">
+                  <num>(a)</num>
+                  <p>Subject to paragraph (b), not more than two burials may be permitted in a <term refersTo="#term-grave" id="trm138">grave</term>;</p>
+                </item>
+                <item id="section-7.2.list1.b">
+                  <num>(b)</num>
+                  <blockList id="section-7.2.list1.b.list0">
+                    <listIntroduction>A third <term refersTo="#term-burial" id="trm139">burial</term> may be allowed only if-</listIntroduction>
+                    <item id="section-7.2.list1.b.list0.i">
+                      <num>(i)</num>
+                      <p>an application has been made to the <term refersTo="#term-officer-in-charge" id="trm140">officer-in-charge</term> and written permission has been granted;</p>
+                    </item>
+                    <item id="section-7.2.list1.b.list0.ii">
+                      <num>(ii)</num>
+                      <p>the <term refersTo="#term-grave" id="trm141">grave</term> has been deepened; and</p>
+                    </item>
+                    <item id="section-7.2.list1.b.list0.iii">
+                      <num>(iii)</num>
+                      <p>a <term refersTo="#term-prescribed_fee" id="trm142">prescribed fee</term> has been paid;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-7.2.list1.c">
+                  <num>(c)</num>
+                  <blockList id="section-7.2.list1.c.list1">
+                    <listIntroduction>A person who has been given permission for either a second or third <term refersTo="#term-burial" id="trm143">burial</term> must -</listIntroduction>
+                    <item id="section-7.2.list1.c.list1.i">
+                      <num>(i)</num>
+                      <p>give at least two days notice; and</p>
+                    </item>
+                    <item id="section-7.2.list1.c.list1.ii">
+                      <num>(ii)</num>
+                      <p>at his or her own cost remove, and, subsequent to the <term refersTo="#term-burial" id="trm144">burial</term>, replace all <term refersTo="#term-memorial_work" id="trm145">memorial work</term> on such a <term refersTo="#term-grave" id="trm146">grave</term>.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Private rights</heading>
+          <subsection id="section-8.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-8.1.list0">
+                <listIntroduction>
+The holder of private rights includes –                </listIntroduction>
+                <item id="section-8.1.list0.a">
+                  <num>(a)</num>
+                  <p>a person who purchased a <term refersTo="#term-grave" id="trm147">grave</term> or who received a <term refersTo="#term-grave" id="trm148">grave</term> as a gift from the purchaser and whose name appears in the register of the <term refersTo="#term-Council" id="trm149">Council</term>;</p>
+                </item>
+                <item id="section-8.1.list0.b">
+                  <num>(b)</num>
+                  <p>a person who paid the <term refersTo="#term-prescribed" id="trm150">prescribed</term> <term refersTo="#term-burial" id="trm151">burial</term> fees in respect of the first <term refersTo="#term-burial" id="trm152">burial</term> in the <term refersTo="#term-grave" id="trm153">grave</term>;</p>
+                </item>
+                <item id="section-8.1.list0.c">
+                  <num>(c)</num>
+                  <p>a person to whom private rights to a <term refersTo="#term-grave" id="trm154">grave</term> have been transferred;</p>
+                </item>
+                <item id="section-8.1.list0.d">
+                  <num>(d)</num>
+                  <p>a person who inherited the private rights .</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-8.2">
+            <num>(2)</num>
+            <content>
+              <p>The private rights in a <term refersTo="#term-grave" id="trm155">grave</term> are transferable, but such transfer only becomes effective on registration by the <term refersTo="#term-Council" id="trm156">Council</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.3">
+            <num>(3)</num>
+            <content>
+              <p>If there is a dispute about the holder of private rights, the dispute must be referred to the <term refersTo="#term-officer-in-charge" id="trm157">officer-in-charge</term> for determination.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Sizes of graves</heading>
+          <subsection id="section-9.subsection-0">
+            <content>
+              <blockList id="section-9.subsection-0.list0">
+                <listIntroduction>
+Subject to the provisions of section 7 and 10 the standard size of a <term refersTo="#term-grave" id="trm158">grave</term> is as follows -                </listIntroduction>
+                <item id="section-9.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>an <term refersTo="#term-adult" id="trm159">adult</term>’s <term refersTo="#term-grave" id="trm160">grave</term> must measure 2 300 mm in length and 900 mm in width and 2000 mm in depth.</p>
+                </item>
+                <item id="section-9.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>a <term refersTo="#term-child" id="trm161">child</term>'s <term refersTo="#term-grave" id="trm162">grave</term> must measure 1 500 mm in length and 700 mm in width and 1 500 mm in depth.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Enlarging and deepening a <term refersTo="#term-grave" id="trm163">grave</term></heading>
+          <subsection id="section-10.1">
+            <num>(1)</num>
+            <content>
+              <p>An applicant for a <term refersTo="#term-burial" id="trm164">burial</term> may, by giving at least 24 hours notice before the <term refersTo="#term-burial" id="trm165">burial</term>, request that a <term refersTo="#term-grave" id="trm166">grave</term> be enlarged or deepened.</p>
+            </content>
+          </subsection>
+          <subsection id="section-10.2">
+            <num>(2)</num>
+            <content>
+              <p>If a coffin is too large for the size of an <term refersTo="#term-adult" id="trm167">adult</term> <term refersTo="#term-grave" id="trm168">grave</term>, such <term refersTo="#term-grave" id="trm169">grave</term> must be enlarged to accommodate such coffin.</p>
+            </content>
+          </subsection>
+          <subsection id="section-10.3">
+            <num>(3)</num>
+            <content>
+              <p>If a <term refersTo="#term-child" id="trm170">child</term>’s coffin is too large for a <term refersTo="#term-child" id="trm171">child</term>’s <term refersTo="#term-grave" id="trm172">grave</term> it must be buried in an <term refersTo="#term-adult" id="trm173">adult</term>’s <term refersTo="#term-grave" id="trm174">grave</term>, on payment of the <term refersTo="#term-prescribed_fee" id="trm175">prescribed fee</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-10.4">
+            <num>(4)</num>
+            <content>
+              <p>A <term refersTo="#term-grave" id="trm176">grave</term> may, on application and on payment of the <term refersTo="#term-prescribed_fee" id="trm177">prescribed fee</term>, be deepened for <term refersTo="#term-burial" id="trm178">burial</term> of a third coffin.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Coffins</heading>
+          <subsection id="section-11.1">
+            <num>(1)</num>
+            <content>
+              <p>Coffins to be placed in a <term refersTo="#term-grave" id="trm179">grave</term> must be made of natural wood or other perishable material.</p>
+            </content>
+          </subsection>
+          <subsection id="section-11.2">
+            <num>(2)</num>
+            <content>
+              <p>Coffins intended for <term refersTo="#term-cremation" id="trm180">cremation</term> must be constructed mainly of timber or wood derivatives.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Covering of coffins</heading>
+          <subsection id="section-12.1">
+            <num>(1)</num>
+            <content>
+              <p>Every coffin must be covered with at least 300 mm of soil immediately after <term refersTo="#term-burial" id="trm181">burial</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-12.2.list1">
+                <listIntroduction>
+There must be at least -                </listIntroduction>
+                <item id="section-12.2.list1.a">
+                  <num>(a)</num>
+                  <p>1 200 mm of soil between a coffin of a buried <term refersTo="#term-adult" id="trm182">adult</term> and the surface of the ground; or</p>
+                </item>
+                <item id="section-12.2.list1.b">
+                  <num>(b)</num>
+                  <p>900 mm of soil in the case of a coffin of a <term refersTo="#term-child" id="trm183">child</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-12.3">
+            <num>(3)</num>
+            <content>
+              <p>The provisions of subsection (2) do not apply to a <term refersTo="#term-burial" id="trm184">burial</term> in a <term refersTo="#term-tomb" id="trm185">tomb</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Body bags</heading>
+          <subsection id="section-13.1">
+            <num>(1)</num>
+            <content>
+              <p>If there is more than one <term refersTo="#term-body" id="trm186">body</term> in a coffin each <term refersTo="#term-body" id="trm187">body</term> must be contained in a separate <term refersTo="#term-body" id="trm188">body</term> bag.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-body" id="trm189">body</term> intended for <term refersTo="#term-burial" id="trm190">burial</term> at a <term refersTo="#term-cemetery" id="trm191">cemetery</term> or <term refersTo="#term-cremation" id="trm192">cremation</term> in a <term refersTo="#term-crematorium" id="trm193">crematorium</term> must be sealed in a <term refersTo="#term-body" id="trm194">body</term> bag inside a coffin, unless this is contrary to the tradition, customs or religious beliefs of the deceased person or the applicant.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>Funerals</heading>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>Religious or memorial services</heading>
+          <subsection id="section-14.subsection-0">
+            <content>
+              <p>A person who desires to have a religious or memorial service at a <term refersTo="#term-cemetery" id="trm195">cemetery</term> or <term refersTo="#term-crematorium" id="trm196">crematorium</term> must apply to the <term refersTo="#term-officer-in-charge" id="trm197">officer-in-charge</term> and pay the <term refersTo="#term-prescribed_fee" id="trm198">prescribed fee</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Control of hearses at the <term refersTo="#term-cemetery" id="trm199">cemetery</term></heading>
+          <subsection id="section-15.subsection-0">
+            <content>
+              <blockList id="section-15.subsection-0.list0">
+                <listIntroduction>
+No person in a <term refersTo="#term-cemetery" id="trm200">cemetery</term> may –                </listIntroduction>
+                <item id="section-15.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>drive a hearse or cause a hearse to be driven except on a designated roadway;</p>
+                </item>
+                <item id="section-15.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>park a hearse or detain a hearse on a roadway after the coffin has been removed from the hearse; or</p>
+                </item>
+                <item id="section-15.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>park a hearse in such a manner that it interferes with other burials in progress.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Conveyance of coffins and bodies</heading>
+          <subsection id="section-16.1">
+            <num>(1)</num>
+            <content>
+              <p>An applicant in terms of section 3 is responsible at his or her own cost for ensuring that a coffin is conveyed to the <term refersTo="#term-cemetery" id="trm201">cemetery</term> for <term refersTo="#term-burial" id="trm202">burial</term> or to the <term refersTo="#term-crematorium" id="trm203">crematorium</term> for <term refersTo="#term-cremation" id="trm204">cremation</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-16.2">
+            <num>(2)</num>
+            <content>
+              <p>No person may in any street, <term refersTo="#term-cemetery" id="trm205">cemetery</term>, <term refersTo="#term-crematorium" id="trm206">crematorium</term> or other public place convey a <term refersTo="#term-body" id="trm207">body</term> in a disrespectful manner.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Instructions at cemeteries</heading>
+          <subsection id="section-17.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-17.1.list0">
+                <listIntroduction>
+The <term refersTo="#term-officer-in-charge" id="trm208">officer-in-charge</term> at the <term refersTo="#term-cemetery" id="trm209">cemetery</term> may issue instructions relating to -                </listIntroduction>
+                <item id="section-17.1.list0.a">
+                  <num>(a)</num>
+                  <p>the parking of vehicles;</p>
+                </item>
+                <item id="section-17.1.list0.b">
+                  <num>(b)</num>
+                  <p>a funeral procession;</p>
+                </item>
+                <item id="section-17.1.list0.c">
+                  <num>(c)</num>
+                  <p>the duration of a service.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-17.2">
+            <num>(2)</num>
+            <content>
+              <p>Every person taking part in a funeral procession at the <term refersTo="#term-cemetery" id="trm210">cemetery</term>, or attending a <term refersTo="#term-cremation" id="trm211">cremation</term> service, must comply with all reasonable instructions of the officer-incharge.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Duration of service</heading>
+          <subsection id="section-18.subsection-0">
+            <content>
+              <p>No person may occupy a chapel at a <term refersTo="#term-cemetery" id="trm212">cemetery</term> for the purpose of a funeral service or <term refersTo="#term-cremation" id="trm213">cremation</term>, for more than 30 minutes, without the permission of the <term refersTo="#term-officer-in-charge" id="trm214">officer-in-charge</term> and payment of the <term refersTo="#term-prescribed_fee" id="trm215">prescribed fee</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-19">
+          <num>19.</num>
+          <heading>Hours for <term refersTo="#term-burial" id="trm216">burial</term></heading>
+          <subsection id="section-19.subsection-0">
+            <content>
+              <blockList id="section-19.subsection-0.list0">
+                <listIntroduction>
+(a) Subject to paragraph (b) <term refersTo="#term-burial" id="trm217">burial</term> may take place only between 08h00 and 15h00.                </listIntroduction>
+                <item id="section-19.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>The Officer-in-charge may, on such conditions as he or she may determine, and on payment of the <term refersTo="#term-prescribed_fee" id="trm218">prescribed fee</term>, give permission to bury outside the stipulated hours.</p>
+                </item>
+                <item id="section-19.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>If the <term refersTo="#term-burial" id="trm219">burial</term> takes place outside the stipulated hours, the applicant will provide tools and assume the responsibility of closing the <term refersTo="#term-grave" id="trm220">grave</term>.</p>
+                </item>
+                <item id="section-19.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>If the applicant requires the <term refersTo="#term-Council" id="trm221">Council</term> to provide the service outside the stipulated hours, the <term refersTo="#term-Council" id="trm222">Council</term> may provide such service on payment of the <term refersTo="#term-prescribed" id="trm223">prescribed</term> after hours fee, subject to such conditions as the <term refersTo="#term-officer-in-charge" id="trm224">officer-in-charge</term> may determine.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-4">
+        <num>4</num>
+        <heading>Re – opening of graves and exhumations</heading>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>Conditions of exhumations</heading>
+          <subsection id="section-20.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-20.1.list0">
+                <listIntroduction>
+No person may exhume or cause to be exhumed a <term refersTo="#term-body" id="trm225">body</term> without the written consent of the –                </listIntroduction>
+                <item id="section-20.1.list0.a">
+                  <num>(a)</num>
+                  <p>Premier of the Gauteng Provincial Government;</p>
+                </item>
+                <item id="section-20.1.list0.b">
+                  <num>(b)</num>
+                  <p>the <term refersTo="#term-Council" id="trm226">Council</term>;</p>
+                </item>
+                <item id="section-20.1.list0.c">
+                  <num>(c)</num>
+                  <p>the provincial Department of Health;</p>
+                </item>
+                <item id="section-20.1.list0.d">
+                  <num>(d)</num>
+                  <p>the <term refersTo="#term-Administrator_of_cemeteries" id="trm227">Administrator of cemeteries</term>; and</p>
+                </item>
+                <item id="section-20.1.list0.e">
+                  <num>(e)</num>
+                  <p>the <term refersTo="#term-Council" id="trm228">Council</term>’s Medical Officer of Health.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-20.2">
+            <num>(2)</num>
+            <content>
+              <p>Whenever an <term refersTo="#term-exhumation" id="trm229">exhumation</term> is to take place, the <term refersTo="#term-officer-in-charge" id="trm230">officer-in-charge</term> must inform the Provincial Commissioner of the South African Police Services.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.3">
+            <num>(3)</num>
+            <content>
+              <p>A member of the South African Police Services must always be present when an <term refersTo="#term-exhumation" id="trm231">exhumation</term> is being conducted.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.4">
+            <num>(4)</num>
+            <content>
+              <p>An <term refersTo="#term-exhumation" id="trm232">exhumation</term> must not take place when the <term refersTo="#term-cemetery" id="trm233">cemetery</term> is open to the public and must take place under the supervision of the <term refersTo="#term-officer-in-charge" id="trm234">officer-in-charge</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.5">
+            <num>(5)</num>
+            <content>
+              <p>If remains are to be exhumed from any <term refersTo="#term-grave" id="trm235">grave</term>, only the undertaker under the supervision of the <term refersTo="#term-officer-in-charge" id="trm236">officer-in-charge</term>, may cause the <term refersTo="#term-grave" id="trm237">grave</term> to be excavated for such <term refersTo="#term-exhumation" id="trm238">exhumation</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.6">
+            <num>(6)</num>
+            <content>
+              <blockList id="section-20.6.list5">
+                <item id="section-20.6.list5.a">
+                  <num>(a)</num>
+                  <p>If a <term refersTo="#term-grave" id="trm239">grave</term> is to be excavated for <term refersTo="#term-exhumation" id="trm240">exhumation</term>, the <term refersTo="#term-officer-in-charge" id="trm241">officer-in-charge</term> must be given 48 hours written notice before the time of <term refersTo="#term-exhumation" id="trm242">exhumation</term>, and</p>
+                </item>
+                <item id="section-20.6.list5.b">
+                  <num>(b)</num>
+                  <p>The authority referred to in paragraph (1)(d) and the <term refersTo="#term-prescribed_fee" id="trm243">prescribed fee</term> must accompany such notice.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-20.7">
+            <num>(7)</num>
+            <content>
+              <p>A person who wishes to exhume the remains of an <term refersTo="#term-indigent_person" id="trm244">indigent person</term> must pay the costs incurred by the <term refersTo="#term-Council" id="trm245">Council</term> at the time of <term refersTo="#term-burial" id="trm246">burial</term>, to the Administrator of Cemeteries.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.8">
+            <num>(8)</num>
+            <content>
+              <p>The person carrying out the <term refersTo="#term-exhumation" id="trm247">exhumation</term> must ensure that the <term refersTo="#term-body" id="trm248">body</term> and <term refersTo="#term-grave" id="trm249">grave</term> are properly disinfected and deodorized.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.9">
+            <num>(9)</num>
+            <content>
+              <blockList id="section-20.9.list8">
+                <listIntroduction>
+The South African Police Services must                </listIntroduction>
+                <item id="section-20.9.list8.a">
+                  <num>(a)</num>
+                  <p>if there is proof of illegal <term refersTo="#term-burial" id="trm250">burial</term> immediately exhume the <term refersTo="#term-body" id="trm251">body</term>; and</p>
+                </item>
+                <item id="section-20.9.list8.b">
+                  <num>(b)</num>
+                  <p>take it to a government mortuary for investigation.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-20.10">
+            <num>(10)</num>
+            <content>
+              <p>A <term refersTo="#term-grave" id="trm252">grave</term> of victims of conflict and a <term refersTo="#term-grave" id="trm253">grave</term> which is older than 60 years may only be exhumed with the permission of the <term refersTo="#term-South_African_Heritage_Resources_Agency" id="trm254">South African Heritage Resources Agency</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.11">
+            <num>(11)</num>
+            <content>
+              <p>A <term refersTo="#term-Commonwealth_war_grave" id="trm255">Commonwealth war grave</term> may only be exhumed in accordance with the provisions of section 3 of the Commonwealth War Graves Act, 1992.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-21">
+          <num>21.</num>
+          <heading>Exhumation and reburial</heading>
+          <subsection id="section-21.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm256">Council</term> may, if a <term refersTo="#term-body" id="trm257">body</term> has been buried in contravention of these By-laws, cause the <term refersTo="#term-body" id="trm258">body</term> to be exhumed and re-buried in another <term refersTo="#term-grave" id="trm259">grave</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-21.2.list1">
+                <listIntroduction>
+The relatives of the deceased must be -                </listIntroduction>
+                <item id="section-21.2.list1.a">
+                  <num>(a)</num>
+                  <p>notified of the intended <term refersTo="#term-exhumation" id="trm260">exhumation</term> and re-<term refersTo="#term-burial" id="trm261">burial</term>; and</p>
+                </item>
+                <item id="section-21.2.list1.b">
+                  <num>(b)</num>
+                  <p>allowed to attend.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-22">
+          <num>22.</num>
+          <heading>Screening of <term refersTo="#term-exhumation" id="trm262">exhumation</term></heading>
+          <subsection id="section-22.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-grave" id="trm263">grave</term> from which A <term refersTo="#term-body" id="trm264">body</term> is to be exhumed must be screened from the view of the public during the <term refersTo="#term-exhumation" id="trm265">exhumation</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-22.2">
+            <num>(2)</num>
+            <content>
+              <p>The person carrying out the <term refersTo="#term-exhumation" id="trm266">exhumation</term> must provide a suitable receptacle for each <term refersTo="#term-body" id="trm267">body</term> or remains.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-5">
+        <num>5</num>
+        <heading>Care of graves</heading>
+        <section id="section-23">
+          <num>23.</num>
+          <heading>Gardening of graves and other objects on <term refersTo="#term-grave" id="trm268">grave</term></heading>
+          <subsection id="section-23.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm269">Council</term> is responsible for keeping cemeteries clean unless these by-laws provide otherwise.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-23.2.list1">
+                <listIntroduction>
+No person may –                </listIntroduction>
+                <item id="section-23.2.list1.a">
+                  <num>(a)</num>
+                  <p>plant, cut or remove plants, shrubs or flowers on a <term refersTo="#term-grave" id="trm270">grave</term> without the permission of the <term refersTo="#term-officer-in-charge" id="trm271">officer-in-charge</term>;</p>
+                </item>
+                <item id="section-23.2.list1.b">
+                  <num>(b)</num>
+                  <p>plant, cut or remove plants, shrubs or flowers on the <term refersTo="#term-berm_section" id="trm272">berm section</term>; or</p>
+                </item>
+                <item id="section-23.2.list1.c">
+                  <num>(c)</num>
+                  <p>place a metal cot on any <term refersTo="#term-grave" id="trm273">grave</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-23.3">
+            <num>(3)</num>
+            <content>
+              <p>A person may only erect, place or leave, an object or decoration on a <term refersTo="#term-grave" id="trm274">grave</term> during the first 30 days following the <term refersTo="#term-burial" id="trm275">burial</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.4">
+            <num>(4)</num>
+            <content>
+              <p>Natural or artificial flowers contained in receptacles may be placed on a <term refersTo="#term-grave" id="trm276">grave</term> at any time, but in a <term refersTo="#term-grave" id="trm277">grave</term> within a <term refersTo="#term-berm_section" id="trm278">berm section</term> or with a headstone, such flowers may only be placed in the socket provided.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-23.5.list4">
+                <listIntroduction>
+The officer-in-Charge may –                </listIntroduction>
+                <item id="section-23.5.list4.a">
+                  <num>(a)</num>
+                  <p>remove all withered natural flowers, faded or damaged artificial flowers and any receptacle placed on a <term refersTo="#term-grave" id="trm279">grave</term>; or</p>
+                </item>
+                <item id="section-23.5.list4.b">
+                  <num>(b)</num>
+                  <p>30 days after publishing a general notice remove all objects of decoration, for the purpose of beautification of the area.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-23.6">
+            <num>(6)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm280">Council</term> is not liable for any loss or damage to any object on a <term refersTo="#term-grave" id="trm281">grave</term> unless such loss or damage is a result of the negligence of any employee of the <term refersTo="#term-Council" id="trm282">Council</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-6">
+        <num>6</num>
+        <heading>Memorial section</heading>
+        <section id="section-24">
+          <num>24.</num>
+          <heading>Erection of <term refersTo="#term-memorial_work" id="trm283">memorial work</term></heading>
+          <subsection id="section-24.1">
+            <num>(1)</num>
+            <content>
+              <p>A person intending to erect a <term refersTo="#term-memorial_work" id="trm284">memorial work</term> must make and complete an application on the <term refersTo="#term-prescribed" id="trm285">prescribed</term> application form to the <term refersTo="#term-officer-in-charge" id="trm286">officer-in-charge</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.2">
+            <num>(2)</num>
+            <content>
+              <p>Such application must be made not less than five working days before the date of erection.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.3">
+            <num>(3)</num>
+            <content>
+              <p>Memorial work may only be erected during working hours, but may, with the approval of the <term refersTo="#term-officer-in-charge" id="trm287">officer-in-charge</term>, be erected outside working hours.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-24.4.list3">
+                <listIntroduction>
+No person may–                </listIntroduction>
+                <item id="section-24.4.list3.a">
+                  <num>(a)</num>
+                  <p>erect <term refersTo="#term-memorial_work" id="trm288">memorial work</term>, or bring material into a <term refersTo="#term-cemetery" id="trm289">cemetery</term> for the purpose of erecting <term refersTo="#term-memorial_work" id="trm290">memorial work</term>, without the written consent of the <term refersTo="#term-officer-in-charge" id="trm291">officer-in-charge</term>;</p>
+                </item>
+                <item id="section-24.4.list3.b">
+                  <num>(b)</num>
+                  <p>remove <term refersTo="#term-memorial_work" id="trm292">memorial work</term> for additional inscriptions or other alterations without the consent of the <term refersTo="#term-officer-in-charge" id="trm293">officer-in-charge</term>; or</p>
+                </item>
+                <item id="section-24.4.list3.c">
+                  <num>(c)</num>
+                  <p>erect a <term refersTo="#term-memorial_work" id="trm294">memorial work</term> on a Saturday, Sunday or a public holiday, without the written consent of the <term refersTo="#term-officer-in-charge" id="trm295">officer-in-charge</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-24.5">
+            <num>(5)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm296">Council</term> is not liable for damage to <term refersTo="#term-memorial_work" id="trm297">memorial work</term> resulting from any subsiding soil.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.6">
+            <num>(6)</num>
+            <content>
+              <p>A person erecting <term refersTo="#term-memorial_work" id="trm298">memorial work</term> must at the request of the <term refersTo="#term-officer-in-charge" id="trm299">officer-in-charge</term> produce the written consent.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.7">
+            <num>(7)</num>
+            <content>
+              <p>Memorial work or material to be used in the erection of such work, may not be conveyed in a <term refersTo="#term-cemetery" id="trm300">cemetery</term> or <term refersTo="#term-crematorium" id="trm301">crematorium</term> in a manner that may damage the roadways, pathways, lawns, grounds or other memorials.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.8">
+            <num>(8)</num>
+            <content>
+              <p>Any surplus material or rubble, resulting from the erection of any <term refersTo="#term-memorial_work" id="trm302">memorial work</term>, must be removed by the person responsible for such erection, immediately after its completion.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-25">
+          <num>25.</num>
+          <heading>Inferior <term refersTo="#term-memorial_work" id="trm303">memorial work</term></heading>
+          <subsection id="section-25.subsection-0">
+            <content>
+              <blockList id="section-25.subsection-0.list0">
+                <listIntroduction>
+The <term refersTo="#term-Council" id="trm304">Council</term> may prohibit the erection of a <term refersTo="#term-memorial_work" id="trm305">memorial work</term> or may remove erected <term refersTo="#term-memorial_work" id="trm306">memorial work</term> which is –                </listIntroduction>
+                <item id="section-25.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>of inferior workmanship or quality;</p>
+                </item>
+                <item id="section-25.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>is indecent, offensive or objectionable; or</p>
+                </item>
+                <item id="section-25.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>in contravention of these by-laws, without compensating the owner.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-26">
+          <num>26.</num>
+          <heading>Inscription on <term refersTo="#term-memorial_work" id="trm307">memorial work</term></heading>
+          <subsection id="section-26.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-26.1.list0">
+                <listIntroduction>
+Any <term refersTo="#term-memorial_work" id="trm308">memorial work</term> must display the number assigned to the <term refersTo="#term-grave" id="trm309">grave</term> by the <term refersTo="#term-officer-in-charge" id="trm310">officer-in-charge</term>, in permanent and visible markings -                </listIntroduction>
+                <item id="section-26.1.list0.a">
+                  <num>(a)</num>
+                  <p>on the side of the base of the <term refersTo="#term-memorial_work" id="trm311">memorial work</term>; and</p>
+                </item>
+                <item id="section-26.1.list0.b">
+                  <num>(b)</num>
+                  <p>on the upper surface, in the lower left hand corner, of a tablet erected on a <term refersTo="#term-grave" id="trm312">grave</term> in a <term refersTo="#term-landscape_section" id="trm313">landscape section</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-26.2">
+            <num>(2)</num>
+            <content>
+              <p>The name of the maker, designer or erector of the <term refersTo="#term-memorial_work" id="trm314">memorial work</term> may appear on the work and must be placed at the base of the <term refersTo="#term-memorial_work" id="trm315">memorial work</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-27">
+          <num>27.</num>
+          <heading>Dismantling of <term refersTo="#term-memorial_work" id="trm316">memorial work</term></heading>
+          <subsection id="section-27.1">
+            <num>(1)</num>
+            <content>
+              <p>Only a holder of private rights, or a person authorised in writing by the holder of such rights, may, with the written permission of the <term refersTo="#term-officer-in-charge" id="trm317">officer-in-charge</term>, dismantle, alter, or disturb, any <term refersTo="#term-memorial_work" id="trm318">memorial work</term> on a <term refersTo="#term-grave" id="trm319">grave</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.2">
+            <num>(2)</num>
+            <content>
+              <p>Dismantled <term refersTo="#term-memorial_work" id="trm320">memorial work</term> must either be removed from a <term refersTo="#term-cemetery" id="trm321">cemetery</term> or be left on the <term refersTo="#term-grave" id="trm322">grave</term> on which such <term refersTo="#term-memorial_work" id="trm323">memorial work</term> had been erected.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-officer-in-charge" id="trm324">officer-in-charge</term> may in the case of a second or subsequent <term refersTo="#term-burial" id="trm325">burial</term> in such <term refersTo="#term-grave" id="trm326">grave</term>, permit <term refersTo="#term-memorial_work" id="trm327">memorial work</term> to be left elsewhere in the <term refersTo="#term-cemetery" id="trm328">cemetery</term>, for a period not exceeding 30 days after such <term refersTo="#term-burial" id="trm329">burial</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.4">
+            <num>(4)</num>
+            <content>
+              <p>The person dismantling the work must immediately after the work is completed, remove any surplus material, or rubble, resulting from the dismantling of any <term refersTo="#term-memorial_work" id="trm330">memorial work</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-27.5.list4">
+                <listIntroduction>
+If a holder of rights or person referred to in subsection (1) -                </listIntroduction>
+                <item id="section-27.5.list4.a">
+                  <num>(a)</num>
+                  <p>fails to re-erect dismantled <term refersTo="#term-memorial_work" id="trm331">memorial work</term> within 30 days after it was dismantled; or</p>
+                </item>
+                <item id="section-27.5.list4.b">
+                  <num>(b)</num>
+                  <p>leaves such <term refersTo="#term-memorial_work" id="trm332">memorial work</term> within the <term refersTo="#term-cemetery" id="trm333">cemetery</term> in contravention of subsection (2),</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-27.subsection-5">
+            <content>
+              <p>the <term refersTo="#term-Council" id="trm334">Council</term> may give 30 days written notice to such holder of rights or person, instructing him or her to remove such <term refersTo="#term-memorial_work" id="trm335">memorial work</term> from the <term refersTo="#term-cemetery" id="trm336">cemetery</term> with any rubble resulting therefrom, at his or her own expense or to re-erect such <term refersTo="#term-memorial_work" id="trm337">memorial work</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.6">
+            <num>(6)</num>
+            <content>
+              <blockList id="section-27.6.list6">
+                <listIntroduction>
+If any <term refersTo="#term-memorial_work" id="trm338">memorial work</term> has –                </listIntroduction>
+                <item id="section-27.6.list6.a">
+                  <num>(a)</num>
+                  <p>been damaged;</p>
+                </item>
+                <item id="section-27.6.list6.b">
+                  <num>(b)</num>
+                  <p>become a danger to the public; or</p>
+                </item>
+                <item id="section-27.6.list6.c">
+                  <num>(c)</num>
+                  <p>been erected in contravention of these by-laws,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-27.subsection-7">
+            <content>
+              <blockList id="section-27.subsection-7.list7">
+                <listIntroduction>
+the <term refersTo="#term-Council" id="trm339">Council</term> may give written notice to the holder of rights or person referred to in subsection (1), instructing him or her, at his or her own expense, within a period specified in the notice, to –                </listIntroduction>
+                <item id="section-27.subsection-7.list7.i">
+                  <num>(i)</num>
+                  <p>alter or make such <term refersTo="#term-memorial_work" id="trm340">memorial work</term> safe so that it complies with the provisions of these By-laws ;</p>
+                </item>
+                <item id="section-27.subsection-7.list7.ii">
+                  <num>(ii)</num>
+                  <p>dismantle and remove such <term refersTo="#term-memorial_work" id="trm341">memorial work</term> from the <term refersTo="#term-cemetery" id="trm342">cemetery</term> together with all rubble resulting therefrom.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-27.7">
+            <num>(7)</num>
+            <content>
+              <blockList id="section-27.7.list8">
+                <listIntroduction>
+If such holder of rights or person referred to in subsection (1) fails to comply with a notice in terms of subsection (5) or (6), the <term refersTo="#term-Council" id="trm343">Council</term> may –                </listIntroduction>
+                <item id="section-27.7.list8.a">
+                  <num>(a)</num>
+                  <p>re-erect the <term refersTo="#term-memorial_work" id="trm344">memorial work</term>;</p>
+                </item>
+                <item id="section-27.7.list8.b">
+                  <num>(b)</num>
+                  <p>dismantle and dispose of the <term refersTo="#term-memorial_work" id="trm345">memorial work</term> and remove any rubble resulting therefrom; or</p>
+                </item>
+                <item id="section-27.7.list8.c">
+                  <num>(c)</num>
+                  <p>make the <term refersTo="#term-memorial_work" id="trm346">memorial work</term> safe, and such holder or person will be liable for any costs incurred by the <term refersTo="#term-Council" id="trm347">Council</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-27.8">
+            <num>(8)</num>
+            <content>
+              <blockList id="section-27.8.list9">
+                <listIntroduction>
+The <term refersTo="#term-Council" id="trm348">Council</term> may without giving any notice, or incurring any liability to the holder of rights or person referred to in subsection (1) –                </listIntroduction>
+                <item id="section-27.8.list9.a">
+                  <num>(a)</num>
+                  <p>dismantle the <term refersTo="#term-memorial_work" id="trm349">memorial work</term> and remove it and any rubble resulting therefrom, except <term refersTo="#term-memorial_work" id="trm350">memorial work</term> that is protected by the provisions of the National Heritage Resources Act, 1999; or</p>
+                </item>
+                <item id="section-27.8.list9.b">
+                  <num>(b)</num>
+                  <p>make the <term refersTo="#term-memorial_work" id="trm351">memorial work</term> safe,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-27.subsection-10">
+            <content>
+              <p>if such <term refersTo="#term-memorial_work" id="trm352">memorial work</term> has become so dangerous to the public that immediate steps to safeguard the public are essential.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.9">
+            <num>(9)</num>
+            <content>
+              <p>After the <term refersTo="#term-Council" id="trm353">Council</term> has acted in terms of subsection (8), it must immediately, in writing, notify the holder of rights or person that, unless he or she reclaims the <term refersTo="#term-memorial_work" id="trm354">memorial work</term> from the <term refersTo="#term-cemetery" id="trm355">cemetery</term> within a specified period, the <term refersTo="#term-Council" id="trm356">Council</term> will dispose of the <term refersTo="#term-memorial_work" id="trm357">memorial work</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.10">
+            <num>(10)</num>
+            <content>
+              <p>Such holder of rights or person referred to in subsection (1) is liable for costs incurred by the <term refersTo="#term-Council" id="trm358">Council</term>, when the <term refersTo="#term-Council" id="trm359">Council</term> has acted in the manner contemplated in subsection (8).</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.11">
+            <num>(11)</num>
+            <content>
+              <p>If the holder of rights or person referred to in subsection (1) fails to pay the costs referred to in subsection (10), or to reclaim the <term refersTo="#term-memorial_work" id="trm360">memorial work</term> dismantled by the <term refersTo="#term-Council" id="trm361">Council</term>, the <term refersTo="#term-Council" id="trm362">Council</term> may dispose of such <term refersTo="#term-memorial_work" id="trm363">memorial work</term> in any manner it deems fit.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.12">
+            <num>(12)</num>
+            <content>
+              <p>If any proceeds are derived from the disposal, such proceeds will be offset against the cost of the dismantling, removal, storing, and disposing, of <term refersTo="#term-memorial_work" id="trm364">memorial work</term> and rubble resulting therefrom.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-28">
+          <num>28.</num>
+          <heading>General requirements for <term refersTo="#term-memorial_work" id="trm365">memorial work</term></heading>
+          <subsection id="section-28.1">
+            <num>(1)</num>
+            <content>
+              <p>Memorial work must be constructed or made of durable material, approved by the South African Bureau of Standards with a life expectancy of at least 25 years.</p>
+            </content>
+          </subsection>
+          <subsection id="section-28.2">
+            <num>(2)</num>
+            <content>
+              <p>Any person erecting <term refersTo="#term-memorial_work" id="trm366">memorial work</term> in a <term refersTo="#term-cemetery" id="trm367">cemetery</term> or <term refersTo="#term-crematorium" id="trm368">crematorium</term> must do so with the approval of the <term refersTo="#term-officer-in-charge" id="trm369">officer-in-charge</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-28.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-28.3.list2">
+                <listIntroduction>
+A person erecting <term refersTo="#term-memorial_work" id="trm370">memorial work</term> must comply with the following requirements-                </listIntroduction>
+                <item id="section-28.3.list2.a">
+                  <num>(a)</num>
+                  <blockList id="section-28.3.list2.a.list0">
+                    <listIntroduction>when joining any part of the <term refersTo="#term-memorial_work" id="trm371">memorial work</term> to any other part of the <term refersTo="#term-memorial_work" id="trm372">memorial work</term> the person must use copper or galvanized iron pins as follows-</listIntroduction>
+                    <item id="section-28.3.list2.a.list0.i">
+                      <num>(i)</num>
+                      <p>for <term refersTo="#term-memorial_work" id="trm373">memorial work</term> up to a height of 500 mm, two or more pins of at least 5mm thick and 100 mm long;</p>
+                    </item>
+                    <item id="section-28.3.list2.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>for <term refersTo="#term-memorial_work" id="trm374">memorial work</term> 501 mm up to a height of 1 000 mm, two or more pins at least 10 mm thick and 200 mm long; or</p>
+                    </item>
+                    <item id="section-28.3.list2.a.list0.iii">
+                      <num>(iii)</num>
+                      <p>for <term refersTo="#term-memorial_work" id="trm375">memorial work</term> 1 001 mm and higher at least two or more pins 20 mm thick and 300 mm long;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-28.3.list2.b">
+                  <num>(b)</num>
+                  <p>any part of <term refersTo="#term-memorial_work" id="trm376">memorial work</term> which rests on the ground, stone or foundation must be properly secured and bedded;</p>
+                </item>
+                <item id="section-28.3.list2.c">
+                  <num>(c)</num>
+                  <p>a material of uneven thickness must not be used;</p>
+                </item>
+                <item id="section-28.3.list2.d">
+                  <num>(d)</num>
+                  <p>the undersides of every flat <term refersTo="#term-memorial_work" id="trm377">memorial work</term> and the base of every <term refersTo="#term-memorial_work" id="trm378">memorial work</term> must be sunk at least 50 mm below the natural level of the ground;</p>
+                </item>
+                <item id="section-28.3.list2.e">
+                  <num>(e)</num>
+                  <p>a border which is more than 225 mm above the surface of the ground or more than 200 mm deep must not be used without the consent of the <term refersTo="#term-Council" id="trm379">Council</term>;</p>
+                </item>
+                <item id="section-28.3.list2.f">
+                  <num>(f)</num>
+                  <p>all <term refersTo="#term-memorial_work" id="trm380">memorial work</term> and border stones must be securely clamped with round copper or galvanized iron clamps;</p>
+                </item>
+                <item id="section-28.3.list2.g">
+                  <num>(g)</num>
+                  <p>all <term refersTo="#term-memorial_work" id="trm381">memorial work</term> up to 150 mm in thickness must be securely attached to the base;</p>
+                </item>
+                <item id="section-28.3.list2.h">
+                  <num>(h)</num>
+                  <p>all the components of <term refersTo="#term-memorial_work" id="trm382">memorial work</term> must be completed before being brought into a <term refersTo="#term-cemetery" id="trm383">cemetery</term>;</p>
+                </item>
+                <item id="section-28.3.list2.i">
+                  <num>(i)</num>
+                  <p>footstones must consist of one solid piece;</p>
+                </item>
+                <item id="section-28.3.list2.j">
+                  <num>(j)</num>
+                  <blockList id="section-28.3.list2.j.list1">
+                    <listIntroduction>in all cases where <term refersTo="#term-memorial_work" id="trm384">memorial work</term> rests on a base -</listIntroduction>
+                    <item id="section-28.3.list2.j.list1.i">
+                      <num>(i)</num>
+                      <p>such <term refersTo="#term-memorial_work" id="trm385">memorial work</term> must have a foundation;</p>
+                    </item>
+                    <item id="section-28.3.list2.j.list1.ii">
+                      <num>(ii)</num>
+                      <p>such <term refersTo="#term-memorial_work" id="trm386">memorial work</term> must be set with cement mortar;</p>
+                    </item>
+                    <item id="section-28.3.list2.j.list1.iii">
+                      <num>(iii)</num>
+                      <p>the bottom base of a single <term refersTo="#term-memorial_work" id="trm387">memorial work</term> must not be less than 900mm long 220 mm wide x 250 mm thick and that of a double <term refersTo="#term-memorial_work" id="trm388">memorial work</term> not less than 2 286 mm long x 200 mm wide x 250 mm thick; and</p>
+                    </item>
+                    <item id="section-28.3.list2.j.list1.iv">
+                      <num>(iv)</num>
+                      <p>if loose stone chips are placed on a <term refersTo="#term-grave" id="trm389">grave</term>, the level of such stone chips must not be higher than 10 mm below the level of the surrounding curbstones.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-29">
+          <num>29.</num>
+          <heading>Requirements for <term refersTo="#term-memorial_work" id="trm390">memorial work</term> in <term refersTo="#term-lawn_section" id="trm391">lawn section</term></heading>
+          <subsection id="section-29.subsection-0">
+            <content>
+              <blockList id="section-29.subsection-0.list0">
+                <listIntroduction>
+The following provisions apply to <term refersTo="#term-memorial_work" id="trm392">memorial work</term> and graves in a lawn Section –                </listIntroduction>
+                <item id="section-29.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>the dimensions of the base of any headstones on an <term refersTo="#term-adult" id="trm393">adult</term>’s <term refersTo="#term-grave" id="trm394">grave</term> must not exceed 900 mm in length and 260 mm in width, but if the base of the headstone is erected over two adjoining graves, such base must not exceed 2 200 mm in length and 260 mm in width;</p>
+                </item>
+                <item id="section-29.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>the dimensions of the base of any headstone of a <term refersTo="#term-child" id="trm395">child</term>’s <term refersTo="#term-grave" id="trm396">grave</term> must not exceed 610 mm in length and 260 mm in width, but if the base of the headstone is erected over two adjoining graves such base must not exceed 1 200 mm in length and 260 mm in width;</p>
+                </item>
+                <item id="section-29.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>no portion of any headstone may extend beyond the horizontal dimensions of its base;</p>
+                </item>
+                <item id="section-29.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>headstones must be erected on the concrete berms supplied by the <term refersTo="#term-Council" id="trm397">Council</term>, except in the case of a temporary erection where the applicant must provide a foundation suitable to support the headstone, until the <term refersTo="#term-Council" id="trm398">Council</term> has installed the <term refersTo="#term-berm" id="trm399">berm</term>;</p>
+                </item>
+                <item id="section-29.subsection-0.list0.e">
+                  <num>(e)</num>
+                  <p>no part of any <term refersTo="#term-memorial_work" id="trm400">memorial work</term> may exceed 1 500 mm in height above the <term refersTo="#term-berm" id="trm401">berm</term>;</p>
+                </item>
+                <item id="section-29.subsection-0.list0.f">
+                  <num>(f)</num>
+                  <p>any headstone must be so positioned that the front edge of the headstone is at least 130 mm from the edge of the <term refersTo="#term-berm" id="trm402">berm</term>;</p>
+                </item>
+                <item id="section-29.subsection-0.list0.g">
+                  <num>(g)</num>
+                  <blockList id="section-29.subsection-0.list0.g.list0">
+                    <item id="section-29.subsection-0.list0.g.list0.i">
+                      <num>(i)</num>
+                      <p>no object other than a headstone which may incorporate more than two sockets for receptacles for flowers may be placed on any <term refersTo="#term-grave" id="trm403">grave</term>; and</p>
+                    </item>
+                    <item id="section-29.subsection-0.list0.g.list0.ii">
+                      <num>(ii)</num>
+                      <p>a vase containing natural flowers, or artificial flowers and foliage, may be placed in a socket built in the headstone and such vase must not exceed 300 mm in height; and</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-29.subsection-0.list0.h">
+                  <num>(h)</num>
+                  <p>a kerb demarcating any <term refersTo="#term-grave" id="trm404">grave</term> and a slab covering are not permitted.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-30">
+          <num>30.</num>
+          <heading>Requirements for <term refersTo="#term-memorial_work" id="trm405">memorial work</term> in <term refersTo="#term-memorial_section" id="trm406">memorial section</term></heading>
+          <subsection id="section-30.subsection-0">
+            <content>
+              <blockList id="section-30.subsection-0.list0">
+                <listIntroduction>
+The maximum horizontal measurements of any <term refersTo="#term-memorial_work" id="trm407">memorial work</term> erected on a <term refersTo="#term-grave" id="trm408">grave</term> in a <term refersTo="#term-memorial_section" id="trm409">memorial section</term> must -                </listIntroduction>
+                <item id="section-30.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>in the case of an <term refersTo="#term-adult" id="trm410">adult</term>’s <term refersTo="#term-grave" id="trm411">grave</term>, be 2 500 mm in length and 1 050 mm in width; or</p>
+                </item>
+                <item id="section-30.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>in the case of a <term refersTo="#term-child" id="trm412">child</term>’s <term refersTo="#term-grave" id="trm413">grave</term>, be 1 500 mm in length and 900 mm in width.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-31">
+          <num>31.</num>
+          <heading>Requirements for <term refersTo="#term-memorial_work" id="trm414">memorial work</term> in <term refersTo="#term-landscape_section" id="trm415">landscape section</term></heading>
+          <subsection id="section-31.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm416">Council</term> may set aside a section in a <term refersTo="#term-cemetery" id="trm417">cemetery</term> as a <term refersTo="#term-landscape_section" id="trm418">landscape section</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-31.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-31.2.list1">
+                <listIntroduction>
+Memorial work erected on a <term refersTo="#term-grave" id="trm419">grave</term> in a <term refersTo="#term-landscape_section" id="trm420">landscape section</term> must –                </listIntroduction>
+                <item id="section-31.2.list1.a">
+                  <num>(a)</num>
+                  <p>not exceed 500 mm in length, 500 mm in width and a minimum of 30 mm thick;</p>
+                </item>
+                <item id="section-31.2.list1.b">
+                  <num>(b)</num>
+                  <p>not be made of ferrous material.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-31.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-memorial_work" id="trm421">memorial work</term> must be embedded horizontally on the ground level on a suitable foundation.</p>
+            </content>
+          </subsection>
+          <subsection id="section-31.4">
+            <num>(4)</num>
+            <content>
+              <p>Where <term refersTo="#term-memorial_work" id="trm422">memorial work</term> is restricted to a plaque or memorial slab, 500 mm by 500 mm, such plaque or memorial slab must be placed horizontal at 30 mm below grass level.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-32">
+          <num>32.</num>
+          <heading>Chapter 7 cremations application for <term refersTo="#term-cremation" id="trm423">cremation</term></heading>
+          <subsection id="section-32.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-32.1.list0">
+                <listIntroduction>
+A person intending to cremate must submit the <term refersTo="#term-prescribed" id="trm424">prescribed</term> and duly completed application form supplied by the <term refersTo="#term-officer-in-charge" id="trm425">officer-in-charge</term> for approval not later than 15:00, a day before the intended date of <term refersTo="#term-cremation" id="trm426">cremation</term>, and such application must be accompanied by –                </listIntroduction>
+                <item id="section-32.1.list0.a">
+                  <num>(a)</num>
+                  <p>a <term refersTo="#term-prescribed_fee" id="trm427">prescribed fee</term>;</p>
+                </item>
+                <item id="section-32.1.list0.b">
+                  <num>(b)</num>
+                  <p>a <term refersTo="#term-burial" id="trm428">burial</term> or removal order issued in terms of the <term refersTo="#term-Births_and_Deaths_Registration_Act" id="trm429">Births and Deaths Registration Act</term>, 1992;</p>
+                </item>
+                <item id="section-32.1.list0.c">
+                  <num>(c)</num>
+                  <p>a death certificate; and</p>
+                </item>
+                <item id="section-32.1.list0.d">
+                  <num>(d)</num>
+                  <p><term refersTo="#term-cremation" id="trm430">cremation</term> forms A, B, C, D, and E. (2) If all the above requirements are met, the <term refersTo="#term-officer-in-charge" id="trm431">officer-in-charge</term> must approve such application.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-32.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-cremation" id="trm432">cremation</term> may only take place in a <term refersTo="#term-crematorium" id="trm433">crematorium</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-32.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-32.4.list2">
+                <listIntroduction>
+If the application is made in terms of subsection (1) in respect of a <term refersTo="#term-body" id="trm434">body</term> of a person(a) who at the time of death was suffering from a communicable disease as defined in section 1 of the Health Act; or                </listIntroduction>
+                <item id="section-32.4.list2.b">
+                  <num>(b)</num>
+                  <p>in whom at any time a pacemaker or radioactive material was inserted, the applicant must clearly indicate this fact and in the case of a <term refersTo="#term-body" id="trm435">body</term> referred to in paragraph (b), whether such pacemaker or radioactive material was removed from the deceased.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-33">
+          <num>33.</num>
+          <heading>Cremation times</heading>
+          <subsection id="section-33.1">
+            <num>(1)</num>
+            <content>
+              <p>Cremation may take place from Monday to Friday between 09:00 and 14:00. (2) No <term refersTo="#term-cremation" id="trm436">cremation</term> may take place on Saturdays, Sundays, and public holidays.</p>
+            </content>
+          </subsection>
+          <subsection id="section-33.3">
+            <num>(3)</num>
+            <content>
+              <p>Despite the provisions of subsection (1), the <term refersTo="#term-officer-in-charge" id="trm437">officer-in-charge</term> to whom an application is made, may if he or she is satisfied that the case is one of emergency, permit <term refersTo="#term-cremation" id="trm438">cremation</term> outside <term refersTo="#term-cremation" id="trm439">cremation</term> time on payment of the <term refersTo="#term-prescribed_fee" id="trm440">prescribed fee</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-34">
+          <num>34.</num>
+          <heading>Provision of receptacles</heading>
+          <subsection id="section-34.1">
+            <num>(1)</num>
+            <content>
+              <p>The applicant must provide a receptacle for receiving <term refersTo="#term-ashes" id="trm441">ashes</term> with the full names of the deceased, unless such <term refersTo="#term-ashes" id="trm442">ashes</term> are to be buried by the <term refersTo="#term-Council" id="trm443">Council</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-34.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-34.2.list1">
+                <item id="section-34.2.list1.a">
+                  <num>(a)</num>
+                  <p>A receptacle which is intended to be placed in a <term refersTo="#term-niche" id="trm444">niche</term> in the <term refersTo="#term-columbarium" id="trm445">columbarium</term> must be made of wood, stone, or other suitable material, and must be of such a size and design as to fit readily into such <term refersTo="#term-niche" id="trm446">niche</term>.</p>
+                </item>
+                <item id="section-34.2.list1.b">
+                  <num>(b)</num>
+                  <p>An inscription plate may be affixed to such a receptacle, or the <term refersTo="#term-niche" id="trm447">niche</term> may be closed with a suitable marble or other plaque.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-35">
+          <num>35.</num>
+          <heading>Ash collection and disposal</heading>
+          <subsection id="section-35.1">
+            <num>(1)</num>
+            <content>
+              <p>After <term refersTo="#term-cremation" id="trm448">cremation</term> the <term refersTo="#term-ashes" id="trm449">ashes</term> must be entrusted to the care of the person who applied for the <term refersTo="#term-cremation" id="trm450">cremation</term>, should he or she so desire, if not, be kept by the owner of the <term refersTo="#term-crematorium" id="trm451">crematorium</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-35.2">
+            <num>(2)</num>
+            <content>
+              <p>The person collecting the ash must indicate in the <term refersTo="#term-prescribed" id="trm452">prescribed</term> application forms the quantity of ash to be retained for collection.</p>
+            </content>
+          </subsection>
+          <subsection id="section-35.3">
+            <num>(3)</num>
+            <content>
+              <p>If there are no express arrangements for <term refersTo="#term-burial" id="trm453">burial</term> or safekeeping, the owner of a <term refersTo="#term-crematorium" id="trm454">crematorium</term> may bury or scatter the <term refersTo="#term-ashes" id="trm455">ashes</term> in a <term refersTo="#term-garden_of_remembrance" id="trm456">garden of remembrance</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-36">
+          <num>36.</num>
+          <heading>Burial and <term refersTo="#term-exhumation" id="trm457">exhumation</term> of <term refersTo="#term-ashes" id="trm458">ashes</term></heading>
+          <subsection id="section-36.1">
+            <num>(1)</num>
+            <content>
+              <p>A person who wants to bury <term refersTo="#term-ashes" id="trm459">ashes</term> in a <term refersTo="#term-grave" id="trm460">grave</term>, exhume <term refersTo="#term-ashes" id="trm461">ashes</term> from a <term refersTo="#term-grave" id="trm462">grave</term> or scatter <term refersTo="#term-ashes" id="trm463">ashes</term> must make an application to the <term refersTo="#term-officer-in-charge" id="trm464">officer-in-charge</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-36.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-officer-in-charge" id="trm465">officer-in-charge</term> must, on payment of a <term refersTo="#term-prescribed_fee" id="trm466">prescribed fee</term>, give written permission to the applicant for <term refersTo="#term-burial" id="trm467">burial</term>, or <term refersTo="#term-exhumation" id="trm468">exhumation</term>, or scattering of <term refersTo="#term-ashes" id="trm469">ashes</term>, and prepare such <term refersTo="#term-grave" id="trm470">grave</term> for <term refersTo="#term-burial" id="trm471">burial</term> or <term refersTo="#term-exhumation" id="trm472">exhumation</term> of <term refersTo="#term-ashes" id="trm473">ashes</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-36.3">
+            <num>(3)</num>
+            <content>
+              <p>An ash <term refersTo="#term-grave" id="trm474">grave</term> in a <term refersTo="#term-crematorium_section" id="trm475">crematorium section</term> or wall of remembrance must measure 610 mm in length and 610 mm in width.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-37">
+          <num>37.</num>
+          <heading>Use of niches and spaces, affixing of memorial</heading>
+          <subsection id="section-37.1">
+            <num>(1)</num>
+            <content>
+              <p>Ashes may be deposited in a <term refersTo="#term-columbarium" id="trm476">columbarium</term> or <term refersTo="#term-garden_of_remembrance" id="trm477">garden of remembrance</term> if an application accompanied by the <term refersTo="#term-prescribed_fee" id="trm478">prescribed fee</term> is made to the <term refersTo="#term-officer-in-charge" id="trm479">officer-in-charge</term>, and if the <term refersTo="#term-officer-in-charge" id="trm480">officer-in-charge</term> gives written permission.</p>
+            </content>
+          </subsection>
+          <subsection id="section-37.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-niche" id="trm481">niche</term> or a space abutting on a path in a <term refersTo="#term-garden_of_remembrance" id="trm482">garden of remembrance</term> or a <term refersTo="#term-niche" id="trm483">niche</term> or a space in a <term refersTo="#term-memorial_wall" id="trm484">memorial wall</term>, must not be used for storing <term refersTo="#term-ashes" id="trm485">ashes</term> or for affixing <term refersTo="#term-memorial_work" id="trm486">memorial work</term>, without the consent of the <term refersTo="#term-officer-in-charge" id="trm487">officer-in-charge</term> and payment of the <term refersTo="#term-prescribed_fee" id="trm488">prescribed fee</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-37.3">
+            <num>(3)</num>
+            <content>
+              <p>Identity plaques must be made of material approved by the <term refersTo="#term-officer-in-charge" id="trm489">officer-in-charge</term> and affixed simultaneously with the placing of the <term refersTo="#term-ashes" id="trm490">ashes</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-37.4">
+            <num>(4)</num>
+            <content>
+              <p>Ashes and plaques may be removed with the consent of the <term refersTo="#term-officer-in-charge" id="trm491">officer-in-charge</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-37.5">
+            <num>(5)</num>
+            <content>
+              <p>Flower holders may be affixed to the plaque only with the consent of the officer-incharge.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-38">
+          <num>38.</num>
+          <heading>Memorial work in <term refersTo="#term-crematorium" id="trm492">crematorium</term></heading>
+          <subsection id="section-38.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-38.1.list0">
+                <listIntroduction>
+A person may erect a <term refersTo="#term-memorial_work" id="trm493">memorial work</term> in a <term refersTo="#term-crematorium" id="trm494">crematorium</term> in remembrance of the deceased if he or she–                </listIntroduction>
+                <item id="section-38.1.list0.a">
+                  <num>(a)</num>
+                  <p>was cremated at that <term refersTo="#term-crematorium" id="trm495">crematorium</term> in terms of section 32; or</p>
+                </item>
+                <item id="section-38.1.list0.b">
+                  <num>(b)</num>
+                  <p>presents a <term refersTo="#term-cremation" id="trm496">cremation</term> certificate from another <term refersTo="#term-crematorium" id="trm497">crematorium</term></p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-38.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-38.2.list1">
+                <listIntroduction>
+Memorial work erected in a <term refersTo="#term-garden_of_remembrance" id="trm498">garden of remembrance</term> must be made of marble, granite, or other suitable material, and measure either 230 mm by 150 mm by 25 mm thick, or 250 mm by 305 mm by 25 mm thick, as arranged with the Officer-in-charge, if it is intended -                </listIntroduction>
+                <item id="section-38.2.list1.a">
+                  <num>(a)</num>
+                  <p>to be placed on a space on a <term refersTo="#term-memorial_wall" id="trm499">memorial wall</term> or on a space abutting on a path in a <term refersTo="#term-garden_of_remembrance" id="trm500">garden of remembrance</term>;</p>
+                </item>
+                <item id="section-38.2.list1.b">
+                  <num>(b)</num>
+                  <p>to seal a <term refersTo="#term-niche" id="trm501">niche</term>, must be of the same material and size as to conform with the <term refersTo="#term-memorial_work" id="trm502">memorial work</term> next to it and have no items affixed to it except the lettering or photo of the deceased; or</p>
+                </item>
+                <item id="section-38.2.list1.c">
+                  <num>(c)</num>
+                  <p>for erection on a <term refersTo="#term-grave" id="trm503">grave</term>, not exceed 610 mm in length, 610 mm in width and 1,2 m in height.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-38.3">
+            <num>(3)</num>
+            <content>
+              <p>Memorial work must only be removed from or affixed to a <term refersTo="#term-memorial_wall" id="trm504">memorial wall</term> or to a space abutting on a path in the <term refersTo="#term-garden_of_remembrance" id="trm505">garden of remembrance</term> with the written consent of the Officer-in-charge.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-39">
+          <num>39.</num>
+          <heading>Book of remembrance, memorial cards and miniature books</heading>
+          <subsection id="section-39.1">
+            <num>(1)</num>
+            <content>
+              <p>If the <term refersTo="#term-Council" id="trm506">Council</term> provides a book of remembrance in a <term refersTo="#term-cemetery" id="trm507">cemetery</term> or <term refersTo="#term-crematorium" id="trm508">crematorium</term>, a memorial inscription may be entered in such book on application to the officer-incharge and on payment of the <term refersTo="#term-prescribed_fee" id="trm509">prescribed fee</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-39.2">
+            <num>(2)</num>
+            <content>
+              <p>If an inscription is entered in the book of remembrance, an inscription memorial card or an inscribed miniature may be purchased, if it is available, on payment of the <term refersTo="#term-prescribed_fee" id="trm510">prescribed fee</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-40">
+          <num>40.</num>
+          <heading>Duplicate <term refersTo="#term-cremation" id="trm511">cremation</term> certificates</heading>
+          <subsection id="section-40.subsection-0">
+            <content>
+              <p>A person may obtain a duplicate <term refersTo="#term-cremation" id="trm512">cremation</term> certificate on application and on payment of the <term refersTo="#term-prescribed_fee" id="trm513">prescribed fee</term> to the <term refersTo="#term-officer-in-charge" id="trm514">officer-in-charge</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-8">
+        <num>8</num>
+        <heading>Indigent persons</heading>
+        <section id="section-41">
+          <num>41.</num>
+          <heading>Burial of indigent persons</heading>
+          <subsection id="section-41.1">
+            <num>(1)</num>
+            <content>
+              <p>A person making an application for an <term refersTo="#term-indigent_person" id="trm515">indigent person</term>’s <term refersTo="#term-burial" id="trm516">burial</term> must make a declaration to that effect.</p>
+            </content>
+          </subsection>
+          <subsection id="section-41.2">
+            <num>(2)</num>
+            <content>
+              <p>An <term refersTo="#term-indigent_person" id="trm517">indigent person</term> may be buried or cremated according to conditions determined by the <term refersTo="#term-Council" id="trm518">Council</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-41.3">
+            <num>(3)</num>
+            <content>
+              <p>If an <term refersTo="#term-indigent_person" id="trm519">indigent person</term> is cremated the <term refersTo="#term-ashes" id="trm520">ashes</term> must be retained by the <term refersTo="#term-Council" id="trm521">Council</term> for a period of not less than 12 months.</p>
+            </content>
+          </subsection>
+          <subsection id="section-41.4">
+            <num>(4)</num>
+            <content>
+              <p>If <term refersTo="#term-ashes" id="trm522">ashes</term> are not claimed within the period of 12 months be buried in an ash <term refersTo="#term-grave" id="trm523">grave</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-9">
+        <num>9</num>
+        <heading>General</heading>
+        <section id="section-42">
+          <num>42.</num>
+          <heading>Prohibited acts</heading>
+          <subsection id="section-42.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-42.1.list0">
+                <listIntroduction>
+No person -                </listIntroduction>
+                <item id="section-42.1.list0.a">
+                  <num>(a)</num>
+                  <p>under the age of 16 years may enter any <term refersTo="#term-cemetery" id="trm524">cemetery</term> or <term refersTo="#term-crematorium" id="trm525">crematorium</term> unless when accompanied by an <term refersTo="#term-adult" id="trm526">adult</term>, or with the consent of the <term refersTo="#term-officer-in-charge" id="trm527">officer-in-charge</term>;</p>
+                </item>
+                <item id="section-42.1.list0.b">
+                  <num>(b)</num>
+                  <p>may enter or leave any <term refersTo="#term-cemetery" id="trm528">cemetery</term> or <term refersTo="#term-crematorium" id="trm529">crematorium</term>, except by the gateway provided;</p>
+                </item>
+                <item id="section-42.1.list0.c">
+                  <num>(c)</num>
+                  <p>may enter any office or enclosed place in a <term refersTo="#term-cemetery" id="trm530">cemetery</term> or <term refersTo="#term-crematorium" id="trm531">crematorium</term>, where entry is prohibited, without the consent of the <term refersTo="#term-officer-in-charge" id="trm532">officer-in-charge</term>, which may be given only when such person is attending business connected with such <term refersTo="#term-cemetery" id="trm533">cemetery</term> or <term refersTo="#term-crematorium" id="trm534">crematorium</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-42.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-42.2.list1">
+                <listIntroduction>
+No person may, within any <term refersTo="#term-cemetery" id="trm535">cemetery</term> or <term refersTo="#term-crematorium" id="trm536">crematorium</term> -                </listIntroduction>
+                <item id="section-42.2.list1.a">
+                  <num>(a)</num>
+                  <p>interfere with any fountain, statue, monument, equipment, fence, <term refersTo="#term-grave" id="trm537">grave</term> or <term refersTo="#term-Council" id="trm538">Council</term> property;</p>
+                </item>
+                <item id="section-42.2.list1.b">
+                  <num>(b)</num>
+                  <p>pick, damage, deface or destroy any flower, plant or seed;</p>
+                </item>
+                <item id="section-42.2.list1.c">
+                  <num>(c)</num>
+                  <p>damage, deface or remove any <term refersTo="#term-memorial_work" id="trm539">memorial work</term>, <term refersTo="#term-grave" id="trm540">grave</term>, building, fence or fixtures;</p>
+                </item>
+                <item id="section-42.2.list1.d">
+                  <num>(d)</num>
+                  <p>throw litter outside containers provided by the <term refersTo="#term-Council" id="trm541">Council</term> for that purpose;</p>
+                </item>
+                <item id="section-42.2.list1.e">
+                  <num>(e)</num>
+                  <p>sit, stand, walk, climb, draw, or write on any <term refersTo="#term-grave" id="trm542">grave</term> or <term refersTo="#term-memorial_work" id="trm543">memorial work</term>;</p>
+                </item>
+                <item id="section-42.2.list1.f">
+                  <num>(f)</num>
+                  <p>swim, bath or wash himself him or herself or any animal in a pond, fountain, artificial watercourse, dam or stream;</p>
+                </item>
+                <item id="section-42.2.list1.g">
+                  <num>(g)</num>
+                  <p>reside in a <term refersTo="#term-cemetery" id="trm544">cemetery</term>, or, without the written consent of the <term refersTo="#term-officer-in-charge" id="trm545">officer-in-charge</term>, build any structure or encroach on any land;</p>
+                </item>
+                <item id="section-42.2.list1.h">
+                  <num>(h)</num>
+                  <p>capture, chase, shoot at, or interfere with any fish, bird, or animal, except where licensed to do so, or take, touch or damage birds’ eggs or nests;</p>
+                </item>
+                <item id="section-42.2.list1.i">
+                  <num>(i)</num>
+                  <p>light any fire or burn any object unless there is special provision therefore made by the <term refersTo="#term-Council" id="trm546">Council</term>;</p>
+                </item>
+                <item id="section-42.2.list1.j">
+                  <num>(j)</num>
+                  <p>drive, ride or park any vehicle, bicycle, tricycle or push-cart, wear roller blades or draw or propel any vehicle, except in the places and at the times referred to in these By-laws;</p>
+                </item>
+                <item id="section-42.2.list1.k">
+                  <num>(k)</num>
+                  <p>drive or ride any vehicle, except in the places referred to in paragraph (j) at a speed exceeding 15 km per hour;</p>
+                </item>
+                <item id="section-42.2.list1.l">
+                  <num>(l)</num>
+                  <p>carry on or solicit business, hold any demonstration, or perform an activity which is not normally associated with a <term refersTo="#term-cemetery" id="trm547">cemetery</term> or <term refersTo="#term-crematorium" id="trm548">crematorium</term>;</p>
+                </item>
+                <item id="section-42.2.list1.m">
+                  <num>(m)</num>
+                  <p>cause a nuisance or commit any offensive or indecent act;</p>
+                </item>
+                <item id="section-42.2.list1.n">
+                  <num>(n)</num>
+                  <p>play any game except in a designated area;</p>
+                </item>
+                <item id="section-42.2.list1.o">
+                  <num>(o)</num>
+                  <p>use a facility provided for the opposite sex;</p>
+                </item>
+                <item id="section-42.2.list1.p">
+                  <num>(p)</num>
+                  <p>brew, sell or drink alcohol or abuse drugs;</p>
+                </item>
+                <item id="section-42.2.list1.q">
+                  <num>(q)</num>
+                  <p>play any musical instrument without the written consent of the <term refersTo="#term-officer-in-charge" id="trm549">officer-in-charge</term>;</p>
+                </item>
+                <item id="section-42.2.list1.r">
+                  <num>(r)</num>
+                  <p>deliver a public speech except for a funeral service or <term refersTo="#term-cremation" id="trm550">cremation</term>, without the written consent of the <term refersTo="#term-officer-in-charge" id="trm551">officer-in-charge</term>,</p>
+                </item>
+                <item id="section-42.2.list1.s">
+                  <num>(s)</num>
+                  <p>do anything which may endanger or cause disturbance to any person ;</p>
+                </item>
+                <item id="section-42.2.list1.t">
+                  <num>(t)</num>
+                  <p>hold organized functions, advertise, dig any hole, trench or place any tent, caravan, booth screen, stand, or any construction or obstruction, without the written consent of the <term refersTo="#term-officer-in-charge" id="trm552">officer-in-charge</term>;</p>
+                </item>
+                <item id="section-42.2.list1.u">
+                  <num>(u)</num>
+                  <p>undertake any community or voluntary work, without the written consent of the <term refersTo="#term-officer-in-charge" id="trm553">officer-in-charge</term>;</p>
+                </item>
+                <item id="section-42.2.list1.v">
+                  <num>(v)</num>
+                  <p>make any film, without the written consent of the <term refersTo="#term-officer-in-charge" id="trm554">officer-in-charge</term>, and payment of the <term refersTo="#term-prescribed_fee" id="trm555">prescribed fee</term>;</p>
+                </item>
+                <item id="section-42.2.list1.w">
+                  <num>(w)</num>
+                  <p>remain between sunset and sunrise without the written consent of the <term refersTo="#term-officer-in-charge" id="trm556">officer-in-charge</term>;</p>
+                </item>
+                <item id="section-42.2.list1.x">
+                  <num>(x)</num>
+                  <p>bring or allow an animal, except a guide dog, without the consent of the <term refersTo="#term-officer-in-charge" id="trm557">officer-in-charge</term>; and</p>
+                </item>
+                <item id="section-42.2.list1.y">
+                  <num>(y)</num>
+                  <p>hinder, obstruct or resist the <term refersTo="#term-officer-in-charge" id="trm558">officer-in-charge</term> or any official of the <term refersTo="#term-Council" id="trm559">Council</term> in the performance of his or her duties or in the exercise of any authority assigned to him or her by or in terms of these By-laws.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-42.3">
+            <num>(3)</num>
+            <content>
+              <p>Any animal found in a <term refersTo="#term-cemetery" id="trm560">cemetery</term> may be impounded and must be released on payment of a fee.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-43">
+          <num>43.</num>
+          <heading>Penalty clause</heading>
+          <subsection id="section-43.subsection-0">
+            <content>
+              <blockList id="section-43.subsection-0.list0">
+                <listIntroduction>
+Any person who-                </listIntroduction>
+                <item id="section-43.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>Contravenes or fails to comply with any provision of these By-laws;</p>
+                </item>
+                <item id="section-43.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>fails to comply with any notice issued in terms of these By-laws;</p>
+                </item>
+                <item id="section-43.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>fails or fails to comply with any lawful instruction given in terms of these By-laws; or</p>
+                </item>
+                <item id="section-43.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>obstructs or hinders an authorized official or employee of the <term refersTo="#term-Council" id="trm561">Council</term> in the execution of his or her duties under these By-laws,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-43.subsection-1">
+            <content>
+              <p>is guilty of an offence and liable on conviction to a fine or in default of payment of such a fine to imprisonment for a period not exceeding six months, and in the case of a continuing offence, to a further fine not exceeding R50, or in default of payment, to imprisonment not exceeding one day, for every day during the continuance of such offence, after a written notice has been issued by the <term refersTo="#term-Council" id="trm562">Council</term>, and served on the person concerned, requesting the discontinuance of such offence.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-44">
+          <num>44.</num>
+          <heading>Repeal of by-laws</heading>
+          <subsection id="section-44.subsection-0">
+            <content>
+              <p>The By-laws listed in Schedule 1 hereto are hereby repealed.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-45">
+          <num>45.</num>
+          <heading>Short title</heading>
+          <subsection id="section-45.subsection-0">
+            <content>
+              <p>These By-laws are called the Cemeteries and Crematoria By-laws, 2003.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+    </body>
+  </act>
+  <components>
+    <component id="component-0">
+      <doc name="schedules">
+        <meta>
+          <identification source="#openbylaws">
+            <FRBRWork>
+              <FRBRthis value="/za/by-law/buffalo-city/2010//schedules"/>
+              <FRBRuri value="/za/by-law/buffalo-city/2010/"/>
+              <FRBRdate date="2010-01-01" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za/by-law/buffalo-city/2010//schedules/eng@"/>
+              <FRBRuri value="/za/by-law/buffalo-city/2010//eng@"/>
+              <FRBRdate date="2010-01-01" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za/by-law/buffalo-city/2010//schedules/eng@"/>
+              <FRBRuri value="/za/by-law/buffalo-city/2010//eng@"/>
+              <FRBRdate date="2014-08-20" name="Generation"/>
+              <FRBRauthor href="#openbylaws" as="#author"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <chapter id="schedule-1">
+            <num>1</num>
+            <heading>Repealed by-laws</heading>
+            <section id="schedule-1.section-0">
+              <content>
+                <table id="schedule-1.table-0">
+                  <tr>
+                    <th>
+                      <p>Number and year</p>
+                    </th>
+                    <th>
+                      <p>Name of By-laws</p>
+                    </th>
+                    <th>
+                      <p>Extent of repeal</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Administrator’s Notice 638 dated 19 August 1953</p>
+                    </td>
+                    <td>
+                      <p>Transvaal Board for the Development of Peri-Urban Areas: Cemetery By-laws as applied by Midrand and Sandton Municipalities and as applied in area for which Management Committee of Ennerdale was established</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Administrator’s Notice 391 dated 8 April 1981</p>
+                    </td>
+                    <td>
+                      <p>Johannesburg Municipality: Cemetery and Crematorium By-laws</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Administrator’s Notice 289 dated 10 March 1982</p>
+                    </td>
+                    <td>
+                      <p>Randburg Municipality: Cemetery By-laws</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Government Notice R.2611 dated 2 December 1983 under section 27 (2A) of the Black Local Authorities Act, 1982 (Act 102 of 1982)</p>
+                    </td>
+                    <td>
+                      <p>By-laws relating to the Control over Cemeteries as applied by the Municipalities of Alexandra, Diepmeadow, Dobsonville and Soweto</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Local Authority Notice dated 5 August 1987</p>
+                    </td>
+                    <td>
+                      <p>Roodepoort Municipality: Cemetery By-laws</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                </table>
+              </content>
+            </section>
+          </chapter>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>
