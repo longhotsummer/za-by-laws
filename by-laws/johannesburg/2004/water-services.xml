@@ -25,12 +25,16 @@
           <FRBRauthor href="#openbylaws" as="#author"/>
         </FRBRManifestation>
       </identification>
-      <publication date="2004-05-21" name="Province of Gauteng: Provincial Gazette" number="179" showAs="Province of Gauteng: Provincial Gazette"/><lifecycle source="#this"><eventRef type="amendment" date="2008-06-20" id="amendment-event-2008-06-20" source="#amendment-2008-06-20"/></lifecycle>
+      <publication date="2004-05-21" name="Province of Gauteng: Provincial Gazette" number="179" showAs="Province of Gauteng: Provincial Gazette"/>
+      <lifecycle source="#this">
+        <eventRef type="amendment" date="2008-06-20" id="amendment-event-2008-06-20" source="#amendment-2008-06-20"/>
+      </lifecycle>
       <references source="#this">
         <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
         <TLCOrganization id="council" href="/ontology/organization/za/council.johannesburg" showAs="City of Johannesburg Metropolity Municipality Council"/>
         <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
-        <passiveRef id="amendment-2008-06-20" href="/za/by-law/johannesburg/2008/water-services-amendment" showAs="Water Services Amendment By-law"/><TLCTerm id="term-accommodation_unit" href="/ontology/term/this.eng.accommodation_unit" showAs="accommodation unit"/>
+        <passiveRef id="amendment-2008-06-20" href="/za/by-law/johannesburg/2008/water-services-amendment" showAs="Amendments to the Water Services By-laws"/>
+        <TLCTerm id="term-accommodation_unit" href="/ontology/term/this.eng.accommodation_unit" showAs="accommodation unit"/>
         <TLCTerm id="term-affected_person" href="/ontology/term/this.eng.affected_person" showAs="affected person"/>
         <TLCTerm id="term-Act" href="/ontology/term/this.eng.Act" showAs="Act"/>
         <TLCTerm id="term-air_gap" href="/ontology/term/this.eng.air_gap" showAs="air gap"/>
