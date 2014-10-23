@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openbylaws">
+        <FRBRWork>
+          <FRBRthis value="/za/by-law/johannesburg/2006/dogs-and-cats/main"/>
+          <FRBRuri value="/za/by-law/johannesburg/2006/dogs-and-cats"/>
+          <FRBRalias value="By-laws relating to Dogs and Cats, 2005"/>
+          <FRBRdate date="2006-04-10" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za/by-law/johannesburg/2006/dogs-and-cats/main/eng@"/>
+          <FRBRuri value="/za/by-law/johannesburg/2006/dogs-and-cats/eng@"/>
+          <FRBRdate date="2006-04-10" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za/by-law/johannesburg/2006/dogs-and-cats/main/eng@"/>
+          <FRBRuri value="/za/by-law/johannesburg/2006/dogs-and-cats/eng@"/>
+          <FRBRdate date="2014-08-06" name="Generation"/>
+          <FRBRauthor href="#openbylaws" as="#author"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-04-10" name="Province of Gauteng: Provincial Gazette" number="1334" showAs="Province of Gauteng: Provincial Gazette"/>
+      <references source="#this">
+        <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council.johannesburg" showAs="City of Johannesburg Metropolity Municipality Council"/>
+        <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCTerm id="term-agricultural_property" href="/ontology/term/this.eng.agricultural_property" showAs="agricultural property"/>
+        <TLCTerm id="term-authorised_official" href="/ontology/term/this.eng.authorised_official" showAs="authorised official"/>
+        <TLCTerm id="term-cat" href="/ontology/term/this.eng.cat" showAs="cat"/>
+        <TLCTerm id="term-cattery" href="/ontology/term/this.eng.cattery" showAs="cattery"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-dog" href="/ontology/term/this.eng.dog" showAs="dog"/>
+        <TLCTerm id="term-dwelling_house" href="/ontology/term/this.eng.dwelling_house" showAs="dwelling house"/>
+        <TLCTerm id="term-dwelling_unit" href="/ontology/term/this.eng.dwelling_unit" showAs="dwelling unit"/>
+        <TLCTerm id="term-environmental_health_officer" href="/ontology/term/this.eng.environmental_health_officer" showAs="environmental health officer"/>
+        <TLCTerm id="term-guide_dog" href="/ontology/term/this.eng.guide_dog" showAs="guide dog"/>
+        <TLCTerm id="term-kennels" href="/ontology/term/this.eng.kennels" showAs="kennels"/>
+        <TLCTerm id="term-owner" href="/ontology/term/this.eng.owner" showAs="owner"/>
+        <TLCTerm id="term-pound" href="/ontology/term/this.eng.pound" showAs="pound"/>
+        <TLCTerm id="term-poundmaster" href="/ontology/term/this.eng.poundmaster" showAs="poundmaster"/>
+        <TLCTerm id="term-premises" href="/ontology/term/this.eng.premises" showAs="premises"/>
+        <TLCTerm id="term-prescribed" href="/ontology/term/this.eng.prescribed" showAs="prescribed"/>
+        <TLCTerm id="term-Public_Health_By-laws" href="/ontology/term/this.eng.Public_Health_By-laws" showAs="Public Health By-laws"/>
+        <TLCTerm id="term-public_health_hazard" href="/ontology/term/this.eng.public_health_hazard" showAs="public health hazard"/>
+        <TLCTerm id="term-public_place" href="/ontology/term/this.eng.public_place" showAs="public place"/>
+      </references>
+    </meta>
+    <preamble>
+      <p>The Municipal Manager of the City of Johannesburg Metropolitan Municipality hereby, in terms of section 13(a) of the Local Government : Municipal Systems Act, 2000 (Act No. 32 of 2000), publishes the By-laws relating to Dogs and Cats for the City of Johannesburg Metropolitan Municipality as approved by its Council, as set out hereunder.</p>
+    </preamble>
+    <body>
+      <chapter id="chapter-1">
+        <num>1</num>
+        <heading>Interpretation</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <subsection id="section-1.1">
+            <num>(1)</num>
+            <content>
+              <p>In these By-laws, unless the context otherwise indicates –</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-agricultural_property">
+            <content>
+              <p>"<def refersTo="#term-agricultural_property">agricultural property</def>" means land zoned for agricultural use in terms of any of the <term refersTo="#term-Council" id="trm0">Council</term>'s Town Planning Schemes or any other law;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-authorised_official">
+            <content>
+              <p>"<def refersTo="#term-authorised_official">authorised official</def>" means any official of the <term refersTo="#term-Council" id="trm1">Council</term> who has been authorised by the <term refersTo="#term-Council" id="trm2">Council</term> to administer, implement and enforce the provisions of these By-laws ;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-cat">
+            <content>
+              <p>"<def refersTo="#term-cat">cat</def>" means a male and a female cat;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-4">
+            <content>
+              <blockList id="def-term-cattery">
+                <listIntroduction>"<def refersTo="#term-cattery">cattery</def>" means <term refersTo="#term-premises" id="trm3">premises</term> in or upon which –                </listIntroduction>
+                <item id="section-1.subsection-4.list4.a">
+                  <num>(a)</num>
+                  <p>boarding facilities for cats are provided; or</p>
+                </item>
+                <item id="section-1.subsection-4.list4.b">
+                  <num>(b)</num>
+                  <p>cats are bred for commercial purposes;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-5">
+            <content>
+              <blockList id="def-term-Council">
+                <listIntroduction>"<def refersTo="#term-Council">Council</def>" means –                </listIntroduction>
+                <item id="section-1.subsection-5.list5.a">
+                  <num>(a)</num>
+                  <p>the Metropolitan Municipality of the City of Johannesburg established by Provincial Notice No. 6766 of 2000 dated 1 October 2000, as amended, exercising its legislative and executive authority through its municipal Council ; or</p>
+                </item>
+                <item id="section-1.subsection-5.list5.b">
+                  <num>(b)</num>
+                  <p>its successor in title; or</p>
+                </item>
+                <item id="section-1.subsection-5.list5.c">
+                  <num>(c)</num>
+                  <p>a structure or person exercising a delegated power or carrying out an instruction, where any power in these By-laws has been delegated or sub-delegated, or an instruction given, as contemplated in section 59 of the Local Government : Municipal Systems Act, 2000 (Act No. 32 of 2000); or</p>
+                </item>
+                <item id="section-1.subsection-5.list5.d">
+                  <num>(d)</num>
+                  <blockList id="section-1.subsection-5.list5.d.list0">
+                    <listIntroduction>except for the purposes of sections 3 and 4, and the prescribing of a fee –</listIntroduction>
+                    <item id="section-1.subsection-5.list5.d.list0.i">
+                      <num>(i)</num>
+                      <p>a service provider fulfilling a responsibility under these By-laws assigned to it in terms of section 81(2) of the Local Government : Municipal Systems Act, 2000, or any other law; and</p>
+                    </item>
+                    <item id="section-1.subsection-5.list5.d.list0.ii">
+                      <num>(ii)</num>
+                      <p>any person or body to whom the Council is leasing a <term refersTo="#term-pound" id="trm4">pound</term> as contemplated in section 71 of the Local Government Ordinance, 1939 (Ordinance No. 17 of 1939),</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-6">
+            <content>
+              <p>as the case may be;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-dog">
+            <content>
+              <p>"<def refersTo="#term-dog">dog</def>" means a male and a female dog;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-dwelling_house">
+            <content>
+              <p>"<def refersTo="#term-dwelling_house">dwelling house</def>" means a single building designed for use as a residence for a single family situated on <term refersTo="#term-premises" id="trm5">premises</term> containing not more than two such buildings;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-dwelling_unit">
+            <content>
+              <p>"<def refersTo="#term-dwelling_unit">dwelling unit</def>" means an inter-connected suite of rooms which must include a kitchen or scullery, designed for occupation by a single family, other than a <term refersTo="#term-dwelling_house" id="trm6">dwelling house</term>, irrespective of whether such unit is a single building or forms part of a building containing two or more such units;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-environmental_health_officer">
+            <content>
+              <p>"<def refersTo="#term-environmental_health_officer">environmental health officer</def>" means an official appointed by the <term refersTo="#term-Council" id="trm7">Council</term>, and who is duly registered as an environmental health officer, or environmental health practitioner, with the Health Professions <term refersTo="#term-Council" id="trm8">Council</term> of South Africa in terms of section 17 of the Health Professions Act, 1974 (Act No. 56 of 1974);</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-guide_dog">
+            <content>
+              <p>"<def refersTo="#term-guide_dog">guide dog</def>" means a <term refersTo="#term-dog" id="trm9">dog</term> which has been trained to assist a blind or poor-sighted person and includes a service <term refersTo="#term-dog" id="trm10">dog</term> which has been trained to assist a person who is mentally or physically incapacitated;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-12">
+            <content>
+              <blockList id="def-term-kennels">
+                <listIntroduction>"<def refersTo="#term-kennels">kennels</def>" means <term refersTo="#term-premises" id="trm11">premises</term> in or upon which –                </listIntroduction>
+                <item id="section-1.subsection-12.list12.a">
+                  <num>(a)</num>
+                  <p>boarding facilities for dogs are provided;</p>
+                </item>
+                <item id="section-1.subsection-12.list12.b">
+                  <num>(b)</num>
+                  <p>dogs are bred for commercial purposes;</p>
+                </item>
+                <item id="section-1.subsection-12.list12.c">
+                  <num>(c)</num>
+                  <p>dogs are kept for the purposes of being trained or hired out with or without handlers; or</p>
+                </item>
+                <item id="section-1.subsection-12.list12.d">
+                  <num>(d)</num>
+                  <p>dogs are kept for commercial security purposes;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="def-term-owner">
+            <content>
+              <p>"<def refersTo="#term-owner">owner</def>", in relation to a <term refersTo="#term-dog" id="trm12">dog</term> or <term refersTo="#term-cat" id="trm13">cat</term>, means any person who keeps a <term refersTo="#term-dog" id="trm14">dog</term> or <term refersTo="#term-cat" id="trm15">cat</term> or has a <term refersTo="#term-dog" id="trm16">dog</term> or <term refersTo="#term-cat" id="trm17">cat</term> in his or her possession or care or under his or her control or, in relation to a <term refersTo="#term-dog" id="trm18">dog</term>, on whose private <term refersTo="#term-premises" id="trm19">premises</term> a <term refersTo="#term-dog" id="trm20">dog</term> is present;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-pound">
+            <content>
+              <p>"<def refersTo="#term-pound">pound</def>" means a place designated by the <term refersTo="#term-Council" id="trm21">Council</term> in terms of any law for the impounding, sale and destruction of dogs or cats or both;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-poundmaster">
+            <content>
+              <p>"<def refersTo="#term-poundmaster">poundmaster</def>" means the person who has been appointed by the <term refersTo="#term-Council" id="trm22">Council</term> to be in charge of a <term refersTo="#term-pound" id="trm23">pound</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-premises">
+            <content>
+              <p>"<def refersTo="#term-premises">premises</def>" means any unit of land, whether built on or not and whether public or private;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-prescribed">
+            <content>
+              <p>"<def refersTo="#term-prescribed">prescribed</def>" means prescribed by the <term refersTo="#term-Council" id="trm24">Council</term> from time to time by resolution;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-Public_Health_By-laws">
+            <content>
+              <p>"<def refersTo="#term-Public_Health_By-laws">Public Health By-laws</def>" means the Public Health By-laws of the <term refersTo="#term-Council" id="trm25">Council</term> published under Notice 830 in Provincial Gazette Extraordinary No. 179 dated 21 May 2004;</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-public_health_hazard">
+            <content>
+              <p>"<def refersTo="#term-public_health_hazard">public health hazard</def>" means a public health hazard as defined in the <term refersTo="#term-Council" id="trm26">Council</term>'s <term refersTo="#term-Public_Health_By-laws" id="trm27">Public Health By-laws</term>; and</p>
+            </content>
+          </subsection>
+          <subsection id="def-term-public_place">
+            <content>
+              <p>"<def refersTo="#term-public_place">public place</def>" means any road, street, thoroughfare, bridge, overhead bridge, subway, foot pavement, footpath, sidewalk, lane, square, open space, garden, park, path, bus or taxi rank, servitude or enclosed space vested in the <term refersTo="#term-Council" id="trm28">Council</term> and includes any road, place or thoroughfare which is in the undisturbed use of the public or which the public have the right to use.</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.2">
+            <num>(2)</num>
+            <content>
+              <p>If any provision in these By-laws vests or imposes any power, function or duty of the <term refersTo="#term-Council" id="trm29">Council</term> in or on any employee of the <term refersTo="#term-Council" id="trm30">Council</term> and such power, function or duty has in terms of section 81(2) of the Local Government : Municipal Systems Act, 2000, or any other law, been assigned to a service provider, the reference to such employee must be read as a reference to the service provider or, where applicable, an employee of the service provider authorised by it.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-2">
+        <num>2</num>
+        <heading>Control of dogs</heading>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Restriction on number of dogs</heading>
+          <subsection id="section-2.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-2.1.list0">
+                <listIntroduction>
+Subject to the provisions of subsections (2) and (3), no person may keep more than –                </listIntroduction>
+                <item id="section-2.1.list0.a">
+                  <num>(a)</num>
+                  <p>two dogs, or allow more than two dogs, over the age of six months to be kept in or at a <term refersTo="#term-dwelling_unit" id="trm31">dwelling unit</term>;</p>
+                </item>
+                <item id="section-2.1.list0.b">
+                  <num>(b)</num>
+                  <p>four dogs, or allow more than four dogs, over the age of six months to be kept in or at <term refersTo="#term-premises" id="trm32">premises</term> containing one or two dwelling houses;</p>
+                </item>
+                <item id="section-2.1.list0.c">
+                  <num>(c)</num>
+                  <p>six dogs, or allow more than six dogs, over the age of six months to be kept on an <term refersTo="#term-agricultural_property" id="trm33">agricultural property</term>; or</p>
+                </item>
+                <item id="section-2.1.list0.d">
+                  <num>(d)</num>
+                  <p>four dogs, or allow more than four dogs, over the age of six months to be kept on or at any other <term refersTo="#term-premises" id="trm34">premises</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-2.2">
+            <num>(2)</num>
+            <content>
+              <p>Subsection (1) comes into operation on 1 January, 2010.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-2.3.list2">
+                <listIntroduction>
+Subsection (1) does not apply to any person who –                </listIntroduction>
+                <item id="section-2.3.list2.a">
+                  <num>(a)</num>
+                  <p>is the holder of a permit issued in terms of section 3 to keep a greater number of dogs;</p>
+                </item>
+                <item id="section-2.3.list2.b">
+                  <num>(b)</num>
+                  <p>is the holder of a permit issued in terms of section 134 of the <term refersTo="#term-Public_Health_By-laws" id="trm35">Public Health By-laws</term> to keep <term refersTo="#term-kennels" id="trm36">kennels</term>;</p>
+                </item>
+                <item id="section-2.3.list2.c">
+                  <num>(c)</num>
+                  <p>is the <term refersTo="#term-owner" id="trm37">owner</term> or manager or is in charge of, a pet shop and who has written proof that all the dogs under the control of such <term refersTo="#term-owner" id="trm38">owner</term> or manager have been vaccinated against canine distemper, hepatitis, kennel cough and parvovirus;</p>
+                </item>
+                <item id="section-2.3.list2.d">
+                  <num>(d)</num>
+                  <p>is the <term refersTo="#term-owner" id="trm39">owner</term> or is in charge of <term refersTo="#term-premises" id="trm40">premises</term> where guide dogs are being kept or trained;</p>
+                </item>
+                <item id="section-2.3.list2.e">
+                  <num>(e)</num>
+                  <p>is blind, poor-sighted or mentally or physically incapacitated in respect of a <term refersTo="#term-guide_dog" id="trm41">guide dog</term> kept by him or her;</p>
+                </item>
+                <item id="section-2.3.list2.f">
+                  <num>(f)</num>
+                  <p>is the <term refersTo="#term-owner" id="trm42">owner</term> or manager of a veterinary clinic; or</p>
+                </item>
+                <item id="section-2.3.list2.g">
+                  <num>(g)</num>
+                  <p>any person who is in charge of dogs owned by the Metropolitan Police Department of the <term refersTo="#term-Council" id="trm43">Council</term> as specified in paragraph (a) of the definition of “<term refersTo="#term-Council" id="trm44">Council</term>”, the South African Police Service or the South African Defence Force, and are kept for operational or breeding purposes.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Permits to keep dogs</heading>
+          <subsection id="section-3.1">
+            <num>(1)</num>
+            <content>
+              <p>Any person who wants to keep a greater number of dogs on <term refersTo="#term-premises" id="trm45">premises</term> than the number permitted in terms of section 2(1), must apply to the <term refersTo="#term-Council" id="trm46">Council</term> for a permit.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-3.2.list1">
+                <listIntroduction>
+An application in terms of subsection (1) must be in writing on a <term refersTo="#term-prescribed" id="trm47">prescribed</term> form and must be accompanied by –                </listIntroduction>
+                <item id="section-3.2.list1.a">
+                  <num>(a)</num>
+                  <p>the <term refersTo="#term-prescribed" id="trm48">prescribed</term> fee;</p>
+                </item>
+                <item id="section-3.2.list1.b">
+                  <num>(b)</num>
+                  <p>an affidavit by the applicant and other documentary evidence that the applicant has for a period of 14 days prior to the date of the application in a place on the <term refersTo="#term-premises" id="trm49">premises</term> concerned within one metre of, clearly visible from, a public street, displayed and maintained in a <term refersTo="#term-prescribed" id="trm50">prescribed</term> form, notice of his or her intention to apply for a permit in terms of subsection (1) and inviting inhabitants of the area to lodge with the applicant during such period, in writing, any objection to, or representations relating to, the granting of the application;</p>
+                </item>
+                <item id="section-3.2.list1.c">
+                  <num>(c)</num>
+                  <p>a copy of any objection or representation lodged in terms of paragraph (b);</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-3.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm51">Council</term> may require the applicant to provide any further information which it considers relevant to enable it to make an informed decision.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm52">Council</term> may refuse to consider an application in terms of subsection (1) in respect of which the provisions of subsection (2) have not been complied with or information contemplated in subsection (3), has not been furnished.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-3.5.list4">
+                <listIntroduction>
+The <term refersTo="#term-Council" id="trm53">Council</term> may only consider an application in terms of subsection (1) after receipt of a written report from an <term refersTo="#term-environmental_health_officer" id="trm54">environmental health officer</term> –                </listIntroduction>
+                <item id="section-3.5.list4.a">
+                  <num>(a)</num>
+                  <p>as to whether the <term refersTo="#term-dog" id="trm55">dog</term> for which the permit is required is likely to cause a <term refersTo="#term-public_health_hazard" id="trm56">public health hazard</term> or the keeping of such <term refersTo="#term-dog" id="trm57">dog</term> may result in a contravention of section 5;</p>
+                </item>
+                <item id="section-3.5.list4.b">
+                  <num>(b)</num>
+                  <p>setting out the results of an inspection of the <term refersTo="#term-premises" id="trm58">premises</term> on which the <term refersTo="#term-dog" id="trm59">dog</term> concerned is being kept or to be kept.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-3.6">
+            <num>(6)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm60">Council</term> may refuse an application in terms of subsection (1) or approve it subject to any conditions aimed at reducing the risk of any <term refersTo="#term-public_health_hazard" id="trm61">public health hazard</term> created by the dogs on the <term refersTo="#term-premises" id="trm62">premises</term> concerned occurring, continuing or recurring or to reduce such risk to a level acceptable to the <term refersTo="#term-Council" id="trm63">Council</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.7">
+            <num>(7)</num>
+            <content>
+              <blockList id="section-3.7.list6">
+                <listIntroduction>
+The <term refersTo="#term-Council" id="trm64">Council</term> may publish guidelines in the Provincial Gazette which describe –                </listIntroduction>
+                <item id="section-3.7.list6.a">
+                  <num>(a)</num>
+                  <p>appropriate measures that can be taken and objects and materials that can be used, to eliminate the risk of any <term refersTo="#term-public_health_hazard" id="trm65">public health hazard</term> occurring, continuing or recurring, or to reduce that risk to a level acceptable to the <term refersTo="#term-Council" id="trm66">Council</term>; and</p>
+                </item>
+                <item id="section-3.7.list6.b">
+                  <num>(b)</num>
+                  <p>the circumstances in which taking these measures or using these objects or materials are acceptable to the <term refersTo="#term-Council" id="trm67">Council</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-3.8">
+            <num>(8)</num>
+            <content>
+              <p>If a person has applied for a permit in terms of subsection (1), such person may continue to keep the number of dogs on the <term refersTo="#term-premises" id="trm68">premises</term> that are not permitted in terms of section 2 in the absence of a permit, until the <term refersTo="#term-Council" id="trm69">Council</term> has informed him or her in writing of the outcome of such application.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.9">
+            <num>(9)</num>
+            <content>
+              <p>In respect of any application approved in terms of subsection (6), an <term refersTo="#term-authorised_official" id="trm70">authorised official</term> must issue a permit on a <term refersTo="#term-prescribed" id="trm71">prescribed</term> form specifying every condition imposed by the <term refersTo="#term-Council" id="trm72">Council</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.10">
+            <num>(10)</num>
+            <content>
+              <p>A permit issued in terms of subsection (9) is not transferable from one person to another or from the <term refersTo="#term-premises" id="trm73">premises</term> in respect of which it had been issued, to other <term refersTo="#term-premises" id="trm74">premises</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Amendment, suspension and cancellation of permits</heading>
+          <subsection id="section-4.subsection-0">
+            <content>
+              <blockList id="section-4.subsection-0.list0">
+                <listIntroduction>
+The <term refersTo="#term-Council" id="trm75">Council</term> may, subject to the provisions of the provisions of the Promotion of Administrative Justice Act, 2000 (Act No. 3 of 2000), and after consideration of a report and recommendation of an <term refersTo="#term-environmental_health_officer" id="trm76">environmental health officer</term> or veterinary surgeon, by written notice to the holder of a permit contemplated in section 3 –                </listIntroduction>
+                <item id="section-4.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <blockList id="section-4.subsection-0.list0.a.list0">
+                    <listIntroduction>amend, suspend or cancel that permit if it is satisfied that failure to do so would result in –</listIntroduction>
+                    <item id="section-4.subsection-0.list0.a.list0.i">
+                      <num>(i)</num>
+                      <p>the creation or continuation of a <term refersTo="#term-public_health_hazard" id="trm77">public health hazard</term>; or</p>
+                    </item>
+                    <item id="section-4.subsection-0.list0.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>a continued contravention of any provision of section 5;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-4.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>with immediate effect amend, suspend or cancel that permit if such officer is of the view that it is urgently necessary to do so to eliminate or reduce a significant risk to the public posed by a <term refersTo="#term-public_health_hazard" id="trm78">public health hazard</term> or potential <term refersTo="#term-public_health_hazard" id="trm79">public health hazard</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Prohibitions relating to the keeping of dogs</heading>
+          <subsection id="section-5.subsection-0">
+            <content>
+              <blockList id="section-5.subsection-0.list0">
+                <listIntroduction>
+No person may keep a <term refersTo="#term-dog" id="trm80">dog</term> –                </listIntroduction>
+                <item id="section-5.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>which barks, whimpers or howls to such an extent that it, or has another habit which, causes a disturbance or nuisance to inhabitants of the neighbourhood;</p>
+                </item>
+                <item id="section-5.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>which suffers from an infectious or contagious disease which, in the opinion of a veterinary surgeon, is of such a nature that such <term refersTo="#term-dog" id="trm81">dog</term> cannot be beneficially treated or boarded at a veterinary clinic;</p>
+                </item>
+                <item id="section-5.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>on <term refersTo="#term-premises" id="trm82">premises</term> which are not fenced in such a manner that the <term refersTo="#term-dog" id="trm83">dog</term> is at all times confined to the <term refersTo="#term-premises" id="trm84">premises</term>, unless the <term refersTo="#term-dog" id="trm85">dog</term> is confined to the <term refersTo="#term-premises" id="trm86">premises</term> in some other manner.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Dogs in public places</heading>
+          <subsection id="section-6.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-6.1.list0">
+                <listIntroduction>
+Subject to any provision to the contrary in these By-laws or any other law, no person may bring a <term refersTo="#term-dog" id="trm87">dog</term> into any <term refersTo="#term-public_place" id="trm88">public place</term> or allow it to be done if that <term refersTo="#term-dog" id="trm89">dog</term> –                </listIntroduction>
+                <item id="section-6.1.list0.a">
+                  <num>(a)</num>
+                  <p>is wild, dangerous or ferocious;</p>
+                </item>
+                <item id="section-6.1.list0.b">
+                  <num>(b)</num>
+                  <p>is in a habit of charging at or chasing people or vehicles; or</p>
+                </item>
+                <item id="section-6.1.list0.c">
+                  <num>(c)</num>
+                  <p>is an unsterilised female <term refersTo="#term-dog" id="trm90">dog</term> which is on heat.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-6.2">
+            <num>(2)</num>
+            <content>
+              <p>Subject to section 16(1) of the <term refersTo="#term-Council" id="trm91">Council</term>'s Public Open Spaces By-laws, published under Notice 831 in Provincial Gazette Extraordinary No. 179 dated 21 May 2004, no person may permit any <term refersTo="#term-dog" id="trm92">dog</term> to be in a <term refersTo="#term-public_place" id="trm93">public place</term> unless it is kept on a leash and under control of a person.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.3">
+            <num>(3)</num>
+            <content>
+              <p>Any person in control of a <term refersTo="#term-dog" id="trm94">dog</term> in a <term refersTo="#term-public_place" id="trm95">public place</term>, excluding a person who is assisted by a <term refersTo="#term-guide_dog" id="trm96">guide dog</term>, must remove any defecation of such <term refersTo="#term-dog" id="trm97">dog</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Prohibited behaviour in respect of dogs</heading>
+          <subsection id="section-7.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-7.1.list0">
+                <listIntroduction>
+No person may without reasonable grounds –                </listIntroduction>
+                <item id="section-7.1.list0.a">
+                  <num>(a)</num>
+                  <p>incite a <term refersTo="#term-dog" id="trm98">dog</term> against a person, animal or bird; or</p>
+                </item>
+                <item id="section-7.1.list0.b">
+                  <num>(b)</num>
+                  <p>allow a <term refersTo="#term-dog" id="trm99">dog</term> in his or her custody or under his or her control to attack or put fear into any person, animal or bird.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-7.2">
+            <num>(2)</num>
+            <content>
+              <p>No person may provoke, harass or tease any <term refersTo="#term-dog" id="trm100">dog</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-7.3">
+            <num>(3)</num>
+            <content>
+              <p>No person may terrify or cause stress or fear to any <term refersTo="#term-dog" id="trm101">dog</term> with fireworks or by any other means.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading><term refersTo="#term-Council" id="trm102">Council</term>’s power to sterilise dogs</heading>
+          <subsection id="section-8.subsection-0">
+            <content>
+              <blockList id="section-8.subsection-0.list0">
+                <listIntroduction>
+The <term refersTo="#term-Council" id="trm103">Council</term> may sterilise –                </listIntroduction>
+                <item id="section-8.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>a male or a female <term refersTo="#term-dog" id="trm104">dog</term> at the request of its <term refersTo="#term-owner" id="trm105">owner</term>, subject to payment of the costs thereof by the <term refersTo="#term-owner" id="trm106">owner</term>; and</p>
+                </item>
+                <item id="section-8.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>a stray male or female <term refersTo="#term-dog" id="trm107">dog</term>, and recover the costs thereof from the <term refersTo="#term-owner" id="trm108">owner</term> of such <term refersTo="#term-dog" id="trm109">dog</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>Control of cats</heading>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Restriction on number of cats</heading>
+          <subsection id="section-9.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-9.1.list0">
+                <listIntroduction>
+Subject to the provisions of subsection (2), no person may keep more than –                </listIntroduction>
+                <item id="section-9.1.list0.a">
+                  <num>(a)</num>
+                  <p>two cats, or allow more than two cats, over the age of six months to be kept in or at a <term refersTo="#term-dwelling_unit" id="trm110">dwelling unit</term>;</p>
+                </item>
+                <item id="section-9.1.list0.b">
+                  <num>(b)</num>
+                  <p>four cats, or allow more than four cats, over the age of six months to be kept in or at <term refersTo="#term-premises" id="trm111">premises</term> containing one or two dwelling houses; or</p>
+                </item>
+                <item id="section-9.1.list0.c">
+                  <num>(c)</num>
+                  <p>six cats, or allow more than six cats, to be kept on an <term refersTo="#term-agricultural_property" id="trm112">agricultural property</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-9.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-9.2.list1">
+                <item id="section-9.2.list1.a">
+                  <num>(a)</num>
+                  <p>The provisions of section 2(2) and (3), except paragraphs (d), (e) and (g) of subsection (3), read with the necessary changes, apply in respect of subsection (1);</p>
+                </item>
+                <item id="section-9.2.list1.b">
+                  <num>(b)</num>
+                  <blockList id="section-9.2.list1.b.list0">
+                    <listIntroduction>For the purpose of applying the provisions of Section 2 (3) in terms of paragraph (a) –</listIntroduction>
+                    <item id="section-9.2.list1.b.list0.i">
+                      <num>(i)</num>
+                      <p>paragraph (b) thereof is deemed to refer to a <term refersTo="#term-cattery" id="trm113">cattery</term>; and</p>
+                    </item>
+                    <item id="section-9.2.list1.b.list0.ii">
+                      <num>(ii)</num>
+                      <p>paragraph (c) thereof is deemed to refer to <term refersTo="#term-cat" id="trm114">cat</term> flu and feline respiratory diseases.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-9.3">
+            <num>(3)</num>
+            <content>
+              <p>The provisions of sections 3 and 4, read with the necessary changes, apply in respect of permits with regard to cats.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-10">
+          <num>10.</num>
+          <heading><term refersTo="#term-Council" id="trm115">Council</term>’s powers to sterilise cats</heading>
+          <subsection id="section-10.subsection-0">
+            <content>
+              <blockList id="section-10.subsection-0.list0">
+                <listIntroduction>
+The <term refersTo="#term-Council" id="trm116">Council</term> may sterilise –                </listIntroduction>
+                <item id="section-10.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>a male or a female <term refersTo="#term-cat" id="trm117">cat</term> at the request of its <term refersTo="#term-owner" id="trm118">owner</term>, subject to payment of the costs thereof by the <term refersTo="#term-owner" id="trm119">owner</term>; and</p>
+                </item>
+                <item id="section-10.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>a stray male or female <term refersTo="#term-cat" id="trm120">cat</term>, and recover the costs thereof from the <term refersTo="#term-owner" id="trm121">owner</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-4">
+        <num>4</num>
+        <heading>Impounding of dogs and cats</heading>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Duties of <term refersTo="#term-poundmaster" id="trm122">poundmaster</term></heading>
+          <subsection id="section-11.subsection-0">
+            <content>
+              <blockList id="section-11.subsection-0.list0">
+                <listIntroduction>
+A <term refersTo="#term-poundmaster" id="trm123">poundmaster</term> –                </listIntroduction>
+                <item id="section-11.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <blockList id="section-11.subsection-0.list0.a.list0">
+                    <listIntroduction>(i) must keep the <term refersTo="#term-pound" id="trm124">pound</term> open between 08:00 and 16:30 from Monday to Friday and Saturday between 08:00 and 12:00 unless any such day is a public holiday;</listIntroduction>
+                    <item id="section-11.subsection-0.list0.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>may, notwithstanding the provisions of subparagraph (i), keep the <term refersTo="#term-pound" id="trm125">pound</term> open during such earlier or later hours as he considers necessary, subject to displaying an easily legible notice to that effect at the entrance to the <term refersTo="#term-pound" id="trm126">pound</term> and on the <term refersTo="#term-Council" id="trm127">Council</term>'s official notice board.</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-11.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>must accept, take charge of and impound any <term refersTo="#term-dog" id="trm128">dog</term> or <term refersTo="#term-cat" id="trm129">cat</term> brought to the <term refersTo="#term-pound" id="trm130">pound</term> with a view to impounding it, during the hours when the <term refersTo="#term-pound" id="trm131">pound</term> is open and must, subject to the further provisions of this Chapter, detain that <term refersTo="#term-dog" id="trm132">dog</term> or <term refersTo="#term-cat" id="trm133">cat</term> in the <term refersTo="#term-pound" id="trm134">pound</term>: Provided that the <term refersTo="#term-poundmaster" id="trm135">poundmaster</term> may refuse to receive, or may release, any <term refersTo="#term-dog" id="trm136">dog</term> or <term refersTo="#term-cat" id="trm137">cat</term> if he or she reasonably believes that such <term refersTo="#term-dog" id="trm138">dog</term> or <term refersTo="#term-cat" id="trm139">cat</term> was not lawfully taken into custody or impounded;</p>
+                </item>
+                <item id="section-11.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <blockList id="section-11.subsection-0.list0.c.list1">
+                    <listIntroduction>Must keep a register in which the following particulars in respect of every impounded <term refersTo="#term-dog" id="trm140">dog</term> and <term refersTo="#term-cat" id="trm141">cat</term> are recorded :</listIntroduction>
+                    <item id="section-11.subsection-0.list0.c.list1.i">
+                      <num>(i)</num>
+                      <p>The name of the <term refersTo="#term-authorised_official" id="trm142">authorised official</term> or the name, residential address and telephone number of any other person, who brought the <term refersTo="#term-dog" id="trm143">dog</term> or <term refersTo="#term-cat" id="trm144">cat</term> to be impounded;</p>
+                    </item>
+                    <item id="section-11.subsection-0.list0.c.list1.ii">
+                      <num>(ii)</num>
+                      <p>the time at which and date on which the <term refersTo="#term-dog" id="trm145">dog</term> or <term refersTo="#term-cat" id="trm146">cat</term> was impounded;</p>
+                    </item>
+                    <item id="section-11.subsection-0.list0.c.list1.iii">
+                      <num>(iii)</num>
+                      <p>the place where the <term refersTo="#term-dog" id="trm147">dog</term> or <term refersTo="#term-cat" id="trm148">cat</term> was found immediately before it was taken into custody;</p>
+                    </item>
+                    <item id="section-11.subsection-0.list0.c.list1.iv">
+                      <num>(iv)</num>
+                      <p>the date on which and the time at which the <term refersTo="#term-dog" id="trm149">dog</term> or <term refersTo="#term-cat" id="trm150">cat</term> was taken into custody before being brought to the <term refersTo="#term-pound" id="trm151">pound</term>;</p>
+                    </item>
+                    <item id="section-11.subsection-0.list0.c.list1.v">
+                      <num>(v)</num>
+                      <p>the reason for impounding the <term refersTo="#term-dog" id="trm152">dog</term> or <term refersTo="#term-cat" id="trm153">cat</term>;</p>
+                    </item>
+                    <item id="section-11.subsection-0.list0.c.list1.vi">
+                      <num>(vi)</num>
+                      <p>a description of the <term refersTo="#term-dog" id="trm154">dog</term> or <term refersTo="#term-cat" id="trm155">cat</term> indicating the estimated age, breed, sex, colour, markings and any injury found on the <term refersTo="#term-dog" id="trm156">dog</term> or <term refersTo="#term-cat" id="trm157">cat</term> when the <term refersTo="#term-poundmaster" id="trm158">poundmaster</term> accepted it;</p>
+                    </item>
+                    <item id="section-11.subsection-0.list0.c.list1.vii">
+                      <num>(vii)</num>
+                      <p>whether the <term refersTo="#term-dog" id="trm159">dog</term> or <term refersTo="#term-cat" id="trm160">cat</term> was released, sold or destroyed and the date and time of such release, sale or destruction;</p>
+                    </item>
+                    <item id="section-11.subsection-0.list0.c.list1.viii">
+                      <num>(viii)</num>
+                      <p>the amount of money realised in respect of such release or sale;</p>
+                    </item>
+                    <item id="section-11.subsection-0.list0.c.list1.ix">
+                      <num>(ix)</num>
+                      <p>the amount of veterinary expenses, if any, incurred in respect of the <term refersTo="#term-dog" id="trm161">dog</term> or <term refersTo="#term-cat" id="trm162">cat</term>;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-11.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>must ensure that the <term refersTo="#term-pound" id="trm163">pound</term> and all equipment used in connection with impounding dogs and cats are at all times kept in a clean condition and free from flies and other vermin, to the satisfaction of the <term refersTo="#term-Council" id="trm164">Council</term>'s Director : Health;</p>
+                </item>
+                <item id="section-11.subsection-0.list0.e">
+                  <num>(e)</num>
+                  <p>must ensure that every <term refersTo="#term-dog" id="trm165">dog</term> and <term refersTo="#term-cat" id="trm166">cat</term> in the <term refersTo="#term-pound" id="trm167">pound</term> is properly fed and cared for;</p>
+                </item>
+                <item id="section-11.subsection-0.list0.f">
+                  <num>(f)</num>
+                  <p>must isolate any female <term refersTo="#term-dog" id="trm168">dog</term> or <term refersTo="#term-cat" id="trm169">cat</term> on heat;</p>
+                </item>
+                <item id="section-11.subsection-0.list0.g">
+                  <num>(g)</num>
+                  <p>must take all reasonable steps to prevent fighting amongst dogs or cats in the <term refersTo="#term-pound" id="trm170">pound</term>;</p>
+                </item>
+                <item id="section-11.subsection-0.list0.h">
+                  <num>(h)</num>
+                  <p>must isolate any diseased <term refersTo="#term-dog" id="trm171">dog</term> or <term refersTo="#term-cat" id="trm172">cat</term> from the healthy dogs or cats, have such <term refersTo="#term-dog" id="trm173">dog</term> or <term refersTo="#term-cat" id="trm174">cat</term> attended to by a veterinary surgeon and take all steps to recover the expenses incurred in this regard from the <term refersTo="#term-owner" id="trm175">owner</term> if the identity and address of the <term refersTo="#term-owner" id="trm176">owner</term> are known;</p>
+                </item>
+                <item id="section-11.subsection-0.list0.i">
+                  <num>(i)</num>
+                  <p>must take all necessary steps to have any <term refersTo="#term-dog" id="trm177">dog</term> or <term refersTo="#term-cat" id="trm178">cat</term> destroyed as contemplated in section 15 and recover any expenses incurred in this regard from the <term refersTo="#term-owner" id="trm179">owner</term> if the identity and address of the <term refersTo="#term-owner" id="trm180">owner</term> are known; and</p>
+                </item>
+                <item id="section-11.subsection-0.list0.j">
+                  <num>(j)</num>
+                  <p>must levy the <term refersTo="#term-prescribed" id="trm181">prescribed</term> fees for impoundment and daily holding fees in respect of any <term refersTo="#term-dog" id="trm182">dog</term> or <term refersTo="#term-cat" id="trm183">cat</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Taking dogs into custody</heading>
+          <subsection id="section-12.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-12.1.list0">
+                <listIntroduction>
+An <term refersTo="#term-authorised_official" id="trm184">authorised official</term> or an employee authorised thereto by a person, body or structure contemplated in paragraph (c) or (d) of the definition of “<term refersTo="#term-Council" id="trm185">Council</term>” may, for the purpose of having a <term refersTo="#term-dog" id="trm186">dog</term> impounded, take into custody any <term refersTo="#term-dog" id="trm187">dog</term> which –                </listIntroduction>
+                <item id="section-12.1.list0.a">
+                  <num>(a)</num>
+                  <p>is at large and apparently ownerless;</p>
+                </item>
+                <item id="section-12.1.list0.b">
+                  <num>(b)</num>
+                  <p>suffers from an infectious or contagious disease;</p>
+                </item>
+                <item id="section-12.1.list0.c">
+                  <num>(c)</num>
+                  <p>is found in a <term refersTo="#term-public_place" id="trm188">public place</term> and is not on a leash and in the control of a person;</p>
+                </item>
+                <item id="section-12.1.list0.d">
+                  <num>(d)</num>
+                  <p>overturns, damages or tears any refuse receptacle or refuse bag;</p>
+                </item>
+                <item id="section-12.1.list0.e">
+                  <num>(e)</num>
+                  <p>is brought into a <term refersTo="#term-public_place" id="trm189">public place</term> in contravention of the provisions of section 6;</p>
+                </item>
+                <item id="section-12.1.list0.f">
+                  <num>(f)</num>
+                  <p>is being kept in contravention of the provisions of section 2 or 5; or</p>
+                </item>
+                <item id="section-12.1.list0.g">
+                  <num>(g)</num>
+                  <p>enters any <term refersTo="#term-premises" id="trm190">premises</term> in an effort to escape being taken into custody.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-12.2">
+            <num>(2)</num>
+            <content>
+              <p>Any person may on <term refersTo="#term-premises" id="trm191">premises</term> of which he or she is the <term refersTo="#term-owner" id="trm192">owner</term> or occupier, take into custody any <term refersTo="#term-dog" id="trm193">dog</term> found trespassing thereon or therein for the purpose of having it impounded.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.3">
+            <num>(3)</num>
+            <content>
+              <p>Notwithstanding the provisions of subsections (1) and (2), no person may take any <term refersTo="#term-dog" id="trm194">dog</term> into custody for the purpose of having it impounded if there are reasonable grounds to believe that the <term refersTo="#term-dog" id="trm195">dog</term> is a female <term refersTo="#term-dog" id="trm196">dog</term> with unweaned young, unless such <term refersTo="#term-dog" id="trm197">dog</term> and unweaned young are taken into custody together.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-12.4.list3">
+                <listIntroduction>
+Any person who has taken a <term refersTo="#term-dog" id="trm198">dog</term> into custody in terms of this section –                </listIntroduction>
+                <item id="section-12.4.list3.a">
+                  <num>(a)</num>
+                  <p>must ensure that the <term refersTo="#term-dog" id="trm199">dog</term> is not ill-treated; and</p>
+                </item>
+                <item id="section-12.4.list3.b">
+                  <num>(b)</num>
+                  <p>may, when the <term refersTo="#term-pound" id="trm200">pound</term> is closed, keep the <term refersTo="#term-dog" id="trm201">dog</term> in his or her custody until the <term refersTo="#term-pound" id="trm202">pound</term> re-opens.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-12.5">
+            <num>(5)</num>
+            <content>
+              <p>No person may free any <term refersTo="#term-dog" id="trm203">dog</term> which has been taken into custody, or is being kept in custody in terms of this section or which has been impounded in terms of section 11.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Taking cats into custody</heading>
+          <subsection id="section-13.1">
+            <num>(1)</num>
+            <content>
+              <p>An <term refersTo="#term-authorised_official" id="trm204">authorised official</term> or an employee authorised thereto by a person, body or structure contemplated in paragraph (c) or (d) of the definition of “<term refersTo="#term-Council" id="trm205">Council</term>” may, for the purpose of having a <term refersTo="#term-cat" id="trm206">cat</term> impounded, take into custody any <term refersTo="#term-cat" id="trm207">cat</term> which is kept in contravention of section 9.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.2">
+            <num>(2)</num>
+            <content>
+              <p>The provisions of section 12 (1) (a), (b), (d) and (g) and section 12(2), (3), (4) and (5), read with the necessary changes, apply to the taking into custody of cats.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>Claiming of impounded dogs and cats</heading>
+          <subsection id="section-14.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-14.1.list0">
+                <listIntroduction>
+Any person may claim an impounded <term refersTo="#term-dog" id="trm208">dog</term> or <term refersTo="#term-cat" id="trm209">cat</term> if he or she –                </listIntroduction>
+                <item id="section-14.1.list0.a">
+                  <num>(a)</num>
+                  <p>satisfies the <term refersTo="#term-poundmaster" id="trm210">poundmaster</term> that he or she is the <term refersTo="#term-owner" id="trm211">owner</term> or is otherwise entitled to the custody of the <term refersTo="#term-dog" id="trm212">dog</term> or <term refersTo="#term-cat" id="trm213">cat</term> concerned;</p>
+                </item>
+                <item id="section-14.1.list0.b">
+                  <num>(b)</num>
+                  <p>satisfies the <term refersTo="#term-poundmaster" id="trm214">poundmaster</term> that releasing the <term refersTo="#term-dog" id="trm215">dog</term> or <term refersTo="#term-cat" id="trm216">cat</term> into his or her custody will not result in any provision of section 2, 5 or 9 being contravened; and</p>
+                </item>
+                <item id="section-14.1.list0.c">
+                  <num>(c)</num>
+                  <p>pays to the <term refersTo="#term-poundmaster" id="trm217">poundmaster</term> the <term refersTo="#term-prescribed" id="trm218">prescribed</term> fees and the amount of veterinary expenses, if any, incurred in respect of the <term refersTo="#term-dog" id="trm219">dog</term> or <term refersTo="#term-cat" id="trm220">cat</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-14.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-poundmaster" id="trm221">poundmaster</term> must, if the provisions of subsection (1) have been complied with, surrender the <term refersTo="#term-dog" id="trm222">dog</term> or <term refersTo="#term-cat" id="trm223">cat</term> concerned to the person claiming it.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Destruction or sale of unclaimed dogs and cats</heading>
+          <subsection id="section-15.1">
+            <num>(1)</num>
+            <content>
+              <p>If an impounded <term refersTo="#term-dog" id="trm224">dog</term> or <term refersTo="#term-cat" id="trm225">cat</term> is not claimed by a person entitled</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.subsection-1">
+            <content>
+              <p>thereto within 96 hours after the <term refersTo="#term-dog" id="trm226">dog</term> or <term refersTo="#term-cat" id="trm227">cat</term> has been impounded, the <term refersTo="#term-poundmaster" id="trm228">poundmaster</term> may in the manner <term refersTo="#term-prescribed" id="trm229">prescribed</term> in section 5(1) of the Animals Protection Act, 1962 (Act No. 71 of 1962), destroy such <term refersTo="#term-dog" id="trm230">dog</term> or <term refersTo="#term-cat" id="trm231">cat</term> or cause it to be destroyed, or may sell such <term refersTo="#term-dog" id="trm232">dog</term> or <term refersTo="#term-cat" id="trm233">cat</term> or cause it to be sold.</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.2">
+            <num>(2)</num>
+            <content>
+              <p>Unless the <term refersTo="#term-Council" id="trm234">Council</term> has instructed the <term refersTo="#term-poundmaster" id="trm235">poundmaster</term> to the contrary, he or she must have any unsterilised <term refersTo="#term-dog" id="trm236">dog</term> or <term refersTo="#term-cat" id="trm237">cat</term> sterilised before it is sold in terms of subsection (1) and may recover the costs incurred from the buyer.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-5">
+        <num>5</num>
+        <heading>Miscellaneous</heading>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Designation of authorised officials</heading>
+          <subsection id="section-16.subsection-0">
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm238">Council</term> may designate any <term refersTo="#term-authorised_official" id="trm239">authorised official</term> to execute work, conduct any inspection and monitor and enforce compliance with these By-laws, as envisaged in section 23(1) of the Rationalisation of Local Government Affairs Act, 1998 (Gauteng Provincial Act No. 10 of 1998).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Offences and penalties</heading>
+          <subsection id="section-17.subsection-0">
+            <content>
+              <blockList id="section-17.subsection-0.list0">
+                <listIntroduction>
+Any person who –                </listIntroduction>
+                <item id="section-17.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>contravenes or fails to comply with any provision of these Bylaws; or</p>
+                </item>
+                <item id="section-17.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>fails to comply with any notice issued for the purposes of these Bylaws; or</p>
+                </item>
+                <item id="section-17.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>fails to comply with any lawful instruction given for the purposes of these By-laws; or</p>
+                </item>
+                <item id="section-17.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>obstructs or hinders any <term refersTo="#term-authorised_official" id="trm240">authorised official</term> or employee of the <term refersTo="#term-Council" id="trm241">Council</term> in the execution of his or her duties under these By-laws ,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-17.subsection-1">
+            <content>
+              <p>is guilty of an offence and liable on conviction to a fine or in default of payment to imprisonment for a period not exceeding six months and in the case of a continuing offence, to a further fine not exceeding R50, or in default of payment to imprisonment not exceeding one day, for every day during the continuance of such offence after a written notice has been issued by the <term refersTo="#term-Council" id="trm242">Council</term> and served on the person concerned requiring the discontinuance of such offence.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Application to the state and council</heading>
+          <subsection id="section-18.subsection-0">
+            <content>
+              <p>These By-laws bind the State and the <term refersTo="#term-Council" id="trm243">Council</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-19">
+          <num>19.</num>
+          <heading>Repeal</heading>
+          <subsection id="section-19.subsection-0">
+            <content>
+              <p>The By-laws listed in Schedule 1 are hereby repealed.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>Short title</heading>
+          <subsection id="section-20.subsection-0">
+            <content>
+              <p>These By-laws are called the By-laws relating to Dogs and Cats, 2005.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+    </body>
+  </act>
+  <components>
+    <component id="component-0">
+      <doc name="schedules">
+        <meta>
+          <identification source="#openbylaws">
+            <FRBRWork>
+              <FRBRthis value="/za/by-law/johannesburg/2006/dogs-and-cats/schedules"/>
+              <FRBRuri value="/za/by-law/johannesburg/2006/dogs-and-cats"/>
+              <FRBRdate date="2006-04-10" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za/by-law/johannesburg/2006/dogs-and-cats/schedules/eng@"/>
+              <FRBRuri value="/za/by-law/johannesburg/2006/dogs-and-cats/eng@"/>
+              <FRBRdate date="2006-04-10" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za/by-law/johannesburg/2006/dogs-and-cats/schedules/eng@"/>
+              <FRBRuri value="/za/by-law/johannesburg/2006/dogs-and-cats/eng@"/>
+              <FRBRdate date="2014-08-06" name="Generation"/>
+              <FRBRauthor href="#openbylaws" as="#author"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <chapter id="schedule-1">
+            <num>1</num>
+            <heading>Repealed by-laws</heading>
+            <section id="schedule-1.section-0">
+              <content>
+                <table id="schedule-1.section-0.table-0">
+                  <tr>
+                    <th>
+                      <p>Number and year</p>
+                    </th>
+                    <th>
+                      <p>Name of By-laws</p>
+                    </th>
+                    <th>
+                      <p>Extent of Repeal</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Administrator’s Notice 1832 dated 15 December 1982</p>
+                    </td>
+                    <td>
+                      <p>Midrand Municipality : Bylaws relating to Dogs</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Administrator’s Notice 2045 dated 24 December 1980</p>
+                    </td>
+                    <td>
+                      <p>Randburg Municipality : Bylaws relating to dogs</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Notice 4580 dated 24 August 1988</p>
+                    </td>
+                    <td>
+                      <p>Roodepoort Municipality : By-laws relating to Dogs</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Administrator’s Notice 2125 dated 21 December 1983 as amended by Administrator’s Notice 57 dated 18 January 1984, Local Authority Notices dated 23 December 1987, 28 September 1988 and No. 347 dated 31 January 1990</p>
+                    </td>
+                    <td>
+                      <p>Sandton Municipality : Bylaws relating to Dogs</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                </table>
+              </content>
+            </section>
+          </chapter>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>

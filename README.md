@@ -1,4 +1,4 @@
-# South Africa's By-laws
+# South Africa's By-laws [![Build Status](https://travis-ci.org/longhotsummer/za-by-laws.svg)](http://travis-ci.org/longhotsummer/za-by-laws)
 
 This is a collection of South Africa's by-laws, freely available, easy to read,
 share and build upon.
