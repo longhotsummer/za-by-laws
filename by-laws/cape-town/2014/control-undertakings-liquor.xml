@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
-  <act contains="originalVersion">
+  <act contains="singleVersion">
     <meta>
       <identification source="#openbylaws">
         <FRBRWork>
@@ -26,10 +26,14 @@
         </FRBRManifestation>
       </identification>
       <publication date="2014-01-17" name="Province of Western Cape: Provincial Gazette" number="7219" showAs="Province of Western Cape: Provincial Gazette"/>
+      <lifecycle source="#this">
+        <eventRef type="amendment" date="2014-12-12" id="amendment-event-2014-12-12" source="#amendment-2014-12-12"/>
+      </lifecycle>
       <references source="#this">
         <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
         <TLCOrganization id="council" href="/ontology/organization/za/council.cape-town" showAs="Cape Town City Council"/>
         <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <passiveRef id="amendment-2014-12-12" href="/za/by-law/cape-town/2014/control-undertakings-liquor-amendment" showAs="City of Cape Town: Control of Undertakings that Sell Liquor to the Public Amendment By-law, 2014"/>
         <TLCTerm id="term-agricultural_area" href="/ontology/term/this.eng.agricultural_area" showAs="agricultural area"/>
         <TLCTerm id="term-authorised_official" href="/ontology/term/this.eng.authorised_official" showAs="authorised official"/>
         <TLCTerm id="term-business_premises" href="/ontology/term/this.eng.business_premises" showAs="business premises"/>
@@ -480,12 +484,6 @@ An application for the extension of trading days and hours is not automatically 
                 <p>may be approved by the <term refersTo="#term-City" id="trm69">City</term>, subject to the imposition of conditions for extended <term refersTo="#term-liquor" id="trm70">liquor</term> trading days and hours.</p>
               </item>
             </blockList>
-          </content>
-        </subsection>
-        <subsection id="section-6.4">
-          <num>(4)</num>
-          <content>
-            <p>No application will be considered or processed for approval by the <term refersTo="#term-City" id="trm71">City</term> during the period starting 1 December and ending 15 January of the following year.</p>
           </content>
         </subsection>
         <subsection id="section-6.5">
