@@ -1,0 +1,180 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-cpt/act/by-law/2015/immovable-property/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2015/immovable-property"/>
+          <FRBRalias value="City of Cape Town: Immovable Property By-Law, 2014"/>
+          <FRBRdate date="2015-12-11" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-cpt/act/by-law/2015/immovable-property/eng@2015-12-11/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2015/immovable-property/eng@2015-12-11"/>
+          <FRBRdate date="2015-12-11" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-cpt/act/by-law/2015/immovable-property/eng@2015-12-11/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2015/immovable-property/eng@2015-12-11"/>
+          <FRBRdate date="2016-01-11" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-12-11" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" number="7544"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-approve" href="/ontology/term/this.eng.approve" showAs="approve"/>
+        <TLCTerm id="term-City" href="/ontology/term/this.eng.City" showAs="City"/>
+        <TLCTerm id="term-close" href="/ontology/term/this.eng.close" showAs="close"/>
+        <TLCTerm id="term-municipal_area" href="/ontology/term/this.eng.municipal_area" showAs="municipal area"/>
+        <TLCTerm id="term-public_place" href="/ontology/term/this.eng.public_place" showAs="public place"/>
+      </references>
+    </meta>
+    <preface>
+      <p>BE IT ENACTED by the Council of the City of Cape Town, as follows: –</p>
+    </preface>
+    <preamble>
+      <p>WHEREAS Section 156 (1) of the Constitution of the Republic of South Africa provides that a municipality has the right to administer the local government matters listed in Part B of Schedule 4 and Part B of Schedule 5 and any other matter assigned to it by national or provincial legislation;</p>
+      <p>WHEREAS section 156(2) provides that a municipality may make and administer by-laws for the effective administration of the matters which it has the right to administer;</p>
+      <p>WHEREAS Part B of Schedule 5 of the Constitution lists public places and public roads as local government matters;</p>
+      <p>AND WHEREAS a municipality is empowered by the Constitution and the Expropriation Act, 1975 to permanently or temporarily acquire immovable property;</p>
+      <p>AND NOW THEREFORE, BE IT ENACTED by the Council of the City of Cape Town as follows: –</p>
+    </preamble>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <subsection id="section-1.subsection-0">
+          <content>
+            <p>In this By-Law, unless inconsistent with the context –</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-1" refersTo="#term-approve">
+          <content>
+            <p>"<def refersTo="#term-approve">approve</def>" in relation to a plan or diagram means a plan approved by the <term refersTo="#term-City" id="trm0">City</term> or other competent authority in respect of a subdivision, rezoning or development approval or a diagram approved by the Surveyor-General in terms of applicable law;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-2" refersTo="#term-City">
+          <content>
+            <p>"<def refersTo="#term-City">City</def>" means the City of Cape Town, a municipality established by the City of Cape Town Establishment Notice No. 479 of 22 September 2000, issued in terms of the Local Government: Municipal Structures Act, 1998, or any structure or employee of the City acting in terms of delegated authority;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-3" refersTo="#term-close">
+          <content>
+            <p>"<def refersTo="#term-close">close</def>" in relation to a public street or <term refersTo="#term-public_place" id="trm1">public place</term>, means to close the public street or <term refersTo="#term-public_place" id="trm2">public place</term> to vehicular or pedestrian traffic only;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-4" refersTo="#term-municipal_area">
+          <content>
+            <p>"<def refersTo="#term-municipal_area">municipal area</def>" means the area under the jurisdiction and control of the <term refersTo="#term-City" id="trm3">City</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-5" refersTo="#term-public_place">
+          <content>
+            <p>"<def refersTo="#term-public_place">public place</def>" includes any open or enclosed place, park, street, road or thoroughfare or other similar area of land shown on a general plan or diagram that is for use by the general public and is owned by, or vests in the ownership of the <term refersTo="#term-City" id="trm4">City</term>, and includes a public open space and a servitude for any similar purpose in favour of the general public.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Ownership of immovable property</heading>
+        <subsection id="section-2.subsection-0">
+          <content>
+            <p>The ownership of all immovable property registered in the name of the <term refersTo="#term-City" id="trm5">City</term> and all public places, including public streets, vests in the <term refersTo="#term-City" id="trm6">City</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Acquisition of immovable property and rights in immovable property</heading>
+        <subsection id="section-3.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-City" id="trm7">City</term> may acquire immovable property or rights in immovable property within or outside its <term refersTo="#term-municipal_area" id="trm8">municipal area</term> by means of purchase, donation, gi􏰂, lease or otherwise.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.2">
+          <num>(2)</num>
+          <content>
+            <p>Subject to the provisions of the Expropriation Act, 1975 (Act No. 63 of 1975) the <term refersTo="#term-City" id="trm9">City</term> may expropriate immovable property and rights in immovable property or may temporarily take the right to use immovable property.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Closure of Public Places</heading>
+        <subsection id="section-4.1">
+          <num>(1)</num>
+          <content>
+            <p>Subject to subsection 2, the <term refersTo="#term-City" id="trm10">City</term> may, by notice in the Provincial Gazette, <term refersTo="#term-close" id="trm11">close</term> any public street, <term refersTo="#term-public_place" id="trm12">public place</term> or any portion thereof.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-4.2.list1">
+              <listIntroduction>The <term refersTo="#term-City" id="trm13">City</term> must –</listIntroduction>
+              <item id="section-4.2.list1.a">
+                <num>(a)</num>
+                <p>advertise the intention to <term refersTo="#term-close" id="trm14">close</term> any public street, <term refersTo="#term-public_place" id="trm15">public place</term> or any portion thereof;</p>
+              </item>
+              <item id="section-4.2.list1.b">
+                <num>(b)</num>
+                <p>serve copies of the advertisement contemplated in paragraph (a) on the owners of all immovable property abu􏰃ng the public street, <term refersTo="#term-public_place" id="trm16">public place</term> or portion thereof which it proposes to <term refersTo="#term-close" id="trm17">close</term>;</p>
+              </item>
+              <item id="section-4.2.list1.c">
+                <num>(c)</num>
+                <p>the copies of the advertisements must be served not less than 30 days before the date by which objections are required to be lodged in accordance with such advertisement;</p>
+              </item>
+              <item id="section-4.2.list1.d">
+                <num>(d)</num>
+                <p>consider any objections and comments received in accordance with such advertisement.</p>
+              </item>
+              <item id="section-4.2.list1.e">
+                <num>(e)</num>
+                <p>submit a copy of such advertisement to Council together with any comments thereon; and</p>
+              </item>
+              <item id="section-4.2.list1.f">
+                <num>(f)</num>
+                <p>obtain Council’s authority to act in terms of subsection (1).</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Prescriptitive claims</heading>
+        <subsection id="section-5.subsection-0">
+          <content>
+            <p>If a person has, by prescription, acquired ownership of immovable property owned by the <term refersTo="#term-City" id="trm18">City</term>, such prescription may be conceded by the <term refersTo="#term-City" id="trm19">City</term> if written proof is produced to the effect that such prescription occurred 10 years prior to the expiration of the period contemplated in section 1 of the Prescription (Local Authorities) Ordinance, 1964 (Ordinance 16 of 1964) or 10 years prior to the expiration of the period contemplated in Sectition 3 of the State Land Disposal Act 48 of 1961.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Repeal</heading>
+        <subsection id="section-6.1">
+          <num>(1)</num>
+          <content>
+            <p>The By-Law relating to the Management and Administration of the <term refersTo="#term-City" id="trm20">City</term> of Cape Town’s Immovable Property as published in the Provincial Gazetttte 5988 of 28 February 2003 is hereby repealed.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Short title</heading>
+        <subsection id="section-7.subsection-0">
+          <content>
+            <p>This By-Law is called the <term refersTo="#term-City" id="trm21">City</term> of Cape Town: Immovable Property By-Law, 2014.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

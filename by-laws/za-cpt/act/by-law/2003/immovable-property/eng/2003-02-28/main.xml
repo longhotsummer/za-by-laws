@@ -1,0 +1,321 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openbylaws">
+        <FRBRWork>
+          <FRBRthis value="/za-cpt/act/by-law/2003/immovable-property/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2003/immovable-property"/>
+          <FRBRalias value="By-law Relating to the Management and Administration of the City of Cape Town's Immovable Property"/>
+          <FRBRdate date="2003-02-28" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-cpt/act/by-law/2003/immovable-property/eng@2003-02-28/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2003/immovable-property/eng@2003-02-28"/>
+          <FRBRdate date="2003-02-28" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-cpt/act/by-law/2003/immovable-property/eng@2003-02-28/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2003/immovable-property/eng@2003-02-28"/>
+          <FRBRdate date="2016-01-11" name="Generation"/>
+          <FRBRauthor href="#openbylaws" as="#author"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-02-28" name="Province of Western Cape: Provincial Gazette" number="5988" showAs="Province of Western Cape: Provincial Gazette"/>
+      <lifecycle>
+        <eventRef id="repeal-2015-12-11" date="2015-12-11" type="repeal" source="#repeal-source"/>
+      </lifecycle>
+      <references source="#this">
+        <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council.cape-town" showAs="Cape Town City Council"/>
+        <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCTerm id="term-advertise" href="/ontology/term/this.eng.advertise" showAs="advertise"/>
+        <TLCTerm id="term-alienate" href="/ontology/term/this.eng.alienate" showAs="alienate"/>
+        <TLCTerm id="term-close" href="/ontology/term/this.eng.close" showAs="close"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-municipal_immovable_property" href="/ontology/term/this.eng.municipal_immovable_property" showAs="municipal immovable property"/>
+        <TLCTerm id="term-municipality" href="/ontology/term/this.eng.municipality" showAs="municipality"/>
+        <TLCTerm id="term-municipal_area" href="/ontology/term/this.eng.municipal_area" showAs="municipal area"/>
+        <TLCTerm id="term-prescribe" href="/ontology/term/this.eng.prescribe" showAs="prescribe"/>
+        <TLCTerm id="term-public_place" href="/ontology/term/this.eng.public_place" showAs="public place"/>
+        <TLCTerm id="term-public_street" href="/ontology/term/this.eng.public_street" showAs="public street"/>
+        <passiveRef id="repeal-source" href="/za-cpt/act/by-law/2015/immovable-property" showAs="City of Cape Town: Immovable Property By-Law, 2014"/>
+      </references>
+    </meta>
+    <preamble>
+      <p>WHEREAS the municipality of the City of Cape Town is vested with legislative authority in terms of the Constitution of the Republic of South Africa, 1996, (Act 108 of 1996);</p>
+      <p>AND WHEREAS the municipality in the exercise of its functions has the right to acquire, lease, manage, let and alienate immovable property and rights in immovable property,</p>
+      <p>Be it therefore enacted by the City of Cape Town as follows:</p>
+    </preamble>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <subsection id="section-1.subsection-0">
+          <content>
+            <p>In this by-law, unless inconsistent with the context—</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-1">
+          <content>
+            <blockList id="section-1.subsection-1.list1" refersTo="#term-advertise">
+              <listIntroduction>"<def refersTo="#term-advertise">advertise</def>" means the giving of adequate notice of the nature and purpose including the material substance of the proposed administrative actions, by publishing a notice in the press, and where deemed necessary by the <term refersTo="#term-Council" id="trm0">Council</term>, any additional form of notice, which may include-</listIntroduction>
+              <item id="section-1.subsection-1.list1.a">
+                <num>(a)</num>
+                <p>serving of a notice, or</p>
+              </item>
+              <item id="section-1.subsection-1.list1.b">
+                <num>(b)</num>
+                <p>displaying on a notice board, or</p>
+              </item>
+              <item id="section-1.subsection-1.list1.c">
+                <num>(c)</num>
+                <p>holding a public meeting;</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-2" refersTo="#term-alienate">
+          <content>
+            <p>"<def refersTo="#term-alienate">alienate</def>" means to part with ownership of immovable property in favour of another person with the intention of transferring the ownership of the immovable property to the acquirer thereof;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-3" refersTo="#term-close">
+          <content>
+            <p>"<def refersTo="#term-close">close</def>" in relation to a <term refersTo="#term-public_street" id="trm1">public street</term> or <term refersTo="#term-public_place" id="trm2">public place</term>, means to close for all purposes or to vehicular or pedestrian traffic only;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-4" refersTo="#term-Council">
+          <content>
+            <p>"<def refersTo="#term-Council">Council</def>" means the council of the <term refersTo="#term-municipality" id="trm3">municipality</term> and includes any sub-council, committee, functionary, councillor, or official, acting under delegated authority;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-5">
+          <content>
+            <blockList id="section-1.subsection-5.list5" refersTo="#term-municipal_immovable_property">
+              <listIntroduction>"<def refersTo="#term-municipal_immovable_property">municipal immovable property</def>" means</listIntroduction>
+              <item id="section-1.subsection-5.list5.a">
+                <num>(a)</num>
+                <p>immovable property and real rights registered in the name of the <term refersTo="#term-municipality" id="trm4">municipality</term>;</p>
+              </item>
+              <item id="section-1.subsection-5.list5.b">
+                <num>(b)</num>
+                <p>immovable property and real rights the <term refersTo="#term-municipality" id="trm5">municipality</term> is entitled to have registered in its name; and</p>
+              </item>
+              <item id="section-1.subsection-5.list5.c">
+                <num>(c)</num>
+                <p>any other immovable property which, by law vests in <term refersTo="#term-municipality" id="trm6">municipality</term>;</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-6" refersTo="#term-municipality">
+          <content>
+            <p>"<def refersTo="#term-municipality">municipality</def>" means the Municipality of the City of Cape Town;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-7" refersTo="#term-municipal_area">
+          <content>
+            <p>"<def refersTo="#term-municipal_area">municipal area</def>" means the area under the jurisdiction and control of the <term refersTo="#term-municipality" id="trm7">municipality</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-8" refersTo="#term-prescribe">
+          <content>
+            <p>"<def refersTo="#term-prescribe">prescribe</def>" means a policy approved by council and published in the Provincial Gazette;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-9" refersTo="#term-public_place">
+          <content>
+            <p>"<def refersTo="#term-public_place">public place</def>" means any land or portion thereof indicated on an approved plan, diagram or map as a public place of which ownership as such vests in the <term refersTo="#term-municipality" id="trm8">municipality</term>, and</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-10">
+          <content>
+            <blockList id="section-1.subsection-10.list10" refersTo="#term-public_street">
+              <listIntroduction>"<def refersTo="#term-public_street">public street</def>" means</listIntroduction>
+              <item id="section-1.subsection-10.list10.a">
+                <num>(a)</num>
+                <blockList id="section-1.subsection-10.list10.a.list0">
+                  <listIntroduction>any street which has at any time been—</listIntroduction>
+                  <item id="section-1.subsection-10.list10.a.list0.i">
+                    <num>(i)</num>
+                    <p>used without interruption by the public for a period of at least thirty years;</p>
+                  </item>
+                  <item id="section-1.subsection-10.list10.a.list0.ii">
+                    <num>(ii)</num>
+                    <p>declared or rendered such by the <term refersTo="#term-Council" id="trm9">Council</term> or other competent authority;</p>
+                  </item>
+                  <item id="section-1.subsection-10.list10.a.list0.iii">
+                    <num>(iii)</num>
+                    <p>constructed by the <term refersTo="#term-municipality" id="trm10">municipality</term>, or</p>
+                  </item>
+                  <item id="section-1.subsection-10.list10.a.list0.iv">
+                    <num>(iv)</num>
+                    <p>constructed by someone other than the <term refersTo="#term-municipality" id="trm11">municipality</term> and which vests in the <term refersTo="#term-municipality" id="trm12">municipality</term>;</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-1.subsection-10.list10.b">
+                <num>(b)</num>
+                <blockList id="section-1.subsection-10.list10.b.list1">
+                  <listIntroduction>any land, with or without buildings or structures thereon, which is shown as a street on—</listIntroduction>
+                  <item id="section-1.subsection-10.list10.b.list1.i">
+                    <num>(i)</num>
+                    <p>any plan of subdivision or diagram approved by the <term refersTo="#term-Council" id="trm13">Council</term> or other competent authority and acted upon, or</p>
+                  </item>
+                  <item id="section-1.subsection-10.list10.b.list1.ii">
+                    <num>(ii)</num>
+                    <p>any plan or diagram as defined in section 15 of the Land Survey Act, 1997 (Act 8 of 1997), registered or filed in the office of the Registrar of Deeds or the Surveyor-General’s office,</p>
+                  </item>
+                </blockList>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-11">
+          <content>
+            <p>unless such land is on such plan or diagram described as a private street.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Ownership of public places and public streets</heading>
+        <subsection id="section-2.subsection-0">
+          <content>
+            <p>The ownership of immovable property to which the community of the <term refersTo="#term-municipal_area" id="trm14">municipal area</term> has or may acquire a common right and all public places and public streets and the land comprised in such places and streets vest in the <term refersTo="#term-municipality" id="trm15">municipality</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Acquisition of immovable property and rights in immovable property</heading>
+        <subsection id="section-3.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Council" id="trm16">Council</term> may acquire immovable property and rights in immovable property within or outside its <term refersTo="#term-municipal_area" id="trm17">municipal area</term> by purchase, expropriation, exchange, donation, gift, lease or otherwise.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-Council" id="trm18">Council</term> may expropriate immovable property in terms of the Expropriation Act (Act 63 of 1975), or any other applicable legislation, provided that such expropriation shall be for public purposes or in the interest of the public.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Alienation and letting</heading>
+        <subsection id="section-4.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Council" id="trm19">Council</term> may <term refersTo="#term-alienate" id="trm20">alienate</term> or let <term refersTo="#term-municipal_immovable_property" id="trm21">municipal immovable property</term> under such conditions, terms and circumstances as it may <term refersTo="#term-prescribe" id="trm22">prescribe</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.2">
+          <num>(2)</num>
+          <content>
+            <p>Unless permitted or prescribed otherwise, the <term refersTo="#term-Council" id="trm23">Council</term> shall not <term refersTo="#term-alienate" id="trm24">alienate</term> or let <term refersTo="#term-municipal_immovable_property" id="trm25">municipal immovable property</term> below market value.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-4.3.list2">
+              <item id="section-4.3.list2.a">
+                <num>(a)</num>
+                <p>The <term refersTo="#term-Council" id="trm26">Council</term> shall <term refersTo="#term-advertise" id="trm27">advertise</term> its intention to <term refersTo="#term-alienate" id="trm28">alienate</term> or let <term refersTo="#term-municipal_immovable_property" id="trm29">municipal immovable property</term> and shall invite the public to lodge written comments.</p>
+              </item>
+              <item id="section-4.3.list2.b">
+                <num>(b)</num>
+                <p>The provisions of paragraph (a) shall not apply when <term refersTo="#term-municipal_immovable_property" id="trm30">municipal immovable property</term> is let for a period not exceeding 12 (twelve) months without a renewal option.</p>
+              </item>
+              <item id="section-4.3.list2.c">
+                <num>(c)</num>
+                <blockList id="section-4.3.list2.c.list0">
+                  <listIntroduction>Where:</listIntroduction>
+                  <item id="section-4.3.list2.c.list0.i">
+                    <num>(i)</num>
+                    <p>no comments were lodged, the <term refersTo="#term-municipal_immovable_property" id="trm31">municipal immovable property</term> may be alienated or let, or</p>
+                  </item>
+                  <item id="section-4.3.list2.c.list0.ii">
+                    <num>(ii)</num>
+                    <p>comments were lodged, the council shall consider every comment and decide whether or not to <term refersTo="#term-alienate" id="trm32">alienate</term> or let the municipal property.</p>
+                  </item>
+                </blockList>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4.4">
+          <num>(4)</num>
+          <content>
+            <p>The council shall record its reasons for the alienation or letting of <term refersTo="#term-municipal_immovable_property" id="trm33">municipal immovable property</term> in terms of this by-law.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.5">
+          <num>(5)</num>
+          <content>
+            <p>No lessee of <term refersTo="#term-municipal_immovable_property" id="trm34">municipal immovable property</term> shall without the prior consent in writing of the council, sublet such property or any portion thereof or assign any right acquired by him in respect thereof and any such subletting or assignment without such consent shall, as against the council, be null and void.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Servitudes and encroachments</heading>
+        <subsection id="section-5.subsection-0">
+          <content>
+            <p>The council may grant servitudes and permit projections, projecting structures and encroachments in, on, over or under <term refersTo="#term-municipal_immovable_property" id="trm35">municipal immovable property</term> at a tariff determined by the <term refersTo="#term-Council" id="trm36">Council</term> and on such terms and conditions as it may <term refersTo="#term-prescribe" id="trm37">prescribe</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Closure of public places and public streets</heading>
+        <subsection id="section-6.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-6.1.list0">
+              <listIntroduction> The council may <term refersTo="#term-close" id="trm38">close</term> public places and public streets or any portion of such places or streets only after it has— </listIntroduction>
+              <item id="section-6.1.list0.a">
+                <num>(a)</num>
+                <p>advertised its intention to do so , and</p>
+              </item>
+              <item id="section-6.1.list0.b">
+                <num>(b)</num>
+                <p>considered and rejected any objection lodged, if any, in accordance with such advertisement and recorded in writing its reasons therefor.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-6.2">
+          <num>(2)</num>
+          <content>
+            <p>Notwithstanding the provisions of paragraph (a), the council may temporarily <term refersTo="#term-close" id="trm39">close</term> a <term refersTo="#term-public_place" id="trm40">public place</term> or <term refersTo="#term-public_street" id="trm41">public street</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Prescriptive claims</heading>
+        <subsection id="section-7.subsection-0">
+          <content>
+            <p>The council may, if written proof to its satisfaction is submitted that any person has, prior to the expiration of the period of ten years contemplated by section 1 of the Prescription (Local Authorities) Ordinance, 1964 (Ordinance 16 of 1964), by prescription acquired the ownership of immovable property owned by the <term refersTo="#term-municipality" id="trm42">municipality</term> or of any right in or over such property, admit or concede any claim to that effect by such person.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Date of commencement</heading>
+        <subsection id="section-8.subsection-0">
+          <content>
+            <p>This by-law shall commence on the date of publication.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

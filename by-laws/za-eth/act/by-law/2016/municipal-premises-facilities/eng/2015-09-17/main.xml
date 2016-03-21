@@ -1,0 +1,1732 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-eth/act/by-law/2016/municipal-premises-facilities/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2016/municipal-premises-facilities"/>
+          <FRBRalias value="Municipal Premises and Facilities By-law, 2015"/>
+          <FRBRdate date="2015-09-17" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-eth/act/by-law/2016/municipal-premises-facilities/eng@2015-09-17/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2016/municipal-premises-facilities/eng@2015-09-17"/>
+          <FRBRdate date="2015-09-17" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-eth/act/by-law/2016/municipal-premises-facilities/eng@2015-09-17/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2016/municipal-premises-facilities/eng@2015-09-17"/>
+          <FRBRdate date="2016-03-19" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-09-17" name="KwaZulu-Natal Provincial Gazette" showAs="KwaZulu-Natal Provincial Gazette" number="1493"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-art" href="/ontology/term/this.eng.art" showAs="art"/>
+        <TLCTerm id="term-artist" href="/ontology/term/this.eng.artist" showAs="artist"/>
+        <TLCTerm id="term-authorised_official" href="/ontology/term/this.eng.authorised_official" showAs="authorised official"/>
+        <TLCTerm id="term-camping_officer" href="/ontology/term/this.eng.camping_officer" showAs="camping officer"/>
+        <TLCTerm id="term-camping_park" href="/ontology/term/this.eng.camping_park" showAs="camping park"/>
+        <TLCTerm id="term-camping_site" href="/ontology/term/this.eng.camping_site" showAs="camping site"/>
+        <TLCTerm id="term-caravan" href="/ontology/term/this.eng.caravan" showAs="caravan"/>
+        <TLCTerm id="term-caravan_site" href="/ontology/term/this.eng.caravan_site" showAs="caravan site"/>
+        <TLCTerm id="term-community_centre" href="/ontology/term/this.eng.community_centre" showAs="community centre"/>
+        <TLCTerm id="term-Constitution" href="/ontology/term/this.eng.Constitution" showAs="Constitution"/>
+        <TLCTerm id="term-facility" href="/ontology/term/this.eng.facility" showAs="facility"/>
+        <TLCTerm id="term-hire" href="/ontology/term/this.eng.hire" showAs="hire"/>
+        <TLCTerm id="term-Municipal_Council" href="/ontology/term/this.eng.Municipal_Council" showAs="Municipal Council"/>
+        <TLCTerm id="term-Municipality" href="/ontology/term/this.eng.Municipality" showAs="Municipality"/>
+        <TLCTerm id="term-municipal_manager" href="/ontology/term/this.eng.municipal_manager" showAs="municipal manager"/>
+        <TLCTerm id="term-municipal_premises" href="/ontology/term/this.eng.municipal_premises" showAs="municipal premises"/>
+        <TLCTerm id="term-Policy" href="/ontology/term/this.eng.Policy" showAs="Policy"/>
+        <TLCTerm id="term-pool" href="/ontology/term/this.eng.pool" showAs="pool"/>
+        <TLCTerm id="term-prescribed_fee" href="/ontology/term/this.eng.prescribed_fee" showAs="prescribed fee"/>
+        <TLCTerm id="term-Systems_Act" href="/ontology/term/this.eng.Systems_Act" showAs="Systems Act"/>
+      </references>
+    </meta>
+    <preface>
+      <p>To provide for the use and control of municipal premises and facilities; to provide for the repeal of laws and savings; and to provide for matters incidental thereto.</p>
+    </preface>
+    <preamble>
+      <p>WHEREAS there is a need for the Municipality to regulate the use of municipal premises and facilities;</p>
+      <p>AND WHEREAS it is necessary for the Municipality to control access to municipal premises and facilities and set out the requirements for the hire and use thereof;</p>
+      <p>NOW THEREFORE the Municipal Council of the eThekwini Metropolitan Municipality, acting in terms of section 156 read with Schedule 5 Part B of the Constitution of the Republic of South Africa, and read with section 11 of the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000), hereby makes the following By-law:</p>
+    </preamble>
+    <body>
+      <chapter id="chapter-1">
+        <num>1</num>
+        <heading>Interpretation</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <paragraph id="section-1.paragraph-0" refersTo="#term-Systems_Act">
+            <content>
+              <p>In this By-law, unless the context indicates otherwise ─</p>
+              <p>"<def refersTo="#term-art">art</def>" means any creative act or object of human skill, craft or design in respect of which a <term refersTo="#term-municipal_premises" id="trm0">municipal premises</term> or <term refersTo="#term-facility" id="trm1">facility</term> may be made available for <term refersTo="#term-hire" id="trm2">hire</term> and use;</p>
+              <p>"<def refersTo="#term-artist">artist</def>" means any person who is involved in the performance or creation of an <term refersTo="#term-art" id="trm3">art</term>, and "artistic" has a corresponding meaning;</p>
+              <blockList id="section-1.paragraph-0.list4" refersTo="#term-authorised_official">
+                <listIntroduction>"<def refersTo="#term-authorised_official">authorised official</def>" means a person authorised to implement the provisions of this By-law, including but not limited to –</listIntroduction>
+                <item id="section-1.paragraph-0.list4.a">
+                  <num>(a)</num>
+                  <p>peace officers as contemplated in section 334 of the Criminal Procedure Act,1977 (Act No. 51 of 1977);</p>
+                </item>
+                <item id="section-1.paragraph-0.list4.b">
+                  <num>(b)</num>
+                  <p>municipal or metropolitan police officers as contemplated in the South African Police Service Act, 1995 (Act No. 68 of 1995); and</p>
+                </item>
+                <item id="section-1.paragraph-0.list4.c">
+                  <num>(c)</num>
+                  <p>such employees, agents, delegated nominees, representatives and service providers of the <term refersTo="#term-Municipality" id="trm4">Municipality</term> as are specifically authorised by the <term refersTo="#term-Municipality" id="trm5">Municipality</term> in this regard: Provided that for the purposes of search and seizure, where such person is not a peace officer, such person must be accompanied by a peace officer;</p>
+                </item>
+              </blockList>
+              <p>"<def refersTo="#term-camping_officer">camping officer</def>" means a person who is designated by the <term refersTo="#term-Municipality" id="trm6">Municipality</term> to be in charge of a <term refersTo="#term-camping_park" id="trm7">camping park</term>;</p>
+              <p>"<def refersTo="#term-camping_park">camping park</def>" or "<term refersTo="#term-caravan" id="trm8">caravan</term> park" means any area of land which has been set aside by the <term refersTo="#term-Municipality" id="trm9">Municipality</term> for use as a <term refersTo="#term-camping_park" id="trm10">camping park</term> or <term refersTo="#term-caravan" id="trm11">caravan</term> park, or as both;</p>
+              <p>"<def refersTo="#term-camping_site">camping site</def>" means a site set aside and designated by a <term refersTo="#term-camping_officer" id="trm12">camping officer</term> in a <term refersTo="#term-camping_park" id="trm13">camping park</term> for camping purposes;</p>
+              <p>"<def refersTo="#term-caravan">caravan</def>" means a vehicle or similar movable or towable structure on wheels which is designed to permit human occupation for dwelling or sleeping purposes, and includes a mobile home, trailer or camper van;</p>
+              <p>"<def refersTo="#term-caravan_site">caravan site</def>" means a site set aside and designated by a <term refersTo="#term-camping_officer" id="trm14">camping officer</term> in a <term refersTo="#term-caravan" id="trm15">caravan</term> park for the parking of a <term refersTo="#term-caravan" id="trm16">caravan</term>, with or without a side tent;</p>
+              <p>"<def refersTo="#term-community_centre">community centre</def>" means anycommunity premises owned or operated by the <term refersTo="#term-Municipality" id="trm17">Municipality</term> which is used or is capable of being used by members of the community for activities of an indoor sporting, cultural or recreational nature, and “centre” shall have a corresponding meaning;</p>
+              <p>"<def refersTo="#term-Constitution">Constitution</def>" means the <term refersTo="#term-Constitution" id="trm18">Constitution</term> of the Republic of South Africa, 1996;</p>
+              <p>"<def refersTo="#term-facility">facility</def>" means any <term refersTo="#term-facility" id="trm19">facility</term> or structure owned by the <term refersTo="#term-Municipality" id="trm20">Municipality</term> which is or may be available for <term refersTo="#term-hire" id="trm21">hire</term> and use by members of the community in terms of this By-law, excluding a shopping centre;</p>
+              <p>"<def refersTo="#term-hire">hire</def>" means entering into a contract with the <term refersTo="#term-Municipality" id="trm22">Municipality</term> upon payment of a <term refersTo="#term-prescribed_fee" id="trm23">prescribed fee</term> for the use of a <term refersTo="#term-municipal_premises" id="trm24">municipal premises</term> or <term refersTo="#term-facility" id="trm25">facility</term>, and "hirer" has a corresponding meaning;</p>
+              <p>"<def refersTo="#term-Municipal_Council">Municipal Council</def>" or "Council" means the eThekwini <term refersTo="#term-Municipal_Council" id="trm26">Municipal Council</term>, a municipal council referred to in section 157(1) of the <term refersTo="#term-Constitution" id="trm27">Constitution</term>;</p>
+              <p>"<def refersTo="#term-Municipality">Municipality</def>" means the eThekwini <term refersTo="#term-Municipality" id="trm28">Municipality</term>, a category A municipality as envisaged in terms of section 155(1) of the <term refersTo="#term-Constitution" id="trm29">Constitution</term> of South Africa and established in terms of PN343 of 2000 (KZN);</p>
+              <p>"<def refersTo="#term-municipal_manager">municipal manager</def>" means a person appointed in terms of section 54A of the <term refersTo="#term-Systems_Act" id="trm30">Systems Act</term> as the head of administration of the municipal council;</p>
+              <p>"<def refersTo="#term-municipal_premises">municipal premises</def>"means any community premises owned, vested or controlled by the <term refersTo="#term-Municipality" id="trm31">Municipality</term> which is or may be available for <term refersTo="#term-hire" id="trm32">hire</term> and use by members of the community or freely accessible in terms of this By-law for the purpose of conducting artistic, cultural, political, recreational or religious events and excludes shopping complexes, and “premises” shall have a corresponding meaning;</p>
+              <p>"<def refersTo="#term-Policy">Policy</def>" means the tariff policy adopted by the Council in term of section 74 of the <term refersTo="#term-Systems_Act" id="trm33">Systems Act</term>;</p>
+              <p>"<def refersTo="#term-pool">pool</def>" means a municipal owned or controlled swimming <term refersTo="#term-pool" id="trm34">pool</term> or paddling <term refersTo="#term-pool" id="trm35">pool</term> provided by the <term refersTo="#term-Municipality" id="trm36">Municipality</term> for the use and enjoyment of the public and includes the premises, buildings and structures on which the <term refersTo="#term-pool" id="trm37">pool</term> is situated in;</p>
+              <p>"<def refersTo="#term-prescribed_fee">prescribed fee</def>"means a fee determined by the Council by resolution in accordance with the tariff policy adopted by the Council in terms of section 74 of the <term refersTo="#term-Systems_Act" id="trm38">Systems Act</term>; and</p>
+              <p>"<def refersTo="#term-Systems_Act">Systems Act</def>" means the Local Government: Municipal <term refersTo="#term-Systems_Act" id="trm39">Systems Act</term>, 2000 (Act No. 32 of 2000).</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Interpretation of By-law</heading>
+          <paragraph id="section-2.paragraph-0">
+            <content>
+              <p>If there is a conflict of interpretation between the English version of this By-law and a translated version, the English version prevails.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Objects of By-law</heading>
+          <paragraph id="section-3.paragraph-0">
+            <content>
+              <blockList id="section-3.paragraph-0.list1">
+                <listIntroduction>The objects of this By-law are to ─</listIntroduction>
+                <item id="section-3.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>regulate and control the hiring and use of <term refersTo="#term-municipal_premises" id="trm40">municipal premises</term> and facilities;</p>
+                </item>
+                <item id="section-3.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>standardise the fees prescribed for the hiring of <term refersTo="#term-municipal_premises" id="trm41">municipal premises</term> and facilities; and</p>
+                </item>
+                <item id="section-3.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>provide for matters incidental thereto.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Application of By-law</heading>
+          <paragraph id="section-4.paragraph-0">
+            <content>
+              <blockList id="section-4.paragraph-0.list1">
+                <listIntroduction>This By-law applies to all premises under the ownership and control of the <term refersTo="#term-Municipality" id="trm42">Municipality</term>, irrespective of the area in which they are situated, excluding –</listIntroduction>
+                <item id="section-4.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>the Albert Luthuli Complex;</p>
+                </item>
+                <item id="section-4.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>the Ushaka Marine World;</p>
+                </item>
+                <item id="section-4.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>the Moses Mabhida Stadium; and</p>
+                </item>
+                <item id="section-4.paragraph-0.list1.d">
+                  <num>(d)</num>
+                  <p>any shopping complex which, although owned by the <term refersTo="#term-Municipality" id="trm43">Municipality</term>, is subject to private control and management.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+      <chapter id="chapter-2">
+        <num>2</num>
+        <heading>Hire and Use of Premises and Facilities</heading>
+        <part id="chapter-2.part-1">
+          <num>1</num>
+          <heading>Arts and Culture and Community Centre Facilities</heading>
+          <section id="section-5">
+            <num>5.</num>
+            <heading>Application for hiring of premises</heading>
+            <paragraph id="section-5.paragraph-0">
+              <content>
+                <blockList id="section-5.paragraph-0.list1">
+                  <listIntroduction>Any person wishing to apply for the hiring of <term refersTo="#term-municipal_premises" id="trm44">municipal premises</term> must ─</listIntroduction>
+                  <item id="section-5.paragraph-0.list1.a">
+                    <num>(a)</num>
+                    <p>submit an application to the <term refersTo="#term-authorised_official" id="trm45">authorised official</term> on the form prescribed by the <term refersTo="#term-Municipality" id="trm46">Municipality</term> for that purpose; and</p>
+                  </item>
+                  <item id="section-5.paragraph-0.list1.b">
+                    <num>(b)</num>
+                    <p>make payment to the <term refersTo="#term-Municipality" id="trm47">Municipality</term> or its authorised agent of a <term refersTo="#term-prescribed_fee" id="trm48">prescribed fee</term> for the hiring of the premises concerned before the date on which such premises are required for use by the applicant, unless otherwise permitted by the <term refersTo="#term-Municipality" id="trm49">Municipality</term>.</p>
+                  </item>
+                </blockList>
+              </content>
+            </paragraph>
+          </section>
+          <section id="section-6">
+            <num>6.</num>
+            <heading><term refersTo="#term-Municipality" id="trm50">Municipality</term>'s right of refusal or cancellation</heading>
+            <subsection id="section-6.1">
+              <num>(1)</num>
+              <content>
+                <blockList id="section-6.1.list1">
+                  <listIntroduction>Notwithstanding the provisions of section 5, the <term refersTo="#term-Municipality" id="trm51">Municipality</term> may refuse to <term refersTo="#term-hire" id="trm52">hire</term> out any premisesor, if the hiring is already approved, cancel any such approval if ─</listIntroduction>
+                  <item id="section-6.1.list1.a">
+                    <num>(a)</num>
+                    <p>the <term refersTo="#term-authorised_official" id="trm53">authorised official</term> suspects on reasonable grounds that the premises applied for are to be used for an unlawful purpose or any purpose not suitable for the premises applied for; or</p>
+                  </item>
+                  <item id="section-6.1.list1.b">
+                    <num>(b)</num>
+                    <p>the premises applied for are required by the <term refersTo="#term-Municipality" id="trm54">Municipality</term> for its own use during such period of <term refersTo="#term-hire" id="trm55">hire</term>.</p>
+                  </item>
+                </blockList>
+              </content>
+            </subsection>
+            <subsection id="section-6.2">
+              <num>(2)</num>
+              <content>
+                <p>In the event of the approved hiring being cancelled by the <term refersTo="#term-Municipality" id="trm56">Municipality</term> in terms of paragraph (1)(b) or for any other reason not attributable to the hirer, the hirer concerned is entitled to a refund of the <term refersTo="#term-prescribed_fee" id="trm57">prescribed fee</term> already paid to the <term refersTo="#term-Municipality" id="trm58">Municipality</term> in respect of the premises applied for:Provided that in any other case the refund of the <term refersTo="#term-prescribed_fee" id="trm59">prescribed fee</term> to a hirer is at the sole discretion of the <term refersTo="#term-Municipality" id="trm60">Municipality</term>.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-7">
+            <num>7.</num>
+            <heading>Use of premises</heading>
+            <subsection id="section-7.1">
+              <num>(1)</num>
+              <content>
+                <p>The hirer must use the hired premises only for the purpose indicated on the application form and subject to the terms and conditions stipulated by the <term refersTo="#term-Municipality" id="trm61">Municipality</term>, unless prior approval of the <term refersTo="#term-authorised_official" id="trm62">authorised official</term> is obtained in writing authorising the use of the hired premises for any other purpose.</p>
+              </content>
+            </subsection>
+            <subsection id="section-7.2">
+              <num>(2)</num>
+              <content>
+                <p>If the hirer wishes to use the premises for the purpose of any gathering, the <term refersTo="#term-Municipality" id="trm63">Municipality</term> may refuse to grant its approval thereof unless it is satisfied that such use will not, by reason of any noise or conduct of the attendees,constitute an undue interference with the amenities of the area within which such premises are situated.</p>
+              </content>
+            </subsection>
+            <subsection id="section-7.3">
+              <num>(3)</num>
+              <content>
+                <p>Notwithstanding anything to the contrary contained in this By-law, the <term refersTo="#term-Municipality" id="trm64">Municipality</term> may refuse to grant its approval of an application to <term refersTo="#term-hire" id="trm65">hire</term> <term refersTo="#term-municipal_premises" id="trm66">municipal premises</term> if the <term refersTo="#term-authorised_official" id="trm67">authorised official</term> believes on reasonable grounds that the use thereof may result in the contravention of the <term refersTo="#term-Municipality" id="trm68">Municipality</term>'s Nuisance By-law, Health By-law or any other relevant legislation.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-8">
+            <num>8.</num>
+            <heading>Payment of the <term refersTo="#term-prescribed_fee" id="trm69">prescribed fee</term></heading>
+            <paragraph id="section-8.paragraph-0">
+              <content>
+                <p>A person who has hired premises is not entitled to the use of such premises,or to gain access thereto for preparation purposes,unless and until the <term refersTo="#term-prescribed_fee" id="trm70">prescribed fee</term> for the <term refersTo="#term-hire" id="trm71">hire</term> thereof has been paid in full: Provided that the <term refersTo="#term-Municipality" id="trm72">Municipality</term> may exempt any person or organisation, on good cause shown, from payment of the whole or a portion of the <term refersTo="#term-prescribed_fee" id="trm73">prescribed fee</term>.</p>
+              </content>
+            </paragraph>
+          </section>
+          <section id="section-9">
+            <num>9.</num>
+            <heading>Period of <term refersTo="#term-hire" id="trm74">hire</term></heading>
+            <paragraph id="section-9.paragraph-0">
+              <content>
+                <p>Notwithstanding any determination made by the <term refersTo="#term-Municipality" id="trm75">Municipality</term> regarding the dates and period for which the premises may be hired, the <term refersTo="#term-Municipality" id="trm76">Municipality</term> may allow the hirer reasonable access to the premises concerned prior to the commencement date of the period of <term refersTo="#term-hire" id="trm77">hire</term> in order to enable the hirer to make the necessary preparations and arrangements for the use thereof: Provided that the <term refersTo="#term-prescribed_fee" id="trm78">prescribed fee</term> for the <term refersTo="#term-hire" id="trm79">hire</term> of the premises concerned must be paid in full before the hirer thereof may be allowed reasonable access thereto in terms of this section.</p>
+              </content>
+            </paragraph>
+          </section>
+          <section id="section-10">
+            <num>10.</num>
+            <heading>Terms and conditions of <term refersTo="#term-hire" id="trm80">hire</term></heading>
+            <paragraph id="section-10.paragraph-0">
+              <content>
+                <p>A person who makes an application for the <term refersTo="#term-hire" id="trm81">hire</term> of premises in terms of section 5must, subsequent to the approval of such application by the <term refersTo="#term-Municipality" id="trm82">Municipality</term>, sign a <term refersTo="#term-hire" id="trm83">hire</term> agreement obtainable from the municipal department responsible for the premises in question setting out the terms and conditions of such <term refersTo="#term-hire" id="trm84">hire</term>.</p>
+              </content>
+            </paragraph>
+          </section>
+          <section id="section-11">
+            <num>11.</num>
+            <heading>Public display of terms and conditions of <term refersTo="#term-hire" id="trm85">hire</term></heading>
+            <subsection id="section-11.1">
+              <num>(1)</num>
+              <content>
+                <p>The <term refersTo="#term-Municipality" id="trm86">Municipality</term> may display or cause to be displayedconspicuously at or near the entrance to every municipal premisesthe terms and conditions of <term refersTo="#term-hire" id="trm87">hire</term> thereof, which are incorporated by reference as part of this By-law and are deemed to be accepted by every hirer as binding irrespective of the hirer's failure or omission to sign a <term refersTo="#term-hire" id="trm88">hire</term> agreement referred to in section 10.</p>
+              </content>
+            </subsection>
+            <subsection id="section-11.2">
+              <num>(2)</num>
+              <content>
+                <p>Every hirer of any <term refersTo="#term-municipal_premises" id="trm89">municipal premises</term> shall be deemed to have acquainted himself or herself fully with and accepted the terms and conditions of <term refersTo="#term-hire" id="trm90">hire</term> which are conspicuously displayed on the hired premises in terms of subsection (1).</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-12">
+            <num>12.</num>
+            <heading>Sub-letting</heading>
+            <paragraph id="section-12.paragraph-0">
+              <content>
+                <p>A hirer must not sub-let the hired premises or any part thereof to any other person, normay the hirer cede, pledge or renounce in favour of another person any of his or her rights or obligations under thisBy-law, nor allow any other person to occupy the premiseswithoutthe prior written approval of the <term refersTo="#term-Municipality" id="trm91">Municipality</term>.</p>
+              </content>
+            </paragraph>
+          </section>
+          <section id="section-13">
+            <num>13.</num>
+            <heading>Condition of premises</heading>
+            <subsection id="section-13.1">
+              <num>(1)</num>
+              <content>
+                <p>The hirer must inspect the hired premises, including any installation, appliance, fitting, accessory or furniture thereon, before commencing the use thereof.</p>
+              </content>
+            </subsection>
+            <subsection id="section-13.2">
+              <num>(2)</num>
+              <content>
+                <p>If the hirer finds that any installation, appliance, fitting, accessory or furniture on the hired premises is damaged, the hirer must record such damage on an inventory list obtainable from the <term refersTo="#term-Municipality" id="trm92">Municipality</term> in respect of the premises concerned and submit such list to the <term refersTo="#term-authorised_official" id="trm93">authorised official</term> at least 24 hours before commencing the use of the hired premises.</p>
+              </content>
+            </subsection>
+            <subsection id="section-13.3">
+              <num>(3)</num>
+              <content>
+                <p>If the hirer fails either to inspect the premises or to report any damage or defects found in terms of subsection (1), it is deemed that upon commencement of occupation by the hirer everything on the premises was fully operational and in a proper state of repair, and the hirer will be held liable to the <term refersTo="#term-Municipality" id="trm94">Municipality</term> for any damage or defect found on the leased premises upon termination of the <term refersTo="#term-hire" id="trm95">hire</term> period.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-14">
+            <num>14.</num>
+            <heading>Public announcement and advertising</heading>
+            <subsection id="section-14.1">
+              <num>(1)</num>
+              <content>
+                <p>A person who has applied in terms of section 5 for the <term refersTo="#term-hire" id="trm96">hire</term> of premises must not publicly announce or advertise any function or event in respect of such application before the <term refersTo="#term-Municipality" id="trm97">Municipality</term> has notified that person in writing that the application has been approved.</p>
+              </content>
+            </subsection>
+            <subsection id="section-14.2">
+              <num>(2)</num>
+              <content>
+                <p>An approval of the hirer's application in terms of subsection (1) does not absolve the hirer concerned from due compliance with the <term refersTo="#term-Municipality" id="trm98">Municipality</term>'s Advertising By-law as may be applicable to any public announcement or advertisement of the event or function concerned.</p>
+              </content>
+            </subsection>
+            <subsection id="section-14.3">
+              <num>(3)</num>
+              <content>
+                <p>Every hirer must, before vacating the hired premises, remove every poster, notice, decoration, flag, emblem, sign and other form of advertisement or direction erected or affixed by or at the instance of such hirerand make good any damage caused by such removal.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-15">
+            <num>15.</num>
+            <heading>Overcrowding</heading>
+            <subsection id="section-15.1">
+              <num>(1)</num>
+              <content>
+                <p>The hirer must comply with the <term refersTo="#term-Municipality" id="trm99">Municipality</term>'s requirements prescribing the maximum number of persons allowed on the premises during the hirer's use thereof so as to ensure that no overcrowding of the premises occurs at any time during the hirer's function or event.</p>
+              </content>
+            </subsection>
+            <subsection id="section-15.2">
+              <num>(2)</num>
+              <content>
+                <p>Without detracting from the generality of the requirements referred to in subsection (1), the hirer may not allow more persons admission to the premises than the number of seats availableor, if seating is not provided, the maximum number of persons prescribed by notice on the premises or as stipulated in the <term refersTo="#term-hire" id="trm100">hire</term> agreement or in any other applicable law.</p>
+              </content>
+            </subsection>
+            <subsection id="section-15.3">
+              <num>(3)</num>
+              <content>
+                <p>The <term refersTo="#term-Municipality" id="trm101">Municipality</term> has the sole discretion to determine the maximum number of persons allowed on any hired <term refersTo="#term-municipal_premises" id="trm102">municipal premises</term> at any given time, taking into account the <term refersTo="#term-Municipality" id="trm103">Municipality</term>'s requirements as set out in the relevant policy documents adopted by the <term refersTo="#term-Municipality" id="trm104">Municipality</term> from time to time, including but not limited to the Events <term refersTo="#term-Policy" id="trm105">Policy</term> and Waste Management Plan, as well as any other applicable law.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-16">
+            <num>16.</num>
+            <heading>Sale of refreshments</heading>
+            <subsection id="section-16.1">
+              <num>(1)</num>
+              <content>
+                <p>Neither the hirer nor any other person is entitled to sell any refreshments or food stuffs on or in the hired premises during any function or event for which the premises have been hired without the prior written approval of the <term refersTo="#term-Municipality" id="trm106">Municipality</term>.</p>
+              </content>
+            </subsection>
+            <subsection id="section-16.2">
+              <num>(2)</num>
+              <content>
+                <p>Any person wishing to sell refreshments or foodstuffs in the hired premises during the function or event for which the premises have been hired must apply in writing to the <term refersTo="#term-Municipality" id="trm107">Municipality</term> for a permit authorising such person to do so, and on such terms and conditions as may be determined by the <term refersTo="#term-Municipality" id="trm108">Municipality</term> for that purpose.</p>
+              </content>
+            </subsection>
+            <subsection id="section-16.3">
+              <num>(3)</num>
+              <content>
+                <p>If an application for the issuing of a permit in terms of subsection (2) is issued by the <term refersTo="#term-Municipality" id="trm109">Municipality</term>, the <term refersTo="#term-Municipality" id="trm110">Municipality</term> may allocate sufficient accommodation to the approved applicant wherein the goods which are necessarily required by such applicant for trading may be stored.</p>
+              </content>
+            </subsection>
+            <subsection id="section-16.4">
+              <num>(4)</num>
+              <content>
+                <p>An application in terms of subsection (2) is not necessary if the supply and sale of refreshments or foodstuffs is an integral part of the function or event or part of the fundraising activities for which the premises are hired.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-17">
+            <num>17.</num>
+            <heading>Municipal services</heading>
+            <subsection id="section-17.1">
+              <num>(1)</num>
+              <content>
+                <p>The hirer is liable for any municipal services used or consumed during the function or event for which such hirer has hired the premises.</p>
+              </content>
+            </subsection>
+            <subsection id="section-17.2">
+              <num>(2)</num>
+              <content>
+                <blockList id="section-17.2.list1">
+                  <listIntroduction>The cost of the municipal services referred to in subsection (1) may be recovered by the <term refersTo="#term-Municipality" id="trm111">Municipality</term> from the hirer through the use of any one or more of the following methods:</listIntroduction>
+                  <item id="section-17.2.list1.a">
+                    <num>(a)</num>
+                    <p>by including an estimated amount for services as part of the <term refersTo="#term-hire" id="trm112">hire</term> fee;</p>
+                  </item>
+                  <item id="section-17.2.list1.b">
+                    <num>(b)</num>
+                    <p>by taking a reading of the meter for the service concerned on the hired premises immediately before and immediately after the <term refersTo="#term-hire" id="trm113">hire</term> period; or</p>
+                  </item>
+                  <item id="section-17.2.list1.c">
+                    <num>(c)</num>
+                    <p>by requiring the hirer to install its own meter at its own cost to measure the supply ofthe municipal service concerned to the hired premises prior to the commencement of the event or function in question.</p>
+                  </item>
+                </blockList>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-18">
+            <num>18.</num>
+            <heading>Operation and maintenance</heading>
+            <subsection id="section-18.1">
+              <num>(1)</num>
+              <content>
+                <p>The <term refersTo="#term-Municipality" id="trm114">Municipality</term> may require the hirer to take such steps as the <term refersTo="#term-Municipality" id="trm115">Municipality</term> may deem necessary for the proper maintenance and operation of the hired premises for the duration of the period of <term refersTo="#term-hire" id="trm116">hire</term>.</p>
+              </content>
+            </subsection>
+            <subsection id="section-18.2">
+              <num>(2)</num>
+              <content>
+                <p>The <term refersTo="#term-authorised_official" id="trm117">authorised official</term> is entitled to attend the hirer's function or event for the purpose of ensuring that the <term refersTo="#term-Municipality" id="trm118">Municipality</term>'s requirements for the proper maintenance and operation of the hired premises are duly complied with.</p>
+              </content>
+            </subsection>
+            <subsection id="section-18.3">
+              <num>(3)</num>
+              <content>
+                <p>A hirer is not entitled to the official services of the <term refersTo="#term-authorised_official" id="trm119">authorised official</term> who attends the hirer's function or event in terms of subsection (2).</p>
+              </content>
+            </subsection>
+            <subsection id="section-18.4">
+              <num>(4)</num>
+              <content>
+                <p>A hirer is not entitled to receive gratuitous cleaning or other service from the <term refersTo="#term-Municipality" id="trm120">Municipality</term> in connection with the hirer's activities during the preparation for or the duration of the function or event for which the premises are hired.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-19">
+            <num>19.</num>
+            <heading>Cancellation due to damage or destruction of premises</heading>
+            <subsection id="section-19.1">
+              <num>(1)</num>
+              <content>
+                <blockList id="section-19.1.list1">
+                  <listIntroduction>The <term refersTo="#term-Municipality" id="trm121">Municipality</term> may,at any stage, cancel the <term refersTo="#term-hire" id="trm122">hire</term> of any premises if ─</listIntroduction>
+                  <item id="section-19.1.list1.a">
+                    <num>(a)</num>
+                    <p>the premises concerned are destroyed or damaged to such an extent that they are substantially unusable;</p>
+                  </item>
+                  <item id="section-19.1.list1.b">
+                    <num>(b)</num>
+                    <p>the supply of any necessary municipal service to the hired premises is disturbed or terminated due to the damage in infrastructure to such an extent that, in the opinion of the <term refersTo="#term-Municipality" id="trm123">Municipality</term>, the health or safety of the occupants thereof is likely to be adversely affected; or</p>
+                  </item>
+                  <item id="section-19.1.list1.c">
+                    <num>(c)</num>
+                    <p>subject to subsection 6(2), the <term refersTo="#term-Municipality" id="trm124">Municipality</term>, in its discretion, decides not to proceed with the <term refersTo="#term-hire" id="trm125">hire</term> of the premises in order to carry out or cause to be carried out the necessary repairs thereto.</p>
+                  </item>
+                </blockList>
+              </content>
+            </subsection>
+            <subsection id="section-19.2">
+              <num>(2)</num>
+              <content>
+                <p>A decision taken by the <term refersTo="#term-Municipality" id="trm126">Municipality</term> in terms of subsection (1) must be communicated to the hirer in writing within a reasonable period after the occurrence of any one or more of the events referred to in subsection (1) giving rise to the cancellation.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-20">
+            <num>20.</num>
+            <heading>Cancellation due to breach</heading>
+            <subsection id="section-20.1">
+              <num>(1)</num>
+              <content>
+                <blockList id="section-20.1.list1">
+                  <listIntroduction>The <term refersTo="#term-Municipality" id="trm127">Municipality</term> may at any time cancel the <term refersTo="#term-hire" id="trm128">hire</term> of premises if ─</listIntroduction>
+                  <item id="section-20.1.list1.a">
+                    <num>(a)</num>
+                    <p>the hirer contravenes or fails to comply with any provision of this By-law; or</p>
+                  </item>
+                  <item id="section-20.1.list1.b">
+                    <num>(b)</num>
+                    <p>the hirer breaches any one or more of the terms and conditions which are stipulated by the <term refersTo="#term-Municipality" id="trm129">Municipality</term> for the hiring of the relevant premises and fails to remedy such breach within the period stipulated in a written notice delivered by the <term refersTo="#term-Municipality" id="trm130">Municipality</term> to the hirer to do so.</p>
+                  </item>
+                </blockList>
+              </content>
+            </subsection>
+            <subsection id="section-20.2">
+              <num>(2)</num>
+              <content>
+                <p>A cancellation in terms of subsection (1) is without prejudice to any right or claim which the <term refersTo="#term-Municipality" id="trm131">Municipality</term> may have against the hirer under any provision of this By-law or any other applicable law.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-21">
+            <num>21.</num>
+            <heading>Responsibility of the hirer upon termination of the <term refersTo="#term-hire" id="trm132">hire</term> period</heading>
+            <subsection id="section-21.1">
+              <num>(1)</num>
+              <content>
+                <blockList id="section-21.1.list1">
+                  <listIntroduction>The hirer is directly responsible to the <term refersTo="#term-Municipality" id="trm133">Municipality</term> for the proper use and maintenance of the hired premises and, upon termination of the <term refersTo="#term-hire" id="trm134">hire</term> period for any reason, must ─</listIntroduction>
+                  <item id="section-21.1.list1.a">
+                    <num>(a)</num>
+                    <p>return the premises to the <term refersTo="#term-Municipality" id="trm135">Municipality</term> in good order and condition,reasonable wear and tear accepted;</p>
+                  </item>
+                  <item id="section-21.1.list1.b">
+                    <num>(b)</num>
+                    <p>make good and repair or replace, at his or her own cost, any damage or breakage or missing article or, if required to do so by the <term refersTo="#term-Municipality" id="trm136">Municipality</term>, reimburse the <term refersTo="#term-Municipality" id="trm137">Municipality</term> for the reasonable cost of repairing, making good or replacing any broken, damaged or missing article;</p>
+                  </item>
+                  <item id="section-21.1.list1.c">
+                    <num>(c)</num>
+                    <p>vacate the hired premises within the period specified in the application form, the hireagreement or the notice of termination; and</p>
+                  </item>
+                  <item id="section-21.1.list1.d">
+                    <num>(d)</num>
+                    <p>comply with any reasonable and lawful instruction of the <term refersTo="#term-Municipality" id="trm138">Municipality</term> or the <term refersTo="#term-authorised_official" id="trm139">authorised official</term> in respect of the cleaning of the premises.</p>
+                  </item>
+                </blockList>
+              </content>
+            </subsection>
+            <subsection id="section-21.2">
+              <num>(2)</num>
+              <content>
+                <p>A hirer who fails to comply with the provisions of subsection (1) shall be liable to pay a further <term refersTo="#term-prescribed_fee" id="trm140">prescribed fee</term> for the additional period during which he or she remains in occupation of the premises after the termination of the period of <term refersTo="#term-hire" id="trm141">hire</term>: Provided that the provisions of this paragraph must not be interpreted to prevent the <term refersTo="#term-Municipality" id="trm142">Municipality</term> from taking lawful steps to procure the eviction of any such hirer from the premises.</p>
+              </content>
+            </subsection>
+            <subsection id="section-21.3">
+              <num>(3)</num>
+              <content>
+                <p>If a hirer vacates the hired premises without cleaning them, either at all or to the satisfaction of the <term refersTo="#term-authorised_official" id="trm143">authorised official</term>, the <term refersTo="#term-authorised_official" id="trm144">authorised official</term> may undertake,or cause to be undertaken, the cleaning of the premises at the cost of the hirer.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-22">
+            <num>22.</num>
+            <heading>Inspection of premises upon termination of the <term refersTo="#term-hire" id="trm145">hire</term> period</heading>
+            <subsection id="section-22.1">
+              <num>(1)</num>
+              <content>
+                <p>Upon termination of the <term refersTo="#term-hire" id="trm146">hire</term> period for any reason, an <term refersTo="#term-authorised_official" id="trm147">authorised official</term> and the hirer or their respective nominees must inspect the premises for the purpose of assessing any damage thereto or loss of equipment thereon.</p>
+              </content>
+            </subsection>
+            <subsection id="section-22.2">
+              <num>(2)</num>
+              <content>
+                <p>Any damage or loss discovered during an inspection referred to in subsection (1) must be recorded in an inventory list referred to in subsection 13(2), a final copy of which must be kept by either party.</p>
+              </content>
+            </subsection>
+            <subsection id="section-22.3">
+              <num>(3)</num>
+              <content>
+                <p>The hirer is liable for any damage or loss discovered during an inspection of the leased premises referred to in subsection (1), the reasonable cost of which must be paid to the <term refersTo="#term-Municipality" id="trm148">Municipality</term> upon demand, failing which the <term refersTo="#term-Municipality" id="trm149">Municipality</term> may proceed to institute civil proceedings for the recovery thereof.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-23">
+            <num>23.</num>
+            <heading>Insurance</heading>
+            <subsection id="section-23.1">
+              <num>(1)</num>
+              <content>
+                <p>A hirer must not at any time bring or allow to be brought or kept on the premises, nor do or undertake nor permit to be done or undertaken in or on the premises, anything which may render void or voidable any insurance policy taken by the <term refersTo="#term-Municipality" id="trm150">Municipality</term> in respect of the premises, or which may result in the increase of premiums payable for any such insurance.</p>
+              </content>
+            </subsection>
+            <subsection id="section-23.2">
+              <num>(2)</num>
+              <content>
+                <p>If the premiums for insurance contemplated in subsection (1) are increased as a result of any act or omission contemplated in that subsection, the <term refersTo="#term-Municipality" id="trm151">Municipality</term> may, in its discretion, allow the activity concerned to continue and recover from the hirer the amount due in respect of any additional insurance premiums and the hirer must pay such amount immediately on notification from the <term refersTo="#term-Municipality" id="trm152">Municipality</term> or the insurance company to the effect that such additional premiums have been charged.</p>
+              </content>
+            </subsection>
+            <subsection id="section-23.3">
+              <num>(3)</num>
+              <content>
+                <p>The <term refersTo="#term-Municipality" id="trm153">Municipality</term> may at any time in its discretion require the hirer to take up insurance of the premises hired with an insurance company approved by the <term refersTo="#term-Municipality" id="trm154">Municipality</term> against loss or damage by fire or any other cause during or as a result of any function or event for which the premises are hired.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-24">
+            <num>24.</num>
+            <heading><term refersTo="#term-Municipality" id="trm155">Municipality</term>'s right of access</heading>
+            <subsection id="section-24.1">
+              <num>(1)</num>
+              <content>
+                <blockList id="section-24.1.list1">
+                  <listIntroduction>Subject to the <term refersTo="#term-Constitution" id="trm156">Constitution</term> and any other applicable law, an <term refersTo="#term-authorised_official" id="trm157">authorised official</term> or any other person authorised by the <term refersTo="#term-Municipality" id="trm158">Municipality</term> in writing to do so may enter the hired premises at any reasonable timefor the purpose of ─</listIntroduction>
+                  <item id="section-24.1.list1.a">
+                    <num>(a)</num>
+                    <p>carrying out any repairs, alternations, additions, modifications or improvements thereon;</p>
+                  </item>
+                  <item id="section-24.1.list1.b">
+                    <num>(b)</num>
+                    <p>ensuring that the conditions of <term refersTo="#term-hire" id="trm159">hire</term> of the premises as set out in the <term refersTo="#term-hire" id="trm160">hire</term> agreement and this By-laware being complied with; or</p>
+                  </item>
+                  <item id="section-24.1.list1.c">
+                    <num>(c)</num>
+                    <p>ensuring that the health and safety regulations or any other applicable laws are duly complied with.</p>
+                  </item>
+                </blockList>
+              </content>
+            </subsection>
+            <subsection id="section-24.2">
+              <num>(2)</num>
+              <content>
+                <p>A hirer must comply with any lawful instruction issued by the <term refersTo="#term-authorised_official" id="trm161">authorised official</term> or other person referred to in subsection (1) to ensure due compliance with the conditions of <term refersTo="#term-hire" id="trm162">hire</term> of the hired premises.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-25">
+            <num>25.</num>
+            <heading>Fire and security regulations</heading>
+            <paragraph id="section-25.paragraph-0">
+              <content>
+                <p>A hirer must acquaint himself or herself with the <term refersTo="#term-Municipality" id="trm163">Municipality</term>’s Fire By-laws and any other applicable legislation which are from time to timein force in respect of the premises concerned, and must act in strict compliance therewith for the duration of the <term refersTo="#term-hire" id="trm164">hire</term> period.</p>
+              </content>
+            </paragraph>
+          </section>
+          <section id="section-26">
+            <num>26.</num>
+            <heading>Community centres</heading>
+            <subsection id="section-26.1">
+              <num>(1)</num>
+              <content>
+                <p>The hirer of a <term refersTo="#term-community_centre" id="trm165">community centre</term> is responsible for the conduct of all members of the relevant group for every time such members and their invitees are in occupation of the hired premises.</p>
+              </content>
+            </subsection>
+            <subsection id="section-26.2">
+              <num>(2)</num>
+              <content>
+                <p>Unless permission to do otherwise has been granted by the <term refersTo="#term-authorised_official" id="trm166">authorised official</term> in charge of the centre, a group activity may only take place under the supervision of the <term refersTo="#term-authorised_official" id="trm167">authorised official</term>.</p>
+              </content>
+            </subsection>
+            <subsection id="section-26.3">
+              <num>(3)</num>
+              <content>
+                <p>A group activity may only take place at times allocated for such activity by an <term refersTo="#term-authorised_official" id="trm168">authorised official</term> in charge of the centre.</p>
+              </content>
+            </subsection>
+            <subsection id="section-26.4">
+              <num>(4)</num>
+              <content>
+                <p>The <term refersTo="#term-Municipality" id="trm169">Municipality</term> reserves the right to stipulate the use to which a centre or any part of the premises thereof may be put, including the times when and the conditions under which any portion of a centre may be set aside for exclusive use by members of any particular group.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-27">
+            <num>27.</num>
+            <heading>Prohibitions</heading>
+            <subsection id="section-27.1">
+              <num>(1)</num>
+              <content>
+                <blockList id="section-27.1.list1">
+                  <listIntroduction>A person attending any function or event in or on the hired premises must not ─</listIntroduction>
+                  <item id="section-27.1.list1.a">
+                    <num>(a)</num>
+                    <p>conduct himself or herself in an unseemly or obnoxious manner;</p>
+                  </item>
+                  <item id="section-27.1.list1.b">
+                    <num>(b)</num>
+                    <p>cause a nuisance or annoyance to any other person in or on the hired premises or the neighbouring properties;</p>
+                  </item>
+                  <item id="section-27.1.list1.c">
+                    <num>(c)</num>
+                    <p>interfere with the amenities of the area within which the hired premises are situated;</p>
+                  </item>
+                  <item id="section-27.1.list1.d">
+                    <num>(d)</num>
+                    <p>dress inappropriately or indecently taking into account the type of function or event for which the premises have been hired; or</p>
+                  </item>
+                  <item id="section-27.1.list1.e">
+                    <num>(e)</num>
+                    <p>engage in any other conduct in contravention of this By-law, the <term refersTo="#term-Municipality" id="trm170">Municipality</term>’s Nuisance and Health By-laws or any other applicable law.</p>
+                  </item>
+                </blockList>
+              </content>
+            </subsection>
+            <subsection id="section-27.2">
+              <num>(2)</num>
+              <content>
+                <p>An <term refersTo="#term-authorised_official" id="trm171">authorised official</term> may, during any function or event of a hirer, instruct the hirer to remove from the premises any person who is in a state of intoxication or who is acting in contravention of subsection (1).</p>
+              </content>
+            </subsection>
+            <subsection id="section-27.3">
+              <num>(3)</num>
+              <content>
+                <p>An <term refersTo="#term-authorised_official" id="trm172">authorised official</term> may, during any function or event for which the premises have been hired, direct the hirer to prevent the entry on or into the hired premises by any person who is in a state of intoxication or who is acting in contravention of subsection (1).</p>
+              </content>
+            </subsection>
+          </section>
+        </part>
+        <part id="chapter-2.part-2">
+          <num>2</num>
+          <heading>Camping and <term refersTo="#term-caravan" id="trm173">caravan</term> parks</heading>
+          <section id="section-28">
+            <num>28.</num>
+            <heading>Terms and conditions</heading>
+            <subsection id="section-28.1">
+              <num>(1)</num>
+              <content>
+                <p>The use and enjoyment of camping and <term refersTo="#term-caravan" id="trm174">caravan</term> parks by any person are subject to due compliance with the applicable provisions of this By-law, as well as such terms and conditions as may be stipulated by the <term refersTo="#term-Municipality" id="trm175">Municipality</term> for the issuing of a camping or <term refersTo="#term-caravan" id="trm176">caravan</term> permit in terms of section 29.</p>
+              </content>
+            </subsection>
+            <subsection id="section-28.2">
+              <num>(2)</num>
+              <content>
+                <p>The provisions of Part 1 are mutatis mutandis applicable to this Part insofar as they are relevant to the use of camping and <term refersTo="#term-caravan" id="trm177">caravan</term> parks.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-29">
+            <num>29.</num>
+            <heading>Application for a camping or <term refersTo="#term-caravan" id="trm178">caravan</term> permit</heading>
+            <subsection id="section-29.1">
+              <num>(1)</num>
+              <content>
+                <p>Any person who wishes to make use of a <term refersTo="#term-camping_site" id="trm179">camping site</term> or <term refersTo="#term-caravan_site" id="trm180">caravan site</term> must apply in writing to the <term refersTo="#term-camping_officer" id="trm181">camping officer</term> for the issuing of a permit authorising such person to do so.</p>
+              </content>
+            </subsection>
+            <subsection id="section-29.2">
+              <num>(2)</num>
+              <content>
+                <p>A camping or <term refersTo="#term-caravan" id="trm182">caravan</term> permit issued by the <term refersTo="#term-camping_officer" id="trm183">camping officer</term> in terms of subsection (1) is valid for the period specified therein.</p>
+              </content>
+            </subsection>
+            <subsection id="section-29.3">
+              <num>(3)</num>
+              <content>
+                <p>A permit holder or any person accompanying such permit holder must at all times comply with the conditions specified in the relevant permit.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-30">
+            <num>30.</num>
+            <heading>Allocation and use of sites</heading>
+            <subsection id="section-30.1">
+              <num>(1)</num>
+              <content>
+                <p>A camping or <term refersTo="#term-caravan_site" id="trm184">caravan site</term> is allocated at the sole discretion of the <term refersTo="#term-camping_officer" id="trm185">camping officer</term> in charge, and may only be used for the purpose specified in the permit issued in respect thereof.</p>
+              </content>
+            </subsection>
+            <subsection id="section-30.2">
+              <num>(2)</num>
+              <content>
+                <p>A camping or <term refersTo="#term-caravan_site" id="trm186">caravan site</term> may not be used for the construction of any building or any other structure of a permanent nature other than a tent for the bona fide use of the permit holder and his or her party.</p>
+              </content>
+            </subsection>
+            <subsection id="section-30.3">
+              <num>(3)</num>
+              <content>
+                <p>A <term refersTo="#term-caravan" id="trm187">caravan</term> parked on a <term refersTo="#term-caravan_site" id="trm188">caravan site</term> may only be used to house the permit holder and his or her party.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-31">
+            <num>31.</num>
+            <heading>Extension of permits</heading>
+            <paragraph id="section-31.paragraph-0">
+              <content>
+                <p>The period of validity of a permit may be extended at the discretion of a <term refersTo="#term-camping_officer" id="trm189">camping officer</term> if the site concerned has not already been allocated to another person for the period in respect of which the extension is required.</p>
+              </content>
+            </paragraph>
+          </section>
+          <section id="section-32">
+            <num>32.</num>
+            <heading>Proper use of roads and pathways</heading>
+            <paragraph id="section-32.paragraph-0">
+              <content>
+                <p>A permit holder and any member of his or her party must travel to and from a <term refersTo="#term-camping_site" id="trm190">camping site</term> using the established roads and pathways within the camping or <term refersTo="#term-caravan" id="trm191">caravan</term> park.</p>
+              </content>
+            </paragraph>
+          </section>
+          <section id="section-33">
+            <num>33.</num>
+            <heading>Reservation of sites</heading>
+            <subsection id="section-33.1">
+              <num>(1)</num>
+              <content>
+                <p>A camping or <term refersTo="#term-caravan_site" id="trm192">caravan site</term> may be reserved in advance, and the person making such reservation must make payment of the <term refersTo="#term-prescribed_fee" id="trm193">prescribed fee</term> to the <term refersTo="#term-camping_officer" id="trm194">camping officer</term> in charge on or before the first day of the period of reservation, failing which the reservation made by such person may lapse.</p>
+              </content>
+            </subsection>
+            <subsection id="section-33.2">
+              <num>(2)</num>
+              <content>
+                <p>A person who fails to take occupation of a reserved camping or <term refersTo="#term-caravan_site" id="trm195">caravan site</term> is not entitled to a refund of the <term refersTo="#term-prescribed_fee" id="trm196">prescribed fee</term> paid in advance in respect thereof, irrespective of the reason given by such person for failing to take occupation thereof.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-34">
+            <num>34.</num>
+            <heading>Right of refusal to issue or renew permits</heading>
+            <paragraph id="section-34.paragraph-0">
+              <content>
+                <p>A <term refersTo="#term-camping_officer" id="trm197">camping officer</term> may refuse to issue or renew a permit to any person whom the <term refersTo="#term-camping_officer" id="trm198">camping officer</term> reasonably suspects of having contravened any provision of this By-law.</p>
+              </content>
+            </paragraph>
+          </section>
+          <section id="section-35">
+            <num>35.</num>
+            <heading>Cancellation of permits</heading>
+            <paragraph id="section-35.paragraph-0">
+              <content>
+                <p>Subject to due process in terms of the <term refersTo="#term-Constitution" id="trm199">Constitution</term> and any other applicable law, the <term refersTo="#term-camping_officer" id="trm200">camping officer</term> may cancel the permit of a permit holder if such permit holder or any member of his or her party commits a breach of any provision of this By-law.</p>
+              </content>
+            </paragraph>
+          </section>
+          <section id="section-36">
+            <num>36.</num>
+            <heading>Prohibitions</heading>
+            <paragraph id="section-36.paragraph-0">
+              <content>
+                <blockList id="section-36.paragraph-0.list1">
+                  <listIntroduction>A person may not ─</listIntroduction>
+                  <item id="section-36.paragraph-0.list1.a">
+                    <num>(a)</num>
+                    <p>camp or light a fire for the purpose of camping upon any open space or ground owned by or under the control of the <term refersTo="#term-Municipality" id="trm201">Municipality</term> except on a <term refersTo="#term-camping_site" id="trm202">camping site</term> allocated by the <term refersTo="#term-camping_officer" id="trm203">camping officer</term> in terms of this By-law;</p>
+                  </item>
+                  <item id="section-36.paragraph-0.list1.b">
+                    <num>(b)</num>
+                    <p>occupy a <term refersTo="#term-camping_site" id="trm204">camping site</term> for a period longer than 30 days in any consecutive period of 12 months, unless prior approval of the camping master is obtained in writing for a further period not exceeding 10 days;</p>
+                  </item>
+                  <item id="section-36.paragraph-0.list1.c">
+                    <num>(c)</num>
+                    <p>enter or loiter in or about any camping or <term refersTo="#term-caravan" id="trm205">caravan</term> park unless such person is a permit holder or a member of a permit holder's party or a bona fide guest of a permit holder;</p>
+                  </item>
+                  <item id="section-36.paragraph-0.list1.d">
+                    <num>(d)</num>
+                    <p>carry on any trade or business within the precinct of a camping or <term refersTo="#term-caravan" id="trm206">caravan</term> park without the prior written approval of the <term refersTo="#term-Municipality" id="trm207">Municipality</term>;</p>
+                  </item>
+                  <item id="section-36.paragraph-0.list1.e">
+                    <num>(e)</num>
+                    <p>wilfully or negligently damage any vegetation, item, equipment, structure or property belonging to the <term refersTo="#term-Municipality" id="trm208">Municipality</term> on a camping or <term refersTo="#term-caravan" id="trm209">caravan</term> park;</p>
+                  </item>
+                  <item id="section-36.paragraph-0.list1.f">
+                    <num>(f)</num>
+                    <p>bring any firearm within the camping or <term refersTo="#term-caravan" id="trm210">caravan</term> park, except for a licensed firearm brought for the personal protection of a permit holder and his or her party, and which must be declared and registered with the <term refersTo="#term-camping_officer" id="trm211">camping officer</term> immediately upon arrival at the camping or <term refersTo="#term-caravan" id="trm212">caravan</term> park; or</p>
+                  </item>
+                  <item id="section-36.paragraph-0.list1.g">
+                    <num>(g)</num>
+                    <p>shoot, trap or in any way injure or interfere with any animal, bird or fish in the camping or <term refersTo="#term-caravan" id="trm213">caravan</term> park, except for fishing in a river or dam where a notice permitting fishing is displayed, and only if the person concerned holds a valid fishing licence issued in terms of any applicable law.</p>
+                  </item>
+                </blockList>
+              </content>
+            </paragraph>
+          </section>
+          <section id="section-37">
+            <num>37.</num>
+            <heading>Site to be left in a clean and tidy condition</heading>
+            <paragraph id="section-37.paragraph-0">
+              <content>
+                <blockList id="section-37.paragraph-0.list1">
+                  <listIntroduction>A permit holder vacating a camping or <term refersTo="#term-caravan_site" id="trm214">caravan site</term> must ─</listIntroduction>
+                  <item id="section-37.paragraph-0.list1.a">
+                    <num>(a)</num>
+                    <p>leave the site in a clean and tidy condition and ensure that all rubbish remaining thereon is deposited in a rubbish bin provided for that purpose; and</p>
+                  </item>
+                  <item id="section-37.paragraph-0.list1.b">
+                    <num>(b)</num>
+                    <p>fill in any hole made in the ground by him or her or by any member of his or her party.</p>
+                  </item>
+                </blockList>
+              </content>
+            </paragraph>
+          </section>
+        </part>
+        <part id="chapter-2.part-3">
+          <num>3</num>
+          <heading>Sport facilities and pools</heading>
+          <section id="section-38">
+            <num>38.</num>
+            <heading>Terms and conditions</heading>
+            <subsection id="section-38.1">
+              <num>(1)</num>
+              <content>
+                <p>The use and enjoyment of the sport facilities by members of the community or any other person are subject to due compliance with the applicable provisions of this By-law, the terms and conditions contained in the <term refersTo="#term-hire" id="trm215">hire</term> agreement, if any, as well as such terms and conditions as may be determined by the <term refersTo="#term-Municipality" id="trm216">Municipality</term> in respect thereof.</p>
+              </content>
+            </subsection>
+            <subsection id="section-38.2">
+              <num>(2)</num>
+              <content>
+                <p>The provisions of Part 1 are mutatis mutandis applicable to this Part insofar as they are relevant to the hiring and use of sport facilities by members of the community or any other person.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-39">
+            <num>39.</num>
+            <heading>Reservation of sport facilities</heading>
+            <subsection id="section-39.1">
+              <num>(1)</num>
+              <content>
+                <p>Due to a limited number of sport facilities in any community, the hiring of a sport <term refersTo="#term-facility" id="trm217">facility</term> must be arranged by prior reservation with an <term refersTo="#term-authorised_official" id="trm218">authorised official</term> on a first-come-first-served basis and must be recorded in a register kept by the <term refersTo="#term-authorised_official" id="trm219">authorised official</term> for that purpose.</p>
+              </content>
+            </subsection>
+            <subsection id="section-39.2">
+              <num>(2)</num>
+              <content>
+                <p>Notwithstanding the provisions of subsection (1), the <term refersTo="#term-Municipality" id="trm220">Municipality</term> may reserve for any period any sport <term refersTo="#term-facility" id="trm221">facility</term> for the holding of any specific sporting event or competition and may during any such period reserve to itself the right of admission to such <term refersTo="#term-facility" id="trm222">facility</term> and determine a fee for admission thereto.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-40">
+            <num>40.</num>
+            <heading>Animals</heading>
+            <paragraph id="section-40.paragraph-0">
+              <content>
+                <blockList id="section-40.paragraph-0.list1">
+                  <listIntroduction>No person may bring any animal other than a guide dog into a sport <term refersTo="#term-facility" id="trm223">facility</term> or <term refersTo="#term-pool" id="trm224">pool</term> without the prior written approval of the <term refersTo="#term-authorised_official" id="trm225">authorised official</term>, unless ─</listIntroduction>
+                  <item id="section-40.paragraph-0.list1.a">
+                    <num>(a)</num>
+                    <p>the bringing of an animal is authorised by a notice displayed in a conspicuous place at the entrance to a sport <term refersTo="#term-facility" id="trm226">facility</term> or <term refersTo="#term-pool" id="trm227">pool</term>; or</p>
+                  </item>
+                  <item id="section-40.paragraph-0.list1.b">
+                    <num>(b)</num>
+                    <p>the sport <term refersTo="#term-facility" id="trm228">facility</term> or <term refersTo="#term-pool" id="trm229">pool</term> is designed or has been hired out for an activity that necessarily involves the presence of animals.</p>
+                  </item>
+                </blockList>
+              </content>
+            </paragraph>
+          </section>
+          <section id="section-41">
+            <num>41.</num>
+            <heading>Firearms and traditional weapons</heading>
+            <paragraph id="section-41.paragraph-0">
+              <content>
+                <p>Firearms or traditional weapons may not be brought into a sport <term refersTo="#term-facility" id="trm230">facility</term> unless, subject to the availability of safes or other appropriate storage facilities at the entrance to the <term refersTo="#term-facility" id="trm231">facility</term>, they are surrendered to the <term refersTo="#term-authorised_official" id="trm232">authorised official</term> for safe keeping and must be collected from that official upon departure from the sport <term refersTo="#term-facility" id="trm233">facility</term>.</p>
+              </content>
+            </paragraph>
+          </section>
+          <section id="section-42">
+            <num>42.</num>
+            <heading>Pools operating times</heading>
+            <subsection id="section-42.1">
+              <num>(1)</num>
+              <content>
+                <p>The days and times during which a <term refersTo="#term-pool" id="trm234">pool</term> will be open to the public must be displayed with the appropriate signage visible to all patrons.</p>
+              </content>
+            </subsection>
+            <subsection id="section-42.2">
+              <num>(2)</num>
+              <content>
+                <p>The <term refersTo="#term-Municipality" id="trm235">Municipality</term> reserves the right to alter the operating times of the <term refersTo="#term-pool" id="trm236">pool</term>.</p>
+              </content>
+            </subsection>
+            <subsection id="section-42.3">
+              <num>(3)</num>
+              <content>
+                <p>Swimming must cease 30 minutes before the closing time and all members of the public must vacate the premises on or before the closing time.</p>
+              </content>
+            </subsection>
+            <subsection id="section-42.4">
+              <num>(4)</num>
+              <content>
+                <blockList id="section-42.4.list1">
+                  <listIntroduction>Any member of the public –</listIntroduction>
+                  <item id="section-42.4.list1.a">
+                    <num>(a)</num>
+                    <p>found to be swimming outside the operating times without the consent of the <term refersTo="#term-authorised_official" id="trm237">authorised official</term>; or</p>
+                  </item>
+                  <item id="section-42.4.list1.b">
+                    <num>(b)</num>
+                    <p>who refuses to vacate the <term refersTo="#term-pool" id="trm238">pool</term> premises at closing time,</p>
+                  </item>
+                </blockList>
+                <p>will be guilty of an offence.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-43">
+            <num>43.</num>
+            <heading>Admission into the <term refersTo="#term-pool" id="trm239">pool</term> premises</heading>
+            <subsection id="section-43.1">
+              <num>(1)</num>
+              <content>
+                <blockList id="section-43.1.list1">
+                  <listIntroduction>No person is permitted to enter the <term refersTo="#term-pool" id="trm240">pool</term> premises−</listIntroduction>
+                  <item id="section-43.1.list1.a">
+                    <num>(a)</num>
+                    <p>without paying the <term refersTo="#term-prescribed_fee" id="trm241">prescribed fee</term>;</p>
+                  </item>
+                  <item id="section-43.1.list1.b">
+                    <num>(b)</num>
+                    <p>except through the entrance provided;</p>
+                  </item>
+                  <item id="section-43.1.list1.c">
+                    <num>(c)</num>
+                    <p>in advance of a person who by reason of prior payment is entitled to prior admission; and</p>
+                  </item>
+                  <item id="section-43.1.list1.d">
+                    <num>(d)</num>
+                    <p>when it is closed.</p>
+                  </item>
+                </blockList>
+              </content>
+            </subsection>
+            <subsection id="section-43.2">
+              <num>(2)</num>
+              <content>
+                <p>Any person entering the <term refersTo="#term-pool" id="trm242">pool</term> premises must provide proof of payment to the <term refersTo="#term-authorised_official" id="trm243">authorised official</term> before entering such premises.</p>
+              </content>
+            </subsection>
+            <subsection id="section-43.3">
+              <num>(3)</num>
+              <content>
+                <blockList id="section-43.3.list1">
+                  <listIntroduction>The <term refersTo="#term-Municipality" id="trm244">Municipality</term> may refuse entry into the <term refersTo="#term-pool" id="trm245">pool</term> premises–</listIntroduction>
+                  <item id="section-43.3.list1.a">
+                    <num>(a)</num>
+                    <p>where it is in the interest of public health and safety;</p>
+                  </item>
+                  <item id="section-43.3.list1.b">
+                    <num>(b)</num>
+                    <p>where the maximum amount of persons permitted in the premises has been reached;</p>
+                  </item>
+                  <item id="section-43.3.list1.c">
+                    <num>(c)</num>
+                    <p>where necessary or routine maintenance is being effected; or</p>
+                  </item>
+                  <item id="section-43.3.list1.d">
+                    <num>(d)</num>
+                    <p>for any other reason the <term refersTo="#term-Municipality" id="trm246">Municipality</term> sees fit to do so.</p>
+                  </item>
+                </blockList>
+              </content>
+            </subsection>
+            <subsection id="section-43.4">
+              <num>(4)</num>
+              <content>
+                <p>All children under the age of 14 must be accompanied by an adult.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-44">
+            <num>44.</num>
+            <heading>Exclusive use</heading>
+            <subsection id="section-44.1">
+              <num>(1)</num>
+              <content>
+                <p>Upon application and the payment of a <term refersTo="#term-prescribed_fee" id="trm247">prescribed fee</term> an <term refersTo="#term-authorised_official" id="trm248">authorised official</term> may grant the exclusive use of the whole or part of the <term refersTo="#term-pool" id="trm249">pool</term> to a swimming club, person or body during determined periods: Provided that such use is for the purpose of organised swimming or aquatic sports.</p>
+              </content>
+            </subsection>
+            <subsection id="section-44.2">
+              <num>(2)</num>
+              <content>
+                <p>Where an application has been granted in terms of subsection (1), part of the <term refersTo="#term-pool" id="trm250">pool</term> or the entire <term refersTo="#term-pool" id="trm251">pool</term> may be closed to the public for the duration of such use.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-45">
+            <num>45.</num>
+            <heading>Change room <term refersTo="#term-facility" id="trm252">facility</term></heading>
+            <subsection id="section-45.1">
+              <num>(1)</num>
+              <content>
+                <p>A separate change room for each sex must be provided.</p>
+              </content>
+            </subsection>
+            <subsection id="section-45.2">
+              <num>(2)</num>
+              <content>
+                <p>A male child over the age of seven is not permitted to enter into the female change room and a female child over the age of seven may not enter into a male change room.</p>
+              </content>
+            </subsection>
+            <subsection id="section-45.3">
+              <num>(3)</num>
+              <content>
+                <p>No person may loiter in a change room or use it for any other purpose other than for which it was designed.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-46">
+            <num>46.</num>
+            <heading>Coaching and instruction</heading>
+            <subsection id="section-46.1">
+              <num>(1)</num>
+              <content>
+                <p>No person may coach or instruct individuals within the <term refersTo="#term-pool" id="trm253">pool</term> area, unless prior written permission has been obtained from an <term refersTo="#term-authorised_official" id="trm254">authorised official</term>, which permission may be subject to terms and conditions imposed by the <term refersTo="#term-authorised_official" id="trm255">authorised official</term>.</p>
+              </content>
+            </subsection>
+            <subsection id="section-46.2">
+              <num>(2)</num>
+              <content>
+                <p>No instructor may instruct more than fiveindividuals at a time.</p>
+              </content>
+            </subsection>
+            <subsection id="section-46.3">
+              <num>(3)</num>
+              <content>
+                <p>The <term refersTo="#term-authorised_official" id="trm256">authorised official</term> may give a coach or instructor 30 days notice of his intention to withdraw the permission given in terms of subsection (1).</p>
+              </content>
+            </subsection>
+            <subsection id="section-46.4">
+              <num>(4)</num>
+              <content>
+                <p>In addition to the conditions imposed in terms of subsection (1) coaches and instructors are obliged to adhere to any other additional rules or requirements imposed by the <term refersTo="#term-Municipality" id="trm257">Municipality</term>.</p>
+              </content>
+            </subsection>
+            <subsection id="section-46.5">
+              <num>(5)</num>
+              <content>
+                <p>All instructors and coaches who are required to pay a fee must pay such fee one month in advance and, where such fee has been paid, the parents and students belonging to the particular swimming club will be exempt from paying the regular entry fee on days where they are attending lessons.</p>
+              </content>
+            </subsection>
+            <subsection id="section-46.6">
+              <num>(6)</num>
+              <content>
+                <blockList id="section-46.6.list1">
+                  <listIntroduction>In addition to the terms and conditions imposed in subsections (1), (2), (4) and (5), the following terms and conditions will also apply:</listIntroduction>
+                  <item id="section-46.6.list1.a">
+                    <num>(a)</num>
+                    <p>a maximum of 3 lanes may be set aside for each coach for the duration of the lesson;</p>
+                  </item>
+                  <item id="section-46.6.list1.b">
+                    <num>(b)</num>
+                    <p>coaching will be restricted to the hours of 6am – 9am Monday to Saturday and 5pm -8pm Monday to Friday;</p>
+                  </item>
+                  <item id="section-46.6.list1.c">
+                    <num>(c)</num>
+                    <p>permission to use lanes will be granted to not more than 2 coaches in respect of each <term refersTo="#term-pool" id="trm258">pool</term> unless permission is granted in terms of section 44; (d) where exclusive use has been granted in respect of a <term refersTo="#term-pool" id="trm259">pool</term>, no coaching or instructing shall take place and any fee paid in respect of such coaching or instructing will not be refunded; and</p>
+                  </item>
+                  <item id="section-46.6.list1.e">
+                    <num>(e)</num>
+                    <p>if a coach or instructor has not utilised the times booked, no refund will be granted in respect of such time.</p>
+                  </item>
+                </blockList>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-47">
+            <num>47.</num>
+            <heading>Prohibitions relating to pools</heading>
+            <subsection id="section-47.1">
+              <num>(1)</num>
+              <content>
+                <blockList id="section-47.1.list1">
+                  <listIntroduction>No person may –</listIntroduction>
+                  <item id="section-47.1.list1.a">
+                    <num>(a)</num>
+                    <blockList id="section-47.1.list1.a.list0">
+                      <listIntroduction>bring or cause to be brought into the <term refersTo="#term-pool" id="trm260">pool</term> premises any– (i) ball;</listIntroduction>
+                      <item id="section-47.1.list1.a.list0.ii">
+                        <num>(ii)</num>
+                        <p>surf board;</p>
+                      </item>
+                      <item id="section-47.1.list1.a.list0.iii">
+                        <num>(iii)</num>
+                        <p>water toy or the like;</p>
+                      </item>
+                      <item id="section-47.1.list1.a.list0.iv">
+                        <num>(iv)</num>
+                        <p>alcohol and narcotics;</p>
+                      </item>
+                      <item id="section-47.1.list1.a.list0.v">
+                        <num>(v)</num>
+                        <p>weapons;</p>
+                      </item>
+                      <item id="section-47.1.list1.a.list0.vi">
+                        <num>(vi)</num>
+                        <p>glass or bottles; or</p>
+                      </item>
+                      <item id="section-47.1.list1.a.list0.vii">
+                        <num>(vii)</num>
+                        <p>item that will be offered for sale;</p>
+                      </item>
+                    </blockList>
+                  </item>
+                  <item id="section-47.1.list1.b">
+                    <num>(b)</num>
+                    <p>dive into the <term refersTo="#term-pool" id="trm261">pool</term> unless it is off a diving board or platform;</p>
+                  </item>
+                  <item id="section-47.1.list1.c">
+                    <num>(c)</num>
+                    <p>swim in the nude or be dressed in a manner in which his or her private parts are exposed to the public;</p>
+                  </item>
+                  <item id="section-47.1.list1.d">
+                    <num>(d)</num>
+                    <p>enter into the change room of the opposite sex, subject to section 45; (e) urinate or defecate in the <term refersTo="#term-pool" id="trm262">pool</term>;</p>
+                  </item>
+                  <item id="section-47.1.list1.f">
+                    <num>(f)</num>
+                    <p>eat in the <term refersTo="#term-pool" id="trm263">pool</term>;</p>
+                  </item>
+                  <item id="section-47.1.list1.g">
+                    <num>(g)</num>
+                    <p>engage in any dangerous game or activity;</p>
+                  </item>
+                  <item id="section-47.1.list1.h">
+                    <num>(h)</num>
+                    <p>behave in a raucous manner;</p>
+                  </item>
+                  <item id="section-47.1.list1.i">
+                    <num>(i)</num>
+                    <p>remove, damage or deface any property or structure;</p>
+                  </item>
+                  <item id="section-47.1.list1.j">
+                    <num>(j)</num>
+                    <p>deposit or discharge anything that may cause a nuisance or pose a danger to health and safety or perform an act which is so liable;</p>
+                  </item>
+                  <item id="section-47.1.list1.k">
+                    <num>(k)</num>
+                    <p>make or light a fire for any purpose;</p>
+                  </item>
+                  <item id="section-47.1.list1.l">
+                    <num>(l)</num>
+                    <p>fight, argue or use indecent or offensive language;</p>
+                  </item>
+                  <item id="section-47.1.list1.m">
+                    <num>(m)</num>
+                    <p>smoke;</p>
+                  </item>
+                  <item id="section-47.1.list1.n">
+                    <num>(n)</num>
+                    <p>engage in any game or activity that may cause a nuisance, injury or discomfort to other patrons;</p>
+                  </item>
+                  <item id="section-47.1.list1.o">
+                    <num>(o)</num>
+                    <p>throw any object or projectile into the <term refersTo="#term-pool" id="trm264">pool</term>;</p>
+                  </item>
+                  <item id="section-47.1.list1.p">
+                    <num>(p)</num>
+                    <p>push or throw another individual into the <term refersTo="#term-pool" id="trm265">pool</term>;</p>
+                  </item>
+                  <item id="section-47.1.list1.q">
+                    <num>(q)</num>
+                    <p>use a diving board, platform or slide whilst another person is still on it; (r) wash any article of clothing in the <term refersTo="#term-pool" id="trm266">pool</term>;</p>
+                  </item>
+                  <item id="section-47.1.list1.s">
+                    <num>(s)</num>
+                    <p>act contrary to any sign erected at the <term refersTo="#term-pool" id="trm267">pool</term>;</p>
+                  </item>
+                  <item id="section-47.1.list1.t">
+                    <num>(t)</num>
+                    <p>mount, climb upon, sit upon, hang onto or in any way interfere with any building or structure unless it is designed for that purpose;</p>
+                  </item>
+                  <item id="section-47.1.list1.u">
+                    <num>(u)</num>
+                    <p>leave any object, parcel or thing unattended except in a locker designed for that purpose;</p>
+                  </item>
+                  <item id="section-47.1.list1.v">
+                    <num>(v)</num>
+                    <p>abandon, drop, spill, deposit, throw or in any other way disposes of any refuse or rubbish or other discarded or waste material or thing whether liquid or solid, except in a receptacle designed for the disposal thereof which is provided by or on behalf of the <term refersTo="#term-Municipality" id="trm268">Municipality</term>;</p>
+                  </item>
+                  <item id="section-47.1.list1.w">
+                    <num>(w)</num>
+                    <p>hold, convene or organise any entertainment, display, performance, procession, public meeting, recreation or event except with the prior written consent of the <term refersTo="#term-Municipality" id="trm269">Municipality</term> and in accordance with such conditions as may be imposed;</p>
+                  </item>
+                  <item id="section-47.1.list1.x">
+                    <num>(x)</num>
+                    <p>after using or after quitting any booth, loiter or remain without lawful cause or reasonable excuse in any passage leading to or from any booth;</p>
+                  </item>
+                  <item id="section-47.1.list1.y">
+                    <num>(y)</num>
+                    <p>enter or attempt to enter any booth which is already occupied by another person without the consent of such person or otherwise wilfully intrude upon the privacy of any other person using or occupying a booth;</p>
+                  </item>
+                  <item id="section-47.1.list1.z">
+                    <num>(z)</num>
+                    <p>enter into a <term refersTo="#term-pool" id="trm270">pool</term> whilst suffering from any cutaneous disease which is infectious or contagious;</p>
+                  </item>
+                  <item id="section-47.1.list1.aa">
+                    <num>(aa)</num>
+                    <p>leave unattended any object or material on a bench or other seating accommodation provided by the <term refersTo="#term-Municipality" id="trm271">Municipality</term> for the use of the public;</p>
+                  </item>
+                  <item id="section-47.1.list1.bb">
+                    <num>(bb)</num>
+                    <p>call for help when help is not needed or raise a false alarm or cause the same to be raised;</p>
+                  </item>
+                  <item id="section-47.1.list1.cc">
+                    <num>(cc)</num>
+                    <p>beg for money or ask for other favours whether by word, posture, demeanour, or otherwise;</p>
+                  </item>
+                  <item id="section-47.1.list1.dd">
+                    <num>(dd)</num>
+                    <p>gamble or play any game for gain, whether monetary or otherwise, and whether with cards, dice coin or instrument of chance or otherwise;</p>
+                  </item>
+                  <item id="section-47.1.list1.ee">
+                    <num>(ee)</num>
+                    <p>enter a <term refersTo="#term-pool" id="trm272">pool</term> premises while under the influence of intoxicating liquor or a drug having a narcotic effect;</p>
+                  </item>
+                  <item id="section-47.1.list1.ff">
+                    <num>(ff)</num>
+                    <p>ride a bicycle or use roller skates or a skate board or any similar device to which rollers or wheels are attached or cause or permit the same to be used except within an area expressly permitted by a notice displayed;</p>
+                  </item>
+                  <item id="section-47.1.list1.gg">
+                    <num>(gg)</num>
+                    <p>perform acts on a diving board, platform or slide which are not consistent with its use for the purpose of diving or sliding;</p>
+                  </item>
+                  <item id="section-47.1.list1.hh">
+                    <num>(hh)</num>
+                    <p>use any soap or similar detergent substance in the <term refersTo="#term-pool" id="trm273">pool</term>; or</p>
+                  </item>
+                  <item id="section-47.1.list1.ii">
+                    <num>(ii)</num>
+                    <p>being a person above the age of twelve years enter upon or uses a slide.</p>
+                  </item>
+                </blockList>
+              </content>
+            </subsection>
+          </section>
+        </part>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>Miscellaneous</heading>
+        <section id="section-48">
+          <num>48.</num>
+          <heading>Indemnity</heading>
+          <paragraph id="section-48.paragraph-0">
+            <content>
+              <p>The hirer indemnifies andholds harmless the <term refersTo="#term-Municipality" id="trm274">Municipality</term> against and from any claims for damages orotherwise and costs, including costs as between attorney and client, thatmay be made against it by reason of any harm or loss suffered by any person during or associated with the use of the premises hired or the activities taking place in the hired premises during the period of the <term refersTo="#term-hire" id="trm275">hire</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-49">
+          <num>49.</num>
+          <heading><term refersTo="#term-Municipality" id="trm276">Municipality</term> not liable for loss or damage</heading>
+          <subsection id="section-49.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-49.1.list1">
+                <listIntroduction>The Municipalityis not liable for any harm, damage or loss suffered by any person arising out of−</listIntroduction>
+                <item id="section-49.1.list1.a">
+                  <num>(a)</num>
+                  <p>the use of any <term refersTo="#term-municipal_premises" id="trm277">municipal premises</term> or <term refersTo="#term-facility" id="trm278">facility</term>; or</p>
+                </item>
+                <item id="section-49.1.list1.b">
+                  <num>(b)</num>
+                  <p>any bona fide action or decision of an <term refersTo="#term-authorised_official" id="trm279">authorised official</term> in terms of this By-law.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-49.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm280">Municipality</term> shall not be liable for any loss or damage suffered by the hirer in consequence of any accident, failure or defect of any equipment, fixtures or fittings.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-50">
+          <num>50.</num>
+          <heading>Offences and penalties</heading>
+          <subsection id="section-50.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-50.1.list1">
+                <listIntroduction>A person is guilty of an offence if that person ─</listIntroduction>
+                <item id="section-50.1.list1.a">
+                  <num>(a)</num>
+                  <p>contravenes of fails to comply with any provisions of this By-law;</p>
+                </item>
+                <item id="section-50.1.list1.b">
+                  <num>(b)</num>
+                  <p>fails to comply with any notice issued or displayed in terms of this By-law;</p>
+                </item>
+                <item id="section-50.1.list1.c">
+                  <num>(c)</num>
+                  <p>fails to comply with any lawful instruction given in terms of this By-law; or</p>
+                </item>
+                <item id="section-50.1.list1.d">
+                  <num>(d)</num>
+                  <p>obstructs or hinders any <term refersTo="#term-authorised_official" id="trm281">authorised official</term>, other official or representative of the <term refersTo="#term-Municipality" id="trm282">Municipality</term> in the execution of his or her duties under this By-law.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-50.2">
+            <num>(2)</num>
+            <content>
+              <p>A person is guilty of a continuing offence if he or she continues with an offence after notice has been served on him or her in terms of this By-law requiring him or her to cease committing such offence.</p>
+            </content>
+          </subsection>
+          <subsection id="section-50.3">
+            <num>(3)</num>
+            <content>
+              <p>A person who is convicted of an offence under this section may be sentenced to a fine in the amount not exceeding R40 000or to imprisonment for a period not exceeding two years or to both a fine and a period of imprisonment.</p>
+            </content>
+          </subsection>
+          <subsection id="section-50.4">
+            <num>(4)</num>
+            <content>
+              <p>In the case of a continuing offence, an additional fine of an amount not exceeding or imprisonment for a period not exceeding 10 days, for each day on which such offence continues or both such fine and imprisonment, will be imposed.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-51">
+          <num>51.</num>
+          <heading>Delegations</heading>
+          <subsection id="section-51.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-51.1.list1">
+                <listIntroduction>Subject to the <term refersTo="#term-Constitution" id="trm283">Constitution</term> and applicable national and provincial laws, any-</listIntroduction>
+                <item id="section-51.1.list1.a">
+                  <num>(a)</num>
+                  <p>power, excluding a power referred to in section 160(2) of the <term refersTo="#term-Constitution" id="trm284">Constitution</term>;</p>
+                </item>
+                <item id="section-51.1.list1.b">
+                  <num>(b)</num>
+                  <p>function; or</p>
+                </item>
+                <item id="section-51.1.list1.c">
+                  <num>(c)</num>
+                  <p>duty,</p>
+                </item>
+              </blockList>
+              <p>conferred, in terms of this By-law, upon the Council, or on any of the <term refersTo="#term-Municipality" id="trm285">Municipality</term>'s other political structures, political office bearers, councillors or staff members, may be delegated or sub-delegated by such political structure, political office bearer, councillor or staff member, to an entity within, or a staff member employed by, the <term refersTo="#term-Municipality" id="trm286">Municipality</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-51.2">
+            <num>(2)</num>
+            <content>
+              <p>The delegation in terms of subsection (1) must be effected in accordance with the system of delegation adopted by the Council in accordance with section 59(1) of the <term refersTo="#term-Systems_Act" id="trm287">Systems Act</term>, subject to the criteria set out in section 50(2) of the said Act.</p>
+            </content>
+          </subsection>
+          <subsection id="section-51.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-51.3.list1">
+                <listIntroduction>Any delegation contemplated in this section must be recorded in the Register of Delegations, which must contain information on the ─</listIntroduction>
+                <item id="section-51.3.list1.a">
+                  <num>(a)</num>
+                  <p>entity or person issuing the delegation or sub-delegation;</p>
+                </item>
+                <item id="section-51.3.list1.b">
+                  <num>(b)</num>
+                  <p>recipient of the delegation or sub-delegation; and</p>
+                </item>
+                <item id="section-51.3.list1.c">
+                  <num>(c)</num>
+                  <p>conditions attached to the delegation or sub-delegation.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-52">
+          <num>52.</num>
+          <heading>Appeals</heading>
+          <subsection id="section-52.1">
+            <num>(1)</num>
+            <content>
+              <p>A person whose rights are affected by a decision taken by the <term refersTo="#term-Municipality" id="trm288">Municipality</term> in terms of this By-law may appeal against the decision in terms of the Appeals provision contained the <term refersTo="#term-Systems_Act" id="trm289">Systems Act</term> by giving written notice of the appeal and reasons to the <term refersTo="#term-municipal_manager" id="trm290">municipal manager</term> within 21 days of the date of the notification of the decision.</p>
+            </content>
+          </subsection>
+          <subsection id="section-52.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-municipal_manager" id="trm291">municipal manager</term> must promptly submit the appeal to the appropriate appeal authority.</p>
+            </content>
+          </subsection>
+          <subsection id="section-52.3">
+            <num>(3)</num>
+            <content>
+              <p>The appeal authority must commence with an appeal within six weeks and decide the appeal within a reasonable period.</p>
+            </content>
+          </subsection>
+          <subsection id="section-52.4">
+            <num>(4)</num>
+            <content>
+              <p>The appeal authority must confirm, vary or revoke the decision, but no such variation or revocation of a decision may detract from any rights which may have accrued as a result of the decision.</p>
+            </content>
+          </subsection>
+          <subsection id="section-52.5">
+            <num>(5)</num>
+            <content>
+              <p>The appeal authority must furnish written reasons for its decision on all appeal matters.</p>
+            </content>
+          </subsection>
+          <subsection id="section-52.6">
+            <num>(6)</num>
+            <content>
+              <p>All appeals lodged are done so in terms of the <term refersTo="#term-Systems_Act" id="trm292">Systems Act</term> and not in terms of this Bylaw.</p>
+            </content>
+          </subsection>
+          <subsection id="section-52.7">
+            <num>(7)</num>
+            <content>
+              <p>Where a conviction has been affirmed by a court of law and the accused wishes to appeal such conviction, the appeal must take place in terms of the court’s appeal process and not in terms of subsections (1) to (5).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-53">
+          <num>53.</num>
+          <heading>Repeal of laws and savings</heading>
+          <subsection id="section-53.1">
+            <num>(1)</num>
+            <content>
+              <p>The laws mentioned in the first and second columns of the Schedule to this By-law are hereby repealed to the extent set out in the third column of the said Schedule.</p>
+            </content>
+          </subsection>
+          <subsection id="section-53.2">
+            <num>(2)</num>
+            <content>
+              <p>Any rights accrued or obligations incurred under any of the By-laws repealed in terms of subsection (1) remain in force as if those By-laws have not been repealed.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-54">
+          <num>54.</num>
+          <heading>Short title and commencement</heading>
+          <paragraph id="section-54.paragraph-0">
+            <content>
+              <p>This By-law is called the Municipal Premises and Facilities By-law, 2015,and takes effect on the date of publication thereof in the Provincial Gazette.</p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+    </body>
+  </act>
+  <components>
+    <component id="component-schedule">
+      <doc name="schedule">
+        <meta>
+          <identification source="#slaw">
+            <FRBRWork>
+              <FRBRthis value="/za-eth/act/by-law/2016/municipal-premises-facilities/schedule"/>
+              <FRBRuri value="/za-eth/act/by-law/2016/municipal-premises-facilities"/>
+              <FRBRalias value="Schedule"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-eth/act/by-law/2016/municipal-premises-facilities/eng@2015-09-17/schedule"/>
+              <FRBRuri value="/za-eth/act/by-law/2016/municipal-premises-facilities/eng@2015-09-17"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-eth/act/by-law/2016/municipal-premises-facilities/eng@2015-09-17/schedule"/>
+              <FRBRuri value="/za-eth/act/by-law/2016/municipal-premises-facilities/eng@2015-09-17"/>
+              <FRBRdate date="2016-03-19" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule">
+            <heading>Laws Repealed (Section 53)</heading>
+            <paragraph id="schedule.paragraph-0">
+              <content>
+                <table id="schedule.paragraph-0.table0">
+                  <tr>
+                    <th>
+                      <p>Number and year of law</p>
+                    </th>
+                    <th>
+                      <p>Title</p>
+                    </th>
+                    <th>
+                      <p>Extent of repeal</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 426 of 1987 published in Provincial Gazette No. 4068 dated 22 October 1987</p>
+                    </td>
+                    <td>
+                      <p>Borough of Amanzimtoti By-laws in relation to Permits in Respect of Council Owned Land</p>
+                    </td>
+                    <td>
+                      <p>The whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 125 of 1986 published in Provincial Gazette No. 4518 dated 6 March 1986</p>
+                    </td>
+                    <td>
+                      <p>Borough of Kingsburgh Hall By-laws</p>
+                    </td>
+                    <td>
+                      <p>The Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 210 of 1987 published in Provincial Gazette No. 4591 dated 2 July 1987</p>
+                    </td>
+                    <td>
+                      <p>Borough of Amanzimtoti By-laws relating to the Hire and Use of the Town Hall and/or Other Municipal Rooms</p>
+                    </td>
+                    <td>
+                      <p>The Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 584 of 1950 published in Provincial Gazette No. 2320 dated 23 November 1950</p>
+                    </td>
+                    <td>
+                      <p>Township of Isipingo By-laws and Tariff Relating to the Hire of the Memorial Hall</p>
+                    </td>
+                    <td>
+                      <p>The Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 602 of 1978 published in Provincial Gazette No. 4081 dated 30 November 1978</p>
+                    </td>
+                    <td>
+                      <p>Umbongintwini Health Committee Regulations Relating to the Hire and Use of Jubilee Hall</p>
+                    </td>
+                    <td>
+                      <p>The Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 26 of 1914 published in Provincial Gazette No. 215 dated 12 February 1914</p>
+                    </td>
+                    <td>
+                      <p>City of Durban Miscellaneous By-laws</p>
+                    </td>
+                    <td>
+                      <p>Sections 136, 136 bis, 137,137 bis, 137 ter, 137 quat, 137 quin, 137 sept, 137 sext, 137 oct, 137 nov, 137 dec, 137 undec.</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 73 of 1988 published in Provincial Gazette No. 4629 dated 10 March 1988</p>
+                    </td>
+                    <td>
+                      <p>Cato Ridge Health Committee Regulations Relating to the Hire of the Group Activities Room</p>
+                    </td>
+                    <td>
+                      <p>The Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 151 of 1978 published in Provincial Gazette No. 4037 dated 16 March 1978</p>
+                    </td>
+                    <td>
+                      <p>Township of Hillcrest By-laws relating to the Hire of the Civic Hall</p>
+                    </td>
+                    <td>
+                      <p>The Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 173 of 1959 published in Provincial Gazette No. 2910 dated 16 April 1959</p>
+                    </td>
+                    <td>
+                      <p>Borough of Kloof By-laws relating to the Hire and Use of the Kloof Town Hall and Group Activities Room</p>
+                    </td>
+                    <td>
+                      <p>The Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 383 of 1977 published in Provincial Gazette No. 3997 dated 28 July 1977</p>
+                    </td>
+                    <td>
+                      <p>Borough of New Germany By-laws relating to the Hire and Use of Properties owned by the Council of New Germany</p>
+                    </td>
+                    <td>
+                      <p>The Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 448 of 1981 published in Provincial Gazette No. 4256 dated 27 August 1981</p>
+                    </td>
+                    <td>
+                      <p>Borough of New Germany By-laws relating to the Hire of the Library Group Activities Room</p>
+                    </td>
+                    <td>
+                      <p>The Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 225 of 1981 published in Provincial Gazette No. 4239 dated 29 May 1981</p>
+                    </td>
+                    <td>
+                      <p>Borough of Verulam By-laws relating to the Hire and Use of the Mountview Community Hall and the Verulam Public Hall</p>
+                    </td>
+                    <td>
+                      <p>The Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 238 of 1970 published in Provincial Gazette No. 3561 dated 28 May 1970</p>
+                    </td>
+                    <td>
+                      <p>Borough of Westville By-laws relating to the Hire and Use of the Town Hall, the Indian Community Hall, Westville North Library and Community Centre and/or other Municipal Rooms</p>
+                    </td>
+                    <td>
+                      <p>The Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 462 of 1973 published in Provincial Gazette No. 3756 dated 30 August 1973</p>
+                    </td>
+                    <td>
+                      <p>Yellowwood Health Committee Regulations relating to the Hire of the Civic Centre</p>
+                    </td>
+                    <td>
+                      <p>The whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial notice no. 85 of 1989 published in Provincial Gazette No. 4683 dated 16 March 1989</p>
+                    </td>
+                    <td>
+                      <p>EThekwini Municipality Pool By-law</p>
+                    </td>
+                    <td>
+                      <p>The whole</p>
+                    </td>
+                  </tr>
+                </table>
+              </content>
+            </paragraph>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>

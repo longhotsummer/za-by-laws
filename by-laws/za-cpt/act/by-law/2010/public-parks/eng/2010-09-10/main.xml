@@ -1,0 +1,1769 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openbylaws">
+        <FRBRWork>
+          <FRBRthis value="/za-cpt/act/by-law/2010/public-parks/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2010/public-parks"/>
+          <FRBRalias value="City of Cape Town: Public Parks By-law, 2010"/>
+          <FRBRdate date="2010-09-10" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-cpt/act/by-law/2010/public-parks/eng@2010-09-10/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2010/public-parks/eng@2010-09-10"/>
+          <FRBRdate date="2010-09-10" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-cpt/act/by-law/2010/public-parks/eng@2010-09-10/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2010/public-parks/eng@2010-09-10"/>
+          <FRBRdate date="2015-09-06" name="Generation"/>
+          <FRBRauthor href="#openbylaws" as="#author"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-09-10" name="Province of Western Cape: Provincial Gazette" number="6788" showAs="Province of Western Cape: Provincial Gazette"/>
+      <references source="#this">
+        <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council.cape-town" showAs="Cape Town City Council"/>
+        <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCTerm id="term-animal" href="/ontology/term/this.eng.animal" showAs="animal"/>
+        <TLCTerm id="term-authorised_official" href="/ontology/term/this.eng.authorised_official" showAs="authorised official"/>
+        <TLCTerm id="term-City" href="/ontology/term/this.eng.City" showAs="City"/>
+        <TLCTerm id="term-City_Manager" href="/ontology/term/this.eng.City_Manager" showAs="City Manager"/>
+        <TLCTerm id="term-Constitution" href="/ontology/term/this.eng.Constitution" showAs="Constitution"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-Councillor" href="/ontology/term/this.eng.Councillor" showAs="Councillor"/>
+        <TLCTerm id="term-Director__City_Parks" href="/ontology/term/this.eng.Director__City_Parks" showAs="Director: City Parks"/>
+        <TLCTerm id="term-notice" href="/ontology/term/this.eng.notice" showAs="notice"/>
+        <TLCTerm id="term-public_park" href="/ontology/term/this.eng.public_park" showAs="public park"/>
+        <TLCTerm id="term-Structures_Act" href="/ontology/term/this.eng.Structures_Act" showAs="Structures Act"/>
+        <TLCTerm id="term-vehicle" href="/ontology/term/this.eng.vehicle" showAs="vehicle"/>
+      </references>
+    </meta>
+    <preamble>
+      <p>WHEREAS section 156(2) and (5) of the Constitution of the Republic of South Africa, 1996 provides that a City may make and administer by-laws for the effective administration of the matters which it has the right to administer, and to exercise any power concerning a matter reasonably necessary for, or incidental to, the effective performance of its functions;</p>
+      <p>AND WHEREAS Part B of Schedule 5 to the Constitution lists local amenities and municipal parks and recreation as local government matters;</p>
+      <p>AND NOW THEREFORE BE IT ENACTED by the Council of the City of Cape Town as follows:—</p>
+    </preamble>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <subsection id="section-1.subsection-0">
+          <content>
+            <p>In this By-law, unless the context otherwise indicates —</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-1" refersTo="#term-animal">
+          <content>
+            <p>"<def refersTo="#term-animal">animal</def>" includes any mammal, bird, fish, reptile, insect, amphibian or invertebrate;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-2" refersTo="#term-authorised_official">
+          <content>
+            <p>"<def refersTo="#term-authorised_official">authorised official</def>" means a member of staff of the <term refersTo="#term-City" id="trm0">City</term> delegated by the <term refersTo="#term-City_Manager" id="trm1">City Manager</term> and the <term refersTo="#term-Director__City_Parks" id="trm2">Director: City Parks</term>, or appointed by the <term refersTo="#term-City_Manager" id="trm3">City Manager</term> to implement the provisions of this By-law, or any appointed external service provider referred to in section 76(b) of the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000) and includes a law enforcement officer or traffic official of the <term refersTo="#term-City" id="trm4">City</term> who has been declared a peace officer in terms of section 334 of the Criminal Procedure Act, 1977 (Act 51 of 1977), acting when on duty and properly identified as such;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-3" refersTo="#term-City">
+          <content>
+            <p>"<def refersTo="#term-City">City</def>" means the City of the City of Cape Town established in terms of section 12 of the Local Government: Municipal <term refersTo="#term-Structures_Act" id="trm5">Structures Act</term>, 1998(Act No. 117 of 1998), in Provincial Notice 479 of 2000 and published in Provincial Gazette Extraordinary 5588 dated 22 September 2000;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-4" refersTo="#term-City_Manager">
+          <content>
+            <p>"<def refersTo="#term-City_Manager">City Manager</def>" means the person appointed by the <term refersTo="#term-Council" id="trm6">Council</term> in terms of section 82 of the Local Government: Municipal <term refersTo="#term-Structures_Act" id="trm7">Structures Act</term>, 1998 (Act NO. 117 OF 1998);</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-5" refersTo="#term-Constitution">
+          <content>
+            <p>"<def refersTo="#term-Constitution">Constitution</def>" means the Constitution of the Republic of South Africa Act, 1996;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-6" refersTo="#term-Council">
+          <content>
+            <p>"<def refersTo="#term-Council">Council</def>" means the council of the <term refersTo="#term-City" id="trm8">City</term> of Cape Town, being a council as provided for in terms of section 18 of the Local Government: Municipal <term refersTo="#term-Structures_Act" id="trm9">Structures Act</term>, 1998(Act No. 117 of 1998), or any committee, any sub-council or any councillor of council, acting under delegated or sub-delegated authority of the Council;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-7" refersTo="#term-Councillor">
+          <content>
+            <p>"<def refersTo="#term-Councillor">Councillor</def>" means the member of the <term refersTo="#term-Council" id="trm10">Council</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-8" refersTo="#term-Director__City_Parks">
+          <content>
+            <p>"<def refersTo="#term-Director__City_Parks">Director: City Parks</def>" means the employee of the <term refersTo="#term-City" id="trm11">City</term> in charge of public parks of the <term refersTo="#term-City" id="trm12">City</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-9" refersTo="#term-notice">
+          <content>
+            <p>"<def refersTo="#term-notice">notice</def>" means a written notification, or a pictogram issued in terms of this By-law as set out in Schedule 1, prominently and legibly displayed at the entrance to or in any facility or part thereof to which it is intended to apply;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-10">
+          <content>
+            <blockList id="section-1.subsection-10.list10" refersTo="#term-public_park">
+              <listIntroduction>"<def refersTo="#term-public_park">public park</def>" means—</listIntroduction>
+              <item id="section-1.subsection-10.list10.a">
+                <num>(a)</num>
+                <p>any botanical or other garden, play ground, zoned public open space managed by the Department of <term refersTo="#term-City" id="trm13">City</term> Parks in the <term refersTo="#term-City" id="trm14">City</term>, or a park owned or leased by the <term refersTo="#term-City" id="trm15">City</term>, including any portion thereof and any facility or apparatus therein or thereon, but excluding any public road or street; and</p>
+              </item>
+              <item id="section-1.subsection-10.list10.b">
+                <num>(b)</num>
+                <p>any botanical, other garden or play ground which is lawfully controlled and managed in terms of an agreement by a person other than the <term refersTo="#term-Council" id="trm16">Council</term>;</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-11" refersTo="#term-Structures_Act">
+          <content>
+            <p>"<def refersTo="#term-Structures_Act">Structures Act</def>" means the Local Government: Municipal Structures Act, 1998 (Act No.117 of 1998); "this By-law" includes the Schedules hereto;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-12">
+          <content>
+            <blockList id="section-1.subsection-12.list12" refersTo="#term-vehicle">
+              <listIntroduction>"<def refersTo="#term-vehicle">vehicle</def>" means any self-propelled vehicle and includes-</listIntroduction>
+              <item id="section-1.subsection-12.list12.a">
+                <num>(a)</num>
+                <p>a trailer; and</p>
+              </item>
+              <item id="section-1.subsection-12.list12.b">
+                <num>(b)</num>
+                <blockList id="section-1.subsection-12.list12.b.list0">
+                  <listIntroduction>a vehicle having pedals and an engine or an electric motor as an integral part thereof or attached thereto which is designated or adapted to be propelled by means of such pedals, engine or motor, or both such pedals and engine or motor, but does not include -</listIntroduction>
+                  <item id="section-1.subsection-12.list12.b.list0.i">
+                    <num>(i)</num>
+                    <p>any vehicle propelled by electric power from storage batteries and which is controlled by a pedestrian; or</p>
+                  </item>
+                  <item id="section-1.subsection-12.list12.b.list0.ii">
+                    <num>(ii)</num>
+                    <p>any vehicle with a mass not exceeding 230 kilograms and specially designed and constructed, and not merely adapted, for the use of any person suffering from some physical defect or disability and used solely by such person.</p>
+                  </item>
+                </blockList>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Delegation and appointment of authorised officials</heading>
+        <subsection id="section-2.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-City_Manager" id="trm17">City Manager</term> may delegate any of his or her powers or assign any of his or her duties in terms of this By-law to any official of the <term refersTo="#term-City" id="trm18">City</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-Director__City_Parks" id="trm19">Director: City Parks</term> may delegate any of his or her powers or assign any of his or her duties to any official of the <term refersTo="#term-City" id="trm20">City</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.3">
+          <num>(3)</num>
+          <content>
+            <p>Subject to the recruitment policies of the <term refersTo="#term-City" id="trm21">City</term>, the <term refersTo="#term-City_Manager" id="trm22">City Manager</term> may appoint authorised officials to exercise and perform certain powers and duties in terms of this By-law.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Maximum number of persons</heading>
+        <subsection id="section-3.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Director__City_Parks" id="trm23">Director: City Parks</term> may determine the maximum number of visitors who may be present at a specific time in a <term refersTo="#term-public_park" id="trm24">public park</term>, provided</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.subsection-1">
+          <content>
+            <p>that different numbers may be so determined for different parks and for different events.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.2">
+          <num>(2)</num>
+          <content>
+            <p>The numbers contemplated in subsection (1) must be made known by the <term refersTo="#term-Director__City_Parks" id="trm25">Director: City Parks</term> by means of a <term refersTo="#term-notice" id="trm26">notice</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Admission to and visiting a <term refersTo="#term-public_park" id="trm27">public park</term></heading>
+        <subsection id="section-4.1">
+          <num>(1)</num>
+          <content>
+            <p>A person who is admitted to gain access or visit a <term refersTo="#term-public_park" id="trm28">public park</term> must, subject to the provisions of this By-law, observe and comply with all</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.subsection-1">
+          <content>
+            <p>notices displayed in a <term refersTo="#term-public_park" id="trm29">public park</term> or in the entrance thereto and obey any instructions given to him or her by the <term refersTo="#term-authorised_official" id="trm30">authorised official</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.2">
+          <num>(2)</num>
+          <content>
+            <p>Should a person fail to observe and comply with a <term refersTo="#term-notice" id="trm31">notice</term> or any instructions referred to in subsection (1), the <term refersTo="#term-City" id="trm32">City</term> shall not be liable for damage</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.subsection-3">
+          <content>
+            <p>or injury suffered while such person is visiting the <term refersTo="#term-public_park" id="trm33">public park</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.3">
+          <num>(3)</num>
+          <content>
+            <p>A <term refersTo="#term-public_park" id="trm34">public park</term> is, subject to the provisions of this By-law, open to the public on the times determined by the <term refersTo="#term-Director__City_Parks" id="trm35">Director: City Parks</term>, provided that different times may be determined in respect of different public parks.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4">
+          <num>(4)</num>
+          <content>
+            <p>No person shall enter or leave an enclosed <term refersTo="#term-public_park" id="trm36">public park</term> at a place other than that indicated for that purpose.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.5">
+          <num>(5)</num>
+          <content>
+            <p>The conditions times and places contemplated in subsections (1), (2) and (3) shall be made known by the <term refersTo="#term-Director__City_Parks" id="trm37">Director: City Parks</term> by means of a <term refersTo="#term-notice" id="trm38">notice</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Entrance fees</heading>
+        <subsection id="section-5.1">
+          <num>(1)</num>
+          <content>
+            <p>Subject to the provisions of this By-law, every person shall have free access to a <term refersTo="#term-public_park" id="trm39">public park</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.2">
+          <num>(2)</num>
+          <content>
+            <p>Despite subsection (1), <term refersTo="#term-Council" id="trm40">Council</term> may, in terms of the Tariff By-law prescribe fees for entering a <term refersTo="#term-public_park" id="trm41">public park</term> in such special circumstances as determined by it, and such fees shall be made known by means of a <term refersTo="#term-notice" id="trm42">notice</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Dumping and littering</heading>
+        <subsection id="section-6.subsection-0">
+          <content>
+            <blockList id="section-6.subsection-0.list0">
+              <listIntroduction> No person shall in a <term refersTo="#term-public_park" id="trm43">public park</term> — </listIntroduction>
+              <item id="section-6.subsection-0.list0.a">
+                <num>(a)</num>
+                <p>dump, drop, bury or place any refuse, rubble, material or any object or thing; or</p>
+              </item>
+              <item id="section-6.subsection-0.list0.b">
+                <num>(b)</num>
+                <p>permit any dumping, dropping, burying, placing of any refuse, rubble, material or any object or thing,</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-6.subsection-1">
+          <content>
+            <p>except in a container identified for that purpose in the park.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Liquor and food</heading>
+        <subsection id="section-7.1">
+          <num>(1)</num>
+          <content>
+            <p>No person shall bring into, consume, brew, store or sell in a <term refersTo="#term-public_park" id="trm44">public park</term> any liquor or any other alcoholic or intoxicating substance.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.2">
+          <num>(2)</num>
+          <content>
+            <p>No person shall in a <term refersTo="#term-public_park" id="trm45">public park</term>, contrary to a <term refersTo="#term-notice" id="trm46">notice</term>, cook or prepare food of any kind whatsoever, except at places set aside for such purposes by <term refersTo="#term-notice" id="trm47">notice</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.3">
+          <num>(3)</num>
+          <content>
+            <p>The preparation and cooking of food at places set aside by <term refersTo="#term-notice" id="trm48">notice</term> for such purpose in or at a <term refersTo="#term-public_park" id="trm49">public park</term> shall be done in a clean and sanitary manner.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.4">
+          <num>(4)</num>
+          <content>
+            <p>No <term refersTo="#term-animal" id="trm50">animal</term> may be killed, skinned or slaughtered in a <term refersTo="#term-public_park" id="trm51">public park</term> without the written consent of the <term refersTo="#term-Director__City_Parks" id="trm52">Director: City Parks</term> having first been obtained.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Animals</heading>
+        <subsection id="section-8.1">
+          <num>(1)</num>
+          <content>
+            <p>No person shall bring any dead or alive <term refersTo="#term-animal" id="trm53">animal</term> into a <term refersTo="#term-public_park" id="trm54">public park</term> except in accordance with the directions of the <term refersTo="#term-Director__City_Parks" id="trm55">Director: City Parks</term></p>
+          </content>
+        </subsection>
+        <subsection id="section-8.subsection-1">
+          <content>
+            <p>provided that different directions may be determined in respect of different public parks and different types of animals.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.2">
+          <num>(2)</num>
+          <content>
+            <p>The directions contemplated in subsection (1) shall be made known by means of a <term refersTo="#term-notice" id="trm56">notice</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.3">
+          <num>(3)</num>
+          <content>
+            <p>Carcasses may not be buried in a <term refersTo="#term-public_park" id="trm57">public park</term> but must be disposed of at the owner’s expense and in a manner approved by the <term refersTo="#term-Council" id="trm58">Council</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Use of public parks</heading>
+        <subsection id="section-9.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-9.1.list0">
+              <listIntroduction> No person shall in a <term refersTo="#term-public_park" id="trm59">public park</term> without the written permission of the <term refersTo="#term-Director__City_Parks" id="trm60">Director: City Parks</term> or contrary to any conditions which the <term refersTo="#term-Director__City_Parks" id="trm61">Director: City Parks</term> may impose when granting such permission — </listIntroduction>
+              <item id="section-9.1.list0.a">
+                <num>(a)</num>
+                <p>arrange or present any public entertainment;</p>
+              </item>
+              <item id="section-9.1.list0.b">
+                <num>(b)</num>
+                <p>display or distribute any pamphlet, placard, painting, book, handbill, sign, advertisement board or any other printed, written or painted work;</p>
+              </item>
+              <item id="section-9.1.list0.c">
+                <num>(c)</num>
+                <p>arrange or hold a public gathering or procession, or any exhibition or performance;</p>
+              </item>
+              <item id="section-9.1.list0.d">
+                <num>(d)</num>
+                <p>conduct any trade, occupation or business;</p>
+              </item>
+              <item id="section-9.1.list0.e">
+                <num>(e)</num>
+                <p>display, sell or rent or present for sale or rent any wares or articles;</p>
+              </item>
+              <item id="section-9.1.list0.f">
+                <num>(f)</num>
+                <p>hold an auction;</p>
+              </item>
+              <item id="section-9.1.list0.g">
+                <num>(g)</num>
+                <p>off-load or store building or other material.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-9.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-9.2.list1">
+              <listIntroduction> Subject to any other law, the written permission contemplated in subsection (1) shall be refused only if anything referred to in subsection (1)(a) to (g)— </listIntroduction>
+              <item id="section-9.2.list1.a">
+                <num>(a)</num>
+                <blockList id="section-9.2.list1.a.list0">
+                  <listIntroduction>is likely to give rise to —</listIntroduction>
+                  <item id="section-9.2.list1.a.list0.i">
+                    <num>(i)</num>
+                    <p>public rioting;</p>
+                  </item>
+                  <item id="section-9.2.list1.a.list0.ii">
+                    <num>(ii)</num>
+                    <p>the disturbance of public peace;</p>
+                  </item>
+                  <item id="section-9.2.list1.a.list0.iii">
+                    <num>(iii)</num>
+                    <p>the committing of an offence;</p>
+                  </item>
+                  <item id="section-9.2.list1.a.list0.iv">
+                    <num>(iv)</num>
+                    <p>the committing of an indecent act;</p>
+                  </item>
+                  <item id="section-9.2.list1.a.list0.v">
+                    <num>(v)</num>
+                    <p>risks that compromise safety and security; or</p>
+                  </item>
+                  <item id="section-9.2.list1.a.list0.vi">
+                    <num>(vi)</num>
+                    <p>a situation where a planned activity in any area of jurisdiction of the <term refersTo="#term-City" id="trm62">City</term> is taking place at the same time as a planned activity in the park, and the activity planned to take place in the park is deemed to have a detrimental impact on the ability of the <term refersTo="#term-City" id="trm63">City</term> to ensure safety and security;</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-9.2.list1.b">
+                <num>(b)</num>
+                <p>is detrimental to the public or the users of, or visitors to, the <term refersTo="#term-public_park" id="trm64">public park</term>; or</p>
+              </item>
+              <item id="section-9.2.list1.c">
+                <num>(c)</num>
+                <p>is likely to damage or destroy the amenities, wildlife or plant material in the park.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Trees in public parks</heading>
+        <subsection id="section-10.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-10.1.list0">
+              <listIntroduction> No person other than an authorized official shall— </listIntroduction>
+              <item id="section-10.1.list0.a">
+                <num>(a)</num>
+                <p>plant or prune a tree or shrub, or in any way cut down a tree or a shrub, in a <term refersTo="#term-public_park" id="trm65">public park</term> or remove it therefrom, except with the written permission of the <term refersTo="#term-Director__City_Parks" id="trm66">Director: City Parks</term>;</p>
+              </item>
+              <item id="section-10.1.list0.b">
+                <num>(b)</num>
+                <p>unless permitted by a <term refersTo="#term-notice" id="trm67">notice</term> climb a tree growing in a <term refersTo="#term-public_park" id="trm68">public park</term> or, break or damage such tree; or</p>
+              </item>
+              <item id="section-10.1.list0.c">
+                <num>(c)</num>
+                <p>in any way mark or paint any tree growing in a <term refersTo="#term-public_park" id="trm69">public park</term> or attach any advertisement thereto.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-10.2">
+          <num>(2)</num>
+          <content>
+            <p>Any tree or shrub planted in a <term refersTo="#term-public_park" id="trm70">public park</term> shall become the property of the <term refersTo="#term-City" id="trm71">City</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-11">
+        <num>11.</num>
+        <heading>Safety and order</heading>
+        <subsection id="section-11.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-11.1.list0">
+              <listIntroduction> No person shall, in a <term refersTo="#term-public_park" id="trm72">public park</term> — </listIntroduction>
+              <item id="section-11.1.list0.a">
+                <num>(a)</num>
+                <p>damage, tamper with or destroy any equipment, amenity or structure;</p>
+              </item>
+              <item id="section-11.1.list0.b">
+                <num>(b)</num>
+                <p>plant, pull out, pick, damage or remove any plant, grass, shrub, bulbs, vegetation or flower;</p>
+              </item>
+              <item id="section-11.1.list0.c">
+                <num>(c)</num>
+                <p>kill, hurt, follow, disturb, ill-treat, catch, remove, translocate or release any <term refersTo="#term-animal" id="trm73">animal</term> or displace, disturb, destroy or remove their habitat;</p>
+              </item>
+              <item id="section-11.1.list0.d">
+                <num>(d)</num>
+                <p>use or try to use anything in such park for any purpose other than that for which it is designated;</p>
+              </item>
+              <item id="section-11.1.list0.e">
+                <num>(e)</num>
+                <p>discard any burning or smouldering object;</p>
+              </item>
+              <item id="section-11.1.list0.f">
+                <num>(f)</num>
+                <p>throw or dislodge any rock, stone or object from any mountains, slope or cliff;</p>
+              </item>
+              <item id="section-11.1.list0.g">
+                <num>(g)</num>
+                <p>behave in an improper, indecent, unruly, violent or anti-social manner or cause a disturbance;</p>
+              </item>
+              <item id="section-11.1.list0.h">
+                <num>(h)</num>
+                <p>run, walk, stand, sit or lie in a flower bed;</p>
+              </item>
+              <item id="section-11.1.list0.i">
+                <num>(i)</num>
+                <p>run, walk, stand, sit or lie on grass contrary to a <term refersTo="#term-notice" id="trm74">notice</term>;</p>
+              </item>
+              <item id="section-11.1.list0.j">
+                <num>(j)</num>
+                <p>lie on a bench or seating-place or use it in such a manner that prevents others from using it;</p>
+              </item>
+              <item id="section-11.1.list0.k">
+                <num>(k)</num>
+                <p>play or sit on playpark equipment, except if the person concerned is 14 years old or younger, or as permitted by a <term refersTo="#term-notice" id="trm75">notice</term>;</p>
+              </item>
+              <item id="section-11.1.list0.l">
+                <num>(l)</num>
+                <p>swim, walk or play in a fish-pond, fountain, stream, dam or pond;</p>
+              </item>
+              <item id="section-11.1.list0.m">
+                <num>(m)</num>
+                <p>skate on roller skates or a skateboard or similar device except where permitted by <term refersTo="#term-notice" id="trm76">notice</term>;</p>
+              </item>
+              <item id="section-11.1.list0.n">
+                <num>(n)</num>
+                <p>operating a gas or charcoal fired barbeque or stove;</p>
+              </item>
+              <item id="section-11.1.list0.o">
+                <num>(o)</num>
+                <p>dig, disturb or remove any mineral substance including soil, sand, gravel or rock;</p>
+              </item>
+              <item id="section-11.1.list0.p">
+                <num>(p)</num>
+                <p>damage, dig, disturb, deface, destroy or remove any fossils, bones or historical artifacts;</p>
+              </item>
+              <item id="section-11.1.list0.q">
+                <num>(q)</num>
+                <p>operate any remote control device including boats, planes helicopters or cars;</p>
+              </item>
+              <item id="section-11.1.list0.r">
+                <num>(r)</num>
+                <p>build, erect, place, create, remove or modify any structure, amenity, pathway, trail, jump or ramp; or</p>
+              </item>
+              <item id="section-11.1.list0.s">
+                <num>(s)</num>
+                <p>engage in any activity which may pose a risk or in combination with other activities in the area of jurisdiction of the <term refersTo="#term-City" id="trm77">City</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-11.2">
+          <num>(2)</num>
+          <content>
+            <p>Notwithstanding subsection (1), the <term refersTo="#term-Director__City_Parks" id="trm78">Director: City Parks</term> may, by <term refersTo="#term-notice" id="trm79">notice</term>, and subject to such conditions as he or she may deem necessary, authorise or permit any of the actions contemplated in subsections (1).</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-12">
+        <num>12.</num>
+        <heading>Water</heading>
+        <subsection id="section-12.subsection-0">
+          <content>
+            <blockList id="section-12.subsection-0.list0">
+              <listIntroduction> No person may in a <term refersTo="#term-public_park" id="trm80">public park</term>— </listIntroduction>
+              <item id="section-12.subsection-0.list0.a">
+                <num>(a)</num>
+                <p>misuse, remove, pollute or contaminate any water source, water supply or waste water;</p>
+              </item>
+              <item id="section-12.subsection-0.list0.b">
+                <num>(b)</num>
+                <p>interfere with or obstruct the flow of any river or seasonal wetland; or</p>
+              </item>
+              <item id="section-12.subsection-0.list0.c">
+                <num>(c)</num>
+                <p>drain or redirect any water from private land.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-13">
+        <num>13.</num>
+        <heading>Vehicles</heading>
+        <subsection id="section-13.1">
+          <num>(1)</num>
+          <content>
+            <p>No person may bring into a <term refersTo="#term-public_park" id="trm81">public park</term> any truck, bus, motorcar, motor cycle, bicycle, quadbike, motor tricycle, or any other <term refersTo="#term-vehicle" id="trm82">vehicle</term>, craft, hot air balloon or aeroplane, whether driven by mechanical, <term refersTo="#term-animal" id="trm83">animal</term>, natural or human power, supermarket or other trolleys, except in accordance with the written permission of the <term refersTo="#term-Director__City_Parks" id="trm84">Director: City Parks</term> provided that different requirements or conditions may be determined for different public parks and for different vehicles, craft or aeroplanes.</p>
+          </content>
+        </subsection>
+        <subsection id="section-13.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-Director__City_Parks" id="trm85">Director: City Parks</term> may determine the speed limit applicable in a <term refersTo="#term-public_park" id="trm86">public park</term>, provided that different speed limits may be determined for different public parks and for different vehicles, craft or aeroplanes.</p>
+          </content>
+        </subsection>
+        <subsection id="section-13.3">
+          <num>(3)</num>
+          <content>
+            <p>The requirements or conditions contemplated in subsection (1) and the speed limit contemplated in subsection (2) shall be made known by a <term refersTo="#term-notice" id="trm87">notice</term> by the <term refersTo="#term-Director__City_Parks" id="trm88">Director: City Parks</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-14">
+        <num>14.</num>
+        <heading>Games</heading>
+        <subsection id="section-14.subsection-0">
+          <content>
+            <blockList id="section-14.subsection-0.list0">
+              <listIntroduction> No person may play or conduct any game of any nature that will cause — </listIntroduction>
+              <item id="section-14.subsection-0.list0.a">
+                <num>(a)</num>
+                <p>disturbance or potentially disturb; or</p>
+              </item>
+              <item id="section-14.subsection-0.list0.b">
+                <num>(b)</num>
+                <p>injury to,</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-14.subsection-1">
+          <content>
+            <p>other park users except at places set aside for that purpose by <term refersTo="#term-notice" id="trm89">notice</term> and in accordance with the directions of the <term refersTo="#term-Director__City_Parks" id="trm90">Director: City Parks</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-15">
+        <num>15.</num>
+        <heading>Improper or indecent behaviour</heading>
+        <subsection id="section-15.subsection-0">
+          <content>
+            <blockList id="section-15.subsection-0.list0">
+              <listIntroduction> No person may in a <term refersTo="#term-public_park" id="trm91">public park</term> — </listIntroduction>
+              <item id="section-15.subsection-0.list0.a">
+                <num>(a)</num>
+                <p>perform an act which is indecent or conduct himself or herself improperly by exposure of his or her person or otherwise, or make improper gestures or incite or urge someone to perform a disorderly or indecent act;</p>
+              </item>
+              <item id="section-15.subsection-0.list0.b">
+                <num>(b)</num>
+                <p>use foul, lewd or indecent language;</p>
+              </item>
+              <item id="section-15.subsection-0.list0.c">
+                <num>(c)</num>
+                <p>write, paint, draw or in any way make a lewd, explicit or immoral figure, writing, drawing or representation; or</p>
+              </item>
+              <item id="section-15.subsection-0.list0.d">
+                <num>(d)</num>
+                <p>enter or use a toilet facility intended or indicated as such by <term refersTo="#term-notice" id="trm92">notice</term> for members of the opposite sex, provided that this shall not apply to children below the age of seven accompanied by an adult.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-16">
+        <num>16.</num>
+        <heading>Powers of an <term refersTo="#term-authorised_official" id="trm93">authorised official</term></heading>
+        <subsection id="section-16.subsection-0">
+          <content>
+            <blockList id="section-16.subsection-0.list0">
+              <listIntroduction> An <term refersTo="#term-authorised_official" id="trm94">authorised official</term> may — </listIntroduction>
+              <item id="section-16.subsection-0.list0.a">
+                <num>(a)</num>
+                <p>in a <term refersTo="#term-public_park" id="trm95">public park</term> at any time enter upon any place, land, premises or building and conduct an investigation thereat in order to determine whether the provisions of this By-law are complied with;</p>
+              </item>
+              <item id="section-16.subsection-0.list0.b">
+                <num>(b)</num>
+                <p>for the better exercising of any power or the performance of any function or duty assigned or granted to him or her, take along an interpreter who, while acting under the lawful order of such an official, shall have the same powers, functions and duties as such official as contemplated in paragraph (a);</p>
+              </item>
+              <item id="section-16.subsection-0.list0.c">
+                <num>(c)</num>
+                <p>give instructions to or direct the public, for the purposes of this By-law, to act in a specific manner whilst at the <term refersTo="#term-public_park" id="trm96">public park</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-17">
+        <num>17.</num>
+        <heading>Amendment, change and addition of a <term refersTo="#term-notice" id="trm97">notice</term> or pictogram</heading>
+        <subsection id="section-17.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Director__City_Parks" id="trm98">Director: City Parks</term> may, subject to the provisions of this By-Law, amend, change or add any <term refersTo="#term-notice" id="trm99">notice</term> or pictogram mentioned in Schedule</p>
+          </content>
+        </subsection>
+        <subsection id="section-17.subsection-1">
+          <content>
+            <p>1.</p>
+          </content>
+        </subsection>
+        <subsection id="section-17.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-Director__City_Parks" id="trm100">Director: City Parks</term> must, within 5 working days after an amendment, change or addition of a <term refersTo="#term-notice" id="trm101">notice</term> or pictogram as contemplated in subsection (1), display such amended, changed or added <term refersTo="#term-notice" id="trm102">notice</term> or pictogram in the relevant <term refersTo="#term-public_park" id="trm103">public park</term> or at the entrance thereto.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-18">
+        <num>18.</num>
+        <heading>Offences and penalties</heading>
+        <subsection id="section-18.1">
+          <num>(1)</num>
+          <content>
+            <p>Any person who contravenes or fails to comply with a <term refersTo="#term-notice" id="trm104">notice</term> issued in terms of, or a condition imposed under, or any other provision of, this By-law, shall be guilty of an offence and if convicted shall be liable for a fine or imprisonment for a period not exceeding six months, or to both such fine and such imprisonment.</p>
+          </content>
+        </subsection>
+        <subsection id="section-18.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-18.2.list1">
+              <listIntroduction> In addition to imposing a fine or imprisonment in terms of subsection (1), a court may order any person convicted of an offence under this By-law — </listIntroduction>
+              <item id="section-18.2.list1.a">
+                <num>(a)</num>
+                <p>to remedy the harm caused; or</p>
+              </item>
+              <item id="section-18.2.list1.b">
+                <num>(b)</num>
+                <p>to pay damages for harm caused to another person or to property which order shall have the force and effect of a civil judgment.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-19">
+        <num>19.</num>
+        <heading>Repeal of by-laws</heading>
+        <subsection id="section-19.1">
+          <num>(1)</num>
+          <content>
+            <p>The by-laws listed in Schedule 2 hereto are repealed to the extent set out in column 3 of such Schedule.</p>
+          </content>
+        </subsection>
+        <subsection id="section-19.2">
+          <num>(2)</num>
+          <content>
+            <p>In the event of any other by-law of the <term refersTo="#term-City" id="trm105">City</term> being inconsistent with this By-law, the provisions of this By-law shall prevail, to the extent of the inconsistency.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-20">
+        <num>20.</num>
+        <heading>Short title</heading>
+        <subsection id="section-20.subsection-0">
+          <content>
+            <p>This By-law is called the <term refersTo="#term-City" id="trm106">City</term> of Cape Town: Public Parks By-law, 2010.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+  <components>
+    <component id="component-1">
+      <doc name="schedule1">
+        <meta>
+          <identification source="#openbylaws">
+            <FRBRWork>
+              <FRBRthis value="/za-cpt/act/by-law/2010/public-parks/schedule1"/>
+              <FRBRuri value="/za-cpt/act/by-law/2010/public-parks"/>
+              <FRBRalias value="Schedule 1"/>
+              <FRBRdate date="2010-08-26" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-cpt/act/by-law/2010/public-parks/eng@2010-09-10/schedule1"/>
+              <FRBRuri value="/za-cpt/act/by-law/2010/public-parks/eng@2010-09-10"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-cpt/act/by-law/2010/public-parks/eng@2010-09-10/schedule1"/>
+              <FRBRuri value="/za-cpt/act/by-law/2010/public-parks/eng@2010-09-10"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#openbylaws" as="#author"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule-1">
+            <heading>Symbols / Pictograms for use on park notice boards</heading>
+            <section id="schedule-1.section-0">
+              <content>
+                <table id="schedule-1.table-0">
+                  <tr>
+                    <th>
+                      <p>No</p>
+                    </th>
+                    <th>
+                      <p>Interpretation of Symbol</p>
+                    </th>
+                    <th>
+                      <p>Betekenis van Simbool</p>
+                    </th>
+                    <th>
+                      <p>Intsingiselo Yomqondiso</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>1</p>
+                    </td>
+                    <td>
+                      <p>City of Cape Town emblem</p>
+                    </td>
+                    <td>
+                      <p>Stad Kaapstad-embleem</p>
+                    </td>
+                    <td>
+                      <p>Iimbasa yeSixeko saseKapa</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>2</p>
+                    </td>
+                    <td>
+                      <p>Potable water</p>
+                    </td>
+                    <td>
+                      <p>Drinkwater</p>
+                    </td>
+                    <td>
+                      <p>Amanzi aselwayo</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>3</p>
+                    </td>
+                    <td>
+                      <p>First aid</p>
+                    </td>
+                    <td>
+                      <p>Noodhulp</p>
+                    </td>
+                    <td>
+                      <p>Uncedo lokuqala</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>4</p>
+                    </td>
+                    <td>
+                      <p>Directional sign</p>
+                    </td>
+                    <td>
+                      <p>Rigtingwyser</p>
+                    </td>
+                    <td>
+                      <p>Umqondiso owalathisayo</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>5</p>
+                    </td>
+                    <td>
+                      <p>Toilets</p>
+                    </td>
+                    <td>
+                      <p>Toilette</p>
+                    </td>
+                    <td>
+                      <p>Izindlu zangasese</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>6</p>
+                    </td>
+                    <td>
+                      <p>Ladies</p>
+                    </td>
+                    <td>
+                      <p>Dames</p>
+                    </td>
+                    <td>
+                      <p>Amanenekazi</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>7</p>
+                    </td>
+                    <td>
+                      <p>Gents</p>
+                    </td>
+                    <td>
+                      <p>Mans</p>
+                    </td>
+                    <td>
+                      <p>Amanene</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>8</p>
+                    </td>
+                    <td>
+                      <p>Litter bin</p>
+                    </td>
+                    <td>
+                      <p>Vullisdrom</p>
+                    </td>
+                    <td>
+                      <p>Umgqomo wenkunkuma</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>9</p>
+                    </td>
+                    <td>
+                      <p>Pedestrians</p>
+                    </td>
+                    <td>
+                      <p>Voetgangers</p>
+                    </td>
+                    <td>
+                      <p>Abahambi ngeenyawo</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>10</p>
+                    </td>
+                    <td>
+                      <p>Jogging</p>
+                    </td>
+                    <td>
+                      <p>Draf</p>
+                    </td>
+                    <td>
+                      <p>Ukunkcunkca</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>11</p>
+                    </td>
+                    <td>
+                      <p>Hiking</p>
+                    </td>
+                    <td>
+                      <p>Voetslaan</p>
+                    </td>
+                    <td>
+                      <p>Uhambo lokusela umoya</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>12</p>
+                    </td>
+                    <td>
+                      <p>Cycling</p>
+                    </td>
+                    <td>
+                      <p>Fietsry</p>
+                    </td>
+                    <td>
+                      <p>Ukukhwela ibhayisikile</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>13</p>
+                    </td>
+                    <td>
+                      <p>Mountain bikes</p>
+                    </td>
+                    <td>
+                      <p>Bergfietse</p>
+                    </td>
+                    <td>
+                      <p>Iibhayisikili zokonyuka intaba</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>14</p>
+                    </td>
+                    <td>
+                      <p>Motor bikes</p>
+                    </td>
+                    <td>
+                      <p>Motorfietse</p>
+                    </td>
+                    <td>
+                      <p>Izithuthuthu</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>15</p>
+                    </td>
+                    <td>
+                      <p>Scramblers</p>
+                    </td>
+                    <td>
+                      <p>Veldmotorfietse</p>
+                    </td>
+                    <td>
+                      <p>Abahamba kwiindawo ezingamaxethuka</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>16</p>
+                    </td>
+                    <td>
+                      <p>Quad bikes</p>
+                    </td>
+                    <td>
+                      <p>Vierwielmotorfietse</p>
+                    </td>
+                    <td>
+                      <p>Izithuthuthu ezinxaneQuad bikes</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>17</p>
+                    </td>
+                    <td>
+                      <p>Motor vehicles</p>
+                    </td>
+                    <td>
+                      <p>Motorvoertuie</p>
+                    </td>
+                    <td>
+                      <p>Iinqwelo-mafutha</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>18</p>
+                    </td>
+                    <td>
+                      <p>Busses</p>
+                    </td>
+                    <td>
+                      <p>Busse</p>
+                    </td>
+                    <td>
+                      <p>Iibhasi</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>19</p>
+                    </td>
+                    <td>
+                      <p>Parking</p>
+                    </td>
+                    <td>
+                      <p>Parkering</p>
+                    </td>
+                    <td>
+                      <p>Iindawo zokupaka</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>20</p>
+                    </td>
+                    <td>
+                      <p>Horse riding</p>
+                    </td>
+                    <td>
+                      <p>Perdry</p>
+                    </td>
+                    <td>
+                      <p>Indawo yokukhwela amahashe</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>21</p>
+                    </td>
+                    <td>
+                      <p>Swimming</p>
+                    </td>
+                    <td>
+                      <p>Swem</p>
+                    </td>
+                    <td>
+                      <p>Indawo yokudada</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>22</p>
+                    </td>
+                    <td>
+                      <p>Fishing</p>
+                    </td>
+                    <td>
+                      <p>Hengel</p>
+                    </td>
+                    <td>
+                      <p>Indawo yokuloba</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>23</p>
+                    </td>
+                    <td>
+                      <p>Boardsailing</p>
+                    </td>
+                    <td>
+                      <p>Seilplankry</p>
+                    </td>
+                    <td>
+                      <p>Ukuhamba ngesikhephe esiqhutywa ngumoya</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>24</p>
+                    </td>
+                    <td>
+                      <p>Sailing</p>
+                    </td>
+                    <td>
+                      <p>Seil</p>
+                    </td>
+                    <td>
+                      <p>Ukuhamba ngesikhephe</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>25</p>
+                    </td>
+                    <td>
+                      <p>Boating</p>
+                    </td>
+                    <td>
+                      <p>Skuitvaar/roei</p>
+                    </td>
+                    <td>
+                      <p>Ukuhamba ngephenyane</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>26</p>
+                    </td>
+                    <td>
+                      <p>Boat-launching ramp</p>
+                    </td>
+                    <td>
+                      <p>Bootlanseerhelling</p>
+                    </td>
+                    <td>
+                      <p>Ithambeka lenqanawa eweza abantu emlanjeni</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>27</p>
+                    </td>
+                    <td>
+                      <p>Camping</p>
+                    </td>
+                    <td>
+                      <p>Kampering</p>
+                    </td>
+                    <td>
+                      <p>Ukuhlala endle/ukukampisha</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>28</p>
+                    </td>
+                    <td>
+                      <p>Caravans</p>
+                    </td>
+                    <td>
+                      <p>Woonwaens</p>
+                    </td>
+                    <td>
+                      <p>Uhambo ngekharavan</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>29</p>
+                    </td>
+                    <td>
+                      <p>Fire in fireplaces</p>
+                    </td>
+                    <td>
+                      <p>Vuurmaak in vuurmaakplekke</p>
+                    </td>
+                    <td>
+                      <p>Umlilo kumaziko</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>30</p>
+                    </td>
+                    <td>
+                      <p>Picnic site</p>
+                    </td>
+                    <td>
+                      <p>Piekniekterrein</p>
+                    </td>
+                    <td>
+                      <p>Indawo yepikniki</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>31</p>
+                    </td>
+                    <td>
+                      <p>Dogs</p>
+                    </td>
+                    <td>
+                      <p>Honde</p>
+                    </td>
+                    <td>
+                      <p>Izinja</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>32</p>
+                    </td>
+                    <td>
+                      <p>Dogs on leash</p>
+                    </td>
+                    <td>
+                      <p>Honde aan leibande</p>
+                    </td>
+                    <td>
+                      <p>Izinja ezilawulwa ngeminxeba</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>33</p>
+                    </td>
+                    <td>
+                      <p>Remove dog faeces</p>
+                    </td>
+                    <td>
+                      <p>Verwyder honde-ontlasting</p>
+                    </td>
+                    <td>
+                      <p>Yisuse ituwa yenja</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>34</p>
+                    </td>
+                    <td>
+                      <p>Roller skating</p>
+                    </td>
+                    <td>
+                      <p>Rolskaats</p>
+                    </td>
+                    <td>
+                      <p>Umdlalo wokutyibiliza ngezihlangu ezinamavili</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>35</p>
+                    </td>
+                    <td>
+                      <p>Skateboarding</p>
+                    </td>
+                    <td>
+                      <p>Skaatsplankry</p>
+                    </td>
+                    <td>
+                      <p>Ukutyibiliza ngeplanga</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>36</p>
+                    </td>
+                    <td>
+                      <p>Hang-gliding</p>
+                    </td>
+                    <td>
+                      <p>Hangsweef</p>
+                    </td>
+                    <td>
+                      <p>Ukubhabha ngesiwuza</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>37</p>
+                    </td>
+                    <td>
+                      <p>Café/Take away</p>
+                    </td>
+                    <td>
+                      <p>Kafee/wegneemetes</p>
+                    </td>
+                    <td>
+                      <p>Ekhefi</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>38</p>
+                    </td>
+                    <td>
+                      <p>Tea-room</p>
+                    </td>
+                    <td>
+                      <p>Teekamer</p>
+                    </td>
+                    <td>
+                      <p>Igumbi lokuphungela</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>39</p>
+                    </td>
+                    <td>
+                      <p>Restaurant</p>
+                    </td>
+                    <td>
+                      <p>Restaurant</p>
+                    </td>
+                    <td>
+                      <p>Erestyu</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>40</p>
+                    </td>
+                    <td>
+                      <p>Prohibition</p>
+                    </td>
+                    <td>
+                      <p>Verbod</p>
+                    </td>
+                    <td>
+                      <p>Isithintelo</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>41</p>
+                    </td>
+                    <td>
+                      <p>No overnight stay</p>
+                    </td>
+                    <td>
+                      <p>Oornagverblyf verbode</p>
+                    </td>
+                    <td>
+                      <p>Akuvumelekanga ukulala apha</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>42</p>
+                    </td>
+                    <td>
+                      <p>No fires</p>
+                    </td>
+                    <td>
+                      <p>Vuurmaak verbode</p>
+                    </td>
+                    <td>
+                      <p>Ayivumelekanga imililo</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>43</p>
+                    </td>
+                    <td>
+                      <p>No portable barbecue appliances</p>
+                    </td>
+                    <td>
+                      <p>Draagbare braaitoestelle verbode</p>
+                    </td>
+                    <td>
+                      <p>Azivumelekanga izixhobo zokosa inyama eziphathekayo</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>44</p>
+                    </td>
+                    <td>
+                      <p>No hunting</p>
+                    </td>
+                    <td>
+                      <p>Jag verbode</p>
+                    </td>
+                    <td>
+                      <p>Akuvumelekanga ukuzingela</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>45</p>
+                    </td>
+                    <td>
+                      <p>No firearms</p>
+                    </td>
+                    <td>
+                      <p>Vuurwapens verbode</p>
+                    </td>
+                    <td>
+                      <p>Ayivumelekanga imipu</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>46</p>
+                    </td>
+                    <td>
+                      <p>No bow and arrow shooting</p>
+                    </td>
+                    <td>
+                      <p>Pyl-en-boogskiet verbode</p>
+                    </td>
+                    <td>
+                      <p>Akuvumelekanga ukudubula ngotolo nesaphetha</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>47</p>
+                    </td>
+                    <td>
+                      <p>No catapults</p>
+                    </td>
+                    <td>
+                      <p>Ketties verbode</p>
+                    </td>
+                    <td>
+                      <p>Azivumelekanga izilinge</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>48</p>
+                    </td>
+                    <td>
+                      <p>No stone-throwing</p>
+                    </td>
+                    <td>
+                      <p>Klipgooiery verbode</p>
+                    </td>
+                    <td>
+                      <p>Akuvumelekanga ukugibisela amatye</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>49</p>
+                    </td>
+                    <td>
+                      <p>No flower picking</p>
+                    </td>
+                    <td>
+                      <p>Blompluk verbode</p>
+                    </td>
+                    <td>
+                      <p>Akuvumelekanga ukukhiwa kweentyantyambo</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>50</p>
+                    </td>
+                    <td>
+                      <p>No dumping</p>
+                    </td>
+                    <td>
+                      <p>Storting verbode</p>
+                    </td>
+                    <td>
+                      <p>Akuvumelekanga ukulahla inkunkuma</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>51</p>
+                    </td>
+                    <td>
+                      <p>No golf</p>
+                    </td>
+                    <td>
+                      <p>Gholf verbode</p>
+                    </td>
+                    <td>
+                      <p>Akuvumelekanga ukudlala igalufa</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>52</p>
+                    </td>
+                    <td>
+                      <p>No radios, tape or CD players</p>
+                    </td>
+                    <td>
+                      <p>Radios en band- of CD-spelers verbode</p>
+                    </td>
+                    <td>
+                      <p>Abavumelekanga oonomathotholo, iteyiphu okanye ezo zidlala amacwecwe</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>53</p>
+                    </td>
+                    <td>
+                      <p>No washing or drying of clothes</p>
+                    </td>
+                    <td>
+                      <p>Klerewas en -droogmaak verbode</p>
+                    </td>
+                    <td>
+                      <p>Akuvumelekanga ukuhlamba okanye ukuxhoma impahla</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>54</p>
+                    </td>
+                    <td>
+                      <p>No fireworks</p>
+                    </td>
+                    <td>
+                      <p>Vuurwerk verbode</p>
+                    </td>
+                    <td>
+                      <p>Azivumelekanga izitakantlantsi</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>55</p>
+                    </td>
+                    <td>
+                      <p>No drugs or alcohol</p>
+                    </td>
+                    <td>
+                      <p>Dwelms en alkohol verbode</p>
+                    </td>
+                    <td>
+                      <p>Azivumelekanga iziyobisi okanye utywala</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>56</p>
+                    </td>
+                    <td>
+                      <p>No damaging of vegetation</p>
+                    </td>
+                    <td>
+                      <p>Beskadiging van plantegroei verbode</p>
+                    </td>
+                    <td>
+                      <p>Akuvumelekanga ukutshabalalisa izityalo</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>57</p>
+                    </td>
+                    <td>
+                      <p>Opening times</p>
+                    </td>
+                    <td>
+                      <p>Oopmaaktye</p>
+                    </td>
+                    <td>
+                      <p>Amaxesha okuvula</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>58</p>
+                    </td>
+                    <td>
+                      <p>Closing times</p>
+                    </td>
+                    <td>
+                      <p>Sluitingstye</p>
+                    </td>
+                    <td>
+                      <p>Amaxesha okuvala</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>59</p>
+                    </td>
+                    <td>
+                      <p>No supermarket or other trolleys</p>
+                    </td>
+                    <td>
+                      <p>Supermark- of ander trollies verbode</p>
+                    </td>
+                    <td>
+                      <p>Akufuneki zitroli zasesuphamakethi okanye ezingezinye</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>60</p>
+                    </td>
+                    <td>
+                      <p>No washing of the body</p>
+                    </td>
+                    <td>
+                      <p>Lyfwas verbode</p>
+                    </td>
+                    <td>
+                      <p>Akuhlanjwa umzimba apha</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>61</p>
+                    </td>
+                    <td>
+                      <p>No graffiti</p>
+                    </td>
+                    <td>
+                      <p>Graffiti verbode</p>
+                    </td>
+                    <td>
+                      <p>Akufuneki mibhalo eludongeni/igrafithi</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Note</p>
+                    </td>
+                    <td>
+                      <p>Let wel</p>
+                    </td>
+                    <td>
+                      <p>Qaphela</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>All symbols are in green detail on a white background with a red border. If a symbol is displayed with a red border and red diagonal slash (no 40) it implies that the activity concerned is prohibited</p>
+                    </td>
+                    <td>
+                      <p>Alle simbole verskyn in groen, op ’n wit agtergrond met ’n rooi rand. Indien ’n simbool ’n rooi rand en ’n rooi skuinsstreep daardeur het (nr. 40), is die betrokke aktiwiteit verbode.</p>
+                    </td>
+                    <td>
+                      <p>Yonke imiqondiso izotywe luhlaza kumgangatho omhlophe ezotywe kuwo nomqukumbelo obomvu. Xa umqondiso uveliswe unomqukumbelo obumvu kunye nomgca okrwelwe ngokuxwesileyo (nomb. 40) oku kuthetha ukuba lo msetyenzana kubhekiselelwe kuwo awuvumelekanga</p>
+                    </td>
+                  </tr>
+                </table>
+              </content>
+            </section>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+    <component id="component-2">
+      <doc name="schedule2">
+        <meta>
+          <identification source="#openbylaws">
+            <FRBRWork>
+              <FRBRthis value="/za-cpt/act/by-law/2010/public-parks/schedule2"/>
+              <FRBRuri value="/za-cpt/act/by-law/2010/public-parks"/>
+              <FRBRalias value="Schedule 2"/>
+              <FRBRdate date="2010-08-26" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-cpt/act/by-law/2010/public-parks/eng@2010-09-10/schedule2"/>
+              <FRBRuri value="/za-cpt/act/by-law/2010/public-parks/eng@2010-09-10"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-cpt/act/by-law/2010/public-parks/eng@2010-09-10/schedule2"/>
+              <FRBRuri value="/za-cpt/act/by-law/2010/public-parks/eng@2010-09-10"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#openbylaws" as="#author"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule-2">
+            <heading>List of By-laws to be Repealed</heading>
+            <section id="schedule-2.section-0">
+              <content>
+                <table id="schedule-2.table-0">
+                  <tr>
+                    <th>
+                      <p>No P.N. Number</p>
+                    </th>
+                    <th>
+                      <p>Name of the By-law</p>
+                    </th>
+                    <th>
+                      <p>Extent of Repeal</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>414/1999</p>
+                    </td>
+                    <td>
+                      <p>City of Tygerberg: By-law relating to Public Amenities</p>
+                    </td>
+                    <td>
+                      <p>The whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>137/1987</p>
+                    </td>
+                    <td>
+                      <p>Gordon’s Bay Municipality: By-law relating to Parks and Public Places</p>
+                    </td>
+                    <td>
+                      <p>The whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>568/2000</p>
+                    </td>
+                    <td>
+                      <p>Oosternberg Municipality: By-law relating to Public Amenities</p>
+                    </td>
+                    <td>
+                      <p>The whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>391/1979 as amended by 85/1981 and 833/1990</p>
+                    </td>
+                    <td>
+                      <p>Somerset West Municipality: By-law relating to the Helderberg Nature Reserve</p>
+                    </td>
+                    <td>
+                      <p>The whole</p>
+                    </td>
+                  </tr>
+                </table>
+              </content>
+            </section>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>

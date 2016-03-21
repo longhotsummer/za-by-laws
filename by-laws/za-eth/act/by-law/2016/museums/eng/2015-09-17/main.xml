@@ -1,0 +1,728 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-eth/act/by-law/2016/museums/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2016/museums"/>
+          <FRBRalias value="eThekwini Museums By-law, 2015"/>
+          <FRBRdate date="2015-09-17" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-eth/act/by-law/2016/museums/eng@2015-09-17/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2016/museums/eng@2015-09-17"/>
+          <FRBRdate date="2015-09-17" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-eth/act/by-law/2016/museums/eng@2015-09-17/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2016/museums/eng@2015-09-17"/>
+          <FRBRdate date="2016-03-19" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-09-17" name="KwaZulu-Natal Provincial Gazette" showAs="KwaZulu-Natal Provincial Gazette" number="1492"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-art" href="/ontology/term/this.eng.art" showAs="art"/>
+        <TLCTerm id="term-authorised_official" href="/ontology/term/this.eng.authorised_official" showAs="authorised official"/>
+        <TLCTerm id="term-collection" href="/ontology/term/this.eng.collection" showAs="collection"/>
+        <TLCTerm id="term-Constitution" href="/ontology/term/this.eng.Constitution" showAs="Constitution"/>
+        <TLCTerm id="term-council" href="/ontology/term/this.eng.council" showAs="council"/>
+        <TLCTerm id="term-Director" href="/ontology/term/this.eng.Director" showAs="Director"/>
+        <TLCTerm id="term-exhibit" href="/ontology/term/this.eng.exhibit" showAs="exhibit"/>
+        <TLCTerm id="term-flash_photography" href="/ontology/term/this.eng.flash_photography" showAs="flash photography"/>
+        <TLCTerm id="term-Municipality" href="/ontology/term/this.eng.Municipality" showAs="Municipality"/>
+        <TLCTerm id="term-Municipal_Manager" href="/ontology/term/this.eng.Municipal_Manager" showAs="Municipal Manager"/>
+        <TLCTerm id="term-museum" href="/ontology/term/this.eng.museum" showAs="museum"/>
+        <TLCTerm id="term-museum_object" href="/ontology/term/this.eng.museum_object" showAs="museum object"/>
+        <TLCTerm id="term-prescribed" href="/ontology/term/this.eng.prescribed" showAs="prescribed"/>
+        <TLCTerm id="term-special_collection" href="/ontology/term/this.eng.special_collection" showAs="special collection"/>
+        <TLCTerm id="term-visitor" href="/ontology/term/this.eng.visitor" showAs="visitor"/>
+      </references>
+    </meta>
+    <preface>
+      <p>To contribute towards the preservation and exhibition of art and objects of natural, historical, scientific, artistic or cultural importance; to promote education and research; to regulate the operation and use of museums; to determine the duties and powers of Directors of museums; to create offences and penalties; to provide for the repeal of laws and savings; and to provide for matters incidental thereto.</p>
+    </preface>
+    <preamble>
+      <p>WHEREAS the Municipality recognises the contribution that museums make to preserving and developing art and objects of natural, historical, scientific, artistic or cultural importance;</p>
+      <p>WHEREAS the Municipality has competence in terms of Part B of Schedule 5 of the Constitution of the Republic of South Africa, 1996, to control local amenities;</p>
+      <p>AND WHEREAS the eThekwini Municipality has competence, in terms of section 156 (2) of the Constitution of the Republic of South Africa, 1996, to make and administer By-laws for the effective administration of the matters which it has the right to administer; and</p>
+      <p>NOW THEREFORE the eThekwini municipal council, acting in terms of section 156 read with Part B of Schedule 5 of the Constitution of the Republic of South Africa, 1996, and read with section 11 of the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000), hereby makes the following By-law:</p>
+    </preamble>
+    <body>
+      <chapter id="chapter-1">
+        <num>1</num>
+        <heading>Interpretation</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <paragraph id="section-1.paragraph-0" refersTo="#term-visitor">
+            <content>
+              <p>In this By-law, unless the context indicates otherwise –</p>
+              <p>"<def refersTo="#term-art">art</def>" means items of visual <term refersTo="#term-art" id="trm0">art</term> including, but not limited to, ceramics, sculptures, drawings, paintings, prints, designs, crafts, photography and videos;</p>
+              <blockList id="section-1.paragraph-0.list3" refersTo="#term-authorised_official">
+                <listIntroduction>"<def refersTo="#term-authorised_official">authorised official</def>" means a person authorised to implement the provisions of this By-law, including but not limited to –</listIntroduction>
+                <item id="section-1.paragraph-0.list3.a">
+                  <num>(a)</num>
+                  <p>peace officers as contemplated in section 334 of the Criminal Procedure Act,1977 (Act No. 51 of 1977);</p>
+                </item>
+                <item id="section-1.paragraph-0.list3.b">
+                  <num>(b)</num>
+                  <p>municipal or metropolitan police officers as contemplated in the South African Police Service Act, 1995 (Act No. 68 of 1995); and</p>
+                </item>
+                <item id="section-1.paragraph-0.list3.c">
+                  <num>(c)</num>
+                  <p>such employees, agents, delegated nominees, representatives and service providers of the <term refersTo="#term-Municipality" id="trm1">Municipality</term> as are specifically authorised by the <term refersTo="#term-Municipality" id="trm2">Municipality</term> in this regard: Provided that for the purposes of search and seizure, where such person is not a peace officer, such person must be accompanied by a peace officer;</p>
+                </item>
+              </blockList>
+              <p>"<def refersTo="#term-collection">collection</def>" means a <term refersTo="#term-collection" id="trm3">collection</term> of <term refersTo="#term-art" id="trm4">art</term>, <term refersTo="#term-museum" id="trm5">museum</term> objects, specimens and any exhibition for display or research purposes;</p>
+              <p>"<def refersTo="#term-Constitution">Constitution</def>" means the <term refersTo="#term-Constitution" id="trm6">Constitution</term> of the Republic of South Africa, 1996;</p>
+              <p>"<def refersTo="#term-council">council</def>" means the eThekwini municipal <term refersTo="#term-council" id="trm7">council</term>, a municipal <term refersTo="#term-council" id="trm8">council</term> referred to in section 157(1) of the <term refersTo="#term-Constitution" id="trm9">Constitution</term>;</p>
+              <p>"<def refersTo="#term-Director">Director</def>" means the person designated by the <term refersTo="#term-Municipality" id="trm10">Municipality</term> as being in charge of a <term refersTo="#term-museum" id="trm11">museum</term>;</p>
+              <p>"<def refersTo="#term-exhibit">exhibit</def>" means to display <term refersTo="#term-art" id="trm12">art</term> or <term refersTo="#term-museum" id="trm13">museum</term> objects for viewing by the public in a <term refersTo="#term-museum" id="trm14">museum</term>;</p>
+              <p>"<def refersTo="#term-flash_photography">flash photography</def>" refers to the taking of photos or videos where a flash is fired;</p>
+              <p>"<def refersTo="#term-Municipality">Municipality</def>" means the eThekwini <term refersTo="#term-Municipality" id="trm15">Municipality</term>, a category A <term refersTo="#term-Municipality" id="trm16">Municipality</term> as envisaged in terms of section 155(1) of the <term refersTo="#term-Constitution" id="trm17">Constitution</term> and established in terms of Provincial Notice No. 43 of 2000 (KZN);</p>
+              <p>"<def refersTo="#term-Municipal_Manager">Municipal Manager</def>" means a person appointed in terms of section 54A of the Municipal Systems Act;</p>
+              <p>"<def refersTo="#term-museum">museum</def>" means any space which is identified by the <term refersTo="#term-Municipality" id="trm18">Municipality</term> for the preservation and exhibition of <term refersTo="#term-art" id="trm19">art</term> or <term refersTo="#term-museum" id="trm20">museum</term> objects;</p>
+              <p>"<def refersTo="#term-museum_object">museum object</def>" means an object of natural, historical, scientific, artistic or cultural importance including a specimen and relevant electronic media;</p>
+              <p>"<def refersTo="#term-prescribed">prescribed</def>" means as determined by resolution of the <term refersTo="#term-council" id="trm21">council</term>;</p>
+              <p>"<def refersTo="#term-special_collection">special collection</def>" means a section of a <term refersTo="#term-museum" id="trm22">museum</term> where <term refersTo="#term-art" id="trm23">art</term> or <term refersTo="#term-museum" id="trm24">museum</term> objects are kept which cannot be made available for exhibition to the public without restriction, whether by reason of their value, rarity, fragility or otherwise; and</p>
+              <p>"<def refersTo="#term-visitor">visitor</def>" means a person who visits a <term refersTo="#term-museum" id="trm25">museum</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Interpretation of By-law</heading>
+          <paragraph id="section-2.paragraph-0">
+            <content>
+              <p>If there is a conflict of interpretation between the English version of this By-law and a translated version, the English version prevails.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Objects of By-law</heading>
+          <paragraph id="section-3.paragraph-0">
+            <content>
+              <blockList id="section-3.paragraph-0.list1">
+                <listIntroduction>The object of this By-law is to ensure the operation of museums in a manner which–</listIntroduction>
+                <item id="section-3.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>preserves and develops <term refersTo="#term-art" id="trm26">art</term> and objects of natural, historical, scientific, artistic or cultural importance;</p>
+                </item>
+                <item id="section-3.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>promotes research and education; and</p>
+                </item>
+                <item id="section-3.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>ensures the sustainability of museums.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Application of By-law</heading>
+          <paragraph id="section-4.paragraph-0">
+            <content>
+              <p>This By-law applies to all areas which fall under the jurisdiction of the eThekwini <term refersTo="#term-Municipality" id="trm27">Municipality</term> and is binding on all persons to the extent applicable.</p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+      <chapter id="chapter-2">
+        <num>2</num>
+        <heading>Operation of museums</heading>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Functions and powers of Directors</heading>
+          <subsection id="section-5.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-Director" id="trm28">Director</term> has the authority to manage a <term refersTo="#term-museum" id="trm29">museum</term>, and to control the day-to-day operations of that <term refersTo="#term-museum" id="trm30">museum</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-Director" id="trm31">Director</term> may exercise any power or perform any other duties granted to him or her, in accordance with this By-law and any policy adopted by the <term refersTo="#term-council" id="trm32">council</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Museum opening hours</heading>
+          <subsection id="section-6.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-6.1.list1">
+                <listIntroduction>Each <term refersTo="#term-museum" id="trm33">museum</term>’s opening and closing times must be –</listIntroduction>
+                <item id="section-6.1.list1.a">
+                  <num>(a)</num>
+                  <p>determined by the <term refersTo="#term-Municipality" id="trm34">Municipality</term>; and</p>
+                </item>
+                <item id="section-6.1.list1.b">
+                  <num>(b)</num>
+                  <p>displayed on a sign at the entrance of the <term refersTo="#term-museum" id="trm35">museum</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-6.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm36">Municipality</term> may determine different opening and closing times for different museums.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-Director" id="trm37">Director</term> may temporarily close a <term refersTo="#term-museum" id="trm38">museum</term> for stock take, maintenance or any other purpose.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.4">
+            <num>(4)</num>
+            <content>
+              <p>Any period of temporary closure must be advertised on a sign at the entrance to the affected <term refersTo="#term-museum" id="trm39">museum</term> for not less than seven calendar days prior to the closure.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.5">
+            <num>(5)</num>
+            <content>
+              <p>A member of the public may not enter a <term refersTo="#term-museum" id="trm40">museum</term> outside of the opening hours or when the <term refersTo="#term-museum" id="trm41">museum</term> is temporarily closed.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Access to museums</heading>
+          <subsection id="section-7.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-7.1.list1">
+                <listIntroduction>Access to a <term refersTo="#term-museum" id="trm42">museum</term> is –</listIntroduction>
+                <item id="section-7.1.list1.a">
+                  <num>(a)</num>
+                  <p>available to any member of the public during opening hours, subject to the provisions of this By-law and any policy made by the <term refersTo="#term-council" id="trm43">council</term>; and</p>
+                </item>
+                <item id="section-7.1.list1.b">
+                  <num>(b)</num>
+                  <p>free of any charge, unless the <term refersTo="#term-council" id="trm44">council</term> has determined that an entrance fee is payable and this fact is advertised on a sign at the entrance to the affected <term refersTo="#term-museum" id="trm45">museum</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Order to leave a <term refersTo="#term-museum" id="trm46">museum</term></heading>
+          <paragraph id="section-8.paragraph-0">
+            <content>
+              <p>Any person who contravenes any provision of this By-law, or any policy adopted by the <term refersTo="#term-council" id="trm47">council</term> may, in addition to any fine which may be imposed, be ordered to leave a <term refersTo="#term-museum" id="trm48">museum</term> by the <term refersTo="#term-Director" id="trm49">Director</term> or by any other <term refersTo="#term-authorised_official" id="trm50">authorised official</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Policies</heading>
+          <paragraph id="section-9.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-council" id="trm51">council</term> may adopt and amend policies relating to any matter relevant to the establishment and operation of a <term refersTo="#term-museum" id="trm52">museum</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>Exhibitions in museums</heading>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Photography</heading>
+          <subsection id="section-10.1">
+            <num>(1)</num>
+            <content>
+              <p>Flash photography is prohibited in a <term refersTo="#term-museum" id="trm53">museum</term> except with the prior written consent of the <term refersTo="#term-Director" id="trm54">Director</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-10.2">
+            <num>(2)</num>
+            <content>
+              <p>No photograph or video taken in a <term refersTo="#term-museum" id="trm55">museum</term> may be published without prior written consent of the <term refersTo="#term-Director" id="trm56">Director</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Touching</heading>
+          <paragraph id="section-11.paragraph-0">
+            <content>
+              <p>No person may touch a <term refersTo="#term-museum_object" id="trm57">museum object</term> in a <term refersTo="#term-museum" id="trm58">museum</term>, or the case or stand in or on which such object is exhibited, unless the <term refersTo="#term-exhibit" id="trm59">exhibit</term> is specifically designated by a sign as being interactive.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Preservation and security</heading>
+          <paragraph id="section-12.paragraph-0">
+            <content>
+              <p>A <term refersTo="#term-Director" id="trm60">Director</term> may take all reasonable steps, and impose any reasonable restrictions on visitors to a <term refersTo="#term-museum" id="trm61">museum</term>, as may be necessary to preserve and secure any <term refersTo="#term-museum_object" id="trm62">museum object</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+      <chapter id="chapter-4">
+        <num>4</num>
+        <heading>Loans of <term refersTo="#term-museum" id="trm63">museum</term> objects</heading>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Loans</heading>
+          <subsection id="section-13.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-Director" id="trm64">Director</term> may, in accordance with a policy adopted by the <term refersTo="#term-council" id="trm65">council</term>, loan <term refersTo="#term-museum" id="trm66">museum</term> objects to individuals or institutions for research, education or exhibition purposes.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.3">
+            <num>(3)</num>
+            <content>
+              <p>A <term refersTo="#term-Director" id="trm67">Director</term> may charge a <term refersTo="#term-prescribed" id="trm68">prescribed</term> fee for the loan of a <term refersTo="#term-museum_object" id="trm69">museum object</term> to an individual or institution.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.2">
+            <num>(2)</num>
+            <content>
+              <p>Any loan of a <term refersTo="#term-museum_object" id="trm70">museum object</term> is subject to such additional conditions regarding security, insurance, transport, storage and exhibition as may be deemed necessary by the <term refersTo="#term-Director" id="trm71">Director</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>Liability to return items</heading>
+          <subsection id="section-14.1">
+            <num>(1)</num>
+            <content>
+              <p>Any individual or institution which borrows a <term refersTo="#term-museum_object" id="trm72">museum object</term> is liable for the return of that object in the same condition as it was in when it was lent.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.2">
+            <num>(2)</num>
+            <content>
+              <p>An individual or institution which returns a borrowed <term refersTo="#term-museum_object" id="trm73">museum object</term> in a poorer condition than the condition in which it was lent is liable for the costs of repairing or replacing that object, as may be required.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm74">Municipality</term> must give written notice to the individual or institution concerned, recording the damage and requiring payment of the amount required to repair or replace the object.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.4">
+            <num>(4)</num>
+            <content>
+              <p>If the amount referred to in subsection (3) is not paid within the time period specified in the notice, the <term refersTo="#term-Municipality" id="trm75">Municipality</term> may repair or replace the object itself, and recover the amount claimed from the individual or institution.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-5">
+        <num>5</num>
+        <heading>Hiring exhibition space in museums</heading>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Hire of exhibition space</heading>
+          <subsection id="section-15.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-Director" id="trm76">Director</term> may, in accordance with a policy adopted by the <term refersTo="#term-council" id="trm77">council</term>, hire exhibition space in a <term refersTo="#term-museum" id="trm78">museum</term> to individuals or institutions.</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.2">
+            <num>(2)</num>
+            <content>
+              <p>Any hire of exhibition space is subject to such additional conditions as may be deemed necessary by the <term refersTo="#term-Director" id="trm79">Director</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-15.3.list1">
+                <listIntroduction>Any individual who, or institution which, hires exhibition space in a <term refersTo="#term-museum" id="trm80">museum</term>–</listIntroduction>
+                <item id="section-15.3.list1.a">
+                  <num>(a)</num>
+                  <p>is liable for the conduct of its employees, agents and guests in the <term refersTo="#term-museum" id="trm81">museum</term>;</p>
+                </item>
+                <item id="section-15.3.list1.b">
+                  <num>(b)</num>
+                  <p>must timeously vacate the exhibition space; and</p>
+                </item>
+                <item id="section-15.3.list1.c">
+                  <num>(c)</num>
+                  <p>must return the exhibition space to the <term refersTo="#term-Director" id="trm82">Director</term> in the same condition it was in when the space was made available.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-15.4">
+            <num>(4)</num>
+            <content>
+              <p>An individual or institution is liable for any costs incurred by the <term refersTo="#term-Municipality" id="trm83">Municipality</term> in cleaning, repairing or otherwise restoring an exhibition space which is not returned in the same condition as it was when made available.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-6">
+        <num>6</num>
+        <heading>Special collections and restricted areas</heading>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Special collections</heading>
+          <subsection id="section-16.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-Director" id="trm84">Director</term> may designate any <term refersTo="#term-museum_object" id="trm85">museum object</term> as a <term refersTo="#term-special_collection" id="trm86">special collection</term> which is available for exhibition or research to visitors on a restricted basis and under the supervision of the <term refersTo="#term-Director" id="trm87">Director</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-16.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-16.2.list1">
+                <listIntroduction>A <term refersTo="#term-visitor" id="trm88">visitor</term> may only access a <term refersTo="#term-special_collection" id="trm89">special collection</term> –</listIntroduction>
+                <item id="section-16.2.list1.a">
+                  <num>(a)</num>
+                  <p>on written application in the <term refersTo="#term-prescribed" id="trm90">prescribed</term> form;</p>
+                </item>
+                <item id="section-16.2.list1.b">
+                  <num>(b)</num>
+                  <p>at times designated by the <term refersTo="#term-Director" id="trm91">Director</term>; and</p>
+                </item>
+                <item id="section-16.2.list1.c">
+                  <num>(c)</num>
+                  <p>subject to any other requirements that may be imposed by the <term refersTo="#term-Director" id="trm92">Director</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Restricted areas</heading>
+          <subsection id="section-17.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-Director" id="trm93">Director</term> may exclude visitors from the <term refersTo="#term-museum" id="trm94">museum</term> or part thereof which is designated as a restricted area and is only accessible to staff of the <term refersTo="#term-museum" id="trm95">museum</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-17.2">
+            <num>(2)</num>
+            <content>
+              <p>A person may not enter a restricted area in a <term refersTo="#term-museum" id="trm96">museum</term> without the prior permission of the <term refersTo="#term-Director" id="trm97">Director</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-7">
+        <num>7</num>
+        <heading>Conduct</heading>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Conduct in museums</heading>
+          <paragraph id="section-18.paragraph-0">
+            <content>
+              <blockList id="section-18.paragraph-0.list1">
+                <listIntroduction>A person may not –</listIntroduction>
+                <item id="section-18.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>disturb any other visitors in their use of the <term refersTo="#term-museum" id="trm98">museum</term>;</p>
+                </item>
+                <item id="section-18.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>eat or drink in a <term refersTo="#term-museum" id="trm99">museum</term>, unless in an area specifically designated for that purpose;</p>
+                </item>
+                <item id="section-18.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>bring any animal into a <term refersTo="#term-museum" id="trm100">museum</term>, unless the animal is a guide dog for the blind;</p>
+                </item>
+                <item id="section-18.paragraph-0.list1.d">
+                  <num>(d)</num>
+                  <p>bring any weapon into a <term refersTo="#term-museum" id="trm101">museum</term>;</p>
+                </item>
+                <item id="section-18.paragraph-0.list1.e">
+                  <num>(e)</num>
+                  <p>enter a <term refersTo="#term-museum" id="trm102">museum</term> while inappropriately dressed in such a manner which may cause a nuisance or disturbance to other visitors;</p>
+                </item>
+                <item id="section-18.paragraph-0.list1.f">
+                  <num>(f)</num>
+                  <p>enter a <term refersTo="#term-museum" id="trm103">museum</term> while under the influence of alcohol or any narcotic substances;</p>
+                </item>
+                <item id="section-18.paragraph-0.list1.g">
+                  <num>(g)</num>
+                  <p>contravene any reasonable instruction given by a <term refersTo="#term-Director" id="trm104">Director</term> or <term refersTo="#term-authorised_official" id="trm105">authorised official</term>;</p>
+                </item>
+                <item id="section-18.paragraph-0.list1.h">
+                  <num>(h)</num>
+                  <p>contravene any sign displayed in a <term refersTo="#term-museum" id="trm106">museum</term>;</p>
+                </item>
+                <item id="section-18.paragraph-0.list1.i">
+                  <num>(i)</num>
+                  <p>run in a <term refersTo="#term-museum" id="trm107">museum</term>;</p>
+                </item>
+                <item id="section-18.paragraph-0.list1.j">
+                  <num>(j)</num>
+                  <p>enter a <term refersTo="#term-museum" id="trm108">museum</term> where he or she has been ordered to leave the <term refersTo="#term-museum" id="trm109">museum</term> by the <term refersTo="#term-Director" id="trm110">Director</term> and has not obtained the <term refersTo="#term-Director" id="trm111">Director</term>’s permission to return;</p>
+                </item>
+                <item id="section-18.paragraph-0.list1.k">
+                  <num>(k)</num>
+                  <p>damage any part of any <term refersTo="#term-museum" id="trm112">museum</term> building or contents thereof;</p>
+                </item>
+                <item id="section-18.paragraph-0.list1.l">
+                  <num>(l)</num>
+                  <p>enter or remain in the <term refersTo="#term-museum" id="trm113">museum</term> after having been refused admission; or</p>
+                </item>
+                <item id="section-18.paragraph-0.list1.m">
+                  <num>(m)</num>
+                  <p>contravene any provision of this By-law or any policy adopted by the <term refersTo="#term-council" id="trm114">council</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+      <chapter id="chapter-8">
+        <num>8</num>
+        <heading>Miscellaneous provisions</heading>
+        <section id="section-19">
+          <num>19.</num>
+          <heading>Offences and penalties</heading>
+          <subsection id="section-19.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-19.1.list1">
+                <listIntroduction>A person who –</listIntroduction>
+                <item id="section-19.1.list1.a">
+                  <num>(a)</num>
+                  <p>contravenes any provision of this By-law;</p>
+                </item>
+                <item id="section-19.1.list1.b">
+                  <num>(b)</num>
+                  <p>fails to comply with any lawful instruction given in terms of this By-law;</p>
+                </item>
+                <item id="section-19.1.list1.c">
+                  <num>(c)</num>
+                  <p>threatens, resists, interferes with or obstructs any <term refersTo="#term-Director" id="trm115">Director</term> or <term refersTo="#term-authorised_official" id="trm116">authorised official</term> in the performance of official duties or functions in terms of this By-law; or</p>
+                </item>
+                <item id="section-19.1.list1.d">
+                  <num>(d)</num>
+                  <p>deliberately furnishes false or misleading information to any <term refersTo="#term-Director" id="trm117">Director</term> or <term refersTo="#term-authorised_official" id="trm118">authorised official</term>, is guilty of an offence.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-19.2">
+            <num>(2)</num>
+            <content>
+              <p>Any person who is convicted of an offence under this By-law is liable to a fine of an amount not exceeding R20 000.00 or imprisonment not exceeding one year or to both such fine and imprisonment.</p>
+            </content>
+          </subsection>
+          <subsection id="section-19.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-19.3.list1">
+                <listIntroduction>In the case of a continuing offence –</listIntroduction>
+                <item id="section-19.3.list1.a">
+                  <num>(a)</num>
+                  <p>an additional fine of an amount not exceeding R100; or</p>
+                </item>
+                <item id="section-19.3.list1.b">
+                  <num>(b)</num>
+                  <p>imprisonment for a period not exceeding 1 day,</p>
+                </item>
+              </blockList>
+              <p>for each day on which such offence continues or both such fine and imprisonment, will be imposed.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>Delegations</heading>
+          <subsection id="section-20.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-20.1.list1">
+                <listIntroduction>Subject to the <term refersTo="#term-Constitution" id="trm119">Constitution</term> and applicable national and provincial laws, any –</listIntroduction>
+                <item id="section-20.1.list1.a">
+                  <num>(a)</num>
+                  <p>power, excluding a power referred to in section 160(2) of the <term refersTo="#term-Constitution" id="trm120">Constitution</term>;</p>
+                </item>
+                <item id="section-20.1.list1.b">
+                  <num>(b)</num>
+                  <p>function; or</p>
+                </item>
+                <item id="section-20.1.list1.c">
+                  <num>(c)</num>
+                  <p>duty, conferred, in terms of this By-law, upon the <term refersTo="#term-council" id="trm121">council</term>, or on any of the <term refersTo="#term-Municipality" id="trm122">Municipality</term>'s other political structures, political office bearers, councillors or staff members, may be delegated or sub-delegated by such political structure, political office bearer, councillor, or staff member, to an entity within, or a staff member employed by, the <term refersTo="#term-Municipality" id="trm123">Municipality</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-20.2">
+            <num>(2)</num>
+            <content>
+              <p>The delegation in terms of subsection (1) must be effected in accordance with the system of delegation adopted by the <term refersTo="#term-council" id="trm124">council</term> in accordance with section 59(1) of the Local</p>
+              <p>Government: Municipal Systems Act, 2000 (Act No.32 of 2000), subject to the criteria set out in section 59(2) of said Act.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-20.3.list1">
+                <listIntroduction>Any delegation contemplated in this section must be recorded in the Register of Delegations, which must contain information on the –</listIntroduction>
+                <item id="section-20.3.list1.a">
+                  <num>(a)</num>
+                  <p>entity or person issuing the delegation or sub-delegation;</p>
+                </item>
+                <item id="section-20.3.list1.b">
+                  <num>(b)</num>
+                  <p>recipient of the delegation or sub-delegation; and</p>
+                </item>
+                <item id="section-20.3.list1.c">
+                  <num>(c)</num>
+                  <p>conditions attached to the delegation or sub-delegation.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-21">
+          <num>21.</num>
+          <heading>Appeals</heading>
+          <subsection id="section-21.1">
+            <num>(1)</num>
+            <content>
+              <p>A person whose rights are affected by a decision taken by an <term refersTo="#term-authorised_official" id="trm125">authorised official</term> in terms of this By-law may appeal against that decision in terms of the Appeals provision contained in the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000) by giving written notice of the appeal and reasons to the municipal manager within 21 (twenty one) days of the date of the notification of the decision.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.2">
+            <num>(2)</num>
+            <content>
+              <p>The municipal manager must promptly submit the appeal to the appropriate appeal authority.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.3">
+            <num>(3)</num>
+            <content>
+              <p>The appeal authority must commence with an appeal within six weeks and decide the appeal within a reasonable period.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.4">
+            <num>(4)</num>
+            <content>
+              <p>The appeal authority must confirm, vary or revoke the decision, but no such variation or revocation of a decision may detract from any rights which may have accrued as a result of the decision.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.5">
+            <num>(5)</num>
+            <content>
+              <p>The appeal authority must furnish written reasons for its decision on all appeal matters.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.6">
+            <num>(6)</num>
+            <content>
+              <p>All appeals lodged are done so in terms of the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000) and not in terms of this By-law.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-22">
+          <num>22.</num>
+          <heading>Repeal of laws and savings</heading>
+          <paragraph id="section-22.paragraph-0">
+            <content>
+              <p>The laws mentioned in the first and second columns of the Schedule to this By-law are hereby repealed to the extent set out in the third column of the said Schedule.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-23">
+          <num>23.</num>
+          <heading>Short title and commencement</heading>
+          <paragraph id="section-23.paragraph-0">
+            <content>
+              <p>This By-law is called the eThekwini Museums By-law, 2015 and takes effect six months from the date of publication thereof in the Provincial Gazette or on such earlier date as may be determined by the publication of a commencement notice in the Provincial Gazette.</p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+    </body>
+  </act>
+  <components>
+    <component id="component-schedule">
+      <doc name="schedule">
+        <meta>
+          <identification source="#slaw">
+            <FRBRWork>
+              <FRBRthis value="/za-eth/act/by-law/2016/museums/schedule"/>
+              <FRBRuri value="/za-eth/act/by-law/2016/museums"/>
+              <FRBRalias value="Schedule"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-eth/act/by-law/2016/museums/eng@2015-09-17/schedule"/>
+              <FRBRuri value="/za-eth/act/by-law/2016/museums/eng@2015-09-17"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-eth/act/by-law/2016/museums/eng@2015-09-17/schedule"/>
+              <FRBRuri value="/za-eth/act/by-law/2016/museums/eng@2015-09-17"/>
+              <FRBRdate date="2016-03-19" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule">
+            <heading>REPEAL OF BY-LAWS</heading>
+            <paragraph id="schedule.paragraph-0">
+              <content>
+                <table id="schedule.paragraph-0.table0">
+                  <tr>
+                    <th>
+                      <p>Number and year of law</p>
+                    </th>
+                    <th>
+                      <p>Title</p>
+                    </th>
+                    <th>
+                      <p/>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Municipal Notice No. 90 of 1997</p>
+                    </td>
+                    <td>
+                      <p>Durban Metropolitan Museum By-laws</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                </table>
+              </content>
+            </paragraph>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>

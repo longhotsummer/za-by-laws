@@ -1,0 +1,2012 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="singleVersion">
+    <meta>
+      <identification source="#openbylaws">
+        <FRBRWork>
+          <FRBRthis value="/za-cpt/act/by-law/2003/environmental-health/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2003/environmental-health"/>
+          <FRBRalias value="Environmental Health By-law 2003, as amended"/>
+          <FRBRdate date="2003-06-30" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-cpt/act/by-law/2003/environmental-health/eng@2011-08-05/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2003/environmental-health/eng@2011-08-05"/>
+          <FRBRdate date="2011-08-05" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-cpt/act/by-law/2003/environmental-health/eng@2011-08-05/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2003/environmental-health/eng@2011-08-05"/>
+          <FRBRdate date="2015-09-06" name="Generation"/>
+          <FRBRauthor href="#openbylaws" as="#author"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-06-30" name="" showAs="" number=""/>
+      <lifecycle source="#this">
+        <eventRef id="e1" date="2003-06-30" source="#original" type="generation"/>
+        <eventRef id="amendment-2011-08-05" date="2011-08-05" type="amendment" source="#amendment-0-source"/>
+      </lifecycle>
+      <references source="#this">
+        <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council.cape-town" showAs="Cape Town City Council"/>
+        <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <original id="original" href="/za/by-law/cape-town/2003/environmental-heath" showAs="Original"/>
+        <TLCTerm id="term-accommodation_establishment" href="/ontology/term/this.eng.accommodation_establishment" showAs="accommodation establishment"/>
+        <TLCTerm id="term-agent" href="/ontology/term/this.eng.agent" showAs="agent"/>
+        <TLCTerm id="term-animal" href="/ontology/term/this.eng.animal" showAs="animal"/>
+        <TLCTerm id="term-boarder" href="/ontology/term/this.eng.boarder" showAs="boarder"/>
+        <TLCTerm id="term-carcass" href="/ontology/term/this.eng.carcass" showAs="carcass"/>
+        <TLCTerm id="term-cattery" href="/ontology/term/this.eng.cattery" showAs="cattery"/>
+        <TLCTerm id="term-child_care_facility" href="/ontology/term/this.eng.child_care_facility" showAs="child care facility"/>
+        <TLCTerm id="term-communicable_disease" href="/ontology/term/this.eng.communicable_disease" showAs="communicable disease"/>
+        <TLCTerm id="term-cost" href="/ontology/term/this.eng.cost" showAs="cost"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-generator_" href="/ontology/term/this.eng.generator_" showAs="generator "/>
+        <TLCTerm id="term-hairdresser_or_barber" href="/ontology/term/this.eng.hairdresser_or_barber" showAs="hairdresser or barber"/>
+        <TLCTerm id="term-health_nuisance" href="/ontology/term/this.eng.health_nuisance" showAs="health nuisance"/>
+        <TLCTerm id="term-kennel" href="/ontology/term/this.eng.kennel" showAs="kennel"/>
+        <TLCTerm id="term-medical_certificate" href="/ontology/term/this.eng.medical_certificate" showAs="medical certificate"/>
+        <TLCTerm id="term-medical_practitioner" href="/ontology/term/this.eng.medical_practitioner" showAs="medical practitioner"/>
+        <TLCTerm id="term-medical_waste" href="/ontology/term/this.eng.medical_waste" showAs="medical waste"/>
+        <TLCTerm id="term-nightsoil" href="/ontology/term/this.eng.nightsoil" showAs="nightsoil"/>
+        <TLCTerm id="term-objectionable_material" href="/ontology/term/this.eng.objectionable_material" showAs="objectionable material"/>
+        <TLCTerm id="term-occupier" href="/ontology/term/this.eng.occupier" showAs="occupier"/>
+        <TLCTerm id="term-offensive" href="/ontology/term/this.eng.offensive" showAs="offensive"/>
+        <TLCTerm id="term-overcrowding" href="/ontology/term/this.eng.overcrowding" showAs="overcrowding"/>
+        <TLCTerm id="term-owner" href="/ontology/term/this.eng.owner" showAs="owner"/>
+        <TLCTerm id="term-permit" href="/ontology/term/this.eng.permit" showAs="permit"/>
+        <TLCTerm id="term-person" href="/ontology/term/this.eng.person" showAs="person"/>
+        <TLCTerm id="term-poultry" href="/ontology/term/this.eng.poultry" showAs="poultry"/>
+        <TLCTerm id="term-premises" href="/ontology/term/this.eng.premises" showAs="premises"/>
+        <TLCTerm id="term-proprietor" href="/ontology/term/this.eng.proprietor" showAs="proprietor"/>
+        <TLCTerm id="term-structure" href="/ontology/term/this.eng.structure" showAs="structure"/>
+        <TLCTerm id="term-styptic" href="/ontology/term/this.eng.styptic" showAs="styptic"/>
+        <TLCTerm id="term-trades" href="/ontology/term/this.eng.trades" showAs="trades"/>
+        <TLCTerm id="term-transporter" href="/ontology/term/this.eng.transporter" showAs="transporter"/>
+        <TLCTerm id="term-verminous" href="/ontology/term/this.eng.verminous" showAs="verminous"/>
+        <passiveRef id="amendment-0-source" href="/za-cpt/act/by-law/2011/animal" showAs="City of Cape Town: Animal By-law, 2010"/>
+      </references>
+    </meta>
+    <body>
+      <section xmlns="http://www.akomantoso.org/2.0" id="section-0">
+        <heading>Definitions</heading>
+        <subsection id="section-0.subsection-0">
+          <content>
+            <p>In this by-law, unless the context indicates otherwise:—</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-1" refersTo="#term-accommodation_establishment">
+          <content>
+            <p>"<def refersTo="#term-accommodation_establishment">accommodation establishment</def>" means any <term refersTo="#term-premises" id="trm0">premises</term> in or upon which the business of supplying lodging with or without one or more meals per day is conducted or intended to be conducted for reward or gain, but does not include any such <term refersTo="#term-premises" id="trm1">premises</term> which is duly registered as a hotel under any law relating to the registration of hotels, or which provides lodging with one or more meals per day and has fewer than five beds available for occupation, or which provides no meals and has fewer than three rooms that are let or intended for letting;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-2" refersTo="#term-agent">
+          <content>
+            <p>"<def refersTo="#term-agent">agent</def>" means a <term refersTo="#term-person" id="trm2">person</term> specifically or generally appointed to attend to the affairs of another;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-3" refersTo="#term-animal">
+          <content>
+            <p>"<def refersTo="#term-animal">animal</def>" means horse, pony, mule, donkey, cattle, pig, sheep, goat, camel, reptile, indigenous animal and other wild or exotic animal, but excludes dogs and cats kept as domestic pets;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-4" refersTo="#term-boarder">
+          <content>
+            <p>"<def refersTo="#term-boarder">boarder</def>" means any <term refersTo="#term-person" id="trm3">person</term> to whom lodging or both lodging and meals in an <term refersTo="#term-accommodation_establishment" id="trm4">accommodation establishment</term> is or are supplied by the <term refersTo="#term-proprietor" id="trm5">proprietor</term> for reward or gain;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-5" refersTo="#term-carcass">
+          <content>
+            <p>"<def refersTo="#term-carcass">carcass</def>" means the remains of any <term refersTo="#term-animal" id="trm6">animal</term> or <term refersTo="#term-poultry" id="trm7">poultry</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-6" refersTo="#term-cattery">
+          <content>
+            <p>"<def refersTo="#term-cattery">cattery</def>" means any establishment where cats are bred or boarded;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-7" refersTo="#term-child_care_facility">
+          <content>
+            <p>"<def refersTo="#term-child_care_facility">child care facility</def>" means any building or <term refersTo="#term-premises" id="trm8">premises</term> maintained or used, whether for profit or otherwise, for the temporary or partial care of children under 18 years of age apart from their parents, but does not include any boarding school, school hostel or any establishment which is maintained or used mainly for the tuition or training of children and which is controlled by or which has been registered or approved by the State;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-8" refersTo="#term-communicable_disease">
+          <content>
+            <p>"<def refersTo="#term-communicable_disease">communicable disease</def>" means any disease which can be communicated directly or indirectly from any <term refersTo="#term-person" id="trm9">person</term> suffering therefrom or who is a carrier thereof to any other <term refersTo="#term-person" id="trm10">person</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-9" refersTo="#term-cost">
+          <content>
+            <p>"<def refersTo="#term-cost">cost</def>" means the amount determined by a duly authorized employee of the <term refersTo="#term-Council" id="trm11">Council</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-10" refersTo="#term-Council">
+          <content>
+            <p>"<def refersTo="#term-Council">Council</def>" means the Council of the City of Cape Town or its duly authorised employee, councillor, committee or <term refersTo="#term-agent" id="trm12">agent</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-11" refersTo="#term-generator_">
+          <content>
+            <p>"<def refersTo="#term-generator_">generator </def>"means a <term refersTo="#term-person" id="trm13">person</term> who generates <term refersTo="#term-medical_waste" id="trm14">medical waste</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-12" refersTo="#term-hairdresser_or_barber">
+          <content>
+            <p>"<def refersTo="#term-hairdresser_or_barber">hairdresser or barber</def>" means a natural <term refersTo="#term-person" id="trm15">person</term> who carries on business by cutting, shaving, shampooing, curling, straightening or otherwise treating or removing people’s hair or beards or providing beauty treatment for reward or gain;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-13" refersTo="#term-health_nuisance">
+          <content>
+            <p>"<def refersTo="#term-health_nuisance">health nuisance</def>" means any activity, condition, <term refersTo="#term-premises" id="trm16">premises</term> or thing which, on account of effluent, vapours, chemical effluvia, odours, noise, vibration, radiation, refuse, waste products, dirt, chemical or biochemical material, microbial infection, vermin, vegetation, <term refersTo="#term-overcrowding" id="trm17">overcrowding</term>, lack of proper general hygiene, ventilation, lighting, design, situation or on account of any other cause or practice whatsoever, is/are in the opinion of the Director: City Health or a duly authorised council employee potentially injurious or dangerous to health or which is/are <term refersTo="#term-offensive" id="trm18">offensive</term>, including, without affecting the generality of the aforegoing, any facility for the storage, distribution or handling of water that is likely to be used by man for domestic purposes or consumption, including such water itself, which is contaminated or polluted;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-14" refersTo="#term-kennel">
+          <content>
+            <p>"<def refersTo="#term-kennel">kennel</def>" means any establishment that has as its business the breeding, training or boarding of dogs and includes pounds whether operated by the State or otherwise;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-15" refersTo="#term-medical_certificate">
+          <content>
+            <p>"<def refersTo="#term-medical_certificate">medical certificate</def>" means a certificate signed by a <term refersTo="#term-medical_practitioner" id="trm19">medical practitioner</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-16" refersTo="#term-medical_practitioner">
+          <content>
+            <p>"<def refersTo="#term-medical_practitioner">medical practitioner</def>" means a <term refersTo="#term-person" id="trm20">person</term> registered as such under the laws relating to the registration of persons as medical practitioners;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-17" refersTo="#term-medical_waste">
+          <content>
+            <p>"<def refersTo="#term-medical_waste">medical waste</def>" includes—</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.1">
+          <num>(1)</num>
+          <content>
+            <p>any waste, whether infected or not, resulting from a medical, surgical, veterinary or laboratory procedure on humans or animals, such as blood, body fluids, tissue, organs, body parts, extracted teeth, corpses (excluding corpses intended for burial in terms of the Births and Deaths Registration Act, 51 of 1992);</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.2">
+          <num>(2)</num>
+          <content>
+            <p>used medical equipment and other medical material which is capable or is reasonably likely to be capable of causing or spreading disease or causing or spreading infection, such as used surgical dressings, swabs, blood bags, laboratory waste, blood collection tubes, colostomy- and catheter-bags; gloves, drip bags, administration lines and tongue depressers.</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.3">
+          <num>(3)</num>
+          <content>
+            <p>contaminated and uncontaminated sharps, including clinical items which can cause a cut or puncture or injection, such as needles, syringes, blades and microscope slides;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.4">
+          <num>(4)</num>
+          <content>
+            <p>pharmaceutical products which have become outdated or contaminated or have been stored improperly or are no longer required, such as human and <term refersTo="#term-animal" id="trm21">animal</term> vaccines, medicines and drugs;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.5">
+          <num>(5)</num>
+          <content>
+            <p>genotoxic chemical waste and radio isotopes from experimental or diagnostic work or any other source;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-23" refersTo="#term-nightsoil">
+          <content>
+            <p>"<def refersTo="#term-nightsoil">nightsoil</def>" means human excrement not disposed of in an approved sanitary convenience;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-24" refersTo="#term-objectionable_material">
+          <content>
+            <p>"<def refersTo="#term-objectionable_material">objectionable material</def>" means garden litter, rubbish, waste material, rubble, scrap metal, article or thing, disused machinery, motor cars or other vehicles, as well as the disused parts thereof, refuse from any building operations, or any refuse capable of being deposited on any land or <term refersTo="#term-premises" id="trm22">premises</term>, including new or used building materials not necessarily required in connection with bona fide building operations actually in progress on any land, and includes any solid, liquid or gas which is or may become a nuisance or which materially interferes with the ordinary comfort or convenience of the public;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-25" refersTo="#term-occupier">
+          <content>
+            <p>"<def refersTo="#term-occupier">occupier</def>" in relation to any <term refersTo="#term-premises" id="trm23">premises</term> means and includes —</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.1">
+          <num>(1)</num>
+          <content>
+            <p>Any <term refersTo="#term-person" id="trm24">person</term> in actual occupation of those <term refersTo="#term-premises" id="trm25">premises</term>; or</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.2">
+          <num>(2)</num>
+          <content>
+            <p>Any <term refersTo="#term-person" id="trm26">person</term> legally entitled to occupy those <term refersTo="#term-premises" id="trm27">premises</term>; or</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.3">
+          <num>(3)</num>
+          <content>
+            <p>Any <term refersTo="#term-person" id="trm28">person</term> having the charge or management of those <term refersTo="#term-premises" id="trm29">premises</term>, and includes the <term refersTo="#term-agent" id="trm30">agent</term> of any such <term refersTo="#term-person" id="trm31">person</term> when he is absent from the Republic of South Africa or his whereabouts are unknown.</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-29" refersTo="#term-offensive">
+          <content>
+            <p>"<def refersTo="#term-offensive">offensive</def>" means a state of affairs which is a health hazard or which has the potential to result in a health hazard</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-30" refersTo="#term-overcrowding">
+          <content>
+            <p>"<def refersTo="#term-overcrowding">overcrowding</def>" means</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.1">
+          <num>(1)</num>
+          <content>
+            <p>a residential occupancy in excess of 12 occupants per sanitary convenience and/or</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.2">
+          <num>(2)</num>
+          <content>
+            <p>occupancy of habitable rooms (being all rooms in a dwelling excluding kitchens, bathrooms and sanitary conveniences) for sleeping purposes where such occupation exceeds 1 adult <term refersTo="#term-person" id="trm32">person</term> per 4 m2 and/or 1 child under 10 years of age per 2 m2.</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-33" refersTo="#term-owner">
+          <content>
+            <p>"<def refersTo="#term-owner">owner</def>" includes—</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-person" id="trm33">person</term> or persons in whom from time to time shall be vested the legal title to any immovable property.</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.2">
+          <num>(2)</num>
+          <content>
+            <p>In any case where a property is subject to a registered lease the lessee of such property.</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.3">
+          <num>(3)</num>
+          <content>
+            <p>In cases where the <term refersTo="#term-person" id="trm34">person</term> in whom the legal title is vested is insolvent or deceased, or is of unsound mind or whose estate has been assigned for the benefit of his creditors, the <term refersTo="#term-person" id="trm35">person</term> in whom the administration of the property is vested as trustee, executor, curator or assignee, or administrator.</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.4">
+          <num>(4)</num>
+          <content>
+            <p>In cases where the <term refersTo="#term-owner" id="trm36">owner</term> as above described is absent the <term refersTo="#term-agent" id="trm37">agent</term> or <term refersTo="#term-person" id="trm38">person</term> receiving the rent of the property in question.</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.5">
+          <num>(5)</num>
+          <content>
+            <p>In any case where the property is beneficially occupied under a servitude or right similar thereto the <term refersTo="#term-occupier" id="trm39">occupier</term> of such property.</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-39" refersTo="#term-permit">
+          <content>
+            <p>"<def refersTo="#term-permit">permit</def>" means the written permission granted by the <term refersTo="#term-Council" id="trm40">Council</term> in terms of this by-law.</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-40" refersTo="#term-person">
+          <content>
+            <p>"<def refersTo="#term-person">person</def>" includes any sphere of government; natural and juristic personperson includes any sphere of government; natural and juristic persons</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-41" refersTo="#term-poultry">
+          <content>
+            <p>"<def refersTo="#term-poultry">poultry</def>" means any fowl, goose, ostrich, duck, pigeon, dove, turkey, muscovy, guinea-fowl, peacock and/or peahen or bird whether domesticated or wild.</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-42" refersTo="#term-premises">
+          <content>
+            <p>"<def refersTo="#term-premises">premises</def>" means any building, tent or any other <term refersTo="#term-structure" id="trm41">structure</term>, together with the land on which the same is situated and the adjoining land used in connection therewith and any land without buildings or tents, and includes any vehicle, conveyance, ship or boat.</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-43" refersTo="#term-proprietor">
+          <content>
+            <p>"<def refersTo="#term-proprietor">proprietor</def>", in relation to an <term refersTo="#term-accommodation_establishment" id="trm42">accommodation establishment</term>, means the natural <term refersTo="#term-person" id="trm43">person</term> who carries on or who is charged with carrying on business by supplying lodging or both lodging and meals for reward or gain and includes an <term refersTo="#term-owner" id="trm44">owner</term> of said property;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-44" refersTo="#term-structure">
+          <content>
+            <p>"<def refersTo="#term-structure">structure</def>" means any stable, shed, pigsty, kraal, aviary, paddock, covering structure, <term refersTo="#term-poultry" id="trm45">poultry</term> house, enclosure, run, loft or building used for the keeping, housing or enclosing of animals and <term refersTo="#term-poultry" id="trm46">poultry</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-45" refersTo="#term-styptic">
+          <content>
+            <p>"<def refersTo="#term-styptic">styptic</def>" means a substance applied to stop bleeding.</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-46" refersTo="#term-trades">
+          <content>
+            <p>"<def refersTo="#term-trades">trades</def>" for purpose of this by-law is restricted to the following: accommodation establishments, hairdressers and barbers, tattooing and body piercing of humans and child care facilities.</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-47" refersTo="#term-transporter">
+          <content>
+            <p>"<def refersTo="#term-transporter">transporter</def>" means any <term refersTo="#term-person" id="trm47">person</term> who removes <term refersTo="#term-medical_waste" id="trm48">medical waste</term> from the <term refersTo="#term-premises" id="trm49">premises</term> of a <term refersTo="#term-generator_" id="trm50">generator </term>or who transports <term refersTo="#term-medical_waste" id="trm51">medical waste</term> or both.</p>
+          </content>
+        </subsection>
+        <subsection id="section-0.subsection-48" refersTo="#term-verminous">
+          <content>
+            <p>"<def refersTo="#term-verminous">verminous</def>" means being infested with vermin which includes but is not limited to lice, fleas and any organism which may infest or be parasitic on a <term refersTo="#term-person" id="trm52">person</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <part id="part-1">
+        <num>1</num>
+        <heading>Prevention and suppression of health nuisances</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading/>
+          <subsection id="section-1.subsection-0">
+            <content>
+              <p>No <term refersTo="#term-owner" id="trm53">owner</term> or <term refersTo="#term-occupier" id="trm54">occupier</term> of any shop or business <term refersTo="#term-premises" id="trm55">premises</term> or vacant land adjoining a shop or business <term refersTo="#term-premises" id="trm56">premises</term> shall use, cause or <term refersTo="#term-permit" id="trm57">permit</term> to be used such shop or business <term refersTo="#term-premises" id="trm58">premises</term>, vacant land or any portion thereof which is open to the public, for the purpose of storing, stacking, or keeping any waste material, refuse, crates, cartons, containers or any other articles of like nature in such a way as to cause a <term refersTo="#term-health_nuisance" id="trm59">health nuisance</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-2">
+          <num>2.</num>
+          <heading/>
+          <subsection id="section-2.subsection-0">
+            <content>
+              <p>Notwithstanding the provision of any other By-law or legislation no <term refersTo="#term-person" id="trm60">person</term> shall—</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.1">
+            <num>(1)</num>
+            <content>
+              <p>Allow any erf to be overgrown with bush, weeds or grass or other vegetation, except cultivated trees, shrubs and grass, to such an extent that,</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.subsection-2">
+            <content>
+              <p>in the opinion of the <term refersTo="#term-Council" id="trm61">Council</term>, it may be used as a shelter by vagrants, wild animals or vermin or may threaten the public health or the safety of any member of the community.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.2">
+            <num>(2)</num>
+            <content>
+              <p>Fail to maintain the sewers, drains, water fittings, waste water fittings, water closet fittings and all other sanitary accessories forming part of or attached to any building or <term refersTo="#term-structure" id="trm62">structure</term> in good and sound repair.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.3">
+            <num>(3)</num>
+            <content>
+              <p>Deposit, keep, cause or <term refersTo="#term-permit" id="trm63">permit</term> to be deposited or kept any <term refersTo="#term-nightsoil" id="trm64">nightsoil</term> on any <term refersTo="#term-premises" id="trm65">premises</term>, except in a proper sanitary convenience approved by the <term refersTo="#term-Council" id="trm66">Council</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.4">
+            <num>(4)</num>
+            <content>
+              <p>Keep, cause or suffer to be kept upon any <term refersTo="#term-premises" id="trm67">premises</term> any sanitary convenience of such nature or in such condition that it is a <term refersTo="#term-health_nuisance" id="trm68">health nuisance</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.5">
+            <num>(5)</num>
+            <content>
+              <p>Carry, convey or <term refersTo="#term-permit" id="trm69">permit</term> to be carried or conveyed through or in any street or public place, any <term refersTo="#term-objectionable_material" id="trm70">objectionable material</term> or thing, liquid or solid, which is or may become a <term refersTo="#term-health_nuisance" id="trm71">health nuisance</term>, unless such <term refersTo="#term-objectionable_material" id="trm72">objectionable material</term> or thing is covered with suitable material in order to prevent the creation of any <term refersTo="#term-health_nuisance" id="trm73">health nuisance</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.6">
+            <num>(6)</num>
+            <content>
+              <p>Cause or <term refersTo="#term-permit" id="trm74">permit</term> any stream, pool, ditch, drain, gutter, watercourse, sink, bath, cistern, water closet, privy or urinal on any land or <term refersTo="#term-premises" id="trm75">premises</term> to that owned or occupied by him or of which he is in charge to be or to become so foul or in such a state or to be so situated or constructed so as to be a <term refersTo="#term-health_nuisance" id="trm76">health nuisance</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.7">
+            <num>(7)</num>
+            <content>
+              <p>Cause or <term refersTo="#term-permit" id="trm77">permit</term> any foul or polluted water or any foul liquid or <term refersTo="#term-objectionable_material" id="trm78">objectionable material</term> to run or flow from any <term refersTo="#term-premises" id="trm79">premises</term> to that owned or occupied by another <term refersTo="#term-person" id="trm80">person</term>, whether occupied for trade, business, manufacturing, dwelling or other purposes, onto any land or into any stormwater, river or canal system.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.8">
+            <num>(8)</num>
+            <content>
+              <p>Commit, cause or <term refersTo="#term-permit" id="trm81">permit</term> to be committed any act which may pollute any water to which inhabitants of the area of jurisdiction of the council have the right of use or access.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-3">
+          <num>3.</num>
+          <heading/>
+          <subsection id="section-3.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-3.1.list0">
+                <listIntroduction> Where any <term refersTo="#term-objectionable_material" id="trm82">objectionable material</term>, article or matter of whatsoever nature has been accumulated or stored on any erf, street, thoroughfare, public square or commonage or where there is an overgrowth of bush, weeds, grass or vegetation on any erf in contravention of section 1 and 2(1) the <term refersTo="#term-Council" id="trm83">Council</term> may serve a notice to abate such <term refersTo="#term-health_nuisance" id="trm84">health nuisance</term> on — </listIntroduction>
+                <item id="section-3.1.list0.a">
+                  <num>(a)</num>
+                  <p>The <term refersTo="#term-person" id="trm85">person</term> directly or indirectly responsible for such accumulation or storing; or</p>
+                </item>
+                <item id="section-3.1.list0.b">
+                  <num>(b)</num>
+                  <p>The <term refersTo="#term-owner" id="trm86">owner</term> of such material, article or thing, whether or not he is responsible for such accumulation, or storing; or</p>
+                </item>
+                <item id="section-3.1.list0.c">
+                  <num>(c)</num>
+                  <p>The <term refersTo="#term-owner" id="trm87">owner</term> of the erf on which such accumulation or storing takes place, whether or not he is responsible therefor, or</p>
+                </item>
+                <item id="section-3.1.list0.d">
+                  <num>(d)</num>
+                  <p>The <term refersTo="#term-owner" id="trm88">owner</term> of the erf on which there is an overgrowth of bush, weeds, grass or vegetation.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-3.2">
+            <num>(2)</num>
+            <content>
+              <p>In the event of the recipient failing to comply with the requirements of a notice served on him in terms of section 3(1) within the time specified in such notice, the <term refersTo="#term-Council" id="trm89">Council</term> may, at the expense of the recipient, together with any assistants and advisors it may require, forthwith enter upon such <term refersTo="#term-premises" id="trm90">premises</term> and clear from such <term refersTo="#term-premises" id="trm91">premises</term> any such trees, bushes, weeds, grass, stones and rubble or objectionable matter. The <term refersTo="#term-cost" id="trm92">cost</term> of such work shall be recoverable by the <term refersTo="#term-Council" id="trm93">Council</term> in any court of competent jurisdiction from the <term refersTo="#term-person" id="trm94">person</term> in default.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-4">
+          <num>4.</num>
+          <heading/>
+          <subsection id="section-4.subsection-0">
+            <content>
+              <p>No <term refersTo="#term-person" id="trm95">person</term> shall occupy or cause or suffer to be occupied any <term refersTo="#term-premises" id="trm96">premises</term> for habitable purposes so as to be a <term refersTo="#term-health_nuisance" id="trm97">health nuisance</term>, whether by <term refersTo="#term-overcrowding" id="trm98">overcrowding</term> or otherwise.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-5">
+          <num>5.</num>
+          <heading/>
+          <subsection id="section-5.subsection-0">
+            <content>
+              <p>The <term refersTo="#term-owner" id="trm99">owner</term> of any <term refersTo="#term-premises" id="trm100">premises</term> which is let or sublet to more than one tenant, shall maintain at all times in a clean and sanitary condition every part of such <term refersTo="#term-premises" id="trm101">premises</term> as may be used in common by more than one tenant.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading/>
+          <subsection id="section-6.subsection-0">
+            <content>
+              <p>No <term refersTo="#term-person" id="trm102">person</term> shall keep, cause or suffer to be kept any factory or trade <term refersTo="#term-premises" id="trm103">premises</term> so as to cause or give rise to smells or effluvia that constitute a <term refersTo="#term-health_nuisance" id="trm104">health nuisance</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading/>
+          <subsection id="section-7.subsection-0">
+            <content>
+              <p>Every <term refersTo="#term-person" id="trm105">person</term> who is the <term refersTo="#term-occupier" id="trm106">occupier</term> or in charge of any <term refersTo="#term-premises" id="trm107">premises</term> or the <term refersTo="#term-owner" id="trm108">owner</term> of any vacant land in the area of jurisdiction of the <term refersTo="#term-Council" id="trm109">Council</term>, shall take all possible precaution to prevent conditions favouring the multiplication and prevalence of, and shall take steps for the eradication of mosquitoes, flies, fleas, bugs, cockroaches or other vermin or pests. An authorised <term refersTo="#term-person" id="trm110">person</term> employed by council may serve upon such <term refersTo="#term-owner" id="trm111">owner</term>, <term refersTo="#term-occupier" id="trm112">occupier</term> or <term refersTo="#term-person" id="trm113">person</term> in charge a notice in regard to the prevention or eradication of any such vermin or pest and specify a time period within which such vermin and/or pest must be eradicated.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading/>
+          <subsection id="section-8.subsection-0">
+            <content>
+              <p>No <term refersTo="#term-person" id="trm114">person</term> shall keep, cause or suffer to be kept on any <term refersTo="#term-premises" id="trm115">premises</term> any accumulation or deposit of filth, rubbish, refuse, manure, other <term refersTo="#term-offensive" id="trm116">offensive</term> matter, or <term refersTo="#term-objectionable_material" id="trm117">objectionable material</term> or thing so as to be a <term refersTo="#term-health_nuisance" id="trm118">health nuisance</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-9">
+          <num>9.</num>
+          <heading/>
+          <subsection id="section-9.subsection-0">
+            <content>
+              <p>No <term refersTo="#term-person" id="trm119">person</term> shall, without the written permission of the <term refersTo="#term-Council" id="trm120">Council</term>, occupy or <term refersTo="#term-permit" id="trm121">permit</term> to be occupied for human habitation a caravan, tent or other similar shelter of any description on unserviced land except on an authorised camping or caravan site.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-10">
+          <num>10.</num>
+          <heading/>
+          <subsection id="section-10.subsection-0">
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm122">person</term> who contravenes or fails to comply with any provisions of this Part or fails to comply with any notice lawfully given thereunder shall be guilty of an offence.</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part id="part-3">
+        <num>3</num>
+        <heading>Medical waste management</heading>
+        <section id="section-23">
+          <num>23.</num>
+          <heading/>
+          <subsection id="section-23.1">
+            <num>(1)</num>
+            <content>
+              <p>Generators must handle and store <term refersTo="#term-medical_waste" id="trm123">medical waste</term> in a safe manner that poses no threat to human health or to the environment and are under a duty to ensure that <term refersTo="#term-medical_waste" id="trm124">medical waste</term> is removed from their <term refersTo="#term-premises" id="trm125">premises</term>, transported and disposed of in accordance with this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-23.2.list1">
+                <listIntroduction> Without limiting the generality of the duty in subsection (1), generators must comply with the following requirements: </listIntroduction>
+                <item id="section-23.2.list1.a">
+                  <num>(a)</num>
+                  <p>separate <term refersTo="#term-medical_waste" id="trm126">medical waste</term> from other waste at the point at which it is generated;</p>
+                </item>
+                <item id="section-23.2.list1.b">
+                  <num>(b)</num>
+                  <p>store <term refersTo="#term-medical_waste" id="trm127">medical waste</term> in leak-proof, sealable containers and ensure that containers which are used for the storage of sharps and other clinical items which can cause cuts or punctures or injections are, in addition, rigid and puncture-resistant;</p>
+                </item>
+                <item id="section-23.2.list1.c">
+                  <num>(c)</num>
+                  <blockList id="section-23.2.list1.c.list0">
+                    <listIntroduction>label each <term refersTo="#term-medical_waste" id="trm128">medical waste</term> container indelibly and in large, legible lettering with—</listIntroduction>
+                    <item id="section-23.2.list1.c.list0.i">
+                      <num>(i)</num>
+                      <p>the name and address of the generator;</p>
+                    </item>
+                    <item id="section-23.2.list1.c.list0.ii">
+                      <num>(ii)</num>
+                      <p>the words "Danger: Medical Waste" , "Gevaar: Mediese Afval" and "Ingozi: Inkunkuma Yezamayeza"; and the international bio-hazard logo; and</p>
+                    </item>
+                    <item id="section-23.2.list1.c.list0.iii">
+                      <num>(iii)</num>
+                      <p>the date on which the <term refersTo="#term-medical_waste" id="trm129">medical waste</term> container is removed from the generator’s <term refersTo="#term-premises" id="trm130">premises</term>;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-23.2.list1.d">
+                  <num>(d)</num>
+                  <p>prevent public access to <term refersTo="#term-medical_waste" id="trm131">medical waste</term> containers which are in use;</p>
+                </item>
+                <item id="section-23.2.list1.e">
+                  <num>(e)</num>
+                  <p>store filled <term refersTo="#term-medical_waste" id="trm132">medical waste</term> containers in controlled, secure areas which are reserved for the storage of <term refersTo="#term-medical_waste" id="trm133">medical waste</term>;</p>
+                </item>
+                <item id="section-23.2.list1.f">
+                  <num>(f)</num>
+                  <p>make arrangements for the removal of <term refersTo="#term-medical_waste" id="trm134">medical waste</term> from their <term refersTo="#term-premises" id="trm135">premises</term> and for the transportation of <term refersTo="#term-medical_waste" id="trm136">medical waste</term> to a disposal site by a <term refersTo="#term-person" id="trm137">person</term> who transports <term refersTo="#term-medical_waste" id="trm138">medical waste</term> in terms of this By-law and who is registered as a <term refersTo="#term-transporter" id="trm139">transporter</term> as contemplated in section 26 of this By-law;</p>
+                </item>
+                <item id="section-23.2.list1.g">
+                  <num>(g)</num>
+                  <p>make arrangements for the disposal of <term refersTo="#term-medical_waste" id="trm140">medical waste</term> by a <term refersTo="#term-person" id="trm141">person</term> permitted to dispose of <term refersTo="#term-medical_waste" id="trm142">medical waste</term> in terms of this By-law.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-23.3">
+            <num>(3)</num>
+            <content>
+              <p>Generators may apply in writing to the <term refersTo="#term-Council" id="trm143">Council</term> for permission to handle, store and otherwise deal with their <term refersTo="#term-medical_waste" id="trm144">medical waste</term> in a manner which does not comply with the requirements set out in subsection (2).</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm145">Council</term> may in writing grant the permission referred to in subsection (3); provided that it may grant such permission subject to conditions.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.5">
+            <num>(5)</num>
+            <content>
+              <p>Generators may transport and dispose of <term refersTo="#term-medical_waste" id="trm146">medical waste</term>, provided that they do so in terms of this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.6">
+            <num>(6)</num>
+            <content>
+              <blockList id="section-23.6.list5">
+                <listIntroduction> Generators must — </listIntroduction>
+                <item id="section-23.6.list5.a">
+                  <num>(a)</num>
+                  <p>maintain an up-to-date written record of <term refersTo="#term-medical_waste" id="trm147">medical waste</term> removed from their <term refersTo="#term-premises" id="trm148">premises</term> in the format as prescribed from time to time by the <term refersTo="#term-Council" id="trm149">Council</term>.</p>
+                </item>
+                <item id="section-23.6.list5.b">
+                  <num>(b)</num>
+                  <p>acquire from the disposer of the <term refersTo="#term-medical_waste" id="trm150">medical waste</term> written notification that the <term refersTo="#term-medical_waste" id="trm151">medical waste</term> has been disposed of and, on receiving such notification, indicate in their written records that the <term refersTo="#term-medical_waste" id="trm152">medical waste</term> has been thus disposed of;</p>
+                </item>
+                <item id="section-23.6.list5.c">
+                  <num>(c)</num>
+                  <p>keep the written record referred to in (a) and the notification referred to in (b) for a period of one year after the removal from their <term refersTo="#term-premises" id="trm153">premises</term> of the <term refersTo="#term-medical_waste" id="trm154">medical waste</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-24">
+          <num>24.</num>
+          <heading/>
+          <subsection id="section-24.1">
+            <num>(1)</num>
+            <content>
+              <p>Transporters must remove <term refersTo="#term-medical_waste" id="trm155">medical waste</term> from the <term refersTo="#term-premises" id="trm156">premises</term> of a generator, transport, store and deliver such <term refersTo="#term-medical_waste" id="trm157">medical waste</term> to the site at which it will be disposed of in a safe manner which poses no threat to human health or the environment.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-24.2.list1">
+                <listIntroduction> Without limiting the generality of the duty in subsection (1), transporters must comply with the following requirements: </listIntroduction>
+                <item id="section-24.2.list1.a">
+                  <num>(a)</num>
+                  <p>not remove <term refersTo="#term-medical_waste" id="trm158">medical waste</term> from the containers in which the <term refersTo="#term-generator_" id="trm159">generator </term>has stored the <term refersTo="#term-medical_waste" id="trm160">medical waste</term>;</p>
+                </item>
+                <item id="section-24.2.list1.b">
+                  <num>(b)</num>
+                  <p>transport and store <term refersTo="#term-medical_waste" id="trm161">medical waste</term> in such a way that no member of the public can gain access to the <term refersTo="#term-medical_waste" id="trm162">medical waste</term> or the containers in which it is stored;</p>
+                </item>
+                <item id="section-24.2.list1.c">
+                  <num>(c)</num>
+                  <blockList id="section-24.2.list1.c.list0">
+                    <listIntroduction>transport <term refersTo="#term-medical_waste" id="trm163">medical waste</term> in vehicles which are —</listIntroduction>
+                    <item id="section-24.2.list1.c.list0.i">
+                      <num>(i)</num>
+                      <p>capable of containing the <term refersTo="#term-medical_waste" id="trm164">medical waste</term>;</p>
+                    </item>
+                    <item id="section-24.2.list1.c.list0.ii">
+                      <num>(ii)</num>
+                      <p>designed to prevent spillage;</p>
+                    </item>
+                    <item id="section-24.2.list1.c.list0.iii">
+                      <num>(iii)</num>
+                      <p>constructed of materials which are easy to clean and to disinfect;</p>
+                    </item>
+                    <item id="section-24.2.list1.c.list0.iv">
+                      <num>(iv)</num>
+                      <p>capable of being secured in order to prevent unauthorised access;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-24.2.list1.d">
+                  <num>(d)</num>
+                  <p>deliver <term refersTo="#term-medical_waste" id="trm165">medical waste</term> only to a <term refersTo="#term-person" id="trm166">person</term> and site permitted to dispose of <term refersTo="#term-medical_waste" id="trm167">medical waste</term> in terms of section 25.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-24.3">
+            <num>(3)</num>
+            <content>
+              <p>Transporters may apply in writing to the <term refersTo="#term-Council" id="trm168">Council</term> for permission to remove, transport, store and deliver <term refersTo="#term-medical_waste" id="trm169">medical waste</term> in a manner which does not comply with the requirements set out in subsection (2).</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm170">Council</term> may in writing grant the permission referred to in subsection (3); provided that it may grant such permission subject to conditions.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.5">
+            <num>(5)</num>
+            <content>
+              <p>Transporters may dispose of <term refersTo="#term-medical_waste" id="trm171">medical waste</term>, provided that they do so in terms of this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.6">
+            <num>(6)</num>
+            <content>
+              <p>Transporters must maintain a written record in respect of each collection and delivery of <term refersTo="#term-medical_waste" id="trm172">medical waste</term>, which they must update simultaneously with each collection and delivery, and such record must be in the format as prescribed from time to time by the <term refersTo="#term-Council" id="trm173">Council</term> and must keep such record for a period of one year from the date on which the <term refersTo="#term-medical_waste" id="trm174">medical waste</term> is delivered. Transporters must keep a copy of the relevant record in the vehicles used for the transportation of the <term refersTo="#term-medical_waste" id="trm175">medical waste</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-25">
+          <num>25.</num>
+          <heading/>
+          <subsection id="section-25.subsection-0">
+            <content>
+              <p>Medical waste may only be disposed of by a <term refersTo="#term-person" id="trm176">person</term>—</p>
+            </content>
+          </subsection>
+          <subsection id="section-25.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-25.1.list1">
+                <item id="section-25.1.list1.a">
+                  <num>(a)</num>
+                  <p>who holds a <term refersTo="#term-permit" id="trm177">permit</term> to operate a hazardous waste site in terms of section 20 of the Environment Conservation Act, 73 of 1989, or who is authorised to incinerate <term refersTo="#term-medical_waste" id="trm178">medical waste</term> by means of equipment which has been approved in terms of the Atmospheric Pollution Prevention Act, 45 of 1965, or both; and</p>
+                </item>
+                <item id="section-25.1.list1.b">
+                  <num>(b)</num>
+                  <p>who complies with all terms and conditions attached to such <term refersTo="#term-permit" id="trm179">permit</term> and authorisation.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-25.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-person" id="trm180">person</term> permitted in terms of subsection (1) to dispose of <term refersTo="#term-medical_waste" id="trm181">medical waste</term> must do so at the site at which the <term refersTo="#term-permit" id="trm182">permit</term> or authorisation, or both,</p>
+            </content>
+          </subsection>
+          <subsection id="section-25.subsection-3">
+            <content>
+              <p>permits him or her to dispose of <term refersTo="#term-medical_waste" id="trm183">medical waste</term> and may not dispose of <term refersTo="#term-medical_waste" id="trm184">medical waste</term> at any other place.</p>
+            </content>
+          </subsection>
+          <subsection id="section-25.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-25.3.list4">
+                <listIntroduction> Persons who dispose of <term refersTo="#term-medical_waste" id="trm185">medical waste</term> must— </listIntroduction>
+                <item id="section-25.3.list4.a">
+                  <num>(a)</num>
+                  <p>maintain an up-to-date written record of each delivery of <term refersTo="#term-medical_waste" id="trm186">medical waste</term> to the disposal site in the format as prescribed from time to time by the <term refersTo="#term-Council" id="trm187">Council</term>.</p>
+                </item>
+                <item id="section-25.3.list4.b">
+                  <num>(b)</num>
+                  <p>keep such record for a period of one year from the date on which the <term refersTo="#term-medical_waste" id="trm188">medical waste</term> is disposed of.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-26">
+          <num>26.</num>
+          <heading/>
+          <subsection id="section-26.1">
+            <num>(1)</num>
+            <content>
+              <p>Every <term refersTo="#term-generator_" id="trm189">generator </term>must register with the <term refersTo="#term-Council" id="trm190">Council</term> within 6 months of the coming into operation of this By-law by completing and submitting a written notification to the <term refersTo="#term-Council" id="trm191">Council</term> in the format prescribed from time to time.</p>
+            </content>
+          </subsection>
+          <subsection id="section-26.2">
+            <num>(2)</num>
+            <content>
+              <p>Every <term refersTo="#term-transporter" id="trm192">transporter</term> must register with the <term refersTo="#term-Council" id="trm193">Council</term> within 6 months of the coming into operation of this By-law by completing and submitting a written notification to the <term refersTo="#term-Council" id="trm194">Council</term> in the format prescribed from time to time.</p>
+            </content>
+          </subsection>
+          <subsection id="section-26.3">
+            <num>(3)</num>
+            <content>
+              <p>Generators and transporters must advise the <term refersTo="#term-Council" id="trm195">Council</term> of any changes to the information provided in terms of subsections (1) and (2) as soon as such change takes place.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-27">
+          <num>27.</num>
+          <heading/>
+          <subsection id="section-27.subsection-0">
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm196">person</term> who contravenes any provision of this Part or fails to comply with any notice lawfully given thereunder commits an offence.</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part id="part-4">
+        <num>4</num>
+        <heading>Trades</heading>
+        <section id="section-28">
+          <num>28.</num>
+          <heading>Accommodation establishments</heading>
+          <subsection id="section-28.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-28.1.list0">
+                <listIntroduction> Every <term refersTo="#term-accommodation_establishment" id="trm197">accommodation establishment</term> shall comply with the following requirements: </listIntroduction>
+                <item id="section-28.1.list0.a">
+                  <num>(a)</num>
+                  <p>The <term refersTo="#term-premises" id="trm198">premises</term> intended to be used or already in use as an <term refersTo="#term-accommodation_establishment" id="trm199">accommodation establishment</term> shall be in good structural order and repair, both internally and externally.</p>
+                </item>
+                <item id="section-28.1.list0.b">
+                  <num>(b)</num>
+                  <p>All furniture, linen, utensils, fittings and equipment provided by the <term refersTo="#term-proprietor" id="trm200">proprietor</term> shall be clean and in good order and sufficient for the purpose thereof.</p>
+                </item>
+                <item id="section-28.1.list0.c">
+                  <num>(c)</num>
+                  <p>Every room shall be provided with adequate means of lighting and ventilation so as to enable such room to be used at all times without detriment to health or safety or causing a nuisance.</p>
+                </item>
+                <item id="section-28.1.list0.d">
+                  <num>(d)</num>
+                  <p>It shall be provided with a sufficient number of refuse receptacles with close-fitting lids.</p>
+                </item>
+                <item id="section-28.1.list0.e">
+                  <num>(e)</num>
+                  <p>An adequate number of bathrooms and toilets, suitably equipped, shall be provided on the <term refersTo="#term-premises" id="trm201">premises</term>.</p>
+                </item>
+                <item id="section-28.1.list0.f">
+                  <num>(f)</num>
+                  <p>Separate bathrooms and toilets shall be provided for male and female boarders and for employees, and shall be so located that they are easily accessible to those persons they are intended to serve; provided, however, that where the number of boarders does not exceed twelve (12), separate facilities for the different sexes need not be supplied.</p>
+                </item>
+                <item id="section-28.1.list0.g">
+                  <num>(g)</num>
+                  <p>Baths, showers and washbasins on the <term refersTo="#term-premises" id="trm202">premises</term> shall be served at all times with running hot and cold water.</p>
+                </item>
+                <item id="section-28.1.list0.h">
+                  <num>(h)</num>
+                  <p>It shall be provided with a suitable yard, paved and drained to the satisfaction of the <term refersTo="#term-Council" id="trm203">Council</term>.</p>
+                </item>
+                <item id="section-28.1.list0.i">
+                  <num>(i)</num>
+                  <blockList id="section-28.1.list0.i.list0">
+                    <listIntroduction>If ten (10) or more boarders can at any one time be lodged on the <term refersTo="#term-premises" id="trm204">premises</term>, it shall have —</listIntroduction>
+                    <item id="section-28.1.list0.i.list0.i">
+                      <num>(i)</num>
+                      <p>a suitable sitting room or sitting rooms so furnished and of such capacity as to meet the reasonable requirements of the boarders, and</p>
+                    </item>
+                    <item id="section-28.1.list0.i.list0.ii">
+                      <num>(ii)</num>
+                      <p>where meals are provided, a suitable dining room or dining rooms which shall provide seating accommodation on the basis of not less than one (1) square meter for each <term refersTo="#term-boarder" id="trm205">boarder</term>.</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-28.1.list0.j">
+                  <num>(j)</num>
+                  <p>where meals are provided or cooking takes place, an adequately equipped kitchen to be provided.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-28.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-proprietor" id="trm206">proprietor</term> of an <term refersTo="#term-accommodation_establishment" id="trm207">accommodation establishment</term> shall be responsible for the due compliance with and observation of the provisions of this</p>
+            </content>
+          </subsection>
+          <subsection id="section-28.subsection-2">
+            <content>
+              <p>By-law, and further he shall be responsible for the acts, omissions and defaults of his employees or agents in such regard, and any breach of this by-law by himself, by any member of his family or by any of his employees or agents shall be deemed to be a breach by the <term refersTo="#term-proprietor" id="trm208">proprietor</term> personally of this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-28.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-28.3.list3">
+                <listIntroduction> The <term refersTo="#term-proprietor" id="trm209">proprietor</term> of an <term refersTo="#term-accommodation_establishment" id="trm210">accommodation establishment</term> shall, to the satisfaction of the <term refersTo="#term-Council" id="trm211">Council</term>, at all times — </listIntroduction>
+                <item id="section-28.3.list3.a">
+                  <num>(a)</num>
+                  <p>maintain the whole of the <term refersTo="#term-accommodation_establishment" id="trm212">accommodation establishment</term> in a clean and sanitary condition;</p>
+                </item>
+                <item id="section-28.3.list3.b">
+                  <num>(b)</num>
+                  <p>keep the furniture, utensils, linen and equipment in a sound condition and clean state;</p>
+                </item>
+                <item id="section-28.3.list3.c">
+                  <num>(c)</num>
+                  <p>supply only wholesome food to the boarders and other persons on the <term refersTo="#term-premises" id="trm213">premises</term>, and</p>
+                </item>
+                <item id="section-28.3.list3.d">
+                  <num>(d)</num>
+                  <p>not knowingly cause or <term refersTo="#term-permit" id="trm214">permit</term> any <term refersTo="#term-person" id="trm215">person</term> suffering from a <term refersTo="#term-communicable_disease" id="trm216">communicable disease</term> to be employed in or on the <term refersTo="#term-premises" id="trm217">premises</term> unless he is in possession of a <term refersTo="#term-medical_certificate" id="trm218">medical certificate</term> to the effect that such <term refersTo="#term-person" id="trm219">person</term> is fit to continue his employment.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-28.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-28.4.list4">
+                <listIntroduction> The <term refersTo="#term-proprietor" id="trm220">proprietor</term> of an <term refersTo="#term-accommodation_establishment" id="trm221">accommodation establishment</term> shall not— </listIntroduction>
+                <item id="section-28.4.list4.a">
+                  <num>(a)</num>
+                  <p>allow any portion of the <term refersTo="#term-premises" id="trm222">premises</term> other than an approved bedroom to be used by any <term refersTo="#term-person" id="trm223">person</term> for sleeping purposes; provided that the aforesaid prohibition shall not apply to any <term refersTo="#term-boarder" id="trm224">boarder</term> occupying a bedroom in so far as it consists of a stoep or porch which has been suitably converted;</p>
+                </item>
+                <item id="section-28.4.list4.b">
+                  <num>(b)</num>
+                  <p>accommodate any <term refersTo="#term-boarder" id="trm225">boarder</term> in the same bedroom with another <term refersTo="#term-person" id="trm226">person</term> unless such persons are of the same family or both of them have given their consent thereto, and</p>
+                </item>
+                <item id="section-28.4.list4.c">
+                  <num>(c)</num>
+                  <p>conduct the business of the said <term refersTo="#term-accommodation_establishment" id="trm227">accommodation establishment</term> in such a manner so as to cause any nuisance or annoyance to residents of neighbouring properties.</p>
+                </item>
+                <item id="section-28.4.list4.d">
+                  <num>(d)</num>
+                  <p><term refersTo="#term-permit" id="trm228">permit</term> cooking in a living room or an area designated as a living room.</p>
+                </item>
+                <item id="section-28.4.list4.e">
+                  <num>(e)</num>
+                  <p><term refersTo="#term-permit" id="trm229">permit</term> the <term refersTo="#term-premises" id="trm230">premises</term> to become overcrowded.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-28.5">
+            <num>(5)</num>
+            <content>
+              <p>Notwithstanding compliance with all of the proceeding provisions, no <term refersTo="#term-person" id="trm231">person</term> may operate an <term refersTo="#term-accommodation_establishment" id="trm232">accommodation establishment</term> unless the property is appropriately zoned in accordance with the zoning scheme applicable thereto, and in compliance with all applicable laws.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-29">
+          <num>29.</num>
+          <heading>Hairdresser and barbers</heading>
+          <subsection id="section-29.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-29.1.list0">
+                <listIntroduction> No <term refersTo="#term-person" id="trm233">person</term> shall conduct the business of <term refersTo="#term-hairdresser_or_barber" id="trm234">hairdresser or barber</term> in any <term refersTo="#term-premises" id="trm235">premises</term> within the municipal area unless— </listIntroduction>
+                <item id="section-29.1.list0.a">
+                  <num>(a)</num>
+                  <p>all parts of the <term refersTo="#term-premises" id="trm236">premises</term> are effectively lit and ventilated;</p>
+                </item>
+                <item id="section-29.1.list0.b">
+                  <num>(b)</num>
+                  <p>washbasins with hot and cold running water and fitted with a trapped wastepipe have been provided in the proportion of at least one basin for every two persons engaged at the same time in cutting, dressing or shampooing hair or shaving any <term refersTo="#term-person" id="trm237">person</term> or in any operation pertaining to the business of <term refersTo="#term-hairdresser_or_barber" id="trm238">hairdresser or barber</term>;</p>
+                </item>
+                <item id="section-29.1.list0.c">
+                  <num>(c)</num>
+                  <p>all tables and shelves on which instruments are laid are constructed of or covered with glass, marble, glazed tiles or other similar smooth, impervious, durable and non-corroding material;</p>
+                </item>
+                <item id="section-29.1.list0.d">
+                  <num>(d)</num>
+                  <p>the floor is even and suitably covered with impervious material or constructed with a smooth, impervious surface, maintained so that it may be easily swept and thoroughly cleansed, and</p>
+                </item>
+                <item id="section-29.1.list0.e">
+                  <num>(e)</num>
+                  <p>he has provided a sufficient number of readily portable refuse receptacles with close-fitting lids made of impervious material in such a manner that they can be readily washed and cleaned.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-29.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-29.2.list1">
+                <listIntroduction> Every <term refersTo="#term-person" id="trm239">person</term> carrying on the business of barber or hairdresser shall ensure that — </listIntroduction>
+                <item id="section-29.2.list1.a">
+                  <num>(a)</num>
+                  <p>the <term refersTo="#term-premises" id="trm240">premises</term> in which such business is conducted and all instruments, appliances, implements, utensils and other articles belonging or pertaining thereto or used or intended to be used in connection therewith, are maintained in a clean condition and a good state of repair at all times;</p>
+                </item>
+                <item id="section-29.2.list1.b">
+                  <num>(b)</num>
+                  <p>all cut hair is immediately swept up and placed in a covered refuse receptacle provided for the purpose;</p>
+                </item>
+                <item id="section-29.2.list1.c">
+                  <num>(c)</num>
+                  <p>every hairbrush used or intended to be used in the business is kept in a clean condition at all times and washed and thoroughly cleansed at least once a day;</p>
+                </item>
+                <item id="section-29.2.list1.d">
+                  <num>(d)</num>
+                  <p>every towel which has been used upon any <term refersTo="#term-person" id="trm241">person</term> is adequately laundered before being used upon any other <term refersTo="#term-person" id="trm242">person</term>;</p>
+                </item>
+                <item id="section-29.2.list1.e">
+                  <num>(e)</num>
+                  <p>precautionary steps are taken to prevent direct contact between the head or neck of any client and the chair in which he sits;</p>
+                </item>
+                <item id="section-29.2.list1.f">
+                  <num>(f)</num>
+                  <blockList id="section-29.2.list1.f.list0">
+                    <listIntroduction>every brush, comb, razor, scissors, clippers or other instruments, appliance or implement which has or have been used upon any <term refersTo="#term-person" id="trm243">person</term> in such a way as to have come into contact with some exposed portion of such <term refersTo="#term-person" id="trm244">person</term>’s body has, or have, before being used upon any other <term refersTo="#term-person" id="trm245">person</term>, been disinfected in one of the following ways</listIntroduction>
+                    <item id="section-29.2.list1.f.list0.i">
+                      <num>(i)</num>
+                      <p>immersion in boiling water; or</p>
+                    </item>
+                    <item id="section-29.2.list1.f.list0.ii">
+                      <num>(ii)</num>
+                      <p>immersion in a disinfectant solution</p>
+                    </item>
+                    <item id="section-29.2.list1.f.list0.iii">
+                      <num>(iii)</num>
+                      <p>treatment in an approved disinfecting apparatus in an approved manner;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-29.2.list1.g">
+                  <num>(g)</num>
+                  <p>a sufficient number of each kind of instrument, appliance or implement has been provided.</p>
+                </item>
+                <item id="section-29.2.list1.h">
+                  <num>(h)</num>
+                  <p>no <term refersTo="#term-person" id="trm246">person</term> is subjected to shaving, haircutting or any other operation connected with such business in that part of the <term refersTo="#term-premises" id="trm247">premises</term> in which the business of <term refersTo="#term-hairdresser_or_barber" id="trm248">hairdresser or barber</term> is ordinarily conducted, if such <term refersTo="#term-person" id="trm249">person</term> appears to be <term refersTo="#term-verminous" id="trm250">verminous</term> or to be suffering from any disease of the skin or hair and, should any such <term refersTo="#term-person" id="trm251">person</term> have been subjected to any such operation, that all towels, instruments and other things used in connection with such operation have, notwithstanding anything to the contrary herein contained, immediately thereafter been sterilised by immersion in boiling water for at least fifteen minutes;</p>
+                </item>
+                <item id="section-29.2.list1.i">
+                  <num>(i)</num>
+                  <p>no soap other than liquid, powder or tubed soap or shaving cream is used when any <term refersTo="#term-person" id="trm252">person</term> is shampooed or shaved or is subjected to any other operation connected with the business of <term refersTo="#term-hairdresser_or_barber" id="trm253">hairdresser or barber</term>;</p>
+                </item>
+                <item id="section-29.2.list1.j">
+                  <num>(j)</num>
+                  <p>no <term refersTo="#term-styptic" id="trm254">styptic</term> substance other than in liquid or powder form and applied as a spray or by means of a clean, new piece of cotton-wool is used on any <term refersTo="#term-person" id="trm255">person</term>;</p>
+                </item>
+                <item id="section-29.2.list1.k">
+                  <num>(k)</num>
+                  <p>no <term refersTo="#term-person" id="trm256">person</term> whose <term refersTo="#term-person" id="trm257">person</term> or clothing is in a dirty condition engages in cutting, dressing or shampooing the hair of any other <term refersTo="#term-person" id="trm258">person</term> or in shaving any such other <term refersTo="#term-person" id="trm259">person</term>, or engages in any other operation connected with the business of <term refersTo="#term-hairdresser_or_barber" id="trm260">hairdresser or barber</term> to which such latter <term refersTo="#term-person" id="trm261">person</term> is subjected;</p>
+                </item>
+                <item id="section-29.2.list1.l">
+                  <num>(l)</num>
+                  <p>no <term refersTo="#term-person" id="trm262">person</term> engages in cutting, dressing or shampooing the hair of any other <term refersTo="#term-person" id="trm263">person</term> or in shaving any such other <term refersTo="#term-person" id="trm264">person</term>, or engages in any other operation connected with the business of <term refersTo="#term-hairdresser_or_barber" id="trm265">hairdresser or barber</term> to which such latter <term refersTo="#term-person" id="trm266">person</term> is subjected without washing his hands immediately before doing so;</p>
+                </item>
+                <item id="section-29.2.list1.m">
+                  <num>(m)</num>
+                  <p>no <term refersTo="#term-person" id="trm267">person</term> suffering from any <term refersTo="#term-communicable_disease" id="trm268">communicable disease</term> takes part in or is permitted or suffered to take any part in any operation connected with the conducting of the business of <term refersTo="#term-hairdresser_or_barber" id="trm269">hairdresser or barber</term> unless such <term refersTo="#term-person" id="trm270">person</term> has produced a <term refersTo="#term-medical_certificate" id="trm271">medical certificate</term> to the effect that he is fit so to take part.</p>
+                </item>
+                <item id="section-29.2.list1.n">
+                  <num>(n)</num>
+                  <p>where waxing is practiced, the wax used in such a procedure may only be used for one application.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-29.3">
+            <num>(3)</num>
+            <content>
+              <p>The provisions of this By-law shall apply mutatis mutandis to any beauty treatment, manicuring or similar treatment.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-30">
+          <num>30.</num>
+          <heading>Tattooing and body piercing of humans</heading>
+          <subsection id="section-30.1">
+            <num>(1)</num>
+            <content>
+              <p>Only professional tattooing and body piercing machines designed and assembled in a manner which prevents contamination of sterilized needle sets may be used for applying permanent tattoos or body piercing.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.2">
+            <num>(2)</num>
+            <content>
+              <p>All clip cords and spray bottles must have triggers; grasped areas must also be protected by a plastic covering which must be disposed of after use on each client.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.3">
+            <num>(3)</num>
+            <content>
+              <p>Work surfaces must be smooth and impervious and disinfected after rendering services to each client.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.4">
+            <num>(4)</num>
+            <content>
+              <p>Equipment and supplies must be stored in clean, designated storage cabinets.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.5">
+            <num>(5)</num>
+            <content>
+              <p>Instruments and equipment used for any procedure must be sterilised after each client.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.6">
+            <num>(6)</num>
+            <content>
+              <p>All tubes and needles must be stored in single service, sterile, sealed autoclave bags that must be opened in the presence of the client.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.7">
+            <num>(7)</num>
+            <content>
+              <p>A <term refersTo="#term-person" id="trm272">person</term> responsible for tattooing or piercing must wash his hands with soap and hot water before attending to a client and new latex or nitrile examination gloves must be worn by the operator for the duration of the procedure for each client.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-31">
+          <num>31.</num>
+          <heading>Childcare facilities</heading>
+          <subsection id="section-31.1">
+            <num>(1)</num>
+            <content>
+              <p>No <term refersTo="#term-child_care_facility" id="trm273">child care facility</term> may be operated without the written approval of the Director: City Health or his authorised representative, which approval may be subject to conditions.</p>
+            </content>
+          </subsection>
+          <subsection id="section-31.2">
+            <num>(2)</num>
+            <content>
+              <p>Applications for approval must be made on the prescribed form and will only be processed after payment of the application fee approved from time to time by the <term refersTo="#term-Council" id="trm274">Council</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-31.3">
+            <num>(3)</num>
+            <content>
+              <p>Written approval in terms of subsection (1) does not exempt any <term refersTo="#term-person" id="trm275">person</term> from the requirements of any other law related to the care of children and/or the use of the <term refersTo="#term-premises" id="trm276">premises</term> concerned.</p>
+            </content>
+          </subsection>
+          <subsection id="section-31.4">
+            <num>(4)</num>
+            <content>
+              <p>Notwithstanding subsection (1) all child care facilities legally in operation at the time of promulgation of this By-law shall be exempted from requiring written approval for a period of 1 year from such promulgation.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-32">
+          <num>32.</num>
+          <heading/>
+          <subsection id="section-32.subsection-0">
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm277">person</term> who contravenes any of the provisions of this Part shall be guilty of an offence.</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part id="part-5">
+        <num>5</num>
+        <heading>The conveying and handling for sale of meat intended for human consumption</heading>
+        <section id="section-33">
+          <num>33.</num>
+          <heading/>
+          <subsection id="section-33.subsection-0">
+            <content>
+              <blockList id="section-33.subsection-0.list0">
+                <listIntroduction> No <term refersTo="#term-person" id="trm278">person</term> shall convey or cause or suffer to be conveyed any meat for sale and intended for human consumption, save in accordance with the following requirements: </listIntroduction>
+                <item id="section-33.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <blockList id="section-33.subsection-0.list0.a.list0">
+                    <listIntroduction>If the conveyance is a vehicle of 1 ton or over:</listIntroduction>
+                    <item id="section-33.subsection-0.list0.a.list0.i">
+                      <num>(i)</num>
+                      <p>Its internal walls, floor and roof shall be continuously lined with corrosion resistant metal or other approved impervious suitable material. Such lining shall be rounded at all corners, junctions and intersections, and all joints shall be seamless. The vehicle shall be maintained externally, internally and mechanically in good order and repair.</p>
+                    </item>
+                    <item id="section-33.subsection-0.list0.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>Its body shall be insulated in such a way that the temperature of the meat shall not rise more than 5° Centigrade per hour.</p>
+                    </item>
+                    <item id="section-33.subsection-0.list0.a.list0.iii">
+                      <num>(iii)</num>
+                      <p>The rear end or sides of its body shall be fitted with a closely fitting metal door or doors, the interior of which shall also be of non-corrodible metal and be as far as possible free of projections and ledges.</p>
+                    </item>
+                    <item id="section-33.subsection-0.list0.a.list0.iv">
+                      <num>(iv)</num>
+                      <p>A fixed observation panel of glass in the partition between the driver’s cab and the body of the vehicle is permissible.</p>
+                    </item>
+                    <item id="section-33.subsection-0.list0.a.list0.v">
+                      <num>(v)</num>
+                      <p>A non-corrodible metal bar or bars with fixed or movable non-corrodible metal hooks, shall be fitted to the roof of the vehicle, and all carcasses, or portions of carcasses shall be hung therefrom during transit. Such bar or bars shall be fixed high enough to ensure that carcasses hang clear of the floor.</p>
+                    </item>
+                    <item id="section-33.subsection-0.list0.a.list0.vi">
+                      <num>(vi)</num>
+                      <p>All chains or bars used for stabilising the load shall be of non-corrodible metal and so installed that they can be easily removed for cleaning.</p>
+                    </item>
+                    <item id="section-33.subsection-0.list0.a.list0.vii">
+                      <num>(vii)</num>
+                      <p>A loose non-corrodible container, approved by the Director: City Health or his authorised representative, and easily removable for cleaning, shall be provided inside the vehicle for conveying offal, and no offal shall be conveyed in such vehicle except in such container. Such container may be carried on the outside of the vehicle, provided it is fitted into another container that will protect its contents from contamination, and it can be easily removed for cleaning.</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-33.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>If the conveyance is a trailer, it shall comply with the provisions of sub-section (a)(i), (ii), (iii), (v), (vi) and (vii).</p>
+                </item>
+                <item id="section-33.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <blockList id="section-33.subsection-0.list0.c.list1">
+                    <listIntroduction>If the conveyance is a vehicle of under 1 ton:</listIntroduction>
+                    <item id="section-33.subsection-0.list0.c.list1.i">
+                      <num>(i)</num>
+                      <p>It shall comply with the requirements of subsection (a) (i) and (iii).</p>
+                    </item>
+                    <item id="section-33.subsection-0.list0.c.list1.ii">
+                      <num>(ii)</num>
+                      <p>It shall be permissible for retail butchers to convey therein meat from an abattoir to their trading <term refersTo="#term-premises" id="trm279">premises</term> without hanging such meat, provided that it is conveyed in non-corrodible containers of adequate size, approved by the Director: City Health or his authorized representative, and easily removable for cleaning and that no offal is conveyed in any container used for conveying meat, but is conveyed in a separate container complying with the requirements of (a) (vii) above.</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-33.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>If the conveyance is a vehicle, conveying meat to a retail customer, the provisions of sub-section (a) (i) and (iii) shall be complied with.</p>
+                </item>
+                <item id="section-33.subsection-0.list0.e">
+                  <num>(e)</num>
+                  <p>Cooked or prepared meats shall be conveyed in non-corrodible containers approved by the Director: City Health or his authorized representative and shall be wrapped or covered so as to prevent contamination.</p>
+                </item>
+                <item id="section-33.subsection-0.list0.f">
+                  <num>(f)</num>
+                  <p>Save as provided in sub-section (c) (ii) and (e), no meat shall be conveyed on the floor of any vehicle.</p>
+                </item>
+                <item id="section-33.subsection-0.list0.g">
+                  <num>(g)</num>
+                  <p>No <term refersTo="#term-person" id="trm280">person</term>, <term refersTo="#term-animal" id="trm281">animal</term> or article liable to contaminate meat shall be carried in any vehicle used for conveying for sale any meat intended for human consumption.</p>
+                </item>
+                <item id="section-33.subsection-0.list0.h">
+                  <num>(h)</num>
+                  <p>The name and address of the <term refersTo="#term-owner" id="trm282">owner</term> and the trade name, if any, of his business shall be printed in clear letters and figures, so as to be easily seen and legible, on both sides of every vehicle used for conveying meat for sale for human consumption.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-34">
+          <num>34.</num>
+          <heading/>
+          <subsection id="section-34.1">
+            <num>(1)</num>
+            <content>
+              <p>All persons engaged in the bulk handling for sale of meat intended for human consumption shall wear clean protective covers of a material approved by the Director: City Health or his authorized representative over their heads, necks and shoulders, so as to prevent contact between the meat and any part of their bodies, except their hands.</p>
+            </content>
+          </subsection>
+          <subsection id="section-34.2">
+            <num>(2)</num>
+            <content>
+              <p>All employers of such persons shall provide them with such covers and shall insure that the provisions of sub-section (1) are complied with.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-35">
+          <num>35.</num>
+          <heading/>
+          <subsection id="section-35.subsection-0">
+            <content>
+              <p>For a period of four years after the date of promulgation of this By law, the provisions of sections 33(a) (i), (ii), (iii), (v) and (vi), 33(b), except the provision that the trailer should comply with section 33(a) (vii) and 33(d) of this regulation, shall not apply to any vehicle already lawfully in use at such date for conveying meat for sale intended for human consumption.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-36">
+          <num>36.</num>
+          <heading/>
+          <subsection id="section-36.subsection-0">
+            <content>
+              <p>The provisions of this Part shall be in addition to, and not in substitution for, the provisions of any other regulations of the <term refersTo="#term-Council" id="trm283">Council</term> relating to food intended for sale, except in so far as such regulations may be repugnant to or inconsistent with this regulation, in which case the provisions of this regulation shall prevail.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-37">
+          <num>37.</num>
+          <heading/>
+          <subsection id="section-37.subsection-0">
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm284">person</term> who contravenes or fails to comply with any of the provisions of this Part shall be guilty of an offence.</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part id="part-6">
+        <num>6</num>
+        <heading>General provisions</heading>
+        <section id="section-38">
+          <num>38.</num>
+          <heading>Right of entry and inspection</heading>
+          <subsection id="section-38.1">
+            <num>(1)</num>
+            <content>
+              <p>Any duly authorised employee of the <term refersTo="#term-Council" id="trm285">Council</term> is authorised to inspect any <term refersTo="#term-premises" id="trm286">premises</term> within the municipal area in order to determine whether there is compliance with the provisions of this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.2">
+            <num>(2)</num>
+            <content>
+              <p>When entering a <term refersTo="#term-premises" id="trm287">premises</term> in terms of sub-section (1), the authorised employed must on request by any <term refersTo="#term-person" id="trm288">person</term>, identify him-/herself by producing written proof of authorisation.</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.3">
+            <num>(3)</num>
+            <content>
+              <p>The authorised employee may be accompanied by a <term refersTo="#term-person" id="trm289">person</term> reasonably required to assist in conducting the inspection.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-39">
+          <num>39.</num>
+          <heading>Service of documents and process</heading>
+          <subsection id="section-39.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-39.1.list0">
+                <listIntroduction> Whenever any notice, order, demand or other document is authorised or required to be served on a <term refersTo="#term-person" id="trm290">person</term> in terms of this By-law, it shall be deemed to have been effectively and sufficiently served on such <term refersTo="#term-person" id="trm291">person</term>: </listIntroduction>
+                <item id="section-39.1.list0.a">
+                  <num>(a)</num>
+                  <p>when it has been delivered to him personally;</p>
+                </item>
+                <item id="section-39.1.list0.b">
+                  <num>(b)</num>
+                  <p>when it has been left at his place of residence or business in the Republic with a <term refersTo="#term-person" id="trm292">person</term> apparently over the age or sixteen years;</p>
+                </item>
+                <item id="section-39.1.list0.c">
+                  <num>(c)</num>
+                  <p>when it has been posted by registered or certified mail to his last known residential or business address in the Republic and an acknowledgment of the posting thereof is produced;</p>
+                </item>
+                <item id="section-39.1.list0.d">
+                  <num>(d)</num>
+                  <p>if his address in the Republic is unknown, when it has been served on his <term refersTo="#term-agent" id="trm293">agent</term> or representative in the Republic in the manner provided by paragraph (a), (b) or (c), or</p>
+                </item>
+                <item id="section-39.1.list0.e">
+                  <num>(e)</num>
+                  <p>if his address and <term refersTo="#term-agent" id="trm294">agent</term> in the Republic are unknown, when it has been posted in a conspicuous place on the immovable property (if any) to which it relates.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-39.2">
+            <num>(2)</num>
+            <content>
+              <p>When any notice, order, demand or other document as aforesaid is authorised or required to be served on a <term refersTo="#term-person" id="trm295">person</term> by reason of his being or having been the <term refersTo="#term-owner" id="trm296">owner</term> or <term refersTo="#term-occupier" id="trm297">occupier</term> of or holding some other right in respect of immovable property, it shall not be necessary to name him but it shall be sufficient if he is therein described as the <term refersTo="#term-owner" id="trm298">owner</term>, <term refersTo="#term-occupier" id="trm299">occupier</term> or holder of such immovable property or other right, as the case may be.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-40">
+          <num>40.</num>
+          <heading>Penalties</heading>
+          <subsection id="section-40.1">
+            <num>(1)</num>
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm300">person</term> convicted of an offence under this By-law shall be liable to a fine and/or imprisonment for a period not exceeding two years.</p>
+            </content>
+          </subsection>
+          <subsection id="section-40.2">
+            <num>(2)</num>
+            <content>
+              <p>In the case of a continuing offence an additional fine and/or imprisonment for a period not exceeding ten days for each day on which such offence continued may be imposed.</p>
+            </content>
+          </subsection>
+          <subsection id="section-40.3">
+            <num>(3)</num>
+            <content>
+              <p>In addition to any penalty imposed in terms of subsections (1) and (2), the <term refersTo="#term-person" id="trm301">person</term> so convicted shall be liable to pay the <term refersTo="#term-cost" id="trm302">cost</term> of repair of any damage caused or costs incurred in remedying any damage resulting from such an offence.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-41">
+          <num>41.</num>
+          <heading>Exemptions</heading>
+          <subsection id="section-41.subsection-0">
+            <content>
+              <p>Notwithstanding the provisions of this By-law, the <term refersTo="#term-Council" id="trm303">Council</term> may exempt any <term refersTo="#term-person" id="trm304">person</term> and/or class of persons from any or all of these requirements and may impose any other requirements it deems appropriate.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-42">
+          <num>42.</num>
+          <heading>Repeal</heading>
+          <subsection id="section-42.subsection-0">
+            <content>
+              <p>The legislation appearing in Schedule 1 is repealed insofar as it has application in the municipal area of the City of Cape Town</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-43">
+          <num>43.</num>
+          <heading>Interpretation</heading>
+          <subsection id="section-43.subsection-0">
+            <content>
+              <p>In the event of a conflict between the English, Xhosa and Afrikaans versions of this By-law, the English version shall be decisive.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-44">
+          <num>44.</num>
+          <heading>Short title and commencement</heading>
+          <subsection id="section-44.subsection-0">
+            <content>
+              <p>This By-law shall be know as the Environmental Health By-law and come into operation on the date of publication in the Provincial Gazette.</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+    </body>
+  </act>
+  <components>
+    <component id="component-1">
+      <doc name="schedule1">
+        <meta>
+          <identification source="#openbylaws">
+            <FRBRWork>
+              <FRBRthis value="/za-cpt/act/by-law/2003/environmental-health/schedule1"/>
+              <FRBRuri value="/za-cpt/act/by-law/2003/environmental-health"/>
+              <FRBRalias value="Schedule 1"/>
+              <FRBRdate date="2003-06-30" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-cpt/act/by-law/2003/environmental-health/eng@2011-08-05/schedule1"/>
+              <FRBRuri value="/za-cpt/act/by-law/2003/environmental-health/eng@2011-08-05"/>
+              <FRBRdate date="2003-06-30" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-cpt/act/by-law/2003/environmental-health/eng@2011-08-05/schedule1"/>
+              <FRBRuri value="/za-cpt/act/by-law/2003/environmental-health/eng@2011-08-05"/>
+              <FRBRdate date="2014-03-28" name="Generation"/>
+              <FRBRauthor href="#openbylaws" as="#author"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule-1">
+            <content>
+              <table id="schedule-1.table0">
+                <tr>
+                  <th>
+                    <p>PN NO.</p>
+                  </th>
+                  <th>
+                    <p>BY-LAW</p>
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <p>65/1962</p>
+                  </td>
+                  <td>
+                    <p>Bellville Municipality: Regulations relating to the prevention of Fires</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>1022/1977</p>
+                  </td>
+                  <td>
+                    <p>Durbanville Municipality: By-law Relating to Nuisances</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>131/1961</p>
+                  </td>
+                  <td>
+                    <p>Bellville Municipality: Regulations relating to the Removal of Vegetation from Land</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>483/1961</p>
+                  </td>
+                  <td>
+                    <p>Goodwood Municipality: Regulations relating to the Removal of Vegetation from Land</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>133/1949</p>
+                  </td>
+                  <td>
+                    <p>Regulations relating to the Compelling of Residents to keep their premises free from offensive, infectious or unwholesome matter, the suppression of Nuisances and the Preservation of the Public Health.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>34/1941</p>
+                  </td>
+                  <td>
+                    <p>Municipality of Goodwood: Standard Regulations dealing with Public Health</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>100/1993</p>
+                  </td>
+                  <td>
+                    <p>Goodwood Municipality: By-law Relating to Nuisances</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>297/1982</p>
+                  </td>
+                  <td>
+                    <p>Goodwood Municipality: By-law Relating to Smoking in certain premises or vehicles</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>607/1991</p>
+                  </td>
+                  <td>
+                    <p>Bellville Municipality: Amendment to the Standard By-law relating to the Keeping of Animals</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>831/1989</p>
+                  </td>
+                  <td>
+                    <p>Bellville Municipality: Standard By-law relating to the Keeping of Animals</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>517/1986</p>
+                  </td>
+                  <td>
+                    <p>Bellville Municipality: Standard By-law Relating to the Keeping of Poultry</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>541/1953</p>
+                  </td>
+                  <td>
+                    <p>Goodwood Municipality: Standard Regulations relating to the Keeping of Poultry</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>42/1947</p>
+                  </td>
+                  <td>
+                    <p>Municipality of Durbanville: Regulations relating to the Slaughterhouse and the Inspection of meat</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>133/1949</p>
+                  </td>
+                  <td>
+                    <p>Goodwood Municipality: Regulations relating to Hairdressers</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p/>
+                  </td>
+                  <td>
+                    <p>Goodwood Municipality: Regulations relating to Tenement Houses</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p/>
+                  </td>
+                  <td>
+                    <p>Goodwood Municipality: Regulations relating to Boarding Houses and similar premises</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p/>
+                  </td>
+                  <td>
+                    <p>Goodwood Municipality: Regulations relating to Tea-rooms, Coffee-rooms, Restaurants and Eating-houses</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p/>
+                  </td>
+                  <td>
+                    <p>Goodwood Municipality: Regulations relating to the Sale, preparation and Storage of foodstuffs</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>774/1954</p>
+                  </td>
+                  <td>
+                    <p>Goodwood Municipality: Standard Regulations relating to Restaurants, Refreshment or tea-rooms and eating-houses</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>775/1954</p>
+                  </td>
+                  <td>
+                    <p>Goodwood Municipality: Additional Regulations relating to Restaurants, Refreshment or tea-rooms and eating-houses</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>330/1957</p>
+                  </td>
+                  <td>
+                    <p>Goodwood Municipality: Standard Butchery Regulations</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>547/1969</p>
+                  </td>
+                  <td>
+                    <p>Goodwood Municipality: Amendment to the Regulations relating to the sale, preparation and storage of foodstuffs</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>314/1990</p>
+                  </td>
+                  <td>
+                    <p>Cape Town Municipality: Environmental Health By-law</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>PG5642/2000</p>
+                  </td>
+                  <td>
+                    <p>South Peninsula Municipality: By-law Relating to the Keeping of Animals and Poultry</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>760/1951</p>
+                  </td>
+                  <td>
+                    <p>Amendments to the Standard Regulations to the Keeping of Poultry</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>453/1962</p>
+                  </td>
+                  <td>
+                    <p>Local Authorities: Amendment to the Standard Regulations to the Keeping of Poultry</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>531/1962</p>
+                  </td>
+                  <td>
+                    <p>Amendments to the Standard Regulations to the Keeping of Poultry</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>742/1963</p>
+                  </td>
+                  <td>
+                    <p>Local Authorities: Amendment to the Standard Regulations to the Keeping of Poultry</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>365/1984</p>
+                  </td>
+                  <td>
+                    <p>Cape Provincial Council: By-law Relating to the Keeping of Poultry on Premises within Local Areas: Correction Notice</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>593/1992</p>
+                  </td>
+                  <td>
+                    <p>Standard By-laws Relating to Barbers &amp; Hairdressers</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>630/1990</p>
+                  </td>
+                  <td>
+                    <p>Somerset West Municipality: Standard By-law relating to Accommodation Establishments</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>784/1988</p>
+                  </td>
+                  <td>
+                    <p>Somerset West Municipality: By-law relating to the accumulation, Dumping, Storage or Depositing of material</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>870/1989</p>
+                  </td>
+                  <td>
+                    <p>Somerset West Municipality: By-law relating to the removal of vegetation from land</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>563/1961</p>
+                  </td>
+                  <td>
+                    <p>Amendment to the Standard Regulations relating to Barbers and Hairdressers</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>348/1954</p>
+                  </td>
+                  <td>
+                    <p>Standard: Standard Regulations relating to Restaurants, refreshments or tea-rooms and eating-houses</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>509/1962</p>
+                  </td>
+                  <td>
+                    <p>Standard Regulations relating to Fishmongers</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>705/1953</p>
+                  </td>
+                  <td>
+                    <p>Amendment to Standard Boarding-house regulations</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>830/1954</p>
+                  </td>
+                  <td>
+                    <p>Standard Boarding-house regulations</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>602/1950</p>
+                  </td>
+                  <td>
+                    <p>Standard Bakery By-laws</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>875/1988</p>
+                  </td>
+                  <td>
+                    <p>Standard By-law relating to Butcheries</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>210/1947</p>
+                  </td>
+                  <td>
+                    <p>Municipality of Fish Hoek: Regulations relating to Boarding Houses</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>193/1983</p>
+                  </td>
+                  <td>
+                    <p>Brackenfell Municipality: Health By-law relating to créches and créches-cum-nursery schools.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>451/1988</p>
+                  </td>
+                  <td>
+                    <p>Kuils River Municipality: Standard By-law relating to accommodation establishments</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>232/1991</p>
+                  </td>
+                  <td>
+                    <p>Milnerton Municipality: Repeal and adoption of Standard By-law relating to the Keeping of Animals</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>603/1989</p>
+                  </td>
+                  <td>
+                    <p>Standard By-law relating the keeping of Animals</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>348/1973</p>
+                  </td>
+                  <td>
+                    <p>Divisional Council of the Cape: Regulations relating to the keeping of certain animals</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>340/1958</p>
+                  </td>
+                  <td>
+                    <p>Amendment to the Standard Regulations relating to the keeping of animals</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>577/1950</p>
+                  </td>
+                  <td>
+                    <p>Standard Regulations relating to the keeping of animals</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>454/1983</p>
+                  </td>
+                  <td>
+                    <p>Provincial Council: By-law relating to the keeping of poultry on premises within local areas</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>117/1988</p>
+                  </td>
+                  <td>
+                    <p>Standard By-law relating to the keeping of poultry</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>591/1955</p>
+                  </td>
+                  <td>
+                    <p>Milnerton Municipality: Additional regulations relating to the Keeping of animals.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>520/1983</p>
+                  </td>
+                  <td>
+                    <p>Divisional Council of the Cape: By-law relating to the keeping of Pigeons and Doves on premises within local areas</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>956/1989</p>
+                  </td>
+                  <td>
+                    <p>Somerset West Municipality: Standard By-law relating to the Keeping of Animals</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>603/1989</p>
+                  </td>
+                  <td>
+                    <p>Standard By-law relating to the keeping of animals</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>822/1989</p>
+                  </td>
+                  <td>
+                    <p>Gordon’s Bay Municipality: Standard By-law relating to the keeping of animals</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>705/1958</p>
+                  </td>
+                  <td>
+                    <p>Gordon’s Bay Village Management Board: Standard Regulations relating to the keeping of poultry</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>372/1976</p>
+                  </td>
+                  <td>
+                    <p>Stellenbosch Divisional Council: Regulations relating to the keeping of animals in local areas</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>956/1977</p>
+                  </td>
+                  <td>
+                    <p>Strand Municipality: By-law Relating to the cleanliness of premises</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>703/1976</p>
+                  </td>
+                  <td>
+                    <p>Strand Municipality: By-law relating to the Dumping and accumulation of refuse</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>664/1988</p>
+                  </td>
+                  <td>
+                    <p>Kraaifontein Municipality: By-law relating to the prevention of nuisances</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>321/1957</p>
+                  </td>
+                  <td>
+                    <p>Divisional Council: Regulations for the prevention and suppression of nuisances as amended</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>503/1977</p>
+                  </td>
+                  <td>
+                    <p>Divisional Council of the Cape: Amendment to the By-law for the prevention and suppression of nuisances</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>13/1998</p>
+                  </td>
+                  <td>
+                    <p>Malmesbury Transitional Local Council: By-law relating to the prevention and suppression of nuisances</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>92/1972</p>
+                  </td>
+                  <td>
+                    <p>Gordon’s Bay Municipality: By-law Relating to the cleanliness of premises</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>773/1989</p>
+                  </td>
+                  <td>
+                    <p>Gordon’s Bay Municipality: Amendment to the Standard By-law relating to Barbers and Hairdressers</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>668/1950</p>
+                  </td>
+                  <td>
+                    <p>Standard Regulations relating to Barbers and Hairdressers</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>115/1956</p>
+                  </td>
+                  <td>
+                    <p>Amendment to the Standard Regulations relating to Barbers and Hairdressers</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>167/1988</p>
+                  </td>
+                  <td>
+                    <p>Standard By-laws relating to accommodation establishments</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>428/1989</p>
+                  </td>
+                  <td>
+                    <p>Gordon’s Bay Municipality: By-law relating to nuisances</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>114/1969</p>
+                  </td>
+                  <td>
+                    <p>Strand Municipality: Amendment to the General Series of Regulations—Transportation of foodstuff</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>997/1964</p>
+                  </td>
+                  <td>
+                    <p>Strand Municipality: Amendment to the Regulations relating to the Pasteurisation of Milk</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>426/1980</p>
+                  </td>
+                  <td>
+                    <p>Strand Municipality: Amendment to the General By-law</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>545/1972</p>
+                  </td>
+                  <td>
+                    <p>Divisional Council of the Cape: Regulations Relating to the Sale and Preparation of Foodstuffs.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>395/1939</p>
+                  </td>
+                  <td>
+                    <p>Divisional Council of the Cape: Regulations Relating to the Sale and Preparation of foodstuffs.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>41/1945</p>
+                  </td>
+                  <td>
+                    <p>Municipality of Cape Town: Regulation No 1933 as regards the compelling of Residents to keep their Premises Free from offensive, infectious or unwholesome matter, the suppression of Nuisances and the preservation of the Public Health</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>441/1938</p>
+                  </td>
+                  <td>
+                    <p>Simon’s Town Municipality: Fish Market Regulations as amended 479/1957; 51/1959; 432/1963.</p>
+                  </td>
+                </tr>
+              </table>
+            </content>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>

@@ -1,0 +1,293 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openbylaws">
+        <FRBRWork>
+          <FRBRthis value="/za-cpt/act/by-law/2005/filming/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2005/filming"/>
+          <FRBRalias value="Filming By-law"/>
+          <FRBRdate date="2005-07-24" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-cpt/act/by-law/2005/filming/eng@2005-07-24/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2005/filming/eng@2005-07-24"/>
+          <FRBRdate date="2005-07-24" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-cpt/act/by-law/2005/filming/eng@2005-07-24/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2005/filming/eng@2005-07-24"/>
+          <FRBRdate date="2015-09-06" name="Generation"/>
+          <FRBRauthor href="#openbylaws" as="#author"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-07-24" name="Province of Western Cape: Provincial Gazette" number="6277" showAs="Province of Western Cape: Provincial Gazette"/>
+      <references source="#this">
+        <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council.cape-town" showAs="Cape Town City Council"/>
+        <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCTerm id="term-authorised_official" href="/ontology/term/this.eng.authorised_official" showAs="authorised official"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-Council_land" href="/ontology/term/this.eng.Council_land" showAs="Council land"/>
+        <TLCTerm id="term-filming" href="/ontology/term/this.eng.filming" showAs="filming"/>
+        <TLCTerm id="term-municipality" href="/ontology/term/this.eng.municipality" showAs="municipality"/>
+        <TLCTerm id="term-prescribed_tariff" href="/ontology/term/this.eng.prescribed_tariff" showAs="prescribed tariff"/>
+        <TLCTerm id="term-Tariff_Policy_By-law" href="/ontology/term/this.eng.Tariff_Policy_By-law" showAs="Tariff Policy By-law"/>
+      </references>
+    </meta>
+    <preamble>
+      <p>WHEREAS the Council recognises the important role that filming plays in the economy of the Western Cape;</p>
+      <p>WHEREAS the Council is committed to make every effort to facilitate the processing of applications for permission to carry out filming in its area of jurisdiction;</p>
+      <p>WHEREAS the Council wishes to provide a one-stop facility for the processing of applications for filming while still acting within the constraints of the provisions of the Constitution and existing legislation:</p>
+    </preamble>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <subsection id="section-1.subsection-0">
+          <content>
+            <p>In this by-law, unless inconsistent with the context:—</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-1" refersTo="#term-authorised_official">
+          <content>
+            <p>"<def refersTo="#term-authorised_official">authorised official</def>" means an official of the <term refersTo="#term-Council" id="trm0">Council</term> authorised to administer, implement and enforce the provisions of this by-law; "City Manager" the person appointed by the <term refersTo="#term-Council" id="trm1">Council</term> in the capacity of municipal manager;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-2" refersTo="#term-Council">
+          <content>
+            <p>"<def refersTo="#term-Council">Council</def>" means the council of the <term refersTo="#term-municipality" id="trm2">municipality</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-3" refersTo="#term-Council_land">
+          <content>
+            <p>"<def refersTo="#term-Council_land">Council land</def>" means any land the ownership of which is vested in the <term refersTo="#term-Council" id="trm3">Council</term> or which is under the control of the <term refersTo="#term-Council" id="trm4">Council</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-4" refersTo="#term-filming">
+          <content>
+            <p>"<def refersTo="#term-filming">filming</def>" means the recording of images, moving or still, whether on film or by video tape, electronically or by any other means, but excludes the video recording of a wedding ceremony or other private celebration or event for the purpose of making a video record thereof for its participants, or the recording of current affairs or news for immediate release;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-5" refersTo="#term-municipality">
+          <content>
+            <p>"<def refersTo="#term-municipality">municipality</def>" means the Municipality of Cape Town;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-6" refersTo="#term-prescribed_tariff">
+          <content>
+            <p>"<def refersTo="#term-prescribed_tariff">prescribed tariff</def>" means a tariff determined and imposed by the <term refersTo="#term-Council" id="trm5">Council</term> in terms of the <term refersTo="#term-Tariff_Policy_By-law" id="trm6">Tariff Policy By-law</term>, and</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-7" refersTo="#term-Tariff_Policy_By-law">
+          <content>
+            <p>"<def refersTo="#term-Tariff_Policy_By-law">Tariff Policy By-law</def>" means the tariff policy by-law promulgated by the <term refersTo="#term-Council" id="trm7">Council</term> in terms of section 75 of the Local Government: Municipal Systems Act, No 32 of 2000, or pending such promulgation, a decision by the <term refersTo="#term-Council" id="trm8">Council</term> in terms of section 75A of that Act to levy and recover fees, charges or tariffs.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Application of this by-law</heading>
+        <subsection id="section-2.1">
+          <num>(1)</num>
+          <content>
+            <p>This by-law does not derogate from the provisions of any other legislation.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.2">
+          <num>(2)</num>
+          <content>
+            <p>Notwithstanding the provisions of subsection (1), until such time as the <term refersTo="#term-Council" id="trm9">Council</term> adopts an integrated Zoning Scheme, the provisions of any Zoning Scheme in the area of the <term refersTo="#term-municipality" id="trm10">municipality</term> insofar as use rights conferred on any property are concerned, are subject to the provisions of this by-law.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.3">
+          <num>(3)</num>
+          <content>
+            <p>This by-law binds the state.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Control of <term refersTo="#term-filming" id="trm11">filming</term></heading>
+        <subsection id="section-3.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-3.1.list0">
+              <listIntroduction> No person may carry out any <term refersTo="#term-filming" id="trm12">filming</term> on <term refersTo="#term-Council_land" id="trm13">Council land</term>:— </listIntroduction>
+              <item id="section-3.1.list0.a">
+                <num>(a)</num>
+                <p>except with the written permission of the City Manager, and</p>
+              </item>
+              <item id="section-3.1.list0.b">
+                <num>(b)</num>
+                <p>otherwise than in accordance with such terms and conditions as may be determined by the City Manager.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-3.2">
+          <num>(2)</num>
+          <content>
+            <p>Subsection (1) is also applicable to any <term refersTo="#term-filming" id="trm14">filming</term> related activities on <term refersTo="#term-Council_land" id="trm15">Council land</term> where the actual <term refersTo="#term-filming" id="trm16">filming</term> takes place on land other than <term refersTo="#term-Council_land" id="trm17">Council land</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-3.3.list2">
+              <listIntroduction> Filming related activities include, but are not limited to:— </listIntroduction>
+              <item id="section-3.3.list2.a">
+                <num>(a)</num>
+                <p>the interruption of traffic on public roads;</p>
+              </item>
+              <item id="section-3.3.list2.b">
+                <num>(b)</num>
+                <p>the interruption of pedestrian traffic on sidewalks;</p>
+              </item>
+              <item id="section-3.3.list2.c">
+                <num>(c)</num>
+                <p>wires or cables running across or over sidewalks or public roads;</p>
+              </item>
+              <item id="section-3.3.list2.d">
+                <num>(d)</num>
+                <p>the use of generators, tripods or dollys on sidewalks or public roads;</p>
+              </item>
+              <item id="section-3.3.list2.e">
+                <num>(e)</num>
+                <p>activities that have an impact on public parking, public open space or beaches, and</p>
+              </item>
+              <item id="section-3.3.list2.f">
+                <num>(f)</num>
+                <p>activities that will generate noise and air pollution.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Permission to be obtained from the city manager</heading>
+        <subsection id="section-4.1">
+          <num>(1)</num>
+          <content>
+            <p>Subject to the provisions of subsection (3), a person who intends to carry out <term refersTo="#term-filming" id="trm18">filming</term> for which permission is required in terms of section 3, must submit a written application to the City Manager; provided that any other persons taking part in the same <term refersTo="#term-filming" id="trm19">filming</term>, need not also apply for permission, if such persons are under the control of the applicant.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-4.2.list1">
+              <listIntroduction> An application made in terms of this section must be made at least two working days prior to commencement of <term refersTo="#term-filming" id="trm20">filming</term> and must contain at least the following information:— </listIntroduction>
+              <item id="section-4.2.list1.a">
+                <num>(a)</num>
+                <p>full particulars of the name, address and occupation of the applicant or, if the application is made on behalf of a company, its registration number, directors, etc.;</p>
+              </item>
+              <item id="section-4.2.list1.b">
+                <num>(b)</num>
+                <p>full particulars of the person who will be in charge of the <term refersTo="#term-filming" id="trm21">filming</term>, if such person is not the applicant;</p>
+              </item>
+              <item id="section-4.2.list1.c">
+                <num>(c)</num>
+                <p>full details of such locations where the <term refersTo="#term-filming" id="trm22">filming</term> is intended to be carried out, the proposed starting and finishing times and the number of persons, vehicles, implements or other apparatus that will be used, and</p>
+              </item>
+              <item id="section-4.2.list1.d">
+                <num>(d)</num>
+                <p>general details of the purpose of any one or more of the actions to be carried out.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4.3">
+          <num>(3)</num>
+          <content>
+            <p>An applicant must pay the <term refersTo="#term-prescribed_tariff" id="trm23">prescribed tariff</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Insurance</heading>
+        <subsection id="section-5.subsection-0">
+          <content>
+            <blockList id="section-5.subsection-0.list0">
+              <listIntroduction> The applicant must provide:— </listIntroduction>
+              <item id="section-5.subsection-0.list0.a">
+                <num>(a)</num>
+                <p>evidence, to the satisfaction of the City Manager, of appropriate indemnity cover, and</p>
+              </item>
+              <item id="section-5.subsection-0.list0.b">
+                <num>(b)</num>
+                <p>where it is the intention that stunts, special effects, pyrotechnics or any other activity which may put the public at risk will be involved, evidence to the satisfaction of the City Manager of appropriate specialised risk insurance, blanket liability or work cover.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Appointment of authorised officials and delegation</heading>
+        <subsection id="section-6.1">
+          <num>(1)</num>
+          <content>
+            <p>The City Manager may appoint employees of the <term refersTo="#term-Council" id="trm24">Council</term> as authorised officials.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.2">
+          <num>(2)</num>
+          <content>
+            <p>The City Manager may delegate any of his or her functions and duties in terms of this by-law to any <term refersTo="#term-authorised_official" id="trm25">authorised official</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Compliance notices</heading>
+        <subsection id="section-7.1">
+          <num>(1)</num>
+          <content>
+            <p>When an <term refersTo="#term-authorised_official" id="trm26">authorised official</term> finds that a provision of this by-law is contravened by an applicant or that a condition has arisen that has the potential to lead to a contravention of this by-law, such <term refersTo="#term-authorised_official" id="trm27">authorised official</term> may issue a compliance notice to the applicant or the person in charge of the <term refersTo="#term-filming" id="trm28">filming</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-7.2.list1">
+              <listIntroduction> A notice issued in terms of subsection (1) must state:— </listIntroduction>
+              <item id="section-7.2.list1.a">
+                <num>(a)</num>
+                <p>the provision of the by-law that is being contravened or will be contravened if the condition is allowed to continue;</p>
+              </item>
+              <item id="section-7.2.list1.b">
+                <num>(b)</num>
+                <p>the measures that must be taken to rectify the condition, and</p>
+              </item>
+              <item id="section-7.2.list1.c">
+                <num>(c)</num>
+                <p>the time period in which the notice must be complied with.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-7.3">
+          <num>(3)</num>
+          <content>
+            <p>If a person on whom notice was served in terms of subsection (2), fails to comply to the requirements of the notice, the City Manager may take such steps as may be necessary to rectify the condition at the cost of the applicant.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Offences and penalties</heading>
+        <subsection id="section-8.subsection-0">
+          <content>
+            <p>A person who contravenes a provision of this by-law, or fails to comply to a condition or notice legally issued in terms of this by-law, is guilty of an offence and on conviction liable to the payment of a fine.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

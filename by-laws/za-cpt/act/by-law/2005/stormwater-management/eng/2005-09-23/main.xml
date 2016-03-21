@@ -1,0 +1,393 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openbylaws">
+        <FRBRWork>
+          <FRBRthis value="/za-cpt/act/by-law/2005/stormwater-management/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2005/stormwater-management"/>
+          <FRBRalias value="Stormwater Management By-law"/>
+          <FRBRdate date="2005-09-23" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-cpt/act/by-law/2005/stormwater-management/eng@2005-09-23/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2005/stormwater-management/eng@2005-09-23"/>
+          <FRBRdate date="2005-09-23" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-cpt/act/by-law/2005/stormwater-management/eng@2005-09-23/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2005/stormwater-management/eng@2005-09-23"/>
+          <FRBRdate date="2015-09-06" name="Generation"/>
+          <FRBRauthor href="#openbylaws" as="#author"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-09-23" name="Province of Western Cape: Provincial Gazette" number="6300" showAs="Province of Western Cape: Provincial Gazette"/>
+      <references source="#this">
+        <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council.cape-town" showAs="Cape Town City Council"/>
+        <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-floodplain" href="/ontology/term/this.eng.floodplain" showAs="floodplain"/>
+        <TLCTerm id="term-private_stormwater_system" href="/ontology/term/this.eng.private_stormwater_system" showAs="private stormwater system"/>
+        <TLCTerm id="term-stormwater" href="/ontology/term/this.eng.stormwater" showAs="stormwater"/>
+        <TLCTerm id="term-stormwater_system" href="/ontology/term/this.eng.stormwater_system" showAs="stormwater system"/>
+        <TLCTerm id="term-water_pollution_incident" href="/ontology/term/this.eng.water_pollution_incident" showAs="water pollution incident"/>
+        <TLCTerm id="term-watercourse" href="/ontology/term/this.eng.watercourse" showAs="watercourse"/>
+      </references>
+    </meta>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <subsection id="section-1.subsection-0">
+          <content>
+            <p>In this by-law, unless inconsistent with the Context: --</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-1" refersTo="#term-Council">
+          <content>
+            <p>"<def refersTo="#term-Council">Council</def>" means the municipal council of the City of Cape Town, or any political structure, political office-bearer, committee, councilor, or official of the council, delegated to exercise powers or perform duties in terms of this by-law;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-2" refersTo="#term-floodplain">
+          <content>
+            <p>"<def refersTo="#term-floodplain">floodplain</def>" means the land adjoining a <term refersTo="#term-watercourse" id="trm0">watercourse</term> which, in the opinion of the <term refersTo="#term-Council" id="trm1">Council</term>, is susceptible to inundation by floods up to the one hundred year recurrence interval;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-3" refersTo="#term-private_stormwater_system">
+          <content>
+            <p>"<def refersTo="#term-private_stormwater_system">private stormwater system</def>" means a <term refersTo="#term-stormwater_system" id="trm2">stormwater system</term> owned, operated or maintained by a person other than the <term refersTo="#term-Council" id="trm3">Council</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-4" refersTo="#term-stormwater">
+          <content>
+            <p>"<def refersTo="#term-stormwater">stormwater</def>" means water resulting front natural precipitation and/or the the accumulation thereof and includes groundwater and spring water ordinarily conveyed by the <term refersTo="#term-stormwater_system" id="trm4">stormwater system</term>, as well as sea water within estuaries, but excludes water in a drinking water or waste water reticulation system;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-5" refersTo="#term-stormwater_system">
+          <content>
+            <p>"<def refersTo="#term-stormwater_system">stormwater system</def>" means both the constructed and natural facilities, including pipes, culverts, watercourses and their associated floodplains, whether over or under public or privately owned land, used or required for the management, collection, conveyance, temporary storage, control, monitoring, treatment, use and disposal of <term refersTo="#term-stormwater" id="trm5">stormwater</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-6" refersTo="#term-water_pollution_incident">
+          <content>
+            <p>"<def refersTo="#term-water_pollution_incident">water pollution incident</def>" means an incident or occurrence which has a detrimental impact on a potential detrimental impact on the quality of the water in the <term refersTo="#term-stormwater_system" id="trm6">stormwater system</term> to such an extent that public health or the health of natural ecosystems may be threatened, and</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-7">
+          <content>
+            <blockList id="section-1.subsection-7.list7" refersTo="#term-watercourse">
+              <listIntroduction>"<def refersTo="#term-watercourse">watercourse</def>" means: -</listIntroduction>
+              <item id="section-1.subsection-7.list7.a">
+                <num>(a)</num>
+                <p>a river, spring, stream, channel or canal in which water flows regularly or intermittently, and</p>
+              </item>
+              <item id="section-1.subsection-7.list7.b">
+                <num>(b)</num>
+                <p>a vlei, wetland, dam or lake into which or from which water flows,</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-8">
+          <content>
+            <p>and includes, where relevant, the bed and the banks of such watercourses.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Application</heading>
+        <subsection id="section-2.1">
+          <num>(1)</num>
+          <content>
+            <p>This by-law binds any organ of state.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.2">
+          <num>(2)</num>
+          <content>
+            <p>Any provision in any other by-law dealing specifically with <term refersTo="#term-stormwater" id="trm7">stormwater</term>, is subject to the provisions of this by-law.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Prohibited discharges</heading>
+        <subsection id="section-3.subsection-0">
+          <content>
+            <p>No person may, except with the written consent of the <term refersTo="#term-Council" id="trm8">Council</term> and subject to any conditions it may impose, discharge, permit to enter or place anything other than <term refersTo="#term-stormwater" id="trm9">stormwater</term> into the <term refersTo="#term-stormwater_system" id="trm10">stormwater system</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Protection of <term refersTo="#term-stormwater_system" id="trm11">stormwater system</term></heading>
+        <subsection id="section-4.subsection-0">
+          <content>
+            <blockList id="section-4.subsection-0.list0">
+              <listIntroduction> No person may, except with the written consent of the <term refersTo="#term-Council" id="trm12">Council</term> and subject to any conditions it may impose- </listIntroduction>
+              <item id="section-4.subsection-0.list0.a">
+                <num>(a)</num>
+                <p>damage, endanger, destroy or undertake any action likely to damage, endanger or destroy, the <term refersTo="#term-stormwater_system" id="trm13">stormwater system</term> or the operation thereof;</p>
+              </item>
+              <item id="section-4.subsection-0.list0.b">
+                <num>(b)</num>
+                <p>discharge from any place, or place onto any surface, any substance other than <term refersTo="#term-stormwater" id="trm14">stormwater</term>, where that substance could reasonably be expected to find its way into the <term refersTo="#term-stormwater_system" id="trm15">stormwater system</term>;</p>
+              </item>
+              <item id="section-4.subsection-0.list0.c">
+                <num>(c)</num>
+                <p>discharge, permit to enter or place anything likely to damage the <term refersTo="#term-stormwater_system" id="trm16">stormwater system</term> or interfere with the operation thereof or contaminate or pollute the water therein;</p>
+              </item>
+              <item id="section-4.subsection-0.list0.d">
+                <num>(d)</num>
+                <p>construct or erect any structure or thing over or in such a position or in such a manner so as to interfere with or endanger the <term refersTo="#term-stormwater_system" id="trm17">stormwater system</term> or the operation thereof; or</p>
+              </item>
+              <item id="section-4.subsection-0.list0.e">
+                <num>(e)</num>
+                <p>make an opening into a <term refersTo="#term-stormwater" id="trm18">stormwater</term> pipe, canal or culvert; or</p>
+              </item>
+              <item id="section-4.subsection-0.list0.f">
+                <num>(f)</num>
+                <p>drain, abstract or divert any water directly from the <term refersTo="#term-stormwater_system" id="trm19">stormwater system</term>, or</p>
+              </item>
+              <item id="section-4.subsection-0.list0.g">
+                <num>(g)</num>
+                <p>fill, excavate, shape, landscape, open up or remove the ground above, within, under or immediately next to any part of the <term refersTo="#term-stormwater_system" id="trm20">stormwater system</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Prevention of flood risk</heading>
+        <subsection id="section-5.subsection-0">
+          <content>
+            <blockList id="section-5.subsection-0.list0">
+              <listIntroduction> No person may, except with the written consent of the <term refersTo="#term-Council" id="trm21">Council</term> and subject to any conditions it may impose- </listIntroduction>
+              <item id="section-5.subsection-0.list0.a">
+                <num>(a)</num>
+                <p>obstruct or reduce the capacity of the <term refersTo="#term-stormwater_system" id="trm22">stormwater system</term>;</p>
+              </item>
+              <item id="section-5.subsection-0.list0.b">
+                <num>(b)</num>
+                <p>change the design or the use of, or otherwise modify any aspect of the <term refersTo="#term-stormwater_system" id="trm23">stormwater system</term> which, alone or in combination with other existing or potential land uses, may cause an increase in flood levels or create a potential flood risk; or</p>
+              </item>
+              <item id="section-5.subsection-0.list0.c">
+                <num>(c)</num>
+                <p>undertake any activity which, alone or in combination with other existing or future activities, may cause an increase in flood levels or create a potential flood risk.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Studies and assessments</heading>
+        <subsection id="section-6.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-6.1.list0">
+              <listIntroduction> The conditions which the <term refersTo="#term-Council" id="trm24">Council</term> may impose in terms of Sections 3, 4, and 5, may include, but are not limited to - </listIntroduction>
+              <item id="section-6.1.list0.a">
+                <num>(a)</num>
+                <p>the establishment of flood lines;</p>
+              </item>
+              <item id="section-6.1.list0.b">
+                <num>(b)</num>
+                <p>the undertaking of impact assessments, and</p>
+              </item>
+              <item id="section-6.1.list0.c">
+                <num>(c)</num>
+                <p>environmental impact studies or investigations which may be required by any applicable environmental legislation.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-6.2">
+          <num>(2)</num>
+          <content>
+            <p>The costs of any study undertaken in terms of the provisions of subsection (1), will be for the account of the applicant.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Water pollution incidents</heading>
+        <subsection id="section-7.subsection-0">
+          <content>
+            <blockList id="section-7.subsection-0.list0">
+              <listIntroduction> In the event of an incident contemplated in Section 3 or Section 4(b) and (c) - </listIntroduction>
+              <item id="section-7.subsection-0.list0.a">
+                <num>(a)</num>
+                <p>the owner of the property on which the incident took place, or is still in the process of taking place, or</p>
+              </item>
+              <item id="section-7.subsection-0.list0.b">
+                <num>(b)</num>
+                <p>the person responsible for the incident, if the incident is not the result of natural causes,</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-7.subsection-1">
+          <content>
+            <p>shall immediately report the incident to the council, and at own cost, take all reasonable measures which, in the opinion of the <term refersTo="#term-Council" id="trm25">Council</term>, will contain and minimise the effects of the pollution, by undertaking cleaning up procedures, including the rehabilitation of the environment, as required by the <term refersTo="#term-Council" id="trm26">Council</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Stormwater systems on private land</heading>
+        <subsection id="section-8.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-8.1.list0">
+              <listIntroduction> Every owner of property on which private <term refersTo="#term-stormwater" id="trm27">stormwater</term> systems are located, shall- </listIntroduction>
+              <item id="section-8.1.list0.a">
+                <num>(a)</num>
+                <p>not carry out any activity which will or which, in the opinion of the <term refersTo="#term-Council" id="trm28">Council</term>, could reasonably be expected to impair the effective functioning of the <term refersTo="#term-stormwater_system" id="trm29">stormwater system</term>, and</p>
+              </item>
+              <item id="section-8.1.list0.b">
+                <num>(b)</num>
+                <p>at own cost, keep such <term refersTo="#term-stormwater" id="trm30">stormwater</term> systems functioning effectively, including undertaking the refurbishment and reconstruction thereof if, in the opinion of the <term refersTo="#term-Council" id="trm31">Council</term>, it should be reconstructed or refurbished.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-8.2">
+          <num>(2)</num>
+          <content>
+            <p>The provisions of subsection (1) do not apply to the extent that the <term refersTo="#term-Council" id="trm32">Council</term> has accepted responsibility for any of the duties contained therein, either in a formal maintenance agreement or in terms of a condition of a servitude.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Provision of infrastructure</heading>
+        <subsection id="section-9.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-9.1.list0">
+              <listIntroduction> The <term refersTo="#term-Council" id="trm33">Council</term> may- </listIntroduction>
+              <item id="section-9.1.list0.a">
+                <num>(a)</num>
+                <p>construct, expand, alter, maintain or lay any drains, pipes or other structures related to the <term refersTo="#term-stormwater_system" id="trm34">stormwater system</term> on or under any immovable property, and ownership of these drains, pipes or structures shall vest in the municipality;</p>
+              </item>
+              <item id="section-9.1.list0.b">
+                <num>(b)</num>
+                <p>drain <term refersTo="#term-stormwater" id="trm35">stormwater</term> or discharge water from any municipal service works into any natural <term refersTo="#term-watercourse" id="trm36">watercourse</term>, and</p>
+              </item>
+              <item id="section-9.1.list0.c">
+                <num>(c)</num>
+                <p>do any other thing necessary or desirable for or incidental, supplementary or ancillary to any matter contemplated by subsection (a).</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-9.2">
+          <num>(2)</num>
+          <content>
+            <p>When the <term refersTo="#term-Council" id="trm37">Council</term> exercises its powers in terms of subsection (1)(a) in regard to immovable property not owned by the municipality, it shall comply with the provisions of the By-law Relating to the Management and Administration of the City of Cape Town's immovable Property.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Powers of the council</heading>
+        <subsection id="section-10.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-10.1.list0">
+              <listIntroduction> The <term refersTo="#term-Council" id="trm38">Council</term> may- </listIntroduction>
+              <item id="section-10.1.list0.a">
+                <num>(a)</num>
+                <p>demolish, alter or otherwise deal with any building, structure or other thing constructed, erected or laid in contravention of the provisions of this by-law;</p>
+              </item>
+              <item id="section-10.1.list0.b">
+                <num>(b)</num>
+                <p>fill in, remove and make good any ground excavated, removed or placed in contravention with the provisions of this by-law;</p>
+              </item>
+              <item id="section-10.1.list0.c">
+                <num>(c)</num>
+                <p>repair and make good any damage done in contravention of the provisions of this by-law or resulting from a contravention;</p>
+              </item>
+              <item id="section-10.1.list0.d">
+                <num>(d)</num>
+                <p>remove anything discharged, permitted to enter into the <term refersTo="#term-stormwater_system" id="trm39">stormwater system</term> or natural <term refersTo="#term-watercourse" id="trm40">watercourse</term> in contravention of the provisions of this by-law;</p>
+              </item>
+              <item id="section-10.1.list0.e">
+                <num>(e)</num>
+                <p>remove anything damaging, obstructing or endangering or likely to obstruct, endanger or destroy any part of the <term refersTo="#term-stormwater_system" id="trm41">stormwater system</term>;</p>
+              </item>
+              <item id="section-10.1.list0.f">
+                <num>(f)</num>
+                <p>seal off or block any point of discharge from any premises if such discharge point is in contravention of the provisions of this by-law, irrespective of whether the point is used for lawful purposes;</p>
+              </item>
+              <item id="section-10.1.list0.g">
+                <num>(g)</num>
+                <p>cancel any permission granted in terms of this by-law if the conditions under which the permission was granted are not complied with;</p>
+              </item>
+              <item id="section-10.1.list0.h">
+                <num>(h)</num>
+                <p>by written notice, direct any owner of property to allow the owner of a higher lying property to lay a <term refersTo="#term-stormwater" id="trm42">stormwater</term> drain pipe or gutter over his or her property for the draining of concentrated <term refersTo="#term-stormwater" id="trm43">stormwater</term>,</p>
+              </item>
+              <item id="section-10.1.list0.i">
+                <num>(i)</num>
+                <p>by written notice, direct any owner of property to retain <term refersTo="#term-stormwater" id="trm44">stormwater</term> on such property or, at the cost of such owner, to lay a drain pipe or gutter to a suitable place indicated by the <term refersTo="#term-Council" id="trm45">Council</term>, irrespective of whether the course of the pipe or gutter will run over private property or not, and</p>
+              </item>
+              <item id="section-10.1.list0.j">
+                <num>(j)</num>
+                <p>discharge <term refersTo="#term-stormwater" id="trm46">stormwater</term> into an <term refersTo="#term-watercourse" id="trm47">watercourse</term>, whether on private land or not.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-10.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-Council" id="trm48">Council</term> may, in any case where it seems that any action or neglect by any person or owner of property may lead to a contravention of the provisions of this by-law, give notice in writing to such person or owner of property to comply to such requirements as the <term refersTo="#term-Council" id="trm49">Council</term> may deem necessary to prevent the occurrence of such contravention.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-Council" id="trm50">Council</term> may recover all reasonable costs incurred as a result of action taken in terms of subsection (1) from a person who was responsible for a contravention of the provisions of this by-law or the owner of the property on which a contravention occurred.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-11">
+        <num>11.</num>
+        <heading>Offences and penalties</heading>
+        <subsection id="section-11.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-11.1.list0">
+              <listIntroduction> Any person who- </listIntroduction>
+              <item id="section-11.1.list0.a">
+                <num>(a)</num>
+                <p>contravenes any provision of this by-law;</p>
+              </item>
+              <item id="section-11.1.list0.b">
+                <num>(b)</num>
+                <p>fails to comply with the terms of any notice issued in terms of this by-law;</p>
+              </item>
+              <item id="section-11.1.list0.c">
+                <num>(c)</num>
+                <p>threatens, resists, hinders or obstructs or uses foul, abusive or insulting language towards or at a councillor or an employee or contractor of the <term refersTo="#term-Council" id="trm51">Council</term> in the exercise of any powers or performance of any duties or function in terms of this by-law, or falsely holds himself or herself to be a councillor or an employee or a contractor of the <term refersTo="#term-Council" id="trm52">Council</term>,</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-11.subsection-1">
+          <content>
+            <p>shall be guilty of an offence and be liable, on conviction, to the payment of a fine.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

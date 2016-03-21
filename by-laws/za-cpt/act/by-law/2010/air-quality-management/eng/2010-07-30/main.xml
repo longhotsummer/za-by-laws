@@ -1,0 +1,1997 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openbylaws">
+        <FRBRWork>
+          <FRBRthis value="/za-cpt/act/by-law/2010/air-quality-management/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2010/air-quality-management"/>
+          <FRBRalias value="City of Cape Town: Air Quality Management By-law, 2010"/>
+          <FRBRdate date="2010-07-30" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-cpt/act/by-law/2010/air-quality-management/eng@2010-07-30/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2010/air-quality-management/eng@2010-07-30"/>
+          <FRBRdate date="2010-07-30" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-cpt/act/by-law/2010/air-quality-management/eng@2010-07-30/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2010/air-quality-management/eng@2010-07-30"/>
+          <FRBRdate date="2015-09-06" name="Generation"/>
+          <FRBRauthor href="#openbylaws" as="#author"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-07-30" name="Province of Western Cape: Provincial Gazette" number="6772" showAs="Province of Western Cape: Provincial Gazette"/>
+      <references source="#this">
+        <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council.cape-town" showAs="Cape Town City Council"/>
+        <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCTerm id="term-adverse_effect" href="/ontology/term/this.eng.adverse_effect" showAs="adverse effect"/>
+        <TLCTerm id="term-air_pollutant" href="/ontology/term/this.eng.air_pollutant" showAs="air pollutant"/>
+        <TLCTerm id="term-air_pollution" href="/ontology/term/this.eng.air_pollution" showAs="air pollution"/>
+        <TLCTerm id="term-air_pollution_control_zone" href="/ontology/term/this.eng.air_pollution_control_zone" showAs="air pollution control zone"/>
+        <TLCTerm id="term-Air_Quality_Act" href="/ontology/term/this.eng.Air_Quality_Act" showAs="Air Quality Act"/>
+        <TLCTerm id="term-air_quality_management_plan" href="/ontology/term/this.eng.air_quality_management_plan" showAs="air quality management plan"/>
+        <TLCTerm id="term-air_quality_officer" href="/ontology/term/this.eng.air_quality_officer" showAs="air quality officer"/>
+        <TLCTerm id="term-ambient_air" href="/ontology/term/this.eng.ambient_air" showAs="ambient air"/>
+        <TLCTerm id="term-atmosphere" href="/ontology/term/this.eng.atmosphere" showAs="atmosphere"/>
+        <TLCTerm id="term-atmospheric_emission" href="/ontology/term/this.eng.atmospheric_emission" showAs="atmospheric emission"/>
+        <TLCTerm id="term-authorised_person" href="/ontology/term/this.eng.authorised_person" showAs="authorised person"/>
+        <TLCTerm id="term-chimney" href="/ontology/term/this.eng.chimney" showAs="chimney"/>
+        <TLCTerm id="term-City" href="/ontology/term/this.eng.City" showAs="City"/>
+        <TLCTerm id="term-City_Manager" href="/ontology/term/this.eng.City_Manager" showAs="City Manager"/>
+        <TLCTerm id="term-compression_ignition_powered_vehicle" href="/ontology/term/this.eng.compression_ignition_powered_vehicle" showAs="compression ignition powered vehicle"/>
+        <TLCTerm id="term-dust" href="/ontology/term/this.eng.dust" showAs="dust"/>
+        <TLCTerm id="term-dwelling" href="/ontology/term/this.eng.dwelling" showAs="dwelling"/>
+        <TLCTerm id="term-environmental_management_inspector" href="/ontology/term/this.eng.environmental_management_inspector" showAs="environmental management inspector"/>
+        <TLCTerm id="term-environment" href="/ontology/term/this.eng.environment" showAs="environment"/>
+        <TLCTerm id="term-Executive_Director__City_Health" href="/ontology/term/this.eng.Executive_Director__City_Health" showAs="Executive Director: City Health"/>
+        <TLCTerm id="term-fuel-burning_equipment" href="/ontology/term/this.eng.fuel-burning_equipment" showAs="fuel-burning equipment"/>
+        <TLCTerm id="term-light_absorption_meter" href="/ontology/term/this.eng.light_absorption_meter" showAs="light absorption meter"/>
+        <TLCTerm id="term-living_organism" href="/ontology/term/this.eng.living_organism" showAs="living organism"/>
+        <TLCTerm id="term-obscuration" href="/ontology/term/this.eng.obscuration" showAs="obscuration"/>
+        <TLCTerm id="term-open_burning" href="/ontology/term/this.eng.open_burning" showAs="open burning"/>
+        <TLCTerm id="term-operator" href="/ontology/term/this.eng.operator" showAs="operator"/>
+        <TLCTerm id="term-person" href="/ontology/term/this.eng.person" showAs="person"/>
+        <TLCTerm id="term-premises" href="/ontology/term/this.eng.premises" showAs="premises"/>
+        <TLCTerm id="term-Province" href="/ontology/term/this.eng.Province" showAs="Province"/>
+        <TLCTerm id="term-public_road" href="/ontology/term/this.eng.public_road" showAs="public road"/>
+        <TLCTerm id="term-smoke" href="/ontology/term/this.eng.smoke" showAs="smoke"/>
+        <TLCTerm id="term-specialist_study" href="/ontology/term/this.eng.specialist_study" showAs="specialist study"/>
+        <TLCTerm id="term-spray_area" href="/ontology/term/this.eng.spray_area" showAs="spray area"/>
+        <TLCTerm id="term-Systems_Act" href="/ontology/term/this.eng.Systems_Act" showAs="Systems Act"/>
+        <TLCTerm id="term-vehicle" href="/ontology/term/this.eng.vehicle" showAs="vehicle"/>
+      </references>
+    </meta>
+    <preamble>
+      <p>WHEREAS section 156(2) and (5) of the Constitution of the Republic of South Africa, 1996 provides that a City may make and administer by-laws for the effective administration of the matters which it has the right to administer, and to exercise any power concerning a matter reasonably necessary for, or incidental to, the effective performance of its functions;</p>
+      <p>AND WHEREAS Part B of Schedule 4 to the Constitution lists municipal health services as a local government matter to the extent set out in section 155(6) (a) and (7);</p>
+      <p>AND WHEREAS the City of Cape Town seeks to ensure management of air quality and the control of air pollution within the area of jurisdiction of the City and to ensure that air pollution is avoided or, where it cannot be altogether avoided, is minimized and remedied.</p>
+      <p>AND NOW THEREFORE, BE IT ENACTED by the Council of the City of Cape Town as follows:—</p>
+    </preamble>
+    <body>
+      <chapter id="chapter-I">
+        <num>I</num>
+        <heading>Definitions and fundamental principles</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <subsection id="section-1.subsection-0">
+            <content>
+              <p>In this By-law, unless the context indicates otherwise—</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-1" refersTo="#term-adverse_effect">
+            <content>
+              <p>"<def refersTo="#term-adverse_effect">adverse effect</def>" means any actual or potential impact on the <term refersTo="#term-environment" id="trm0">environment</term> that impairs or would impair the <term refersTo="#term-environment" id="trm1">environment</term> or any aspect of it to an extent that is more than trivial or insignificant;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-2" refersTo="#term-air_pollutant">
+            <content>
+              <p>"<def refersTo="#term-air_pollutant">air pollutant</def>" includes <term refersTo="#term-dust" id="trm2">dust</term>, <term refersTo="#term-smoke" id="trm3">smoke</term>, fumes and gas that causes or may cause <term refersTo="#term-air_pollution" id="trm4">air pollution</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-3" refersTo="#term-air_pollution">
+            <content>
+              <p>"<def refersTo="#term-air_pollution">air pollution</def>" means any change in the <term refersTo="#term-environment" id="trm5">environment</term> caused by any substance emitted into the <term refersTo="#term-atmosphere" id="trm6">atmosphere</term> from any activity, where that change has an <term refersTo="#term-adverse_effect" id="trm7">adverse effect</term> on human health or well-being or on the composition, resilience and productivity of natural or managed ecosystems, or on materials useful to people, or will have such an effect in the future;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-4" refersTo="#term-air_pollution_control_zone">
+            <content>
+              <p>"<def refersTo="#term-air_pollution_control_zone">air pollution control zone</def>" means the geographical area to which Chapter IV of this By-law is declared to apply;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-5" refersTo="#term-Air_Quality_Act">
+            <content>
+              <p>"<def refersTo="#term-Air_Quality_Act">Air Quality Act</def>" means the National Environment Management: Air Quality Act, 2004(Act No. 39 of 2004);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-6" refersTo="#term-air_quality_management_plan">
+            <content>
+              <p>"<def refersTo="#term-air_quality_management_plan">air quality management plan</def>" means the air quality management plan referred to in section 15 of the <term refersTo="#term-Air_Quality_Act" id="trm8">Air Quality Act</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-7" refersTo="#term-air_quality_officer">
+            <content>
+              <p>"<def refersTo="#term-air_quality_officer">air quality officer</def>" means the air quality officer designated as such in terms of section 14(3) of the <term refersTo="#term-Air_Quality_Act" id="trm9">Air Quality Act</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-8" refersTo="#term-ambient_air">
+            <content>
+              <p>"<def refersTo="#term-ambient_air">ambient air</def>" means "ambient air" as defined in section 1 of the <term refersTo="#term-Air_Quality_Act" id="trm10">Air Quality Act</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-9" refersTo="#term-atmosphere">
+            <content>
+              <p>"<def refersTo="#term-atmosphere">atmosphere</def>" means air that is not enclosed by a building, machine, <term refersTo="#term-chimney" id="trm11">chimney</term> or other similar structure;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-10" refersTo="#term-atmospheric_emission">
+            <content>
+              <p>"<def refersTo="#term-atmospheric_emission">atmospheric emission</def>" or "emission" means any emission or entrainment process emanating from a point, non-point or mobile source that results in <term refersTo="#term-air_pollution" id="trm12">air pollution</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-11" refersTo="#term-authorised_person">
+            <content>
+              <p>"<def refersTo="#term-authorised_person">authorised person</def>" means any employee of the <term refersTo="#term-City" id="trm13">City</term> delegated by the <term refersTo="#term-Executive_Director__City_Health" id="trm14">Executive Director: City Health</term> to implement any provision of this By-law; "best practicable environmental option" means the option that provides the most benefit, or causes the least damage to the <term refersTo="#term-environment" id="trm15">environment</term> as a whole, at a cost acceptable to society in the long term as well as in the short term;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-12" refersTo="#term-chimney">
+            <content>
+              <p>"<def refersTo="#term-chimney">chimney</def>" means any structure or opening of any kind from which or through which air pollutants may be emitted;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-13" refersTo="#term-City">
+            <content>
+              <p>"<def refersTo="#term-City">City</def>" means the City of Cape Town established by Provincial Notice No. 479 of 2000 in terms of section 12 of the Local Government: Municipal Structures Act, 1998 (Act No. 117 of 1998);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-14" refersTo="#term-City_Manager">
+            <content>
+              <p>"<def refersTo="#term-City_Manager">City Manager</def>" means a <term refersTo="#term-person" id="trm16">person</term> appointed by the Council in terms of section 82 of the Local Government: Municipal Structures Act, 1998 (Act No.117 of 1998);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-15">
+            <content>
+              <blockList id="section-1.subsection-15.list15" refersTo="#term-compression_ignition_powered_vehicle">
+                <listIntroduction>"<def refersTo="#term-compression_ignition_powered_vehicle">compression ignition powered vehicle</def>" means a <term refersTo="#term-vehicle" id="trm17">vehicle</term> powered by an internal combustion, compression ignition, diesel or similar fuel engine; "Council" means the Council of the <term refersTo="#term-City" id="trm18">City</term> or any of the other political structures, political office bearers, councillors or staff members, of the <term refersTo="#term-City" id="trm19">City</term> duly authorised by delegation; "dark <term refersTo="#term-smoke" id="trm20">smoke</term>" means —</listIntroduction>
+                <item id="section-1.subsection-15.list15.a">
+                  <num>(a)</num>
+                  <p>in respect of Chapter V and Chapter VI of this By-law, <term refersTo="#term-smoke" id="trm21">smoke</term> which when measured using a <term refersTo="#term-light_absorption_meter" id="trm22">light absorption meter</term>, <term refersTo="#term-obscuration" id="trm23">obscuration</term> measuring equipment or other similar equipment, has an <term refersTo="#term-obscuration" id="trm24">obscuration</term> of 20% or greater;</p>
+                </item>
+                <item id="section-1.subsection-15.list15.b">
+                  <num>(b)</num>
+                  <blockList id="section-1.subsection-15.list15.b.list0">
+                    <listIntroduction>in respect of Chapter VIII of this By-law —</listIntroduction>
+                    <item id="section-1.subsection-15.list15.b.list0.i">
+                      <num>(i)</num>
+                      <p><term refersTo="#term-smoke" id="trm25">smoke</term> emitted from the exhaust outlets of naturally aspirated compression ignition engines which has a density of 50 Hartridge <term refersTo="#term-smoke" id="trm26">smoke</term> units or more or a light absorption co-efficient of more than 1.6m-1;</p>
+                    </item>
+                    <item id="section-1.subsection-15.list15.b.list0.ii">
+                      <num>(ii)</num>
+                      <p><term refersTo="#term-smoke" id="trm27">smoke</term> emitted from the exhaust outlets of turbo charged compression ignition engines which has a density of 56 Hartridge <term refersTo="#term-smoke" id="trm28">smoke</term> units or more or a light absorption co-efficient of more than 1.10m-1;</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-16" refersTo="#term-dust">
+            <content>
+              <p>"<def refersTo="#term-dust">dust</def>" means any solid matter in a fine or disintegrated form which is capable of being dispersed or suspended in the <term refersTo="#term-atmosphere" id="trm29">atmosphere</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-17" refersTo="#term-dwelling">
+            <content>
+              <p>"<def refersTo="#term-dwelling">dwelling</def>" means any building or structure, or part of a building or structure, used as a dwelling and any outbuildings ancillary to it, but excludes informal settlements;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-18" refersTo="#term-environmental_management_inspector">
+            <content>
+              <p>"<def refersTo="#term-environmental_management_inspector">environmental management inspector</def>" means an environmental management inspector referred to in section 5;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-19">
+            <content>
+              <blockList id="section-1.subsection-19.list19" refersTo="#term-environment">
+                <listIntroduction>"<def refersTo="#term-environment">environment</def>" means the surroundings within which humans exist and that are made up of—</listIntroduction>
+                <item id="section-1.subsection-19.list19.a">
+                  <num>(a)</num>
+                  <p>the land, water and <term refersTo="#term-atmosphere" id="trm30">atmosphere</term> of the earth;</p>
+                </item>
+                <item id="section-1.subsection-19.list19.b">
+                  <num>(b)</num>
+                  <p>micro-organisms, plant and animal life;</p>
+                </item>
+                <item id="section-1.subsection-19.list19.c">
+                  <num>(c)</num>
+                  <p>any part or combination of (a) and (b) and the interrelationships among and between them; and</p>
+                </item>
+                <item id="section-1.subsection-19.list19.d">
+                  <num>(d)</num>
+                  <p>the physical, chemical, aesthetic and cultural properties and conditions of the foregoing that influence human health and well-being;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-20" refersTo="#term-Executive_Director__City_Health">
+            <content>
+              <p>"<def refersTo="#term-Executive_Director__City_Health">Executive Director: City Health</def>" means the Executive Director of the <term refersTo="#term-City" id="trm31">City</term> responsible for health matters; "free acceleration test" means the method described in section 25;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-21">
+            <content>
+              <blockList id="section-1.subsection-21.list21" refersTo="#term-fuel-burning_equipment">
+                <listIntroduction>"<def refersTo="#term-fuel-burning_equipment">fuel-burning equipment</def>" means any furnace, boiler, incinerator, or other equipment, including a <term refersTo="#term-chimney" id="trm32">chimney</term> —</listIntroduction>
+                <item id="section-1.subsection-21.list21.a">
+                  <num>(a)</num>
+                  <p>designed to burn or capable of burning liquid, gas or solid fuel;</p>
+                </item>
+                <item id="section-1.subsection-21.list21.b">
+                  <num>(b)</num>
+                  <p>used to dispose of any material or waste by burning; or</p>
+                </item>
+                <item id="section-1.subsection-21.list21.c">
+                  <num>(c)</num>
+                  <p>used to subject liquid, gas or solid fuel to any process involving the application of heat;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-22" refersTo="#term-light_absorption_meter">
+            <content>
+              <p>"<def refersTo="#term-light_absorption_meter">light absorption meter</def>" means a measuring device that uses a light sensitive cell or detector to determine the amount of light absorbed by an <term refersTo="#term-air_pollutant" id="trm33">air pollutant</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-23">
+            <content>
+              <blockList id="section-1.subsection-23.list23" refersTo="#term-living_organism">
+                <listIntroduction>"<def refersTo="#term-living_organism">living organism</def>" means any biological entity capable of transferring or replicating genetic material, including sterile organisms and viruses; "nuisance" means an unreasonable interference or likely interference caused by <term refersTo="#term-air_pollution" id="trm34">air pollution</term> with —</listIntroduction>
+                <item id="section-1.subsection-23.list23.a">
+                  <num>(a)</num>
+                  <p>the health or well-being of any <term refersTo="#term-person" id="trm35">person</term> or living organism; or</p>
+                </item>
+                <item id="section-1.subsection-23.list23.b">
+                  <num>(b)</num>
+                  <p>the use and enjoyment by an owner or occupier of his or her property or <term refersTo="#term-environment" id="trm36">environment</term>;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-24" refersTo="#term-obscuration">
+            <content>
+              <p>"<def refersTo="#term-obscuration">obscuration</def>" means the ratio of visible light attenuated by air pollutants suspended in the effluent streams to incident visible light, expressed as a percentage;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-25" refersTo="#term-open_burning">
+            <content>
+              <p>"<def refersTo="#term-open_burning">open burning</def>" means the combustion of material by burning without a <term refersTo="#term-chimney" id="trm37">chimney</term> to vent the emitted products of combustion to the <term refersTo="#term-atmosphere" id="trm38">atmosphere</term>, and "burning in the open" has a corresponding meaning;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-26" refersTo="#term-operator">
+            <content>
+              <p>"<def refersTo="#term-operator">operator</def>" means a <term refersTo="#term-person" id="trm39">person</term> who owns or manages an undertaking, or who controls an operation or process, which emits air pollutants; "proclaimed township" means any land unit zoned and utilized for residential purposes;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-27" refersTo="#term-person">
+            <content>
+              <p>"<def refersTo="#term-person">person</def>" means a natural person or a juristic person;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-28">
+            <content>
+              <blockList id="section-1.subsection-28.list28" refersTo="#term-premises">
+                <listIntroduction>"<def refersTo="#term-premises">premises</def>" includes—</listIntroduction>
+                <item id="section-1.subsection-28.list28.a">
+                  <num>(a)</num>
+                  <p>any building or other structure;</p>
+                </item>
+                <item id="section-1.subsection-28.list28.b">
+                  <num>(b)</num>
+                  <p>any adjoining land occupied or used in connection with any activities carried on in that building or structure;</p>
+                </item>
+                <item id="section-1.subsection-28.list28.c">
+                  <num>(c)</num>
+                  <p>any vacant land;</p>
+                </item>
+                <item id="section-1.subsection-28.list28.d">
+                  <num>(d)</num>
+                  <p>any locomotive, ship, boat or other vessel which operates in the precincts of any harbour, within the area of the jurisdiction of the <term refersTo="#term-City" id="trm40">City</term>;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-29" refersTo="#term-Province">
+            <content>
+              <p>"<def refersTo="#term-Province">Province</def>" means the Province of the Western Cape;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-30" refersTo="#term-public_road">
+            <content>
+              <p>"<def refersTo="#term-public_road">public road</def>" means a road which the public has the right to use;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-31" refersTo="#term-smoke">
+            <content>
+              <p>"<def refersTo="#term-smoke">smoke</def>" means the gases, particulate matter and products of combustion emitted into the <term refersTo="#term-atmosphere" id="trm41">atmosphere</term> when material is burned or subjected to heat and includes the soot, grit an gritty particles emitted in smoke;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-32" refersTo="#term-specialist_study">
+            <content>
+              <p>"<def refersTo="#term-specialist_study">specialist study</def>" means any scientifically based study relating to air quality conducted by an expert or recognized specialist of appropriate qualifications and competency in the discipline of air quality management;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-33" refersTo="#term-spray_area">
+            <content>
+              <p>"<def refersTo="#term-spray_area">spray area</def>" means an area or enclosure referred to in section 27 and must be used for spray painting, and "spray booth" has a corresponding meaning;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-34" refersTo="#term-Systems_Act">
+            <content>
+              <p>"<def refersTo="#term-Systems_Act">Systems Act</def>" means the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000); "the NEMA" means the National Environmental Management Act, 1998 (Act No.107 of 1998); and</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-35" refersTo="#term-vehicle">
+            <content>
+              <p>"<def refersTo="#term-vehicle">vehicle</def>" means any motor car, motor carriage, motor cycle, bus, motor lorry or other conveyance propelled wholly or partly by any volatile spirit, steam, gas or oil, or by any means other than human or animal power.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Application of this by-law</heading>
+          <subsection id="section-2.subsection-0">
+            <content>
+              <p>This By-law applies to all properties or <term refersTo="#term-premises" id="trm42">premises</term> within the area of jurisdiction of the <term refersTo="#term-City" id="trm43">City</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Conflict with other laws</heading>
+          <subsection id="section-3.subsection-0">
+            <content>
+              <p>In the event of any conflict between this By-law and any other by-law or any policy which regulates <term refersTo="#term-air_pollution" id="trm44">air pollution</term>, the provisions of this By-law shall prevail.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-II">
+        <num>II</num>
+        <heading>Duty of care</heading>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Reasonable measures to prevent <term refersTo="#term-air_pollution" id="trm45">air pollution</term></heading>
+          <subsection id="section-4.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-4.1.list0">
+                <listIntroduction> Any <term refersTo="#term-person" id="trm46">person</term> who is wholly or partially responsible for causing <term refersTo="#term-air_pollution" id="trm47">air pollution</term> or creating a risk of <term refersTo="#term-air_pollution" id="trm48">air pollution</term> occurring must take all reasonable measures including the best practicable environmental option— </listIntroduction>
+                <item id="section-4.1.list0.a">
+                  <num>(a)</num>
+                  <p>to prevent any potential significant <term refersTo="#term-air_pollution" id="trm49">air pollution</term> from occurring; and</p>
+                </item>
+                <item id="section-4.1.list0.b">
+                  <num>(b)</num>
+                  <p>to mitigate and, as far as reasonably possible, remedy any significant <term refersTo="#term-air_pollution" id="trm50">air pollution</term> that has occurred.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-4.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-4.2.list1">
+                <listIntroduction> The Council may direct any <term refersTo="#term-person" id="trm51">person</term> who fails to take the measures required under subsection (1) to— </listIntroduction>
+                <item id="section-4.2.list1.a">
+                  <num>(a)</num>
+                  <p>investigate, evaluate and assess the impact of specific activities and report thereon;</p>
+                </item>
+                <item id="section-4.2.list1.b">
+                  <num>(b)</num>
+                  <p>take specific reasonable measures before a given date;</p>
+                </item>
+                <item id="section-4.2.list1.c">
+                  <num>(c)</num>
+                  <p>diligently continue with those measures; and</p>
+                </item>
+                <item id="section-4.2.list1.d">
+                  <num>(d)</num>
+                  <p>complete them before a specified reasonable date,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-4.subsection-2">
+            <content>
+              <p>provided that prior to such direction the <term refersTo="#term-authorised_person" id="trm52">authorised person</term> must give such <term refersTo="#term-person" id="trm53">person</term> adequate notice and direct him or her to inform the <term refersTo="#term-authorised_person" id="trm54">authorised person</term> of his or her relevant interests, and the <term refersTo="#term-authorised_person" id="trm55">authorised person</term> may consult with any other organ of state.</p>
+            </content>
+          </subsection>
+          <subsection id="section-4.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-authorised_person" id="trm56">authorised person</term> may, if a <term refersTo="#term-person" id="trm57">person</term> fails to comply or inadequately complies with a directive contemplated in subsection (2), take reasonable measures to remedy the situation.</p>
+            </content>
+          </subsection>
+          <subsection id="section-4.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-4.4.list4">
+                <listIntroduction> The <term refersTo="#term-authorised_person" id="trm58">authorised person</term> may, if a <term refersTo="#term-person" id="trm59">person</term> fails to carry out the measures referred to in subsection (1), recover all reasonable costs incurred as a result of him or her acting under subsection (3) from any or all of the following persons: </listIntroduction>
+                <item id="section-4.4.list4.a">
+                  <num>(a)</num>
+                  <p>any <term refersTo="#term-person" id="trm60">person</term> who is or was responsible for, or who directly or indirectly contributed to the <term refersTo="#term-air_pollution" id="trm61">air pollution</term> or the potential <term refersTo="#term-air_pollution" id="trm62">air pollution</term>;</p>
+                </item>
+                <item id="section-4.4.list4.b">
+                  <num>(b)</num>
+                  <p>the owner of the land at the time when the <term refersTo="#term-air_pollution" id="trm63">air pollution</term> or the potential for <term refersTo="#term-air_pollution" id="trm64">air pollution</term> occurred, or that owner’s successor in title;</p>
+                </item>
+                <item id="section-4.4.list4.c">
+                  <num>(c)</num>
+                  <blockList id="section-4.4.list4.c.list0">
+                    <listIntroduction>the <term refersTo="#term-person" id="trm65">person</term> in control of the land or any <term refersTo="#term-person" id="trm66">person</term> who has or had a right to use the land at the time when the —</listIntroduction>
+                    <item id="section-4.4.list4.c.list0.i">
+                      <num>(i)</num>
+                      <p>activity or the process in question is or was performed or undertaken; or</p>
+                    </item>
+                    <item id="section-4.4.list4.c.list0.ii">
+                      <num>(ii)</num>
+                      <p>situation came about; or</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-4.4.list4.d">
+                  <num>(d)</num>
+                  <blockList id="section-4.4.list4.d.list1">
+                    <listIntroduction>any <term refersTo="#term-person" id="trm67">person</term> who negligently failed to prevent the —</listIntroduction>
+                    <item id="section-4.4.list4.d.list1.i">
+                      <num>(i)</num>
+                      <p>activity or the process being performed or undertaken; or</p>
+                    </item>
+                    <item id="section-4.4.list4.d.list1.ii">
+                      <num>(ii)</num>
+                      <p>situation from coming about.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-4.5">
+            <num>(5)</num>
+            <content>
+              <p>If more than one <term refersTo="#term-person" id="trm68">person</term> is liable under subsection (4), the liability may be apportioned among the persons concerned according to the degree to which each <term refersTo="#term-person" id="trm69">person</term> was responsible for the harm to the <term refersTo="#term-environment" id="trm70">environment</term> resulting from their respective failures to take the measures required under subsections (1) and (2).</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-III">
+        <num>III</num>
+        <heading>Designation of the <term refersTo="#term-air_quality_officer" id="trm71">air quality officer</term> and environmental management inspectors</heading>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Designation or appointment of the <term refersTo="#term-air_quality_officer" id="trm72">air quality officer</term> and environmental management inspectors</heading>
+          <subsection id="section-5.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-City_Manager" id="trm73">City Manager</term> must, in consultation with the <term refersTo="#term-Executive_Director__City_Health" id="trm74">Executive Director: City Health</term>, designate or appoint an employee of the <term refersTo="#term-City" id="trm75">City</term> or any <term refersTo="#term-person" id="trm76">person</term> as the <term refersTo="#term-air_quality_officer" id="trm77">air quality officer</term> to be responsible for co-ordinating matters pertaining to air quality management in the <term refersTo="#term-City" id="trm78">City</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-Executive_Director__City_Health" id="trm79">Executive Director: City Health</term> may request the MEC responsible for <term refersTo="#term-environment" id="trm80">environment</term> in the <term refersTo="#term-Province" id="trm81">Province</term> to appoint environmental management inspectors in terms of section 31C of the NEMA.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Duties and functions of the <term refersTo="#term-air_quality_officer" id="trm82">air quality officer</term> and environmental management officers</heading>
+          <subsection id="section-6.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-6.1.list0">
+                <listIntroduction> The <term refersTo="#term-air_quality_officer" id="trm83">air quality officer</term> must — </listIntroduction>
+                <item id="section-6.1.list0.a">
+                  <num>(a)</num>
+                  <p>co-ordinate the development of the <term refersTo="#term-air_quality_management_plan" id="trm84">air quality management plan</term> for inclusion in the Integrated Development Plan of the <term refersTo="#term-City" id="trm85">City</term>, in accordance with Chapter 5 of the <term refersTo="#term-Systems_Act" id="trm86">Systems Act</term>;</p>
+                </item>
+                <item id="section-6.1.list0.b">
+                  <num>(b)</num>
+                  <p>prepare an annual report of the <term refersTo="#term-City" id="trm87">City</term> on air quality;</p>
+                </item>
+                <item id="section-6.1.list0.c">
+                  <num>(c)</num>
+                  <p>exercise the duties and powers assigned to him or her under this By-law under the directions of the Executive Director: Health; and</p>
+                </item>
+                <item id="section-6.1.list0.d">
+                  <num>(d)</num>
+                  <p>submit the annual report referred to in paragraph (b) to the <term refersTo="#term-air_quality_officer" id="trm88">air quality officer</term> appointed by the MEC responsible for <term refersTo="#term-environment" id="trm89">environment</term> in the <term refersTo="#term-Province" id="trm90">Province</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-6.2">
+            <num>(2)</num>
+            <content>
+              <p>The annual report referred to in subsection (1)(b) must, amongst others, include the progress of the <term refersTo="#term-City" id="trm91">City</term> towards the implementation of the <term refersTo="#term-air_quality_management_plan" id="trm92">air quality management plan</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-air_quality_officer" id="trm93">air quality officer</term> may require the holder of a provisional <term refersTo="#term-atmospheric_emission" id="trm94">atmospheric emission</term> licence or the holder of an <term refersTo="#term-atmospheric_emission" id="trm95">atmospheric emission</term> licence to designate an emission control officer as contemplated in section 48 of the <term refersTo="#term-Air_Quality_Act" id="trm96">Air Quality Act</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-IV">
+        <num>IV</num>
+        <heading>Local emissions standards, norms and standards and <term refersTo="#term-smoke" id="trm97">smoke</term> control zones</heading>
+        <part id="chapter-IV.part-1">
+          <num>1</num>
+          <heading>Local emission standards</heading>
+          <section id="section-7">
+            <num>7.</num>
+            <heading>Legal mandate</heading>
+            <subsection id="section-7.1">
+              <num>(1)</num>
+              <content>
+                <blockList id="section-7.1.list0">
+                  <listIntroduction> The <term refersTo="#term-authorised_person" id="trm98">authorised person</term> may, by notice — </listIntroduction>
+                  <item id="section-7.1.list0.a">
+                    <num>(a)</num>
+                    <p>identify substances or mixtures of substances in <term refersTo="#term-ambient_air" id="trm99">ambient air</term> which, through ambient concentrations, bioaccumulation, deposition or in any other way, present a threat to health, well-being or the <term refersTo="#term-environment" id="trm100">environment</term> in the <term refersTo="#term-City" id="trm101">City</term> or which the <term refersTo="#term-air_quality_officer" id="trm102">air quality officer</term> reasonably believes present such a threat; and</p>
+                  </item>
+                  <item id="section-7.1.list0.b">
+                    <num>(b)</num>
+                    <p>in respect of each of those substances or mixtures of substances, publish local standards for emissions from point, non-point or mobile sources in the <term refersTo="#term-City" id="trm103">City</term>.</p>
+                  </item>
+                </blockList>
+              </content>
+            </subsection>
+            <subsection id="section-7.2">
+              <num>(2)</num>
+              <content>
+                <blockList id="section-7.2.list1">
+                  <listIntroduction> The <term refersTo="#term-authorised_person" id="trm104">authorised person</term> shall take the following factors into consideration in setting local emission standards: </listIntroduction>
+                  <item id="section-7.2.list1.a">
+                    <num>(a)</num>
+                    <p>health, safety and environmental protection objectives;</p>
+                  </item>
+                  <item id="section-7.2.list1.b">
+                    <num>(b)</num>
+                    <p>analytical methodology;</p>
+                  </item>
+                  <item id="section-7.2.list1.c">
+                    <num>(c)</num>
+                    <p>technical feasibility;</p>
+                  </item>
+                  <item id="section-7.2.list1.d">
+                    <num>(d)</num>
+                    <p>monitoring capability;</p>
+                  </item>
+                  <item id="section-7.2.list1.e">
+                    <num>(e)</num>
+                    <p>socio-economic consequences;</p>
+                  </item>
+                  <item id="section-7.2.list1.f">
+                    <num>(f)</num>
+                    <p>ecological role of fire in vegetation remnants; and</p>
+                  </item>
+                  <item id="section-7.2.list1.g">
+                    <num>(g)</num>
+                    <p>best practicable environmental option.</p>
+                  </item>
+                </blockList>
+              </content>
+            </subsection>
+            <subsection id="section-7.3">
+              <num>(3)</num>
+              <content>
+                <p>Any <term refersTo="#term-person" id="trm105">person</term> who is emitting substances or mixtures of substances as referred to in subsection(1) must comply with the local emission standards published in terms of this By-law.</p>
+              </content>
+            </subsection>
+          </section>
+        </part>
+        <part id="chapter-IV.part-2">
+          <num>2</num>
+          <heading>Norms and standards</heading>
+          <section id="section-8">
+            <num>8.</num>
+            <heading>Substances identification process</heading>
+            <subsection id="section-8.1">
+              <num>(1)</num>
+              <content>
+                <blockList id="section-8.1.list0">
+                  <listIntroduction> The <term refersTo="#term-authorised_person" id="trm106">authorised person</term> must apply the following criteria when identifying and prioritising the substances in <term refersTo="#term-ambient_air" id="trm107">ambient air</term> that present a threat to public health, well-being or the <term refersTo="#term-environment" id="trm108">environment</term>: </listIntroduction>
+                  <item id="section-8.1.list0.a">
+                    <num>(a)</num>
+                    <p>the possibility, severity and frequency of effects with regard to human health and the <term refersTo="#term-environment" id="trm109">environment</term> as a whole, with irreversible effects being of special concern;</p>
+                  </item>
+                  <item id="section-8.1.list0.b">
+                    <num>(b)</num>
+                    <p>ubiquitous and high concentrations of the substance in the <term refersTo="#term-atmosphere" id="trm110">atmosphere</term>;</p>
+                  </item>
+                  <item id="section-8.1.list0.c">
+                    <num>(c)</num>
+                    <p>potential environmental transformations and metabolic alterations of the substance, as these changes may lead to the production of chemicals with greater toxicity or introduce other uncertainties;</p>
+                  </item>
+                  <item id="section-8.1.list0.d">
+                    <num>(d)</num>
+                    <p>persistence in the <term refersTo="#term-environment" id="trm111">environment</term>, particularly if the substance is not biodegradable and able to accumulate in humans, the <term refersTo="#term-environment" id="trm112">environment</term> or food chains;</p>
+                  </item>
+                  <item id="section-8.1.list0.e">
+                    <num>(e)</num>
+                    <blockList id="section-8.1.list0.e.list0">
+                      <listIntroduction>the impact of the substance taking the following factors into consideration:</listIntroduction>
+                      <item id="section-8.1.list0.e.list0.i">
+                        <num>(i)</num>
+                        <p>size of the exposed population, living resources or ecosystems;</p>
+                      </item>
+                      <item id="section-8.1.list0.e.list0.ii">
+                        <num>(ii)</num>
+                        <p>the existence of particularly sensitive receptors in the zone concerned; and</p>
+                      </item>
+                    </blockList>
+                  </item>
+                  <item id="section-8.1.list0.f">
+                    <num>(f)</num>
+                    <p>substances that are regulated by international conventions.</p>
+                  </item>
+                </blockList>
+              </content>
+            </subsection>
+            <subsection id="section-8.2">
+              <num>(2)</num>
+              <content>
+                <p>The <term refersTo="#term-authorised_person" id="trm113">authorised person</term> must, using the criteria set out in subsection (1), compile a list of substances in <term refersTo="#term-ambient_air" id="trm114">ambient air</term> that present a threat to public health, well-being or the <term refersTo="#term-environment" id="trm115">environment</term>.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-9">
+            <num>9.</num>
+            <heading>Publication of local emission standards</heading>
+            <subsection id="section-9.subsection-0">
+              <content>
+                <p>For the purposes of publication of the local emission standards, the <term refersTo="#term-City" id="trm116">City</term> must follow a consultative process in terms of Chapter 4 of the <term refersTo="#term-Systems_Act" id="trm117">Systems Act</term>.</p>
+              </content>
+            </subsection>
+          </section>
+          <section id="section-10">
+            <num>10.</num>
+            <heading>Declaration of <term refersTo="#term-air_pollution_control_zone" id="trm118">air pollution control zone</term></heading>
+            <subsection id="section-10.1">
+              <num>(1)</num>
+              <content>
+                <p>The whole area within the area of jurisdiction of the <term refersTo="#term-City" id="trm119">City</term> is hereby declared an <term refersTo="#term-air_pollution_control_zone" id="trm120">air pollution control zone</term>.</p>
+              </content>
+            </subsection>
+            <subsection id="section-10.4">
+              <num>(4)</num>
+              <content>
+                <p>Subject to section 44, the Council may in writing exempt certain <term refersTo="#term-premises" id="trm121">premises</term>, classes of <term refersTo="#term-premises" id="trm122">premises</term> or <term refersTo="#term-premises" id="trm123">premises</term> used for specified purposes from this section.</p>
+              </content>
+            </subsection>
+          </section>
+        </part>
+      </chapter>
+      <chapter id="chapter-V">
+        <num>V</num>
+        <heading>Smoke emissions from <term refersTo="#term-premises" id="trm124">premises</term> other than dwellings</heading>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Application</heading>
+          <subsection id="section-11.subsection-0">
+            <content>
+              <p>For the purposes of this Chapter "<term refersTo="#term-premises" id="trm125">premises</term>" does not include dwellings.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Prohibition of dark <term refersTo="#term-smoke" id="trm126">smoke</term> from <term refersTo="#term-premises" id="trm127">premises</term></heading>
+          <subsection id="section-12.1">
+            <num>(1)</num>
+            <content>
+              <p>Subject to subsection (2), dark <term refersTo="#term-smoke" id="trm128">smoke</term> must not be emitted from any <term refersTo="#term-premises" id="trm129">premises</term> for an aggregate period exceeding three minutes during any continuous period of thirty minutes.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.2">
+            <num>(2)</num>
+            <content>
+              <p>This section does not apply to dark <term refersTo="#term-smoke" id="trm130">smoke</term> which is emitted from <term refersTo="#term-fuel-burning_equipment" id="trm131">fuel-burning equipment</term> which occurs while the equipment is being started or while the equipment is being overhauled or repaired, or awaiting overhaul or repair, unless such emission could have been prevented using the best practical environmental option.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.3">
+            <num>(3)</num>
+            <content>
+              <p>Subsections (1) and (2) do not apply to holders of <term refersTo="#term-atmospheric_emission" id="trm132">atmospheric emission</term> licences for activities listed in terms of section 21 of the <term refersTo="#term-Air_Quality_Act" id="trm133">Air Quality Act</term>, and the emission standards listed in such licence shall apply.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Installation of <term refersTo="#term-fuel-burning_equipment" id="trm134">fuel-burning equipment</term></heading>
+          <subsection id="section-13.1">
+            <num>(1)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm135">person</term> shall install, alter, extend or replace any <term refersTo="#term-fuel-burning_equipment" id="trm136">fuel-burning equipment</term> on any <term refersTo="#term-premises" id="trm137">premises</term> without the prior written authorisation of Council, which may only be given after consideration of the relevant plans and specifications.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.2">
+            <num>(2)</num>
+            <content>
+              <p>Any <term refersTo="#term-fuel-burning_equipment" id="trm138">fuel-burning equipment</term> installed, altered, extended or replaced on <term refersTo="#term-premises" id="trm139">premises</term> in accordance with plans and specifications submitted to and approved for the purposes of this section by the Council, shall be presumed until the contrary is proved to comply with the provisions of subsection (1).</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.3">
+            <num>(3)</num>
+            <content>
+              <p>Where <term refersTo="#term-fuel-burning_equipment" id="trm140">fuel-burning equipment</term> has been installed, altered, extended or replaced on <term refersTo="#term-premises" id="trm141">premises</term> contrary to subsection (1), Council may, on written notice to the owner and occupier of the <term refersTo="#term-premises" id="trm142">premises</term>, order the removal of the <term refersTo="#term-fuel-burning_equipment" id="trm143">fuel-burning equipment</term> from the <term refersTo="#term-premises" id="trm144">premises</term> at the expense of the owner and <term refersTo="#term-operator" id="trm145">operator</term> and within the period stated in the notice.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-Executive_Director__City_Health" id="trm146">Executive Director: City Health</term> may take whatever steps he or she considers necessary in order to remedy the harm caused by the installation, alteration, extension or replacement on <term refersTo="#term-premises" id="trm147">premises</term> and prevent any further occurrence, and may recover the reasonable costs so incurred from the <term refersTo="#term-person" id="trm148">person</term> responsible for causing such harm.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>Operation of <term refersTo="#term-fuel-burning_equipment" id="trm149">fuel-burning equipment</term></heading>
+          <subsection id="section-14.1">
+            <num>(1)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm150">person</term> may use or operate any <term refersTo="#term-fuel-burning_equipment" id="trm151">fuel-burning equipment</term> on any <term refersTo="#term-premises" id="trm152">premises</term> contrary to the authorisation referred to in section 13.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-14.2.list1">
+                <listIntroduction> Where <term refersTo="#term-fuel-burning_equipment" id="trm153">fuel-burning equipment</term> has been used or operated on the <term refersTo="#term-premises" id="trm154">premises</term> in contrary to subsection (1), Council may on written notice to the owner and occupier of the <term refersTo="#term-premises" id="trm155">premises</term> — </listIntroduction>
+                <item id="section-14.2.list1.a">
+                  <num>(a)</num>
+                  <p>revoke his or her authorisation under section 13; and</p>
+                </item>
+                <item id="section-14.2.list1.b">
+                  <num>(b)</num>
+                  <p>order the removal of the <term refersTo="#term-fuel-burning_equipment" id="trm156">fuel-burning equipment</term> from the <term refersTo="#term-premises" id="trm157">premises</term> at the expense of the owner and <term refersTo="#term-operator" id="trm158">operator</term> within the period stated in the notice.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-14.3">
+            <num>(3)</num>
+            <content>
+              <p>The Council may, if the owner or occupier of the <term refersTo="#term-premises" id="trm159">premises</term> fails to comply with the notice referred to in subsection (2), remove the fuel burning equipment from the <term refersTo="#term-premises" id="trm160">premises</term> and may recover the reasonable costs incurred from such owner or occupier of such <term refersTo="#term-premises" id="trm161">premises</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Presumption</heading>
+          <subsection id="section-15.subsection-0">
+            <content>
+              <p>Dark <term refersTo="#term-smoke" id="trm162">smoke</term> shall be presumed to have been emitted from <term refersTo="#term-premises" id="trm163">premises</term> if it is shown that any fuel or material was burned on the <term refersTo="#term-premises" id="trm164">premises</term> and the circumstances were such that the burning was reasonably likely to give rise to the emission of dark <term refersTo="#term-smoke" id="trm165">smoke</term>, unless the owner, occupier or <term refersTo="#term-operator" id="trm166">operator</term>, as the case may be, shows that no dark <term refersTo="#term-smoke" id="trm167">smoke</term> was emitted.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Installation and operation of <term refersTo="#term-obscuration" id="trm168">obscuration</term> measuring equipment</heading>
+          <subsection id="section-16.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-16.1.list0">
+                <listIntroduction> An <term refersTo="#term-authorised_person" id="trm169">authorised person</term> may give notice to any <term refersTo="#term-operator" id="trm170">operator</term> of <term refersTo="#term-fuel-burning_equipment" id="trm171">fuel-burning equipment</term> or any owner or occupier of <term refersTo="#term-premises" id="trm172">premises</term> on which <term refersTo="#term-fuel-burning_equipment" id="trm173">fuel-burning equipment</term> is used or operated, or intended to be used or operated, to install, maintain and operate <term refersTo="#term-obscuration" id="trm174">obscuration</term> measuring equipment at his or her own cost, if — </listIntroduction>
+                <item id="section-16.1.list0.a">
+                  <num>(a)</num>
+                  <p>unauthorised and unlawful emissions of dark <term refersTo="#term-smoke" id="trm175">smoke</term> from the relevant <term refersTo="#term-premises" id="trm176">premises</term> have occurred consistently and regularly over a period of at least two days;</p>
+                </item>
+                <item id="section-16.1.list0.b">
+                  <num>(b)</num>
+                  <p>unauthorised and unlawful emissions of dark <term refersTo="#term-smoke" id="trm177">smoke</term> from the relevant <term refersTo="#term-premises" id="trm178">premises</term> have occurred intermittently over a period of at least fourteen days;</p>
+                </item>
+                <item id="section-16.1.list0.c">
+                  <num>(c)</num>
+                  <p><term refersTo="#term-fuel-burning_equipment" id="trm179">fuel-burning equipment</term> has been or is intended to be installed on the relevant <term refersTo="#term-premises" id="trm180">premises</term> which are reasonably likely to emit dark <term refersTo="#term-smoke" id="trm181">smoke</term>;</p>
+                </item>
+                <item id="section-16.1.list0.d">
+                  <num>(d)</num>
+                  <p>the <term refersTo="#term-person" id="trm182">person</term> on whom the notice is served has been convicted more than once under this Chapter and has not taken adequate measures to prevent further contravention of the provisions of this Chapter; or</p>
+                </item>
+                <item id="section-16.1.list0.e">
+                  <num>(e)</num>
+                  <p>the <term refersTo="#term-authorised_person" id="trm183">authorised person</term> considers that the nature of the air pollutants emitted from the relevant <term refersTo="#term-premises" id="trm184">premises</term> is reasonably likely to create a hazard to human health or the <term refersTo="#term-environment" id="trm185">environment</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-16.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-16.2.list1">
+                <listIntroduction> A notice referred to in subsection (1) must inform the <term refersTo="#term-person" id="trm186">person</term> to whom it is addressed of — </listIntroduction>
+                <item id="section-16.2.list1.a">
+                  <num>(a)</num>
+                  <p>that <term refersTo="#term-person" id="trm187">person</term>’s right to make written representations and to appear in <term refersTo="#term-person" id="trm188">person</term> to present and dispute information and arguments regarding the notice, and must stipulate a reasonable period within which this must be done;</p>
+                </item>
+                <item id="section-16.2.list1.b">
+                  <num>(b)</num>
+                  <p>that <term refersTo="#term-person" id="trm189">person</term>’s right of appeal under section 43;</p>
+                </item>
+                <item id="section-16.2.list1.c">
+                  <num>(c)</num>
+                  <p>that <term refersTo="#term-person" id="trm190">person</term>’s right to request written reasons for the issuing of the notice; and</p>
+                </item>
+                <item id="section-16.2.list1.d">
+                  <num>(d)</num>
+                  <p>the measures that must be taken and the potential consequences if the notice is not complied with.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Monitoring and sampling</heading>
+          <subsection id="section-17.subsection-0">
+            <content>
+              <blockList id="section-17.subsection-0.list0">
+                <listIntroduction> An occupier or owner of <term refersTo="#term-premises" id="trm191">premises</term>, and the <term refersTo="#term-operator" id="trm192">operator</term> of any <term refersTo="#term-fuel-burning_equipment" id="trm193">fuel-burning equipment</term>, who is required to install <term refersTo="#term-obscuration" id="trm194">obscuration</term> measuring equipment in terms of section 16(1) must — </listIntroduction>
+                <item id="section-17.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>record all monitoring and sampling results and maintain a copy of this record for at least four years after obtaining the results;</p>
+                </item>
+                <item id="section-17.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>if requested to do so by an <term refersTo="#term-authorised_person" id="trm195">authorised person</term>, produce the record of the monitoring and sampling results for inspection; and</p>
+                </item>
+                <item id="section-17.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>if requested to do so by an <term refersTo="#term-authorised_person" id="trm196">authorised person</term>, provide a written report, in a form and by a date specified by the <term refersTo="#term-authorised_person" id="trm197">authorised person</term>, of part or all of the information in the record of the monitoring and sampling results.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Temporary exemption</heading>
+          <subsection id="section-18.1">
+            <num>(1)</num>
+            <content>
+              <p>Subject to section 44 and on application in writing by the owner or occupier of <term refersTo="#term-premises" id="trm198">premises</term> or the <term refersTo="#term-operator" id="trm199">operator</term> of <term refersTo="#term-fuel-burning_equipment" id="trm200">fuel-burning equipment</term>, the Council may grant a temporary exemption in writing from one or all the provisions of this Chapter.</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-18.2.list1">
+                <listIntroduction> Any exemption granted under subsection (1) must state at least the following: </listIntroduction>
+                <item id="section-18.2.list1.a">
+                  <num>(a)</num>
+                  <p>a description of the <term refersTo="#term-fuel-burning_equipment" id="trm201">fuel-burning equipment</term> and the <term refersTo="#term-premises" id="trm202">premises</term> on which it is used or operated;</p>
+                </item>
+                <item id="section-18.2.list1.b">
+                  <num>(b)</num>
+                  <p>the reasons for granting the exemption;</p>
+                </item>
+                <item id="section-18.2.list1.c">
+                  <num>(c)</num>
+                  <p>the conditions attached to the exemption, if any;</p>
+                </item>
+                <item id="section-18.2.list1.d">
+                  <num>(d)</num>
+                  <p>the period for which the exemption has been granted; and</p>
+                </item>
+                <item id="section-18.2.list1.e">
+                  <num>(e)</num>
+                  <p>any other relevant information.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-18.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-18.3.list2">
+                <listIntroduction> The Council may not grant a temporary exemption under subsection (1) until the Council has — </listIntroduction>
+                <item id="section-18.3.list2.a">
+                  <num>(a)</num>
+                  <p>taken reasonable measures to ensure that all persons whose rights may be significantly detrimentally affected by the granting of the temporary exemption, including adjacent land owners or occupiers, are aware of the application for temporary exemption and how to obtain a copy of it;</p>
+                </item>
+                <item id="section-18.3.list2.b">
+                  <num>(b)</num>
+                  <p>provided such persons with a reasonable opportunity to object to the application; and</p>
+                </item>
+                <item id="section-18.3.list2.c">
+                  <num>(c)</num>
+                  <p>duly considered and taken into account any objections raised.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-VI">
+        <num>VI</num>
+        <heading>Smoke emissions from dwellings</heading>
+        <section id="section-19">
+          <num>19.</num>
+          <heading>Prohibition of emission of dark <term refersTo="#term-smoke" id="trm203">smoke</term> from dwellings</heading>
+          <subsection id="section-19.1">
+            <num>(1)</num>
+            <content>
+              <p>Subject to section 4(1), no <term refersTo="#term-person" id="trm204">person</term> shall emit or permit the emission of dark <term refersTo="#term-smoke" id="trm205">smoke</term> from any <term refersTo="#term-dwelling" id="trm206">dwelling</term> for an aggregate period exceeding three minutes during any continuous period of thirty minutes.</p>
+            </content>
+          </subsection>
+          <subsection id="section-19.2">
+            <num>(2)</num>
+            <content>
+              <p>Subject to section 44 and on application in writing by the owner or occupier of any <term refersTo="#term-dwelling" id="trm207">dwelling</term>, the Council may grant a temporary exemption in writing from one or all of the provisions of this Chapter.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-VII">
+        <num>VII</num>
+        <heading>Emissions caused by <term refersTo="#term-dust" id="trm208">dust</term> emissions, <term refersTo="#term-open_burning" id="trm209">open burning</term> and burning of material</heading>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>Authorisation of <term refersTo="#term-open_burning" id="trm210">open burning</term> and burning of material</heading>
+          <subsection id="section-20.1">
+            <num>(1)</num>
+            <content>
+              <p>Subject to subsection (4), any <term refersTo="#term-person" id="trm211">person</term> who intends to carry out <term refersTo="#term-open_burning" id="trm212">open burning</term> of any material on any land or <term refersTo="#term-premises" id="trm213">premises</term>, must apply for prior written authorisation of such <term refersTo="#term-open_burning" id="trm214">open burning</term> to the Council.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.2">
+            <num>(2)</num>
+            <content>
+              <p>The Council may, in the written authorisation referred to in subsection (1) impose conditions with which the <term refersTo="#term-person" id="trm215">person</term> requesting authorisation must comply.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-20.3.list2">
+                <listIntroduction> The Council may not authorise <term refersTo="#term-open_burning" id="trm216">open burning</term> referred to in subsection (1) unless it is satisfied that the following requirements have been adequately addressed or fulfilled: </listIntroduction>
+                <item id="section-20.3.list2.a">
+                  <num>(a)</num>
+                  <p>the material will be open burned on the land from which it originated;</p>
+                </item>
+                <item id="section-20.3.list2.b">
+                  <num>(b)</num>
+                  <p>that the <term refersTo="#term-person" id="trm217">person</term> requesting authorisation has investigated and assessed every reasonable alternative for reducing, reusing or recycling the material in order to minimize the amount of material to be open burned, to the satisfaction of the Council;</p>
+                </item>
+                <item id="section-20.3.list2.c">
+                  <num>(c)</num>
+                  <p>that <term refersTo="#term-person" id="trm218">person</term> requesting authorisation has investigated and assessed every reasonable alternative for removing the material from the land or <term refersTo="#term-premises" id="trm219">premises</term> to the satisfaction of the Council;</p>
+                </item>
+                <item id="section-20.3.list2.d">
+                  <num>(d)</num>
+                  <p>that <term refersTo="#term-person" id="trm220">person</term> requesting authorisation has investigated and assessed the impact the <term refersTo="#term-open_burning" id="trm221">open burning</term> will have on the <term refersTo="#term-environment" id="trm222">environment</term> to the satisfaction of the Council;</p>
+                </item>
+                <item id="section-20.3.list2.e">
+                  <num>(e)</num>
+                  <blockList id="section-20.3.list2.e.list0">
+                    <listIntroduction>that <term refersTo="#term-person" id="trm223">person</term> requesting authorisation has notified in writing the owners and occupiers of all adjacent properties of —</listIntroduction>
+                    <item id="section-20.3.list2.e.list0.i">
+                      <num>(i)</num>
+                      <p>all known details of the proposed <term refersTo="#term-open_burning" id="trm224">open burning</term>; and</p>
+                    </item>
+                    <item id="section-20.3.list2.e.list0.ii">
+                      <num>(ii)</num>
+                      <p>the right of owners and occupiers of adjacent properties to lodge written objections to the proposed <term refersTo="#term-open_burning" id="trm225">open burning</term> with the Council within 7 days of being notified; and</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-20.3.list2.f">
+                  <num>(f)</num>
+                  <p>the prescribed fee has been paid to the Council.</p>
+                </item>
+                <item id="section-20.3.list2.g">
+                  <num>(g)</num>
+                  <p>a warning under section 10(1)(b) of the National Veld and Forest Fire Act, 1998 (Act No.101 of 1998) has not been published for the region;</p>
+                </item>
+                <item id="section-20.3.list2.h">
+                  <num>(h)</num>
+                  <p>the land on which that <term refersTo="#term-person" id="trm226">person</term> intends to open burn the material is state land, a farm or small-holding, or land within a proclaimed township that is not utilised for residential purposes;</p>
+                </item>
+                <item id="section-20.3.list2.i">
+                  <num>(i)</num>
+                  <p>the <term refersTo="#term-open_burning" id="trm227">open burning</term> is conducted at least 100 metres from any buildings or structures; and</p>
+                </item>
+                <item id="section-20.3.list2.j">
+                  <num>(j)</num>
+                  <p>the <term refersTo="#term-open_burning" id="trm228">open burning</term> will not pose a potential hazard to human health or safety, private property or the <term refersTo="#term-environment" id="trm229">environment</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-20.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-20.4.list3">
+                <listIntroduction> The provisions of this section shall not apply to — </listIntroduction>
+                <item id="section-20.4.list3.a">
+                  <num>(a)</num>
+                  <p>recreational outdoor barbecue or braai activities on private <term refersTo="#term-premises" id="trm230">premises</term>;</p>
+                </item>
+                <item id="section-20.4.list3.b">
+                  <num>(b)</num>
+                  <p>small controlled fires in informal settlements for the purposes of cooking, heating water and other domestic purposes; or</p>
+                </item>
+                <item id="section-20.4.list3.c">
+                  <num>(c)</num>
+                  <p>any other defined area or defined activity to which the Council has declared this section not to apply.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-21">
+          <num>21.</num>
+          <heading>Emissions caused by tyre burning and burning of rubber and other material for the recovery of metal</heading>
+          <subsection id="section-21.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-21.1.list0">
+                <listIntroduction> No <term refersTo="#term-person" id="trm231">person</term> may without authorisation in writing by Council — </listIntroduction>
+                <item id="section-21.1.list0.a">
+                  <num>(a)</num>
+                  <p>carry out or permit the burning of any tyres or rubber or other synthetically coated, covered or insulated products and electronic or other equipment on any land or <term refersTo="#term-premises" id="trm232">premises</term>;</p>
+                </item>
+                <item id="section-21.1.list0.b">
+                  <num>(b)</num>
+                  <p>carry out or permit the burning of any tyres, rubber products, cables or any other products, on any land or <term refersTo="#term-premises" id="trm233">premises</term> for the purpose or recovering the scrap metal or fibre reinforcements, or of disposing of tyres, or the rubber products or cables as waste; or</p>
+                </item>
+                <item id="section-21.1.list0.c">
+                  <num>(c)</num>
+                  <p>possess, store, transport or trade in any burnt metal or fibre reinforcements referred to in paragraph (a) and (b).</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-21.2">
+            <num>(2)</num>
+            <content>
+              <p>The Council may take whatever steps it considers necessary in order to remedy the harm caused by the burning referred to in paragraphs (a) and (b) and the possession referred to in paragraph (c), and prevent any occurrence of it, and may recover the reasonable costs incurred from the <term refersTo="#term-person" id="trm234">person</term> responsible for causing such harm.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-22">
+          <num>22.</num>
+          <heading>Dust emissions</heading>
+          <subsection id="section-22.subsection-0">
+            <content>
+              <blockList id="section-22.subsection-0.list0">
+                <listIntroduction> Any <term refersTo="#term-person" id="trm235">person</term> who — </listIntroduction>
+                <item id="section-22.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>conducts any activity; or</p>
+                </item>
+                <item id="section-22.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>causes or permits <term refersTo="#term-dust" id="trm236">dust</term> emissions to occur,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-22.subsection-1">
+            <content>
+              <p>shall adopt the best practical environmental option to the satisfaction of the <term refersTo="#term-authorised_person" id="trm237">authorised person</term>, to prevent and abate <term refersTo="#term-dust" id="trm238">dust</term> emissions into the <term refersTo="#term-atmosphere" id="trm239">atmosphere</term> that may be harmful to public health and well-being or is likely to cause a nuisance to persons residing or present in the vicinity of such land, activity or <term refersTo="#term-premises" id="trm240">premises</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-VIII">
+        <num>VIII</num>
+        <heading>Emissions from compression ignition powered vehicles and power generators</heading>
+        <section id="section-23">
+          <num>23.</num>
+          <heading>Prohibition of dark <term refersTo="#term-smoke" id="trm241">smoke</term> from compression ignition powered vehicles</heading>
+          <subsection id="section-23.1">
+            <num>(1)</num>
+            <content>
+              <p>No Person may on a public or private road or any <term refersTo="#term-premises" id="trm242">premises</term> drive or use, or cause to be used, a <term refersTo="#term-compression_ignition_powered_vehicle" id="trm243">compression ignition powered vehicle</term> or power generator that emits dark <term refersTo="#term-smoke" id="trm244">smoke</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.2">
+            <num>(2)</num>
+            <content>
+              <p>For purposes of this section the registered owner of the <term refersTo="#term-vehicle" id="trm245">vehicle</term> shall be presumed to be the driver unless the contrary is proven.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-24">
+          <num>24.</num>
+          <heading>Stopping of vehicles for inspection and testing</heading>
+          <subsection id="section-24.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-24.1.list0">
+                <listIntroduction> In order to enable an <term refersTo="#term-authorised_person" id="trm246">authorised person</term> to enforce the provisions of this Chapter, the driver of a <term refersTo="#term-vehicle" id="trm247">vehicle</term> must comply with any reasonable direction given by an <term refersTo="#term-authorised_person" id="trm248">authorised person</term> — </listIntroduction>
+                <item id="section-24.1.list0.a">
+                  <num>(a)</num>
+                  <p>to stop the <term refersTo="#term-vehicle" id="trm249">vehicle</term>; and</p>
+                </item>
+                <item id="section-24.1.list0.b">
+                  <num>(b)</num>
+                  <p>to facilitate the inspection or testing of the <term refersTo="#term-vehicle" id="trm250">vehicle</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-24.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-24.2.list1">
+                <listIntroduction> When a <term refersTo="#term-vehicle" id="trm251">vehicle</term> has stopped in compliance with a direction given under subsection (1), the <term refersTo="#term-authorised_person" id="trm252">authorised person</term> may — </listIntroduction>
+                <item id="section-24.2.list1.a">
+                  <num>(a)</num>
+                  <blockList id="section-24.2.list1.a.list0">
+                    <listIntroduction>inspect and test the <term refersTo="#term-vehicle" id="trm253">vehicle</term> at the roadside, in which case inspection and testing must be carried out —</listIntroduction>
+                    <item id="section-24.2.list1.a.list0.i">
+                      <num>(i)</num>
+                      <p>at or as near as practicable to the place where the direction to stop the <term refersTo="#term-vehicle" id="trm254">vehicle</term> is given; and</p>
+                    </item>
+                    <item id="section-24.2.list1.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>as soon as practicable, and in any case within one hour, after the <term refersTo="#term-vehicle" id="trm255">vehicle</term> is stopped in accordance with the direction; or</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-24.2.list1.b">
+                  <num>(b)</num>
+                  <p>conduct a visual inspection of the <term refersTo="#term-vehicle" id="trm256">vehicle</term> and, if the <term refersTo="#term-authorised_person" id="trm257">authorised person</term> reasonably believes that an offence has been committed under section 23(1), instruct the driver of the <term refersTo="#term-vehicle" id="trm258">vehicle</term>, who is presumed to be the owner of the <term refersTo="#term-vehicle" id="trm259">vehicle</term> unless he or she produces evidence to the contrary, in writing to take the <term refersTo="#term-vehicle" id="trm260">vehicle</term> to a testing station, within a specified period of time, for inspection and testing in accordance with section 25.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-25">
+          <num>25.</num>
+          <heading>Testing procedure</heading>
+          <subsection id="section-25.1">
+            <num>(1)</num>
+            <content>
+              <p>An <term refersTo="#term-authorised_person" id="trm261">authorised person</term> must use the free acceleration test method in order to determine whether a <term refersTo="#term-compression_ignition_powered_vehicle" id="trm262">compression ignition powered vehicle</term> is being driven or used in contravention of section 23(1).</p>
+            </content>
+          </subsection>
+          <subsection id="section-25.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-25.2.list1">
+                <listIntroduction> The following procedure must be adhered to in order to conduct a free acceleration test: </listIntroduction>
+                <item id="section-25.2.list1.a">
+                  <num>(a)</num>
+                  <p>when instructed to do so by the <term refersTo="#term-authorised_person" id="trm263">authorised person</term>, the driver must start the <term refersTo="#term-vehicle" id="trm264">vehicle</term>, place it in neutral gear and engage the clutch;</p>
+                </item>
+                <item id="section-25.2.list1.b">
+                  <num>(b)</num>
+                  <p>while the <term refersTo="#term-vehicle" id="trm265">vehicle</term> is idling, the <term refersTo="#term-authorised_person" id="trm266">authorised person</term> must conduct a visual inspection of the emission system of the <term refersTo="#term-vehicle" id="trm267">vehicle</term>;</p>
+                </item>
+                <item id="section-25.2.list1.c">
+                  <num>(c)</num>
+                  <p>the <term refersTo="#term-authorised_person" id="trm268">authorised person</term> must rapidly, smoothly and completely depress the accelerator throttle pedal of the <term refersTo="#term-vehicle" id="trm269">vehicle</term>, or he may instruct the driver to do likewise under his supervision;</p>
+                </item>
+                <item id="section-25.2.list1.d">
+                  <num>(d)</num>
+                  <p>while the throttle pedal is depressed, the <term refersTo="#term-authorised_person" id="trm270">authorised person</term> must measure the <term refersTo="#term-smoke" id="trm271">smoke</term> emitted from the emission system of the <term refersTo="#term-vehicle" id="trm272">vehicle</term> in order to determine whether or not it is dark <term refersTo="#term-smoke" id="trm273">smoke</term>;</p>
+                </item>
+                <item id="section-25.2.list1.e">
+                  <num>(e)</num>
+                  <p>the <term refersTo="#term-authorised_person" id="trm274">authorised person</term> must release the throttle pedal when the engine reaches cut-off speed;</p>
+                </item>
+                <item id="section-25.2.list1.f">
+                  <num>(f)</num>
+                  <p>if the <term refersTo="#term-authorised_person" id="trm275">authorised person</term> instructs the driver to depress the throttle , the driver may only release the throttle when it reaches cut-off speed or when instructed to do so by the <term refersTo="#term-authorised_person" id="trm276">authorised person</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-25.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-25.3.list2">
+                <listIntroduction> If, having conducted the free acceleration test, the <term refersTo="#term-authorised_person" id="trm277">authorised person</term> is satisfied that the <term refersTo="#term-vehicle" id="trm278">vehicle</term> — </listIntroduction>
+                <item id="section-25.3.list2.a">
+                  <num>(a)</num>
+                  <p>is not emitting dark <term refersTo="#term-smoke" id="trm279">smoke</term>, he or she must furnish the driver of the <term refersTo="#term-vehicle" id="trm280">vehicle</term> with a certificate indicating that the <term refersTo="#term-vehicle" id="trm281">vehicle</term> is not being driven or used in contravention of section 23(1); or</p>
+                </item>
+                <item id="section-25.3.list2.b">
+                  <num>(b)</num>
+                  <p>is emitting dark <term refersTo="#term-smoke" id="trm282">smoke</term>, he or she must issue the driver of the <term refersTo="#term-vehicle" id="trm283">vehicle</term> with a repair notice in accordance with section 26.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-26">
+          <num>26.</num>
+          <heading>Repair notice</heading>
+          <subsection id="section-26.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-26.1.list0">
+                <listIntroduction> The <term refersTo="#term-authorised_person" id="trm284">authorised person</term> must with a written repair notice, direct the owner of the <term refersTo="#term-vehicle" id="trm285">vehicle</term> to repair the <term refersTo="#term-vehicle" id="trm286">vehicle</term> within a specified period of time, and to take the <term refersTo="#term-vehicle" id="trm287">vehicle</term> to a place identified in the notice for re-testing before the expiry of that period. (2) The repair notice must contain the following information: </listIntroduction>
+                <item id="section-26.1.list0.a">
+                  <num>(a)</num>
+                  <p>the make and registration number of the <term refersTo="#term-vehicle" id="trm288">vehicle</term>;</p>
+                </item>
+                <item id="section-26.1.list0.b">
+                  <num>(b)</num>
+                  <p>the name, address and identity number of the driver of the <term refersTo="#term-vehicle" id="trm289">vehicle</term>; and</p>
+                </item>
+                <item id="section-26.1.list0.c">
+                  <num>(c)</num>
+                  <p>if the driver is not the owner, the name and address of the <term refersTo="#term-vehicle" id="trm290">vehicle</term> owner.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-26.3">
+            <num>(3)</num>
+            <content>
+              <p>It shall not be a defence in proceedings relating to the non compliance of the repair notice and non re- testing of the <term refersTo="#term-vehicle" id="trm291">vehicle</term> referred to in subsection (1) to aver that the driver of the <term refersTo="#term-vehicle" id="trm292">vehicle</term> failed to bring the repair notice to the attention of the owner of that <term refersTo="#term-vehicle" id="trm293">vehicle</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-26.4">
+            <num>(4)</num>
+            <content>
+              <p>If the owner of the <term refersTo="#term-vehicle" id="trm294">vehicle</term> fails to comply with the notice and the re-test referred to in subsection (1), the <term refersTo="#term-City" id="trm295">City</term> may take whatever steps it considers necessary in order to remedy the harm including towing the <term refersTo="#term-vehicle" id="trm296">vehicle</term> away and may recover the costs incurred from the owner of the <term refersTo="#term-vehicle" id="trm297">vehicle</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-IX">
+        <num>IX</num>
+        <heading>Emissions that cause a nuisance</heading>
+        <section id="section-27">
+          <num>27.</num>
+          <heading>Prohibition of emissions that cause nuisance</heading>
+          <subsection id="section-27.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-27.1.list0">
+                <listIntroduction> No <term refersTo="#term-person" id="trm298">person</term> shall, within the area of jurisdiction of the <term refersTo="#term-City" id="trm299">City</term>— </listIntroduction>
+                <item id="section-27.1.list0.a">
+                  <num>(a)</num>
+                  <p>inside an approved <term refersTo="#term-spray_area" id="trm300">spray area</term> or spray booth, spray or apply any coat, plate or epoxy coat to any <term refersTo="#term-vehicle" id="trm301">vehicle</term>, article or object, so as to cause a nuisance; or</p>
+                </item>
+                <item id="section-27.1.list0.b">
+                  <num>(b)</num>
+                  <p>outside an approved <term refersTo="#term-spray_area" id="trm302">spray area</term> or spray booth, allow any spray, coat, plate or epoxy coat to be applied to any such <term refersTo="#term-vehicle" id="trm303">vehicle</term>, article or object .</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-27.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-spray_area" id="trm304">spray area</term> or spray booth referred to in subsection (1) must be constructed and equipped in such a manner that complies with the General Safety Regulations promulgated in terms of the Occupational Health and Safety Act, 1993 (Act No. 85 of 1993) and must be approved by the <term refersTo="#term-authorised_person" id="trm305">authorised person</term>, for emissions, mechanical ventilation, noise and any other relevant Department as may be required by any other law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.3">
+            <num>(3)</num>
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm306">person</term> conducting sand blasting, shot blasting, grinding, finishing or similar activity which customarily produce emissions of <term refersTo="#term-dust" id="trm307">dust</term> that may be harmful to public health or cause a nuisance shall take control measures to prevent emissions into the <term refersTo="#term-atmosphere" id="trm308">atmosphere</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-27.4.list3">
+                <listIntroduction> Any <term refersTo="#term-person" id="trm309">person</term> undertaking an activity referred to in (3) must implement the following control measures: </listIntroduction>
+                <item id="section-27.4.list3.a">
+                  <num>(a)</num>
+                  <p><term refersTo="#term-dust" id="trm310">dust</term> extraction control measures;</p>
+                </item>
+                <item id="section-27.4.list3.b">
+                  <num>(b)</num>
+                  <p>any alternative control measure approved by the <term refersTo="#term-air_quality_officer" id="trm311">air quality officer</term> or his or her delegated representative.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-27.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-27.5.list4">
+                <listIntroduction> An occupier or owner of any <term refersTo="#term-premises" id="trm312">premises</term> — </listIntroduction>
+                <item id="section-27.5.list4.a">
+                  <num>(a)</num>
+                  <p>must prevent the existence in, or emission of any nuisance from, his or her <term refersTo="#term-premises" id="trm313">premises</term>.</p>
+                </item>
+                <item id="section-27.5.list4.b">
+                  <num>(b)</num>
+                  <p>from which a nuisance emanates, or where a nuisance exists, is guilty of an offence.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-28">
+          <num>28.</num>
+          <heading>Abatement notice</heading>
+          <subsection id="section-28.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-28.1.list0">
+                <listIntroduction> An <term refersTo="#term-authorised_person" id="trm314">authorised person</term> may serve an abatement notice on any <term refersTo="#term-person" id="trm315">person</term> whom he or she reasonably believes is likely to act in contrary or has acted in contrary of section 27, calling upon that <term refersTo="#term-person" id="trm316">person</term> — </listIntroduction>
+                <item id="section-28.1.list0.a">
+                  <num>(a)</num>
+                  <p>to abate the nuisance within a period specified in the notice;</p>
+                </item>
+                <item id="section-28.1.list0.b">
+                  <num>(b)</num>
+                  <p>to take all necessary steps to prevent a recurrence of the nuisance; and</p>
+                </item>
+                <item id="section-28.1.list0.c">
+                  <num>(c)</num>
+                  <p>to comply with any other conditions contained in the notice.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-28.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-28.2.list1">
+                <listIntroduction> An abatement notice under subsection (1) may be served — </listIntroduction>
+                <item id="section-28.2.list1.a">
+                  <num>(a)</num>
+                  <blockList id="section-28.2.list1.a.list0">
+                    <listIntroduction>upon the owner of any <term refersTo="#term-premises" id="trm317">premises</term>, by —</listIntroduction>
+                    <item id="section-28.2.list1.a.list0.i">
+                      <num>(i)</num>
+                      <p>delivering it to the owner or, if the owner cannot be traced or is living abroad, the agent of the owner;</p>
+                    </item>
+                    <item id="section-28.2.list1.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>transmitting it by registered post to the last known address of the owner or the last known address of the agent; or</p>
+                    </item>
+                    <item id="section-28.2.list1.a.list0.iii">
+                      <num>(iii)</num>
+                      <p>delivering it to the address where the <term refersTo="#term-premises" id="trm318">premises</term> are situated, if the address of the owner and the address of the agent are unknown;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-28.2.list1.b">
+                  <num>(b)</num>
+                  <blockList id="section-28.2.list1.b.list1">
+                    <listIntroduction>upon the occupier of the <term refersTo="#term-premises" id="trm319">premises</term>, by — (i) delivering it to the occupier; or</listIntroduction>
+                    <item id="section-28.2.list1.b.list1.ii">
+                      <num>(ii)</num>
+                      <p>transmitting it by registered post to the occupier at the address at which the <term refersTo="#term-premises" id="trm320">premises</term> are situated.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-29">
+          <num>29.</num>
+          <heading>Steps to abate nuisance</heading>
+          <subsection id="section-29.subsection-0">
+            <content>
+              <p>At any time, the <term refersTo="#term-City" id="trm321">City</term> may at its own cost take whatever steps it considers necessary in order to remedy the harm caused by the nuisance and prevent a recurrence of it, and may recover the reasonable costs incurred from the <term refersTo="#term-person" id="trm322">person</term> responsible for causing the nuisance.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-X">
+        <num>X</num>
+        <heading>Pesticide and crop spraying</heading>
+        <section id="section-30">
+          <num>30.</num>
+          <heading>Spraying of a pesticide, herbicide or other related material</heading>
+          <subsection id="section-30.1">
+            <num>(1)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm323">person</term> may carry out or permit the spraying of a pesticide, herbicide or other related material unless such pesticide, herbicide or material is registered in terms of section 3 of the Fertilizers, Farm Feeds, Agricultural Remedies and Stock Remedies Act, 1947 (Act No. 36 of 1947).</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.2">
+            <num>(2)</num>
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm324">person</term> who contravenes subsection (1) of this By-law is guilty of an offence as set out in section 18(1)(c) of the Fertilizers, Farm Feeds, Agricultural Remedies and Stock Remedies Act, 1947 (Act No. 36 of 1947).</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-30.3.list2">
+                <listIntroduction> A <term refersTo="#term-person" id="trm325">person</term> who carries out or permits the spraying of pesticides, herbicides or other materials referred to in subsection (1), within the area of jurisdiction of the <term refersTo="#term-City" id="trm326">City</term>, must comply with the following controlled measures: </listIntroduction>
+                <item id="section-30.3.list2.a">
+                  <num>(a)</num>
+                  <blockList id="section-30.3.list2.a.list0">
+                    <listIntroduction>obtain prior written authorisation of the <term refersTo="#term-City" id="trm327">City</term> which may be granted by the <term refersTo="#term-City" id="trm328">City</term> with conditions, including —</listIntroduction>
+                    <item id="section-30.3.list2.a.list0.i">
+                      <num>(i)</num>
+                      <p>the area of land on which the pesticide, herbicide or other material may be applied; and</p>
+                    </item>
+                    <item id="section-30.3.list2.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>the period of time in which the pesticide, herbicide or other material may be applied;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-30.3.list2.b">
+                  <num>(b)</num>
+                  <blockList id="section-30.3.list2.b.list1">
+                    <listIntroduction>notify in writing the owners and occupiers of all adjacent properties within 150 metres of the proposed area of land, of —</listIntroduction>
+                    <item id="section-30.3.list2.b.list1.i">
+                      <num>(i)</num>
+                      <p>the details of such land;</p>
+                    </item>
+                    <item id="section-30.3.list2.b.list1.ii">
+                      <num>(ii)</num>
+                      <p>the reason for use of pesticide, herbicide or other material;</p>
+                    </item>
+                    <item id="section-30.3.list2.b.list1.iii">
+                      <num>(iii)</num>
+                      <p>the active ingredient of pesticide, herbicide or other material;</p>
+                    </item>
+                    <item id="section-30.3.list2.b.list1.iv">
+                      <num>(iv)</num>
+                      <p>the date and approximate time of the use of pesticide, herbicide or other material;</p>
+                    </item>
+                    <item id="section-30.3.list2.b.list1.v">
+                      <num>(v)</num>
+                      <p>in the event of inclement weather conditions, an alternative date or dates on which the use of pesticide, herbicide or other material may occur;</p>
+                    </item>
+                    <item id="section-30.3.list2.b.list1.vi">
+                      <num>(vi)</num>
+                      <p>the time, if any, indicated on the product label specifying when the area can safely be re-entered after application of the pesticide, herbicide or other material;</p>
+                    </item>
+                    <item id="section-30.3.list2.b.list1.vii">
+                      <num>(vii)</num>
+                      <p>the right of owners and occupiers of adjacent properties to lodge written objections to the proposed spraying of pesticides with the Council within seven days of being notified; and</p>
+                    </item>
+                    <item id="section-30.3.list2.b.list1.viii">
+                      <num>(viii)</num>
+                      <p>the prescribed fee has been paid to the Council.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-30.4">
+            <num>(4)</num>
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm329">person</term> who contravenes subsection (3) is guilty of an offence.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-30.5.list4">
+                <listIntroduction> A <term refersTo="#term-person" id="trm330">person</term> may apply to the <term refersTo="#term-City" id="trm331">City</term> for an exemption if — </listIntroduction>
+                <item id="section-30.5.list4.a">
+                  <num>(a)</num>
+                  <p>the spraying of the pesticide is for the management of pests that transmit human diseases or adversely impact agriculture or forestry;</p>
+                </item>
+                <item id="section-30.5.list4.b">
+                  <num>(b)</num>
+                  <p>the spraying of the pesticide is for the management of pests that threaten the integrity of sensitive ecosystems; or</p>
+                </item>
+                <item id="section-30.5.list4.c">
+                  <num>(c)</num>
+                  <p>the need for the use of the pesticide is urgent.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-30.6">
+            <num>(6)</num>
+            <content>
+              <blockList id="section-30.6.list5">
+                <listIntroduction> The provisions of this section are not applicable to — </listIntroduction>
+                <item id="section-30.6.list5.a">
+                  <num>(a)</num>
+                  <p>residential areas of farms;</p>
+                </item>
+                <item id="section-30.6.list5.b">
+                  <num>(b)</num>
+                  <p>buildings or inside of buildings; or</p>
+                </item>
+                <item id="section-30.6.list5.c">
+                  <num>(c)</num>
+                  <p>any other defined area or defined activity to which the <term refersTo="#term-City" id="trm332">City</term> has declared this section not to apply.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-XI">
+        <num>XI</num>
+        <heading>Licensing of listed activities</heading>
+        <section id="section-31">
+          <num>31.</num>
+          <heading>Establishment of <term refersTo="#term-atmospheric_emission" id="trm333">atmospheric emission</term> licensing system</heading>
+          <subsection id="section-31.subsection-0">
+            <content>
+              <p>The Council hereby establishes an Atmospheric Emission Licensing System as contemplated in Chapter 5 of the <term refersTo="#term-Air_Quality_Act" id="trm334">Air Quality Act</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-32">
+          <num>32.</num>
+          <heading>Purpose of the <term refersTo="#term-atmospheric_emission" id="trm335">atmospheric emission</term> licensing system</heading>
+          <subsection id="section-32.subsection-0">
+            <content>
+              <blockList id="section-32.subsection-0.list0">
+                <listIntroduction> The purpose of the Atmospheric Emission Licensing System is to — </listIntroduction>
+                <item id="section-32.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>identify and register all sources of <term refersTo="#term-air_pollution" id="trm336">air pollution</term> in the <term refersTo="#term-City" id="trm337">City</term>;</p>
+                </item>
+                <item id="section-32.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>regulate and ensure compliance with the licence conditions;</p>
+                </item>
+                <item id="section-32.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>gather information for the purposes of compiling the <term refersTo="#term-air_quality_management_plan" id="trm338">air quality management plan</term> of the <term refersTo="#term-City" id="trm339">City</term>, as contemplated in section 15 of the <term refersTo="#term-Air_Quality_Act" id="trm340">Air Quality Act</term>;</p>
+                </item>
+                <item id="section-32.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>undertake strategic planning; and</p>
+                </item>
+                <item id="section-32.subsection-0.list0.e">
+                  <num>(e)</num>
+                  <blockList id="section-32.subsection-0.list0.e.list0">
+                    <listIntroduction>provide information to any <term refersTo="#term-person" id="trm341">person</term> in order to —</listIntroduction>
+                    <item id="section-32.subsection-0.list0.e.list0.i">
+                      <num>(i)</num>
+                      <p>facilitate monitoring of the performance of the <term refersTo="#term-City" id="trm342">City</term>, and if applicable, a licensee;</p>
+                    </item>
+                    <item id="section-32.subsection-0.list0.e.list0.ii">
+                      <num>(ii)</num>
+                      <p>stimulate research by acknowledged institutions; and</p>
+                    </item>
+                    <item id="section-32.subsection-0.list0.e.list0.iii">
+                      <num>(iii)</num>
+                      <p>assist the <term refersTo="#term-City" id="trm343">City</term> to achieve the main objectives of this By-law.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-33">
+          <num>33.</num>
+          <heading>Application for <term refersTo="#term-atmospheric_emission" id="trm344">atmospheric emission</term> licence</heading>
+          <subsection id="section-33.1">
+            <num>(1)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm345">person</term> shall undertake a listed activity, as published in terms of section 21 of the <term refersTo="#term-Air_Quality_Act" id="trm346">Air Quality Act</term>, without being in possession of an <term refersTo="#term-atmospheric_emission" id="trm347">atmospheric emission</term> licence issued by the <term refersTo="#term-air_quality_officer" id="trm348">air quality officer</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-33.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-33.2.list1">
+                <listIntroduction> An application for an <term refersTo="#term-atmospheric_emission" id="trm349">atmospheric emission</term> licence must be — </listIntroduction>
+                <item id="section-33.2.list1.a">
+                  <num>(a)</num>
+                  <p>made in writing on the application form as prescribed by the <term refersTo="#term-air_quality_officer" id="trm350">air quality officer</term>;</p>
+                </item>
+                <item id="section-33.2.list1.b">
+                  <num>(b)</num>
+                  <p>accompanied by documents or information as may be required by the <term refersTo="#term-air_quality_officer" id="trm351">air quality officer</term>; and</p>
+                </item>
+                <item id="section-33.2.list1.c">
+                  <num>(c)</num>
+                  <p>on payment of the prescribed application fee.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-33.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-33.3.list2">
+                <listIntroduction> The <term refersTo="#term-air_quality_officer" id="trm352">air quality officer</term> must on receipt of an application for an <term refersTo="#term-atmospheric_emission" id="trm353">atmospheric emission</term> licence — </listIntroduction>
+                <item id="section-33.3.list2.a">
+                  <num>(a)</num>
+                  <p>acknowledge receipt, within 14 days, of the application together with the prescribed fee;</p>
+                </item>
+                <item id="section-33.3.list2.b">
+                  <num>(b)</num>
+                  <p>check whether the application is properly completed and contains the information required in the application form; and</p>
+                </item>
+                <item id="section-33.3.list2.c">
+                  <num>(c)</num>
+                  <p>is accompanied by the required information or documents required in terms of this By-law.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-33.4">
+            <num>(4)</num>
+            <content>
+              <p>Before considering an application made in terms of subsection (2), the <term refersTo="#term-air_quality_officer" id="trm354">air quality officer</term> may require the applicant to furnish additional information or a specialist air quality impact study.</p>
+            </content>
+          </subsection>
+          <subsection id="section-33.5">
+            <num>(5)</num>
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm355">person</term> who undertakes a listed activity without an <term refersTo="#term-atmospheric_emission" id="trm356">atmospheric emission</term> licence is guilty of an offence and is subject to the penalties as set out in section 52 of the <term refersTo="#term-Air_Quality_Act" id="trm357">Air Quality Act</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-34">
+          <num>34.</num>
+          <heading>Factors to be taken into account</heading>
+          <subsection id="section-34.subsection-0">
+            <content>
+              <blockList id="section-34.subsection-0.list0">
+                <listIntroduction> The <term refersTo="#term-air_quality_officer" id="trm358">air quality officer</term> must, in addition to the factors set out in section 39 of the <term refersTo="#term-Air_Quality_Act" id="trm359">Air Quality Act</term>, consider each application having regard to the following factors: </listIntroduction>
+                <item id="section-34.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>compliance with the <term refersTo="#term-Air_Quality_Act" id="trm360">Air Quality Act</term> and this By-law; and</p>
+                </item>
+                <item id="section-34.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>the environmental, health and safety record of the applicant.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-35">
+          <num>35.</num>
+          <heading>Decisions on applications for <term refersTo="#term-atmospheric_emission" id="trm361">atmospheric emission</term> licence</heading>
+          <subsection id="section-35.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-35.1.list0">
+                <listIntroduction> After considering the application in terms of section 33, the <term refersTo="#term-air_quality_officer" id="trm362">air quality officer</term> must, within 60 days of receipt of the application, either — </listIntroduction>
+                <item id="section-35.1.list0.a">
+                  <num>(a)</num>
+                  <p>approve the application by issuing a provisional <term refersTo="#term-atmospheric_emission" id="trm363">atmospheric emission</term> licence or an <term refersTo="#term-atmospheric_emission" id="trm364">atmospheric emission</term> licence, subject to such conditions as the <term refersTo="#term-air_quality_officer" id="trm365">air quality officer</term> may impose; or</p>
+                </item>
+                <item id="section-35.1.list0.b">
+                  <num>(b)</num>
+                  <p>reject the application.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-35.2">
+            <num>(2)</num>
+            <content>
+              <p>If the <term refersTo="#term-air_quality_officer" id="trm366">air quality officer</term> fails to grant or reject an application for an <term refersTo="#term-atmospheric_emission" id="trm367">atmospheric emission</term> licence within 60 days after considering the application in terms of section 33, he or she must inform the applicant in writing that the period for consideration is extended and must inform the applicant of the date by which a decision will be made.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-36">
+          <num>36.</num>
+          <heading>Terms and conditions of the <term refersTo="#term-atmospheric_emission" id="trm368">atmospheric emission</term> licence</heading>
+          <subsection id="section-36.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-36.1.list0">
+                <listIntroduction> When issuing an <term refersTo="#term-atmospheric_emission" id="trm369">atmospheric emission</term> licence, the <term refersTo="#term-air_quality_officer" id="trm370">air quality officer</term> may impose reasonable conditions as he or she may deem necessary. (2) An <term refersTo="#term-atmospheric_emission" id="trm371">atmospheric emission</term> licence issued under this section must — </listIntroduction>
+                <item id="section-36.1.list0.a">
+                  <num>(a)</num>
+                  <p>comply with section 43 of the <term refersTo="#term-Air_Quality_Act" id="trm372">Air Quality Act</term>;</p>
+                </item>
+                <item id="section-36.1.list0.b">
+                  <num>(b)</num>
+                  <p>contain a requirement that the licence holder must comply with and ensure compliance by his or her employees, agents and sub-contractors with this By-law and other applicable national or provincial legislation.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-37">
+          <num>37.</num>
+          <heading>Variation of <term refersTo="#term-atmospheric_emission" id="trm373">atmospheric emission</term> licences</heading>
+          <subsection id="section-37.subsection-0">
+            <content>
+              <blockList id="section-37.subsection-0.list0">
+                <listIntroduction> No building, plant or works used by a holder of a licence referred to in section 33 shall be — </listIntroduction>
+                <item id="section-37.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>materially extended; and</p>
+                </item>
+                <item id="section-37.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>altered or added to,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-37.subsection-1">
+            <content>
+              <p>and no changes in process, procedures or significant production increases may be undertaken without the prior approval of the <term refersTo="#term-air_quality_officer" id="trm374">air quality officer</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-38">
+          <num>38.</num>
+          <heading>Cessation of <term refersTo="#term-atmospheric_emission" id="trm375">atmospheric emission</term> licence</heading>
+          <subsection id="section-38.subsection-0">
+            <content>
+              <p>The holder of a licence referred to in section 33 must on cessation of operations to which the licence relates notify the <term refersTo="#term-air_quality_officer" id="trm376">air quality officer</term> of such cessation.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-XII">
+        <num>XII</num>
+        <heading>Offences and penalities</heading>
+        <section id="section-39">
+          <num>39.</num>
+          <heading>Offences and penalties</heading>
+          <subsection id="section-39.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-person" id="trm377">person</term> who contravenes sections 13(1), 14(1), 19(1), 20(1), 20(3), 21(1), 22, 23(1), 24(1), 26(1), (3) and (4), 27 (1), (3) and (4), 28(1), or 30(1) and (3), is guilty of an offence.</p>
+            </content>
+          </subsection>
+          <subsection id="section-39.2">
+            <num>(2)</num>
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm378">person</term> who is guilty of an offence in terms of section 19(1), 23(1) or 27(1) is liable on conviction to imprisonment not exceeding 30 days or to a fine or to both a fine and imprisonment.</p>
+            </content>
+          </subsection>
+          <subsection id="section-39.3">
+            <num>(3)</num>
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm379">person</term> who is guilty of an offence in terms of sections 13(1), 14(1), 20(1), 20(3), 21(1), 24(1), 26(1), 26(3) and (4), 28(1), 30(1) and (3), is liable on conviction to imprisonment for a period not exceeding two years or a fine or to both such fine and such imprisonment.</p>
+            </content>
+          </subsection>
+          <subsection id="section-39.4">
+            <num>(4)</num>
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm380">person</term> who contravenes section 22 is liable on conviction to imprisonment not exceeding one year or a fine or both such fine and such imprisonment.</p>
+            </content>
+          </subsection>
+          <subsection id="section-39.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-39.5.list4">
+                <listIntroduction> It is an offence to— </listIntroduction>
+                <item id="section-39.5.list4.a">
+                  <num>(a)</num>
+                  <p>supply false information to an <term refersTo="#term-authorised_person" id="trm381">authorised person</term> in respect of any issue pertaining to this By-law; or</p>
+                </item>
+                <item id="section-39.5.list4.b">
+                  <num>(b)</num>
+                  <p>refuse to co-operate with the request of an <term refersTo="#term-authorised_person" id="trm382">authorised person</term> made in terms of this By-law,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-39.subsection-5">
+            <content>
+              <p>and any <term refersTo="#term-person" id="trm383">person</term> convicted of such offence is liable to imprisonment for a period not exceeding 30 days or a fine or both such fine and such imprisonment.</p>
+            </content>
+          </subsection>
+          <subsection id="section-39.6">
+            <num>(6)</num>
+            <content>
+              <p>Where no specific penalty is provided, any <term refersTo="#term-person" id="trm384">person</term> committing an offence in terms of this By-law is liable on conviction to imprisonment for a period not exceeding one (1) year or to a fine or to both such imprisonment and such a fine.</p>
+            </content>
+          </subsection>
+          <subsection id="section-39.7">
+            <num>(7)</num>
+            <content>
+              <p>Failure to comply with a notice, direction or instruction referred to in this By-law constitutes a continuing offence.</p>
+            </content>
+          </subsection>
+          <subsection id="section-39.8">
+            <num>(8)</num>
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm385">person</term> who commits a continuing offence shall be guilty of an offence for each day during which that <term refersTo="#term-person" id="trm386">person</term> fails to comply with a notice, direction or instruction referred to in this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-39.9">
+            <num>(9)</num>
+            <content>
+              <blockList id="section-39.9.list9">
+                <listIntroduction> In addition to imposing a fine or imprisonment, a court may order any <term refersTo="#term-person" id="trm387">person</term> convicted of an offence under this By-law — </listIntroduction>
+                <item id="section-39.9.list9.a">
+                  <num>(a)</num>
+                  <p>to remedy the harm caused;</p>
+                </item>
+                <item id="section-39.9.list9.b">
+                  <num>(b)</num>
+                  <p>to pay damages for harm caused to another <term refersTo="#term-person" id="trm388">person</term> or to property, which order shall have the force and effect of a civil judgment; and</p>
+                </item>
+                <item id="section-39.9.list9.c">
+                  <num>(c)</num>
+                  <p>to install and operate at the <term refersTo="#term-person" id="trm389">person</term>’s own expense <term refersTo="#term-obscuration" id="trm390">obscuration</term> reading equipment referred to in section 16.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-39.10">
+            <num>(10)</num>
+            <content>
+              <p>In addition to any other penalty the court may impose, it may order a <term refersTo="#term-person" id="trm391">person</term> convicted of an offence under this By-law to take such steps the court considers necessary within a period determined by the court in order to prevent a recurrence of the nuisance.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-XIII">
+        <num>XIII</num>
+        <heading>General matters</heading>
+        <section id="section-40">
+          <num>40.</num>
+          <heading>Compliance monitoring</heading>
+          <subsection id="section-40.1">
+            <num>(1)</num>
+            <content>
+              <p>For the purposes of compliance monitoring, the designated environmental management inspectors must exercise the powers as set out in sections 31G to 31L of the NEMA.</p>
+            </content>
+          </subsection>
+          <subsection id="section-40.2">
+            <num>(2)</num>
+            <content>
+              <p>The environmental management inspectors may request from any polluter that significantly contributes or is likely to contribute to poor air qual- ity, ambient and isokinetic monitoring and any other air quality related study, programs or reports to be conducted by a recognised and competent third party, at the cost of the polluter.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-41">
+          <num>41.</num>
+          <heading>Enforcement</heading>
+          <subsection id="section-41.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-authorised_person" id="trm392">authorised person</term> must take all lawful, necessary and reasonable practicable measures to enforce the provisions of this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-41.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-City" id="trm393">City</term> may develop enforcement procedures which should take into consideration any national or provincial enforcement procedures.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-42">
+          <num>42.</num>
+          <heading>Recognition programmes</heading>
+          <subsection id="section-42.subsection-0">
+            <content>
+              <p>An <term refersTo="#term-air_quality_officer" id="trm394">air quality officer</term> may establish a programme for the public recognition of significant achievements in the area of pollution prevention.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-43">
+          <num>43.</num>
+          <heading>Appeals</heading>
+          <subsection id="section-43.subsection-0">
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm395">person</term> may appeal against a decision taken by an <term refersTo="#term-authorised_person" id="trm396">authorised person</term> under this By-law by giving a written notice of the appeal in accor- dance with the provisions of section 62 of the <term refersTo="#term-Systems_Act" id="trm397">Systems Act</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-44">
+          <num>44.</num>
+          <heading>Exemptions</heading>
+          <subsection id="section-44.1">
+            <num>(1)</num>
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm398">person</term> may, in writing, apply for exemption from the application of a provision of this By-law to the Council.</p>
+            </content>
+          </subsection>
+          <subsection id="section-44.2">
+            <num>(2)</num>
+            <content>
+              <p>An application in terms of subsection (1) must be accompanied by substantive reasons.</p>
+            </content>
+          </subsection>
+          <subsection id="section-44.3">
+            <num>(3)</num>
+            <content>
+              <p>The Council may require an applicant applying for exemption to take appropriate steps to bring the application to the attention of relevant inter- ested and affected persons and the public.</p>
+            </content>
+          </subsection>
+          <subsection id="section-44.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-44.4.list3">
+                <listIntroduction> The steps contemplated in subsection (3) must include the publication of a notice in at least two newspapers, one circulating provincially and one circulating within the jurisdiction of the <term refersTo="#term-City" id="trm399">City</term> — </listIntroduction>
+                <item id="section-44.4.list3.a">
+                  <num>(a)</num>
+                  <p>giving reasons for the application; and</p>
+                </item>
+                <item id="section-44.4.list3.b">
+                  <num>(b)</num>
+                  <p>containing such other particulars concerning the application as the <term refersTo="#term-air_quality_officer" id="trm400">air quality officer</term> may require.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-44.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-44.5.list4">
+                <listIntroduction> The Council may — </listIntroduction>
+                <item id="section-44.5.list4.a">
+                  <num>(a)</num>
+                  <p>from time to time review any exemption granted in terms of this section, and may impose such conditions as it may determine; and</p>
+                </item>
+                <item id="section-44.5.list4.b">
+                  <num>(b)</num>
+                  <p>on good grounds withdraw any exemption.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-44.6">
+            <num>(6)</num>
+            <content>
+              <blockList id="section-44.6.list5">
+                <listIntroduction> The Council may not grant an exemption under subsection (1) until he or she has — </listIntroduction>
+                <item id="section-44.6.list5.a">
+                  <num>(a)</num>
+                  <p>taken reasonable measures to ensure that all persons whose rights may be significantly detrimentally affected by the granting of the exemption, including adjacent land owners or occupiers, are aware of the application for exemption and how to obtain a copy of it;</p>
+                </item>
+                <item id="section-44.6.list5.b">
+                  <num>(b)</num>
+                  <p>provided such persons with a reasonable opportunity to object to the application; and</p>
+                </item>
+                <item id="section-44.6.list5.c">
+                  <num>(c)</num>
+                  <p>duly considered and taken into account any objections raised.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-45">
+          <num>45.</num>
+          <heading>Indemnity</heading>
+          <subsection id="section-45.subsection-0">
+            <content>
+              <p>The <term refersTo="#term-City" id="trm401">City</term> shall not be liable for any damage caused to any property or <term refersTo="#term-premises" id="trm402">premises</term> by any action or omission of the employees or officials of the <term refersTo="#term-City" id="trm403">City</term> when exercising any function or performing any duty in terms of this By-law, provided that such employees or officials must, when exercis- ing such function or performing such duty, take reasonable steps to prevent any damage to such property or <term refersTo="#term-premises" id="trm404">premises</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-46">
+          <num>46.</num>
+          <heading>Repeal and savings</heading>
+          <subsection id="section-46.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-City" id="trm405">City</term> of Cape Town: Air Pollution Control By-law, 2003 is hereby repealed.</p>
+            </content>
+          </subsection>
+          <subsection id="section-46.2">
+            <num>(2)</num>
+            <content>
+              <p>Anything done or deemed to have been done under any other law remains valid to the extent that it is consistent with this By-law, or until any- thing done under this By-law overrides it.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-48">
+          <num>48.</num>
+          <heading>Short title</heading>
+          <subsection id="section-48.subsection-0">
+            <content>
+              <p>This By-law is called the <term refersTo="#term-City" id="trm406">City</term> of Cape Town: Air Quality Management By-law, 2010.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

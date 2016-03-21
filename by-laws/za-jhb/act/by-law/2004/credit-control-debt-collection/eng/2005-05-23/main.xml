@@ -1,0 +1,1506 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-jhb/act/by-law/2004/credit-control-debt-collection/main"/>
+          <FRBRuri value="/za-jhb/act/by-law/2004/credit-control-debt-collection"/>
+          <FRBRalias value="Credit Control and Debt Collection By-laws, 2004"/>
+          <FRBRdate date="2005-05-23" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-jhb/act/by-law/2004/credit-control-debt-collection/eng@2005-05-23/main"/>
+          <FRBRuri value="/za-jhb/act/by-law/2004/credit-control-debt-collection/eng@2005-05-23"/>
+          <FRBRdate date="2005-05-23" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-jhb/act/by-law/2004/credit-control-debt-collection/eng@2005-05-23/main"/>
+          <FRBRuri value="/za-jhb/act/by-law/2004/credit-control-debt-collection/eng@2005-05-23"/>
+          <FRBRdate date="2015-11-22" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-05-23" name="Gautenge Provincal Gazette" showAs="Gautenge Provincal Gazette" number="213"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-account" href="/ontology/term/this.eng.account" showAs="account"/>
+        <TLCTerm id="term-Act" href="/ontology/term/this.eng.Act" showAs="Act"/>
+        <TLCTerm id="term-arrears" href="/ontology/term/this.eng.arrears" showAs="arrears"/>
+        <TLCTerm id="term-authorised_official" href="/ontology/term/this.eng.authorised_official" showAs="authorised official"/>
+        <TLCTerm id="term-availability_fee" href="/ontology/term/this.eng.availability_fee" showAs="availability fee"/>
+        <TLCTerm id="term-by-law" href="/ontology/term/this.eng.by-law" showAs="by-law"/>
+        <TLCTerm id="term-City_Manager" href="/ontology/term/this.eng.City_Manager" showAs="City Manager"/>
+        <TLCTerm id="term-collection_charges" href="/ontology/term/this.eng.collection_charges" showAs="collection charges"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-customer" href="/ontology/term/this.eng.customer" showAs="customer"/>
+        <TLCTerm id="term-fee" href="/ontology/term/this.eng.fee" showAs="fee"/>
+        <TLCTerm id="term-municipal_service" href="/ontology/term/this.eng.municipal_service" showAs="municipal service"/>
+        <TLCTerm id="term-occupier" href="/ontology/term/this.eng.occupier" showAs="occupier"/>
+        <TLCTerm id="term-owner" href="/ontology/term/this.eng.owner" showAs="owner"/>
+        <TLCTerm id="term-Policy" href="/ontology/term/this.eng.Policy" showAs="Policy"/>
+        <TLCTerm id="term-prescribed" href="/ontology/term/this.eng.prescribed" showAs="prescribed"/>
+        <TLCTerm id="term-premises" href="/ontology/term/this.eng.premises" showAs="premises"/>
+        <TLCTerm id="term-property" href="/ontology/term/this.eng.property" showAs="property"/>
+        <TLCTerm id="term-rates" href="/ontology/term/this.eng.rates" showAs="rates"/>
+        <TLCTerm id="term-working_days" href="/ontology/term/this.eng.working_days" showAs="working days"/>
+      </references>
+    </meta>
+    <preface>
+      <p>The Municipal Manager of the City of Johannesburg Metropolitan Municipality hereby, in terms of section 13(a) of the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000), publishes the Credit Control and Debt Collection By-laws for the City of Johannesburg Metropolitan Municipality, as approved by its Council, as set out hereunder.</p>
+    </preface>
+    <body>
+      <chapter id="chapter-1">
+        <num>1</num>
+        <heading>Definitions and application</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <subsection id="section-1.subsection-0">
+            <content>
+              <p>In these By—laws any word or expression to which a meaning has been assigned in the</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-1">
+            <content>
+              <p><term refersTo="#term-Act" id="trm0">Act</term> bears the same meaning, and unless the context otherwise indicates —</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-2">
+            <content>
+              <blockList id="section-1.subsection-2.list2" refersTo="#term-account">
+                <listIntroduction>"<def refersTo="#term-account">account</def>" means a notification by means of a statement of account to a person liable for payment of any amount for which he or she is liable to pay the <term refersTo="#term-Council" id="trm1">Council</term> in respect of the following :</listIntroduction>
+                <item id="section-1.subsection-2.list2.a">
+                  <num>(a)</num>
+                  <p>Electricity consumption based on a meter reading or estimated consumption or availability fees;</p>
+                </item>
+                <item id="section-1.subsection-2.list2.b">
+                  <num>(b)</num>
+                  <p>water consumption based on a meter reading or estimated consumption or availability fees;</p>
+                </item>
+                <item id="section-1.subsection-2.list2.c">
+                  <num>(c)</num>
+                  <p>refuse removal and disposal;</p>
+                </item>
+                <item id="section-1.subsection-2.list2.d">
+                  <num>(d)</num>
+                  <p>sewerage services and sewer availability fees;</p>
+                </item>
+                <item id="section-1.subsection-2.list2.e">
+                  <num>(e)</num>
+                  <p><term refersTo="#term-rates" id="trm2">rates</term>;</p>
+                </item>
+                <item id="section-1.subsection-2.list2.f">
+                  <num>(f)</num>
+                  <p>interest; and</p>
+                </item>
+                <item id="section-1.subsection-2.list2.g">
+                  <num>(g)</num>
+                  <p>miscellaneous and sundry fees and <term refersTo="#term-collection_charges" id="trm3">collection charges</term>;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-3" refersTo="#term-Act">
+            <content>
+              <p>"<def refersTo="#term-Act">Act</def>" means the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-4" refersTo="#term-arrears">
+            <content>
+              <p>"<def refersTo="#term-arrears">arrears</def>" includes <term refersTo="#term-collection_charges" id="trm4">collection charges</term> and interest in respect of the principal amount in arrears;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-5" refersTo="#term-authorised_official">
+            <content>
+              <p>"<def refersTo="#term-authorised_official">authorised official</def>" means any official or agent of the <term refersTo="#term-Council" id="trm5">Council</term> who has been authorised by it to administer, implement and enforce the provisions of these By—laws;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-6" refersTo="#term-availability_fee">
+            <content>
+              <p>"<def refersTo="#term-availability_fee">availability fee</def>" means a <term refersTo="#term-fee" id="trm6">fee</term> as contemplated in sections 81(1), 83(1)(c) and 141(b) of the Local Government Ordinance, 1939 (Ordinance No. 17 of 1939), or any other law;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-7" refersTo="#term-by-law">
+            <content>
+              <p>"<def refersTo="#term-by-law">by-law</def>" means a by—law adopted and promulgated by the <term refersTo="#term-Council" id="trm7">Council</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-8">
+            <content>
+              <blockList id="section-1.subsection-8.list8" refersTo="#term-City_Manager">
+                <listIntroduction>"<def refersTo="#term-City_Manager">City Manager</def>" means —</listIntroduction>
+                <item id="section-1.subsection-8.list8.a">
+                  <num>(a)</num>
+                  <p>the person appointed by the <term refersTo="#term-Council" id="trm8">Council</term> as the Municipal Manager in terms of section 82 of the Local Government : Municipal Structures <term refersTo="#term-Act" id="trm9">Act</term>, 1998 (<term refersTo="#term-Act" id="trm10">Act</term> No. 117 of 1998), and includes any person acting in that position; or</p>
+                </item>
+                <item id="section-1.subsection-8.list8.b">
+                  <num>(b)</num>
+                  <p>in relation to a service provider referred to in paragraph (d) of the definition of "<term refersTo="#term-Council" id="trm11">Council</term>", the chief executive officer of that service provider.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-9">
+            <content>
+              <blockList id="section-1.subsection-9.list9" refersTo="#term-collection_charges">
+                <listIntroduction>"<def refersTo="#term-collection_charges">collection charges</def>" means charges which may be recovered by the <term refersTo="#term-Council" id="trm12">Council</term> in terms of section 75A of the <term refersTo="#term-Act" id="trm13">Act</term>, and includes —</listIntroduction>
+                <item id="section-1.subsection-9.list9.a">
+                  <num>(a)</num>
+                  <p>the cost of reminding customers of <term refersTo="#term-arrears" id="trm14">arrears</term>;</p>
+                </item>
+                <item id="section-1.subsection-9.list9.b">
+                  <num>(b)</num>
+                  <p>the cost of the termination, restriction and reinstatement of municipal services;</p>
+                </item>
+                <item id="section-1.subsection-9.list9.c">
+                  <num>(c)</num>
+                  <p>the costs of any notice rendered, sent or delivered in terms of these By-laws;</p>
+                </item>
+                <item id="section-1.subsection-9.list9.d">
+                  <num>(d)</num>
+                  <p>the costs and administration fees contemplated in section 22;</p>
+                </item>
+                <item id="section-1.subsection-9.list9.e">
+                  <num>(e)</num>
+                  <p>all legal costs, including attorney and client costs, incurred in the recovery of <term refersTo="#term-arrears" id="trm15">arrears</term>; and</p>
+                </item>
+                <item id="section-1.subsection-9.list9.f">
+                  <num>(f)</num>
+                  <p>any commission and other expenses relating to the recovery of <term refersTo="#term-arrears" id="trm16">arrears</term> payable by the <term refersTo="#term-Council" id="trm17">Council</term> to any person or partnership.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-10">
+            <content>
+              <blockList id="section-1.subsection-10.list10" refersTo="#term-Council">
+                <listIntroduction>"<def refersTo="#term-Council">Council</def>" means —</listIntroduction>
+                <item id="section-1.subsection-10.list10.a">
+                  <num>(a)</num>
+                  <p>the Metropolitan Municipality of the City of Johannesburg established by Provincial Notice No. 6766 of 2000, as amended, exercising its legislative and executive authority through its municipal council; or</p>
+                </item>
+                <item id="section-1.subsection-10.list10.b">
+                  <num>(b)</num>
+                  <p>its successor in title; or</p>
+                </item>
+                <item id="section-1.subsection-10.list10.c">
+                  <num>(c)</num>
+                  <p>a structure or person exercising a delegated power or carrying out an instruction, where any power in these By—laws has been delegated or sub—de|egated, or an instruction given, as contemplated in section 59 of the <term refersTo="#term-Act" id="trm18">Act</term>; or</p>
+                </item>
+                <item id="section-1.subsection-10.list10.d">
+                  <num>(d)</num>
+                  <p>a service provider fulfilling a responsibility under these By—laws, assigned to it in terms of section 81 (2) of the <term refersTo="#term-Act" id="trm19">Act</term>, or any other law,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-11">
+            <content>
+              <p>as the case may be;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-12" refersTo="#term-customer">
+            <content>
+              <p>"<def refersTo="#term-customer">customer</def>" means any <term refersTo="#term-occupier" id="trm20">occupier</term> of <term refersTo="#term-premises" id="trm21">premises</term> to which the <term refersTo="#term-Council" id="trm22">Council</term> has agreed to provide or is actually providing any <term refersTo="#term-municipal_service" id="trm23">municipal service</term>, or if there is no <term refersTo="#term-occupier" id="trm24">occupier</term>, the <term refersTo="#term-owner" id="trm25">owner</term> of the <term refersTo="#term-premises" id="trm26">premises</term> concerned;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-13" refersTo="#term-fee">
+            <content>
+              <p>"<def refersTo="#term-fee">fee</def>" means a fee <term refersTo="#term-prescribed" id="trm27">prescribed</term> for or in respect of any <term refersTo="#term-municipal_service" id="trm28">municipal service</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-14" refersTo="#term-municipal_service">
+            <content>
+              <p>"<def refersTo="#term-municipal_service">municipal service</def>" means any or all of the services specified in subparagraphs (i) to (iv), inclusive, of section 2(1)(b);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-15" refersTo="#term-occupier">
+            <content>
+              <p>"<def refersTo="#term-occupier">occupier</def>" means any person who occupies any <term refersTo="#term-premises" id="trm29">premises</term> or part thereof, without regard to the title under which he or she so occupies;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-16">
+            <content>
+              <blockList id="section-1.subsection-16.list16" refersTo="#term-owner">
+                <listIntroduction>"<def refersTo="#term-owner">owner</def>" —</listIntroduction>
+                <item id="section-1.subsection-16.list16.a">
+                  <num>(a)</num>
+                  <p>in relation to a <term refersTo="#term-property" id="trm30">property</term> referred to in paragraph (a) of the definition of "<term refersTo="#term-property" id="trm31">property</term>”, means a person in whose name ownership of the <term refersTo="#term-property" id="trm32">property</term> is registered;</p>
+                </item>
+                <item id="section-1.subsection-16.list16.b">
+                  <num>(b)</num>
+                  <p>in relation to a right referred to in paragraph (b) of the definition of ”<term refersTo="#term-property" id="trm33">property</term>”, means a person in favour of whom the right is registered;</p>
+                </item>
+                <item id="section-1.subsection-16.list16.c">
+                  <num>(c)</num>
+                  <p>in relation to a right referred to in paragraph (c) of the definition of ”<term refersTo="#term-property" id="trm34">property</term>”, means a person in favour of whom the right is registered or to whom it was granted in terms of any law; and</p>
+                </item>
+                <item id="section-1.subsection-16.list16.d">
+                  <num>(d)</num>
+                  <p>in relation to public service infrastructure referred to in paragraph (d) of the definition of ”<term refersTo="#term-property" id="trm35">property</term>”, means the organ of state which owns or controls that public service infrastructure,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-17">
+            <content>
+              <blockList id="section-1.subsection-17.list17">
+                <listIntroduction>and includes a person who the <term refersTo="#term-Council" id="trm36">Council</term> may for the purpose of these By—laws regard as the <term refersTo="#term-owner" id="trm37">owner</term> of a <term refersTo="#term-property" id="trm38">property</term> in the following cases:</listIntroduction>
+                <item id="section-1.subsection-17.list17.i">
+                  <num>(i)</num>
+                  <p>A trustee, in the case of a <term refersTo="#term-property" id="trm39">property</term> in a trust, but excluding state trust land in relation to <term refersTo="#term-rates" id="trm40">rates</term> contemplated in the Local Government: Municipal Property Rates <term refersTo="#term-Act" id="trm41">Act</term>, 2004 (<term refersTo="#term-Act" id="trm42">Act</term> No.6 of 2004);</p>
+                </item>
+                <item id="section-1.subsection-17.list17.ii">
+                  <num>(ii)</num>
+                  <p>an executor or administrator, in the case of a <term refersTo="#term-property" id="trm43">property</term> in a deceased estate;</p>
+                </item>
+                <item id="section-1.subsection-17.list17.iii">
+                  <num>(iii)</num>
+                  <p>a trustee or liquidator, in the case of a <term refersTo="#term-property" id="trm44">property</term> in an insolvent estate or the <term refersTo="#term-owner" id="trm45">owner</term> of which is in liquidation;</p>
+                </item>
+                <item id="section-1.subsection-17.list17.iv">
+                  <num>(iv)</num>
+                  <p>a judicial manager, in the case of a <term refersTo="#term-property" id="trm46">property</term> in the estate of a person under judicial management;</p>
+                </item>
+                <item id="section-1.subsection-17.list17.v">
+                  <num>(v)</num>
+                  <p>a curator, in the case of a <term refersTo="#term-property" id="trm47">property</term> in the estate of a person under curatorship;</p>
+                </item>
+                <item id="section-1.subsection-17.list17.vi">
+                  <num>(vi)</num>
+                  <p>a person in whose favour a usufruct or other personal servitude is registered, in the case of a <term refersTo="#term-property" id="trm48">property</term> that is subject to a usufruct or other personal servitude;</p>
+                </item>
+                <item id="section-1.subsection-17.list17.vii">
+                  <num>(vii)</num>
+                  <p>a lessee, in the case of a <term refersTo="#term-property" id="trm49">property</term> that is registered in the name of the <term refersTo="#term-Council" id="trm50">Council</term> and is let by it; or</p>
+                </item>
+                <item id="section-1.subsection-17.list17.viii">
+                  <num>(viii)</num>
+                  <p>a buyer, in the case of a <term refersTo="#term-property" id="trm51">property</term> that was sold by the <term refersTo="#term-Council" id="trm52">Council</term> and of which possession was given to the buyer pending registration of ownership in the name of the buyer;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-18" refersTo="#term-Policy">
+            <content>
+              <p>"<def refersTo="#term-Policy">Policy</def>" means the Credit Control and Debt Collection Policy adopted by the <term refersTo="#term-Council" id="trm53">Council</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-19" refersTo="#term-prescribed">
+            <content>
+              <p>"<def refersTo="#term-prescribed">prescribed</def>" means prescribed by the <term refersTo="#term-Council" id="trm54">Council</term> from time to time, by resolution;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-20">
+            <content>
+              <blockList id="section-1.subsection-20.list20" refersTo="#term-premises">
+                <listIntroduction>"<def refersTo="#term-premises">premises</def>" means any piece of land, with or without any building or structure thereon, the external surface boundaries of which are delineated on —</listIntroduction>
+                <item id="section-1.subsection-20.list20.a">
+                  <num>(a)</num>
+                  <p>a general plan or diagram registered in terms of the Land Survey <term refersTo="#term-Act" id="trm55">Act</term>, 1927 (<term refersTo="#term-Act" id="trm56">Act</term> No. 9 of 1927), or in terms of the Deeds Registry <term refersTo="#term-Act" id="trm57">Act</term>, 1937 (<term refersTo="#term-Act" id="trm58">Act</term> No. 47 of 1937); or</p>
+                </item>
+                <item id="section-1.subsection-20.list20.b">
+                  <num>(b)</num>
+                  <p>a sectional plan registered in terms of the Sectional Titles <term refersTo="#term-Act" id="trm59">Act</term>, 1986 (<term refersTo="#term-Act" id="trm60">Act</term> No. 95 of 1986),</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-21">
+            <content>
+              <p>which is situated within the area of jurisdiction of the <term refersTo="#term-Council" id="trm61">Council</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-22">
+            <content>
+              <blockList id="section-1.subsection-22.list22" refersTo="#term-property">
+                <listIntroduction>"<def refersTo="#term-property">property</def>" means -</listIntroduction>
+                <item id="section-1.subsection-22.list22.a">
+                  <num>(a)</num>
+                  <p>immovable property registered in the name of a person, including, in the case of a sectional title scheme, a sectional title unit registered in the name of a person;</p>
+                </item>
+                <item id="section-1.subsection-22.list22.b">
+                  <num>(b)</num>
+                  <p>a right registered against immovable property in favour of a person, excluding a mortgage bond registered against the property;</p>
+                </item>
+                <item id="section-1.subsection-22.list22.c">
+                  <num>(c)</num>
+                  <p>a land tenure right registered in favour of a person or granted to a person in terms of any law; or</p>
+                </item>
+                <item id="section-1.subsection-22.list22.d">
+                  <num>(d)</num>
+                  <p>public service infrastructure;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-23" refersTo="#term-rates">
+            <content>
+              <p>"<def refersTo="#term-rates">rates</def>" means a municipal rate on <term refersTo="#term-property" id="trm62">property</term> levied in terms of the Local Government : Municipal Property Rates <term refersTo="#term-Act" id="trm63">Act</term>, 2004 (<term refersTo="#term-Act" id="trm64">Act</term> No. 6 of 2004), or any prior law; and</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-24" refersTo="#term-working_days">
+            <content>
+              <p>"<def refersTo="#term-working_days">working days</def>" means every day, other than a Saturday, Sunday or public holiday.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Application of By-laws</heading>
+          <subsection id="section-2.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-2.1.list0">
+                <listIntroduction>These By-laws only apply in respect of amounts of money due and payable to the <term refersTo="#term-Council" id="trm65">Council</term> for —</listIntroduction>
+                <item id="section-2.1.list0.a">
+                  <num>(a)</num>
+                  <p><term refersTo="#term-rates" id="trm66">rates</term>;</p>
+                </item>
+                <item id="section-2.1.list0.b">
+                  <num>(b)</num>
+                  <blockList id="section-2.1.list0.b.list0">
+                    <listIntroduction>fees and surcharges on fees in respect of the following municipal services :</listIntroduction>
+                    <item id="section-2.1.list0.b.list0.i">
+                      <num>(i)</num>
+                      <p>The provision of water and the availability thereof;</p>
+                    </item>
+                    <item id="section-2.1.list0.b.list0.ii">
+                      <num>(ii)</num>
+                      <p>refuse removal and disposal;</p>
+                    </item>
+                    <item id="section-2.1.list0.b.list0.iii">
+                      <num>(iii)</num>
+                      <p>sewerage and the availability thereof; and</p>
+                    </item>
+                    <item id="section-2.1.list0.b.list0.iv">
+                      <num>(iv)</num>
+                      <p>electricity consumption and the availability thereof;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-2.1.list0.c">
+                  <num>(c)</num>
+                  <p>interest which has or will accrue in respect of any amount of money due and payable or which will become due and payable to the <term refersTo="#term-Council" id="trm67">Council</term> in regard to <term refersTo="#term-rates" id="trm68">rates</term> and municipal services; and</p>
+                </item>
+                <item id="section-2.1.list0.d">
+                  <num>(d)</num>
+                  <p><term refersTo="#term-collection_charges" id="trm69">collection charges</term>;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-2.2">
+            <num>(2)</num>
+            <content>
+              <p>These By-laws also apply to any <term refersTo="#term-municipal_service" id="trm70">municipal service</term> provided through pre-paid meters, in so far as the By-laws may be relevant.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-2">
+        <num>2</num>
+        <heading>Service agreements and terms and conditions of the provision of municipal services</heading>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Provision of municipal services to applicants</heading>
+          <subsection id="section-3.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-3.1.list0">
+                <listIntroduction>No <term refersTo="#term-municipal_service" id="trm71">municipal service</term> may be provided to any applicant, unless and until —</listIntroduction>
+                <item id="section-3.1.list0.a">
+                  <num>(a)</num>
+                  <p>application for the service has been made in writing on a form substantially similar to the form <term refersTo="#term-prescribed" id="trm72">prescribed</term>;</p>
+                </item>
+                <item id="section-3.1.list0.b">
+                  <num>(b)</num>
+                  <p>any information and documentation required by the <term refersTo="#term-Council" id="trm73">Council</term> have been furnished;</p>
+                </item>
+                <item id="section-3.1.list0.c">
+                  <num>(c)</num>
+                  <p>a service agreement, in a form substantially similar to the form of agreement <term refersTo="#term-prescribed" id="trm74">prescribed</term>, has been entered into between the <term refersTo="#term-customer" id="trm75">customer</term> and the <term refersTo="#term-Council" id="trm76">Council</term>; and</p>
+                </item>
+                <item id="section-3.1.list0.d">
+                  <num>(d)</num>
+                  <p>an amount equal to the amount <term refersTo="#term-prescribed" id="trm77">prescribed</term>, in cash or a bank cheque, has been deposited as security or other acceptable security, as <term refersTo="#term-prescribed" id="trm78">prescribed</term>, has been furnished.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-3.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-3.2.list1">
+                <listIntroduction>If an applicant for a <term refersTo="#term-municipal_service" id="trm79">municipal service</term> is an existing <term refersTo="#term-customer" id="trm80">customer</term> of the <term refersTo="#term-Council" id="trm81">Council</term> in respect of any other <term refersTo="#term-municipal_service" id="trm82">municipal service</term> in respect of which any amount is in <term refersTo="#term-arrears" id="trm83">arrears</term></listIntroduction>
+                <item id="section-3.2.list1.i">
+                  <num>(i)</num>
+                  <p>such <term refersTo="#term-arrears" id="trm84">arrears</term> must be paid; or</p>
+                </item>
+                <item id="section-3.2.list1.ii">
+                  <num>(ii)</num>
+                  <p>an agreement for payment of the <term refersTo="#term-arrears" id="trm85">arrears</term> in terms of section 21 must have been entered into and payment in terms thereof must not be in <term refersTo="#term-arrears" id="trm86">arrears</term>,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-3.subsection-2">
+            <content>
+              <p>before an application for a new service in terms of this section may be considered.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm87">Council</term> may at any time require a <term refersTo="#term-customer" id="trm88">customer</term> to increase a deposit paid or security furnished in terms of subsection (1)(d);</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.4">
+            <num>(4)</num>
+            <content>
+              <p>No interest is payable on any amount deposited in terms of subsection (1)(d) or (3).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>General terms and conditions for the provision of municipal services</heading>
+          <subsection id="section-4.subsection-0">
+            <content>
+              <p>The general terms and conditions for the provision of any <term refersTo="#term-municipal_service" id="trm89">municipal service</term> set out in a service agreement contemplated in section 3(1)(c) are deemed to be incorporated in these By-laws and apply to the provision of such service to any <term refersTo="#term-customer" id="trm90">customer</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Estimated consumption</heading>
+          <subsection id="section-5.subsection-0">
+            <content>
+              <blockList id="section-5.subsection-0.list0">
+                <listIntroduction>The <term refersTo="#term-Council" id="trm91">Council</term> may have an estimate made of the consumption of water or electricity for any relevant period if —</listIntroduction>
+                <item id="section-5.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>no meter reading could be obtained in respect of the period concerned; or</p>
+                </item>
+                <item id="section-5.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>no meter has been installed to measure the consumption on the <term refersTo="#term-premises" id="trm92">premises</term> concerned,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-5.subsection-1">
+            <content>
+              <p>and the <term refersTo="#term-customer" id="trm93">customer</term> concerned is liable for payment of the <term refersTo="#term-prescribed" id="trm94">prescribed</term><term refersTo="#term-fee" id="trm95">fee</term> in respect of such estimated consumption.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>New service agreements and deposits or security by existing customers</heading>
+          <subsection id="section-6.1">
+            <num>(1)</num>
+            <content>
+              <p>Any existing <term refersTo="#term-customer" id="trm96">customer</term>, or the trustee, liquidator, judicial manager or curator of such <term refersTo="#term-customer" id="trm97">customer</term>, may be required by the <term refersTo="#term-Council" id="trm98">Council</term> to enter into a new service agreement to replace an existing agreement of the <term refersTo="#term-customer" id="trm99">customer</term> concerned, and to pay a deposit or furnish security contemplated in section 3, notwithstanding the fact that a service agreement was previously entered into in respect of the <term refersTo="#term-municipal_service" id="trm100">municipal service</term> concerned and the provisions of section 3(3) apply in respect of such new agreement.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.2">
+            <num>(2)</num>
+            <content>
+              <p>The provisions of section 3(4) apply to a deposit referred to in subsection (1).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Termination of service agreements</heading>
+          <subsection id="section-7.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-7.1.list0">
+                <listIntroduction>Subject to the provisions of sections 13 and 21 —</listIntroduction>
+                <item id="section-7.1.list0.a">
+                  <num>(a)</num>
+                  <p>a <term refersTo="#term-customer" id="trm101">customer</term> may terminate an agreement for the provision of any <term refersTo="#term-municipal_service" id="trm102">municipal service</term> by notice in writing of not less than seven <term refersTo="#term-working_days" id="trm103">working days</term> to the <term refersTo="#term-Council" id="trm104">Council</term>, of his or her intention to do so;</p>
+                </item>
+                <item id="section-7.1.list0.b">
+                  <num>(b)</num>
+                  <blockList id="section-7.1.list0.b.list0">
+                    <listIntroduction>the <term refersTo="#term-Council" id="trm105">Council</term> may, subject to compliance with the provisions of these By-laws and any other applicable law, by notice in writing of not less than 14 <term refersTo="#term-working_days" id="trm106">working days</term>, to a <term refersTo="#term-customer" id="trm107">customer</term>, terminate his or her agreement for the provision of the <term refersTo="#term-municipal_service" id="trm108">municipal service</term> concerned, if the <term refersTo="#term-customer" id="trm109">customer</term> —</listIntroduction>
+                    <item id="section-7.1.list0.b.list0.i">
+                      <num>(i)</num>
+                      <p>has not used the <term refersTo="#term-municipal_service" id="trm110">municipal service</term> during the preceding six months and has not made arrangements to the satisfaction of the <term refersTo="#term-Council" id="trm111">Council</term> for the continuation of the agreement; or</p>
+                    </item>
+                    <item id="section-7.1.list0.b.list0.ii">
+                      <num>(ii)</num>
+                      <p>has failed to pay any <term refersTo="#term-prescribed" id="trm112">prescribed</term><term refersTo="#term-fee" id="trm113">fee</term> or <term refersTo="#term-arrears" id="trm114">arrears</term> clue and payable in respect of the <term refersTo="#term-municipal_service" id="trm115">municipal service</term> concerned; or</p>
+                    </item>
+                    <item id="section-7.1.list0.b.list0.iii">
+                      <num>(iii)</num>
+                      <p>has made an arrangement with another services provider to provide the <term refersTo="#term-municipal_service" id="trm116">municipal service</term> concerned to the <term refersTo="#term-customer" id="trm117">customer</term>; or</p>
+                    </item>
+                    <item id="section-7.1.list0.b.list0.iv">
+                      <num>(iv)</num>
+                      <p>has vacated the <term refersTo="#term-premises" id="trm118">premises</term> to which the agreement concerned relates.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-7.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-customer" id="trm119">customer</term> to whom notice has been given in terms of subsection (1)(b), may within the period of 14 <term refersTo="#term-working_days" id="trm120">working days</term> referred to in that subsection, make written representations to the <term refersTo="#term-Council" id="trm121">Council</term> why the agreement concerned should not be terminated and if such representations are unsuccessful, either wholly or in part, the agreement concerned may only be terminated if the decision on such representations justifies it.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>Account Administration</heading>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Accounts</heading>
+          <subsection id="section-8.1">
+            <num>(1)</num>
+            <content>
+              <p>Accounts must be rendered and administered in accordance with the <term refersTo="#term-Policy" id="trm122">Policy</term>, other <term refersTo="#term-prescribed" id="trm123">prescribed</term> requirements and any other law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-8.2.list1">
+                <listIntroduction>The <term refersTo="#term-Council" id="trm124">Council</term> may, in accordance with the provisions of section 102 of the <term refersTo="#term-Act" id="trm125">Act</term> —</listIntroduction>
+                <item id="section-8.2.list1.a">
+                  <num>(a)</num>
+                  <p>consolidate any separate accounts of a <term refersTo="#term-customer" id="trm126">customer</term> liable for payments in terms of these By—laws to the <term refersTo="#term-Council" id="trm127">Council</term>;</p>
+                </item>
+                <item id="section-8.2.list1.b">
+                  <num>(b)</num>
+                  <p>credit any payment by such <term refersTo="#term-customer" id="trm128">customer</term> against any <term refersTo="#term-account" id="trm129">account</term> of that <term refersTo="#term-customer" id="trm130">customer</term>; and</p>
+                </item>
+                <item id="section-8.2.list1.c">
+                  <num>(c)</num>
+                  <p>implement any of the debt collection and credit control measures provided for in these By—laws in relation to any <term refersTo="#term-arrears" id="trm131">arrears</term> on any of the accounts of a <term refersTo="#term-customer" id="trm132">customer</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-8.3">
+            <num>(3)</num>
+            <content>
+              <p>The amount due and payable by a <term refersTo="#term-customer" id="trm133">customer</term> constitutes a consolidated debt, and any payment made by a <term refersTo="#term-customer" id="trm134">customer</term> of an amount less than the total amount due, will, subject to the provisions of section 19(1), be allocated in reduction of the consolidated debt in the order <term refersTo="#term-prescribed" id="trm135">prescribed</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-8.4.list3">
+                <item id="section-8.4.list3.a">
+                  <num>(a)</num>
+                  <p>Any amount paid by a <term refersTo="#term-customer" id="trm136">customer</term> in excess of an existing debt may be held in credit for the <term refersTo="#term-customer" id="trm137">customer</term> in anticipation of future <term refersTo="#term-rates" id="trm138">rates</term> and fees for municipal services or for the purposes contemplated in section 14(b).</p>
+                </item>
+                <item id="section-8.4.list3.b">
+                  <num>(b)</num>
+                  <p>No interest is payable on any amount contemplated in paragraph (a).</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Account information</heading>
+          <subsection id="section-9.subsection-0">
+            <content>
+              <blockList id="section-9.subsection-0.list0">
+                <listIntroduction>Accounts must contain at least the following —</listIntroduction>
+                <item id="section-9.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>the consumption or estimated consumption of water and electricity as determined for the measuring or consumption period;</p>
+                </item>
+                <item id="section-9.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>the measuring or consumption period for water and electricity;</p>
+                </item>
+                <item id="section-9.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>the amount due based on the measured or estimated consumption;</p>
+                </item>
+                <item id="section-9.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>the amount due and payable for any other <term refersTo="#term-municipal_service" id="trm139">municipal service</term>;</p>
+                </item>
+                <item id="section-9.subsection-0.list0.e">
+                  <num>(e)</num>
+                  <p>the amount in <term refersTo="#term-arrears" id="trm140">arrears</term>, if any;</p>
+                </item>
+                <item id="section-9.subsection-0.list0.f">
+                  <num>(f)</num>
+                  <p>the interest payable on any <term refersTo="#term-arrears" id="trm141">arrears</term>, if any;</p>
+                </item>
+                <item id="section-9.subsection-0.list0.g">
+                  <num>(g)</num>
+                  <p><term refersTo="#term-collection_charges" id="trm142">collection charges</term> insofar as they may be relevant;</p>
+                </item>
+                <item id="section-9.subsection-0.list0.h">
+                  <num>(h)</num>
+                  <p>the final date for payment; and</p>
+                </item>
+                <item id="section-9.subsection-0.list0.i">
+                  <num>(i)</num>
+                  <p>the methods, places and approved agents where payment may be made.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Account administration</heading>
+          <subsection id="section-10.subsection-0">
+            <content>
+              <blockList id="section-10.subsection-0.list0">
+                <listIntroduction>The <term refersTo="#term-Council" id="trm143">Council</term> must, subject to the provisions of section 5, endeavour to ensure —</listIntroduction>
+                <item id="section-10.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>accurate metering of consumption at fixed intervals with the minimum delay between service connection and first and subsequent rendering of accounts;</p>
+                </item>
+                <item id="section-10.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>accurate and up-to-date information in accounts;</p>
+                </item>
+                <item id="section-10.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>accurate monthly accounts with the application of the appropriate and correct <term refersTo="#term-prescribed" id="trm144">prescribed</term> fees, <term refersTo="#term-rates" id="trm145">rates</term> and other related amounts due and payable;</p>
+                </item>
+                <item id="section-10.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>the timely dispatch of accounts;</p>
+                </item>
+                <item id="section-10.subsection-0.list0.e">
+                  <num>(e)</num>
+                  <p>adequate provision and the efficient operation of facilities for payment throughout the municipal area;</p>
+                </item>
+                <item id="section-10.subsection-0.list0.f">
+                  <num>(f)</num>
+                  <p>the appointment of agents to accept payments on behalf of the <term refersTo="#term-Council" id="trm146">Council</term>; and appropriate hours of business in order to facilitate <term refersTo="#term-account" id="trm147">account</term> payments.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Queries or complaints in respect of accounts</heading>
+          <subsection id="section-11.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-customer" id="trm148">customer</term> may lodge a query or complaint in respect of the accuracy of any amount due and payable in terms of an <term refersTo="#term-account" id="trm149">account</term> rendered to him or her in terms of these By-laws.</p>
+            </content>
+          </subsection>
+          <subsection id="section-11.2">
+            <num>(2)</num>
+            <content>
+              <p>A query or complaint must be lodged with the <term refersTo="#term-Council" id="trm150">Council</term> before or on the due date for payment specified in the <term refersTo="#term-account" id="trm151">account</term> concerned, or as soon as reasonably possible thereafter.</p>
+            </content>
+          </subsection>
+          <subsection id="section-11.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-11.3.list2">
+                <listIntroduction>If a query or complaint contemplated in subsection (1), is lodged —</listIntroduction>
+                <item id="section-11.3.list2.a">
+                  <num>(a)</num>
+                  <p>before the due date for payment specified in the <term refersTo="#term-account" id="trm152">account</term> concerned, an amount at least equal to the average amount that was due and payable in respect of <term refersTo="#term-rates" id="trm153">rates</term> or the <term refersTo="#term-municipal_service" id="trm154">municipal service</term> concerned, as specified in the accounts for the preceding three months which are not in dispute, must be paid by the <term refersTo="#term-customer" id="trm155">customer</term> concerned before or on such due date; or</p>
+                </item>
+                <item id="section-11.3.list2.b">
+                  <num>(b)</num>
+                  <p>after the due date for payment specified in the <term refersTo="#term-account" id="trm156">account</term> concerned, such query or complaint must if the full amount in dispute has not been paid, be accompanied by at least the amount contemplated in paragraph (a); and</p>
+                </item>
+                <item id="section-11.3.list2.c">
+                  <num>(c)</num>
+                  <p>before or after the due date for payment specified in the <term refersTo="#term-account" id="trm157">account</term> concerned, the <term refersTo="#term-customer" id="trm158">customer</term> concerned must pay the full amount of any <term refersTo="#term-account" id="trm159">account</term>, insofar as it relates to <term refersTo="#term-rates" id="trm160">rates</term> or the <term refersTo="#term-municipal_service" id="trm161">municipal service</term> concerned, rendered in respect of a subsequent period, before or on the due date for payment specified in such <term refersTo="#term-account" id="trm162">account</term>, except insofar as that <term refersTo="#term-account" id="trm163">account</term> may incorporate the amount in dispute.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-11.4">
+            <num>(4)</num>
+            <content>
+              <p>An <term refersTo="#term-authorised_official" id="trm164">authorised official</term> must register the query or complaint and provide the <term refersTo="#term-customer" id="trm165">customer</term> with a reference number.</p>
+            </content>
+          </subsection>
+          <subsection id="section-11.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-11.5.list4">
+                <listIntroduction>The <term refersTo="#term-Council" id="trm166">Council</term> must -</listIntroduction>
+                <item id="section-11.5.list4.a">
+                  <num>(a)</num>
+                  <p>investigate or cause the query or complaint to be investigated within 14 days, or as soon as possible after the query or complaint was received; and</p>
+                </item>
+                <item id="section-11.5.list4.b">
+                  <num>(b)</num>
+                  <p>inform the <term refersTo="#term-customer" id="trm167">customer</term>, in writing, of its decision as soon as possible after conclusion of the investigation, instructing that any amount found to be due and payable must, subject to the provisions of section 21, be paid within 21 days from the date on which the <term refersTo="#term-customer" id="trm168">customer</term> is notified thereof, unless an appeal is lodged within that period in terms of subsection (6) or section 12.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-11.6">
+            <num>(6)</num>
+            <content>
+              <p>A <term refersTo="#term-customer" id="trm169">customer</term> may, subject to the provisions of section 12, lodge an appeal with the <term refersTo="#term-City_Manager" id="trm170">City Manager</term> in terms of section 62 of the <term refersTo="#term-Act" id="trm171">Act</term> against a decision referred to in subsection (5), within 21 days of the date of the notification of the decision.</p>
+            </content>
+          </subsection>
+          <subsection id="section-11.7">
+            <num>(7)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm172">Council</term> must inform the <term refersTo="#term-customer" id="trm173">customer</term> concerned in writing of the decision on the appeal, instructing that any amount found to be due and payable, must be paid within seven days from the date on which the <term refersTo="#term-customer" id="trm174">customer</term> is notified thereof.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Appeals against decision by service providers on queries and complaints</heading>
+          <subsection id="section-12.subsection-0">
+            <content>
+              <p>
+                <remark status="editorial">[Some parts of Section 12 are not clear in the original source document. Please take care with this section.]</remark>
+              </p>
+            </content>
+          </subsection>
+          <subsection id="section-12.1">
+            <num>(1)</num>
+            <content>
+              <p>If a decision contemplated in section 11(5) has been made in respect of <term refersTo="#term-municipal_service" id="trm175">municipal service</term> provided by a service provider referred to in paragraph (d) in the definition of <term refersTo="#term-Council" id="trm176">Council</term> in section 1, a <term refersTo="#term-customer" id="trm177">customer</term> may lodge an appeal against the decision by giving written notice of the appeal and reasons to the chief executive officer of the service provider concerned, within 21 days of the date of notification of the decision.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.2">
+            <num>(2)</num>
+            <content>
+              <p>The chief executive officer must promptly submit the appeal to the app? appeal authority specified in subsection (4).</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.3">
+            <num>(3)</num>
+            <content>
+              <p>The appeal authority must consider the appeal, and confirm, vary or revoke a decision, but no such variation or revocation may detract from any rights that have accrued as a result of the decision.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-12.4.list4">
+                <listIntroduction>If an appeal is against a decision taken by —</listIntroduction>
+                <item id="section-12.4.list4.a">
+                  <num>(a)</num>
+                  <p>a staff member, other than the chief executive officer, the chief executive officer is the appeal authority;</p>
+                </item>
+                <item id="section-12.4.list4.b">
+                  <num>(b)</num>
+                  <blockList id="section-12.4.list4.b.list0">
+                    <listIntroduction>the chief executive officer or any committee of the service provider -</listIntroduction>
+                    <item id="section-12.4.list4.b.list0.i">
+                      <num>(i)</num>
+                      <p>the board of directors of the service provider; or</p>
+                    </item>
+                    <item id="section-12.4.list4.b.list0.ii">
+                      <num>(ii)</num>
+                      <p>a committee of directors who were not involved in the ? concerned and appointed by the board of directors for this ? is the appeal authority.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-12.5">
+            <num>(5)</num>
+            <content>
+              <p>An appeal authority contemplated in subsection (4), must commence appeal within 42 days after submission of the appeal and decide the appea? a reasonable period.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.6">
+            <num>(6)</num>
+            <content>
+              <p>A service provider must comply with the provisions of section 11(7).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Arrear accounts</heading>
+          <subsection id="section-13.subsection-0">
+            <content>
+              <p>
+                <remark status="editorial">[Some parts of Section 13 are not clear in the original source document. Please take care with this section.]</remark>
+              </p>
+            </content>
+          </subsection>
+          <subsection id="section-13.1">
+            <num>(1)</num>
+            <content>
+              <p>If a <term refersTo="#term-customer" id="trm178">customer</term> fails to pay an amount due and payable for any municipal ser? <term refersTo="#term-rates" id="trm179">rates</term> on or before the due date for payment specified in the <term refersTo="#term-account" id="trm180">account</term> conc? final demand notice may be sent to the <term refersTo="#term-customer" id="trm181">customer</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-13.2.list2">
+                <listIntroduction>A final demand notice referred to in subsection (1), must contain the followi</listIntroduction>
+                <item id="section-13.2.list2.a">
+                  <num>(a)</num>
+                  <p>the amount in <term refersTo="#term-arrears" id="trm182">arrears</term> and any interest payable, and a statement that p must be made within 14 days of the date of the final demand notice;</p>
+                </item>
+                <item id="section-13.2.list2.b">
+                  <num>(b)</num>
+                  <p>that the <term refersTo="#term-customer" id="trm183">customer</term> may in terms of section 21, within the period conte in paragraph (a), conclude a written agreement with the <term refersTo="#term-Council" id="trm184">Council</term> for p of the <term refersTo="#term-arrears" id="trm185">arrears</term> in instalments;</p>
+                </item>
+                <item id="section-13.2.list2.c">
+                  <num>(c)</num>
+                  <p>that if no such agreement is entered into within the period stipulated in paragraph (b), the <term refersTo="#term-municipal_service" id="trm186">municipal service</term> concerned may be terminated or restricted and that legal action may be instituted for the recovery of any amount in arrear without further notice;</p>
+                </item>
+                <item id="section-13.2.list2.d">
+                  <num>(d)</num>
+                  <p>that the <term refersTo="#term-customer" id="trm187">customer</term>'s name may be made public, and may be listed with a credit bureau in terms of section 20(1)(a);</p>
+                </item>
+                <item id="section-13.2.list2.e">
+                  <num>(e)</num>
+                  <p>that the <term refersTo="#term-account" id="trm188">account</term> may be handed over to a debt collector or attorney for collection;</p>
+                </item>
+                <item id="section-13.2.list2.f">
+                  <num>(f)</num>
+                  <p>that proof of registration as an indigent person in terms of section 23 and any other documentation required by the <term refersTo="#term-Council" id="trm189">Council</term> must be furnished to the <term refersTo="#term-Council" id="trm190">Council</term> on or before the date for payment contemplated in paragraph (a);</p>
+                </item>
+                <item id="section-13.2.list2.g">
+                  <num>(g)</num>
+                  <p>that an indigent person referred to in paragraph (f) is only entitled to benefits relating to municipal services as stipulated in the <term refersTo="#term-Council" id="trm191">Council</term>'s policy relating to the supply of municipal services to indigent persons; and</p>
+                </item>
+                <item id="section-13.2.list2.h">
+                  <num>(h)</num>
+                  <p>that the <term refersTo="#term-customer" id="trm192">customer</term> has an opportunity to make representations in writing on any matter referred to in a final demand notice within the period of 14 days contemplated in paragraph (a).</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>Action to secure payment</heading>
+          <subsection id="section-14.subsection-0">
+            <content>
+              <blockList id="section-14.subsection-0.list0">
+                <listIntroduction>The <term refersTo="#term-Council" id="trm193">Council</term> may, in addition to the normal civil legal steps to secure payment of any <term refersTo="#term-arrears" id="trm194">arrears</term> , take the following action to secure payment of such amount :</listIntroduction>
+                <item id="section-14.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>The termination or restriction of the provision of any <term refersTo="#term-municipal_service" id="trm195">municipal service</term> in terms of section 15; and</p>
+                </item>
+                <item id="section-14.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>the allocation of the whole or a portion of a payment of an <term refersTo="#term-account" id="trm196">account</term>, or the whole or a portion of a pre—payment for future accounts as contemplated in section 8(4)(a), as payment for arrear <term refersTo="#term-municipal_service" id="trm197">municipal service</term> fees or <term refersTo="#term-rates" id="trm198">rates</term>, in terms of section 19.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Power to terminate or restrict provision of municipal services</heading>
+          <subsection id="section-15.1">
+            <num>(1)</num>
+            <content>
+              <p>For the purposes of subsection (2), a final demand notice means a notice contemplated in sections 11(5)(b), 11(7), 12(6) and 13(1).</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-15.2.list1">
+                <listIntroduction>Subject to the provisions of subsection (4), the <term refersTo="#term-Council" id="trm199">Council</term> may terminate or restrict the provision of water or electricity, or both, whichever service is relevant, in terms of the termination and restriction procedures <term refersTo="#term-prescribed" id="trm200">prescribed</term> or contained in any law, to any <term refersTo="#term-premises" id="trm201">premises</term> if the <term refersTo="#term-customer" id="trm202">customer</term> in respect of the <term refersTo="#term-municipal_service" id="trm203">municipal service</term> concerned</listIntroduction>
+                <item id="section-15.2.list1.a">
+                  <num>(a)</num>
+                  <blockList id="section-15.2.list1.a.list0">
+                    <listIntroduction>fails to make full payment of <term refersTo="#term-arrears" id="trm204">arrears</term> specified in a final demand notice sent to the <term refersTo="#term-customer" id="trm205">customer</term> concerned, before or on the date for payment contemplated in sections 11(5)(b), 11(7), 12(6) or 13(1), whichever is applicable, and no circumstances have arisen which require the <term refersTo="#term-Council" id="trm206">Council</term> to send a further final demand notice to that <term refersTo="#term-customer" id="trm207">customer</term> in terms of any of those sections, and the <term refersTo="#term-customer" id="trm208">customer</term> —</listIntroduction>
+                    <item id="section-15.2.list1.a.list0.i">
+                      <num>(i)</num>
+                      <p>fails to enter into an agreement in terms of section 21, in respect of the <term refersTo="#term-arrears" id="trm209">arrears</term> concerned before termination or restriction of the service concerned; or</p>
+                    </item>
+                    <item id="section-15.2.list1.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>fails to submit written proof of registration as an indigent person in terms of section 23, before such termination or restriction;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-15.2.list1.b">
+                  <num>(b)</num>
+                  <p>fails to pay any instalment payable in terms of an agreement referred to in paragraph (a)(i) before or on the due date;</p>
+                </item>
+                <item id="section-15.2.list1.c">
+                  <num>(c)</num>
+                  <p>fails to comply with any condition or provision in respect of the supply of electricity or water, as the case may be, imposed by the <term refersTo="#term-Council" id="trm210">Council</term>;</p>
+                </item>
+                <item id="section-15.2.list1.d">
+                  <num>(d)</num>
+                  <p>obstructs the efficient provision of electricity or water to another <term refersTo="#term-customer" id="trm211">customer</term>;</p>
+                </item>
+                <item id="section-15.2.list1.e">
+                  <num>(e)</num>
+                  <p>provides electricity or water to a person who is not entitled thereto or permits such provision to continue;</p>
+                </item>
+                <item id="section-15.2.list1.f">
+                  <num>(f)</num>
+                  <p>causes a situation relating to electricity or water which, in the opinion of the <term refersTo="#term-Council" id="trm212">Council</term>, is dangerous or constitutes a contravention of any applicable law, including the common law;</p>
+                </item>
+                <item id="section-15.2.list1.g">
+                  <num>(g)</num>
+                  <p>in any way reinstates the provision of a previously terminated or restricted electricity or water service;</p>
+                </item>
+                <item id="section-15.2.list1.h">
+                  <num>(h)</num>
+                  <p>is placed under provisional sequestration, provisional liquidation or judicial management, or commits an act of insolvency in terms of the Insolvency <term refersTo="#term-Act" id="trm213">Act</term>, 1936 (<term refersTo="#term-Act" id="trm214">Act</term> No. 24 of 1936) or is subject to an administration order granted in terms of section 74 of the Magistrates Court <term refersTo="#term-Act" id="trm215">Act</term>, 1944 (<term refersTo="#term-Act" id="trm216">Act</term> No. 32 of 1944), and there is a failure to enter into a new service agreement within 14 days of the <term refersTo="#term-Council" id="trm217">Council</term> requiring such service agreement in terms of section 6.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-15.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-15.3.list2">
+                <listIntroduction>The <term refersTo="#term-Council" id="trm218">Council</term> may send a termination notice or a restriction notice to a <term refersTo="#term-customer" id="trm219">customer</term> informing him or her —</listIntroduction>
+                <item id="section-15.3.list2.a">
+                  <num>(a)</num>
+                  <p>that the provision of the <term refersTo="#term-municipal_service" id="trm220">municipal service</term> concerned will be, or has been terminated or restricted on the date specified in such notice; and</p>
+                </item>
+                <item id="section-15.3.list2.b">
+                  <num>(b)</num>
+                  <p>of the steps which can be taken to have the <term refersTo="#term-municipal_service" id="trm221">municipal service</term> concerned reinstated.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-15.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-15.4.list3">
+                <listIntroduction>Any action taken in terms of subsections (2) and (3) is subject to compliance with -</listIntroduction>
+                <item id="section-15.4.list3.a">
+                  <num>(a)</num>
+                  <p>sections 3 and 4 of the Water Services <term refersTo="#term-Act" id="trm222">Act</term>, 1997 (<term refersTo="#term-Act" id="trm223">Act</term> No. 108 of 1997), if the provision of water is involved;</p>
+                </item>
+                <item id="section-15.4.list3.b">
+                  <num>(b)</num>
+                  <p>the relevant provisions of the Electricity <term refersTo="#term-Act" id="trm224">Act</term>, 1987 (<term refersTo="#term-Act" id="trm225">Act</term> No. 41 of 1987), if the provision of electricity is involved;</p>
+                </item>
+                <item id="section-15.4.list3.c">
+                  <num>(c)</num>
+                  <p>the relevant provisions of the Health <term refersTo="#term-Act" id="trm226">Act</term>, 1977, (<term refersTo="#term-Act" id="trm227">Act</term> No. 63 of 1977), and any regulations made in terms of that <term refersTo="#term-Act" id="trm228">Act</term>; and</p>
+                </item>
+                <item id="section-15.4.list3.d">
+                  <num>(d)</num>
+                  <p>the Promotion of Administrative Justice <term refersTo="#term-Act" id="trm229">Act</term>, 2000 (<term refersTo="#term-Act" id="trm230">Act</term> No. 3 of 2000), in so far as it is applicable.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Reinstatement of municipal services</heading>
+          <subsection id="section-16.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-16.1.list0">
+                <listIntroduction>The <term refersTo="#term-Council" id="trm231">Council</term> must reinstate full levels of provision of any electricity or water service terminated or restricted in terms of section 15 after ~</listIntroduction>
+                <item id="section-16.1.list0.a">
+                  <num>(a)</num>
+                  <p>the full amount of <term refersTo="#term-arrears" id="trm232">arrears</term> has been paid; or</p>
+                </item>
+                <item id="section-16.1.list0.b">
+                  <num>(b)</num>
+                  <p>an agreement for payment of the <term refersTo="#term-arrears" id="trm233">arrears</term> contemplated in paragraph (a) has been entered into in terms of section 21; or</p>
+                </item>
+                <item id="section-16.1.list0.c">
+                  <num>(c)</num>
+                  <p>the full amount of <term refersTo="#term-arrears" id="trm234">arrears</term> in respect of any agreement entered into in terms of section 21, and any increased deposit, have been paid, or any additional security required has been provided,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-16.subsection-1">
+            <content>
+              <p>and any other condition of the <term refersTo="#term-Policy" id="trm235">Policy</term> that the <term refersTo="#term-Council" id="trm236">Council</term> may consider appropriate, has been complied with.</p>
+            </content>
+          </subsection>
+          <subsection id="section-16.2">
+            <num>(2)</num>
+            <content>
+              <p>Any reinstatement in terms of subsection (1) may only be done after an <term refersTo="#term-authorised_official" id="trm237">authorised official</term> has issued a written certificate of authorisation to the effect that every applicable condition contemplated in subsection (1) has been complied with and that the <term refersTo="#term-municipal_service" id="trm238">municipal service</term> concerned may be reinstated.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Interest</heading>
+          <subsection id="section-17.subsection-0">
+            <content>
+              <p>All <term refersTo="#term-arrears" id="trm239">arrears</term> in respect of accounts for <term refersTo="#term-rates" id="trm240">rates</term> and municipal services bear interest at a rate <term refersTo="#term-prescribed" id="trm241">prescribed</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Collection charges</heading>
+          <subsection id="section-18.subsection-0">
+            <content>
+              <p>Collection charges, <term refersTo="#term-prescribed" id="trm242">prescribed</term> where relevant, may be levied against a <term refersTo="#term-customer" id="trm243">customer</term> in respect of any relevant action taken in terms of, or for the purposes of, these By-laws.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-19">
+          <num>19.</num>
+          <heading>Full and final settlement of an amount</heading>
+          <subsection id="section-19.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm244">Council</term> may appropriate monies received in respect of any debt contemplated in these By-laws at its sole discretion, unless the <term refersTo="#term-customer" id="trm245">customer</term> otherwise instructs in writing.</p>
+            </content>
+          </subsection>
+          <subsection id="section-19.2">
+            <num>(2)</num>
+            <content>
+              <p>If any amount due and payable to the <term refersTo="#term-Council" id="trm246">Council</term> in terms of these By-laws has not been paid in full, any lesser amount tendered to and accepted by any employee of the <term refersTo="#term-Council" id="trm247">Council</term>, does not constitute payment in full and final settlement of the full amount, unless the lesser amount was accepted in full and final settlement in writing, under a power delegated or sub-delegated to such employee in terms of section 59 of the <term refersTo="#term-Act" id="trm248">Act</term> or by a service provider contemplated in paragraph (d) of the definition of ”<term refersTo="#term-Council" id="trm249">Council</term>”.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>Accounts outstanding after the due date</heading>
+          <subsection id="section-20.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-20.1.list0">
+                <listIntroduction>If an <term refersTo="#term-account" id="trm250">account</term> for assessment <term refersTo="#term-rates" id="trm251">rates</term> or any <term refersTo="#term-municipal_service" id="trm252">municipal service</term> is rendered to a <term refersTo="#term-customer" id="trm253">customer</term> and remains unpaid, wholly or in part, for more than 14 days after the due date for payment stipulated in the <term refersTo="#term-account" id="trm254">account</term> concerned —</listIntroduction>
+                <item id="section-20.1.list0.a">
+                  <num>(a)</num>
+                  <p>the defaulting <term refersTo="#term-customer" id="trm255">customer</term>'s name may be made public, and may be listed with a credit bureau; and</p>
+                </item>
+                <item id="section-20.1.list0.b">
+                  <num>(b)</num>
+                  <p>may be handed over to a debt collector or an attorney for collection.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-20.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-customer" id="trm256">customer</term> is liable for any interest and <term refersTo="#term-collection_charges" id="trm257">collection charges</term> and, in addition, payment of a higher deposit or the provision of additional security if required by the <term refersTo="#term-Council" id="trm258">Council</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.3">
+            <num>(3)</num>
+            <content>
+              <p>No action taken in terms of this section may be suspended or withdrawn, unless the <term refersTo="#term-arrears" id="trm259">arrears</term> and a higher deposit, if required by the <term refersTo="#term-Council" id="trm260">Council</term>, have been paid in full or additional security has been provided, if so required.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-21">
+          <num>21.</num>
+          <heading>Agreements for the payment of <term refersTo="#term-arrears" id="trm261">arrears</term> in instalments</heading>
+          <subsection id="section-21.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-customer" id="trm262">customer</term> with positive proof of identity or a person authorised, in writing, by such <term refersTo="#term-customer" id="trm263">customer</term>, may, subject to the approval of the <term refersTo="#term-Council" id="trm264">Council</term>, enter into an agreement in a form substantially similar to a form <term refersTo="#term-prescribed" id="trm265">prescribed</term>, for the payment of <term refersTo="#term-arrears" id="trm266">arrears</term> in instalments.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.2">
+            <num>(2)</num>
+            <content>
+              <p>The amount due and payable by a <term refersTo="#term-customer" id="trm267">customer</term> in terms of an agreement contemplated in subsection (1 ), constitutes a consolidated debt and any payment made by a <term refersTo="#term-customer" id="trm268">customer</term> of an amount less than the total amount due, must be allocated in reduction of the consolidated debt in the order <term refersTo="#term-prescribed" id="trm269">prescribed</term>, unless the <term refersTo="#term-customer" id="trm270">customer</term> otherwise instructs in writing.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.3">
+            <num>(3)</num>
+            <content>
+              <p>A <term refersTo="#term-customer" id="trm271">customer</term> may be required to arrange a debit order for the payment of <term refersTo="#term-arrears" id="trm272">arrears</term> in respect of which an agreement, contemplated in subsection (1), has been entered into.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.4">
+            <num>(4)</num>
+            <content>
+              <p>Subject to the provisions of subsection (5), no agreement for the payment of <term refersTo="#term-arrears" id="trm273">arrears</term> may allow for a period of payment of longer than 24 months.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-21.5.list4">
+                <item id="section-21.5.list4.a">
+                  <num>(a)</num>
+                  <p>The <term refersTo="#term-Council" id="trm274">Council</term> may allow a period of payment in excess of 24 months for the payment of <term refersTo="#term-arrears" id="trm275">arrears</term>, but not exceeding a period of 60 months, if special circumstances which the <term refersTo="#term-customer" id="trm276">customer</term> could not reasonably have prevented or avoided, prevail and which, in the opinion of the <term refersTo="#term-Council" id="trm277">Council</term>, warrant a longer period of payment.</p>
+                </item>
+                <item id="section-21.5.list4.b">
+                  <num>(b)</num>
+                  <p>Documentary proof of any special circumstances as contemplated in paragraph (a), must be furnished by a <term refersTo="#term-customer" id="trm278">customer</term> on request by the <term refersTo="#term-Council" id="trm279">Council</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-21.6">
+            <num>(6)</num>
+            <content>
+              <blockList id="section-21.6.list5">
+                <listIntroduction>The <term refersTo="#term-Council" id="trm280">Council</term> must, in exercising its discretion in terms of subsection (5), have regard to a <term refersTo="#term-customer" id="trm281">customer</term>'s —</listIntroduction>
+                <item id="section-21.6.list5.a">
+                  <num>(a)</num>
+                  <p>credit record;</p>
+                </item>
+                <item id="section-21.6.list5.b">
+                  <num>(b)</num>
+                  <p>electricity and water consumption;</p>
+                </item>
+                <item id="section-21.6.list5.c">
+                  <num>(c)</num>
+                  <p>ability to afford the proposed instalments, taking into <term refersTo="#term-account" id="trm282">account</term> the <term refersTo="#term-customer" id="trm283">customer</term>'s financial situation;</p>
+                </item>
+                <item id="section-21.6.list5.d">
+                  <num>(d)</num>
+                  <p>level of service;</p>
+                </item>
+                <item id="section-21.6.list5.e">
+                  <num>(e)</num>
+                  <p>previous breaches of agreements for the payment of <term refersTo="#term-arrears" id="trm284">arrears</term> in instalments; and</p>
+                </item>
+                <item id="section-21.6.list5.f">
+                  <num>(f)</num>
+                  <p>any other relevant factor.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-21.7">
+            <num>(7)</num>
+            <content>
+              <p>A copy of an agreement contemplated in subsection (1), must, on request, be furnished to the <term refersTo="#term-customer" id="trm285">customer</term> concerned.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.8">
+            <num>(8)</num>
+            <content>
+              <p>If a <term refersTo="#term-customer" id="trm286">customer</term> fails to comply with an agreement contemplated in subsection (1), the total <term refersTo="#term-arrears" id="trm287">arrears</term>, and payment of a higher deposit if required by the <term refersTo="#term-Council" id="trm288">Council</term>, will immediately become due and payable, and additional security, if so required, must be provided, without further notice.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.9">
+            <num>(9)</num>
+            <content>
+              <p>If a <term refersTo="#term-customer" id="trm289">customer</term> fails to comply with an agreement contemplated in subsection (1), entered into after receipt of a termination or restriction notice for water or electricity services, or both, as the case may be, the <term refersTo="#term-municipal_service" id="trm290">municipal service</term> concerned may be terminated or restricted without further notice, in addition to any other action taken, or which may be taken, against the <term refersTo="#term-customer" id="trm291">customer</term> concerned.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.10">
+            <num>(10)</num>
+            <content>
+              <p>No <term refersTo="#term-customer" id="trm292">customer</term> is permitted to enter into an agreement contemplated in subsection (1 ), if that <term refersTo="#term-customer" id="trm293">customer</term> has failed to honour a previous agreement for the payment of <term refersTo="#term-arrears" id="trm294">arrears</term> in instalments, unless the <term refersTo="#term-Council" id="trm295">Council</term> otherwise decides.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.11">
+            <num>(11)</num>
+            <content>
+              <p>Once an agreement contemplated in subsection (1), has been concluded, the amount in <term refersTo="#term-arrears" id="trm296">arrears</term> must be reflected as a current amount, and no further interest may be added.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-22">
+          <num>22.</num>
+          <heading>Dishonoured cheques</heading>
+          <subsection id="section-22.subsection-0">
+            <content>
+              <p>If any payment is made to the <term refersTo="#term-Council" id="trm297">Council</term> by a negotiable instrument, and such negotiable instrument is dishonoured, the <term refersTo="#term-Council" id="trm298">Council</term> may levy costs and administration fees against the <term refersTo="#term-account" id="trm299">account</term> of the defaulting <term refersTo="#term-customer" id="trm300">customer</term> at a <term refersTo="#term-prescribed" id="trm301">prescribed</term> rate.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-4">
+        <num>4</num>
+        <heading>Indigent persons</heading>
+        <section id="section-23">
+          <num>23.</num>
+          <heading>Registration as indigent person</heading>
+          <subsection id="section-23.1">
+            <num>(1)</num>
+            <content>
+              <p>A person who wishes to receive assistance in terms of the <term refersTo="#term-Council" id="trm302">Council</term>'s policy for the provision of municipal services to indigent persons, must make application for registration as an indigent person on a <term refersTo="#term-prescribed" id="trm303">prescribed</term> form at any of the <term refersTo="#term-Council" id="trm304">Council</term>'s offices.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.2">
+            <num>(2)</num>
+            <content>
+              <p>An application in terms of subsection (1), must be considered by the <term refersTo="#term-Council" id="trm305">Council</term> which must adhere to the principles of transparency, equity, consistency, non-discrimination, accessibility, empathy, integrity, confidentiality and objectivity during the evaluation process.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.3">
+            <num>(3)</num>
+            <content>
+              <p>An applicant, contemplated in subsection (1), must, at the request of the <term refersTo="#term-Council" id="trm306">Council</term>, furnish any further information to enable the <term refersTo="#term-Council" id="trm307">Council</term> to arrive at a decision and the <term refersTo="#term-Council" id="trm308">Council</term> may, for the purpose of properly evaluating the application, conduct any investigation which it considers appropriate.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-23.4.list3">
+                <listIntroduction>An applicant must be informed that he or she will automatically be disqualified from receiving any assistance contemplated in subsection (1), and be liable to-</listIntroduction>
+                <item id="section-23.4.list3.a">
+                  <num>(a)</num>
+                  <p>refund the amount of any such assistance received from the <term refersTo="#term-Council" id="trm309">Council</term>, if the application or information contemplated in subsection (3), contains any false information; and</p>
+                </item>
+                <item id="section-23.4.list3.b">
+                  <num>(b)</num>
+                  <p>prosecution if any false information as contemplated in paragraph (a) is furnished by the applicant.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-23.5">
+            <num>(5)</num>
+            <content>
+              <p>If the <term refersTo="#term-Council" id="trm310">Council</term> finds an applicant to be indigent, such applicant is entitled to assistance in terms of the policy referred to in subsection (1), and his or her personal particulars must be recorded in a <term refersTo="#term-prescribed" id="trm311">prescribed</term> register of indigent persons.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.6">
+            <num>(6)</num>
+            <content>
+              <p>The position of every indigent person so recorded, must be reviewed annually by an <term refersTo="#term-authorised_official" id="trm312">authorised official</term> in accordance with the directives of the <term refersTo="#term-Council" id="trm313">Council</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.7">
+            <num>(7)</num>
+            <content>
+              <p>A successful applicant must be informed in writing that he or she must immediately notify the <term refersTo="#term-Council" id="trm314">Council</term> when his or her indigent status has changed.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-5">
+        <num>5</num>
+        <heading>Miscellaneous</heading>
+        <section id="section-24">
+          <num>24.</num>
+          <heading><term refersTo="#term-Council" id="trm315">Council</term>'s right of access to <term refersTo="#term-premises" id="trm316">premises</term></heading>
+          <subsection id="section-24.subsection-0">
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm317">Council</term> may exercise its right of access to <term refersTo="#term-premises" id="trm318">premises</term> in terms of section 101 of the <term refersTo="#term-Act" id="trm319">Act</term> through the <term refersTo="#term-City_Manager" id="trm320">City Manager</term> or any <term refersTo="#term-authorised_official" id="trm321">authorised official</term> or any duly appointed agent of the <term refersTo="#term-Council" id="trm322">Council</term>, authorised thereto in writing.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-25">
+          <num>25.</num>
+          <heading>Preservation of rights consequent on non-compliance</heading>
+          <subsection id="section-25.subsection-0">
+            <content>
+              <p>A failure by the <term refersTo="#term-Council" id="trm323">Council</term> to render an <term refersTo="#term-account" id="trm324">account</term> in terms of section 8(1), to send a final demand notice contemplated in section 15(1) or to comply with any other provision of these By-laws does not in any way affect the liability of any person to pay any amount due and payable to the <term refersTo="#term-Council" id="trm325">Council</term> as contemplated in these By-laws, nor the <term refersTo="#term-Council" id="trm326">Council</term>'s right to recover such amount.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-26">
+          <num>26.</num>
+          <heading>Transmission of documentation</heading>
+          <subsection id="section-26.subsection-0">
+            <content>
+              <blockList id="section-26.subsection-0.list0">
+                <listIntroduction>Subject to the provisions of any law, if in terms of or for the purposes of these By-laws any written communication must or may be rendered, sent or delivered —</listIntroduction>
+                <item id="section-26.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <blockList id="section-26.subsection-0.list0.a.list0">
+                    <listIntroduction>by the <term refersTo="#term-Council" id="trm327">Council</term> to any person, such communication must be —</listIntroduction>
+                    <item id="section-26.subsection-0.list0.a.list0.i">
+                      <num>(i)</num>
+                      <blockList id="section-26.subsection-0.list0.a.list0.i.list0">
+                        <listIntroduction>delivered by hand —</listIntroduction>
+                        <item id="section-26.subsection-0.list0.a.list0.i.list0.aa">
+                          <num>(aa)</num>
+                          <p>to that person's domicilium citandi et executandi, as stipulated in an agreement entered into in terms of section 3(1)(c) or 6(1) or 21(1); or</p>
+                        </item>
+                        <item id="section-26.subsection-0.list0.a.list0.i.list0.bb">
+                          <num>(bb)</num>
+                          <p>in the absence of such agreement, to that person's most recently recorded address; or</p>
+                        </item>
+                        <item id="section-26.subsection-0.list0.a.list0.i.list0.cc">
+                          <num>(cc)</num>
+                          <p>to the <term refersTo="#term-premises" id="trm328">premises</term> concerned in respect of which <term refersTo="#term-rates" id="trm329">rates</term> are levied or any <term refersTo="#term-municipal_service" id="trm330">municipal service</term> is provided, whichever is relevant; or</p>
+                        </item>
+                      </blockList>
+                    </item>
+                    <item id="section-26.subsection-0.list0.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>sent by post to the address referred to in subparagraph (i)(aa) or (bb), whichever is applicable, or to the address of the <term refersTo="#term-premises" id="trm331">premises</term> contemplated in subparagraph (i)(cc).</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-26.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <blockList id="section-26.subsection-0.list0.b.list1">
+                    <listIntroduction>by any person to the <term refersTo="#term-Council" id="trm332">Council</term>, such communication must be —</listIntroduction>
+                    <item id="section-26.subsection-0.list0.b.list1.i">
+                      <num>(i)</num>
+                      <blockList id="section-26.subsection-0.list0.b.list1.i.list0">
+                        <listIntroduction>delivered by hand to —</listIntroduction>
+                        <item id="section-26.subsection-0.list0.b.list1.i.list0.aa">
+                          <num>(aa)</num>
+                          <p>the <term refersTo="#term-Council" id="trm333">Council</term>'s domicilium citandi et executandi stipulated in the agreement contemplated in paragraph (a)(i)(aa); or</p>
+                        </item>
+                        <item id="section-26.subsection-0.list0.b.list1.i.list0.bb">
+                          <num>(bb)</num>
+                          <p>another address, if the <term refersTo="#term-Council" id="trm334">Council</term> has in writing furnished such an address to the person concerned; or</p>
+                        </item>
+                      </blockList>
+                    </item>
+                    <item id="section-26.subsection-0.list0.b.list1.ii">
+                      <num>(ii)</num>
+                      <p>sent by post to the address referred to in subparagraph (i)(aa) or, in the circumstances contemplated in subparagraph (i)(bb), to the address contemplated in that subparagraph.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-27">
+          <num>27.</num>
+          <heading>Prima facie evidence of documentation</heading>
+          <subsection id="section-27.subsection-0">
+            <content>
+              <blockList id="section-27.subsection-0.list0">
+                <listIntroduction>For the purposes of the recovery of any amount due and payable to the <term refersTo="#term-Council" id="trm335">Council</term> in terms of these By-laws —</listIntroduction>
+                <item id="section-27.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>a copy of any relevant <term refersTo="#term-account" id="trm336">account</term> ; and</p>
+                </item>
+                <item id="section-27.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>an extract from the <term refersTo="#term-Council" id="trm337">Council</term>'s records relating to the quantity of consumption or provision of any <term refersTo="#term-municipal_service" id="trm338">municipal service</term> and the period of provision of such service,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-27.subsection-1">
+            <content>
+              <p>certified by an <term refersTo="#term-authorised_official" id="trm339">authorised official</term> as being correct, constitute prima facie evidence of the information contained in such documents.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-28">
+          <num>28.</num>
+          <heading>Repeal</heading>
+          <subsection id="section-28.subsection-0">
+            <content>
+              <blockList id="section-28.subsection-0.list0">
+                <listIntroduction>The By-laws specified in the Schedule are hereby —</listIntroduction>
+                <item id="section-28.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>repealed; and</p>
+                </item>
+                <item id="section-28.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>amended</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-28.subsection-1">
+            <content>
+              <p>to the extent indicated.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-29">
+          <num>29.</num>
+          <heading>Conflicting laws</heading>
+          <subsection id="section-29.subsection-0">
+            <content>
+              <p>lf there is any conflict between a provision in these By-laws and a provision of any other <term refersTo="#term-by-law" id="trm340">by-law</term> of the <term refersTo="#term-Council" id="trm341">Council</term>, the provisions of these By-laws prevail.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-30">
+          <num>30.</num>
+          <heading>Short title</heading>
+          <subsection id="section-30.subsection-0">
+            <content>
+              <p>These By-laws are called the Credit Control and Debt Collection By-laws, 2004.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+    </body>
+  </act>
+  <components>
+    <component id="component-schedule">
+      <doc name="schedule">
+        <meta>
+          <identification source="#slaw">
+            <FRBRWork>
+              <FRBRthis value="/za-jhb/act/by-law/2004/credit-control-debt-collection/schedule"/>
+              <FRBRuri value="/za-jhb/act/by-law/2004/credit-control-debt-collection"/>
+              <FRBRalias value="Schedule"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-jhb/act/by-law/2004/credit-control-debt-collection/eng@2005-05-23/schedule"/>
+              <FRBRuri value="/za-jhb/act/by-law/2004/credit-control-debt-collection/eng@2005-05-23"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-jhb/act/by-law/2004/credit-control-debt-collection/eng@2005-05-23/schedule"/>
+              <FRBRuri value="/za-jhb/act/by-law/2004/credit-control-debt-collection/eng@2005-05-23"/>
+              <FRBRdate date="2015-11-22" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule">
+            <heading>Repealed By-Laws</heading>
+            <paragraph id="paragraph-0">
+              <content>
+                <table id="table0">
+                  <tr>
+                    <th>
+                      <p>Number and year</p>
+                    </th>
+                    <th>
+                      <p>Name of By-laws</p>
+                    </th>
+                    <th>
+                      <p>Extent of Repeal</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Local Authority Notice No 835 in Gauteng Provincial Gazette Extraordinary dated 21 May 2004</p>
+                    </td>
+                    <td>
+                      <p>Water Services By-laws</p>
+                    </td>
+                    <td>
+                      <p>1. Sections 9(3), 9A, 9B, 9C, 9D; 2. In section 10 delete the expression "9A, 9B, 9C and 9D".; 3. In section 11 delete the expression "9A, 9B, 9C, 9D".</p>
+                    </td>
+                  </tr>
+                </table>
+              </content>
+            </paragraph>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>

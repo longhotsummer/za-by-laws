@@ -1,0 +1,382 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-eth/act/by-law/2013/tariff/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2013/tariff"/>
+          <FRBRalias value="Tariff By-law, 2013"/>
+          <FRBRdate date="2013-08-15" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-eth/act/by-law/2013/tariff/eng@2013-08-15/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2013/tariff/eng@2013-08-15"/>
+          <FRBRdate date="2013-08-15" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-eth/act/by-law/2013/tariff/eng@2013-08-15/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2013/tariff/eng@2013-08-15"/>
+          <FRBRdate date="2016-02-27" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-08-15" name="KwaZulu-Natal Provincial Gazette" showAs="KwaZulu-Natal Provincial Gazette" number="94"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-Constitution" href="/ontology/term/this.eng.Constitution" showAs="Constitution"/>
+        <TLCTerm id="term-City_Hall" href="/ontology/term/this.eng.City_Hall" showAs="City Hall"/>
+        <TLCTerm id="term-MEC_for_local_government" href="/ontology/term/this.eng.MEC_for_local_government" showAs="MEC for local government"/>
+        <TLCTerm id="term-municipal_council" href="/ontology/term/this.eng.municipal_council" showAs="municipal council"/>
+        <TLCTerm id="term-Municipal_Finance_Management_Act" href="/ontology/term/this.eng.Municipal_Finance_Management_Act" showAs="Municipal Finance Management Act"/>
+        <TLCTerm id="term-municipal_manager" href="/ontology/term/this.eng.municipal_manager" showAs="municipal manager"/>
+        <TLCTerm id="term-Municipal_Systems_Act" href="/ontology/term/this.eng.Municipal_Systems_Act" showAs="Municipal Systems Act"/>
+        <TLCTerm id="term-municipality" href="/ontology/term/this.eng.municipality" showAs="municipality"/>
+      </references>
+    </meta>
+    <preface>
+      <p>To provide for the adoption and implementation of a tariff policy; for the general power to levy and recover fees, charges and tariffs and for matters incidental thereto.</p>
+    </preface>
+    <preamble>
+      <p>WHEREAS section 229(1) of the Constitution authorises a municipality to impose-</p>
+      <p>(a) rates on property and surcharges on fees for services provided by or on behalf of a municipality; and</p>
+      <p>(b) if authorised by national legislation, other taxes, levies and duties appropriate to local government or to the category of local government into which that municipality falls;</p>
+      <p>WHEREAS in terms of Section 75A of the Municipal Systems Act, a municipality may-</p>
+      <p>(a) levy and recover fees, charges or tariffs in respect of any function or service of the municipality; and</p>
+      <p>(b) recover collection charges and interest on any outstanding amount;</p>
+      <p>WHEREAS in terms of Section 74(1) of the Municipal Systems Act, a municipal council must adopt and implement a tariff policy on the levying of fees for municipal services provided by the municipality itself or by way of service delivery agreements, and which complies with the provisions of the Municipal Systems Act, the Municipal Finance Management Act and any other applicable legislation;</p>
+      <p>WHEREAS in terms of Section 75 of the Municipal Systems Act, a municipal council must adopt By-laws to give effect to the implementation and enforcement of its tariff policy;</p>
+      <p>AND WHEREAS the By-laws adopted in terms of section 75 of the Municipal Systems Act may differentiate between different categories of users, debtors, service providers, services, service standards and geographical areas as long as such differentiation does not amount to unfair discrimination.</p>
+      <p>NOW THEREFORE the Municipal Council of the eThekwini Metropolitan Municipality, acting in terms of section 156 of the Constitution of the Republic of South Africa, and read with section 11 of the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000), hereby makes the following By-law:</p>
+    </preamble>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <subsection id="section-1.subsection-0">
+          <content>
+            <p>In this By-law, unless the context indicates otherwise-</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-1" refersTo="#term-Constitution">
+          <content>
+            <p>"<def refersTo="#term-Constitution">Constitution</def>" means the Constitution of the Republic of South Africa;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-2" refersTo="#term-City_Hall">
+          <content>
+            <p>"<def refersTo="#term-City_Hall">City Hall</def>" refers to the main administrative office of the <term refersTo="#term-municipality" id="trm0">municipality</term>, situated on Dr. Pixley KaSeme Street, Durban;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-3" refersTo="#term-MEC_for_local_government">
+          <content>
+            <p>"<def refersTo="#term-MEC_for_local_government">MEC for local government</def>" means the MEC responsible for local government in KwaZulu-Natal;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-4" refersTo="#term-municipal_council">
+          <content>
+            <p>"<def refersTo="#term-municipal_council">municipal council</def>" or "council" means the eThekwini municipal council, a municipal council referred to in section 157(1) of the <term refersTo="#term-Constitution" id="trm1">Constitution</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-5" refersTo="#term-Municipal_Finance_Management_Act">
+          <content>
+            <p>"<def refersTo="#term-Municipal_Finance_Management_Act">Municipal Finance Management Act</def>" means the Local Government: Municipal Finance Management Act, 2003 (Act No. 56 of 2003);</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-6" refersTo="#term-municipal_manager">
+          <content>
+            <p>"<def refersTo="#term-municipal_manager">municipal manager</def>" means a person appointed in terms of section 54A of the <term refersTo="#term-Municipal_Systems_Act" id="trm2">Municipal Systems Act</term> as the head of administration of the <term refersTo="#term-municipal_council" id="trm3">municipal council</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-7" refersTo="#term-Municipal_Systems_Act">
+          <content>
+            <p>"<def refersTo="#term-Municipal_Systems_Act">Municipal Systems Act</def>" means the Local Government: Municipal Systems Act, 2000 (Act No 32 of 2000);</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-8" refersTo="#term-municipality">
+          <content>
+            <p>"<def refersTo="#term-municipality">municipality</def>" means eThekwini Municipality, a category A municipality as envisaged in terms of section 155(1) of the <term refersTo="#term-Constitution" id="trm4">Constitution</term> and established in terms of PN343 of 2000 (KZN);</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-9">
+          <content>
+            <p>"tariff' means fees and charges levied by the <term refersTo="#term-municipality" id="trm5">municipality</term> in respect of any function or service provided by the <term refersTo="#term-municipality" id="trm6">municipality</term> to the local community, and includes a surcharge on such tariff but excludes the levying of rates by the Municipality in terms of the Local Government: Municipal Property Rates Act, 2004 (Act No. 6 of 2004).</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Interpretation of the By-law</heading>
+        <subsection id="section-2.subsection-0">
+          <content>
+            <p>If there is a conflict of interpretation between the English version of this By-law and a translated version, the English version prevails.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Adoption and Implementation of Tariff Policy</heading>
+        <subsection id="section-3.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-municipality" id="trm7">municipality</term> must adopt and implement a tariff policy on the levying of fees for municipal services provided by the <term refersTo="#term-municipality" id="trm8">municipality</term> itself or by way of service delivery agreements, and which complies with the provisions of the <term refersTo="#term-Municipal_Systems_Act" id="trm9">Municipal Systems Act</term>, the <term refersTo="#term-Municipal_Finance_Management_Act" id="trm10">Municipal Finance Management Act</term> and any other applicable legislation.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.2">
+          <num>(2)</num>
+          <content>
+            <p>The tariff policy adopted in terms of subsection (1) must be reviewed annually by the <term refersTo="#term-municipality" id="trm11">municipality</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-municipality" id="trm12">municipality</term> shall not be entitled to impose tariffs other than in terms of a valid tariff policy.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Tariff Policy</heading>
+        <subsection id="section-4.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-municipality" id="trm13">municipality</term>'s tariff policy applies to all tariffs imposed by the <term refersTo="#term-municipality" id="trm14">municipality</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-4.2.list1">
+              <listIntroduction>The tariff policy must reflect the principles referred to in the <term refersTo="#term-Municipal_Systems_Act" id="trm15">Municipal Systems Act</term>, namely that-</listIntroduction>
+              <item id="section-4.2.list1.a">
+                <num>(a)</num>
+                <p>users of municipal services should be treated equitably in the application of tariffs;</p>
+              </item>
+              <item id="section-4.2.list1.b">
+                <num>(b)</num>
+                <p>the amount individual users pay for municipal services should generally be in proportion to their use of that service;</p>
+              </item>
+              <item id="section-4.2.list1.c">
+                <num>(c)</num>
+                <blockList id="section-4.2.list1.c.list0">
+                  <listIntroduction>poor households must have access to at least basic services through-</listIntroduction>
+                  <item id="section-4.2.list1.c.list0.i">
+                    <num>(i)</num>
+                    <p>tariffs that cover only operating and maintenance costs;</p>
+                  </item>
+                  <item id="section-4.2.list1.c.list0.ii">
+                    <num>(ii)</num>
+                    <p>special tariffs or life line tariffs for low levels of use or consumption of services or for basic levels of service;</p>
+                  </item>
+                  <item id="section-4.2.list1.c.list0.iii">
+                    <num>(iii)</num>
+                    <p>any other direct or indirect method of subsidisation of tariffs for poor households;</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-4.2.list1.d">
+                <num>(d)</num>
+                <p>tariffs must reflect the costs reasonably associated with rendering the service, including capital, operating, maintenance, administration and replacement costs, and interest charges;</p>
+              </item>
+              <item id="section-4.2.list1.e">
+                <num>(e)</num>
+                <p>tariffs must be set at levels that facilitate the financial sustainability of the service, taking into account subsidisation from sources other than the service concerned;</p>
+              </item>
+              <item id="section-4.2.list1.f">
+                <num>(f)</num>
+                <p>provision may be made in appropriate circumstances for a surcharge on the tariff for a service;</p>
+              </item>
+              <item id="section-4.2.list1.g">
+                <num>(g)</num>
+                <p>provision may be made for the promotion of local economic development through special tariffs for categories of commercial and industrial users;</p>
+              </item>
+              <item id="section-4.2.list1.h">
+                <num>(h)</num>
+                <p>the economical, efficient and effective use of resources, the recycling of waste, and other appropriate environmental objectives must be encouraged; and</p>
+              </item>
+              <item id="section-4.2.list1.i">
+                <num>(i)</num>
+                <p>the extent of subsidisation of tariffs for poor households and other categories of users should be fully disclosed.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-4.3.list2">
+              <listIntroduction>The <term refersTo="#term-municipality" id="trm16">municipality</term>'s tariff policy must-</listIntroduction>
+              <item id="section-4.3.list2.a">
+                <num>(a)</num>
+                <p>specify the manner in which the principles referred to in subsection (2) are to be implemented;</p>
+              </item>
+              <item id="section-4.3.list2.b">
+                <num>(b)</num>
+                <p>specify the basis of differentiation, if any, between different categories of users, debtors, service providers, services, service standards, geographical areas and other matters as long as the differentiation does not amount to unfair discrimination; and</p>
+              </item>
+              <item id="section-4.3.list2.c">
+                <num>(c)</num>
+                <p>include any further enforcement mechanisms the <term refersTo="#term-municipality" id="trm17">municipality</term> may wish to impose in addition to those contained in the Credit Control and Debt Collection By-law and Policy.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>General Power to Levy and Recover Fees, Charges and Tariffs</heading>
+        <subsection id="section-5.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-5.1.list0">
+              <listIntroduction>The <term refersTo="#term-municipality" id="trm18">municipality</term> has the power to-</listIntroduction>
+              <item id="section-5.1.list0.a">
+                <num>(a)</num>
+                <p>levy and recover fees, charges or tariffs in respect of any function or service of the <term refersTo="#term-municipality" id="trm19">municipality</term>; and</p>
+              </item>
+              <item id="section-5.1.list0.b">
+                <num>(b)</num>
+                <p>recover collection charges and interest on any outstanding amount.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-5.2">
+          <num>(2)</num>
+          <content>
+            <p>Fees, charges and tariffs referred to in subsection (1) are levied by resolution passed by the <term refersTo="#term-municipal_council" id="trm20">municipal council</term> with a supporting vote of a majority of its members.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-5.3.list2">
+              <listIntroduction>After a resolution contemplated in terms of subsection (2) has been passed, the <term refersTo="#term-municipal_manager" id="trm21">municipal manager</term> must, without delay-</listIntroduction>
+              <item id="section-5.3.list2.a">
+                <num>(a)</num>
+                <p>conspicuously display a copy of the resolution for a period of at least 30 days at the <term refersTo="#term-City_Hall" id="trm22">City Hall</term> and at such other places within the <term refersTo="#term-municipality" id="trm23">municipality</term> to which the public has access as the <term refersTo="#term-municipal_manager" id="trm24">municipal manager</term> may determine;</p>
+              </item>
+              <item id="section-5.3.list2.b">
+                <num>(b)</num>
+                <blockList id="section-5.3.list2.b.list0">
+                  <listIntroduction>publish in a newspaper of general circulation in the <term refersTo="#term-municipality" id="trm25">municipality</term> a notice stating-</listIntroduction>
+                  <item id="section-5.3.list2.b.list0.i">
+                    <num>(i)</num>
+                    <p>that a resolution as contemplated in subsection (3) has been passed by the council;</p>
+                  </item>
+                  <item id="section-5.3.list2.b.list0.ii">
+                    <num>(ii)</num>
+                    <p>that a copy of the resolution is available for public inspection during office hours at the <term refersTo="#term-City_Hall" id="trm26">City Hall</term> and at the other places specified in the notice; and</p>
+                  </item>
+                  <item id="section-5.3.list2.b.list0.iii">
+                    <num>(iii)</num>
+                    <p>the date on which the determination will come into operation; and</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-5.3.list2.c">
+                <num>(c)</num>
+                <p>seek to convey the information referred to in paragraph (b) to the local community by means of radio broadcasts covering the area of the <term refersTo="#term-municipality" id="trm27">municipality</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-5.4">
+          <num>(4)</num>
+          <content>
+            <p>The <term refersTo="#term-municipal_manager" id="trm28">municipal manager</term> must forthwith send a copy of the notice referred to in subsection (3)(b) to the <term refersTo="#term-MEC_for_local_government" id="trm29">MEC for local government</term> concerned.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Enforcement of Tariff Policy</heading>
+        <subsection id="section-6.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-6.1.list0">
+              <listIntroduction>The <term refersTo="#term-municipality" id="trm30">municipality</term>'s tariff policy shall be enforced through-</listIntroduction>
+              <item id="section-6.1.list0.a">
+                <num>(a)</num>
+                <p>its Credit Control and Debt Collection By-law and Policy; and</p>
+              </item>
+              <item id="section-6.1.list0.b">
+                <num>(b)</num>
+                <p>any other enforcement mechanism stipulated in the Tariff Policy.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Delegations</heading>
+        <subsection id="section-7.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-7.1.list0">
+              <listIntroduction>Subject to the <term refersTo="#term-Constitution" id="trm31">Constitution</term> and applicable national and provincial laws, any -</listIntroduction>
+              <item id="section-7.1.list0.a">
+                <num>(a)</num>
+                <p>power, excluding a power referred to in section 160(2) of the <term refersTo="#term-Constitution" id="trm32">Constitution</term>;</p>
+              </item>
+              <item id="section-7.1.list0.b">
+                <num>(b)</num>
+                <p>function; or</p>
+              </item>
+              <item id="section-7.1.list0.c">
+                <num>(c)</num>
+                <p>duty</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-7.subsection-1">
+          <content>
+            <p>conferred, in terms of this By-law, upon the Council, or on any of the Municipality's other political structures, political office bearers, councillors or staff members, may be delegated or sub-delegated by such political structure, political office bearer, councillor, or staff member, to an entity within, or a staff member employed by, the Municipality.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.2">
+          <num>(2)</num>
+          <content>
+            <p>The delegation in terms of sub-section (1) must be effected in accordance with the system of delegation adopted by the Council in accordance with section 59(1) of the Local Government: <term refersTo="#term-Municipal_Systems_Act" id="trm33">Municipal Systems Act</term>, 2000 (Act No.32 of 2000), subject to the criteria set out in section 59(2) of said Act."</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-7.3.list3">
+              <listIntroduction>Any delegation contemplated in this section must be recorded in the System of Delegations, which must contain information on the-</listIntroduction>
+              <item id="section-7.3.list3.a">
+                <num>(a)</num>
+                <p>entity or person issuing the delegation or sub-delegation;</p>
+              </item>
+              <item id="section-7.3.list3.b">
+                <num>(b)</num>
+                <p>recipient of the delegation or sub-delegation; and</p>
+              </item>
+              <item id="section-7.3.list3.c">
+                <num>(c)</num>
+                <p>conditions attached to the delegation or sub-delegation.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Short Title and Commencement</heading>
+        <subsection id="section-8.subsection-0">
+          <content>
+            <p>This By-law is called the eThekwini Municipality: Tariff By-law, 2013, and takes effect on the date of the publication thereof in the Provincial Gazette or as otherwise indicated in the notice thereto.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

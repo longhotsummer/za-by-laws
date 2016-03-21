@@ -1,0 +1,1602 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-eth/act/by-law/2015/nuisances-behaviour-public-places/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2015/nuisances-behaviour-public-places"/>
+          <FRBRalias value="eThekwini Municipality: Nuisances and Behaviour in Public Places By-law, 2015"/>
+          <FRBRdate date="2015-09-11" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-eth/act/by-law/2015/nuisances-behaviour-public-places/eng@2015-09-11/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2015/nuisances-behaviour-public-places/eng@2015-09-11"/>
+          <FRBRdate date="2015-09-11" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-eth/act/by-law/2015/nuisances-behaviour-public-places/eng@2015-09-11/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2015/nuisances-behaviour-public-places/eng@2015-09-11"/>
+          <FRBRdate date="2016-03-03" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-09-11" name="KwaZulu-Natal Provincial Gazette" showAs="KwaZulu-Natal Provincial Gazette" number="1490"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-authorised_official" href="/ontology/term/this.eng.authorised_official" showAs="authorised official"/>
+        <TLCTerm id="term-construction" href="/ontology/term/this.eng.construction" showAs="construction"/>
+        <TLCTerm id="term-Head_of_Health" href="/ontology/term/this.eng.Head_of_Health" showAs="Head of Health"/>
+        <TLCTerm id="term-heavy-duty_vehicle" href="/ontology/term/this.eng.heavy-duty_vehicle" showAs="heavy-duty vehicle"/>
+        <TLCTerm id="term-motor-vehicle" href="/ontology/term/this.eng.motor-vehicle" showAs="motor-vehicle"/>
+        <TLCTerm id="term-municipal_council" href="/ontology/term/this.eng.municipal_council" showAs="municipal council"/>
+        <TLCTerm id="term-Municipality" href="/ontology/term/this.eng.Municipality" showAs="Municipality"/>
+        <TLCTerm id="term-municipal_manager" href="/ontology/term/this.eng.municipal_manager" showAs="municipal manager"/>
+        <TLCTerm id="term-nuisance" href="/ontology/term/this.eng.nuisance" showAs="nuisance"/>
+        <TLCTerm id="term-overnight" href="/ontology/term/this.eng.overnight" showAs="overnight"/>
+        <TLCTerm id="term-public_place" href="/ontology/term/this.eng.public_place" showAs="public place"/>
+        <TLCTerm id="term-public_road" href="/ontology/term/this.eng.public_road" showAs="public road"/>
+        <TLCTerm id="term-public_transportation_motor-vehicle" href="/ontology/term/this.eng.public_transportation_motor-vehicle" showAs="public transportation motor-vehicle"/>
+        <TLCTerm id="term-waste" href="/ontology/term/this.eng.waste" showAs="waste"/>
+      </references>
+    </meta>
+    <preface>
+      <p>To provide for measures for preventing, minimising or managing public nuisances; to prohibit certain activities or conduct in public places; to provide for the repeal of laws and savings; and to provide for matters incidental thereto.</p>
+    </preface>
+    <preamble>
+      <p>WHEREAS the Municipality has competence in terms of section 156 (2) of the Constitution of the Republic of South Africa to make and administer By-laws for the effective administration of the matters which it has the right to administer;</p>
+      <p>WHEREAS the Municipality has competence in terms of Part B of Schedule 5 of the Constitution relating to such matters as the control of public nuisances, municipal roads, public places, and traffic and parking;</p>
+      <p>AND WHEREAS there is a need to develop legislation to deal with the prevention or minimisation of public nuisances and to regulate behaviour in public places;</p>
+      <p>NOW THEREFORE The Municipal Council of the eThekwini Metropolitan Municipality, acting in terms of section 156 read with Schedule 5 Part B of the Constitution of the Republic of South Africa, and read with section 11 of the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000), hereby makes the following By-law:</p>
+    </preamble>
+    <body>
+      <chapter id="chapter-1">
+        <num>1</num>
+        <heading>Interpretation</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <subsection id="section-1.subsection-0">
+            <content>
+              <p>In this By-law, unless the context otherwise indicates –</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-1">
+            <content>
+              <blockList id="section-1.subsection-1.list1" refersTo="#term-authorised_official">
+                <listIntroduction>"<def refersTo="#term-authorised_official">authorised official</def>" means a person authorised to implement the provisions of this By-law, including but not limited to–</listIntroduction>
+                <item id="section-1.subsection-1.list1.a">
+                  <num>(a)</num>
+                  <p>peace officers as contemplated in section 334 of the Criminal Procedure Act, 1977 (Act No. 51 of 1977);</p>
+                </item>
+                <item id="section-1.subsection-1.list1.b">
+                  <num>(b)</num>
+                  <p>municipal or metropolitan Police Officers as contemplated in the South African Police Service Act, 1995 (Act No. 68 of 1995); and</p>
+                </item>
+                <item id="section-1.subsection-1.list1.c">
+                  <num>(c)</num>
+                  <p>such employees, agents, delegated nominees, representatives and service providers of the <term refersTo="#term-Municipality" id="trm0">Municipality</term> as are specifically authorised by the <term refersTo="#term-Municipality" id="trm1">Municipality</term> in this regard: Provided that for the purposes of search and seizure, where such person is not a peace officer, such person must be accompanied by a peace officer;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-2" refersTo="#term-construction">
+            <content>
+              <p>"<def refersTo="#term-construction">construction</def>" means any building work or demolition and any activity ancillary to such building work or demolition;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-3" refersTo="#term-Head_of_Health">
+            <content>
+              <p>"<def refersTo="#term-Head_of_Health">Head of Health</def>" means the official of the eThekwini <term refersTo="#term-Municipality" id="trm2">Municipality</term> in charge of or responsible for the department of the <term refersTo="#term-Municipality" id="trm3">Municipality</term> dealing with matters relating to Public Health;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-4" refersTo="#term-heavy-duty_vehicle">
+            <content>
+              <p>"<def refersTo="#term-heavy-duty_vehicle">heavy-duty vehicle</def>" means buses and earth-moving or earth-working vehicles;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-5" refersTo="#term-motor-vehicle">
+            <content>
+              <p>"<def refersTo="#term-motor-vehicle">motor-vehicle</def>" means any self-propelled vehicle having an engine or motor as an integral part thereof or attached thereto and which is designed or adapted to be propelled by means of such engine or motor for the purposes of transportation on any road of one or more persons or any material, item, substance or object, and includes a trailer, motor-bike, quad-bike or earth-moving or earth-working vehicle, but excludes any vehicle which is controlled by a pedestrian, or any vehicle with a mass not exceeding 230 kilograms which is specially designed and constructed solely for mobility of any person suffering from some physical defect or disability;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-6" refersTo="#term-municipal_council">
+            <content>
+              <p>"<def refersTo="#term-municipal_council">municipal council</def>" or "council" means the eThekwini municipal council, a municipal council referred to in section 157(1) of the Constitution;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-7" refersTo="#term-Municipality">
+            <content>
+              <p>"<def refersTo="#term-Municipality">Municipality</def>"means eThekwini Municipality, a category A municipality as envisaged in terms of section 155(1) of the Constitution of the Republic of South Africa and established in terms of PN343 of 2000 (KwaZulu-Natal);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-8" refersTo="#term-municipal_manager">
+            <content>
+              <p>"<def refersTo="#term-municipal_manager">municipal manager</def>" means a person appointed in terms of section 54A of the Municipal Systems Act, 2000 (Act No. 32 of 2000) as the head of administration of the <term refersTo="#term-municipal_council" id="trm4">municipal council</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-9" refersTo="#term-nuisance">
+            <content>
+              <p>"<def refersTo="#term-nuisance">nuisance</def>" means any conduct or behaviour by any person or the use, keeping, producing, by-producing, harbouring or conveying, as the case may be, of any item, substance, matter, material, equipment, tool, vegetation or animal or causing or creating any situation or condition in or on private property or in a <term refersTo="#term-public_place" id="trm5">public place</term> or anywhere in the <term refersTo="#term-Municipality" id="trm6">Municipality</term> which causes damage, annoyance, inconvenience or discomfort to the public or to any person, in the exercise of rights common to all or of any person;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-10" refersTo="#term-overnight">
+            <content>
+              <p>"<def refersTo="#term-overnight">overnight</def>" means the period from 20h00 in the evening to 06h00 in the morning;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-11">
+            <content>
+              <blockList id="section-1.subsection-11.list11" refersTo="#term-public_place">
+                <listIntroduction>"<def refersTo="#term-public_place">public place</def>" means–</listIntroduction>
+                <item id="section-1.subsection-11.list11.a">
+                  <num>(a)</num>
+                  <p>a <term refersTo="#term-public_road" id="trm7">public road</term>;</p>
+                </item>
+                <item id="section-1.subsection-11.list11.b">
+                  <num>(b)</num>
+                  <blockList id="section-1.subsection-11.list11.b.list0">
+                    <listIntroduction>any parking area, square, park, recreation ground, sports ground, swimming pool, sanitary lane, open space, beach, shopping centre on municipal land, unused or vacant municipal land or cemetery which has– (i) in connection with any subdivision or layout of land into erven, lots or plots, been provided, reserved or set apart for use by the public or the owners or occupiers of such erven, lots or plots, whether or not it is shown on a general plan, plan of subdivision or diagram;</listIntroduction>
+                    <item id="section-1.subsection-11.list11.b.list0.ii">
+                      <num>(ii)</num>
+                      <p>at any time been dedicated to the public;</p>
+                    </item>
+                    <item id="section-1.subsection-11.list11.b.list0.iii">
+                      <num>(iii)</num>
+                      <p>been used without interruption by the public for a period of at least thirty years expiring after 31 December 1959; or</p>
+                    </item>
+                    <item id="section-1.subsection-11.list11.b.list0.iv">
+                      <num>(iv)</num>
+                      <p>at any time been declared or rendered as such by the <term refersTo="#term-Municipality" id="trm8">Municipality</term> or other competent authority;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-1.subsection-11.list11.c">
+                  <num>(c)</num>
+                  <p>a <term refersTo="#term-public_transportation_motor-vehicle" id="trm9">public transportation motor-vehicle</term>; or</p>
+                </item>
+                <item id="section-1.subsection-11.list11.d">
+                  <num>(d)</num>
+                  <p>a municipal property, premises or facility which the public has access to,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-12">
+            <content>
+              <p>but will not include public land that has been leased or otherwise alienated by the <term refersTo="#term-Municipality" id="trm10">Municipality</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-13">
+            <content>
+              <blockList id="section-1.subsection-13.list13" refersTo="#term-public_road">
+                <listIntroduction>"<def refersTo="#term-public_road">public road</def>" means any road, street or thoroughfare or any other place, whether a thoroughfare or not, which is commonly used by the public or any section thereof or to which the public or any section thereof has a right of access, and includes –</listIntroduction>
+                <item id="section-1.subsection-13.list13.a">
+                  <num>(a)</num>
+                  <p>the verge of any such road, street or thoroughfare;</p>
+                </item>
+                <item id="section-1.subsection-13.list13.b">
+                  <num>(b)</num>
+                  <p>any bridge, ferry or drift traversed by any such road, street or thoroughfare; and</p>
+                </item>
+                <item id="section-1.subsection-13.list13.c">
+                  <num>(c)</num>
+                  <p>any other work or object forming part of or connected with or belonging to such road, street or thoroughfare;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-14" refersTo="#term-public_transportation_motor-vehicle">
+            <content>
+              <p>"<def refersTo="#term-public_transportation_motor-vehicle">public transportation motor-vehicle</def>" includes any train, bus, minibus or motorvehicle travelling on land, water or in the air, conveying members of the public at a fee; and</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-15">
+            <content>
+              <blockList id="section-1.subsection-15.list15" refersTo="#term-waste">
+                <listIntroduction>"<def refersTo="#term-waste">waste</def>" means any substance, whether or not that substance can be reduced, reused, recycled and recovered–</listIntroduction>
+                <item id="section-1.subsection-15.list15.a">
+                  <num>(a)</num>
+                  <p>that is surplus, unwanted, rejected, discarded, abandoned or disposed of;</p>
+                </item>
+                <item id="section-1.subsection-15.list15.b">
+                  <num>(b)</num>
+                  <p>which the generator has no further use of for the purposes of production;</p>
+                </item>
+                <item id="section-1.subsection-15.list15.c">
+                  <num>(c)</num>
+                  <p>that must be treated or disposed of; or</p>
+                </item>
+                <item id="section-1.subsection-15.list15.d">
+                  <num>(d)</num>
+                  <blockList id="section-1.subsection-15.list15.d.list0">
+                    <listIntroduction>that is identified as a waste by the Minister by notice in the Gazette, and includes waste generated by the mining, medical or other sector, but–</listIntroduction>
+                    <item id="section-1.subsection-15.list15.d.list0.i">
+                      <num>(i)</num>
+                      <p>a by-product is not considered waste; and</p>
+                    </item>
+                    <item id="section-1.subsection-15.list15.d.list0.ii">
+                      <num>(ii)</num>
+                      <p>any portion of waste, once re-used, recycled and recovered, ceases to be waste.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Interpretation of By-law</heading>
+          <subsection id="section-2.subsection-0">
+            <content>
+              <p>If there is a conflict of interpretation between the English version of this By-law and a translated version, the English version prevails.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-2">
+        <num>2</num>
+        <heading>Objects of by-law</heading>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Objects of By-law</heading>
+          <subsection id="section-3.subsection-0">
+            <content>
+              <blockList id="section-3.subsection-0.list0">
+                <listIntroduction>The objects of this By-law are to provide–</listIntroduction>
+                <item id="section-3.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>measures to regulate and control conduct or behaviour which causes or is likely to cause discomfort, annoyance or inconvenience to the public or users of any <term refersTo="#term-public_place" id="trm11">public place</term>, so as ensure that any such discomfort, annoyance or inconvenience is avoided, and where total avoidance is impossible or impractical, that it is minimised and managed; and</p>
+                </item>
+                <item id="section-3.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>penalties for breach of its provisions.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>Application</heading>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Application of By-law</heading>
+          <subsection id="section-4.subsection-0">
+            <content>
+              <p>This By-law applies to all areas which fall under the jurisdiction of the eThekwini <term refersTo="#term-Municipality" id="trm12">Municipality</term> and is binding on all persons to the extent applicable.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-4">
+        <num>4</num>
+        <heading>Prohibited conduct</heading>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>General prohibition and <term refersTo="#term-nuisance" id="trm13">nuisance</term> behaviour</heading>
+          <subsection id="section-5.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-5.1.list0">
+                <listIntroduction>No person may in a <term refersTo="#term-public_place" id="trm14">public place</term>–</listIntroduction>
+                <item id="section-5.1.list0.a">
+                  <num>(a)</num>
+                  <p>act in a manner which is dangerous to life or which may damage property;</p>
+                </item>
+                <item id="section-5.1.list0.b">
+                  <num>(b)</num>
+                  <p>unlawfully enter a <term refersTo="#term-public_place" id="trm15">public place</term> to which access has been restricted in terms of this By-law or any other law;</p>
+                </item>
+                <item id="section-5.1.list0.c">
+                  <num>(c)</num>
+                  <p>cause a <term refersTo="#term-nuisance" id="trm16">nuisance</term>; or</p>
+                </item>
+                <item id="section-5.1.list0.d">
+                  <num>(d)</num>
+                  <p>behave in an indecent, offensive or objectionable manner.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-5.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-5.2.list1">
+                <listIntroduction>No person may in a <term refersTo="#term-public_place" id="trm17">public place</term>–</listIntroduction>
+                <item id="section-5.2.list1.a">
+                  <num>(a)</num>
+                  <p>use abusive, threatening or foul language or gestures;</p>
+                </item>
+                <item id="section-5.2.list1.b">
+                  <num>(b)</num>
+                  <p>fight or act in a riotous or physically threatening manner;</p>
+                </item>
+                <item id="section-5.2.list1.c">
+                  <num>(c)</num>
+                  <p>urinate or defecate, except in a facility provided for such purpose;</p>
+                </item>
+                <item id="section-5.2.list1.d">
+                  <num>(d)</num>
+                  <blockList id="section-5.2.list1.d.list0">
+                    <listIntroduction>bathe or wash himself or herself, except–</listIntroduction>
+                    <item id="section-5.2.list1.d.list0.i">
+                      <num>(i)</num>
+                      <p>in a bath or shower; or</p>
+                    </item>
+                    <item id="section-5.2.list1.d.list0.ii">
+                      <num>(ii)</num>
+                      <p>as part of a religious or cultural ceremony in an area where such ceremony is lawfully taking place: Provided no <term refersTo="#term-nuisance" id="trm18">nuisance</term> is caused thereby;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-5.2.list1.e">
+                  <num>(e)</num>
+                  <p>bathe or wash clothes, animals, or other articles;</p>
+                </item>
+                <item id="section-5.2.list1.f">
+                  <num>(f)</num>
+                  <p>spit;</p>
+                </item>
+                <item id="section-5.2.list1.g">
+                  <num>(g)</num>
+                  <p>perform any sexual act;</p>
+                </item>
+                <item id="section-5.2.list1.h">
+                  <num>(h)</num>
+                  <p>appear in the nude or expose his or her genitalia;</p>
+                </item>
+                <item id="section-5.2.list1.i">
+                  <num>(i)</num>
+                  <p>consume any liquor or be in a state of intoxication;</p>
+                </item>
+                <item id="section-5.2.list1.j">
+                  <num>(j)</num>
+                  <p>use any drugs or be under the influence of drugs;</p>
+                </item>
+                <item id="section-5.2.list1.k">
+                  <num>(k)</num>
+                  <p>solicit or importune any person for the purpose of prostitution, human trafficking or other illegal business;</p>
+                </item>
+                <item id="section-5.2.list1.l">
+                  <num>(l)</num>
+                  <p>engage in gambling or wagering;</p>
+                </item>
+                <item id="section-5.2.list1.m">
+                  <num>(m)</num>
+                  <p>start or keep a fire unless for the purposes of making a braai in an area where such activity is permitted, unless that person is authorised to make and keep such fire by the <term refersTo="#term-Municipality" id="trm19">Municipality</term> or in terms of law;</p>
+                </item>
+                <item id="section-5.2.list1.n">
+                  <num>(n)</num>
+                  <p>other than a peace officer or other official or person acting in terms of the law, deposit, pack, unpack or leave any goods or articles in a <term refersTo="#term-public_place" id="trm20">public place</term>, or cause any goods or articles to be deposited, packed, unpacked or left in a <term refersTo="#term-public_place" id="trm21">public place</term>, other than for a reasonable period during the course of the loading, off-loading or removal of such goods or articles;</p>
+                </item>
+                <item id="section-5.2.list1.o">
+                  <num>(o)</num>
+                  <p>carry or convey through a <term refersTo="#term-public_road" id="trm22">public road</term> any object, item, material or substance which, owing to its smell, noise, vibration, size or anything to do with its nature, character or owing to the manner of its conveyance, is such that it causes or is likely to cause a <term refersTo="#term-nuisance" id="trm23">nuisance</term>, which includes but not limited to a carcass of an animal, any garbage, night-soil, refuse, litter, rubbish or manure, unless carried or conveyed in a manner allowed by law and which does not cause a greater level of discomfort, inconvenience or annoyance than that allowed by any such law;</p>
+                </item>
+                <item id="section-5.2.list1.p">
+                  <num>(p)</num>
+                  <p>discharge fireworks except in accordance with the By-law of the <term refersTo="#term-Municipality" id="trm24">Municipality</term> dealing with fire and other applicable law;</p>
+                </item>
+                <item id="section-5.2.list1.q">
+                  <num>(q)</num>
+                  <p>lie or sleep on any bench, seating place, street or sidewalk, or use it in such a manner that it prevents others from using it;</p>
+                </item>
+                <item id="section-5.2.list1.r">
+                  <num>(r)</num>
+                  <p>beg for money or goods whether by gesture, words or otherwise;</p>
+                </item>
+                <item id="section-5.2.list1.s">
+                  <num>(s)</num>
+                  <p>associate or act in concert with other persons for any purpose or in any manner which causes or is likely to cause a breach of the peace;</p>
+                </item>
+                <item id="section-5.2.list1.t">
+                  <num>(t)</num>
+                  <p>behave in a manner which causes or is likely to cause a danger to himself, herself or the public;</p>
+                </item>
+                <item id="section-5.2.list1.u">
+                  <num>(u)</num>
+                  <p>loiter for the purpose of or with the intention of committing an offence; or</p>
+                </item>
+                <item id="section-5.2.list1.v">
+                  <num>(v)</num>
+                  <p>in any way cause a <term refersTo="#term-nuisance" id="trm25">nuisance</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-5.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm26">Municipality</term> may erect signage indicating prohibited or permissible conduct in a <term refersTo="#term-public_place" id="trm27">public place</term> for the purposes of section 5.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Vegetation</heading>
+          <subsection id="section-6.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-6.1.list0">
+                <listIntroduction>No person may allow any tree or other growth on any premises under his or her control to–</listIntroduction>
+                <item id="section-6.1.list0.a">
+                  <num>(a)</num>
+                  <blockList id="section-6.1.list0.a.list0">
+                    <listIntroduction>interfere with–</listIntroduction>
+                    <item id="section-6.1.list0.a.list0.i">
+                      <num>(i)</num>
+                      <p>any public service infrastructure; or</p>
+                    </item>
+                    <item id="section-6.1.list0.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>communal services infrastructure such as, but not limited to, overhead wires, storm water drainage or sewerage system; or</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-6.1.list0.b">
+                  <num>(b)</num>
+                  <p>become a source of annoyance, danger, inconvenience or discomfort to persons using a <term refersTo="#term-public_road" id="trm28">public road</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-6.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm29">Municipality</term> may by written notice direct the owner, occupier or person in control of premises contemplated in subsection (1) to prune or remove such tree or growth to the extent and within the period specified in such notice.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.3">
+            <num>(3)</num>
+            <content>
+              <p>If the person contemplated in subsection (2) fails to take measures contemplated in the notice issued in terms of that subsection, the <term refersTo="#term-Municipality" id="trm30">Municipality</term> may act and recover costs from that person.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-6.4.list3">
+                <listIntroduction>No person other than a duly <term refersTo="#term-authorised_official" id="trm31">authorised official</term> of the <term refersTo="#term-Municipality" id="trm32">Municipality</term> may–</listIntroduction>
+                <item id="section-6.4.list3.a">
+                  <num>(a)</num>
+                  <p>plant a tree or plant in a <term refersTo="#term-public_place" id="trm33">public place</term>, or in any way cut down a tree or shrub in a <term refersTo="#term-public_place" id="trm34">public place</term> or remove it therefrom, except with the written permission of the <term refersTo="#term-Municipality" id="trm35">Municipality</term>;</p>
+                </item>
+                <item id="section-6.4.list3.b">
+                  <num>(b)</num>
+                  <p>climb, break or damage a tree growing in a <term refersTo="#term-public_place" id="trm36">public place</term>; or</p>
+                </item>
+                <item id="section-6.4.list3.c">
+                  <num>(c)</num>
+                  <p>in any way mark or paint any tree growing in a <term refersTo="#term-public_place" id="trm37">public place</term> or attach any advertisement or notice thereto.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Hanging of items on fences, walls, balconies or verandas</heading>
+          <subsection id="section-7.subsection-0">
+            <content>
+              <blockList id="section-7.subsection-0.list0">
+                <listIntroduction>No person may dry, spread or hang washing, bedding, carpet, rags, or any other item–</listIntroduction>
+                <item id="section-7.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>in a <term refersTo="#term-public_place" id="trm38">public place</term>;</p>
+                </item>
+                <item id="section-7.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>over a fence or wall which borders the verge of a <term refersTo="#term-public_road" id="trm39">public road</term>;</p>
+                </item>
+                <item id="section-7.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>on premises in such a manner that it is visible from a <term refersTo="#term-public_road" id="trm40">public road</term>; or</p>
+                </item>
+                <item id="section-7.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>on a balcony or veranda in such a manner that it is visible from a <term refersTo="#term-public_road" id="trm41">public road</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Noise</heading>
+          <subsection id="section-8.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-8.1.list0">
+                <listIntroduction>No person may in a <term refersTo="#term-public_place" id="trm42">public place</term> cause or permit to be caused any disturbance or impairment of the convenience or peace of any person by shouting, screaming or making any other loud or persistent noise or sound, including amplified noise or sound, except where such noise or sound is emanating from–</listIntroduction>
+                <item id="section-8.1.list0.a">
+                  <num>(a)</num>
+                  <p>an authorised public meeting, gathering, congregation or event; or</p>
+                </item>
+                <item id="section-8.1.list0.b">
+                  <num>(b)</num>
+                  <p>an emergency or rescue announcement, which noise or sound is normally associated with such meeting, gathering, congregation, event or situation and in accordance with the conditions of authorisation of any such meeting, gathering, congregation, event or situation.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-8.2">
+            <num>(2)</num>
+            <content>
+              <p>Subject to subsection (1), no person may permit noise or sound from a private residence or business premises in his or her control to be audible to users outside of such premises to such an extent that it reasonably interferes with the use and enjoyment by an owner or occupier of his or her property, except for places of entertainment as defined in the planning scheme on zoned premises where noise or sound is normally associated with the normal use of such place and in accordance with the conditions of authorisation of that business: Provided that no person may permit any noise or sound to emanate from a private residence or business premises.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-8.3.list2">
+                <listIntroduction>Notwithstanding subsections (1) and (2), no person may cause or permit to be caused any disturbance or impairment of the convenience or peace of any person within the following times:</listIntroduction>
+                <item id="section-8.3.list2.a">
+                  <num>(a)</num>
+                  <p>from Sunday to Thursday, between 21h30 to 07h00; and</p>
+                </item>
+                <item id="section-8.3.list2.b">
+                  <num>(b)</num>
+                  <p>from Friday to Saturday, between 00h00 to 08h00.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-8.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-8.4.list3">
+                <listIntroduction>No person may place or position any loudspeaker or any sound equipment at, near or outside the entrance or door of any premises for the purposes of using that loudspeaker or sound equipment to–</listIntroduction>
+                <item id="section-8.4.list3.a">
+                  <num>(a)</num>
+                  <p>make any public announcements;</p>
+                </item>
+                <item id="section-8.4.list3.b">
+                  <num>(b)</num>
+                  <p>invite or lure customers or any persons into that premises or other premises; or</p>
+                </item>
+                <item id="section-8.4.list3.c">
+                  <num>(c)</num>
+                  <p>entertain any person who is in a <term refersTo="#term-public_place" id="trm43">public place</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-8.5">
+            <num>(5)</num>
+            <content>
+              <p>No driver or person in control of a <term refersTo="#term-motor-vehicle" id="trm44">motor-vehicle</term> may permit any amplified sound or noise to emanate from the <term refersTo="#term-motor-vehicle" id="trm45">motor-vehicle</term> such that it is audible at a distance of more than 50 meters.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.6">
+            <num>(6)</num>
+            <content>
+              <p>No person may blow, or cause to be blown, a hooter of a <term refersTo="#term-motor-vehicle" id="trm46">motor-vehicle</term> in a <term refersTo="#term-public_place" id="trm47">public place</term> in such a manner or frequency that it creates a <term refersTo="#term-nuisance" id="trm48">nuisance</term>, unless the blowing of a hooter is necessary to alert any pedestrian or any user of another <term refersTo="#term-motor-vehicle" id="trm49">motor-vehicle</term> of any danger or to alert any user of a <term refersTo="#term-motor-vehicle" id="trm50">motor-vehicle</term> to any act or to desist from an act which is connected with the flow of traffic or parking of motor-vehicles.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.7">
+            <num>(7)</num>
+            <content>
+              <p>No person may rev the engine of a stationary <term refersTo="#term-motor-vehicle" id="trm51">motor-vehicle</term> in such a way that it causes <term refersTo="#term-nuisance" id="trm52">nuisance</term> in a <term refersTo="#term-public_place" id="trm53">public place</term>: Provided that a person may rev an engine for the purposes of repairing such <term refersTo="#term-motor-vehicle" id="trm54">motor-vehicle</term> which has broken down in or near a <term refersTo="#term-public_place" id="trm55">public place</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.8">
+            <num>(8)</num>
+            <content>
+              <blockList id="section-8.8.list7">
+                <listIntroduction>No person may engage in any <term refersTo="#term-construction" id="trm56">construction</term> or cause or allow such <term refersTo="#term-construction" id="trm57">construction</term> to occur, in a residential area−</listIntroduction>
+                <item id="section-8.8.list7.a">
+                  <num>(a)</num>
+                  <p>before 07h00 and after 18h00 from Monday to Saturday; and</p>
+                </item>
+                <item id="section-8.8.list7.b">
+                  <num>(b)</num>
+                  <blockList id="section-8.8.list7.b.list0">
+                    <listIntroduction>at any time on any Sunday or public holiday, except−</listIntroduction>
+                    <item id="section-8.8.list7.b.list0.i">
+                      <num>(i)</num>
+                      <p>under circumstances where such <term refersTo="#term-construction" id="trm58">construction</term> is necessary in order to preserve property or the life, safety or health of persons; or</p>
+                    </item>
+                    <item id="section-8.8.list7.b.list0.ii">
+                      <num>(ii)</num>
+                      <p>where a written exemption from paragraphs (a) and (b) were obtained from the <term refersTo="#term-Municipality" id="trm59">Municipality</term> for a specified period of time.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Litter</heading>
+          <subsection id="section-9.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-9.1.list0">
+                <listIntroduction>No person may within a <term refersTo="#term-public_place" id="trm60">public place</term>, deposit, dump or discard any <term refersTo="#term-waste" id="trm61">waste</term> or litter–</listIntroduction>
+                <item id="section-9.1.list0.a">
+                  <num>(a)</num>
+                  <p>in a manner that detracts from the cleanliness of such <term refersTo="#term-public_place" id="trm62">public place</term> or which causes a <term refersTo="#term-nuisance" id="trm63">nuisance</term>; and</p>
+                </item>
+                <item id="section-9.1.list0.b">
+                  <num>(b)</num>
+                  <p>anywhere other than in a receptacle provided by the <term refersTo="#term-Municipality" id="trm64">Municipality</term> for that purpose.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-9.2">
+            <num>(2)</num>
+            <content>
+              <p>No person may permit any <term refersTo="#term-waste" id="trm65">waste</term> or litter from any land or premises to be discarded, dumped, stored, kept or disposed of in such a manner that such <term refersTo="#term-waste" id="trm66">waste</term> or litter causes a <term refersTo="#term-nuisance" id="trm67">nuisance</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Conduct regarding motor-vehicles</heading>
+          <subsection id="section-10.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-10.1.list0">
+                <listIntroduction>No person may in a <term refersTo="#term-public_place" id="trm68">public place</term>–</listIntroduction>
+                <item id="section-10.1.list0.a">
+                  <num>(a)</num>
+                  <p>wash or clean any <term refersTo="#term-motor-vehicle" id="trm69">motor-vehicle</term>, except in an area designated by the <term refersTo="#term-Municipality" id="trm70">Municipality</term> for that purpose; or</p>
+                </item>
+                <item id="section-10.1.list0.b">
+                  <num>(b)</num>
+                  <p>effect any repairs to a <term refersTo="#term-motor-vehicle" id="trm71">motor-vehicle</term> or boat, except where repairs are necessary for the purpose of removing such <term refersTo="#term-motor-vehicle" id="trm72">motor-vehicle</term> from the place where it was involved in an accident or had a breakdown.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-10.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-10.2.list1">
+                <listIntroduction>No person may in a <term refersTo="#term-public_place" id="trm73">public place</term>–</listIntroduction>
+                <item id="section-10.2.list1.a">
+                  <num>(a)</num>
+                  <p>sleep in a stationary <term refersTo="#term-motor-vehicle" id="trm74">motor-vehicle</term> except in an emergency, or where such person is the driver of a <term refersTo="#term-public_transportation_motor-vehicle" id="trm75">public transportation motor-vehicle</term>, is guarding a <term refersTo="#term-motor-vehicle" id="trm76">motor-vehicle</term>, or is in a designated rest area; or</p>
+                </item>
+                <item id="section-10.2.list1.b">
+                  <num>(b)</num>
+                  <p>reside in a <term refersTo="#term-motor-vehicle" id="trm77">motor-vehicle</term> for longer than 24 hours,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-10.subsection-2">
+            <content>
+              <p>unless that person sleeps for the purposes of resting after a long journey using that vehicle: Provided that an <term refersTo="#term-authorised_official" id="trm78">authorised official</term> may at any time direct that person to move the vehicle away from such place or to desist from sleeping or residing in the vehicle.</p>
+            </content>
+          </subsection>
+          <subsection id="section-10.3">
+            <num>(3)</num>
+            <content>
+              <p>Unless permitted to do so by the <term refersTo="#term-Municipality" id="trm79">Municipality</term> or in terms of any land use scheme or legislation, no person may park a <term refersTo="#term-heavy-duty_vehicle" id="trm80">heavy-duty vehicle</term><term refersTo="#term-overnight" id="trm81">overnight</term> on private premises or vacant land.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Skating, roller-skating and other dangerous acts</heading>
+          <subsection id="section-11.1">
+            <num>(1)</num>
+            <content>
+              <p>No person may in a <term refersTo="#term-public_place" id="trm82">public place</term> skate on roller-skates or a skate-board or similar device except where permitted by the <term refersTo="#term-Municipality" id="trm83">Municipality</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-11.2">
+            <num>(2)</num>
+            <content>
+              <p>No person may in a <term refersTo="#term-public_place" id="trm84">public place</term> do anything which may endanger the life or safety of any person or animal, including but not limited to shooting with a bow and arrow or catapult, or throwing a stone, stick or other projectile in, onto or across a <term refersTo="#term-public_place" id="trm85">public place</term>: Provided that shooting with a pellet gun or similar object which is intended solely for recreational purposes is not prohibited if it is discharged safely.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Obstructing, blocking or disturbing of traffic and pedestrians</heading>
+          <subsection id="section-12.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-12.1.list0">
+                <listIntroduction>No person may–</listIntroduction>
+                <item id="section-12.1.list0.a">
+                  <num>(a)</num>
+                  <p>in a <term refersTo="#term-public_place" id="trm86">public place</term>, intentionally block or interfere with the safe or free passage of a pedestrian or <term refersTo="#term-motor-vehicle" id="trm87">motor-vehicle</term>, unless to the extent authorised by law; or</p>
+                </item>
+                <item id="section-12.1.list0.b">
+                  <num>(b)</num>
+                  <p>approach any pedestrian or a person inside a <term refersTo="#term-motor-vehicle" id="trm88">motor-vehicle</term> on any <term refersTo="#term-public_road" id="trm89">public road</term> or <term refersTo="#term-public_road" id="trm90">public road</term> intersection or any other <term refersTo="#term-public_place" id="trm91">public place</term> for the purposes of begging from such pedestrian or person in a <term refersTo="#term-motor-vehicle" id="trm92">motor-vehicle</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-12.2">
+            <num>(2)</num>
+            <content>
+              <p>Any person, who unlawfully blocks, occupies or reserves a public parking space, or begs, stands, sits, lies in a <term refersTo="#term-public_place" id="trm93">public place</term>, or does anything which hinders or disturbs the flow of pedestrian or road traffic must immediately cease to do so when directed by an <term refersTo="#term-authorised_official" id="trm94">authorised official</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Excavation in public places</heading>
+          <subsection id="section-13.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-13.1.list0">
+                <listIntroduction>No person may make or cause to be made an excavation, a pit, trench or hole in a <term refersTo="#term-public_place" id="trm95">public place</term>–</listIntroduction>
+                <item id="section-13.1.list0.a">
+                  <num>(a)</num>
+                  <p>except with the written permission of the <term refersTo="#term-Municipality" id="trm96">Municipality</term>; and</p>
+                </item>
+                <item id="section-13.1.list0.b">
+                  <num>(b)</num>
+                  <p>otherwise than in accordance with the requirements prescribed by the <term refersTo="#term-Municipality" id="trm97">Municipality</term> or authorised in terms of the applicable By-law of the <term refersTo="#term-Municipality" id="trm98">Municipality</term> or any other law.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-13.2">
+            <num>(2)</num>
+            <content>
+              <p>The provisions of subsection (1) do not prevent a person from erecting an umbrella or any other similar object in a <term refersTo="#term-public_place" id="trm99">public place</term>: Provided that the manner in which it is erected does not result in damage to the vegetation or anything forming part of the <term refersTo="#term-public_place" id="trm100">public place</term> concerned.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.subsection-2">
+            <content>
+              <p>Weed-killers, herbicides, poisons or pesticides 14. No person other than an <term refersTo="#term-authorised_official" id="trm101">authorised official</term> or an authorised person who administers legally approved weed-killers, herbicides, poisons or pesticides may set or cast such substances in any <term refersTo="#term-public_place" id="trm102">public place</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Municipal property</heading>
+          <subsection id="section-15.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-15.1.list0">
+                <listIntroduction>No person, unless authorised by the <term refersTo="#term-Municipality" id="trm103">Municipality</term> or in terms of any other law, may within a <term refersTo="#term-public_place" id="trm104">public place</term>–</listIntroduction>
+                <item id="section-15.1.list0.a">
+                  <num>(a)</num>
+                  <p>deface, damage, destroy or remove any property or part thereof which is affixed, placed or erected in or on a <term refersTo="#term-public_place" id="trm105">public place</term>;</p>
+                </item>
+                <item id="section-15.1.list0.b">
+                  <num>(b)</num>
+                  <p>paint or draw graffiti or other form of art or hobby on any property which forms part of a <term refersTo="#term-public_place" id="trm106">public place</term>;</p>
+                </item>
+                <item id="section-15.1.list0.c">
+                  <num>(c)</num>
+                  <p>erect, build or assemble any structure, including a hut, tent, screen, bulletin board, pole, stand or stage;</p>
+                </item>
+                <item id="section-15.1.list0.d">
+                  <num>(d)</num>
+                  <p>affix or place on any municipal property, or distribute, any printed matter; or</p>
+                </item>
+                <item id="section-15.1.list0.e">
+                  <num>(e)</num>
+                  <p>plug, tamper with, or in any way damage any plumbing, electrical, heating or other fixtures or installations.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-15.2">
+            <num>(2)</num>
+            <content>
+              <p>The provisions of subsection (1) do not apply to any person who is employed or authorised by the <term refersTo="#term-Municipality" id="trm107">Municipality</term> for the purposes of fixing, repairing, demolishing, renovating or providing any such service for or on behalf of the <term refersTo="#term-Municipality" id="trm108">Municipality</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Nuisance arising from the use of premises</heading>
+          <subsection id="section-16.subsection-0">
+            <content>
+              <p>No owner, occupier or person in control of land or premises may use or allow such land or premises to be used in a manner which creates or is likely to create a <term refersTo="#term-nuisance" id="trm109">nuisance</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-5">
+        <num>5</num>
+        <heading>General powers of the municipality</heading>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Goods and services offered for sale</heading>
+          <subsection id="section-17.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm110">Municipality</term> may, in terms of the By-law of the <term refersTo="#term-Municipality" id="trm111">Municipality</term> dealing specifically with informal trade, designate areas within public places, where marketing, display or offering for sale of any goods or services is prohibited or controlled in order to, amongst other reasons as contemplated in such By-law, constrain nuisances.</p>
+            </content>
+          </subsection>
+          <subsection id="section-17.2">
+            <num>(2)</num>
+            <content>
+              <p>Subsection (1) does not apply to the selling of newspapers at intersections or to the sale of goods by non-governmental organisations or developmental organisations who may apply for exemption for all their traders.</p>
+            </content>
+          </subsection>
+          <subsection id="section-17.3">
+            <num>(3)</num>
+            <content>
+              <p>Notwithstanding subsection (1), the <term refersTo="#term-Municipality" id="trm112">Municipality</term> may, in terms of the By-laws contemplated in subsection (1), issue permits for the sale of goods or services, and in so doing, the <term refersTo="#term-Municipality" id="trm113">Municipality</term> may limit the number of permits for an area and stipulate such conditions as it may from time to time prescribe.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Designated areas</heading>
+          <subsection id="section-18.subsection-0">
+            <content>
+              <blockList id="section-18.subsection-0.list0">
+                <listIntroduction>The <term refersTo="#term-Municipality" id="trm114">Municipality</term> may in relation to any <term refersTo="#term-public_place" id="trm115">public place</term>, to the extent empowered by law–</listIntroduction>
+                <item id="section-18.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>designate a <term refersTo="#term-public_place" id="trm116">public place</term> or part thereof for a specific function or use at designated times or at all times, and prohibit certain activities or conduct in respect of any such <term refersTo="#term-public_place" id="trm117">public place</term>;</p>
+                </item>
+                <item id="section-18.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>develop any <term refersTo="#term-public_place" id="trm118">public place</term> in the interest of the public;</p>
+                </item>
+                <item id="section-18.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>erect, construct, establish or demolish municipal property; or</p>
+                </item>
+                <item id="section-18.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>exercise any other power reasonably necessary for the discharge of its obligations in terms of this By-law relating to the management of public places or otherwise in terms of any other law.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-19">
+          <num>19.</num>
+          <heading>Restricted access</heading>
+          <subsection id="section-19.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-19.1.list0">
+                <listIntroduction>The <term refersTo="#term-Municipality" id="trm119">Municipality</term> may, by appropriate signage, restrict access to any part of a <term refersTo="#term-public_place" id="trm120">public place</term> for a specified period of time to–</listIntroduction>
+                <item id="section-19.1.list0.a">
+                  <num>(a)</num>
+                  <p>protect any aspect of the environment within a <term refersTo="#term-public_place" id="trm121">public place</term>;</p>
+                </item>
+                <item id="section-19.1.list0.b">
+                  <num>(b)</num>
+                  <p>reduce vandalism and the destruction of property;</p>
+                </item>
+                <item id="section-19.1.list0.c">
+                  <num>(c)</num>
+                  <p>improve the administration of a <term refersTo="#term-public_place" id="trm122">public place</term>;</p>
+                </item>
+                <item id="section-19.1.list0.d">
+                  <num>(d)</num>
+                  <p>develop a <term refersTo="#term-public_place" id="trm123">public place</term>;</p>
+                </item>
+                <item id="section-19.1.list0.e">
+                  <num>(e)</num>
+                  <p>enable a special event which has been permitted in terms of this By-law or any other law to proceed; or</p>
+                </item>
+                <item id="section-19.1.list0.f">
+                  <num>(f)</num>
+                  <p>undertake any activity which the <term refersTo="#term-Municipality" id="trm124">Municipality</term> reasonably considers necessary or appropriate to achieve the purposes of this By-law.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-6">
+        <num>6</num>
+        <heading>Enforcement</heading>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>Powers of authorised officials</heading>
+          <subsection id="section-20.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-20.1.list0">
+                <listIntroduction>The <term refersTo="#term-authorised_official" id="trm125">authorised official</term> may, in respect of premises, at all reasonable times enter any land or premises on which a <term refersTo="#term-nuisance" id="trm126">nuisance</term> in terms of this By-law occurs or is alleged to occur or to have occurred and–</listIntroduction>
+                <item id="section-20.1.list0.a">
+                  <num>(a)</num>
+                  <p>inspect or monitor the land or premises;</p>
+                </item>
+                <item id="section-20.1.list0.b">
+                  <num>(b)</num>
+                  <p>question the owner, occupier or person in control of the land or premises;</p>
+                </item>
+                <item id="section-20.1.list0.c">
+                  <num>(c)</num>
+                  <p>serve any compliance notice to the owner, occupier or person in control;</p>
+                </item>
+                <item id="section-20.1.list0.d">
+                  <num>(d)</num>
+                  <p>take photos of any items used on the land or in the premises to cause a <term refersTo="#term-nuisance" id="trm127">nuisance</term>; and (e)</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-20.subsection-1">
+            <content>
+              <p>take samples or other evidence in respect of any <term refersTo="#term-nuisance" id="trm128">nuisance</term> caused.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.2">
+            <num>(2)</num>
+            <content>
+              <p>A duly <term refersTo="#term-authorised_official" id="trm129">authorised official</term> may, in respect of a <term refersTo="#term-nuisance" id="trm130">nuisance</term> caused or alleged to be caused in a <term refersTo="#term-public_place" id="trm131">public place</term>, instruct a person to cease an act or conduct which causes such <term refersTo="#term-nuisance" id="trm132">nuisance</term>, with immediate effect.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.3">
+            <num>(3)</num>
+            <content>
+              <p>If it appears to the <term refersTo="#term-authorised_official" id="trm133">authorised official</term> that it is not possible for the offending person to comply with his or her instructions forthwith, the enforcement officer must issue a warning notice in the form prescribed by the <term refersTo="#term-Municipality" id="trm134">Municipality</term>, instructing the offending person to cease an act or conduct causing <term refersTo="#term-nuisance" id="trm135">nuisance</term> within a reasonable time period.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.4">
+            <num>(4)</num>
+            <content>
+              <p>When issuing a warning notice the <term refersTo="#term-authorised_official" id="trm136">authorised official</term> must procure the signature of the offending person confirming receipt of a warning notice.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-20.5.list5">
+                <listIntroduction>The <term refersTo="#term-authorised_official" id="trm137">authorised official</term> must inform the offending person that–</listIntroduction>
+                <item id="section-20.5.list5.a">
+                  <num>(a)</num>
+                  <p>a signature of the offending party in terms of subsection (3) does not on its own constitute an admission of guilt; and</p>
+                </item>
+                <item id="section-20.5.list5.b">
+                  <num>(b)</num>
+                  <p>it is an offence in terms of this By-law to refuse to sign a warning notice issued by an <term refersTo="#term-authorised_official" id="trm138">authorised official</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-7">
+        <num>7</num>
+        <heading>Offences and penalties</heading>
+        <section id="section-21">
+          <num>21.</num>
+          <heading>Offences</heading>
+          <subsection id="section-21.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-21.1.list0">
+                <listIntroduction>A person commits an offence if he or she–</listIntroduction>
+                <item id="section-21.1.list0.a">
+                  <num>(a)</num>
+                  <p>contravenes any provision of this By-law;</p>
+                </item>
+                <item id="section-21.1.list0.b">
+                  <num>(b)</num>
+                  <p>contravenes any conditions, restrictions or prohibitions imposed in terms of this Bylaw;</p>
+                </item>
+                <item id="section-21.1.list0.c">
+                  <num>(c)</num>
+                  <p>fails to comply with the terms of any notice or signage displayed in terms of this Bylaw;</p>
+                </item>
+                <item id="section-21.1.list0.d">
+                  <num>(d)</num>
+                  <p>obstructs, hinders, or in any manner interferes with an <term refersTo="#term-authorised_official" id="trm139">authorised official</term> who is acting or entitled to act in terms of this By-law; or</p>
+                </item>
+                <item id="section-21.1.list0.e">
+                  <num>(e)</num>
+                  <p>fails to obey any lawful instruction or direction given to him or her in terms of this By-law.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-21.2">
+            <num>(2)</num>
+            <content>
+              <p>A person is guilty of a continuing offence if he or she continues with an offence after notice has been served on him or her in terms of this By-law requiring him or her to cease committing such offence.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-22">
+          <num>22.</num>
+          <heading>Penalties</heading>
+          <subsection id="section-22.1">
+            <num>(1)</num>
+            <content>
+              <p>Any person who is convicted of an offence under this By-law is be liable to a fine of an amount not exceeding R40 000 or to imprisonment for a period not exceeding 2 years, or to both such fine and imprisonment.</p>
+            </content>
+          </subsection>
+          <subsection id="section-22.2">
+            <num>(2)</num>
+            <content>
+              <p>In the case of a continuing offence, an additional fine of an amount not exceeding R200 or imprisonment for a period not exceeding 10 days, for each day on which such offence continues or both such fine and imprisonment, will be imposed.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-8">
+        <num>8</num>
+        <heading>General provisions</heading>
+        <section id="section-23">
+          <num>23.</num>
+          <heading>Appeals</heading>
+          <subsection id="section-23.1">
+            <num>(1)</num>
+            <content>
+              <p>A person whose rights are affected by a decision taken by the <term refersTo="#term-Municipality" id="trm140">Municipality</term> in terms of this By-law may appeal against that decision in terms of the Appeals provision contained in the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000) by giving written notice of the appeal and reasons thereof to the <term refersTo="#term-municipal_manager" id="trm141">municipal manager</term> within 21 days of the date of the notification of the decision.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-municipal_manager" id="trm142">municipal manager</term> must promptly submit the appeal to the appropriate appeal authority.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.3">
+            <num>(3)</num>
+            <content>
+              <p>The appeal authority must commence with an appeal within six weeks and decide the appeal within a reasonable period.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.4">
+            <num>(4)</num>
+            <content>
+              <p>The appeal authority must confirm, vary or revoke the decision, but no such variation or revocation of a decision may detract from any rights which may have accrued as a result of the decision.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.5">
+            <num>(5)</num>
+            <content>
+              <p>The appeal authority must furnish written reasons for its decision on all appeal matters.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.6">
+            <num>(6)</num>
+            <content>
+              <p>All appeals lodged are done so in terms of the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000) and not in terms of this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.7">
+            <num>(7)</num>
+            <content>
+              <p>Where a conviction has been affirmed by a court of law and the accused wishes to appeal such conviction, the appeal must take place in terms of the court’s appeal process and not in terms of subsections (1) to (5).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-24">
+          <num>24.</num>
+          <heading>Repeals</heading>
+          <subsection id="section-24.subsection-0">
+            <content>
+              <p>The By-laws and Notices listed in the Schedule to this By-law are hereby repealed to the extent mentioned in the third column of the said Schedule.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-25">
+          <num>25.</num>
+          <heading>Delegations</heading>
+          <subsection id="section-25.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-25.1.list0">
+                <listIntroduction>Subject to the Constitution and applicable national and provincial laws, any –</listIntroduction>
+                <item id="section-25.1.list0.a">
+                  <num>(a)</num>
+                  <p>power, excluding a power referred to in section 160(2) of the Constitution;</p>
+                </item>
+                <item id="section-25.1.list0.b">
+                  <num>(b)</num>
+                  <p>function; or</p>
+                </item>
+                <item id="section-25.1.list0.c">
+                  <num>(c)</num>
+                  <p>duty conferred, in terms of this By-law, upon the council, or on any of the <term refersTo="#term-Municipality" id="trm143">Municipality</term>'s other political structures, political office bearers, councillors or staff members, may be delegated or sub-delegated by such political structure, political office bearer, councillor, or staff member, to an entity within, or a staff member employed by, the <term refersTo="#term-Municipality" id="trm144">Municipality</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-25.2">
+            <num>(2)</num>
+            <content>
+              <p>The delegation in terms of sub-section (1) must be effected in accordance with the system of delegation adopted by the council in accordance with section 59(1) of the Local Government: Municipal Systems Act, 2000 (Act No.32 of 2000), subject to the criteria set out in section 59(2) of said Act.</p>
+            </content>
+          </subsection>
+          <subsection id="section-25.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-25.3.list2">
+                <listIntroduction>Any delegation contemplated in this section must be recorded in the Register of Delegations, which must contain information on the–</listIntroduction>
+                <item id="section-25.3.list2.a">
+                  <num>(a)</num>
+                  <p>entity or person issuing the delegation or sub-delegation;</p>
+                </item>
+                <item id="section-25.3.list2.b">
+                  <num>(b)</num>
+                  <p>recipient of the delegation or sub-delegation; and</p>
+                </item>
+                <item id="section-25.3.list2.c">
+                  <num>(c)</num>
+                  <p>conditions attached to the delegation or sub-delegation.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-26">
+          <num>26.</num>
+          <heading>Short title and commencement</heading>
+          <subsection id="section-26.1">
+            <num>(1)</num>
+            <content>
+              <p>This By-Law is called the eThekwini <term refersTo="#term-Municipality" id="trm145">Municipality</term>: Nuisances and Behaviour in Public Places By-law, 2015 and takes effect six months from the date of publication thereof in the Provincial Gazette or on such earlier date as may be determined by the publication of a commencement notice in the Provincial Gazette..</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+    </body>
+  </act>
+  <components>
+    <component id="component-schedule1">
+      <doc name="schedule1">
+        <meta>
+          <identification source="#slaw">
+            <FRBRWork>
+              <FRBRthis value="/za-eth/act/by-law/2015/nuisances-behaviour-public-places/schedule1"/>
+              <FRBRuri value="/za-eth/act/by-law/2015/nuisances-behaviour-public-places"/>
+              <FRBRalias value="Schedule 1"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-eth/act/by-law/2015/nuisances-behaviour-public-places/eng@2015-09-11/schedule1"/>
+              <FRBRuri value="/za-eth/act/by-law/2015/nuisances-behaviour-public-places/eng@2015-09-11"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-eth/act/by-law/2015/nuisances-behaviour-public-places/eng@2015-09-11/schedule1"/>
+              <FRBRuri value="/za-eth/act/by-law/2015/nuisances-behaviour-public-places/eng@2015-09-11"/>
+              <FRBRdate date="2016-03-03" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule1">
+            <heading>LAWS REPEALED (in terms of Section 24 of this By-law)</heading>
+            <part id="part-A">
+              <num>A</num>
+              <heading>BY-LAWS</heading>
+              <paragraph id="part-A.paragraph-0">
+                <content>
+                  <table id="part-A.table0">
+                    <tr>
+                      <th>
+                        <p>Number and year of law</p>
+                      </th>
+                      <th>
+                        <p>Title</p>
+                      </th>
+                      <th>
+                        <p>Extent of repeal</p>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Municipal Notice No. 25 of 1992published in Provincial Gazette No. 4842 dated 27 February, 1992</p>
+                      </td>
+                      <td>
+                        <p>Amanzimtoti Nuisances By- laws</p>
+                      </td>
+                      <td>
+                        <p>The whole</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 22 of 1962published in Provincial Gazette No. 3072 dated 11 January, 1962</p>
+                      </td>
+                      <td>
+                        <p>Lower Illovo Regulation Relating to Nuisances</p>
+                      </td>
+                      <td>
+                        <p>The whole</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 39 of 1968 published in Provincial Gazette No. 3428 dated 25 January, 1968</p>
+                      </td>
+                      <td>
+                        <p>Lower Illovo Health Committee General Regulations</p>
+                      </td>
+                      <td>
+                        <p>Chapter XI</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 748 of 1981published in Provincial Gazette No. 4276 dated 31 December, 1981.</p>
+                      </td>
+                      <td>
+                        <p>Borough of Pinetown Nuisance By-laws</p>
+                      </td>
+                      <td>
+                        <p>The whole</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 56 of 1931 published in Provincial Gazette No. 1188 dated 26 February, 1931.</p>
+                      </td>
+                      <td>
+                        <p>Tongaat Health Committee Regulations and Traffic Maintenance of Good Order</p>
+                      </td>
+                      <td>
+                        <p>The whole</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 87 of 1953 published in Provincial Gazette No. 2461 dated 10 March, 1953</p>
+                      </td>
+                      <td>
+                        <p>Township of Tongaat, Standard By-laws</p>
+                      </td>
+                      <td>
+                        <p>Chapter II</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Municipal Notice No. 22 of 1993published in Provincial Gazette No. 4898 dated 25 February, 1993.</p>
+                      </td>
+                      <td>
+                        <p>Gillits By-laws Regarding Nuisances and the Overcrowding of Residential Premises</p>
+                      </td>
+                      <td>
+                        <p>The whole</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Municipal Notice No. 22 of 1993published in Provincial Gazette No. 4898 dated 25 February, 1993.</p>
+                      </td>
+                      <td>
+                        <p>Hillcrest By-laws Regarding Nuisances and the Overcrowding of Residential Premises</p>
+                      </td>
+                      <td>
+                        <p>The whole</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 542 of 1982published in Provincial Gazette No. 4325 dated 25 November, 1982.</p>
+                      </td>
+                      <td>
+                        <p>Borough of New Germany Nuisances Bylaws</p>
+                      </td>
+                      <td>
+                        <p>The whole</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 184 of 1988 published in Provincial Gazette No. 4639 dated 26 May, 1988</p>
+                      </td>
+                      <td>
+                        <p>Borough of Queensburgh Street, Traffic, Nuisance and Entertainment By-laws</p>
+                      </td>
+                      <td>
+                        <p>The whole</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 297 of 1951 published in Provincial Gazette No. 2359 dated 18 July, 1951</p>
+                      </td>
+                      <td>
+                        <p>Borough of Queensburgh General By-laws</p>
+                      </td>
+                      <td>
+                        <p>Schedule B Chapter XXI</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Municipal Notice No. 140 of 2000 published in Provincial Gazette No. 5531 dated 6 July, 2000.</p>
+                      </td>
+                      <td>
+                        <p>South Central Local Council By-laws for the Control of Public Behaviour</p>
+                      </td>
+                      <td>
+                        <p>The whole</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Municipal Notice No. 140 of 2000 published in Provincial Gazette No. 5531 dated 6 July, 2000.</p>
+                      </td>
+                      <td>
+                        <p>North Central Local Council By-laws for the Control of Public Behaviour</p>
+                      </td>
+                      <td>
+                        <p>The whole</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Municipal Notice No. 140 of 2000 published in Provincial Gazette No. 5531 dated 6 July, 2000.</p>
+                      </td>
+                      <td>
+                        <p>Durban Transitional Local Council By-laws for the Control of Public Behaviour</p>
+                      </td>
+                      <td>
+                        <p>The whole</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 528 of 1973 published in Provincial Gazette No. 3760 dated 27 September 1973</p>
+                      </td>
+                      <td>
+                        <p>Assagay Health Committee General</p>
+                      </td>
+                      <td>
+                        <p>Chapter XI</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 87 of 1953 published in Provincial Gazette No. 2461 dated 10 March, 1953</p>
+                      </td>
+                      <td>
+                        <p>Isipingo Standard By-laws</p>
+                      </td>
+                      <td>
+                        <p>Chapter II</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 109 of 1948 published in Provincial Gazette No. 2153 dated 18 March, 1948</p>
+                      </td>
+                      <td>
+                        <p>Botha's Hill Health Committee General By-laws</p>
+                      </td>
+                      <td>
+                        <p>Chapter VIII</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 87 of 1953 published in Provincial Gazette No. 2461 dated 10 March, 1953</p>
+                      </td>
+                      <td>
+                        <p>Kingsburgh Standard By-laws</p>
+                      </td>
+                      <td>
+                        <p>Chapter II</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 187 of 1943 published in Provincial Gazette No. 1881 dated 24 June, 1943</p>
+                      </td>
+                      <td>
+                        <p>Township of Kloof General By-laws</p>
+                      </td>
+                      <td>
+                        <p>The Whole</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 565 of 1953 published in Provincial Gazette No. 2509 dated 3 December, 1953</p>
+                      </td>
+                      <td>
+                        <p>Standard Marianhill Health Committee Regulations</p>
+                      </td>
+                      <td>
+                        <p>Chapter VIII</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 87 of 1953 published in Provincial Gazette No. 2461 dated 10 March, 1953</p>
+                      </td>
+                      <td>
+                        <p>Township of Mount Edgecombe Standard By- laws</p>
+                      </td>
+                      <td>
+                        <p>Chapter II</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 60 of 1957 published in Provincial Gazette No. 2751 dated 18 July, 1951</p>
+                      </td>
+                      <td>
+                        <p>Saiccor Township Health Committee Regulations</p>
+                      </td>
+                      <td>
+                        <p>Chapter VIII</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 87 of 1953 published in Provincial Gazette No. 2461 dated 10 March, 1953</p>
+                      </td>
+                      <td>
+                        <p>Township of Umkomaas Standard By-laws</p>
+                      </td>
+                      <td>
+                        <p>Chapter II</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 59 of 1966 published in Provincial Gazette No. 3309 dated 3 February, 1966</p>
+                      </td>
+                      <td>
+                        <p>Township of Umkomaas Protection Of Property By- Laws</p>
+                      </td>
+                      <td>
+                        <p>The Whole</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Municipal Notice No. 279 of 1989 published in Provincial Gazette No. 4714 dated 12 October 1989</p>
+                      </td>
+                      <td>
+                        <p>Borough of Kloof Miscellaneous Matters</p>
+                      </td>
+                      <td>
+                        <p>Chapter C</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 382 of 1958 published in Provincial Gazette No. 2867 dated 7 August, 1958</p>
+                      </td>
+                      <td>
+                        <p>Widenham Health Committee General Regulations</p>
+                      </td>
+                      <td>
+                        <p>Chapter VIII Section 1-7</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 380 of 1961 published in Provincial Gazette No. 3049 dated 24 August 1961</p>
+                      </td>
+                      <td>
+                        <p>Canelands Health Committee General Regulations</p>
+                      </td>
+                      <td>
+                        <p>Chapter VIII</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 87 of 1953 published in Provincial Gazette No. 2461 dated 10 March, 1953</p>
+                      </td>
+                      <td>
+                        <p>Borough of Westville Standard By-laws</p>
+                      </td>
+                      <td>
+                        <p>Chapter II</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 87 of 1953 published in Provincial Gazette No. 2461 dated 10 March 1953</p>
+                      </td>
+                      <td>
+                        <p>Umhlanga Rocks Standard By-law</p>
+                      </td>
+                      <td>
+                        <p>Chapter II</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 466 of 1961 published in Provincial Gazette No. 3059 dated 12 October, 1961</p>
+                      </td>
+                      <td>
+                        <p>Yellow-wood Park Health Committee General Regulations</p>
+                      </td>
+                      <td>
+                        <p>Chapter X</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 466 of 1955 published in Provincial Gazette No. 2639 dated 12 September, 1955</p>
+                      </td>
+                      <td>
+                        <p>Drummond Health Committee General Regulations</p>
+                      </td>
+                      <td>
+                        <p>Chapter VIII</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 204 of 1994 published in Provincial Gazette No. 5002 dated 1 December, 1994</p>
+                      </td>
+                      <td>
+                        <p>City of Durban, General By- laws</p>
+                      </td>
+                      <td>
+                        <p>The whole</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 154 of 1941 published in Provincial Gazette No. 1766 dated 8 May, 1941</p>
+                      </td>
+                      <td>
+                        <p>Everton Health Committee General Regulations</p>
+                      </td>
+                      <td>
+                        <p>Chapter VIII</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 346 of 1953 published in Provincial Gazette No. 2490 dated 20 August, 1953</p>
+                      </td>
+                      <td>
+                        <p>Umbogintwini Health Committee General Regulations</p>
+                      </td>
+                      <td>
+                        <p>Chapter IX</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 287 of 1963 published in Provincial Gazette No. 3164 dated 30 July, 1963</p>
+                      </td>
+                      <td>
+                        <p>Township of Verulam General By-Laws</p>
+                      </td>
+                      <td>
+                        <p>Chapter II Public Nuisances</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 491 of 1955 published in Provincial Gazette No. 2643 dated 27 September, 1955</p>
+                      </td>
+                      <td>
+                        <p>Crestholme-Waterfall Health Committee General Regulations</p>
+                      </td>
+                      <td>
+                        <p>Chapter VIII Control Of Roads And Traffic: Nuisances</p>
+                      </td>
+                    </tr>
+                  </table>
+                </content>
+              </paragraph>
+            </part>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>
