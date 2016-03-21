@@ -17,6 +17,8 @@ API_ENDPOINT = os.environ.get('INDIGO_API_URL', "http://indigo.openbylaws.org.za
 BASE_DIR = os.getcwd()
 TARGET_DIR = os.path.join(BASE_DIR, 'by-laws')
 
+session = requests.Session()
+
 
 def make_path(uri, doc):
     return os.path.join(TARGET_DIR, uri[1:])
@@ -59,7 +61,7 @@ def archive(uri, doc):
     print "Archiving: %s -> %s" % (uri, path)
     mkdir_p(path)
 
-    resp = requests.get(doc['content_url'] + '.json')
+    resp = session.get(doc['content_url'] + '.json')
     resp.raise_for_status()
     fname = os.path.join(path, 'main.xml')
     with codecs.open(fname, 'w', 'utf-8') as f:
@@ -73,7 +75,7 @@ def archive(uri, doc):
             if link:
                 link = link[0]
 
-                resp = requests.get(link['href'])
+                resp = session.get(link['href'])
                 resp.raise_for_status()
 
                 fname = urlparse.urlsplit(link['href']).path
@@ -104,7 +106,7 @@ def archive_attachments(uri, doc):
         local = []
     local = {a['filename']: a for a in local}
 
-    resp = requests.get(doc['attachments_url'] + '.json')
+    resp = session.get(doc['attachments_url'] + '.json')
     resp.raise_for_status()
     remote = resp.json()['results']
     remote = {a['filename']: a for a in remote}
@@ -114,7 +116,7 @@ def archive_attachments(uri, doc):
         if not loc or loc['updated_at'] < att['updated_at']:
             # update it
             print "Archiving attachment: %s" % fname
-            resp = requests.get(att['download_url'])
+            resp = session.get(att['download_url'])
             resp.raise_for_status()
 
             fname = os.path.join(path, fname)
@@ -165,7 +167,7 @@ def get_local_documents():
 
 
 def get_remote_documents():
-    resp = requests.get(API_ENDPOINT + '/documents.json')
+    resp = session.get(API_ENDPOINT + '/documents.json')
     resp.raise_for_status()
     docs = resp.json()['results']
     # only published docs
