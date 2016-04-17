@@ -1,0 +1,972 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-eth/act/by-law/2014/retail-market/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2014/retail-market"/>
+          <FRBRalias value="Retail Market By-law 2014"/>
+          <FRBRdate date="2014-06-27" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-eth/act/by-law/2014/retail-market/eng@2014-06-27/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2014/retail-market/eng@2014-06-27"/>
+          <FRBRdate date="2014-06-27" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-eth/act/by-law/2014/retail-market/eng@2014-06-27/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2014/retail-market/eng@2014-06-27"/>
+          <FRBRdate date="2016-04-08" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-06-27" name="" showAs="" number=""/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-allocations_policy" href="/ontology/term/this.eng.allocations_policy" showAs="allocations policy"/>
+        <TLCTerm id="term-article" href="/ontology/term/this.eng.article" showAs="article"/>
+        <TLCTerm id="term-authorised_official" href="/ontology/term/this.eng.authorised_official" showAs="authorised official"/>
+        <TLCTerm id="term-buyer" href="/ontology/term/this.eng.buyer" showAs="buyer"/>
+        <TLCTerm id="term-Constitution" href="/ontology/term/this.eng.Constitution" showAs="Constitution"/>
+        <TLCTerm id="term-fresh_produce" href="/ontology/term/this.eng.fresh_produce" showAs="fresh produce"/>
+        <TLCTerm id="term-Head" href="/ontology/term/this.eng.Head" showAs="Head"/>
+        <TLCTerm id="term-manufacturer" href="/ontology/term/this.eng.manufacturer" showAs="manufacturer"/>
+        <TLCTerm id="term-market" href="/ontology/term/this.eng.market" showAs="market"/>
+        <TLCTerm id="term-Municipal_Council" href="/ontology/term/this.eng.Municipal_Council" showAs="Municipal Council"/>
+        <TLCTerm id="term-Municipal_Finance_Management_Act" href="/ontology/term/this.eng.Municipal_Finance_Management_Act" showAs="Municipal Finance Management Act"/>
+        <TLCTerm id="term-Municipality" href="/ontology/term/this.eng.Municipality" showAs="Municipality"/>
+        <TLCTerm id="term-municipal_manager" href="/ontology/term/this.eng.municipal_manager" showAs="municipal manager"/>
+        <TLCTerm id="term-permit" href="/ontology/term/this.eng.permit" showAs="permit"/>
+        <TLCTerm id="term-person" href="/ontology/term/this.eng.person" showAs="person"/>
+        <TLCTerm id="term-refuse_container_bay" href="/ontology/term/this.eng.refuse_container_bay" showAs="refuse container bay"/>
+        <TLCTerm id="term-stall" href="/ontology/term/this.eng.stall" showAs="stall"/>
+        <TLCTerm id="term-stallholder" href="/ontology/term/this.eng.stallholder" showAs="stallholder"/>
+        <TLCTerm id="term-Systems_Act" href="/ontology/term/this.eng.Systems_Act" showAs="Systems Act"/>
+        <TLCTerm id="term-table_holder" href="/ontology/term/this.eng.table_holder" showAs="table holder"/>
+        <TLCTerm id="term-tariff_of_charges" href="/ontology/term/this.eng.tariff_of_charges" showAs="tariff of charges"/>
+        <TLCTerm id="term-trader" href="/ontology/term/this.eng.trader" showAs="trader"/>
+      </references>
+    </meta>
+    <preface>
+      <p>To provide for the control and regulation of the Retail Markets which are owned or controlled by the Municipality; for the repeal of laws and savings; and for matters incidental thereto.</p>
+    </preface>
+    <preamble>
+      <p>WHEREAS there is a need for the Municipality to regulate and manage the operation of the retail markets that are owned or controlled by the Municipality;</p>
+      <p>WHEREAS the Municipality has competence in terms of the section 156 (2) of the Constitution of the Republic of South Africa to make and administer by-laws for the effective administration of the matters which it has the right to administer;</p>
+      <p>WHEREAS the Municipality has legislative and executive competence relating to Markets;</p>
+      <p>AND WHEREAS it is necessary for the Municipality to maintain the standard and quality of goods sold at its markets;</p>
+      <p>NOW THEREFORE the Municipal Council of the eThekwini Metropolitan Municipality, acting in terms of section 156 read with Part B of Schedule 5 of the Constitution of the Republic of South Africa, and read with section 11 of the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000), hereby makes the following By-law:</p>
+    </preamble>
+    <body>
+      <chapter id="chapter-1">
+        <num>1</num>
+        <heading>Interpretation and application</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <paragraph id="section-1.paragraph-0" refersTo="#term-trader">
+            <content>
+              <p>In this By-law, unless the context indicates otherwise─</p>
+              <p>"<def refersTo="#term-allocations_policy">allocations policy</def>" means the policy adopted by the <term refersTo="#term-Municipality" id="trm0">Municipality</term> to regulate the allocation of stalls in the <term refersTo="#term-market" id="trm1">market</term>;</p>
+              <p>"<def refersTo="#term-article">article</def>" means any <term refersTo="#term-fresh_produce" id="trm2">fresh produce</term>, goods or thing which is approved by the <term refersTo="#term-Municipality" id="trm3">Municipality</term> to be brought onto the <term refersTo="#term-market" id="trm4">market</term> for sale to the public;</p>
+              <blockList id="section-1.paragraph-0.list4" refersTo="#term-authorised_official">
+                <listIntroduction>"<def refersTo="#term-authorised_official">authorised official</def>" means a <term refersTo="#term-person" id="trm5">person</term> authorised to implement the provisions of this Bylaw, including but not limited to –</listIntroduction>
+                <item id="section-1.paragraph-0.list4.a">
+                  <num>(a)</num>
+                  <p>peace officers as contemplated in section 334 of the Criminal Procedure Act, 1977 (Act No. 51 of 1977);</p>
+                </item>
+                <item id="section-1.paragraph-0.list4.b">
+                  <num>(b)</num>
+                  <p>municipal or metropolitan Police Officers as contemplated in the South African Police Service Act, 1995 (Act No. 68 of 1995; and</p>
+                </item>
+                <item id="section-1.paragraph-0.list4.c">
+                  <num>(c)</num>
+                  <p>such employees, agents, delegated nominees, representatives and service providers of the municipality as are specifically authorised by the <term refersTo="#term-Municipality" id="trm6">Municipality</term> in this regard : Provided that for the purposes of search and seizure, where such <term refersTo="#term-person" id="trm7">person</term> is not a peace officer, such <term refersTo="#term-person" id="trm8">person</term> must be accompanied by a peace officer;</p>
+                </item>
+              </blockList>
+              <p>"<def refersTo="#term-buyer">buyer</def>" means any <term refersTo="#term-person" id="trm9">person</term> entering the <term refersTo="#term-market" id="trm10">market</term> for the purpose of buying any <term refersTo="#term-article" id="trm11">article</term> offered for sale on the <term refersTo="#term-market" id="trm12">market</term> or any <term refersTo="#term-person" id="trm13">person</term> with whom a <term refersTo="#term-stallholder" id="trm14">stallholder</term> has concluded a direct sale on behalf of a supplier;</p>
+              <p>"<def refersTo="#term-Constitution">Constitution</def>" means the <term refersTo="#term-Constitution" id="trm15">Constitution</term> of the Republic of South Africa, 1996;</p>
+              <p>"<def refersTo="#term-fresh_produce">fresh produce</def>" means any kind of grown agricultural product authorised by the <term refersTo="#term-Municipality" id="trm16">Municipality</term> for sale in the <term refersTo="#term-market" id="trm17">market</term>;</p>
+              <blockList id="section-1.paragraph-0.list9" refersTo="#term-Head">
+                <listIntroduction>"<def refersTo="#term-Head">Head</def>" means the <term refersTo="#term-Head" id="trm18">Head</term> of the markets, and includes any <term refersTo="#term-person" id="trm19">person</term>–</listIntroduction>
+                <item id="section-1.paragraph-0.list9.a">
+                  <num>(a)</num>
+                  <p>acting in that position; or</p>
+                </item>
+                <item id="section-1.paragraph-0.list9.b">
+                  <num>(b)</num>
+                  <p>to whom the <term refersTo="#term-Head" id="trm20">Head</term> has delegated or sub-delegated a power, function or duty in accordance with the system of delegation developed by the Municipal Manager in terms of section 59 of the <term refersTo="#term-Systems_Act" id="trm21">Systems Act</term>;</p>
+                </item>
+              </blockList>
+              <p>"<def refersTo="#term-manufacturer">manufacturer</def>" means any <term refersTo="#term-person" id="trm22">person</term> who sells or exposes for sale within the <term refersTo="#term-market" id="trm23">market</term>, baskets or such articles manufactured by himself or herself, as the <term refersTo="#term-Municipality" id="trm24">Municipality</term> may authorise;</p>
+              <p>"<def refersTo="#term-market">market</def>" means any retail <term refersTo="#term-market" id="trm25">market</term> which is owned or controlled by the <term refersTo="#term-Municipality" id="trm26">Municipality</term>, including any land, building or premises on or in which the business of the <term refersTo="#term-market" id="trm27">market</term> is conducted;</p>
+              <p>"<def refersTo="#term-Municipal_Council">Municipal Council</def>" or "Council" means the eThekwini <term refersTo="#term-Municipal_Council" id="trm28">Municipal Council</term>, a municipal council referred to in section 157(1) of the <term refersTo="#term-Constitution" id="trm29">Constitution</term>;</p>
+              <p>"<def refersTo="#term-Municipal_Finance_Management_Act">Municipal Finance Management Act</def>" means the Local Government: <term refersTo="#term-Municipal_Finance_Management_Act" id="trm30">Municipal Finance Management Act</term>, 2003 (Act No. 56 of 2003);</p>
+              <p>"<def refersTo="#term-Municipality">Municipality</def>" means eThekwini <term refersTo="#term-Municipality" id="trm31">Municipality</term>, a category A municipality as envisaged in terms of section 155(1) of the <term refersTo="#term-Constitution" id="trm32">Constitution</term> of South Africa and established in terms of PN343 of 2000 (KwaZulu- Natal);</p>
+              <p>"<def refersTo="#term-municipal_manager">municipal manager</def>" means a <term refersTo="#term-person" id="trm33">person</term> appointed in terms of section 54A of the Municipal <term refersTo="#term-Systems_Act" id="trm34">Systems Act</term> as the head of administration of the municipal council;</p>
+              <p>"<def refersTo="#term-permit">permit</def>" means an official document issued by the <term refersTo="#term-Municipality" id="trm35">Municipality</term> authorising a <term refersTo="#term-person" id="trm36">person</term> to sell or expose for sale upon or within the <term refersTo="#term-market" id="trm37">market</term> any <term refersTo="#term-article" id="trm38">article</term> which is authorised by the <term refersTo="#term-Municipality" id="trm39">Municipality</term> for sale in the <term refersTo="#term-market" id="trm40">market</term>;</p>
+              <p>"<def refersTo="#term-person">person</def>" means a natural <term refersTo="#term-person" id="trm41">person</term> or juristic <term refersTo="#term-person" id="trm42">person</term>;</p>
+              <p>"<def refersTo="#term-refuse_container_bay">refuse container bay</def>" means an area for the placing of refuse containers, whether it is a demarcated or a designated <term refersTo="#term-refuse_container_bay" id="trm43">refuse container bay</term>;</p>
+              <p>"<def refersTo="#term-stall">stall</def>" means any space demarcated and allocated by the <term refersTo="#term-Municipality" id="trm44">Municipality</term> to a <term refersTo="#term-trader" id="trm45">trader</term> in the traders' section of the <term refersTo="#term-market" id="trm46">market</term> for the purpose of selling such articles as the <term refersTo="#term-Municipality" id="trm47">Municipality</term> may <term refersTo="#term-permit" id="trm48">permit</term> to be sold in terms of this By-law;</p>
+              <blockList id="section-1.paragraph-0.list21" refersTo="#term-stallholder">
+                <listIntroduction>"<def refersTo="#term-stallholder">stallholder</def>" means the holder of –</listIntroduction>
+                <item id="section-1.paragraph-0.list21.a">
+                  <num>(a)</num>
+                  <p>a valid <term refersTo="#term-permit" id="trm49">permit</term> issued by the <term refersTo="#term-Municipality" id="trm50">Municipality</term> permitting a <term refersTo="#term-person" id="trm51">person</term> to occupy a stand in the traders' section of the <term refersTo="#term-market" id="trm52">market</term>; and</p>
+                </item>
+                <item id="section-1.paragraph-0.list21.b">
+                  <num>(b)</num>
+                  <p>a trading licence for the sale of goods so permitted;</p>
+                </item>
+              </blockList>
+              <p>"<def refersTo="#term-Systems_Act">Systems Act</def>" means the Local Government: Municipal <term refersTo="#term-Systems_Act" id="trm53">Systems Act</term>, 2000 (Act No. 32 of 2000);</p>
+              <p>"<def refersTo="#term-table_holder">table holder</def>" means a bona fide farmer authorised to occupy a table in terms of this Bylaw;</p>
+              <p>"<def refersTo="#term-tariff_of_charges">tariff of charges</def>" means the <term refersTo="#term-tariff_of_charges" id="trm54">tariff of charges</term>, fees, etc, payable to the <term refersTo="#term-Municipality" id="trm55">Municipality</term> in respect of articles sold or services rendered at the <term refersTo="#term-market" id="trm56">market</term>, as fixed in terms of the <term refersTo="#term-Municipality" id="trm57">Municipality</term>’s Tariffs By-law and any applicable policy; and</p>
+              <p>"<def refersTo="#term-trader">trader</def>" means any <term refersTo="#term-person" id="trm58">person</term> who sells or exposes for sale within the traders' section of the <term refersTo="#term-market" id="trm59">market</term> any produce which has not been grown by such <term refersTo="#term-person" id="trm60">person</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Interpretation of By-law</heading>
+          <paragraph id="section-2.paragraph-0">
+            <content>
+              <p>If there is a conflict of interpretation between the English version of this By-law and a translated version thereof, the English version prevails.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Objects of By-law</heading>
+          <paragraph id="section-3.paragraph-0">
+            <content>
+              <blockList id="section-3.paragraph-0.list1">
+                <listIntroduction>The objects of this By-law are to–</listIntroduction>
+                <item id="section-3.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>ensure effective management of the markets under the ownership and control of the <term refersTo="#term-Municipality" id="trm61">Municipality</term>;</p>
+                </item>
+                <item id="section-3.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>regulate proper conduct of persons within the precincts of the markets; and</p>
+                </item>
+                <item id="section-3.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>provide for matters incidental thereto.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Application of By-law</heading>
+          <paragraph id="section-4.paragraph-0">
+            <content>
+              <p>This By-law applies to all the Markets under the ownership and control of the <term refersTo="#term-Municipality" id="trm62">Municipality</term>, irrespective of the area in which they are located.</p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+      <chapter id="chapter-2">
+        <num>2</num>
+        <heading>Management and control</heading>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Management authority</heading>
+          <paragraph id="section-5.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm63">Municipality</term> is responsible for the management and control of the business of the markets.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Vehicular traffic</heading>
+          <subsection id="section-6.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-6.1.list1">
+                <listIntroduction>The <term refersTo="#term-Municipality" id="trm64">Municipality</term> is empowered to control and regulate the volume and movement of traffic entering the <term refersTo="#term-market" id="trm65">market</term> and within the precincts of the <term refersTo="#term-market" id="trm66">market</term>, including the –</listIntroduction>
+                <item id="section-6.1.list1.a">
+                  <num>(a)</num>
+                  <p>demarcation of parking bays and the allocation thereof;</p>
+                </item>
+                <item id="section-6.1.list1.b">
+                  <num>(b)</num>
+                  <p>determination and levying of tariff charges for the use of parking bays; and</p>
+                </item>
+                <item id="section-6.1.list1.c">
+                  <num>(c)</num>
+                  <p>imposition of fines and impounding of vehicles for non-compliance with the traffic signage and rules within the precincts of the <term refersTo="#term-market" id="trm67">market</term>, as well as the recovery thereof.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-6.2">
+            <num>(2)</num>
+            <content>
+              <p>For the purposes of this section, the registered owner of a vehicle is presumed to be the driver of such vehicle until the contrary is proved.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.3">
+            <num>(3)</num>
+            <content>
+              <p>Any vehicle which is used in contravention of the traffic signage and rules applicable within the <term refersTo="#term-market" id="trm68">market</term> may be impounded by the <term refersTo="#term-Municipality" id="trm69">Municipality</term>: Provided that reasonable steps must be taken by the <term refersTo="#term-Municipality" id="trm70">Municipality</term> to bring to the attention of road users within the <term refersTo="#term-market" id="trm71">market</term> the relevant traffic signage and rules and, where practicable, the penalties for the contravention thereof.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.4">
+            <num>(4)</num>
+            <content>
+              <p>A vehicle impounded in terms of subsection (1) may be held by the <term refersTo="#term-Municipality" id="trm72">Municipality</term> until a fine in the amount determined by the <term refersTo="#term-Municipality" id="trm73">Municipality</term> is paid in full to secure the release thereof, together with an additional amount for storage if the vehicle concerned is not claimed within the prescribed timeframe.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>Trading and related activities</heading>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Poultry and birds</heading>
+          <subsection id="section-7.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-7.1.list1">
+                <listIntroduction>All live poultry or birds brought upon the <term refersTo="#term-market" id="trm74">market</term> for sale must–</listIntroduction>
+                <item id="section-7.1.list1.a">
+                  <num>(a)</num>
+                  <p>be in a healthy condition and free from disease;</p>
+                </item>
+                <item id="section-7.1.list1.b">
+                  <num>(b)</num>
+                  <p>be exposed in crates or boxes;</p>
+                </item>
+                <item id="section-7.1.list1.c">
+                  <num>(c)</num>
+                  <p>be open to public view; and</p>
+                </item>
+                <item id="section-7.1.list1.d">
+                  <num>(d)</num>
+                  <p>not be tied by the legs.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-7.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-stallholder" id="trm75">stallholder</term> must ensure that such poultry and birds are fed and given drinkable water in such a manner and at such times as may be determined by the <term refersTo="#term-Municipality" id="trm76">Municipality</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-7.3">
+            <num>(3)</num>
+            <content>
+              <p>The sale of poultry and birds on the <term refersTo="#term-market" id="trm77">market</term> must be conducted in a manner determined by the <term refersTo="#term-Municipality" id="trm78">Municipality</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-7.4">
+            <num>(4)</num>
+            <content>
+              <p>After a sale has been concluded, poultry and birds must not be left in the crates or boxes for longer than it is necessary for the delivery to be made to the <term refersTo="#term-buyer" id="trm79">buyer</term>: Provided that the <term refersTo="#term-Municipality" id="trm80">Municipality</term> may instruct the <term refersTo="#term-stallholder" id="trm81">stallholder</term> to remove the poultry or birds as soon as they have been sold.</p>
+            </content>
+          </subsection>
+          <subsection id="section-7.5">
+            <num>(5)</num>
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm82">Municipality</term> may refuse to release poultry or birds if there is a reason to believe that they are unhealthy, or if the <term refersTo="#term-buyer" id="trm83">buyer</term> has failed to comply with any condition of sale imposed.</p>
+            </content>
+          </subsection>
+          <subsection id="section-7.6">
+            <num>(6)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm84">person</term> may slaughter, destroy, pluck or clean poultry or birds on the premises of the <term refersTo="#term-market" id="trm85">market</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-7.7">
+            <num>(7)</num>
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm86">Municipality</term> may take all such steps as it may deem advisable to prevent or to stop the infliction of suffering, cruelty or rough handling of any poultry or birds.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Stallholder's <term refersTo="#term-permit" id="trm87">permit</term></heading>
+          <subsection id="section-8.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-8.1.list1">
+                <listIntroduction>Any <term refersTo="#term-person" id="trm88">person</term> who wishes to occupy a <term refersTo="#term-stall" id="trm89">stall</term> in the <term refersTo="#term-market" id="trm90">market</term> must–</listIntroduction>
+                <item id="section-8.1.list1.a">
+                  <num>(a)</num>
+                  <p>make an application to the <term refersTo="#term-Municipality" id="trm91">Municipality</term> on a prescribed form for the occupation of such <term refersTo="#term-stall" id="trm92">stall</term>;</p>
+                </item>
+                <item id="section-8.1.list1.b">
+                  <num>(b)</num>
+                  <p>make payment of the prescribed fee; and</p>
+                </item>
+                <item id="section-8.1.list1.c">
+                  <num>(c)</num>
+                  <p>obtain a <term refersTo="#term-permit" id="trm93">permit</term> issued by the <term refersTo="#term-Municipality" id="trm94">Municipality</term> authorising such <term refersTo="#term-person" id="trm95">person</term> to occupy an allotted <term refersTo="#term-stall" id="trm96">stall</term> and conduct business therein on such terms and conditions as may be determined.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-8.2">
+            <num>(2)</num>
+            <content>
+              <p>The issuing of a <term refersTo="#term-stallholder" id="trm97">stallholder</term>'s <term refersTo="#term-permit" id="trm98">permit</term> in terms of subsection (1) is at the sole discretion of the <term refersTo="#term-Municipality" id="trm99">Municipality</term>, subject to section 11, the availability of stalls and the suitability of the applicant as determined by the <term refersTo="#term-Municipality" id="trm100">Municipality</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.3">
+            <num>(3)</num>
+            <content>
+              <p>Subject to due compliance with the applicable provisions of the <term refersTo="#term-Constitution" id="trm101">Constitution</term> and the rules of natural justice, the <term refersTo="#term-Municipality" id="trm102">Municipality</term> may, at any time, cancel a <term refersTo="#term-stallholder" id="trm103">stallholder</term>'s <term refersTo="#term-permit" id="trm104">permit</term> issued to any <term refersTo="#term-person" id="trm105">person</term> who is found guilty of committing an offence in terms of this By-law or any other law relevant to such <term refersTo="#term-person" id="trm106">person</term>'s business at the <term refersTo="#term-market" id="trm107">market</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Fees and charges</heading>
+          <subsection id="section-9.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-stallholder" id="trm108">stallholder</term>'s <term refersTo="#term-permit" id="trm109">permit</term> may not be issued by the <term refersTo="#term-Municipality" id="trm110">Municipality</term> in terms of section 8 unless the applicant has paid the prescribed fee in advance and obtained a receipt for such payment entitling such applicant to occupation of the <term refersTo="#term-stall" id="trm111">stall</term> designated thereon.</p>
+            </content>
+          </subsection>
+          <subsection id="section-9.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-person" id="trm112">person</term> to whom a receipt is issued must retain it for the period of its validity and must, when required to do so during that period, produce such receipt for the purpose of inspection by an <term refersTo="#term-authorised_official" id="trm113">authorised official</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Default in payment of <term refersTo="#term-stall" id="trm114">stall</term> fees</heading>
+          <subsection id="section-10.1">
+            <num>(1)</num>
+            <content>
+              <p>In the event of failure by a <term refersTo="#term-stallholder" id="trm115">stallholder</term> to make payment of a fee referred to in subsection 9(1) for the occupation of a <term refersTo="#term-stall" id="trm116">stall</term> on or before the stipulated date, as and when such fee becomes due, the right of the <term refersTo="#term-stallholder" id="trm117">stallholder</term> concerned to occupy such <term refersTo="#term-stall" id="trm118">stall</term> may be terminated in writing by the <term refersTo="#term-Municipality" id="trm119">Municipality</term> on written notice to the <term refersTo="#term-stallholder" id="trm120">stallholder</term> to vacate the relevant <term refersTo="#term-stall" id="trm121">stall</term> within a period stipulated in such notice.</p>
+            </content>
+          </subsection>
+          <subsection id="section-10.2">
+            <num>(2)</num>
+            <content>
+              <p>Any failure or refusal by a <term refersTo="#term-stallholder" id="trm122">stallholder</term> to comply with a notice issued by the <term refersTo="#term-Municipality" id="trm123">Municipality</term> in terms of subsection (1) constitutes a further contravention of this By-law entitling the <term refersTo="#term-Municipality" id="trm124">Municipality</term> to eject without further notice the <term refersTo="#term-stallholder" id="trm125">stallholder</term> concerned from the relevant <term refersTo="#term-stall" id="trm126">stall</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Allocation of stalls</heading>
+          <paragraph id="section-11.paragraph-0">
+            <content>
+              <p>Notwithstanding anything to the contrary contained in this By-law, the allocations of stalls at the <term refersTo="#term-market" id="trm127">market</term> must be carried out by the <term refersTo="#term-Municipality" id="trm128">Municipality</term> in accordance with the <term refersTo="#term-allocations_policy" id="trm129">allocations policy</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Responsibilities of stallholders</heading>
+          <subsection id="section-12.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-12.1.list1">
+                <listIntroduction>A <term refersTo="#term-stallholder" id="trm130">stallholder</term> must–</listIntroduction>
+                <item id="section-12.1.list1.a">
+                  <num>(a)</num>
+                  <p>conduct business within the confines of the <term refersTo="#term-stall" id="trm131">stall</term> allotted to such <term refersTo="#term-stallholder" id="trm132">stallholder</term> by the <term refersTo="#term-Municipality" id="trm133">Municipality</term> in terms of this By-law;</p>
+                </item>
+                <item id="section-12.1.list1.b">
+                  <num>(b)</num>
+                  <p>ensure that any poultry or birds sold in the <term refersTo="#term-market" id="trm134">market</term> is sold from a crate or box approved by the <term refersTo="#term-Municipality" id="trm135">Municipality</term> containing suitable drinking vessels with a sufficient supply of clean water: Provided that the number of poultry or birds permitted to be accommodated in a cubicle must be determined by the <term refersTo="#term-Municipality" id="trm136">Municipality</term>;</p>
+                </item>
+                <item id="section-12.1.list1.c">
+                  <num>(c)</num>
+                  <p>sell all articles by private treaty; and</p>
+                </item>
+                <item id="section-12.1.list1.d">
+                  <num>(d)</num>
+                  <p>keep clean and tidy to the satisfaction of the <term refersTo="#term-Municipality" id="trm137">Municipality</term> any vehicle, basket or other receptacle brought in the <term refersTo="#term-market" id="trm138">market</term> for the conveyance of goods for sale at the <term refersTo="#term-market" id="trm139">market</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Entrance and exit to the <term refersTo="#term-market" id="trm140">market</term></heading>
+          <paragraph id="section-13.paragraph-0">
+            <content>
+              <p>All articles which are brought into the <term refersTo="#term-market" id="trm141">market</term> for sale must be brought in through the gate set aside by the <term refersTo="#term-Municipality" id="trm142">Municipality</term> for such purpose.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>Closing hour</heading>
+          <subsection id="section-14.1">
+            <num>(1)</num>
+            <content>
+              <p>At the closing hour a warning bell must be rung, after which no further sales may take place in the <term refersTo="#term-market" id="trm143">market</term> and all stallholders must forthwith remove all articles from the <term refersTo="#term-market" id="trm144">market</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.2">
+            <num>(2)</num>
+            <content>
+              <p>Notwithstanding subsection (1), stallholders may, at the discretion of the <term refersTo="#term-Municipality" id="trm145">Municipality</term> and at their own risk, leave unsold articles on their allotted stalls.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.3">
+            <num>(3)</num>
+            <content>
+              <p>Members of the public may not enter the <term refersTo="#term-market" id="trm146">market</term> after the closing hour and any member of the public who is within the <term refersTo="#term-market" id="trm147">market</term> at the closing hour must leave the <term refersTo="#term-market" id="trm148">market</term> within 30 minutes after the closing hour.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Posting of notices</heading>
+          <subsection id="section-15.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm149">Municipality</term> may affix any notice relating to any matter affecting the <term refersTo="#term-market" id="trm150">market</term> on a notice board in a prominent position within the <term refersTo="#term-market" id="trm151">market</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.2">
+            <num>(2)</num>
+            <content>
+              <p>It is the responsibility of a <term refersTo="#term-stallholder" id="trm152">stallholder</term> to ensure that he or she consults the notice board on a daily basis.</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.3">
+            <num>(3)</num>
+            <content>
+              <p>Where the notice relates to any matter affecting a particular <term refersTo="#term-stallholder" id="trm153">stallholder</term>, such notice must be delivered to the <term refersTo="#term-stallholder" id="trm154">stallholder</term> concerned.</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.4">
+            <num>(4)</num>
+            <content>
+              <p>Notwithstanding subsection (3) all notices affixed on the notice board is deemed to be sufficient notice of any such matter to any <term refersTo="#term-person" id="trm155">person</term> to whom any such notice is addressed.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-4">
+        <num>4</num>
+        <heading>Policing conduct and limitation of liability</heading>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Personal attendance and supervision</heading>
+          <subsection id="section-16.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-16.1.list1">
+                <listIntroduction>A <term refersTo="#term-stallholder" id="trm156">stallholder</term> must –</listIntroduction>
+                <item id="section-16.1.list1.a">
+                  <num>(a)</num>
+                  <p>be in personal attendance at his or her <term refersTo="#term-stall" id="trm157">stall</term>;</p>
+                </item>
+                <item id="section-16.1.list1.b">
+                  <num>(b)</num>
+                  <p>personally supervise the business carried on at his or her <term refersTo="#term-stall" id="trm158">stall</term> unless he or she has first obtained written permission from the <term refersTo="#term-Municipality" id="trm159">Municipality</term> to allow a third party to supervise and carry on the said business on his or her behalf; and</p>
+                </item>
+                <item id="section-16.1.list1.c">
+                  <num>(c)</num>
+                  <p>at all times keep his or her <term refersTo="#term-stall" id="trm160">stall</term> clean and tidy to the satisfaction of the <term refersTo="#term-Municipality" id="trm161">Municipality</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Vicarious Liability</heading>
+          <subsection id="section-17.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-stallholder" id="trm162">stallholder</term> is responsible for the conduct in the <term refersTo="#term-market" id="trm163">market</term> of any <term refersTo="#term-person" id="trm164">person</term> employed by such <term refersTo="#term-stallholder" id="trm165">stallholder</term> or whom the <term refersTo="#term-stallholder" id="trm166">stallholder</term> concerned permits or allows to assist in carrying on the business of such <term refersTo="#term-stallholder" id="trm167">stallholder</term>, and must ensure that any such <term refersTo="#term-person" id="trm168">person</term> complies with the provisions of this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-17.2">
+            <num>(2)</num>
+            <content>
+              <p>Any reference in this By-law to a <term refersTo="#term-stallholder" id="trm169">stallholder</term> is deemed to include any <term refersTo="#term-person" id="trm170">person</term> employed by or rendering assistance to a <term refersTo="#term-stallholder" id="trm171">stallholder</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Inspection of articles</heading>
+          <subsection id="section-18.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm172">Municipality</term> may inspect or cause to be inspected any <term refersTo="#term-fresh_produce" id="trm173">fresh produce</term> or food exposed for sale on the <term refersTo="#term-market" id="trm174">market</term> in order to ascertain whether it is healthy and free from disease, infection or contamination and may, if any <term refersTo="#term-fresh_produce" id="trm175">fresh produce</term> is found to be unhealthy, diseased, infected or contaminated, take or cause to be taken such steps as the <term refersTo="#term-Municipality" id="trm176">Municipality</term> may deem appropriate, including the seizure, condemnation or destruction of the <term refersTo="#term-fresh_produce" id="trm177">fresh produce</term> concerned.</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-18.2.list1">
+                <listIntroduction>Any <term refersTo="#term-fresh_produce" id="trm178">fresh produce</term> which is required by law to be graded may not be offered for sale or sold on the <term refersTo="#term-market" id="trm179">market</term> unless––</listIntroduction>
+                <item id="section-18.2.list1.a">
+                  <num>(a)</num>
+                  <p>it has been submitted by the <term refersTo="#term-stallholder" id="trm180">stallholder</term> concerned for inspection and has been inspected as prescribed by law; and</p>
+                </item>
+                <item id="section-18.2.list1.b">
+                  <num>(b)</num>
+                  <p>the grade assigned to it as a result of such inspection has been clearly marked on it by such <term refersTo="#term-stallholder" id="trm181">stallholder</term> or inspector.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-18.3">
+            <num>(3)</num>
+            <content>
+              <p>Any <term refersTo="#term-fresh_produce" id="trm182">fresh produce</term> which is required by law to be offered for sale or sold by mass, or to be packed, marked or graded in a prescribed manner, may not be offered for sale or sold or removed from the <term refersTo="#term-market" id="trm183">market</term> unless it complies in every respect with the requirements of such law.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-19">
+          <num>19.</num>
+          <heading><term refersTo="#term-Municipality" id="trm184">Municipality</term> not responsible for loss</heading>
+          <paragraph id="section-19.paragraph-0">
+            <content>
+              <p>Neither the <term refersTo="#term-Municipality" id="trm185">Municipality</term> nor its authorised officials are liable for any loss or damage caused by fire, flood, theft or from any other cause whatsoever, of any <term refersTo="#term-article" id="trm186">article</term> or property brought onto the <term refersTo="#term-market" id="trm187">market</term> by any <term refersTo="#term-person" id="trm188">person</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>Prohibited conduct</heading>
+          <subsection id="section-20.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-person" id="trm189">person</term> entering the <term refersTo="#term-market" id="trm190">market</term> must at all times act in strict compliance with this By-law, as well as such lawful instructions and orders as may be issued or given by the <term refersTo="#term-Municipality" id="trm191">Municipality</term> from time to time for the proper management and control of the <term refersTo="#term-market" id="trm192">market</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-20.2.list1">
+                <listIntroduction>Subject to subsection (1), a <term refersTo="#term-person" id="trm193">person</term> may not commit, in or about the <term refersTo="#term-market" id="trm194">market</term>, any act which disrupts, or is, in the opinion of the <term refersTo="#term-Municipality" id="trm195">Municipality</term>, likely to disrupt the normal business of the <term refersTo="#term-market" id="trm196">market</term>, including the following:</listIntroduction>
+                <item id="section-20.2.list1.a">
+                  <num>(a)</num>
+                  <p>causing a nuisance, or behaving in a manner which is disorderly or unseemly, or use of threatening, obscene, abusive, violent or offensive language;</p>
+                </item>
+                <item id="section-20.2.list1.b">
+                  <num>(b)</num>
+                  <p>touting for customers;</p>
+                </item>
+                <item id="section-20.2.list1.c">
+                  <num>(c)</num>
+                  <p>interfering with or obstructing any employee of the <term refersTo="#term-market" id="trm197">market</term> in the execution of his or her duties;</p>
+                </item>
+                <item id="section-20.2.list1.d">
+                  <num>(d)</num>
+                  <p>organising or conducting a meeting without obtaining the prior written consent of the <term refersTo="#term-Municipality" id="trm198">Municipality</term>;</p>
+                </item>
+                <item id="section-20.2.list1.e">
+                  <num>(e)</num>
+                  <p>touching, tasting, smelling, handling or removing any <term refersTo="#term-fresh_produce" id="trm199">fresh produce</term> exposed for sale in such a way as to expose it to contamination or disease;</p>
+                </item>
+                <item id="section-20.2.list1.f">
+                  <num>(f)</num>
+                  <p>keeping or exposing for sale any <term refersTo="#term-article" id="trm200">article</term> or item of an offensive nature;</p>
+                </item>
+                <item id="section-20.2.list1.g">
+                  <num>(g)</num>
+                  <p>smoking in any part of the <term refersTo="#term-market" id="trm201">market</term> where a notice prohibiting smoking is displayed;</p>
+                </item>
+                <item id="section-20.2.list1.h">
+                  <num>(h)</num>
+                  <p>lighting a fire, save at such times and in such places as have been authorised by the <term refersTo="#term-Municipality" id="trm202">Municipality</term>;</p>
+                </item>
+                <item id="section-20.2.list1.i">
+                  <num>(i)</num>
+                  <p>standing, sitting, laying upon or leaning against any <term refersTo="#term-article" id="trm203">article</term> or container;</p>
+                </item>
+                <item id="section-20.2.list1.j">
+                  <num>(j)</num>
+                  <p>without lawful reason tampering with or removing or causing to be removed any produce placed or exposed for sale, or any container, or any label on such <term refersTo="#term-fresh_produce" id="trm204">fresh produce</term> or container;</p>
+                </item>
+                <item id="section-20.2.list1.k">
+                  <num>(k)</num>
+                  <p>causing or permitting any solids or other matter likely to cause blockage in or damage to drains to enter any drain or gulley, or causing to <term refersTo="#term-permit" id="trm205">permit</term> any sewage, oil, foul water or other objectionable substance to enter any stormwater drain;</p>
+                </item>
+                <item id="section-20.2.list1.l">
+                  <num>(l)</num>
+                  <p>without the permission of the <term refersTo="#term-Municipality" id="trm206">Municipality</term>, washing, packing, sorting, grading, or cleaning any <term refersTo="#term-fresh_produce" id="trm207">fresh produce</term> in an area not designed for that purpose;</p>
+                </item>
+                <item id="section-20.2.list1.m">
+                  <num>(m)</num>
+                  <p>throwing or depositing in any place other than receptacles provided for that purpose, any fruit, peel or any other vegetable matter or refuse;</p>
+                </item>
+                <item id="section-20.2.list1.n">
+                  <num>(n)</num>
+                  <p>bringing any intoxicating substance into the <term refersTo="#term-market" id="trm208">market</term> or entering or remaining upon the <term refersTo="#term-market" id="trm209">market</term> while under the influence of an intoxicating substance;</p>
+                </item>
+                <item id="section-20.2.list1.o">
+                  <num>(o)</num>
+                  <p>damaging, ruining or tampering with any <term refersTo="#term-article" id="trm210">article</term> brought into the <term refersTo="#term-market" id="trm211">market</term>, or any building or property within the <term refersTo="#term-market" id="trm212">market</term> which belongs to the <term refersTo="#term-Municipality" id="trm213">Municipality</term>; and</p>
+                </item>
+                <item id="section-20.2.list1.p">
+                  <num>(p)</num>
+                  <p>bringing onto the <term refersTo="#term-market" id="trm214">market</term> any refuse, garbage or vegetable matter for the purpose of discarding such refuse, garbage or vegetable matter within the precinct of the <term refersTo="#term-market" id="trm215">market</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-20.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-20.3.list1">
+                <listIntroduction>A <term refersTo="#term-person" id="trm216">person</term> may not, without the prior written approval of the <term refersTo="#term-Municipality" id="trm217">Municipality</term>,–</listIntroduction>
+                <item id="section-20.3.list1.a">
+                  <num>(a)</num>
+                  <p>occupy a <term refersTo="#term-stall" id="trm218">stall</term> in the <term refersTo="#term-market" id="trm219">market</term> other than the table allotted to such <term refersTo="#term-person" id="trm220">person</term> by the <term refersTo="#term-Municipality" id="trm221">Municipality</term>;</p>
+                </item>
+                <item id="section-20.3.list1.b">
+                  <num>(b)</num>
+                  <p>bring or cause to be brought onto the <term refersTo="#term-market" id="trm222">market</term> any animal which is not for sale, except a guide dog used by a <term refersTo="#term-person" id="trm223">person</term> who is visual impaired; or</p>
+                </item>
+                <item id="section-20.3.list1.c">
+                  <num>(c)</num>
+                  <p>bring or cause to be brought onto the <term refersTo="#term-market" id="trm224">market</term> or sell or expose or offer for sale or cause or <term refersTo="#term-permit" id="trm225">permit</term> to be sold or exposed or offered for sale any agricultural produce or articles other than those varieties thereof as have been determined by the <term refersTo="#term-Municipality" id="trm226">Municipality</term> from time to time, and otherwise than in compliance with such restrictions as to quantity or mass as the <term refersTo="#term-Municipality" id="trm227">Municipality</term> may from time to time specify.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-20.4">
+            <num>(4)</num>
+            <content>
+              <p>An <term refersTo="#term-authorised_official" id="trm228">authorised official</term> is entitled to remove from the <term refersTo="#term-market" id="trm229">market</term> any <term refersTo="#term-person" id="trm230">person</term> who is in a state of intoxication or who behaves in a manner which is disorderly or unseemly or who causes a nuisance within the precincts of the <term refersTo="#term-market" id="trm231">market</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.5">
+            <num>(5)</num>
+            <content>
+              <p>A <term refersTo="#term-person" id="trm232">person</term> removed from the <term refersTo="#term-market" id="trm233">market</term> in terms of subsection (4) must not re-enter any part of the <term refersTo="#term-market" id="trm234">market</term> on the same day on which such <term refersTo="#term-person" id="trm235">person</term> was so removed.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.6">
+            <num>(6)</num>
+            <content>
+              <p>Notwithstanding subsections (4) and (5), the <term refersTo="#term-Municipality" id="trm236">Municipality</term> is empowered to exclude any <term refersTo="#term-person" id="trm237">person</term> referred to in subsection (4) from the <term refersTo="#term-market" id="trm238">market</term> for any period not exceeding 14 days.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.7">
+            <num>(7)</num>
+            <content>
+              <p>Subject to the Criminal Procedure Act, 1977 (Act No. 51 of 1977), an <term refersTo="#term-authorised_official" id="trm239">authorised official</term> is empowered to arrest without a warrant any <term refersTo="#term-person" id="trm240">person</term> found committing any offence within the precincts of the <term refersTo="#term-market" id="trm241">market</term> or any <term refersTo="#term-person" id="trm242">person</term> whom the <term refersTo="#term-authorised_official" id="trm243">authorised official</term> believes, on reasonable grounds, to have committed a serious offence in terms of this By-law or any other law.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-5">
+        <num>5</num>
+        <heading>Miscellaneous</heading>
+        <section id="section-21">
+          <num>21.</num>
+          <heading>Delegations</heading>
+          <subsection id="section-21.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-21.1.list1">
+                <listIntroduction>Subject to the <term refersTo="#term-Constitution" id="trm244">Constitution</term> and applicable national and provincial laws, any-</listIntroduction>
+                <item id="section-21.1.list1.a">
+                  <num>(a)</num>
+                  <p>power, excluding a power referred to in section 160(2) of the <term refersTo="#term-Constitution" id="trm245">Constitution</term>;</p>
+                </item>
+                <item id="section-21.1.list1.b">
+                  <num>(b)</num>
+                  <p>function; or</p>
+                </item>
+                <item id="section-21.1.list1.c">
+                  <num>(c)</num>
+                  <p>duty,</p>
+                </item>
+              </blockList>
+              <p>conferred, in terms of this by-law, upon the Council, or on any of the <term refersTo="#term-Municipality" id="trm246">Municipality</term>'s other political structures, political office bearers, councillors or staff members, may be delegated or subdelegated by such political structure, political office bearer, councillor or staff member, to an entity within, or a staff member employed by, the <term refersTo="#term-Municipality" id="trm247">Municipality</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.2">
+            <num>(2)</num>
+            <content>
+              <p>The delegation in terms of subsection (1) must be effected in accordance with the system of delegation adopted by the Council in accordance with section 59(1) of the Local Government: Municipal <term refersTo="#term-Systems_Act" id="trm248">Systems Act</term>, 2000 (Act No. 32 of 2000), subject to the criteria set out in section 50(2) of the said Act.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-21.3.list1">
+                <listIntroduction>Any delegation contemplated in this section must be recorded in the Register of Delegations, which must contain information on the-</listIntroduction>
+                <item id="section-21.3.list1.a">
+                  <num>(a)</num>
+                  <p>entity or <term refersTo="#term-person" id="trm249">person</term> issuing the delegation or sub-delegation;</p>
+                </item>
+                <item id="section-21.3.list1.b">
+                  <num>(b)</num>
+                  <p>recipient of the delegation or sub-delegation; and</p>
+                </item>
+                <item id="section-21.3.list1.c">
+                  <num>(c)</num>
+                  <p>conditions attached to the delegation or sub-delegation.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-22">
+          <num>22.</num>
+          <heading>Appeals</heading>
+          <subsection id="section-22.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-person" id="trm250">person</term> whose rights are affected by a decision taken by the <term refersTo="#term-Municipality" id="trm251">Municipality</term> in terms of this by-law may appeal against that decision in terms of the Appeals provision contained in the <term refersTo="#term-Systems_Act" id="trm252">Systems Act</term> by giving written notice of the appeal and reasons to the Municipal Manager within 21 days of the date of the notification of the decision.</p>
+            </content>
+          </subsection>
+          <subsection id="section-22.2">
+            <num>(2)</num>
+            <content>
+              <p>The Municipal Manager must promptly submit the appeal to the appropriate appeal authority.</p>
+            </content>
+          </subsection>
+          <subsection id="section-22.3">
+            <num>(3)</num>
+            <content>
+              <p>The appeal authority must commence with an appeal within six weeks and decide the appeal within a reasonable period.</p>
+            </content>
+          </subsection>
+          <subsection id="section-22.4">
+            <num>(4)</num>
+            <content>
+              <p>The appeal authority must confirm, vary or revoke the decision, but no such variation or revocation of a decision may detract from any rights which may have accrued as a result of the decision.</p>
+            </content>
+          </subsection>
+          <subsection id="section-22.5">
+            <num>(5)</num>
+            <content>
+              <p>The appeal authority must furnish written reasons for its decision on all appeal matters.</p>
+            </content>
+          </subsection>
+          <subsection id="section-22.6">
+            <num>(6)</num>
+            <content>
+              <p>All appeals lodged are done so in terms of the <term refersTo="#term-Systems_Act" id="trm253">Systems Act</term>, and not in terms of this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-22.7">
+            <num>(7)</num>
+            <content>
+              <p>Where a conviction has been affirmed by a court of law and the accused wishes to appeal such conviction, the appeal must take place in terms of the court’s appeal process and not in terms of subsection (1) to (5).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-23">
+          <num>23.</num>
+          <heading>Offences and penalties</heading>
+          <subsection id="section-23.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-23.1.list1">
+                <listIntroduction>A <term refersTo="#term-person" id="trm254">person</term> commits an offence if he or she–</listIntroduction>
+                <item id="section-23.1.list1.a">
+                  <num>(a)</num>
+                  <p>contravenes any provision of this By-law;</p>
+                </item>
+                <item id="section-23.1.list1.b">
+                  <num>(b)</num>
+                  <p>contravenes any conditions, restrictions or prohibitions imposed in terms of this By-law;</p>
+                </item>
+                <item id="section-23.1.list1.c">
+                  <num>(c)</num>
+                  <p>fails to comply with any order, signage or terms of any notice displayed or served on such <term refersTo="#term-person" id="trm255">person</term> in terms of this By-law;</p>
+                </item>
+                <item id="section-23.1.list1.d">
+                  <num>(d)</num>
+                  <p>obstructs, hinders, or in any manner interferes with an <term refersTo="#term-authorised_official" id="trm256">authorised official</term> who is acting or entitled to act in terms of this By-law; or</p>
+                </item>
+                <item id="section-23.1.list1.e">
+                  <num>(e)</num>
+                  <p>fails to obey any lawful instruction or direction given to him or her in terms of this Bylaw.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-23.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-person" id="trm257">person</term> is guilty of a continuing offence if he or she continues with an offence after notice has been served on him or her in terms of this By-law requiring him or her to cease committing such offence, or after he or she has been convicted of such offence.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.3">
+            <num>(3)</num>
+            <content>
+              <p>A <term refersTo="#term-person" id="trm258">person</term> who is convicted of an offence under this section may be sentenced to a fine or imprisonment for a period not exceeding two years, or to both a fine and a period of imprisonment.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.4">
+            <num>(4)</num>
+            <content>
+              <p>In the case of a continuing offence, an additional fine or imprisonment for each day on which such offence continues or both such fine and imprisonment, will be imposed.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.5">
+            <num>(5)</num>
+            <content>
+              <p>Notwithstanding the provisions of subsection (3), and subject to the rules of natural justice and the <term refersTo="#term-Constitution" id="trm259">Constitution</term>, the <term refersTo="#term-Head" id="trm260">Head</term> may conduct an informal inquiry into an alleged breach of any provision of this By-law by any <term refersTo="#term-person" id="trm261">person</term> which, in the opinion of the <term refersTo="#term-Head" id="trm262">Head</term>, is not serious enough to warrant prosecution in terms of subsection (3).</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.6">
+            <num>(6)</num>
+            <content>
+              <p>If sufficient evidence is adduced to the satisfaction of the <term refersTo="#term-Head" id="trm263">Head</term> that the <term refersTo="#term-person" id="trm264">person</term> referred to in subsection (5) has committed an alleged breach of this By-law, the <term refersTo="#term-Head" id="trm265">Head</term> may summarily find such <term refersTo="#term-person" id="trm266">person</term> guilty of committing the alleged breach and impose upon him or her such penalty as he or she may deem appropriate, subject to the right of the <term refersTo="#term-person" id="trm267">person</term> concerned to appeal against the <term refersTo="#term-Head" id="trm268">Head</term>'s finding or penalty in terms of this By-law.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-24">
+          <num>24.</num>
+          <heading>Repeal of laws and savings</heading>
+          <subsection id="section-24.1">
+            <num>(1)</num>
+            <content>
+              <p>The By-laws mentioned in the first and second columns of the Schedule to this By-law are hereby repealed to the extent set out in the third column of the said Schedule.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.2">
+            <num>(2)</num>
+            <content>
+              <p>Any rights accrued or obligations incurred under the repealed by-laws remain in force as if those by-laws have not been repealed.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-25">
+          <num>25.</num>
+          <heading>Short title and commencement</heading>
+          <paragraph id="section-25.paragraph-0">
+            <content>
+              <p>This By-law is called the Retail Market By-law 2014, and takes effect on the date of the publication thereof in the Provincial Gazette.</p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+    </body>
+  </act>
+  <components>
+    <component id="component-schedule">
+      <doc name="schedule">
+        <meta>
+          <identification source="#slaw">
+            <FRBRWork>
+              <FRBRthis value="/za-eth/act/by-law/2014/retail-market/schedule"/>
+              <FRBRuri value="/za-eth/act/by-law/2014/retail-market"/>
+              <FRBRalias value="Schedule"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-eth/act/by-law/2014/retail-market/eng@2014-06-27/schedule"/>
+              <FRBRuri value="/za-eth/act/by-law/2014/retail-market/eng@2014-06-27"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-eth/act/by-law/2014/retail-market/eng@2014-06-27/schedule"/>
+              <FRBRuri value="/za-eth/act/by-law/2014/retail-market/eng@2014-06-27"/>
+              <FRBRdate date="2016-04-08" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule">
+            <heading>LAWS REPEALED</heading>
+            <paragraph id="schedule.paragraph-0">
+              <content>
+                <table id="schedule.paragraph-0.table0">
+                  <tr>
+                    <th>
+                      <p>Number and year of law</p>
+                    </th>
+                    <th>
+                      <p>Title</p>
+                    </th>
+                    <th>
+                      <p>Extent of repeal</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 42 of 1972 published in Provincial Gazette No. 3658 dated 20 January 1972</p>
+                    </td>
+                    <td>
+                      <p>Indian Market Bylaw (Early Morning Section)</p>
+                    </td>
+                    <td>
+                      <p>The whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 298 of 1959 published in Provincial Gazette dated 2 July 1959</p>
+                    </td>
+                    <td>
+                      <p>Standard Bylaws (Pinetown)</p>
+                    </td>
+                    <td>
+                      <p>Chapter 7</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 287 of 1963 published in Provincial Gazette No. 3164 dated 30 July 1963</p>
+                    </td>
+                    <td>
+                      <p>General Bylaws Chapter xiv (Verulam)</p>
+                    </td>
+                    <td>
+                      <p>The Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 87 of 1953 published in Provincial Gazette No. 2461 dated 10 March 1953</p>
+                    </td>
+                    <td>
+                      <p>Standard Bylaws (Mount Edgecombe)</p>
+                    </td>
+                    <td>
+                      <p>Chapter 7</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 237 of 1942</p>
+                    </td>
+                    <td>
+                      <p>Regulations for the purpose of local health commission (Public Health Areas Control) Ordinance No. 20 of 1942</p>
+                    </td>
+                    <td>
+                      <p>The Whole</p>
+                    </td>
+                  </tr>
+                </table>
+              </content>
+            </paragraph>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>
