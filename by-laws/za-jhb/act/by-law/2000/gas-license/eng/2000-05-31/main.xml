@@ -1,0 +1,388 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-jhb/act/by-law/2000/gas-license/main"/>
+          <FRBRuri value="/za-jhb/act/by-law/2000/gas-license"/>
+          <FRBRalias value="Gas License By-laws"/>
+          <FRBRdate date="2000-05-31" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-jhb/act/by-law/2000/gas-license/eng@2000-05-31/main"/>
+          <FRBRuri value="/za-jhb/act/by-law/2000/gas-license/eng@2000-05-31"/>
+          <FRBRdate date="2000-05-31" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-jhb/act/by-law/2000/gas-license/eng@2000-05-31/main"/>
+          <FRBRuri value="/za-jhb/act/by-law/2000/gas-license/eng@2000-05-31"/>
+          <FRBRdate date="2015-10-05" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2000-05-31" name="Gauteng Provincial Gazette" showAs="Gauteng Provincial Gazette" number="57"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-charge" href="/ontology/term/this.eng.charge" showAs="charge"/>
+        <TLCTerm id="term-consumer" href="/ontology/term/this.eng.consumer" showAs="consumer"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-distribution" href="/ontology/term/this.eng.distribution" showAs="distribution"/>
+        <TLCTerm id="term-distribution_pipelines" href="/ontology/term/this.eng.distribution_pipelines" showAs="distribution pipelines"/>
+        <TLCTerm id="term-gas" href="/ontology/term/this.eng.gas" showAs="gas"/>
+        <TLCTerm id="term-grantee" href="/ontology/term/this.eng.grantee" showAs="grantee"/>
+        <TLCTerm id="term-licence" href="/ontology/term/this.eng.licence" showAs="licence"/>
+        <TLCTerm id="term-licence_area" href="/ontology/term/this.eng.licence_area" showAs="licence area"/>
+        <TLCTerm id="term-licensee" href="/ontology/term/this.eng.licensee" showAs="licensee"/>
+        <TLCTerm id="term-market_power" href="/ontology/term/this.eng.market_power" showAs="market power"/>
+        <TLCTerm id="term-municipal_boundary" href="/ontology/term/this.eng.municipal_boundary" showAs="municipal boundary"/>
+        <TLCTerm id="term-storage" href="/ontology/term/this.eng.storage" showAs="storage"/>
+        <TLCTerm id="term-supply" href="/ontology/term/this.eng.supply" showAs="supply"/>
+        <TLCTerm id="term-trading" href="/ontology/term/this.eng.trading" showAs="trading"/>
+        <TLCTerm id="term-transmission" href="/ontology/term/this.eng.transmission" showAs="transmission"/>
+      </references>
+    </meta>
+    <preface>
+      <p>The Greater Johannesburg Transitional Metropolitan Council (“the Council") hereby published the Gas Licence by-laws set forth hereinafter, which have been made by the Council under section 156(2) of the Constitution of the Republic of South Africa, 1996 and in accordance with Chapter Three of the Rationalisation of Local Government Affairs Act, 1998 (Act 10 of 1998).</p>
+    </preface>
+    <preamble>
+      <p>These by-laws provide for the development and maintenance of sustainable, efficient and affordable gas supply services by licensees within * the municipal boundary from time to time of the Greater Johannesburg Transitional Metropolitan Council.</p>
+    </preamble>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <subsection id="section-1.subsection-0">
+          <content>
+            <p>In these by-laws, unless the context otherwise indicates</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-1" refersTo="#term-charge">
+          <content>
+            <p>"<def refersTo="#term-charge">charge</def>" means the amount in rands to be paid by a <term refersTo="#term-consumer" id="trm0">consumer</term> for the <term refersTo="#term-supply" id="trm1">supply</term> of <term refersTo="#term-gas" id="trm2">gas</term> or any related amount, deposit or penalty for which a <term refersTo="#term-consumer" id="trm3">consumer</term> may be liable;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-2" refersTo="#term-consumer">
+          <content>
+            <p>"<def refersTo="#term-consumer">consumer</def>" means a person who purchases or receives <term refersTo="#term-gas" id="trm4">gas</term> for consumption and not for delivery or resale, unless by agreement with a <term refersTo="#term-licensee" id="trm5">licensee</term>, and includes a person who owns or occupies premises to which <term refersTo="#term-gas" id="trm6">gas</term> is supplied;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-3" refersTo="#term-Council">
+          <content>
+            <p>"<def refersTo="#term-Council">Council</def>" means the Greater Johannesburg Transitional Metropolitan Council established in terms of the Local Government Transition Act, 1993 (Act 209 of 1993) or its successors-in-title and includes the Chief Executive Officer from time to time thereof and any other duly authorised official of the Council who has been delegated any powers, functions and duties necessary to give effect to these by-laws and decide upon and administer the matters referred to herein;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-4" refersTo="#term-distribution">
+          <content>
+            <p>"<def refersTo="#term-distribution">distribution</def>" means the transportation of <term refersTo="#term-gas" id="trm7">gas</term> through <term refersTo="#term-distribution_pipelines" id="trm8">distribution pipelines</term> and associated facilities to points of ultimate consumption for the purpose of <term refersTo="#term-trading" id="trm9">trading</term> in <term refersTo="#term-gas" id="trm10">gas</term>, and any other activity incidental thereto, and "distribute" and “distributing" have corresponding meanings;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-5" refersTo="#term-distribution_pipelines">
+          <content>
+            <p>"<def refersTo="#term-distribution_pipelines">distribution pipelines</def>" means the pipelines, associates facilities and any other infrastructure necessary for the <term refersTo="#term-distribution" id="trm11">distribution</term> of <term refersTo="#term-gas" id="trm12">gas</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-6" refersTo="#term-gas">
+          <content>
+            <p>"<def refersTo="#term-gas">gas</def>" means any synthetic or natural product containing hydrocarbons which at an ambient temperature of 15°C (fifteen degrees Celsius) and at 1 (one) atmosphere of pressure is in a gaseous state, and is transported through a <term refersTo="#term-distribution" id="trm13">distribution</term> pipeline;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-7" refersTo="#term-grantee">
+          <content>
+            <p>"<def refersTo="#term-grantee">grantee</def>" means a person granted special permission by the <term refersTo="#term-Council" id="trm14">Council</term> in terms of section 7(1);</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-8" refersTo="#term-licence">
+          <content>
+            <p>"<def refersTo="#term-licence">licence</def>" means a licence granted by the <term refersTo="#term-Council" id="trm15">Council</term> under these by-laws for the <term refersTo="#term-supply" id="trm16">supply</term> of <term refersTo="#term-gas" id="trm17">gas</term> within a <term refersTo="#term-licence_area" id="trm18">licence area</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-9" refersTo="#term-licence_area">
+          <content>
+            <p>"<def refersTo="#term-licence_area">licence area</def>" means the geographical area within the <term refersTo="#term-municipal_boundary" id="trm19">municipal boundary</term> where a <term refersTo="#term-licensee" id="trm20">licensee</term> is permitted to <term refersTo="#term-supply" id="trm21">supply</term> <term refersTo="#term-gas" id="trm22">gas</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-10" refersTo="#term-licensee">
+          <content>
+            <p>"<def refersTo="#term-licensee">licensee</def>" means a person granted a <term refersTo="#term-licence" id="trm23">licence</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-11" refersTo="#term-market_power">
+          <content>
+            <p>"<def refersTo="#term-market_power">market power</def>" means the power of a <term refersTo="#term-licensee" id="trm24">licensee</term> to raise charges consistently and significantly above the level that would prevail in a competitive market`</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-12" refersTo="#term-municipal_boundary">
+          <content>
+            <p>"<def refersTo="#term-municipal_boundary">municipal boundary</def>" means the municipal boundary of the <term refersTo="#term-Council" id="trm25">Council</term> as determined under the Local Government Transition Act, 1993 (Act 209 of 1993) and any notice thereunder or as determined or redetermined under the Municipal Demarcation Act, 1998 (Act 27 of 1998), as and when it comes into operation.</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-13" refersTo="#term-storage">
+          <content>
+            <p>"<def refersTo="#term-storage">storage</def>" means the holding of <term refersTo="#term-gas" id="trm26">gas</term> piped into a storage facility for the <term refersTo="#term-transmission" id="trm27">transmission</term> and <term refersTo="#term-distribution" id="trm28">distribution</term> thereos at a later stage, and any of activity incidental thereto, and "store" and storing" have corresponding meanings;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-14" refersTo="#term-supply">
+          <content>
+            <p>"<def refersTo="#term-supply">supply</def>" means <term refersTo="#term-transmission" id="trm29">transmission</term>, <term refersTo="#term-storage" id="trm30">storage</term>, <term refersTo="#term-distribution" id="trm31">distribution</term> or <term refersTo="#term-trading" id="trm32">trading</term>, and “supplier", "supplied" and "supplying" have corresponding meanings;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-15" refersTo="#term-trading">
+          <content>
+            <p>"<def refersTo="#term-trading">trading</def>" means the sale of <term refersTo="#term-gas" id="trm33">gas</term>, excluding <term refersTo="#term-gas" id="trm34">gas</term> derived irom an LPG source, as a commodity to consumers by a <term refersTo="#term-licensee" id="trm35">licensee</term> or <term refersTo="#term-grantee" id="trm36">grantee</term> and includes any services or conditions associated there with; and</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-16" refersTo="#term-transmission">
+          <content>
+            <p>"<def refersTo="#term-transmission">transmission</def>" means transportation of bulk supplies by pipeline from a source of <term refersTo="#term-supply" id="trm37">supply</term> to a distributor or <term refersTo="#term-storage" id="trm38">storage</term> company, and any activity incidental thereto, and "transmit" and "transmitting" have corresponding meanings.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Licence Requirement</heading>
+        <subsection id="section-2.2.1">
+          <num>2.1</num>
+          <content>
+            <p>No person shall <term refersTo="#term-supply" id="trm39">supply</term> <term refersTo="#term-gas" id="trm40">gas</term>, other than <term refersTo="#term-gas" id="trm41">gas</term> stom an LPG source, within the <term refersTo="#term-municipal_boundary" id="trm42">municipal boundary</term> to a <term refersTo="#term-consumer" id="trm43">consumer</term> without having obtained a <term refersTo="#term-licence" id="trm44">licence</term> or special permission from the <term refersTo="#term-Council" id="trm45">Council</term> in terms of these by-laws.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.2.2">
+          <num>2.2</num>
+          <content>
+            <blockList id="section-2.2.2.list1">
+              <listIntroduction>Licences issued and special permission granted under these by-laws—</listIntroduction>
+              <item id="section-2.2.2.list1.a">
+                <num>(a)</num>
+                <p>shall be personal to the <term refersTo="#term-licensee" id="trm46">licensee</term> or <term refersTo="#term-grantee" id="trm47">grantee</term> arid incapable of cession or assignment without the prior written consent of the Count</p>
+              </item>
+              <item id="section-2.2.2.list1.b">
+                <num>(b)</num>
+                <p>shall be valid for the period stipulated in the <term refersTo="#term-licence" id="trm48">licence</term> or grant of special permission, which period may not exceed 30 (thirty) years, i. may be renewed for further periods upon application under these by-laws; and</p>
+              </item>
+              <item id="section-2.2.2.list1.c">
+                <num>(c)</num>
+                <p>may be revoked by the <term refersTo="#term-Council" id="trm49">Council</term>, on grounds for revocation which shall be enumerated in the <term refersTo="#term-licence" id="trm50">licence</term> or grant of special permission.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-2.2.3">
+          <num>2.3</num>
+          <content>
+            <p>Subject to section 7, the <term refersTo="#term-Council" id="trm51">Council</term> may at its discretion issue a <term refersTo="#term-licence" id="trm52">licence</term> on an exclusive basis within a <term refersTo="#term-licence_area" id="trm53">licence area</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Licence Application</heading>
+        <subsection id="section-3.subsection-0">
+          <content>
+            <p>Applications for a <term refersTo="#term-licence" id="trm54">licence</term> to <term refersTo="#term-supply" id="trm55">supply</term> <term refersTo="#term-gas" id="trm56">gas</term> shall be in writing on a form prescribed by the <term refersTo="#term-Council" id="trm57">Council</term> and shall be considered by the <term refersTo="#term-Council" id="trm58">Council</term> having regard to the following:</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.3.1">
+          <num>3.1</num>
+          <content>
+            <p>the financial, technological and managerial competency and experience of the applicant;</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.3.2">
+          <num>3.2</num>
+          <content>
+            <p>the capacity of existing suppliers and the sustainability of <term refersTo="#term-gas" id="trm59">gas</term> provision within the <term refersTo="#term-municipal_boundary" id="trm60">municipal boundary</term> if the applicant is issued a <term refersTo="#term-licence" id="trm61">licence</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.3.3">
+          <num>3.3</num>
+          <content>
+            <p>the environmental, health and safety record of the applicant;</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.3.4">
+          <num>3.4</num>
+          <content>
+            <p>the applicant's ownership or control of land and any infrastructure necessary for the <term refersTo="#term-supply" id="trm62">supply</term> of <term refersTo="#term-gas" id="trm63">gas</term>; and</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.3.5">
+          <num>3.5</num>
+          <content>
+            <p>any other factor which the <term refersTo="#term-Council" id="trm64">Council</term> considers relevant.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Licence Terms and Conditions</heading>
+        <subsection id="section-4.4.1">
+          <num>4.1</num>
+          <content>
+            <blockList id="section-4.4.1.list0">
+              <listIntroduction>Licences granted by the <term refersTo="#term-Council" id="trm65">Council</term> must—</listIntroduction>
+              <item id="section-4.4.1.list0.a">
+                <num>(a)</num>
+                <p>describe the <term refersTo="#term-licence_area" id="trm66">licence area</term>;</p>
+              </item>
+              <item id="section-4.4.1.list0.b">
+                <num>(b)</num>
+                <p>specify the <term refersTo="#term-licence" id="trm67">licence</term> period and the procedure for any <term refersTo="#term-licence" id="trm68">licence</term> renewal as contemplated in section 2 (2) (b);</p>
+              </item>
+              <item id="section-4.4.1.list0.c">
+                <num>(c)</num>
+                <p>contain a requirement that the <term refersTo="#term-licensee" id="trm69">licensee</term> must, within a reasonable period of time, adopt and abide by generally recognised written international or national standards, codes of practice and policies for the <term refersTo="#term-supply" id="trm70">supply</term> of <term refersTo="#term-gas" id="trm71">gas</term>, including technical standards of <term refersTo="#term-supply" id="trm72">supply</term>, quality standards, safety standards, units or standards of measurement for the verification of meters, and a capital contribution policy, which standard codes of practice and policies must be approved by the <term refersTo="#term-Council" id="trm73">Council</term> and made available to consumers in the <term refersTo="#term-licence_area" id="trm74">licence area</term> within a reasonable period of time after written request addressed to the <term refersTo="#term-licensee" id="trm75">licensee</term>;</p>
+              </item>
+              <item id="section-4.4.1.list0.d">
+                <num>(d)</num>
+                <p>stipulate <term refersTo="#term-gas" id="trm76">gas</term> quality specifications;</p>
+              </item>
+              <item id="section-4.4.1.list0.e">
+                <num>(e)</num>
+                <p>require the <term refersTo="#term-licensee" id="trm77">licensee</term> to provide information as the <term refersTo="#term-Council" id="trm78">Council</term> may, in writing, reasonably require relating to the <term refersTo="#term-licensee" id="trm79">licensee</term>'s business which relate to the <term refersTo="#term-supply" id="trm80">supply</term> of <term refersTo="#term-gas" id="trm81">gas</term>, including system performance, <term refersTo="#term-consumer" id="trm82">consumer</term> <term refersTo="#term-supply" id="trm83">supply</term> figures, investment proposals and expansion plans, but subject the condition that any information designated commercially confidential by the <term refersTo="#term-licensee" id="trm84">licensee</term>, and which so qualifies in the opinion of the <term refersTo="#term-Council" id="trm85">Council</term> shall be treated as such by the <term refersTo="#term-Council" id="trm86">Council</term> and may not be disclosed to any third party save where the <term refersTo="#term-Council" id="trm87">Council</term> is required to make a disclosure under Court order or by provincial or national legislation;</p>
+              </item>
+              <item id="section-4.4.1.list0.f">
+                <num>(f)</num>
+                <p>require the <term refersTo="#term-licensee" id="trm88">licensee</term> to submit within a reasonable peirod a system operating procedure and an emergency response plan by <term refersTo="#term-licensee" id="trm89">licensee</term> detailing its procedures and policies to ensure the safe and secure <term refersTo="#term-supply" id="trm90">supply</term> of <term refersTo="#term-gas" id="trm91">gas</term> in the <term refersTo="#term-licence_area" id="trm92">licence area</term>;</p>
+              </item>
+              <item id="section-4.4.1.list0.g">
+                <num>(g)</num>
+                <p>require the <term refersTo="#term-licensee" id="trm93">licensee</term> to submit, on an annual basis, an incident report detailing any incidents substantially affecting human heal safety or the environment arising out of the <term refersTo="#term-supply" id="trm94">supply</term> of <term refersTo="#term-gas" id="trm95">gas</term> by the <term refersTo="#term-licensee" id="trm96">licensee</term>;</p>
+              </item>
+              <item id="section-4.4.1.list0.h">
+                <num>(h)</num>
+                <p>require a <term refersTo="#term-licensee" id="trm97">licensee</term> to take out appropriate property and liability insurance for any <term refersTo="#term-gas" id="trm98">gas</term> <term refersTo="#term-distribution" id="trm99">distribution</term> and <term refersTo="#term-storage" id="trm100">storage</term> facilities owned by it accordance with an insurance programme approved of by the <term refersTo="#term-Council" id="trm101">Council</term> under the <term refersTo="#term-licence" id="trm102">licence</term>, which approval shall not subject the <term refersTo="#term-Council" id="trm103">Council</term> to a liability is the insurance programme proves inadequate;</p>
+              </item>
+              <item id="section-4.4.1.list0.i">
+                <num>(i)</num>
+                <p>require the <term refersTo="#term-licensee" id="trm104">licensee</term>, at <term refersTo="#term-Council" id="trm105">Council</term>'s request, to submit a capital investment plan setting out the capital investment necessary to ensure compliance with the <term refersTo="#term-licence" id="trm106">licence</term>;</p>
+              </item>
+              <item id="section-4.4.1.list0.j">
+                <num>(j)</num>
+                <p>permit a <term refersTo="#term-licensee" id="trm107">licensee</term> to access and expand all <term refersTo="#term-distribution_pipelines" id="trm108">distribution pipelines</term> and associated facilities in the <term refersTo="#term-licence_area" id="trm109">licence area</term>, subject to any applicable legislation;</p>
+              </item>
+              <item id="section-4.4.1.list0.k">
+                <num>(k)</num>
+                <p>permit a <term refersTo="#term-licensee" id="trm110">licensee</term> to construct and lay <term refersTo="#term-distribution_pipelines" id="trm111">distribution pipelines</term> in or over public property in the <term refersTo="#term-licence_area" id="trm112">licence area</term>, subject to wayleave approby the <term refersTo="#term-Council" id="trm113">Council</term>, and to exercise all of the <term refersTo="#term-Council" id="trm114">Council</term>'s rights in or over private property in the <term refersTo="#term-licence_area" id="trm115">licence area</term> in relation to the <term refersTo="#term-supply" id="trm116">supply</term> of <term refersTo="#term-gas" id="trm117">gas</term>, subj'. to such conditions as may be stipulated in the <term refersTo="#term-licence" id="trm118">licence</term>;</p>
+              </item>
+              <item id="section-4.4.1.list0.l">
+                <num>(l)</num>
+                <p>permit a <term refersTo="#term-licensee" id="trm119">licensee</term> to conduct any other business activity not regulated in the <term refersTo="#term-licence" id="trm120">licence</term>, provided that any such business activity may not adversely affect the <term refersTo="#term-licensee" id="trm121">licensee</term>'s obligations under the <term refersTo="#term-licence" id="trm122">licence</term>, these by-laws or any other law, and provided that such activities are separately accounted for;</p>
+              </item>
+              <item id="section-4.4.1.list0.m">
+                <num>(m)</num>
+                <p>stipulate procedures for amendment of the <term refersTo="#term-licence" id="trm123">licence</term>; (n) stipulate Circumstances under which the <term refersTo="#term-licence" id="trm124">licence</term> may be revoked by the <term refersTo="#term-Council" id="trm125">Council</term> and an appeals procedure;</p>
+              </item>
+              <item id="section-4.4.1.list0.o">
+                <num>(o)</num>
+                <p>permit a <term refersTo="#term-licensee" id="trm126">licensee</term>, subject to the provisions of section 5 below, to collect any charges due to it from a <term refersTo="#term-consumer" id="trm127">consumer</term> for the <term refersTo="#term-supply" id="trm128">supply</term> of <term refersTo="#term-gas" id="trm129">gas</term>;</p>
+              </item>
+              <item id="section-4.4.1.list0.p">
+                <num>(p)</num>
+                <p>prescribe the payment of a <term refersTo="#term-licence" id="trm130">licence</term> fee to cover the reasonable costs incurred by the <term refersTo="#term-Council" id="trm131">Council</term> in exercising its functions under the by-laws,</p>
+              </item>
+              <item id="section-4.4.1.list0.q">
+                <num>(q)</num>
+                <p>effect the transfer to the <term refersTo="#term-licensee" id="trm132">licensee</term> of all the <term refersTo="#term-Council" id="trm133">Council</term>'s rights (on the date of grant of the <term refersTo="#term-licence" id="trm134">licence</term>) under existing agreements for the <term refersTo="#term-supply" id="trm135">supply</term> of <term refersTo="#term-gas" id="trm136">gas</term> concluded by the <term refersTo="#term-Council" id="trm137">Council</term> within the <term refersTo="#term-licence_area" id="trm138">licence area</term>, and</p>
+              </item>
+              <item id="section-4.4.1.list0.r">
+                <num>(r)</num>
+                <p>contain any other term or condition that the <term refersTo="#term-Council" id="trm139">Council</term> considers relevant.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Determination, Approval and Publication of Tariffs and Related Charges</heading>
+        <subsection id="section-5.5.1">
+          <num>5.1</num>
+          <content>
+            <blockList id="section-5.5.1.list0">
+              <listIntroduction>If, in the opinion of the <term refersTo="#term-Council" id="trm140">Council</term>, a <term refersTo="#term-licensee" id="trm141">licensee</term> is, on the date of issue of a <term refersTo="#term-licence" id="trm142">licence</term>, able to exert significant <term refersTo="#term-market_power" id="trm143">market power</term>, the <term refersTo="#term-Council" id="trm144">Council</term> shall describe the methodology to be used in determining the permitted tariff and related charges for the <term refersTo="#term-supply" id="trm145">supply</term> of <term refersTo="#term-gas" id="trm146">gas</term> which shall be included in the <term refersTo="#term-licence" id="trm147">licence</term> issued. Such methodology may be reviewed from time to time by the <term refersTo="#term-Council" id="trm148">Council</term> in consultation with the <term refersTo="#term-licensee" id="trm149">licensee</term>, but at all times shall:</listIntroduction>
+              <item id="section-5.5.1.list0.a">
+                <num>(a)</num>
+                <p>Provide protection to consumers regarding the tariff and related charges;</p>
+              </item>
+              <item id="section-5.5.1.list0.b">
+                <num>(b)</num>
+                <p>Enable a <term refersTo="#term-licensee" id="trm150">licensee</term> to recover the costs of providing the service of such <term refersTo="#term-supply" id="trm151">supply</term> of <term refersTo="#term-gas" id="trm152">gas</term>, including a fair return on those investments made in connection with any activity authorised by the <term refersTo="#term-licence" id="trm153">licence</term>;</p>
+              </item>
+              <item id="section-5.5.1.list0.c">
+                <num>(c)</num>
+                <p>Encourage and reward efficiency in the <term refersTo="#term-licensee" id="trm154">licensee</term>'s operation and investments; and</p>
+              </item>
+              <item id="section-5.5.1.list0.d">
+                <num>(d)</num>
+                <p>Promote efficiency and economy in the use of <term refersTo="#term-gas" id="trm155">gas</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-5.5.2">
+          <num>5.2</num>
+          <content>
+            <p>If, in the opinion of the <term refersTo="#term-Council" id="trm156">Council</term>, a <term refersTo="#term-licensee" id="trm157">licensee</term> is, after the date of issue of a <term refersTo="#term-licence" id="trm158">licence</term>, able to exert significant <term refersTo="#term-market_power" id="trm159">market power</term>, the <term refersTo="#term-Council" id="trm160">Council</term> may, on reasonable notice to the <term refersTo="#term-licensee" id="trm161">licensee</term>, amend the <term refersTo="#term-licence" id="trm162">licence</term> to include a methodology to be used in determining the permitted tariff and related charges for the <term refersTo="#term-supply" id="trm163">supply</term> of <term refersTo="#term-gas" id="trm164">gas</term>, and the provisions of section 5.1 shall apply mutatis mutandis to such methodology.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.5.3">
+          <num>5.3</num>
+          <content>
+            <p>Notwithstanding anything contained in section 5.1 and 5.2, charges for the <term refersTo="#term-supply" id="trm165">supply</term> of <term refersTo="#term-gas" id="trm166">gas</term> shall not be unduly discriminatory.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.5.4">
+          <num>5.4</num>
+          <content>
+            <blockList id="section-5.5.4.list3">
+              <listIntroduction>Where a <term refersTo="#term-licensee" id="trm167">licensee</term>'s permitted tariff and related charges are to be determined in accordance with section 5.1 or 5.2, the <term refersTo="#term-licensee" id="trm168">licensee</term> shall:</listIntroduction>
+              <item id="section-5.5.4.list3.a">
+                <num>(a)</num>
+                <p>Submit the tariff and related charges to <term refersTo="#term-Council" id="trm169">Council</term> for confirmation that the methodology described in the <term refersTo="#term-licence" id="trm170">licence</term> has been properly applied, and</p>
+              </item>
+              <item id="section-5.5.4.list3.b">
+                <num>(b)</num>
+                <p>publish the tariff and related charges within a reasonable period before implementing them.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>General Obligations of a Licensee or Grantee</heading>
+        <subsection id="section-6.subsection-0">
+          <content>
+            <p>Any <term refersTo="#term-licensee" id="trm171">licensee</term> or <term refersTo="#term-grantee" id="trm172">grantee</term> shall comply with any requirement or condition imposed by the <term refersTo="#term-licence" id="trm173">licence</term> or special permission (including amendments thereto), and any requirement imposed by legislation or regulation at municipal, provincial or national level including any requirement related to environmental protection, sustainable energy use and human health and safety.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Preservation of Rights</heading>
+        <subsection id="section-7.subsection-0">
+          <content>
+            <p>Any person which supplies <term refersTo="#term-gas" id="trm174">gas</term> within the <term refersTo="#term-municipal_boundary" id="trm175">municipal boundary</term> may continue supplying <term refersTo="#term-gas" id="trm176">gas</term> to its existing consumers after these by-laws come into force, even if such consumers are located in the <term refersTo="#term-licence_area" id="trm177">licence area</term> of an exclusive <term refersTo="#term-licence" id="trm178">licence</term>, provided that it shall:</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.7.1">
+          <num>7.1</num>
+          <content>
+            <p>by no later than 6(six) months after the date of coming into force of these by-laws, or 6(six) months after the date of a demarcation that brings any of its existing consumers into the <term refersTo="#term-municipal_boundary" id="trm179">municipal boundary</term>, apply for a special permission to continue supplying its existing consumers within the <term refersTo="#term-municipal_boundary" id="trm180">municipal boundary</term>; and</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.7.2">
+          <num>7.2</num>
+          <content>
+            <p>be required to apply for a <term refersTo="#term-licence" id="trm181">licence</term> in the ordinary course if it intends to <term refersTo="#term-supply" id="trm182">supply</term> <term refersTo="#term-gas" id="trm183">gas</term> to new consumers within the <term refersTo="#term-municipal_boundary" id="trm184">municipal boundary</term>.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

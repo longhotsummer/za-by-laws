@@ -1,0 +1,1545 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openbylaws">
+        <FRBRWork>
+          <FRBRthis value="/za-cpt/act/by-law/2011/traffic/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2011/traffic"/>
+          <FRBRalias value="City of Cape Town: Traffic By-law, 2011"/>
+          <FRBRdate date="2011-07-22" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-cpt/act/by-law/2011/traffic/eng@2011-07-22/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2011/traffic/eng@2011-07-22"/>
+          <FRBRdate date="2011-07-22" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-cpt/act/by-law/2011/traffic/eng@2011-07-22/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2011/traffic/eng@2011-07-22"/>
+          <FRBRdate date="2015-09-06" name="Generation"/>
+          <FRBRauthor href="#openbylaws" as="#author"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-07-22" name="Province of Western Cape: Provincial Gazette" number="6892" showAs="Province of Western Cape: Provincial Gazette"/>
+      <references source="#this">
+        <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council.cape-town" showAs="Cape Town City Council"/>
+        <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCTerm id="term-Act" href="/ontology/term/this.eng.Act" showAs="Act"/>
+        <TLCTerm id="term-authorised_officer" href="/ontology/term/this.eng.authorised_officer" showAs="authorised officer"/>
+        <TLCTerm id="term-authorised_official" href="/ontology/term/this.eng.authorised_official" showAs="authorised official"/>
+        <TLCTerm id="term-bus" href="/ontology/term/this.eng.bus" showAs="bus"/>
+        <TLCTerm id="term-City" href="/ontology/term/this.eng.City" showAs="City"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-driver" href="/ontology/term/this.eng.driver" showAs="driver"/>
+        <TLCTerm id="term-holding_area" href="/ontology/term/this.eng.holding_area" showAs="holding area"/>
+        <TLCTerm id="term-holder" href="/ontology/term/this.eng.holder" showAs="holder"/>
+        <TLCTerm id="term-kerb_line" href="/ontology/term/this.eng.kerb_line" showAs="kerb line"/>
+        <TLCTerm id="term-motor_vehicle" href="/ontology/term/this.eng.motor_vehicle" showAs="motor vehicle"/>
+        <TLCTerm id="term-non-motorised_vehicle" href="/ontology/term/this.eng.non-motorised_vehicle" showAs="non-motorised vehicle"/>
+        <TLCTerm id="term-operating_licence" href="/ontology/term/this.eng.operating_licence" showAs="operating licence"/>
+        <TLCTerm id="term-owner" href="/ontology/term/this.eng.owner" showAs="owner"/>
+        <TLCTerm id="term-park" href="/ontology/term/this.eng.park" showAs="park"/>
+        <TLCTerm id="term-ply_for_hire" href="/ontology/term/this.eng.ply_for_hire" showAs="ply for hire"/>
+        <TLCTerm id="term-permit__means_a_" href="/ontology/term/this.eng.permit__means_a_" showAs="permit’ means a "/>
+        <TLCTerm id="term-public_transport_conductor" href="/ontology/term/this.eng.public_transport_conductor" showAs="public transport conductor"/>
+        <TLCTerm id="term-public_transport_vehicle" href="/ontology/term/this.eng.public_transport_vehicle" showAs="public transport vehicle"/>
+        <TLCTerm id="term-public_transport_service" href="/ontology/term/this.eng.public_transport_service" showAs="public transport service"/>
+        <TLCTerm id="term-rank" href="/ontology/term/this.eng.rank" showAs="rank"/>
+        <TLCTerm id="term-rank_token" href="/ontology/term/this.eng.rank_token" showAs="rank token"/>
+        <TLCTerm id="term-roadway" href="/ontology/term/this.eng.roadway" showAs="roadway"/>
+        <TLCTerm id="term-shoulder" href="/ontology/term/this.eng.shoulder" showAs="shoulder"/>
+        <TLCTerm id="term-stopping_place" href="/ontology/term/this.eng.stopping_place" showAs="stopping place"/>
+        <TLCTerm id="term-taxi" href="/ontology/term/this.eng.taxi" showAs="taxi"/>
+        <TLCTerm id="term-taxi_facility" href="/ontology/term/this.eng.taxi_facility" showAs="taxi facility"/>
+        <TLCTerm id="term-taxi_rank" href="/ontology/term/this.eng.taxi_rank" showAs="taxi rank"/>
+        <TLCTerm id="term-touting" href="/ontology/term/this.eng.touting" showAs="touting"/>
+        <TLCTerm id="term-trolley" href="/ontology/term/this.eng.trolley" showAs="trolley"/>
+        <TLCTerm id="term-vehicle" href="/ontology/term/this.eng.vehicle" showAs="vehicle"/>
+      </references>
+    </meta>
+    <preamble>
+      <p>WHEREAS section 156(2) of the Constitution provides that a City may make and administer by-laws for the effective administration of the matters which it has the right to administer;</p>
+      <p>WHEREAS municipal public transport is listed as a local government matter in Part B of Schedule 4 to the extent set out in section 155(6)(a) and (7);</p>
+      <p>WHEREAS municipal roads and traffic and parking is listed as local government matters in Part B of Schedule 5, to the extent set out in section 155(6)(a) and (7);</p>
+      <p>AND WHEREAS the City intends to control nuisances emanating from the operation of public transportation within the jurisdiction of the City of Cape Town;</p>
+      <p>AND NOW THEREFORE, BE IT ENACTED by the Council of the City of Cape Town as follows:—</p>
+    </preamble>
+    <body>
+      <chapter id="chapter-1">
+        <num>1</num>
+        <heading>Interpretation</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <subsection id="section-1.subsection-0">
+            <content>
+              <p>In this By-law, unless the context indicates otherwise—</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-1" refersTo="#term-Act">
+            <content>
+              <p>"<def refersTo="#term-Act">Act</def>" means the National Road Traffic Act, 1996 (Act No. 93 of 1996);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-2">
+            <content>
+              <blockList id="section-1.subsection-2.list2" refersTo="#term-authorised_officer">
+                <listIntroduction>"<def refersTo="#term-authorised_officer">authorised officer</def>" includes—</listIntroduction>
+                <item id="section-1.subsection-2.list2.a">
+                  <num>(a)</num>
+                  <p>a person in the service of the <term refersTo="#term-City" id="trm0">City</term> whose duty is to inspect licences, examine vehicles, examine driving licences, or who is a traffic officer or a road traffic law enforcement officer, and also any other person declared by the Minister of Transport by regulation made in terms of the National Road Traffic <term refersTo="#term-Act" id="trm1">Act</term> to be an authorised officer; and</p>
+                </item>
+                <item id="section-1.subsection-2.list2.b">
+                  <num>(b)</num>
+                  <p>a person appointed as an inspector by the <term refersTo="#term-City" id="trm2">City</term> as contemplated in section 86 of the National Land Transport <term refersTo="#term-Act" id="trm3">Act</term>, 2009 (<term refersTo="#term-Act" id="trm4">Act</term> No. 5 of 2009);</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-3" refersTo="#term-authorised_official">
+            <content>
+              <p>"<def refersTo="#term-authorised_official">authorised official</def>" means an employee of the <term refersTo="#term-City" id="trm5">City</term> responsible for carrying out any duty or function, or delegated to carry out any duty or function, in terms of this By-law;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-4" refersTo="#term-bus">
+            <content>
+              <p>"<def refersTo="#term-bus">bus</def>" means a <term refersTo="#term-motor_vehicle" id="trm6">motor vehicle</term> designed or adapted for the conveyance of more than 16 persons, including the <term refersTo="#term-driver" id="trm7">driver</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-5" refersTo="#term-City">
+            <content>
+              <p>"<def refersTo="#term-City">City</def>" means the City of Cape Town established by Provincial notice 479 of 2000 in terms of section 12 of the Local Government: Municipal Structures <term refersTo="#term-Act" id="trm8">Act</term>, 1998 (<term refersTo="#term-Act" id="trm9">Act</term> No. 117 of 1998);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-6" refersTo="#term-Council">
+            <content>
+              <p>"<def refersTo="#term-Council">Council</def>" means the Council of the <term refersTo="#term-City" id="trm10">City</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-7" refersTo="#term-driver">
+            <content>
+              <p>"<def refersTo="#term-driver">driver</def>" means any person who drives or attempts to drive any <term refersTo="#term-vehicle" id="trm11">vehicle</term> or who rides or attempts to ride any pedal cycle or who leads any draught, pack or saddle animal or herd or flock of animals, and "drive" or any like word has a corresponding meaning;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-8" refersTo="#term-holding_area">
+            <content>
+              <p>"<def refersTo="#term-holding_area">holding area</def>" in relation to a <term refersTo="#term-taxi" id="trm12">taxi</term>, means a place, other than a <term refersTo="#term-rank" id="trm13">rank</term>, where a <term refersTo="#term-taxi" id="trm14">taxi</term> remains until space for it is available at a <term refersTo="#term-rank" id="trm15">rank</term> or <term refersTo="#term-stopping_place" id="trm16">stopping place</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-9" refersTo="#term-holder">
+            <content>
+              <p>"<def refersTo="#term-holder">holder</def>" in relation to a <term refersTo="#term-rank_token" id="trm17">rank token</term>, means the <term refersTo="#term-owner" id="trm18">owner</term> to whom a <term refersTo="#term-rank_token" id="trm19">rank token</term> has been issued in terms of section 3(2);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-10" refersTo="#term-kerb_line">
+            <content>
+              <p>"<def refersTo="#term-kerb_line">kerb line</def>" means the boundary between the <term refersTo="#term-shoulder" id="trm20">shoulder</term> and the verge or in the absence of a <term refersTo="#term-shoulder" id="trm21">shoulder</term>, the part between the edge of the <term refersTo="#term-roadway" id="trm22">roadway</term> and the verge;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-11">
+            <content>
+              <blockList id="section-1.subsection-11.list11" refersTo="#term-motor_vehicle">
+                <listIntroduction>"<def refersTo="#term-motor_vehicle">motor vehicle</def>" means any self-propelled <term refersTo="#term-vehicle" id="trm23">vehicle</term> and includes—</listIntroduction>
+                <item id="section-1.subsection-11.list11.a">
+                  <num>(a)</num>
+                  <p>a trailer; and</p>
+                </item>
+                <item id="section-1.subsection-11.list11.b">
+                  <num>(b)</num>
+                  <blockList id="section-1.subsection-11.list11.b.list0">
+                    <listIntroduction>a <term refersTo="#term-vehicle" id="trm24">vehicle</term> having pedals and an engine or an electric motor as an integral part thereof or attached thereto and which is designed or adapted to be propelled by means of such pedals, engine or motor, or both such pedals and engine or motor, but does not include—</listIntroduction>
+                    <item id="section-1.subsection-11.list11.b.list0.i">
+                      <num>(i)</num>
+                      <p>any <term refersTo="#term-vehicle" id="trm25">vehicle</term> propelled by electrical power derived from storage batteries and which is controlled by a pedestrian; or</p>
+                    </item>
+                    <item id="section-1.subsection-11.list11.b.list0.ii">
+                      <num>(ii)</num>
+                      <p>any <term refersTo="#term-vehicle" id="trm26">vehicle</term> with a mass not exceeding 230 kilograms and specially designed and constructed, and not merely adapted for the use of any person suffering from some physical defect or disability and used solely by such person;</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-12" refersTo="#term-non-motorised_vehicle">
+            <content>
+              <p>"<def refersTo="#term-non-motorised_vehicle">non-motorised vehicle</def>" means a <term refersTo="#term-vehicle" id="trm27">vehicle</term> or device utilised for land road based transport for the conveyance of goods or passengers, which is propelled either solely by animal power or by human power or a combination of human power, assisted by an alternative source of power or provided by any form of fossil fuel;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-13" refersTo="#term-operating_licence">
+            <content>
+              <p>"<def refersTo="#term-operating_licence">operating licence</def>" means an "operating licence" as defined in section 1 of the National Land Transport <term refersTo="#term-Act" id="trm28">Act</term>, 2009 (<term refersTo="#term-Act" id="trm29">Act</term> No. 5 of 2009);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-14">
+            <content>
+              <blockList id="section-1.subsection-14.list14" refersTo="#term-owner">
+                <listIntroduction>"<def refersTo="#term-owner">owner</def>" in relation to a <term refersTo="#term-vehicle" id="trm30">vehicle</term>, means—</listIntroduction>
+                <item id="section-1.subsection-14.list14.a">
+                  <num>(a)</num>
+                  <p>the person who has the right to the use and enjoyment of a <term refersTo="#term-vehicle" id="trm31">vehicle</term> in terms of the common law or a contractual agreement with the title <term refersTo="#term-holder" id="trm32">holder</term> of such <term refersTo="#term-vehicle" id="trm33">vehicle</term>;</p>
+                </item>
+                <item id="section-1.subsection-14.list14.b">
+                  <num>(b)</num>
+                  <p>any person referred to in paragraph (a), for any period during which such person has failed to return that <term refersTo="#term-vehicle" id="trm34">vehicle</term> to the title <term refersTo="#term-holder" id="trm35">holder</term> in accordance with the contractual agreement referred to in paragraph (a); or</p>
+                </item>
+                <item id="section-1.subsection-14.list14.c">
+                  <num>(c)</num>
+                  <p>a motor dealer who is in possession of a <term refersTo="#term-vehicle" id="trm36">vehicle</term> for the purpose of sale, and who is registered as such in accordance with the regulations under section 4 of the <term refersTo="#term-Act" id="trm37">Act</term>, and "owned" or any like word has a corresponding meaning;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-15" refersTo="#term-park">
+            <content>
+              <p>"<def refersTo="#term-park">park</def>" means to keep a <term refersTo="#term-vehicle" id="trm38">vehicle</term>, whether occupied or not, stationary for a period of time longer than is reasonably necessary for the actual loading or unloading of persons or goods, but does not include any such keeping of a <term refersTo="#term-vehicle" id="trm39">vehicle</term> by reason of a cause beyond the control of the person in charge of such <term refersTo="#term-vehicle" id="trm40">vehicle</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-16" refersTo="#term-ply_for_hire">
+            <content>
+              <p>"<def refersTo="#term-ply_for_hire">ply for hire</def>" means use of a <term refersTo="#term-vehicle" id="trm41">vehicle</term> for conveying passengers for hire or reward;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-17" refersTo="#term-permit__means_a_">
+            <content>
+              <p>"<def refersTo="#term-permit__means_a_">permit’ means a </def>"permit" as defined in section 1 of the National Land Transportation <term refersTo="#term-Act" id="trm42">Act</term>, 2009 (<term refersTo="#term-Act" id="trm43">Act</term> No. 5 of 2009);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-18">
+            <content>
+              <blockList id="section-1.subsection-18.list18" refersTo="#term-public_transport_conductor">
+                <listIntroduction>"<def refersTo="#term-public_transport_conductor">public transport conductor</def>" means a person who, in a public place or on a public road, renders a conductor service to public transport drivers and passengers, including—</listIntroduction>
+                <item id="section-1.subsection-18.list18.a">
+                  <num>(a)</num>
+                  <p>soliciting and <term refersTo="#term-touting" id="trm44">touting</term> for business;</p>
+                </item>
+                <item id="section-1.subsection-18.list18.b">
+                  <num>(b)</num>
+                  <p>controlling and managing access to vehicles; and</p>
+                </item>
+                <item id="section-1.subsection-18.list18.c">
+                  <num>(c)</num>
+                  <p>collecting fares.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-19" refersTo="#term-public_transport_vehicle">
+            <content>
+              <p>"<def refersTo="#term-public_transport_vehicle">public transport vehicle</def>" means a public <term refersTo="#term-motor_vehicle" id="trm45">motor vehicle</term> used for the conveyance of passengers or of passengers and goods for hire or reward, including buses and taxis;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-20" refersTo="#term-public_transport_service">
+            <content>
+              <p>"<def refersTo="#term-public_transport_service">public transport service</def>" means a scheduled or unscheduled service for the carriage of passengers by road whether subject to a contract or not, and where the service is provided for a fare or any other consideration or reward, including cabotage in respect of passenger transport as defined in the Cross-Border Road Transport <term refersTo="#term-Act" id="trm46">Act</term>, 1998 (<term refersTo="#term-Act" id="trm47">Act</term> No. 4 of 1998) and except where clearly inappropriate, the term "public transport" must be interpreted accordingly;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-21">
+            <content>
+              <blockList id="section-1.subsection-21.list21" refersTo="#term-rank">
+                <listIntroduction>"<def refersTo="#term-rank">rank</def>" includes—</listIntroduction>
+                <item id="section-1.subsection-21.list21.a">
+                  <num>(a)</num>
+                  <p>a public transport interchange or a place upon a public road from which a <term refersTo="#term-public_transport_service" id="trm48">public transport service</term> may <term refersTo="#term-ply_for_hire" id="trm49">ply for hire</term> or convey and drop off passengers for reward; and</p>
+                </item>
+                <item id="section-1.subsection-21.list21.b">
+                  <num>(b)</num>
+                  <p>any place designated or demarcated as a rank or for the exclusive parking of specific public transport vehicles by a road traffic sign, and "ranking" and "public transport facility" have corresponding meanings;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-22" refersTo="#term-rank_token">
+            <content>
+              <p>"<def refersTo="#term-rank_token">rank token</def>" means a <term refersTo="#term-rank" id="trm50">rank</term> token issued in terms of section 3;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-23" refersTo="#term-roadway">
+            <content>
+              <p>"<def refersTo="#term-roadway">roadway</def>" means that portion of a road, street or thoroughfare improved, constructed or intended for vehicular traffic which is between the edges of the roadway;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-24" refersTo="#term-shoulder">
+            <content>
+              <p>"<def refersTo="#term-shoulder">shoulder</def>" means that portion of a road, street or thoroughfare between the edge of the <term refersTo="#term-roadway" id="trm51">roadway</term> and the <term refersTo="#term-kerb_line" id="trm52">kerb line</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-25">
+            <content>
+              <blockList id="section-1.subsection-25.list25" refersTo="#term-stopping_place">
+                <listIntroduction>"<def refersTo="#term-stopping_place">stopping place</def>" in relation to—</listIntroduction>
+                <item id="section-1.subsection-25.list25.a">
+                  <num>(a)</num>
+                  <p>a <term refersTo="#term-taxi" id="trm53">taxi</term>, means a place designated by the <term refersTo="#term-City" id="trm54">City</term> where a <term refersTo="#term-taxi" id="trm55">taxi</term> may stop to pick up or drop off passengers; and</p>
+                </item>
+                <item id="section-1.subsection-25.list25.b">
+                  <num>(b)</num>
+                  <p>a <term refersTo="#term-bus" id="trm56">bus</term>, means a demarcated stop where a <term refersTo="#term-bus" id="trm57">bus</term> may stop to pick up or drop off passengers;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-26" refersTo="#term-taxi">
+            <content>
+              <p>"<def refersTo="#term-taxi">taxi</def>" means a public transport <term refersTo="#term-motor_vehicle" id="trm58">motor vehicle</term> other than a public <term refersTo="#term-bus" id="trm59">bus</term> used for the conveyance of passengers or of passengers and goods for hire or reward such as a minibus or a midibus, and includes metered taxis;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-27" refersTo="#term-taxi_facility">
+            <content>
+              <p>"<def refersTo="#term-taxi_facility">taxi facility</def>" means a <term refersTo="#term-holding_area" id="trm60">holding area</term>, special parking place, <term refersTo="#term-stopping_place" id="trm61">stopping place</term>, <term refersTo="#term-rank" id="trm62">rank</term>, terminal and any other facility that is specifically identified and designated by the <term refersTo="#term-City" id="trm63">City</term> for the exclusive use of taxis;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-28" refersTo="#term-taxi_rank">
+            <content>
+              <p>"<def refersTo="#term-taxi_rank">taxi rank</def>" means any place designated or demarcated as a taxirank or for the exclusive parking of taxis by a road traffic sign;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-29" refersTo="#term-touting">
+            <content>
+              <p>"<def refersTo="#term-touting">touting</def>" means soliciting passengers for a <term refersTo="#term-public_transport_vehicle" id="trm64">public transport vehicle</term> by shouting, hooting, whistling or any other conduct, and "tout" has a corresponding meaning;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-30" refersTo="#term-trolley">
+            <content>
+              <p>"<def refersTo="#term-trolley">trolley</def>" means a device used to transport anything or person and which is propelled or pulled by human or animal power, and includes a pram or cart; and</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-31" refersTo="#term-vehicle">
+            <content>
+              <p>"<def refersTo="#term-vehicle">vehicle</def>" means a device designed or adapted mainly to travel on wheels or crawler tracks and includes such a device which is connected with a draw-bar to a breakdown vehicle and is used as part of the towing equipment of a breakdown vehicle to support any axle or all the axles of a <term refersTo="#term-motor_vehicle" id="trm65">motor vehicle</term> which is being salvaged other than such a device which moves solely on rails.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-2">
+        <num>2</num>
+        <heading>Plying for hire and ranking requirements</heading>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Parking and plying for hire</heading>
+          <subsection id="section-2.1">
+            <num>(1)</num>
+            <content>
+              <p>Subject to subsection (2), a <term refersTo="#term-driver" id="trm66">driver</term> of a <term refersTo="#term-public_transport_vehicle" id="trm67">public transport vehicle</term> who plies for hire, or picks up or drops off passengers may <term refersTo="#term-park" id="trm68">park</term> such <term refersTo="#term-public_transport_vehicle" id="trm69">public transport vehicle</term> at a <term refersTo="#term-rank" id="trm70">rank</term> or any parking place demarcated for such public transport vehicles.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.2">
+            <num>(2)</num>
+            <content>
+              <p>Despite subsection (1), the <term refersTo="#term-City" id="trm71">City</term> may, in emergencies or at recreational and other similar functions, set aside temporary public transport facilities identified by the <term refersTo="#term-authorised_officer" id="trm72">authorised officer</term> as suitable for the parking and stopping of public transport vehicles.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.3">
+            <num>(3)</num>
+            <content>
+              <p>No <term refersTo="#term-driver" id="trm73">driver</term> of a <term refersTo="#term-public_transport_vehicle" id="trm74">public transport vehicle</term> may <term refersTo="#term-park" id="trm75">park</term> such <term refersTo="#term-vehicle" id="trm76">vehicle</term> at a <term refersTo="#term-stopping_place" id="trm77">stopping place</term> or any other place not demarcated for such public transport vehicles.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.4">
+            <num>(4)</num>
+            <content>
+              <p>No <term refersTo="#term-driver" id="trm78">driver</term> of a <term refersTo="#term-public_transport_vehicle" id="trm79">public transport vehicle</term> may, except with the written authorisation of the relevant operating licensing authority, may deviate from the allocated route and take short cuts through community roads for the purpose of plying for hire or driving to pick up or drop off passengers.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Rank tokens</heading>
+          <subsection id="section-3.1">
+            <num>(1)</num>
+            <content>
+              <p>No person shall <term refersTo="#term-rank" id="trm80">rank</term> with a <term refersTo="#term-public_transport_vehicle" id="trm81">public transport vehicle</term> at a <term refersTo="#term-rank" id="trm82">rank</term> unless a <term refersTo="#term-rank_token" id="trm83">rank token</term> in respect of such <term refersTo="#term-vehicle" id="trm84">vehicle</term> has been issued to him or her in terms of subsection (5).</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-3.2.list1">
+                <listIntroduction> No person must be issued with a <term refersTo="#term-rank_token" id="trm85">rank token</term>, unless he or she provides— </listIntroduction>
+                <item id="section-3.2.list1.a">
+                  <num>(a)</num>
+                  <p>a certified copy of the <term refersTo="#term-operating_licence" id="trm86">operating licence</term> or public permit;</p>
+                </item>
+                <item id="section-3.2.list1.b">
+                  <num>(b)</num>
+                  <p>a certified copy of certificate of roadworthiness;</p>
+                </item>
+                <item id="section-3.2.list1.c">
+                  <num>(c)</num>
+                  <p>an identification document or driving licence;</p>
+                </item>
+                <item id="section-3.2.list1.d">
+                  <num>(d)</num>
+                  <p>registration papers of the <term refersTo="#term-vehicle" id="trm87">vehicle</term>; and</p>
+                </item>
+                <item id="section-3.2.list1.e">
+                  <num>(e)</num>
+                  <p>letter of support from the relevant association.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-3.3">
+            <num>(3)</num>
+            <content>
+              <p>No person may be issued with a <term refersTo="#term-rank_token" id="trm88">rank token</term> if he or she has outstanding warrants for the non-payment of traffic fines.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-rank_token" id="trm89">rank token</term> referred to in subsection (1) is valid for a period of 12 months from the date it was issued.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-3.5.list4">
+                <listIntroduction> The <term refersTo="#term-authorised_official" id="trm90">authorised official</term> shall, subject to subsections (2) and (3), issue in respect of a ranking <term refersTo="#term-public_transport_vehicle" id="trm91">public transport vehicle</term>, a <term refersTo="#term-rank_token" id="trm92">rank token</term> specifying— </listIntroduction>
+                <item id="section-3.5.list4.a">
+                  <num>(a)</num>
+                  <p>the <term refersTo="#term-rank" id="trm93">rank</term> at which the <term refersTo="#term-rank_token" id="trm94">rank token</term> applies;</p>
+                </item>
+                <item id="section-3.5.list4.b">
+                  <num>(b)</num>
+                  <p>the period for which such <term refersTo="#term-rank_token" id="trm95">rank token</term> is granted;</p>
+                </item>
+                <item id="section-3.5.list4.c">
+                  <num>(c)</num>
+                  <p>the registration number allotted to the <term refersTo="#term-vehicle" id="trm96">vehicle</term> concerned;</p>
+                </item>
+                <item id="section-3.5.list4.d">
+                  <num>(d)</num>
+                  <p>the make of such <term refersTo="#term-vehicle" id="trm97">vehicle</term>;</p>
+                </item>
+                <item id="section-3.5.list4.e">
+                  <num>(e)</num>
+                  <p>in respect of metered taxis, the number of the <term refersTo="#term-taxi" id="trm98">taxi</term>-meter approved for use in such <term refersTo="#term-vehicle" id="trm99">vehicle</term>;</p>
+                </item>
+                <item id="section-3.5.list4.f">
+                  <num>(f)</num>
+                  <p>the operating license number of the <term refersTo="#term-vehicle" id="trm100">vehicle</term>; and</p>
+                </item>
+                <item id="section-3.5.list4.g">
+                  <num>(g)</num>
+                  <p>the routes for which such <term refersTo="#term-vehicle" id="trm101">vehicle</term> has authority to <term refersTo="#term-ply_for_hire" id="trm102">ply for hire</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-3.6">
+            <num>(6)</num>
+            <content>
+              <blockList id="section-3.6.list5">
+                <listIntroduction> An application for approval for a <term refersTo="#term-rank_token" id="trm103">rank token</term> must be submitted to the <term refersTo="#term-authorised_official" id="trm104">authorised official</term>— </listIntroduction>
+                <item id="section-3.6.list5.a">
+                  <num>(a)</num>
+                  <p>by the <term refersTo="#term-owner" id="trm105">owner</term>; and</p>
+                </item>
+                <item id="section-3.6.list5.b">
+                  <num>(b)</num>
+                  <p>in a form as contained in the Schedule.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-3.7">
+            <num>(7)</num>
+            <content>
+              <p>The <term refersTo="#term-authorised_official" id="trm106">authorised official</term> may issue one <term refersTo="#term-rank_token" id="trm107">rank token</term> for each <term refersTo="#term-public_transport_vehicle" id="trm108">public transport vehicle</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.8">
+            <num>(8)</num>
+            <content>
+              <blockList id="section-3.8.list7">
+                <listIntroduction> Subject to section 77 of the National Land Transport <term refersTo="#term-Act" id="trm109">Act</term>, 2009 (<term refersTo="#term-Act" id="trm110">Act</term> No. 5 of 2009), the <term refersTo="#term-owner" id="trm111">owner</term> in respect of which a <term refersTo="#term-rank_token" id="trm112">rank token</term> has been issued shall, in writing, advise the <term refersTo="#term-authorised_official" id="trm113">authorised official</term> of— </listIntroduction>
+                <item id="section-3.8.list7.a">
+                  <num>(a)</num>
+                  <p>any change in his or her address during the operating period in which such <term refersTo="#term-rank_token" id="trm114">rank token</term> was issued;</p>
+                </item>
+                <item id="section-3.8.list7.b">
+                  <num>(b)</num>
+                  <p>his disposing of or otherwise ceasing to be the <term refersTo="#term-owner" id="trm115">owner</term> of such <term refersTo="#term-vehicle" id="trm116">vehicle</term> during such period;</p>
+                </item>
+                <item id="section-3.8.list7.c">
+                  <num>(c)</num>
+                  <p>the name and address of the person to whom it was disposed of; and</p>
+                </item>
+                <item id="section-3.8.list7.d">
+                  <num>(d)</num>
+                  <p>the cause of his or her ceasing to be the <term refersTo="#term-owner" id="trm117">owner</term>, within 7 days of such event.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-3.9">
+            <num>(9)</num>
+            <content>
+              <p>The <term refersTo="#term-owner" id="trm118">owner</term> shall pay to the <term refersTo="#term-City" id="trm119">City</term> a charge which shall be fixed by the <term refersTo="#term-Council" id="trm120">Council</term> from time to time for the use of each <term refersTo="#term-rank_token" id="trm121">rank token</term> issued in terms of this section.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.10">
+            <num>(10)</num>
+            <content>
+              <p>No person may forge, imitate, deface, mutilate, alter or make a mark upon, a <term refersTo="#term-rank_token" id="trm122">rank token</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Place of validity of <term refersTo="#term-rank_token" id="trm123">rank token</term></heading>
+          <subsection id="section-4.1">
+            <num>(1)</num>
+            <content>
+              <p>No person shall, except with the written consent of an <term refersTo="#term-authorised_officer" id="trm124">authorised officer</term>, <term refersTo="#term-ply_for_hire" id="trm125">ply for hire</term> with a <term refersTo="#term-public_transport_vehicle" id="trm126">public transport vehicle</term> from any place other than the route, <term refersTo="#term-rank" id="trm127">rank</term> or other place specified on the <term refersTo="#term-rank_token" id="trm128">rank token</term> issued in terms of section 3(5) in respect of such <term refersTo="#term-vehicle" id="trm129">vehicle</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-4.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-4.2.list13">
+                <listIntroduction> No person shall— </listIntroduction>
+                <item id="section-4.2.list13.a">
+                  <num>(a)</num>
+                  <p>affix a <term refersTo="#term-rank_token" id="trm130">rank token</term> to any <term refersTo="#term-vehicle" id="trm131">vehicle</term> other than the <term refersTo="#term-vehicle" id="trm132">vehicle</term> in respect of which it was issued; or</p>
+                </item>
+                <item id="section-4.2.list13.b">
+                  <num>(b)</num>
+                  <blockList id="section-4.2.list13.b.list0">
+                    <listIntroduction><term refersTo="#term-ply_for_hire" id="trm133">ply for hire</term> with a <term refersTo="#term-public_transport_vehicle" id="trm134">public transport vehicle</term>—</listIntroduction>
+                    <item id="section-4.2.list13.b.list0.i">
+                      <num>(i)</num>
+                      <p>unless the <term refersTo="#term-rank_token" id="trm135">rank token</term> issued in respect of such <term refersTo="#term-public_transport_vehicle" id="trm136">public transport vehicle</term> for the current year is affixed to the left hand side of the windscreen thereof so that its face is clearly visible from outside;</p>
+                    </item>
+                    <item id="section-4.2.list13.b.list0.ii">
+                      <num>(ii)</num>
+                      <p>whilst any <term refersTo="#term-rank_token" id="trm137">rank token</term> other than the <term refersTo="#term-rank_token" id="trm138">rank token</term> issued in respect of such <term refersTo="#term-public_transport_vehicle" id="trm139">public transport vehicle</term> for the current year is affixed thereto; or</p>
+                    </item>
+                    <item id="section-4.2.list13.b.list0.iii">
+                      <num>(iii)</num>
+                      <p>whilst any <term refersTo="#term-rank_token" id="trm140">rank token</term> which has ceased to be valid is affixed to such <term refersTo="#term-public_transport_vehicle" id="trm141">public transport vehicle</term>.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Rank token to be produced on demand</heading>
+          <subsection id="section-5.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-5.1.list0">
+                <listIntroduction> The <term refersTo="#term-holder" id="trm142">holder</term> of a <term refersTo="#term-rank_token" id="trm143">rank token</term> issued in terms of this By-law must— </listIntroduction>
+                <item id="section-5.1.list0.a">
+                  <num>(a)</num>
+                  <p>maintain such <term refersTo="#term-rank_token" id="trm144">rank token</term> in a good and legible condition; and</p>
+                </item>
+                <item id="section-5.1.list0.b">
+                  <num>(b)</num>
+                  <p>keep and display it in the <term refersTo="#term-motor_vehicle" id="trm145">motor vehicle</term> to which it relates at all relevant times when such <term refersTo="#term-vehicle" id="trm146">vehicle</term> is being operated as a <term refersTo="#term-public_transport_vehicle" id="trm147">public transport vehicle</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-5.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-5.2.list1">
+                <listIntroduction> Any <term refersTo="#term-authorised_officer" id="trm148">authorised officer</term> of the <term refersTo="#term-City" id="trm149">City</term> may call upon the <term refersTo="#term-driver" id="trm150">driver</term> of any <term refersTo="#term-public_transport_vehicle" id="trm151">public transport vehicle</term> to stop and may demand from him or her— </listIntroduction>
+                <item id="section-5.2.list1.a">
+                  <num>(a)</num>
+                  <p>to produce the <term refersTo="#term-rank_token" id="trm152">rank token</term> required under the provisions of this By-law; and</p>
+                </item>
+                <item id="section-5.2.list1.b">
+                  <num>(b)</num>
+                  <p>to supply his or her full name and address and also the name and address of the <term refersTo="#term-owner" id="trm153">owner</term> or operator of such <term refersTo="#term-public_transport_service" id="trm154">public transport service</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-5.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-5.3.list2">
+                <listIntroduction> No <term refersTo="#term-driver" id="trm155">driver</term> referred to in subsection (2) may, when called upon to do so by any <term refersTo="#term-authorised_officer" id="trm156">authorised officer</term>— </listIntroduction>
+                <item id="section-5.3.list2.a">
+                  <num>(a)</num>
+                  <p>refuse to stop;</p>
+                </item>
+                <item id="section-5.3.list2.b">
+                  <num>(b)</num>
+                  <p>refuse to supply his or her full name and address;</p>
+                </item>
+                <item id="section-5.3.list2.c">
+                  <num>(c)</num>
+                  <p>refuse to supply the correct name and address of the <term refersTo="#term-owner" id="trm157">owner</term> or operator of the <term refersTo="#term-vehicle" id="trm158">vehicle</term> in his or her charge;</p>
+                </item>
+                <item id="section-5.3.list2.d">
+                  <num>(d)</num>
+                  <p>refuse to produce a <term refersTo="#term-rank_token" id="trm159">rank token</term>; or</p>
+                </item>
+                <item id="section-5.3.list2.e">
+                  <num>(e)</num>
+                  <p>give a false name or address.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Suspension or withdrawal of a <term refersTo="#term-rank_token" id="trm160">rank token</term></heading>
+          <subsection id="section-6.1">
+            <num>(1)</num>
+            <content>
+              <p>Where the <term refersTo="#term-holder" id="trm161">holder</term> of a <term refersTo="#term-rank_token" id="trm162">rank token</term> has been found guilty of contravening this By-law, and irrespective of whether any other penalty by a court of law has been imposed, the <term refersTo="#term-City" id="trm163">City</term> may, subject to section 7, after all the circumstances of the case have been taken into consideration, act in terms of subsection (2).</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-6.2.list1">
+                <listIntroduction> The <term refersTo="#term-City" id="trm164">City</term> may, after taking all the circumstances of the case into consideration, suspend a <term refersTo="#term-rank_token" id="trm165">rank token</term> for a period determined by the <term refersTo="#term-authorised_officer" id="trm166">authorised officer</term> or withdraw the <term refersTo="#term-rank_token" id="trm167">rank token</term> if— </listIntroduction>
+                <item id="section-6.2.list1.a">
+                  <num>(a)</num>
+                  <blockList id="section-6.2.list1.a.list0">
+                    <listIntroduction>the <term refersTo="#term-owner" id="trm168">owner</term> of the <term refersTo="#term-public_transport_vehicle" id="trm169">public transport vehicle</term>—</listIntroduction>
+                    <item id="section-6.2.list1.a.list0.i">
+                      <num>(i)</num>
+                      <p>does not comply with an instruction issued in terms of this By-law; or</p>
+                    </item>
+                    <item id="section-6.2.list1.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>does not maintain the <term refersTo="#term-public_transport_vehicle" id="trm170">public transport vehicle</term> at all times in a sanitary state and in a roadworthy condition; and</p>
+                    </item>
+                    <item id="section-6.2.list1.a.list0.iii">
+                      <num>(iii)</num>
+                      <p>has outstanding arrest warrants for the payment of traffic fines;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-6.2.list1.b">
+                  <num>(b)</num>
+                  <blockList id="section-6.2.list1.b.list1">
+                    <listIntroduction>an <term refersTo="#term-authorised_officer" id="trm171">authorised officer</term> inspects the <term refersTo="#term-public_transport_vehicle" id="trm172">public transport vehicle</term> and finds that such <term refersTo="#term-vehicle" id="trm173">vehicle</term>—</listIntroduction>
+                    <item id="section-6.2.list1.b.list1.i">
+                      <num>(i)</num>
+                      <p>is constructed in such a way or is in such a condition that the <term refersTo="#term-public_transport_vehicle" id="trm174">public transport vehicle</term> is unsafe for the number of passengers that it is authorised to carry; or</p>
+                    </item>
+                    <item id="section-6.2.list1.b.list1.ii">
+                      <num>(ii)</num>
+                      <p>does not comply with the conditions specified in this By-law or the <term refersTo="#term-Act" id="trm175">Act</term>.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-6.3">
+            <num>(3)</num>
+            <content>
+              <p>No person may use or allow a <term refersTo="#term-vehicle" id="trm176">vehicle</term> to be used as a <term refersTo="#term-public_transport_vehicle" id="trm177">public transport vehicle</term> at a public transport facility if the <term refersTo="#term-rank_token" id="trm178">rank token</term> of such <term refersTo="#term-public_transport_vehicle" id="trm179">public transport vehicle</term> has been suspended or withdrawn, or has expired.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.4">
+            <num>(4)</num>
+            <content>
+              <p>If an <term refersTo="#term-operating_licence" id="trm180">operating licence</term> has been suspended, cancelled or withdrawn by the relevant licencing authority, the <term refersTo="#term-rank_token" id="trm181">rank token</term> issued by the <term refersTo="#term-City" id="trm182">City</term> is automatically suspended, cancelled or withdrawn, as the case may be.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.5">
+            <num>(5)</num>
+            <content>
+              <p>Where on appeal by the <term refersTo="#term-holder" id="trm183">holder</term> of an <term refersTo="#term-operating_licence" id="trm184">operating licence</term> to the relevant authority the suspension, cancellation or withdrawal of an <term refersTo="#term-operating_licence" id="trm185">operating licence</term> is reversed, the <term refersTo="#term-City" id="trm186">City</term> may re-issue a <term refersTo="#term-rank_token" id="trm187">rank token</term> subject to certain specified conditions.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Procedure for suspension or withdrawal of a <term refersTo="#term-rank_token" id="trm188">rank token</term></heading>
+          <subsection id="section-7.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-7.1.list0">
+                <listIntroduction> A <term refersTo="#term-rank_token" id="trm189">rank token</term> may not be suspended or withdrawn unless— </listIntroduction>
+                <item id="section-7.1.list0.a">
+                  <num>(a)</num>
+                  <blockList id="section-7.1.list0.a.list0">
+                    <listIntroduction>the <term refersTo="#term-authorised_official" id="trm190">authorised official</term> has given the <term refersTo="#term-holder" id="trm191">holder</term> of a <term refersTo="#term-rank_token" id="trm192">rank token</term> and any public transport association or council of which the <term refersTo="#term-holder" id="trm193">holder</term> is a member, at least 14 days written notice by certified mail of his or her intention to suspend or withdraw the <term refersTo="#term-rank_token" id="trm194">rank token</term>, and such a notice must give—</listIntroduction>
+                    <item id="section-7.1.list0.a.list0.i">
+                      <num>(i)</num>
+                      <p>the reasons for the proposed action and an adequate statement setting out the nature of the action;</p>
+                    </item>
+                    <item id="section-7.1.list0.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>an invitation to the <term refersTo="#term-holder" id="trm195">holder</term> of the <term refersTo="#term-rank_token" id="trm196">rank token</term> to make representations on the matter;</p>
+                    </item>
+                    <item id="section-7.1.list0.a.list0.iii">
+                      <num>(iii)</num>
+                      <p>an address for the submission of representations as contemplated in sub-paragraph (ii); and</p>
+                    </item>
+                    <item id="section-7.1.list0.a.list0.iv">
+                      <num>(iv)</num>
+                      <p>the date, time and place of a hearing, which may not be less than 28 days from the date of the notice, to consider the suspension or withdrawal, and an indication that the <term refersTo="#term-holder" id="trm197">holder</term> may submit representations and appear at the hearing.</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-7.1.list0.b">
+                  <num>(b)</num>
+                  <p>the <term refersTo="#term-holder" id="trm198">holder</term> of a suspended or withdrawn <term refersTo="#term-rank_token" id="trm199">rank token</term> is given an opportunity, to either personally or through his or her duly authorised representative, appear at a hearing and to make representations to the <term refersTo="#term-City" id="trm200">City</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-7.2">
+            <num>(2)</num>
+            <content>
+              <p>If a <term refersTo="#term-holder" id="trm201">holder</term> of a <term refersTo="#term-rank_token" id="trm202">rank token</term> who has received a notice referred to in subsection (1) wishes to appear and to oppose the proposed action, he or she must, within 14 days of receiving the notice or within a further period that the <term refersTo="#term-City" id="trm203">City</term> may allow, submit representations in writing by hand or by certified mail to the address indicated in the notice.</p>
+            </content>
+          </subsection>
+          <subsection id="section-7.3">
+            <num>(3)</num>
+            <content>
+              <p>After the hearing referred to in subsection (1), the <term refersTo="#term-City" id="trm204">City</term> must give a ruling on whether or not to suspend or withdraw the <term refersTo="#term-rank_token" id="trm205">rank token</term> and the <term refersTo="#term-authorised_official" id="trm206">authorised official</term> must give the <term refersTo="#term-holder" id="trm207">holder</term> of such <term refersTo="#term-rank_token" id="trm208">rank token</term> his or her reasons for the ruling in writing not later than 14 days after the date of the conclusion of the hearing.</p>
+            </content>
+          </subsection>
+          <subsection id="section-7.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-7.4.list3">
+                <listIntroduction> A record of the proceedings at the hearing referred to in subsection (1) must include— </listIntroduction>
+                <item id="section-7.4.list3.a">
+                  <num>(a)</num>
+                  <p>the evidence given, if any;</p>
+                </item>
+                <item id="section-7.4.list3.b">
+                  <num>(b)</num>
+                  <p>any objection made to any evidence received or submitted; and</p>
+                </item>
+                <item id="section-7.4.list3.c">
+                  <num>(c)</num>
+                  <p>the ruling given at the hearing.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Change of address</heading>
+          <subsection id="section-8.subsection-0">
+            <content>
+              <p>The <term refersTo="#term-holder" id="trm209">holder</term> of a <term refersTo="#term-rank_token" id="trm210">rank token</term> must give notice to the <term refersTo="#term-City" id="trm211">City</term> in writing of any change of address within 14 working days thereof by pre-paid registered post, telefax or hand delivery.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Amendment and replacement of a <term refersTo="#term-rank_token" id="trm212">rank token</term></heading>
+          <subsection id="section-9.1">
+            <num>(1)</num>
+            <content>
+              <p>Subject to section 3, if the particulars reflected on a <term refersTo="#term-rank_token" id="trm213">rank token</term> are incorrect by virtue of a change in such particulars or for any other reason, the <term refersTo="#term-holder" id="trm214">holder</term> of such <term refersTo="#term-rank_token" id="trm215">rank token</term> must submit such <term refersTo="#term-rank_token" id="trm216">rank token</term> to the <term refersTo="#term-City" id="trm217">City</term> for the amendment thereof.</p>
+            </content>
+          </subsection>
+          <subsection id="section-9.2">
+            <num>(2)</num>
+            <content>
+              <p>If a <term refersTo="#term-rank_token" id="trm218">rank token</term> is damaged in a manner that the particulars thereon cannot reasonably be ascertained, the <term refersTo="#term-holder" id="trm219">holder</term> of a damaged <term refersTo="#term-rank_token" id="trm220">rank token</term> must submit it to the <term refersTo="#term-City" id="trm221">City</term> and the <term refersTo="#term-authorised_official" id="trm222">authorised official</term> may replace such damaged <term refersTo="#term-rank_token" id="trm223">rank token</term> at the cost of the <term refersTo="#term-holder" id="trm224">holder</term> of the <term refersTo="#term-rank_token" id="trm225">rank token</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Use of ranks</heading>
+          <subsection id="section-10.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-10.1.list0">
+                <listIntroduction> The <term refersTo="#term-driver" id="trm226">driver</term> of <term refersTo="#term-public_transport_vehicle" id="trm227">public transport vehicle</term> must, when plying for hire at a <term refersTo="#term-rank" id="trm228">rank</term>, do so in a queue and must— </listIntroduction>
+                <item id="section-10.1.list0.a">
+                  <num>(a)</num>
+                  <p>position his or her <term refersTo="#term-public_transport_vehicle" id="trm229">public transport vehicle</term> in the first vacant place available in the queue immediately behind any other <term refersTo="#term-public_transport_vehicle" id="trm230">public transport vehicle</term> already in front in the lane for which he or she has the route authority; and</p>
+                </item>
+                <item id="section-10.1.list0.b">
+                  <num>(b)</num>
+                  <p>move his or her <term refersTo="#term-vehicle" id="trm231">vehicle</term> forward as the queue moves forward.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-10.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-10.2.list1">
+                <listIntroduction> When plying for hire at a <term refersTo="#term-rank" id="trm232">rank</term>, a <term refersTo="#term-driver" id="trm233">driver</term>— </listIntroduction>
+                <item id="section-10.2.list1.a">
+                  <num>(a)</num>
+                  <p>of any <term refersTo="#term-public_transport_vehicle" id="trm234">public transport vehicle</term> which occupies the first, second or third position from the front of any queue at a <term refersTo="#term-rank" id="trm235">rank</term> must be in close and constant attendance of his or her <term refersTo="#term-vehicle" id="trm236">vehicle</term> so long as it remains in such a position;</p>
+                </item>
+                <item id="section-10.2.list1.b">
+                  <num>(b)</num>
+                  <p>may not position his or her <term refersTo="#term-public_transport_vehicle" id="trm237">public transport vehicle</term> ahead of any <term refersTo="#term-public_transport_vehicle" id="trm238">public transport vehicle</term> that arrived and took up a position in the queue before he or she did; and</p>
+                </item>
+                <item id="section-10.2.list1.c">
+                  <num>(c)</num>
+                  <p>may, if his or her <term refersTo="#term-vehicle" id="trm239">vehicle</term> is the first <term refersTo="#term-public_transport_vehicle" id="trm240">public transport vehicle</term> in the queue, and any person calls for a <term refersTo="#term-public_transport_service" id="trm241">public transport service</term>, respond to the call, unless the person clearly indicates his or her preference for another <term refersTo="#term-public_transport_service" id="trm242">public transport service</term> not in front of the queue.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-10.3">
+            <num>(3)</num>
+            <content>
+              <p>No person may <term refersTo="#term-park" id="trm243">park</term> or stop a <term refersTo="#term-vehicle" id="trm244">vehicle</term> which is not in good working order as required by the <term refersTo="#term-Act" id="trm245">Act</term>, in a <term refersTo="#term-rank" id="trm246">rank</term>, or cause or permit the <term refersTo="#term-vehicle" id="trm247">vehicle</term> to remain in a <term refersTo="#term-rank" id="trm248">rank</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-10.4">
+            <num>(4)</num>
+            <content>
+              <p>No person may <term refersTo="#term-park" id="trm249">park</term> or stop any <term refersTo="#term-vehicle" id="trm250">vehicle</term> in a <term refersTo="#term-rank" id="trm251">rank</term> except a <term refersTo="#term-public_transport_vehicle" id="trm252">public transport vehicle</term> for which a <term refersTo="#term-rank_token" id="trm253">rank token</term>, specifying the <term refersTo="#term-rank" id="trm254">rank</term>, has been issued for the period in question, in terms of section 3.</p>
+            </content>
+          </subsection>
+          <subsection id="section-10.5">
+            <num>(5)</num>
+            <content>
+              <p>No person may wash any <term refersTo="#term-motor_vehicle" id="trm255">motor vehicle</term> at a <term refersTo="#term-rank" id="trm256">rank</term>, except at a wash bay at the facility that has been specially constructed for this purpose.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Right of entry</heading>
+          <subsection id="section-11.subsection-0">
+            <content>
+              <blockList id="section-11.subsection-0.list0">
+                <listIntroduction> An <term refersTo="#term-authorised_officer" id="trm257">authorised officer</term> may, in enforcing the provisions of this By-law, at any reasonable time and without prior notice— </listIntroduction>
+                <item id="section-11.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>enter a <term refersTo="#term-public_transport_service" id="trm258">public transport service</term> facility to inspect the facility; and</p>
+                </item>
+                <item id="section-11.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>make enquiries from a person connected with such facility.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>Licence and <term refersTo="#term-operating_licence" id="trm259">operating licence</term></heading>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Driver of <term refersTo="#term-motor_vehicle" id="trm260">motor vehicle</term> to be licensed</heading>
+          <subsection id="section-12.subsection-0">
+            <content>
+              <blockList id="section-12.subsection-0.list0">
+                <listIntroduction> No person shall drive a <term refersTo="#term-motor_vehicle" id="trm261">motor vehicle</term> on a public road— </listIntroduction>
+                <item id="section-12.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>except under the authority and in accordance with the conditions of a licence issued to him or her in terms of the <term refersTo="#term-Act" id="trm262">Act</term> or of any document deemed to be a licence for the purposes of the <term refersTo="#term-Act" id="trm263">Act</term>; and</p>
+                </item>
+                <item id="section-12.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>unless he or she keeps such licence or document or any other prescribed authorisation with him or her in the <term refersTo="#term-motor_vehicle" id="trm264">motor vehicle</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Motor <term refersTo="#term-vehicle" id="trm265">vehicle</term> to be licensed</heading>
+          <subsection id="section-13.subsection-0">
+            <content>
+              <p>Subject to the provisions of the <term refersTo="#term-Act" id="trm266">Act</term>, every <term refersTo="#term-motor_vehicle" id="trm267">motor vehicle</term> in the <term refersTo="#term-City" id="trm268">City</term> shall, whether or not it is operated on a public road, be licenced by the <term refersTo="#term-owner" id="trm269">owner</term> of such <term refersTo="#term-motor_vehicle" id="trm270">motor vehicle</term>, in accordance with the provisions of the <term refersTo="#term-Act" id="trm271">Act</term>, with the relevant licensing authority.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>Driver to have <term refersTo="#term-operating_licence" id="trm272">operating licence</term> or permit</heading>
+          <subsection id="section-14.subsection-0">
+            <content>
+              <blockList id="section-14.subsection-0.list0">
+                <listIntroduction> Subject to the provisions of section 32 of the <term refersTo="#term-Act" id="trm273">Act</term>, no person shall drive a <term refersTo="#term-motor_vehicle" id="trm274">motor vehicle</term> of a class prescribed in terms of the <term refersTo="#term-Act" id="trm275">Act</term> on a public road except— </listIntroduction>
+                <item id="section-14.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>in accordance with the conditions of a permit issued to him or her in accordance with the provisions of the <term refersTo="#term-Act" id="trm276">Act</term>; and</p>
+                </item>
+                <item id="section-14.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>if he or she keeps such permit with him or her in the <term refersTo="#term-motor_vehicle" id="trm277">motor vehicle</term>,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-14.subsection-1">
+            <content>
+              <p>provided that this subsection shall not apply to the <term refersTo="#term-holder" id="trm278">holder</term> of a learner’s licence who drives such <term refersTo="#term-motor_vehicle" id="trm279">motor vehicle</term> whilst he or she is accompanied by a person registered as a <term refersTo="#term-driver" id="trm280">driver</term> in respect of that class of <term refersTo="#term-vehicle" id="trm281">vehicle</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Operating licence to be produced on demand</heading>
+          <subsection id="section-15.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-15.1.list0">
+                <listIntroduction> The <term refersTo="#term-holder" id="trm282">holder</term> of an <term refersTo="#term-operating_licence" id="trm283">operating licence</term> must— </listIntroduction>
+                <item id="section-15.1.list0.a">
+                  <num>(a)</num>
+                  <p>maintain the <term refersTo="#term-operating_licence" id="trm284">operating licence</term> in a good and legible condition; and</p>
+                </item>
+                <item id="section-15.1.list0.b">
+                  <num>(b)</num>
+                  <p>keep the <term refersTo="#term-operating_licence" id="trm285">operating licence</term> in the <term refersTo="#term-motor_vehicle" id="trm286">motor vehicle</term> to which it relates at all relevant times when the <term refersTo="#term-vehicle" id="trm287">vehicle</term> is being operated as a <term refersTo="#term-taxi" id="trm288">taxi</term> or <term refersTo="#term-bus" id="trm289">bus</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-15.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-15.2.list1">
+                <listIntroduction> A traffic officer may call on the <term refersTo="#term-driver" id="trm290">driver</term> of a <term refersTo="#term-taxi" id="trm291">taxi</term> or <term refersTo="#term-bus" id="trm292">bus</term> to stop and may demand that he or she— </listIntroduction>
+                <item id="section-15.2.list1.a">
+                  <num>(a)</num>
+                  <p>produce the <term refersTo="#term-operating_licence" id="trm293">operating licence</term>; and</p>
+                </item>
+                <item id="section-15.2.list1.b">
+                  <num>(b)</num>
+                  <p>give his or her full name and address and also the name and address of the <term refersTo="#term-owner" id="trm294">owner</term> of the <term refersTo="#term-taxi" id="trm295">taxi</term> or <term refersTo="#term-bus" id="trm296">bus</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-15.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-15.3.list2">
+                <listIntroduction> A <term refersTo="#term-driver" id="trm297">driver</term> referred to in subsection (2) may not— </listIntroduction>
+                <item id="section-15.3.list2.a">
+                  <num>(a)</num>
+                  <p>operate a <term refersTo="#term-public_transport_service" id="trm298">public transport service</term> without a valid <term refersTo="#term-operating_licence" id="trm299">operating licence</term>; or</p>
+                </item>
+                <item id="section-15.3.list2.b">
+                  <num>(b)</num>
+                  <p>allow the <term refersTo="#term-operating_licence" id="trm300">operating licence</term> to be used for a <term refersTo="#term-vehicle" id="trm301">vehicle</term> other than that specified in such <term refersTo="#term-operating_licence" id="trm302">operating licence</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Unauthorised handing over or abandonment of <term refersTo="#term-taxi" id="trm303">taxi</term> or <term refersTo="#term-bus" id="trm304">bus</term></heading>
+          <subsection id="section-16.subsection-0">
+            <content>
+              <blockList id="section-16.subsection-0.list0">
+                <listIntroduction> No <term refersTo="#term-driver" id="trm305">driver</term> of a <term refersTo="#term-taxi" id="trm306">taxi</term> or <term refersTo="#term-bus" id="trm307">bus</term> may— </listIntroduction>
+                <item id="section-16.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>abandon his or her <term refersTo="#term-vehicle" id="trm308">vehicle</term>; or</p>
+                </item>
+                <item id="section-16.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>allow any other person to drive the <term refersTo="#term-taxi" id="trm309">taxi</term> or <term refersTo="#term-bus" id="trm310">bus</term> under his or her control without the consent of the <term refersTo="#term-holder" id="trm311">holder</term> of the <term refersTo="#term-operating_licence" id="trm312">operating licence</term> or public permit concerned.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-4">
+        <num>4</num>
+        <heading>Conduct of drivers, conductors and passengers</heading>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Preventing engagement of a <term refersTo="#term-public_transport_vehicle" id="trm313">public transport vehicle</term></heading>
+          <subsection id="section-17.subsection-0">
+            <content>
+              <blockList id="section-17.subsection-0.list0">
+                <listIntroduction> No person may, by using force, intimidation, threats or by any other means, prevent or try to prevent— </listIntroduction>
+                <item id="section-17.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>any person from obtaining or engaging a <term refersTo="#term-public_transport_vehicle" id="trm314">public transport vehicle</term>; or</p>
+                </item>
+                <item id="section-17.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>the <term refersTo="#term-driver" id="trm315">driver</term> of a <term refersTo="#term-public_transport_vehicle" id="trm316">public transport vehicle</term> from taking on passengers.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Conveying dangerous or offensive articles in public transport vehicles</heading>
+          <subsection id="section-18.subsection-0">
+            <content>
+              <blockList id="section-18.subsection-0.list0">
+                <listIntroduction> A person who is in charge of a <term refersTo="#term-public_transport_vehicle" id="trm317">public transport vehicle</term> may not knowingly convey a person or thing or allow that person or thing to be conveyed in such <term refersTo="#term-vehicle" id="trm318">vehicle</term>, whether or not the <term refersTo="#term-public_transport_vehicle" id="trm319">public transport vehicle</term> has been engaged, if that person or thing— </listIntroduction>
+                <item id="section-18.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>is not permitted to be conveyed in terms of an existing law; or</p>
+                </item>
+                <item id="section-18.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>has obviously been exposed to or contaminated by an infectious or contagious disease as contemplated in the <term refersTo="#term-Act" id="trm320">Act</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-19">
+          <num>19.</num>
+          <heading>Boarding and disembarking of public transport vehicles</heading>
+          <subsection id="section-19.1">
+            <num>(1)</num>
+            <content>
+              <p>No person may board a <term refersTo="#term-public_transport_vehicle" id="trm321">public transport vehicle</term> until all persons desiring to disembark from such <term refersTo="#term-vehicle" id="trm322">vehicle</term> have done so.</p>
+            </content>
+          </subsection>
+          <subsection id="section-19.2">
+            <num>(2)</num>
+            <content>
+              <p>No person may insist on boarding a <term refersTo="#term-public_transport_vehicle" id="trm323">public transport vehicle</term> where the number of passengers would be in excess of the total number of passengers which it is authorised to carry.</p>
+            </content>
+          </subsection>
+          <subsection id="section-19.3">
+            <num>(3)</num>
+            <content>
+              <p>No person may board or alight or attempt to board or disembark from any <term refersTo="#term-public_transport_vehicle" id="trm324">public transport vehicle</term> whilst such <term refersTo="#term-vehicle" id="trm325">vehicle</term> is in motion.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>Queues at public transport facilities</heading>
+          <subsection id="section-20.1">
+            <num>(1)</num>
+            <content>
+              <p>At any established ranking facility, the <term refersTo="#term-City" id="trm326">City</term> may erect or cause to be erected a queue sign that consists of a notice board indicating the location and the manner in which persons waiting to enter a <term refersTo="#term-public_transport_vehicle" id="trm327">public transport vehicle</term> will stop and form a queue, and such a sign may be supplemented by queuing barriers in the form of rails or lines marked on the surface of the area to be demarcated for the purpose of queuing.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.2">
+            <num>(2)</num>
+            <content>
+              <p>All passengers intending to enter any <term refersTo="#term-public_transport_vehicle" id="trm328">public transport vehicle</term> at an established ranking facility or <term refersTo="#term-stopping_place" id="trm329">stopping place</term> must queue from the point at which it is indicated that such <term refersTo="#term-public_transport_vehicle" id="trm330">public transport vehicle</term> will leave.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.3">
+            <num>(3)</num>
+            <content>
+              <p>Where no queue sign has been erected, passengers waiting to enter a <term refersTo="#term-public_transport_vehicle" id="trm331">public transport vehicle</term> must form themselves into a queue not exceeding two abreast or in a single file when required to so by an approved <term refersTo="#term-public_transport_conductor" id="trm332">public transport conductor</term> or <term refersTo="#term-authorised_official" id="trm333">authorised official</term> of the <term refersTo="#term-City" id="trm334">City</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.4">
+            <num>(4)</num>
+            <content>
+              <p>A passenger may only enter a <term refersTo="#term-public_transport_vehicle" id="trm335">public transport vehicle</term> when he or she gets to the front of the queue.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.5">
+            <num>(5)</num>
+            <content>
+              <p>Every passenger queuing must comply with all the instructions given by a <term refersTo="#term-public_transport_conductor" id="trm336">public transport conductor</term>, <term refersTo="#term-authorised_officer" id="trm337">authorised officer</term> or <term refersTo="#term-authorised_official" id="trm338">authorised official</term> when on duty.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-21">
+          <num>21.</num>
+          <heading>Garments and identification of <term refersTo="#term-public_transport_service" id="trm339">public transport service</term> conductor</heading>
+          <subsection id="section-21.1">
+            <num>(1)</num>
+            <content>
+              <p>Every <term refersTo="#term-public_transport_service" id="trm340">public transport service</term> conductor must, while on duty and presenting himself or herself as available for service, be dressed in a retro-reflective bib or jacket, and must ensure that an identification card issued to him or her in terms of any other law is visibly displayed.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.2">
+            <num>(2)</num>
+            <content>
+              <p>No <term refersTo="#term-public_transport_service" id="trm341">public transport service</term> conductor or any other person may engage in <term refersTo="#term-touting" id="trm342">touting</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-22">
+          <num>22.</num>
+          <heading>Duty of care</heading>
+          <subsection id="section-22.subsection-0">
+            <content>
+              <p>The <term refersTo="#term-owner" id="trm343">owner</term>, <term refersTo="#term-driver" id="trm344">driver</term> and conductor of a <term refersTo="#term-public_transport_vehicle" id="trm345">public transport vehicle</term> must, at all times, exercise a duty of care by maintaining the inside of such <term refersTo="#term-public_transport_vehicle" id="trm346">public transport vehicle</term> in a sanitary state of affairs.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-23">
+          <num>23.</num>
+          <heading>Payment of fares</heading>
+          <subsection id="section-23.subsection-0">
+            <content>
+              <p>A passenger must pay the determined fare for the journey on request.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-24">
+          <num>24.</num>
+          <heading>Rights and duties of passengers when a <term refersTo="#term-public_transport_vehicle" id="trm347">public transport vehicle</term> becomes defective</heading>
+          <subsection id="section-24.1">
+            <num>(1)</num>
+            <content>
+              <p>If a <term refersTo="#term-public_transport_vehicle" id="trm348">public transport vehicle</term> becomes defective or, for any reason whatsoever, is unable to proceed, the passengers must, at the request of the <term refersTo="#term-driver" id="trm349">driver</term>, disembark such defective <term refersTo="#term-vehicle" id="trm350">vehicle</term> and should the passengers have already paid their fares, they are entitled to a refund to the amount of their fares so paid.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.2">
+            <num>(2)</num>
+            <content>
+              <p>Upon agreement with the <term refersTo="#term-driver" id="trm351">driver</term> of the defective <term refersTo="#term-public_transport_vehicle" id="trm352">public transport vehicle</term>, passengers are allowed to travel with the next available <term refersTo="#term-public_transport_vehicle" id="trm353">public transport vehicle</term> for the remainder of the distance in respect of the paid fares, at the cost of the <term refersTo="#term-owner" id="trm354">owner</term> of the defective <term refersTo="#term-public_transport_vehicle" id="trm355">public transport vehicle</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.3">
+            <num>(3)</num>
+            <content>
+              <p>A <term refersTo="#term-driver" id="trm356">driver</term> who refuses to refund a passenger, as contemplated in subsection (1), or who refuses to allow a passenger to travel in the manner as contemplated in subsection (2) commits an offence.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-25">
+          <num>25.</num>
+          <heading>Animals</heading>
+          <subsection id="section-25.subsection-0">
+            <content>
+              <p>No passenger may enter a <term refersTo="#term-public_transport_vehicle" id="trm357">public transport vehicle</term> with any animals other than a guide dog assisting a blind person.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-26">
+          <num>26.</num>
+          <heading>Actions prohibited on a <term refersTo="#term-public_transport_vehicle" id="trm358">public transport vehicle</term></heading>
+          <subsection id="section-26.subsection-0">
+            <content>
+              <blockList id="section-26.subsection-0.list0">
+                <listIntroduction> The following actions are prohibited on a <term refersTo="#term-public_transport_vehicle" id="trm359">public transport vehicle</term>: </listIntroduction>
+                <item id="section-26.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>smoking;</p>
+                </item>
+                <item id="section-26.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>playing offensive or excessively loud music;</p>
+                </item>
+                <item id="section-26.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>using obscene or offensive language;</p>
+                </item>
+                <item id="section-26.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>committing an offensive act;</p>
+                </item>
+                <item id="section-26.subsection-0.list0.e">
+                  <num>(e)</num>
+                  <p>interfering with the comfort of any passenger;</p>
+                </item>
+                <item id="section-26.subsection-0.list0.f">
+                  <num>(f)</num>
+                  <p>damaging anything and interfering with the equipment of the <term refersTo="#term-public_transport_vehicle" id="trm360">public transport vehicle</term> in any way;</p>
+                </item>
+                <item id="section-26.subsection-0.list0.h">
+                  <num>(h)</num>
+                  <p>forcibly causing the <term refersTo="#term-driver" id="trm361">driver</term> to deviate from his route;</p>
+                </item>
+                <item id="section-26.subsection-0.list0.i">
+                  <num>(i)</num>
+                  <p>endangering the life of another person; and</p>
+                </item>
+                <item id="section-26.subsection-0.list0.j">
+                  <num>(j)</num>
+                  <p>interfering with the actions of the <term refersTo="#term-driver" id="trm362">driver</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-27">
+          <num>27.</num>
+          <heading>Behaviour prohibited at a public transport facility</heading>
+          <subsection id="section-27.subsection-0">
+            <content>
+              <p>A person who causes a disturbance or behaves in a riotous or indecent manner commits an offence in terms of this By-law and may be removed from a queue or the vicinity of a public transport facility by any <term refersTo="#term-authorised_officer" id="trm363">authorised officer</term> of the <term refersTo="#term-City" id="trm364">City</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-28">
+          <num>28.</num>
+          <heading>Property left in public transport vehicles</heading>
+          <subsection id="section-28.subsection-0">
+            <content>
+              <blockList id="section-28.subsection-0.list0">
+                <listIntroduction> The <term refersTo="#term-driver" id="trm365">driver</term> of a passenger-carrying <term refersTo="#term-vehicle" id="trm366">vehicle</term> must carefully examine the <term refersTo="#term-vehicle" id="trm367">vehicle</term> after a trip, and if a passenger has left behind any property in the <term refersTo="#term-vehicle" id="trm368">vehicle</term>, the <term refersTo="#term-driver" id="trm369">driver</term> must— </listIntroduction>
+                <item id="section-28.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>deliver that property to the person who left it behind; or</p>
+                </item>
+                <item id="section-28.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>if he or she is unable to deliver that property to the person who left it behind, take the</p>
+                </item>
+                <item id="section-28.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>property, as soon as possible, to the lost property office of his or her employer or to the nearest police station and de-posit it with the officer on duty and obtain a receipt for it.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-5">
+        <num>5</num>
+        <heading>Road safety</heading>
+        <section id="section-29">
+          <num>29.</num>
+          <heading>Overloading</heading>
+          <subsection id="section-29.subsection-0">
+            <content>
+              <p>No <term refersTo="#term-driver" id="trm370">driver</term> of a <term refersTo="#term-public_transport_vehicle" id="trm371">public transport vehicle</term> may allow more than the specified number of passengers as indicated in the public permit.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-30">
+          <num>30.</num>
+          <heading>Obstruction and disruption of traffic</heading>
+          <subsection id="section-30.1">
+            <num>(1)</num>
+            <content>
+              <p>No person may <term refersTo="#term-park" id="trm372">park</term> or allow a <term refersTo="#term-public_transport_vehicle" id="trm373">public transport vehicle</term> to <term refersTo="#term-park" id="trm374">park</term> in a <term refersTo="#term-stopping_place" id="trm375">stopping place</term> designated for specific public transport vehicles.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.2">
+            <num>(2)</num>
+            <content>
+              <p>No <term refersTo="#term-driver" id="trm376">driver</term> of <term refersTo="#term-public_transport_vehicle" id="trm377">public transport vehicle</term> or his or her conductor may depress the button of a traffic control signal so as to speedily activate the green pedestrian light in order to force vehicular traffic to stop.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.3">
+            <num>(3)</num>
+            <content>
+              <p>No <term refersTo="#term-public_transport_vehicle" id="trm378">public transport vehicle</term> may traverse a pedestrian crossing when stopping to enable passengers to be picked up or dropped off.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.4">
+            <num>(4)</num>
+            <content>
+              <p>No <term refersTo="#term-public_transport_vehicle" id="trm379">public transport vehicle</term> may <term refersTo="#term-park" id="trm380">park</term> for the purpose of plying for hire in a demarcated parking bay any longer than is required to enable waiting passengers to be picked up or dropped off.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-31">
+          <num>31.</num>
+          <heading>Duties of pedestrians</heading>
+          <subsection id="section-31.1">
+            <num>(1)</num>
+            <content>
+              <p>A pedestrian may cross a public road only at a pedestrian crossing or an intersection or at a distance further than 50 metres from such pedestrian crossing or intersection.</p>
+            </content>
+          </subsection>
+          <subsection id="section-31.2">
+            <num>(2)</num>
+            <content>
+              <p>Where a marked pedestrian crossing exists at an intersection, a pedestrian may only cross the intersection within the marked pedestrian crossing.</p>
+            </content>
+          </subsection>
+          <subsection id="section-31.3">
+            <num>(3)</num>
+            <content>
+              <p>Where a traffic-control light signal ("robot"), which embodies pedestrian signals, operates at an intersection, a pedestrian may not commence to cross the <term refersTo="#term-roadway" id="trm381">roadway</term> in a pedestrian crossing at the intersection while the red light of a pedestrian signal is displayed in the direction opposite to that in which he or she is proceeding.</p>
+            </content>
+          </subsection>
+          <subsection id="section-31.4">
+            <num>(4)</num>
+            <content>
+              <p>Where no pedestrian signals are operating at an intersection, but such intersection is controlled by a traffic-control light signal, a pedestrian may not commence to cross the <term refersTo="#term-roadway" id="trm382">roadway</term> in a pedestrian crossing at the intersection while the red light of the traffic-control light signal is displayed in the direction opposite to that in which he or she is proceeding.</p>
+            </content>
+          </subsection>
+          <subsection id="section-31.5">
+            <num>(5)</num>
+            <content>
+              <p>Where a traffic-control light signal, which embodies pedestrian signals, are operating at a pedestrian crossing elsewhere than at an intersection, a pedestrian may only commence to cross the <term refersTo="#term-roadway" id="trm383">roadway</term> in the pedestrian crossing when the green light of the pedestrian signal is displayed in the direction opposite to that in which he or she is proceeding.</p>
+            </content>
+          </subsection>
+          <subsection id="section-31.6">
+            <num>(6)</num>
+            <content>
+              <p>No pedestrian may carelessly, negligently or recklessly disregard, or endanger his or her own safety, or the safety of a person or <term refersTo="#term-vehicle" id="trm384">vehicle</term> using a public road.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-32">
+          <num>32.</num>
+          <heading>Use of hooter</heading>
+          <subsection id="section-32.subsection-0">
+            <content>
+              <p>No person shall on a public road use the sounding device or hooter of a <term refersTo="#term-vehicle" id="trm385">vehicle</term> except when such use is necessary in order to comply with the provisions of this By-law or any other law or on the grounds of safety.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-33">
+          <num>33.</num>
+          <heading>Duty to indicate when changing lanes</heading>
+          <subsection id="section-33.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-driver" id="trm386">driver</term> of a <term refersTo="#term-vehicle" id="trm387">vehicle</term> on a public road divided into traffic lanes by appropriate road traffic signs shall not turn from one lane into or across another lane unless he or she can do so without obstructing or endangering other traffic.</p>
+            </content>
+          </subsection>
+          <subsection id="section-33.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-driver" id="trm388">driver</term> may not turn from one lane into or across another lane without giving a conspicuous signal visible to any person approaching him or her from the front or from the rear or from the side, and of a duration sufficient to warn any such person of his or her intention.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-34">
+          <num>34.</num>
+          <heading>Driving on shoulders</heading>
+          <subsection id="section-34.1">
+            <num>(1)</num>
+            <content>
+              <p>Subject to subsection (2), no person shall drive a <term refersTo="#term-motor_vehicle" id="trm389">motor vehicle</term> on the <term refersTo="#term-shoulder" id="trm390">shoulder</term> of a public road.</p>
+            </content>
+          </subsection>
+          <subsection id="section-34.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-34.2.list1">
+                <listIntroduction> Notwithstanding subsection (1), the <term refersTo="#term-driver" id="trm391">driver</term> of a <term refersTo="#term-motor_vehicle" id="trm392">motor vehicle</term> may, during the period between sunrise and sunset, drive such <term refersTo="#term-motor_vehicle" id="trm393">motor vehicle</term> on the <term refersTo="#term-shoulder" id="trm394">shoulder</term> of a public road which is designated for one lane of traffic in each direction— </listIntroduction>
+                <item id="section-34.2.list1.a">
+                  <num>(a)</num>
+                  <p>while such <term refersTo="#term-motor_vehicle" id="trm395">motor vehicle</term> is being overtaken by another <term refersTo="#term-vehicle" id="trm396">vehicle</term>;</p>
+                </item>
+                <item id="section-34.2.list1.b">
+                  <num>(b)</num>
+                  <p>if he or she can do so without endangering himself or herself, other traffic, pedestrians or property on such public road; and</p>
+                </item>
+                <item id="section-34.2.list1.c">
+                  <num>(c)</num>
+                  <p>if persons and vehicles upon a public road are clearly discernible at a distance of at least 150 metres.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-35">
+          <num>35.</num>
+          <heading>Driver of <term refersTo="#term-motor_vehicle" id="trm397">motor vehicle</term> to be licensed</heading>
+          <subsection id="section-35.subsection-0">
+            <content>
+              <blockList id="section-35.subsection-0.list0">
+                <listIntroduction> No person shall drive a <term refersTo="#term-motor_vehicle" id="trm398">motor vehicle</term> on a public road— </listIntroduction>
+                <item id="section-35.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>except under the authority and in accordance with the conditions of a licence issued to him or her in terms of the <term refersTo="#term-Act" id="trm399">Act</term> or of any document deemed to be a licence for the purposes of the <term refersTo="#term-Act" id="trm400">Act</term>; and</p>
+                </item>
+                <item id="section-35.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>unless he or she keeps such licence or document or any other prescribed authorisation with him or her in the <term refersTo="#term-motor_vehicle" id="trm401">motor vehicle</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-36">
+          <num>36.</num>
+          <heading>Motor <term refersTo="#term-vehicle" id="trm402">vehicle</term> to be licensed</heading>
+          <subsection id="section-36.subsection-0">
+            <content>
+              <p>Subject to the provisions of the <term refersTo="#term-Act" id="trm403">Act</term>, every <term refersTo="#term-motor_vehicle" id="trm404">motor vehicle</term> in the <term refersTo="#term-City" id="trm405">City</term> shall, whether or not it is operated on a public road, be licenced by the <term refersTo="#term-owner" id="trm406">owner</term> of such <term refersTo="#term-motor_vehicle" id="trm407">motor vehicle</term>, in accordance with the provisions of the <term refersTo="#term-Act" id="trm408">Act</term>, with the relevant licensing authority.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-37">
+          <num>37.</num>
+          <heading>Driver to have <term refersTo="#term-operating_licence" id="trm409">operating licence</term> or permit</heading>
+          <subsection id="section-37.subsection-0">
+            <content>
+              <blockList id="section-37.subsection-0.list0">
+                <listIntroduction> Subject to the provisions of section 32 of the <term refersTo="#term-Act" id="trm410">Act</term>, no person shall drive a <term refersTo="#term-motor_vehicle" id="trm411">motor vehicle</term> of a class prescribed in terms of the <term refersTo="#term-Act" id="trm412">Act</term> on a public road except— </listIntroduction>
+                <item id="section-37.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>in accordance with the conditions of a permit issued to him or her in accordance with the provisions of the <term refersTo="#term-Act" id="trm413">Act</term>; and</p>
+                </item>
+                <item id="section-37.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>if he or she keeps such permit with him or her in the <term refersTo="#term-motor_vehicle" id="trm414">motor vehicle</term>,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-37.subsection-1">
+            <content>
+              <p>provided that this subsection shall not apply to the <term refersTo="#term-holder" id="trm415">holder</term> of a learner’s licence who drives such <term refersTo="#term-motor_vehicle" id="trm416">motor vehicle</term> whilst he or she is accompanied by a person registered as a <term refersTo="#term-driver" id="trm417">driver</term> in respect of that class of <term refersTo="#term-vehicle" id="trm418">vehicle</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-6">
+        <num>6</num>
+        <heading>Communications devices</heading>
+        <section id="section-38">
+          <num>38.</num>
+          <heading>Prohibition on use of communication device while driving</heading>
+          <subsection id="section-38.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-38.1.list0">
+                <listIntroduction> Subject to any other law, no person shall drive a <term refersTo="#term-motor_vehicle" id="trm419">motor vehicle</term> on a public road— </listIntroduction>
+                <item id="section-38.1.list0.a">
+                  <num>(a)</num>
+                  <p>while holding a cellular or mobile telephone or any other communication device in one or both hands or with any other part of the body;</p>
+                </item>
+                <item id="section-38.1.list0.b">
+                  <num>(b)</num>
+                  <p>while using or operating a cellular or mobile telephone or other communication device unless such a cellular or mobile telephone or other communication device is affixed to the <term refersTo="#term-vehicle" id="trm420">vehicle</term> or is part of the fixture in the <term refersTo="#term-vehicle" id="trm421">vehicle</term> and remains so affixed while being used or operated, or is specially adapted or designed to be affixed to the person of the <term refersTo="#term-driver" id="trm422">driver</term> as headgear, and is so used, to enable such <term refersTo="#term-driver" id="trm423">driver</term> to use or operate such telephone or communication device without holding it in the manner contemplated in paragraph (a), and remains so affixed while being used or operated.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-38.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-38.2.list1">
+                <listIntroduction> For the purposes of this section— </listIntroduction>
+                <item id="section-38.2.list1.a">
+                  <num>(a)</num>
+                  <p>the word "headgear" includes a device which is specially designed or adapted to allow the <term refersTo="#term-driver" id="trm424">driver</term> to use a cellular or mobile telephone or other communication device in such a manner that he or she does not hold it in one or both hands or with any other part of the body, and which is connected to the cellular or mobile telephone or other communication device concerned, directly or indirectly, while being fitted to or attached to one or both ears of the <term refersTo="#term-driver" id="trm425">driver</term>; and</p>
+                </item>
+                <item id="section-38.2.list1.b">
+                  <num>(b)</num>
+                  <p>the phrases "cellular or mobile telephone or any other communication device" and "cellular or mobile telephone or other communication device", excludes land mobile radio transmission and reception equipment operating in the frequency band 2 megahertz to 500 megahertz that is affixed to the <term refersTo="#term-vehicle" id="trm426">vehicle</term> or is part of the fixture in the <term refersTo="#term-vehicle" id="trm427">vehicle</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-38.3">
+            <num>(3)</num>
+            <content>
+              <p>Subject to subsections (1) and (4), an <term refersTo="#term-authorised_officer" id="trm428">authorised officer</term> may, in the public interest and safety of the public, confiscate and impound a hand held communication device.</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-38.4.list3">
+                <listIntroduction> The <term refersTo="#term-authorised_officer" id="trm429">authorised officer</term> must, when confiscating any hand held communication device— </listIntroduction>
+                <item id="section-38.4.list3.a">
+                  <num>(a)</num>
+                  <p>inform the <term refersTo="#term-owner" id="trm430">owner</term> of such communication device of the reasons of confiscating and impounding;</p>
+                </item>
+                <item id="section-38.4.list3.b">
+                  <num>(b)</num>
+                  <p>issue a receipt to the <term refersTo="#term-owner" id="trm431">owner</term> of such hand held communication device, stating the place at which such device may be claimed; and</p>
+                </item>
+                <item id="section-38.4.list3.c">
+                  <num>(c)</num>
+                  <p>follow all procedures contained in any policy of the <term refersTo="#term-City" id="trm432">City</term> dealing with the confiscation and impoundment of property.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-7">
+        <num>7</num>
+        <heading>Offences and penalties</heading>
+        <section id="section-39">
+          <num>39.</num>
+          <heading>Offences and penalties</heading>
+          <subsection id="section-39.1">
+            <num>(1)</num>
+            <content>
+              <p>A person who contravenes a provision of this By-law commits an offence.</p>
+            </content>
+          </subsection>
+          <subsection id="section-39.2">
+            <num>(2)</num>
+            <content>
+              <p>A person who commits an offence referred to in subsection (1) is, on conviction, liable for a fine or a term of imprisonment not exceeding three years, or both such fine or such imprisonment.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-8">
+        <num>8</num>
+        <heading>General provisions</heading>
+        <section id="section-40">
+          <num>40.</num>
+          <heading>Repeals</heading>
+          <subsection id="section-40.subsection-0">
+            <content>
+              <p>The Cape Town Municipality Traffic By-law 1117 of 1973 is hereby repealed.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-41">
+          <num>41.</num>
+          <heading>Short title</heading>
+          <subsection id="section-41.subsection-0">
+            <content>
+              <p>This By-law is called the <term refersTo="#term-City" id="trm433">City</term> of Cape Town: Traffic By-law, 2011.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+    </body>
+  </act>
+  <components>
+    <component id="component-1">
+      <doc name="schedule0">
+        <meta>
+          <identification source="#this">
+            <FRBRWork>
+              <FRBRthis value="/za-cpt/act/by-law/2011/traffic/schedule0"/>
+              <FRBRuri value="/za-cpt/act/by-law/2011/traffic"/>
+              <FRBRalias value="Schedule 0"/>
+              <FRBRdate date="2011-07-22" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-cpt/act/by-law/2011/traffic/eng@2011-07-22/schedule0"/>
+              <FRBRuri value="/za-cpt/act/by-law/2011/traffic/eng@2011-07-22"/>
+              <FRBRdate date="2011-07-22" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-cpt/act/by-law/2011/traffic/eng@2011-07-22/schedule0"/>
+              <FRBRuri value="/za-cpt/act/by-law/2011/traffic/eng@2011-07-22"/>
+              <FRBRdate date="2013-10-11" name="Generation"/>
+              <FRBRauthor href="#openbylaws" as="#author"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule-0">
+            <heading>Interchange &amp; rank token application</heading>
+            <content>
+              <p>This Schedule is not currently available in this format. Please see the originally enacted PDF instead.</p>
+            </content>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>

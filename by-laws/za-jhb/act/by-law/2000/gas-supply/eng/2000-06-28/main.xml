@@ -1,0 +1,1248 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-jhb/act/by-law/2000/gas-supply/main"/>
+          <FRBRuri value="/za-jhb/act/by-law/2000/gas-supply"/>
+          <FRBRalias value="Gas Supply By-laws"/>
+          <FRBRdate date="2000-06-28" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-jhb/act/by-law/2000/gas-supply/eng@2000-06-28/main"/>
+          <FRBRuri value="/za-jhb/act/by-law/2000/gas-supply/eng@2000-06-28"/>
+          <FRBRdate date="2000-06-28" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-jhb/act/by-law/2000/gas-supply/eng@2000-06-28/main"/>
+          <FRBRuri value="/za-jhb/act/by-law/2000/gas-supply/eng@2000-06-28"/>
+          <FRBRdate date="2015-10-07" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2000-06-28" name="Gauteng Provincial Gazette" showAs="Gauteng Provincial Gazette" number="79"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-ambient" href="/ontology/term/this.eng.ambient" showAs="ambient"/>
+        <TLCTerm id="term-appliance" href="/ontology/term/this.eng.appliance" showAs="appliance"/>
+        <TLCTerm id="term-applicant" href="/ontology/term/this.eng.applicant" showAs="applicant"/>
+        <TLCTerm id="term-approved" href="/ontology/term/this.eng.approved" showAs="approved"/>
+        <TLCTerm id="term-approved_standard" href="/ontology/term/this.eng.approved_standard" showAs="approved standard"/>
+        <TLCTerm id="term-charge_determined_by_the_licensee" href="/ontology/term/this.eng.charge_determined_by_the_licensee" showAs="charge determined by the licensee"/>
+        <TLCTerm id="term-clearance_certificate" href="/ontology/term/this.eng.clearance_certificate" showAs="clearance certificate"/>
+        <TLCTerm id="term-consumer" href="/ontology/term/this.eng.consumer" showAs="consumer"/>
+        <TLCTerm id="term-consumer_agreement" href="/ontology/term/this.eng.consumer_agreement" showAs="consumer agreement"/>
+        <TLCTerm id="term-consumer_meter" href="/ontology/term/this.eng.consumer_meter" showAs="consumer meter"/>
+        <TLCTerm id="term-contractor" href="/ontology/term/this.eng.contractor" showAs="contractor"/>
+        <TLCTerm id="term-correctly" href="/ontology/term/this.eng.correctly" showAs="correctly"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-distribution" href="/ontology/term/this.eng.distribution" showAs="distribution"/>
+        <TLCTerm id="term-energy_content" href="/ontology/term/this.eng.energy_content" showAs="energy content"/>
+        <TLCTerm id="term-gas_fitting" href="/ontology/term/this.eng.gas_fitting" showAs="gas fitting"/>
+        <TLCTerm id="term-gas_installer" href="/ontology/term/this.eng.gas_installer" showAs="gas installer"/>
+        <TLCTerm id="term-gas_installation" href="/ontology/term/this.eng.gas_installation" showAs="gas installation"/>
+        <TLCTerm id="term-Gas_Licence_by-laws" href="/ontology/term/this.eng.Gas_Licence_by-laws" showAs="Gas Licence by-laws"/>
+        <TLCTerm id="term-governor_pressure_regulator" href="/ontology/term/this.eng.governor_pressure_regulator" showAs="governor/pressure regulator"/>
+        <TLCTerm id="term-internal_piping" href="/ontology/term/this.eng.internal_piping" showAs="internal piping"/>
+        <TLCTerm id="term-isolating_valve" href="/ontology/term/this.eng.isolating_valve" showAs="isolating valve"/>
+        <TLCTerm id="term-licensee" href="/ontology/term/this.eng.licensee" showAs="licensee"/>
+        <TLCTerm id="term-main" href="/ontology/term/this.eng.main" showAs="main"/>
+        <TLCTerm id="term-meter" href="/ontology/term/this.eng.meter" showAs="meter"/>
+        <TLCTerm id="term-non-return_valve" href="/ontology/term/this.eng.non-return_valve" showAs="non-return valve"/>
+        <TLCTerm id="term-Occupational_Health_and_Safety_Act" href="/ontology/term/this.eng.Occupational_Health_and_Safety_Act" showAs="Occupational Health and Safety Act"/>
+        <TLCTerm id="term-occupier" href="/ontology/term/this.eng.occupier" showAs="occupier"/>
+        <TLCTerm id="term-owner" href="/ontology/term/this.eng.owner" showAs="owner"/>
+        <TLCTerm id="term-premises" href="/ontology/term/this.eng.premises" showAs="premises"/>
+        <TLCTerm id="term-pressure" href="/ontology/term/this.eng.pressure" showAs="pressure"/>
+        <TLCTerm id="term-purchaser" href="/ontology/term/this.eng.purchaser" showAs="purchaser"/>
+        <TLCTerm id="term-service" href="/ontology/term/this.eng.service" showAs="service"/>
+        <TLCTerm id="term-service_charge" href="/ontology/term/this.eng.service_charge" showAs="service charge"/>
+        <TLCTerm id="term-service__private_" href="/ontology/term/this.eng.service__private_" showAs="service (private)"/>
+        <TLCTerm id="term-service__public_" href="/ontology/term/this.eng.service__public_" showAs="service (public)"/>
+        <TLCTerm id="term-shut_off_valve" href="/ontology/term/this.eng.shut_off_valve" showAs="shut off valve"/>
+        <TLCTerm id="term-storage" href="/ontology/term/this.eng.storage" showAs="storage"/>
+        <TLCTerm id="term-sub-meter" href="/ontology/term/this.eng.sub-meter" showAs="sub-meter"/>
+        <TLCTerm id="term-supply" href="/ontology/term/this.eng.supply" showAs="supply"/>
+        <TLCTerm id="term-trading" href="/ontology/term/this.eng.trading" showAs="trading"/>
+        <TLCTerm id="term-transmission" href="/ontology/term/this.eng.transmission" showAs="transmission"/>
+      </references>
+    </meta>
+    <preface>
+      <p>The Greater Johannesburg Transitional Metropolitan Council (“the Council") hereby publishes the Gas Supply by-laws set forth hereinafter, which have been made by the Council under section 156(2) of the Constitution of the Republic of South Africa, 1996 and in accordance with Chapter III of the Rationalisation of Local Government Affairs Act, 1998 (Act 10 of 1998).</p>
+    </preface>
+    <body>
+      <chapter id="chapter-I">
+        <num>I</num>
+        <heading>Introduction</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <subsection id="section-1.subsection-0">
+            <content>
+              <p>In these by-laws, unless the context otherwise indicates—</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.1" refersTo="#term-ambient">
+            <num>(1)</num>
+            <content>
+              <p>"<def refersTo="#term-ambient">ambient</def>" means when applied to the physical conditions under which gas volume is measured, a temperature of 20 °C and an absolute <term refersTo="#term-pressure" id="trm0">pressure</term> of 84,5 kPa;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.2" refersTo="#term-appliance">
+            <num>(2)</num>
+            <content>
+              <p>"<def refersTo="#term-appliance">appliance</def>" means any device using gas in its process and includes any cooker, furnace, room heater, water heater, or other apparatus used by consumers for lighting, heating, motive power or for any other purpose for which gas can be used;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.3" refersTo="#term-applicant">
+            <num>(3)</num>
+            <content>
+              <p>"<def refersTo="#term-applicant">applicant</def>" means any prospective <term refersTo="#term-consumer" id="trm1">consumer</term> who submits an application to a <term refersTo="#term-licensee" id="trm2">licensee</term> for the <term refersTo="#term-supply" id="trm3">supply</term> of gas;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.4" refersTo="#term-approved">
+            <num>(4)</num>
+            <content>
+              <p>"<def refersTo="#term-approved">approved</def>" means approved by the <term refersTo="#term-licensee" id="trm4">licensee</term>, regard being had to the safety, design, and performance of any <term refersTo="#term-appliance" id="trm5">appliance</term>, <term refersTo="#term-meter" id="trm6">meter</term>, <term refersTo="#term-pressure" id="trm7">pressure</term> regulator/governor, pipe and any other material used in connection with the <term refersTo="#term-supply" id="trm8">supply</term> of gas by a <term refersTo="#term-licensee" id="trm9">licensee</term> and the manner in which such <term refersTo="#term-appliance" id="trm10">appliance</term>, <term refersTo="#term-meter" id="trm11">meter</term>, <term refersTo="#term-pressure" id="trm12">pressure</term> regulator/governor, pipe and other material is used os is to be used;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.5" refersTo="#term-approved_standard">
+            <num>(5)</num>
+            <content>
+              <p>"<def refersTo="#term-approved_standard">approved standard</def>" means a standard specified in a gas licence in terms of section 27 and applied by a <term refersTo="#term-licensee" id="trm13">licensee</term> and Shali include any relevant standard prescribed by any national and provincial legislation;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.6" refersTo="#term-charge_determined_by_the_licensee">
+            <num>(6)</num>
+            <content>
+              <p>"<def refersTo="#term-charge_determined_by_the_licensee">charge determined by the licensee</def>" means the appropriate charge determined by the <term refersTo="#term-licensee" id="trm14">licensee</term> from time to time, in accordance with these by-laws and the <term refersTo="#term-Gas_Licence_by-laws" id="trm15">Gas Licence by-laws</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.7" refersTo="#term-clearance_certificate">
+            <num>(7)</num>
+            <content>
+              <p>"<def refersTo="#term-clearance_certificate">clearance certificate</def>" means a clearance document issued by the <term refersTo="#term-licensee" id="trm16">licensee</term> to certify that the gas <term refersTo="#term-supply" id="trm17">supply</term> has been cut of or that no such <term refersTo="#term-supply" id="trm18">supply</term> existed;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.8" refersTo="#term-consumer">
+            <num>(8)</num>
+            <content>
+              <p>"<def refersTo="#term-consumer">consumer</def>" means a person who has entered or subsequently enters into a <term refersTo="#term-consumer_agreement" id="trm19">consumer agreement</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.9" refersTo="#term-consumer_agreement">
+            <num>(9)</num>
+            <content>
+              <p>"<def refersTo="#term-consumer_agreement">consumer agreement</def>" means an agreement for the <term refersTo="#term-supply" id="trm20">supply</term> of gas entered into between a <term refersTo="#term-licensee" id="trm21">licensee</term> and a <term refersTo="#term-consumer" id="trm22">consumer</term> under sub-section 5 (3) or transferred to the <term refersTo="#term-licensee" id="trm23">licensee</term> under sub-section 5 (5);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.10" refersTo="#term-consumer_meter">
+            <num>(10)</num>
+            <content>
+              <p>"<def refersTo="#term-consumer_meter">consumer meter</def>" means the <term refersTo="#term-meter" id="trm24">meter</term> conneted to the <term refersTo="#term-service" id="trm25">service</term> (private) supplied by the <term refersTo="#term-licensee" id="trm26">licensee</term> to measure volume of gas used;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.11" refersTo="#term-contractor">
+            <num>(11)</num>
+            <content>
+              <p>"<def refersTo="#term-contractor">contractor</def>" means a person, other than an employee of the <term refersTo="#term-licensee" id="trm27">licensee</term> registered in terms of the <term refersTo="#term-Occupational_Health_and_Safety_Act" id="trm28">Occupational Health and Safety Act</term>, who undertakes to carry out any gas sitting for or on behalf of the <term refersTo="#term-licensee" id="trm29">licensee</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.12" refersTo="#term-correctly">
+            <num>(12)</num>
+            <content>
+              <p>"<def refersTo="#term-correctly">correctly</def>" when referring to the registering of a <term refersTo="#term-meter" id="trm30">meter</term> in use shall mean within the limits of plus or minus 2%;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.13" refersTo="#term-Council">
+            <num>(13)</num>
+            <content>
+              <p>"<def refersTo="#term-Council">Council</def>" means the Greater Johannesburg Transitional Metropolitan Council established in terms of the Local Government Transition Act, 1993 (Act 209 of 1993) or its successors in title, and any official to whom the Council has delegated the powers, functions and duties vesting in the Council in relation to these by-laws;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.14" refersTo="#term-distribution">
+            <num>(14)</num>
+            <content>
+              <p>"<def refersTo="#term-distribution">distribution</def>" means the transportation of gas through distribution pipelines and associated facilities to points of ultimate consumption for the purpose of <term refersTo="#term-trading" id="trm31">trading</term> in gas, and any other activity incidental thereto, and "distribute" and "distributing" have corresponding meanings;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.15" refersTo="#term-energy_content">
+            <num>(15)</num>
+            <content>
+              <p>"<def refersTo="#term-energy_content">energy content</def>" means the gross heating value of the gas expressed in megajoules per cubic metre at <term refersTo="#term-ambient" id="trm32">ambient</term> conditions unless otherwise specified;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.16" refersTo="#term-gas_fitting">
+            <num>(16)</num>
+            <content>
+              <p>"<def refersTo="#term-gas_fitting">gas fitting</def>" means the installation, alteration, repair or testing of any gas-burning <term refersTo="#term-appliance" id="trm33">appliance</term>, including any flue connected thereto, <term refersTo="#term-internal_piping" id="trm34">internal piping</term> or <term refersTo="#term-service" id="trm35">service</term> (private) or any other equipment ancillary to such <term refersTo="#term-appliance" id="trm36">appliance</term>, <term refersTo="#term-internal_piping" id="trm37">internal piping</term> or <term refersTo="#term-service" id="trm38">service</term> (private);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.17" refersTo="#term-gas_installer">
+            <num>(17)</num>
+            <content>
+              <p>"<def refersTo="#term-gas_installer">gas installer</def>" means any third party appointed by a <term refersTo="#term-consumer" id="trm39">consumer</term> who is registered in terms of the <term refersTo="#term-Occupational_Health_and_Safety_Act" id="trm40">Occupational Health and Safety Act</term> to d was fitting;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.18" refersTo="#term-gas_installation">
+            <num>(18)</num>
+            <content>
+              <p>"<def refersTo="#term-gas_installation">gas installation</def>" means any <term refersTo="#term-meter" id="trm41">meter</term>, <term refersTo="#term-service" id="trm42">service</term>, <term refersTo="#term-internal_piping" id="trm43">internal piping</term> and <term refersTo="#term-appliance" id="trm44">appliance</term> and any other equipment ancillary thereto;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.19" refersTo="#term-Gas_Licence_by-laws">
+            <num>(19)</num>
+            <content>
+              <p>"<def refersTo="#term-Gas_Licence_by-laws">Gas Licence by-laws</def>" means the Gas Licence by-laws published under Provincial Gazette Notice No. 3326 dated 31 May 2000;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.20" refersTo="#term-governor_pressure_regulator">
+            <num>(20)</num>
+            <content>
+              <p>"<def refersTo="#term-governor_pressure_regulator">governor/pressure regulator</def>" means a device designed and installed to reduce or control the gas <term refersTo="#term-pressure" id="trm45">pressure</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.21" refersTo="#term-internal_piping">
+            <num>(21)</num>
+            <content>
+              <p>"<def refersTo="#term-internal_piping">internal piping</def>" means all pipes and connections installed within any <term refersTo="#term-premises" id="trm46">premises</term> from the <term refersTo="#term-consumer_meter" id="trm47">consumer meter</term> and excludes any appliances or the <term refersTo="#term-main" id="trm48">main</term> <term refersTo="#term-meter" id="trm49">meter</term>,</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.22" refersTo="#term-isolating_valve">
+            <num>(22)</num>
+            <content>
+              <p>"<def refersTo="#term-isolating_valve">isolating valve</def>" means a valve installed in the <term refersTo="#term-internal_piping" id="trm50">internal piping</term> for the purpose of cutting off the <term refersTo="#term-supply" id="trm51">supply</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.23" refersTo="#term-licensee">
+            <num>(23)</num>
+            <content>
+              <p>"<def refersTo="#term-licensee">licensee</def>" means the holder of a licence granted under section 4 of the Gas License by-laws;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.24" refersTo="#term-main">
+            <num>(24)</num>
+            <content>
+              <p>"<def refersTo="#term-main">main</def>" means any pipe under the exclusive control of and belonging to a <term refersTo="#term-licensee" id="trm52">licensee</term> and used for the purpose of supplying gas to consumers, but does not include any <term refersTo="#term-service" id="trm53">service</term>; -</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.25" refersTo="#term-meter">
+            <num>(25)</num>
+            <content>
+              <p>"<def refersTo="#term-meter">meter</def>" means an instrument used for measuring the volume of gas passing through a pipe and includes a <term refersTo="#term-consumer_meter" id="trm54">consumer meter</term> and a submeter;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.26" refersTo="#term-non-return_valve">
+            <num>(26)</num>
+            <content>
+              <p>"<def refersTo="#term-non-return_valve">non-return valve</def>" means a valve to prevent a reverse flow to the <term refersTo="#term-service" id="trm55">service</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.27" refersTo="#term-Occupational_Health_and_Safety_Act">
+            <num>(27)</num>
+            <content>
+              <p>"<def refersTo="#term-Occupational_Health_and_Safety_Act">Occupational Health and Safety Act</def>" means the Occupational Health and Safety Act, 1993 (Act 85 of 1993) and the regulations relevant to <term refersTo="#term-gas_fitting" id="trm56">gas fitting</term> made thereunder or as superseded or amended from time to time;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.28" refersTo="#term-occupier">
+            <num>(28)</num>
+            <content>
+              <p>"<def refersTo="#term-occupier">occupier</def>" means any person in occupation of <term refersTo="#term-premises" id="trm57">premises</term> at any relevant time and in the case of a sectional title Scheme, the body corporate;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.29" refersTo="#term-owner">
+            <num>(29)</num>
+            <content>
+              <p>"<def refersTo="#term-owner">owner</def>" means the registered owner of the <term refersTo="#term-premises" id="trm58">premises</term> or his authorised agent and any person receiving the rent or profits issuing therefrom, or who would receive such rent or profits if the land or <term refersTo="#term-premises" id="trm59">premises</term> were let, whether on his own account or as an agent for any person entitled thereto or interested therein and, in the case of a sectional title scheme, the body corporate;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.30" refersTo="#term-premises">
+            <num>(30)</num>
+            <content>
+              <p>"<def refersTo="#term-premises">premises</def>" means any area of land and includes any building, erection or structure, if any, above or below the surface of the land;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.31" refersTo="#term-pressure">
+            <num>(31)</num>
+            <content>
+              <p>"<def refersTo="#term-pressure">pressure</def>" means the gas pressure shown by an appropriate measuring device and includes a U-tube manometer;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.32" refersTo="#term-purchaser">
+            <num>(32)</num>
+            <content>
+              <p>"<def refersTo="#term-purchaser">purchaser</def>" means a purchaser of gas from a <term refersTo="#term-consumer" id="trm60">consumer</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.33" refersTo="#term-service">
+            <num>(33)</num>
+            <content>
+              <p>"<def refersTo="#term-service">service</def>" means all pipes between the <term refersTo="#term-main" id="trm61">main</term> and the <term refersTo="#term-consumer_meter" id="trm62">consumer meter</term> used or intended to be used for or in connection with the <term refersTo="#term-supply" id="trm63">supply</term> of gas by a <term refersTo="#term-licensee" id="trm64">licensee</term>, and includes a service (public) and a Service (private);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.34" refersTo="#term-service_charge">
+            <num>(34)</num>
+            <content>
+              <p>"<def refersTo="#term-service_charge">service charge</def>" means the basic minimum monthly charge levied by a <term refersTo="#term-licensee" id="trm65">licensee</term> for a gas <term refersTo="#term-supply" id="trm66">supply</term> to a <term refersTo="#term-consumer" id="trm67">consumer</term> and to which is added the charge for the quantity of gas consumed;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.35" refersTo="#term-service__private_">
+            <num>(35)</num>
+            <content>
+              <p>"<def refersTo="#term-service__private_">service (private)</def>" means that part of any <term refersTo="#term-service" id="trm68">service</term> leading from a point on a street boundary of the <term refersTo="#term-premises" id="trm69">premises</term> concerned up to the <term refersTo="#term-main" id="trm70">main</term> <term refersTo="#term-meter" id="trm71">meter</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.36" refersTo="#term-service__public_">
+            <num>(36)</num>
+            <content>
+              <p>"<def refersTo="#term-service__public_">service (public)</def>" means that part of any <term refersTo="#term-service" id="trm72">service</term> leading from a point on a street boundary of the <term refersTo="#term-premises" id="trm73">premises</term> concerned up to the <term refersTo="#term-main" id="trm74">main</term> <term refersTo="#term-meter" id="trm75">meter</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.37" refersTo="#term-shut_off_valve">
+            <num>(37)</num>
+            <content>
+              <p>"<def refersTo="#term-shut_off_valve">shut off valve</def>" means a valve installed in the <term refersTo="#term-service" id="trm76">service</term> (public);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.38" refersTo="#term-storage">
+            <num>(38)</num>
+            <content>
+              <p>"<def refersTo="#term-storage">storage</def>" means the holding of gas piped into a storage facility for the <term refersTo="#term-transmission" id="trm77">transmission</term> and <term refersTo="#term-distribution" id="trm78">distribution</term> thereof at a later stage, and any other activity incidental thereto, and "store" and "storing" have corresponding meanings;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.39" refersTo="#term-sub-meter">
+            <num>(39)</num>
+            <content>
+              <p>"<def refersTo="#term-sub-meter">sub-meter</def>" means any privately owned <term refersTo="#term-meter" id="trm79">meter</term> installed by a <term refersTo="#term-consumer" id="trm80">consumer</term> which may also be used for the purpose of reselling gas;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.40" refersTo="#term-supply">
+            <num>(40)</num>
+            <content>
+              <p>"<def refersTo="#term-supply">supply</def>" means <term refersTo="#term-transmission" id="trm81">transmission</term>, <term refersTo="#term-storage" id="trm82">storage</term>, <term refersTo="#term-distribution" id="trm83">distribution</term> or <term refersTo="#term-trading" id="trm84">trading</term>, and "supplier", "supplied" and “supplying" have corresponding meanings;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.41" refersTo="#term-trading">
+            <num>(41)</num>
+            <content>
+              <p>"<def refersTo="#term-trading">trading</def>" means the sale of gas, excluding gas derived from an LPG source, as a commodity to consumers by a <term refersTo="#term-licensee" id="trm85">licensee</term> and includes any <term refersTo="#term-service" id="trm86">service</term> or conditions associated therewith; and</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.42" refersTo="#term-transmission">
+            <num>(42)</num>
+            <content>
+              <p>"<def refersTo="#term-transmission">transmission</def>" means transportation of bulk gas supplies from a source of <term refersTo="#term-supply" id="trm87">supply</term> to a distributor or <term refersTo="#term-storage" id="trm88">storage</term> company, and any other activity incidental thereto, and “transmit" and "transmitting" have corresponding meanings.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Gas Supply Licence</heading>
+          <subsection id="section-2.1">
+            <num>(1)</num>
+            <content>
+              <p>in order to give consumers access to an efficient gas <term refersTo="#term-service" id="trm89">service</term>, and in order to regulate the <term refersTo="#term-supply" id="trm90">supply</term> of gas, the <term refersTo="#term-Council" id="trm91">Council</term> has made provision for the granting of licences to persons to <term refersTo="#term-supply" id="trm92">supply</term> gas on terms set out in these by-laws and the <term refersTo="#term-Gas_Licence_by-laws" id="trm93">Gas Licence by-laws</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.2">
+            <num>(2)</num>
+            <content>
+              <p>The granting of a licence under the <term refersTo="#term-Gas_Licence_by-laws" id="trm94">Gas Licence by-laws</term>, and the details of the <term refersTo="#term-licensee" id="trm95">licensee</term>, shall be published in newspapers circulating on Greater Johannesburg area, and shall be made available to consumers at the <term refersTo="#term-Council" id="trm96">Council</term> offices.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.3">
+            <num>(3)</num>
+            <content>
+              <p>For the purposes of these by-laws, any reference to "the <term refersTo="#term-licensee" id="trm97">licensee</term>" shall be a reference, where appropriate, to the applicable <term refersTo="#term-licensee" id="trm98">licensee</term> supplying a <term refersTo="#term-consumer" id="trm99">consumer</term>'s <term refersTo="#term-premises" id="trm100">premises</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Dornicilium Citandi</heading>
+          <subsection id="section-3.subsection-0">
+            <content>
+              <p>For the purposes of the <term refersTo="#term-service" id="trm101">service</term> of any notice, order or other document in terms of these by-laws, the address of the <term refersTo="#term-consumer" id="trm102">consumer</term> registered in the books of a <term refersTo="#term-licensee" id="trm103">licensee</term> shall be deemed to be the domicilium citandi et executandi of the <term refersTo="#term-consumer" id="trm104">consumer</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Service of Notices</heading>
+          <subsection id="section-4.subsection-0">
+            <content>
+              <p>Where any notice or other document is required by these by-laws to be served on any person, it shall be deemed to have been property served if served personally on him or any adult member of his household who signs for the receipt of such notice at his place of residence or business or if sent by registered post to the domicilium citandi et executandi contemplated in section 3.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-II">
+        <num>II</num>
+        <heading>Conditions of gas <term refersTo="#term-supply" id="trm105">supply</term></heading>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Application for Supply</heading>
+          <subsection id="section-5.1">
+            <num>(1)</num>
+            <content>
+              <p>An application to be supplied with gas shall be made to the <term refersTo="#term-licensee" id="trm106">licensee</term> supplying gas in the area in which an <term refersTo="#term-applicant" id="trm107">applicant</term>'s <term refersTo="#term-premises" id="trm108">premises</term> are situated. Information regarding licensees shall be obtainable from the <term refersTo="#term-Council" id="trm109">Council</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-5.2.list1">
+                <listIntroduction>The <term refersTo="#term-licensee" id="trm110">licensee</term> may refuse to <term refersTo="#term-supply" id="trm111">supply</term> gas to an <term refersTo="#term-applicant" id="trm112">applicant</term> if -</listIntroduction>
+                <item id="section-5.2.list1.a">
+                  <num>(a)</num>
+                  <p>there are no mains in the part of a street abutting on the <term refersTo="#term-applicant" id="trm113">applicant</term>'s <term refersTo="#term-premises" id="trm114">premises</term> unless the <term refersTo="#term-applicant" id="trm115">applicant</term> agrees in writing to pay any costs associated with any extension to the mains as determined by the <term refersTo="#term-licensee" id="trm116">licensee</term>'s capital contribution policy;</p>
+                </item>
+                <item id="section-5.2.list1.b">
+                  <num>(b)</num>
+                  <p>the furnishing of <term refersTo="#term-supply" id="trm117">supply</term> may detrimentally affect gas <term refersTo="#term-supply" id="trm118">supply</term> to any existing <term refersTo="#term-consumer" id="trm119">consumer</term>; or (c) in the <term refersTo="#term-licensee" id="trm120">licensee</term>'s opinion, the <term refersTo="#term-appliance" id="trm121">appliance</term> to which gas will be supplied is unsafe or potentially unsafe.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-5.3">
+            <num>(3)</num>
+            <content>
+              <p>Upon the <term refersTo="#term-licensee" id="trm122">licensee</term> to <term refersTo="#term-supply" id="trm123">supply</term> gas, a <term refersTo="#term-consumer_agreement" id="trm124">consumer agreement</term> in the form determined by the <term refersTo="#term-licensee" id="trm125">licensee</term> shall be signed by the <term refersTo="#term-applicant" id="trm126">applicant</term>. The <term refersTo="#term-licensee" id="trm127">licensee</term> shall be under no obligation to <term refersTo="#term-supply" id="trm128">supply</term> gas unless and until such <term refersTo="#term-consumer_agreement" id="trm129">consumer agreement</term> is signed and the <term refersTo="#term-applicant" id="trm130">applicant</term> has paid the charges and any other costs determined by the <term refersTo="#term-licensee" id="trm131">licensee</term> for turning on the gas <term refersTo="#term-supply" id="trm132">supply</term> and the successful <term refersTo="#term-applicant" id="trm133">applicant</term> (<term refersTo="#term-consumer" id="trm134">consumer</term>) has installed or contracted to install a gas <term refersTo="#term-appliance" id="trm135">appliance</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-5.4.list3">
+                <listIntroduction>The form of the <term refersTo="#term-consumer_agreement" id="trm136">consumer agreement</term> determined by the <term refersTo="#term-licensee" id="trm137">licensee</term> may be made subject to conditions including -</listIntroduction>
+                <item id="section-5.4.list3.a">
+                  <num>(a)</num>
+                  <p>requirements for the internal design of the <term refersTo="#term-premises" id="trm138">premises</term> to which gas is supplied; and</p>
+                </item>
+                <item id="section-5.4.list3.b">
+                  <num>(b)</num>
+                  <p>any <term refersTo="#term-approved_standard" id="trm139">approved standard</term> relating to the safe <term refersTo="#term-supply" id="trm140">supply</term> of gas to the <term refersTo="#term-premises" id="trm141">premises</term> concerned.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-5.5">
+            <num>(5)</num>
+            <content>
+              <p>The provisions of sub-sections (1) to (4) shall not apply to any agreement between the <term refersTo="#term-Council" id="trm142">Council</term> and a person for the <term refersTo="#term-supply" id="trm143">supply</term> of gas by the <term refersTo="#term-Council" id="trm144">Council</term> at either the date of commencement of these by-laws or the date of issue of the first licence under section 4 of the <term refersTo="#term-Gas_Licence_by-laws" id="trm145">Gas Licence by-laws</term>. The <term refersTo="#term-Council" id="trm146">Council</term>'s rights and obligations under such an agreement shall, on the grant of the licence, be transferred to the <term refersTo="#term-licensee" id="trm147">licensee</term> under the licence and by virtue of these by-laws. Such an agreement shall then be deemed to have been between the <term refersTo="#term-licensee" id="trm148">licensee</term> and such a person and shall continue in force as if it had been made by them.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Deposit</heading>
+          <subsection id="section-6.1">
+            <num>(1)</num>
+            <content>
+              <p>Subject to sub-section (2) every <term refersTo="#term-applicant" id="trm149">applicant</term> to the <term refersTo="#term-licensee" id="trm150">licensee</term> for a <term refersTo="#term-supply" id="trm151">supply</term> of gas shall, before gas is supplied, deposit with the <term refersTo="#term-licensee" id="trm152">licensee</term> an amount of money based on the cost of the maximum quantity of gas which the <term refersTo="#term-applicant" id="trm153">applicant</term> is, in the <term refersTo="#term-licensee" id="trm154">licensee</term>'s opinion, likely to use during any period not exceeding three months.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-licensee" id="trm155">licensee</term> may agree to waive the requirement for the payment of a deposit in appropriate circumstances.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.3">
+            <num>(3)</num>
+            <content>
+              <p>Any deposit paid by a <term refersTo="#term-consumer" id="trm156">consumer</term> in terms of this section must be invested in an interest bearing account and accrue interest for the benefit of the <term refersTo="#term-consumer" id="trm157">consumer</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-licensee" id="trm158">licensee</term> may at any time when the deposit made in terms of subsection (1) is found to be inadequate, require the Consumer concerned to increase the deposit made by him, in which event the <term refersTo="#term-consumer" id="trm159">consumer</term> shall within 28 days after being so required, deposit with the <term refersTo="#term-licensee" id="trm160">licensee</term> the additional amount so required.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Refund of Deposit</heading>
+          <subsection id="section-7.subsection-0">
+            <content>
+              <p>Any sum deposited with a <term refersTo="#term-licensee" id="trm161">licensee</term> by or on behalf of a <term refersTo="#term-consumer" id="trm162">consumer</term> and any interest accruing on that sum in terms of subsection 6 (3) shall be refunded within 30 days after the termination of a <term refersTo="#term-consumer_agreement" id="trm163">consumer agreement</term> and after the deduction of any amount due by the <term refersTo="#term-consumer" id="trm164">consumer</term> to the <term refersTo="#term-licensee" id="trm165">licensee</term>. Such refund shall not be transferable to any new <term refersTo="#term-consumer" id="trm166">consumer</term> at the same <term refersTo="#term-premises" id="trm167">premises</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Termination of Consumer Agreement</heading>
+          <subsection id="section-8.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-consumer_agreement" id="trm168">consumer agreement</term> may be terminated at any time by the parties to the agreement by giving not less than 7 days notice of termination in writing to the other party and no reason need be given for such termination: Provided that a <term refersTo="#term-consumer_agreement" id="trm169">consumer agreement</term> shall be deemed to terminate when a new <term refersTo="#term-consumer_agreement" id="trm170">consumer agreement</term> for the same <term refersTo="#term-premises" id="trm171">premises</term> is entered into.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.2">
+            <num>(2)</num>
+            <content>
+              <p>of no gas has been consumed on any <term refersTo="#term-premises" id="trm172">premises</term> for a period of 6 months or longer and the circumstances indicate that the <term refersTo="#term-service" id="trm173">service</term> concerned has been abandoned, the <term refersTo="#term-licensee" id="trm174">licensee</term> may at its sole discretion cause such <term refersTo="#term-service" id="trm175">service</term> to be disconnected from the <term refersTo="#term-main" id="trm176">main</term> and terminate the <term refersTo="#term-consumer_agreement" id="trm177">consumer agreement</term>. Any subsequent application to be supplied with gas will be subject to the provisions of these by-laws as if no gas <term refersTo="#term-supply" id="trm178">supply</term> to the <term refersTo="#term-premises" id="trm179">premises</term> concerned has existed before.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Recovery of Expenses for Providing Services</heading>
+          <subsection id="section-9.subsection-0">
+            <content>
+              <p>If a <term refersTo="#term-consumer" id="trm180">consumer</term>, for any reason whatsoever, terminates a <term refersTo="#term-consumer_agreement" id="trm181">consumer agreement</term> within 12 months, or such other period as may be stated in a <term refersTo="#term-consumer_agreement" id="trm182">consumer agreement</term>, after the <term refersTo="#term-service" id="trm183">service</term> relating to such agreement has been installed, or fails to make use by purchasing such</p>
+            </content>
+          </subsection>
+          <subsection id="section-9.subsection-1">
+            <content>
+              <p>minimum quantities, if any, as stipulated in the <term refersTo="#term-consumer_agreement" id="trm184">consumer agreement</term> of the <term refersTo="#term-service" id="trm185">service</term> during such period, he shall be liable to pay to the <term refersTo="#term-licensee" id="trm186">licensee</term> the amount of any expenses incurred by the <term refersTo="#term-licensee" id="trm187">licensee</term> in installing such <term refersTo="#term-service" id="trm188">service</term>. -</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Failure to Terminate Consumer Agreement</heading>
+          <subsection id="section-10.1">
+            <num>(1)</num>
+            <content>
+              <p>Any <term refersTo="#term-consumer" id="trm189">consumer</term> who ceases to occupy the <term refersTo="#term-premises" id="trm190">premises</term> in respect of which a <term refersTo="#term-consumer_agreement" id="trm191">consumer agreement</term> has been concluded, and fails to terminate such <term refersTo="#term-consumer_agreement" id="trm192">consumer agreement</term> under sub-section 8(1), shall be liable to pay for all gas consumed on such <term refersTo="#term-premises" id="trm193">premises</term> up to and including the date of termination of the <term refersTo="#term-consumer_agreement" id="trm194">consumer agreement</term> or until a new <term refersTo="#term-consumer_agreement" id="trm195">consumer agreement</term> is entered into in respect of the <term refersTo="#term-premises" id="trm196">premises</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-10.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-consumer" id="trm197">consumer</term> shall remain liable to pay the <term refersTo="#term-service" id="trm198">service</term> <term refersTo="#term-charge_determined_by_the_licensee" id="trm199">charge determined by the licensee</term> until the <term refersTo="#term-consumer_agreement" id="trm200">consumer agreement</term> entered into by ..] has been terminated, or a new <term refersTo="#term-consumer_agreement" id="trm201">consumer agreement</term> has been entered into in respect of the <term refersTo="#term-premises" id="trm202">premises</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Continuation of Supply to New Consumer</heading>
+          <subsection id="section-11.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-licensee" id="trm203">licensee</term> may enter into a new <term refersTo="#term-consumer_agreement" id="trm204">consumer agreement</term> with any prospective <term refersTo="#term-consumer" id="trm205">consumer</term> providing for continuation of the <term refersTo="#term-supply" id="trm206">supply</term>, upon termination of the <term refersTo="#term-consumer_agreement" id="trm207">consumer agreement</term> in terms of sub-section 8(2).</p>
+            </content>
+          </subsection>
+          <subsection id="section-11.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm208">consumer</term> who is a party to the new <term refersTo="#term-consumer_agreement" id="trm209">consumer agreement</term> referred to in sub-section (1), shall be liable to pay for the gas consumed after a <term refersTo="#term-meter" id="trm210">meter</term> reading taken on the date of termination of the previous <term refersTo="#term-consumer_agreement" id="trm211">consumer agreement</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Notice of Arrears and Disconnection of Supply</heading>
+          <subsection id="section-12.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-12.1.list0">
+                <listIntroduction>A <term refersTo="#term-licensee" id="trm212">licensee</term> may at any time and upon reasonable notice (being not more than 30 days in the case of non-payment) to the <term refersTo="#term-consumer" id="trm213">consumer</term>, cut off the <term refersTo="#term-supply" id="trm214">supply</term> of gas to the <term refersTo="#term-premises" id="trm215">premises</term> it supplies if the <term refersTo="#term-consumer" id="trm216">consumer</term> concerned has</listIntroduction>
+                <item id="section-12.1.list0.a">
+                  <num>(a)</num>
+                  <p>failed to pay timeously any amount due to the <term refersTo="#term-licensee" id="trm217">licensee</term> in terms of these by-laws;</p>
+                </item>
+                <item id="section-12.1.list0.b">
+                  <num>(b)</num>
+                  <p>committed a breach of any of the provisions of these by-laws or the <term refersTo="#term-consumer_agreement" id="trm218">consumer agreement</term> or caused or permitted such breach to be committed;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-12.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-licensee" id="trm219">licensee</term> may, upon reasonable notice to the <term refersTo="#term-consumer" id="trm220">consumer</term>, temporarily cut off the <term refersTo="#term-supply" id="trm221">supply</term> of gas to any <term refersTo="#term-premises" id="trm222">premises</term> it supplies for the purposes of effecting repairs of for inspecting or testing any <term refersTo="#term-appliance" id="trm223">appliance</term> or <term refersTo="#term-internal_piping" id="trm224">internal piping</term> or any equipment ancillary to such <term refersTo="#term-appliance" id="trm225">appliance</term> or <term refersTo="#term-internal_piping" id="trm226">internal piping</term> or for any other purpose relating to the <term refersTo="#term-licensee" id="trm227">licensee</term>'s <term refersTo="#term-gas_installation" id="trm228">gas installation</term> or equipment ancillary thereto,</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-licensee" id="trm229">licensee</term> may, at any time without notice, temporarily cut off the <term refersTo="#term-supply" id="trm230">supply</term> of gas to any <term refersTo="#term-premises" id="trm231">premises</term> it supplies in circumstances where the continued <term refersTo="#term-supply" id="trm232">supply</term> of gas to the <term refersTo="#term-premises" id="trm233">premises</term> concerned would, in the opinion of the <term refersTo="#term-licensee" id="trm234">licensee</term> be likely to constitute a sire hazard or other danger.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-licensee" id="trm235">licensee</term> shall not be liable for consumption or damages suffered by a <term refersTo="#term-consumer" id="trm236">consumer</term> or any other person if the gas <term refersTo="#term-supply" id="trm237">supply</term> is cut off in the bona fide belief that any of the circumstances mentioned in sub-sections (2) or (3), have occurred.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Reconnection of Supply</heading>
+          <subsection id="section-13.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-13.1.list0">
+                <listIntroduction>If the <term refersTo="#term-supply" id="trm238">supply</term> of gas has been cut off in terms of</listIntroduction>
+                <item id="section-13.1.list0.a">
+                  <num>(a)</num>
+                  <p>paragraph 12(1)(a) and the amount contemplated in that section has been paid, the <term refersTo="#term-consumer" id="trm239">consumer</term> shall pay to the <term refersTo="#term-licensee" id="trm240">licensee</term> the <term refersTo="#term-charge_determined_by_the_licensee" id="trm241">charge determined by the licensee</term> for reconnection before the <term refersTo="#term-supply" id="trm242">supply</term> of gas is restored; -</p>
+                </item>
+                <item id="section-13.1.list0.b">
+                  <num>(b)</num>
+                  <p>paragraph 12(1)(b), the <term refersTo="#term-consumer" id="trm243">consumer</term> shall pay to the <term refersTo="#term-licensee" id="trm244">licensee</term> the <term refersTo="#term-charge_determined_by_the_licensee" id="trm245">charge determined by the licensee</term> for reconnection and in addition thereto, shall pay to the <term refersTo="#term-licensee" id="trm246">licensee</term> any cost incurred by the <term refersTo="#term-licensee" id="trm247">licensee</term> resulting from the breach of these by-laws, before such <term refersTo="#term-supply" id="trm248">supply</term> is restored;</p>
+                </item>
+                <item id="section-13.1.list0.c">
+                  <num>(c)</num>
+                  <p>sub-section 8(2), and a new application is made for a gas <term refersTo="#term-supply" id="trm249">supply</term> in terms of sub-section 11(1), the <term refersTo="#term-consumer" id="trm250">consumer</term> shall pay to the <term refersTo="#term-licensee" id="trm251">licensee</term> the charges determined for reconnection before the <term refersTo="#term-supply" id="trm252">supply</term> of gas is restored. -</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-13.2">
+            <num>(2)</num>
+            <content>
+              <p>Any <term refersTo="#term-service" id="trm253">service</term> (private) and <term refersTo="#term-internal_piping" id="trm254">internal piping</term> may be materially tested at the discretion of the <term refersTo="#term-licensee" id="trm255">licensee</term> prior to any reconnection effected by the <term refersTo="#term-licensee" id="trm256">licensee</term> in terms of these by-laws.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>Resale of Gas</heading>
+          <subsection id="section-14.1">
+            <num>(1)</num>
+            <content>
+              <p>No <term refersTo="#term-consumer" id="trm257">consumer</term> shall resell or <term refersTo="#term-supply" id="trm258">supply</term> gas for consumption upon any <term refersTo="#term-premises" id="trm259">premises</term> other than the <term refersTo="#term-premises" id="trm260">premises</term> to which the <term refersTo="#term-consumer_agreement" id="trm261">consumer agreement</term> relates, or permits such resale or <term refersTo="#term-supply" id="trm262">supply</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-14.2.list1">
+                <listIntroduction>A <term refersTo="#term-consumer" id="trm263">consumer</term> may resell gas to any other person on the <term refersTo="#term-premises" id="trm264">premises</term> to which a <term refersTo="#term-consumer_agreement" id="trm265">consumer agreement</term> relates, subject to the following Conditions— -</listIntroduction>
+                <item id="section-14.2.list1.a">
+                  <num>(a)</num>
+                  <p>gas shall, in respect of each <term refersTo="#term-purchaser" id="trm266">purchaser</term>, be metered through an <term refersTo="#term-approved" id="trm267">approved</term> <term refersTo="#term-sub-meter" id="trm268">sub-meter</term> of a capacity sufficient to <term refersTo="#term-supply" id="trm269">supply</term> and register the maximum demand which may be made upon it and supplied through an <term refersTo="#term-approved" id="trm270">approved</term> <term refersTo="#term-gas_installation" id="trm271">gas installation</term>;</p>
+                </item>
+                <item id="section-14.2.list1.b">
+                  <num>(b)</num>
+                  <p>the charge made by the <term refersTo="#term-consumer" id="trm272">consumer</term> as seller shall not exceed the charge which would have been payable had the <term refersTo="#term-purchaser" id="trm273">purchaser</term> been a conՏԱՈmer,</p>
+                </item>
+                <item id="section-14.2.list1.c">
+                  <num>(c)</num>
+                  <p>the conditions of resale shall not be less favourable to the <term refersTo="#term-purchaser" id="trm274">purchaser</term> than the terms on which the <term refersTo="#term-licensee" id="trm275">licensee</term> supplies gas to the <term refersTo="#term-consumer" id="trm276">consumer</term> and any <term refersTo="#term-consumer" id="trm277">consumer</term> or <term refersTo="#term-licensee" id="trm278">licensee</term> shall at the request of the <term refersTo="#term-purchaser" id="trm279">purchaser</term>, furnish him with any account, document and other information which may be necessary to enable the <term refersTo="#term-purchaser" id="trm280">purchaser</term> to ascertain whether any account rendered to him for gas supplied is correct.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-14.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-licensee" id="trm281">licensee</term> shall not be liable for any inaccuracy or any other defect in any account, document and other information which may be necessary to enable the <term refersTo="#term-purchaser" id="trm282">purchaser</term> to ascertain whether any account rendered to him for gas supplied is correct, nor shall the <term refersTo="#term-licensee" id="trm283">licensee</term> be obliged to furnish such account document or information to the <term refersTo="#term-purchaser" id="trm284">purchaser</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-licensee" id="trm285">licensee</term> shall not be liable for any inaccuracy or other defect in any <term refersTo="#term-sub-meter" id="trm286">sub-meter</term>, whether or not such <term refersTo="#term-sub-meter" id="trm287">sub-meter</term> or the Installation thereof has been <term refersTo="#term-approved" id="trm288">approved</term> as contemplated in paragraph (2) (a).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Accounts</heading>
+          <subsection id="section-15.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-consumer" id="trm289">consumer</term> shall pay to the <term refersTo="#term-licensee" id="trm290">licensee</term> the amount of any account or provisional account rendered to him by the <term refersTo="#term-licensee" id="trm291">licensee</term> in accordance with charges determined by the <term refersTo="#term-licensee" id="trm292">licensee</term> for gas consumed on or before the date for payment stated in the account.</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-licensee" id="trm293">licensee</term> may during the period between <term refersTo="#term-meter" id="trm294">meter</term> readings render to the <term refersTo="#term-consumer" id="trm295">consumer</term> a provisional account in respect of a part of such period, such part being as nearly as practically possible a period of 30 days (or a multiple thereof) and the amount of such account being determined in accordance with sub-section (3), and shall as soon as possible after the <term refersTo="#term-meter" id="trm296">meter</term> reading at the end of such period render to the <term refersTo="#term-consumer" id="trm297">consumer</term> an account based on the actual consumption during that period determined in accordance with the provisions of sub-section (1), crediting his account with any sum already paid by him on a provisional account.</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.3">
+            <num>(3)</num>
+            <content>
+              <p>The amount of a provisional account referred to in sub-section (2), shall be determined by the <term refersTo="#term-licensee" id="trm298">licensee</term> by reference to such previous consumption, if any, on the same <term refersTo="#term-premises" id="trm299">premises</term> as would constitute a reasonable guide to the quantity of gas consumed over the period covered by the provisional account: Provided that if there has been no previous consumption, the <term refersTo="#term-licensee" id="trm300">licensee</term> shall determine the amount of the said account by reference to such consumption on other similar <term refersTo="#term-premises" id="trm301">premises</term> as would constitute the reasonable guide referred to.</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm302">consumer</term> shall pay the <term refersTo="#term-service" id="trm303">service</term> <term refersTo="#term-charge_determined_by_the_licensee" id="trm304">charge determined by the licensee</term> monthly and an account for such charge may be rendered by the <term refersTo="#term-licensee" id="trm305">licensee</term> as and when such charge becomes due.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Inaccessibility of Consumer Meter</heading>
+          <subsection id="section-16.subsection-0">
+            <content>
+              <p>If the <term refersTo="#term-licensee" id="trm306">licensee</term> is not able to gain access to a <term refersTo="#term-consumer_meter" id="trm307">consumer meter</term> for 2 consecutive <term refersTo="#term-meter" id="trm308">meter</term>-reading periods, the <term refersTo="#term-consumer" id="trm309">consumer</term> shall, within 7 days of being notified verbally or in writing thereof, make arrangements to the satisfaction of the <term refersTo="#term-licensee" id="trm310">licensee</term> to enable such <term refersTo="#term-meter" id="trm311">meter</term> to be read.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Consumer's Liability for Licensee's Installation</heading>
+          <subsection id="section-17.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-consumer" id="trm312">consumer</term> shall forthwith, after any damage to or defect in any part of the <term refersTo="#term-licensee" id="trm313">licensee</term>'s <term refersTo="#term-gas_installation" id="trm314">gas installation</term>, including any portion of the ma, which is on the <term refersTo="#term-consumer" id="trm315">consumer</term>'s <term refersTo="#term-premises" id="trm316">premises</term>, has come to his attention, report such damage or defect to the <term refersTo="#term-licensee" id="trm317">licensee</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-17.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-consumer" id="trm318">consumer</term> shall be liable to pay to the <term refersTo="#term-licensee" id="trm319">licensee</term> an amount equal to the cost of repairing any part of the <term refersTo="#term-consumer" id="trm320">consumer</term>'s <term refersTo="#term-gas_installation" id="trm321">gas installation</term> conseñplated in sub-section (1), through which gas is supplied to that <term refersTo="#term-consumer" id="trm322">consumer</term>'s <term refersTo="#term-premises" id="trm323">premises</term>, except where such repairs were necessitated by fair wear and tear, natural causes, any inherent defect or by any act or comission by an employee or <term refersTo="#term-contractor" id="trm324">contractor</term> appointed by the <term refersTo="#term-licensee" id="trm325">licensee</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-III">
+        <num>III</num>
+        <heading>General provisions relating to gas supplies</heading>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Provision of Service</heading>
+          <subsection id="section-18.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-18.1.list0">
+                <item id="section-18.1.list0.a">
+                  <num>(a)</num>
+                  <p>Upon entering into a <term refersTo="#term-consumer_agreement" id="trm326">consumer agreement</term>, the <term refersTo="#term-consumer" id="trm327">consumer</term> shall pay the <term refersTo="#term-charge_determined_by_the_licensee" id="trm328">charge determined by the licensee</term> in respect of the <term refersTo="#term-service" id="trm329">service</term> (public). Subject to the provisions of Chapter II of these by-laws, the <term refersTo="#term-licensee" id="trm330">licensee</term> shall thereupon provide, lay down and maintain a <term refersTo="#term-service" id="trm331">service</term> (public) for the Supply of gas to the <term refersTo="#term-premises" id="trm332">premises</term> once, if the <term refersTo="#term-licensee" id="trm333">licensee</term> so requires, the internal pipe work and appliances have been installed to the Satisfaction of the <term refersTo="#term-licensee" id="trm334">licensee</term>.</p>
+                </item>
+                <item id="section-18.1.list0.b">
+                  <num>(b)</num>
+                  <p>If no gas <term refersTo="#term-main" id="trm335">main</term> exists in that part of a street abutting on the property for which a gas connection application is made, the <term refersTo="#term-licensee" id="trm336">licensee</term> shall provide an estimate for the portion of the cost which will have to be paid by the <term refersTo="#term-consumer" id="trm337">consumer</term> for provision of the gas <term refersTo="#term-main" id="trm338">main</term> cover and above the <term refersTo="#term-service" id="trm339">service</term> <term refersTo="#term-charge_determined_by_the_licensee" id="trm340">charge determined by the licensee</term> in terms of the <term refersTo="#term-licensee" id="trm341">licensee</term>'s capital contribution policy.</p>
+                </item>
+                <item id="section-18.1.list0.c">
+                  <num>(c)</num>
+                  <p>The position of the <term refersTo="#term-service" id="trm342">service</term> (public) shall be as determined by the <term refersTo="#term-licensee" id="trm343">licensee</term>. (2) The <term refersTo="#term-service" id="trm344">service</term> (public), the <term refersTo="#term-consumer_meter" id="trm345">consumer meter</term> and associated apparatus shall remain, the property of, and under the control of, the <term refersTo="#term-licensee" id="trm346">licensee</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-18.3">
+            <num>(3)</num>
+            <content>
+              <p>The installation and maintenance of the <term refersTo="#term-service" id="trm347">service</term> (private), <term refersTo="#term-internal_piping" id="trm348">internal piping</term> and appliances shall be the responsibility of the <term refersTo="#term-consumer" id="trm349">consumer</term>, and shall be carried out by a registered <term refersTo="#term-gas_installer" id="trm350">gas installer</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-licensee" id="trm351">licensee</term> may determine a charge in respect of <term refersTo="#term-service" id="trm352">service</term> calls or work performed by it in connection with any item referred to in sub-section (3).</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.subsection-3">
+            <content>
+              <p>Any amount due in terms of this section shall be paid to the <term refersTo="#term-licensee" id="trm353">licensee</term> by the <term refersTo="#term-consumer" id="trm354">consumer</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-19">
+          <num>19.</num>
+          <heading>Provision of Consumer Meter</heading>
+          <subsection id="section-19.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-consumer_meter" id="trm355">consumer meter</term> shall be supplied and installed by the <term refersTo="#term-licensee" id="trm356">licensee</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-19.2">
+            <num>(2)</num>
+            <content>
+              <p>Notwithstanding the provisions of sub-section (1), no <term refersTo="#term-consumer_meter" id="trm357">consumer meter</term> shall be installed and no gas shall be supplied if the <term refersTo="#term-internal_piping" id="trm358">internal piping</term> or <term refersTo="#term-service" id="trm359">service</term> (private) sails to pass a <term refersTo="#term-pressure" id="trm360">pressure</term> test administered by the <term refersTo="#term-licensee" id="trm361">licensee</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>Access to Isolating Valves</heading>
+          <subsection id="section-20.subsection-0">
+            <content>
+              <p>The Consumer shall ensure that the <term refersTo="#term-licensee" id="trm362">licensee</term> has access to the <term refersTo="#term-isolating_valve" id="trm363">isolating valve</term>, installed on his own <term refersTo="#term-premises" id="trm364">premises</term> at the <term refersTo="#term-consumer_meter" id="trm365">consumer meter</term>, so that it may be operated at all times.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-21">
+          <num>21.</num>
+          <heading>Protection of Meters</heading>
+          <subsection id="section-21.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-licensee" id="trm366">licensee</term> may require a <term refersTo="#term-consumer" id="trm367">consumer</term> to provide a <term refersTo="#term-meter" id="trm368">meter</term> chamber for housing any <term refersTo="#term-meter" id="trm369">meter</term>. The position of the <term refersTo="#term-meter" id="trm370">meter</term> shall be subject to the approval of the <term refersTo="#term-licensee" id="trm371">licensee</term>,</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.2">
+            <num>(2)</num>
+            <content>
+              <p>Any <term refersTo="#term-meter" id="trm372">meter</term> chamber shall be constructed of <term refersTo="#term-approved" id="trm373">approved</term> materials and constructed, installed and ventilated to the satisfaction of the <term refersTo="#term-licensee" id="trm374">licensee</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-22">
+          <num>22.</num>
+          <heading>Non-Return Valves</heading>
+          <subsection id="section-22.subsection-0">
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm375">consumer</term> shall install an <term refersTo="#term-approved" id="trm376">approved</term> <term refersTo="#term-non-return_valve" id="trm377">non-return valve</term> immediately after the <term refersTo="#term-consumer_meter" id="trm378">consumer meter</term> (or after the <term refersTo="#term-consumer_meter" id="trm379">consumer meter</term> outlet valve where such valve has been fitted) if any air-gas mixing machine or any equipment is to be used, which in normal operation or as a result of any malfunction or combination of circumstances could give rise to a reverse flow through the <term refersTo="#term-service" id="trm380">service</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-23">
+          <num>23.</num>
+          <heading>Quantity of Gas Consumed</heading>
+          <subsection id="section-23.1">
+            <num>(1)</num>
+            <content>
+              <p>When the volume of gas is metered at a <term refersTo="#term-pressure" id="trm381">pressure</term> not exceeding 1,5 Kilo Pascals (kPa), the energy consumed, expressed in gigajoules (GJ), shall be calculated according to the following formula—</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.subsection-1">
+            <content>
+              <p>(Volume of gas in cubic metres X <term refersTo="#term-energy_content" id="trm382">energy content</term> in megajoules per Cubic <term refersTo="#term-meter" id="trm383">meter</term>)/(1 000)</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.2">
+            <num>(2)</num>
+            <content>
+              <p>When gas is metered at a <term refersTo="#term-pressure" id="trm384">pressure</term> in excess of 1.5kPa at the <term refersTo="#term-consumer" id="trm385">consumer</term>'s request, the <term refersTo="#term-energy_content" id="trm386">energy content</term> shall be multiplied by a correction factor formula stipulated in the licence and calculated by the <term refersTo="#term-licensee" id="trm387">licensee</term>, based on the <term refersTo="#term-supply" id="trm388">supply</term> <term refersTo="#term-pressure" id="trm389">pressure</term>, before the energy consumed is Calculated in terms of sub-section (1).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-24">
+          <num>24.</num>
+          <heading>Dissatisfaction with Meter Reading or Inaccuracy of Meter</heading>
+          <subsection id="section-24.1">
+            <num>(1)</num>
+            <content>
+              <p>If a <term refersTo="#term-consumer" id="trm390">consumer</term> is at any time dissatisfied with any particular reading of the <term refersTo="#term-consumer_meter" id="trm391">consumer meter</term>, or if he has reason to believe that the <term refersTo="#term-meter" id="trm392">meter</term> is out of order or registered incorrectly, and is desirous of having such <term refersTo="#term-meter" id="trm393">meter</term> tested, he shall give notice in writing to the <term refersTo="#term-licensee" id="trm394">licensee</term>, and such notice shall be accompanied by the <term refersTo="#term-charge_determined_by_the_licensee" id="trm395">charge determined by the licensee</term> for testing a <term refersTo="#term-meter" id="trm396">meter</term>, and thereupon the <term refersTo="#term-meter" id="trm397">meter</term> shall be tested forthwith by the <term refersTo="#term-licensee" id="trm398">licensee</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-24.2.list1">
+                <listIntroduction>If such <term refersTo="#term-consumer_meter" id="trm399">consumer meter</term> is found to be registered incorrectly the <term refersTo="#term-licensee" id="trm400">licensee</term> shall—</listIntroduction>
+                <item id="section-24.2.list1.a">
+                  <num>(a)</num>
+                  <p>refund the charge contemplated in sub-section (1) to the <term refersTo="#term-consumer" id="trm401">consumer</term>;</p>
+                </item>
+                <item id="section-24.2.list1.b">
+                  <num>(b)</num>
+                  <p>install a <term refersTo="#term-meter" id="trm402">meter</term> in good working order without charge to the <term refersTo="#term-consumer" id="trm403">consumer</term>; and</p>
+                </item>
+                <item id="section-24.2.list1.c">
+                  <num>(c)</num>
+                  <blockList id="section-24.2.list1.c.list0">
+                    <listIntroduction>adjust the charge for gas consumed according to the percentage error—</listIntroduction>
+                    <item id="section-24.2.list1.c.list0.i">
+                      <num>(i)</num>
+                      <p>from a date three months before the reading in dispute until the date when the faulty <term refersTo="#term-meter" id="trm404">meter</term> is tested on the relevant <term refersTo="#term-premises" id="trm405">premises</term> or is removed for testing; or</p>
+                    </item>
+                    <item id="section-24.2.list1.c.list0.ii">
+                      <num>(ii)</num>
+                      <p>from the date of installation of the <term refersTo="#term-meter" id="trm406">meter</term> until the date when the faulty <term refersTo="#term-meter" id="trm407">meter</term> is tested on the relevant <term refersTo="#term-premises" id="trm408">premises</term> or removed for testing; whichever of the periods referred to in sub-paragraphs (i) and (ii) is shorter.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-24.3">
+            <num>(3)</num>
+            <content>
+              <p>If, after notice has been given in terms of sub-section (1), it is found that the <term refersTo="#term-consumer_meter" id="trm409">consumer meter</term> concerned has been read incorrectly, the charge pain in terms of sub-section shall be refunded to the <term refersTo="#term-consumer" id="trm410">consumer</term> and his account shall be rectified.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-25">
+          <num>25.</num>
+          <heading>Failure of Consumer Meter to Register</heading>
+          <subsection id="section-25.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-25.1.list0">
+                <listIntroduction>If a <term refersTo="#term-consumer_meter" id="trm411">consumer meter</term> is sound to have ceased to register, such <term refersTo="#term-meter" id="trm412">meter</term> shall be repaired or replaced by the <term refersTo="#term-licensee" id="trm413">licensee</term> within seven days. (2) Unless it can be <term refersTo="#term-approved" id="trm414">approved</term> to the satisfaction of the <term refersTo="#term-licensee" id="trm415">licensee</term> that a lesser or greater quantity of gas has been consumed, the quantity of gas which shall be paid for by the <term refersTo="#term-consumer" id="trm416">consumer</term> from the date of reading of the <term refersTo="#term-meter" id="trm417">meter</term> immediately prior to its failure to register up to the time of its repair or replacement, shall be estimated by the <term refersTo="#term-licensee" id="trm418">licensee</term> on the basis of-</listIntroduction>
+                <item id="section-25.1.list0.a">
+                  <num>(a)</num>
+                  <p>the consumption of gas by the <term refersTo="#term-consumer" id="trm419">consumer</term> on the <term refersTo="#term-premises" id="trm420">premises</term> concerned, during the corresponding period in the immediately preceding year; or</p>
+                </item>
+                <item id="section-25.1.list0.b">
+                  <num>(b)</num>
+                  <p>the average monthly consumption upon the <term refersTo="#term-premises" id="trm421">premises</term> served by the <term refersTo="#term-meter" id="trm422">meter</term> over a period of 3 months immediately after repair or replacement of the <term refersTo="#term-meter" id="trm423">meter</term>, if an estimate in accordance with paragraph (a) is not applicable or would not give a fair estimated consumption.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-26">
+          <num>26.</num>
+          <heading>Charge for Special Reading</heading>
+          <subsection id="section-26.subsection-0">
+            <content>
+              <p>Whenever at the request of a <term refersTo="#term-consumer" id="trm424">consumer</term>, a reading of a <term refersTo="#term-consumer_meter" id="trm425">consumer meter</term> is taken at a time other than that of the usual periodical reading, the <term refersTo="#term-consumer" id="trm426">consumer</term> shall pay to the <term refersTo="#term-licensee" id="trm427">licensee</term> the <term refersTo="#term-charge_determined_by_the_licensee" id="trm428">charge determined by the licensee</term> for such special reading.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-IV">
+        <num>IV</num>
+        <heading>TECHNICAL AND SAFETY STANDARDS</heading>
+        <section id="section-27">
+          <num>27.</num>
+          <heading>Compliance with Technical and Safety Standards</heading>
+          <subsection id="section-27.subsection-0">
+            <content>
+              <p>A <term refersTo="#term-licensee" id="trm429">licensee</term> shall <term refersTo="#term-supply" id="trm430">supply</term> gas in accordance with technical and safety standards prescribed in, or <term refersTo="#term-approved" id="trm431">approved</term> pursuant to, the licence granted by the <term refersTo="#term-Council" id="trm432">Council</term> in terms of the <term refersTo="#term-Gas_Licence_by-laws" id="trm433">Gas Licence by-laws</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-28">
+          <num>28.</num>
+          <heading>Testing of Internal Piping and Service (Private)</heading>
+          <subsection id="section-28.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-28.1.list0">
+                <listIntroduction>Any registered <term refersTo="#term-gas_installer" id="trm434">gas installer</term> who has installed, altered or added to, any piping and/or <term refersTo="#term-service" id="trm435">service</term> (Private shall forthwith on completion of Such work issue a Certificate of soundness to the <term refersTo="#term-consumer" id="trm436">consumer</term>, which certificate must confirm:</listIntroduction>
+                <item id="section-28.1.list0.a">
+                  <num>(a)</num>
+                  <p>that these by-laws and any other applicable safety standards and laws have been complied with; and</p>
+                </item>
+                <item id="section-28.1.list0.b">
+                  <num>(b)</num>
+                  <p>the <term refersTo="#term-internal_piping" id="trm437">internal piping</term> and/or <term refersTo="#term-service" id="trm438">service</term> (private) is sound after the <term refersTo="#term-internal_piping" id="trm439">internal piping</term> and/or <term refersTo="#term-service" id="trm440">service</term> (private) have been inflated to a <term refersTo="#term-pressure" id="trm441">pressure</term> of 1,5 times the gas <term refersTo="#term-pressure" id="trm442">pressure</term> to be supplied to the <term refersTo="#term-consumer" id="trm443">consumer</term> but not less than 5kPa and closed off, the <term refersTo="#term-pressure" id="trm444">pressure</term> remains unchanged for a period of 10 minutes;</p>
+                </item>
+                <item id="section-28.1.list0.c">
+                  <num>(c)</num>
+                  <p>if the <term refersTo="#term-internal_piping" id="trm445">internal piping</term> and/or <term refersTo="#term-service" id="trm446">service</term> (private) is found to be defective after a test in terms of paragraph (b), the <term refersTo="#term-consumer" id="trm447">consumer</term> shall cause all faults to be rectified and pay the <term refersTo="#term-charge_determined_by_the_licensee" id="trm448">charge determined by the licensee</term>, whereafter the <term refersTo="#term-internal_piping" id="trm449">internal piping</term> and/or <term refersTo="#term-service" id="trm450">service</term> (private) will be retested in accordance with paragraph (b).</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-28.2">
+            <num>(2)</num>
+            <content>
+              <p>A copy of the certificate of soundness issued by the installer shall be provided to the <term refersTo="#term-licensee" id="trm451">licensee</term> by the installer, and the <term refersTo="#term-licensee" id="trm452">licensee</term> shall maintain an up-to-date register recording certificates issued by installers.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-29">
+          <num>29.</num>
+          <heading>Maintenance of Internal Piping and Service (Private)</heading>
+          <subsection id="section-29.subsection-0">
+            <content>
+              <p>It shall be the sole responsibility of the <term refersTo="#term-consumer" id="trm453">consumer</term> to maintain the <term refersTo="#term-internal_piping" id="trm454">internal piping</term> and <term refersTo="#term-service" id="trm455">service</term> (private) in good condition and repair at all times,</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-30">
+          <num>30.</num>
+          <heading>Leakages in Internal Piping and Service (Private)</heading>
+          <subsection id="section-30.subsection-0">
+            <content>
+              <p>Repairs to leaks of <term refersTo="#term-internal_piping" id="trm456">internal piping</term> or <term refersTo="#term-service" id="trm457">service</term> (private) shall be made in accordance with <term refersTo="#term-approved" id="trm458">approved</term> standards determined by the <term refersTo="#term-licensee" id="trm459">licensee</term>, and carried out by a registered <term refersTo="#term-gas_installer" id="trm460">gas installer</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-31">
+          <num>31.</num>
+          <heading>Check Tests</heading>
+          <subsection id="section-31.subsection-0">
+            <content>
+              <p>The <term refersTo="#term-licensee" id="trm461">licensee</term> may at any time check any work being carried out by a <term refersTo="#term-gas_installer" id="trm462">gas installer</term> on any <term refersTo="#term-internal_piping" id="trm463">internal piping</term>, <term refersTo="#term-service" id="trm464">service</term> (private) or <term refersTo="#term-appliance" id="trm465">appliance</term> in respect of which gas is supplied by the <term refersTo="#term-licensee" id="trm466">licensee</term>, and any fault found shall be rectified by the <term refersTo="#term-gas_installer" id="trm467">gas installer</term> concerned within 48 hours of his being notified thereof, provided that is the <term refersTo="#term-gas_installer" id="trm468">gas installer</term> is unwilling or unable to effect any such rectification, the <term refersTo="#term-licensee" id="trm469">licensee</term> or its <term refersTo="#term-contractor" id="trm470">contractor</term> may carry out the rectification required and may recover any costs associated with that rectification from the <term refersTo="#term-consumer" id="trm471">consumer</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-V">
+        <num>V</num>
+        <heading>Contractor's and gas fitter's authority to conduct <term refersTo="#term-gas_fitting" id="trm472">gas fitting</term></heading>
+        <section id="section-32">
+          <num>32.</num>
+          <heading>Prohibition of Gas Installations by Unregistered or Unapproved Persons</heading>
+          <subsection id="section-32.1">
+            <num>(1)</num>
+            <content>
+              <p>No person, including any person who was issued a gas sitters licence under the Municipality of Johannesburg Gas by-laws published under Local Authority Notice 3240, shall work on any <term refersTo="#term-gas_installation" id="trm473">gas installation</term> which is or is intended to be connected to the <term refersTo="#term-licensee" id="trm474">licensee</term>'s <term refersTo="#term-consumer_meter" id="trm475">consumer meter</term>, of modify, extent or maintain any existing <term refersTo="#term-gas_installation" id="trm476">gas installation</term> which is connected to or intended to be connected to, such <term refersTo="#term-consumer_meter" id="trm477">consumer meter</term>, unless he is in possession of a gas-installer's registration or an approval issued in terms of the <term refersTo="#term-Occupational_Health_and_Safety_Act" id="trm478">Occupational Health and Safety Act</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-33">
+          <num>33.</num>
+          <heading>Duty to Produce Licence</heading>
+          <subsection id="section-33.subsection-0">
+            <content>
+              <p>The holder of a <term refersTo="#term-gas_installer" id="trm479">gas installer</term>'s registration or any similar approval shall produce such registration or approval or a certified duplicate thereof for inspection at any time when called upon to do so by the <term refersTo="#term-licensee" id="trm480">licensee</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-VI">
+        <num>VI</num>
+        <heading>Tariff structure</heading>
+        <section id="section-34">
+          <num>34.</num>
+          <heading>Tariff Structure Policy</heading>
+          <subsection id="section-34.subsection-0">
+            <content>
+              <p>A <term refersTo="#term-licensee" id="trm481">licensee</term> may collect any charges due to it from a <term refersTo="#term-consumer" id="trm482">consumer</term> for the <term refersTo="#term-supply" id="trm483">supply</term> of gas and any other related costs provided for in these by-laws; provided that the charges collected from the Consumer must be in accordance with the tariff structure set out in the <term refersTo="#term-Gas_Licence_by-laws" id="trm484">Gas Licence by-laws</term> as separately promulgated from time to time.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-VII">
+        <num>VII</num>
+        <heading>General</heading>
+        <section id="section-35">
+          <num>35.</num>
+          <heading>Defective Internal Piping, Meter or Appliance</heading>
+          <subsection id="section-35.1">
+            <num>(1)</num>
+            <content>
+              <p>No person shall provide, install, connect or cause or permit the provision, installation or connection of any <term refersTo="#term-internal_piping" id="trm485">internal piping</term>, <term refersTo="#term-meter" id="trm486">meter</term> or <term refersTo="#term-appliance" id="trm487">appliance</term> which they know or has reason to believe, to be in any way defective or which does not comply with the provisions of these by-laws or <term refersTo="#term-approved" id="trm488">approved</term> standards.</p>
+            </content>
+          </subsection>
+          <subsection id="section-35.2">
+            <num>(2)</num>
+            <content>
+              <p>No person shall use any <term refersTo="#term-internal_piping" id="trm489">internal piping</term>, <term refersTo="#term-meter" id="trm490">meter</term> or <term refersTo="#term-appliance" id="trm491">appliance</term> which they know, or has reason to believe, to be in any way defective or which does not comply with the provisions of these by-laws or <term refersTo="#term-approved" id="trm492">approved</term> standards.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-36">
+          <num>36.</num>
+          <heading>Unauthorised Connections and Disconnections</heading>
+          <subsection id="section-36.subsection-0">
+            <content>
+              <p>No person shall, without the prior written authority of a <term refersTo="#term-licensee" id="trm493">licensee</term>—</p>
+            </content>
+          </subsection>
+          <subsection id="section-36.1">
+            <num>(1)</num>
+            <content>
+              <p>connect or reconnect any <term refersTo="#term-internal_piping" id="trm494">internal piping</term> or <term refersTo="#term-appliance" id="trm495">appliance</term> to any <term refersTo="#term-main" id="trm496">main</term>, <term refersTo="#term-service" id="trm497">service</term> or <term refersTo="#term-main" id="trm498">main</term> <term refersTo="#term-meter" id="trm499">meter</term> or cause it to be connected or reconnected; or</p>
+            </content>
+          </subsection>
+          <subsection id="section-36.2">
+            <num>(2)</num>
+            <content>
+              <p>disconnect any <term refersTo="#term-internal_piping" id="trm500">internal piping</term> or <term refersTo="#term-appliance" id="trm501">appliance</term> from any <term refersTo="#term-main" id="trm502">main</term>, <term refersTo="#term-service" id="trm503">service</term> or <term refersTo="#term-main" id="trm504">main</term> <term refersTo="#term-meter" id="trm505">meter</term> or cause it to be so disconnected, which <term refersTo="#term-internal_piping" id="trm506">internal piping</term> or <term refersTo="#term-appliance" id="trm507">appliance</term> has been disconnected, connected or reconnected by the <term refersTo="#term-licensee" id="trm508">licensee</term>, as the case may be.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-37">
+          <num>37.</num>
+          <heading>Dangerous Pipes and Appliances</heading>
+          <subsection id="section-37.1">
+            <num>(1)</num>
+            <content>
+              <p>If the <term refersTo="#term-licensee" id="trm509">licensee</term> is satisfied that the condition of any <term refersTo="#term-internal_piping" id="trm510">internal piping</term> <term refersTo="#term-appliance" id="trm511">appliance</term> or any material or equipment ancillary to such <term refersTo="#term-internal_piping" id="trm512">internal piping</term> or <term refersTo="#term-appliance" id="trm513">appliance</term> on any <term refersTo="#term-premises" id="trm514">premises</term> is liable to constitute a danger to person or property for failure to comply with an <term refersTo="#term-approved_standard" id="trm515">approved standard</term>, the <term refersTo="#term-licensee" id="trm516">licensee</term> may serve a written notice on the <term refersTo="#term-consumer" id="trm517">consumer</term> in respect of the <term refersTo="#term-premises" id="trm518">premises</term> concerned, requiring him within a period specified in such notice to carry out the work detailed therein, in order to remove the source of danger.</p>
+            </content>
+          </subsection>
+          <subsection id="section-37.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-37.2.list1">
+                <item id="section-37.2.list1.a">
+                  <num>(a)</num>
+                  <p>if a <term refersTo="#term-consumer" id="trm519">consumer</term> on whom a notice has been served in terms of sub-section (1), fails to carry out the work detailed in such notice, the <term refersTo="#term-licensee" id="trm520">licensee</term> may cut off the <term refersTo="#term-supply" id="trm521">supply</term> of gas to the <term refersTo="#term-premises" id="trm522">premises</term> concerned, and the <term refersTo="#term-supply" id="trm523">supply</term> shall not be restored until the requirements contained in such notice have been complied with to the satisfaction of the <term refersTo="#term-licensee" id="trm524">licensee</term>.</p>
+                </item>
+                <item id="section-37.2.list1.b">
+                  <num>(b)</num>
+                  <p>Any expenses incurred by the <term refersTo="#term-licensee" id="trm525">licensee</term> in respect of such disconnection and the <term refersTo="#term-charge_determined_by_the_licensee" id="trm526">charge determined by the licensee</term> for reconnection, shall be paid to the <term refersTo="#term-licensee" id="trm527">licensee</term> by the <term refersTo="#term-consumer" id="trm528">consumer</term> concerned.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-38">
+          <num>38.</num>
+          <heading>Building Over Main or Service</heading>
+          <subsection id="section-38.1">
+            <num>(1)</num>
+            <content>
+              <p>No person shall erect, or cause or permit, or be authorised by the <term refersTo="#term-Council" id="trm529">Council</term> to erect or cause or permit, the erection of, any building or structure over any <term refersTo="#term-main" id="trm530">main</term> or <term refersTo="#term-service" id="trm531">service</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-licensee" id="trm532">licensee</term> may give written notice requiring the <term refersTo="#term-owner" id="trm533">owner</term> or <term refersTo="#term-occupier" id="trm534">occupier</term> of the <term refersTo="#term-premises" id="trm535">premises</term> on which a building or structure exists in contravention of sub-section (1) at the date of promulgation of these by-laws, or which is erected at any time thereafter, to remove such building or structure within such period as may be specified in such notice.</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.3">
+            <num>(3)</num>
+            <content>
+              <p>If the <term refersTo="#term-owner" id="trm536">owner</term> or <term refersTo="#term-occupier" id="trm537">occupier</term>, as the case may be, fails to comply with such notice within the period specified, the <term refersTo="#term-licensee" id="trm538">licensee</term> may itself remove such buiding or structure, and may recover the cost of such removal from the <term refersTo="#term-owner" id="trm539">owner</term> or <term refersTo="#term-occupier" id="trm540">occupier</term> concerned.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-39">
+          <num>39.</num>
+          <heading>Demolition of Buildings</heading>
+          <subsection id="section-39.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-39.1.list0">
+                <listIntroduction>No person shall demolish or cause or permit the demolition of any building on any <term refersTo="#term-premises" id="trm541">premises</term> to which gas is being supplied until—</listIntroduction>
+                <item id="section-39.1.list0.a">
+                  <num>(a)</num>
+                  <p>the <term refersTo="#term-licensee" id="trm542">licensee</term> has cut off the <term refersTo="#term-service" id="trm543">service</term> supplying gas to such building and a <term refersTo="#term-clearance_certificate" id="trm544">clearance certificate</term> has been issued by the <term refersTo="#term-licensee" id="trm545">licensee</term> that such gas <term refersTo="#term-supply" id="trm546">supply</term> has been cut off; or</p>
+                </item>
+                <item id="section-39.1.list0.b">
+                  <num>(b)</num>
+                  <p>a <term refersTo="#term-clearance_certificate" id="trm547">clearance certificate</term> has been issued by the <term refersTo="#term-licensee" id="trm548">licensee</term> to the effect that no such <term refersTo="#term-service" id="trm549">service</term> existed.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-39.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-charge_determined_by_the_licensee" id="trm550">charge determined by the licensee</term> for cutting off such <term refersTo="#term-service" id="trm551">service</term> shall be paid to the <term refersTo="#term-licensee" id="trm552">licensee</term> by the <term refersTo="#term-owner" id="trm553">owner</term>/<term refersTo="#term-occupier" id="trm554">occupier</term> as the case may be of the building to be demolished.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-40">
+          <num>40.</num>
+          <heading>Non-liability of Licensee and <term refersTo="#term-Council" id="trm555">Council</term></heading>
+          <subsection id="section-40.subsection-0">
+            <content>
+              <p>Neither the <term refersTo="#term-Council" id="trm556">Council</term> nor the <term refersTo="#term-licensee" id="trm557">licensee</term> shall be held liable for any consequences to the <term refersTo="#term-consumer" id="trm558">consumer</term> or another person for any stoppage, failure, variation, surge or other deficiency in the <term refersTo="#term-supply" id="trm559">supply</term> of gas from whatever cause.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-41">
+          <num>41.</num>
+          <heading>Inspections and Monitoring</heading>
+          <subsection id="section-41.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-licensee" id="trm560">licensee</term> may, in writing, appoint any suitable employee or agent of the <term refersTo="#term-licensee" id="trm561">licensee</term> as an authorised person to perform the functions contemplated in this section.</p>
+            </content>
+          </subsection>
+          <subsection id="section-41.2">
+            <num>(2)</num>
+            <content>
+              <p>An authorised person must be provided with a certificate of appointment signed by a duly authorised representative of the <term refersTo="#term-licensee" id="trm562">licensee</term> in which the nature of the authorised person's functions under this section are described.</p>
+            </content>
+          </subsection>
+          <subsection id="section-41.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-41.3.list2">
+                <listIntroduction>An authorised person may with the consent of the <term refersTo="#term-consumer" id="trm563">consumer</term>, such consent not to be unreasonably withheld or delayed, and at all reasonable times on presentation of a certificate of appointment enter any property and any <term refersTo="#term-premises" id="trm564">premises</term> to which gas is, has or may be supplied by the <term refersTo="#term-licensee" id="trm565">licensee</term> in order to</listIntroduction>
+                <item id="section-41.3.list2.a">
+                  <num>(a)</num>
+                  <p>inspect, maintain, alter or repair the <term refersTo="#term-gas_installation" id="trm566">gas installation</term>;</p>
+                </item>
+                <item id="section-41.3.list2.b">
+                  <num>(b)</num>
+                  <p>extend the <term refersTo="#term-gas_installation" id="trm567">gas installation</term>;</p>
+                </item>
+                <item id="section-41.3.list2.c">
+                  <num>(c)</num>
+                  <p>remove the <term refersTo="#term-gas_installation" id="trm568">gas installation</term> or any component thereof, or</p>
+                </item>
+                <item id="section-41.3.list2.d">
+                  <num>(d)</num>
+                  <p>read a <term refersTo="#term-meter" id="trm569">meter</term>,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-41.subsection-3">
+            <content>
+              <p>and such authorised person may do all things necessary to uncover and expose any Internal piping for the purposes of such activities.</p>
+            </content>
+          </subsection>
+          <subsection id="section-41.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-41.4.list4">
+                <listIntroduction>An authorised person may, at any time and without the <term refersTo="#term-consumer" id="trm570">consumer</term>'s consent on presentation of a certificate of appointment enter a property and <term refersTo="#term-premises" id="trm571">premises</term> and perform any action—</listIntroduction>
+                <item id="section-41.4.list4.i">
+                  <num>(i)</num>
+                  <p>in circumstances where the <term refersTo="#term-gas_installation" id="trm572">gas installation</term> is likely to constitute a fire hazard or any other danger;</p>
+                </item>
+                <item id="section-41.4.list4.ii">
+                  <num>(ii)</num>
+                  <p>when it is necessary to carry out any activity mentioned in sub-section (3) and access to that property has been denied, provided that the <term refersTo="#term-consumer" id="trm573">consumer</term> has received 24 hours notice from the <term refersTo="#term-licensee" id="trm574">licensee</term>, which notice may be verbal or in writing.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-41.5">
+            <num>(5)</num>
+            <content>
+              <p>An authorised person entering property in terms of this section must, at the request of any person on the <term refersTo="#term-premises" id="trm575">premises</term> or property, identify himself of herself and present the certificate of appointment contemplated in sub-section (2).</p>
+            </content>
+          </subsection>
+          <subsection id="section-41.6">
+            <num>(6)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm576">Council</term> may at all reasonable times and with due notice to the <term refersTo="#term-licensee" id="trm577">licensee</term> and the consent of the <term refersTo="#term-consumer" id="trm578">consumer</term> enter any property in order to monitor the <term refersTo="#term-licensee" id="trm579">licensee</term>'s and the <term refersTo="#term-consumer" id="trm580">consumer</term>'s compliance with these by-laws.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-42">
+          <num>42.</num>
+          <heading>Expenses Upon Breach of By-Law or Failure to Execute Work</heading>
+          <subsection id="section-42.subsection-0">
+            <content>
+              <p>Any expenses incurred by the <term refersTo="#term-licensee" id="trm581">licensee</term> in consequence of a breach of any provision of these by-laws or in the execution of any work directed by any provision of these by-laws to be executed by any person and not executed by him, shall be paid by the person committing such breach or iaiting to execute such work to the <term refersTo="#term-licensee" id="trm582">licensee</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-43">
+          <num>43.</num>
+          <heading>Repeal of By-Laws</heading>
+          <subsection id="section-43.1">
+            <num>(1)</num>
+            <content>
+              <p>The Municipality of Johannesburg Gas by-laws published under Local Authority Notice 3240 on 1 September 1993, are hereby rerealed, subject to the exceptions in sub-section (2).</p>
+            </content>
+          </subsection>
+          <subsection id="section-43.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-43.2.list1">
+                <listIntroduction>Any reference—</listIntroduction>
+                <item id="section-43.2.list1.a">
+                  <num>(a)</num>
+                  <p>in these by-laws to a <term refersTo="#term-charge_determined_by_the_licensee" id="trm583">charge determined by the licensee</term> shall mean a charge determined by the <term refersTo="#term-Council" id="trm584">Council</term> under the by-laws repealed by sub-section (1), until the <term refersTo="#term-licensee" id="trm585">licensee</term>'s determination of charges under these by-laws and the <term refersTo="#term-Gas_Licence_by-laws" id="trm586">Gas Licence by-laws</term> comes into operation; and</p>
+                </item>
+                <item id="section-43.2.list1.b">
+                  <num>(b)</num>
+                  <p>to a provision in the by-laws repealed by sub-section (1), shall be deemed to be a reference to the corresponding provision in these by-laws.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-43.3">
+            <num>(3)</num>
+            <content>
+              <p>Anything done under a provision of the by-laws repealed by sub-section (1) shall be deemed to have been done under the corresponding provision of these by-laws and such repeal shall not affect the validity of any approval, authority, waiver of other act which at the commencement of these by-laws is valid under the by-laws so repealed.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-44">
+          <num>44.</num>
+          <heading>Date of Commencement</heading>
+          <subsection id="section-44.subsection-0">
+            <content>
+              <p>These by-laws shall commence on the date of publication in the Gauteng Provincial Gazette.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

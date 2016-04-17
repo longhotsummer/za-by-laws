@@ -1,0 +1,2119 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-eth/act/by-law/2014/rules-of-order/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2014/rules-of-order"/>
+          <FRBRalias value="eThekwini Municipality: Rules of Order By-law, 2014"/>
+          <FRBRdate date="2014-07-11" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-eth/act/by-law/2014/rules-of-order/eng@2014-07-11/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2014/rules-of-order/eng@2014-07-11"/>
+          <FRBRdate date="2014-07-11" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-eth/act/by-law/2014/rules-of-order/eng@2014-07-11/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2014/rules-of-order/eng@2014-07-11"/>
+          <FRBRdate date="2016-03-21" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-07-11" name="KwaZulu-Natal Provincial Gazette" showAs="KwaZulu-Natal Provincial Gazette" number="1185"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+      </references>
+    </meta>
+    <preface>
+      <p>To provide Rules of Order regulating the procedures and conduct of meetings of the Municipal Council and its committees; and to provide for matters incidental thereto.</p>
+    </preface>
+    <preamble>
+      <p>WHEREAS a Municipal Council must strive within its capacity to achieve the objectives set out in section 152 of the Constitution which is to provide democratic and accountable government to local communities; to ensure the provision of services to communities in a sustainable manner; to promote social and economic development; to promote a safe and healthy environment and to encourage the involvement of communities in the affairs of local government;</p>
+      <p>AND WHEREAS</p>
+      <p>Councillors are elected to represent local communities on Municipal Councils to ensure that municipalities have structured mechanisms of accountability to local communities and to meet the priority needs of communities;</p>
+      <p>AND WHEREAS</p>
+      <p>Councillors must fulfill their obligations to the community, support the achievement by the municipality of its objectives, must adhere to the Code of Conduct for Councillors, comply with the Rules of Order and By-laws of the Municipality and at all times respect the rule of law;</p>
+      <p>AND WHEREAS it is necessary for the Municipal Council to prescribe Rules of Order for its internal arrangements and to regulate the conduct of its business and proceedings;</p>
+      <p>NOW THEREFORE the Municipal Council of the eThekwini Metropolitan Municipality, acting in terms of section 160(6) of the Constitution of the Republic of South Africa, 1996 hereby makes the following By-law:</p>
+    </preamble>
+    <body>
+      <chapter id="chapter-1">
+        <num>1</num>
+        <heading>Interpretation</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <paragraph id="section-1.paragraph-0">
+            <content>
+              <p>In this By-law, unless the context indicates otherwise–</p>
+              <p>“Act” means the Local Government: Municipal Structures Act, 1998 (Act No. 117 of 1998);</p>
+              <p>“Access to Information Act” means the Promotion of Access to Information Act, 2000 (Act. No. 2 of 2000);</p>
+              <p>“Chairperson” means the person who is appointed to chair a Committee of Council;</p>
+              <p>“Chief Whip” means the Councillor elected by the majority party who provides a supportive function to the Council, in conjunction with the Whips, to ensure the smooth functioning of Council meetings;</p>
+              <p>“Code of Conduct” means the Code of Conduct for Councillors set out in Schedule 1 to the Municipal Systems Act, 2000 (Act No. 32 of 2000);</p>
+              <blockList id="section-1.paragraph-0.list7">
+                <listIntroduction>“committee” means a committee of the eThekwini Municipal Council established in terms of –</listIntroduction>
+                <item id="section-1.paragraph-0.list7.a">
+                  <num>(a)</num>
+                  <p>sections 33, 79 or 80 of the Act; or</p>
+                </item>
+                <item id="section-1.paragraph-0.list7.b">
+                  <num>(b)</num>
+                  <p>any other law;</p>
+                </item>
+              </blockList>
+              <p>“Constitution” means the Constitution of the Republic of South Africa, 1996;</p>
+              <p>“contact details” shall include a physical address, postal address, e-mail address, cellular number, telephone number and fax number;</p>
+              <p>“Council” or “Municipal Council” means the eThekwini Municipal Council, a Municipal Council referred to in section 157(1) of the Constitution. A reference made herein to Council may include a reference to a committee with the necessary modifications;</p>
+              <p>“Councillor” or “Member” means a Member of a Municipal Council;</p>
+              <p>“day” means any day of the week, excluding a Saturday, Sunday or Public Holiday;</p>
+              <p>“EXCO” means the Executive Committee of the Council established in terms of section 43 of the Act;</p>
+              <p>“Mayor” means the person elected by the Municipal Council in terms of section 48 of the Act;</p>
+              <p>“MFMA” means the Local Government: Municipal Finance Management Act, 2003 (Act No. 56 of 2003);</p>
+              <p>“Municipal Manager” means a person appointed in terms of section 54A of the Systems Act as the head of administration of the Municipal Council;</p>
+              <p>“municipality” means eThekwini Municipality, a category A municipality as envisaged in terms of section 155(1) of the Constitution of South Africa, 1996 and established in terms of Provincial Notice No. 43 of 2000 (KZN);</p>
+              <p>“notice of motion” or “motion” means the instrument by which Councillors may bring items onto the agenda of a Council meeting;</p>
+              <p>“Office of the Speaker” means the administrative branch of the Speaker’s office and may include a person with delegated responsibility for management of the administration in the Speaker’s Office;</p>
+              <p>“ordinary meeting” means a scheduled meeting of Council or a committee in terms of Section 29 of the Act;</p>
+              <p>“procedural motion” means a matter raised by a Member in terms of Rule 20;</p>
+              <p>“quorum” means the majority (50% plus one) of the Councillors;</p>
+              <p>“recommendation” means a recommendation in the report of an executive committee in terms of Section 44(4) of the Act, in respect of a decision concerning a matter where EXCO has no delegated powers;</p>
+              <p>“Report of EXCO” means the report of EXCO as contemplated in Section 44 of the Act which requires that EXCO must report to the Municipal Council on all decisions taken by EXCO;</p>
+              <p>“Speaker” means the Chairperson of the Municipal Council elected in terms of Section 36 of the Act;</p>
+              <p>“special meeting” means a meeting other than an ordinary meeting which has been convened for a specific purpose, and where the order of business shall be stated in the notice convening the meeting;</p>
+              <p>“Systems Act” means the Local Government Municipal Systems Act, 2000 (No. 32 of 2000);</p>
+              <p>“urgent meeting” means a meeting which has been convened to deal with an urgent matter; and</p>
+              <p>“Whip” means the Member of Council appointed by each political party to perform the functions referred to in rule 23.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Interpretation of By-law</heading>
+          <subsection id="section-2.1">
+            <num>(1)</num>
+            <content>
+              <p>If there is a conflict of interpretation between the English version of this By-law and a translated version, the English version prevails</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.2">
+            <num>(2)</num>
+            <content>
+              <p>The ruling of the Speaker or Chairperson with regard to the interpretation of these rules of order at a meeting of the Council or committee of the Council shall be final and binding.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.3">
+            <num>(3)</num>
+            <content>
+              <p>Any interpretation of these rules shall be made having due regard to the supremacy of the Constitution, national, provincial and municipal legislation, the rule of law and the rules of natural justice.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.4">
+            <num>(4)</num>
+            <content>
+              <p>The interpretation and the ruling of the Speaker or Chairperson on any of these rules of order must be recorded in the minutes of the Council or committee meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.5">
+            <num>(5)</num>
+            <content>
+              <p>The Office of the Speaker must keep a register of the rulings and legal opinions.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Object of By-law</heading>
+          <subsection id="section-3.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-3.1.list1">
+                <listIntroduction>The object of this By-law is to prescribe Rules of Order for the Municipal Council and its committees for its–</listIntroduction>
+                <item id="section-3.1.list1.a">
+                  <num>(a)</num>
+                  <p>internal arrangements; and</p>
+                </item>
+                <item id="section-3.1.list1.b">
+                  <num>(b)</num>
+                  <p>business and proceedings, in compliance with the provisions of the Constitution, the Act and other applicable laws.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Application of By-law</heading>
+          <subsection id="section-4.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-4.1.list1">
+                <listIntroduction>This By-law applies to all meetings of the Municipal Council and its committees and must be complied with by–</listIntroduction>
+                <item id="section-4.1.list1.a">
+                  <num>(a)</num>
+                  <p>Councillors;</p>
+                </item>
+                <item id="section-4.1.list1.b">
+                  <num>(b)</num>
+                  <p>traditional leaders;</p>
+                </item>
+                <item id="section-4.1.list1.c">
+                  <num>(c)</num>
+                  <p>members of the public;</p>
+                </item>
+                <item id="section-4.1.list1.d">
+                  <num>(d)</num>
+                  <p>officials of the municipality;</p>
+                </item>
+                <item id="section-4.1.list1.e">
+                  <num>(e)</num>
+                  <p>Government Ministers;</p>
+                </item>
+                <item id="section-4.1.list1.f">
+                  <num>(f)</num>
+                  <p>Members of Executive Council;</p>
+                </item>
+                <item id="section-4.1.list1.g">
+                  <num>(g)</num>
+                  <p>officials from government departments; and</p>
+                </item>
+                <item id="section-4.1.list1.h">
+                  <num>(h)</num>
+                  <p>representatives from public bodies or the private sector, who address or attend the Council or committee meeting.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-4.2">
+            <num>(2)</num>
+            <content>
+              <p>A committee of Council is bound by this By-law unless the committee elects to draft their own Rules of Order.</p>
+            </content>
+          </subsection>
+          <subsection id="section-4.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-4.3.list1">
+                <listIntroduction>A committee which elects to draft its own Rules of Order in terms of sub-rule (2) must–</listIntroduction>
+                <item id="section-4.3.list1.a">
+                  <num>(a)</num>
+                  <p>ensure that that the rules drafted do not conflict with this By-law; and</p>
+                </item>
+                <item id="section-4.3.list1.b">
+                  <num>(b)</num>
+                  <p>submit the draft rules to the Speaker and the party Whips for consideration and recommendation to Council.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-4.4">
+            <num>(4)</num>
+            <content>
+              <p>Rules of Order drafted in terms of sub-rule (2) must form part of these Rules of Order once they have been passed by the Municipal Council.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-2">
+        <num>2</num>
+        <heading>Meetings of council</heading>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Meetings of Council</heading>
+          <subsection id="section-5.1">
+            <num>(1)</num>
+            <content>
+              <p>The Municipal Council must have a minimum of 11 meetings in a calendar year.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.2">
+            <num>(2)</num>
+            <content>
+              <p>The Speaker must decide where and when the Council meets, but if a majority of the Councillors request the Speaker in writing to convene a meeting of the Council to debate any matter, the Speaker must convene a meeting at the time set out in the request in accordance with section 29(1) of the Act.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.3">
+            <num>(3)</num>
+            <content>
+              <p>The meetings referred to in terms of sub-rule (1) must be ordinary meetings at which the order of business must be as stated in rule 12.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.4">
+            <num>(4)</num>
+            <content>
+              <p>A separate special meeting of Council must be called to approve the annual budget.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.5">
+            <num>(5)</num>
+            <content>
+              <p>An urgent meeting may be called by the Speaker after consulting with the Mayor where there is any urgent matter that Council is required to consider before the next ordinary meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.6">
+            <num>(6)</num>
+            <content>
+              <p>A special meeting may be called by the Speaker to debate any special issue, or to allow special guests to address Council.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Notice of Meeting</heading>
+          <subsection id="section-6.1">
+            <num>(1)</num>
+            <content>
+              <p>The Speaker must convene meetings of the Council through a duly signed “Notice of Meeting” stating the date, place and time of the meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-6.2.list1">
+                <listIntroduction>Notice of the time and the place of every ordinary or special meeting and service of any other document signed by the Speaker in terms of these rules must be served on every Councillor–</listIntroduction>
+                <item id="section-6.2.list1.a">
+                  <num>(a)</num>
+                  <p>personally;</p>
+                </item>
+                <item id="section-6.2.list1.b">
+                  <num>(b)</num>
+                  <p>by leaving the notice at the physical address provided by the Councillor at least 72 hours before such meeting;</p>
+                </item>
+                <item id="section-6.2.list1.c">
+                  <num>(c)</num>
+                  <p>by e-mail; or</p>
+                </item>
+                <item id="section-6.2.list1.d">
+                  <num>(d)</num>
+                  <p>by Short Message Service (SMS).</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-6.3">
+            <num>(3)</num>
+            <content>
+              <p>A notice of an urgent meeting must be served on Councillors in accordance with sub-rule (2) above, at least 12 hours before the meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.4">
+            <num>(4)</num>
+            <content>
+              <p>The failure to receive a notice of a Council or committee meeting by a Councillor shall not affect the validity of that meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.5">
+            <num>(5)</num>
+            <content>
+              <p>A Councillor may request that an investigation be conducted regarding the non-receipt of a notice to attend a meeting referred to in sub-rule (4).</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.6">
+            <num>(6)</num>
+            <content>
+              <blockList id="section-6.6.list1">
+                <listIntroduction>A Councillor must provide his or her contact details to the Office of the Speaker–</listIntroduction>
+                <item id="section-6.6.list1.a">
+                  <num>(a)</num>
+                  <p>within 2 days after his or her election; and</p>
+                </item>
+                <item id="section-6.6.list1.b">
+                  <num>(b)</num>
+                  <p>whenever there is a change in the Councillors contact details.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-6.7">
+            <num>(7)</num>
+            <content>
+              <blockList id="section-6.7.list1">
+                <listIntroduction>The Municipal Manager must give notice to the public, in a manner determined by the Council, of the time, date and venue of every–</listIntroduction>
+                <item id="section-6.7.list1.a">
+                  <num>(a)</num>
+                  <p>ordinary meeting of the Council; and</p>
+                </item>
+                <item id="section-6.7.list1.b">
+                  <num>(b)</num>
+                  <p>special or urgent meeting of the Council, except when time constraints make this impossible.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Admission of the public to meetings</heading>
+          <subsection id="section-7.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-7.1.list1">
+                <listIntroduction>In terms of section 20 of the Systems Act, meetings of the Council and those of its committees are open to the public, including the media, and the Council or such committee may not exclude the public, including the media, from a meeting except when–</listIntroduction>
+                <item id="section-7.1.list1.a">
+                  <num>(a)</num>
+                  <p>it is reasonable to do so having regard to the nature of the business being transacted; and</p>
+                </item>
+                <item id="section-7.1.list1.b">
+                  <num>(b)</num>
+                  <p>a By-law or resolution of the Council specifying the circumstances in which the Council or such committee may close a meeting and which complies with sub-rule (1)(a) authorises the Council or such committee to close the meeting to the public.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-7.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-7.2.list1">
+                <listIntroduction>The Council or a committee of the Council, may not for any reason, exclude the public when considering, voting or noting any of the following matters:</listIntroduction>
+                <item id="section-7.2.list1.a">
+                  <num>(a)</num>
+                  <p>a draft By-law tabled in the Council;</p>
+                </item>
+                <item id="section-7.2.list1.b">
+                  <num>(b)</num>
+                  <p>a budget tabled in the Council;</p>
+                </item>
+                <item id="section-7.2.list1.c">
+                  <num>(c)</num>
+                  <p>the municipality’s integrated development plan or any amendment of the plan tabled in the Council;</p>
+                </item>
+                <item id="section-7.2.list1.d">
+                  <num>(d)</num>
+                  <p>the municipality’s draft performance management system, or any amendment of the system, tabled in the Council;</p>
+                </item>
+                <item id="section-7.2.list1.e">
+                  <num>(e)</num>
+                  <p>the decision to enter into a service delivery agreement referred to in section 76(b) of the Systems Act;</p>
+                </item>
+                <item id="section-7.2.list1.f">
+                  <num>(f)</num>
+                  <p>the disposal or acquisition of a municipal capital asset; or</p>
+                </item>
+                <item id="section-7.2.list1.g">
+                  <num>(g)</num>
+                  <p>any other matter prescribed by legislation.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Attendance of Councillors</heading>
+          <subsection id="section-8.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-8.1.list1">
+                <listIntroduction>All Councillors must punctually attend and remain in attendance at each meeting of Council or committee of the Council unless-</listIntroduction>
+                <item id="section-8.1.list1.a">
+                  <num>(a)</num>
+                  <p>leave of absence has been granted in terms of rule 9;</p>
+                </item>
+                <item id="section-8.1.list1.b">
+                  <num>(b)</num>
+                  <p>a matter is before the Council in which that Councillor or their spouse, partner or business associate has any direct or indirect personal or private business interest and that Councillor is required to withdraw in terms of item 3(b) of the Code of Conduct; or</p>
+                </item>
+                <item id="section-8.1.list1.c">
+                  <num>(c)</num>
+                  <p>that Councillor is absent with the knowledge of the Speaker or Chairperson.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-8.2">
+            <num>(2)</num>
+            <content>
+              <p>Every Councillor attending a Council or committee meeting must sign their name in the attendance register kept for that purpose in the Office of Speaker or attendance register kept by the Chairperson.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.3">
+            <num>(3)</num>
+            <content>
+              <p>A Councillor who is entitled to a leave of absence and no longer requires such leave may attend the meeting from which leave of absence was granted in terms of rule 9 and sign the attendance register.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Leave of absence</heading>
+          <subsection id="section-9.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-9.1.list1">
+                <listIntroduction>If a Councillor–</listIntroduction>
+                <item id="section-9.1.list1.a">
+                  <num>(a)</num>
+                  <p>is unable to attend a meeting for which notice has been given;</p>
+                </item>
+                <item id="section-9.1.list1.b">
+                  <num>(b)</num>
+                  <p>is unable to remain in attendance at a meeting; or</p>
+                </item>
+                <item id="section-9.1.list1.c">
+                  <num>(c)</num>
+                  <p>will arrive after the stipulated commencement time of a meeting,</p>
+                </item>
+              </blockList>
+              <p>the Councillor must, as soon as is reasonably possible and prior to that meeting, lodge with the Speaker an application in writing for leave of absence with reasons from the whole or part of the meeting concerned.</p>
+            </content>
+          </subsection>
+          <subsection id="section-9.2">
+            <num>(2)</num>
+            <content>
+              <p>A leave of absence may not be granted in such a manner as to leave the meeting inquorate.</p>
+            </content>
+          </subsection>
+          <subsection id="section-9.3">
+            <num>(3)</num>
+            <content>
+              <p>Notwithstanding sub-rules (1) and (2) above, an application for leave of absence from a meeting is deemed to have been granted if the Council has delegated the relevant Councillor to represent the Council elsewhere.</p>
+            </content>
+          </subsection>
+          <subsection id="section-9.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-9.4.list1">
+                <listIntroduction>The Council or a committee may, subject to sub-rule (1) and (2) above, grant leave of absence to a Councillor for the following reasons, which may include–</listIntroduction>
+                <item id="section-9.4.list1.a">
+                  <num>(a)</num>
+                  <p>the illness of a Councillor;</p>
+                </item>
+                <item id="section-9.4.list1.b">
+                  <num>(b)</num>
+                  <p>the essential business, personal commitments or personal circumstances of the Councillor;</p>
+                </item>
+                <item id="section-9.4.list1.c">
+                  <num>(c)</num>
+                  <p>where the notice of a special or urgent Council meeting was delivered in less than the time stipulated in this By-law, unless the failure to deliver was occasioned by the Councillor’s own failure to keep the Speaker’s Office informed of his or her updated contact details;</p>
+                </item>
+                <item id="section-9.4.list1.d">
+                  <num>(d)</num>
+                  <p>any circumstances beyond the control of the Councillor which prevented attendance at the meeting; or</p>
+                </item>
+                <item id="section-9.4.list1.e">
+                  <num>(e)</num>
+                  <p>any other circumstance where the Councillor is prevented by law from attending the meeting.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-9.5">
+            <num>(5)</num>
+            <content>
+              <p>The Speaker must keep a record of all incidents in respect of which Councillors have been found to have been absent without leave or without good cause.</p>
+            </content>
+          </subsection>
+          <subsection id="section-9.6">
+            <num>(6)</num>
+            <content>
+              <p>The Speaker must advise the relevant Whip if a Councillor has been absent without leave or without good cause from a meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-9.7">
+            <num>(7)</num>
+            <content>
+              <p>Where a Councillor has been absent without leave or without good cause for 3 or more meetings, the Speaker must submit a report to Council and recommend that the matter be referred to the Ethics Committee.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Quorum</heading>
+          <subsection id="section-10.1">
+            <num>(1)</num>
+            <content>
+              <p>The quorum for a meeting of the Council or a committee is a majority of its Members.</p>
+            </content>
+          </subsection>
+          <subsection id="section-10.2">
+            <num>(2)</num>
+            <content>
+              <p>A majority of the Members of Council must be present before any vote may be taken on any matter.</p>
+            </content>
+          </subsection>
+          <subsection id="section-10.3">
+            <num>(3)</num>
+            <content>
+              <p>If there is no quorum at the expiration of 15 minutes after the time fixed for the meeting, the Speaker or the Chairperson of the committee must allow an extension of time not exceeding 15 minutes for the commencement of the meeting, following which the Speaker must rule that the meeting is cancelled.</p>
+            </content>
+          </subsection>
+          <subsection id="section-10.4">
+            <num>(4)</num>
+            <content>
+              <p>During any meeting of Council or committee, if the attention of the Speaker or Chairperson is drawn to the fact that the number of Councillors present is insufficient to constitute a quorum, the Speaker or Chairperson must cause a bell to be rung for a period not exceeding 2 minutes and, if thereafter there is still no quorum, the Speaker or Chairperson must adjourn the meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-10.5">
+            <num>(5)</num>
+            <content>
+              <p>Where a meeting is adjourned because there is no quorum, the meeting must be reconvened within 7 days as a continuation of the adjourned meeting.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Joint meetings</heading>
+          <subsection id="section-11.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-11.1.list1">
+                <listIntroduction>A committee of Council may meet jointly with-</listIntroduction>
+                <item id="section-11.1.list1.a">
+                  <num>(a)</num>
+                  <p>another committee of Council;</p>
+                </item>
+                <item id="section-11.1.list1.b">
+                  <num>(b)</num>
+                  <p>a committee of a Provincial Legislature;</p>
+                </item>
+                <item id="section-11.1.list1.c">
+                  <num>(c)</num>
+                  <p>a committee of Parliament;</p>
+                </item>
+                <item id="section-11.1.list1.d">
+                  <num>(d)</num>
+                  <p>an organ of state; or</p>
+                </item>
+                <item id="section-11.1.list1.e">
+                  <num>(e)</num>
+                  <p>an external stakeholder,</p>
+                </item>
+              </blockList>
+              <p>in order to discuss a matter of mutual interest.</p>
+            </content>
+          </subsection>
+          <subsection id="section-11.2">
+            <num>(2)</num>
+            <content>
+              <p>The Chairperson for the joint meeting shall be elected by a majority vote of the representatives present at the meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-11.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-11.3.list1">
+                <listIntroduction>The minutes of the joint meeting must be—</listIntroduction>
+                <item id="section-11.3.list1.a">
+                  <num>(a)</num>
+                  <p>compiled and circulated to all representatives; and</p>
+                </item>
+                <item id="section-11.3.list1.b">
+                  <num>(b)</num>
+                  <p>tabled together with a report at the next meeting of Council and the relevant committee.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>Order and consideration of business</heading>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Agenda</heading>
+          <subsection id="section-12.1">
+            <num>(1)</num>
+            <content>
+              <p>All meetings must be conducted according to the order in which the matters appear on the agenda before the Council and only matters which are on the agenda may be debated, subject to sub-rule (2).</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.2">
+            <num>(2)</num>
+            <content>
+              <p>The Speaker may change the order in which the matters appear on the agenda after considering suitable motivation.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-12.3.list1">
+                <listIntroduction>The Speaker may, subject to rule 7–</listIntroduction>
+                <item id="section-12.3.list1.a">
+                  <num>(a)</num>
+                  <p>if it is reasonable and justifiable to do so; and</p>
+                </item>
+                <item id="section-12.3.list1.b">
+                  <num>(b)</num>
+                  <p>after considering suitable motivation,</p>
+                </item>
+              </blockList>
+              <p>direct that any matter be discussed in a closed sitting of Council.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.4">
+            <num>(4)</num>
+            <content>
+              <p>A matter which is discussed in terms of a closed sitting of Council may not be disclosed to any unauthorised person in accordance with item 10 of the Code of Conduct.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.5">
+            <num>(5)</num>
+            <content>
+              <p>Where any matter is deferred for discussion in a closed meeting, the reasons for the deferral must be recorded in the register of rulings and legal opinions kept by the Speakers office.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Order of business for an ordinary meeting</heading>
+          <subsection id="section-13.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-13.1.list1">
+                <listIntroduction>The order of business for an ordinary meeting convened in terms of rule 5 must be as follows:</listIntroduction>
+                <item id="section-13.1.list1.a">
+                  <num>(a)</num>
+                  <p>notice convening the meeting;</p>
+                </item>
+                <item id="section-13.1.list1.b">
+                  <num>(b)</num>
+                  <p>opening;</p>
+                </item>
+                <item id="section-13.1.list1.c">
+                  <num>(c)</num>
+                  <p>national anthem;</p>
+                </item>
+                <item id="section-13.1.list1.d">
+                  <num>(d)</num>
+                  <p>opportunity for prayer/ meditation;</p>
+                </item>
+                <item id="section-13.1.list1.e">
+                  <num>(e)</num>
+                  <p>official announcements;</p>
+                </item>
+                <item id="section-13.1.list1.f">
+                  <num>(f)</num>
+                  <p>Speaker’s report;</p>
+                </item>
+                <item id="section-13.1.list1.g">
+                  <num>(g)</num>
+                  <p>applications for leave of absence;</p>
+                </item>
+                <item id="section-13.1.list1.h">
+                  <num>(h)</num>
+                  <p>confirmation of minutes;</p>
+                </item>
+                <item id="section-13.1.list1.i">
+                  <num>(i)</num>
+                  <p>questions of which notice has been given;</p>
+                </item>
+                <item id="section-13.1.list1.j">
+                  <num>(j)</num>
+                  <blockList id="section-13.1.list1.j.list0">
+                    <listIntroduction>reports, which may include:</listIntroduction>
+                    <item id="section-13.1.list1.j.list0.i">
+                      <num>(i)</num>
+                      <p>EXCO Reports;</p>
+                    </item>
+                    <item id="section-13.1.list1.j.list0.ii">
+                      <num>(ii)</num>
+                      <p>MPAC Reports; and</p>
+                    </item>
+                    <item id="section-13.1.list1.j.list0.iii">
+                      <num>(iii)</num>
+                      <p>reports of the Ethics Committee;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-13.1.list1.k">
+                  <num>(k)</num>
+                  <p>notices of motion;</p>
+                </item>
+                <item id="section-13.1.list1.l">
+                  <num>(l)</num>
+                  <p>report of the Mayor in terms of the MFMA;</p>
+                </item>
+                <item id="section-13.1.list1.m">
+                  <num>(m)</num>
+                  <p>report of the Municipal Manager in terms of the MFMA;</p>
+                </item>
+                <item id="section-13.1.list1.n">
+                  <num>(n)</num>
+                  <p>report of committee decisions;</p>
+                </item>
+                <item id="section-13.1.list1.o">
+                  <num>(o)</num>
+                  <p>items for noting; and</p>
+                </item>
+                <item id="section-13.1.list1.p">
+                  <num>(p)</num>
+                  <p>closing.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>Reports</heading>
+          <subsection id="section-14.1">
+            <num>(1)</num>
+            <content>
+              <p>All reports of EXCO to Council must be as contemplated in section 44(4) of the Act, which requires that an Executive Committee must report to the Council on all decisions taken by the committee.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-14.2.list1">
+                <listIntroduction>The reports referred to in sub-rule (1) must be divided into two parts and–</listIntroduction>
+                <item id="section-14.2.list1.a">
+                  <num>(a)</num>
+                  <p>the first part must contain the items in respect of which EXCO has no delegated powers; and</p>
+                </item>
+                <item id="section-14.2.list1.b">
+                  <num>(b)</num>
+                  <p>the second part must contain the items in respect of which EXCO has delegated powers and which are submitted to Council for noting.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-14.3">
+            <num>(3)</num>
+            <content>
+              <p>Every item contained in the first part of EXCO’s report shall contain a recommendation which may or may not be adopted by Council.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.4">
+            <num>(4)</num>
+            <content>
+              <p>An item contained in the second part of the report may not be debated, but must only be noted.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.5">
+            <num>(5)</num>
+            <content>
+              <p>The Speaker shall permit debate on the reports referred to in sub-rule 2(a) in accordance with rule 23 and 24.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.6">
+            <num>(6)</num>
+            <content>
+              <p>The Council must, upon the written request of at least one quarter of Councillors, review any decision contained in a report submitted in terms of sub-rule 2(b) and either confirm, vary or revoke the decision subject to any rights that may have accrued to a person as provided for in section 59(3) of the Systems Act.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Conduct of meetings</heading>
+          <subsection id="section-15.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-15.1.list1">
+                <listIntroduction>The Speaker, as the Chairperson of meetings of the Municipal Council must–</listIntroduction>
+                <item id="section-15.1.list1.a">
+                  <num>(a)</num>
+                  <p>preside at meetings of the Council;</p>
+                </item>
+                <item id="section-15.1.list1.b">
+                  <num>(b)</num>
+                  <p>ensure that the Council meets as scheduled in terms of rule 5; (c) maintain order during Council meetings;</p>
+                </item>
+                <item id="section-15.1.list1.d">
+                  <num>(d)</num>
+                  <p>ensure compliance in the Council and in committees with the Code of Conduct;</p>
+                </item>
+                <item id="section-15.1.list1.e">
+                  <num>(e)</num>
+                  <p>ensure that Council meetings are conducted in accordance with this By-law and other applicable laws;</p>
+                </item>
+                <item id="section-15.1.list1.f">
+                  <num>(f)</num>
+                  <p>ensure that Councillors conduct themselves in a dignified and orderly manner and comply with the rulings of the Speaker;</p>
+                </item>
+                <item id="section-15.1.list1.g">
+                  <num>(g)</num>
+                  <p>ensure that Members of the public attending meetings of Council conduct themselves in an orderly manner and obey the rulings of the Speaker;</p>
+                </item>
+                <item id="section-15.1.list1.h">
+                  <num>(h)</num>
+                  <p>ensure that any person who refuses to comply with his or her ruling is directed to leave the meeting;</p>
+                </item>
+                <item id="section-15.1.list1.i">
+                  <num>(i)</num>
+                  <p>ensure that the Chief Whip and Whips maintain discipline amongst their party Members during Council meetings;</p>
+                </item>
+                <item id="section-15.1.list1.j">
+                  <num>(j)</num>
+                  <p>consider all points of order and rule on them; and</p>
+                </item>
+                <item id="section-15.1.list1.k">
+                  <num>(k)</num>
+                  <p>act in an impartial and fair manner to all parties and their Members.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-15.2">
+            <num>(2)</num>
+            <content>
+              <p>If the Speaker or Chairperson is not present at a meeting or is not otherwise available to perform the functions of their office or during a vacancy, the Council or committee must elect another Councillor to act as Speaker or Chairperson.</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.3">
+            <num>(3)</num>
+            <content>
+              <p>A meeting of the Council or a committee of the Council may not commence or continue unless a Speaker or Chairperson presides at a meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.4">
+            <num>(4)</num>
+            <content>
+              <p>If the Speaker is not present at a meeting, the Municipal Manager must preside over the process to elect an acting Speaker.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-4">
+        <num>4</num>
+        <heading>Councillors conduct</heading>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Councillor’s conduct at meetings</heading>
+          <subsection id="section-16.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-16.1.list1">
+                <listIntroduction>During a Council or committee meeting, Councillors and officials must–</listIntroduction>
+                <item id="section-16.1.list1.a">
+                  <num>(a)</num>
+                  <p>conduct business with the highest decorum and integrity that the occasion deserves;</p>
+                </item>
+                <item id="section-16.1.list1.b">
+                  <num>(b)</num>
+                  <p>at all times adhere to the principles contained in the Code of Conduct and the rules contained in this By-law;</p>
+                </item>
+                <item id="section-16.1.list1.c">
+                  <num>(c)</num>
+                  <p>at all times adhere to the By-laws of the municipality and the rule of law;</p>
+                </item>
+                <item id="section-16.1.list1.d">
+                  <num>(d)</num>
+                  <p>not use offensive or objectionable language;</p>
+                </item>
+                <item id="section-16.1.list1.e">
+                  <num>(e)</num>
+                  <p>not use a cellular phone during meetings; and</p>
+                </item>
+                <item id="section-16.1.list1.f">
+                  <num>(f)</num>
+                  <p>not bring a firearm or any dangerous weapon into a meeting of Council or any of its committees.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-16.2">
+            <num>(2)</num>
+            <content>
+              <p>Whenever the Speaker or Chairperson rises during a debate, any Councillor then speaking or offering to speak must remain silent and the Speaker or Chairperson must be heard without being interrupted.</p>
+            </content>
+          </subsection>
+          <subsection id="section-16.3">
+            <num>(3)</num>
+            <content>
+              <p>During a debate a Councillor may not converse with another person loud enough to disrupt proceedings.</p>
+            </content>
+          </subsection>
+          <subsection id="section-16.4">
+            <num>(4)</num>
+            <content>
+              <p>Other than the Speaker or Chairperson, a Councillor may not interrupt another Councillor while speaking, except to call attention to a Point of Order or explanation.</p>
+            </content>
+          </subsection>
+          <subsection id="section-16.5">
+            <num>(5)</num>
+            <content>
+              <p>A Councillor may not use offensive or unbecoming language during proceedings.</p>
+            </content>
+          </subsection>
+          <subsection id="section-16.6">
+            <num>(6)</num>
+            <content>
+              <p>The Speaker or Chairperson, after having called attention to the conduct of a Councillor who persists in irrelevant or repetition of arguments, must direct such Councillor to conduct themselves properly, or if speaking, to discontinue that speech and resume their seat.</p>
+            </content>
+          </subsection>
+          <subsection id="section-16.7">
+            <num>(7)</num>
+            <content>
+              <blockList id="section-16.7.list1">
+                <listIntroduction>If the Speaker or Chairperson is of the opinion that a Councillor is–</listIntroduction>
+                <item id="section-16.7.list1.a">
+                  <num>(a)</num>
+                  <p>deliberately contravening a provision of this By-law;</p>
+                </item>
+                <item id="section-16.7.list1.b">
+                  <num>(b)</num>
+                  <p>in contempt of or is disregarding the authority of the Speaker or Chairperson;</p>
+                </item>
+                <item id="section-16.7.list1.c">
+                  <num>(c)</num>
+                  <p>challenging the ruling of the Speaker or Chairperson on a Point of Order;</p>
+                </item>
+                <item id="section-16.7.list1.d">
+                  <num>(d)</num>
+                  <p>declining to withdraw any expression when required to do so by the Speaker or Chairperson; or</p>
+                </item>
+                <item id="section-16.7.list1.e">
+                  <num>(e)</num>
+                  <p>behaving in a grossly disorderly manner,</p>
+                </item>
+              </blockList>
+              <p>the Speaker or Chairperson must order the Councillor to withdraw from the meeting for the remainder of the meeting or cause the Councillor to be ejected from the meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-16.8">
+            <num>(8)</num>
+            <content>
+              <p>Any person who attends any meeting of the Council must be dressed in an appropriate manner to uphold the dignity of the Council. The recommended dress code for Councillors must be business or traditional attire.</p>
+            </content>
+          </subsection>
+          <subsection id="section-16.9">
+            <num>(9)</num>
+            <content>
+              <blockList id="section-16.9.list1">
+                <listIntroduction>The Speaker or Chairperson may request or order the removal of any person who–</listIntroduction>
+                <item id="section-16.9.list1.a">
+                  <num>(a)</num>
+                  <p>refuses to carry out any reasonable instruction given by the Speaker or Chairperson; or</p>
+                </item>
+                <item id="section-16.9.list1.b">
+                  <num>(b)</num>
+                  <p>willfully obstructs the carrying out of any reasonable instruction by the Speaker or Chairperson.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-16.10">
+            <num>(10)</num>
+            <content>
+              <blockList id="section-16.10.list1">
+                <listIntroduction>In the event of grave disorder at a meeting, the Speaker or Chairperson may–</listIntroduction>
+                <item id="section-16.10.list1.a">
+                  <num>(a)</num>
+                  <p>adjourn the meeting; or</p>
+                </item>
+                <item id="section-16.10.list1.b">
+                  <num>(b)</num>
+                  <p>suspend the proceedings for a period of time.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-16.11">
+            <num>(11)</num>
+            <content>
+              <p>If a meeting is adjourned, all persons who attend the meeting must rise and remain in their places until the Speaker has left the meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-16.12">
+            <num>(12)</num>
+            <content>
+              <blockList id="section-16.12.list1">
+                <listIntroduction>The privileges of a Councillor include–</listIntroduction>
+                <item id="section-16.12.list1.a">
+                  <num>(a)</num>
+                  <p>the privilege of freedom of speech in a Council or committee meeting; and</p>
+                </item>
+                <item id="section-16.12.list1.b">
+                  <num>(b)</num>
+                  <p>any other privileges or immunities conferred by section 28 of Act or the Constitution.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-16.13">
+            <num>(13)</num>
+            <content>
+              <blockList id="section-16.13.list1">
+                <listIntroduction>Councillors are not liable to civil or criminal proceedings, arrest, imprisonment or damages for anything–</listIntroduction>
+                <item id="section-16.13.list1.a">
+                  <num>(a)</num>
+                  <p>they have said in, produced before or submitted to Council or any of its committees; or</p>
+                </item>
+                <item id="section-16.13.list1.b">
+                  <num>(b)</num>
+                  <p>revealed as a result of anything they have said in, produced before or submitted to the Council or any of its committees.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-16.14">
+            <num>(14)</num>
+            <content>
+              <p>The exercise of the privilege of freedom of speech is protected, but must be exercised in accordance with the Rules of Order.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Declaration of interest</heading>
+          <subsection id="section-17.1">
+            <num>(1)</num>
+            <content>
+              <p>A Councillor wishing to declare that a matter is before the Council or committee of Council in which that Councillor or their spouse, partner or business associate has a direct or indirect personal or private business interest in terms of the provisions of the Code of Conduct must do so after the item or notice of motion in respect of which such interest exists, has been called.</p>
+            </content>
+          </subsection>
+          <subsection id="section-17.2">
+            <num>(2)</num>
+            <content>
+              <p>A Councillor must recuse himself or herself from a matter which is being discussed in which a Councillor or their spouse, partner or business associate has any direct or indirect personal or private business interest and which Councillor is required to withdraw in terms of item 3(b) of the Code of Conduct.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-5">
+        <num>5</num>
+        <heading>Debate management</heading>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Ordinary Notices of Motion</heading>
+          <subsection id="section-18.1">
+            <num>(1)</num>
+            <content>
+              <p>A matter may not be brought before Council by a Councillor except by way of a notice of motion.</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-18.2.list1">
+                <listIntroduction>Every notice of motion must–</listIntroduction>
+                <item id="section-18.2.list1.a">
+                  <num>(a)</num>
+                  <p>be in writing;</p>
+                </item>
+                <item id="section-18.2.list1.b">
+                  <num>(b)</num>
+                  <p>refer to one matter only;</p>
+                </item>
+                <item id="section-18.2.list1.c">
+                  <num>(c)</num>
+                  <p>be signed by the Councillor submitting it; and</p>
+                </item>
+                <item id="section-18.2.list1.d">
+                  <num>(d)</num>
+                  <p>be signed by the Councillor seconding it.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-18.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-18.3.list1">
+                <listIntroduction>A notice of motion must be lodged with the Speaker who must–</listIntroduction>
+                <item id="section-18.3.list1.a">
+                  <num>(a)</num>
+                  <p>enter it into a book kept for that purpose; and</p>
+                </item>
+                <item id="section-18.3.list1.b">
+                  <num>(b)</num>
+                  <p>ensure that the book is open for inspection by any Councillor.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-18.4">
+            <num>(4)</num>
+            <content>
+              <p>A notice of motion may not be included in the agenda unless it was received at least 10 days prior to such meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.5">
+            <num>(5)</num>
+            <content>
+              <p>At the request of the Councillor who submitted the notice of motion, the Office of the Speaker must acknowledge receipt of the notice of motion in writing.</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.6">
+            <num>(6)</num>
+            <content>
+              <p>Every notice of motion must be relevant to the administration of the municipality or must deal with a matter in respect of which the Council has jurisdiction.</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.7">
+            <num>(7)</num>
+            <content>
+              <p>Upon receipt of a notice of motion, the Office of the Speaker must date, number and enter the notices in the agenda in the order in which they were received: Provided that a notice amending another motion must be entered in the agenda immediately after the latter motion.</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.8">
+            <num>(8)</num>
+            <content>
+              <p>A notice of motion shall not be competent unless it takes the form of a reference of the subject matter thereof to the relevant committee of Council for investigation or consideration and report back to Council.</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.9">
+            <num>(9)</num>
+            <content>
+              <p>A Councillor may not have more than 1 notice of motion entered on the agenda, with the exception of a deferred Notice of Motion.</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.10">
+            <num>(10)</num>
+            <content>
+              <p>A Councillor may not move more than 6 notices of motion within any calendar year.</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.11">
+            <num>(11)</num>
+            <content>
+              <p>If a notice of motion which is specified on the agenda is called but is not moved, either by the Councillor who submitted it or by another Councillor who has been authorised in writing by the Councillor who submitted it, that notice of motion shall lapse.</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.12">
+            <num>(12)</num>
+            <content>
+              <p>The Speaker must ascertain whether a notice of motion is opposed. An unopposed notice of motion must be passed without debate. In the event that a notice of motion is opposed, the Speaker must call upon the mover of the notice of motion to speak first.</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.13">
+            <num>(13)</num>
+            <content>
+              <p>If a notice of motion is defeated, a similar subject may not be moved again, either by way of a notice of motion or a question until after the expiry of at least 3 months from the date of the defeat.</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.14">
+            <num>(14)</num>
+            <content>
+              <p>All notices of motion must be submitted on the official Councillor letterhead.</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.15">
+            <num>(15)</num>
+            <content>
+              <p>The Office of the Speaker must record and keep a register of all notice of motions received.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-19">
+          <num>19.</num>
+          <heading>Disallowed Motions</heading>
+          <subsection id="section-19.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-19.1.list1">
+                <listIntroduction>The Speaker must disallow a notice of motion that–</listIntroduction>
+                <item id="section-19.1.list1.a">
+                  <num>(a)</num>
+                  <p>may lead to the discussion of a matter already dealt with in the agenda;</p>
+                </item>
+                <item id="section-19.1.list1.b">
+                  <num>(b)</num>
+                  <p>deals with a matter which has no bearing on the administration of the municipality;</p>
+                </item>
+                <item id="section-19.1.list1.c">
+                  <num>(c)</num>
+                  <p>is longer than 150 words or contains unnecessary, factually incorrect, incriminating, disparaging or improper suggestions;</p>
+                </item>
+                <item id="section-19.1.list1.d">
+                  <num>(d)</num>
+                  <p>deals with a matter in respect of which the Council has no jurisdiction;</p>
+                </item>
+                <item id="section-19.1.list1.e">
+                  <num>(e)</num>
+                  <p>deals with a matter in respect of which a decision by a judicial or quasi-judicial body is pending;</p>
+                </item>
+                <item id="section-19.1.list1.f">
+                  <num>(f)</num>
+                  <p>has not been duly seconded;</p>
+                </item>
+                <item id="section-19.1.list1.g">
+                  <num>(g)</num>
+                  <p>if passed, would be contrary to this By-law or any other law or is impractical to perform;</p>
+                </item>
+                <item id="section-19.1.list1.h">
+                  <num>(h)</num>
+                  <p>concerns a matter in respect of which there is an official investigation and such discussion may compromise the investigation;</p>
+                </item>
+                <item id="section-19.1.list1.i">
+                  <num>(i)</num>
+                  <p>concerns an item which is already under discussion in a committee; or</p>
+                </item>
+                <item id="section-19.1.list1.j">
+                  <num>(j)</num>
+                  <p>is not moved in accordance with these rules.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>Procedural Motions</heading>
+          <subsection id="section-20.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-20.1.list1">
+                <listIntroduction>Where a motion or recommendation has been moved and is under debate, no further motion may be received except a motion that–</listIntroduction>
+                <item id="section-20.1.list1.a">
+                  <num>(a)</num>
+                  <p>the debate be adjourned;</p>
+                </item>
+                <item id="section-20.1.list1.b">
+                  <num>(b)</num>
+                  <p>Council proceed to the next business;</p>
+                </item>
+                <item id="section-20.1.list1.c">
+                  <num>(c)</num>
+                  <p>the matter be referred back;</p>
+                </item>
+                <item id="section-20.1.list1.d">
+                  <num>(d)</num>
+                  <p>amends the previous motion; or</p>
+                </item>
+                <item id="section-20.1.list1.e">
+                  <num>(e)</num>
+                  <p>the matter is put to the vote.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-20.2">
+            <num>(2)</num>
+            <content>
+              <p>Every procedural motion must be seconded before the motion may be discussed.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.3">
+            <num>(3)</num>
+            <content>
+              <p>Any procedural motion may be withdrawn by the mover with the consent of the Council, without debate.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-20.4.list1">
+                <listIntroduction>Where a motion to amend is moved, the amendment must be–</listIntroduction>
+                <item id="section-20.4.list1.a">
+                  <num>(a)</num>
+                  <p>relevant to the original motion;</p>
+                </item>
+                <item id="section-20.4.list1.b">
+                  <num>(b)</num>
+                  <p>reduced to writing;</p>
+                </item>
+                <item id="section-20.4.list1.c">
+                  <num>(c)</num>
+                  <p>signed by the mover; and</p>
+                </item>
+                <item id="section-20.4.list1.d">
+                  <num>(d)</num>
+                  <p>handed to the Speaker to read to the meeting.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-20.5">
+            <num>(5)</num>
+            <content>
+              <p>The amendment referred to in sub-rule (4) may not alter the substance of the original motion.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.6">
+            <num>(6)</num>
+            <content>
+              <p>A Councillor may not move more than one amendment to any original motion.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.7">
+            <num>(7)</num>
+            <content>
+              <p>Whenever an amendment to an original motion has been moved and seconded, no other amendment may be moved until the first amendment has been disposed of. If that amendment is carried, the motion as amended must become the motion upon which any further amendment may be moved.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.8">
+            <num>(8)</num>
+            <content>
+              <p>Where the original motion relates to a By-law, any motion to amend must take the form of a reference back to the committee concerned.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.9">
+            <num>(9)</num>
+            <content>
+              <p>Any amendment which would have the effect of increasing expenditure or reducing the income of Council must take the form of a reference back to the relevant committee for consideration.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.10">
+            <num>(10)</num>
+            <content>
+              <p>A procedural motion that a matter be referred back, must indicate the committee to which the matter is to be referred and the point, or points on which the committee’s advice or further advice is required. If a motion in terms of this rule is carried, the debate on the recommendation must end and the Council must proceed to the next agenda item.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.11">
+            <num>(11)</num>
+            <content>
+              <p>A motion for the adjournment of Council may not be moved while any item on the agenda is under consideration, but may only be moved immediately after the resolution on any item has been adopted, and before the next item on the agenda is brought under consideration.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.12">
+            <num>(12)</num>
+            <content>
+              <p>A motion for the debate to be adjourned with reasons for the request, or for a question to be put, or for Council to proceed to the next business must be moved at the close of any speech.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.13">
+            <num>(13)</num>
+            <content>
+              <p>A further motion in terms of sub-rules (11) or (12) may not be moved within half an hour of any similar preceding motion.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.14">
+            <num>(14)</num>
+            <content>
+              <p>A Councillor may not move or second more than one motion for adjournment of any one Council meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.15">
+            <num>(15)</num>
+            <content>
+              <p>Where a motion to adjourn a meeting is moved, the Speaker may request the meeting to dispose of the unopposed business before adjourning.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-21">
+          <num>21.</num>
+          <heading>Withdrawal of Motions</heading>
+          <subsection id="section-21.1">
+            <num>(1)</num>
+            <content>
+              <p>A motion may be withdrawn or amended by the mover with the consent of Council which must be given without debate.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.2">
+            <num>(2)</num>
+            <content>
+              <p>A Councillor may not speak on a motion after consent for the withdrawal of such motion has been granted.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-22">
+          <num>22.</num>
+          <heading>Urgent Motions</heading>
+          <subsection id="section-22.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-22.1.list1">
+                <listIntroduction>A Councillor may move an application on an urgent basis provided that a–</listIntroduction>
+                <item id="section-22.1.list1.a">
+                  <num>(a)</num>
+                  <p>notice of motion is handed to the Speaker at least 24 hours before the scheduled meeting; and</p>
+                </item>
+                <item id="section-22.1.list1.b">
+                  <num>(b)</num>
+                  <p>motivation for the urgency is attached to the notice of motion.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-22.2">
+            <num>(2)</num>
+            <content>
+              <p>The Speaker, after consulting with the Whips, must make a ruling on whether the motion should be tabled before Council. The ruling of the Speaker shall be final.</p>
+            </content>
+          </subsection>
+          <subsection id="section-22.3">
+            <num>(3)</num>
+            <content>
+              <p>Notwithstanding the provisions of sub-rule (1), a Councillor may request the Speaker to place an urgent motion which is in the public interest on the agenda at least an hour prior to a Council meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-22.4">
+            <num>(4)</num>
+            <content>
+              <p>The Speaker must make a final decision to table the urgent motion referred to in sub-rule (3) after considering the motivation. The ruling of the Speaker shall be final.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-23">
+          <num>23.</num>
+          <heading>Allocation of time for debate</heading>
+          <subsection id="section-23.1">
+            <num>(1)</num>
+            <content>
+              <p>All parties represented in Council have a right to speak on each item on the agenda relative to their representation in Council.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.2">
+            <num>(2)</num>
+            <content>
+              <p>The Speaker may allow a political party to give their allocated time to another political party on any item, provided that such arrangements are made with the Speaker before the commencement of the Council meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-23.3.list1">
+                <listIntroduction>The Chief Whip must, after discussion with the Whips of other parties in Council and at least 24 hours prior to a meeting in Council, provide the Speaker and party Whips with a list showing–</listIntroduction>
+                <item id="section-23.3.list1.a">
+                  <num>(a)</num>
+                  <p>items on the agenda for that meeting which will be debated;</p>
+                </item>
+                <item id="section-23.3.list1.b">
+                  <num>(b)</num>
+                  <p>the suggested total time to be allocated to the debate of each item; and</p>
+                </item>
+                <item id="section-23.3.list1.c">
+                  <num>(c)</num>
+                  <p>the time for debate to be allocated to each political party.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-23.4">
+            <num>(4)</num>
+            <content>
+              <p>All parties must have a minimum time allocation of 1 minute to debate on every item which is subject to debate. Additional time shall be allocated by the Whips to the parties represented in Council in accordance with the number of seats they hold.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.5">
+            <num>(5)</num>
+            <content>
+              <p>Each party must examine the list drawn up in terms of sub-rule (3) and deliver to the Speaker, at least 12 hours before a Council meeting, a list of its Members who will speak on an item and the time allocated to each Member, provided that the total time allocated to all such Members of a party, must not exceed the time allocated to that party in terms of sub-rule 3(c) above.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.6">
+            <num>(6)</num>
+            <content>
+              <p>The Speaker may reduce or extend the time allocated for debate on each item on the agenda on receipt of a list referred to in sub-rule (5).</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.7">
+            <num>(7)</num>
+            <content>
+              <blockList id="section-23.7.list1">
+                <listIntroduction>The Speaker must–</listIntroduction>
+                <item id="section-23.7.list1.a">
+                  <num>(a)</num>
+                  <p>restrict or extend the time allocated to parties in a manner which is fair to all parties;</p>
+                </item>
+                <item id="section-23.7.list1.b">
+                  <num>(b)</num>
+                  <p>to the extent possible, give advance warning of such intention to the parties; and</p>
+                </item>
+                <item id="section-23.7.list1.c">
+                  <num>(c)</num>
+                  <p>advise the parties of the extension or reduction of the time allocated.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-23.8">
+            <num>(8)</num>
+            <content>
+              <p>A decision made in terms of sub-rules (6) and (7) must be conveyed to the relevant Whips within a reasonable time before the Council meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.9">
+            <num>(9)</num>
+            <content>
+              <p>Where a report is laid on the table, the Speaker must note the Councillors who wish to speak on the item from the floor.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.10">
+            <num>(10)</num>
+            <content>
+              <p>The Speaker may upon request and upon the Speaker’s discretion, allow an additional five minutes of response time to the mover of either a motion or a committee report. Such request must be conveyed to the Speaker at the commencement of the debate on that item.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.11">
+            <num>(11)</num>
+            <content>
+              <p>The Speaker may not, when exercising any discretion in terms of these rules, prejudice any party in respect of time allocated to that party.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-24">
+          <num>24.</num>
+          <heading>Rules of Debate</heading>
+          <subsection id="section-24.1">
+            <num>(1)</num>
+            <content>
+              <p>In any debate, the Speaker must call a Councillor to speak in accordance with the list referred to in rule 23(3).</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.2">
+            <num>(2)</num>
+            <content>
+              <p>A Councillor may speak only when so directed by the Speaker.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.3">
+            <num>(3)</num>
+            <content>
+              <p>Where a report is laid on the table, a Councillor must indicate their desire to speak by raising a hand and awaiting the direction of the Speaker.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.4">
+            <num>(4)</num>
+            <content>
+              <p>A Councillor who speaks must confine their speech strictly to the matter under discussion.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.5">
+            <num>(5)</num>
+            <content>
+              <p>Whenever the Speaker rises during a debate, any Councillor then speaking, and all persons present in the Council Chamber must remain silent so that the Speaker may be heard without interruption.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.6">
+            <num>(6)</num>
+            <content>
+              <p>The mover of an original motion may reply to previous speeches in accordance with rule 23(10), but may not introduce any new matter into the debate.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-25">
+          <num>25.</num>
+          <heading>Points of Order and Explanation</heading>
+          <subsection id="section-25.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-25.1.list1">
+                <listIntroduction>A Councillor, whether they have spoken on the matter under consideration or not, may rise–</listIntroduction>
+                <item id="section-25.1.list1.a">
+                  <num>(a)</num>
+                  <p>on a Point of Order, that is, with a view to calling attention to any departure from these rules or any other law; or</p>
+                </item>
+                <item id="section-25.1.list1.b">
+                  <num>(b)</num>
+                  <p>in explanation, that is, in order to explain some material part of that Councillor’s former speech which may have been misunderstood.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-25.2">
+            <num>(2)</num>
+            <content>
+              <p>When a Point of Order is raised, the Councillor called to order must remain silent, and after the Point of Order has been stated to the Speaker by the person raising it, the Speaker must give the ruling or decision.</p>
+            </content>
+          </subsection>
+          <subsection id="section-25.3">
+            <num>(3)</num>
+            <content>
+              <p>The ruling of the Speaker on the admissibility of a Point of Order or an explanation shall be final and not open to discussion.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-26">
+          <num>26.</num>
+          <heading>Decision and Voting</heading>
+          <subsection id="section-26.1">
+            <num>(1)</num>
+            <content>
+              <p>A quorum must be present in order for a vote to be taken.</p>
+            </content>
+          </subsection>
+          <subsection id="section-26.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-26.2.list1">
+                <listIntroduction>The following matters must be determined by a decision taken by a supporting vote of a majority of Councillors, which include–</listIntroduction>
+                <item id="section-26.2.list1.a">
+                  <num>(a)</num>
+                  <p>the passing of By-laws;</p>
+                </item>
+                <item id="section-26.2.list1.b">
+                  <num>(b)</num>
+                  <p>the approval of budgets;</p>
+                </item>
+                <item id="section-26.2.list1.c">
+                  <num>(c)</num>
+                  <p>the imposition of rates and other taxes, levies and duties;</p>
+                </item>
+                <item id="section-26.2.list1.d">
+                  <num>(d)</num>
+                  <p>the raising of loans;</p>
+                </item>
+                <item id="section-26.2.list1.e">
+                  <num>(e)</num>
+                  <p>the rescission of a Council resolution; and</p>
+                </item>
+                <item id="section-26.2.list1.f">
+                  <num>(f)</num>
+                  <p>any other matter prescribed by legislation.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-26.3">
+            <num>(3)</num>
+            <content>
+              <p>All other questions before the Council must be determined by a decision taken by the supporting vote of the majority of Councillors present at the Council meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-26.4">
+            <num>(4)</num>
+            <content>
+              <p>Every recommendation of a committee and every competent motion or amendment duly moved and seconded must be put to the meeting by the Speaker who must call upon the Councillors in favour to say “Agreed” or “Yes” and those against to say “No”.</p>
+            </content>
+          </subsection>
+          <subsection id="section-26.5">
+            <num>(5)</num>
+            <content>
+              <p>A recommendation which is not opposed by any Councillor present is deemed to be adopted.</p>
+            </content>
+          </subsection>
+          <subsection id="section-26.6">
+            <num>(6)</num>
+            <content>
+              <p>A recommendation to which any Councillor present says “No” must be put to the vote by the Speaker.</p>
+            </content>
+          </subsection>
+          <subsection id="section-26.7">
+            <num>(7)</num>
+            <content>
+              <p>Voting in terms of sub-rule (6) must be by a show of hands, unless the law prescribes otherwise.</p>
+            </content>
+          </subsection>
+          <subsection id="section-26.8">
+            <num>(8)</num>
+            <content>
+              <p>A Councillor may not vote on a question unless they were present when the question was put to the meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-26.9">
+            <num>(9)</num>
+            <content>
+              <p>During the taking of a vote, a Councillor may not leave or enter the Council Chamber.</p>
+            </content>
+          </subsection>
+          <subsection id="section-26.10">
+            <num>(10)</num>
+            <content>
+              <p>A Councillor may abstain from voting without leaving the meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-26.11">
+            <num>(11)</num>
+            <content>
+              <p>The votes must be recorded and the Speaker must announce the result.</p>
+            </content>
+          </subsection>
+          <subsection id="section-26.12">
+            <num>(12)</num>
+            <content>
+              <p>The number of Councillors who voted, and not the names of the Councillors who voted, must be recorded in the minutes.</p>
+            </content>
+          </subsection>
+          <subsection id="section-26.13">
+            <num>(13)</num>
+            <content>
+              <p>Any Councillor may request that their dissent, abstention or support in respect of the voting process be recorded in the minutes of that meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-26.14">
+            <num>(14)</num>
+            <content>
+              <p>If on any question there is an equality of votes, the Councillor presiding must exercise a casting vote in addition to that Councillor’s vote as a Councillor.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-27">
+          <num>27.</num>
+          <heading>Questions on Municipal Performance</heading>
+          <subsection id="section-27.1">
+            <num>(1)</num>
+            <content>
+              <p>Any Councillor may submit a question concerning any matter related to the effective performance or administration of the municipality’s functions and the exercise of its powers, in order to solicit intentions, explanations or information. Such item must not violate item 11(a) of the Code of Conduct reproduced in sub-rule (2) below.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-27.2.list1">
+                <listIntroduction>In terms of item 11 of the Code of Conduct, a Councillor may not, except as provided by law–</listIntroduction>
+                <item id="section-27.2.list1.a">
+                  <num>(a)</num>
+                  <p>interfere in the management or administration of any department of the Municipal Council unless mandated by Council;</p>
+                </item>
+                <item id="section-27.2.list1.b">
+                  <num>(b)</num>
+                  <p>give or purport to give any instruction to any employee of the Council except when authorised to do so; (c) obstruct or attempt to obstruct the implementation of any decision of the Council or a committee by an employee of the Council; or</p>
+                </item>
+                <item id="section-27.2.list1.d">
+                  <num>(d)</num>
+                  <p>encourage or participate in any conduct which would cause or contribute to maladministration in the Council.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-27.3">
+            <num>(3)</num>
+            <content>
+              <p>A question to solicit information, including information which may be obtained through the Access to Information Act and other legislation, must be directed to the Municipal Manager’s office.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.4">
+            <num>(4)</num>
+            <content>
+              <p>A Councillor must ensure that questions submitted in terms of this rule are submitted to the Office of the Speaker or Chairperson at least 10 days before the date of the next meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.5">
+            <num>(5)</num>
+            <content>
+              <p>The Speaker or Chairperson must ensure that the questions are included in the agenda of the next Council meeting or committee meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.6">
+            <num>(6)</num>
+            <content>
+              <p>The Speaker must decide, after consultation with the Whips, on the amount of time to be allocated to questions at each meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.7">
+            <num>(7)</num>
+            <content>
+              <p>A Councillor may submit only one question at any meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.8">
+            <num>(8)</num>
+            <content>
+              <p>Where questions are submitted to Council in terms of this rule, the Speaker must forward a copy of every question to the Chairperson of the relevant committee and the Municipal Manager who must ensure that a response is given at the next Council meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.9">
+            <num>(9)</num>
+            <content>
+              <p>Where questions are submitted to a committee in terms of this rule, the Chairperson must forward a copy of every question to the relevant Department Head and Deputy City Manager, who must ensure that a response is given at the next committee meeting. A response must be given by the relevant Deputy City Manager, Department Head or nominated official.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.10">
+            <num>(10)</num>
+            <content>
+              <p>If questions submitted in terms of sub-rules (1) and (3) have not been replied to at the next meeting, the minutes of the meeting must record these questions and that no reply was provided.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.11">
+            <num>(11)</num>
+            <content>
+              <p>A Councillor who, after their question has been replied to, is of the opinion that the reply to the question is not clear, must request elucidation thereof with the consent of the Speaker or Chairperson.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.12">
+            <num>(12)</num>
+            <content>
+              <p>If the Speaker consents to a question for elucidation being put, the Chairperson of the relevant committee or any Member of the committee must reply to the question at the meeting or at the next ordinary meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.13">
+            <num>(13)</num>
+            <content>
+              <p>If the Chairperson in a committee meeting consents to a question for elucidation being put, the relevant Department Head or nominated official must reply to the question at the meeting or at the next ordinary meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.14">
+            <num>(14)</num>
+            <content>
+              <p>The Speaker must disallow a question if the Speaker is of the opinion that the question is out of order, is not put clearly, is irrelevant or which has not been submitted in accordance with the provisions of these rules.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.15">
+            <num>(15)</num>
+            <content>
+              <p>A Councillor who has submitted a question in terms of sub-rules (1) and (3) and who has received no response from the Municipal Manager within 14 days, must bring the question before the Council.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.16">
+            <num>(16)</num>
+            <content>
+              <p>A Councillor may take charge of a question on behalf of an absent Councillor, provided that the absent Councillor has authorised that Councillor to do so in writing.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.17">
+            <num>(17)</num>
+            <content>
+              <p>Questions that have not been reached at the end of the time allocated for questions must be regarded as standing over.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.18">
+            <num>(18)</num>
+            <content>
+              <p>A question may not stand over more than once.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.19">
+            <num>(19)</num>
+            <content>
+              <p>A Councillor may not re-submit a question or a similar motion to any question which has been considered by Council or a committee during the previous 3 months.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.20">
+            <num>(20)</num>
+            <content>
+              <p>All questions must be submitted on the official Councillor letterhead.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-6">
+        <num>6</num>
+        <heading>Miscellaneous provisions</heading>
+        <section id="section-28">
+          <num>28.</num>
+          <heading>Delegation of Powers during Recess and Emergencies</heading>
+          <subsection id="section-28.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-28.1.list1">
+                <listIntroduction>Whenever any matter of urgency arises–</listIntroduction>
+                <item id="section-28.1.list1.a">
+                  <num>(a)</num>
+                  <p>during the period that Council is in session and it is not possible or practicable to obtain a decision of the relevant committee or of Council, such matter may, on the recommendation of the Deputy City Manager concerned, be decided by the Chairperson of the committee within whose terms of reference the matter falls;</p>
+                </item>
+                <item id="section-28.1.list1.b">
+                  <num>(b)</num>
+                  <p>during the period when the Council is in recess, such matter may be decided by the Municipal Manager, after consulting with the Mayor; or</p>
+                </item>
+                <item id="section-28.1.list1.c">
+                  <num>(c)</num>
+                  <p>during the period between the day on which election results are announced and the inaugural meeting of the new Council, such matter may be decided by the Municipal Manager.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-28.2">
+            <num>(2)</num>
+            <content>
+              <p>The power conferred upon the Chairperson and the Municipal Manager in terms of sub-rule (1) may include the power to incur expenditure, provided that the Deputy City Manager: Treasury or his nominee in the Treasury department certifies in writing that provision has been made for the expenditure in the current budget. If estimates for the financial year have not yet been adopted by the Council, it must be confirmed that provision for the expenditure has been or will be made in the estimates for that financial year.</p>
+            </content>
+          </subsection>
+          <subsection id="section-28.3">
+            <num>(3)</num>
+            <content>
+              <p>Notwithstanding the provisions of sub-rules (1) and (2), no expenditure may be incurred on the capital account, unless approved by the Mayor in his capacity as Chairperson of EXCO.</p>
+            </content>
+          </subsection>
+          <subsection id="section-28.4">
+            <num>(4)</num>
+            <content>
+              <p>All matters which are decided in terms of this rule must be reported at the next ordinary meeting of the committee within whose terms of reference the matter falls.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-29">
+          <num>29.</num>
+          <heading>Records</heading>
+          <subsection id="section-29.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-29.1.list1">
+                <listIntroduction>The Municipal Manager must ensure that–</listIntroduction>
+                <item id="section-29.1.list1.a">
+                  <num>(a)</num>
+                  <p>the minutes of meetings of Council and its committees are recorded; and</p>
+                </item>
+                <item id="section-29.1.list1.b">
+                  <num>(b)</num>
+                  <p>such records are kept for a minimum of 5 years.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-29.2">
+            <num>(2)</num>
+            <content>
+              <p>The minutes of the Council must, after having been perused by the Speaker, be printed and supplied to Councillors.</p>
+            </content>
+          </subsection>
+          <subsection id="section-29.3">
+            <num>(3)</num>
+            <content>
+              <p>Where a copy of the minutes has been served on every Councillor in the manner provided in rule 6(2), the minutes shall be taken as read with a view to confirmation at the next Council meeting.</p>
+            </content>
+          </subsection>
+          <subsection id="section-29.4">
+            <num>(4)</num>
+            <content>
+              <p>A proposal or discussion may not be allowed on the minutes, except for a proposal on or discussion of the accuracy of the minutes.</p>
+            </content>
+          </subsection>
+          <subsection id="section-29.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-29.5.list1">
+                <listIntroduction>The Municipal Manager must ensure that the names of the Councillors who–</listIntroduction>
+                <item id="section-29.5.list1.a">
+                  <num>(a)</num>
+                  <p>attend any meeting;</p>
+                </item>
+                <item id="section-29.5.list1.b">
+                  <num>(b)</num>
+                  <p>are absent from any meeting; and,</p>
+                </item>
+                <item id="section-29.5.list1.c">
+                  <num>(c)</num>
+                  <p>have been granted leave of absence from any meeting,</p>
+                </item>
+              </blockList>
+              <p>are recorded in the minutes.</p>
+            </content>
+          </subsection>
+          <subsection id="section-29.6">
+            <num>(6)</num>
+            <content>
+              <p>The Municipal Manager must ensure that the minutes reflect the names of Councillors who requested that their dissent, abstention or support be recorded during voting, are recorded in the minutes.</p>
+            </content>
+          </subsection>
+          <subsection id="section-29.7">
+            <num>(7)</num>
+            <content>
+              <p>The Municipal Manager shall have custody of all records and other papers of Council and must neither remove nor permit such records to be removed without the leave of the Speaker.</p>
+            </content>
+          </subsection>
+          <subsection id="section-29.8">
+            <num>(8)</num>
+            <content>
+              <p>Audio recordings of all meetings of the Council must be kept at least until such time as the minutes are adopted.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-30">
+          <num>30.</num>
+          <heading>Access to Information</heading>
+          <subsection id="section-30.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-30.1.list1">
+                <listIntroduction>The Municipal Manager may on application by–</listIntroduction>
+                <item id="section-30.1.list1.a">
+                  <num>(a)</num>
+                  <p>any registered newspaper; or</p>
+                </item>
+                <item id="section-30.1.list1.b">
+                  <num>(b)</num>
+                  <p>interested person or entity,</p>
+                </item>
+              </blockList>
+              <p>supply confirmed copies of Council minutes, official agenda and confirmed minutes of all committees subject to the provisions of the Access to Information Act.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-30.2.list1">
+                <listIntroduction>Subject to sub-rule (1), a person may not–</listIntroduction>
+                <item id="section-30.2.list1.a">
+                  <num>(a)</num>
+                  <p>have access to;</p>
+                </item>
+                <item id="section-30.2.list1.b">
+                  <num>(b)</num>
+                  <p>be entitled to take extracts from;</p>
+                </item>
+                <item id="section-30.2.list1.c">
+                  <num>(c)</num>
+                  <p>disclose;</p>
+                </item>
+                <item id="section-30.2.list1.d">
+                  <num>(d)</num>
+                  <p>publish; or</p>
+                </item>
+                <item id="section-30.2.list1.e">
+                  <num>(e)</num>
+                  <p>make copies of,</p>
+                </item>
+              </blockList>
+              <p>Council and committee minutes or official agendas of meetings which have been closed to the public in terms of rule 7.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.3">
+            <num>(3)</num>
+            <content>
+              <p>Any Councillor who publishes or discloses or causes any record of the Council or the proceedings of a committee to be published or disclosed when that meeting was closed to the public in terms of rule 7, shall be guilty of misconduct and shall be dealt with in terms of Council disciplinary processes.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-30.4.list1">
+                <listIntroduction>A Councillor may approach or communicate with a Head of Department or nominated official in order to obtain such information as he or she may reasonably require for the proper performance of his or her duties which information must–</listIntroduction>
+                <item id="section-30.4.list1.a">
+                  <num>(a)</num>
+                  <p>be relevant to any matter on an agenda of the Council or its committee concerning the business of the municipality;</p>
+                </item>
+                <item id="section-30.4.list1.b">
+                  <num>(b)</num>
+                  <p>be relevant to any matter within the terms of reference of a committee or any other law; or</p>
+                </item>
+                <item id="section-30.4.list1.c">
+                  <num>(c)</num>
+                  <p>reasonably be required by him or her for performance of a duty imposed on him or her in terms of a resolution of Council or its committee or any other applicable law.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-30.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-30.5.list1">
+                <listIntroduction>A Councillor may not approach or communicate with a Head of Department or nominated official in order to obtain information–</listIntroduction>
+                <item id="section-30.5.list1.a">
+                  <num>(a)</num>
+                  <p>relating to a situation where a Councillor or their spouse, partner or business associate has a direct or indirect personal or private business interest which may be in conflict with the provisions of the Code of Conduct;</p>
+                </item>
+                <item id="section-30.5.list1.b">
+                  <num>(b)</num>
+                  <p>which would require the Head of Department or a nominated official to act unlawfully;</p>
+                </item>
+                <item id="section-30.5.list1.c">
+                  <num>(c)</num>
+                  <p>which disclosure would defeat or be likely to defeat any privilege under any law entitling the Municipality not to disclose the information sought; or</p>
+                </item>
+                <item id="section-30.5.list1.d">
+                  <num>(d)</num>
+                  <blockList id="section-30.5.list1.d.list0">
+                    <listIntroduction>where it is in the opinion of the Head of Department or delegated official that the information sought is of–</listIntroduction>
+                    <item id="section-30.5.list1.d.list0.i">
+                      <num>(i)</num>
+                      <p>a confidential nature, unless the release of the information has been authorised by the relevant committee and which committee must before reaching a decision, afford a hearing to the Councillor seeking such release of information; or</p>
+                    </item>
+                    <item id="section-30.5.list1.d.list0.ii">
+                      <num>(ii)</num>
+                      <p>such a nature that it would involve extensive research by officials, unless the relevant committee has authorised such research and release of information.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-30.6">
+            <num>(6)</num>
+            <content>
+              <p>A Head of Department must compile a list of officials that a Councillor may approach or communicate with for the purposes of obtaining information in sub-rules (4) and (5).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-31">
+          <num>31.</num>
+          <heading>Report on Implementation of Council Decisions</heading>
+          <subsection id="section-31.1">
+            <num>(1)</num>
+            <content>
+              <p>The Municipal Manager must at the end of the first 6 months of a term of office of Council, and at 6 month intervals thereafter, submit to the Council a report on the implementation of each decision of Council.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-32">
+          <num>32.</num>
+          <heading>Short title and commencement</heading>
+          <paragraph id="section-32.paragraph-0">
+            <content>
+              <p>This By-law is called the eThekwini Municipality: Rules of Order By-law, 2014 and takes effect on the date of the publication thereof in the Provincial Gazette.</p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

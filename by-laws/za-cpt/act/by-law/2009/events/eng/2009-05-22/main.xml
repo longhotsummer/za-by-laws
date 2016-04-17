@@ -1,0 +1,1235 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="singleVersion">
+    <meta>
+      <identification source="#openbylaws">
+        <FRBRWork>
+          <FRBRthis value="/za-cpt/act/by-law/2009/events/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2009/events"/>
+          <FRBRalias value="City of Cape Town: Events By-law"/>
+          <FRBRdate date="2009-05-22" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-cpt/act/by-law/2009/events/eng@2009-05-22/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2009/events/eng@2009-05-22"/>
+          <FRBRdate date="2009-05-22" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-cpt/act/by-law/2009/events/eng@2009-05-22/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2009/events/eng@2009-05-22"/>
+          <FRBRdate date="2015-09-06" name="Generation"/>
+          <FRBRauthor href="#openbylaws" as="#author"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-05-22" name="Province of Western Cape: Provincial Gazette" number="6630" showAs="Province of Western Cape: Provincial Gazette"/>
+      <lifecycle source="#this">
+        <eventRef id="e1" date="2009-05-22" source="#original" type="generation"/>
+        <eventRef id="amendment-2010-12-09" date="2010-12-09" type="amendment" source="#amendment-0-source"/>
+      </lifecycle>
+      <references source="#this">
+        <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council.cape-town" showAs="Cape Town City Council"/>
+        <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <original id="original" href="/za/by-law/cape-town/2009/events" showAs="Original"/>
+        <TLCTerm id="term-authorized_official" href="/ontology/term/this.eng.authorized_official" showAs="authorized official"/>
+        <TLCTerm id="term-City" href="/ontology/term/this.eng.City" showAs="City"/>
+        <TLCTerm id="term-City_Manager" href="/ontology/term/this.eng.City_Manager" showAs="City Manager"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-event" href="/ontology/term/this.eng.event" showAs="event"/>
+        <TLCTerm id="term-event_organiser" href="/ontology/term/this.eng.event_organiser" showAs="event organiser"/>
+        <TLCTerm id="term-Event_Permit_Officer" href="/ontology/term/this.eng.Event_Permit_Officer" showAs="Event Permit Officer"/>
+        <TLCTerm id="term-Law_Enforcement_Officer" href="/ontology/term/this.eng.Law_Enforcement_Officer" showAs="Law Enforcement Officer"/>
+        <TLCTerm id="term-permit" href="/ontology/term/this.eng.permit" showAs="permit"/>
+        <TLCTerm id="term-public_place" href="/ontology/term/this.eng.public_place" showAs="public place"/>
+        <TLCTerm id="term-purpose-built_venue" href="/ontology/term/this.eng.purpose-built_venue" showAs="purpose-built venue"/>
+        <TLCTerm id="term-stakeholder" href="/ontology/term/this.eng.stakeholder" showAs="stakeholder"/>
+        <TLCTerm id="term-venue" href="/ontology/term/this.eng.venue" showAs="venue"/>
+        <TLCTerm id="term-venue_owner" href="/ontology/term/this.eng.venue_owner" showAs="venue owner"/>
+        <passiveRef id="amendment-0-source" href="/za/by-law/cape-town/2009/events-amendment" showAs="Events Amendment By-law, 2009"/>
+      </references>
+    </meta>
+    <preamble>
+      <p>WHEREAS the City of Cape Town recognizes that the hosting of events is a significant part of its competitiveness strategy and acknowledges that events have an important role in modern cities to enhance cultural and social cohesion in communities, support urban rejuvenation and economic growth;</p>
+      <p>WHEREAS the City of Cape Town aims to regulate holding of events in a manner that ensures proper management thereof;</p>
+      <p>WHEREAS the City of Cape Town wishes to support the co-ordination and collaboration between all role-players, to promote partnerships and to enhance the effect of events in the City;</p>
+      <p>AND WHEREAS the City wants to ensure that events happen safely and securely in a coordinated manner in the City of Cape Town;</p>
+      <p>AND NOW THEREFORE, BE IT ENACTED by the City of Cape Town, as follows:—</p>
+    </preamble>
+    <body>
+      <chapter id="chapter-1">
+        <num>1</num>
+        <heading>Definitions and application</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <subsection id="section-1.subsection-0">
+            <content>
+              <p>In this By-law, unless the context otherwise indicates —</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-1" refersTo="#term-authorized_official">
+            <content>
+              <p>"<def refersTo="#term-authorized_official">authorized official</def>" means an official of the <term refersTo="#term-City" id="trm0">City</term> authorized to implement or enforce the provisions of any other law;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-2" refersTo="#term-City">
+            <content>
+              <p>"<def refersTo="#term-City">City</def>" means the City of Cape Town established in terms of section 12 of the Local Government: Municipal Structures Act, 1998 (Act No. 117 of 1998), by Provincial Notice No. 479 dated 22 December 2000;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-3" refersTo="#term-City_Manager">
+            <content>
+              <p>"<def refersTo="#term-City_Manager">City Manager</def>" means the person appointed as <term refersTo="#term-City" id="trm1">City</term> Manager in terms of section 82 of the Local Government: Municipal Structures Act, 1998 (Act No. 117 of 1998);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-4" refersTo="#term-Council">
+            <content>
+              <p>"<def refersTo="#term-Council">Council</def>" means the council of the <term refersTo="#term-City" id="trm2">City</term> of Cape Town or any political structure, political office bearer, councillor or any staff member acting under council’s delegated or sub-delegated authority;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-5">
+            <content>
+              <blockList id="section-1.subsection-5.list5" refersTo="#term-event">
+                <listIntroduction>"<def refersTo="#term-event">event</def>" means —</listIntroduction>
+                <item id="section-1.subsection-5.list5.a">
+                  <num>(a)</num>
+                  <p>any sporting, recreational or entertainment event, including live acts;</p>
+                </item>
+                <item id="section-1.subsection-5.list5.b">
+                  <num>(b)</num>
+                  <p>any educational, cultural or religious event;</p>
+                </item>
+                <item id="section-1.subsection-5.list5.c">
+                  <num>(c)</num>
+                  <p>any business event including marketing, public relations and promotional, or exhibition events; or</p>
+                </item>
+                <item id="section-1.subsection-5.list5.d">
+                  <num>(d)</num>
+                  <p>any charitable event, including any conference, organizational or community event,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-6">
+            <content>
+              <p>or any similar activity hosted at a stadium, <term refersTo="#term-venue" id="trm3">venue</term> or along a route or its precinct, that is planned, has a clear programme, control and accountability, but excludes an <term refersTo="#term-event" id="trm4">event</term> hosted by a private person held in his or her private capacity at any <term refersTo="#term-venue" id="trm5">venue</term>, or filming staged in terms of the By-law relating to Filming;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-7" refersTo="#term-event_organiser">
+            <content>
+              <p>"<def refersTo="#term-event_organiser">event organiser</def>" means a person who submits an application to hold an <term refersTo="#term-event" id="trm6">event</term> in terms of this By Law whether he or she submits the application for himself or herself or on behalf of another person, body or organization;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-8" refersTo="#term-Event_Permit_Officer">
+            <content>
+              <p>"<def refersTo="#term-Event_Permit_Officer">Event Permit Officer</def>" means the head of the <term refersTo="#term-City" id="trm7">City</term> of Cape Town events <term refersTo="#term-permit" id="trm8">permit</term> office or any other official delegated by him or her; "Events Policy" means the <term refersTo="#term-event" id="trm9">event</term> policy of the <term refersTo="#term-City" id="trm10">City</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-9" refersTo="#term-Law_Enforcement_Officer">
+            <content>
+              <p>"<def refersTo="#term-Law_Enforcement_Officer">Law Enforcement Officer</def>" includes members of the Metro Police of the <term refersTo="#term-City" id="trm11">City</term> and traffic services;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-10" refersTo="#term-permit">
+            <content>
+              <p>"<def refersTo="#term-permit">permit</def>" means a permit issued for the holding of an <term refersTo="#term-event" id="trm12">event</term> in terms of section 5(3);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-11">
+            <content>
+              <blockList id="section-1.subsection-11.list11" refersTo="#term-public_place">
+                <listIntroduction>"<def refersTo="#term-public_place">public place</def>" means —</listIntroduction>
+                <item id="section-1.subsection-11.list11.a">
+                  <num>(a)</num>
+                  <p>any public land, square, public swimming bath, public resort, public recreation site, zoological, botanical or other public garden, park or hiking trail, including any portion thereof and any facility or apparatus therein or thereon, as well as any public open space, public road, road reserve, reserve street, lake, dam, or river;</p>
+                </item>
+                <item id="section-1.subsection-11.list11.b">
+                  <num>(b)</num>
+                  <p>any public building, structure, hall, room or office including any part thereof and any facility or apparatus therein, which is the property of, or possessed, controlled or leased by the <term refersTo="#term-City" id="trm13">City</term> and to which the general public has access, whether on payment of admission fees or not;</p>
+                </item>
+                <item id="section-1.subsection-11.list11.c">
+                  <num>(c)</num>
+                  <blockList id="section-1.subsection-11.list11.c.list0">
+                    <listIntroduction>any nature conservation area including —</listIntroduction>
+                    <item id="section-1.subsection-11.list11.c.list0.i">
+                      <num>(i)</num>
+                      <p>nature reserves;</p>
+                    </item>
+                    <item id="section-1.subsection-11.list11.c.list0.ii">
+                      <num>(ii)</num>
+                      <p>protected natural areas;</p>
+                    </item>
+                    <item id="section-1.subsection-11.list11.c.list0.iii">
+                      <num>(iii)</num>
+                      <p>nature conservation worthy areas;</p>
+                    </item>
+                    <item id="section-1.subsection-11.list11.c.list0.iv">
+                      <num>(iv)</num>
+                      <p>natural open spaces;</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-12" refersTo="#term-purpose-built_venue">
+            <content>
+              <p>"<def refersTo="#term-purpose-built_venue">purpose-built venue</def>" means a <term refersTo="#term-venue" id="trm14">venue</term> correctly zoned, built and suitable for the holding of specific events;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-13" refersTo="#term-stakeholder">
+            <content>
+              <p>"<def refersTo="#term-stakeholder">stakeholder</def>" includes any person, organization or body who is affected or has a role to play in the management or holding of an <term refersTo="#term-event" id="trm15">event</term>; "this By-law" includes the Schedules hereto;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-14">
+            <content>
+              <blockList id="section-1.subsection-14.list14" refersTo="#term-venue">
+                <listIntroduction>"<def refersTo="#term-venue">venue</def>" means any open space, enclosed or semi-enclosed temporary structure or permanent structure zoned in terms of the applicable legislation –</listIntroduction>
+                <item id="section-1.subsection-14.list14.a">
+                  <num>(a)</num>
+                  <p>within which a temporary or permanent structure may be erected, where an <term refersTo="#term-event" id="trm16">event</term> is to be hosted; and</p>
+                </item>
+                <item id="section-1.subsection-14.list14.b">
+                  <num>(b)</num>
+                  <blockList id="section-1.subsection-14.list14.b.list0">
+                    <listIntroduction>which, for the purposes of any categorization, designation and certification of an <term refersTo="#term-event" id="trm17">event</term> may consist of —</listIntroduction>
+                    <item id="section-1.subsection-14.list14.b.list0.i">
+                      <num>(i)</num>
+                      <p>seating for spectators, attendees or an audience; or</p>
+                    </item>
+                    <item id="section-1.subsection-14.list14.b.list0.ii">
+                      <num>(ii)</num>
+                      <p>a field of play or a permanent or temporary podium or other area within a venue, reserved for the purposes of hosting an <term refersTo="#term-event" id="trm18">event</term>;</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-15" refersTo="#term-venue_owner">
+            <content>
+              <p>"<def refersTo="#term-venue_owner">venue owner</def>" means any person or legal entity that, now or in the future, will directly or indirectly own, lease, rent, acquire or exercise the powers of an owner or occupier of a <term refersTo="#term-venue" id="trm19">venue</term> used for events.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Application of this by-law</heading>
+          <subsection id="section-2.1">
+            <num>(1)</num>
+            <content>
+              <p>This By-law applies to any <term refersTo="#term-event" id="trm20">event</term> held within the area of jurisdiction of the <term refersTo="#term-City" id="trm21">City</term>, including events held on both private land and public places, provided that where an <term refersTo="#term-event" id="trm22">event</term> is held on private land, subject to any other applicable legislation, it has an impact on the resources of the <term refersTo="#term-City" id="trm23">City</term> and the surrounding community.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-2.2.list1">
+                <listIntroduction> This By-Law does not apply to – </listIntroduction>
+                <item id="section-2.2.list1.a">
+                  <num>(a)</num>
+                  <p>events of fewer than 50 persons where there is no amplified sound or no temporary structures to be used; and</p>
+                </item>
+                <item id="section-2.2.list1.b">
+                  <num>(b)</num>
+                  <p>small events such as family and community events held on private property or purpose built venues, subject to any other legislation.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-2.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-2.3.list2">
+                <listIntroduction> Notwithstanding subsection (2), the Events Permit Officer or a <term refersTo="#term-Law_Enforcement_Officer" id="trm24">Law Enforcement Officer</term> may — </listIntroduction>
+                <item id="section-2.3.list2.a">
+                  <num>(a)</num>
+                  <p>when the Events Permit Officer or a <term refersTo="#term-Law_Enforcement_Officer" id="trm25">Law Enforcement Officer</term> finds that this By-law is, or likely to be, contravened by an <term refersTo="#term-event" id="trm26">event</term> organizer; or</p>
+                </item>
+                <item id="section-2.3.list2.b">
+                  <num>(b)</num>
+                  <p>when a <term refersTo="#term-stakeholder" id="trm27">stakeholder</term> affected by the impact and risk attached to an <term refersTo="#term-event" id="trm28">event</term> files a complaint with the <term refersTo="#term-Event_Permit_Officer" id="trm29">Event Permit Officer</term> or a <term refersTo="#term-Law_Enforcement_Officer" id="trm30">Law Enforcement Officer</term>,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-2.subsection-3">
+            <content>
+              <p>issue a compliance notice to the <term refersTo="#term-event" id="trm31">event</term> organizer in terms of section 8 and act in terms of this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-2.4.list4">
+                <listIntroduction> Purpose-built venues are excluded from this By-law in respect of events normally held in such <term refersTo="#term-venue" id="trm32">venue</term>, provided that - </listIntroduction>
+                <item id="section-2.4.list4.a">
+                  <num>(a)</num>
+                  <p>this exclusion does not apply to events or parts of events held outside the <term refersTo="#term-venue" id="trm33">venue</term> or building, or which by their nature, size or impact are considered outside the normal use parameters for the <term refersTo="#term-venue" id="trm34">venue</term>; and</p>
+                </item>
+                <item id="section-2.4.list4.b">
+                  <num>(b)</num>
+                  <p>owners or managers of purpose-built venues must submit an application to the events <term refersTo="#term-permit" id="trm35">permit</term> office for approval of their events programmes which shall be valid for one year.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-2.5">
+            <num>(5)</num>
+            <content>
+              <p>The Events Permit Officer may, from time to time, issue directives regarding specific or special application process for any specific or special <term refersTo="#term-event" id="trm36">event</term> which may vary in respect of the criteria referred to in section 6.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.6">
+            <num>(6)</num>
+            <content>
+              <p>In the <term refersTo="#term-event" id="trm37">event</term> of a conflict between this By-law and any other by-law or policy of the <term refersTo="#term-City" id="trm38">City</term> this By-law shall prevail regarding the management and holding of events.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-2">
+        <num>2</num>
+        <heading>Application process, requirements, decisions and enforcement</heading>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Submission of applications for approval to hold or stage events</heading>
+          <subsection id="section-3.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-3.1.list0">
+                <listIntroduction> An application to hold or stage an <term refersTo="#term-event" id="trm39">event</term> must be made by the <term refersTo="#term-event_organiser" id="trm40">event organiser</term> and submitted – </listIntroduction>
+                <item id="section-3.1.list0.a">
+                  <num>(a)</num>
+                  <p>by a person who is at least 18 years old;</p>
+                </item>
+                <item id="section-3.1.list0.b">
+                  <num>(b)</num>
+                  <p>in a form as prescribed by the Events Permit Officer;</p>
+                </item>
+                <item id="section-3.1.list0.c">
+                  <num>(c)</num>
+                  <p>within the prescribed time frames; and</p>
+                </item>
+                <item id="section-3.1.list0.d">
+                  <num>(d)</num>
+                  <p>by a person or on behalf of a person who possesses the necessary capacity and resources,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-3.subsection-1">
+            <content>
+              <p>as set out in the Schedule 1, to the events <term refersTo="#term-permit" id="trm41">permit</term> office.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.2">
+            <num>(2)</num>
+            <content>
+              <p>The application must include all information required as indicated in the prescribed form and any additional information as may be requested by the <term refersTo="#term-City" id="trm42">City</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.3">
+            <num>(3)</num>
+            <content>
+              <p>In the <term refersTo="#term-event" id="trm43">event</term> of failure to submit the information referred to in subsection (2) an application will not be considered in terms of this By-Law and the Events Policy.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Requirements and conditions</heading>
+          <subsection id="section-4.1">
+            <num>(1)</num>
+            <content>
+              <p>No person may hold or stage any <term refersTo="#term-event" id="trm44">event</term> without obtaining a <term refersTo="#term-permit" id="trm45">permit</term> referred to in section 5(3).</p>
+            </content>
+          </subsection>
+          <subsection id="section-4.2">
+            <num>(2)</num>
+            <content>
+              <p>An application for an <term refersTo="#term-event" id="trm46">event</term> must comply with the provisions of this By-law and contain such information as indicated in the prescribed application form as set out in the Schedule 2.</p>
+            </content>
+          </subsection>
+          <subsection id="section-4.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-event_organiser" id="trm47">event organiser</term> may not advertise the planned <term refersTo="#term-event" id="trm48">event</term> before an application is submitted to the <term refersTo="#term-City" id="trm49">City</term> and the <term refersTo="#term-Event_Permit_Officer" id="trm50">Event Permit Officer</term> has informed the <term refersTo="#term-event_organiser" id="trm51">event organiser</term> that the application has been approved in terms of section 5(1).</p>
+            </content>
+          </subsection>
+          <subsection id="section-4.4">
+            <num>(4)</num>
+            <content>
+              <p>The Events Permit Officer must, in terms of the Events Policy depending on the nature of the <term refersTo="#term-event" id="trm52">event</term>, ensure that consultation with relevant stakeholders identified by the <term refersTo="#term-City" id="trm53">City</term> is undertaken by the <term refersTo="#term-event" id="trm54">event</term> organizer.</p>
+            </content>
+          </subsection>
+          <subsection id="section-4.5">
+            <num>(5)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm55">Council</term> must, as part of its budgeting process in terms of the Local Government: Municipal Finance Management Act, 2003 (Act No. 56 of 2003), determine tariffs and deposit payable for events.</p>
+            </content>
+          </subsection>
+          <subsection id="section-4.6">
+            <num>(6)</num>
+            <content>
+              <blockList id="section-4.6.list5">
+                <listIntroduction> The <term refersTo="#term-City" id="trm56">City</term> shall not, in respect of any planning for an <term refersTo="#term-event" id="trm57">event</term>, application, approval or <term refersTo="#term-permit" id="trm58">permit</term> issued for an <term refersTo="#term-event" id="trm59">event</term> in terms of this By-law, be held liable for any – </listIntroduction>
+                <item id="section-4.6.list5.a">
+                  <num>(a)</num>
+                  <p>damage to or loss of any property of the <term refersTo="#term-event_organiser" id="trm60">event organiser</term>; or</p>
+                </item>
+                <item id="section-4.6.list5.b">
+                  <num>(b)</num>
+                  <p>costs incurred by an <term refersTo="#term-event_organiser" id="trm61">event organiser</term> or any third party.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-4.7">
+            <num>(7)</num>
+            <content>
+              <p>The <term refersTo="#term-event_organiser" id="trm62">event organiser</term>, or the <term refersTo="#term-venue_owner" id="trm63">venue owner</term> in the case of a small <term refersTo="#term-event" id="trm64">event</term> referred to in section 2(2)(b), shall be liable for the cost of any service provided by the <term refersTo="#term-City" id="trm65">City</term> for or in respect of an <term refersTo="#term-event" id="trm66">event</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Decisions on events</heading>
+          <subsection id="section-5.1">
+            <num>(1)</num>
+            <content>
+              <p>The Events Permit Officer must approve or decline an application for an <term refersTo="#term-event" id="trm67">event</term> in terms of this By Law, within a time period applicable to an <term refersTo="#term-event" id="trm68">event</term> as set out in Schedule 1.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.2">
+            <num>(2)</num>
+            <content>
+              <p>Once a decision has been taken in terms of subsection (1) the applicant must be informed thereof in writing.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.3">
+            <num>(3)</num>
+            <content>
+              <p>Where an application for an <term refersTo="#term-event" id="trm69">event</term> has been approved, the Events Permit Officer must issue a <term refersTo="#term-permit" id="trm70">permit</term> with conditions.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.4">
+            <num>(4)</num>
+            <content>
+              <p>Where an application for an <term refersTo="#term-event" id="trm71">event</term> has been declined, reasons for the decision must be communicated to the applicant in writing.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.5">
+            <num>(5)</num>
+            <content>
+              <p>The <term refersTo="#term-event" id="trm72">event</term> organizer must make sure that the <term refersTo="#term-permit" id="trm73">permit</term> is available at the <term refersTo="#term-venue" id="trm74">venue</term> for inspection at all stages and at all times of the <term refersTo="#term-event" id="trm75">event</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Criteria</heading>
+          <subsection id="section-6.subsection-0">
+            <content>
+              <blockList id="section-6.subsection-0.list0">
+                <listIntroduction> The Events Permit Officer must ensure that applications for staging an <term refersTo="#term-event" id="trm76">event</term> are considered in accordance with the following criteria, where applicable: </listIntroduction>
+                <item id="section-6.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>the type and size of an <term refersTo="#term-event" id="trm77">event</term>;</p>
+                </item>
+                <item id="section-6.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>impact of the <term refersTo="#term-event" id="trm78">event</term> in terms of the strategic fit to the Events Policy;</p>
+                </item>
+                <item id="section-6.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>impact of the <term refersTo="#term-event" id="trm79">event</term> in respect of noise and amplified sound, traffic and logistical aspects, as well as marketing, economic, social and environmental objectives;</p>
+                </item>
+                <item id="section-6.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>the proposed use of the land complies with the applicable zoning scheme and any conditions applicable thereunder;</p>
+                </item>
+                <item id="section-6.subsection-0.list0.e">
+                  <num>(e)</num>
+                  <p>the safety and security risk management of the <term refersTo="#term-event" id="trm80">event</term> in respect of the <term refersTo="#term-event" id="trm81">event</term> plan, logistics, location, site design and other activities taking place near or at the <term refersTo="#term-event" id="trm82">event</term><term refersTo="#term-venue" id="trm83">venue</term> and other threats to the <term refersTo="#term-event" id="trm84">event</term>;</p>
+                </item>
+                <item id="section-6.subsection-0.list0.f">
+                  <num>(f)</num>
+                  <p>return on investment of the <term refersTo="#term-event" id="trm85">event</term>, in cases where the <term refersTo="#term-event" id="trm86">event</term> is sponsored fully or partly by the <term refersTo="#term-City" id="trm87">City</term>; and</p>
+                </item>
+                <item id="section-6.subsection-0.list0.g">
+                  <num>(g)</num>
+                  <p>the <term refersTo="#term-event" id="trm88">event</term> complies with all applicable legislation.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Holding of an <term refersTo="#term-event" id="trm89">event</term></heading>
+          <subsection id="section-7.subsection-0">
+            <content>
+              <blockList id="section-7.subsection-0.list0">
+                <listIntroduction> Event organisers whose applications have been approved in terms of this By-law are responsible for the <term refersTo="#term-event" id="trm90">event</term> and must ensure that — </listIntroduction>
+                <item id="section-7.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>the <term refersTo="#term-event" id="trm91">event</term> is held in compliance with the provisions of this By-law and does not contravene any other law;</p>
+                </item>
+                <item id="section-7.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>the conduct of persons attending an <term refersTo="#term-event" id="trm92">event</term> and the activities undertaken or carried out at the <term refersTo="#term-event" id="trm93">event</term> do not negatively impact on affected communities during such <term refersTo="#term-event" id="trm94">event</term>;</p>
+                </item>
+                <item id="section-7.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>any compliance notice issued by the Events Permit Officer in terms of section 8 is complied with.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Compliance notice</heading>
+          <subsection id="section-8.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-8.1.list0">
+                <listIntroduction> When the Events Permit Officer or a <term refersTo="#term-Law_Enforcement_Officer" id="trm95">Law Enforcement Officer</term> finds that a provision of this By-law is contravened by an <term refersTo="#term-event" id="trm96">event</term> organizer or that a condition has arisen that has the potential to lead to a contravention of this By-law or any other law, he or she – </listIntroduction>
+                <item id="section-8.1.list0.a">
+                  <num>(a)</num>
+                  <p>may issue a compliance notice to the <term refersTo="#term-event" id="trm97">event</term> organizer; or</p>
+                </item>
+                <item id="section-8.1.list0.b">
+                  <num>(b)</num>
+                  <p>may, on receipt of information from an <term refersTo="#term-authorized_official" id="trm98">authorized official</term> relating to the contravention of this By-law or any other law in respect of the holding or staging of an <term refersTo="#term-event" id="trm99">event</term>, issue a compliance notice to the <term refersTo="#term-event_organiser" id="trm100">event organiser</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-8.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-8.2.list1">
+                <listIntroduction> A notice issued in terms of subsection (1) must state — </listIntroduction>
+                <item id="section-8.2.list1.a">
+                  <num>(a)</num>
+                  <p>the provision of the By-law that is being contravened or will be contravened if the condition is allowed to continue;</p>
+                </item>
+                <item id="section-8.2.list1.b">
+                  <num>(b)</num>
+                  <p>the measures that must be taken to rectify the condition; and</p>
+                </item>
+                <item id="section-8.2.list1.c">
+                  <num>(c)</num>
+                  <p>the time period in which the notice must be complied with.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-8.3">
+            <num>(3)</num>
+            <content>
+              <p>If a person on whom notice was served in terms of subsection (1), fails to comply with the requirements of the notice, the <term refersTo="#term-Event_Permit_Officer" id="trm101">Event Permit Officer</term>, a <term refersTo="#term-Law_Enforcement_Officer" id="trm102">Law Enforcement Officer</term> or an <term refersTo="#term-authorized_official" id="trm103">authorized official</term> may, for the purposes of this By-law, take such steps as may be necessary to rectify the condition at the cost of the <term refersTo="#term-event" id="trm104">event</term> organizer.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.4">
+            <num>(4)</num>
+            <content>
+              <p>A person who fails to comply with a compliance notice issued in terms of subsection (1) commits an offence.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-8.5.list4">
+                <listIntroduction> The <term refersTo="#term-City" id="trm105">City</term> shall, in respect of a person who fails to comply with a compliance notice in respect of one or more events – </listIntroduction>
+                <item id="section-8.5.list4.a">
+                  <num>(a)</num>
+                  <p>keep a record of non-compliance and consider any appropriate action as may be required; and</p>
+                </item>
+                <item id="section-8.5.list4.b">
+                  <num>(b)</num>
+                  <p>require an increased deposit from the person for future events to be held or staged by such person.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Inspections and right of access</heading>
+          <subsection id="section-9.1">
+            <num>(1)</num>
+            <content>
+              <p>The Events Permit Officer, an <term refersTo="#term-authorized_official" id="trm106">authorized official</term> or a law enforcement officer may conduct inspections of a <term refersTo="#term-venue" id="trm107">venue</term> after the submission of an application, during or after the staging or holding of an <term refersTo="#term-event" id="trm108">event</term> to determine compliance with this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-9.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-9.2.list1">
+                <listIntroduction> The Events Permit Officer or a law enforcement officer has a right of access to or over any <term refersTo="#term-venue" id="trm109">venue</term> for the purposes of — </listIntroduction>
+                <item id="section-9.2.list1.a">
+                  <num>(a)</num>
+                  <p>doing anything authorised or required to be done by the <term refersTo="#term-City" id="trm110">City</term> under this By-law;</p>
+                </item>
+                <item id="section-9.2.list1.b">
+                  <num>(b)</num>
+                  <p>ascertaining whether there is or has been a contravention of the provisions of this By-law; and</p>
+                </item>
+                <item id="section-9.2.list1.c">
+                  <num>(c)</num>
+                  <p>enforcing compliance with the provisions of this By-law.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-9.3">
+            <num>(3)</num>
+            <content>
+              <p>An Events Permit Officer, an <term refersTo="#term-authorized_official" id="trm111">authorized official</term>, or a law enforcement officer may, by notice in writing served on the owner or occupier of any property, require such owner or occupier to provide, on the day and at the hour specified in such notice, access to such property to a person and for a purpose referred to in subsection (2).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Suspension and revocation of <term refersTo="#term-permit" id="trm112">permit</term></heading>
+          <subsection id="section-10.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-10.1.list0">
+                <listIntroduction> The <term refersTo="#term-Event_Permit_Officer" id="trm113">Event Permit Officer</term>, may, where the <term refersTo="#term-event" id="trm114">event</term> organizer fails to comply with a compliance notice issued in terms section 8, by notice in writing to the <term refersTo="#term-event_organiser" id="trm115">event organiser</term> — </listIntroduction>
+                <item id="section-10.1.list0.a">
+                  <num>(a)</num>
+                  <p>suspend the <term refersTo="#term-permit" id="trm116">permit</term> immediately until the <term refersTo="#term-event_organiser" id="trm117">event organiser</term> has complied with the compliance notice;</p>
+                </item>
+                <item id="section-10.1.list0.b">
+                  <num>(b)</num>
+                  <p>revoke the <term refersTo="#term-permit" id="trm118">permit</term> and take such steps as may be necessary in terms of this By-law, and the <term refersTo="#term-event_organiser" id="trm119">event organiser</term> shall be liable for any costs incurred thereby; or</p>
+                </item>
+                <item id="section-10.1.list0.c">
+                  <num>(c)</num>
+                  <p>on receipt of information from a <term refersTo="#term-Law_Enforcement_Officer" id="trm120">Law Enforcement Officer</term> or an authorised official relating to failure to comply with a compliance notice, suspend or revoke the <term refersTo="#term-permit" id="trm121">permit</term> of an <term refersTo="#term-event" id="trm122">event</term> organizer.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-10.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-City" id="trm123">City</term> may, where the <term refersTo="#term-Event_Permit_Officer" id="trm124">Event Permit Officer</term> has acted in terms subsection (1), withhold the deposit paid by the <term refersTo="#term-event" id="trm125">event</term> organizer for an <term refersTo="#term-event" id="trm126">event</term> as security for the payment of such costs.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>General provisions</heading>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Agreements and partnerships</heading>
+          <subsection id="section-11.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-City" id="trm127">City</term> may enter into such agreements and partnerships with <term refersTo="#term-event" id="trm128">event</term> organizers as may be necessary for the holding and management of events in terms of this By-Law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-11.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-City" id="trm129">City</term> may, under an agreement or partnership contemplated in subsection (1), provide support either logistically, financially or both to specific events which are aligned to the strategic objectives of the <term refersTo="#term-City" id="trm130">City</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-11.3">
+            <num>(3)</num>
+            <content>
+              <p>The agreements and partnerships contemplated in subsections (1) must provide for service levels which must be met by the parties in order to ensure compliance with this By-law and the Local Government: Municipal Finance Management Act, 2003 (Act No. 56 of 2003).</p>
+            </content>
+          </subsection>
+          <subsection id="section-11.4">
+            <num>(4)</num>
+            <content>
+              <p>Notwithstanding the provisions of this By-law relating to offences and penalties, an agreement concluded in terms of this section may provide for penalties for which an <term refersTo="#term-event" id="trm131">event</term> organizer may be liable in the <term refersTo="#term-event" id="trm132">event</term> of non-compliance therewith.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Delegations</heading>
+          <subsection id="section-12.1">
+            <num>(1)</num>
+            <content>
+              <p>The Events Permit Officer may delegate any of the powers conferred on him or her in this By-law to any other official of the <term refersTo="#term-City" id="trm133">City</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.subsection-1">
+            <content>
+              <p>The Events Permit Officer must, once an application for an <term refersTo="#term-event" id="trm134">event</term> has been approved in terms of this By-law but before such approval is communicated to the <term refersTo="#term-event" id="trm135">event</term> organizer, consult with the chairperson and manager of the relevant sub-council and the ward councillor, and such consultation shall be deemed to be an approval in terms of the System of Delegations of the <term refersTo="#term-City" id="trm136">City</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Right of appeal</heading>
+          <subsection id="section-13.1">
+            <num>(1)</num>
+            <content>
+              <p>Parties to a dispute arising from a conflict in terms of this By Law must attempt to resolve such conflict before exercising the right of appeal contemplated in subsection (2)</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-event" id="trm137">event</term> organizer may appeal against a decision where his or her application to hold an <term refersTo="#term-event" id="trm138">event</term> has been declined.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.3">
+            <num>(3)</num>
+            <content>
+              <p>An appeal may be lodged in writing with the <term refersTo="#term-City_Manager" id="trm139">City Manager</term> within a period as indicated in Schedule 1 in relation to the type of <term refersTo="#term-event" id="trm140">event</term> concerned.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.4">
+            <num>(4)</num>
+            <content>
+              <p>The application which is a subject of appeal must be decided in terms of section 5 before the appellant may lodge an appeal within the applicable time-frames set out in Schedule 1.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.5">
+            <num>(5)</num>
+            <content>
+              <p>An appeal lodged in terms of this section must be considered and decided within such time as indicated in Schedule 1 in relation to the type of <term refersTo="#term-event" id="trm141">event</term> concerned.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.6">
+            <num>(6)</num>
+            <content>
+              <p>The <term refersTo="#term-City_Manager" id="trm142">City Manager</term> may delegate any official of the <term refersTo="#term-City" id="trm143">City</term> to consider and decide on appeals referred to in subsection (2).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>Indemnity</heading>
+          <subsection id="section-14.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-14.1.list0">
+                <listIntroduction> The <term refersTo="#term-event" id="trm144">event</term> specialized must provide — </listIntroduction>
+                <item id="section-14.1.list0.a">
+                  <num>(a)</num>
+                  <p>evidence, to the satisfaction of the <term refersTo="#term-City_Manager" id="trm145">City Manager</term>, of appropriate indemnity cover; and</p>
+                </item>
+                <item id="section-14.1.list0.b">
+                  <num>(b)</num>
+                  <p>where an activity which may put the public at risk will be involved, evidence to the satisfaction of the Events Permit Officer of appropriate specialized risk insurance, blanket liability or work cover.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-14.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-City" id="trm146">City</term> shall not be liable for any costs, including any damage or loss, incurred or suffered as a result of an <term refersTo="#term-event" id="trm147">event</term> held without an approval in terms of this By-law.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Offences and penalties</heading>
+          <subsection id="section-15.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-15.1.list0">
+                <listIntroduction> Any person who - </listIntroduction>
+                <item id="section-15.1.list0.a">
+                  <num>(a)</num>
+                  <p>holds an <term refersTo="#term-event" id="trm148">event</term> without a <term refersTo="#term-permit" id="trm149">permit</term>, in contravention of sesction 4(1);</p>
+                </item>
+                <item id="section-15.1.list0.b">
+                  <num>(b)</num>
+                  <p>is an <term refersTo="#term-event" id="trm150">event</term> organizer and whose application to hold an <term refersTo="#term-event" id="trm151">event</term> has been approved, fails to comply with any provision of this By-law or contravenes a provision of any other law relating to events for which the <term refersTo="#term-City" id="trm152">City</term> is responsible for implementation and enforcement, in contravention of section 7(a);</p>
+                </item>
+                <item id="section-15.1.list0.c">
+                  <num>(c)</num>
+                  <p>fails to ensure that the conduct of persons attending an <term refersTo="#term-event" id="trm153">event</term> and the activities undertaken or carried out at an <term refersTo="#term-event" id="trm154">event</term> do not disturb the neighbouring community and the residents, in contravention of section 7(b);</p>
+                </item>
+                <item id="section-15.1.list0.d">
+                  <num>(d)</num>
+                  <p>fails to ensure compliance with a notice issued by the Events Permit Officer or a <term refersTo="#term-Law_Enforcement_Officer" id="trm155">Law Enforcement Officer</term> in terms of section 8(1), in contravention of section 7(c),</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-15.subsection-1">
+            <content>
+              <p>shall be guilty of an offence.</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-15.2.list2">
+                <listIntroduction> A person who commits an offence in terms of this By-Law shall, on conviction, be liable - </listIntroduction>
+                <item id="section-15.2.list2.a">
+                  <num>(a)</num>
+                  <p>in the case of an offence referred to in subsection (1)(a) or (b), to a fine or to imprisonment for a period not exceeding twelve months, or to both such fine and such imprisonment;</p>
+                </item>
+                <item id="section-15.2.list2.b">
+                  <num>(b)</num>
+                  <p>in the case of an offence referred to in subsection (1)(c), to such fine as the court may deem fit to impose or to imprisonment for a period not exceeding five years, or to both such fine and such imprisonment;</p>
+                </item>
+                <item id="section-15.2.list2.c">
+                  <num>(c)</num>
+                  <p>in the case of an offence referred to in subsection (1)(d), to such fine as the court may deem fit to impose or to imprisonment for a period not exceeding 10 years, or to both such fine and imprisonment.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Short title</heading>
+          <subsection id="section-16.subsection-0">
+            <content>
+              <p>This By-Law is called <term refersTo="#term-City" id="trm156">City</term> of Cape Town: Events By-Law.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+    </body>
+  </act>
+  <components>
+    <component id="component-1">
+      <doc name="schedule1">
+        <meta>
+          <identification source="#openbylaws">
+            <FRBRWork>
+              <FRBRthis value="/za-cpt/act/by-law/2009/events/schedule1"/>
+              <FRBRuri value="/za-cpt/act/by-law/2009/events"/>
+              <FRBRalias value="Schedule 1"/>
+              <FRBRdate date="2009-05-22" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-cpt/act/by-law/2009/events/eng@2009-05-22/schedule1"/>
+              <FRBRuri value="/za-cpt/act/by-law/2009/events/eng@2009-05-22"/>
+              <FRBRdate date="2009-05-22" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-cpt/act/by-law/2009/events/eng@2009-05-22/schedule1"/>
+              <FRBRuri value="/za-cpt/act/by-law/2009/events/eng@2009-05-22"/>
+              <FRBRdate date="2013-10-13" name="Generation"/>
+              <FRBRauthor href="#openbylaws" as="#author"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule-1">
+            <heading>Schedule of events application timeframes</heading>
+            <section id="schedule-1.section-0">
+              <content>
+                <p>Subject to applicable criteria, the following timeframes below will apply:</p>
+                <table id="schedule-1.table-0">
+                  <tr>
+                    <th>
+                      <p>SIZE</p>
+                    </th>
+                    <th>
+                      <p>CROWD SIZE/NO OF PARTICIPANTS</p>
+                    </th>
+                    <th>
+                      <p>MINIMUM TIME FOR SUBMISSION OF AN APPLICATION TO THE CITY BY THE EVENT ORGANISER BEFORE THE DATE OF AN EVENT [all required information relating to the application must be submitted in terms of section 3(2)]</p>
+                    </th>
+                    <th>
+                      <p>MINIMUM TIME FOR THE CITY TO RESPOND TO AN APPLICATION FOR STAGING AN EVENT</p>
+                    </th>
+                    <th>
+                      <p>APPEALS TO BE LODGED BY APPLICANT WITH CITY WITHIN</p>
+                    </th>
+                    <th>
+                      <p>APPEAL TO BE DECIDED BY CITY WITHIN</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Small</p>
+                    </td>
+                    <td>
+                      <p>50 to 2000</p>
+                    </td>
+                    <td>
+                      <p>15 working days (3 weeks)</p>
+                    </td>
+                    <td>
+                      <p>10 working days (2 weeks)</p>
+                    </td>
+                    <td>
+                      <p>24 hours of receipt of written notice from the City indicating failure to resolve conflict</p>
+                    </td>
+                    <td>
+                      <p>24 hours of receipt of written notice of appeal</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Medium</p>
+                    </td>
+                    <td>
+                      <p>2001-5000</p>
+                    </td>
+                    <td>
+                      <p>20 working days (4 weeks)</p>
+                    </td>
+                    <td>
+                      <p>15 working days (3 weeks)</p>
+                    </td>
+                    <td>
+                      <p>48 hours of receipt of written notice from the City indicating failure to resolve conflict</p>
+                    </td>
+                    <td>
+                      <p>Within 48 hours of receipt of written notice</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Large</p>
+                    </td>
+                    <td>
+                      <p>5001-10 000</p>
+                    </td>
+                    <td>
+                      <p>25 working days (5 weeks)</p>
+                    </td>
+                    <td>
+                      <p>20 working days (4 weeks)</p>
+                    </td>
+                    <td>
+                      <p>48 hours of receipt of written notice from the City indicating failure to resolve conflict</p>
+                    </td>
+                    <td>
+                      <p>Within 3 working days</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Very Large</p>
+                    </td>
+                    <td>
+                      <p>10 001-above </p>
+                    </td>
+                    <td>
+                      <p>60 working days 3 months (minimum, 6 months ideal)</p>
+                    </td>
+                    <td>
+                      <p>40 working days (2 months)</p>
+                    </td>
+                    <td>
+                      <p>48 hours of receipt of written notice from the City indicating failure to resolve conflict</p>
+                    </td>
+                    <td>
+                      <p>Within 5 working days</p>
+                    </td>
+                  </tr>
+                </table>
+              </content>
+            </section>
+            <section id="schedule-1.section-1">
+              <heading>NOTE:</heading>
+              <subsection id="schedule-1.section-1.1">
+                <num>1.</num>
+                <content>
+                  <p>The timeframes do not include events applications where a land use planning approval is required i.e. where an event is to be held on land which is not appropriately zoned. In such instances, the time frames for a very large event will apply.</p>
+                </content>
+              </subsection>
+              <subsection id="schedule-1.section-1.2">
+                <num>2.</num>
+                <content>
+                  <p>If a small event includes food vendors, a minimum of 15 days will be required if food vendors need to apply for licences and certificates of acceptability.</p>
+                </content>
+              </subsection>
+              <subsection id="schedule-1.section-1.3">
+                <num>3.</num>
+                <content>
+                  <p>Any event which involves an application for a temporary land use departure and where the departure has not been granted must follow the appeal process as outlined in the Land Use Planning Ordinance, 1985 (Ordinance No. 15 of 1985)</p>
+                </content>
+              </subsection>
+            </section>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+    <component id="component-2">
+      <doc name="schedule2">
+        <meta>
+          <identification source="#openbylaws">
+            <FRBRWork>
+              <FRBRthis value="/za-cpt/act/by-law/2009/events/schedule2"/>
+              <FRBRuri value="/za-cpt/act/by-law/2009/events"/>
+              <FRBRalias value="Schedule 2"/>
+              <FRBRdate date="2009-05-22" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-cpt/act/by-law/2009/events/eng@2009-05-22/schedule2"/>
+              <FRBRuri value="/za-cpt/act/by-law/2009/events/eng@2009-05-22"/>
+              <FRBRdate date="2009-05-22" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-cpt/act/by-law/2009/events/eng@2009-05-22/schedule2"/>
+              <FRBRuri value="/za-cpt/act/by-law/2009/events/eng@2009-05-22"/>
+              <FRBRdate date="2013-10-13" name="Generation"/>
+              <FRBRauthor href="#openbylaws" as="#author"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule-2">
+            <heading>Events requirements listing</heading>
+            <section id="schedule-2.section-1">
+              <content>
+                <p>Note: the City may request information additional to that listed as determined by the type and detail of the event</p>
+                <blockList id="schedule-2.section-1.list0">
+                  <item id="schedule-2.section-1.list0.a">
+                    <num>a.</num>
+                    <p>Description of event: including type, date, venue, locality and number and profile of participants.</p>
+                  </item>
+                  <item id="schedule-2.section-1.list0.b">
+                    <num>b.</num>
+                    <p>Event Programme: full details and times, plus contact details for person responsible for each aspect of event.</p>
+                  </item>
+                  <item id="schedule-2.section-1.list0.c">
+                    <num>c.</num>
+                    <p>Layout of event: including stages, marquees, catering, venue operation centre etc.</p>
+                  </item>
+                  <item id="schedule-2.section-1.list0.d">
+                    <num>d.</num>
+                    <p>Zoning confirmation of the permitted land use or land use planning approval where necessary.</p>
+                  </item>
+                  <item id="schedule-2.section-1.list0.e">
+                    <num>e.</num>
+                    <p>Transport and Traffic Management Plans (T&amp; TMP), which may include where applicable, proposed road closures, route plan, parking, optimal public transport utilisation, emergency access routes. The format of the T&amp; T&amp;TMP will be as prescribed by the City.</p>
+                  </item>
+                  <item id="schedule-2.section-1.list0.f">
+                    <num>f.</num>
+                    <p>Crowd Management Plan.</p>
+                  </item>
+                  <item id="schedule-2.section-1.list0.g">
+                    <num>g.</num>
+                    <p>Emergency and Contingency Plans: including medical, security, emergency, facility, evacuation.</p>
+                  </item>
+                  <item id="schedule-2.section-1.list0.h">
+                    <num>h.</num>
+                    <p>Event Communication Plan: including ticket selling strategy, accreditation.</p>
+                  </item>
+                  <item id="schedule-2.section-1.list0.i">
+                    <num>i.</num>
+                    <p>Community Participation Plan: including but not limited to contact with Councillor/s; Community/ Residents Organisations/Associations and Business Associations.</p>
+                  </item>
+                  <item id="schedule-2.section-1.list0.i">
+                    <num>i.</num>
+                    <p>Environmental Management Plan, including a rehabilitation plan, financial guarantee, or any applicable environmental or heritage permission.</p>
+                  </item>
+                  <item id="schedule-2.section-1.list0.k">
+                    <num>k.</num>
+                    <p>Integrated Waste Management Plan (including immediate precinct).</p>
+                  </item>
+                  <item id="schedule-2.section-1.list0.l">
+                    <num>l.</num>
+                    <p>Vendors/Caterers: list of details and use of liquid petroleum gas. (City of Cape Town Informal Trading and City Health By-Law requirements and related legislative requirements).</p>
+                  </item>
+                  <item id="schedule-2.section-1.list0.m">
+                    <num>m.</num>
+                    <p>Health requirements including: certificates of acceptability, vendor licenses, ablution facilities or mobile toilets.</p>
+                  </item>
+                  <item id="schedule-2.section-1.list0.n">
+                    <num>n.</num>
+                    <p>Completed application forms for: noise exemption and amplified sound (incl. public participation) and erection of stages/marquees. (Proof of submission of an application for liquor licence/s, fireworks application, civil aviation application as per the specific of the type of event)</p>
+                  </item>
+                  <item id="schedule-2.section-1.list0.o">
+                    <num>o.</num>
+                    <p>City of Cape Town services requirements: including electricity, water, waste management plan (during and after the event), transport, roads and storm water.</p>
+                  </item>
+                  <item id="schedule-2.section-1.list0.p">
+                    <num>p.</num>
+                    <p>Indemnity forms and public liability insurance confirmation letter.</p>
+                  </item>
+                  <item id="schedule-2.section-1.list0.q">
+                    <num>q.</num>
+                    <p>Written approval from venue owner/venue manager to the applicant authorising the event organiser to the use of the facility/venue to host the event.</p>
+                  </item>
+                </blockList>
+              </content>
+            </section>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+    <component id="component-3">
+      <doc name="schedule3">
+        <meta>
+          <identification source="#openbylaws">
+            <FRBRWork>
+              <FRBRthis value="/za-cpt/act/by-law/2009/events/schedule3"/>
+              <FRBRuri value="/za-cpt/act/by-law/2009/events"/>
+              <FRBRalias value="Schedule 3"/>
+              <FRBRdate date="2009-05-22" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-cpt/act/by-law/2009/events/eng@2009-05-22/schedule3"/>
+              <FRBRuri value="/za-cpt/act/by-law/2009/events/eng@2009-05-22"/>
+              <FRBRdate date="2009-05-22" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-cpt/act/by-law/2009/events/eng@2009-05-22/schedule3"/>
+              <FRBRuri value="/za-cpt/act/by-law/2009/events/eng@2009-05-22"/>
+              <FRBRdate date="2013-10-13" name="Generation"/>
+              <FRBRauthor href="#openbylaws" as="#author"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule-3">
+            <heading>Schedule of fines</heading>
+            <section id="schedule-3.section-0">
+              <content>
+                <p>(Notwithstanding any other fines which may be imposed in terms of any other law, these fines may be imposed for contraventions of the Events By-law and may be additional to such fines)</p>
+                <table id="schedule-3.table-0">
+                  <tr>
+                    <th style="width: 15%">
+                      <p>SECTION</p>
+                    </th>
+                    <th style="width: 30%">
+                      <p>OFFENCE</p>
+                    </th>
+                    <th style="width: 35%">
+                      <p>FINE</p>
+                    </th>
+                    <th style="width: 20%">
+                      <p>FINES FOR REPEAT OFFENDERS [SECTION 8(5)]</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>4(1)</p>
+                    </td>
+                    <td>
+                      <p>Holding an event without a permit</p>
+                    </td>
+                    <td>
+                      <p>Small event - R1 000</p>
+                      <p>Medium event - R5 000</p>
+                      <p>Large event - R10 000</p>
+                      <p>Very large event - R15 000</p>
+                    </td>
+                    <td>
+                      <p>R10 000</p>
+                      <p>R50 000</p>
+                      <p>R100 000</p>
+                      <p>R150 000</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>7(a)</p>
+                    </td>
+                    <td>
+                      <p>Holding an event in contravention of the Events By-law or any other law</p>
+                    </td>
+                    <td>
+                      <p>Small event - R1 000</p>
+                      <p>Medium event - R5 000</p>
+                      <p>Large event - R10 000</p>
+                      <p>Very large event - R15 000</p>
+                    </td>
+                    <td>
+                      <p>R10 000</p>
+                      <p>R50 000</p>
+                      <p>R100 000</p>
+                      <p>R150 000</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>7(b)</p>
+                    </td>
+                    <td>
+                      <p>Failure to ensure that the conduct of persons attending an event and the activities undertaken or carried out do not disturb the neighbouring community and residents</p>
+                    </td>
+                    <td>
+                      <p>Small event - R1 000</p>
+                      <p>Medium event - R5 000</p>
+                      <p>Large event - R10 000</p>
+                      <p>Very large event - R15 000</p>
+                    </td>
+                    <td>
+                      <p>R20 000</p>
+                      <p>R80 000</p>
+                      <p>R200 000</p>
+                      <p>R300 000</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>7(c)</p>
+                    </td>
+                    <td>
+                      <p>Failure to ensure that a compliance notice issued by the Events Permit Officer is complied with</p>
+                    </td>
+                    <td>
+                      <p>Small event - R1 000</p>
+                      <p>Medium event - R5 000</p>
+                      <p>Large event - R10 000</p>
+                      <p>Very large event - R15 000</p>
+                    </td>
+                    <td>
+                      <p>R20 000</p>
+                      <p>R80 000</p>
+                      <p>R200 000</p>
+                      <p>R300 000</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>8(1)</p>
+                    </td>
+                    <td>
+                      <p>Failure to comply with a compliance notice issued by the Events Permit Officer or Law Enforcement Officer</p>
+                    </td>
+                    <td>
+                      <p>Small event - R1 000</p>
+                      <p>Medium event - R5 000</p>
+                      <p>Large event - R10 000</p>
+                      <p>Very large event - R15 000</p>
+                    </td>
+                    <td>
+                      <p>R50 000</p>
+                      <p>R100 000</p>
+                      <p>R400 000</p>
+                      <p>R600 000</p>
+                    </td>
+                  </tr>
+                </table>
+              </content>
+            </section>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>

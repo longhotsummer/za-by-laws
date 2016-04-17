@@ -1,0 +1,1961 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-eth/act/by-law/2014/informal-trading/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2014/informal-trading"/>
+          <FRBRalias value="eThekwini Municipality: Informal Trading By-law, 2014"/>
+          <FRBRdate date="2014-06-27" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-eth/act/by-law/2014/informal-trading/eng@2014-06-27/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2014/informal-trading/eng@2014-06-27"/>
+          <FRBRdate date="2014-06-27" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-eth/act/by-law/2014/informal-trading/eng@2014-06-27/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2014/informal-trading/eng@2014-06-27"/>
+          <FRBRdate date="2016-03-28" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-06-27" name="KwaZulu-Natal Provincial Gazette" showAs="KwaZulu-Natal Provincial Gazette" number="1173"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-authorised_official" href="/ontology/term/this.eng.authorised_official" showAs="authorised official"/>
+        <TLCTerm id="term-beach" href="/ontology/term/this.eng.beach" showAs="beach"/>
+        <TLCTerm id="term-beach_trading" href="/ontology/term/this.eng.beach_trading" showAs="beach trading"/>
+        <TLCTerm id="term-black_person" href="/ontology/term/this.eng.black_person" showAs="black person"/>
+        <TLCTerm id="term-event" href="/ontology/term/this.eng.event" showAs="event"/>
+        <TLCTerm id="term-foodstuff" href="/ontology/term/this.eng.foodstuff" showAs="foodstuff"/>
+        <TLCTerm id="term-goods" href="/ontology/term/this.eng.goods" showAs="goods"/>
+        <TLCTerm id="term-high-water_mark" href="/ontology/term/this.eng.high-water_mark" showAs="high-water mark"/>
+        <TLCTerm id="term-illegal_goods" href="/ontology/term/this.eng.illegal_goods" showAs="illegal goods"/>
+        <TLCTerm id="term-impoundment_fee" href="/ontology/term/this.eng.impoundment_fee" showAs="impoundment fee"/>
+        <TLCTerm id="term-informal_trader" href="/ontology/term/this.eng.informal_trader" showAs="informal trader"/>
+        <TLCTerm id="term-informal_trading" href="/ontology/term/this.eng.informal_trading" showAs="informal trading"/>
+        <TLCTerm id="term-intersection" href="/ontology/term/this.eng.intersection" showAs="intersection"/>
+        <TLCTerm id="term-kerb_line" href="/ontology/term/this.eng.kerb_line" showAs="kerb line"/>
+        <TLCTerm id="term-litter" href="/ontology/term/this.eng.litter" showAs="litter"/>
+        <TLCTerm id="term-market" href="/ontology/term/this.eng.market" showAs="market"/>
+        <TLCTerm id="term-motor_vehicle" href="/ontology/term/this.eng.motor_vehicle" showAs="motor vehicle"/>
+        <TLCTerm id="term-municipal_council" href="/ontology/term/this.eng.municipal_council" showAs="municipal council"/>
+        <TLCTerm id="term-Municipality" href="/ontology/term/this.eng.Municipality" showAs="Municipality"/>
+        <TLCTerm id="term-municipal_manager" href="/ontology/term/this.eng.municipal_manager" showAs="municipal manager"/>
+        <TLCTerm id="term-municipal_property" href="/ontology/term/this.eng.municipal_property" showAs="municipal property"/>
+        <TLCTerm id="term-national_monument" href="/ontology/term/this.eng.national_monument" showAs="national monument"/>
+        <TLCTerm id="term-non-municipal_property" href="/ontology/term/this.eng.non-municipal_property" showAs="non-municipal property"/>
+        <TLCTerm id="term-nuisance" href="/ontology/term/this.eng.nuisance" showAs="nuisance"/>
+        <TLCTerm id="term-obstruct" href="/ontology/term/this.eng.obstruct" showAs="obstruct"/>
+        <TLCTerm id="term-one-off_event" href="/ontology/term/this.eng.one-off_event" showAs="one-off event"/>
+        <TLCTerm id="term-park" href="/ontology/term/this.eng.park" showAs="park"/>
+        <TLCTerm id="term-permit-holder" href="/ontology/term/this.eng.permit-holder" showAs="permit-holder"/>
+        <TLCTerm id="term-prescribed" href="/ontology/term/this.eng.prescribed" showAs="prescribed"/>
+        <TLCTerm id="term-public_building" href="/ontology/term/this.eng.public_building" showAs="public building"/>
+        <TLCTerm id="term-public_parking_space" href="/ontology/term/this.eng.public_parking_space" showAs="public parking space"/>
+        <TLCTerm id="term-public_place" href="/ontology/term/this.eng.public_place" showAs="public place"/>
+        <TLCTerm id="term-public_road" href="/ontology/term/this.eng.public_road" showAs="public road"/>
+        <TLCTerm id="term-roadway" href="/ontology/term/this.eng.roadway" showAs="roadway"/>
+        <TLCTerm id="term-seashore" href="/ontology/term/this.eng.seashore" showAs="seashore"/>
+        <TLCTerm id="term-sell" href="/ontology/term/this.eng.sell" showAs="sell"/>
+        <TLCTerm id="term-services" href="/ontology/term/this.eng.services" showAs="services"/>
+        <TLCTerm id="term-shoulder" href="/ontology/term/this.eng.shoulder" showAs="shoulder"/>
+        <TLCTerm id="term-sidewalk" href="/ontology/term/this.eng.sidewalk" showAs="sidewalk"/>
+        <TLCTerm id="term-street_trading" href="/ontology/term/this.eng.street_trading" showAs="street trading"/>
+        <TLCTerm id="term-verge" href="/ontology/term/this.eng.verge" showAs="verge"/>
+      </references>
+    </meta>
+    <preface>
+      <p>To provide for the right to engage in informal trading; to establish informal trading areas and informal trading sites on municipal property; to provide for the granting of trading permits to trade on municipal property; to restrict and prohibit informal trading in certain areas; to regulate the conduct of informal traders; to regulate informal trading at special events; to provide for measures to ensure health and safety; to create offences and penalties; to provide for the repeal of laws and savings; and to provide for matters incidental thereto.</p>
+    </preface>
+    <preamble>
+      <p>WHEREAS the council recognises the key role that informal trading plays in poverty alleviation, income generation and entrepreneurial development and, in particular, the positive impact that informal trading has on historically disadvantaged individuals and communities;</p>
+      <p>WHEREAS the council recognises the need to adopt a developmental approach to informal trading within a well-managed municipal area. This requires that, in managing informal trading, consideration must also be given to –</p>
+      <p>(a) the promotion of social and economic development;</p>
+      <p>(b) the promotion of a safe and healthy environment;</p>
+      <p>(c) municipal planning;</p>
+      <p>(d) the licensing and control of undertakings that sell food to the public; and</p>
+      <p>(e) the management of public places and public roads;</p>
+      <p>WHEREAS the council has competence in terms of Part B of Schedules 4 and 5 of the Constitution relating to such matters as the control of street trading, trading, markets and beaches;</p>
+      <p>AND WHEREAS the eThekwini municipal council has competence, in terms of the section 156 (2) of the Constitution of the Republic of South Africa, to make and administer by-laws for the effective administration of the matters which it has the right to administer;</p>
+      <p>NOW THEREFORE the eThekwini municipal council, acting in terms of section 156 read with Part B of Schedule 5 of the Constitution of the Republic of South Africa, and read with section 11 of the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000), hereby makes the following By-law:</p>
+    </preamble>
+    <body>
+      <chapter id="chapter-1">
+        <num>1</num>
+        <heading>Interpretation</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <paragraph id="section-1.paragraph-0" refersTo="#term-verge">
+            <content>
+              <p>In this By-law, unless the context indicates otherwise –</p>
+              <blockList id="section-1.paragraph-0.list2" refersTo="#term-authorised_official">
+                <listIntroduction>"<def refersTo="#term-authorised_official">authorised official</def>" means a person authorised to implement the provisions of this Bylaw, including but not limited to:-</listIntroduction>
+                <item id="section-1.paragraph-0.list2.a">
+                  <num>(a)</num>
+                  <p>peace officers as contemplated in section 334 of the Criminal Procedure Act, 1977 (Act No. 51 of 1977);</p>
+                </item>
+                <item id="section-1.paragraph-0.list2.b">
+                  <num>(b)</num>
+                  <p>municipal or metropolitan police officers as contemplated in the South African Police Service Act, 1995 (Act No. 68 of 1995); and</p>
+                </item>
+                <item id="section-1.paragraph-0.list2.c">
+                  <num>(c)</num>
+                  <p>such employees, agents, delegated nominees, representatives and service providers of the <term refersTo="#term-Municipality" id="trm0">Municipality</term> as are specifically authorised by the <term refersTo="#term-Municipality" id="trm1">Municipality</term> in this regard: Provided that for the purposes of search and seizure, where such person is not a peace officer, such person must be accompanied by a peace officer;</p>
+                </item>
+              </blockList>
+              <p>"<def refersTo="#term-beach">beach</def>" means the portion of land above and contiguous to the <term refersTo="#term-seashore" id="trm2">seashore</term> and includes any grass <term refersTo="#term-verge" id="trm3">verge</term>, where such <term refersTo="#term-verge" id="trm4">verge</term> exists;</p>
+              <p>"<def refersTo="#term-beach_trading">beach trading</def>" means <term refersTo="#term-informal_trading" id="trm5">informal trading</term> that is conducted on a <term refersTo="#term-beach" id="trm6">beach</term> and includes <term refersTo="#term-informal_trading" id="trm7">informal trading</term> in a parking area adjacent to the <term refersTo="#term-beach" id="trm8">beach</term>;</p>
+              <p>"<def refersTo="#term-black_person">black person</def>" means a <term refersTo="#term-black_person" id="trm9">black person</term> as defined in the Broad-based Black Economic Empowerment Act, 2003 (Act No. 53 of 2003);</p>
+              <p>"<def refersTo="#term-event">event</def>" means an <term refersTo="#term-event" id="trm10">event</term> as defined in the Safety at Sports and Recreational Events Act, 2010 (Act No. 2 of 2010), namely sporting, entertainment, recreational, religious, cultural, exhibitional, organisational or similar activities hosted at a stadium, venue or along a route or within their respective precincts;</p>
+              <p>"<def refersTo="#term-foodstuff">foodstuff</def>" means <term refersTo="#term-foodstuff" id="trm11">foodstuff</term> intended for human consumption as defined in section 1 of the Foodstuff, Cosmetics and Disinfectants Act, 1972 (Act No. 54 of 1972);</p>
+              <p>"<def refersTo="#term-goods">goods</def>" means any movable property displayed or kept by a person in a <term refersTo="#term-public_place" id="trm12">public place</term> or <term refersTo="#term-public_road" id="trm13">public road</term> used or intended to be used in connection with carrying on the business of an <term refersTo="#term-informal_trader" id="trm14">informal trader</term> and includes any article, container, vehicle, movable structure or living thing;</p>
+              <p>"<def refersTo="#term-high-water_mark">high-water mark</def>" means the high water mark as defined in the National Environmental Management: Integrated Coastal Management Act, 2008 (Act No. 24 of 2008);</p>
+              <blockList id="section-1.paragraph-0.list11" refersTo="#term-illegal_goods">
+                <listIntroduction>"<def refersTo="#term-illegal_goods">illegal goods</def>" means –</listIntroduction>
+                <item id="section-1.paragraph-0.list11.a">
+                  <num>(a)</num>
+                  <p><term refersTo="#term-goods" id="trm15">goods</term> which may not lawfully be sold or bought including, but not limited to, counterfeit <term refersTo="#term-goods" id="trm16">goods</term> as defined in the Counterfeit Goods Act, 1997 (Act No. 37 of 1997);</p>
+                </item>
+                <item id="section-1.paragraph-0.list11.b">
+                  <num>(b)</num>
+                  <p><term refersTo="#term-goods" id="trm17">goods</term> that are bought or sold in an unlawful manner; or</p>
+                </item>
+                <item id="section-1.paragraph-0.list11.c">
+                  <num>(c)</num>
+                  <p><term refersTo="#term-goods" id="trm18">goods</term> that have been acquired in an unlawful manner.</p>
+                </item>
+              </blockList>
+              <p>"<def refersTo="#term-impoundment_fee">impoundment fee</def>" means the applicable tariff charge, as determined by the council from time to time, for the impounding and storing of <term refersTo="#term-goods" id="trm19">goods</term> impounded in terms of this By-law, as well as the disposal or releasing of the impounded <term refersTo="#term-goods" id="trm20">goods</term>;</p>
+              <p>"<def refersTo="#term-informal_trader">informal trader</def>" means a person who carries on the business of <term refersTo="#term-informal_trading" id="trm21">informal trading</term>;</p>
+              <blockList id="section-1.paragraph-0.list15" refersTo="#term-informal_trading">
+                <listIntroduction>"<def refersTo="#term-informal_trading">informal trading</def>" means the trading in <term refersTo="#term-goods" id="trm22">goods</term> and <term refersTo="#term-services" id="trm23">services</term> in the informal sector by an <term refersTo="#term-informal_trader" id="trm24">informal trader</term> in a <term refersTo="#term-public_road" id="trm25">public road</term> or <term refersTo="#term-public_place" id="trm26">public place</term>, and which typically includes, without limitation, the following types of trading:</listIntroduction>
+                <item id="section-1.paragraph-0.list15.a">
+                  <num>(a)</num>
+                  <p><term refersTo="#term-beach_trading" id="trm27">beach trading</term>;</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.b">
+                  <num>(b)</num>
+                  <p><term refersTo="#term-street_trading" id="trm28">street trading</term>;</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.c">
+                  <num>(c)</num>
+                  <p>trading in pedestrian malls;</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.d">
+                  <num>(d)</num>
+                  <p>trading at markets or flea markets;</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.e">
+                  <num>(e)</num>
+                  <p>trading at transport interchanges;</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.f">
+                  <num>(f)</num>
+                  <p>trading in public places;</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.g">
+                  <num>(g)</num>
+                  <p>mobile trading, such as caravans and light delivery vehicles;</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.h">
+                  <num>(h)</num>
+                  <p>trading from kiosks, stalls or containers;</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.i">
+                  <num>(i)</num>
+                  <p>car wash;</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.j">
+                  <num>(j)</num>
+                  <p>hair dressing;</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.k">
+                  <num>(k)</num>
+                  <p>photography;</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.l">
+                  <num>(l)</num>
+                  <p>roving traders, including without limitation, trading from trolleys; and</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.m">
+                  <num>(m)</num>
+                  <p>trading at special events;</p>
+                </item>
+              </blockList>
+              <p>"<def refersTo="#term-intersection">intersection</def>" means an <term refersTo="#term-intersection" id="trm29">intersection</term> as defined in the regulations promulgated in terms of the National Road Traffic Act, 1996 (Act No. 93 of 1996);</p>
+              <p>"<def refersTo="#term-kerb_line">kerb line</def>" means the boundary between the <term refersTo="#term-shoulder" id="trm30">shoulder</term> and the <term refersTo="#term-verge" id="trm31">verge</term> or, in the absence of a <term refersTo="#term-shoulder" id="trm32">shoulder</term>, the part between the edge of the <term refersTo="#term-roadway" id="trm33">roadway</term> and the <term refersTo="#term-verge" id="trm34">verge</term>, as defined in section 1 of the National Road Traffic Act, 1996 (Act No. 93 of 1996);</p>
+              <p>"<def refersTo="#term-litter">litter</def>" includes any container, wrapping or other waste which has been discarded or left behind by an <term refersTo="#term-informal_trader" id="trm35">informal trader</term> or by his or her customers;</p>
+              <p>"<def refersTo="#term-market">market</def>" means an area within an <term refersTo="#term-informal_trading" id="trm36">informal trading</term> area which is designated as a <term refersTo="#term-market" id="trm37">market</term> on an <term refersTo="#term-informal_trading" id="trm38">informal trading</term> plan and which is managed in a co-ordinated manner;</p>
+              <p>"<def refersTo="#term-motor_vehicle">motor vehicle</def>" means any self-propelled vehicle as defined in section 1 of the National Road Traffic Act, 1996 (Act No. 93 of 1996);</p>
+              <p>"<def refersTo="#term-municipal_council">municipal council</def>" or “council” means the eThekwini <term refersTo="#term-municipal_council" id="trm39">municipal council</term>, a <term refersTo="#term-municipal_council" id="trm40">municipal council</term> referred to in section 157(1) of the Constitution;</p>
+              <p>"<def refersTo="#term-Municipality">Municipality</def>" means the eThekwini <term refersTo="#term-Municipality" id="trm41">Municipality</term>, a category A <term refersTo="#term-Municipality" id="trm42">Municipality</term> as envisaged in terms of section 155(1) of the Constitution of South Africa and established in terms of Provincial Notice No. 43 of 2000 (KZN);</p>
+              <p>"<def refersTo="#term-municipal_manager">municipal manager</def>" means a person appointed in terms of section 54A of the Municipal Systems Act as the head of administration of the <term refersTo="#term-municipal_council" id="trm43">municipal council</term>;</p>
+              <p>"<def refersTo="#term-municipal_property">municipal property</def>" means property owned by, leased by or under the control of the <term refersTo="#term-Municipality" id="trm44">Municipality</term>;</p>
+              <p>"<def refersTo="#term-national_monument">national monument</def>" means any one of the "public monuments and memorials" as defined in terms of section 2 of the National Heritage Resources Act, 1999 (Act No. 25 of 1999);</p>
+              <p>"<def refersTo="#term-non-municipal_property">non-municipal property</def>" means property that is situated within the area of jurisdiction of the <term refersTo="#term-Municipality" id="trm45">Municipality</term> but which is not owned by, leased by or under the control of the <term refersTo="#term-Municipality" id="trm46">Municipality</term>;</p>
+              <p>"<def refersTo="#term-nuisance">nuisance</def>" means any conduct or behaviour by any person or the use, keeping, producing, by-producing, harbouring or conveying, as the case may be, of any item, substance, matter, material, equipment, tool, plant or animal or causing or creating any situation or condition in or on private property or in a <term refersTo="#term-public_place" id="trm47">public place</term> or anywhere in the <term refersTo="#term-Municipality" id="trm48">Municipality</term> which causes damage, annoyance, inconvenience or discomfort to the public or to any person, in the exercise of rights common to all or of any person;</p>
+              <p>"<def refersTo="#term-obstruct">obstruct</def>" means to do anything which blocks or is likely to block vehicular or pedestrian traffic flow on a <term refersTo="#term-public_road" id="trm49">public road</term>;</p>
+              <p>"<def refersTo="#term-one-off_event">one-off event</def>" means an <term refersTo="#term-event" id="trm50">event</term> that occurs only once annually;</p>
+              <p>"<def refersTo="#term-park">park</def>" means a garden or <term refersTo="#term-park" id="trm51">park</term> to which the public has a right of access, and “garden” has the same meaning;</p>
+              <p>"<def refersTo="#term-permit-holder">permit-holder</def>" means an <term refersTo="#term-informal_trader" id="trm52">informal trader</term> who has been granted a permit by the <term refersTo="#term-Municipality" id="trm53">Municipality</term>, to conduct <term refersTo="#term-informal_trading" id="trm54">informal trading</term> from a designated site situated in an <term refersTo="#term-informal_trading" id="trm55">informal trading</term> area on <term refersTo="#term-municipal_property" id="trm56">municipal property</term>;</p>
+              <p>"<def refersTo="#term-prescribed">prescribed</def>" means as determined by resolution of the council from time to time;</p>
+              <p>"<def refersTo="#term-public_building">public building</def>" means a building belonging to or occupied solely by any sphere of the government, including the <term refersTo="#term-Municipality" id="trm57">Municipality</term>;</p>
+              <p>"<def refersTo="#term-public_parking_space">public parking space</def>" means any space in a <term refersTo="#term-public_place" id="trm58">public place</term> designated by the <term refersTo="#term-Municipality" id="trm59">Municipality</term> for the parking of a <term refersTo="#term-motor_vehicle" id="trm60">motor vehicle</term>;</p>
+              <blockList id="section-1.paragraph-0.list36" refersTo="#term-public_place">
+                <listIntroduction>"<def refersTo="#term-public_place">public place</def>" means</listIntroduction>
+                <item id="section-1.paragraph-0.list36.a">
+                  <num>(a)</num>
+                  <p>a <term refersTo="#term-public_road" id="trm61">public road</term>;</p>
+                </item>
+                <item id="section-1.paragraph-0.list36.b">
+                  <num>(b)</num>
+                  <p>a <term refersTo="#term-public_parking_space" id="trm62">public parking space</term>; and</p>
+                </item>
+                <item id="section-1.paragraph-0.list36.c">
+                  <num>(c)</num>
+                  <p>any square, <term refersTo="#term-park" id="trm63">park</term>, recreation ground, sports ground, <term refersTo="#term-beach" id="trm64">beach</term>, shopping centre, municipal cemetery, open space, or vacant municipal land which is vested in the <term refersTo="#term-Municipality" id="trm65">Municipality</term>, or in respect of which the public has the right of use, or which is shown on a general plan of a township filed in the deeds registry or a SurveyorGeneral’s office as having been provided for the use of the public or the owners of erven in such township;</p>
+                </item>
+              </blockList>
+              <blockList id="section-1.paragraph-0.list38" refersTo="#term-public_road">
+                <listIntroduction>"<def refersTo="#term-public_road">public road</def>" means any road, street or thoroughfare or any other place (whether a thoroughfare or not) which is commonly used by the public or any section thereof or to which the public or any section thereof has a right of access, and includes─</listIntroduction>
+                <item id="section-1.paragraph-0.list38.a">
+                  <num>(a)</num>
+                  <p>the <term refersTo="#term-verge" id="trm66">verge</term> of any such road, street or thoroughfare;</p>
+                </item>
+                <item id="section-1.paragraph-0.list38.b">
+                  <num>(b)</num>
+                  <p>any bridge, ferry or drift traversed by any such road, street or thoroughfare; and</p>
+                </item>
+                <item id="section-1.paragraph-0.list38.c">
+                  <num>(c)</num>
+                  <p>any other work or object forming part of or connected with or belonging to such road, street or thoroughfare;</p>
+                </item>
+              </blockList>
+              <p>"<def refersTo="#term-roadway">roadway</def>" means that portion of a road, street or thoroughfare improved, constructed or intended for vehicular traffic, which is between the edges of the <term refersTo="#term-roadway" id="trm67">roadway</term>, as defined in section 1 of the National Road Traffic Act, 1996 (Act No. 93 of 1996);</p>
+              <p>"<def refersTo="#term-seashore">seashore</def>" means the <term refersTo="#term-seashore" id="trm68">seashore</term> as defined in the National Environmental Management: Integrated Coastal Management Act, 2008 (Act No. 24 of 2008);</p>
+              <blockList id="section-1.paragraph-0.list42" refersTo="#term-sell">
+                <listIntroduction>"<def refersTo="#term-sell">sell</def>" includes</listIntroduction>
+                <item id="section-1.paragraph-0.list42.a">
+                  <num>(a)</num>
+                  <p>bartering, exchanging or hiring out;</p>
+                </item>
+                <item id="section-1.paragraph-0.list42.b">
+                  <num>(b)</num>
+                  <p>displaying, exposing, offering or preparing for sale;</p>
+                </item>
+                <item id="section-1.paragraph-0.list42.c">
+                  <num>(c)</num>
+                  <p>storing on a <term refersTo="#term-public_road" id="trm69">public road</term> or in a <term refersTo="#term-public_place" id="trm70">public place</term> with a view to selling; and</p>
+                </item>
+                <item id="section-1.paragraph-0.list42.d">
+                  <num>(d)</num>
+                  <p>providing a service for reward,</p>
+                </item>
+              </blockList>
+              <p>and "sale" or "selling" has a corresponding meaning;</p>
+              <p>"<def refersTo="#term-services">services</def>", in relation to an <term refersTo="#term-informal_trader" id="trm71">informal trader</term>, includes any advantage or gain given or supplied by the trader in return for consideration or reward;</p>
+              <p>"<def refersTo="#term-shoulder">shoulder</def>" means that portion of the road, street or thoroughfare between the edge of the <term refersTo="#term-roadway" id="trm72">roadway</term> and the <term refersTo="#term-kerb_line" id="trm73">kerb line</term>, as defined in the National Road Traffic Act, 1996 (Act No. 93 of 1996);</p>
+              <p>"<def refersTo="#term-sidewalk">sidewalk</def>" means that portion of a <term refersTo="#term-verge" id="trm74">verge</term> intended for the exclusive use of pedestrians, as defined in section 1 of the National Road Traffic Act, 1996 (Act No. 93 of 1996);</p>
+              <p>"<def refersTo="#term-street_trading">street trading</def>" means the selling of <term refersTo="#term-goods" id="trm75">goods</term> or the supply of <term refersTo="#term-services" id="trm76">services</term> for reward in a <term refersTo="#term-public_road" id="trm77">public road</term>; and</p>
+              <p>"<def refersTo="#term-verge">verge</def>" means that portion of a road, street or thoroughfare, including the <term refersTo="#term-sidewalk" id="trm78">sidewalk</term>, which is not the <term refersTo="#term-roadway" id="trm79">roadway</term> on the <term refersTo="#term-shoulder" id="trm80">shoulder</term>, as defined in section 1 of the National Road Traffic Act, 1996 (Act No. 93 of 1996).</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Interpretation of By-law</heading>
+          <paragraph id="section-2.paragraph-0">
+            <content>
+              <p>If there is a conflict of interpretation between the English version of this By-law and a translated version, the English version prevails.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Objects of By-law</heading>
+          <paragraph id="section-3.paragraph-0">
+            <content>
+              <blockList id="section-3.paragraph-0.list1">
+                <listIntroduction>The object of this By-law is to regulate <term refersTo="#term-informal_trading" id="trm81">informal trading</term> in a manner which –</listIntroduction>
+                <item id="section-3.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>ensures that <term refersTo="#term-informal_trading" id="trm82">informal trading</term> is conducted in an orderly manner;</p>
+                </item>
+                <item id="section-3.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>enables access to job and entrepreneurial opportunities within the <term refersTo="#term-informal_trading" id="trm83">informal trading</term> sector;</p>
+                </item>
+                <item id="section-3.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>harmonises the relationship between the <term refersTo="#term-informal_trading" id="trm84">informal trading</term> sector and the formal trading sector; and</p>
+                </item>
+                <item id="section-3.paragraph-0.list1.d">
+                  <num>(d)</num>
+                  <p>ensures the health and safety of the public.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Application of By-law</heading>
+          <paragraph id="section-4.paragraph-0">
+            <content>
+              <p>This By-law applies to all areas which fall under the jurisdiction of the eThekwini <term refersTo="#term-Municipality" id="trm85">Municipality</term> and is binding on all persons to the extent applicable.</p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+      <chapter id="chapter-2">
+        <num>2</num>
+        <heading>Freedom to trade informally</heading>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Freedom to engage in <term refersTo="#term-informal_trading" id="trm86">informal trading</term></heading>
+          <paragraph id="section-5.paragraph-0">
+            <content>
+              <blockList id="section-5.paragraph-0.list1">
+                <listIntroduction>Subject to compliance with the provisions of –</listIntroduction>
+                <item id="section-5.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>this By-law;</p>
+                </item>
+                <item id="section-5.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>any other applicable law; and</p>
+                </item>
+                <item id="section-5.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>any applicable <term refersTo="#term-informal_trading" id="trm87">informal trading</term> permit,</p>
+                </item>
+              </blockList>
+              <p>any person is permitted to engage in <term refersTo="#term-informal_trading" id="trm88">informal trading</term> within the area of jurisdiction of the <term refersTo="#term-Municipality" id="trm89">Municipality</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>Informal trading policy</heading>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Adoption of <term refersTo="#term-informal_trading" id="trm90">informal trading</term> policy</heading>
+          <subsection id="section-6.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-6.1.list1">
+                <listIntroduction>The council may, adopt an <term refersTo="#term-informal_trading" id="trm91">informal trading</term> policy or amend an existing <term refersTo="#term-informal_trading" id="trm92">informal trading</term> policy. The policy may include a strategic plan for the management of informal trade particularly in areas where there–</listIntroduction>
+                <item id="section-6.1.list1.a">
+                  <num>(a)</num>
+                  <p>is a significant overlap between formal and <term refersTo="#term-informal_trading" id="trm93">informal trading</term>;</p>
+                </item>
+                <item id="section-6.1.list1.b">
+                  <num>(b)</num>
+                  <p>are significant tourist or recreational facilities; or</p>
+                </item>
+                <item id="section-6.1.list1.c">
+                  <num>(c)</num>
+                  <p>is a cultural, historical or environmental significance.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-6.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-6.2.list1">
+                <listIntroduction>An <term refersTo="#term-informal_trading" id="trm94">informal trading</term> policy may allow and regulate <term refersTo="#term-informal_trading" id="trm95">informal trading</term> on─</listIntroduction>
+                <item id="section-6.2.list1.a">
+                  <num>(a)</num>
+                  <p><term refersTo="#term-municipal_property" id="trm96">municipal property</term>; and</p>
+                </item>
+                <item id="section-6.2.list1.b">
+                  <num>(b)</num>
+                  <p><term refersTo="#term-non-municipal_property" id="trm97">non-municipal property</term>, subject to the rights of the owners of the property.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-6.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-6.3.list1">
+                <listIntroduction>An <term refersTo="#term-informal_trading" id="trm98">informal trading</term> policy may include a plan which─</listIntroduction>
+                <item id="section-6.3.list1.a">
+                  <num>(a)</num>
+                  <p>defines the geographic boundary of an <term refersTo="#term-informal_trading" id="trm99">informal trading</term> area;</p>
+                </item>
+                <item id="section-6.3.list1.b">
+                  <num>(b)</num>
+                  <p>demarcates <term refersTo="#term-informal_trading" id="trm100">informal trading</term> sites; and</p>
+                </item>
+                <item id="section-6.3.list1.c">
+                  <num>(c)</num>
+                  <p>demarcates any markets.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-6.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-6.4.list1">
+                <listIntroduction>The <term refersTo="#term-informal_trading" id="trm101">informal trading</term> policy may also deal with any other matters governing <term refersTo="#term-informal_trading" id="trm102">informal trading</term> in the <term refersTo="#term-informal_trading" id="trm103">informal trading</term> area concerned, including but not limited to─</listIntroduction>
+                <item id="section-6.4.list1.a">
+                  <num>(a)</num>
+                  <p>trading hours;</p>
+                </item>
+                <item id="section-6.4.list1.b">
+                  <num>(b)</num>
+                  <p>the manner in which the socio-economic development of the informal traders in the <term refersTo="#term-informal_trading" id="trm104">informal trading</term> area will be facilitated;</p>
+                </item>
+                <item id="section-6.4.list1.c">
+                  <num>(c)</num>
+                  <p>how tourist, recreational, historical and environmental areas within the <term refersTo="#term-informal_trading" id="trm105">informal trading</term> area will be protected; and</p>
+                </item>
+                <item id="section-6.4.list1.d">
+                  <num>(d)</num>
+                  <p>how any markets within the <term refersTo="#term-informal_trading" id="trm106">informal trading</term> area will operate.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-6.5">
+            <num>(5)</num>
+            <content>
+              <p>An <term refersTo="#term-informal_trading" id="trm107">informal trading</term> policy must comply with the provisions of this By-Law and with any other applicable law.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Public participation</heading>
+          <subsection id="section-7.1">
+            <num>(1)</num>
+            <content>
+              <p>Before adopting an <term refersTo="#term-informal_trading" id="trm108">informal trading</term> policy, the <term refersTo="#term-Municipality" id="trm109">Municipality</term> must consult with interested and affected persons, including representatives of the informal and formal sectors regarding the contents of any proposed <term refersTo="#term-informal_trading" id="trm110">informal trading</term> policy. This consultation process must comply with at least the provisions set out in subsections (2) to (9).</p>
+            </content>
+          </subsection>
+          <subsection id="section-7.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-7.2.list1">
+                <listIntroduction>If the <term refersTo="#term-Municipality" id="trm111">Municipality</term> believes that an <term refersTo="#term-informal_trading" id="trm112">informal trading</term> policy is desirable for the area concerned, the <term refersTo="#term-Municipality" id="trm113">Municipality</term> must─</listIntroduction>
+                <item id="section-7.2.list1.a">
+                  <num>(a)</num>
+                  <p>compile a draft <term refersTo="#term-informal_trading" id="trm114">informal trading</term> policy; and</p>
+                </item>
+                <item id="section-7.2.list1.b">
+                  <num>(b)</num>
+                  <blockList id="section-7.2.list1.b.list0">
+                    <listIntroduction>publish a notice─</listIntroduction>
+                    <item id="section-7.2.list1.b.list0.i">
+                      <num>(i)</num>
+                      <p>informing the public that the draft <term refersTo="#term-informal_trading" id="trm115">informal trading</term> policy is available for inspection at a specified location and between specified hours;</p>
+                    </item>
+                    <item id="section-7.2.list1.b.list0.ii">
+                      <num>(ii)</num>
+                      <p>inviting interested and affected persons to attend a public meeting; and</p>
+                    </item>
+                    <item id="section-7.2.list1.b.list0.iii">
+                      <num>(iii)</num>
+                      <p>inviting comments and objections from the public, to be received by the council by a specified date not less than 30 days after the publication of the notice.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-7.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-7.3.list1">
+                <listIntroduction>The notice referred to in subsection (2) must─</listIntroduction>
+                <item id="section-7.3.list1.a">
+                  <num>(a)</num>
+                  <p>contain a summary of the key aspects of the draft <term refersTo="#term-informal_trading" id="trm116">informal trading</term> policy; and</p>
+                </item>
+                <item id="section-7.3.list1.b">
+                  <num>(b)</num>
+                  <blockList id="section-7.3.list1.b.list0">
+                    <listIntroduction>be published─</listIntroduction>
+                    <item id="section-7.3.list1.b.list0.i">
+                      <num>(i)</num>
+                      <p>in 2 local daily newspapers that circulate in the area in which the proposed <term refersTo="#term-informal_trading" id="trm117">informal trading</term> area is situated; or</p>
+                    </item>
+                    <item id="section-7.3.list1.b.list0.ii">
+                      <num>(ii)</num>
+                      <p>in a community newspaper, if a community newspaper which is free to the public is circulated in the area in which the proposed <term refersTo="#term-informal_trading" id="trm118">informal trading</term> area is situated, and 1 local daily newspaper that is circulated in the area.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-7.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-7.4.list1">
+                <listIntroduction>The public meeting referred to in subsection (2) must be held─</listIntroduction>
+                <item id="section-7.4.list1.a">
+                  <num>(a)</num>
+                  <p>within the <term refersTo="#term-informal_trading" id="trm119">informal trading</term> area concerned or within 5 kilometres of the boundary of the proposed <term refersTo="#term-informal_trading" id="trm120">informal trading</term> area; and</p>
+                </item>
+                <item id="section-7.4.list1.b">
+                  <num>(b)</num>
+                  <p>not less than 7 days or more than 60 days after the date of the publication of the notice referred to in subsection (2).</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-7.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-7.5.list1">
+                <listIntroduction>At the public meeting, the <term refersTo="#term-Municipality" id="trm121">Municipality</term> must─</listIntroduction>
+                <item id="section-7.5.list1.a">
+                  <num>(a)</num>
+                  <p>present and explain the draft <term refersTo="#term-informal_trading" id="trm122">informal trading</term> policy;</p>
+                </item>
+                <item id="section-7.5.list1.b">
+                  <num>(b)</num>
+                  <p>reasonably respond to any queries related to the draft <term refersTo="#term-informal_trading" id="trm123">informal trading</term> policy;</p>
+                </item>
+                <item id="section-7.5.list1.c">
+                  <num>(c)</num>
+                  <p>give interested and effected parties an opportunity to make comments and to lodge objections; and</p>
+                </item>
+                <item id="section-7.5.list1.d">
+                  <num>(d)</num>
+                  <p>keep a minute of the meeting.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-7.6">
+            <num>(6)</num>
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm124">Municipality</term> must consider all objections or comments received from the public regarding the draft <term refersTo="#term-informal_trading" id="trm125">informal trading</term> policy.</p>
+            </content>
+          </subsection>
+          <subsection id="section-7.7">
+            <num>(7)</num>
+            <content>
+              <blockList id="section-7.7.list1">
+                <listIntroduction>After having considered the comments and objections, the council must, within a reasonable period from the commencement of the public participation process in respect of the relevant draft trading plan─</listIntroduction>
+                <item id="section-7.7.list1.a">
+                  <num>(a)</num>
+                  <p>adopt the draft <term refersTo="#term-informal_trading" id="trm126">informal trading</term> policy;</p>
+                </item>
+                <item id="section-7.7.list1.b">
+                  <num>(b)</num>
+                  <p>amend and adopt the draft <term refersTo="#term-informal_trading" id="trm127">informal trading</term> policy; or</p>
+                </item>
+                <item id="section-7.7.list1.c">
+                  <num>(c)</num>
+                  <p>reject the draft <term refersTo="#term-informal_trading" id="trm128">informal trading</term> policy.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-7.8">
+            <num>(8)</num>
+            <content>
+              <p>Notwithstanding the provisions of section 59 of the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000) the council may not delegate the decision-making powers referred to in subsections (6) and (7).</p>
+            </content>
+          </subsection>
+          <subsection id="section-7.9">
+            <num>(9)</num>
+            <content>
+              <p>If the council adopts an <term refersTo="#term-informal_trading" id="trm129">informal trading</term> policy, a notice must be published in the manner contemplated in subsection (3).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Amendment, revocation and review of <term refersTo="#term-informal_trading" id="trm130">informal trading</term> policy</heading>
+          <paragraph id="section-8.paragraph-0">
+            <content>
+              <blockList id="section-8.paragraph-0.list1">
+                <listIntroduction>The council─</listIntroduction>
+                <item id="section-8.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <blockList id="section-8.paragraph-0.list1.a.list0">
+                    <listIntroduction>may amend or revoke an adopted <term refersTo="#term-informal_trading" id="trm131">informal trading</term> policy, provided that the council must─</listIntroduction>
+                    <item id="section-8.paragraph-0.list1.a.list0.i">
+                      <num>(i)</num>
+                      <p>follow the public participation process set out in section 7; and</p>
+                    </item>
+                    <item id="section-8.paragraph-0.list1.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>afford to any person whose existing rights are adversely affected by a proposed amendment their rights to administrative justice; and</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-8.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>must review <term refersTo="#term-informal_trading" id="trm132">informal trading</term> policies from time to time as the council deems fit.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+      <chapter id="chapter-4">
+        <num>4</num>
+        <heading>Informal trading on <term refersTo="#term-municipal_property" id="trm133">municipal property</term></heading>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Trading areas and trading sites</heading>
+          <subsection id="section-9.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-9.1.list1">
+                <listIntroduction>The council may, by resolution─</listIntroduction>
+                <item id="section-9.1.list1.a">
+                  <num>(a)</num>
+                  <p>set apart <term refersTo="#term-informal_trading" id="trm134">informal trading</term> areas on <term refersTo="#term-municipal_property" id="trm135">municipal property</term> within any area designated as an <term refersTo="#term-informal_trading" id="trm136">informal trading</term> area in terms of an <term refersTo="#term-informal_trading" id="trm137">informal trading</term> policy; and</p>
+                </item>
+                <item id="section-9.1.list1.b">
+                  <num>(b)</num>
+                  <p>demarcate <term refersTo="#term-informal_trading" id="trm138">informal trading</term> sites within <term refersTo="#term-informal_trading" id="trm139">informal trading</term> areas.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-9.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-9.2.list1">
+                <listIntroduction>The council may, by resolution –</listIntroduction>
+                <item id="section-9.2.list1.a">
+                  <num>(a)</num>
+                  <p>extend, reduce or disestablish any <term refersTo="#term-informal_trading" id="trm140">informal trading</term> area or <term refersTo="#term-informal_trading" id="trm141">informal trading</term> site; or</p>
+                </item>
+                <item id="section-9.2.list1.b">
+                  <num>(b)</num>
+                  <p>lease any <term refersTo="#term-verge" id="trm142">verge</term> or any portion of a <term refersTo="#term-verge" id="trm143">verge</term> to the owner or occupier of any contiguous land on condition that the owner or occupier must allow a specified number of informal traders to trade from sites on such <term refersTo="#term-verge" id="trm144">verge</term> on such terms and conditions as the council may determine.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Trading hours and other conditions</heading>
+          <paragraph id="section-10.paragraph-0">
+            <content>
+              <blockList id="section-10.paragraph-0.list1">
+                <listIntroduction>The <term refersTo="#term-Municipality" id="trm145">Municipality</term> may when setting apart <term refersTo="#term-informal_trading" id="trm146">informal trading</term> areas, or at any time thereafter on reasonable notice, impose -</listIntroduction>
+                <item id="section-10.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>trading days and hours; and</p>
+                </item>
+                <item id="section-10.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>any other conditions.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Prohibition: <term refersTo="#term-informal_trading" id="trm147">informal trading</term> on <term refersTo="#term-municipal_property" id="trm148">municipal property</term> without permit</heading>
+          <paragraph id="section-11.paragraph-0">
+            <content>
+              <p>No person may conduct <term refersTo="#term-informal_trading" id="trm149">informal trading</term> on <term refersTo="#term-municipal_property" id="trm150">municipal property</term> without a valid <term refersTo="#term-informal_trading" id="trm151">informal trading</term> permit from the <term refersTo="#term-Municipality" id="trm152">Municipality</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Informal trading permits</heading>
+          <subsection id="section-12.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-12.1.list1">
+                <listIntroduction>A person may apply for an <term refersTo="#term-informal_trading" id="trm153">informal trading</term> permit, to conduct <term refersTo="#term-informal_trading" id="trm154">informal trading</term> on <term refersTo="#term-municipal_property" id="trm155">municipal property</term>, if that person–</listIntroduction>
+                <item id="section-12.1.list1.a">
+                  <num>(a)</num>
+                  <p>is an <term refersTo="#term-informal_trader" id="trm156">informal trader</term> or a person who wants to become an <term refersTo="#term-informal_trader" id="trm157">informal trader</term>;</p>
+                </item>
+                <item id="section-12.1.list1.b">
+                  <num>(b)</num>
+                  <p>does not already hold a permit in respect of any other <term refersTo="#term-informal_trading" id="trm158">informal trading</term> site within the area of jurisdiction of the <term refersTo="#term-Municipality" id="trm159">Municipality</term>;</p>
+                </item>
+                <item id="section-12.1.list1.c">
+                  <num>(c)</num>
+                  <p>is a South African citizen or, failing which, has a valid work permit which includes, but is not limited to, a refugee permit;</p>
+                </item>
+                <item id="section-12.1.list1.d">
+                  <num>(d)</num>
+                  <p>does not employ more than 10 persons;</p>
+                </item>
+                <item id="section-12.1.list1.e">
+                  <num>(e)</num>
+                  <p>does not have an interest in more than 1 entity or partnership which conducts <term refersTo="#term-informal_trading" id="trm160">informal trading</term>; or</p>
+                </item>
+                <item id="section-12.1.list1.f">
+                  <num>(f)</num>
+                  <p>is currently unemployed, and on becoming gainfully employed surrender such permit.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-12.2">
+            <num>(2)</num>
+            <content>
+              <p>An application for an <term refersTo="#term-informal_trading" id="trm161">informal trading</term> permit must be on the form <term refersTo="#term-prescribed" id="trm162">prescribed</term> by the <term refersTo="#term-Municipality" id="trm163">Municipality</term> from time to time.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-12.3.list1">
+                <listIntroduction>The <term refersTo="#term-Municipality" id="trm164">Municipality</term> must consider any application for an <term refersTo="#term-informal_trading" id="trm165">informal trading</term> permit and may─</listIntroduction>
+                <item id="section-12.3.list1.a">
+                  <num>(a)</num>
+                  <p>approve it subject to any conditions;</p>
+                </item>
+                <item id="section-12.3.list1.b">
+                  <num>(b)</num>
+                  <p>request that additional information be furnished within a specified time frame; or</p>
+                </item>
+                <item id="section-12.3.list1.c">
+                  <num>(c)</num>
+                  <p>reject the application and provide reasons thereof.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-12.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-12.4.list1">
+                <listIntroduction>The <term refersTo="#term-Municipality" id="trm166">Municipality</term> may take into account the following factors when considering an application for an <term refersTo="#term-informal_trading" id="trm167">informal trading</term> permit:</listIntroduction>
+                <item id="section-12.4.list1.a">
+                  <num>(a)</num>
+                  <blockList id="section-12.4.list1.a.list0">
+                    <listIntroduction>the need to give preference to applicants who─</listIntroduction>
+                    <item id="section-12.4.list1.a.list0.i">
+                      <num>(i)</num>
+                      <p>are black persons;</p>
+                    </item>
+                    <item id="section-12.4.list1.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>are unemployed;</p>
+                    </item>
+                    <item id="section-12.4.list1.a.list0.iii">
+                      <num>(iii)</num>
+                      <p>are entering the informal sector for the first time;</p>
+                    </item>
+                    <item id="section-12.4.list1.a.list0.iv">
+                      <num>(iv)</num>
+                      <p>do not share a household with an existing <term refersTo="#term-permit-holder" id="trm168">permit-holder</term>, unless the applicant is not a dependant on or financially reliant upon that <term refersTo="#term-permit-holder" id="trm169">permit-holder</term>; and</p>
+                    </item>
+                    <item id="section-12.4.list1.a.list0.v">
+                      <num>(v)</num>
+                      <p>are physically challenged;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-12.4.list1.b">
+                  <num>(b)</num>
+                  <p>whether the <term refersTo="#term-goods" id="trm170">goods</term> which the applicant intends selling, or the <term refersTo="#term-services" id="trm171">services</term> which the applicant intends providing, fit with those sold or supplied by other informal traders in the <term refersTo="#term-informal_trading" id="trm172">informal trading</term> area or other traders in the immediate vicinity of the <term refersTo="#term-informal_trading" id="trm173">informal trading</term> area;</p>
+                </item>
+                <item id="section-12.4.list1.c">
+                  <num>(c)</num>
+                  <p>whether the applicant has, in the two year period prior to his or her application, been convicted of an offence relating to <term refersTo="#term-informal_trading" id="trm174">informal trading</term> or has had his or her <term refersTo="#term-informal_trading" id="trm175">informal trading</term> permit revoked or suspended;</p>
+                </item>
+                <item id="section-12.4.list1.d">
+                  <num>(d)</num>
+                  <p>the applicant’s ability to meet the trading hours for the relevant <term refersTo="#term-informal_trading" id="trm176">informal trading</term> area as the council may determine; and</p>
+                </item>
+                <item id="section-12.4.list1.e">
+                  <num>(e)</num>
+                  <p>whether the applicant is registered as a tax payer with the South African Revenue Service and is in good standing with the South African Revenue Service.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-12.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-12.5.list1">
+                <listIntroduction>The <term refersTo="#term-Municipality" id="trm177">Municipality</term> may, when issuing an <term refersTo="#term-informal_trading" id="trm178">informal trading</term> permit, impose any reasonable conditions, including but not limited to─</listIntroduction>
+                <item id="section-12.5.list1.a">
+                  <num>(a)</num>
+                  <p>minimum or maximum trading hours;</p>
+                </item>
+                <item id="section-12.5.list1.b">
+                  <num>(b)</num>
+                  <p>restrictions regarding the type of <term refersTo="#term-goods" id="trm179">goods</term> or <term refersTo="#term-services" id="trm180">services</term> in which the <term refersTo="#term-permit-holder" id="trm181">permit-holder</term> is permitted to trade;</p>
+                </item>
+                <item id="section-12.5.list1.c">
+                  <num>(c)</num>
+                  <p>an expiry date for the permit; and</p>
+                </item>
+                <item id="section-12.5.list1.d">
+                  <num>(d)</num>
+                  <p>conditions regarding the type of structure or structures, if any, which may be erected on an <term refersTo="#term-informal_trading" id="trm182">informal trading</term> site or in an <term refersTo="#term-informal_trading" id="trm183">informal trading</term> area.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-12.6">
+            <num>(6)</num>
+            <content>
+              <blockList id="section-12.6.list1">
+                <listIntroduction>An <term refersTo="#term-informal_trading" id="trm184">informal trading</term> permit –</listIntroduction>
+                <item id="section-12.6.list1.a">
+                  <num>(a)</num>
+                  <p>must refer to a specified trading bay, as identified by its allocated number, to which the permit relates; and</p>
+                </item>
+                <item id="section-12.6.list1.b">
+                  <num>(b)</num>
+                  <p>gives only the <term refersTo="#term-permit-holder" id="trm185">permit-holder</term>, and his or her employees, the right to use that trading bay subject to the conditions of the permit, the provisions of an applicable <term refersTo="#term-informal_trading" id="trm186">informal trading</term> policy and any other conditions imposed in terms of this By-law.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-12.7">
+            <num>(7)</num>
+            <content>
+              <p>Schools, religious bodies and non-profit organisations are exempted from the requirement of obtaining an <term refersTo="#term-informal_trading" id="trm187">informal trading</term> permit for a <term refersTo="#term-one-off_event" id="trm188">one-off event</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Informal trading fees</heading>
+          <paragraph id="section-13.paragraph-0">
+            <content>
+              <blockList id="section-13.paragraph-0.list1">
+                <listIntroduction>The <term refersTo="#term-Municipality" id="trm189">Municipality</term> is entitled to charge -</listIntroduction>
+                <item id="section-13.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>any person who applies for an <term refersTo="#term-informal_trading" id="trm190">informal trading</term> permit, an application fee on submission of each application for an <term refersTo="#term-informal_trading" id="trm191">informal trading</term> permit; and</p>
+                </item>
+                <item id="section-13.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>any <term refersTo="#term-informal_trading" id="trm192">informal trading</term> <term refersTo="#term-permit-holder" id="trm193">permit-holder</term>, an annual rental in respect of the <term refersTo="#term-informal_trading" id="trm194">informal trading</term> site to which the permit relates.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>Transfer of <term refersTo="#term-informal_trading" id="trm195">informal trading</term> permits</heading>
+          <subsection id="section-14.1">
+            <num>(1)</num>
+            <content>
+              <p>A permit is non-transferable and may not be leased, sold or otherwise disposed of except with the prior consent of the <term refersTo="#term-Municipality" id="trm196">Municipality</term> in terms of this section.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.2">
+            <num>(2)</num>
+            <content>
+              <p>A permit may, with the prior written approval of the <term refersTo="#term-Municipality" id="trm197">Municipality</term>, be temporarily or permanently transferred to a person nominated by a <term refersTo="#term-permit-holder" id="trm198">permit-holder</term> in writing, and subject to the provision of any information which the <term refersTo="#term-Municipality" id="trm199">Municipality</term> may reasonably require from time to time.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-14.3.list1">
+                <listIntroduction>If the <term refersTo="#term-Municipality" id="trm200">Municipality</term> consents to the temporary or permanent transfer of an <term refersTo="#term-informal_trading" id="trm201">informal trading</term> permit, the─</listIntroduction>
+                <item id="section-14.3.list1.a">
+                  <num>(a)</num>
+                  <p><term refersTo="#term-Municipality" id="trm202">Municipality</term> may impose such requirements as it deems fit; and</p>
+                </item>
+                <item id="section-14.3.list1.b">
+                  <num>(b)</num>
+                  <p>person replacing the <term refersTo="#term-permit-holder" id="trm203">permit-holder</term> will be entitled to trade, if the transfer is temporary, for the period of time indicated by the <term refersTo="#term-Municipality" id="trm204">Municipality</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Removal and suspension of <term refersTo="#term-informal_trading" id="trm205">informal trading</term> permits</heading>
+          <paragraph id="section-15.paragraph-0">
+            <content>
+              <blockList id="section-15.paragraph-0.list1">
+                <listIntroduction>The <term refersTo="#term-Municipality" id="trm206">Municipality</term> may, on reasonable notice to an <term refersTo="#term-informal_trader" id="trm207">informal trader</term> and after having given the <term refersTo="#term-informal_trader" id="trm208">informal trader</term> an opportunity to make written representations, revoke or suspend an <term refersTo="#term-informal_trading" id="trm209">informal trading</term> permit if the <term refersTo="#term-informal_trader" id="trm210">informal trader</term> has─</listIntroduction>
+                <item id="section-15.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>breached any conditions of his or her <term refersTo="#term-informal_trading" id="trm211">informal trading</term> permit;</p>
+                </item>
+                <item id="section-15.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>breached the provisions of this By-law or of any other law;</p>
+                </item>
+                <item id="section-15.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>been convicted of trading in <term refersTo="#term-illegal_goods" id="trm212">illegal goods</term> or of providing a service unlawfully; or</p>
+                </item>
+                <item id="section-15.paragraph-0.list1.d">
+                  <num>(d)</num>
+                  <p>been found to have wilfully supplied incorrect information to the <term refersTo="#term-Municipality" id="trm213">Municipality</term> when required to provide that information.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Temporary relocation and suspension</heading>
+          <subsection id="section-16.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-16.1.list1">
+                <listIntroduction>The <term refersTo="#term-Municipality" id="trm214">Municipality</term> may, on reasonable notice to an <term refersTo="#term-informal_trader" id="trm215">informal trader</term>, temporarily─</listIntroduction>
+                <item id="section-16.1.list1.a">
+                  <num>(a)</num>
+                  <p>relocate a <term refersTo="#term-permit-holder" id="trm216">permit-holder</term>;</p>
+                </item>
+                <item id="section-16.1.list1.b">
+                  <num>(b)</num>
+                  <p>suspend the validity of a permit; or</p>
+                </item>
+                <item id="section-16.1.list1.c">
+                  <num>(c)</num>
+                  <p>suspend <term refersTo="#term-informal_trading" id="trm217">informal trading</term> from an <term refersTo="#term-informal_trading" id="trm218">informal trading</term> area or a particular trading site or sites,</p>
+                </item>
+              </blockList>
+              <p>if the continuation of trading from an <term refersTo="#term-informal_trading" id="trm219">informal trading</term> area or trading site is impractical or inconvenient to the activities of the <term refersTo="#term-Municipality" id="trm220">Municipality</term>, any sphere of government or any public entity, including their respective service providers.</p>
+            </content>
+          </subsection>
+          <subsection id="section-16.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-16.2.list1">
+                <listIntroduction>No compensation is payable by the <term refersTo="#term-Municipality" id="trm221">Municipality</term> to an <term refersTo="#term-informal_trader" id="trm222">informal trader</term> in the <term refersTo="#term-event" id="trm223">event</term> that─</listIntroduction>
+                <item id="section-16.2.list1.a">
+                  <num>(a)</num>
+                  <p>the trader is relocated;</p>
+                </item>
+                <item id="section-16.2.list1.b">
+                  <num>(b)</num>
+                  <p>the permit is suspended; or</p>
+                </item>
+                <item id="section-16.2.list1.c">
+                  <num>(c)</num>
+                  <p>trading is suspended from a particular <term refersTo="#term-informal_trading" id="trm224">informal trading</term> area or trading site.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-16.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-16.3.list1">
+                <listIntroduction>No <term refersTo="#term-informal_trading" id="trm225">informal trading</term> fee shall be payable during any period where –</listIntroduction>
+                <item id="section-16.3.list1.a">
+                  <num>(a)</num>
+                  <p>the validity of an <term refersTo="#term-informal_trading" id="trm226">informal trading</term> permit is suspended; or</p>
+                </item>
+                <item id="section-16.3.list1.b">
+                  <num>(b)</num>
+                  <p><term refersTo="#term-informal_trading" id="trm227">informal trading</term> in an <term refersTo="#term-informal_trading" id="trm228">informal trading</term> area or from a particular <term refersTo="#term-informal_trading" id="trm229">informal trading</term> site is suspended or prohibited, without an alternate site being provided to the permitholder concerned.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Removal and suspension of <term refersTo="#term-informal_trading" id="trm230">informal trading</term> permits</heading>
+          <paragraph id="section-17.paragraph-0">
+            <content>
+              <blockList id="section-17.paragraph-0.list1">
+                <listIntroduction>A <term refersTo="#term-permit-holder" id="trm231">permit-holder</term> must immediately return his or her permit to the <term refersTo="#term-Municipality" id="trm232">Municipality</term> when the permit expires or if the─</listIntroduction>
+                <item id="section-17.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p><term refersTo="#term-Municipality" id="trm233">Municipality</term> revokes the permit;</p>
+                </item>
+                <item id="section-17.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p><term refersTo="#term-permit-holder" id="trm234">permit-holder</term> is refused permission to transfer the permit;</p>
+                </item>
+                <item id="section-17.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p><term refersTo="#term-permit-holder" id="trm235">permit-holder</term> ceases trading for a period of 25 or more days;</p>
+                </item>
+                <item id="section-17.paragraph-0.list1.d">
+                  <num>(d)</num>
+                  <p><term refersTo="#term-permit-holder" id="trm236">permit-holder</term> no longer wishes to trade as an <term refersTo="#term-informal_trader" id="trm237">informal trader</term> from the relevant <term refersTo="#term-informal_trading" id="trm238">informal trading</term> site; or</p>
+                </item>
+                <item id="section-17.paragraph-0.list1.e">
+                  <num>(e)</num>
+                  <p><term refersTo="#term-permit-holder" id="trm239">permit-holder</term> becomes employed in the formal sector.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+      <chapter id="chapter-5">
+        <num>5</num>
+        <heading>Restrictions and prohibitions on <term refersTo="#term-informal_trading" id="trm240">informal trading</term></heading>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Restricted or prohibited areas</heading>
+          <subsection id="section-18.1">
+            <num>(1)</num>
+            <content>
+              <p>The council may, by resolution, declare any place in its area of jurisdiction to be an area in which <term refersTo="#term-informal_trading" id="trm241">informal trading</term> is restricted or prohibited.</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-18.2.list1">
+                <listIntroduction>The council may, in restricting or prohibiting informal trade, indicate places where─</listIntroduction>
+                <item id="section-18.2.list1.a">
+                  <num>(a)</num>
+                  <p><term refersTo="#term-informal_trading" id="trm242">informal trading</term> is prohibited; or</p>
+                </item>
+                <item id="section-18.2.list1.b">
+                  <num>(b)</num>
+                  <p>informal trade in specified <term refersTo="#term-goods" id="trm243">goods</term> or <term refersTo="#term-services" id="trm244">services</term> is prohibited.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-18.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-18.3.list1">
+                <listIntroduction>The <term refersTo="#term-Municipality" id="trm245">Municipality</term> must erect signs, markings or other devices to indicate the boundaries of─</listIntroduction>
+                <item id="section-18.3.list1.a">
+                  <num>(a)</num>
+                  <p>areas where <term refersTo="#term-informal_trading" id="trm246">informal trading</term> is restricted or prohibited (and the nature of any restriction); and</p>
+                </item>
+                <item id="section-18.3.list1.b">
+                  <num>(b)</num>
+                  <p><term refersTo="#term-informal_trading" id="trm247">informal trading</term> areas and <term refersTo="#term-informal_trading" id="trm248">informal trading</term> sites.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-18.4">
+            <num>(4)</num>
+            <content>
+              <p>Any sign erected in terms of this By-law or any other law, shall serve as sufficient notice to an <term refersTo="#term-informal_trader" id="trm249">informal trader</term> that <term refersTo="#term-informal_trading" id="trm250">informal trading</term> is prohibited or restricted in that area.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-19">
+          <num>19.</num>
+          <heading>Restricted conduct: erection of structures</heading>
+          <paragraph id="section-19.paragraph-0">
+            <content>
+              <p>An <term refersTo="#term-informal_trader" id="trm251">informal trader</term> must not erect any structure, whether movable or immovable, other than a device approved by the <term refersTo="#term-Municipality" id="trm252">Municipality</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>Restricted conduct: use of the site overnight</heading>
+          <subsection id="section-20.1">
+            <num>(1)</num>
+            <content>
+              <p>An <term refersTo="#term-informal_trader" id="trm253">informal trader</term> must not sleep overnight at the place where he or she carries on <term refersTo="#term-informal_trading" id="trm254">informal trading</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.2">
+            <num>(2)</num>
+            <content>
+              <p>An <term refersTo="#term-informal_trader" id="trm255">informal trader</term> must not, on concluding business for the day, leave his or her <term refersTo="#term-goods" id="trm256">goods</term> at an <term refersTo="#term-informal_trading" id="trm257">informal trading</term> site which is part of a <term refersTo="#term-public_road" id="trm258">public road</term> or <term refersTo="#term-public_place" id="trm259">public place</term>, except any structure permitted by the <term refersTo="#term-Municipality" id="trm260">Municipality</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-21">
+          <num>21.</num>
+          <heading>Restricted conduct: location of trading</heading>
+          <subsection id="section-21.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-21.1.list1">
+                <listIntroduction>An <term refersTo="#term-informal_trader" id="trm261">informal trader</term> must not─</listIntroduction>
+                <item id="section-21.1.list1.a">
+                  <num>(a)</num>
+                  <blockList id="section-21.1.list1.a.list0">
+                    <listIntroduction>place his or her <term refersTo="#term-goods" id="trm262">goods</term> on a <term refersTo="#term-public_road" id="trm263">public road</term> or <term refersTo="#term-public_place" id="trm264">public place</term>, with the exception of his or her <term refersTo="#term-motor_vehicle" id="trm265">motor vehicle</term> or trailer from which <term refersTo="#term-informal_trading" id="trm266">informal trading</term> is conducted: provided that such <term refersTo="#term-motor_vehicle" id="trm267">motor vehicle</term> or trailer does not <term refersTo="#term-obstruct" id="trm268">obstruct</term> pedestrian or vehicular traffic movement and complies with the provisions of the National Road Traffic Act, 1996 (Act No. 93 of 1996); (b) allow his or her <term refersTo="#term-goods" id="trm269">goods</term> or area of activity to cover an area of a <term refersTo="#term-public_road" id="trm270">public road</term> or a <term refersTo="#term-public_place" id="trm271">public place</term> which─</listIntroduction>
+                    <item id="section-21.1.list1.a.list0.i">
+                      <num>(i)</num>
+                      <p>is greater than 6 square meters in area; or</p>
+                    </item>
+                    <item id="section-21.1.list1.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>is greater than 3 meters in length, unless otherwise approved by the <term refersTo="#term-Municipality" id="trm272">Municipality</term>;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-21.1.list1.c">
+                  <num>(c)</num>
+                  <blockList id="section-21.1.list1.c.list1">
+                    <listIntroduction>trade on a <term refersTo="#term-sidewalk" id="trm273">sidewalk</term> or <term refersTo="#term-verge" id="trm274">verge</term> where the─</listIntroduction>
+                    <item id="section-21.1.list1.c.list1.i">
+                      <num>(i)</num>
+                      <p>width of the <term refersTo="#term-sidewalk" id="trm275">sidewalk</term> or <term refersTo="#term-verge" id="trm276">verge</term> is less than 3 meters;</p>
+                    </item>
+                    <item id="section-21.1.list1.c.list1.ii">
+                      <num>(ii)</num>
+                      <p><term refersTo="#term-sidewalk" id="trm277">sidewalk</term> or <term refersTo="#term-verge" id="trm278">verge</term> is next to a <term refersTo="#term-public_building" id="trm279">public building</term>, a place of worship such as a church, synagogue or mosque, or a <term refersTo="#term-national_monument" id="trm280">national monument</term>; or</p>
+                    </item>
+                    <item id="section-21.1.list1.c.list1.iii">
+                      <num>(iii)</num>
+                      <p><term refersTo="#term-sidewalk" id="trm281">sidewalk</term> is contiguous to a building in which business is being carried on by any person who sells <term refersTo="#term-goods" id="trm282">goods</term> of the same or of a similar nature to the <term refersTo="#term-goods" id="trm283">goods</term> being sold on such <term refersTo="#term-sidewalk" id="trm284">sidewalk</term> by the trader, if that person objects to <term refersTo="#term-informal_trading" id="trm285">informal trading</term> taking place at that location;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-21.1.list1.d">
+                  <num>(d)</num>
+                  <p>trade on the half of a <term refersTo="#term-public_road" id="trm286">public road</term> which is next to a building that is being used for residential purposes, if the owner or occupier of that building objects to <term refersTo="#term-informal_trading" id="trm287">informal trading</term> taking place at that location;</p>
+                </item>
+                <item id="section-21.1.list1.e">
+                  <num>(e)</num>
+                  <p>obscure any road traffic sign displayed in terms of the National Road Traffic Act, 1996 (Act No. 93 of 1996), or any marking, notice or sign displayed or made in terms of a by-law;</p>
+                </item>
+                <item id="section-21.1.list1.f">
+                  <num>(f)</num>
+                  <p><term refersTo="#term-obstruct" id="trm288">obstruct</term> vehicular traffic;</p>
+                </item>
+                <item id="section-21.1.list1.g">
+                  <num>(g)</num>
+                  <p><term refersTo="#term-obstruct" id="trm289">obstruct</term> access to a pedestrian crossing, pedestrian arcade or mall;</p>
+                </item>
+                <item id="section-21.1.list1.h">
+                  <num>(h)</num>
+                  <p><term refersTo="#term-obstruct" id="trm290">obstruct</term> access to a vehicle;</p>
+                </item>
+                <item id="section-21.1.list1.i">
+                  <num>(i)</num>
+                  <p><term refersTo="#term-obstruct" id="trm291">obstruct</term> access to refuse disposal bins or other facilities intended for the use of the public;</p>
+                </item>
+                <item id="section-21.1.list1.j">
+                  <num>(j)</num>
+                  <p><term refersTo="#term-obstruct" id="trm292">obstruct</term> access to an automatic teller machine;</p>
+                </item>
+                <item id="section-21.1.list1.k">
+                  <num>(k)</num>
+                  <p><term refersTo="#term-obstruct" id="trm293">obstruct</term> the view of a CCTV camera;</p>
+                </item>
+                <item id="section-21.1.list1.l">
+                  <num>(l)</num>
+                  <p>limit access to parking or loading bays or other facilities for vehicular traffic;</p>
+                </item>
+                <item id="section-21.1.list1.m">
+                  <num>(m)</num>
+                  <p>trade within 5 metres of an <term refersTo="#term-intersection" id="trm294">intersection</term> or fire hydrant or any other fire fighting equipment;</p>
+                </item>
+                <item id="section-21.1.list1.n">
+                  <num>(n)</num>
+                  <p>trade below the high water mark; or</p>
+                </item>
+                <item id="section-21.1.list1.o">
+                  <num>(o)</num>
+                  <p>trade in a <term refersTo="#term-park" id="trm295">park</term>, unless such area has been declared by the council as an <term refersTo="#term-informal_trading" id="trm296">informal trading</term> area.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-21.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-21.2.list1">
+                <listIntroduction>An <term refersTo="#term-informal_trader" id="trm297">informal trader</term> must, in respect of any <term refersTo="#term-sidewalk" id="trm298">sidewalk</term>, leave an unobstructed space for pedestrian traffic of not less than─</listIntroduction>
+                <item id="section-21.2.list1.a">
+                  <num>(a)</num>
+                  <p>2 meters wide when measured from any contiguous building to his or her <term refersTo="#term-goods" id="trm299">goods</term> or area of activity; and</p>
+                </item>
+                <item id="section-21.2.list1.b">
+                  <num>(b)</num>
+                  <p>0.5 meters wide when measured from the <term refersTo="#term-kerb_line" id="trm300">kerb line</term> to his or her <term refersTo="#term-goods" id="trm301">goods</term> or area of activity.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-22">
+          <num>22.</num>
+          <heading>Restricted conduct: display and storage of <term refersTo="#term-goods" id="trm302">goods</term></heading>
+          <paragraph id="section-22.paragraph-0">
+            <content>
+              <blockList id="section-22.paragraph-0.list1">
+                <listIntroduction>An <term refersTo="#term-informal_trader" id="trm303">informal trader</term> must not─</listIntroduction>
+                <item id="section-22.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>place or stack his or her <term refersTo="#term-goods" id="trm304">goods</term> in such a manner that it constitutes a danger to any person or property, or is likely to injure any person or cause damage to any property;</p>
+                </item>
+                <item id="section-22.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>display his or her <term refersTo="#term-goods" id="trm305">goods</term> on or in a building, without the consent of the owner, lawful occupier, or person in control of such building or property;</p>
+                </item>
+                <item id="section-22.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>interfere with the ability of a person using a <term refersTo="#term-sidewalk" id="trm306">sidewalk</term> to view the <term refersTo="#term-goods" id="trm307">goods</term> displayed behind a shop display window or obscure such <term refersTo="#term-goods" id="trm308">goods</term> from view;</p>
+                </item>
+                <item id="section-22.paragraph-0.list1.d">
+                  <num>(d)</num>
+                  <p>place on a <term refersTo="#term-public_road" id="trm309">public road</term> or <term refersTo="#term-public_place" id="trm310">public place</term> any <term refersTo="#term-goods" id="trm311">goods</term> that are not capable of being easily removed to a storage place at the end of the day's business; and</p>
+                </item>
+                <item id="section-22.paragraph-0.list1.e">
+                  <num>(e)</num>
+                  <p>store or dispose of his or her <term refersTo="#term-goods" id="trm312">goods</term> or <term refersTo="#term-litter" id="trm313">litter</term> in a manhole, storm water drain, public toilet, bus shelter or in a tree.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-23">
+          <num>23.</num>
+          <heading>Restricted conduct: street furniture</heading>
+          <paragraph id="section-23.paragraph-0">
+            <content>
+              <p>An <term refersTo="#term-informal_trader" id="trm314">informal trader</term> must not <term refersTo="#term-obstruct" id="trm315">obstruct</term> access to, or the use of, street furniture or any other facility designed for the use of the public.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-24">
+          <num>24.</num>
+          <heading>Restricted conduct: fires</heading>
+          <paragraph id="section-24.paragraph-0">
+            <content>
+              <p>An <term refersTo="#term-informal_trader" id="trm316">informal trader</term> must not make a fire at any place unless authorised to prepare foodstuffs by utilising open-flame fire or gas-fired equipment and, where the <term refersTo="#term-informal_trader" id="trm317">informal trader</term> is authorised to make a fire, he or she must not make a fire in circumstances where it could harm any person or damage any building, structure, vehicle or other property.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-25">
+          <num>25.</num>
+          <heading>Restricted conduct: <term refersTo="#term-litter" id="trm318">litter</term></heading>
+          <subsection id="section-25.1">
+            <num>(1)</num>
+            <content>
+              <p>An <term refersTo="#term-informal_trader" id="trm319">informal trader</term> must dispose of <term refersTo="#term-litter" id="trm320">litter</term> generated by his or her <term refersTo="#term-informal_trading" id="trm321">informal trading</term> in a refuse receptacle approved or supplied by the <term refersTo="#term-Municipality" id="trm322">Municipality</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-25.2">
+            <num>(2)</num>
+            <content>
+              <p>An <term refersTo="#term-informal_trader" id="trm323">informal trader</term> must not, other than in a refuse receptacle approved or supplied by the <term refersTo="#term-Municipality" id="trm324">Municipality</term>, accumulate, dump, store, deposit, or cause or permit to be accumulated, dumped, stored or deposited, any <term refersTo="#term-litter" id="trm325">litter</term> on any land or premises or any <term refersTo="#term-public_road" id="trm326">public road</term> or <term refersTo="#term-public_place" id="trm327">public place</term> or on any public property.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-26">
+          <num>26.</num>
+          <heading>Restricted conduct: attachments</heading>
+          <paragraph id="section-26.paragraph-0">
+            <content>
+              <p>An <term refersTo="#term-informal_trader" id="trm328">informal trader</term> must not attach any of his or her <term refersTo="#term-goods" id="trm329">goods</term> by any means to any building, structure, pavement, tree, parking meter, lamp, pole, electricity pole, telephone booth, post box, traffic sign, bench or any other street furniture in or on a <term refersTo="#term-public_road" id="trm330">public road</term> or <term refersTo="#term-public_place" id="trm331">public place</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-27">
+          <num>27.</num>
+          <heading>Restricted conduct: alcohol, sound-emitting devises and electricity</heading>
+          <paragraph id="section-27.paragraph-0">
+            <content>
+              <blockList id="section-27.paragraph-0.list1">
+                <listIntroduction>An <term refersTo="#term-informal_trader" id="trm332">informal trader</term> must not─</listIntroduction>
+                <item id="section-27.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p><term refersTo="#term-sell" id="trm333">sell</term> or promote alcoholic products;</p>
+                </item>
+                <item id="section-27.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>use bells, hooters, amplified equipment or similar devices which emit sound, in order to attract customers; and</p>
+                </item>
+                <item id="section-27.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>use any electrical supply or a power generator, unless expressly approved by the <term refersTo="#term-Municipality" id="trm334">Municipality</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-28">
+          <num>28.</num>
+          <heading>Restricted conduct: general</heading>
+          <paragraph id="section-28.paragraph-0">
+            <content>
+              <blockList id="section-28.paragraph-0.list1">
+                <listIntroduction>An <term refersTo="#term-informal_trader" id="trm335">informal trader</term> must not carry on <term refersTo="#term-informal_trading" id="trm336">informal trading</term>─</listIntroduction>
+                <item id="section-28.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>in a place or area in contravention of any prohibition or restriction imposed by the <term refersTo="#term-Municipality" id="trm337">Municipality</term>; or</p>
+                </item>
+                <item id="section-28.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <blockList id="section-28.paragraph-0.list1.b.list0">
+                    <listIntroduction>in such a manner as to─</listIntroduction>
+                    <item id="section-28.paragraph-0.list1.b.list0.i">
+                      <num>(i)</num>
+                      <p>create a <term refersTo="#term-nuisance" id="trm338">nuisance</term>;</p>
+                    </item>
+                    <item id="section-28.paragraph-0.list1.b.list0.ii">
+                      <num>(ii)</num>
+                      <p>damage or deface the surface of any <term refersTo="#term-public_road" id="trm339">public road</term> or <term refersTo="#term-public_place" id="trm340">public place</term>, or any public or private property;</p>
+                    </item>
+                    <item id="section-28.paragraph-0.list1.b.list0.iii">
+                      <num>(iii)</num>
+                      <p>create a traffic or health hazard or a health risk;</p>
+                    </item>
+                    <item id="section-28.paragraph-0.list1.b.list0.iv">
+                      <num>(iv)</num>
+                      <p>contravene any of the terms and conditions of his or her <term refersTo="#term-informal_trading" id="trm341">informal trading</term> permit; or</p>
+                    </item>
+                    <item id="section-28.paragraph-0.list1.b.list0.v">
+                      <num>(v)</num>
+                      <p>act in a way which disturbs the reasonable peace, comfort or convenience and well-being of any other person.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-29">
+          <num>29.</num>
+          <heading>Environmental health</heading>
+          <paragraph id="section-29.paragraph-0">
+            <content>
+              <blockList id="section-29.paragraph-0.list1">
+                <listIntroduction>An <term refersTo="#term-informal_trader" id="trm342">informal trader</term> must –</listIntroduction>
+                <item id="section-29.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>keep the <term refersTo="#term-informal_trading" id="trm343">informal trading</term> site or area or occupied by him or her for the purposes of conducting <term refersTo="#term-informal_trading" id="trm344">informal trading</term> in a clean and sanitary condition;</p>
+                </item>
+                <item id="section-29.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>keep his or her <term refersTo="#term-goods" id="trm345">goods</term> in a clean and sanitary condition;</p>
+                </item>
+                <item id="section-29.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <blockList id="section-29.paragraph-0.list1.c.list0">
+                    <listIntroduction>ensure that, on completion of business each day –</listIntroduction>
+                    <item id="section-29.paragraph-0.list1.c.list0.i">
+                      <num>(i)</num>
+                      <p>the <term refersTo="#term-informal_trading" id="trm346">informal trading</term> site or area occupied by him or her for the purposes of conducting <term refersTo="#term-informal_trading" id="trm347">informal trading</term> is free of <term refersTo="#term-litter" id="trm348">litter</term> and other waste; and</p>
+                    </item>
+                    <item id="section-29.paragraph-0.list1.c.list0.ii">
+                      <num>(ii)</num>
+                      <p>all his or her <term refersTo="#term-goods" id="trm349">goods</term> are collected and removed from any <term refersTo="#term-public_road" id="trm350">public road</term> or <term refersTo="#term-public_place" id="trm351">public place</term> and stored in a suitable facility;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-29.paragraph-0.list1.d">
+                  <num>(d)</num>
+                  <p>take necessary precautions in the course of conducting his or her business as may be necessary to prevent the spilling of fat, oil or grease onto a <term refersTo="#term-public_road" id="trm352">public road</term>, or <term refersTo="#term-public_place" id="trm353">public place</term>, or into a storm water drain;</p>
+                </item>
+                <item id="section-29.paragraph-0.list1.e">
+                  <num>(e)</num>
+                  <p>ensure that no smoke, fumes or other substance, odours, or noise, emanating from his or her activities associated with <term refersTo="#term-informal_trading" id="trm354">informal trading</term>, causes pollution of any kind;</p>
+                </item>
+                <item id="section-29.paragraph-0.list1.f">
+                  <num>(f)</num>
+                  <p>carry on business in a manner which does not cause a threat to public health or public safety; and</p>
+                </item>
+                <item id="section-29.paragraph-0.list1.g">
+                  <num>(g)</num>
+                  <p>at the request of an <term refersTo="#term-authorised_official" id="trm355">authorised official</term> of the <term refersTo="#term-Municipality" id="trm356">Municipality</term>, move or remove any object so that the area or <term refersTo="#term-informal_trading" id="trm357">informal trading</term> site from which <term refersTo="#term-informal_trading" id="trm358">informal trading</term> is conducted may be cleaned.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-30">
+          <num>30.</num>
+          <heading>Temporary relocation</heading>
+          <paragraph id="section-30.paragraph-0">
+            <content>
+              <p>An <term refersTo="#term-informal_trader" id="trm359">informal trader</term> must, on request by an <term refersTo="#term-authorised_official" id="trm360">authorised official</term> or a service provider appointed by the <term refersTo="#term-Municipality" id="trm361">Municipality</term>, move his or her <term refersTo="#term-goods" id="trm362">goods</term> so as to permit the carrying out of any work in relation to a <term refersTo="#term-public_road" id="trm363">public road</term>, <term refersTo="#term-public_place" id="trm364">public place</term> or any work.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-31">
+          <num>31.</num>
+          <heading>Special events</heading>
+          <subsection id="section-31.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm365">Municipality</term> may, on reasonable notice, prohibit or restrict <term refersTo="#term-informal_trading" id="trm366">informal trading</term> for the duration of a special <term refersTo="#term-event" id="trm367">event</term> and within a <term refersTo="#term-prescribed" id="trm368">prescribed</term> area, notwithstanding the provisions of any <term refersTo="#term-informal_trading" id="trm369">informal trading</term> policy or any <term refersTo="#term-informal_trading" id="trm370">informal trading</term> permit.</p>
+            </content>
+          </subsection>
+          <subsection id="section-31.2">
+            <num>(2)</num>
+            <content>
+              <p>No compensation is payable by the <term refersTo="#term-Municipality" id="trm371">Municipality</term> to any <term refersTo="#term-informal_trader" id="trm372">informal trader</term> as a result of the prohibition or restriction of <term refersTo="#term-informal_trading" id="trm373">informal trading</term> as contemplated in subsection (1).</p>
+            </content>
+          </subsection>
+          <subsection id="section-31.3">
+            <num>(3)</num>
+            <content>
+              <p>No <term refersTo="#term-informal_trading" id="trm374">informal trading</term> fee shall be payable by an <term refersTo="#term-informal_trader" id="trm375">informal trader</term> during any period during which <term refersTo="#term-informal_trading" id="trm376">informal trading</term> is prohibited or restricted.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-32">
+          <num>32.</num>
+          <heading>Obligation of owners on <term refersTo="#term-non-municipal_property" id="trm377">non-municipal property</term></heading>
+          <paragraph id="section-32.paragraph-0">
+            <content>
+              <blockList id="section-32.paragraph-0.list1">
+                <listIntroduction>An owner of <term refersTo="#term-non-municipal_property" id="trm378">non-municipal property</term> must –</listIntroduction>
+                <item id="section-32.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>ensure that any <term refersTo="#term-informal_trading" id="trm379">informal trading</term> taking place on his or her property complies with this By-law;</p>
+                </item>
+                <item id="section-32.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>permit any <term refersTo="#term-authorised_official" id="trm380">authorised official</term> access to his or her property for the purpose of ensuring compliance with this By-law; and</p>
+                </item>
+                <item id="section-32.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>ensure, at the owner’s cost, that sufficient <term refersTo="#term-services" id="trm381">services</term> are provided to maintain acceptable hygienic conditions in respect of the <term refersTo="#term-informal_trading" id="trm382">informal trading</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+      <chapter id="chapter-6">
+        <num>6</num>
+        <heading>Enforcement</heading>
+        <section id="section-33">
+          <num>33.</num>
+          <heading>Lawful instructions</heading>
+          <paragraph id="section-33.paragraph-0">
+            <content>
+              <p>Failure to comply with a lawful request of an <term refersTo="#term-authorised_official" id="trm383">authorised official</term> is a contravention of this By-law.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-34">
+          <num>34.</num>
+          <heading>Recovery of costs</heading>
+          <subsection id="section-34.1">
+            <num>(1)</num>
+            <content>
+              <p>If an <term refersTo="#term-informal_trader" id="trm384">informal trader</term> contravenes any provision of this By-law, an applicable <term refersTo="#term-informal_trading" id="trm385">informal trading</term> policy or his or her permit and fails or refuses to cease the contravention, or to take steps to rectify any contravention, then the <term refersTo="#term-Municipality" id="trm386">Municipality</term> may take those steps itself and recover the costs from the <term refersTo="#term-informal_trader" id="trm387">informal trader</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-34.2">
+            <num>(2)</num>
+            <content>
+              <p>The costs mentioned in subsection (1) is in addition to any fine which may be imposed on the <term refersTo="#term-informal_trader" id="trm388">informal trader</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-35">
+          <num>35.</num>
+          <heading>Removal and impoundment</heading>
+          <subsection id="section-35.1">
+            <num>(1)</num>
+            <content>
+              <p>An <term refersTo="#term-authorised_official" id="trm389">authorised official</term> may remove and impound any <term refersTo="#term-goods" id="trm390">goods</term> of an <term refersTo="#term-informal_trader" id="trm391">informal trader</term> which he or she reasonably suspects is being used, has been used or is intended to be used for or in connection with <term refersTo="#term-informal_trading" id="trm392">informal trading</term> which is in contravention of this By-law or any other applicable law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-35.2">
+            <num>(2)</num>
+            <content>
+              <p>The removal and impoundment of <term refersTo="#term-goods" id="trm393">goods</term> in terms of subsection (1) may be carried out irrespective of whether or not such <term refersTo="#term-goods" id="trm394">goods</term> are in the possession or under the control of any third party at the time.</p>
+            </content>
+          </subsection>
+          <subsection id="section-35.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-35.3.list1">
+                <listIntroduction>Any <term refersTo="#term-authorised_official" id="trm395">authorised official</term> who removes and impounds <term refersTo="#term-goods" id="trm396">goods</term> in terms of subsection (1) must, except where <term refersTo="#term-goods" id="trm397">goods</term> have been left or abandoned, issue the <term refersTo="#term-informal_trader" id="trm398">informal trader</term> a receipt which─</listIntroduction>
+                <item id="section-35.3.list1.a">
+                  <num>(a)</num>
+                  <p>itemises the <term refersTo="#term-goods" id="trm399">goods</term> to be removed and impounded;</p>
+                </item>
+                <item id="section-35.3.list1.b">
+                  <num>(b)</num>
+                  <p>provides the address where the impounded <term refersTo="#term-goods" id="trm400">goods</term> will be kept;</p>
+                </item>
+                <item id="section-35.3.list1.c">
+                  <num>(c)</num>
+                  <p>states the period of impoundment;</p>
+                </item>
+                <item id="section-35.3.list1.d">
+                  <num>(d)</num>
+                  <p>states the terms and conditions which must be met to secure the release of the impounded <term refersTo="#term-goods" id="trm401">goods</term>;</p>
+                </item>
+                <item id="section-35.3.list1.e">
+                  <num>(e)</num>
+                  <p>states the <term refersTo="#term-impoundment_fee" id="trm402">impoundment fee</term> to be paid to secure release of the impounded <term refersTo="#term-goods" id="trm403">goods</term>;</p>
+                </item>
+                <item id="section-35.3.list1.f">
+                  <num>(f)</num>
+                  <p>states the terms and conditions on which unclaimed <term refersTo="#term-goods" id="trm404">goods</term> will be sold or otherwise disposed of; and</p>
+                </item>
+                <item id="section-35.3.list1.g">
+                  <num>(g)</num>
+                  <p>provides the name and address of a municipal official to whom any representations regarding the impoundment may be made and the date and time by which representations must be made.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-35.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-35.4.list1">
+                <listIntroduction>If any <term refersTo="#term-goods" id="trm405">goods</term> to be impounded are attached to immovable property or a structure, an <term refersTo="#term-authorised_official" id="trm406">authorised official</term> may order any person who appears to be in control of the immovable property or structure to remove the <term refersTo="#term-goods" id="trm407">goods</term> to be impounded and, if that person refuses or fails to comply, then─</listIntroduction>
+                <item id="section-35.4.list1.a">
+                  <num>(a)</num>
+                  <p>that person shall be guilty of an offence; and</p>
+                </item>
+                <item id="section-35.4.list1.b">
+                  <num>(b)</num>
+                  <p>the <term refersTo="#term-authorised_official" id="trm408">authorised official</term> may remove the <term refersTo="#term-goods" id="trm409">goods</term> himself or herself.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-35.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-35.5.list1">
+                <listIntroduction>Goods which have been impounded may be released after –</listIntroduction>
+                <item id="section-35.5.list1.a">
+                  <num>(a)</num>
+                  <p>proof of ownership in the form of the presentation of the receipt contemplated in subsection (3); and</p>
+                </item>
+                <item id="section-35.5.list1.b">
+                  <num>(b)</num>
+                  <p>payment of the <term refersTo="#term-impoundment_fee" id="trm410">impoundment fee</term>,</p>
+                </item>
+              </blockList>
+              <p>is received.</p>
+            </content>
+          </subsection>
+          <subsection id="section-35.6">
+            <num>(6)</num>
+            <content>
+              <blockList id="section-35.6.list1">
+                <listIntroduction>The <term refersTo="#term-Municipality" id="trm411">Municipality</term> may at any time after the impoundment <term refersTo="#term-sell" id="trm412">sell</term>, destroy or otherwise dispose of─</listIntroduction>
+                <item id="section-35.6.list1.a">
+                  <num>(a)</num>
+                  <p>impounded perishable <term refersTo="#term-goods" id="trm413">goods</term> if the <term refersTo="#term-goods" id="trm414">goods</term> represent or might represent a health risk or a <term refersTo="#term-nuisance" id="trm415">nuisance</term>; and</p>
+                </item>
+                <item id="section-35.6.list1.b">
+                  <num>(b)</num>
+                  <p>foodstuffs which are unfit for human consumption.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-35.7">
+            <num>(7)</num>
+            <content>
+              <p>Impounded <term refersTo="#term-goods" id="trm416">goods</term> other than perishable <term refersTo="#term-goods" id="trm417">goods</term>, may be sold by the <term refersTo="#term-Municipality" id="trm418">Municipality</term> if the owner does not, or is unable to, pay the <term refersTo="#term-impoundment_fee" id="trm419">impoundment fee</term> within 1 month from the date of impoundment of those <term refersTo="#term-goods" id="trm420">goods</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-35.8">
+            <num>(8)</num>
+            <content>
+              <p>If impounded <term refersTo="#term-goods" id="trm421">goods</term> are sold by the <term refersTo="#term-Municipality" id="trm422">Municipality</term> in terms of subsections (6) or (7), and upon the presentation of the receipt contemplated in subsection (3) as proof of ownership, the <term refersTo="#term-Municipality" id="trm423">Municipality</term> must pay to the person presenting the inventory the proceeds of the sale less the <term refersTo="#term-impoundment_fee" id="trm424">impoundment fee</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-35.9">
+            <num>(9)</num>
+            <content>
+              <blockList id="section-35.9.list1">
+                <listIntroduction>If in the reasonable opinion of an <term refersTo="#term-authorised_official" id="trm425">authorised official</term>, an <term refersTo="#term-informal_trader" id="trm426">informal trader</term> is suspected of trading in <term refersTo="#term-illegal_goods" id="trm427">illegal goods</term>, then those <term refersTo="#term-goods" id="trm428">goods</term> may be immediately confiscated and, in the <term refersTo="#term-event" id="trm429">event</term> of such a confiscation, the <term refersTo="#term-authorised_official" id="trm430">authorised official</term> must─</listIntroduction>
+                <item id="section-35.9.list1.a">
+                  <num>(a)</num>
+                  <p>comply with the requirements of this section; and</p>
+                </item>
+                <item id="section-35.9.list1.b">
+                  <num>(b)</num>
+                  <p>immediately surrender the suspected <term refersTo="#term-illegal_goods" id="trm431">illegal goods</term> to the possession of the South African Police Service.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-36">
+          <num>36.</num>
+          <heading>Vicarious liability</heading>
+          <subsection id="section-36.1">
+            <num>(1)</num>
+            <content>
+              <p>When an employee or agent of an <term refersTo="#term-informal_trader" id="trm432">informal trader</term> contravenes a provision of this Bylaw, any <term refersTo="#term-informal_trading" id="trm433">informal trading</term> policy or <term refersTo="#term-informal_trading" id="trm434">informal trading</term> permit, the <term refersTo="#term-informal_trader" id="trm435">informal trader</term> shall be deemed to have committed such contravention himself or herself unless such <term refersTo="#term-informal_trader" id="trm436">informal trader</term> satisfies the court that he or she took reasonable steps to prevent such contravention.</p>
+            </content>
+          </subsection>
+          <subsection id="section-36.2">
+            <num>(2)</num>
+            <content>
+              <p>The fact that the <term refersTo="#term-informal_trader" id="trm437">informal trader</term> issued instructions to the employee or agent, prohibiting such contravention, shall not in itself constitute sufficient proof of such reasonable steps.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-37">
+          <num>37.</num>
+          <heading>Offences</heading>
+          <subsection id="section-37.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-37.1.list1">
+                <listIntroduction>A person is guilty of an offence if he or she─</listIntroduction>
+                <item id="section-37.1.list1.a">
+                  <num>(a)</num>
+                  <p>trades without an <term refersTo="#term-informal_trading" id="trm438">informal trading</term> permit;</p>
+                </item>
+                <item id="section-37.1.list1.b">
+                  <num>(b)</num>
+                  <p>contravenes any provision of this By-law;</p>
+                </item>
+                <item id="section-37.1.list1.c">
+                  <num>(c)</num>
+                  <p>contravenes any condition on which a permit has been issued to him or her;</p>
+                </item>
+                <item id="section-37.1.list1.d">
+                  <num>(d)</num>
+                  <p>contravenes any provision of an applicable <term refersTo="#term-informal_trading" id="trm439">informal trading</term> policy;</p>
+                </item>
+                <item id="section-37.1.list1.e">
+                  <num>(e)</num>
+                  <p>fails to comply with any lawful instruction given in terms of this By-law;</p>
+                </item>
+                <item id="section-37.1.list1.f">
+                  <num>(f)</num>
+                  <p>threatens, resists, interferes with or obstructs any <term refersTo="#term-authorised_official" id="trm440">authorised official</term> in the performance of official duties or functions in terms of or under this By-law; or</p>
+                </item>
+                <item id="section-37.1.list1.g">
+                  <num>(g)</num>
+                  <p>deliberately furnishes false or misleading information to an <term refersTo="#term-authorised_official" id="trm441">authorised official</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-37.2">
+            <num>(2)</num>
+            <content>
+              <p>A person is guilty of a continuing offence if he or she continues with an offence after notice has been served on him or her in terms of this By-law requiring him or her to cease committing such offence, or after he or she has been convicted of such offence.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-38">
+          <num>38.</num>
+          <heading>Penalties</heading>
+          <subsection id="section-38.1">
+            <num>(1)</num>
+            <content>
+              <p>Any person who is convicted of contravening paragraph 37(1)(a) shall be liable to a fine of an amount not exceeding R5 000 or to imprisonment for a period not exceeding 1 year, or to both such fine and imprisonment.</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.2">
+            <num>(2)</num>
+            <content>
+              <p>Subject to subsection (1), any person who is convicted of an offence under this By-law shall be liable to a fine of an amount not exceeding R1 000 or to imprisonment for a period not exceeding 6 months, or to both such fine and imprisonment.</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.3">
+            <num>(3)</num>
+            <content>
+              <p>In the case of a continuing offence, an additional fine of an amount not exceeding R150 or imprisonment for a period not exceeding 10 days, for each day on which such offence continues or both such fine and imprisonment, will be imposed.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-39">
+          <num>39.</num>
+          <heading>Exemption from liability</heading>
+          <paragraph id="section-39.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm442">Municipality</term> shall not be liable for damages or compensation arising from anything lawfully done in good faith by it or any <term refersTo="#term-authorised_official" id="trm443">authorised official</term> or employee thereof in terms of this By-law.</p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+      <chapter id="chapter-7">
+        <num>7</num>
+        <heading>Miscellaneous provisions</heading>
+        <section id="section-40">
+          <num>40.</num>
+          <heading>Delegations</heading>
+          <subsection id="section-40.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-40.1.list1">
+                <listIntroduction>Subject to the Constitution and applicable national and provincial laws, any –</listIntroduction>
+                <item id="section-40.1.list1.a">
+                  <num>(a)</num>
+                  <p>power, excluding a power referred to in section 160(2) of the Constitution;</p>
+                </item>
+                <item id="section-40.1.list1.b">
+                  <num>(b)</num>
+                  <p>function; or</p>
+                </item>
+                <item id="section-40.1.list1.c">
+                  <num>(c)</num>
+                  <p>duty, conferred, in terms of this By-law, upon the council, or on any of the <term refersTo="#term-Municipality" id="trm444">Municipality</term>'s other political structures, political office bearers, councillors or staff members, may be delegated or sub-delegated by such political structure, political office bearer, councillor, or staff member, to an entity within, or a staff member employed by, the <term refersTo="#term-Municipality" id="trm445">Municipality</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-40.2">
+            <num>(2)</num>
+            <content>
+              <p>The delegation in terms of subsection (1) must be effected in accordance with the system of delegation adopted by the council in accordance with section 59(1) of the Local Government: Municipal Systems Act, 2000 (Act No.32 of 2000), subject to the criteria set out in section 59(2) of said Act.</p>
+            </content>
+          </subsection>
+          <subsection id="section-40.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-40.3.list1">
+                <listIntroduction>Any delegation contemplated in this section must be recorded in the Register of Delegations, which must contain information on the –</listIntroduction>
+                <item id="section-40.3.list1.a">
+                  <num>(a)</num>
+                  <p>entity or person issuing the delegation or sub-delegation;</p>
+                </item>
+                <item id="section-40.3.list1.b">
+                  <num>(b)</num>
+                  <p>recipient of the delegation or sub-delegation; and</p>
+                </item>
+                <item id="section-40.3.list1.c">
+                  <num>(c)</num>
+                  <p>conditions attached to the delegation or sub-delegation.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-41">
+          <num>41.</num>
+          <heading>Appeals</heading>
+          <subsection id="section-41.1">
+            <num>(1)</num>
+            <content>
+              <p>A person whose rights are affected by a decision taken by the <term refersTo="#term-Municipality" id="trm446">Municipality</term> in terms of this By-law may appeal against that decision in terms of the Appeals provision contained in the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000) by giving written notice of the appeal and reasons to the <term refersTo="#term-municipal_manager" id="trm447">municipal manager</term> within 21 days of the date of the notification of the decision.</p>
+            </content>
+          </subsection>
+          <subsection id="section-41.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-municipal_manager" id="trm448">municipal manager</term> must promptly submit the appeal to the appropriate appeal authority.</p>
+            </content>
+          </subsection>
+          <subsection id="section-41.3">
+            <num>(3)</num>
+            <content>
+              <p>The appeal authority must commence with an appeal within six weeks and decide the appeal within a reasonable period.</p>
+            </content>
+          </subsection>
+          <subsection id="section-41.4">
+            <num>(4)</num>
+            <content>
+              <p>The appeal authority must confirm, vary or revoke the decision, but no such variation or revocation of a decision may detract from any rights which may have accrued as a result of the decision.</p>
+            </content>
+          </subsection>
+          <subsection id="section-41.5">
+            <num>(5)</num>
+            <content>
+              <p>The appeal authority must furnish written reasons for its decision on all appeal matters.</p>
+            </content>
+          </subsection>
+          <subsection id="section-41.6">
+            <num>(6)</num>
+            <content>
+              <p>All appeals lodged are done in terms of the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000) and not in terms of this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-41.7">
+            <num>(7)</num>
+            <content>
+              <p>Where a conviction has been affirmed by a court of law and the accused wishes to appeal such conviction, the appeal must take place in terms of the court’s appeal process and not in terms of subsection (1) to (5).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-42">
+          <num>42.</num>
+          <heading>Repeal of laws and savings</heading>
+          <subsection id="section-42.1">
+            <num>(1)</num>
+            <content>
+              <p>The laws mentioned in the first and second columns of the Schedule to this By-law are hereby repealed to the extent set out in the third column of the said Schedule.</p>
+            </content>
+          </subsection>
+          <subsection id="section-42.2">
+            <num>(2)</num>
+            <content>
+              <p>All permits issued under the eThekwini <term refersTo="#term-Municipality" id="trm449">Municipality</term> Street Trading By-laws published under Municipal Notice 97 of 1995 remain in full force and effect as if the said By-law has not been repealed as contemplated in subsection (1).</p>
+            </content>
+          </subsection>
+          <subsection id="section-42.3">
+            <num>(3)</num>
+            <content>
+              <p>Any rights accrued or obligations incurred as contemplated in the laws referred to in subsection (2) remain in force, as if those laws have not been repealed.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-43">
+          <num>43.</num>
+          <heading>Transitional provisions</heading>
+          <paragraph id="section-43.paragraph-0">
+            <content>
+              <blockList id="section-43.paragraph-0.list1">
+                <listIntroduction>Notwithstanding the enactment of this By-law─</listIntroduction>
+                <item id="section-43.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>any declaration of an area within the jurisdiction of the <term refersTo="#term-Municipality" id="trm450">Municipality</term> as an area in which the carrying on of the business of street vendor, peddler or hawker may be restricted or prohibited, shall remain valid until such time as the council adopts an <term refersTo="#term-informal_trading" id="trm451">informal trading</term> policy in respect of such area in terms of this By-law;</p>
+                </item>
+                <item id="section-43.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>where an <term refersTo="#term-informal_trader" id="trm452">informal trader</term> had been issued with a lease or permit prior to the enactment of this By-law which permits trading from a particular site, such lease or permit shall remain valid until a new permit system is adopted by the council which complies with the permit system as contemplated in this By-law.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-44">
+          <num>44.</num>
+          <heading>Short title and commencement</heading>
+          <paragraph id="section-44.paragraph-0">
+            <content>
+              <p>This By-law is called the eThekwini <term refersTo="#term-Municipality" id="trm453">Municipality</term>: Informal Trading By-law, 2014 and takes effect on the date on which it is published in the Provincial Gazette of KwaZulu-Natal.</p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+    </body>
+  </act>
+  <components>
+    <component id="component-schedule">
+      <doc name="schedule">
+        <meta>
+          <identification source="#slaw">
+            <FRBRWork>
+              <FRBRthis value="/za-eth/act/by-law/2014/informal-trading/schedule"/>
+              <FRBRuri value="/za-eth/act/by-law/2014/informal-trading"/>
+              <FRBRalias value="SCHEDULE"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-eth/act/by-law/2014/informal-trading/eng@2014-06-27/schedule"/>
+              <FRBRuri value="/za-eth/act/by-law/2014/informal-trading/eng@2014-06-27"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-eth/act/by-law/2014/informal-trading/eng@2014-06-27/schedule"/>
+              <FRBRuri value="/za-eth/act/by-law/2014/informal-trading/eng@2014-06-27"/>
+              <FRBRdate date="2016-03-28" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule">
+            <heading>REPEALED BY-LAWS</heading>
+            <part id="part-A">
+              <num>A</num>
+              <heading>BY-LAWS</heading>
+              <paragraph id="part-A.paragraph-0">
+                <content>
+                  <table id="part-A.paragraph-0.table0">
+                    <tr>
+                      <th>
+                        <p>Number and year of law</p>
+                      </th>
+                      <th>
+                        <p>Title</p>
+                      </th>
+                      <th>
+                        <p>Extent of repeal</p>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Municipal Notice No. 97 of 1995</p>
+                      </td>
+                      <td>
+                        <p>Street Trading By-laws, eThekwini Municipality</p>
+                      </td>
+                      <td>
+                        <p>The whole</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Municipal Notice No. 28 of 1997</p>
+                      </td>
+                      <td>
+                        <p>By-laws Relating to the Carrying on of the Business of Street Vendor, Pedlar or Hawker, South Local Council</p>
+                      </td>
+                      <td>
+                        <p>The whole</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 208 of 1937</p>
+                      </td>
+                      <td>
+                        <p>General By-laws, Amanzimtoti Local Administration and Health Board Area</p>
+                      </td>
+                      <td>
+                        <p>Section 9</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 30 of 1954</p>
+                      </td>
+                      <td>
+                        <p>Yacht Bank By-laws, City of Durban</p>
+                      </td>
+                      <td>
+                        <p>Section 10(f)</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Provincial Notice No. 237 of 1941</p>
+                      </td>
+                      <td>
+                        <p>Regulations of the Purposes of the Local Health Commission (Public Health Areas Control) Ordinance</p>
+                      </td>
+                      <td>
+                        <p>Chapter 2 and Section 7</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Municipal Notice No. 14 of 2009</p>
+                      </td>
+                      <td>
+                        <p>2010 FIFA World Cup South Africa By-law, eThekwini Municipality</p>
+                      </td>
+                      <td>
+                        <p>Chapter 6 and Section 7.5</p>
+                      </td>
+                    </tr>
+                  </table>
+                </content>
+              </paragraph>
+            </part>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>

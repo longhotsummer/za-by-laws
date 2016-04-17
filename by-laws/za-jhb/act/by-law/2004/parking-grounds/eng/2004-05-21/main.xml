@@ -1,0 +1,807 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openbylaws">
+        <FRBRWork>
+          <FRBRthis value="/za-jhb/act/by-law/2004/parking-grounds/main"/>
+          <FRBRuri value="/za-jhb/act/by-law/2004/parking-grounds"/>
+          <FRBRalias value="Parking Grounds By-laws, 2003"/>
+          <FRBRdate date="2004-05-21" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-jhb/act/by-law/2004/parking-grounds/eng@2004-05-21/main"/>
+          <FRBRuri value="/za-jhb/act/by-law/2004/parking-grounds/eng@2004-05-21"/>
+          <FRBRdate date="2004-05-21" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-jhb/act/by-law/2004/parking-grounds/eng@2004-05-21/main"/>
+          <FRBRuri value="/za-jhb/act/by-law/2004/parking-grounds/eng@2004-05-21"/>
+          <FRBRdate date="2015-09-06" name="Generation"/>
+          <FRBRauthor href="#openbylaws" as="#author"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-05-21" name="Province of Gauteng: Provincial Gazette" number="179" showAs="Province of Gauteng: Provincial Gazette"/>
+      <references source="#this">
+        <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council.johannesburg" showAs="City of Johannesburg Metropolity Municipality Council"/>
+        <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCTerm id="term-authorised_official" href="/ontology/term/this.eng.authorised_official" showAs="authorised official"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-parking_bay" href="/ontology/term/this.eng.parking_bay" showAs="parking bay"/>
+        <TLCTerm id="term-parking_ground" href="/ontology/term/this.eng.parking_ground" showAs="parking ground"/>
+        <TLCTerm id="term-parking_meter_parking_ground" href="/ontology/term/this.eng.parking_meter_parking_ground" showAs="parking meter parking ground"/>
+        <TLCTerm id="term-parking_meter" href="/ontology/term/this.eng.parking_meter" showAs="parking meter"/>
+        <TLCTerm id="term-parking_period" href="/ontology/term/this.eng.parking_period" showAs="parking period"/>
+        <TLCTerm id="term-pay_and_display_machine" href="/ontology/term/this.eng.pay_and_display_machine" showAs="pay and display machine"/>
+        <TLCTerm id="term-pay_and_display_parking_ground" href="/ontology/term/this.eng.pay_and_display_parking_ground" showAs="pay and display parking ground"/>
+        <TLCTerm id="term-pound" href="/ontology/term/this.eng.pound" showAs="pound"/>
+        <TLCTerm id="term-prescribed" href="/ontology/term/this.eng.prescribed" showAs="prescribed"/>
+        <TLCTerm id="term-prescribed_fee" href="/ontology/term/this.eng.prescribed_fee" showAs="prescribed fee"/>
+      </references>
+    </meta>
+    <preamble>
+      <p>The Municipal Manager of the City of Johannesburg Metropolitan Municipality hereby, in terms of section 13(a) of the Local Government Municipal Systems Act, 2000 (Act No. 32 of 2000), publishes the Parking Grounds By-laws for the City of Johannesburg Metropolitan Municipality as approved by its Council and as concurred with by the Premier: Gauteng Province in terms of section 80A of the National Road Traffic Act, 1996 (Act No. 89 of 1996), as set out hereunder.</p>
+    </preamble>
+    <body>
+      <chapter id="chapter-1">
+        <num>1</num>
+        <heading>Interpretation</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <subsection id="section-1.1">
+            <num>(1)</num>
+            <content>
+              <p>In these By-laws, any word or expression which has been defined in the National Road Traffic Act, 1996 (Act No. 93 of 1996), or the Gauteng Provincial Road Traffic Act, 1997 (Act No. 10 of 1997), has that meaning and, unless the context otherwise indicates -</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-1" refersTo="#term-authorised_official">
+            <content>
+              <p>"<def refersTo="#term-authorised_official">authorised official</def>" means any official of the <term refersTo="#term-Council" id="trm0">Council</term> who has been authorised by it to administer, implement and enforce the provisions of these By-laws;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-2">
+            <content>
+              <blockList id="section-1.subsection-2.list2" refersTo="#term-Council">
+                <listIntroduction>"<def refersTo="#term-Council">Council</def>" means –</listIntroduction>
+                <item id="section-1.subsection-2.list2.a">
+                  <num>(a)</num>
+                  <p>the Metropolitan Municipality of the City of Johannesburg established by Provincial Notice No 6766 of 2000 dated I October 2000, as amended, exercising its legislative and executive authority through its municipal Council; or</p>
+                </item>
+                <item id="section-1.subsection-2.list2.b">
+                  <num>(b)</num>
+                  <p>its successor in title; or</p>
+                </item>
+                <item id="section-1.subsection-2.list2.c">
+                  <num>(c)</num>
+                  <p>a structure or person exercising a delegated power or carrying out an instruction, where any power in these by-laws has been delegated or subdelegated, or an instruction given, as contemplated in section 59 of the Local Government: Municipal Systems Act, 2000 (Act No 32 of 2000); or</p>
+                </item>
+                <item id="section-1.subsection-2.list2.d">
+                  <num>(d)</num>
+                  <p>a service provider fulfilling a responsibility under these by-laws, assigned to it in terms of section 81(2) of the Local Government: Municipal Systems Act (Act No. 32 of 2000) or any other law, as the case may be.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-3" refersTo="#term-parking_bay">
+            <content>
+              <p>"<def refersTo="#term-parking_bay">parking bay</def>" means a demarcated area within which a vehicle is to be parked in terms of these By-laws, demarcated as such upon the surface of a <term refersTo="#term-parking_ground" id="trm1">parking ground</term> or a floor thereof;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-4" refersTo="#term-parking_ground">
+            <content>
+              <p>"<def refersTo="#term-parking_ground">parking ground</def>" means any area of land or any building set aside by the <term refersTo="#term-Council" id="trm2">Council</term> as a parking ground or garage for the parking of vehicles by members of the public, whether or not a <term refersTo="#term-prescribed_fee" id="trm3">prescribed fee</term> has been determined for the use thereof;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-5" refersTo="#term-parking_meter_parking_ground">
+            <content>
+              <p>"<def refersTo="#term-parking_meter_parking_ground">parking meter parking ground</def>" means a <term refersTo="#term-parking_ground" id="trm4">parking ground</term> or any part thereof where parking is controlled by means of parking meters;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-6" refersTo="#term-parking_meter">
+            <content>
+              <p>"<def refersTo="#term-parking_meter">parking meter</def>" means a device for registering and visibly recording the passage of time in accordance with the insertion of a coin or other method of payment <term refersTo="#term-prescribed" id="trm5">prescribed</term> and includes any post or fixture to which it is attached;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-7" refersTo="#term-parking_period">
+            <content>
+              <p>"<def refersTo="#term-parking_period">parking period</def>" means that period, including a period reflected on a <term refersTo="#term-parking_meter" id="trm6">parking meter</term>, on any one day during which vehicles are permitted to park in a <term refersTo="#term-parking_ground" id="trm7">parking ground</term> or <term refersTo="#term-parking_bay" id="trm8">parking bay</term> or as indicated by a road traffic sign;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-8">
+            <content>
+              <blockList id="section-1.subsection-8.list8" refersTo="#term-pay_and_display_machine">
+                <listIntroduction>"<def refersTo="#term-pay_and_display_machine">pay and display machine</def>" means a machine installed at a <term refersTo="#term-pay_and_display_parking_ground" id="trm9">pay and display parking ground</term> for the sale of tickets on which the following are reflected:</listIntroduction>
+                <item id="section-1.subsection-8.list8.a">
+                  <num>(a)</num>
+                  <p>The date or day of issue of the ticket</p>
+                </item>
+                <item id="section-1.subsection-8.list8.b">
+                  <num>(b)</num>
+                  <p>the amount paid for the ticket;</p>
+                </item>
+                <item id="section-1.subsection-8.list8.c">
+                  <num>(c)</num>
+                  <p>the departure time; and</p>
+                </item>
+                <item id="section-1.subsection-8.list8.d">
+                  <num>(d)</num>
+                  <p>the machine code number.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-9" refersTo="#term-pay_and_display_parking_ground">
+            <content>
+              <p>"<def refersTo="#term-pay_and_display_parking_ground">pay and display parking ground</def>" means a <term refersTo="#term-parking_ground" id="trm10">parking ground</term>, or any part thereof where a notice is erected by the <term refersTo="#term-Council" id="trm11">Council</term> at the entrance thereof indicating that the <term refersTo="#term-parking_ground" id="trm12">parking ground</term> concerned or part thereof is a pay and display <term refersTo="#term-parking_ground" id="trm13">parking ground</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-10" refersTo="#term-pound">
+            <content>
+              <p>"<def refersTo="#term-pound">pound</def>" means an area of land or place set aside by the <term refersTo="#term-Council" id="trm14">Council</term> for the custody of vehicles removed from a <term refersTo="#term-parking_ground" id="trm15">parking ground</term> in terms of these By-laws;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-11" refersTo="#term-prescribed">
+            <content>
+              <p>"<def refersTo="#term-prescribed">prescribed</def>" means determined by resolution of the <term refersTo="#term-Council" id="trm16">Council</term> from time to time and published by notice in the Provincial Gazette;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-12" refersTo="#term-prescribed_fee">
+            <content>
+              <p>"<def refersTo="#term-prescribed_fee">prescribed fee</def>" means a fee determined by the <term refersTo="#term-Council" id="trm17">Council</term> by resolution in terms of section 10G(7)(a)(ii) of the Local Government Transition Act, 1993 (Act No. 209 of 1993), or any other applicable legislation.</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.2">
+            <num>(2)</num>
+            <content>
+              <p>If any provision in these by-laws vests or imposes any power, function or duty of the <term refersTo="#term-Council" id="trm18">Council</term> in or on an employee of the <term refersTo="#term-Council" id="trm19">Council</term> and such power, function or duty has in terms of section 81(2) of the Local Government: Municipal systems Act, 2000 (Act No. 32 of 2000), or any other law been assigned to a service provider, the reference in such provision to such employee must be read as a reference to the service provider or, where applicable, an employee of the service provider authorised by it.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Parking fees</heading>
+          <subsection id="section-2.subsection-0">
+            <content>
+              <p>Any person making use of a <term refersTo="#term-parking_ground" id="trm20">parking ground</term> or <term refersTo="#term-parking_bay" id="trm21">parking bay</term> in a <term refersTo="#term-parking_ground" id="trm22">parking ground</term> must pay the <term refersTo="#term-prescribed_fee" id="trm23">prescribed fee</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-2">
+        <num>2</num>
+        <heading>Ticket-controlled parking grounds</heading>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Conditions of parking in ticket-controlled parking grounds</heading>
+          <subsection id="section-3.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-3.1.list0">
+                <listIntroduction> No person may park a vehicle or cause or permit a vehicle to be parked or allow it to be or to remain in a <term refersTo="#term-parking_ground" id="trm24">parking ground</term>, wherein parking is controlled by the issue of tickets </listIntroduction>
+                <item id="section-3.1.list0.a">
+                  <num>(a)</num>
+                  <p>except in a <term refersTo="#term-parking_bay" id="trm25">parking bay</term> and in compliance with any directions which may be given by an <term refersTo="#term-authorised_official" id="trm26">authorised official</term> or where no such bay has been marked, except in a place indicated by the <term refersTo="#term-authorised_official" id="trm27">authorised official</term>;</p>
+                </item>
+                <item id="section-3.1.list0.b">
+                  <num>(b)</num>
+                  <p>after an <term refersTo="#term-authorised_official" id="trm28">authorised official</term> has indicated to the person that the <term refersTo="#term-parking_ground" id="trm29">parking ground</term> is full; or</p>
+                </item>
+                <item id="section-3.1.list0.c">
+                  <num>(c)</num>
+                  <p>after the expiry of the <term refersTo="#term-parking_period" id="trm30">parking period</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-3.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-3.2.list1">
+                <listIntroduction> No person may remove or cause or permit the removal of any vehicle from a <term refersTo="#term-parking_ground" id="trm31">parking ground</term> unless - </listIntroduction>
+                <item id="section-3.2.list1.a">
+                  <num>(a)</num>
+                  <p>that person has produced to the <term refersTo="#term-authorised_official" id="trm32">authorised official</term> a ticket authorising him or her to park in the <term refersTo="#term-parking_ground" id="trm33">parking ground</term> and which was issued to that person upon entering or leaving the <term refersTo="#term-parking_ground" id="trm34">parking ground</term>; and</p>
+                </item>
+                <item id="section-3.2.list1.b">
+                  <num>(b)</num>
+                  <p>that person has upon entering or leaving the <term refersTo="#term-parking_ground" id="trm35">parking ground</term> paid the <term refersTo="#term-prescribed_fee" id="trm36">prescribed fee</term> to the <term refersTo="#term-authorised_official" id="trm37">authorised official</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-3.3">
+            <num>(3)</num>
+            <content>
+              <p>If a person fails to produce a ticket authorising him or her to park in a <term refersTo="#term-parking_ground" id="trm38">parking ground</term>, that person is deemed to have parked the vehicle from the beginning of a period as <term refersTo="#term-prescribed" id="trm39">prescribed</term> and indicated on a notice board in the <term refersTo="#term-parking_ground" id="trm40">parking ground</term> until the time that person wants to remove the vehicle and he or she must pay the <term refersTo="#term-prescribed_fee" id="trm41">prescribed fee</term> for that period.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.4">
+            <num>(4)</num>
+            <content>
+              <p>No person may, after failing to produce a ticket, remove or cause or permit the removal of any vehicle parked in the <term refersTo="#term-parking_ground" id="trm42">parking ground</term> until that person has produced other proof, to the satisfaction of an <term refersTo="#term-authorised_official" id="trm43">authorised official</term>, of his or her right to remove such vehicle.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.5">
+            <num>(5)</num>
+            <content>
+              <p>An <term refersTo="#term-authorised_official" id="trm44">authorised official</term> may require a person referred to in subsection (4), to furnish <term refersTo="#term-prescribed" id="trm45">prescribed</term> security.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.6">
+            <num>(6)</num>
+            <content>
+              <p>If a vehicle has not been removed from a <term refersTo="#term-parking_ground" id="trm46">parking ground</term> by the end of the <term refersTo="#term-parking_period" id="trm47">parking period</term> for which the <term refersTo="#term-prescribed_fee" id="trm48">prescribed fee</term> has been paid, a further <term refersTo="#term-prescribed_fee" id="trm49">prescribed fee</term> is payable for the next <term refersTo="#term-parking_period" id="trm50">parking period</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Mechanical parking grounds</heading>
+          <subsection id="section-4.1">
+            <num>(1)</num>
+            <content>
+              <p>If the actual parking of a vehicle in a <term refersTo="#term-parking_ground" id="trm51">parking ground</term> is effected wholly or partly by means of a mechanical device, an <term refersTo="#term-authorised_official" id="trm52">authorised official</term> may, if a <term refersTo="#term-parking_bay" id="trm53">parking bay</term> is available, issue to a person who wants to park a vehicle at the <term refersTo="#term-parking_ground" id="trm54">parking ground</term>, a ticket in terms of which the <term refersTo="#term-Council" id="trm55">Council</term> authorises the parking of the vehicle in that <term refersTo="#term-parking_ground" id="trm56">parking ground</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-4.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-4.2.list1">
+                <listIntroduction> No vehicle parked in a <term refersTo="#term-parking_ground" id="trm57">parking ground</term> referred to in subsection (1), may be removed by any person unless - </listIntroduction>
+                <item id="section-4.2.list1.a">
+                  <num>(a)</num>
+                  <p>payment of the <term refersTo="#term-prescribed_fee" id="trm58">prescribed fee</term> has been made to an <term refersTo="#term-authorised_official" id="trm59">authorised official</term>; and</p>
+                </item>
+                <item id="section-4.2.list1.b">
+                  <num>(b)</num>
+                  <p>that person has produced to an <term refersTo="#term-authorised_official" id="trm60">authorised official</term> the ticket issued to him or her in terms of subsection (1) or, failing the production of such ticket, the provisions of section 3(4) applies, read with the necessary changes.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-4.3">
+            <num>(3)</num>
+            <content>
+              <p>No person who has caused a vehicle to be parked in a <term refersTo="#term-parking_ground" id="trm61">parking ground</term> referred to in subsection (1), may allow it to remain therein after expiry of the <term refersTo="#term-parking_period" id="trm62">parking period</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Monthly tickets</heading>
+          <subsection id="section-5.1">
+            <num>(1)</num>
+            <content>
+              <p>Notwithstanding anything to the contrary contained in these By-laws, the <term refersTo="#term-Council" id="trm63">Council</term> may in respect of any <term refersTo="#term-parking_ground" id="trm64">parking ground</term> controlled by the issue of tickets, issue at a <term refersTo="#term-prescribed_fee" id="trm65">prescribed fee</term> a ticket which entitles the holder to park a vehicle in that ground for one calendar month or any lesser period specified therein, at the times specified in the ticket, if a <term refersTo="#term-parking_bay" id="trm66">parking bay</term> is available.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm67">Council</term> may issue to any of its employees a ticket which entitles the holder, when using a vehicle regarding the business of the <term refersTo="#term-Council" id="trm68">Council</term>, to park it in a <term refersTo="#term-parking_ground" id="trm69">parking ground</term> specified in the ticket, if a <term refersTo="#term-parking_bay" id="trm70">parking bay</term> is available in the <term refersTo="#term-parking_ground" id="trm71">parking ground</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.3">
+            <num>(3)</num>
+            <content>
+              <p>A ticket issued in terms of subsection (1) or (2), may not be transferred to any other person or be used in respect of any vehicle other than the vehicle specified in the ticket, without the prior written permission of the <term refersTo="#term-Council" id="trm72">Council</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.4">
+            <num>(4)</num>
+            <content>
+              <p>A ticket issued in terms of subsection (1) or (2), must be affixed by the holder of the ticket to the vehicle in respect of which it is issued in such manner and place that the written or printed text of the ticket is readily legible from the outside of the vehicle.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Vehicles of excessive size</heading>
+          <subsection id="section-6.subsection-0">
+            <content>
+              <p>Unless a road traffic sign displayed at the entrance to a <term refersTo="#term-parking_ground" id="trm73">parking ground</term> indicates otherwise, no vehicle which together with any load, exceeds 5 m in length, may be parked in a <term refersTo="#term-parking_ground" id="trm74">parking ground</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>Parking meter parking grounds</heading>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Place of parking</heading>
+          <subsection id="section-7.subsection-0">
+            <content>
+              <p>No person may park or cause or permit to be parked any vehicle or allow a vehicle to be or remain in a <term refersTo="#term-parking_meter_parking_ground" id="trm75">parking meter parking ground</term> otherwise than in a <term refersTo="#term-parking_bay" id="trm76">parking bay</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Conditions of parking</heading>
+          <subsection id="section-8.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-8.1.list0">
+                <listIntroduction> No person may park a vehicle or cause any vehicle to be parked in a <term refersTo="#term-parking_bay" id="trm77">parking bay</term> in a <term refersTo="#term-parking_meter_parking_ground" id="trm78">parking meter parking ground</term> unless a coin or other <term refersTo="#term-prescribed" id="trm79">prescribed</term> object is forthwith inserted - </listIntroduction>
+                <item id="section-8.1.list0.a">
+                  <num>(a)</num>
+                  <p>into the meter allocated to that <term refersTo="#term-parking_bay" id="trm80">parking bay</term>; or</p>
+                </item>
+                <item id="section-8.1.list0.b">
+                  <num>(b)</num>
+                  <p>if a meter controls more than one <term refersTo="#term-parking_bay" id="trm81">parking bay</term>, in the meter controlling the <term refersTo="#term-parking_bay" id="trm82">parking bay</term> concerned as indicated by any marking or sign on the surface or floor of the <term refersTo="#term-parking_bay" id="trm83">parking bay</term> or the surface or floor adjacent thereto;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-8.subsection-1">
+            <content>
+              <p>and that meter is put into operation in accordance with the instructions appearing thereon so that the meter registers and visibly indicates the <term refersTo="#term-parking_period" id="trm84">parking period</term> appropriate to the inserted coin or other <term refersTo="#term-prescribed" id="trm85">prescribed</term> object.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-8.2.list2">
+                <listIntroduction> Notwithstanding the provisions of subsection (1) - </listIntroduction>
+                <item id="section-8.2.list2.a">
+                  <num>(a)</num>
+                  <p>a person may, subject to the provisions of subsection (5), park a vehicle in a vacant <term refersTo="#term-parking_bay" id="trm86">parking bay</term> without inserting a coin or other <term refersTo="#term-prescribed" id="trm87">prescribed</term> object, for any period indicated on the <term refersTo="#term-parking_meter" id="trm88">parking meter</term> as unexpired; and</p>
+                </item>
+                <item id="section-8.2.list2.b">
+                  <num>(b)</num>
+                  <p>if a person has ascertained that the <term refersTo="#term-parking_meter" id="trm89">parking meter</term> for any <term refersTo="#term-parking_bay" id="trm90">parking bay</term> is not operating properly, he or she is, subject to the provisions of subsection (6), entitled to park a vehicle in that <term refersTo="#term-parking_bay" id="trm91">parking bay</term> without inserting a coin or other <term refersTo="#term-prescribed" id="trm92">prescribed</term> object.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-8.3">
+            <num>(3)</num>
+            <content>
+              <p>The insertion of a coin or other <term refersTo="#term-prescribed" id="trm93">prescribed</term> object into a <term refersTo="#term-parking_meter" id="trm94">parking meter</term> entitles the person inserting it, to park a vehicle in the appropriate <term refersTo="#term-parking_bay" id="trm95">parking bay</term> for the period corresponding with the payment so made.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.4">
+            <num>(4)</num>
+            <content>
+              <p>The period during which a vehicle may be parked in a <term refersTo="#term-parking_bay" id="trm96">parking bay</term> and the coin or other <term refersTo="#term-prescribed" id="trm97">prescribed</term> object to be inserted in respect of that period into the <term refersTo="#term-parking_meter" id="trm98">parking meter</term> allocated to that <term refersTo="#term-parking_bay" id="trm99">parking bay</term>, must be in accordance with the <term refersTo="#term-prescribed_fee" id="trm100">prescribed fee</term> and the period and the coin or other <term refersTo="#term-prescribed" id="trm101">prescribed</term> object to be inserted in respect thereof, must at all times be clearly indicated on the <term refersTo="#term-parking_meter" id="trm102">parking meter</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.5">
+            <num>(5)</num>
+            <content>
+              <p>Subject to the provisions of subsection (6), no person may either with or without the insertion of an additional coin or other <term refersTo="#term-prescribed" id="trm103">prescribed</term> object into a <term refersTo="#term-parking_meter" id="trm104">parking meter</term>, leave a vehicle in a <term refersTo="#term-parking_bay" id="trm105">parking bay</term> after the expiry of the period indicated on the <term refersTo="#term-parking_meter" id="trm106">parking meter</term> or return the vehicle to that bay within fifteen minutes after such expiry, or obstruct the use of that bay by any other person.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.6">
+            <num>(6)</num>
+            <content>
+              <p>If the <term refersTo="#term-Council" id="trm107">Council</term> displays a sign specifying a maximum period for continuous parking in a <term refersTo="#term-parking_bay" id="trm108">parking bay</term>, which differs from that on the <term refersTo="#term-parking_meter" id="trm109">parking meter</term> for that <term refersTo="#term-parking_bay" id="trm110">parking bay</term>, any person may, subject to the provisions of subsections (1) and (4), park a vehicle in that bay for the maximum period so specified or for any shorter period.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Prohibitions relating to parking meters</heading>
+          <subsection id="section-9.subsection-0">
+            <content>
+              <blockList id="section-9.subsection-0.list0">
+                <listIntroduction> No person may – </listIntroduction>
+                <item id="section-9.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <blockList id="section-9.subsection-0.list0.a.list0">
+                    <listIntroduction>insert or attempt to insert into a <term refersTo="#term-parking_meter" id="trm111">parking meter</term> a coin or object except</listIntroduction>
+                    <item id="section-9.subsection-0.list0.a.list0.i">
+                      <num>(i)</num>
+                      <p>a coin of South African currency of a denomination as <term refersTo="#term-prescribed" id="trm112">prescribed</term>; or</p>
+                    </item>
+                    <item id="section-9.subsection-0.list0.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>an object which is <term refersTo="#term-prescribed" id="trm113">prescribed</term> as another method of payment as contemplated in section 8(1);</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-9.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>insert or attempt to insert into a <term refersTo="#term-parking_meter" id="trm114">parking meter</term> any false or counterfeit coin or <term refersTo="#term-prescribed" id="trm115">prescribed</term> object or any foreign object;</p>
+                </item>
+                <item id="section-9.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>tamper with, damage, deface or obscure a <term refersTo="#term-parking_meter" id="trm116">parking meter</term>;</p>
+                </item>
+                <item id="section-9.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>in any way whatsoever cause or attempt to cause a <term refersTo="#term-parking_meter" id="trm117">parking meter</term> to record the passage of time otherwise than by the insertion of a coin or other <term refersTo="#term-prescribed" id="trm118">prescribed</term> object;</p>
+                </item>
+                <item id="section-9.subsection-0.list0.e">
+                  <num>(e)</num>
+                  <p>jerk, knock, shake or interfere with a <term refersTo="#term-parking_meter" id="trm119">parking meter</term> which is not working properly or at all in order to make it do so or for any other purpose; or</p>
+                </item>
+                <item id="section-9.subsection-0.list0.f">
+                  <num>(f)</num>
+                  <p>obscure a <term refersTo="#term-parking_meter" id="trm120">parking meter</term> or any part thereof or remove or attempt to remove it from the post or other fixture to which it is attached.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Proof of time</heading>
+          <subsection id="section-10.subsection-0">
+            <content>
+              <p>The passage of time as recorded by a <term refersTo="#term-parking_meter" id="trm121">parking meter</term> is for the purpose of these Bylaws and in any proceedings arising from the enforcement of these By-laws, deemed to be correct and may constitute evidence on the face of it of the time that the vehicle has been parked in a <term refersTo="#term-parking_bay" id="trm122">parking bay</term> unless the contrary is proved.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-4">
+        <num>4</num>
+        <heading>Pay and display parking grounds</heading>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Parking</heading>
+          <subsection id="section-11.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-11.1.list0">
+                <listIntroduction> No person may park or cause or permit to be parked any vehicle or allow a vehicle to be or remain in a <term refersTo="#term-pay_and_display_parking_ground" id="trm123">pay and display parking ground</term> unless immediately upon entering the <term refersTo="#term-parking_ground" id="trm124">parking ground</term> - </listIntroduction>
+                <item id="section-11.1.list0.a">
+                  <num>(a)</num>
+                  <p>the person purchases a ticket issued by means of a <term refersTo="#term-pay_and_display_machine" id="trm125">pay and display machine</term> in that <term refersTo="#term-parking_ground" id="trm126">parking ground</term> in accordance with the instructions displayed on, or within a distance of not more than 1,5 m of such machine; and</p>
+                </item>
+                <item id="section-11.1.list0.b">
+                  <num>(b)</num>
+                  <p>the person displays such ticket by affixing it to the inside of the driver’s side of the front windscreen of the vehicle in such a manner and place that the information printed on the ticket by the <term refersTo="#term-pay_and_display_machine" id="trm127">pay and display machine</term> is readily legible from the outside of the vehicle.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-11.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-11.2.list1">
+                <item id="section-11.2.list1.a">
+                  <num>(a)</num>
+                  <p>The period during which a vehicle may be parked in a <term refersTo="#term-pay_and_display_parking_ground" id="trm128">pay and display parking ground</term> and the coin or other <term refersTo="#term-prescribed" id="trm129">prescribed</term> object to be inserted in respect of that period into the <term refersTo="#term-pay_and_display_machine" id="trm130">pay and display machine</term>, must be indicated on such machine.</p>
+                </item>
+                <item id="section-11.2.list1.b">
+                  <num>(b)</num>
+                  <p>No person may allow a vehicle to remain in a <term refersTo="#term-pay_and_display_parking_ground" id="trm131">pay and display parking ground</term> after the expiry of the departure time indicated on the ticket.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Prohibitions relating to pay and display machines</heading>
+          <subsection id="section-12.subsection-0">
+            <content>
+              <blockList id="section-12.subsection-0.list0">
+                <listIntroduction> No person may – </listIntroduction>
+                <item id="section-12.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>insert or attempt to insert into a <term refersTo="#term-pay_and_display_machine" id="trm132">pay and display machine</term>, a coin or other <term refersTo="#term-prescribed" id="trm133">prescribed</term> object which is false or counterfeit or any object other than a coin of South African currency or other <term refersTo="#term-prescribed" id="trm134">prescribed</term> object;</p>
+                </item>
+                <item id="section-12.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>jerk, knock, shake or in any way interfere with, or damage or deface a <term refersTo="#term-pay_and_display_machine" id="trm135">pay and display machine</term>; or</p>
+                </item>
+                <item id="section-12.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>remove or attempt to remove a <term refersTo="#term-pay_and_display_machine" id="trm136">pay and display machine</term> or any part thereof from its mounting.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Proof of date and time of departure</heading>
+          <subsection id="section-13.subsection-0">
+            <content>
+              <p>The date or day and time of departure as recorded by a <term refersTo="#term-pay_and_display_machine" id="trm137">pay and display machine</term> is taken on the face of it to be correct evidence of date or day and time, unless the contrary is proved.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-5">
+        <num>5</num>
+        <heading>Miscellaneous</heading>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>Closure of parking grounds</heading>
+          <subsection id="section-14.subsection-0">
+            <content>
+              <p>Notwithstanding anything to the contrary contained in these By-laws, the <term refersTo="#term-Council" id="trm138">Council</term> may at any time close any <term refersTo="#term-parking_ground" id="trm139">parking ground</term> or portion thereof temporarily or permanently and must indicate the fact and the period of such closure by a road traffic sign displayed at the entrance to the closed <term refersTo="#term-parking_ground" id="trm140">parking ground</term> or portion, as the case may be.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Defective vehicles</heading>
+          <subsection id="section-15.subsection-0">
+            <content>
+              <p>No person may park or cause or permit any vehicle to be parked or to be or remain in any <term refersTo="#term-parking_ground" id="trm141">parking ground</term> which is mechanically defective or for any reason incapable of movement unless a vehicle has, after having been parked in a <term refersTo="#term-parking_ground" id="trm142">parking ground</term>, developed a defect which immobilises it and the person in control of it shows that he or she took reasonable steps to have the vehicle repaired or removed within a reasonable time.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Parking of a vehicle in <term refersTo="#term-parking_ground" id="trm143">parking ground</term></heading>
+          <subsection id="section-16.subsection-0">
+            <content>
+              <p>No person may park or cause or permit any vehicle other than a vehicle as defined in the National Road Traffic Act, 1996, to be parked or to be or remain in any <term refersTo="#term-parking_ground" id="trm144">parking ground</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Cleaning and repair of vehicle</heading>
+          <subsection id="section-17.subsection-0">
+            <content>
+              <p>No person may in any <term refersTo="#term-parking_ground" id="trm145">parking ground</term> clean, wash, work on or effect repairs to a vehicle except minor emergency repairs, unless the prior written permission of the <term refersTo="#term-Council" id="trm146">Council</term> has been obtained.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Parking according to instruction</heading>
+          <subsection id="section-18.subsection-0">
+            <content>
+              <p>No person may in any <term refersTo="#term-parking_ground" id="trm147">parking ground</term> park a vehicle otherwise than in compliance with an instruction or direction, if any, given by an <term refersTo="#term-authorised_official" id="trm148">authorised official</term> or introduce or remove</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.subsection-1">
+            <content>
+              <p>a vehicle otherwise than through an entrance thereto or exit therefrom demarcated for that purpose.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-19">
+          <num>19.</num>
+          <heading>Tampering with vehicles and obstructions</heading>
+          <subsection id="section-19.1">
+            <num>(1)</num>
+            <content>
+              <p>No person may in any <term refersTo="#term-parking_ground" id="trm149">parking ground</term> without reasonable cause or without the knowledge and consent of the owner or person in lawful control of a vehicle, enter or climb upon that vehicle or set the machinery thereof in motion or in any way tamper or interfere with its machinery or any other part of it or with its fittings, accessories or contents.</p>
+            </content>
+          </subsection>
+          <subsection id="section-19.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-19.2.list1">
+                <listIntroduction> No person may in any <term refersTo="#term-parking_ground" id="trm150">parking ground</term></listIntroduction>
+                <item id="section-19.2.list1.a">
+                  <num>(a)</num>
+                  <p>park any vehicle so that any part of it extends across any white line forming a boundary of a <term refersTo="#term-parking_bay" id="trm151">parking bay</term> or that it is not entirely within the confines of the bay; or</p>
+                </item>
+                <item id="section-19.2.list1.b">
+                  <num>(b)</num>
+                  <p>perform any act or introduce anything which obstructs or is likely to obstruct the movement of persons or vehicles.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>Parking after <term refersTo="#term-parking_period" id="trm152">parking period</term></heading>
+          <subsection id="section-20.subsection-0">
+            <content>
+              <p>No person may park a vehicle or cause or permit it to be parked in any <term refersTo="#term-parking_ground" id="trm153">parking ground</term> before the beginning or after the expiry of the <term refersTo="#term-parking_period" id="trm154">parking period</term><term refersTo="#term-prescribed" id="trm155">prescribed</term> for the <term refersTo="#term-parking_ground" id="trm156">parking ground</term> unless that person is the holder of a ticket issued in terms of these By-laws authorising him or her to do so.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-21">
+          <num>21.</num>
+          <heading>Forging or defacing tickets</heading>
+          <subsection id="section-21.subsection-0">
+            <content>
+              <p>No person may with intent to defraud the <term refersTo="#term-Council" id="trm157">Council</term>, forge, imitate, deface, mutilate, alter or make any mark upon any ticket issued in terms of these By-laws.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-22">
+          <num>22.</num>
+          <heading>Persons prohibited from being in parking grounds</heading>
+          <subsection id="section-22.subsection-0">
+            <content>
+              <p>No person may enter or be in a <term refersTo="#term-parking_ground" id="trm158">parking ground</term> otherwise than for the purpose of parking a vehicle therein or lawfully removing it therefrom unless authorised thereto by the <term refersTo="#term-Council" id="trm159">Council</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-23">
+          <num>23.</num>
+          <heading>Abandoned vehicles</heading>
+          <subsection id="section-23.1">
+            <num>(1)</num>
+            <content>
+              <p>Any vehicle which has been left in the same place in a <term refersTo="#term-parking_ground" id="trm160">parking ground</term> for a continuous period of more than 14 days may, unless otherwise authorised by the <term refersTo="#term-Council" id="trm161">Council</term>, be removed by or at the instance of an authorised officer to the <term refersTo="#term-Council" id="trm162">Council</term>’s <term refersTo="#term-pound" id="trm163">pound</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm164">Council</term> must take all reasonable steps to trace the owner of a vehicle removed in terms of subsection (1) and if, after the lapse of 90 days from the date of its removal the owner or person entitled to its possession cannot be found, the vehicle may, subject to the provisions of subsection (3), be sold by the <term refersTo="#term-Council" id="trm165">Council</term> by public auction.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm166">Council</term> must 14 days prior to the date of an auction sale contemplated in subsection (2) publish a notice thereof in at least two newspapers circulating within the municipal area of the <term refersTo="#term-Council" id="trm167">Council</term>, but a vehicle may not be sold at the auction if at any time before the vehicle is sold, it is claimed by the owner or any person authorised by the owner or otherwise lawfully entitled to claim the vehicle and every <term refersTo="#term-prescribed_fee" id="trm168">prescribed fee</term> payable in respect thereof in terms of these By-laws and all costs referred to in subsection (4) are paid to the <term refersTo="#term-Council" id="trm169">Council</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-23.4.list3">
+                <listIntroduction> The proceeds of a sale concluded in terms of this section must be applied first in payment of every fee referred to in subsection (3) and to defray the following: </listIntroduction>
+                <item id="section-23.4.list3.a">
+                  <num>(a)</num>
+                  <p>The costs incurred in endeavouring to trace the owner in terms of subsection (2);</p>
+                </item>
+                <item id="section-23.4.list3.b">
+                  <num>(b)</num>
+                  <p>the costs of removing the vehicle and effecting the sale of the vehicle;</p>
+                </item>
+                <item id="section-23.4.list3.c">
+                  <num>(c)</num>
+                  <p>the pro-rata costs of publication in terms of subsection (3), taking into account the number of vehicles to be sold at the auction; and (d) the costs of keeping the vehicle in the <term refersTo="#term-pound" id="trm170">pound</term> which must be calculated at the <term refersTo="#term-prescribed" id="trm171">prescribed</term> rate,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-23.5">
+            <num>(5)</num>
+            <content>
+              <p>Any balance of the proceeds referred to in subsection (4), must be paid to the owner of the vehicle or any person lawfully entitled to receive it upon that person establishing his or her right thereto to the satisfaction of the <term refersTo="#term-Council" id="trm172">Council</term> and if no claim is established within one year of the date of the sale, the balance will be forfeited to the <term refersTo="#term-Council" id="trm173">Council</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-24">
+          <num>24.</num>
+          <heading>Refusal of admission</heading>
+          <subsection id="section-24.subsection-0">
+            <content>
+              <p>An <term refersTo="#term-authorised_official" id="trm174">authorised official</term> may refuse to admit into a <term refersTo="#term-parking_ground" id="trm175">parking ground</term> a vehicle which is by reason of its length, width or height likely to cause damage to persons or property or to cause an obstruction or undue inconvenience or which in terms of section 6 or 16 may not be parked in a <term refersTo="#term-parking_ground" id="trm176">parking ground</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-25">
+          <num>25.</num>
+          <heading>Medical practitioners exempt</heading>
+          <subsection id="section-25.subsection-0">
+            <content>
+              <p>A medical practitioner is exempt from paying the <term refersTo="#term-prescribed" id="trm177">prescribed</term> fees, while the vehicle used by that practitioner is parked in a <term refersTo="#term-parking_ground" id="trm178">parking ground</term> to enable him or her to perform professional duties at any place other than a consulting room or similar place, subject to a form or token issued by the South African Medical <term refersTo="#term-Council" id="trm179">Council</term> for that purpose being displayed on the windscreen of the vehicle concerned in such manner that it is readily legible from outside the vehicle.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-26">
+          <num>26.</num>
+          <heading>Offences and penalties</heading>
+          <subsection id="section-26.subsection-0">
+            <content>
+              <blockList id="section-26.subsection-0.list0">
+                <listIntroduction> Any person who – </listIntroduction>
+                <item id="section-26.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>contravenes or fails to comply with any provision of these By-laws;</p>
+                </item>
+                <item id="section-26.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>fails to comply with any notice issued in terms of these By-laws; or (c) fails to comply with any lawful instruction given in terms of these By-laws; or (d) who obstructs or hinders any authorised representative or employee of the <term refersTo="#term-Council" id="trm180">Council</term> in the execution of his or her duties under these By-laws,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-26.subsection-1">
+            <content>
+              <p>is guilty of an offence and liable on conviction to a fine or in default of payment to imprisonment for a period not exceeding six months, and in the case of a continuing offence, to a further fine not exceeding R50, or in default of payment to imprisonment not exceeding one day, for every day during the continuance of such offence after a written notice has been issued by the <term refersTo="#term-Council" id="trm181">Council</term> and served on the person concerned requiring the discontinuance of such offence.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-27">
+          <num>27.</num>
+          <heading>Repeal of by-laws</heading>
+          <subsection id="section-27.subsection-0">
+            <content>
+              <p>The By-laws listed in Schedule 1 hereto are hereby repealed.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-28">
+          <num>28.</num>
+          <heading>Short title</heading>
+          <subsection id="section-28.subsection-0">
+            <content>
+              <p>These By-laws are called the Parking Grounds By-laws, 2003.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+    </body>
+  </act>
+  <components>
+    <component id="component-1">
+      <doc name="schedule1">
+        <meta>
+          <identification source="#openbylaws">
+            <FRBRWork>
+              <FRBRthis value="/za-jhb/act/by-law/2004/parking-grounds/schedule1"/>
+              <FRBRuri value="/za-jhb/act/by-law/2004/parking-grounds"/>
+              <FRBRalias value="Schedule 1"/>
+              <FRBRdate date="2004-05-21" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-jhb/act/by-law/2004/parking-grounds/eng@2004-05-21/schedule1"/>
+              <FRBRuri value="/za-jhb/act/by-law/2004/parking-grounds/eng@2004-05-21"/>
+              <FRBRdate date="2004-05-21" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-jhb/act/by-law/2004/parking-grounds/eng@2004-05-21/schedule1"/>
+              <FRBRuri value="/za-jhb/act/by-law/2004/parking-grounds/eng@2004-05-21"/>
+              <FRBRdate date="2014-08-06" name="Generation"/>
+              <FRBRauthor href="#openbylaws" as="#author"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule-1">
+            <heading>Repealed by-laws</heading>
+            <section id="schedule-1.section-0">
+              <content>
+                <table id="schedule-1.section-0.table-0">
+                  <tr>
+                    <th>
+                      <p>Number and year</p>
+                    </th>
+                    <th>
+                      <p>Name of By-laws</p>
+                    </th>
+                    <th>
+                      <p>Extent of Repeal</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Administrator’s Notice 901 of 19 August 1970</p>
+                    </td>
+                    <td>
+                      <p>Roodepoort Municipality: Parking Meter and Parking Area By-laws</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Administrator’s Notice 567 of 27 July 1966</p>
+                    </td>
+                    <td>
+                      <p>Johannesburg Municipality: Parking Grounds By-laws</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                </table>
+              </content>
+            </section>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>

@@ -1,0 +1,1936 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-eth/act/by-law/2015/libraries/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2015/libraries"/>
+          <FRBRalias value="eThekwini Libraries By-law, 2015"/>
+          <FRBRdate date="2015-09-17" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-eth/act/by-law/2015/libraries/eng@2015-09-17/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2015/libraries/eng@2015-09-17"/>
+          <FRBRdate date="2015-09-17" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-eth/act/by-law/2015/libraries/eng@2015-09-17/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2015/libraries/eng@2015-09-17"/>
+          <FRBRdate date="2016-03-13" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-09-17" name="KwaZulu-Natal Provincial Gazette" showAs="KwaZulu-Natal Provincial Gazette" number="1494"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-adult" href="/ontology/term/this.eng.adult" showAs="adult"/>
+        <TLCTerm id="term-authorised_official" href="/ontology/term/this.eng.authorised_official" showAs="authorised official"/>
+        <TLCTerm id="term-borrower" href="/ontology/term/this.eng.borrower" showAs="borrower"/>
+        <TLCTerm id="term-branch_library" href="/ontology/term/this.eng.branch_library" showAs="branch library"/>
+        <TLCTerm id="term-central_library" href="/ontology/term/this.eng.central_library" showAs="central library"/>
+        <TLCTerm id="term-child" href="/ontology/term/this.eng.child" showAs="child"/>
+        <TLCTerm id="term-council" href="/ontology/term/this.eng.council" showAs="council"/>
+        <TLCTerm id="term-cyber_zone" href="/ontology/term/this.eng.cyber_zone" showAs="cyber zone"/>
+        <TLCTerm id="term-disabled__blind_and_visually_impaired_section" href="/ontology/term/this.eng.disabled__blind_and_visually_impaired_section" showAs="disabled, blind and visually impaired section"/>
+        <TLCTerm id="term-e-book" href="/ontology/term/this.eng.e-book" showAs="e-book"/>
+        <TLCTerm id="term-educational_toy" href="/ontology/term/this.eng.educational_toy" showAs="educational toy"/>
+        <TLCTerm id="term-facility" href="/ontology/term/this.eng.facility" showAs="facility"/>
+        <TLCTerm id="term-general_activities_room" href="/ontology/term/this.eng.general_activities_room" showAs="general activities room"/>
+        <TLCTerm id="term-librarian" href="/ontology/term/this.eng.librarian" showAs="librarian"/>
+        <TLCTerm id="term-library" href="/ontology/term/this.eng.library" showAs="library"/>
+        <TLCTerm id="term-library_material" href="/ontology/term/this.eng.library_material" showAs="library material"/>
+        <TLCTerm id="term-member" href="/ontology/term/this.eng.member" showAs="member"/>
+        <TLCTerm id="term-multi-media_item" href="/ontology/term/this.eng.multi-media_item" showAs="multi-media item"/>
+        <TLCTerm id="term-Municipality" href="/ontology/term/this.eng.Municipality" showAs="Municipality"/>
+        <TLCTerm id="term-Municipal_Manager" href="/ontology/term/this.eng.Municipal_Manager" showAs="Municipal Manager"/>
+        <TLCTerm id="term-periodical" href="/ontology/term/this.eng.periodical" showAs="periodical"/>
+        <TLCTerm id="term-periodicals_section" href="/ontology/term/this.eng.periodicals_section" showAs="periodicals section"/>
+        <TLCTerm id="term-prescribed" href="/ontology/term/this.eng.prescribed" showAs="prescribed"/>
+        <TLCTerm id="term-printing_and_copying_section" href="/ontology/term/this.eng.printing_and_copying_section" showAs="printing and copying section"/>
+        <TLCTerm id="term-reference_section" href="/ontology/term/this.eng.reference_section" showAs="reference section"/>
+        <TLCTerm id="term-special_collection" href="/ontology/term/this.eng.special_collection" showAs="special collection"/>
+        <TLCTerm id="term-study_section" href="/ontology/term/this.eng.study_section" showAs="study section"/>
+        <TLCTerm id="term-temporary_member" href="/ontology/term/this.eng.temporary_member" showAs="temporary member"/>
+        <TLCTerm id="term-user" href="/ontology/term/this.eng.user" showAs="user"/>
+        <TLCTerm id="term-visitor" href="/ontology/term/this.eng.visitor" showAs="visitor"/>
+        <TLCTerm id="term-young_adult" href="/ontology/term/this.eng.young_adult" showAs="young adult"/>
+      </references>
+    </meta>
+    <preface>
+      <p>To promote reading for education, entertainment and research; to regulate the operation and use of libraries; to determine the duties and powers of librarians; to create offences and penalties; to provide for the repeal of laws and savings; and to provide for matters incidental thereto.</p>
+    </preface>
+    <preamble>
+      <p>WHEREAS the Municipality recognises the contribution that libraries make to encouraging reading and the key role that libraries play in education and research;</p>
+      <p>WHEREAS the Municipality has competence in terms of Part B of Schedule 5 of the Constitution of the Republic of South Africa, 1996, to control local amenities;</p>
+      <p>AND WHEREAS the eThekwini Municipality has competence, in terms of section 156(2) of the Constitution of the Republic of South Africa, 1996, to make and administer By-laws for the effective administration of the matters which it has the right to administer;</p>
+      <p>NOW THEREFORE the eThekwini municipal council, acting in terms of section 156 read with Part B of Schedule 5 of the Constitution of the Republic of South Africa, 1996, and read with section 11 of the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000), hereby makes the following By-law:</p>
+    </preamble>
+    <body>
+      <chapter id="chapter-1">
+        <num>1</num>
+        <heading>Interpretation</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <paragraph id="section-1.paragraph-0" refersTo="#term-young_adult">
+            <content>
+              <p>In this By-law, unless the context indicates otherwise –</p>
+              <p>"<def refersTo="#term-adult">adult</def>" means a person who is 18 years old or older;</p>
+              <blockList id="section-1.paragraph-0.list3" refersTo="#term-authorised_official">
+                <listIntroduction>"<def refersTo="#term-authorised_official">authorised official</def>" means a person authorised to implement the provisions of this By-law, including but not limited to –</listIntroduction>
+                <item id="section-1.paragraph-0.list3.a">
+                  <num>(a)</num>
+                  <p>peace officers as contemplated in section 334 of the Criminal Procedure Act, 1977 (Act No. 51 of 1977);</p>
+                </item>
+                <item id="section-1.paragraph-0.list3.b">
+                  <num>(b)</num>
+                  <p>municipal or metropolitan police officers as contemplated in the South African Police Service Act, 1995 (Act No. 68 of 1995); and</p>
+                </item>
+                <item id="section-1.paragraph-0.list3.c">
+                  <num>(c)</num>
+                  <p>such employees, agents, delegated nominees, representatives and service providers of the <term refersTo="#term-Municipality" id="trm0">Municipality</term> as are specifically authorised by the <term refersTo="#term-Municipality" id="trm1">Municipality</term> in this regard: Provided that for the purposes of search and seizure, where such person is not a peace officer, such person must be accompanied by a peace officer;</p>
+                </item>
+              </blockList>
+              <p>"<def refersTo="#term-borrower">borrower</def>" means a <term refersTo="#term-member" id="trm2">member</term>, <term refersTo="#term-temporary_member" id="trm3">temporary member</term> or <term refersTo="#term-visitor" id="trm4">visitor</term> who borrows <term refersTo="#term-library_material" id="trm5">library material</term> from a <term refersTo="#term-library" id="trm6">library</term>;</p>
+              <p>"<def refersTo="#term-branch_library">branch library</def>" means any <term refersTo="#term-library" id="trm7">library</term> which is designated by the <term refersTo="#term-Municipality" id="trm8">Municipality</term> as a branch of the <term refersTo="#term-central_library" id="trm9">central library</term>;</p>
+              <p>"<def refersTo="#term-central_library">central library</def>" means the <term refersTo="#term-library" id="trm10">library</term> which is designated by the <term refersTo="#term-Municipality" id="trm11">Municipality</term> as its main <term refersTo="#term-library" id="trm12">library</term>;</p>
+              <p>"<def refersTo="#term-child">child</def>" means a person below the age of 13 years;</p>
+              <p>"<def refersTo="#term-council">council</def>" means the eThekwini municipal <term refersTo="#term-council" id="trm13">council</term>, a municipal <term refersTo="#term-council" id="trm14">council</term> referred to in section 157(1) of the Constitution of the Republic of South Africa, 1996;</p>
+              <blockList id="section-1.paragraph-0.list10" refersTo="#term-cyber_zone">
+                <listIntroduction>"<def refersTo="#term-cyber_zone">cyber zone</def>" means a section of a <term refersTo="#term-library" id="trm15">library</term> where computers and other electronic devices are made available to users for the purpose of accessing –</listIntroduction>
+                <item id="section-1.paragraph-0.list10.a">
+                  <num>(a)</num>
+                  <p><term refersTo="#term-library_material" id="trm16">library material</term> in digital format;</p>
+                </item>
+                <item id="section-1.paragraph-0.list10.b">
+                  <num>(b)</num>
+                  <p>multi-media items; and</p>
+                </item>
+                <item id="section-1.paragraph-0.list10.c">
+                  <num>(c)</num>
+                  <p>the Internet;</p>
+                </item>
+              </blockList>
+              <p>"<def refersTo="#term-disabled__blind_and_visually_impaired_section">disabled, blind and visually impaired section</def>" means a section of a <term refersTo="#term-library" id="trm17">library</term> set aside for <term refersTo="#term-library" id="trm18">library</term> materials intended for those who are disabled, blind or visually impaired;</p>
+              <p>"<def refersTo="#term-e-book">e-book</def>" means content, whether in the form of text, images or otherwise, which is made available in digital format and is readable on a computer or another electronic device;</p>
+              <p>"<def refersTo="#term-educational_toy">educational toy</def>" means a toy which is typically designed for and used by children, and is intended to teach a <term refersTo="#term-child" id="trm19">child</term> about a particular topic or help a <term refersTo="#term-child" id="trm20">child</term> to learn a particular skill;</p>
+              <blockList id="section-1.paragraph-0.list15" refersTo="#term-facility">
+                <listIntroduction>"<def refersTo="#term-facility">facility</def>" means any <term refersTo="#term-facility" id="trm21">facility</term> made available to users at a <term refersTo="#term-library" id="trm22">library</term> and includes any –</listIntroduction>
+                <item id="section-1.paragraph-0.list15.a">
+                  <num>(a)</num>
+                  <p><term refersTo="#term-reference_section" id="trm23">reference section</term>;</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.b">
+                  <num>(b)</num>
+                  <p>reading room;</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.c">
+                  <num>(c)</num>
+                  <p><term refersTo="#term-study_section" id="trm24">study section</term>;</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.d">
+                  <num>(d)</num>
+                  <p><term refersTo="#term-special_collection" id="trm25">special collection</term>;</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.e">
+                  <num>(e)</num>
+                  <p><term refersTo="#term-periodicals_section" id="trm26">periodicals section</term>;</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.f">
+                  <num>(f)</num>
+                  <p><term refersTo="#term-cyber_zone" id="trm27">cyber zone</term>;</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.g">
+                  <num>(g)</num>
+                  <p><term refersTo="#term-printing_and_copying_section" id="trm28">printing and copying section</term>;</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.h">
+                  <num>(h)</num>
+                  <p><term refersTo="#term-general_activities_room" id="trm29">general activities room</term>;</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.i">
+                  <num>(i)</num>
+                  <p>blind and visually impaired section;</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.j">
+                  <num>(j)</num>
+                  <p>auditoria;</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.k">
+                  <num>(k)</num>
+                  <p>video or conferencing rooms; and</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.l">
+                  <num>(l)</num>
+                  <p>any other space or <term refersTo="#term-facility" id="trm30">facility</term> set aside by the <term refersTo="#term-librarian" id="trm31">librarian</term> within a <term refersTo="#term-library" id="trm32">library</term>;</p>
+                </item>
+              </blockList>
+              <p>"<def refersTo="#term-general_activities_room">general activities room</def>" means a section of the <term refersTo="#term-library" id="trm33">library</term> made available to users for hire;</p>
+              <p>"<def refersTo="#term-librarian">librarian</def>" means the person designated by the <term refersTo="#term-Municipality" id="trm34">Municipality</term> as being in charge of the <term refersTo="#term-central_library" id="trm35">central library</term> or a <term refersTo="#term-branch_library" id="trm36">branch library</term>, as the case may be;</p>
+              <p>"<def refersTo="#term-library">library</def>" means a place where a collection of <term refersTo="#term-library" id="trm37">library</term> materials are maintained and made available to the public by the <term refersTo="#term-Municipality" id="trm38">Municipality</term>, and includes the <term refersTo="#term-central_library" id="trm39">central library</term> and any <term refersTo="#term-branch_library" id="trm40">branch library</term>;</p>
+              <blockList id="section-1.paragraph-0.list20" refersTo="#term-library_material">
+                <listIntroduction>"<def refersTo="#term-library_material">library material</def>" means any item made available to users at a <term refersTo="#term-library" id="trm41">library</term> and includes any –</listIntroduction>
+                <item id="section-1.paragraph-0.list20.a">
+                  <num>(a)</num>
+                  <p>book;</p>
+                </item>
+                <item id="section-1.paragraph-0.list20.b">
+                  <num>(b)</num>
+                  <p><term refersTo="#term-e-book" id="trm42">e-book</term>;</p>
+                </item>
+                <item id="section-1.paragraph-0.list20.c">
+                  <num>(c)</num>
+                  <p><term refersTo="#term-periodical" id="trm43">periodical</term>;</p>
+                </item>
+                <item id="section-1.paragraph-0.list20.d">
+                  <num>(d)</num>
+                  <p>photograph;</p>
+                </item>
+                <item id="section-1.paragraph-0.list20.e">
+                  <num>(e)</num>
+                  <p>film;</p>
+                </item>
+                <item id="section-1.paragraph-0.list20.f">
+                  <num>(f)</num>
+                  <p>music or other recording;</p>
+                </item>
+                <item id="section-1.paragraph-0.list20.g">
+                  <num>(g)</num>
+                  <p>art reproduction;</p>
+                </item>
+                <item id="section-1.paragraph-0.list20.h">
+                  <num>(h)</num>
+                  <p><term refersTo="#term-multi-media_item" id="trm44">multi-media item</term>;</p>
+                </item>
+                <item id="section-1.paragraph-0.list20.i">
+                  <num>(i)</num>
+                  <p><term refersTo="#term-educational_toy" id="trm45">educational toy</term>;</p>
+                </item>
+                <item id="section-1.paragraph-0.list20.j">
+                  <num>(j)</num>
+                  <p>microfiche;</p>
+                </item>
+                <item id="section-1.paragraph-0.list20.k">
+                  <num>(k)</num>
+                  <p>microfilm;</p>
+                </item>
+                <item id="section-1.paragraph-0.list20.l">
+                  <num>(l)</num>
+                  <p>barcode label;</p>
+                </item>
+                <item id="section-1.paragraph-0.list20.m">
+                  <num>(m)</num>
+                  <p>date sheet;</p>
+                </item>
+                <item id="section-1.paragraph-0.list20.n">
+                  <num>(n)</num>
+                  <p>property label;</p>
+                </item>
+                <item id="section-1.paragraph-0.list20.o">
+                  <num>(o)</num>
+                  <p>loss control tag;</p>
+                </item>
+                <item id="section-1.paragraph-0.list20.p">
+                  <num>(p)</num>
+                  <p>tablet;</p>
+                </item>
+                <item id="section-1.paragraph-0.list20.q">
+                  <num>(q)</num>
+                  <p>eReader;</p>
+                </item>
+                <item id="section-1.paragraph-0.list20.r">
+                  <num>(r)</num>
+                  <p>laptop;</p>
+                </item>
+                <item id="section-1.paragraph-0.list20.s">
+                  <num>(s)</num>
+                  <p>daisy reader;</p>
+                </item>
+                <item id="section-1.paragraph-0.list20.t">
+                  <num>(t)</num>
+                  <p>printer;</p>
+                </item>
+                <item id="section-1.paragraph-0.list20.u">
+                  <num>(u)</num>
+                  <p>scanner with a built in reader for the visually impaired; or</p>
+                </item>
+                <item id="section-1.paragraph-0.list20.v">
+                  <num>(v)</num>
+                  <p>any <term refersTo="#term-library" id="trm46">library</term> equipment;</p>
+                </item>
+              </blockList>
+              <p>"<def refersTo="#term-member">member</def>" means a person who is registered as a <term refersTo="#term-member" id="trm47">member</term> of a <term refersTo="#term-library" id="trm48">library</term> in terms of this By-law;</p>
+              <p>"<def refersTo="#term-multi-media_item">multi-media item</def>" means any <term refersTo="#term-library_material" id="trm49">library material</term> which combines different media or formats including, but not limited to, text, audio, images, animation, video and interactive features;</p>
+              <p>"<def refersTo="#term-Municipality">Municipality</def>" means the eThekwini <term refersTo="#term-Municipality" id="trm50">Municipality</term>, a category A <term refersTo="#term-Municipality" id="trm51">Municipality</term> as envisaged in terms of section 155(1) of the Constitution of the Republic of South Africa, 1996, and established in terms of Provincial Notice No. 43 of 2000 (KZN);</p>
+              <p>"<def refersTo="#term-Municipal_Manager">Municipal Manager</def>" means a person appointed in terms of section 54A of the Municipal Systems Act;</p>
+              <p>"<def refersTo="#term-periodical">periodical</def>" means any newspaper, magazine or other item published on a periodic basis;</p>
+              <p>"<def refersTo="#term-periodicals_section">periodicals section</def>" means a section of a <term refersTo="#term-library" id="trm52">library</term> where periodicals are made available for reading or borrowing;</p>
+              <p>"<def refersTo="#term-prescribed">prescribed</def>" means as determined by resolution of the <term refersTo="#term-council" id="trm53">council</term>;</p>
+              <p>"<def refersTo="#term-printing_and_copying_section">printing and copying section</def>" means a section of the <term refersTo="#term-library" id="trm54">library</term> where users may print, scan or copy <term refersTo="#term-library" id="trm55">library</term> materials or other materials;</p>
+              <p>"<def refersTo="#term-reference_section">reference section</def>" means a section of a <term refersTo="#term-library" id="trm56">library</term> where <term refersTo="#term-library" id="trm57">library</term> materials are made available for reading or study, but not for lending;</p>
+              <p>"<def refersTo="#term-special_collection">special collection</def>" means a section of a <term refersTo="#term-library" id="trm58">library</term> where <term refersTo="#term-library" id="trm59">library</term> materials are kept which cannot be made available to users without restriction, whether by reason of their value, rarity, fragility or otherwise;</p>
+              <p>"<def refersTo="#term-study_section">study section</def>" means a section of a <term refersTo="#term-library" id="trm60">library</term> set aside for users for the purposes of studying;</p>
+              <p>"<def refersTo="#term-temporary_member">temporary member</def>" means a person who has applied for membership of a <term refersTo="#term-library" id="trm61">library</term>, but who has not yet been granted membership of that <term refersTo="#term-library" id="trm62">library</term> and who wishes to borrow <term refersTo="#term-library" id="trm63">library</term> materials from the <term refersTo="#term-library" id="trm64">library</term> on a temporary basis pending the approval of his or her membership;</p>
+              <p>"<def refersTo="#term-user">user</def>" means any person who uses a <term refersTo="#term-library" id="trm65">library</term>, including a person who is a <term refersTo="#term-member" id="trm66">member</term> of that <term refersTo="#term-library" id="trm67">library</term>;</p>
+              <p>"<def refersTo="#term-visitor">visitor</def>" means a person who does not permanently reside within the <term refersTo="#term-Municipality" id="trm68">Municipality</term>’s jurisdiction, but who is visiting the area and wishes to borrow <term refersTo="#term-library" id="trm69">library</term> materials from a <term refersTo="#term-library" id="trm70">library</term> on a temporary basis; and</p>
+              <p>"<def refersTo="#term-young_adult">young adult</def>" means a person between the ages of 13 and 18 years old;</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Interpretation of By-law</heading>
+          <paragraph id="section-2.paragraph-0">
+            <content>
+              <p>If there is a conflict of interpretation between the English version of this By-law and a translated version, the English version prevails.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Object of By-law</heading>
+          <paragraph id="section-3.paragraph-0">
+            <content>
+              <blockList id="section-3.paragraph-0.list1">
+                <listIntroduction>The object of this By-law is to facilitate the provision of <term refersTo="#term-library" id="trm71">library</term> services in a manner which promotes –</listIntroduction>
+                <item id="section-3.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>access to books and information for the purposes of education, entertainment and research;</p>
+                </item>
+                <item id="section-3.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>reading as an activity; and</p>
+                </item>
+                <item id="section-3.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>the operation of libraries in a manner which ensures their sustainability.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Application of By-law</heading>
+          <paragraph id="section-4.paragraph-0">
+            <content>
+              <p>This By-law applies to all areas which fall under the jurisdiction of the <term refersTo="#term-Municipality" id="trm72">Municipality</term> and is binding on all persons to the extent applicable.</p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+      <chapter id="chapter-2">
+        <num>2</num>
+        <heading>Operation of libraries</heading>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Functions and powers of librarians</heading>
+          <subsection id="section-5.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-librarian" id="trm73">librarian</term> has the authority to manage his or her <term refersTo="#term-library" id="trm74">library</term>, and to control the day-to-day operations of that <term refersTo="#term-library" id="trm75">library</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-librarian" id="trm76">librarian</term> may impose fines and penalties, and exercise any other power or perform any other function granted to him or her, in accordance with this By-law and any policy adopted by <term refersTo="#term-council" id="trm77">council</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Library opening hours</heading>
+          <subsection id="section-6.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-6.1.list1">
+                <listIntroduction>Each <term refersTo="#term-library" id="trm78">library</term>’s opening and closing times must be –</listIntroduction>
+                <item id="section-6.1.list1.a">
+                  <num>(a)</num>
+                  <p>determined by the <term refersTo="#term-Municipality" id="trm79">Municipality</term>; and</p>
+                </item>
+                <item id="section-6.1.list1.b">
+                  <num>(b)</num>
+                  <p>displayed on a sign at the entrance of the <term refersTo="#term-library" id="trm80">library</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-6.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm81">Municipality</term> may set different opening and closing times for different libraries.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-authorised_official" id="trm82">authorised official</term> may temporarily close a <term refersTo="#term-library" id="trm83">library</term> for stock take, maintenance or any other purpose.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.4">
+            <num>(4)</num>
+            <content>
+              <p>A period of temporary closure must be advertised on a sign at the entrance to the affected <term refersTo="#term-library" id="trm84">library</term> for not less than seven calendar days prior to its closure.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.5">
+            <num>(5)</num>
+            <content>
+              <p>No person may enter or use a <term refersTo="#term-library" id="trm85">library</term> outside of the opening hours or when the <term refersTo="#term-library" id="trm86">library</term> is temporarily closed.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Access to libraries</heading>
+          <subsection id="section-7.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-7.1.list1">
+                <listIntroduction>Access to a <term refersTo="#term-library" id="trm87">library</term> is –</listIntroduction>
+                <item id="section-7.1.list1.a">
+                  <num>(a)</num>
+                  <p>available to any <term refersTo="#term-member" id="trm88">member</term> of the public during <term refersTo="#term-library" id="trm89">library</term> opening hours; and</p>
+                </item>
+                <item id="section-7.1.list1.b">
+                  <num>(b)</num>
+                  <p>free of any charge.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-7.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm90">member</term> of the public may use <term refersTo="#term-library" id="trm91">library</term> materials at a <term refersTo="#term-library" id="trm92">library</term>, but may not borrow <term refersTo="#term-library" id="trm93">library</term> materials from that <term refersTo="#term-library" id="trm94">library</term> unless they are a <term refersTo="#term-member" id="trm95">member</term>, <term refersTo="#term-temporary_member" id="trm96">temporary member</term> or have been granted <term refersTo="#term-visitor" id="trm97">visitor</term> status.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Order to leave <term refersTo="#term-library" id="trm98">library</term></heading>
+          <paragraph id="section-8.paragraph-0">
+            <content>
+              <p>Any person who contravenes any provision of this By-law or any policy adopted by the <term refersTo="#term-council" id="trm99">council</term> may, in addition to any fine which may be imposed, be ordered to leave a <term refersTo="#term-library" id="trm100">library</term> by the <term refersTo="#term-librarian" id="trm101">librarian</term> or by any other <term refersTo="#term-authorised_official" id="trm102">authorised official</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Stocking of libraries</heading>
+          <subsection id="section-9.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-authorised_official" id="trm103">authorised official</term> must determine which <term refersTo="#term-library" id="trm104">library</term> materials are made available for use or lending at a particular <term refersTo="#term-library" id="trm105">library</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-9.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm106">Municipality</term> is not obliged to provide any particular item at any particular <term refersTo="#term-library" id="trm107">library</term>, regardless of whether or not that item is described as a <term refersTo="#term-library_material" id="trm108">library material</term> in this By-law.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>Members and visitors</heading>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Membership</heading>
+          <subsection id="section-10.1">
+            <num>(1)</num>
+            <content>
+              <p>Any person who is permanently resident, works permanently or who is a student at an educational institution within the area of jurisdiction of the <term refersTo="#term-Municipality" id="trm109">Municipality</term>, may apply for membership of a <term refersTo="#term-library" id="trm110">library</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-10.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-10.2.list1">
+                <listIntroduction>An application for membership of a <term refersTo="#term-library" id="trm111">library</term> must be made on the <term refersTo="#term-prescribed" id="trm112">prescribed</term> form and must be accompanied by the following documents:</listIntroduction>
+                <item id="section-10.2.list1.a">
+                  <num>(a)</num>
+                  <p>a copy of the applicant’s identity document;</p>
+                </item>
+                <item id="section-10.2.list1.b">
+                  <num>(b)</num>
+                  <blockList id="section-10.2.list1.b.list0">
+                    <listIntroduction>proof of the applicant’s physical address or, if proof of address cannot be provided because the applicant lives in an informal settlement without formal street addresses, a letter from the relevant ward councillor –</listIntroduction>
+                    <item id="section-10.2.list1.b.list0.i">
+                      <num>(i)</num>
+                      <p>confirming this fact;</p>
+                    </item>
+                    <item id="section-10.2.list1.b.list0.ii">
+                      <num>(ii)</num>
+                      <p>confirming that the applicant is known to him or her; and</p>
+                    </item>
+                    <item id="section-10.2.list1.b.list0.iii">
+                      <num>(iii)</num>
+                      <p>specifying the location of the applicant’s residence to the extent reasonably possible; and</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-10.2.list1.c">
+                  <num>(c)</num>
+                  <p>such other documents as may be specified in a policy adopted by <term refersTo="#term-council" id="trm113">council</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-10.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-10.3.list1">
+                <listIntroduction>If an application for membership of a <term refersTo="#term-library" id="trm114">library</term> is made by or on behalf of a <term refersTo="#term-child" id="trm115">child</term> or <term refersTo="#term-young_adult" id="trm116">young adult</term>, the application must be accompanied by –</listIntroduction>
+                <item id="section-10.3.list1.a">
+                  <num>(a)</num>
+                  <p>the written consent of his or her parent or guardian to become a <term refersTo="#term-member" id="trm117">member</term> of the <term refersTo="#term-library" id="trm118">library</term>; and</p>
+                </item>
+                <item id="section-10.3.list1.b">
+                  <num>(b)</num>
+                  <p>an undertaking by his or her parent or guardian to pay all amounts which may become due and payable to the <term refersTo="#term-Municipality" id="trm119">Municipality</term> arising from the minor’s use of the <term refersTo="#term-library" id="trm120">library</term> or from the borrowing of any <term refersTo="#term-library" id="trm121">library</term> materials by the minor.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-10.4">
+            <num>(4)</num>
+            <content>
+              <p>An incorporated entity, an association or other institution may apply for membership of a <term refersTo="#term-library" id="trm122">library</term> and the <term refersTo="#term-librarian" id="trm123">librarian</term> may impose any terms and conditions relating to that membership as he or she may deem appropriate.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Scope of membership</heading>
+          <paragraph id="section-11.paragraph-0">
+            <content>
+              <blockList id="section-11.paragraph-0.list1">
+                <listIntroduction>A person is –</listIntroduction>
+                <item id="section-11.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>a <term refersTo="#term-member" id="trm124">member</term> of the <term refersTo="#term-library" id="trm125">library</term> to which he or she has made application for membership;</p>
+                </item>
+                <item id="section-11.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>not entitled to be a <term refersTo="#term-member" id="trm126">member</term> of more than one <term refersTo="#term-library" id="trm127">library</term> operated by the <term refersTo="#term-Municipality" id="trm128">Municipality</term>;</p>
+                </item>
+                <item id="section-11.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <blockList id="section-11.paragraph-0.list1.c.list0">
+                    <listIntroduction>in respect of the <term refersTo="#term-library" id="trm129">library</term> of which he or she is a <term refersTo="#term-member" id="trm130">member</term>, allocated membership of one of the following:</listIntroduction>
+                    <item id="section-11.paragraph-0.list1.c.list0.i">
+                      <num>(i)</num>
+                      <p>the <term refersTo="#term-adult" id="trm131">adult</term> <term refersTo="#term-library" id="trm132">library</term>, if he or she is an <term refersTo="#term-adult" id="trm133">adult</term>;</p>
+                    </item>
+                    <item id="section-11.paragraph-0.list1.c.list0.ii">
+                      <num>(ii)</num>
+                      <p>the <term refersTo="#term-young_adult" id="trm134">young adult</term> <term refersTo="#term-library" id="trm135">library</term>, if he or she is a <term refersTo="#term-young_adult" id="trm136">young adult</term>; or</p>
+                    </item>
+                    <item id="section-11.paragraph-0.list1.c.list0.iii">
+                      <num>(iii)</num>
+                      <p>the junior <term refersTo="#term-library" id="trm137">library</term>, if he or she is a <term refersTo="#term-child" id="trm138">child</term>.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Period of membership</heading>
+          <subsection id="section-12.1">
+            <num>(1)</num>
+            <content>
+              <p>Membership of a <term refersTo="#term-library" id="trm139">library</term> is valid for a period of two years, commencing on the date on which notice is given to the <term refersTo="#term-member" id="trm140">member</term> confirming that membership has been approved.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm141">member</term> is entitled to apply for renewal of his or her membership.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.3">
+            <num>(3)</num>
+            <content>
+              <p>An application for renewal of membership must be made on the <term refersTo="#term-prescribed" id="trm142">prescribed</term> form and must be accompanied by such documents as may be required by the <term refersTo="#term-librarian" id="trm143">librarian</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Temporary membership</heading>
+          <subsection id="section-13.1">
+            <num>(1)</num>
+            <content>
+              <p>Any person who has applied for membership of a <term refersTo="#term-library" id="trm144">library</term> but who has not yet been granted membership may apply for temporary membership of that <term refersTo="#term-library" id="trm145">library</term> in the <term refersTo="#term-prescribed" id="trm146">prescribed</term> manner.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.2">
+            <num>(2)</num>
+            <content>
+              <p>Temporary membership of the <term refersTo="#term-library" id="trm147">library</term> concerned may be granted on such terms and conditions as may be <term refersTo="#term-prescribed" id="trm148">prescribed</term> by the <term refersTo="#term-librarian" id="trm149">librarian</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>Change of contact details</heading>
+          <paragraph id="section-14.paragraph-0">
+            <content>
+              <blockList id="section-14.paragraph-0.list1">
+                <listIntroduction>A <term refersTo="#term-member" id="trm150">member</term> must give written notice to the <term refersTo="#term-library" id="trm151">library</term> of any change in his or her–</listIntroduction>
+                <item id="section-14.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>address or place of residence;</p>
+                </item>
+                <item id="section-14.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>landline or cell phone numbers;</p>
+                </item>
+                <item id="section-14.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>name; or</p>
+                </item>
+                <item id="section-14.paragraph-0.list1.d">
+                  <num>(d)</num>
+                  <p>email address, within seven days of the change taking effect.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Suspension of membership</heading>
+          <subsection id="section-15.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm152">member</term>’s membership of a <term refersTo="#term-library" id="trm153">library</term> may be suspended by the <term refersTo="#term-librarian" id="trm154">librarian</term> if the <term refersTo="#term-member" id="trm155">member</term> has failed to pay fines or other monies due to the <term refersTo="#term-library" id="trm156">library</term> within a period <term refersTo="#term-prescribed" id="trm157">prescribed</term> by the <term refersTo="#term-Municipality" id="trm158">Municipality</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-librarian" id="trm159">librarian</term> may temporarily suspend the membership of the members of a <term refersTo="#term-library" id="trm160">library</term>, or a class of members, with a view to compelling those members to approach a <term refersTo="#term-library" id="trm161">library</term> to update their contact or other details as recorded in the <term refersTo="#term-Municipality" id="trm162">Municipality</term>’s database.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Termination of membership by <term refersTo="#term-member" id="trm163">member</term></heading>
+          <paragraph id="section-16.paragraph-0">
+            <content>
+              <blockList id="section-16.paragraph-0.list1">
+                <listIntroduction>A <term refersTo="#term-member" id="trm164">member</term> may terminate his or her membership of a <term refersTo="#term-library" id="trm165">library</term> by –</listIntroduction>
+                <item id="section-16.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>giving written notice to this effect to the <term refersTo="#term-librarian" id="trm166">librarian</term>; and</p>
+                </item>
+                <item id="section-16.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>returning his or her <term refersTo="#term-library" id="trm167">library</term> card and any other <term refersTo="#term-library_material" id="trm168">library material</term> in his or her possession to the <term refersTo="#term-library" id="trm169">library</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Termination of membership by <term refersTo="#term-Municipality" id="trm170">Municipality</term></heading>
+          <paragraph id="section-17.paragraph-0">
+            <content>
+              <blockList id="section-17.paragraph-0.list1">
+                <listIntroduction>A <term refersTo="#term-member" id="trm171">member</term>’s membership of a <term refersTo="#term-library" id="trm172">library</term> may be terminated by the <term refersTo="#term-librarian" id="trm173">librarian</term> if the <term refersTo="#term-member" id="trm174">member</term> –</listIntroduction>
+                <item id="section-17.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <blockList id="section-17.paragraph-0.list1.a.list0">
+                    <listIntroduction>contravenes a provision of –</listIntroduction>
+                    <item id="section-17.paragraph-0.list1.a.list0.i">
+                      <num>(i)</num>
+                      <p>this By-law; or</p>
+                    </item>
+                    <item id="section-17.paragraph-0.list1.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>any policy adopted by <term refersTo="#term-council" id="trm175">council</term>,</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+              <blockList id="section-17.paragraph-0.list3">
+                <listIntroduction>on three or more occasions;</listIntroduction>
+                <item id="section-17.paragraph-0.list3.b">
+                  <num>(b)</num>
+                  <p>no longer qualifies for membership in accordance with this By-law;</p>
+                </item>
+                <item id="section-17.paragraph-0.list3.c">
+                  <num>(c)</num>
+                  <p>fails to apply for the renewal of his or her membership;</p>
+                </item>
+                <item id="section-17.paragraph-0.list3.d">
+                  <num>(d)</num>
+                  <p>fails to collect his or her <term refersTo="#term-library" id="trm176">library</term> card within the period <term refersTo="#term-prescribed" id="trm177">prescribed</term> by the <term refersTo="#term-Municipality" id="trm178">Municipality</term>; or</p>
+                </item>
+                <item id="section-17.paragraph-0.list3.e">
+                  <num>(e)</num>
+                  <p>fails, following the suspension of his or her membership, to pay any fines or other monies due to the <term refersTo="#term-library" id="trm179">library</term> within a further period <term refersTo="#term-prescribed" id="trm180">prescribed</term> by the <term refersTo="#term-Municipality" id="trm181">Municipality</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Effect of termination of membership</heading>
+          <paragraph id="section-18.paragraph-0">
+            <content>
+              <blockList id="section-18.paragraph-0.list1">
+                <listIntroduction>Despite the termination of a <term refersTo="#term-member" id="trm182">member</term>’s membership –</listIntroduction>
+                <item id="section-18.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>any fines or other monies due by the <term refersTo="#term-member" id="trm183">member</term> to the <term refersTo="#term-library" id="trm184">library</term> remain due and payable by the <term refersTo="#term-member" id="trm185">member</term> to the <term refersTo="#term-Municipality" id="trm186">Municipality</term>; and</p>
+                </item>
+                <item id="section-18.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>the <term refersTo="#term-member" id="trm187">member</term> remains obliged to immediately return his or her <term refersTo="#term-library" id="trm188">library</term> card and any other <term refersTo="#term-library_material" id="trm189">library material</term> in his or her possession to the <term refersTo="#term-library" id="trm190">library</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-19">
+          <num>19.</num>
+          <heading>Visitors</heading>
+          <subsection id="section-19.1">
+            <num>(1)</num>
+            <content>
+              <p>Any person who is not permanently resident within the area of jurisdiction of the <term refersTo="#term-Municipality" id="trm191">Municipality</term> and who wishes to borrow <term refersTo="#term-library" id="trm192">library</term> materials from a <term refersTo="#term-library" id="trm193">library</term> may apply to be registered as a <term refersTo="#term-visitor" id="trm194">visitor</term> in respect of that <term refersTo="#term-library" id="trm195">library</term> in the <term refersTo="#term-prescribed" id="trm196">prescribed</term> manner and against payment of the <term refersTo="#term-prescribed" id="trm197">prescribed</term> fee.</p>
+            </content>
+          </subsection>
+          <subsection id="section-19.2">
+            <num>(2)</num>
+            <content>
+              <p>Visitor status in respect of the <term refersTo="#term-library" id="trm198">library</term> concerned may be granted on such terms and conditions as may be <term refersTo="#term-prescribed" id="trm199">prescribed</term> by the <term refersTo="#term-librarian" id="trm200">librarian</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-4">
+        <num>4</num>
+        <heading>Borrowing <term refersTo="#term-library_material" id="trm201">library material</term></heading>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>Library cards</heading>
+          <subsection id="section-20.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-librarian" id="trm202">librarian</term> must issue a <term refersTo="#term-library" id="trm203">library</term> card to each <term refersTo="#term-member" id="trm204">member</term> to be used when borrowing <term refersTo="#term-library" id="trm205">library</term> materials from the <term refersTo="#term-library" id="trm206">library</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-20.2.list1">
+                <listIntroduction>A <term refersTo="#term-library" id="trm207">library</term> card must contain the following details:</listIntroduction>
+                <item id="section-20.2.list1.a">
+                  <num>(a)</num>
+                  <p>the identity number or date of birth of the <term refersTo="#term-member" id="trm208">member</term>;</p>
+                </item>
+                <item id="section-20.2.list1.b">
+                  <num>(b)</num>
+                  <p>the residential address of the <term refersTo="#term-member" id="trm209">member</term>;</p>
+                </item>
+                <item id="section-20.2.list1.c">
+                  <num>(c)</num>
+                  <p>whether the <term refersTo="#term-member" id="trm210">member</term> is a <term refersTo="#term-member" id="trm211">member</term> of the <term refersTo="#term-adult" id="trm212">adult</term>, <term refersTo="#term-young_adult" id="trm213">young adult</term> or junior <term refersTo="#term-library" id="trm214">library</term>; and</p>
+                </item>
+                <item id="section-20.2.list1.d">
+                  <num>(d)</num>
+                  <p>any other information required by the <term refersTo="#term-authorised_official" id="trm215">authorised official</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-20.3">
+            <num>(3)</num>
+            <content>
+              <p>A <term refersTo="#term-library" id="trm216">library</term> card is for the use of the <term refersTo="#term-member" id="trm217">member</term> only and is not transferable to any other person.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-librarian" id="trm218">librarian</term> may re-issue a <term refersTo="#term-member" id="trm219">member</term>’s card if it is lost, stolen or damaged upon payment of the <term refersTo="#term-prescribed" id="trm220">prescribed</term> fee as determined by the <term refersTo="#term-council" id="trm221">council</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.5">
+            <num>(5)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm222">member</term> is responsible for the <term refersTo="#term-library" id="trm223">library</term> materials issued on his or her card.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-21">
+          <num>21.</num>
+          <heading>Issuing of <term refersTo="#term-library_material" id="trm224">library material</term></heading>
+          <subsection id="section-21.1">
+            <num>(1)</num>
+            <content>
+              <p>A person may not remove any <term refersTo="#term-library_material" id="trm225">library material</term> from a <term refersTo="#term-library" id="trm226">library</term> unless the <term refersTo="#term-library_material" id="trm227">library material</term> has been issued to him or her by the <term refersTo="#term-librarian" id="trm228">librarian</term> using his or her <term refersTo="#term-library" id="trm229">library</term> card, in accordance with this By-law and any policy adopted by <term refersTo="#term-council" id="trm230">council</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm231">member</term> shall establish that any <term refersTo="#term-library_material" id="trm232">library material</term> is in an undamaged condition before the <term refersTo="#term-library_material" id="trm233">library material</term> may be issued to him or her and shall report any damage observed by him or her before such issuing.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.3">
+            <num>(3)</num>
+            <content>
+              <p>Subject to subsection (2), <term refersTo="#term-library_material" id="trm234">library material</term> issued in terms of this by-law shall be deemed to be in complete and in a good and undamaged condition.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-22">
+          <num>22.</num>
+          <heading>Borrowing rights</heading>
+          <subsection id="section-22.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-22.1.list1">
+                <listIntroduction>Membership of a <term refersTo="#term-library" id="trm235">library</term> entitles a <term refersTo="#term-member" id="trm236">member</term> to borrow any <term refersTo="#term-library_material" id="trm237">library material</term> from the <term refersTo="#term-central_library" id="trm238">central library</term> or any <term refersTo="#term-branch_library" id="trm239">branch library</term>, excluding –</listIntroduction>
+                <item id="section-22.1.list1.a">
+                  <num>(a)</num>
+                  <p><term refersTo="#term-library_material" id="trm240">library material</term> from any special collections section, the <term refersTo="#term-reference_section" id="trm241">reference section</term> or the <term refersTo="#term-periodicals_section" id="trm242">periodicals section</term>; and</p>
+                </item>
+                <item id="section-22.1.list1.b">
+                  <num>(b)</num>
+                  <p>any other <term refersTo="#term-library_material" id="trm243">library material</term> designated by the <term refersTo="#term-librarian" id="trm244">librarian</term> as being available for reading or use at the <term refersTo="#term-library" id="trm245">library</term> only.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-22.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm246">Municipality</term> must determine the number and type of items of <term refersTo="#term-library_material" id="trm247">library material</term> which may be borrowed by a <term refersTo="#term-member" id="trm248">member</term>, a <term refersTo="#term-temporary_member" id="trm249">temporary member</term> or a <term refersTo="#term-visitor" id="trm250">visitor</term> against his or her <term refersTo="#term-library" id="trm251">library</term> card at any time.</p>
+            </content>
+          </subsection>
+          <subsection id="section-22.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-council" id="trm252">council</term> may determine a fee payable by visitors per item of <term refersTo="#term-library_material" id="trm253">library material</term> borrowed.</p>
+            </content>
+          </subsection>
+          <subsection id="section-22.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-authorised_official" id="trm254">authorised official</term> may require a deposit or other form of security from a <term refersTo="#term-visitor" id="trm255">visitor</term> before issuing <term refersTo="#term-library_material" id="trm256">library material</term> to that <term refersTo="#term-visitor" id="trm257">visitor</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-22.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-22.5.list1">
+                <listIntroduction>A person who is a –</listIntroduction>
+                <item id="section-22.5.list1.a">
+                  <num>(a)</num>
+                  <p><term refersTo="#term-young_adult" id="trm258">young adult</term><term refersTo="#term-member" id="trm259">member</term>;</p>
+                </item>
+                <item id="section-22.5.list1.b">
+                  <num>(b)</num>
+                  <p>junior <term refersTo="#term-member" id="trm260">member</term>; or</p>
+                </item>
+                <item id="section-22.5.list1.c">
+                  <num>(c)</num>
+                  <p><term refersTo="#term-temporary_member" id="trm261">temporary member</term> or <term refersTo="#term-visitor" id="trm262">visitor</term> who is not yet an <term refersTo="#term-adult" id="trm263">adult</term>,</p>
+                </item>
+              </blockList>
+              <p>may only borrow <term refersTo="#term-library_material" id="trm264">library material</term> from the <term refersTo="#term-adult" id="trm265">adult</term> <term refersTo="#term-library" id="trm266">library</term> if that person’s parent or guardian has provided his or her written consent to the <term refersTo="#term-librarian" id="trm267">librarian</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-23">
+          <num>23.</num>
+          <heading>Reservation of <term refersTo="#term-library_material" id="trm268">library material</term></heading>
+          <subsection id="section-23.1">
+            <num>(1)</num>
+            <content>
+              <p>Library material may be reserved at the request of a <term refersTo="#term-member" id="trm269">member</term>, <term refersTo="#term-temporary_member" id="trm270">temporary member</term> or <term refersTo="#term-visitor" id="trm271">visitor</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-23.2.list1">
+                <listIntroduction>An application to reserve <term refersTo="#term-library_material" id="trm272">library material</term> must be –</listIntroduction>
+                <item id="section-23.2.list1.a">
+                  <num>(a)</num>
+                  <p>made on the <term refersTo="#term-prescribed" id="trm273">prescribed</term> form; and</p>
+                </item>
+                <item id="section-23.2.list1.b">
+                  <num>(b)</num>
+                  <p>accompanied by the <term refersTo="#term-prescribed" id="trm274">prescribed</term> fee.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-24">
+          <num>24.</num>
+          <heading>Loan of <term refersTo="#term-library_material" id="trm275">library material</term> from other libraries</heading>
+          <subsection id="section-24.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm276">member</term>, <term refersTo="#term-temporary_member" id="trm277">temporary member</term> or <term refersTo="#term-visitor" id="trm278">visitor</term> may request that <term refersTo="#term-library_material" id="trm279">library material</term> be loaned from another <term refersTo="#term-library" id="trm280">library</term> to the <term refersTo="#term-library" id="trm281">library</term> of which he or she is a <term refersTo="#term-member" id="trm282">member</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-24.2.list1">
+                <listIntroduction>An application to loan <term refersTo="#term-library_material" id="trm283">library material</term> from another <term refersTo="#term-library" id="trm284">library</term> must be –</listIntroduction>
+                <item id="section-24.2.list1.a">
+                  <num>(a)</num>
+                  <p>made on the <term refersTo="#term-prescribed" id="trm285">prescribed</term> form; and</p>
+                </item>
+                <item id="section-24.2.list1.b">
+                  <num>(b)</num>
+                  <p>accompanied by the <term refersTo="#term-prescribed" id="trm286">prescribed</term> fee.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-5">
+        <num>5</num>
+        <heading>Returning <term refersTo="#term-library_material" id="trm287">library material</term></heading>
+        <section id="section-25">
+          <num>25.</num>
+          <heading>Returning <term refersTo="#term-library_material" id="trm288">library material</term></heading>
+          <subsection id="section-25.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-25.1.list1">
+                <listIntroduction>All <term refersTo="#term-library_material" id="trm289">library material</term> borrowed from a <term refersTo="#term-library" id="trm290">library</term> must be returned by a <term refersTo="#term-borrower" id="trm291">borrower</term> –</listIntroduction>
+                <item id="section-25.1.list1.a">
+                  <num>(a)</num>
+                  <p>within 14 days, or within such other time period as the <term refersTo="#term-Municipality" id="trm292">Municipality</term> may determine;</p>
+                </item>
+                <item id="section-25.1.list1.b">
+                  <num>(b)</num>
+                  <p>to the <term refersTo="#term-library" id="trm293">library</term> from which the <term refersTo="#term-library_material" id="trm294">library material</term> was borrowed; and</p>
+                </item>
+                <item id="section-25.1.list1.c">
+                  <num>(c)</num>
+                  <p>in the condition in which the <term refersTo="#term-library_material" id="trm295">library material</term> was received at the time of borrowing, fair wear and tear excepted.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-25.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-librarian" id="trm296">librarian</term> may, despite the provisions of subsection (1) instruct a <term refersTo="#term-member" id="trm297">member</term> to immediately return any <term refersTo="#term-library_material" id="trm298">library material</term> to a <term refersTo="#term-library" id="trm299">library</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-25.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-25.3.list1">
+                <listIntroduction>The <term refersTo="#term-librarian" id="trm300">librarian</term> may impose a fee, as <term refersTo="#term-prescribed" id="trm301">prescribed</term> by <term refersTo="#term-council" id="trm302">council</term>, for the–</listIntroduction>
+                <item id="section-25.3.list1.a">
+                  <num>(a)</num>
+                  <p>repair of damaged <term refersTo="#term-library_material" id="trm303">library material</term>; or</p>
+                </item>
+                <item id="section-25.3.list1.b">
+                  <num>(b)</num>
+                  <p>replacement of <term refersTo="#term-library_material" id="trm304">library material</term> that is lost or damaged beyond repair, regardless of whether the damage or loss was caused by a <term refersTo="#term-member" id="trm305">member</term> or a non-<term refersTo="#term-member" id="trm306">member</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-25.4">
+            <num>(4)</num>
+            <content>
+              <p>Every <term refersTo="#term-borrower" id="trm307">borrower</term> must report any <term refersTo="#term-library_material" id="trm308">library material</term> which has been lost or damaged to the <term refersTo="#term-librarian" id="trm309">librarian</term> as soon as reasonably possible after the <term refersTo="#term-borrower" id="trm310">borrower</term> becomes aware of the loss or damage.</p>
+            </content>
+          </subsection>
+          <subsection id="section-25.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-25.5.list1">
+                <listIntroduction>The payment of a fee in accordance with subsection (3) does not entitle a <term refersTo="#term-borrower" id="trm311">borrower</term> to keep –</listIntroduction>
+                <item id="section-25.5.list1.a">
+                  <num>(a)</num>
+                  <p>a damaged item of <term refersTo="#term-library_material" id="trm312">library material</term>; or</p>
+                </item>
+                <item id="section-25.5.list1.b">
+                  <num>(b)</num>
+                  <p>an item of <term refersTo="#term-library_material" id="trm313">library material</term> which was lost but is subsequently found.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-25.6">
+            <num>(6)</num>
+            <content>
+              <p>No <term refersTo="#term-borrower" id="trm314">borrower</term> may attempt to repair damaged <term refersTo="#term-library_material" id="trm315">library material</term> himself or herself.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-26">
+          <num>26.</num>
+          <heading>After hours collection boxes</heading>
+          <subsection id="section-26.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-borrower" id="trm316">borrower</term> may make use of an afterhours collection box designated at a <term refersTo="#term-library" id="trm317">library</term> for the deposit of returned <term refersTo="#term-library_material" id="trm318">library material</term> outside of the <term refersTo="#term-library" id="trm319">library</term>’s opening hours.</p>
+            </content>
+          </subsection>
+          <subsection id="section-26.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-borrower" id="trm320">borrower</term> who makes use of an after hour collection box does so at his or her own risk and is presumed not to have returned the <term refersTo="#term-library_material" id="trm321">library material</term>, unless he or she proves to the reasonable satisfaction of the <term refersTo="#term-librarian" id="trm322">librarian</term> that the <term refersTo="#term-library_material" id="trm323">library material</term> was properly placed in the collection box.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-27">
+          <num>27.</num>
+          <heading>Renewal of <term refersTo="#term-library_material" id="trm324">library material</term></heading>
+          <subsection id="section-27.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-borrower" id="trm325">borrower</term> may request, telephonically or in person, that borrowed <term refersTo="#term-library_material" id="trm326">library material</term> be renewed.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-27.2.list1">
+                <listIntroduction>Borrowed <term refersTo="#term-library_material" id="trm327">library material</term> may be renewed –</listIntroduction>
+                <item id="section-27.2.list1.a">
+                  <num>(a)</num>
+                  <p>unless the material has been reserved;</p>
+                </item>
+                <item id="section-27.2.list1.b">
+                  <num>(b)</num>
+                  <p>in intervals of two weeks, up to a maximum period of six weeks; and</p>
+                </item>
+                <item id="section-27.2.list1.c">
+                  <num>(c)</num>
+                  <p>at the discretion of the <term refersTo="#term-librarian" id="trm328">librarian</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-28">
+          <num>28.</num>
+          <heading>Overdue <term refersTo="#term-library_material" id="trm329">library material</term></heading>
+          <subsection id="section-28.1">
+            <num>(1)</num>
+            <content>
+              <p>Fines are payable by a <term refersTo="#term-borrower" id="trm330">borrower</term> on all <term refersTo="#term-library_material" id="trm331">library material</term> not returned by the <term refersTo="#term-borrower" id="trm332">borrower</term> within the time period specified in section 25(1).</p>
+            </content>
+          </subsection>
+          <subsection id="section-28.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-librarian" id="trm333">librarian</term> may waive a fine where he or she is reasonably satisfied that the late return of the <term refersTo="#term-library_material" id="trm334">library material</term> was as a result of circumstances beyond the <term refersTo="#term-borrower" id="trm335">borrower</term>’s control and the <term refersTo="#term-borrower" id="trm336">borrower</term> provides reasonable proof thereof.</p>
+            </content>
+          </subsection>
+          <subsection id="section-28.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-authorised_official" id="trm337">authorised official</term> may grant an amnesty regarding fines and other amounts due to a <term refersTo="#term-library" id="trm338">library</term> on such terms and conditions as he or she may deem fit.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-6">
+        <num>6</num>
+        <heading>Facilities</heading>
+        <section id="section-29">
+          <num>29.</num>
+          <heading>Facilities at libraries</heading>
+          <subsection id="section-29.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-authorised_official" id="trm339">authorised official</term> must determine which facilities are made available to users at a particular <term refersTo="#term-library" id="trm340">library</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-29.2">
+            <num>(2)</num>
+            <content>
+              <p>Nothing in this By-law obliges the <term refersTo="#term-Municipality" id="trm341">Municipality</term> to provide any particular <term refersTo="#term-facility" id="trm342">facility</term> at a particular <term refersTo="#term-library" id="trm343">library</term>, regardless of whether or not that <term refersTo="#term-facility" id="trm344">facility</term> is described in this By-law.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-30">
+          <num>30.</num>
+          <heading>Reference sections</heading>
+          <subsection id="section-30.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-librarian" id="trm345">librarian</term> may designate any part of a <term refersTo="#term-library" id="trm346">library</term> as a <term refersTo="#term-reference_section" id="trm347">reference section</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.2">
+            <num>(2)</num>
+            <content>
+              <p>Library materials kept in a <term refersTo="#term-reference_section" id="trm348">reference section</term> may not be removed from the <term refersTo="#term-reference_section" id="trm349">reference section</term> or be borrowed by users without the consent of the <term refersTo="#term-librarian" id="trm350">librarian</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.3">
+            <num>(3)</num>
+            <content>
+              <p>A <term refersTo="#term-user" id="trm351">user</term> may keep reference <term refersTo="#term-library_material" id="trm352">library material</term> for a period not exceeding 60 minutes and must, thereafter, return any item of reference <term refersTo="#term-library_material" id="trm353">library material</term> within 15 minutes of a request from a <term refersTo="#term-librarian" id="trm354">librarian</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-31">
+          <num>31.</num>
+          <heading>Reading rooms</heading>
+          <subsection id="section-31.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-librarian" id="trm355">librarian</term> may designate any part of a <term refersTo="#term-library" id="trm356">library</term> as a reading room.</p>
+            </content>
+          </subsection>
+          <subsection id="section-31.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-user" id="trm357">user</term> may only use a reading room for the purpose of reading <term refersTo="#term-library" id="trm358">library</term> materials or other reading materials.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-32">
+          <num>32.</num>
+          <heading>Study sections</heading>
+          <subsection id="section-32.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-librarian" id="trm359">librarian</term> may designate any part of a <term refersTo="#term-library" id="trm360">library</term> as a <term refersTo="#term-study_section" id="trm361">study section</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-32.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-32.2.list1">
+                <listIntroduction>The use of study sections is limited to users who can demonstrate to the <term refersTo="#term-librarian" id="trm362">librarian</term> that they are –</listIntroduction>
+                <item id="section-32.2.list1.a">
+                  <num>(a)</num>
+                  <p>school learners; or</p>
+                </item>
+                <item id="section-32.2.list1.b">
+                  <num>(b)</num>
+                  <p>undertaking another course of study, whether at a tertiary education institution or otherwise.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-33">
+          <num>33.</num>
+          <heading>Special collections</heading>
+          <subsection id="section-33.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-librarian" id="trm363">librarian</term> may designate any part of a <term refersTo="#term-library" id="trm364">library</term> as a <term refersTo="#term-special_collection" id="trm365">special collection</term> which is available to users only on a restricted basis and under the supervision of the <term refersTo="#term-librarian" id="trm366">librarian</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-33.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-33.2.list1">
+                <listIntroduction>A <term refersTo="#term-user" id="trm367">user</term> may access a <term refersTo="#term-special_collection" id="trm368">special collection</term> –</listIntroduction>
+                <item id="section-33.2.list1.a">
+                  <num>(a)</num>
+                  <p>on written application in the <term refersTo="#term-prescribed" id="trm369">prescribed</term> form;</p>
+                </item>
+                <item id="section-33.2.list1.b">
+                  <num>(b)</num>
+                  <p>at times designated by the <term refersTo="#term-librarian" id="trm370">librarian</term>; and</p>
+                </item>
+                <item id="section-33.2.list1.c">
+                  <num>(c)</num>
+                  <p>subject to any other requirements imposed by the <term refersTo="#term-librarian" id="trm371">librarian</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-34">
+          <num>34.</num>
+          <heading>Periodicals sections</heading>
+          <subsection id="section-34.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-librarian" id="trm372">librarian</term> may designate any part of a <term refersTo="#term-library" id="trm373">library</term> as a <term refersTo="#term-periodicals_section" id="trm374">periodicals section</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-34.2">
+            <num>(2)</num>
+            <content>
+              <p>Library materials kept in a <term refersTo="#term-periodicals_section" id="trm375">periodicals section</term> may not be removed from the <term refersTo="#term-periodicals_section" id="trm376">periodicals section</term> or be borrowed by a <term refersTo="#term-user" id="trm377">user</term> without the consent of the <term refersTo="#term-librarian" id="trm378">librarian</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-34.3">
+            <num>(3)</num>
+            <content>
+              <p>A <term refersTo="#term-user" id="trm379">user</term> may keep a <term refersTo="#term-periodical" id="trm380">periodical</term> for a period not exceeding 15 minutes and must, thereafter, return any <term refersTo="#term-periodical" id="trm381">periodical</term> within five minutes of a request from a <term refersTo="#term-librarian" id="trm382">librarian</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-35">
+          <num>35.</num>
+          <heading>Cyber zones</heading>
+          <subsection id="section-35.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-librarian" id="trm383">librarian</term> may designate any part of a <term refersTo="#term-library" id="trm384">library</term> as a <term refersTo="#term-cyber_zone" id="trm385">cyber zone</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-35.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-user" id="trm386">user</term> may use the facilities provided at a <term refersTo="#term-cyber_zone" id="trm387">cyber zone</term> free of charge: Provided that a charge must be levied for printing as contemplated in section 37.</p>
+            </content>
+          </subsection>
+          <subsection id="section-35.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-35.3.list0">
+                <item id="section-35.3.list0.a">
+                  <num>(a)</num>
+                  <p>The <term refersTo="#term-librarian" id="trm388">librarian</term> may limit or prohibit access to the Internet or to any other <term refersTo="#term-facility" id="trm389">facility</term> provided at a <term refersTo="#term-cyber_zone" id="trm390">cyber zone</term> in any reasonable manner.</p>
+                </item>
+                <item id="section-35.3.list0.b">
+                  <num>(b)</num>
+                  <blockList id="section-35.3.list0.b.list0">
+                    <listIntroduction>A limitation or prohibition contemplated in paragraph (a) may be imposed against –</listIntroduction>
+                    <item id="section-35.3.list0.b.list0.i">
+                      <num>(i)</num>
+                      <p>all users; or</p>
+                    </item>
+                    <item id="section-35.3.list0.b.list0.ii">
+                      <num>(ii)</num>
+                      <p>any individual <term refersTo="#term-user" id="trm391">user</term>,</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+              <p>who has breached the provisions of this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-35.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-35.4.list1">
+                <listIntroduction>A <term refersTo="#term-user" id="trm392">user</term> may not use any <term refersTo="#term-facility" id="trm393">facility</term> provided at a <term refersTo="#term-cyber_zone" id="trm394">cyber zone</term> –</listIntroduction>
+                <item id="section-35.4.list1.a">
+                  <num>(a)</num>
+                  <p>to invade the privacy of other persons;</p>
+                </item>
+                <item id="section-35.4.list1.b">
+                  <num>(b)</num>
+                  <p>to threaten, harass or defame other persons;</p>
+                </item>
+                <item id="section-35.4.list1.c">
+                  <num>(c)</num>
+                  <p>to access or distribute material which is obscene, pornographic, racist or otherwise inappropriate in nature;</p>
+                </item>
+                <item id="section-35.4.list1.d">
+                  <num>(d)</num>
+                  <p>to hack any remote site or computer; or</p>
+                </item>
+                <item id="section-35.4.list1.e">
+                  <num>(e)</num>
+                  <p>for any other unlawful purpose.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-35.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-35.5.list1">
+                <listIntroduction>The <term refersTo="#term-Municipality" id="trm395">Municipality</term> does not guarantee that –</listIntroduction>
+                <item id="section-35.5.list1.a">
+                  <num>(a)</num>
+                  <p>the use of its <term refersTo="#term-cyber_zone" id="trm396">cyber zone</term> facilities is free of viruses or other harmful items; and</p>
+                </item>
+                <item id="section-35.5.list1.b">
+                  <num>(b)</num>
+                  <p><term refersTo="#term-cyber_zone" id="trm397">cyber zone</term> facilities will be available and free from down time during opening hours.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-36">
+          <num>36.</num>
+          <heading>General activities room</heading>
+          <subsection id="section-36.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-librarian" id="trm398">librarian</term> may designate any part of a <term refersTo="#term-library" id="trm399">library</term> as a <term refersTo="#term-general_activities_room" id="trm400">general activities room</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-36.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-36.2.list1">
+                <listIntroduction>A <term refersTo="#term-user" id="trm401">user</term> may hire a <term refersTo="#term-general_activities_room" id="trm402">general activities room</term> for purposes consistent with the activities of a <term refersTo="#term-library" id="trm403">library</term> and subject to─</listIntroduction>
+                <item id="section-36.2.list1.a">
+                  <num>(a)</num>
+                  <p>any other applicable eThekwini <term refersTo="#term-Municipality" id="trm404">Municipality</term> By-law; and</p>
+                </item>
+                <item id="section-36.2.list1.b">
+                  <num>(b)</num>
+                  <p>any fee that may be <term refersTo="#term-prescribed" id="trm405">prescribed</term> by <term refersTo="#term-council" id="trm406">council</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-37">
+          <num>37.</num>
+          <heading>Printing and copying sections</heading>
+          <subsection id="section-37.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-librarian" id="trm407">librarian</term> may designate any part of a <term refersTo="#term-library" id="trm408">library</term> as a <term refersTo="#term-printing_and_copying_section" id="trm409">printing and copying section</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-37.2">
+            <num>(2)</num>
+            <content>
+              <p>The use of printing, copying and faxing services is subject to a fee as determined by <term refersTo="#term-council" id="trm410">council</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-38">
+          <num>38.</num>
+          <heading>Disabled, blind and visually impaired sections</heading>
+          <subsection id="section-38.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-librarian" id="trm411">librarian</term> may designate any part of a <term refersTo="#term-library" id="trm412">library</term> as a <term refersTo="#term-disabled__blind_and_visually_impaired_section" id="trm413">disabled, blind and visually impaired section</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-librarian" id="trm414">librarian</term> may impose reasonable restrictions on the use of the <term refersTo="#term-disabled__blind_and_visually_impaired_section" id="trm415">disabled, blind and visually impaired section</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-39">
+          <num>39.</num>
+          <heading>Copyright and other intellectual property rights</heading>
+          <paragraph id="section-39.paragraph-0">
+            <content>
+              <p>A <term refersTo="#term-user" id="trm416">user</term> may not, when making use of a <term refersTo="#term-library" id="trm417">library</term> or any <term refersTo="#term-facility" id="trm418">facility</term> at a <term refersTo="#term-library" id="trm419">library</term>, contravene the provisions of the Copyright Act, 1978 (Act No. 98 of 1978) or any other law relating to copyright or intellectual property right.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-40">
+          <num>40.</num>
+          <heading>Private areas</heading>
+          <paragraph id="section-40.paragraph-0">
+            <content>
+              <p>A <term refersTo="#term-librarian" id="trm420">librarian</term> may exclude users from any part of a <term refersTo="#term-library" id="trm421">library</term> which is designated as being accessible to staff of the <term refersTo="#term-library" id="trm422">library</term> only.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-41">
+          <num>41.</num>
+          <heading>E-books</heading>
+          <subsection id="section-41.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-authorised_official" id="trm423">authorised official</term> may determine that e-books be lent to members by any particular <term refersTo="#term-library" id="trm424">library</term> subject to any policy which may be adopted by <term refersTo="#term-council" id="trm425">council</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-41.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-authorised_official" id="trm426">authorised official</term> may determine that e-books be lent to members either from a <term refersTo="#term-library" id="trm427">library</term> itself or via a website.</p>
+            </content>
+          </subsection>
+          <subsection id="section-41.3">
+            <num>(3)</num>
+            <content>
+              <p>The borrowing of e-books is subject to members possessing appropriate electronic devices with the correct software and file formats to enable access to e-books.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-7">
+        <num>7</num>
+        <heading>Conduct</heading>
+        <section id="section-42">
+          <num>42.</num>
+          <heading>Conduct in <term refersTo="#term-library" id="trm428">library</term></heading>
+          <paragraph id="section-42.paragraph-0">
+            <content>
+              <blockList id="section-42.paragraph-0.list1">
+                <listIntroduction>A person may not–</listIntroduction>
+                <item id="section-42.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>engage in audible conversation in a <term refersTo="#term-library" id="trm429">library</term>, read aloud, sing, whistle or otherwise create a noise which may disturb any other <term refersTo="#term-user" id="trm430">user</term>;</p>
+                </item>
+                <item id="section-42.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>sleep or behave in a disorderly manner in any part of the <term refersTo="#term-library" id="trm431">library</term>;</p>
+                </item>
+                <item id="section-42.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>disturb any other users in their use of the <term refersTo="#term-library" id="trm432">library</term>;</p>
+                </item>
+                <item id="section-42.paragraph-0.list1.d">
+                  <num>(d)</num>
+                  <p>eat or drink in a <term refersTo="#term-library" id="trm433">library</term>, unless in an area specifically designated for that purpose;</p>
+                </item>
+                <item id="section-42.paragraph-0.list1.e">
+                  <num>(e)</num>
+                  <blockList id="section-42.paragraph-0.list1.e.list0">
+                    <listIntroduction>bring any animal into a <term refersTo="#term-library" id="trm434">library</term>, unless the animal is−</listIntroduction>
+                    <item id="section-42.paragraph-0.list1.e.list0.i">
+                      <num>(i)</num>
+                      <p>a guide dog for the blind; or</p>
+                    </item>
+                    <item id="section-42.paragraph-0.list1.e.list0.ii">
+                      <num>(ii)</num>
+                      <p>participating in a <term refersTo="#term-library" id="trm435">library</term> programme which relates to animals and the <term refersTo="#term-librarian" id="trm436">librarian</term>’s permission has been obtained;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-42.paragraph-0.list1.f">
+                  <num>(f)</num>
+                  <p>bring any weapon into a <term refersTo="#term-library" id="trm437">library</term>;</p>
+                </item>
+                <item id="section-42.paragraph-0.list1.g">
+                  <num>(g)</num>
+                  <p>enter a <term refersTo="#term-library" id="trm438">library</term> while inappropriately dressed in such a manner which may cause a nuisance or disturbance to other users;</p>
+                </item>
+                <item id="section-42.paragraph-0.list1.h">
+                  <num>(h)</num>
+                  <p>enter a <term refersTo="#term-library" id="trm439">library</term> while under the influence of alcohol or any narcotic substances;</p>
+                </item>
+                <item id="section-42.paragraph-0.list1.i">
+                  <num>(i)</num>
+                  <p>contravene any reasonable instruction given by a <term refersTo="#term-librarian" id="trm440">librarian</term>;</p>
+                </item>
+                <item id="section-42.paragraph-0.list1.j">
+                  <num>(j)</num>
+                  <p>enter a <term refersTo="#term-library" id="trm441">library</term> when he or she has been ordered to leave the <term refersTo="#term-library" id="trm442">library</term> by the <term refersTo="#term-librarian" id="trm443">librarian</term> and he or she has not obtained the <term refersTo="#term-librarian" id="trm444">librarian</term>’s permission to return;</p>
+                </item>
+                <item id="section-42.paragraph-0.list1.k">
+                  <num>(k)</num>
+                  <p>damage any part of a <term refersTo="#term-library" id="trm445">library</term> building, its surroundings or any <term refersTo="#term-library_material" id="trm446">library material</term> or equipment;</p>
+                </item>
+                <item id="section-42.paragraph-0.list1.l">
+                  <num>(l)</num>
+                  <p>use a <term refersTo="#term-library" id="trm447">library</term> or <term refersTo="#term-facility" id="trm448">facility</term> at a <term refersTo="#term-library" id="trm449">library</term> to invade the privacy of or to threaten, harass or defame other persons; or</p>
+                </item>
+                <item id="section-42.paragraph-0.list1.m">
+                  <num>(m)</num>
+                  <p>contravene any provision of this By-law or any policy adopted by <term refersTo="#term-council" id="trm450">council</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-43">
+          <num>43.</num>
+          <heading>Care of <term refersTo="#term-library_material" id="trm451">library material</term></heading>
+          <subsection id="section-43.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-43.1.list1">
+                <listIntroduction>A person may not−</listIntroduction>
+                <item id="section-43.1.list1.a">
+                  <num>(a)</num>
+                  <p>damage, deface, mark or soil any <term refersTo="#term-library_material" id="trm452">library material</term>;</p>
+                </item>
+                <item id="section-43.1.list1.b">
+                  <num>(b)</num>
+                  <p>fold or turn down a leaf or page of a book;</p>
+                </item>
+                <item id="section-43.1.list1.c">
+                  <num>(c)</num>
+                  <p>expose any <term refersTo="#term-library_material" id="trm453">library material</term> to excessive heat, dust, moisture or adverse weather conditions; or</p>
+                </item>
+                <item id="section-43.1.list1.d">
+                  <num>(d)</num>
+                  <p>make copies of any illustrations in a book by means of tracing without the permission of the <term refersTo="#term-librarian" id="trm454">librarian</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-43.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm455">member</term> to whom <term refersTo="#term-library_material" id="trm456">library material</term> has been issued shall keep such <term refersTo="#term-library_material" id="trm457">library material</term> in a clean and sound condition and shall take all such steps as may be necessary to protect it while en route to and from the <term refersTo="#term-library" id="trm458">library</term> in wet weather.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-8">
+        <num>8</num>
+        <heading>Miscellaneous provisions</heading>
+        <section id="section-44">
+          <num>44.</num>
+          <heading>Offences and penalties</heading>
+          <subsection id="section-44.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-44.1.list1">
+                <listIntroduction>A person who –</listIntroduction>
+                <item id="section-44.1.list1.a">
+                  <num>(a)</num>
+                  <p>contravenes any provision of this By-law;</p>
+                </item>
+                <item id="section-44.1.list1.b">
+                  <num>(b)</num>
+                  <p>contravenes any condition which has been imposed on him or her;</p>
+                </item>
+                <item id="section-44.1.list1.c">
+                  <num>(c)</num>
+                  <p>contravenes any provision of a policy adopted by <term refersTo="#term-council" id="trm459">council</term> applicable to libraries;</p>
+                </item>
+                <item id="section-44.1.list1.d">
+                  <num>(d)</num>
+                  <p>fails to comply with any lawful instruction given in terms of this By-law;</p>
+                </item>
+                <item id="section-44.1.list1.e">
+                  <num>(e)</num>
+                  <p>threatens, resists, interferes with or obstructs any <term refersTo="#term-authorised_official" id="trm460">authorised official</term> of the <term refersTo="#term-Municipality" id="trm461">Municipality</term> in the performance of official duties or functions in terms of this By-law; or</p>
+                </item>
+                <item id="section-44.1.list1.f">
+                  <num>(f)</num>
+                  <p>deliberately furnishes false or misleading information to an <term refersTo="#term-authorised_official" id="trm462">authorised official</term> of the <term refersTo="#term-Municipality" id="trm463">Municipality</term>, is guilty of an offence.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-44.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-44.2.list1">
+                <listIntroduction>Any person who is convicted of an offence under this By-law is liable to –</listIntroduction>
+                <item id="section-44.2.list1.a">
+                  <num>(a)</num>
+                  <p>a fine of an amount not exceeding R20 000;</p>
+                </item>
+                <item id="section-44.2.list1.b">
+                  <num>(b)</num>
+                  <p>imprisonment for a period not exceeding one year; or</p>
+                </item>
+                <item id="section-44.2.list1.c">
+                  <num>(c)</num>
+                  <p>both such fine and imprisonment contemplated in paragraphs (a) and (b).</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-44.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-44.3.list1">
+                <listIntroduction>In the case of a continuing offence –</listIntroduction>
+                <item id="section-44.3.list1.a">
+                  <num>(a)</num>
+                  <p>an additional fine of an amount not less than R100; or</p>
+                </item>
+                <item id="section-44.3.list1.b">
+                  <num>(b)</num>
+                  <p>imprisonment for a period not less than 1 day,</p>
+                </item>
+              </blockList>
+              <p>for each day on which such offence continues or both such fine and imprisonment, will be imposed.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-45">
+          <num>45.</num>
+          <heading>Presumptions</heading>
+          <paragraph id="section-45.paragraph-0">
+            <content>
+              <blockList id="section-45.paragraph-0.list1">
+                <listIntroduction>Unless the contrary is proved, it is presumed that any <term refersTo="#term-library_material" id="trm464">library material</term> –</listIntroduction>
+                <item id="section-45.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>lent to a <term refersTo="#term-borrower" id="trm465">borrower</term> was lent in good condition; and</p>
+                </item>
+                <item id="section-45.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>which is stamped with the <term refersTo="#term-Municipality" id="trm466">Municipality</term>’s official stamp is the property of the <term refersTo="#term-Municipality" id="trm467">Municipality</term>, unless <term refersTo="#term-library_material" id="trm468">library material</term> is stamped as having been donated or otherwise discarded by the <term refersTo="#term-Municipality" id="trm469">Municipality</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-46">
+          <num>46.</num>
+          <heading>Delegations</heading>
+          <subsection id="section-46.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-46.1.list1">
+                <listIntroduction>Subject to the Constitution of the Republic of South Africa, 1996, and applicable national and provincial laws, any –</listIntroduction>
+                <item id="section-46.1.list1.a">
+                  <num>(a)</num>
+                  <p>power, excluding a power referred to in section 160(2) of the Constitution;</p>
+                </item>
+                <item id="section-46.1.list1.b">
+                  <num>(b)</num>
+                  <p>function; or</p>
+                </item>
+                <item id="section-46.1.list1.c">
+                  <num>(c)</num>
+                  <p>duty, conferred, in terms of this By-law, upon the <term refersTo="#term-council" id="trm470">council</term>, or on any of the <term refersTo="#term-Municipality" id="trm471">Municipality</term>'s other political structures, political office bearers, councillors or staff members, may be delegated or sub-delegated by such political structure, political office bearer, councillor, or staff <term refersTo="#term-member" id="trm472">member</term>, to an entity within, or a staff <term refersTo="#term-member" id="trm473">member</term> employed by, the <term refersTo="#term-Municipality" id="trm474">Municipality</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-46.2">
+            <num>(2)</num>
+            <content>
+              <p>The delegation in terms of sub-section (1) must be effected in accordance with the system of delegation adopted by the <term refersTo="#term-council" id="trm475">council</term> in accordance with section 59(1) of the Local Government: Municipal Systems Act, 2000 (Act No.32 of 2000), subject to the criteria set out in section 59(2) of said Act.</p>
+            </content>
+          </subsection>
+          <subsection id="section-46.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-46.3.list1">
+                <listIntroduction>Any delegation contemplated in this section must be recorded in the Register of Delegations, which must contain information on the –</listIntroduction>
+                <item id="section-46.3.list1.a">
+                  <num>(a)</num>
+                  <p>entity or person issuing the delegation or sub-delegation;</p>
+                </item>
+                <item id="section-46.3.list1.b">
+                  <num>(b)</num>
+                  <p>recipient of the delegation or sub-delegation; and</p>
+                </item>
+                <item id="section-46.3.list1.c">
+                  <num>(c)</num>
+                  <p>conditions attached to the delegation or sub-delegation.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-47">
+          <num>47.</num>
+          <heading>Appeals</heading>
+          <subsection id="section-47.1">
+            <num>(1)</num>
+            <content>
+              <p>A person whose rights are affected by a decision taken by the <term refersTo="#term-Municipality" id="trm476">Municipality</term> in terms of this By-law may appeal against that decision in terms of the Appeals provision contained in the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000) by giving written notice of the appeal and reasons to the <term refersTo="#term-Municipal_Manager" id="trm477">Municipal Manager</term> within 21 days of the date of the notification of the decision.</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-Municipal_Manager" id="trm478">Municipal Manager</term> must promptly submit the appeal to the appropriate appeal authority.</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.3">
+            <num>(3)</num>
+            <content>
+              <p>The appeal authority must commence with an appeal within six weeks and decide the appeal within a reasonable period.</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.4">
+            <num>(4)</num>
+            <content>
+              <p>The appeal authority must confirm, vary or revoke the decision, but no such variation or revocation of a decision may detract from any rights which may have accrued as a result of the decision.</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.5">
+            <num>(5)</num>
+            <content>
+              <p>The appeal authority must furnish written reasons for its decision on all appeal matters.</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.6">
+            <num>(6)</num>
+            <content>
+              <p>All appeals lodged are done so in terms of the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000) and not in terms of this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.7">
+            <num>(7)</num>
+            <content>
+              <p>Where a conviction has been affirmed by a court of law and the accused wishes to appeal such conviction, the appeal must take place in terms of the court’s appeal process and not in terms of subsections (1) to (5).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-48">
+          <num>48.</num>
+          <heading>Repeal of laws and savings</heading>
+          <subsection id="section-48.1">
+            <num>(1)</num>
+            <content>
+              <p>The laws mentioned in the first and second columns of the Schedule to this By-law are hereby repealed to the extent set out in the third column of the said Schedule.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-49">
+          <num>49.</num>
+          <heading>Short title and commencement</heading>
+          <paragraph id="section-49.paragraph-0">
+            <content>
+              <p>This By-law is called the eThekwini Libraries By-law, 2015 and takes effect six months from the date of publication thereof in the Provincial Gazette or on such earlier date as may be determined by the publication of a commencement notice in the Provincial Gazette.</p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+    </body>
+  </act>
+  <components>
+    <component id="component-schedule">
+      <doc name="schedule">
+        <meta>
+          <identification source="#slaw">
+            <FRBRWork>
+              <FRBRthis value="/za-eth/act/by-law/2015/libraries/schedule"/>
+              <FRBRuri value="/za-eth/act/by-law/2015/libraries"/>
+              <FRBRalias value="Schedule"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-eth/act/by-law/2015/libraries/eng@2015-09-17/schedule"/>
+              <FRBRuri value="/za-eth/act/by-law/2015/libraries/eng@2015-09-17"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-eth/act/by-law/2015/libraries/eng@2015-09-17/schedule"/>
+              <FRBRuri value="/za-eth/act/by-law/2015/libraries/eng@2015-09-17"/>
+              <FRBRdate date="2016-03-13" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule">
+            <heading>REPEALED BY-LAWS</heading>
+            <paragraph id="schedule.paragraph-0">
+              <content>
+                <table id="schedule.paragraph-0.table0">
+                  <tr>
+                    <th>
+                      <p>Number and year of law</p>
+                    </th>
+                    <th>
+                      <p>Title</p>
+                    </th>
+                    <th>
+                      <p>Extent of repeal</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 121 of 1978</p>
+                    </td>
+                    <td>
+                      <p>By-laws relating to the Public Library, Hillcrest</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 586 of 1978</p>
+                    </td>
+                    <td>
+                      <p>By-laws relating to the Public Library, Kloof</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 448 of 1981</p>
+                    </td>
+                    <td>
+                      <p>Hire of the Library General Activities Room, New Germany</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 262 of 1964</p>
+                    </td>
+                    <td>
+                      <p>Queensburgh Public Library: Library By-laws</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 117 of 1978</p>
+                    </td>
+                    <td>
+                      <p>Library Regulations</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 164 of 1989</p>
+                    </td>
+                    <td>
+                      <p>Library By-laws: City of Durban</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 120 of 1978 and inserted into Provincial Notice No. 7 of 1953 has been adopted by the Borough of Amanzimtoti by Provincial Notice No. 653 of 1978</p>
+                    </td>
+                    <td>
+                      <p>Library By-laws, Amanzimtoti</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 87 of 1953 and inserted into Provincial Notice No. 120 of 1978 has been adopted by the Borough of Isipingo by Provincial Notice No. 343 of 1979</p>
+                    </td>
+                    <td>
+                      <p>Library By-laws, Isipingo</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 120 of 1978 and inserted into Provincial Notice No. 87 of 1953 has been adopted by the Borough of Kingsburgh by Provincial Notice No. 51 of 1979</p>
+                    </td>
+                    <td>
+                      <p>Library By-laws, Kingsburgh</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 87 of 1953 and inserted into Provincial Notice No. 2461 of 1953 has been adopted by the Borough of Mount Edgecombe by Provincial Notice No. 120 of 1978</p>
+                    </td>
+                    <td>
+                      <p>Library By-laws, Mount Edgecombe</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 87 of 1953 and inserted into Provincial Notice No. 120 of 1978 has been adopted by the Township of New Germany by Provincial Notice No. 619 of 1978</p>
+                    </td>
+                    <td>
+                      <p>Library By-laws, New Germany</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 87 of 1953 and inserted into Provincial Notice No. 120 of 1978 as amended by Provincial Notice No. 150 of 1985 has been adopted by the Borough of Queensburgh by Provincial Notice No. 246 of 1986</p>
+                    </td>
+                    <td>
+                      <p>Library By-laws, Queensburgh</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 87 of 1953 and inserted into Provincial Notice No. 120 of 1978 has been adopted by the Borough of Tongaat by Provincial Notice No. 60 of 1978</p>
+                    </td>
+                    <td>
+                      <p>Library By-laws, Tongaat</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 87 of 1953 and inserted into Provincial Notice No. 120 of 1978 has been adopted by the Borough of Umhlanga Rocks by Provincial Notice No. 680 of 1978</p>
+                    </td>
+                    <td>
+                      <p>Library By-laws, Umhlanga Rocks</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 87 of 1953 and inserted into Provincial Notice No. 120 of 1978 has been adopted by the Township of Verulam by Provincial Notice No. 109 of 1979</p>
+                    </td>
+                    <td>
+                      <p>Library By-laws, Verulam</p>
+                    </td>
+                    <td>
+                      <p>Whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 87 of 1953 and inserted into Provincial Notice No. 120 of 1978 has been adopted by the Borough of Westville by Provincial Notice No. 265 of 1982</p>
+                    </td>
+                    <td>
+                      <p>Library By-laws, Westville</p>
+                    </td>
+                    <td>
+                      <p>whole</p>
+                    </td>
+                  </tr>
+                </table>
+              </content>
+            </paragraph>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>

@@ -1,0 +1,1158 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openbylaws">
+        <FRBRWork>
+          <FRBRthis value="/za-jhb/act/by-law/2014/ombudsman/main"/>
+          <FRBRuri value="/za-jhb/act/by-law/2014/ombudsman"/>
+          <FRBRalias value="City of Johannesburg: Ombudsman By-Law"/>
+          <FRBRdate date="2014-03-28" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-jhb/act/by-law/2014/ombudsman/eng@2014-03-28/main"/>
+          <FRBRuri value="/za-jhb/act/by-law/2014/ombudsman/eng@2014-03-28"/>
+          <FRBRdate date="2014-03-28" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-jhb/act/by-law/2014/ombudsman/eng@2014-03-28/main"/>
+          <FRBRuri value="/za-jhb/act/by-law/2014/ombudsman/eng@2014-03-28"/>
+          <FRBRdate date="2015-09-06" name="Generation"/>
+          <FRBRauthor href="#openbylaws" as="#author"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-03-28" name="Province of Gauteng: Provincial Gazette" number="80" showAs="Province of Gauteng: Provincial Gazette"/>
+      <references source="#this">
+        <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council.johannesburg" showAs="City of Johannesburg Metropolity Municipality Council"/>
+        <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCTerm id="term-Administration" href="/ontology/term/this.eng.Administration" showAs="Administration"/>
+        <TLCTerm id="term-City_Manager" href="/ontology/term/this.eng.City_Manager" showAs="City Manager"/>
+        <TLCTerm id="term-Ombudsman" href="/ontology/term/this.eng.Ombudsman" showAs="Ombudsman"/>
+        <TLCTerm id="term-Complainant" href="/ontology/term/this.eng.Complainant" showAs="Complainant"/>
+        <TLCTerm id="term-Constitution" href="/ontology/term/this.eng.Constitution" showAs="Constitution"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-Councillor" href="/ontology/term/this.eng.Councillor" showAs="Councillor"/>
+        <TLCTerm id="term-Employee" href="/ontology/term/this.eng.Employee" showAs="Employee"/>
+        <TLCTerm id="term-Executive_Mayor" href="/ontology/term/this.eng.Executive_Mayor" showAs="Executive Mayor"/>
+        <TLCTerm id="term-Mayoral_Committee" href="/ontology/term/this.eng.Mayoral_Committee" showAs="Mayoral Committee"/>
+        <TLCTerm id="term-Maladministration" href="/ontology/term/this.eng.Maladministration" showAs="Maladministration"/>
+        <TLCTerm id="term-Municipality" href="/ontology/term/this.eng.Municipality" showAs="Municipality"/>
+        <TLCTerm id="term-Prescribe" href="/ontology/term/this.eng.Prescribe" showAs="Prescribe"/>
+        <TLCTerm id="term-Speaker" href="/ontology/term/this.eng.Speaker" showAs="Speaker"/>
+      </references>
+    </meta>
+    <preamble>
+      <p>The Municipal Manager of the City of Johannesburg Metropolitan Municipality hereby, in terms of Section 13a of the Local Government: Municipal Systems Act, 2000 (Act No 32 of 2000) publishes the Establishment of the Office of the Ombudsman By-Laws for the City of Johannesburg Metropolitan Municipality, as approved by its Council, as set out herein under.</p>
+      <p>WHEREAS the City of Johannesburg has adopted the Joburg 2040 GDS, an aspirational strategy that defines the type of society the City aspires to achieve, by 2040;</p>
+      <p>WHEREAS in terms of the Joburg 2040 GDS the City is required to be responsive, accountable, efficient and productive in the way it carries out its duties as developmental local government.</p>
+      <p>WHEREAS the City seeks to ensure that customers and citizens feel acknowledged, through the operationalizaton of a refined, shared and comprehensive customer care approach that puts people first.</p>
+      <p>WHEREAS section 43(c) of the Constitution vest legislative authority in respect of the local sphere of government in municipal councils as set out in section 156;</p>
+      <p>WHEREAS section 156(2) and (5) of the Constitution provides that a municipality may make and administer by-laws for the effective administration of matters which it has the right to administer, and to exercise any power concerning a matter reasonably necessary for, or incidental to, the effective performance of its functions;</p>
+      <p>WHEREAS the City of Johannesburg has identified the need to establish an independent Office of the Ombudsman whose primary function is to be a designated neutral facilitator who provides confidential and impartial assistance in resolving grievances and disputes. The City Ombudsman shall investigate complaints, reports findings, and mediates fair settlements between individuals, group of individuals; and institutions or organisations</p>
+      <p>AND WHEREAS there is a need for the establishment of a mechanism whereby residents of the City of Johannesburg can formally lodge complaints against alleged acts of maladministration, the following by-law is therefore established.</p>
+    </preamble>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <subsection id="section-1.subsection-0">
+          <content>
+            <p>In this By-law, unless the context otherwise indicates-</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-1" refersTo="#term-Administration">
+          <content>
+            <p>"<def refersTo="#term-Administration">Administration</def>" means the administration of the municipality as contemplated in section 51 of the Municipal Systems Act;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-2" refersTo="#term-City_Manager">
+          <content>
+            <p>"<def refersTo="#term-City_Manager">City Manager</def>" means the municipal manager appointed in terms of section 57 of the Municipal Systems Act and section 82 of the Municipal Structures Act;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-3" refersTo="#term-Ombudsman">
+          <content>
+            <p>"<def refersTo="#term-Ombudsman">Ombudsman</def>" means a person appointed as the Ombudsman in terms of section 5;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-4" refersTo="#term-Complainant">
+          <content>
+            <p>"<def refersTo="#term-Complainant">Complainant</def>" means any person who has lodged a complaint with the Office of the <term refersTo="#term-Ombudsman" id="trm0">Ombudsman</term> as provided for in this by-law;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-5" refersTo="#term-Constitution">
+          <content>
+            <p>"<def refersTo="#term-Constitution">Constitution</def>" means the Constitution of the Republic of South Africa;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-6" refersTo="#term-Council">
+          <content>
+            <p>"<def refersTo="#term-Council">Council</def>" means the Council of the City of Johannesburg municipality as contemplated in section 18 of the Municipal Structures Act;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-7" refersTo="#term-Councillor">
+          <content>
+            <p>"<def refersTo="#term-Councillor">Councillor</def>" means a member of the <term refersTo="#term-Council" id="trm1">Council</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-8" refersTo="#term-Employee">
+          <content>
+            <p>"<def refersTo="#term-Employee">Employee</def>" means any staff member of the City of Johannesburg municipality or any of its municipal owned entities;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-9" refersTo="#term-Executive_Mayor">
+          <content>
+            <p>"<def refersTo="#term-Executive_Mayor">Executive Mayor</def>" means the a person elected in terms of section 55 of the Municipal Structures Act;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-10" refersTo="#term-Mayoral_Committee">
+          <content>
+            <p>"<def refersTo="#term-Mayoral_Committee">Mayoral Committee</def>" means the Mayoral Committee established in terms of section 60 of the Municipal Structures Act;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-11" refersTo="#term-Maladministration">
+          <content>
+            <p>"<def refersTo="#term-Maladministration">Maladministration</def>" means an act or omission committed by the administration or by an employee of the administration and which has the impact of infringing upon a person or institutions' right to fair administrative action or that results in manifestly inequitable, unfair, irregular or unprocedural treatment;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-12" refersTo="#term-Municipality">
+          <content>
+            <p>"<def refersTo="#term-Municipality">Municipality</def>" means the City of Johannesburg municipality established in terms of Section 12 of the Municipal Structures Act;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-13" refersTo="#term-Prescribe">
+          <content>
+            <p>"<def refersTo="#term-Prescribe">Prescribe</def>" means prescribe by regulation in terms of this by-law;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-14" refersTo="#term-Speaker">
+          <content>
+            <p>"<def refersTo="#term-Speaker">Speaker</def>" means a person elected in terms of section 36(2) of the Municipal Structures Act;</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>The office of the ombudsman</heading>
+        <subsection id="section-2.1">
+          <num>(1)</num>
+          <content>
+            <p>The Office of the <term refersTo="#term-Ombudsman" id="trm2">Ombudsman</term> for the City of Johannesburg <term refersTo="#term-Municipality" id="trm3">Municipality</term> is hereby established.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.2">
+          <num>(2)</num>
+          <content>
+            <p>The Office of the <term refersTo="#term-Ombudsman" id="trm4">Ombudsman</term> is an institution of the municipality accountable to <term refersTo="#term-Council" id="trm5">Council</term> and subject to the provisions of this by-law;</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.3">
+          <num>(3)</num>
+          <content>
+            <p>The Office of the <term refersTo="#term-Ombudsman" id="trm6">Ombudsman</term> must at all times be impartial and exercise its powers, duties and functions without fear, favour or prejudice.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.4">
+          <num>(4)</num>
+          <content>
+            <p>The <term refersTo="#term-Council" id="trm7">Council</term>, its political structures and administration must assist the Office of the <term refersTo="#term-Ombudsman" id="trm8">Ombudsman</term> to ensure its independence, credibility, influence, impartiality, dignity and effectiveness.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.5">
+          <num>(5)</num>
+          <content>
+            <p>The <term refersTo="#term-Council" id="trm9">Council</term>, its political structures and administration must not interfere with the functioning of the Office of the <term refersTo="#term-Ombudsman" id="trm10">Ombudsman</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.6">
+          <num>(6)</num>
+          <content>
+            <p>The Office of the <term refersTo="#term-Ombudsman" id="trm11">Ombudsman</term> is accountable to <term refersTo="#term-Council" id="trm12">Council</term> through quarterly reports on the activities of and progress made in the Office of the <term refersTo="#term-Ombudsman" id="trm13">Ombudsman</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>The structure</heading>
+        <subsection id="section-3.subsection-0">
+          <content>
+            <p>Office of the <term refersTo="#term-Ombudsman" id="trm14">Ombudsman</term> shall consist of the <term refersTo="#term-Ombudsman" id="trm15">Ombudsman</term> and such other persons who may be necessary for the effective exercise of the powers and functions and duties provided for in this by-law.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Objectives</heading>
+        <subsection id="section-4.subsection-0">
+          <content>
+            <blockList id="section-4.subsection-0.list0">
+              <listIntroduction> The objectives of the Office of the <term refersTo="#term-Ombudsman" id="trm16">Ombudsman</term> are to: </listIntroduction>
+              <item id="section-4.subsection-0.list0.a">
+                <num>(a)</num>
+                <p>ensure that all complaints relating to alleged acts of maladministration where members of the public are alleged to have suffered an injustice as a result of such maladministration by the administration or any of its employees, and where such acts allegedly infringe upon the Constitutional rights of an individual, are investigated and dealt with in a proper manner; and</p>
+              </item>
+              <item id="section-4.subsection-0.list0.b">
+                <num>(b)</num>
+                <p>ensure that the complaints relating to the actions of the administration including its employees, where such alleged acts allegedly result in a contravention upon the rights of the public to efficient and courteous service, dignity, honesty and integrity in the public administration of the municipality, are investigated properly and dealt with; and</p>
+              </item>
+              <item id="section-4.subsection-0.list0.c">
+                <num>(c)</num>
+                <p>ensure the adherence to the principles of procedural fairness and administrative justice; and</p>
+              </item>
+              <item id="section-4.subsection-0.list0.d">
+                <num>(d)</num>
+                <p>assist in preserving and promoting compliance with all resolutions, policies and by-laws which govern the municipality and which detail the direct or indirect services as rendered to members of the public and therefore ensuring that the rights of the public are protected; and</p>
+              </item>
+              <item id="section-4.subsection-0.list0.e">
+                <num>(e)</num>
+                <p>provide for the reporting on the possibility of amending the processes or policies of the municipality, including those of the Office; and</p>
+              </item>
+              <item id="section-4.subsection-0.list0.f">
+                <num>(f)</num>
+                <p>develop awareness of human rights among the residents of the City of Johannesburg;</p>
+              </item>
+              <item id="section-4.subsection-0.list0.g">
+                <num>(g)</num>
+                <p>make recommendations to the <term refersTo="#term-City_Manager" id="trm17">City Manager</term> in order to enhance the promotion and implementation of human rights; and</p>
+              </item>
+              <item id="section-4.subsection-0.list0.h">
+                <num>(h)</num>
+                <p>undertake studies and report to the <term refersTo="#term-Executive_Mayor" id="trm18">Executive Mayor</term> and the <term refersTo="#term-City_Manager" id="trm19">City Manager</term> on matters relating to human rights; and investigate complaints of violations of human rights by the administration of the municipality and to seek appropriate redress.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Appointment of the ombudsman of the city of johannesburg</heading>
+        <subsection id="section-5.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Ombudsman" id="trm20">Ombudsman</term> shall be appointed by the Municipal <term refersTo="#term-Council" id="trm21">Council</term> upon recommendation of the <term refersTo="#term-Executive_Mayor" id="trm22">Executive Mayor</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-5.2.list1">
+              <listIntroduction> The <term refersTo="#term-Ombudsman" id="trm23">Ombudsman</term> of the City of Johannesburg shall: </listIntroduction>
+              <item id="section-5.2.list1.a">
+                <num>(a)</num>
+                <p>be a South African citizen;</p>
+              </item>
+              <item id="section-5.2.list1.b">
+                <num>(b)</num>
+                <p>reside in the jurisdiction of the City of Johannesburg Metropolitan <term refersTo="#term-Municipality" id="trm24">Municipality</term>; and</p>
+              </item>
+              <item id="section-5.2.list1.c">
+                <num>(c)</num>
+                <p>be a fit and proper person to hold the particular office;</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-5.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-5.3.list2">
+              <listIntroduction> The <term refersTo="#term-Ombudsman" id="trm25">Ombudsman</term> of the City of Johannesburg shall </listIntroduction>
+              <item id="section-5.3.list2.a">
+                <num>(a)</num>
+                <p>be a retired Judge of the High Court or a retired Magistrate in the Magistrates Court; Or</p>
+              </item>
+              <item id="section-5.3.list2.b">
+                <num>(b)</num>
+                <p>be admitted as an advocate or an attorney and has, for a cumulative period of at least 10 years after having been so admitted, practised as an advocate or an attorney; or</p>
+              </item>
+              <item id="section-5.3.list2.c">
+                <num>(c)</num>
+                <p>is qualified to be admitted as an advocate or an attorney and has, for a cumulative period of at least 10 years after having so qualified, lectured in law at a university; or</p>
+              </item>
+              <item id="section-5.3.list2.d">
+                <num>(d)</num>
+                <p>have specialised knowledge of or experience, for a cumulative period of at least 10 years, in the administration of justice, public administration or public finance; or</p>
+              </item>
+              <item id="section-5.3.list2.e">
+                <num>(e)</num>
+                <p>have, for a cumulative period of at least 10 years, been a member of a Municipal <term refersTo="#term-Council" id="trm26">Council</term>; or</p>
+              </item>
+              <item id="section-5.3.list2.f">
+                <num>(f)</num>
+                <p>have acquired any combination of experience mentioned in paragraphs (b) to (e), for a cumulative period of at least 10 years.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-5.4">
+          <num>(4)</num>
+          <content>
+            <p>The <term refersTo="#term-Ombudsman" id="trm27">Ombudsman</term> of the City of Johannesburg shall administratively report to the <term refersTo="#term-Executive_Mayor" id="trm28">Executive Mayor</term> and shall functionally report to <term refersTo="#term-Council" id="trm29">Council</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.5">
+          <num>(5)</num>
+          <content>
+            <p>The <term refersTo="#term-Ombudsman" id="trm30">Ombudsman</term> of the City of Johannesburg shall be appointed on a non-renewable fixed term basis for a period not exceeding five (5) years.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Functions and powers of the ombudsman</heading>
+        <subsection id="section-6.subsection-0">
+          <content>
+            <blockList id="section-6.subsection-0.list0">
+              <listIntroduction> The <term refersTo="#term-Ombudsman" id="trm31">Ombudsman</term> may, at his or her own instance, and must, on receipt of a complaint in terms of section 8, investigate any alleged act or omission or any attempt by an employee serving in the municipality or municipal entity which constitutes- </listIntroduction>
+              <item id="section-6.subsection-0.list0.a">
+                <num>(a)</num>
+                <p>any contravention of item 2, 4(1)(a) or (b); 5, 6(1), 7, 8,9 or 12 of the Code of Conduct for Municipal Staff Members contained in Schedule 2 to the Municipal Systems Act;</p>
+              </item>
+              <item id="section-6.subsection-0.list0.b">
+                <num>(b)</num>
+                <p>any failure to comply with the provisions of section 5(1)(b), (c), (f) or (g) of the Municipal Systems Act;</p>
+              </item>
+              <item id="section-6.subsection-0.list0.c">
+                <num>(c)</num>
+                <p>any maladministration in the affairs of the municipality to the prejudice of a member of the public;</p>
+              </item>
+              <item id="section-6.subsection-0.list0.d">
+                <num>(d)</num>
+                <p>any abuse or unjustifiable exercise of power, whether such power is held under a delegation or in terms of any law;</p>
+              </item>
+              <item id="section-6.subsection-0.list0.e">
+                <num>(e)</num>
+                <p>any unfair, capricious or discourteous conduct;</p>
+              </item>
+              <item id="section-6.subsection-0.list0.f">
+                <num>(f)</num>
+                <p>any improper conduct in the affairs of the municipality which directly or indirectly prejudices a member of the public;</p>
+              </item>
+              <item id="section-6.subsection-0.list0.g">
+                <num>(g)</num>
+                <p>any other act or omission by an employee performing a public function which results in the unlawful or improper prejudice to a member of the public.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Matters not for investigation</heading>
+        <subsection id="section-7.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-7.1.list0">
+              <listIntroduction> The <term refersTo="#term-Ombudsman" id="trm32">Ombudsman</term> must not accept complaints about or investigate any of the following matters: </listIntroduction>
+              <item id="section-7.1.list0.a">
+                <num>(a)</num>
+                <p>any legislative or executive decision by the council or by any of its legislative or executive organs;</p>
+              </item>
+              <item id="section-7.1.list0.b">
+                <num>(b)</num>
+                <p>any matter in respect of which legal or arbitration proceedings have commenced or are about to or are likely to commence and to which the <term refersTo="#term-Council" id="trm33">Council</term> is or likely to be a party;</p>
+              </item>
+              <item id="section-7.1.list0.c">
+                <num>(c)</num>
+                <p>any matter relating to the laying of a charge against or the prosecution of an alleged offender;</p>
+              </item>
+              <item id="section-7.1.list0.d">
+                <num>(d)</num>
+                <p>any matter or dispute which must be dealt with or settled within the field of labour law ;</p>
+              </item>
+              <item id="section-7.1.list0.e">
+                <num>(e)</num>
+                <p>any investigation relating to the internal or external audit of the <term refersTo="#term-Council" id="trm34">Council</term>'s financial affairs;</p>
+              </item>
+              <item id="section-7.1.list0.f">
+                <num>(f)</num>
+                <p>any complaint which is vexatious or frivolous;</p>
+              </item>
+              <item id="section-7.1.list0.g">
+                <num>(g)</num>
+                <p>where the complainant has not exhausted all internal remedies available unless the <term refersTo="#term-Ombudsman" id="trm35">Ombudsman</term> considers that the refusal to act would result in an injustice to the complainant; and</p>
+              </item>
+              <item id="section-7.1.list0.h">
+                <num>(h)</num>
+                <p>any alleged irregular conduct of a councillor.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-7.2">
+          <num>(2)</num>
+          <content>
+            <p>If in the course of the investigation of a complaint, which has been accepted by the Office of the <term refersTo="#term-Ombudsman" id="trm36">Ombudsman</term>, a discovery is made into that the matter falls within 7(a) to (h) above which merits a referral or investigation to another agency, forum or person, he or she shall make such referral taking into account section 12(1).</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Submission of complaints</heading>
+        <subsection id="section-8.1">
+          <num>(1)</num>
+          <content>
+            <p>All complaints submitted to the Office of the <term refersTo="#term-Ombudsman" id="trm37">Ombudsman</term> must be in writing.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.2">
+          <num>(2)</num>
+          <content>
+            <p>Telephonic submissions made to the Office will be captured in writing to enable the office to properly record the submission. The complaint will be dealt with in accordance with section 8(3) below.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.3">
+          <num>(3)</num>
+          <content>
+            <p>A complainant must complete the form set out in Annexure A to this by-law and such form must be accompanied by an affidavit where the <term refersTo="#term-Ombudsman" id="trm38">Ombudsman</term> requests an affidavit.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.4">
+          <num>(4)</num>
+          <content>
+            <blockList id="section-8.4.list3">
+              <listIntroduction> Each complaint must specify- </listIntroduction>
+              <item id="section-8.4.list3.a">
+                <num>(a)</num>
+                <p>The nature of the complaint;</p>
+              </item>
+              <item id="section-8.4.list3.b">
+                <num>(b)</num>
+                <p>The grounds on which the complainant believes that there has been an act, or omission or an attempt as contemplated in section 6;</p>
+              </item>
+              <item id="section-8.4.list3.c">
+                <num>(c)</num>
+                <p>Such facts or other relevant information as are known to the complainant;</p>
+              </item>
+              <item id="section-8.4.list3.d">
+                <num>(d)</num>
+                <p>The redress sought, if any.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-8.5">
+          <num>(5)</num>
+          <content>
+            <p>The Office of the <term refersTo="#term-Ombudsman" id="trm39">Ombudsman</term> must consider only those complaints which comply with the provisions of this section.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.6">
+          <num>(6)</num>
+          <content>
+            <p>Where a complainant is not able to lodge a complaint in writing, he or she must be assisted by the Office of the <term refersTo="#term-Ombudsman" id="trm40">Ombudsman</term> to submit a written complaint.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.7">
+          <num>(7)</num>
+          <content>
+            <p>Submissions to the Office of the <term refersTo="#term-Ombudsman" id="trm41">Ombudsman</term> may be made in any of the official languages of South Africa.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.8">
+          <num>(8)</num>
+          <content>
+            <p>The <term refersTo="#term-Ombudsman" id="trm42">Ombudsman</term> must within fourteen days (14) of receipt of a complaint acknowledge receipt of the complaint.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.9">
+          <num>(9)</num>
+          <content>
+            <p>The <term refersTo="#term-Ombudsman" id="trm43">Ombudsman</term> must take steps to inform the relevant parties of progress made with regard to the complaint until final resolution of the complaint.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Terms of reference</heading>
+        <subsection id="section-9.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Ombudsman" id="trm44">Ombudsman</term> may investigate any complaint submitted in accordance with section 8.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.2">
+          <num>(2)</num>
+          <content>
+            <p>Upon receipt of a complaint, the <term refersTo="#term-Ombudsman" id="trm45">Ombudsman</term> must conduct a preliminary investigation for the purposes of determining the merits of the complaint.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.3">
+          <num>(3)</num>
+          <content>
+            <p>Where the result of the preliminary investigation referred to in subsection 9(2) above determines that such complaint is frivolous, carries no merit or there is insufficient evidence, or for any other reason does not fall within the provisions of this by-law, the complainant will be notified of the determination by the <term refersTo="#term-Ombudsman" id="trm46">Ombudsman</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.4">
+          <num>(4)</num>
+          <content>
+            <p>Subject to subsection (5), where a complainant, in the opinion of the <term refersTo="#term-Ombudsman" id="trm47">Ombudsman</term>, has at their disposal legal remedies and has not exhausted those remedies, the <term refersTo="#term-Ombudsman" id="trm48">Ombudsman</term> may decline to investigate the complaint concerned.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.5">
+          <num>(5)</num>
+          <content>
+            <p>Notwithstanding the provisions of subsection (4) where the <term refersTo="#term-Ombudsman" id="trm49">Ombudsman</term> on reasonable grounds believes that acting in terms of subsection (4) would, as a result of poverty or lack of capacity on behalf of the complainant, result in a failure of justice, the <term refersTo="#term-Ombudsman" id="trm50">Ombudsman</term> shall investigate a complaint falling within this category.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.6">
+          <num>(6)</num>
+          <content>
+            <blockList id="section-9.6.list5">
+              <listIntroduction> For the purpose of an investigation contemplated by this by-law, the <term refersTo="#term-Ombudsman" id="trm51">Ombudsman</term>- </listIntroduction>
+              <item id="section-9.6.list5.a">
+                <num>(a)</num>
+                <p>Shall have the power to demand in writing that any employee appear before him or her and to produce any record, book, file, object or document whether written or in electronic form;</p>
+              </item>
+              <item id="section-9.6.list5.b">
+                <num>(b)</num>
+                <p>May administer an oath or affirmation to an employee who appears before him or her in terms of subsection 9(6)(a);</p>
+              </item>
+              <item id="section-9.6.list5.c">
+                <num>(c)</num>
+                <p>May, after the employee has been informed of his or her right to remain silent and of his or her right to request the assistance of a fellow employee or union representative, question such employee before him or her in terms of subsection (6)(a);</p>
+              </item>
+              <item id="section-9.6.list5.d">
+                <num>(d)</num>
+                <p>May exclude from the place of examination, any other person who in his or her opinion should not be present;</p>
+              </item>
+              <item id="section-9.6.list5.e">
+                <num>(e)</num>
+                <p>Shall determine the form of any oath or affirmation to be administered in terms of this subsection and the procedure to be followed at any examination in terms of subsection 9(6)(c);</p>
+              </item>
+              <item id="section-9.6.list5.f">
+                <num>(f)</num>
+                <p>Shall have the power to enter any premises owned, controlled or managed by the municipality and its municipal owned entities for the purposes of any investigation in terms of this by-law and while in such premises to examine any record, file, document, book, or vehicle as the <term refersTo="#term-Ombudsman" id="trm52">Ombudsman</term> may consider necessary;</p>
+              </item>
+              <item id="section-9.6.list5.g">
+                <num>(g)</num>
+                <p>Shall have the power to take charge of and remove anything referred to in subsection 9(6)(f) for the purposes of an investigation;</p>
+              </item>
+              <item id="section-9.6.list5.h">
+                <num>(h)</num>
+                <p>Shall have the power to require by written order any employee to assist him or her in any investigation;</p>
+              </item>
+              <item id="section-9.6.list5.i">
+                <num>(i)</num>
+                <p>Shall have the power to require by written order that an official or department provide relevant information within a stipulated timeframe;</p>
+              </item>
+              <item id="section-9.6.list5.j">
+                <num>(j)</num>
+                <p>May request the <term refersTo="#term-City_Manager" id="trm53">City Manager</term>, <term refersTo="#term-Executive_Mayor" id="trm54">Executive Mayor</term> or any other <term refersTo="#term-Councillor" id="trm55">Councillor</term> to assist him or her in the course of an investigation.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-9.7">
+          <num>(7)</num>
+          <content>
+            <blockList id="section-9.7.list6">
+              <listIntroduction> The <term refersTo="#term-Ombudsman" id="trm56">Ombudsman</term> shall further have the power to - </listIntroduction>
+              <item id="section-9.7.list6.a">
+                <num>(a)</num>
+                <p>Investigate and report on the observance of human rights within the administration of the municipality;</p>
+              </item>
+              <item id="section-9.7.list6.b">
+                <num>(b)</num>
+                <p>Take steps to secure appropriate redress where human rights have been violated;</p>
+              </item>
+              <item id="section-9.7.list6.c">
+                <num>(c)</num>
+                <p>Carry out research on the promotion of human rights;</p>
+              </item>
+              <item id="section-9.7.list6.d">
+                <num>(d)</num>
+                <p>Conduct education and awareness campaigns on human rights within the City of Johannesburg.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-9.8">
+          <num>(8)</num>
+          <content>
+            <p>The <term refersTo="#term-Ombudsman" id="trm57">Ombudsman</term> may request the municipality and the municipal entities to provide information and/or progress taken or made towards the realization or implementation of rights in the Bill of Rights falling with the functions and purpose of the departments and/or municipal entities.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Resolution/settlement of complaints</heading>
+        <subsection id="section-10.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Ombudsman" id="trm58">Ombudsman</term> shall after completion of an investigation, compile in writing a document setting out his or her findings and recommendations and the reasons thereto.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-10.2.list1">
+              <listIntroduction> In making a recommendation, the <term refersTo="#term-Ombudsman" id="trm59">Ombudsman</term> may find- </listIntroduction>
+              <item id="section-10.2.list1.a">
+                <num>(a)</num>
+                <p>The complaint to be justified;</p>
+              </item>
+              <item id="section-10.2.list1.b">
+                <num>(b)</num>
+                <p>That there is insufficient evidence to support the complaint;</p>
+              </item>
+              <item id="section-10.2.list1.c">
+                <num>(c)</num>
+                <p>The complaint to be without merit;</p>
+              </item>
+              <item id="section-10.2.list1.d">
+                <num>(d)</num>
+                <p>The complaint to be vexatious or frivolous; or</p>
+              </item>
+              <item id="section-10.2.list1.e">
+                <num>(e)</num>
+                <p>The complaint to be outside his or her jurisdiction as defined in this by-law.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-10.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-10.3.list2">
+              <listIntroduction> Where the <term refersTo="#term-Ombudsman" id="trm60">Ombudsman</term> finds a complaint- </listIntroduction>
+              <item id="section-10.3.list2.a">
+                <num>(a)</num>
+                <p>To be justified, he or she shall act in accordance with section 11;</p>
+              </item>
+              <item id="section-10.3.list2.b">
+                <num>(b)</num>
+                <p>To be without sufficient evidence or merit or where the complaint is frivolous and vexatious, he or she shall inform the complainant and the employee concerned accordingly;</p>
+              </item>
+              <item id="section-10.3.list2.c">
+                <num>(c)</num>
+                <p>To be outside his or her jurisdiction as defined by this by-law, he or she shall act in accordance with section 12.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-11">
+        <num>11.</num>
+        <heading>Complaints finalisation procedure</heading>
+        <subsection id="section-11.1">
+          <num>(1)</num>
+          <content>
+            <p>Where a complaint falls within the ambit of section 10(2)(a), the <term refersTo="#term-Ombudsman" id="trm61">Ombudsman</term> shall approach the <term refersTo="#term-City_Manager" id="trm62">City Manager</term> or an employee of the <term refersTo="#term-Council" id="trm63">Council</term> designated by the <term refersTo="#term-City_Manager" id="trm64">City Manager</term> for the purpose of settling the complaint in one or more of the means provided in subsection (2).</p>
+          </content>
+        </subsection>
+        <subsection id="section-11.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-11.2.list1">
+              <listIntroduction> A complaint found to be justified in terms of section 10(2)(a) may be settled in one or more of the following ways- </listIntroduction>
+              <item id="section-11.2.list1.a">
+                <num>(a)</num>
+                <p>By negotiation between the <term refersTo="#term-Ombudsman" id="trm65">Ombudsman</term> and the administration to obtain the redress sought where such redress has been requested and is legally permissible;</p>
+              </item>
+              <item id="section-11.2.list1.b">
+                <num>(b)</num>
+                <p>By conciliation or mediation facilitated by the <term refersTo="#term-Ombudsman" id="trm66">Ombudsman</term> between the complainant and the employee concerned where in, the opinion of the <term refersTo="#term-Ombudsman" id="trm67">Ombudsman</term>, conciliation or mediation will to the extent legally permissible, remove the cause for the complaint;</p>
+              </item>
+              <item id="section-11.2.list1.c">
+                <num>(c)</num>
+                <p>By the employee concerned providing an apology to the complainant;</p>
+              </item>
+              <item id="section-11.2.list1.d">
+                <num>(d)</num>
+                <p>By the recommendation of corrective action to be taken so as to remedy the maladministration if possible;</p>
+              </item>
+              <item id="section-11.2.list1.e">
+                <num>(e)</num>
+                <p>By the recommendation that the matter be further investigated so that disciplinary or any action may be taken;</p>
+              </item>
+              <item id="section-11.2.list1.f">
+                <num>(f)</num>
+                <p>By any other lawful means that will achieve a settlement of the complaint.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-11.3">
+          <num>(3)</num>
+          <content>
+            <p>In the event that the Office of <term refersTo="#term-Ombudsman" id="trm68">Ombudsman</term> recommends corrective action the department or employee concerned must provide the Office of the <term refersTo="#term-Ombudsman" id="trm69">Ombudsman</term> with written confirmation within 14 days of receipt of such recommendation whether the recommendation will be implemented or not. In the event that a recommendation will not be implemented, comprehensive written reasons for such decision must be forwarded to the Office of the <term refersTo="#term-Ombudsman" id="trm70">Ombudsman</term> within the 14 days.</p>
+          </content>
+        </subsection>
+        <subsection id="section-11.4">
+          <num>(4)</num>
+          <content>
+            <p>In the event of the recommended corrective action not being implemented, or where the office of the <term refersTo="#term-Ombudsman" id="trm71">Ombudsman</term> does not receive written reasons tin accordance with section 11(3) above, the Office of the <term refersTo="#term-Ombudsman" id="trm72">Ombudsman</term> may refer the matter to the <term refersTo="#term-City_Manager" id="trm73">City Manager</term> and relevant management structures for intervention.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-12">
+        <num>12.</num>
+        <heading>Complaints for referral</heading>
+        <subsection id="section-12.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-12.1.list0">
+              <listIntroduction> Where a complaint falls within the ambit of section 10(2)(e), the <term refersTo="#term-Ombudsman" id="trm74">Ombudsman</term> shall act as follows:- </listIntroduction>
+              <item id="section-12.1.list0.a">
+                <num>(a)</num>
+                <p>In the case of the commission or suspected commission of a criminal offence, refer the matter to the South African Police Service(SAPS) or the National Prosecuting Authority;</p>
+              </item>
+              <item id="section-12.1.list0.b">
+                <num>(b)</num>
+                <p>In the case of an improper or dishonest act in connection with the assets, property or moneys of the <term refersTo="#term-Council" id="trm75">Council</term>, refer the matter to the Group Head Audit;</p>
+              </item>
+              <item id="section-12.1.list0.c">
+                <num>(c)</num>
+                <p>In the case of any contravention or breach or of failure to comply with any legislation on municipal financial management, refer the matter to the Group Head Audit;</p>
+              </item>
+              <item id="section-12.1.list0.d">
+                <num>(d)</num>
+                <p>In the case of any alleged improper or dishonest act or any contravention or breach of the Code of Conduct in schedule 1 of the Municipal Systems Act, refer the matter to the <term refersTo="#term-Speaker" id="trm76">Speaker</term> of <term refersTo="#term-Council" id="trm77">Council</term> for further action;</p>
+              </item>
+              <item id="section-12.1.list0.e">
+                <num>(e)</num>
+                <p>In the case of alleged contravention by a councillor of section 119(1) of the Municipal Systems Act, refer the complaint to the <term refersTo="#term-Speaker" id="trm78">Speaker</term> of <term refersTo="#term-Council" id="trm79">Council</term>;</p>
+              </item>
+              <item id="section-12.1.list0.f">
+                <num>(f)</num>
+                <p>In the case of any contravention or breach of the Code of Conduct for Municipal Staff Members in Schedule 2 of the Municipal Systems Act or of section 119(2) of the Municipal Systems Act, refer the matter to the <term refersTo="#term-City_Manager" id="trm80">City Manager</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-12.2">
+          <num>(2)</num>
+          <content>
+            <p>The ombudsman may act in respect of any one or more of the ways provided for in subsection (1).</p>
+          </content>
+        </subsection>
+        <subsection id="section-12.3">
+          <num>(3)</num>
+          <content>
+            <p>Where the <term refersTo="#term-Ombudsman" id="trm81">Ombudsman</term> acts in terms of subsection 1(a),(b) or (c), he or she shall send a copy of his or her findings to the <term refersTo="#term-City_Manager" id="trm82">City Manager</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-12.4">
+          <num>(4)</num>
+          <content>
+            <p>Copies of all the findings of the <term refersTo="#term-Ombudsman" id="trm83">Ombudsman</term> referred to in subsection (1) shall be contained in a quarterly report submitted to <term refersTo="#term-Council" id="trm84">Council</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-13">
+        <num>13.</num>
+        <heading>Organisational or internal investigations</heading>
+        <subsection id="section-13.1">
+          <num>(1)</num>
+          <content>
+            <p>In addition to the powers of the <term refersTo="#term-Ombudsman" id="trm85">Ombudsman</term> as stated in section 6, the Office of the <term refersTo="#term-Ombudsman" id="trm86">Ombudsman</term> shall have jurisdiction to provide an informal mediation or conciliation service in cases where there is an alleged infringement of an employee's rights to fair administrative procedures.</p>
+          </content>
+        </subsection>
+        <subsection id="section-13.2">
+          <num>(2)</num>
+          <content>
+            <p>This process is a voluntary option, which will not replace existing frameworks, but which aims to supplement them and which can only be exercised with the agreement of both the employer and employee.</p>
+          </content>
+        </subsection>
+        <subsection id="section-13.3">
+          <num>(3)</num>
+          <content>
+            <p>This process cannot be conducted simultaneously with any existing City of Johannesburg internal recourse which is available to the employee.</p>
+          </content>
+        </subsection>
+        <subsection id="section-13.4">
+          <num>(4)</num>
+          <content>
+            <p>this process attempts to constructively resolve issues between the parties in an informal, non-threatening environment.</p>
+          </content>
+        </subsection>
+        <subsection id="section-13.5">
+          <num>(5)</num>
+          <content>
+            <p>Issues/complaints received and accepted by the <term refersTo="#term-Ombudsman" id="trm87">Ombudsman</term> shall include but will not be limited to grievances as a result of the alleged unfair treatment of staff members and the alleged violation of their human rights through unfair processes, systems and policies.</p>
+          </content>
+        </subsection>
+        <subsection id="section-13.6">
+          <num>(6)</num>
+          <content>
+            <p>The Office of the <term refersTo="#term-Ombudsman" id="trm88">Ombudsman</term> is limited to making recommendations on these matters and any such recommendation is not binding on either party.</p>
+          </content>
+        </subsection>
+        <subsection id="section-13.7">
+          <num>(7)</num>
+          <content>
+            <p>Recommendations are to be forwarded to relevant departments who are to effectively address the problems brought to their attention.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-14">
+        <num>14.</num>
+        <heading>General principles applicable to investigations</heading>
+        <subsection id="section-14.1">
+          <num>(1)</num>
+          <content>
+            <p>Subject to other applicable legislation, the <term refersTo="#term-Ombudsman" id="trm89">Ombudsman</term> or any other member employed in the Office of the <term refersTo="#term-Ombudsman" id="trm90">Ombudsman</term> shall not be required or summoned to testify in any judicial or administrative hearing in respect of concerns or complaints brought to the Office of the <term refersTo="#term-Ombudsman" id="trm91">Ombudsman</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-14.2">
+          <num>(2)</num>
+          <content>
+            <p>The municipality will not request the Office of the <term refersTo="#term-Ombudsman" id="trm92">Ombudsman</term> to share any records that might identify callers or visitors and will not request the Office of the <term refersTo="#term-Ombudsman" id="trm93">Ombudsman</term> to identify any residents who have contacted the office.</p>
+          </content>
+        </subsection>
+        <subsection id="section-14.3">
+          <num>(3)</num>
+          <content>
+            <p>All interactions with the Office of the <term refersTo="#term-Ombudsman" id="trm94">Ombudsman</term> are confidential.</p>
+          </content>
+        </subsection>
+        <subsection id="section-14.4">
+          <num>(4)</num>
+          <content>
+            <p>The municipality prohibits any retaliation against any of its residents, including those residents who make use of the services of the Office of the <term refersTo="#term-Ombudsman" id="trm95">Ombudsman</term>. Anyone contravening this section will be subject to disciplinary action.</p>
+          </content>
+        </subsection>
+        <subsection id="section-14.5">
+          <num>(5)</num>
+          <content>
+            <p>All communications related to the Office of the <term refersTo="#term-Ombudsman" id="trm96">Ombudsman</term> is deemed privileged and such privilege may only be waived by agreement between the relevant parties concerned.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-15">
+        <num>15.</num>
+        <heading>Reports</heading>
+        <subsection id="section-15.1">
+          <num>(1)</num>
+          <content>
+            <p>All reports relating to work in the Office of the <term refersTo="#term-Ombudsman" id="trm97">Ombudsman</term> are produced and distributed at its sole discretion.</p>
+          </content>
+        </subsection>
+        <subsection id="section-15.2">
+          <num>(2)</num>
+          <content>
+            <p>The Office of the <term refersTo="#term-Ombudsman" id="trm98">Ombudsman</term> will, in its sole discretion, determine the appropriate content of all reports.</p>
+          </content>
+        </subsection>
+        <subsection id="section-15.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-Ombudsman" id="trm99">Ombudsman</term> shall on a quarterly basis repot to the <term refersTo="#term-Executive_Mayor" id="trm100">Executive Mayor</term> and <term refersTo="#term-Council" id="trm101">Council</term> all recommendations, findings, trends and any issues arising out of completed and referred investigations. The <term refersTo="#term-Ombudsman" id="trm102">Ombudsman</term> shall submit a report setting out the number of complaints received the outcome of investigation of such complaints, settlements where applicable, provided that the right to privacy of complainants will be respected.</p>
+          </content>
+        </subsection>
+        <subsection id="section-15.4">
+          <num>(4)</num>
+          <content>
+            <p>The municipality will use such reports as it deems fit to satisfy legal, regulatory or other compliance guidelines.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-16">
+        <num>16.</num>
+        <heading>Public participation and public awareness</heading>
+        <subsection id="section-16.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-16.1.list0">
+              <listIntroduction> In order to ensure the engagement of the public, to promote the knowledge and awareness of the institution, roles and responsibilities of the office of the <term refersTo="#term-Ombudsman" id="trm103">Ombudsman</term>, and in order to assist in the promotion of a culture of human rights within the City of Johannesburg, the Office of the <term refersTo="#term-Ombudsman" id="trm104">Ombudsman</term> shall- </listIntroduction>
+              <item id="section-16.1.list0.a">
+                <num>(a)</num>
+                <p>Embark on sustained advocacy, public education and awareness campaigns within local communities;</p>
+              </item>
+              <item id="section-16.1.list0.b">
+                <num>(b)</num>
+                <p>Conduct information clinics aimed at optimizing the Office of the <term refersTo="#term-Ombudsman" id="trm105">Ombudsman</term>,</p>
+              </item>
+              <item id="section-16.1.list0.c">
+                <num>(c)</num>
+                <p>Conduct clinics whereby service conditions are monitored through the effective engagement with local communities on such issues;</p>
+              </item>
+              <item id="section-16.1.list0.d">
+                <num>(d)</num>
+                <p>Where necessary, address the requirements of communities and civic bodies within communities for their effective engagement with the Office of the <term refersTo="#term-Ombudsman" id="trm106">Ombudsman</term> and for their effective engagement with <term refersTo="#term-Council" id="trm107">Council</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-16.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-16.2.list1">
+              <listIntroduction> The <term refersTo="#term-Ombudsman" id="trm108">Ombudsman</term> shall- </listIntroduction>
+              <item id="section-16.2.list1.a">
+                <num>(a)</num>
+                <p>Promote respect for human rights and a culture of human rights within the municipality and municipal owned entities;</p>
+              </item>
+              <item id="section-16.2.list1.b">
+                <num>(b)</num>
+                <p>Promote the protection, development and attainment of human rights within the municipality and municipal entities;</p>
+              </item>
+              <item id="section-16.2.list1.c">
+                <num>(c)</num>
+                <p>Monitor and assess the observance of human rights within the municipality and municipal entities.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-17">
+        <num>17.</num>
+        <heading>General</heading>
+        <subsection id="section-17.subsection-0">
+          <content>
+            <blockList id="section-17.subsection-0.list0">
+              <listIntroduction> The <term refersTo="#term-Ombudsman" id="trm109">Ombudsman</term> and staff employed in the Office of the <term refersTo="#term-Ombudsman" id="trm110">Ombudsman</term> shall- </listIntroduction>
+              <item id="section-17.subsection-0.list0.a">
+                <num>(a)</num>
+                <p>perform their functions diligently, in good faith and without fear or favour;</p>
+              </item>
+              <item id="section-17.subsection-0.list0.b">
+                <num>(b)</num>
+                <p>not use their position for private gain or to improperly benefit another person;</p>
+              </item>
+              <item id="section-17.subsection-0.list0.c">
+                <num>(c)</num>
+                <p>not undertake any paid work outside of the Office of the <term refersTo="#term-Ombudsman" id="trm111">Ombudsman</term> except with the consent of the <term refersTo="#term-City_Manager" id="trm112">City Manager</term>;</p>
+              </item>
+              <item id="section-17.subsection-0.list0.d">
+                <num>(d)</num>
+                <p>not act in any way that compromises the credibility or integrity of the office of the <term refersTo="#term-Ombudsman" id="trm113">Ombudsman</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-18">
+        <num>18.</num>
+        <heading>Cooperative action</heading>
+        <subsection id="section-18.subsection-0">
+          <content>
+            <blockList id="section-18.subsection-0.list0">
+              <listIntroduction> The Office of the <term refersTo="#term-Ombudsman" id="trm114">Ombudsman</term> shall operate cooperatively with - </listIntroduction>
+              <item id="section-18.subsection-0.list0.a">
+                <num>(a)</num>
+                <p>the <term refersTo="#term-City_Manager" id="trm115">City Manager</term>;</p>
+              </item>
+              <item id="section-18.subsection-0.list0.b">
+                <num>(b)</num>
+                <p>the <term refersTo="#term-Executive_Mayor" id="trm116">Executive Mayor</term> (c) the Office of the Public Protector;</p>
+              </item>
+              <item id="section-18.subsection-0.list0.d">
+                <num>(d)</num>
+                <p>The South African Human Rights Commission;</p>
+              </item>
+              <item id="section-18.subsection-0.list0.e">
+                <num>(e)</num>
+                <p>the Commission on Gender Equality;</p>
+              </item>
+              <item id="section-18.subsection-0.list0.f">
+                <num>(f)</num>
+                <p>the Auditor-General;</p>
+              </item>
+              <item id="section-18.subsection-0.list0.g">
+                <num>(g)</num>
+                <p>Consumer Protection Commission;</p>
+              </item>
+              <item id="section-18.subsection-0.list0.h">
+                <num>(h)</num>
+                <p>any such structures or agencies as may be legislatively prescribed or necessary.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-19">
+        <num>19.</num>
+        <heading>Delegation</heading>
+        <subsection id="section-19.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Ombudsman" id="trm117">Ombudsman</term> may as and when necessary delegate in writing any power or function conferred on him or her in terms of this by-law on any person employed in the Office of the <term refersTo="#term-Ombudsman" id="trm118">Ombudsman</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-19.2">
+          <num>(2)</num>
+          <content>
+            <p>In acting in terms of subsection (1), the <term refersTo="#term-Ombudsman" id="trm119">Ombudsman</term> shall impose such conditions or limitations or give such direction as he or she considers necessary.</p>
+          </content>
+        </subsection>
+        <subsection id="section-19.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-Ombudsman" id="trm120">Ombudsman</term> may, in writing, at any time withdraw any delegation given in terms of subsection (1).</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-20">
+        <num>20.</num>
+        <heading>Application to municpal entities</heading>
+        <subsection id="section-20.subsection-0">
+          <content>
+            <p>The provisions of this by-law shall apply to employees of any municipal entity established by <term refersTo="#term-Council" id="trm121">Council</term> in terms of section 82 of the Municipal Systems Act.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-21">
+        <num>21.</num>
+        <heading>Accountability</heading>
+        <subsection id="section-21.subsection-0">
+          <content>
+            <p>The Office of the <term refersTo="#term-Ombudsman" id="trm122">Ombudsman</term> and the <term refersTo="#term-Ombudsman" id="trm123">Ombudsman</term> are accountable to <term refersTo="#term-Council" id="trm124">Council</term> in accordance with the provisions of this by-law.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-22">
+        <num>22.</num>
+        <heading>Offence and penalties</heading>
+        <subsection id="section-22.subsection-0">
+          <content>
+            <p>Any person who fails to comply with any lawful instruction issued by the Office of the <term refersTo="#term-Ombudsman" id="trm125">Ombudsman</term> in terms of provisions of this by-law shall be guilty of an offence and on conviction be liable to a fine or imprisonment for a period not exceeding 12 months or to both such fine or imprisonment and/or face disciplinary proceedings.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-23">
+        <num>23.</num>
+        <heading>Short title and date of commencement</heading>
+        <subsection id="section-23.subsection-0">
+          <content>
+            <p>This by-law shall be called the City of Johannesburg: <term refersTo="#term-Ombudsman" id="trm126">Ombudsman</term> By-Law and takes effect on 01 September 2014.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+  <components>
+    <component id="component-1">
+      <doc name="schedules">
+        <meta>
+          <identification source="#openbylaws">
+            <FRBRWork>
+              <FRBRthis value="/za-jhb/act/by-law/2014/ombudsman/schedules"/>
+              <FRBRuri value="/za-jhb/act/by-law/2014/ombudsman"/>
+              <FRBRalias value="Schedules"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-jhb/act/by-law/2014/ombudsman/eng@2014-03-28/schedules"/>
+              <FRBRuri value="/za-jhb/act/by-law/2014/ombudsman/eng@2014-03-28"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-jhb/act/by-law/2014/ombudsman/eng@2014-03-28/schedules"/>
+              <FRBRuri value="/za-jhb/act/by-law/2014/ombudsman/eng@2014-03-28"/>
+              <FRBRdate date="2014-12-07" name="Generation"/>
+              <FRBRauthor href="#openbylaws" as="#author"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedules">
+            <heading>Office of the ombudsman complaint form</heading>
+            <section id="schedules.section-0">
+              <content>
+                <table id="schedules.section-0.table-0">
+                  <tr>
+                    <th style="width: 50%">
+                      <p>OFFICE OF THE OMBUDSMAN COMPLAINT FORM</p>
+                    </th>
+                    <th style="width: 50%">
+                      <p>CITY OF jOHANNESBURG</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <p>1. GENERAL INFORMATION</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>DATE:</p>
+                    </td>
+                    <td>
+                      <p>TITLE:</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>FIRST NAME:</p>
+                    </td>
+                    <td>
+                      <p>SURNAME:</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <p>POSTAL ADDRESS:</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <p>RESIDENTIAL ADDRESS:</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>CODE:</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>TELEPHONE NUMBER:</p>
+                    </td>
+                    <td>
+                      <p>CELL NUMBER:</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <p>EMAIL ADDRESS:</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>ACCOUNT NO:</p>
+                    </td>
+                    <td>
+                      <p>ID NO:</p>
+                    </td>
+                  </tr>
+                </table>
+                <p>2. DETAILS OF THE COMPLAINT</p>
+                <p/>
+                <p>1. Name of department/municipal entity which you are complaining about:</p>
+                <p/>
+                <p>2a. Have you lodged your complaint with the above department/municipal entity?</p>
+                <p/>
+                <p>2b If yes what was the department/municipal entity's response to your complaint?</p>
+                <p>(attach copies of your correspondence with the department.</p>
+                <p/>
+                <p>3. Name(s) of official(s) at the department/municipal entity that you spoke/wrote to about your complaint</p>
+                <p/>
+                <p>4. Briefly state your complaint:</p>
+                <p/>
+                <p>5. What can the Ombudsman do to assist you?</p>
+                <p>6. Is this your first interaction with the Office of the Ombudsman?</p>
+                <p/>
+                <p>Signature:</p>
+                <p/>
+                <p>PLEASE ATTACH COPIES OF ALL RELEVANT CORRESPONDENCE</p>
+              </content>
+            </section>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>

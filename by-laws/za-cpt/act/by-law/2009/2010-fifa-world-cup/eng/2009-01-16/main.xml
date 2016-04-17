@@ -1,0 +1,2047 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openbylaws">
+        <FRBRWork>
+          <FRBRthis value="/za-cpt/act/by-law/2009/2010-fifa-world-cup/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2009/2010-fifa-world-cup"/>
+          <FRBRalias value="City of Cape Town: 2010 FIFA World Cup By-law"/>
+          <FRBRdate date="2009-01-16" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-cpt/act/by-law/2009/2010-fifa-world-cup/eng@2009-01-16/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2009/2010-fifa-world-cup/eng@2009-01-16"/>
+          <FRBRdate date="2009-01-16" name="Generation"/>
+          <FRBRauthor href="#council" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-cpt/act/by-law/2009/2010-fifa-world-cup/eng@2009-01-16/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2009/2010-fifa-world-cup/eng@2009-01-16"/>
+          <FRBRdate date="2015-09-06" name="Generation"/>
+          <FRBRauthor href="#openbylaws" as="#author"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-01-16" name="Province of Western Cape: Provincial Gazette" number="6594" showAs="Province of Western Cape: Provincial Gazette"/>
+      <references source="#this">
+        <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council.cape-town" showAs="Cape Town City Council"/>
+        <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCTerm id="term-accreditation" href="/ontology/term/this.eng.accreditation" showAs="accreditation"/>
+        <TLCTerm id="term-Accreditation_Systems_and_Procedure_AlUlex" href="/ontology/term/this.eng.Accreditation_Systems_and_Procedure_AlUlex" showAs="Accreditation Systems and Procedure AlUlex"/>
+        <TLCTerm id="term-Advertisement" href="/ontology/term/this.eng.Advertisement" showAs="Advertisement"/>
+        <TLCTerm id="term-advertising" href="/ontology/term/this.eng.advertising" showAs="advertising"/>
+        <TLCTerm id="term-advertising_structure" href="/ontology/term/this.eng.advertising_structure" showAs="advertising structure"/>
+        <TLCTerm id="term-ambush_marketing" href="/ontology/term/this.eng.ambush_marketing" showAs="ambush marketing"/>
+        <TLCTerm id="term-air_pollution" href="/ontology/term/this.eng.air_pollution" showAs="air pollution"/>
+        <TLCTerm id="term-billboard" href="/ontology/term/this.eng.billboard" showAs="billboard"/>
+        <TLCTerm id="term-branded_licensee" href="/ontology/term/this.eng.branded_licensee" showAs="branded licensee"/>
+        <TLCTerm id="term-broadcast_rights" href="/ontology/term/this.eng.broadcast_rights" showAs="broadcast rights"/>
+        <TLCTerm id="term-broadcast_rights_holders" href="/ontology/term/this.eng.broadcast_rights_holders" showAs="broadcast rights holders"/>
+        <TLCTerm id="term-City_Manager" href="/ontology/term/this.eng.City_Manager" showAs="City Manager"/>
+        <TLCTerm id="term-clear_height" href="/ontology/term/this.eng.clear_height" showAs="clear height"/>
+        <TLCTerm id="term-Competition" href="/ontology/term/this.eng.Competition" showAs="Competition"/>
+        <TLCTerm id="term-Competition_marks" href="/ontology/term/this.eng.Competition_marks" showAs="Competition marks"/>
+        <TLCTerm id="term-Controlled_Access_Site" href="/ontology/term/this.eng.Controlled_Access_Site" showAs="Controlled Access Site"/>
+        <TLCTerm id="term-demarcated_space" href="/ontology/term/this.eng.demarcated_space" showAs="demarcated space"/>
+        <TLCTerm id="term-Exclusion_Zone" href="/ontology/term/this.eng.Exclusion_Zone" showAs="Exclusion Zone"/>
+        <TLCTerm id="term-FIFA" href="/ontology/term/this.eng.FIFA" showAs="FIFA"/>
+        <TLCTerm id="term-FIFA_Delegation" href="/ontology/term/this.eng.FIFA_Delegation" showAs="FIFA Delegation"/>
+        <TLCTerm id="term-FIFA_fan_park" href="/ontology/term/this.eng.FIFA_fan_park" showAs="FIFA fan park"/>
+        <TLCTerm id="term-FIFA_Member_Association" href="/ontology/term/this.eng.FIFA_Member_Association" showAs="FIFA Member Association"/>
+        <TLCTerm id="term-FIFA_partner" href="/ontology/term/this.eng.FIFA_partner" showAs="FIFA partner"/>
+        <TLCTerm id="term-FIFA_World_Cup_sponsor" href="/ontology/term/this.eng.FIFA_World_Cup_sponsor" showAs="FIFA World Cup sponsor"/>
+        <TLCTerm id="term-final_draw" href="/ontology/term/this.eng.final_draw" showAs="final draw"/>
+        <TLCTerm id="term-goods" href="/ontology/term/this.eng.goods" showAs="goods"/>
+        <TLCTerm id="term-intersection" href="/ontology/term/this.eng.intersection" showAs="intersection"/>
+        <TLCTerm id="term-litter" href="/ontology/term/this.eng.litter" showAs="litter"/>
+        <TLCTerm id="term-LOC" href="/ontology/term/this.eng.LOC" showAs="LOC"/>
+        <TLCTerm id="term-marketing_rights" href="/ontology/term/this.eng.marketing_rights" showAs="marketing rights"/>
+        <TLCTerm id="term-match" href="/ontology/term/this.eng.match" showAs="match"/>
+        <TLCTerm id="term-media" href="/ontology/term/this.eng.media" showAs="media"/>
+        <TLCTerm id="term-media_rights" href="/ontology/term/this.eng.media_rights" showAs="media rights"/>
+        <TLCTerm id="term-Metropolitan_Police_Service" href="/ontology/term/this.eng.Metropolitan_Police_Service" showAs="Metropolitan Police Service"/>
+        <TLCTerm id="term-national_supporter" href="/ontology/term/this.eng.national_supporter" showAs="national supporter"/>
+        <TLCTerm id="term-notice_in_the_press" href="/ontology/term/this.eng.notice_in_the_press" showAs="notice in the press"/>
+        <TLCTerm id="term-nuisance" href="/ontology/term/this.eng.nuisance" showAs="nuisance"/>
+        <TLCTerm id="term-official_emblem" href="/ontology/term/this.eng.official_emblem" showAs="official emblem"/>
+        <TLCTerm id="term-official_events" href="/ontology/term/this.eng.official_events" showAs="official events"/>
+        <TLCTerm id="term-official_training_site" href="/ontology/term/this.eng.official_training_site" showAs="official training site"/>
+        <TLCTerm id="term-owner" href="/ontology/term/this.eng.owner" showAs="owner"/>
+        <TLCTerm id="term-Participating_Member_Association" href="/ontology/term/this.eng.Participating_Member_Association" showAs="Participating Member Association"/>
+        <TLCTerm id="term-person" href="/ontology/term/this.eng.person" showAs="person"/>
+        <TLCTerm id="term-premises" href="/ontology/term/this.eng.premises" showAs="premises"/>
+        <TLCTerm id="term-prohibited_area" href="/ontology/term/this.eng.prohibited_area" showAs="prohibited area"/>
+        <TLCTerm id="term-property" href="/ontology/term/this.eng.property" showAs="property"/>
+        <TLCTerm id="term-public_advertising_media" href="/ontology/term/this.eng.public_advertising_media" showAs="public advertising media"/>
+        <TLCTerm id="term-public_place" href="/ontology/term/this.eng.public_place" showAs="public place"/>
+        <TLCTerm id="term-public_road" href="/ontology/term/this.eng.public_road" showAs="public road"/>
+        <TLCTerm id="term-recreation" href="/ontology/term/this.eng.recreation" showAs="recreation"/>
+        <TLCTerm id="term-restricted_area" href="/ontology/term/this.eng.restricted_area" showAs="restricted area"/>
+        <TLCTerm id="term-SAFA" href="/ontology/term/this.eng.SAFA" showAs="SAFA"/>
+        <TLCTerm id="term-safety_and_security_plan" href="/ontology/term/this.eng.safety_and_security_plan" showAs="safety and security plan"/>
+        <TLCTerm id="term-Sign" href="/ontology/term/this.eng.Sign" showAs="Sign"/>
+        <TLCTerm id="term-special_event" href="/ontology/term/this.eng.special_event" showAs="special event"/>
+        <TLCTerm id="term-stadium" href="/ontology/term/this.eng.stadium" showAs="stadium"/>
+        <TLCTerm id="term-street_furniture" href="/ontology/term/this.eng.street_furniture" showAs="street furniture"/>
+        <TLCTerm id="term-street_trader" href="/ontology/term/this.eng.street_trader" showAs="street trader"/>
+        <TLCTerm id="term-street_trading" href="/ontology/term/this.eng.street_trading" showAs="street trading"/>
+        <TLCTerm id="term-team" href="/ontology/term/this.eng.team" showAs="team"/>
+        <TLCTerm id="term-term" href="/ontology/term/this.eng.term" showAs="term"/>
+        <TLCTerm id="term-ticket" href="/ontology/term/this.eng.ticket" showAs="ticket"/>
+        <TLCTerm id="term-ticket_holder" href="/ontology/term/this.eng.ticket_holder" showAs="ticket holder"/>
+        <TLCTerm id="term-traffic-free_zone" href="/ontology/term/this.eng.traffic-free_zone" showAs="traffic-free zone"/>
+        <TLCTerm id="term-verge" href="/ontology/term/this.eng.verge" showAs="verge"/>
+        <TLCTerm id="term-waste" href="/ontology/term/this.eng.waste" showAs="waste"/>
+      </references>
+    </meta>
+    <preamble>
+      <p>WHEREAS:</p>
+      <p>Section 156(1) of the Constitution confers on the City the power to make by-laws for the effective administration on matters which it has the right to administer;</p>
+      <p>The City of Cape Town, as a host City for the 2010 FIFA World Cup wishes to adopt a by-law for the efficient running of the Competition in Cape Town;</p>
+      <p>NOW THEREFORE, BE IT ENACTED by the City of Cape Town, as follows: -</p>
+    </preamble>
+    <body>
+      <chapter id="chapter-1">
+        <num>1</num>
+        <heading>Preliminary provisions</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <subsection id="section-1.subsection-0">
+            <content>
+              <p>In this By-law the following terms shall bear the following meanings, unless the context otherwise indicates -</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-1" refersTo="#term-accreditation">
+            <content>
+              <p>"<def refersTo="#term-accreditation">accreditation</def>" means accreditation in terms of the Accreditation Systems and Procedure Annex;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-2" refersTo="#term-Accreditation_Systems_and_Procedure_AlUlex">
+            <content>
+              <p>"<def refersTo="#term-Accreditation_Systems_and_Procedure_AlUlex">Accreditation Systems and Procedure AlUlex</def>" means the <term refersTo="#term-accreditation" id="trm0">accreditation</term> systems and procedures of <term refersTo="#term-FIFA" id="trm1">FIFA</term>, that will be applicable to the <term refersTo="#term-Competition" id="trm2">Competition</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-3" refersTo="#term-Advertisement">
+            <content>
+              <p>"<def refersTo="#term-Advertisement">Advertisement</def>" means a visual representation including but not limited to a sign, illustration, object, mark, symbol or device of any kind which is in a <term refersTo="#term-public_place" id="trm3">public place</term> or which is visible to the public from in a <term refersTo="#term-public_place" id="trm4">public place</term> or which is visible to the public from any <term refersTo="#term-public_place" id="trm5">public place</term> including but not limited to, any street or any <term refersTo="#term-public_place" id="trm6">public place</term> or any other vantage point or which is under or over-hanging from any bridge. building or other structure. including sky writing, used for Advertising activity or any combination of such elements with the object of transferring information;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-4" refersTo="#term-advertising">
+            <content>
+              <p>"<def refersTo="#term-advertising">advertising</def>" means the act or process of notifying. warning, informing, displaying, making known or any other act of transferring information in a visual or oral manner;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-5" refersTo="#term-advertising_structure">
+            <content>
+              <p>"<def refersTo="#term-advertising_structure">advertising structure</def>" means any physical structure erected or positioned so as to display a sign or <term refersTo="#term-billboard" id="trm7">billboard</term>, or to which a sign or <term refersTo="#term-billboard" id="trm8">billboard</term> is attached:</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-6" refersTo="#term-ambush_marketing">
+            <content>
+              <p>"<def refersTo="#term-ambush_marketing">ambush marketing</def>" means marketing, promotional, <term refersTo="#term-advertising" id="trm9">advertising</term> or public relations activity in words, sound or any other form, directly or indirectly relating to the <term refersTo="#term-Competition" id="trm10">Competition</term>, and which claims or implies an association with the <term refersTo="#term-Competition" id="trm11">Competition</term> or capitalises or is intended to capitalise on an association with, or gains or is intended to gain a promotional benefit from it to the prejudice of any sponsor of, the <term refersTo="#term-Competition" id="trm12">Competition</term>, but which is undertaken by a <term refersTo="#term-person" id="trm13">person</term> which has not been granted the right to promote an association with the <term refersTo="#term-Competition" id="trm14">Competition</term> by <term refersTo="#term-FIFA" id="trm15">FIFA</term> and whose aforesaid activity has not been authorised by FIFACompetition;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-7">
+            <content>
+              <blockList id="section-1.subsection-7.list7" refersTo="#term-air_pollution">
+                <listIntroduction>"<def refersTo="#term-air_pollution">air pollution</def>" means, as defined by the National Environment Management: Air Quality Act, 2004 (Act No. 39 of 2004); "approval" means approval by the City including by an authorised official, and "approve" has a corresponding meaning; "authorised official" means a <term refersTo="#term-person" id="trm16">person</term> authorised to implement the provisions of this By-law, including but not limited to—</listIntroduction>
+                <item id="section-1.subsection-7.list7.a">
+                  <num>(a)</num>
+                  <p>peace officers as contemplated in section 334 of the Criminal Procedure Act, 1977 (Act No. 51 of 1977);</p>
+                </item>
+                <item id="section-1.subsection-7.list7.b">
+                  <num>(b)</num>
+                  <p>members of the South African Police Services or Metropolitan Police Officers as contemplated in the South African Police Services Act, 1995 (Act No. 8 of 1995);</p>
+                </item>
+                <item id="section-1.subsection-7.list7.c">
+                  <num>(c)</num>
+                  <p>such employees, agents, delegated nominees, representatives or service providers of the City as are specifically authorised by the City in this regard;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-8" refersTo="#term-billboard">
+            <content>
+              <p>"<def refersTo="#term-billboard">billboard</def>" means any screen, board or sign supported by a freestanding structure which may be handwritten, hand drawn or hand painted, paper- posted, sign-written, pasted with vinyl or covered, pasted or written upon by a combination of such methods and which may feature special effects, which displays an advertisement;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-9" refersTo="#term-branded_licensee">
+            <content>
+              <p>"<def refersTo="#term-branded_licensee">branded licensee</def>" means any <term refersTo="#term-person" id="trm17">person</term>, not being a <term refersTo="#term-FIFA_partner" id="trm18">FIFA partner</term>, <term refersTo="#term-FIFA_World_Cup_sponsor" id="trm19">FIFA World Cup sponsor</term> or <term refersTo="#term-national_supporter" id="trm20">national supporter</term>, to which <term refersTo="#term-FIFA" id="trm21">FIFA</term> grants the right to place any of the competition marks on products and related product packaging and product <term refersTo="#term-advertising" id="trm22">advertising</term> materials which also bear the corporate identification or trademark of such <term refersTo="#term-person" id="trm23">person</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-10" refersTo="#term-broadcast_rights">
+            <content>
+              <p>"<def refersTo="#term-broadcast_rights">broadcast rights</def>" means the right to broadcast, transmit, display, film and photograph the <term refersTo="#term-Competition" id="trm24">Competition</term>, as well as all recordings thereof, or any part thereof, in any form and in all <term refersTo="#term-media" id="trm25">media</term> now known or hereafter and the right to exploit the same;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-11" refersTo="#term-broadcast_rights_holders">
+            <content>
+              <p>"<def refersTo="#term-broadcast_rights_holders">broadcast rights holders</def>" shall mean a <term refersTo="#term-person" id="trm26">person</term>, that has acquired from <term refersTo="#term-FIFA" id="trm27">FIFA</term>, directly or indirectly, any part of the <term refersTo="#term-broadcast_rights" id="trm28">broadcast rights</term>; "City" means the City of Cape Town established in terms of the Local Government: Municipal Structures Act 1998 (Act No. 117 of 1998);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-12" refersTo="#term-City_Manager">
+            <content>
+              <p>"<def refersTo="#term-City_Manager">City Manager</def>" means a <term refersTo="#term-person" id="trm29">person</term> appointed as City Manager in terms of section 82 of the Local Government: Municipal Structures Act, 1998 (Act No. 117 of 1998);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-13" refersTo="#term-clear_height">
+            <content>
+              <p>"<def refersTo="#term-clear_height">clear height</def>" means the minimum vertical distance from the ground, road or surface level, whatever the case may be, to the underside of a sign; "commercial affiliate" means any <term refersTo="#term-FIFA_partner" id="trm30">FIFA partner</term>, <term refersTo="#term-FIFA_World_Cup_sponsor" id="trm31">FIFA World Cup sponsor</term>, <term refersTo="#term-national_supporter" id="trm32">national supporter</term> and <term refersTo="#term-branded_licensee" id="trm33">branded licensee</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-14" refersTo="#term-Competition">
+            <content>
+              <p>"<def refersTo="#term-Competition">Competition</def>" means the 2010 <term refersTo="#term-FIFA" id="trm34">FIFA</term> World Cup South Africa TM which is scheduled to be contested from 11 June to 11 July in the year 2010 in the Republic of South Africa, under the governance of <term refersTo="#term-FIFA" id="trm35">FIFA</term>, including all matches and <term refersTo="#term-official_events" id="trm36">official events</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-15">
+            <content>
+              <blockList id="section-1.subsection-15.list15" refersTo="#term-Competition_marks">
+                <listIntroduction>"<def refersTo="#term-Competition_marks">Competition marks</def>" means—</listIntroduction>
+                <item id="section-1.subsection-15.list15.a">
+                  <num>(a)</num>
+                  <p>the <term refersTo="#term-official_emblem" id="trm37">official emblem</term>;</p>
+                </item>
+                <item id="section-1.subsection-15.list15.b">
+                  <num>(b)</num>
+                  <p>any official <term refersTo="#term-Competition" id="trm38">Competition</term> mascot;</p>
+                </item>
+                <item id="section-1.subsection-15.list15.c">
+                  <num>(c)</num>
+                  <p>any official <term refersTo="#term-Competition" id="trm39">Competition</term> poster;</p>
+                </item>
+                <item id="section-1.subsection-15.list15.d">
+                  <num>(d)</num>
+                  <p>any official <term refersTo="#term-Competition" id="trm40">Competition</term> ‘look’ designs;</p>
+                </item>
+                <item id="section-1.subsection-15.list15.e">
+                  <num>(e)</num>
+                  <p>two or three dimensional representations of the <term refersTo="#term-FIFA" id="trm41">FIFA</term> World Cup trophy; and</p>
+                </item>
+                <item id="section-1.subsection-15.list15.f">
+                  <num>(f)</num>
+                  <p>any <term refersTo="#term-Competition" id="trm42">Competition</term>-related designations including trade marks and marks as defined in the Trade Marks Act, 1993 (Act No.194 of 1993);</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-16">
+            <content>
+              <blockList id="section-1.subsection-16.list16" refersTo="#term-Controlled_Access_Site">
+                <listIntroduction>"<def refersTo="#term-Controlled_Access_Site">Controlled Access Site</def>" means—</listIntroduction>
+                <item id="section-1.subsection-16.list16.a">
+                  <num>(a)</num>
+                  <p>the locations of the matches including without limitation, the <term refersTo="#term-stadium" id="trm43">stadium</term>;</p>
+                </item>
+                <item id="section-1.subsection-16.list16.b">
+                  <num>(b)</num>
+                  <p>the locations of the <term refersTo="#term-official_events" id="trm44">official events</term>;</p>
+                </item>
+                <item id="section-1.subsection-16.list16.c">
+                  <num>(c)</num>
+                  <p>any other areas in respect of which admission is regulated by <term refersTo="#term-accreditation" id="trm45">accreditation</term>;</p>
+                </item>
+                <item id="section-1.subsection-16.list16.d">
+                  <num>(d)</num>
+                  <p><term refersTo="#term-accreditation" id="trm46">accreditation</term> centres;</p>
+                </item>
+                <item id="section-1.subsection-16.list16.e">
+                  <num>(e)</num>
+                  <p>official training sites;</p>
+                </item>
+                <item id="section-1.subsection-16.list16.f">
+                  <num>(f)</num>
+                  <p><term refersTo="#term-team" id="trm47">team</term> hotels;</p>
+                </item>
+                <item id="section-1.subsection-16.list16.g">
+                  <num>(g)</num>
+                  <p>the official hotels for the <term refersTo="#term-FIFA" id="trm48">FIFA</term> delegation;</p>
+                </item>
+                <item id="section-1.subsection-16.list16.h">
+                  <num>(h)</num>
+                  <p><term refersTo="#term-FIFA" id="trm49">FIFA</term> fan parks; and</p>
+                </item>
+                <item id="section-1.subsection-16.list16.i">
+                  <num>(i)</num>
+                  <p>any other area within the area of jurisdiction of the City, designated or demarcated by the City by <term refersTo="#term-notice_in_the_press" id="trm50">notice in the press</term> as a Controlled Access Site and shall include private <term refersTo="#term-property" id="trm51">property</term> located therein;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-17" refersTo="#term-demarcated_space">
+            <content>
+              <p>"<def refersTo="#term-demarcated_space">demarcated space</def>" means a portion of a road or the road reserve which has been identified and demarcated as a place where a vehicle may be lawfully parked;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-18" refersTo="#term-Exclusion_Zone">
+            <content>
+              <p>"<def refersTo="#term-Exclusion_Zone">Exclusion Zone</def>" means the controlled zone situated immediately outside the outer perimeter of the <term refersTo="#term-stadium" id="trm52">stadium</term>, as designated or demarcated by the City, including private <term refersTo="#term-property" id="trm53">property</term> located therein;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-19" refersTo="#term-FIFA">
+            <content>
+              <p>"<def refersTo="#term-FIFA">FIFA</def>" means Fédération Internationale De Football Association;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-20">
+            <content>
+              <blockList id="section-1.subsection-20.list20" refersTo="#term-FIFA_Delegation">
+                <listIntroduction>"<def refersTo="#term-FIFA_Delegation">FIFA Delegation</def>" means with respect to the <term refersTo="#term-Competition" id="trm54">Competition</term>, the following persons—</listIntroduction>
+                <item id="section-1.subsection-20.list20.a">
+                  <num>(a)</num>
+                  <p><term refersTo="#term-FIFA" id="trm55">FIFA</term> staff and the staff of all <term refersTo="#term-FIFA" id="trm56">FIFA</term> subsidiary companies;</p>
+                </item>
+                <item id="section-1.subsection-20.list20.b">
+                  <num>(b)</num>
+                  <p>members of <term refersTo="#term-FIFA" id="trm57">FIFA</term>’s internal official committees;</p>
+                </item>
+                <item id="section-1.subsection-20.list20.c">
+                  <num>(c)</num>
+                  <p>guests of <term refersTo="#term-FIFA" id="trm58">FIFA</term>; and</p>
+                </item>
+                <item id="section-1.subsection-20.list20.d">
+                  <num>(d)</num>
+                  <p>all other individuals who are nominated by <term refersTo="#term-FIFA" id="trm59">FIFA</term> as being a member of the <term refersTo="#term-FIFA" id="trm60">FIFA</term> delegation;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-21" refersTo="#term-FIFA_fan_park">
+            <content>
+              <p>"<def refersTo="#term-FIFA_fan_park">FIFA fan park</def>" means a fan park to be established by the City under the auspices and guidance of <term refersTo="#term-FIFA" id="trm61">FIFA</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-22" refersTo="#term-FIFA_Member_Association">
+            <content>
+              <p>"<def refersTo="#term-FIFA_Member_Association">FIFA Member Association</def>" means any national football association officially affiliated to <term refersTo="#term-FIFA" id="trm62">FIFA</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-23" refersTo="#term-FIFA_partner">
+            <content>
+              <p>"<def refersTo="#term-FIFA_partner">FIFA partner</def>" means a <term refersTo="#term-person" id="trm63">person</term> to which <term refersTo="#term-FIFA" id="trm64">FIFA</term> grants the most comprehensive package of available <term refersTo="#term-marketing_rights" id="trm65">marketing rights</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-24" refersTo="#term-FIFA_World_Cup_sponsor">
+            <content>
+              <p>"<def refersTo="#term-FIFA_World_Cup_sponsor">FIFA World Cup sponsor</def>" means a <term refersTo="#term-person" id="trm66">person</term> to which <term refersTo="#term-FIFA" id="trm67">FIFA</term> grants the second most comprehensive package of available <term refersTo="#term-marketing_rights" id="trm68">marketing rights</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-25" refersTo="#term-final_draw">
+            <content>
+              <p>"<def refersTo="#term-final_draw">final draw</def>" means the official draw ceremony for the <term refersTo="#term-Competition" id="trm69">Competition</term>, by means of which the Participating Member Associations are allocated to <term refersTo="#term-Competition" id="trm70">Competition</term> groups;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-26" refersTo="#term-goods">
+            <content>
+              <p>"<def refersTo="#term-goods">goods</def>" means any items or stock displayed or kept by a <term refersTo="#term-street_trader" id="trm71">street trader</term> for the purpose of selling;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-27" refersTo="#term-intersection">
+            <content>
+              <p>"<def refersTo="#term-intersection">intersection</def>" means any intersection as defined in the regulations promulgated in terms of the National Road Traffic Act, 1996 (Act No. 93 of 1996);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-28" refersTo="#term-litter">
+            <content>
+              <p>"<def refersTo="#term-litter">litter</def>" includes any receptacle, container or other matter, which has been discarded or abandoned or left behind;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-29" refersTo="#term-LOC">
+            <content>
+              <p>"<def refersTo="#term-LOC">LOC</def>" means the 2010 World Cup Organising Committee, an association incorporated under Section 21 of the Companies Act, 1973 (Act No. 61 of 1973) (Registration No. 2005/029945/08);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-30" refersTo="#term-marketing_rights">
+            <content>
+              <p>"<def refersTo="#term-marketing_rights">marketing rights</def>" means all <term refersTo="#term-advertising" id="trm72">advertising</term>, promotional, marketing, merchandising, licensing, franchising, sponsorship, hospitality, publishing, and any other rights or associated commercial opportunities other than the <term refersTo="#term-media_rights" id="trm73">media rights</term> related to or in connection with the <term refersTo="#term-Competition" id="trm74">Competition</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-31" refersTo="#term-match">
+            <content>
+              <p>"<def refersTo="#term-match">match</def>" means each and every football match in its entirety, including extra time and penalty kick phases, of the <term refersTo="#term-Competition" id="trm75">Competition</term>, including training matches and any delayed or deferred matches and replays;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-32" refersTo="#term-media">
+            <content>
+              <p>"<def refersTo="#term-media">media</def>" means all members of the written press, photographers and electronic media entitled to mediaaccreditation;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-33" refersTo="#term-media_rights">
+            <content>
+              <p>"<def refersTo="#term-media_rights">media rights</def>" means the right to broadcast, transmit, display, film and photograph the <term refersTo="#term-Competition" id="trm76">Competition</term>, as well as all recordings thereof, or any part thereof, in any form and in all <term refersTo="#term-media" id="trm77">media</term> now known or hereafter and the right to exploit such rights;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-34" refersTo="#term-Metropolitan_Police_Service">
+            <content>
+              <p>"<def refersTo="#term-Metropolitan_Police_Service">Metropolitan Police Service</def>" means the metropolitan police service as contemplated in the South African Police Services Act, 1995 (Act No.8 of 1995);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-35" refersTo="#term-national_supporter">
+            <content>
+              <p>"<def refersTo="#term-national_supporter">national supporter</def>" means a <term refersTo="#term-person" id="trm78">person</term> to which <term refersTo="#term-FIFA" id="trm79">FIFA</term> grants a package of specified <term refersTo="#term-marketing_rights" id="trm80">marketing rights</term>, such rights to be exercisable only in the Republic of South Africa;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-36" refersTo="#term-notice_in_the_press">
+            <content>
+              <p>"<def refersTo="#term-notice_in_the_press">notice in the press</def>" means a notice published in the three official languages in newspapers circulating within the City;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-37">
+            <content>
+              <blockList id="section-1.subsection-37.list37" refersTo="#term-nuisance">
+                <listIntroduction>"<def refersTo="#term-nuisance">nuisance</def>" means—</listIntroduction>
+                <item id="section-1.subsection-37.list37.a">
+                  <num>(a)</num>
+                  <p>any stream, pool, marsh, ditch, gutter, watercourse, cistern, watercloset, earthcloset, urinal, cesspool, cesspit, drain, sewer, dung pit, slop tank, ash heap or dung heap so foul or in such a state or so situated or constructed as to be offensive or to be injurious or dangerous to health;</p>
+                </item>
+                <item id="section-1.subsection-37.list37.b">
+                  <num>(b)</num>
+                  <p>any stable, kraal, shed, run or <term refersTo="#term-premises" id="trm81">premises</term> used for the keeping of animals or birds and which is so constructed, situated, used or kept as to be offensive or to be injurious or dangerous to health;</p>
+                </item>
+                <item id="section-1.subsection-37.list37.c">
+                  <num>(c)</num>
+                  <p>any accumulation of refuse, offal, manure or other matter which is offensive or is injurious or dangerous to health;</p>
+                </item>
+                <item id="section-1.subsection-37.list37.d">
+                  <num>(d)</num>
+                  <p>any public building which is so situated, constructed, used or kept as to be unsafe or to be injurious or dangerous to health;</p>
+                </item>
+                <item id="section-1.subsection-37.list37.e">
+                  <num>(e)</num>
+                  <p>any occupied dwelling for which no proper and sufficient supply of pure water is available within a reasonable distance;</p>
+                </item>
+                <item id="section-1.subsection-37.list37.f">
+                  <num>(f)</num>
+                  <p>any factory or industrial or business <term refersTo="#term-premises" id="trm82">premises</term> not kept in a cleanly state and free from offensive smells arising from any drain, water closet, earth closet, urinal or any other source, or not ventilated so as to destroy or render harmless and inoffensive as far as practicable any gases, vapours, dust or other impurities generated, or so overcrowded or so badly lighted or ventilated as to be injurious or dangerous to the health of those employed therein or thereon;</p>
+                </item>
+                <item id="section-1.subsection-37.list37.g">
+                  <num>(g)</num>
+                  <p>any factory or industrial or business <term refersTo="#term-premises" id="trm83">premises</term> causing or giving rise to smells or effluvia which are offensive or which are injurious or dangerous to health;</p>
+                </item>
+                <item id="section-1.subsection-37.list37.h">
+                  <num>(h)</num>
+                  <p>any area of land kept or permitted to remain in such a state as to be offensive;</p>
+                </item>
+                <item id="section-1.subsection-37.list37.i">
+                  <num>(i)</num>
+                  <p>any other activity, condition or thing declared to be a nuisance by the Minister in terms of the provisions of the Health Act, 1977 (Act No. 63 of 1977);</p>
+                </item>
+                <item id="section-1.subsection-37.list37.j">
+                  <num>(j)</num>
+                  <blockList id="section-1.subsection-37.list37.j.list0">
+                    <listIntroduction>any act or condition which interferes with</listIntroduction>
+                    <item id="section-1.subsection-37.list37.j.list0.i">
+                      <num>(i)</num>
+                      <p>the health or well-being of a <term refersTo="#term-person" id="trm84">person</term> or the general public;</p>
+                    </item>
+                    <item id="section-1.subsection-37.list37.j.list0.ii">
+                      <num>(ii)</num>
+                      <p>the use and enjoyment by an <term refersTo="#term-owner" id="trm85">owner</term> or occupier of his or her <term refersTo="#term-property" id="trm86">property</term>;</p>
+                    </item>
+                    <item id="section-1.subsection-37.list37.j.list0.iii">
+                      <num>(iii)</num>
+                      <p>the use and enjoyment by a member of the public of a <term refersTo="#term-public_place" id="trm87">public place</term>;</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-38" refersTo="#term-official_emblem">
+            <content>
+              <p>"<def refersTo="#term-official_emblem">official emblem</def>" means any official logo or official device of the <term refersTo="#term-Competition" id="trm88">Competition</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-39" refersTo="#term-official_events">
+            <content>
+              <p>"<def refersTo="#term-official_events">official events</def>" means any organisational, social, cultural and other official functions, ceremonies and draws staged, hosted or organised by the <term refersTo="#term-LOC" id="trm89">LOC</term> or <term refersTo="#term-FIFA" id="trm90">FIFA</term> in connection with the <term refersTo="#term-Competition" id="trm91">Competition</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-40" refersTo="#term-official_training_site">
+            <content>
+              <p>"<def refersTo="#term-official_training_site">official training site</def>" means a venue within the jurisdiction of the City selected to host any <term refersTo="#term-Competition" id="trm92">Competition</term>-related training sessions for a <term refersTo="#term-team" id="trm93">team</term>, including the surrounding and adjacent areas, parking facilities, <term refersTo="#term-media" id="trm94">media</term> areas, concourses, fencing and entrances, under the control of the City;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-41" refersTo="#term-owner">
+            <content>
+              <p>"<def refersTo="#term-owner">owner</def>" in relation to a sign includes the owner of immovable <term refersTo="#term-property" id="trm95">property</term> or a <term refersTo="#term-person" id="trm96">person</term> who owns or leases the <term refersTo="#term-advertising_structure" id="trm97">advertising structure</term> applicable to a sign, or will own or lease such <term refersTo="#term-advertising_structure" id="trm98">advertising structure</term> once it has been erected, and any <term refersTo="#term-person" id="trm99">person</term> who has a right to share in the ownership or lease of such <term refersTo="#term-advertising_structure" id="trm100">advertising structure</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-42" refersTo="#term-Participating_Member_Association">
+            <content>
+              <p>"<def refersTo="#term-Participating_Member_Association">Participating Member Association</def>" means any <term refersTo="#term-FIFA_Member_Association" id="trm101">FIFA Member Association</term> whose representative Team has qualified to participate in the <term refersTo="#term-Competition" id="trm102">Competition</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-43" refersTo="#term-person">
+            <content>
+              <p>"<def refersTo="#term-person">person</def>" means a legal person which includes a natural person, partnership, firm, corporation, corporation trust, unincorporated association, joint venture, company and close corporation;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-44" refersTo="#term-premises">
+            <content>
+              <p>"<def refersTo="#term-premises">premises</def>" means an erf, stand, land, lot, plot, agricultural holding, farm portion or similar land entity, or any building or improvements thereon, registered in a deeds registry;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-45" refersTo="#term-prohibited_area">
+            <content>
+              <p>"<def refersTo="#term-prohibited_area">prohibited area</def>" in relation to <term refersTo="#term-street_trading" id="trm103">street trading</term>, means a place declared in terms of section 6A(2) of the Businesses Act, 1991 (Act No. 71 of 1991) to be an area in which <term refersTo="#term-street_trading" id="trm104">street trading</term> is prohibited;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-46" refersTo="#term-property">
+            <content>
+              <p>"<def refersTo="#term-property">property</def>" means in relation to a <term refersTo="#term-person" id="trm105">person</term> carrying on the business of <term refersTo="#term-street_trading" id="trm106">street trading</term> any article, receptacle, vehicle or structure used or intended to be used in connection with such business;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-47" refersTo="#term-public_advertising_media">
+            <content>
+              <p>"<def refersTo="#term-public_advertising_media">public advertising media</def>" means such advertisingmedia space including, without limitation, light and electricity posts, and <term refersTo="#term-advertising" id="trm107">advertising</term> space on public buildings as is owned, leased, administered by or under the direct control of the City;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-48">
+            <content>
+              <blockList id="section-1.subsection-48.list48" refersTo="#term-public_place">
+                <listIntroduction>"<def refersTo="#term-public_place">public place</def>" means—</listIntroduction>
+                <item id="section-1.subsection-48.list48.a">
+                  <num>(a)</num>
+                  <p>any public land, square, public swimming bath, public resort, public <term refersTo="#term-recreation" id="trm108">recreation</term> site, zoological, botanical or other public garden, park or hiking trail, including any portion thereof and any facility or apparatus therein or thereon, as well as any public open space, <term refersTo="#term-public_road" id="trm109">public road</term>, road reserve, reserve street, lake, dam, or river;</p>
+                </item>
+                <item id="section-1.subsection-48.list48.b">
+                  <num>(b)</num>
+                  <p>any public building, structure, hall, room or office including any part thereof and any facility or apparatus therein, which is the <term refersTo="#term-property" id="trm110">property</term> of, or possessed, controlled or leased by the City and to which the general public has access, whether on payment of admission fees or not;</p>
+                </item>
+                <item id="section-1.subsection-48.list48.c">
+                  <num>(c)</num>
+                  <blockList id="section-1.subsection-48.list48.c.list0">
+                    <listIntroduction>any nature conservation area including—</listIntroduction>
+                    <item id="section-1.subsection-48.list48.c.list0.i">
+                      <num>(i)</num>
+                      <p>nature reserves;</p>
+                    </item>
+                    <item id="section-1.subsection-48.list48.c.list0.ii">
+                      <num>(ii)</num>
+                      <p>protected natural areas;</p>
+                    </item>
+                    <item id="section-1.subsection-48.list48.c.list0.iii">
+                      <num>(iii)</num>
+                      <p>nature conservation worthy areas;</p>
+                    </item>
+                    <item id="section-1.subsection-48.list48.c.list0.iv">
+                      <num>(iv)</num>
+                      <p>natural open spaces;</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-49" refersTo="#term-public_road">
+            <content>
+              <p>"<def refersTo="#term-public_road">public road</def>" means a square, public street, avenue, road, sidewalk, an island located within a street, avenue or road, subway, avenue, bridge, walkway, public passageway and any thoroughfare shown on the general plan of a township or in respect of which the public has acquired a prescriptive or other right of way and which is more fully described in the National Road Traffic Act, 1996 (Act No. 93 of 1996);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-50" refersTo="#term-recreation">
+            <content>
+              <p>"<def refersTo="#term-recreation">recreation</def>" or "recreational" means any leisure activity;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-51" refersTo="#term-restricted_area">
+            <content>
+              <p>"<def refersTo="#term-restricted_area">restricted area</def>" in relation to <term refersTo="#term-street_trading" id="trm111">street trading</term>, means any area declared in terms section 6A(2) of the Businesses Act, 1991(Act No. 71 of 1991) to be an area in which <term refersTo="#term-street_trading" id="trm112">street trading</term> is restricted;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-52" refersTo="#term-SAFA">
+            <content>
+              <p>"<def refersTo="#term-SAFA">SAFA</def>" means South African Football Association;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-53" refersTo="#term-safety_and_security_plan">
+            <content>
+              <p>"<def refersTo="#term-safety_and_security_plan">safety and security plan</def>" means the safety and security plans to be implemented by the City during the <term refersTo="#term-Competition" id="trm113">Competition</term>; "services" includes any advantage or gain for consideration or reward;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-54">
+            <content>
+              <blockList id="section-1.subsection-54.list54" refersTo="#term-Sign">
+                <listIntroduction>"<def refersTo="#term-Sign">Sign</def>" means—</listIntroduction>
+                <item id="section-1.subsection-54.list54.a">
+                  <num>(a)</num>
+                  <p>any method of displaying writing, letters, numbers, figures, objects, <term refersTo="#term-Competition" id="trm114">Competition</term> Marks, photographs, symbols or illustrations, and includes but is not limited to a non-physical sign projected onto a building or other structure or in the air with the aid of modern technology (e.g. laser beams), which device, article or non-physical sign is visible or distributed in any way whatsoever from a <term refersTo="#term-public_place" id="trm115">public place</term>, or any place whatsoever, for the purpose of <term refersTo="#term-advertising" id="trm116">advertising</term>, providing information, <term refersTo="#term-ambush_marketing" id="trm117">ambush marketing</term> or attracting the public to any place, public display, article or merchandise for sale, and whether the surface of the sign is attached to or forms part of a building, or is fixed to the ground or to a pole, tree, screen or hoarding, Person, vehicle or other movable object; or</p>
+                </item>
+                <item id="section-1.subsection-54.list54.b">
+                  <num>(b)</num>
+                  <p>any method of displaying writing, letters, numbers, figures, objects, <term refersTo="#term-Competition" id="trm118">Competition</term> Marks, photographs, symbols or illustrations which is displayed or distributed in any other way including but not limited to security signs, projecting signs, trailer signs, boundary wall signs, tourism signs, window signs, signs on buildings, sky signs, roof signs, flat signs, signs painted on walls and roofs of buildings, aerial signs, development signs, service facility signs, signs for sponsored road traffic projects, building wrap signs, construction site signs, tower and bridge signs, on-Premises business signs, signs at residential properties or community signs, forecourt signs, balcony, veranda, canopy and under-awning signs, functional signs by public bodies, real estate agent signs, electronic signs, signs for sale of <term refersTo="#term-goods" id="trm119">goods</term> or livestock, signs pulled or attached to or created by vehicles, hand held signs, banners, hand held signs, signs attached or incorporated into clothing, headgear, costumes, flags, spectator cheering articles or banners, and for the avoidance of doubt including any Billboard, but excluding City road traffic signs and City street name signs;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-55" refersTo="#term-special_event">
+            <content>
+              <p>"<def refersTo="#term-special_event">special event</def>" means a parade, procession, race, concert, show, exhibition, festival, ceremony, film shoot, photographic shoot or any other similar event of a sporting, cultural or recreational nature which requires, for that purpose, exclusive use of the whole or a part of a <term refersTo="#term-public_place" id="trm120">public place</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-56" refersTo="#term-stadium">
+            <content>
+              <p>"<def refersTo="#term-stadium">stadium</def>" means any stadium within the geographical area of jurisdiction of the City that will be used for purposes of the <term refersTo="#term-Competition" id="trm121">Competition</term>, including the entire <term refersTo="#term-premises" id="trm122">premises</term> thereof inside the perimeter fence, the aerial space above such stadiumpremises, all parking facilities, hospitality areas, <term refersTo="#term-media" id="trm123">media</term> zones, concession areas and commercial display areas;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-57" refersTo="#term-street_furniture">
+            <content>
+              <p>"<def refersTo="#term-street_furniture">street furniture</def>" means any furniture installed by, or on behalf of the City on a <term refersTo="#term-public_place" id="trm124">public place</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-58">
+            <content>
+              <blockList id="section-1.subsection-58.list58" refersTo="#term-street_trader">
+                <listIntroduction>"<def refersTo="#term-street_trader">street trader</def>" means a <term refersTo="#term-person" id="trm125">person</term> selling <term refersTo="#term-goods" id="trm126">goods</term> and includes a seller, peddler or hawker and also—</listIntroduction>
+                <item id="section-1.subsection-58.list58.a">
+                  <num>(a)</num>
+                  <p>a <term refersTo="#term-person" id="trm127">person</term> who as principal, agent, assistant, subcontractor, employer or employee carries on the business of <term refersTo="#term-street_trading" id="trm128">street trading</term> or on behalf of whom or for whose benefit the business of <term refersTo="#term-street_trading" id="trm129">street trading</term> is carried on; and</p>
+                </item>
+                <item id="section-1.subsection-58.list58.b">
+                  <num>(b)</num>
+                  <p>a <term refersTo="#term-person" id="trm130">person</term> to whom a stand has been leased or allocated by the City and for as long as such <term refersTo="#term-person" id="trm131">person</term> is carrying on the business of <term refersTo="#term-street_trading" id="trm132">street trading</term> on it;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-59" refersTo="#term-street_trading">
+            <content>
+              <p>"<def refersTo="#term-street_trading">street trading</def>" means the selling of any <term refersTo="#term-goods" id="trm133">goods</term> in a <term refersTo="#term-public_place" id="trm134">public place</term>;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-60" refersTo="#term-team">
+            <content>
+              <p>"<def refersTo="#term-team">team</def>" means any team which represents a <term refersTo="#term-Participating_Member_Association" id="trm135">Participating Member Association</term> and which has qualified to participate in the <term refersTo="#term-Competition" id="trm136">Competition</term>. References to "team" shall include all squad members and coaches as stipulated in the 2010 Regulations as well as medical personnel and other auxiliary staff; "team hotel" means a hotel and any other location providing accommodation within the area of jurisdiction of the City, for a team;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-61" refersTo="#term-term">
+            <content>
+              <p>"<def refersTo="#term-term">term</def>" means the period as speciﬁed in the Schedule;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-62" refersTo="#term-ticket">
+            <content>
+              <p>"<def refersTo="#term-ticket">ticket</def>" means the evidential item representing that the <term refersTo="#term-ticket_holder" id="trm137">ticket holder</term> has the right to enter a <term refersTo="#term-stadium" id="trm138">stadium</term> to attend a particular <term refersTo="#term-match" id="trm139">match</term> or official event of the <term refersTo="#term-Competition" id="trm140">Competition</term> and to obtain a particular seat allocated to the ticket for that purpose in accordance with the ticket terms and conditions and all applicable laws, and "ticketing" shall have a corresponding meaning;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-63" refersTo="#term-ticket_holder">
+            <content>
+              <p>"<def refersTo="#term-ticket_holder">ticket holder</def>" means a <term refersTo="#term-person" id="trm141">person</term> who has the right in terms of a <term refersTo="#term-ticket" id="trm142">ticket</term> to attend a particular <term refersTo="#term-match" id="trm143">match</term> or official event and to obtain a particular seat allocated to the <term refersTo="#term-ticket" id="trm144">ticket</term> for that purpose;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-64" refersTo="#term-traffic-free_zone">
+            <content>
+              <p>"<def refersTo="#term-traffic-free_zone">traffic-free zone</def>" means as defined in section 1 of the 2010 <term refersTo="#term-FIFA" id="trm145">FIFA</term> World Cup South Africa: Special Measures Act, 2006 (Act No. 11 of 2006);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-65" refersTo="#term-verge">
+            <content>
+              <p>"<def refersTo="#term-verge">verge</def>" means a verge as defined in the National Road Traffic Act, 1996 (Act No. 93 of 1996); and</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-66" refersTo="#term-waste">
+            <content>
+              <p>"<def refersTo="#term-waste">waste</def>" means refuse and includes but not limited to any substance or article which a <term refersTo="#term-person" id="trm146">person</term> wishes to dispose of because it is unwanted, superfluous, broken, worn out, contaminated or otherwise spoilt and that has been discarded or has been accumulated or stored so that it can be discarded, reused, reclaimed or recycled.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Application of the by-law</heading>
+          <subsection id="section-2.1">
+            <num>(1)</num>
+            <content>
+              <p>For the purpose of this By-law a reference to any legislation shall be a reference to that legislation and the regulations promulgated there under, as at the date of promulgation of this By-law and as amended or re-enacted from time to time.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.2">
+            <num>(2)</num>
+            <content>
+              <p>To the extent that conflicts may arise between the existing by-laws of the City and this By-law, the provisions of this By-law shall prevail.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Purpose of the by-law</heading>
+          <subsection id="section-3.subsection-0">
+            <content>
+              <blockList id="section-3.subsection-0.list0">
+                <listIntroduction> The purpose of this By-law is to enable the City, during the <term refersTo="#term-term" id="trm147">term</term>, to— </listIntroduction>
+                <item id="section-3.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>regulate <term refersTo="#term-advertising" id="trm148">advertising</term>;</p>
+                </item>
+                <item id="section-3.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>administer Controlled Access Sites;</p>
+                </item>
+                <item id="section-3.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>regulate special events and the administer, manage and maintain neatness of public open spaces;</p>
+                </item>
+                <item id="section-3.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>adopt appropriate traffic guidance, management and control measures, including the provision of <term refersTo="#term-public_road" id="trm149">public road</term> users with all necessary information, such as, including but not limited to, information about actual and anticipated road closures, detours, parking areas, traffic-free zones, and where possible, directions and suitable routes to and from stadiums and <term refersTo="#term-official_events" id="trm150">official events</term> to ensure the orderly and safe flow of traffic; and</p>
+                </item>
+                <item id="section-3.subsection-0.list0.e">
+                  <num>(e)</num>
+                  <p>regulate <term refersTo="#term-street_trading" id="trm151">street trading</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-2">
+        <num>2</num>
+        <heading>Principal provisions: <term refersTo="#term-advertising" id="trm152">advertising</term></heading>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Application and approval</heading>
+          <subsection id="section-4.subsection-0">
+            <content>
+              <p>For the purposes of this Chapter approval shall mean approval in terms the City of Cape Town: Outdoor Advertising and Signage By-law published in Provincial Gazette Extra-Ordinary 5801 dated 5 December 2001 or any subsequent by-law replacing that By-law.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Ambush marketing and unlawful <term refersTo="#term-advertising" id="trm153">advertising</term></heading>
+          <subsection id="section-5.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-5.1.list0">
+                <listIntroduction> A member of the <term refersTo="#term-Metropolitan_Police_Service" id="trm154">Metropolitan Police Service</term> may enforce the provisions of the Merchandise Marks Act, 1941 (Act No.17 of 1941), in so far as it relates to the powers of an inspector to combat <term refersTo="#term-ambush_marketing" id="trm155">ambush marketing</term>— </listIntroduction>
+                <item id="section-5.1.list0.a">
+                  <num>(a)</num>
+                  <p>during the <term refersTo="#term-final_draw" id="trm156">final draw</term> and for a period of one week immediately prior to and one week immediately following the <term refersTo="#term-final_draw" id="trm157">final draw</term>;</p>
+                </item>
+                <item id="section-5.1.list0.b">
+                  <num>(b)</num>
+                  <p>during the period of the <term refersTo="#term-Competition" id="trm158">Competition</term> and for a period of two weeks immediately prior to the first <term refersTo="#term-match" id="trm159">match</term> and two weeks immediately following the final <term refersTo="#term-match" id="trm160">match</term>;</p>
+                </item>
+                <item id="section-5.1.list0.c">
+                  <num>(c)</num>
+                  <blockList id="section-5.1.list0.c.list0">
+                    <listIntroduction>in the following areas—</listIntroduction>
+                    <item id="section-5.1.list0.c.list0.i">
+                      <num>(i)</num>
+                      <p>at any <term refersTo="#term-Controlled_Access_Site" id="trm161">Controlled Access Site</term>, or</p>
+                    </item>
+                    <item id="section-5.1.list0.c.list0.ii">
+                      <num>(ii)</num>
+                      <p>within a one kilometre radius of the venue of the <term refersTo="#term-final_draw" id="trm162">final draw</term>, or of a <term refersTo="#term-stadium" id="trm163">stadium</term> or as demarcated by the <term refersTo="#term-City_Manager" id="trm164">City Manager</term>;</p>
+                    </item>
+                    <item id="section-5.1.list0.c.list0.iii">
+                      <num>(iii)</num>
+                      <p>within a 100 meter radius of a <term refersTo="#term-FIFA_fan_park" id="trm165">FIFA fan park</term> or as demarcated by the <term refersTo="#term-City_Manager" id="trm166">City Manager</term>; and</p>
+                    </item>
+                    <item id="section-5.1.list0.c.list0.iv">
+                      <num>(iv)</num>
+                      <p>at any place visible from a <term refersTo="#term-public_road" id="trm167">public road</term>, as designated by the <term refersTo="#term-City_Manager" id="trm168">City Manager</term> by means of appropriate signage, leading to the venue of the <term refersTo="#term-final_draw" id="trm169">final draw</term> or to a <term refersTo="#term-stadium" id="trm170">stadium</term>, and within two kilometres from the perimeter of the <term refersTo="#term-final_draw" id="trm171">final draw</term> venue or <term refersTo="#term-stadium" id="trm172">stadium</term>, as the case may be or as demarcated by the <term refersTo="#term-City_Manager" id="trm173">City Manager</term>.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-5.2">
+            <num>(2)</num>
+            <content>
+              <p>Notwithstanding paragraphs (a), (b) and (c) of subsection (1), nothing contained in this By-law shall derogate from the powers granted to a member of the <term refersTo="#term-Metropolitan_Police_Service" id="trm174">Metropolitan Police Service</term> under the Merchandise Marks Act, 1941 (Act No. 17 of 1941).</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-5.3.list2">
+                <listIntroduction> No <term refersTo="#term-person" id="trm175">person</term> shall, except with the prior approval of the <term refersTo="#term-City_Manager" id="trm176">City Manager</term>, and to the extent applicable and within the area of jurisdiction of the City, conduct any <term refersTo="#term-advertising" id="trm177">advertising</term> activity on any <term refersTo="#term-public_advertising_media" id="trm178">public advertising media</term>— </listIntroduction>
+                <item id="section-5.3.list2.a">
+                  <num>(a)</num>
+                  <p>during the <term refersTo="#term-final_draw" id="trm179">final draw</term> and for a period of two weeks immediately prior to the <term refersTo="#term-final_draw" id="trm180">final draw</term>;</p>
+                </item>
+                <item id="section-5.3.list2.b">
+                  <num>(b)</num>
+                  <p>during the period of the <term refersTo="#term-Competition" id="trm181">Competition</term> and for a period of 15 working days immediately prior to the first <term refersTo="#term-match" id="trm182">match</term> and 5 working days immediately following the final <term refersTo="#term-match" id="trm183">match</term>;</p>
+                </item>
+                <item id="section-5.3.list2.c">
+                  <num>(c)</num>
+                  <blockList id="section-5.3.list2.c.list0">
+                    <listIntroduction>in the following areas—</listIntroduction>
+                    <item id="section-5.3.list2.c.list0.i">
+                      <num>(i)</num>
+                      <p>immediately outside or surrounding airports;</p>
+                    </item>
+                    <item id="section-5.3.list2.c.list0.ii">
+                      <num>(ii)</num>
+                      <p>in or immediately outside or surrounding main train stations;</p>
+                    </item>
+                    <item id="section-5.3.list2.c.list0.iii">
+                      <num>(iii)</num>
+                      <p>within a radius of the central business district of the area of jurisdiction of the City demarcated by the <term refersTo="#term-City_Manager" id="trm184">City Manager</term> in consultation with <term refersTo="#term-FIFA" id="trm185">FIFA</term>; and</p>
+                    </item>
+                    <item id="section-5.3.list2.c.list0.iv">
+                      <num>(iv)</num>
+                      <p>to the extent the City has jurisdiction, on the principal routes from the airport and main train stations to the central business district of the area of jurisdiction of the City and to the <term refersTo="#term-stadium" id="trm186">stadium</term>.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-5.4">
+            <num>(4)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm187">person</term> shall, during the <term refersTo="#term-term" id="trm188">term</term> erect, maintain, distribute or display a sign or a <term refersTo="#term-billboard" id="trm189">billboard</term> at a <term refersTo="#term-Controlled_Access_Site" id="trm190">Controlled Access Site</term> or within an <term refersTo="#term-Exclusion_Zone" id="trm191">Exclusion Zone</term>, without the prior written approval of the <term refersTo="#term-City_Manager" id="trm192">City Manager</term> granted specifically with regard to the <term refersTo="#term-Competition" id="trm193">Competition</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Safety</heading>
+          <subsection id="section-6.subsection-0">
+            <content>
+              <blockList id="section-6.subsection-0.list0">
+                <listIntroduction> No <term refersTo="#term-person" id="trm194">person</term> shall erect, maintain, distribute or display a sign, a <term refersTo="#term-billboard" id="trm195">billboard</term> or an <term refersTo="#term-advertising_structure" id="trm196">advertising structure</term> in a <term refersTo="#term-Controlled_Access_Site" id="trm197">Controlled Access Site</term> or an <term refersTo="#term-Exclusion_Zone" id="trm198">Exclusion Zone</term> which— </listIntroduction>
+                <item id="section-6.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>constitutes a danger to any <term refersTo="#term-person" id="trm199">person</term> or <term refersTo="#term-property" id="trm200">property</term>;</p>
+                </item>
+                <item id="section-6.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>is so placed or contains an element which distracts the attention of drivers in a manner likely to lead to unsafe driving conditions;</p>
+                </item>
+                <item id="section-6.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>is illuminated to the extent that it causes discomfort to or inhibits the vision of approaching pedestrians or drivers;</p>
+                </item>
+                <item id="section-6.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>is attached to a road traffic sign or signal;</p>
+                </item>
+                <item id="section-6.subsection-0.list0.e">
+                  <num>(e)</num>
+                  <p>combined with a road traffic sign or signal obscures a road traffic sign or signal;</p>
+                </item>
+                <item id="section-6.subsection-0.list0.f">
+                  <num>(f)</num>
+                  <p>creates confusion with a road traffic sign or signal;</p>
+                </item>
+                <item id="section-6.subsection-0.list0.g">
+                  <num>(g)</num>
+                  <p>interferes with the functioning of a road traffic sign or signal or creates a road safety hazard;</p>
+                </item>
+                <item id="section-6.subsection-0.list0.h">
+                  <num>(h)</num>
+                  <p>obscures a pedestrian’s or driver’s view of pedestrians, road or rail vehicles and features of the road, railway or pavement such as junctions, bends and changes in width;</p>
+                </item>
+                <item id="section-6.subsection-0.list0.i">
+                  <num>(i)</num>
+                  <p>projects over a pedestrian or cycle circulation route, unless the <term refersTo="#term-clear_height" id="trm201">clear height</term> of such sign is approved by the <term refersTo="#term-City_Manager" id="trm202">City Manager</term>;</p>
+                </item>
+                <item id="section-6.subsection-0.list0.j">
+                  <num>(j)</num>
+                  <p>obstructs a fire escape or fire fighting equipment; or</p>
+                </item>
+                <item id="section-6.subsection-0.list0.k">
+                  <num>(k)</num>
+                  <p>is placed closer than the minimum clearance prescribed by the <term refersTo="#term-City_Manager" id="trm203">City Manager</term> with regard to overhead power lines.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Design and construction</heading>
+          <subsection id="section-7.1">
+            <num>(1)</num>
+            <content>
+              <p>Advertising structures in a <term refersTo="#term-Controlled_Access_Site" id="trm204">Controlled Access Site</term> or an <term refersTo="#term-Exclusion_Zone" id="trm205">Exclusion Zone</term> shall be designed and constructed according to applicable South African Bureau of Standards ("SABS") approved standards.</p>
+            </content>
+          </subsection>
+          <subsection id="section-7.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-7.2.list1">
+                <listIntroduction> Every sign in a <term refersTo="#term-Controlled_Access_Site" id="trm206">Controlled Access Site</term> or an <term refersTo="#term-Exclusion_Zone" id="trm207">Exclusion Zone</term> in which electricity is used, including electronic and illuminated signs, must - </listIntroduction>
+                <item id="section-7.2.list1.a">
+                  <num>(a)</num>
+                  <p>have power cables and conduits containing electrical conductors positioned and fixed in such a manner that they are not unsightly;</p>
+                </item>
+                <item id="section-7.2.list1.b">
+                  <num>(b)</num>
+                  <p>be designed in such a manner that the sign is not a fire risk;</p>
+                </item>
+                <item id="section-7.2.list1.c">
+                  <num>(c)</num>
+                  <p>be provided with an external switch in an accessible position and at a height of at least three metres from the ground by means of which the electricity supply to the sign may be switched off;</p>
+                </item>
+                <item id="section-7.2.list1.d">
+                  <num>(d)</num>
+                  <p>be wired and constructed in accordance with and subject to the provisions of all applicable laws and regulations; and</p>
+                </item>
+                <item id="section-7.2.list1.e">
+                  <num>(e)</num>
+                  <p>be installed and erected by a qualified electrician.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-7.4">
+            <num>(4)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm208">person</term> shall erect, maintain or display a sign, <term refersTo="#term-billboard" id="trm209">billboard</term> or an <term refersTo="#term-advertising_structure" id="trm210">advertising structure</term> in a <term refersTo="#term-Controlled_Access_Site" id="trm211">Controlled Access Site</term> or an <term refersTo="#term-Exclusion_Zone" id="trm212">Exclusion Zone</term> which interferes or is detrimental with the functioning of the natural environment.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Maintenance</heading>
+          <subsection id="section-8.subsection-0">
+            <content>
+              <p>All signs in Controlled Access Sites and Exclusion Zones shall be maintained by their owners on proper regular basis, and the <term refersTo="#term-owner" id="trm213">owner</term> shall ensure that such signs are kept in a safe, neat and tidy manner.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Removal and impoundment of signs</heading>
+          <subsection id="section-9.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-9.1.list0">
+                <listIntroduction> Subject to section 5, the <term refersTo="#term-City_Manager" id="trm214">City Manager</term> shall, in relation to any sign, <term refersTo="#term-billboard" id="trm215">billboard</term>, <term refersTo="#term-advertising_structure" id="trm216">advertising structure</term> or advertisement erected, positioned, distributed or displayed in a <term refersTo="#term-Controlled_Access_Site" id="trm217">Controlled Access Site</term>, an <term refersTo="#term-Exclusion_Zone" id="trm218">Exclusion Zone</term> or on any <term refersTo="#term-public_advertising_media" id="trm219">public advertising media</term> in the areas referred to in sections 5(1)(c)(i) and (ii) be entitled to do the following: </listIntroduction>
+                <item id="section-9.1.list0.a">
+                  <num>(a)</num>
+                  <p>to direct the <term refersTo="#term-owner" id="trm220">owner</term> of a sign, <term refersTo="#term-billboard" id="trm221">billboard</term>, <term refersTo="#term-advertising_structure" id="trm222">advertising structure</term> or advertisement that wholly or partially projects over or encroaches on any boundary of a <term refersTo="#term-premises" id="trm223">premises</term>, whether public or private, by notice to remove the projecting or encroaching part or the whole of the sign immediately, provided that the provisions of this paragraph shall not apply to encroachments and projections approved by the <term refersTo="#term-City_Manager" id="trm224">City Manager</term> in terms of the By-law Relating to the Management and Administration of the City of Cape Town’s Immovable Property;</p>
+                </item>
+                <item id="section-9.1.list0.b">
+                  <num>(b)</num>
+                  <p>to serve a notice on the responsible <term refersTo="#term-person" id="trm225">person</term> to remove or cease such sign, <term refersTo="#term-billboard" id="trm226">billboard</term> or advertisement if it is displayed in contravention of the City of Cape Town: Outdoor Advertising and Signage By-law;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-9.2">
+            <num>(2)</num>
+            <content>
+              <p>In event of failure to comply with a notice to remove a sign, <term refersTo="#term-billboard" id="trm227">billboard</term>, <term refersTo="#term-advertising_structure" id="trm228">advertising structure</term> or advertisement, the City may endeavour to obtain a court order for the removal or cessation thereof.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>Principal provisions: controlled access sites</heading>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Designation of controlled access sites and exclusion zones</heading>
+          <subsection id="section-10.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-City_Manager" id="trm229">City Manager</term> may, by <term refersTo="#term-notice_in_the_press" id="trm230">notice in the press</term>, designate an area, as a <term refersTo="#term-Controlled_Access_Site" id="trm231">Controlled Access Site</term>. (2) The <term refersTo="#term-City_Manager" id="trm232">City Manager</term> may, by <term refersTo="#term-notice_in_the_press" id="trm233">notice in the press</term>, designate an area as an <term refersTo="#term-Exclusion_Zone" id="trm234">Exclusion Zone</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>General prohibition applicable to controlled access sites</heading>
+          <subsection id="section-11.subsection-0">
+            <content>
+              <blockList id="section-11.subsection-0.list0">
+                <listIntroduction> No <term refersTo="#term-person" id="trm235">person</term> shall— </listIntroduction>
+                <item id="section-11.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>smoke, eat, drink or sleep in any <term refersTo="#term-Controlled_Access_Site" id="trm236">Controlled Access Site</term> where these activities are forbidden;</p>
+                </item>
+                <item id="section-11.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>interfere with any works being carried out, including but not limited to, installation of equipment, plant or infrastructure located within or upon a <term refersTo="#term-Controlled_Access_Site" id="trm237">Controlled Access Site</term>;</p>
+                </item>
+                <item id="section-11.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>remove any object or part thereof or any fixture, fitting or equipment from a <term refersTo="#term-Controlled_Access_Site" id="trm238">Controlled Access Site</term>;</p>
+                </item>
+                <item id="section-11.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>bring any animal except guide dogs or animals assisting authorised officials in the execution of their duties into any <term refersTo="#term-Controlled_Access_Site" id="trm239">Controlled Access Site</term>;</p>
+                </item>
+                <item id="section-11.subsection-0.list0.e">
+                  <num>(e)</num>
+                  <p>use abusive or otherwise objectionable language or behave in an abusive, objectionable or disorderly manner in a <term refersTo="#term-Controlled_Access_Site" id="trm240">Controlled Access Site</term>;</p>
+                </item>
+                <item id="section-11.subsection-0.list0.f">
+                  <num>(f)</num>
+                  <p>hamper, disturb, obstruct or harass any <term refersTo="#term-person" id="trm241">person</term> using or entering any <term refersTo="#term-Controlled_Access_Site" id="trm242">Controlled Access Site</term>;</p>
+                </item>
+                <item id="section-11.subsection-0.list0.g">
+                  <num>(g)</num>
+                  <p>damage or indirectly cause damage to any part of a <term refersTo="#term-Controlled_Access_Site" id="trm243">Controlled Access Site</term> or its contents or equipment;</p>
+                </item>
+                <item id="section-11.subsection-0.list0.h">
+                  <num>(h)</num>
+                  <p>spill or drop any substance that may cause danger or harm to any user of a <term refersTo="#term-Controlled_Access_Site" id="trm244">Controlled Access Site</term>;</p>
+                </item>
+                <item id="section-11.subsection-0.list0.i">
+                  <num>(i)</num>
+                  <p>commit any act of vandalism including but not limited to painting, defacing or marking any part of any <term refersTo="#term-Controlled_Access_Site" id="trm245">Controlled Access Site</term>;</p>
+                </item>
+                <item id="section-11.subsection-0.list0.j">
+                  <num>(j)</num>
+                  <p>lie, sit, stand, congregate or walk, in a manner that otherwise causes an obstruction of any nature whatsoever, within any <term refersTo="#term-Controlled_Access_Site" id="trm246">Controlled Access Site</term>;</p>
+                </item>
+                <item id="section-11.subsection-0.list0.k">
+                  <num>(k)</num>
+                  <p>tout or solicit a driver of a motor vehicle who parks a motor vehicle at a <term refersTo="#term-Controlled_Access_Site" id="trm247">Controlled Access Site</term> for the purpose of or under pretext of looking after or watching over the motor vehicle;</p>
+                </item>
+                <item id="section-11.subsection-0.list0.l">
+                  <num>(l)</num>
+                  <p>urinate, excrete or commit an act of public indecency within any <term refersTo="#term-Controlled_Access_Site" id="trm248">Controlled Access Site</term>;</p>
+                </item>
+                <item id="section-11.subsection-0.list0.m">
+                  <num>(m)</num>
+                  <p>deposit or leave or cause to be left any object which may endanger or cause harm to or be a <term refersTo="#term-nuisance" id="trm249">nuisance</term> to any user of a <term refersTo="#term-Controlled_Access_Site" id="trm250">Controlled Access Site</term>;</p>
+                </item>
+                <item id="section-11.subsection-0.list0.n">
+                  <num>(n)</num>
+                  <p>carry, brandish or otherwise display or use within a <term refersTo="#term-Controlled_Access_Site" id="trm251">Controlled Access Site</term> any weapon, traditional weapon or any other object that may cause harm; or</p>
+                </item>
+                <item id="section-11.subsection-0.list0.o">
+                  <num>(o)</num>
+                  <p>throw any object, of any nature whatsoever, within or onto a <term refersTo="#term-Controlled_Access_Site" id="trm252">Controlled Access Site</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Exclusion zone</heading>
+          <subsection id="section-12.subsection-0">
+            <content>
+              <p>Subject to section 5, no <term refersTo="#term-person" id="trm253">person</term> shall conduct business activities on a <term refersTo="#term-match" id="trm254">match</term> day in the <term refersTo="#term-Exclusion_Zone" id="trm255">Exclusion Zone</term> except with the approval of the <term refersTo="#term-City_Manager" id="trm256">City Manager</term> granted specifically with regard to the <term refersTo="#term-Competition" id="trm257">Competition</term>, provided that this prohibition shall not apply to persons who, in respect of their normal business activities, may lawfully conduct a business located on private <term refersTo="#term-property" id="trm258">property</term> at the date of commencement of this By-law.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-4">
+        <num>4</num>
+        <heading>Principal provisions: <term refersTo="#term-public_place" id="trm259">public place</term> and city beautification</heading>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>City beautification for competition</heading>
+          <subsection id="section-13.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-City_Manager" id="trm260">City Manager</term> will appeal to all persons engaged in major construction during the <term refersTo="#term-term" id="trm261">term</term> which is visible to the public view and close to, major or concentrated transport centres or entertainment areas which will or may be used for the <term refersTo="#term-Competition" id="trm262">Competition</term>, Controlled Access Sites and the <term refersTo="#term-Exclusion_Zone" id="trm263">Exclusion Zone</term>, to take all necessary measures at their own cost to cover or conceal such construction sites from public view.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-City_Manager" id="trm264">City Manager</term> shall have the right, to request any holder of any existing licence, permit, Approval or other authorisation to undertake any major public or major private construction works at, any concentrated transport centres or entertainment areas which will or may be used for the <term refersTo="#term-Competition" id="trm265">Competition</term>, Controlled Access Sites and the <term refersTo="#term-Exclusion_Zone" id="trm266">Exclusion Zone</term> which is in progress at the start of the <term refersTo="#term-Competition" id="trm267">Competition</term>, to suspend any such construction works for the whole or any part of the <term refersTo="#term-term" id="trm268">term</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.3">
+            <num>(3)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm269">person</term> shall deface any wall, structure or building in a any street or <term refersTo="#term-public_place" id="trm270">public place</term> or visible from such street or <term refersTo="#term-public_place" id="trm271">public place</term> by writing, painting, or placing any symbols, pictures or sign thereon, during the <term refersTo="#term-Competition" id="trm272">Competition</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>General prohibition relating to public places and city beautification</heading>
+          <subsection id="section-14.subsection-0">
+            <content>
+              <blockList id="section-14.subsection-0.list0">
+                <listIntroduction> No <term refersTo="#term-person" id="trm273">person</term> shall at a <term refersTo="#term-special_event" id="trm274">special event</term>— </listIntroduction>
+                <item id="section-14.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>cause or commit a <term refersTo="#term-nuisance" id="trm275">nuisance</term>;</p>
+                </item>
+                <item id="section-14.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>use abusive or otherwise objectionable language or behave in an abusive, objectionable or disorderly manner towards any other user;</p>
+                </item>
+                <item id="section-14.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>hamper, disturb, obstruct or harass any other <term refersTo="#term-person" id="trm276">person</term>;</p>
+                </item>
+                <item id="section-14.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>damage or indirectly cause damage to any infrastructure, plant, equipment, fixtures, fittings, buildings or structures;</p>
+                </item>
+                <item id="section-14.subsection-0.list0.e">
+                  <num>(e)</num>
+                  <p>smoke, eat, drink or sleep where these activities are forbidden;</p>
+                </item>
+                <item id="section-14.subsection-0.list0.f">
+                  <num>(f)</num>
+                  <p>spill or drop any substance that may cause danger or harm to persons;</p>
+                </item>
+                <item id="section-14.subsection-0.list0.g">
+                  <num>(g)</num>
+                  <p>interfere with any works being performed or the installation of any equipment, plant or infrastructure;</p>
+                </item>
+                <item id="section-14.subsection-0.list0.h">
+                  <num>(h)</num>
+                  <p>remove or damage any object or part of any fixture, fitting, equipment, plant or infrastructure;</p>
+                </item>
+                <item id="section-14.subsection-0.list0.i">
+                  <num>(i)</num>
+                  <p>commit any act of vandalism including but not limited to painting, defacing or marking any infrastructure, plant, equipment, fixtures, fittings, buildings or structures;</p>
+                </item>
+                <item id="section-14.subsection-0.list0.j">
+                  <num>(j)</num>
+                  <p>lie, sit, stand, congregate or walk so as to cause a wilful obstruction, or otherwise cause any obstruction, of any nature whatsoever;</p>
+                </item>
+                <item id="section-14.subsection-0.list0.k">
+                  <num>(k)</num>
+                  <p>tout or solicit a driver of a motor vehicle who parks a motor vehicle for the purpose of or under pretext of looking after or watching over the motor vehicle;</p>
+                </item>
+                <item id="section-14.subsection-0.list0.l">
+                  <num>(l)</num>
+                  <p>urinate, spit or excrete except in a facility specifically designed for and provided for that purpose or otherwise commit an act of indecency;</p>
+                </item>
+                <item id="section-14.subsection-0.list0.m">
+                  <num>(m)</num>
+                  <p>beg or solicit money;</p>
+                </item>
+                <item id="section-14.subsection-0.list0.n">
+                  <num>(n)</num>
+                  <p>deposit or leave or cause to be left any object which may endanger or cause harm;</p>
+                </item>
+                <item id="section-14.subsection-0.list0.o">
+                  <num>(o)</num>
+                  <p>carry, brandish or otherwise display or use any weapon, traditional weapon or any other object that may cause harm;</p>
+                </item>
+                <item id="section-14.subsection-0.list0.p">
+                  <num>(p)</num>
+                  <p>throw any object, of any nature whatsoever;</p>
+                </item>
+                <item id="section-14.subsection-0.list0.q">
+                  <num>(q)</num>
+                  <p>enter any area to which access has been restricted or prohibited;</p>
+                </item>
+                <item id="section-14.subsection-0.list0.r">
+                  <num>(r)</num>
+                  <p>bathe, wade or swim in or wash himself, an animal or any object, including clothing, in any water or body;</p>
+                </item>
+                <item id="section-14.subsection-0.list0.s">
+                  <num>(s)</num>
+                  <p>make, light or otherwise start a fire except in a facility specifically designed for and provided for that purpose;</p>
+                </item>
+                <item id="section-14.subsection-0.list0.t">
+                  <num>(t)</num>
+                  <p>camp or reside; and</p>
+                </item>
+                <item id="section-14.subsection-0.list0.u">
+                  <num>(u)</num>
+                  <p>perform any action prohibited in terms of any notice or sign erected by the City.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Access restriction</heading>
+          <subsection id="section-15.subsection-0">
+            <content>
+              <blockList id="section-15.subsection-0.list0">
+                <listIntroduction> The <term refersTo="#term-City_Manager" id="trm277">City Manager</term> may restrict the general access to and use of any public open space in order to— </listIntroduction>
+                <item id="section-15.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>protect a public open space;</p>
+                </item>
+                <item id="section-15.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>reduce vandalism or the destruction of City <term refersTo="#term-property" id="trm278">property</term> at any public open space;</p>
+                </item>
+                <item id="section-15.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>develop or undertake any activity which it reasonably considers necessary or appropriate to achieve the purposes of this By-law in preparation for the <term refersTo="#term-Competition" id="trm279">Competition</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Waste</heading>
+          <subsection id="section-16.subsection-0">
+            <content>
+              <blockList id="section-16.subsection-0.list0">
+                <listIntroduction> No <term refersTo="#term-person" id="trm280">person</term> shall in a public open space— </listIntroduction>
+                <item id="section-16.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>deposit, dump, discard or dispose of any <term refersTo="#term-waste" id="trm281">waste</term>, other than in a receptacle provided by the City for that purpose; or</p>
+                </item>
+                <item id="section-16.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>deposit or dispose of any <term refersTo="#term-waste" id="trm282">waste</term> or pollute in a manner which may detrimentally impact on any water body.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Vehicles</heading>
+          <subsection id="section-17.subsection-0">
+            <content>
+              <blockList id="section-17.subsection-0.list0">
+                <listIntroduction> No <term refersTo="#term-person" id="trm283">person</term> shall in a public open pace— </listIntroduction>
+                <item id="section-17.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>except at times specified and on roads or pathways provided by the <term refersTo="#term-City_Manager" id="trm284">City Manager</term>, drive, draw or propel any vehicle other than a bicycle or a vehicular device used by a <term refersTo="#term-person" id="trm285">person</term> with disability;</p>
+                </item>
+                <item id="section-17.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>drive, draw or propel any vehicle of whatsoever nature in excess of 40 (forty) kilometres per hour; or</p>
+                </item>
+                <item id="section-17.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>park any vehicle of whatsoever nature, except in designated area or other area where parking is otherwise permitted by the <term refersTo="#term-City_Manager" id="trm286">City Manager</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Vegetation and animals</heading>
+          <subsection id="section-18.subsection-0">
+            <content>
+              <blockList id="section-18.subsection-0.list0">
+                <listIntroduction> No <term refersTo="#term-person" id="trm287">person</term> shall without the express authorisation of the <term refersTo="#term-City_Manager" id="trm288">City Manager</term>, within a public open space— </listIntroduction>
+                <item id="section-18.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>disturb, damage, destroy or remove any tree, shrub or other vegetation;</p>
+                </item>
+                <item id="section-18.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>affix, place, arrange or create any advertisement of whatever nature anywhere within a public open space;</p>
+                </item>
+                <item id="section-18.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>plant any vegetation;</p>
+                </item>
+                <item id="section-18.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>alter the slope or drainage pattern so as to interfere with the access of water, air or nutrients to any tree or other plant;</p>
+                </item>
+                <item id="section-18.subsection-0.list0.e">
+                  <num>(e)</num>
+                  <p>capture or attempt to capture, chase, shoot at, injure, throw objects at, tease, molest or in any other way disturb any animal, fish, or bird or its nest or egg;</p>
+                </item>
+                <item id="section-18.subsection-0.list0.f">
+                  <num>(f)</num>
+                  <blockList id="section-18.subsection-0.list0.f.list0">
+                    <listIntroduction>ride a horse, except—</listIntroduction>
+                    <item id="section-18.subsection-0.list0.f.list0.i">
+                      <num>(i)</num>
+                      <p>in an area designated by the <term refersTo="#term-City_Manager" id="trm289">City Manager</term> for that purpose; and</p>
+                    </item>
+                    <item id="section-18.subsection-0.list0.f.list0.ii">
+                      <num>(ii)</num>
+                      <p>a <term refersTo="#term-person" id="trm290">person</term> who in the performance of his or her official duties, patrols such public open spaces on horseback;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-18.subsection-0.list0.g">
+                  <num>(g)</num>
+                  <p>walk, carry, ride or bring an animal other than a horse or dog provided that the presence of such horse or dog is not prohibited within such public open space;</p>
+                </item>
+                <item id="section-18.subsection-0.list0.h">
+                  <num>(h)</num>
+                  <blockList id="section-18.subsection-0.list0.h.list1">
+                    <listIntroduction>walk any dog where—</listIntroduction>
+                    <item id="section-18.subsection-0.list0.h.list1.i">
+                      <num>(i)</num>
+                      <p>walking a dog in such a public open space is prohibited by the <term refersTo="#term-City_Manager" id="trm291">City Manager</term> by notice or sign; or</p>
+                    </item>
+                    <item id="section-18.subsection-0.list0.h.list1.ii">
+                      <num>(ii)</num>
+                      <p>such dog, while walking within a public open space is not at all times under the control of a <term refersTo="#term-person" id="trm292">person</term> walking such dog.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-19">
+          <num>19.</num>
+          <heading>Use of public open spaces</heading>
+          <subsection id="section-19.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-19.1.list0">
+                <listIntroduction> No <term refersTo="#term-person" id="trm293">person</term> shall, within a public open space— </listIntroduction>
+                <item id="section-19.1.list0.a">
+                  <num>(a)</num>
+                  <p>use the public open space in a way that unfairly restricts or prevents other users of the public open space from enjoying that public open space; or</p>
+                </item>
+                <item id="section-19.1.list0.b">
+                  <num>(b)</num>
+                  <p>except within a public open space or part thereof, which has been let to a <term refersTo="#term-person" id="trm294">person</term> by the <term refersTo="#term-City_Manager" id="trm295">City Manager</term> for that purpose, sell, hawk, offer or display any <term refersTo="#term-goods" id="trm296">goods</term> or articles for sale or hire;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-19.2">
+            <num>(2)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm297">person</term> may undertake any event or a <term refersTo="#term-special_event" id="trm298">special event</term> which will or may be used for the purposes of the <term refersTo="#term-Competition" id="trm299">Competition</term> unless specifically authorised by the <term refersTo="#term-City_Manager" id="trm300">City Manager</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-5">
+        <num>5</num>
+        <heading>Principal provisions: public roads and traffic guidance</heading>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>General prohibition in respect of public roads</heading>
+          <subsection id="section-20.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-20.1.list0">
+                <listIntroduction> No <term refersTo="#term-person" id="trm301">person</term> shall during the <term refersTo="#term-Competition" id="trm302">Competition</term>— </listIntroduction>
+                <item id="section-20.1.list0.a">
+                  <num>(a)</num>
+                  <p>erect or cause, or permit to be erected, or place any object including any banner, rope, wire, cord, pole, barbed-wire fence, railing, paling, wall or any other barrier or obstruction of any nature whatsoever upon, under, over or across any <term refersTo="#term-public_road" id="trm303">public road</term> without the approval of the <term refersTo="#term-City_Manager" id="trm304">City Manager</term>, provided that the prohibition shall not apply to the South African Police Services or the Metro Police in execution of their duties;</p>
+                </item>
+                <item id="section-20.1.list0.b">
+                  <num>(b)</num>
+                  <p>use any material or <term refersTo="#term-goods" id="trm305">goods</term> that are likely to cause any damage or harm to any part of a <term refersTo="#term-public_road" id="trm306">public road</term> or to harm any of its users including but not limited to pedestrians, cyclists, motorcyclists and motorists;</p>
+                </item>
+                <item id="section-20.1.list0.c">
+                  <num>(c)</num>
+                  <p>spill or drop any substance on or over or across a <term refersTo="#term-public_road" id="trm307">public road</term> including but not limited to discharging any water, chemical or oil substance, that may in any way endanger or harm any road users including but not limited to pedestrians, cyclists, motorcyclists and motorists;</p>
+                </item>
+                <item id="section-20.1.list0.d">
+                  <num>(d)</num>
+                  <p>interfere with any works being carried out by the City or any authorised service provider or third party on a <term refersTo="#term-public_road" id="trm308">public road</term> or in relation to any City services including digging holes, trenches, pits or tunnels on or under any <term refersTo="#term-public_road" id="trm309">public road</term>; or painting, defacing or marking any <term refersTo="#term-public_road" id="trm310">public road</term>;</p>
+                </item>
+                <item id="section-20.1.list0.e">
+                  <num>(e)</num>
+                  <p>commit any act of vandalism including but not limited to painting, defacing or marking any part of a <term refersTo="#term-public_road" id="trm311">public road</term>;</p>
+                </item>
+                <item id="section-20.1.list0.f">
+                  <num>(f)</num>
+                  <p>hamper, disturb, obstruct or harass any <term refersTo="#term-public_road" id="trm312">public road</term> user including but not limited to any pedestrian, cyclist, motorcyclist or motorist using or entering any <term refersTo="#term-public_road" id="trm313">public road</term>;</p>
+                </item>
+                <item id="section-20.1.list0.g">
+                  <num>(g)</num>
+                  <p>cause any animal to stray or walk onto a <term refersTo="#term-public_road" id="trm314">public road</term>, excluding guide dogs and animals assisting an authorised official in law enforcement duties;</p>
+                </item>
+                <item id="section-20.1.list0.h">
+                  <num>(h)</num>
+                  <p>tout or solicit a driver of a motor vehicle who parks a motor vehicle in a <term refersTo="#term-public_road" id="trm315">public road</term> at or near a place of entertainment for the purpose of or under pretext of looking after or watching over the motor vehicle;</p>
+                </item>
+                <item id="section-20.1.list0.i">
+                  <num>(i)</num>
+                  <p>urinate, excrete or behave in a manner that may be considered an act of public indecency on a <term refersTo="#term-public_road" id="trm316">public road</term> or within any <term refersTo="#term-Controlled_Access_Site" id="trm317">Controlled Access Site</term>;</p>
+                </item>
+                <item id="section-20.1.list0.j">
+                  <num>(j)</num>
+                  <p>beg on a <term refersTo="#term-public_road" id="trm318">public road</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-20.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-20.2.list3">
+                <listIntroduction> No <term refersTo="#term-person" id="trm319">person</term> shall during the <term refersTo="#term-Competition" id="trm320">Competition</term>, except with the approval of the <term refersTo="#term-City_Manager" id="trm321">City Manager</term>— </listIntroduction>
+                <item id="section-20.2.list3.a">
+                  <num>(a)</num>
+                  <p>push or otherwise convey any trolley on a <term refersTo="#term-public_road" id="trm322">public road</term> within an <term refersTo="#term-Exclusion_Zone" id="trm323">Exclusion Zone</term> or at a <term refersTo="#term-Controlled_Access_Site" id="trm324">Controlled Access Site</term>;</p>
+                </item>
+                <item id="section-20.2.list3.b">
+                  <num>(b)</num>
+                  <p>deposit or leave or cause to be left any sand, stone, earth, bricks, timber, lime, cement or other building or excavated material of whatsoever nature on any portion of a <term refersTo="#term-public_road" id="trm325">public road</term>; or</p>
+                </item>
+                <item id="section-20.2.list3.c">
+                  <num>(c)</num>
+                  <p>park or leave any vehicle of any nature whatsoever including but not limited to any car, bus, minivan, truck, bicycle, pedal-cycle, coaster, sled, motor cycle, caravan, trailer, cart, tractor or earth moving equipment, whether or not unattended, on any <term refersTo="#term-public_road" id="trm326">public road</term> other than in a <term refersTo="#term-demarcated_space" id="trm327">demarcated space</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-21">
+          <num>21.</num>
+          <heading>General prohibitions in respect of road traffic control</heading>
+          <subsection id="section-21.1">
+            <num>(1)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm328">person</term>, other than an authorised official, shall direct any form of traffic by means of any visible or audible signal.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.2">
+            <num>(2)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm329">person</term> may drive or park a vehicle or in a <term refersTo="#term-traffic-free_zone" id="trm330">traffic-free zone</term> unless a token authorising the presence of the vehicle in that <term refersTo="#term-traffic-free_zone" id="trm331">traffic-free zone</term> has been validly issued and obtained and is visibly displayed on the vehicle.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.3">
+            <num>(3)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm332">person</term> travelling upon any pedal cycle, motor cycle, coaster, sled, roller-skates, or any other similar device may cling to or attach himself or herself or such pedal cycle, coaster, sled, roller-skates or device to any other moving vehicle, upon a <term refersTo="#term-public_road" id="trm333">public road</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.4">
+            <num>(4)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm334">person</term> shall except with the approval of the <term refersTo="#term-City_Manager" id="trm335">City Manager</term>, park or cause to be parked any vehicle of whatsoever nature in a <term refersTo="#term-demarcated_space" id="trm336">demarcated space</term> without paying, where applicable, the appropriate amount or inserting the appropriate token or card in the applicable parking meter for the required parking period.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-22">
+          <num>22.</num>
+          <heading>General prohibitions in respect of parking</heading>
+          <subsection id="section-22.subsection-0">
+            <content>
+              <blockList id="section-22.subsection-0.list1">
+                <listIntroduction>  The <term refersTo="#term-City_Manager" id="trm337">City Manager</term> shall be entitled to restrict public access to demarcated spaces and other parking areas in or around a <term refersTo="#term-stadium" id="trm338">stadium</term> or other <term refersTo="#term-Controlled_Access_Site" id="trm339">Controlled Access Site</term> on <term refersTo="#term-match" id="trm340">match</term> days or on the occurrence of <term refersTo="#term-official_events" id="trm341">official events</term>, and in this regard shall be entitled to— </listIntroduction>
+                <item id="section-22.subsection-0.list1.a">
+                  <num>(a)</num>
+                  <blockList id="section-22.subsection-0.list1.a.list0">
+                    <listIntroduction>restrict the right to use certain demarcated spaces and other parking areas inside the <term refersTo="#term-stadium" id="trm342">stadium</term> and immediately outside the entrances thereof, to the following persons—</listIntroduction>
+                    <item id="section-22.subsection-0.list1.a.list0.i">
+                      <num>(i)</num>
+                      <p>VIPs;</p>
+                    </item>
+                    <item id="section-22.subsection-0.list1.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>teams; and</p>
+                    </item>
+                    <item id="section-22.subsection-0.list1.a.list0.iii">
+                      <num>(iii)</num>
+                      <p><term refersTo="#term-match" id="trm343">match</term> officials, including referees;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-22.subsection-0.list1.b">
+                  <num>(b)</num>
+                  <blockList id="section-22.subsection-0.list1.b.list1">
+                    <listIntroduction>restrict the right to use certain demarcated spaces and other parking areas inside the <term refersTo="#term-stadium" id="trm344">stadium</term> as close as possible to the <term refersTo="#term-stadium" id="trm345">stadium</term> building, and where required for service providers, to the following persons:</listIntroduction>
+                    <item id="section-22.subsection-0.list1.b.list1.i">
+                      <num>(i)</num>
+                      <p>the <term refersTo="#term-FIFA" id="trm346">FIFA</term> delegation;</p>
+                    </item>
+                    <item id="section-22.subsection-0.list1.b.list1.ii">
+                      <num>(ii)</num>
+                      <p>members of the <term refersTo="#term-LOC" id="trm347">LOC</term> delegation;</p>
+                    </item>
+                    <item id="section-22.subsection-0.list1.b.list1.iii">
+                      <num>(iii)</num>
+                      <p>commercial affiliates;</p>
+                    </item>
+                    <item id="section-22.subsection-0.list1.b.list1.iv">
+                      <num>(iv)</num>
+                      <p><term refersTo="#term-broadcast_rights_holders" id="trm348">broadcast rights holders</term>;</p>
+                    </item>
+                    <item id="section-22.subsection-0.list1.b.list1.v">
+                      <num>(v)</num>
+                      <p><term refersTo="#term-FIFA" id="trm349">FIFA</term> guests; and</p>
+                    </item>
+                    <item id="section-22.subsection-0.list1.b.list1.vi">
+                      <num>(vi)</num>
+                      <p>service providers;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-22.subsection-0.list1.c">
+                  <num>(c)</num>
+                  <p>restrict the right to use certain demarcated spaces and other parking areas inside the <term refersTo="#term-stadium" id="trm350">stadium</term> to representatives of the <term refersTo="#term-media" id="trm351">media</term> and the <term refersTo="#term-media" id="trm352">media</term> shuttle service.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-23">
+          <num>23.</num>
+          <heading>Instructions by authorised officials</heading>
+          <subsection id="section-23.subsection-0">
+            <content>
+              <blockList id="section-23.subsection-0.list1">
+                <listIntroduction>  An authorised official may, for purposes of implementing or giving effect to the <term refersTo="#term-safety_and_security_plan" id="trm353">safety and security plan</term> where the circumstances necessitate, and in the interests of ensuring or promoting traffic control or safety on a <term refersTo="#term-match" id="trm354">match</term> day - </listIntroduction>
+                <item id="section-23.subsection-0.list1.a">
+                  <num>(a)</num>
+                  <p>instruct any <term refersTo="#term-person" id="trm355">person</term> to refrain from using a <term refersTo="#term-public_road" id="trm356">public road</term>; and</p>
+                </item>
+                <item id="section-23.subsection-0.list1.b">
+                  <num>(b)</num>
+                  <p>instruct any <term refersTo="#term-person" id="trm357">person</term> to remove his or her vehicle whether parked, stationary or in transit, from a <term refersTo="#term-public_road" id="trm358">public road</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-24">
+          <num>24.</num>
+          <heading>Road closure action by city manager</heading>
+          <subsection id="section-24.subsection-0">
+            <content>
+              <p>The <term refersTo="#term-City_Manager" id="trm359">City Manager</term> may, after giving appropriate notices in the press, close temporarily any <term refersTo="#term-public_road" id="trm360">public road</term>, street or thoroughfare vested in the City for purposes of traffic control, management or guidance or for purposes of implementing or giving effect to the <term refersTo="#term-safety_and_security_plan" id="trm361">safety and security plan</term> whether or not in the vicinity of any <term refersTo="#term-stadium" id="trm362">stadium</term>, official event, <term refersTo="#term-FIFA_fan_park" id="trm363">FIFA fan park</term>, <term refersTo="#term-official_training_site" id="trm364">official training site</term>, <term refersTo="#term-Exclusion_Zone" id="trm365">Exclusion Zone</term> or <term refersTo="#term-Controlled_Access_Site" id="trm366">Controlled Access Site</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-6">
+        <num>6</num>
+        <heading>Principal provisions: <term refersTo="#term-street_trading" id="trm367">street trading</term></heading>
+        <section id="section-25">
+          <num>25.</num>
+          <heading>Approval for <term refersTo="#term-street_trading" id="trm368">street trading</term></heading>
+          <subsection id="section-25.subsection-0">
+            <content>
+              <p>For the purposes of this Chapter approval shall mean approval in terms of by-laws adopted by the City in terms of the Businesses Act, 1991 (Act No. 71 of 1991), or any legislation or law replacing such by-law or legislation.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-26">
+          <num>26.</num>
+          <heading>Conduct of street traders in general and during the course of trading</heading>
+          <subsection id="section-26.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-26.1.list0">
+                <listIntroduction> A <term refersTo="#term-street_trader" id="trm369">street trader</term> shall not, for the <term refersTo="#term-term" id="trm370">term</term>— </listIntroduction>
+                <item id="section-26.1.list0.a">
+                  <num>(a)</num>
+                  <p>occupy any part of a <term refersTo="#term-public_place" id="trm371">public place</term> with his or her <term refersTo="#term-property" id="trm372">property</term> or <term refersTo="#term-goods" id="trm373">goods</term>, except to the extent approved by the <term refersTo="#term-City_Manager" id="trm374">City Manager</term>;</p>
+                </item>
+                <item id="section-26.1.list0.b">
+                  <num>(b)</num>
+                  <p>on conclusion of his or her daily business activities, leave any or all of his or her <term refersTo="#term-property" id="trm375">property</term> and <term refersTo="#term-goods" id="trm376">goods</term> in <term refersTo="#term-public_place" id="trm377">public place</term>;</p>
+                </item>
+                <item id="section-26.1.list0.c">
+                  <num>(c)</num>
+                  <p>place his or her <term refersTo="#term-property" id="trm378">property</term> or <term refersTo="#term-goods" id="trm379">goods</term> on a <term refersTo="#term-public_place" id="trm380">public place</term> except for the purposes of setting up a stand prior to commencing trade or for the purposes of conducting <term refersTo="#term-street_trading" id="trm381">street trading</term>;</p>
+                </item>
+                <item id="section-26.1.list0.d">
+                  <num>(d)</num>
+                  <p>place or stack his or her <term refersTo="#term-property" id="trm382">property</term> and <term refersTo="#term-goods" id="trm383">goods</term> in such a manner that they do or may constitute a <term refersTo="#term-nuisance" id="trm384">nuisance</term> or danger to any <term refersTo="#term-person" id="trm385">person</term> or <term refersTo="#term-property" id="trm386">property</term>, or are likely to injure any <term refersTo="#term-person" id="trm387">person</term> or cause damage to <term refersTo="#term-property" id="trm388">property</term>;</p>
+                </item>
+                <item id="section-26.1.list0.e">
+                  <num>(e)</num>
+                  <p>attach any object by any means to any <term refersTo="#term-public_place" id="trm389">public place</term>, <term refersTo="#term-verge" id="trm390">verge</term>, tree, parking meter, lamp-pole, electricity pole, telephone pole, telephone booth, post box, traffic sign, bench or any other <term refersTo="#term-street_furniture" id="trm391">street furniture</term> in or on a <term refersTo="#term-public_place" id="trm392">public place</term>;</p>
+                </item>
+                <item id="section-26.1.list0.f">
+                  <num>(f)</num>
+                  <p>make a fire in any place or in circumstances where it could cause injury or loss to a <term refersTo="#term-person" id="trm393">person</term>, building, vehicle, or <term refersTo="#term-street_furniture" id="trm394">street furniture</term>, unless authorized to prepare foodstuffs by utilizing open-flame fire or gas-fired implements;</p>
+                </item>
+                <item id="section-26.1.list0.g">
+                  <num>(g)</num>
+                  <p>stay overnight at the place of his or her <term refersTo="#term-street_trading" id="trm395">street trading</term> business;</p>
+                </item>
+                <item id="section-26.1.list0.h">
+                  <num>(h)</num>
+                  <p>erect any structure for the purpose of providing shelter at the place of his or her <term refersTo="#term-street_trading" id="trm396">street trading</term> business except to the extent approved by the <term refersTo="#term-City_Manager" id="trm397">City Manager</term>;</p>
+                </item>
+                <item id="section-26.1.list0.i">
+                  <num>(i)</num>
+                  <p>interfere with the ability of a <term refersTo="#term-person" id="trm398">person</term> using a <term refersTo="#term-verge" id="trm399">verge</term> to view the <term refersTo="#term-goods" id="trm400">goods</term> displayed behind a shop display window, or obscure such <term refersTo="#term-goods" id="trm401">goods</term> from view;</p>
+                </item>
+                <item id="section-26.1.list0.j">
+                  <num>(j)</num>
+                  <p>carry on business, or take up a position, or place his or her <term refersTo="#term-property" id="trm402">property</term> on a portion of a <term refersTo="#term-public_place" id="trm403">public place</term>, in contravention of a sign or notice erected or displayed by the <term refersTo="#term-City_Manager" id="trm404">City Manager</term> for the purpose of this By-law;</p>
+                </item>
+                <item id="section-26.1.list0.k">
+                  <num>(k)</num>
+                  <p>store his or her <term refersTo="#term-property" id="trm405">property</term> or <term refersTo="#term-goods" id="trm406">goods</term> in a manhole, storm water drain or a public toilet, bus or taxi shelter or under a publicly accessible tree;</p>
+                </item>
+                <item id="section-26.1.list0.l">
+                  <num>(l)</num>
+                  <blockList id="section-26.1.list0.l.list0">
+                    <listIntroduction>carry on <term refersTo="#term-street_trading" id="trm407">street trading</term> in such a manner as to—</listIntroduction>
+                    <item id="section-26.1.list0.l.list0.i">
+                      <num>(i)</num>
+                      <p>create a <term refersTo="#term-nuisance" id="trm408">nuisance</term>;</p>
+                    </item>
+                    <item id="section-26.1.list0.l.list0.ii">
+                      <num>(ii)</num>
+                      <p>damage or deface the surface of a <term refersTo="#term-public_place" id="trm409">public place</term> or any public or private <term refersTo="#term-property" id="trm410">property</term>;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-26.1.list0.m">
+                  <num>(m)</num>
+                  <p>create a traffic obstruction or obstruct access to pedestrian crossings, parking or loading bays or other facilities for vehicular traffic or pedestrians ignore, disobey or refuse a request by an authorised official to remove his or her <term refersTo="#term-property" id="trm411">property</term> and <term refersTo="#term-goods" id="trm412">goods</term> so as to permit the carrying out of any work or service in relation to a <term refersTo="#term-public_place" id="trm413">public place</term>;</p>
+                </item>
+                <item id="section-26.1.list0.n">
+                  <num>(n)</num>
+                  <p>display his or her <term refersTo="#term-goods" id="trm414">goods</term> or <term refersTo="#term-property" id="trm415">property</term> on or in a <term refersTo="#term-public_place" id="trm416">public place</term> except with the approval of the <term refersTo="#term-City_Manager" id="trm417">City Manager</term>; or</p>
+                </item>
+                <item id="section-26.1.list0.o">
+                  <num>(o)</num>
+                  <p>trade in foodstuffs without a valid certificate of acceptability issued in terms of the Regulations Governing General Hygiene Requirements for Food Premises and the Transport of Food (GNR.918 of 30 July 1999).</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-26.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-street_trader" id="trm418">street trader</term> shall ensure that when liquefied petroleum gas is used during its activities of <term refersTo="#term-street_trading" id="trm419">street trading</term> that it shall comply with appropriate standards and requirements applicable in the use of such gas.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-27">
+          <num>27.</num>
+          <heading>Conduct of a <term refersTo="#term-street_trader" id="trm420">street trader</term> with regard to ensuring place of trading is kept clean</heading>
+          <subsection id="section-27.subsection-0">
+            <content>
+              <blockList id="section-27.subsection-0.list0">
+                <listIntroduction> A <term refersTo="#term-street_trader" id="trm421">street trader</term> shall, for the <term refersTo="#term-term" id="trm422">term</term>— </listIntroduction>
+                <item id="section-27.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>dispose of <term refersTo="#term-litter" id="trm423">litter</term> generated by his or her business in whatever receptacle is provided or approved by the <term refersTo="#term-City_Manager" id="trm424">City Manager</term> for the public or at a dumping site of the City;</p>
+                </item>
+                <item id="section-27.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>not dispose of <term refersTo="#term-litter" id="trm425">litter</term> in a manhole, storm water drain or other place not intended for the disposal of <term refersTo="#term-litter" id="trm426">litter</term>;</p>
+                </item>
+                <item id="section-27.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>on request by an authorised official, move his or her <term refersTo="#term-property" id="trm427">property</term> and <term refersTo="#term-goods" id="trm428">goods</term> so as to permit the cleansing of the area or site where he or she is trading, or the effecting of municipal services or for any other lawful reason;</p>
+                </item>
+                <item id="section-27.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>ensure that no smoke, fumes or other substance causes <term refersTo="#term-air_pollution" id="trm429">air pollution</term>;</p>
+                </item>
+                <item id="section-27.subsection-0.list0.e">
+                  <num>(e)</num>
+                  <p>ensure that no odour, or noise emanating from his or her activities causes a <term refersTo="#term-nuisance" id="trm430">nuisance</term> of any kind;</p>
+                </item>
+                <item id="section-27.subsection-0.list0.f">
+                  <num>(f)</num>
+                  <p>keep the area or site occupied by him or her for the purposes of such business in a clean and sanitary condition;</p>
+                </item>
+                <item id="section-27.subsection-0.list0.g">
+                  <num>(g)</num>
+                  <p>keep his or her <term refersTo="#term-property" id="trm431">property</term> in a clean, sanitary and well maintained condition;</p>
+                </item>
+                <item id="section-27.subsection-0.list0.h">
+                  <num>(h)</num>
+                  <p>to the satisfaction of the <term refersTo="#term-City_Manager" id="trm432">City Manager</term>, take such precautions in the course of conducting his or her business as may be necessary to prevent the spilling onto a <term refersTo="#term-public_place" id="trm433">public place</term>, or into a storm water drain, of any fat, oil or grease or any other substance that may be harmful to the general public and users of the <term refersTo="#term-public_place" id="trm434">public place</term>; and</p>
+                </item>
+                <item id="section-27.subsection-0.list0.i">
+                  <num>(i)</num>
+                  <p>ensure that on conclusion of his or her business for the day, the area or site occupied by him or her for the purposes of trade is free of <term refersTo="#term-litter" id="trm435">litter</term> and must do so within the parameters of certain prescribed specific periods of time.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-28">
+          <num>28.</num>
+          <heading>Regulation of <term refersTo="#term-street_trading" id="trm436">street trading</term></heading>
+          <subsection id="section-28.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-28.1.list0">
+                <listIntroduction> No <term refersTo="#term-person" id="trm437">person</term> shall, except with the prior approval of the <term refersTo="#term-City_Manager" id="trm438">City Manager</term> granted specifically with regard to the <term refersTo="#term-Competition" id="trm439">Competition</term>— </listIntroduction>
+                <item id="section-28.1.list0.a">
+                  <num>(a)</num>
+                  <p>carry on the business of <term refersTo="#term-street_trading" id="trm440">street trading</term> at any <term refersTo="#term-Controlled_Access_Site" id="trm441">Controlled Access Site</term> or <term refersTo="#term-Exclusion_Zone" id="trm442">Exclusion Zone</term> during the <term refersTo="#term-term" id="trm443">term</term>;</p>
+                </item>
+                <item id="section-28.1.list0.b">
+                  <num>(b)</num>
+                  <p>carry on the business of <term refersTo="#term-street_trading" id="trm444">street trading</term> in a <term refersTo="#term-restricted_area" id="trm445">restricted area</term>;</p>
+                </item>
+                <item id="section-28.1.list0.c">
+                  <num>(c)</num>
+                  <p>carry on the business of <term refersTo="#term-street_trading" id="trm446">street trading</term> in a garden or park to which the public has a right of access.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-28.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-28.2.list0">
+                <listIntroduction>No <term refersTo="#term-person" id="trm447">person</term> shall carry on the business of <term refersTo="#term-street_trading" id="trm448">street trading</term>—</listIntroduction>
+                <item id="section-28.2.list0.a">
+                  <num>(a)</num>
+                  <p>in a <term refersTo="#term-prohibited_area" id="trm449">prohibited area</term>;</p>
+                </item>
+                <item id="section-28.2.list0.b">
+                  <num>(b)</num>
+                  <p>on a <term refersTo="#term-verge" id="trm450">verge</term> contiguous to an auto teller bank machine;</p>
+                </item>
+                <item id="section-28.2.list0.c">
+                  <num>(c)</num>
+                  <blockList id="section-28.2.list0.c.list0">
+                    <listIntroduction>on a <term refersTo="#term-verge" id="trm451">verge</term> contiguous to—</listIntroduction>
+                    <item id="section-28.2.list0.c.list0.i">
+                      <num>(i)</num>
+                      <p>a building declared to be a heritage resource in terms of the National Heritage Resources Act, 1999 (Act No. 25 of 1999), except where special permission has been granted in terms of the same legislation;</p>
+                    </item>
+                    <item id="section-28.2.list0.c.list0.ii">
+                      <num>(ii)</num>
+                      <p>a building belonging to or occupied solely by the state or the City;</p>
+                    </item>
+                    <item id="section-28.2.list0.c.list0.iii">
+                      <num>(iii)</num>
+                      <p>a church or other place of worship;</p>
+                    </item>
+                    <item id="section-28.2.list0.c.list0.iv">
+                      <num>(iv)</num>
+                      <p>a <term refersTo="#term-public_place" id="trm452">public place</term>, except to the extent that the carrying on of such business is permitted by a sign erected or displayed by the <term refersTo="#term-City_Manager" id="trm453">City Manager</term> and in compliance therewith;</p>
+                    </item>
+                    <item id="section-28.2.list0.c.list0.v">
+                      <num>(v)</num>
+                      <blockList id="section-28.2.list0.c.list0.v.list0">
+                        <listIntroduction>at a place where—</listIntroduction>
+                        <item id="section-28.2.list0.c.list0.v.list0.aa">
+                          <num>(aa)</num>
+                          <p>it causes obstruction of the entrance or exit from a building; and (bb) it causes an obstruction of a fire hydrant or other municipal service;</p>
+                        </item>
+                      </blockList>
+                    </item>
+                    <item id="section-28.2.list0.c.list0.vi">
+                      <num>(vi)</num>
+                      <p>on that half of a <term refersTo="#term-public_road" id="trm454">public road</term> contiguous to a building used for residential purposes if the <term refersTo="#term-owner" id="trm455">owner</term> or <term refersTo="#term-person" id="trm456">person</term> in control or any occupier of the building objects to it;</p>
+                    </item>
+                    <item id="section-28.2.list0.c.list0.vii">
+                      <num>(vii)</num>
+                      <p>on that half of a <term refersTo="#term-public_road" id="trm457">public road</term> contiguous to a shop or that part of a building in which business is being carried on by a <term refersTo="#term-person" id="trm458">person</term> who sells <term refersTo="#term-goods" id="trm459">goods</term> of the same nature as, or of a similar nature to, <term refersTo="#term-goods" id="trm460">goods</term> being sold by the <term refersTo="#term-street_trader" id="trm461">street trader</term> if that <term refersTo="#term-person" id="trm462">person</term> objects to it;</p>
+                    </item>
+                    <item id="section-28.2.list0.c.list0.viii">
+                      <num>(viii)</num>
+                      <p>on a stand or in any area demarcated by <term refersTo="#term-City_Manager" id="trm463">City Manager</term> in terms of section 6A(3)(b) of the Businesses Act, 1991 ( Act No. 71 of 1991), if he or she is not in possession of written proof that he or she has rented such stand or area from the City or that such stand has been allocated to him; nor shall he or she trade in contravention of the terms and conditions of such lease, permit or allocation; and</p>
+                    </item>
+                    <item id="section-28.2.list0.c.list0.ix">
+                      <num>(ix)</num>
+                      <p>within a reasonable distance from any <term refersTo="#term-Controlled_Access_Site" id="trm464">Controlled Access Site</term>, such distance as determined by the <term refersTo="#term-City_Manager" id="trm465">City Manager</term>.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-29">
+          <num>29.</num>
+          <heading>Restricted and prohibited trading areas</heading>
+          <subsection id="section-29.subsection-0">
+            <content>
+              <p>The City may identify and demarcate restricted areas or prohibited areas in accordance with the Businesses Act, 1991(Act No. 71 of 1991), or any by-law regulating informal trading.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-30">
+          <num>30.</num>
+          <heading>Prohibition on persons under the age of sixteen</heading>
+          <subsection id="section-30.1">
+            <num>(1)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm466">person</term> under the age of sixteen years shall engage in the business of <term refersTo="#term-street_trading" id="trm467">street trading</term> in or near a <term refersTo="#term-public_place" id="trm468">public place</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.2">
+            <num>(2)</num>
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm469">person</term> who or which employs or engages or requests a <term refersTo="#term-person" id="trm470">person</term> referred to in subsection (1) to conduct the business of <term refersTo="#term-street_trading" id="trm471">street trading</term> or to assist therewith shall be guilty of an offence.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-7">
+        <num>7</num>
+        <heading>Miscellaneous provisions</heading>
+        <section id="section-31">
+          <num>31.</num>
+          <heading>Powers of entry to request and inspect approvals</heading>
+          <subsection id="section-31.1">
+            <num>(1)</num>
+            <content>
+              <p>An authorised official shall be entitled to request or inspect any approval granted in terms of this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-31.2">
+            <num>(2)</num>
+            <content>
+              <p>Failure to furnish such approval by the <term refersTo="#term-owner" id="trm472">owner</term> or other holder thereof shall constitute an offence under these By-laws.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-32">
+          <num>32.</num>
+          <heading>Access rights and restrictions on controlled access sites</heading>
+          <subsection id="section-32.1">
+            <num>(1)</num>
+            <content>
+              <p>The right of access to and use of a <term refersTo="#term-Controlled_Access_Site" id="trm473">Controlled Access Site</term> shall be regulated through <term refersTo="#term-accreditation" id="trm474">accreditation</term> and ticketing.</p>
+            </content>
+          </subsection>
+          <subsection id="section-32.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-32.2.list1">
+                <listIntroduction> Depending on the nature of the <term refersTo="#term-Controlled_Access_Site" id="trm475">Controlled Access Site</term> and the nature of the event being held at such <term refersTo="#term-Controlled_Access_Site" id="trm476">Controlled Access Site</term>, no <term refersTo="#term-person" id="trm477">person</term> other than— </listIntroduction>
+                <item id="section-32.2.list1.a">
+                  <num>(a)</num>
+                  <p>an accredited <term refersTo="#term-person" id="trm478">person</term>;</p>
+                </item>
+                <item id="section-32.2.list1.b">
+                  <num>(b)</num>
+                  <p>a <term refersTo="#term-ticket_holder" id="trm479">ticket holder</term>; or</p>
+                </item>
+                <item id="section-32.2.list1.c">
+                  <num>(c)</num>
+                  <p>any other <term refersTo="#term-person" id="trm480">person</term> duly authorised or permitted to enter a <term refersTo="#term-Controlled_Access_Site" id="trm481">Controlled Access Site</term>, shall be permitted access to a <term refersTo="#term-Controlled_Access_Site" id="trm482">Controlled Access Site</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-33">
+          <num>33.</num>
+          <heading>Instructions by authorised officials in respect of public open spaces</heading>
+          <subsection id="section-33.subsection-0">
+            <content>
+              <blockList id="section-33.subsection-0.list0">
+                <listIntroduction> An authorised official may instruct any <term refersTo="#term-person" id="trm483">person</term> to leave a public open space if— </listIntroduction>
+                <item id="section-33.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>the authorised official reasonably believes that the <term refersTo="#term-person" id="trm484">person</term> is contravening any provision of this By-law; and</p>
+                </item>
+                <item id="section-33.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>such <term refersTo="#term-person" id="trm485">person</term> fails to immediately terminate such contravention upon the instruction of that authorised official.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-34">
+          <num>34.</num>
+          <heading>Search and seizure powers of the city on public roads and in respect of contraventions on <term refersTo="#term-street_trading" id="trm486">street trading</term></heading>
+          <subsection id="section-34.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-34.1.list0">
+                <listIntroduction> Subject to section 5, an authorised official may in terms of the Criminal Procedure Act, 1977(Act No. 51 of 1977) and subject to any other applicable legislation, search, remove or impound any <term refersTo="#term-goods" id="trm487">goods</term>, <term refersTo="#term-property" id="trm488">property</term>, container, structure, materials, substance, shelter, tent vehicle of any nature whatsoever, whether or not unattended, which— </listIntroduction>
+                <item id="section-34.1.list0.a">
+                  <num>(a)</num>
+                  <p>he or she reasonably suspects of being used or are intended to be used or have already been used in or in connection with the business of <term refersTo="#term-street_trading" id="trm489">street trading</term> or a contravention of this By-law;</p>
+                </item>
+                <item id="section-34.1.list0.b">
+                  <num>(b)</num>
+                  <p>is left or parked at any unauthorised parking area;</p>
+                </item>
+                <item id="section-34.1.list0.c">
+                  <num>(c)</num>
+                  <p>he or she finds in park or on a <term refersTo="#term-public_place" id="trm490">public place</term> and which in their opinion constitutes an infringement of this By-law, whether or not such <term refersTo="#term-goods" id="trm491">goods</term>, <term refersTo="#term-property" id="trm492">property</term>, container, structure, materials, substance, shelter, tent or vehicle which is in the possession of or under the control of any <term refersTo="#term-person" id="trm493">person</term> at the time of such impoundment or removal.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-34.2">
+            <num>(2)</num>
+            <content>
+              <p>An authorised official shall issue a receipt from an approved receipt book to the <term refersTo="#term-person" id="trm494">person</term> who appears to be in control of the <term refersTo="#term-goods" id="trm495">goods</term>, <term refersTo="#term-property" id="trm496">property</term>, structure, materials, substance, container, shelter, tent or vehicle concerned.</p>
+            </content>
+          </subsection>
+          <subsection id="section-34.3">
+            <num>(3)</num>
+            <content>
+              <p>Any <term refersTo="#term-goods" id="trm497">goods</term>, <term refersTo="#term-property" id="trm498">property</term> container, structure, materials, substance, shelter, tent or vehicle as contemplated in subsection (1) shall be marked in a suitable manner and kept in safe custody.</p>
+            </content>
+          </subsection>
+          <subsection id="section-34.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-street_trader" id="trm499">street trader</term> whose <term refersTo="#term-goods" id="trm500">goods</term>, <term refersTo="#term-property" id="trm501">property</term>, container, structure, material, substance, shelter or tent is impounded in terms of this By-law shall, before such <term refersTo="#term-goods" id="trm502">goods</term>, <term refersTo="#term-property" id="trm503">property</term>, materials, substance, container, shelter, tent or vehicle is returned to him or her pay to the City the storage costs as determined by <term refersTo="#term-City_Manager" id="trm504">City Manager</term> from time to time.</p>
+            </content>
+          </subsection>
+          <subsection id="section-34.5">
+            <num>(5)</num>
+            <content>
+              <p>The <term refersTo="#term-owner" id="trm505">owner</term> thereof may claim any impounded <term refersTo="#term-goods" id="trm506">goods</term>, <term refersTo="#term-property" id="trm507">property</term>, container, structure, materials, substance, shelter, tent or vehicle, on production of proof of ownership to the satisfaction of the <term refersTo="#term-City_Manager" id="trm508">City Manager</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-34.6">
+            <num>(6)</num>
+            <content>
+              <p>Any <term refersTo="#term-goods" id="trm509">goods</term>, <term refersTo="#term-property" id="trm510">property</term>, structure, materials, substance, container, shelter, tent or vehicle which has not been claimed within a period of three months from the date of impoundment, may be destroyed if of no commercial value, or sold by public auction and the proceeds thereof shall be retained by the City to defray its costs and expenses with regard to the contravention, impoundment and storage.</p>
+            </content>
+          </subsection>
+          <subsection id="section-34.7">
+            <num>(7)</num>
+            <content>
+              <p>The City shall not be liable for compensation to any <term refersTo="#term-person" id="trm511">person</term> for damages arising out of the damage to or the loss of any <term refersTo="#term-goods" id="trm512">goods</term>, <term refersTo="#term-property" id="trm513">property</term>, container, structure, materials, substance, shelter, tent or vehicle removed in terms of subsection (1) or sale thereof by public auction, and the <term refersTo="#term-owner" id="trm514">owner</term> of such <term refersTo="#term-goods" id="trm515">goods</term>, <term refersTo="#term-property" id="trm516">property</term>, materials, substance, container, tent or vehicle shall have no claim or right of redress against the City, should such <term refersTo="#term-goods" id="trm517">goods</term>, <term refersTo="#term-property" id="trm518">property</term>, materials, substance, container, tent or vehicle be handed over in good faith to a <term refersTo="#term-person" id="trm519">person</term> other than the <term refersTo="#term-owner" id="trm520">owner</term> thereof.</p>
+            </content>
+          </subsection>
+          <subsection id="section-34.8">
+            <num>(8)</num>
+            <content>
+              <p>Any <term refersTo="#term-goods" id="trm521">goods</term> of a perishable nature will only be kept for 24 hours from impoundment and will be disposed of at the discretion of the <term refersTo="#term-City_Manager" id="trm522">City Manager</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-35">
+          <num>35.</num>
+          <heading>Right to make representations</heading>
+          <subsection id="section-35.subsection-0">
+            <content>
+              <blockList id="section-35.subsection-0.list0">
+                <listIntroduction> Notices referred to in sections 9(1) (a) and (b), and 10(1) and (2) must— </listIntroduction>
+                <item id="section-35.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>state the date on which compliance is required;</p>
+                </item>
+                <item id="section-35.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>afford the persons affected by such notice an opportunity to make representations not later than a date specified in the notice; and</p>
+                </item>
+                <item id="section-35.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>the date of commencement of the notice.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-36">
+          <num>36.</num>
+          <heading>Offences and penalties</heading>
+          <subsection id="section-36.subsection-0">
+            <content>
+              <blockList id="section-36.subsection-0.list0">
+                <listIntroduction> Any <term refersTo="#term-person" id="trm523">person</term> who— </listIntroduction>
+                <item id="section-36.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>contravenes or fails to comply with any provision of this By-law;</p>
+                </item>
+                <item id="section-36.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>does, or causes to be done, or permits or suffers to be done, or is concerned in doing, anything whatsoever contrary to or otherwise than as provided by this Bylaw; or</p>
+                </item>
+                <item id="section-36.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>omits, or neglects to do, or permits or suffers to remain undone, anything which according to the true intent and meaning of this Bylaw ought to be done at the time and in the manner therein provided; or</p>
+                </item>
+                <item id="section-36.subsection-0.list0.d">
+                  <num>(d)</num>
+                  <p>knowingly permits or allows any condition of things to exist or continue to exist contrary to this Bylaw; or</p>
+                </item>
+                <item id="section-36.subsection-0.list0.e">
+                  <num>(e)</num>
+                  <p>does not cease any action which that <term refersTo="#term-person" id="trm524">person</term> is required to cease under this Bylaw; or</p>
+                </item>
+                <item id="section-36.subsection-0.list0.f">
+                  <num>(f)</num>
+                  <p>fails or refuses, neglects to comply or continuously fails, refuses, neglects to comply even after notices of breach or lawful institutions have been issued in terms of this By-law; or</p>
+                </item>
+                <item id="section-36.subsection-0.list0.g">
+                  <num>(g)</num>
+                  <p>fails to comply with any notice, direction or conditions contained in any licence granted by the <term refersTo="#term-City_Manager" id="trm525">City Manager</term>; or</p>
+                </item>
+                <item id="section-36.subsection-0.list0.h">
+                  <num>(h)</num>
+                  <p>obstructs an authorised official in the execution or performance or attempted execution or performance of any duty to be discharged by such authorised official in the exercise of any power conferred by this By-law, is guilty of an offence and liable on conviction to a fine not exceeding Ten Thousand Rand (R10 000, 00) or in default of payment to imprisonment for a period not exceeding six (6) months, or both, and in the case of a continuing offence, to a further fine, or in default of payment to a further period of imprisonment, for every day during the continuance of such offence after a written notice has been issued by the <term refersTo="#term-City_Manager" id="trm526">City Manager</term> and served on the <term refersTo="#term-person" id="trm527">person</term> concerned requiring the discontinuance of such offence.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-37">
+          <num>37.</num>
+          <heading>Delegations</heading>
+          <subsection id="section-37.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-City_Manager" id="trm528">City Manager</term> may delegate any of his or her powers and duties in terms of this By-law to any official of the City.</p>
+            </content>
+          </subsection>
+          <subsection id="section-37.2">
+            <num>(2)</num>
+            <content>
+              <p>Any reference to the <term refersTo="#term-City_Manager" id="trm529">City Manager</term> in this By-law shall be construed as reference to the official so delegated.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-8">
+        <num>8</num>
+        <heading>Final provisions</heading>
+        <section id="section-38">
+          <num>38.</num>
+          <heading>Short title</heading>
+          <subsection id="section-38.subsection-0">
+            <content>
+              <p>This By-law is called the City of Cape Town: 2010 <term refersTo="#term-FIFA" id="trm530">FIFA</term> World Cup South Africa By-law, and shall operate for the <term refersTo="#term-term" id="trm531">term</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+    </body>
+  </act>
+  <components>
+    <component id="component-1">
+      <doc name="schedules">
+        <meta>
+          <identification source="#openbylaws">
+            <FRBRWork>
+              <FRBRthis value="/za-cpt/act/by-law/2009/2010-fifa-world-cup/schedules"/>
+              <FRBRuri value="/za-cpt/act/by-law/2009/2010-fifa-world-cup"/>
+              <FRBRalias value="Schedules"/>
+              <FRBRdate date="2009-01-16" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-cpt/act/by-law/2009/2010-fifa-world-cup/eng@2009-01-16/schedules"/>
+              <FRBRuri value="/za-cpt/act/by-law/2009/2010-fifa-world-cup/eng@2009-01-16"/>
+              <FRBRdate date="2009-01-16" name="Generation"/>
+              <FRBRauthor href="#council" as="#author"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-cpt/act/by-law/2009/2010-fifa-world-cup/eng@2009-01-16/schedules"/>
+              <FRBRuri value="/za-cpt/act/by-law/2009/2010-fifa-world-cup/eng@2009-01-16"/>
+              <FRBRdate date="2013-10-04" name="Generation"/>
+              <FRBRauthor href="#openbylaws" as="#author"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedules">
+            <section id="schedule-0.section-0">
+              <heading>Term</heading>
+              <content>
+                <blockList id="schedule-0.section-0.list0">
+                  <item id="schedule-0.section-0.list0.1">
+                    <num>1.</num>
+                    <p>Final Draw — 13 November 2009 to 12 December 2009; and</p>
+                  </item>
+                  <item id="schedule-0.section-0.list0.2">
+                    <num>2.</num>
+                    <p>World Cup — 21 April 2010 to 19 July 2010.</p>
+                  </item>
+                </blockList>
+              </content>
+            </section>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>

@@ -1,0 +1,1111 @@
+<akomaNtoso xmlns="http://www.akomantoso.org/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-eth/act/by-law/2015/property-rates/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2015/property-rates"/>
+          <FRBRalias value="Property Rates By-law, 2015"/>
+          <FRBRdate date="2015-08-27" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-eth/act/by-law/2015/property-rates/eng@2015-08-27/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2015/property-rates/eng@2015-08-27"/>
+          <FRBRdate date="2015-08-27" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-eth/act/by-law/2015/property-rates/eng@2015-08-27/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2015/property-rates/eng@2015-08-27"/>
+          <FRBRdate date="2016-02-27" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-08-27" name="KwaZulu-Natal Provincial Gazette" showAs="KwaZulu-Natal Provincial Gazette" number="1481"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+      </references>
+    </meta>
+    <preface>
+      <p>To provide for the levying and recovery of rates on rateable property within the Municipality's area of jurisdiction; to provide for the repeal of laws and savings; and to provide for matters incidental thereto.</p>
+    </preface>
+    <preamble>
+      <p>WHEREAS the Municipality is entitled in terms of section 229 of the Constitution, read with section 2 of the Municipal Property Rates Act, to levy a rate on property within its area of jurisdiction;</p>
+      <p>WHEREAS the Municipality is required in terms of section 7 of the Municipal Property Rates Act, when levying rates, to levy rates on all rateable property within its area of jurisdiction;</p>
+      <p>WHEREAS the Council has, in terms of section 3(1) of the Municipal Property Rates Act, adopted the eThekwini Rates Policy which is consistent with the Municipal Property Rates Act on the levying of rates on rateable property in the Municipality;</p>
+      <p>AND WHEREAS the Municipality is required in terms of section 6(1) of the Municipal Property Rates Act to adopt By-laws to give effect to the implementation of its Rates Policy;</p>
+      <p>NOW THEREFORE the Council, acting in terms of section 156 read with Part B of Schedules 4 and 5 of the Constitution, and read with section 11 of the Systems Act, hereby makes the following By-law to give effect to the implementation of its Rates Policy:</p>
+    </preamble>
+    <body>
+      <chapter id="chapter-1">
+        <num>1</num>
+        <heading>Interpretation</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <subsection id="section-1.subsection-0">
+            <content>
+              <p>In this By-law, unless the context indicates otherwise –</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-1">
+            <content>
+              <p>"account" means written notification in the form of a statement of account addressed to a person liable for payment thereof;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-2">
+            <content>
+              <blockList id="section-1.subsection-2.list2">
+                <listIntroduction>"building" means any building or erection of an immovable nature for whatever purpose used including any tank, swimming pool, radio mast other than a radio mast consisting of a single vertical pole, retainer block system, wall or closed boarded fence more than 2 (two) meters in height and includes any –</listIntroduction>
+                <item id="section-1.subsection-2.list2.a">
+                  <num>(a)</num>
+                  <blockList id="section-1.subsection-2.list2.a.list0">
+                    <listIntroduction>further structure, whether of a temporary or permanent nature and irrespective of the material used in the erection thereof, erected or used for or in connection with the –</listIntroduction>
+                    <item id="section-1.subsection-2.list2.a.list0.i">
+                      <num>(i)</num>
+                      <p>accommodation or convenience of humans or animals; or</p>
+                    </item>
+                    <item id="section-1.subsection-2.list2.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>manufacture, processing, storage, display or sale of goods;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-1.subsection-2.list2.b">
+                  <num>(b)</num>
+                  <p>reservoir or bridge or any other structure connected therewith;</p>
+                </item>
+                <item id="section-1.subsection-2.list2.c">
+                  <num>(c)</num>
+                  <p>petrol pump or any flammable liquids storage tank used in connection therewith;</p>
+                </item>
+                <item id="section-1.subsection-2.list2.d">
+                  <num>(d)</num>
+                  <p>part of a building, including a building as defined in paragraph (a), (b) or (c);</p>
+                </item>
+                <item id="section-1.subsection-2.list2.e">
+                  <num>(e)</num>
+                  <p>consumer installation; or</p>
+                </item>
+                <item id="section-1.subsection-2.list2.f">
+                  <num>(f)</num>
+                  <p>hut, shack, tent or similar structure or any other form of temporary or permanent dwelling or shelter,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-3">
+            <content>
+              <blockList id="section-1.subsection-3.list3">
+                <listIntroduction>but excludes any –</listIntroduction>
+                <item id="section-1.subsection-3.list3.i">
+                  <num>(i)</num>
+                  <p>open fence;</p>
+                </item>
+                <item id="section-1.subsection-3.list3.ii">
+                  <num>(ii)</num>
+                  <p>post;</p>
+                </item>
+                <item id="section-1.subsection-3.list3.iii">
+                  <num>(iii)</num>
+                  <p>building pier;</p>
+                </item>
+                <item id="section-1.subsection-3.list3.iv">
+                  <num>(iv)</num>
+                  <p>ramp;</p>
+                </item>
+                <item id="section-1.subsection-3.list3.v">
+                  <num>(v)</num>
+                  <p>fountain;</p>
+                </item>
+                <item id="section-1.subsection-3.list3.vi">
+                  <num>(vi)</num>
+                  <p>statue;</p>
+                </item>
+                <item id="section-1.subsection-3.list3.vii">
+                  <num>(vii)</num>
+                  <p>fish pond;</p>
+                </item>
+                <item id="section-1.subsection-3.list3.viii">
+                  <num>(viii)</num>
+                  <p>pergola; or</p>
+                </item>
+                <item id="section-1.subsection-3.list3.ix">
+                  <num>(ix)</num>
+                  <p>other garden ornamentation;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-4">
+            <content>
+              <p>"building pier" means any solid support designed to sustain vertical pressure;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-5">
+            <content>
+              <p>"calendar month" means the first day of a named month to the last day of the same named month, including weekends and public holidays;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-6">
+            <content>
+              <p>"category" in relation to property, means a category of property determined in terms of section 8 of the Municipal Property Rates Act;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-7">
+            <content>
+              <blockList id="section-1.subsection-7.list7">
+                <listIntroduction>"collection charges" means the charges which the Municipality is entitled to recover in terms of section 75A(1) of the Systems Act, and includes the administrative cost –</listIntroduction>
+                <item id="section-1.subsection-7.list7.a">
+                  <num>(a)</num>
+                  <p>of reminding any ratepayer or customer of arrears;</p>
+                </item>
+                <item id="section-1.subsection-7.list7.b">
+                  <num>(b)</num>
+                  <p>for the termination, restriction or reinstatement of any municipal service to a defaulting ratepayer or customer; and</p>
+                </item>
+                <item id="section-1.subsection-7.list7.c">
+                  <num>(c)</num>
+                  <p>of any notice rendered, sent, delivered or published to a ratepayer or customer in terms of this By-law or any other law;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-8">
+            <content>
+              <p>"Chief Financial Officer" means a person employed by the Municipality in terms of section 57 of the Systems Act as its Chief Financial Officer, and includes any person to whom the Chief Financial Officer has delegated or sub-delegated a power, function or duty in accordance with the system of delegation developed by the Municipal Manager in terms of section 79 of the Municipal Finance Management Act;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-9">
+            <content>
+              <p>"Commissioner of Oaths" means a "Commissioner of Oaths" in terms of the Justices of the Peace and Commissioners of Oaths Act, 1963 (Act No. 16 of 1963);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-10">
+            <content>
+              <p>"Constitution" means the Constitution of the Republic of South Africa, 1996;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-11">
+            <content>
+              <blockList id="section-1.subsection-11.list11">
+                <listIntroduction>"co-owners" means –</listIntroduction>
+                <item id="section-1.subsection-11.list11.a">
+                  <num>(a)</num>
+                  <p>any two or more persons who hold any property, whether jointly, in undivided shares or in any form of communal land tenure;</p>
+                </item>
+                <item id="section-1.subsection-11.list11.b">
+                  <num>(b)</num>
+                  <p>any beneficial owners of any trust property vested in any non-beneficial owners;</p>
+                </item>
+                <item id="section-1.subsection-11.list11.c">
+                  <num>(c)</num>
+                  <p>any member of any association of persons or other legal entity the object of which association is the acquisition or holding of any property; or</p>
+                </item>
+                <item id="section-1.subsection-11.list11.d">
+                  <num>(d)</num>
+                  <p>the owners of any property subject to a sectional plan;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-12">
+            <content>
+              <p>"Council" means the eThekwini Municipal Council, a municipal council referred to in section 157(1) of the Constitution, and “Municipal Council” has a corresponding meaning;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-13">
+            <content>
+              <p>"Head of department" means the person appointed by the Municipality as Head of the Real Estate Department;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-14">
+            <content>
+              <blockList id="section-1.subsection-14.list14">
+                <listIntroduction>"land" means any piece of land the external surface boundaries of which are delineated on a –</listIntroduction>
+                <item id="section-1.subsection-14.list14.a">
+                  <num>(a)</num>
+                  <p>general plan or diagram registered in terms of the Land Survey Act, 1997 (Act No. 8 of 1997) or the Deeds Registries Act, 1937 (Act No. 47 of 1937);</p>
+                </item>
+                <item id="section-1.subsection-14.list14.b">
+                  <num>(b)</num>
+                  <p>sectional plan registered in terms of the Sectional Titles Act, 1986 (Act No. 95 of 1986); or</p>
+                </item>
+                <item id="section-1.subsection-14.list14.c">
+                  <num>(c)</num>
+                  <p>township plan, or</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-15">
+            <content>
+              <p>a portion of such land which is not so delineated, and includes any such land covered by water and the airspace above such land, and “premises” has a corresponding meaning;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-16">
+            <content>
+              <p>"Municipal Finance Management Act" means the Local Government: Municipal Finance Management Act, 2003 (Act No. 56 of 2003);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-17">
+            <content>
+              <p>"Municipality" means the eThekwini municipality, a category A municipality as envisaged in terms of section 155(1) of the Constitution and established in terms of PN343 of 2000 (KZN);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-18">
+            <content>
+              <p>"Municipal Property Rates Act" means the Local Government: Municipal Property Rates Act, 2004 (Act No. 6 of 2004);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-19">
+            <content>
+              <p>"Municipal Manager" means a person appointed in terms of section 54A of the Municipal Systems Act as the head of administration of the municipal council;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-20">
+            <content>
+              <blockList id="section-1.subsection-20.list20">
+                <listIntroduction>"municipal service" means a service provided by the Municipality in terms of its powers and functions to or for the benefit of the local community, irrespective of whether or not –</listIntroduction>
+                <item id="section-1.subsection-20.list20.a">
+                  <num>(a)</num>
+                  <p>such service is provided by the Municipality itself or by engaging an external mechanism contemplated in section 76 of the Systems Act; or</p>
+                </item>
+                <item id="section-1.subsection-20.list20.b">
+                  <num>(b)</num>
+                  <p>any fees, charges or tariffs are levied in respect thereof;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-21">
+            <content>
+              <p>"municipal valuer" means a person designated by the Municipality as a municipal valuer in terms of section 33(1) of the Municipal Property Rates Act;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-22">
+            <content>
+              <p>"occupier" means any person who occupies any premises or part thereof, without regard to the title under which such person occupies the premises concerned, and “possessor” in relation to land, premises or property has a corresponding meaning;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-23">
+            <content>
+              <blockList id="section-1.subsection-23.list23">
+                <listIntroduction>"owner" in relation to –</listIntroduction>
+                <item id="section-1.subsection-23.list23.a">
+                  <num>(a)</num>
+                  <p>a property referred to in paragraph (a) of the definition of “property”, means a person in whose name ownership of the property is registered;</p>
+                </item>
+                <item id="section-1.subsection-23.list23.b">
+                  <num>(b)</num>
+                  <p>a right referred to in paragraph (b) of the definition of “property”, means a person in whose name the right is registered;</p>
+                </item>
+                <item id="section-1.subsection-23.list23.c">
+                  <num>(c)</num>
+                  <p>a land tenure right referred to in paragraph (c) of the definition of “property”, means a person in whose name the right is registered;</p>
+                </item>
+                <item id="section-1.subsection-23.list23.d">
+                  <num>(d)</num>
+                  <p>public service infrastructure referred to in paragraph (d) of the definition of “property”, means the organ of state which owns or controls that public service infrastructure as envisaged in the definition of “publicly controlled”;</p>
+                </item>
+                <item id="section-1.subsection-23.list23.e">
+                  <num>(e)</num>
+                  <p>a time sharing interest contemplated in the Property Time-sharing Control Act, 1983 (Act No. 75 of 1983), means the management association contemplated in the regulations made in terms of section 12 of the Property Time-sharing Control Act, 1983, and published in Government Notice R327 of 24 February 1984;</p>
+                </item>
+                <item id="section-1.subsection-23.list23.f">
+                  <num>(f)</num>
+                  <p>a share in a share block company, means the share block company as defined in the Share Blocks Control Act, 1980 (Act No. 59 of 1980); and</p>
+                </item>
+                <item id="section-1.subsection-23.list23.g">
+                  <num>(g)</num>
+                  <p>in relation to buildings, other immovable structures and infrastructure referred to in section 17(1)(f) of the Municipal Property Rates Act, means the holder of the mining right or the mining permit,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-24">
+            <content>
+              <blockList id="section-1.subsection-24.list24">
+                <listIntroduction>and includes a person whom the Municipality may for the purpose of this By-law regard as the owner of a property in the following cases:</listIntroduction>
+                <item id="section-1.subsection-24.list24.i">
+                  <num>(i)</num>
+                  <p>a trustee, in the case of property in a trust, excluding state trust land;</p>
+                </item>
+                <item id="section-1.subsection-24.list24.ii">
+                  <num>(ii)</num>
+                  <p>an executor or administrator, in the case of a property in a deceased estate;</p>
+                </item>
+                <item id="section-1.subsection-24.list24.iii">
+                  <num>(iii)</num>
+                  <p>a trustee or liquidator, in the case of a property in an insolvent estate or the owner of which is in liquidation;</p>
+                </item>
+                <item id="section-1.subsection-24.list24.iv">
+                  <num>(iv)</num>
+                  <p>a judicial manager, in the case of a property in the estate of a person under judicial management;</p>
+                </item>
+                <item id="section-1.subsection-24.list24.v">
+                  <num>(v)</num>
+                  <p>a curator, in the case of a person in the estate of a person under curatorship;</p>
+                </item>
+                <item id="section-1.subsection-24.list24.vi">
+                  <num>(vi)</num>
+                  <p>a person in whose favour a usufruct or other personal servitude is registered, in the case of property that is subject to a usufruct or other personal servitude;</p>
+                </item>
+                <item id="section-1.subsection-24.list24.vii">
+                  <num>(vii)</num>
+                  <p>a lessee, in the case of a property that is registered in the name of the Municipality and is let by it to such lessee;</p>
+                </item>
+                <item id="section-1.subsection-24.list24.viii">
+                  <num>(viii)</num>
+                  <p>a buyer, in the case of a property that was sold by the Municipality and of which possession was given to the buyer pending registration of ownership in the name of the buyer;</p>
+                </item>
+                <item id="section-1.subsection-24.list24.ix">
+                  <num>(ix)</num>
+                  <p>a child or children in charge of the property in the case of child-headed households;</p>
+                </item>
+                <item id="section-1.subsection-24.list24.x">
+                  <num>(x)</num>
+                  <p>any land the use of which is vested in the Provincial or the National Government of the Republic of South Africa;</p>
+                </item>
+                <item id="section-1.subsection-24.list24.xi">
+                  <num>(xi)</num>
+                  <p>any developer who is allowed by the Municipality to develop municipal owned land once such developer has taken possession of the land concerned;</p>
+                </item>
+                <item id="section-1.subsection-24.list24.xii">
+                  <num>(xii)</num>
+                  <p>any underlying or actual landowner in the case of registered right, on election by the Municipality;</p>
+                </item>
+                <item id="section-1.subsection-24.list24.xiii">
+                  <num>(xiii)</num>
+                  <p>where the property was previously governed by the Black Estates Act, and the estate has not yet been finalised, the occupants of the property concerned but only for the purposes of municipal accounts in respect of rates and service charges; and</p>
+                </item>
+                <item id="section-1.subsection-24.list24.xiv">
+                  <num>(xiv)</num>
+                  <p>a lessee, in the case of property to which a land tenure right applies and which is leased by the holder of such right;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-25">
+            <content>
+              <p>"person" means a natural or juristic person, including an organ of state;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-26">
+            <content>
+              <blockList id="section-1.subsection-26.list26">
+                <listIntroduction>"property" means –</listIntroduction>
+                <item id="section-1.subsection-26.list26.a">
+                  <num>(a)</num>
+                  <p>immovable property registered in the name of a person, including, in the case of a sectional title scheme, a sectional title unit registered in the name of a person;</p>
+                </item>
+                <item id="section-1.subsection-26.list26.b">
+                  <num>(b)</num>
+                  <p>a right registered against immovable property in the name of a person;</p>
+                </item>
+                <item id="section-1.subsection-26.list26.c">
+                  <num>(c)</num>
+                  <p>a land tenure right registered in the name of a person or granted to a person in terms of legislation;</p>
+                </item>
+                <item id="section-1.subsection-26.list26.d">
+                  <num>(d)</num>
+                  <p>public service infrastructure; or</p>
+                </item>
+                <item id="section-1.subsection-26.list26.e">
+                  <num>(e)</num>
+                  <p>any immovable property or a portion thereof of which a person has taken occupation or possession without title: Provided that this in no way infers the granting of permission or the regularisation by the Municipality for the illegal occupation of land or property by any person;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-27">
+            <content>
+              <p>"public holiday" means a public holiday as defined in section 1 of the Public Holidays Act, 1994 (Act No. 36 of 1994);</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-28">
+            <content>
+              <p>"public service infrastructure" means publicly controlled infrastructure as defined in section 1 of the Municipal Property Rates Act, excluding any infrastructure which is used for an activity of a commercial or industrial nature;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-29">
+            <content>
+              <blockList id="section-1.subsection-29.list29">
+                <listIntroduction>"publicly controlled" means owned by or otherwise under the control of an organ of state, including a –</listIntroduction>
+                <item id="section-1.subsection-29.list29.a">
+                  <num>(a)</num>
+                  <p>public entity listed in the Public Finance Management Act, 1999 (Act No. 1 of 1999);</p>
+                </item>
+                <item id="section-1.subsection-29.list29.b">
+                  <num>(b)</num>
+                  <p>municipality; or</p>
+                </item>
+                <item id="section-1.subsection-29.list29.c">
+                  <num>(c)</num>
+                  <p>municipal entity as defined in the Systems Act;</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-30">
+            <content>
+              <p>"rate randage" means an amount in the rand levied by the Municipality on rateable property within a specified category;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-31">
+            <content>
+              <p>"rates" means a municipal rate on property envisaged in section 229(1)(a) of the Constitution and levied by the Municipality in terms of the Municipal Property Rates Act;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-32">
+            <content>
+              <p>"Rates Policy" means the Rates Policy adopted by the Council in terms of section 3 of the Municipal Property Rates Act, as amended from time to time;</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-33">
+            <content>
+              <p>"Systems Act" means the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000); and</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.subsection-34">
+            <content>
+              <p>"valuation roll" means a valuation roll contemplated in Chapter 6 of the Municipal Property Rates Act, and “roll” has a corresponding meaning.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Interpretation of By-law</heading>
+          <subsection id="section-2.1">
+            <num>(1)</num>
+            <content>
+              <p>If there is a conflict of interpretation between the English version of this By-law and a translated version, the English version prevails.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.2">
+            <num>(2)</num>
+            <content>
+              <p>This By-law must be read in conjunction with the Rates Policy.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Objects of By-law</heading>
+          <subsection id="section-3.subsection-0">
+            <content>
+              <blockList id="section-3.subsection-0.list0">
+                <listIntroduction>The objects of this By-law are to –</listIntroduction>
+                <item id="section-3.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>give effect to the implementation of the Municipality's Rates Policy in compliance with the provisions of section 6 of the Municipal Property Rates Act;</p>
+                </item>
+                <item id="section-3.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>provide for the levying and recovery of rates by the Municipality; and</p>
+                </item>
+                <item id="section-3.subsection-0.list0.c">
+                  <num>(c)</num>
+                  <p>provide for matters incidental thereto.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Application of By-law</heading>
+          <subsection id="section-4.subsection-0">
+            <content>
+              <p>This By-law applies in respect of all property in the Municipality's area of jurisdiction.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-2">
+        <num>2</num>
+        <heading>Levying of rates</heading>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Power to levy rates</heading>
+          <subsection id="section-5.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-5.1.list0">
+                <listIntroduction>The Council may, by resolution supported by a majority of its members, exercise the right of the Municipality to levy a rate on property in its area of jurisdiction under section 229 of the Constitution in accordance with –</listIntroduction>
+                <item id="section-5.1.list0.a">
+                  <num>(a)</num>
+                  <p>the Rates Policy;</p>
+                </item>
+                <item id="section-5.1.list0.b">
+                  <num>(b)</num>
+                  <p>this By-law;</p>
+                </item>
+                <item id="section-5.1.list0.c">
+                  <num>(c)</num>
+                  <p>the Municipal Property Rates Act;</p>
+                </item>
+                <item id="section-5.1.list0.d">
+                  <num>(d)</num>
+                  <p>the provisions of Chapter 4 of the Municipal Finance Management Act; and</p>
+                </item>
+                <item id="section-5.1.list0.e">
+                  <num>(e)</num>
+                  <p>any other applicable law.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-5.2">
+            <num>(2)</num>
+            <content>
+              <p>When levying rates, the Municipality must levy rates on all rateable property in its area of jurisdiction, subject to section 7(2)(a) of the Municipal Property Rates Act.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.3">
+            <num>(3)</num>
+            <content>
+              <p>A rate levied by the Municipality on rateable property must be in the form of a rate randage on the market value of the property, with the exception of privileged property where the rate must be levied in accordance with the provisions of section 11(1)(b) or (c) of the Municipal Property Rates Act, as the case may be.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.4">
+            <num>(4)</num>
+            <content>
+              <p>Where a resolution for the levying of rates and the imposition of other taxes, levies and duties is adopted by the Council, the Municipality must, without delay, publish the resolution concerned in the manner prescribed under section 14 of the Municipal Property Rates Act, read with section 21A of the Systems Act.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Differential rates</heading>
+          <subsection id="section-6.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-6.1.list0">
+                <listIntroduction>Subject to section 19 of the Municipal Property Rates Act, the Municipality may, in terms of the criteria set out in the Rates Policy, levy different rates for different categories of rateable property, which may include but are not limited to categories determined according to the –</listIntroduction>
+                <item id="section-6.1.list0.a">
+                  <num>(a)</num>
+                  <p>use of the property;</p>
+                </item>
+                <item id="section-6.1.list0.b">
+                  <num>(b)</num>
+                  <p>permitted use of the property; or</p>
+                </item>
+                <item id="section-6.1.list0.c">
+                  <num>(c)</num>
+                  <p>a combination of (a) and (b)</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-6.2">
+            <num>(2)</num>
+            <content>
+              <p>The different rate randages on different categories of rateable property must not be applied in such a manner that they constitute unfair discrimination or become inconsistent with the provisions of section 16(1) of the Municipal Property Rates Act.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.3">
+            <num>(3)</num>
+            <content>
+              <p>The Municipality may in terms of criteria set out in the Rates Policy grant exemptions, rebates or reductions on rates: Provided that such exemptions, rebates or reductions may not be inconsistent with the provisions of section 16(1) of the Municipal Property Rates Act or constitute unfair discrimination.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.4">
+            <num>(4)</num>
+            <content>
+              <p>A property used for multiple purposes must, for rates purposes, be assigned to a category determined by the Municipality for its dominant use as defined in the Rates Policy.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Special rating areas</heading>
+          <subsection id="section-7.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-7.1.list0">
+                <listIntroduction>Subject to due compliance with the provisions of the Municipal Property Rates Act and the Rates Policy, the Municipality may, by resolution of the Council, enter into an agreement with any person or group of persons on such terms and conditions as the Municipality may deem appropriate, to –</listIntroduction>
+                <item id="section-7.1.list0.a">
+                  <num>(a)</num>
+                  <p>determine an area within the Municipality as a special rating area, subject to the Municipality being satisfied that the terms and conditions of the resultant agreement are acceptable to the general body of ratepayers in the area concerned;</p>
+                </item>
+                <item id="section-7.1.list0.b">
+                  <num>(b)</num>
+                  <p>levy by way of a percentage surcharge an additional rate on property in that area for the purpose of raising funds exclusively for improving or upgrading that area; and</p>
+                </item>
+                <item id="section-7.1.list0.c">
+                  <num>(c)</num>
+                  <p>differentiate between categories of properties when levying an additional rate referred to in sub-paragraph (b).</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-7.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-7.2.list1">
+                <listIntroduction>When the Council designates an area a special rating area, the Municipality must –</listIntroduction>
+                <item id="section-7.2.list1.a">
+                  <num>(a)</num>
+                  <p>indicate the works to be effected or the municipal services to be carried out in such special rating area; and</p>
+                </item>
+                <item id="section-7.2.list1.b">
+                  <num>(b)</num>
+                  <p>establish a separate accounting and other record-keeping system with respect to the works to be effected or the municipal services to be carried out in the special rating area concerned.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Register of properties</heading>
+          <subsection id="section-8.1">
+            <num>(1)</num>
+            <content>
+              <p>The register of properties drawn and maintained by the Municipality in terms of section 23 of the Municipal Property Rates Act serves the purpose of a valuation roll as contemplated in Chapter 6 of the Municipal Property Rates Act.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.2">
+            <num>(2)</num>
+            <content>
+              <p>The register must be available for public inspection during office hours at the address supplied by the Municipality for that purpose, and must also be displayed on the official website of the Municipality.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.3">
+            <num>(3)</num>
+            <content>
+              <p>The Municipality must review the register at least annually and update Part A and Part B thereof in accordance with the provisions of section 23(5) of the Municipal Property Rates Act.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>Valuation rolls</heading>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Contents of valuation roll</heading>
+          <subsection id="section-9.1">
+            <num>(1)</num>
+            <content>
+              <p>A valuation roll must list all properties in the Municipality determined in terms of section 30(3) of the Municipal Property Rates Act, and subject to the proviso stipulated in that section.</p>
+            </content>
+          </subsection>
+          <subsection id="section-9.2">
+            <num>(2)</num>
+            <content>
+              <p>The valuation roll must reflect such particulars in respect of each property as indicated in section 48(2) of the Municipal Property Rates Act to the extent that such information is available to, or reasonably determinable by, the Municipality.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Multiple entries in the valuation roll</heading>
+          <subsection id="section-10.1">
+            <num>(1)</num>
+            <content>
+              <p>On application, unregistered long leases on land owned by the State or a State Entity may, at the discretion of the Head of department, be valued and rated per lease boundary, the costs of which shall be borne by the Applicant.</p>
+            </content>
+          </subsection>
+          <subsection id="section-10.2">
+            <num>(2)</num>
+            <content>
+              <p>Notwithstanding such valuation and rating, the owner of the land shall remain responsible for the rates on such land.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Publication and inspection of valuation roll</heading>
+          <subsection id="section-11.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-11.1.list0">
+                <listIntroduction>The municipal valuer must submit the certified valuation roll to the Municipal Manager, and the Municipal Manager must, within 21 days of receipt of the roll –</listIntroduction>
+                <item id="section-11.1.list0.a">
+                  <num>(a)</num>
+                  <blockList id="section-11.1.list0.a.list0">
+                    <listIntroduction>publish in the prescribed form in the Provincial Gazette, KwaZulu-Natal, and on its official website, and once a week for two consecutive weeks advertise in the media, a notice –</listIntroduction>
+                    <item id="section-11.1.list0.a.list0.i">
+                      <num>(i)</num>
+                      <p>stating that the roll is open for public inspection for a period stated in the notice, which may not be less than 30 days from the date of publication of the last notice; and</p>
+                    </item>
+                    <item id="section-11.1.list0.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>inviting every person who wishes to lodge an objection in respect of any matter in, or omitted from, the roll to do so in the prescribed manner within the stated period;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-11.1.list0.b">
+                  <num>(b)</num>
+                  <p>disseminate the substance of the notice referred to in paragraph (a) to the local community in terms of Chapter 4 of the Systems Act; and</p>
+                </item>
+                <item id="section-11.1.list0.c">
+                  <num>(c)</num>
+                  <p>serve, by ordinary mail or, if appropriate in accordance with section 115 of the Municipal Systems Act, on every owner of property listed in the valuation roll a copy of the notice referred to in paragraph (a) together with an extract of the valuation roll pertaining to that owners property.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-11.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-11.2.list1">
+                <listIntroduction>Any person, including a municipal official, may, within the period stated in the notice referred to in subsection (1)(a) –</listIntroduction>
+                <item id="section-11.2.list1.a">
+                  <num>(a)</num>
+                  <p>inspect the roll during office hours;</p>
+                </item>
+                <item id="section-11.2.list1.b">
+                  <num>(b)</num>
+                  <p>on payment of a fee prescribed by the Municipality in terms of the tariff as set out in the Tariff Policy, request the Municipality during office hours to make extracts from the roll; and</p>
+                </item>
+                <item id="section-11.2.list1.c">
+                  <num>(c)</num>
+                  <p>lodge an objection with the Municipal Manager against any matter reflected in, or omitted from, the roll.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-11.3">
+            <num>(3)</num>
+            <content>
+              <p>The Municipal Manager may delegate to any municipal official he or she may deem appropriate the duty to assist an objector to lodge an objection if that objector is unable to read or write.</p>
+            </content>
+          </subsection>
+          <subsection id="section-11.4">
+            <num>(4)</num>
+            <content>
+              <p>The Municipal Manager must inform the Council of any matter reflected in, or omitted from, the roll that affects the interests of the Municipality.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Supplementary valuation roll</heading>
+          <subsection id="section-12.1">
+            <num>(1)</num>
+            <content>
+              <p>The Municipality must, whenever necessary, cause a supplementary valuation roll to be made or prepared in respect of any rateable property due to any one or more of the reasons listed in section 78(1)(a) to (h) of the Municipal Property Rates Act.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.2">
+            <num>(2)</num>
+            <content>
+              <p>The question as to whether an exceptional reason exists to justify the revaluation of a property in terms of section 78 of the Municipal Property Rates Act is in the sole discretion of the Municipality.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.3">
+            <num>(3)</num>
+            <content>
+              <p>In the event of the market value of a rateable property having substantially increased or decreased for any reason after the last general valuation thereof, the owner of the property concerned must notify the Municipality in writing or in electronic format of the change in the market value of the property concerned.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-4">
+        <num>4</num>
+        <heading>Queries, objections and appeals</heading>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Queries</heading>
+          <subsection id="section-13.1">
+            <num>(1)</num>
+            <content>
+              <p>The Municipality may establish a process for the determination of valuation queries and charge a fee in terms of the Tariff Policy for attending to such queries.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.2">
+            <num>(2)</num>
+            <content>
+              <p>Any person who wishes to submit a valuation query in terms of subsection (1) must complete a form prescribed by the Municipality for that purpose providing the minimum information required therein and submit same to the office specified on the prescribed form, together with proof of payment of the fee referred to in subsection (1).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>Objections</heading>
+          <subsection id="section-14.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-14.1.list0">
+                <listIntroduction>The municipal valuer must promptly –</listIntroduction>
+                <item id="section-14.1.list0.a">
+                  <num>(a)</num>
+                  <p>consider objections in accordance with the procedure prescribed by the municipal valuer;</p>
+                </item>
+                <item id="section-14.1.list0.b">
+                  <num>(b)</num>
+                  <p>decide objections on facts, including the submissions of an objector, and, if the objector is not the owner, the submissions of the owner; and</p>
+                </item>
+                <item id="section-14.1.list0.c">
+                  <num>(c)</num>
+                  <p>adjust or add to the valuation roll in accordance with any decision taken, subject to compulsory review of such decision in terms of section 52 of the Municipal Property Rates Act if the municipal valuer adjusts the valuation of a property by more than 10% upwards or downwards.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-14.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-14.2.list1">
+                <listIntroduction>The municipal valuer must, in writing, notify every person who has lodged an objection and also the owner of the property concerned if the objector is not the owner, of –</listIntroduction>
+                <item id="section-14.2.list1.a">
+                  <num>(a)</num>
+                  <p>the municipal valuer's decision in terms of subsection (1)(b) regarding that objection;</p>
+                </item>
+                <item id="section-14.2.list1.b">
+                  <num>(b)</num>
+                  <p>any adjustment made to the valuation roll in respect of the property concerned; and</p>
+                </item>
+                <item id="section-14.2.list1.c">
+                  <num>(c)</num>
+                  <p>whether the municipal valuer's decision will be subject to compulsory review in terms of section 52 of the Municipal Property Rates Act.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-14.3">
+            <num>(3)</num>
+            <content>
+              <p>Once certified, the valuation roll becomes final for the period for which it is in force, subject to the right of appeal in terms of section 54 of the Municipal Property Rates Act.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.4">
+            <num>(4)</num>
+            <content>
+              <p>The mere lodgement of an objection in terms of this section does not constitute a dispute as contemplated in section 102(2) of the Systems Act between the Municipality and the objector concerned.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Right of appeal</heading>
+          <subsection id="section-15.1">
+            <num>(1)</num>
+            <content>
+              <p>Any person, including the Municipality, who is aggrieved by a decision taken by the municipal valuer in terms of section 15 of this By-law has a right of appeal under section 54 of the Municipal Property Rates Act.</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.2">
+            <num>(2)</num>
+            <content>
+              <p>An appeal lodged in terms of section 54 of the Municipal Property Rates Act does not defer a person's liability for payment of rates beyond the date determined by the Municipality for payment.</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.3">
+            <num>(3)</num>
+            <content>
+              <p>The lodgement of an appeal in terms of section 54 of the Municipal Property Rates Act does not constitute a dispute as contemplated in section 102(2) of the Systems Act between the Municipality and the appellant concerned.</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.4">
+            <num>(4)</num>
+            <content>
+              <p>The provisions of this section must not be interpreted to prevent the municipal valuer from reviewing the objection outcome with any appellant based on the additional evidence provided by the appellant concerned to the municipal valuer.</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.5">
+            <num>(5)</num>
+            <content>
+              <p>Any person may, with the written consent of the municipal valuer, withdraw an appeal lodged by such person in terms of subsection (1).</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-5">
+        <num>5</num>
+        <heading>General provisions</heading>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Municipal boundary adjustment</heading>
+          <subsection id="section-16.subsection-0">
+            <content>
+              <p>If any property or a category of property is newly included in the area of jurisdiction of the Municipality by way of a municipal boundary adjustment, the valuation and rate randage of the property or the category of the property concerned shall remain applicable for the remainder of the financial year during which such property or category of property was included in the Municipality's area of jurisdiction.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Interest on arrear rates</heading>
+          <subsection id="section-17.subsection-0">
+            <content>
+              <p>If an amount due for rates levied in respect of a property remains unpaid after the date determined by the Municipality for the payment thereof, interest on the outstanding amount accrues at the legal rate of interest prevailing from time to time, subject to the provisions of sections 9 and 55 of the Municipal Property Rates Act.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Valuation of right in land</heading>
+          <subsection id="section-18.subsection-0">
+            <content>
+              <blockList id="section-18.subsection-0.list0">
+                <listIntroduction>The Municipality is entitled to value a limited real right in respect of the land concerned with reference to –</listIntroduction>
+                <item id="section-18.subsection-0.list0.a">
+                  <num>(a)</num>
+                  <p>public service infrastructure; and</p>
+                </item>
+                <item id="section-18.subsection-0.list0.b">
+                  <num>(b)</num>
+                  <p>rights of extension in sectional title schemes.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-6">
+        <num>6</num>
+        <heading>Miscellaneous</heading>
+        <section id="section-19">
+          <num>19.</num>
+          <heading>Delegations</heading>
+          <subsection id="section-19.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-19.1.list0">
+                <listIntroduction>Subject to the Constitution and applicable national and provincial laws, any –</listIntroduction>
+                <item id="section-19.1.list0.a">
+                  <num>(a)</num>
+                  <p>power, excluding a power referred to in section 160(2) of the Constitution;</p>
+                </item>
+                <item id="section-19.1.list0.b">
+                  <num>(b)</num>
+                  <p>function; or</p>
+                </item>
+                <item id="section-19.1.list0.c">
+                  <num>(c)</num>
+                  <p>duty,</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-19.subsection-1">
+            <content>
+              <p>conferred, in terms of this By-law, upon the Council, or on any of the Municipality's other political structures, political office bearers, councillors or staff members, may be delegated or sub-delegated by such political structure, political office bearer, councillor or staff member, to an entity within, or a staff member employed by, the Municipality.</p>
+            </content>
+          </subsection>
+          <subsection id="section-19.2">
+            <num>(2)</num>
+            <content>
+              <p>The delegation in terms of subsection (1) must be effected in accordance with the system of delegation adopted by the Council in accordance with section 59(1) of the Systems Act, subject to the criteria set out in section 50(2) of said Act.</p>
+            </content>
+          </subsection>
+          <subsection id="section-19.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-19.3.list3">
+                <listIntroduction>Any delegation contemplated in this section must be recorded in the Register of Delegations, which must contain information on the –</listIntroduction>
+                <item id="section-19.3.list3.a">
+                  <num>(a)</num>
+                  <p>entity or person issuing the delegation or sub-delegation;</p>
+                </item>
+                <item id="section-19.3.list3.b">
+                  <num>(b)</num>
+                  <p>recipient of the delegation or sub-delegation; and</p>
+                </item>
+                <item id="section-19.3.list3.c">
+                  <num>(c)</num>
+                  <p>conditions attached to the delegation or sub-delegation.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>Repeal of laws and savings</heading>
+          <subsection id="section-20.1">
+            <num>(1)</num>
+            <content>
+              <p>The laws mentioned in the first and second columns of the Schedule to this By-law are hereby repealed.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.2">
+            <num>(2)</num>
+            <content>
+              <p>Any rights accrued or obligations incurred under any of the By-laws repealed in terms of subsection (1) remain in force as if those By-laws have not been repealed.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-21">
+          <num>21.</num>
+          <heading>Short title and commencement</heading>
+          <subsection id="section-21.subsection-0">
+            <content>
+              <p>This By-law is called the Property Rates By-law, 2015 and takes effect on the date of publication thereof in the Provincial Gazette, KwaZulu-Natal.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+    </body>
+  </act>
+  <components>
+    <component id="component-lawsrepealed">
+      <doc name="lawsrepealed">
+        <meta>
+          <identification source="#slaw">
+            <FRBRWork>
+              <FRBRthis value="/za-eth/act/by-law/2015/property-rates/lawsrepealed"/>
+              <FRBRuri value="/za-eth/act/by-law/2015/property-rates"/>
+              <FRBRalias value="LAWS REPEALED"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-eth/act/by-law/2015/property-rates/eng@2015-08-27/lawsrepealed"/>
+              <FRBRuri value="/za-eth/act/by-law/2015/property-rates/eng@2015-08-27"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-eth/act/by-law/2015/property-rates/eng@2015-08-27/lawsrepealed"/>
+              <FRBRuri value="/za-eth/act/by-law/2015/property-rates/eng@2015-08-27"/>
+              <FRBRdate date="2016-02-27" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="lawsrepealed">
+            <paragraph id="paragraph-0">
+              <content>
+                <table id="table0">
+                  <tr>
+                    <th>
+                      <p>Number and year of By-law</p>
+                    </th>
+                    <th>
+                      <p>Title</p>
+                    </th>
+                    <th>
+                      <p>Extent of repeal</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Municipal Notice 31 of 2008, published in Provincial Gazette No. 111 dated 12 June 2008</p>
+                    </td>
+                    <td>
+                      <p>eThekwini Municipality Municipal Taxation By-laws: Rates on Property</p>
+                    </td>
+                    <td>
+                      <p>The whole</p>
+                    </td>
+                  </tr>
+                </table>
+              </content>
+            </paragraph>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>

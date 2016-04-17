@@ -1,0 +1,383 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-eth/act/by-law/1994/crematoria/main"/>
+          <FRBRuri value="/za-eth/act/by-law/1994/crematoria"/>
+          <FRBRalias value="Crematoria"/>
+          <FRBRdate date="1994-11-17" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-eth/act/by-law/1994/crematoria/eng@1994-11-17/main"/>
+          <FRBRuri value="/za-eth/act/by-law/1994/crematoria/eng@1994-11-17"/>
+          <FRBRdate date="1994-11-17" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-eth/act/by-law/1994/crematoria/eng@1994-11-17/main"/>
+          <FRBRuri value="/za-eth/act/by-law/1994/crematoria/eng@1994-11-17"/>
+          <FRBRdate date="2016-02-27" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="1994-11-17" name="Kwazulu-Natal Provincial Gazette Crematoria" showAs="Kwazulu-Natal Provincial Gazette Crematoria" number=""/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-cemetery" href="/ontology/term/this.eng.cemetery" showAs="cemetery"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-crematorium" href="/ontology/term/this.eng.crematorium" showAs="crematorium"/>
+        <TLCTerm id="term-Ordinance" href="/ontology/term/this.eng.Ordinance" showAs="Ordinance"/>
+        <TLCTerm id="term-Regulations" href="/ontology/term/this.eng.Regulations" showAs="Regulations"/>
+        <TLCTerm id="term-Superintendent" href="/ontology/term/this.eng.Superintendent" showAs="Superintendent"/>
+      </references>
+    </meta>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions.</heading>
+        <subsection id="section-1.subsection-0">
+          <content>
+            <p>In these By-laws, unless the context otherwise indicates—</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-1" refersTo="#term-cemetery">
+          <content>
+            <p>"<def refersTo="#term-cemetery">cemetery</def>" means any cemetery of the <term refersTo="#term-Council" id="trm0">Council</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-2" refersTo="#term-Council">
+          <content>
+            <p>"<def refersTo="#term-Council">Council</def>" means the City Council of the City of Durban;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-3" refersTo="#term-crematorium">
+          <content>
+            <p>"<def refersTo="#term-crematorium">crematorium</def>" means any crematorium of which the <term refersTo="#term-Council" id="trm1">Council</term> is the registered proprietor in terms of the <term refersTo="#term-Ordinance" id="trm2">Ordinance</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-4" refersTo="#term-Ordinance">
+          <content>
+            <p>"<def refersTo="#term-Ordinance">Ordinance</def>" means the Cemeteries and Crematoria Ordinance, 1969 (Ordinance 39 of 1969);</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-5" refersTo="#term-Regulations">
+          <content>
+            <p>"<def refersTo="#term-Regulations">Regulations</def>" means the regulations published on 18 February 1971 under Provincial Notice 100/1971;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-6" refersTo="#term-Superintendent">
+          <content>
+            <p>"<def refersTo="#term-Superintendent">Superintendent</def>" means the official of the <term refersTo="#term-Council" id="trm3">Council</term> appointed to be in the immediate charge of and to supervise a <term refersTo="#term-crematorium" id="trm4">crematorium</term>, or his deputy or assistant on duty at the time;</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.subsection-7">
+          <content>
+            <p>and any other word or expression shall have the meaning assigned thereto in the <term refersTo="#term-Ordinance" id="trm5">Ordinance</term> and <term refersTo="#term-Regulations" id="trm6">Regulations</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>By-laws in addition to regulations.</heading>
+        <subsection id="section-2.subsection-0">
+          <content>
+            <p>These By-laws shall be in addition to and not in substitution for the regulations.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Application for use of <term refersTo="#term-crematorium" id="trm7">crematorium</term>.</heading>
+        <subsection id="section-3.subsection-0">
+          <content>
+            <blockList id="section-3.subsection-0.list0">
+              <listIntroduction>(a) Every person wishing to apply for a cremation shall complete the official application form issued by the <term refersTo="#term-Council" id="trm8">Council</term> and lodge the same with the <term refersTo="#term-Superintendent" id="trm9">Superintendent</term> at his office together with all documents required in terms of the regulations, duly completed, at least two hours before the time applied for.</listIntroduction>
+              <item id="section-3.subsection-0.list0.b">
+                <num>(b)</num>
+                <p>If two or more applications are received for cremation at the same time at a <term refersTo="#term-crematorium" id="trm10">crematorium</term>, the <term refersTo="#term-Superintendent" id="trm11">Superintendent</term> shall decide the order in which the cremations shall take place.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Hours of cremations.</heading>
+        <subsection id="section-4.subsection-0">
+          <content>
+            <p>No cremation shall be commenced at any <term refersTo="#term-crematorium" id="trm12">crematorium</term> other than between the hours of 08:00 and 19:00 on Mondays to Fridays and 12:00 to 19:00 on Saturdays, Sundays and public holidays.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Control of funeral services.</heading>
+        <subsection id="section-5.subsection-0">
+          <content>
+            <blockList id="section-5.subsection-0.list0">
+              <listIntroduction>(a) Every service, ceremony and funeral in connection with a cremation shall be subject to the general control of the Superintendent while within the cemetery, and no person attending any such service, ceremony or funeral shall wilfully disregard a lawful and reasonable order of the Superintendent while within the cemetery.</listIntroduction>
+              <item id="section-5.subsection-0.list0.b">
+                <num>(b)</num>
+                <p>The Superintendent shall further have full power to exclude any person whose presence, in his discretion, would be likely to cause pain or annoyance to other persons attending the ceremony and to remove any person who refuses to comply with any order or direction given in the exercise of the powers granted under this By-law.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Coffins to specification.</heading>
+        <subsection id="section-6.subsection-0">
+          <content>
+            <blockList id="section-6.subsection-0.list0">
+              <listIntroduction>(a) No person shall present for cremation nor shall the <term refersTo="#term-Council" id="trm18">Council</term> cremate any dead body which is not so enclosed in a coffin constructed in compliance with the following subsection and enclosed as to be non-offensive and free from nuisance.</listIntroduction>
+              <item id="section-6.subsection-0.list0.b">
+                <num>(b)</num>
+                <p>The coffin shall not exceed 2,2m in length by 0,85m in width and 0,5m in depth. It shall be made of some readily combustible wood, such as deal, white pine or three-ply wood. Metal nails shall not be used. The coffin may be polished and may have the usual furniture, but the handles and name-plates (if any), unless made of some readily combustible material, shall be so fixed as to be easily removed. Pitch and sawdust shall not be present in any form. There shall be no cross-pieces or projections of any kind under sole or on the bottom of the coffin and all wooden pegs on this part of it shall be carefully countersunk. If necessary, a thick zinc lining may be inserted in a coffin, but no metal other than zinc shall be used.</p>
+              </item>
+              <item id="section-6.subsection-0.list0.c">
+                <num>(c)</num>
+                <p>The <term refersTo="#term-Superintendent" id="trm19">Superintendent</term> shall be entitled to refuse to proceed with the cremation of any remains where the coffin containing the remains does not comply with the abovementioned requirements.</p>
+              </item>
+              <item id="section-6.subsection-0.list0.d">
+                <num>(d)</num>
+                <p>Nothing in this By-law shall prevent the use of a suitable outer coffin of any material to enclose an inner coffin complying with the foregoing; provided the consent in writing of an executor, relative or other like person responsible for payment of the funeral expenses of the deceased to such use is deposited with the <term refersTo="#term-Superintendent" id="trm20">Superintendent</term>, which consent shall also state that such person knows that such outer is not to be incinerated and agrees to its being returned to the supplier thereof. Such outer coffin shall be removed from the <term refersTo="#term-crematorium" id="trm21">crematorium</term> premises immediately after the cremation.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Coffin bearers to be provided.</heading>
+        <subsection id="section-7.subsection-0">
+          <content>
+            <p>An adequate number of bearers shall be provided by the representative of the deceased for the purpose of carrying the coffin into the chapel and depositing it on the catafalque. No employee of the <term refersTo="#term-Council" id="trm22">Council</term> shall be obliged to perform these functions.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Access to furnace chamber.</heading>
+        <subsection id="section-8.subsection-0">
+          <content>
+            <p>No person, except authorised officials, shall be allowed in the furnace chamber at any time unless special permission of the <term refersTo="#term-Superintendent" id="trm23">Superintendent</term> has been previously obtained in writing.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Committal ceremonies.</heading>
+        <subsection id="section-9.subsection-0">
+          <content>
+            <p>Subject to the direction of the <term refersTo="#term-Superintendent" id="trm24">Superintendent</term> committal ceremonies may be held in the crematoria excluding the furnace chambers.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Coffins not to be opened without authority.</heading>
+        <subsection id="section-10.subsection-0">
+          <content>
+            <p>No dead body shall be removed from any coffin for the purpose of incineration and a coffin shall not be opened in the <term refersTo="#term-crematorium" id="trm25">crematorium</term> except when required by the <term refersTo="#term-Superintendent" id="trm26">Superintendent</term> or as permitted by By-law 6 (d) hereof.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-11">
+        <num>11.</num>
+        <heading>Deposit and preservation of ashes.</heading>
+        <subsection id="section-11.subsection-0">
+          <content>
+            <p>The <term refersTo="#term-Council" id="trm27">Council</term> may provide buildings, walls of remembrance, niches or other facilities for the deposit and preservation of the ashes of cremated bodies for definite periods or in perpetuity.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-12">
+        <num>12.</num>
+        <heading>Niches and memorial plaques.</heading>
+        <subsection id="section-12.subsection-0">
+          <content>
+            <blockList id="section-12.subsection-0.list0">
+              <listIntroduction>(a) Niches and plaques may only be purchased for immediate use and shall be allocated in sequence upon application to the Director: Cemeteries/Crematoria.</listIntroduction>
+              <item id="section-12.subsection-0.list0.b">
+                <num>(b)</num>
+                <p>Niches shall be purchased in perpetuity.</p>
+              </item>
+              <item id="section-12.subsection-0.list0.c">
+                <num>(c)</num>
+                <p>Only plaques purchased from the <term refersTo="#term-Council" id="trm28">Council</term> will be permitted for affixing to niches.</p>
+              </item>
+              <item id="section-12.subsection-0.list0.d">
+                <num>(d)</num>
+                <p>The matter placed in or on such niches and spaces for memorial plaques and all inscriptions shall be subject to the approval of the Director: Cemeteries/Crematoria.</p>
+              </item>
+              <item id="section-12.subsection-0.list0.e">
+                <num>(e)</num>
+                <p>The inscription on a plaque shall be arranged by and be to the account of the purchaser.</p>
+              </item>
+              <item id="section-12.subsection-0.list0.f">
+                <num>(f)</num>
+                <p>The fitting of a plaque shall be undertaken by the <term refersTo="#term-Council" id="trm29">Council</term> following its delivery to the <term refersTo="#term-Superintendent" id="trm30">Superintendent</term>.</p>
+              </item>
+              <item id="section-12.subsection-0.list0.g">
+                <num>(g)</num>
+                <p>No iron or other metal liable to rust shall be used in connection with any niches or memorial.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-13">
+        <num>13.</num>
+        <heading>Ashes not to be removed without written consent.</heading>
+        <subsection id="section-13.subsection-0">
+          <content>
+            <p>No urn or casket containing ashes once deposited with the <term refersTo="#term-Council" id="trm31">Council</term> shall be removed without the consent in writing of the <term refersTo="#term-Council" id="trm32">Council</term> previously obtained.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-14">
+        <num>14.</num>
+        <heading>Refusal to approve memorial.</heading>
+        <subsection id="section-14.subsection-0">
+          <content>
+            <p>The <term refersTo="#term-Council" id="trm33">Council</term> reserves the right to refuse to approve any memorial which, in its opinion, is of inferior workmanship or quality or which is likely in any way to disfigure the <term refersTo="#term-crematorium" id="trm34">crematorium</term> or its grounds.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-15">
+        <num>15.</num>
+        <heading><term refersTo="#term-Council" id="trm35">Council</term> not liable for damage.</heading>
+        <subsection id="section-15.subsection-0">
+          <content>
+            <p>The <term refersTo="#term-Council" id="trm36">Council</term> shall in no case be liable for any damage which may at any time occur to any memorial from any cause whatsoever.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-16">
+        <num>16.</num>
+        <heading>Fees and charges.</heading>
+        <subsection id="section-16.subsection-0">
+          <content>
+            <p>The fees for cremations and charges relating to memorials shall be in accordance with the tariffs and charges published by the <term refersTo="#term-Council" id="trm37">Council</term> as prescribed in the Schedule to these By-laws.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-17">
+        <num>17.</num>
+        <heading>Penalties.</heading>
+        <subsection id="section-17.subsection-0">
+          <content>
+            <p>Any person convicted of a breach of these By-laws shall be liable for a fine of R20,00 in the case of a first conviction or, in the case of a second or subsequent conviction for the same offence, a fine not exceeding R40,00 or in default of payment of any fine imposed in either case, imprisonment for a period not exceeding three (3) months.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+  <components>
+    <component id="component-schedule">
+      <doc name="schedule">
+        <meta>
+          <identification source="#slaw">
+            <FRBRWork>
+              <FRBRthis value="/za-eth/act/by-law/1994/crematoria/schedule"/>
+              <FRBRuri value="/za-eth/act/by-law/1994/crematoria"/>
+              <FRBRalias value="Schedule"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-eth/act/by-law/1994/crematoria/eng@1994-11-17/schedule"/>
+              <FRBRuri value="/za-eth/act/by-law/1994/crematoria/eng@1994-11-17"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-eth/act/by-law/1994/crematoria/eng@1994-11-17/schedule"/>
+              <FRBRuri value="/za-eth/act/by-law/1994/crematoria/eng@1994-11-17"/>
+              <FRBRdate date="2016-02-27" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule">
+            <heading>TARIFF OF FEES AND CHARGES (SECTION 16)</heading>
+            <section id="section-1">
+              <num>1.</num>
+              <heading>Cremation fees</heading>
+              <subsection id="section-1.subsection-0">
+                <content>
+                  <table id="section-1.subsection-0.table0">
+                    <tr>
+                      <td>
+                        <p>(a) Person over 12 years of age</p>
+                      </td>
+                      <td>
+                        <p>R320,00</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>(b) Person over 12 years of age</p>
+                      </td>
+                      <td>
+                        <p>R160,00</p>
+                      </td>
+                    </tr>
+                  </table>
+                </content>
+              </subsection>
+            </section>
+            <section id="section-2">
+              <num>2.</num>
+              <heading>Niche and plaque</heading>
+              <subsection id="section-2.subsection-0">
+                <content>
+                  <p>Wall of Remembrance</p>
+                </content>
+              </subsection>
+              <subsection id="section-2.subsection-1">
+                <content>
+                  <table id="section-2.subsection-1.table0">
+                    <tr>
+                      <td>
+                        <p>(a) Niche and blank plaque in black granite, each</p>
+                      </td>
+                      <td>
+                        <p>R150,00</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>(b) Each subsequent deposit of ashes in the same niche</p>
+                      </td>
+                      <td>
+                        <p>R100,00</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>(c) Vase holders for attachment to plaque in (a) above, each</p>
+                      </td>
+                      <td>
+                        <p>R50,00</p>
+                      </td>
+                    </tr>
+                  </table>
+                </content>
+              </subsection>
+            </section>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>
