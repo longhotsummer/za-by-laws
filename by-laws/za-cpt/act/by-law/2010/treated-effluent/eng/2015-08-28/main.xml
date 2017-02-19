@@ -1,0 +1,1489 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="singleVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-cpt/act/by-law/2010/treated-effluent/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2010/treated-effluent"/>
+          <FRBRalias value="City of Cape Town: Treated Effluent By-law, as amended"/>
+          <FRBRdate date="2010-07-30" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-cpt/act/by-law/2010/treated-effluent/eng@2015-08-28/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2010/treated-effluent/eng@2015-08-28"/>
+          <FRBRdate date="2015-08-28" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-cpt/act/by-law/2010/treated-effluent/eng@2015-08-28/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2010/treated-effluent/eng@2015-08-28"/>
+          <FRBRdate date="2016-07-10" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-07-30" name="Province of Western Cape: Provincial Gazette" showAs="Province of Western Cape: Provincial Gazette" number="6772"/>
+      <lifecycle source="#OpenByLaws-org-za">
+        <eventRef id="amendment-2015-08-28" date="2015-08-28" type="amendment" source="#amendment-0-source"/>
+      </lifecycle>
+      <references source="#this">
+        <TLCOrganization id="OpenByLaws-org-za" href="https://indigo.openbylaws.org.za" showAs="OpenByLaws.org.za"/>
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-agreement" href="/ontology/term/this.eng.agreement" showAs="agreement"/>
+        <TLCTerm id="term-authorised_official" href="/ontology/term/this.eng.authorised_official" showAs="authorised official"/>
+        <TLCTerm id="term-borehole" href="/ontology/term/this.eng.borehole" showAs="borehole"/>
+        <TLCTerm id="term-City" href="/ontology/term/this.eng.City" showAs="City"/>
+        <TLCTerm id="term-consumer" href="/ontology/term/this.eng.consumer" showAs="consumer"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-Credit_Control_and_Debt_Collection_By-Law" href="/ontology/term/this.eng.Credit_Control_and_Debt_Collection_By-Law" showAs="Credit Control and Debt Collection By-Law"/>
+        <TLCTerm id="term-health_nuisance" href="/ontology/term/this.eng.health_nuisance" showAs="health nuisance"/>
+        <TLCTerm id="term-installation_work" href="/ontology/term/this.eng.installation_work" showAs="installation work"/>
+        <TLCTerm id="term-occupier" href="/ontology/term/this.eng.occupier" showAs="occupier"/>
+        <TLCTerm id="term-owner" href="/ontology/term/this.eng.owner" showAs="owner"/>
+        <TLCTerm id="term-person" href="/ontology/term/this.eng.person" showAs="person"/>
+        <TLCTerm id="term-pollution" href="/ontology/term/this.eng.pollution" showAs="pollution"/>
+        <TLCTerm id="term-public_notice" href="/ontology/term/this.eng.public_notice" showAs="public notice"/>
+        <TLCTerm id="term-publish" href="/ontology/term/this.eng.publish" showAs="publish"/>
+        <TLCTerm id="term-prescribed_charge" href="/ontology/term/this.eng.prescribed_charge" showAs="prescribed charge"/>
+        <TLCTerm id="term-quality_parameters" href="/ontology/term/this.eng.quality_parameters" showAs="quality parameters"/>
+        <TLCTerm id="term-SABS" href="/ontology/term/this.eng.SABS" showAs="SABS"/>
+        <TLCTerm id="term-SANS" href="/ontology/term/this.eng.SANS" showAs="SANS"/>
+        <TLCTerm id="term-storage_tank" href="/ontology/term/this.eng.storage_tank" showAs="storage tank"/>
+        <TLCTerm id="term-Tariff_By-law" href="/ontology/term/this.eng.Tariff_By-law" showAs="Tariff By-law"/>
+        <TLCTerm id="term-treated_effluent" href="/ontology/term/this.eng.treated_effluent" showAs="treated effluent"/>
+        <TLCTerm id="term-treated_effluent_installation" href="/ontology/term/this.eng.treated_effluent_installation" showAs="treated effluent installation"/>
+        <TLCTerm id="term-treated_effluent_tracer" href="/ontology/term/this.eng.treated_effluent_tracer" showAs="treated effluent tracer"/>
+        <TLCTerm id="term-well_point" href="/ontology/term/this.eng.well_point" showAs="well point"/>
+        <passiveRef id="amendment-0-source" href="/za-cpt/act/by-law/2015/treated-effluent-amendment" showAs="City of Cape Town: Treated Effluent Amendment By-law, 2015"/>
+      </references>
+    </meta>
+    <preamble>
+      <p>WHEREAS the Constitution empowers municipalities to make by-laws and to administer local government matters as listed in Part B of Schedule 4 and Part B of Schedule 5, read with section 156 of the Constitution;</p>
+      <p>WHEREAS the control of public nuisances is a local government matter as listed in Part B of Schedule 5 of the Constitution;</p>
+      <p>WHEREAS the City of Cape Town is a Water Services Authority, Water Services Institution and Water Services Provider in terms of the Water Services Act, 1997 (Act No. 108 of 1997);</p>
+      <p>AND WHEREAS the City of Cape Town seeks to enforce its powers of control over activities linked to the supply of water and the use and supply of treated effluent;</p>
+      <p>NOW THEREFORE, BE IT ENACTED by the Council of the City of Cape Town, as follows:-</p>
+    </preamble>
+    <body>
+      <chapter id="chapter-1">
+        <num>1</num>
+        <heading>Definitions and general provisions</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <paragraph id="section-1.paragraph-0" refersTo="#term-well_point">
+            <content>
+              <p>In this By-law, unless the context otherwise indicates -</p>
+              <p>"<def refersTo="#term-agreement">agreement</def>" means a signed contract <term refersTo="#term-agreement" id="trm0">agreement</term> regarding the use and responsibilities of each party entered into between the <term refersTo="#term-City" id="trm1">City</term> and a <term refersTo="#term-consumer" id="trm2">consumer</term>;</p>
+              <p>"<def refersTo="#term-authorised_official">authorised official</def>" means an employee of the <term refersTo="#term-City" id="trm3">City</term> responsible for carrying out any duty or function or exercising any power in terms of this By-law and includes employees delegated to carry out or exercise such duties, functions or powers;</p>
+              <p>"<def refersTo="#term-borehole">borehole</def>" means a hole sunk into the earth for the purpose of locating, abstracting or using subterranean water; and includes a spring, well and <term refersTo="#term-well_point" id="trm4">well point</term>;</p>
+              <p>"<def refersTo="#term-City">City</def>" means the <term refersTo="#term-City" id="trm5">City</term> of Cape Town, a municipality established by Establishment Notice No. 479 of 22 September 2000, issued in terms of the Local Government: Municipal Structures Act, 1998(Act No. 117 of 1998) or any structure or employee of the <term refersTo="#term-City" id="trm6">City</term> acting in terms of delegated authority;</p>
+              <p>"<def refersTo="#term-consumer">consumer</def>" means a <term refersTo="#term-person" id="trm7">person</term> or user approved by the <term refersTo="#term-City" id="trm8">City</term> to use <term refersTo="#term-treated_effluent" id="trm9">treated effluent</term> from any installation connected to a connection pipe which is supplied with <term refersTo="#term-treated_effluent" id="trm10">treated effluent</term> from a main;</p>
+              <p>"<def refersTo="#term-Council">Council</def>" means the Municipal <term refersTo="#term-Council" id="trm11">Council</term> of the <term refersTo="#term-City" id="trm12">City</term>;</p>
+              <p>"<def refersTo="#term-Credit_Control_and_Debt_Collection_By-Law">Credit Control and Debt Collection By-Law</def>", means the <term refersTo="#term-Credit_Control_and_Debt_Collection_By-Law" id="trm13">Credit Control and Debt Collection By-Law</term>, adopted by the council and published in the Provincial Gazette;</p>
+              <p>"<def refersTo="#term-health_nuisance">health nuisance</def>" means a situation or state of affairs that endangers life or health or adversely affects the well-being or mental well-being of a <term refersTo="#term-person" id="trm14">person</term> or community, or creates an environmental risk, and "health hazard" has a similar meaning;</p>
+              <p>"<def refersTo="#term-installation_work">installation work</def>" means work in respect of the construction of, or carried out on, a <term refersTo="#term-treated_effluent_installation" id="trm15">treated effluent installation</term>; "meter" means a device which measures the quantity of <term refersTo="#term-treated_effluent" id="trm16">treated effluent</term> passing through it;</p>
+              <p>"<def refersTo="#term-occupier">occupier</def>" means a <term refersTo="#term-person" id="trm17">person</term> who occupies any premises or part thereof, without regard to the title under which he or she occupies;</p>
+              <blockList id="section-1.paragraph-0.list12" refersTo="#term-owner">
+                <listIntroduction>"<def refersTo="#term-owner">owner</def>" means —</listIntroduction>
+                <item id="section-1.paragraph-0.list12.a">
+                  <num>(a)</num>
+                  <p>the <term refersTo="#term-person" id="trm18">person</term> in whom from time to time is vested the legal title to premises;</p>
+                </item>
+                <item id="section-1.paragraph-0.list12.b">
+                  <num>(b)</num>
+                  <p>in a case where the <term refersTo="#term-person" id="trm19">person</term> in whom the legal title to premises is vested is insolvent or dead, or is under any form of legal disability whatsoever, the <term refersTo="#term-person" id="trm20">person</term> in whom the administration and control of such premises is vested as curator, trustee, executor, administrator, judicial manager, liquidator or other legal representative;</p>
+                </item>
+                <item id="section-1.paragraph-0.list12.c">
+                  <num>(c)</num>
+                  <p>in any case where the <term refersTo="#term-City" id="trm21">City</term> is unable to determine the identity of such <term refersTo="#term-person" id="trm22">person</term>, a <term refersTo="#term-person" id="trm23">person</term> who is entitled to the benefit of the use of such premises or a building or buildings thereon;</p>
+                </item>
+                <item id="section-1.paragraph-0.list12.d">
+                  <num>(d)</num>
+                  <p>in the case of premises for which a lease <term refersTo="#term-agreement" id="trm24">agreement</term> of 30 years or longer has been entered into, the lessee thereof;</p>
+                </item>
+                <item id="section-1.paragraph-0.list12.e">
+                  <num>(e)</num>
+                  <p>the <term refersTo="#term-person" id="trm25">person</term> who has purchased immovable property from the <term refersTo="#term-City" id="trm26">City</term>, in terms of a scheme that allows for the purchase price to be paid in installments and who has not received transfer from the <term refersTo="#term-City" id="trm27">City</term>;</p>
+                </item>
+                <item id="section-1.paragraph-0.list12.f">
+                  <num>(f)</num>
+                  <blockList id="section-1.paragraph-0.list12.f.list0">
+                    <listIntroduction>in relation to—</listIntroduction>
+                    <item id="section-1.paragraph-0.list12.f.list0.i">
+                      <num>(i)</num>
+                      <p>a piece of land delineated on a sectional plan registered in terms of the Sectional Titles Act, 1986 (Act 95 of 1986), the developer or the body corporate in respect of the common property, or</p>
+                    </item>
+                    <item id="section-1.paragraph-0.list12.f.list0.ii">
+                      <num>(ii)</num>
+                      <p>a section as defined in such Act, the <term refersTo="#term-person" id="trm28">person</term> in whose name such section is registered under a sectional title deed, and includes the lawfully appointed agent of such a <term refersTo="#term-person" id="trm29">person</term>;</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+              <p>"<def refersTo="#term-person">person</def>" includes a juristic <term refersTo="#term-person" id="trm30">person</term>;</p>
+              <blockList id="section-1.paragraph-0.list15" refersTo="#term-pollution">
+                <listIntroduction>"<def refersTo="#term-pollution">pollution</def>" means the direct or indirect alteration of the physical, chemical or biological properties of a water resource so as to make it−</listIntroduction>
+                <item id="section-1.paragraph-0.list15.a">
+                  <num>(a)</num>
+                  <p>less fit for any beneficial purpose for which it may reasonably be expected to be used; or</p>
+                </item>
+                <item id="section-1.paragraph-0.list15.b">
+                  <num>(b)</num>
+                  <blockList id="section-1.paragraph-0.list15.b.list0">
+                    <listIntroduction>harmful or potentially harmful—</listIntroduction>
+                    <item id="section-1.paragraph-0.list15.b.list0.i">
+                      <num>(i)</num>
+                      <p>to the welfare, health or safety of human beings;</p>
+                    </item>
+                    <item id="section-1.paragraph-0.list15.b.list0.ii">
+                      <num>(ii)</num>
+                      <p>to any aquatic or nonaquatic organisms; (iii) to the resource quality; or</p>
+                    </item>
+                    <item id="section-1.paragraph-0.list15.b.list0.iii">
+                      <num>(iii)</num>
+                      <p>to the resource quality; or</p>
+                    </item>
+                    <item id="section-1.paragraph-0.list15.b.list0.iv">
+                      <num>(iv)</num>
+                      <p>to property;</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+              <p>"<def refersTo="#term-public_notice">public notice</def>" means a notice published in a newspaper in the official languages in general use within the <term refersTo="#term-City" id="trm31">City</term> ;</p>
+              <blockList id="section-1.paragraph-0.list18" refersTo="#term-publish">
+                <listIntroduction>"<def refersTo="#term-publish">publish</def>" means—</listIntroduction>
+                <item id="section-1.paragraph-0.list18.a">
+                  <num>(a)</num>
+                  <p>to <term refersTo="#term-publish" id="trm32">publish</term> a notice in the Provincial Gazette,</p>
+                </item>
+                <item id="section-1.paragraph-0.list18.b">
+                  <num>(b)</num>
+                  <p>to provide interested parties with copies of such publication, and</p>
+                </item>
+                <item id="section-1.paragraph-0.list18.c">
+                  <num>(c)</num>
+                  <p>to post the notice so published on the notice boards of the <term refersTo="#term-City" id="trm33">City</term>.</p>
+                </item>
+              </blockList>
+              <p>"<def refersTo="#term-prescribed_charge">prescribed charge</def>" means a fee, charge or tariff determined and imposed by the <term refersTo="#term-Council" id="trm34">Council</term> in terms of the <term refersTo="#term-Tariff_By-law" id="trm35">Tariff By-law</term>;</p>
+              <p>"<def refersTo="#term-quality_parameters">quality parameters</def>" means the level of quality of chemical, physical and microbiological constituents in the water;</p>
+              <p>"<def refersTo="#term-SABS">SABS</def>" means the South African Bureau of Standards referred to in the Standards Act, No. 29 of 1993;</p>
+              <p>"<def refersTo="#term-SANS">SANS</def>" means the South African National Standards and is a standard which has been set and issued by the <term refersTo="#term-SABS" id="trm36">SABS</term> in terms of the provisions of the Standards Act, No. 29 of 1993;</p>
+              <p>"<def refersTo="#term-storage_tank">storage tank</def>" means a tank forming part of a <term refersTo="#term-treated_effluent_installation" id="trm37">treated effluent installation</term> and used for the storage of <term refersTo="#term-treated_effluent" id="trm38">treated effluent</term>;</p>
+              <p>"<def refersTo="#term-Tariff_By-law">Tariff By-law</def>" means the <term refersTo="#term-Tariff_By-law" id="trm39">Tariff By-law</term> promulgated by the <term refersTo="#term-Council" id="trm40">Council</term> in terms of section 75 of the Local Government: Municipal Systems Act, No 32 of 2000, or in terms of section 75A of that Act to levy and recover fees, charges or tariffs;</p>
+              <p>"<def refersTo="#term-treated_effluent">treated effluent</def>" means wastewater which has been treated;</p>
+              <p>"<def refersTo="#term-treated_effluent_installation">treated effluent installation</def>" means the pipes and fittings which are situated on any premises and vested in the <term refersTo="#term-owner" id="trm41">owner</term> thereof and used or intended to be used in connection with the use of <term refersTo="#term-treated_effluent" id="trm42">treated effluent</term> on such premises, and includes a pipe and a fitting situated outside the boundary of the premises, which either connects to the communication pipe relating to such premises or is otherwise laid with the permission of the <term refersTo="#term-City" id="trm43">City</term>;</p>
+              <p>"<def refersTo="#term-treated_effluent_tracer">treated effluent tracer</def>" means any dye or chemical approved by the Director: Water and Sanitation to clearly colour the <term refersTo="#term-treated_effluent" id="trm44">treated effluent</term> "water services facility" means any land on which there is infrastructure installed or used by the <term refersTo="#term-City" id="trm45">City</term> or a catchment area in connection with the supply of <term refersTo="#term-treated_effluent" id="trm46">treated effluent</term>;</p>
+              <p>"<def refersTo="#term-well_point">well point</def>" means a small diameter pipe jetted into unconsolidated sandy or gravelly formations, with a pump situated at ground level to lift and distribute the water.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Application and purpose of this by-law</heading>
+          <subsection id="section-2.1">
+            <num>(1)</num>
+            <content>
+              <p>This By-law binds all organs of state.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.2">
+            <num>(2)</num>
+            <content>
+              <p>Any provision in any other by-law dealing specifically with <term refersTo="#term-treated_effluent" id="trm47">treated effluent</term>, is subject to the provisions of this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-2.3.list1">
+                <listIntroduction>Unless the contrary is proved, a breach of this By-law committed on premises in respect of—</listIntroduction>
+                <item id="section-2.3.list1.a">
+                  <num>(a)</num>
+                  <p>the <term refersTo="#term-treated_effluent_installation" id="trm48">treated effluent installation</term> shall be deemed to be a breach by the <term refersTo="#term-owner" id="trm49">owner</term> of the premises and he or she can be held liable for all consequential damage; and</p>
+                </item>
+                <item id="section-2.3.list1.b">
+                  <num>(b)</num>
+                  <p>the use of <term refersTo="#term-treated_effluent" id="trm50">treated effluent</term> from a <term refersTo="#term-treated_effluent_installation" id="trm51">treated effluent installation</term> shall be deemed to be a breach by the <term refersTo="#term-consumer" id="trm52">consumer</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Powers of the director: water and sanitation and the executive director: city health</heading>
+          <paragraph id="section-3.paragraph-0">
+            <content>
+              <p>
+                <remark status="editorial">[Section 3 repealed by amendment on 2015-08-28.]</remark>
+              </p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Appointment of authorised officials</heading>
+          <paragraph id="section-4.paragraph-0">
+            <content>
+              <p>
+                <remark status="editorial">[Section 4 repealed by amendment on 2015-08-28.]</remark>
+              </p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Delegation</heading>
+          <paragraph id="section-5.paragraph-0">
+            <content>
+              <p>
+                <remark status="editorial">[Section 5 repealed by amendment on 2015-08-28.]</remark>
+              </p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Health risks and situations that require immediate action</heading>
+          <subsection id="section-6.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-authorised_official" id="trm53">authorised official</term> may, in cases of health risks or situations that require immediate action take any reasonable measures to prevent or eradicate such health risks or situations.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-6.2.list1">
+                <listIntroduction>When a health risk or situation as contemplated in subsection (1) occurs on private property, the <term refersTo="#term-authorised_official" id="trm54">authorised official</term> may—</listIntroduction>
+                <item id="section-6.2.list1.a">
+                  <num>(a)</num>
+                  <p>by written notice direct the <term refersTo="#term-owner" id="trm55">owner</term> or <term refersTo="#term-consumer" id="trm56">consumer</term> to take such measures as may be deemed necessary to prevent or eradicate the health risk or situation; or</p>
+                </item>
+                <item id="section-6.2.list1.b">
+                  <num>(b)</num>
+                  <p>in the event that the <term refersTo="#term-owner" id="trm57">owner</term> or <term refersTo="#term-consumer" id="trm58">consumer</term> cannot be found or the <term refersTo="#term-owner" id="trm59">owner</term> or <term refersTo="#term-consumer" id="trm60">consumer</term> fails to immediately comply with the requirements of the <term refersTo="#term-authorised_official" id="trm61">authorised official</term>, take such measures as may be deemed necessary to prevent or eradicate the health risk or situation.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-6.3">
+            <num>(3)</num>
+            <content>
+              <p>In the event where the health risk emanates from a <term refersTo="#term-treated_effluent_installation" id="trm62">treated effluent installation</term> the <term refersTo="#term-consumer" id="trm63">consumer</term> supplied by such installation is liable for the costs incurred by the <term refersTo="#term-City" id="trm64">City</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Duties of the public</heading>
+          <subsection id="section-7.1">
+            <num>(1)</num>
+            <content>
+              <p>Every member of the public must, on becoming aware of any health risk or imminent situation that requires immediate attention or a situation that may give rise to <term refersTo="#term-pollution" id="trm65">pollution</term>, immediately inform the <term refersTo="#term-authorised_official" id="trm66">authorised official</term> who in turn must, in respect of emergencies relating to health hazards, inform the Executive Director: <term refersTo="#term-City" id="trm67">City</term> Health.</p>
+            </content>
+          </subsection>
+          <subsection id="section-7.2">
+            <num>(2)</num>
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm68">person</term> acting in terms of subsection (1) who does not wish to be identified, may request that his or her name not be disclosed in any subsequent action.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Recovery of costs</heading>
+          <subsection id="section-8.1">
+            <num>(1)</num>
+            <content>
+              <p>Every <term refersTo="#term-person" id="trm69">person</term> committing a breach of the provisions of this By-law is fully liable for the consequences of the breach and to compensate the <term refersTo="#term-City" id="trm70">City</term> for any loss or damage suffered or sustained by it in consequence thereof.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-8.2.list1">
+                <listIntroduction>The <term refersTo="#term-City" id="trm71">City</term> may recover any costs reasonably incurred in taking any measures in terms of this By-law from any <term refersTo="#term-person" id="trm72">person</term> who was under a legal obligation to take those measures, including—</listIntroduction>
+                <item id="section-8.2.list1.a">
+                  <num>(a)</num>
+                  <p>a <term refersTo="#term-person" id="trm73">person</term> on whom a compliance notice was served;</p>
+                </item>
+                <item id="section-8.2.list1.b">
+                  <num>(b)</num>
+                  <p>the <term refersTo="#term-owner" id="trm74">owner</term> of the premises concerned; or</p>
+                </item>
+                <item id="section-8.2.list1.c">
+                  <num>(c)</num>
+                  <p>the <term refersTo="#term-consumer" id="trm75">consumer</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-8.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-City" id="trm76">City</term> may issue a cost order requiring a <term refersTo="#term-person" id="trm77">person</term> who is liable to pay costs incurred in terms of subsection (1) to pay those costs by a date specified in the order and such order constitutes prima facie evidence of the amount due.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Compliance notices</heading>
+          <subsection id="section-9.1">
+            <num>(1)</num>
+            <content>
+              <p>When an <term refersTo="#term-authorised_official" id="trm78">authorised official</term> finds that a provision of this By-law is contravened or that a condition has arisen that has the potential to lead to a contravention of this By-law, such <term refersTo="#term-authorised_official" id="trm79">authorised official</term> may issue a compliance notice to the <term refersTo="#term-consumer" id="trm80">consumer</term> or <term refersTo="#term-owner" id="trm81">owner</term> concerned or <term refersTo="#term-person" id="trm82">person</term> who is contravening the provisions of this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-9.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-9.2.list1">
+                <listIntroduction>A notice issued in terms of subsection (1) must state —</listIntroduction>
+                <item id="section-9.2.list1.a">
+                  <num>(a)</num>
+                  <p>the provision of the By-law that is being contravened or will be contravened if the condition is allowed to continue;</p>
+                </item>
+                <item id="section-9.2.list1.b">
+                  <num>(b)</num>
+                  <p>the measures that must be taken to rectify the condition; and</p>
+                </item>
+                <item id="section-9.2.list1.c">
+                  <num>(c)</num>
+                  <p>the time period in which the notice must be complied with.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-9.3">
+            <num>(3)</num>
+            <content>
+              <p>If a <term refersTo="#term-person" id="trm83">person</term> on whom notice was served in terms of subsection (2) fails to comply with the requirements of the notice, the <term refersTo="#term-City" id="trm84">City</term> may take such steps as may be necessary to rectify the condition at the cost of the <term refersTo="#term-person" id="trm85">person</term> responsible, or take any other action deemed necessary to ensure compliance, including the immediate discontinuation of water supply.</p>
+            </content>
+          </subsection>
+          <subsection id="section-9.3A">
+            <num>(3A)</num>
+            <content>
+              <blockList id="section-9.3A.list1">
+                <listIntroduction>A compliance notice is deemed to be sufficiently and effectively served on such <term refersTo="#term-person" id="trm86">person</term> –</listIntroduction>
+                <item id="section-9.3A.list1.a">
+                  <num>(a)</num>
+                  <p>when it has been delivered to him or her personally;</p>
+                </item>
+                <item id="section-9.3A.list1.b">
+                  <num>(b)</num>
+                  <p>when it has been left at his or her place of residence or business in the Republic of South Africa with a <term refersTo="#term-person" id="trm87">person</term> apparently over the age of 16 years;</p>
+                </item>
+                <item id="section-9.3A.list1.c">
+                  <num>(c)</num>
+                  <p>when it has been posted by registered or certified mail to his or her last known residential or business address in the Republic and an acknowledgement of the posting thereof is produced;</p>
+                </item>
+                <item id="section-9.3A.list1.d">
+                  <num>(d)</num>
+                  <p>if his or her address in the Republic is unknown, when it has been served on his or her agent or representative in the Republic in the manner contemplated in paragraph (a), (b) or (c); or</p>
+                </item>
+                <item id="section-9.3A.list1.e">
+                  <num>(e)</num>
+                  <p>if his or her address or that of an agent in the Republic is unknown, when it has been posted in a conspicuous place on the immovable property to which it relates.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-9.4">
+            <num>(4)</num>
+            <content>
+              <p>Any costs incurred by the <term refersTo="#term-City" id="trm88">City</term> in the course of remedying the contravention as contemplated in subsection (3), may be recoverable in terms of the Credit Control and Debt Collection By-law of the <term refersTo="#term-City" id="trm89">City</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Responsibility for compliance with this by-law</heading>
+          <paragraph id="section-10.paragraph-0">
+            <content>
+              <blockList id="section-10.paragraph-0.list1">
+                <listIntroduction>The <term refersTo="#term-owner" id="trm90">owner</term> is responsible for ensuring compliance with this By-law and the National Water Act, 1998 (Act No.36 of 1998) in respect of all or any matters relating to –</listIntroduction>
+                <item id="section-10.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>the use of <term refersTo="#term-treated_effluent" id="trm91">treated effluent</term>;</p>
+                </item>
+                <item id="section-10.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p><term refersTo="#term-treated_effluent" id="trm92">treated effluent</term> installations; and</p>
+                </item>
+                <item id="section-10.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>the maintenance of <term refersTo="#term-treated_effluent" id="trm93">treated effluent</term> installations.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+      <chapter id="chapter-2">
+        <num>2</num>
+        <heading>Provisions relating to the supply of <term refersTo="#term-treated_effluent" id="trm94">treated effluent</term></heading>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Unauthorised use of <term refersTo="#term-treated_effluent" id="trm95">treated effluent</term></heading>
+          <paragraph id="section-11.paragraph-0">
+            <content>
+              <blockList id="section-11.paragraph-0.list1">
+                <listIntroduction>No <term refersTo="#term-person" id="trm96">person</term> may use <term refersTo="#term-treated_effluent" id="trm97">treated effluent</term> from the <term refersTo="#term-treated_effluent" id="trm98">treated effluent</term> supply system—</listIntroduction>
+                <item id="section-11.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>unless an <term refersTo="#term-agreement" id="trm99">agreement</term> referred to in section 13 has been concluded;</p>
+                </item>
+                <item id="section-11.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>unless his or her potable water supply has a suitable backflow preventer to the satisfaction of the <term refersTo="#term-authorised_official" id="trm100">authorised official</term> installed; or</p>
+                </item>
+                <item id="section-11.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>except through a metered and backflow prevented <term refersTo="#term-treated_effluent" id="trm101">treated effluent</term> supply point specifically installed by the <term refersTo="#term-City" id="trm102">City</term> for the supply of <term refersTo="#term-treated_effluent" id="trm103">treated effluent</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Application for supply of <term refersTo="#term-treated_effluent" id="trm104">treated effluent</term></heading>
+          <subsection id="section-12.1">
+            <num>(1)</num>
+            <content>
+              <p>Treated effluent from the <term refersTo="#term-treated_effluent" id="trm105">treated effluent</term> supply system of the <term refersTo="#term-City" id="trm106">City</term> will not be supplied to any premises unless the <term refersTo="#term-consumer" id="trm107">consumer</term>, with the consent of the <term refersTo="#term-owner" id="trm108">owner</term>, has applied to the <term refersTo="#term-City" id="trm109">City</term> for a supply and such application has been agreed to, subject to such conditions as may be imposed by the <term refersTo="#term-authorised_official" id="trm110">authorised official</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm111">consumer</term> is liable for all the fees in respect of the supply of <term refersTo="#term-treated_effluent" id="trm112">treated effluent</term>, determined in terms of the <term refersTo="#term-Tariff_By-law" id="trm113">Tariff By-law</term>, until the supply has been interrupted at the request of the <term refersTo="#term-consumer" id="trm114">consumer</term> or the <term refersTo="#term-agreement" id="trm115">agreement</term> has been terminated in accordance with this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-12.3.list1">
+                <listIntroduction>An application must contain at least the following information -</listIntroduction>
+                <item id="section-12.3.list1.a">
+                  <num>(a)</num>
+                  <p>a declaration that the applicant is aware of and understands the contents of the <term refersTo="#term-agreement" id="trm116">agreement</term>;</p>
+                </item>
+                <item id="section-12.3.list1.b">
+                  <num>(b)</num>
+                  <p>acceptance of liability in terms of this By-law for the cost of the supply of <term refersTo="#term-treated_effluent" id="trm117">treated effluent</term> until the <term refersTo="#term-agreement" id="trm118">agreement</term> is terminated;</p>
+                </item>
+                <item id="section-12.3.list1.c">
+                  <num>(c)</num>
+                  <p>the name of the applicant and his or her identity number;</p>
+                </item>
+                <item id="section-12.3.list1.d">
+                  <num>(d)</num>
+                  <p>the address or erf number of the premises to or on which <term refersTo="#term-treated_effluent" id="trm119">treated effluent</term> is to be supplied;</p>
+                </item>
+                <item id="section-12.3.list1.e">
+                  <num>(e)</num>
+                  <p>the address where accounts must be sent;</p>
+                </item>
+                <item id="section-12.3.list1.f">
+                  <num>(f)</num>
+                  <p>the purpose for which the <term refersTo="#term-treated_effluent" id="trm120">treated effluent</term> is to be used;</p>
+                </item>
+                <item id="section-12.3.list1.g">
+                  <num>(g)</num>
+                  <p>the agreed date on which the supply of <term refersTo="#term-treated_effluent" id="trm121">treated effluent</term> will commence;</p>
+                </item>
+                <item id="section-12.3.list1.h">
+                  <num>(h)</num>
+                  <p>the plumbing layout; and</p>
+                </item>
+                <item id="section-12.3.list1.i">
+                  <num>(i)</num>
+                  <p>an undertaking by the applicant to inform the <term refersTo="#term-City" id="trm122">City</term> of any change in regard to the provisions of (a) to (h).</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-12.4">
+            <num>(4)</num>
+            <content>
+              <p>Where the purpose for, or extent to which, the <term refersTo="#term-treated_effluent" id="trm123">treated effluent</term> applied for in subsection (3)(f) is changed, the <term refersTo="#term-consumer" id="trm124">consumer</term> must promptly in addition to advising the <term refersTo="#term-City" id="trm125">City</term> of the change, enter into a new <term refersTo="#term-agreement" id="trm126">agreement</term> with the <term refersTo="#term-City" id="trm127">City</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.5">
+            <num>(5)</num>
+            <content>
+              <p>Treated effluent may only be supplied where reticulation exists.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Agreements</heading>
+          <subsection id="section-13.1">
+            <num>(1)</num>
+            <content>
+              <p>All consumers of <term refersTo="#term-treated_effluent" id="trm128">treated effluent</term> are required to enter into an <term refersTo="#term-agreement" id="trm129">agreement</term> with the <term refersTo="#term-City" id="trm130">City</term> subject to the provisions of this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-agreement" id="trm131">agreement</term> contemplated in subsection (1) must include all the information referred to in section 12(3)(a) to (i).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>Pipes in streets or public places</heading>
+          <paragraph id="section-14.paragraph-0">
+            <content>
+              <p>No <term refersTo="#term-person" id="trm132">person</term> may for the purpose of conveying <term refersTo="#term-treated_effluent" id="trm133">treated effluent</term> derived from whatever source, lay or construct a pipe or associated component on, in or under a street, public place or other land owned by or under the control of the <term refersTo="#term-City" id="trm134">City</term>, except with the prior written permission of the <term refersTo="#term-authorised_official" id="trm135">authorised official</term> and subject to such conditions as he or she may impose.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Termination of agreements</heading>
+          <subsection id="section-15.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-consumer" id="trm136">consumer</term> may terminate an <term refersTo="#term-agreement" id="trm137">agreement</term> for the provision of <term refersTo="#term-treated_effluent" id="trm138">treated effluent</term> by giving the <term refersTo="#term-City" id="trm139">City</term> not less than seven days’ notice in writing of his or her intention to do so.</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-15.2.list1">
+                <listIntroduction>The <term refersTo="#term-authorised_official" id="trm140">authorised official</term> may, by notice in writing of not less than fourteen days, advise a <term refersTo="#term-consumer" id="trm141">consumer</term> of the termination of his or her <term refersTo="#term-agreement" id="trm142">agreement</term> for the supply of <term refersTo="#term-treated_effluent" id="trm143">treated effluent</term> —</listIntroduction>
+                <item id="section-15.2.list1.a">
+                  <num>(a)</num>
+                  <p>where the <term refersTo="#term-agreement" id="trm144">agreement</term> has expired, that he or she has not made arrangements to the satisfaction of the Director: Water and Sanitation for the continuation of the <term refersTo="#term-agreement" id="trm145">agreement</term>, or</p>
+                </item>
+                <item id="section-15.2.list1.b">
+                  <num>(b)</num>
+                  <p>where he or she has failed to comply with the provisions of this By-law or has failed to rectify such failure following the issue of a compliance notice; or</p>
+                </item>
+                <item id="section-15.2.list1.c">
+                  <num>(c)</num>
+                  <p>where he or she has failed to pay any fees due and payable in terms of the <term refersTo="#term-Tariff_By-law" id="trm146">Tariff By-law</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-15.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-City" id="trm147">City</term> may terminate an <term refersTo="#term-agreement" id="trm148">agreement</term> for the supply of <term refersTo="#term-treated_effluent" id="trm149">treated effluent</term> if the premises to which such <term refersTo="#term-agreement" id="trm150">agreement</term> relates have been vacated.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Interference with the <term refersTo="#term-treated_effluent" id="trm151">treated effluent</term> supply system</heading>
+          <paragraph id="section-16.paragraph-0">
+            <content>
+              <p>No <term refersTo="#term-person" id="trm152">person</term> other than the <term refersTo="#term-City" id="trm153">City</term> may effect a connection to the <term refersTo="#term-treated_effluent" id="trm154">treated effluent</term> system of the <term refersTo="#term-City" id="trm155">City</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Obstruction of access to the <term refersTo="#term-treated_effluent" id="trm156">treated effluent</term> supply system</heading>
+          <paragraph id="section-17.paragraph-0">
+            <content>
+              <p>No <term refersTo="#term-person" id="trm157">person</term> may prevent or restrict the access of officials of the <term refersTo="#term-City" id="trm158">City</term> to the <term refersTo="#term-treated_effluent" id="trm159">treated effluent</term> system.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Servitudes</heading>
+          <paragraph id="section-18.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm160">consumer</term> is responsible for obtaining at his or her cost, such servitudes over other property as may be necessary for the <term refersTo="#term-treated_effluent" id="trm161">treated effluent</term> system.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-19">
+          <num>19.</num>
+          <heading>Interconnection between premises</heading>
+          <paragraph id="section-19.paragraph-0">
+            <content>
+              <p>A <term refersTo="#term-consumer" id="trm162">consumer</term> must ensure that no interconnection exists between the <term refersTo="#term-treated_effluent_installation" id="trm163">treated effluent installation</term> on the premises and the <term refersTo="#term-treated_effluent_installation" id="trm164">treated effluent installation</term> on other premises, unless the <term refersTo="#term-consumer" id="trm165">consumer</term> has obtained the prior written consent of the <term refersTo="#term-authorised_official" id="trm166">authorised official</term> and has complied with any conditions imposed by him or her.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>Provision and position of isolating valves</heading>
+          <subsection id="section-20.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-authorised_official" id="trm167">authorised official</term> must install an isolating valve between every meter and the main.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-20.2.list1">
+                <listIntroduction>The <term refersTo="#term-consumer" id="trm168">consumer</term> must, at own expense, and for his or her exclusive use, provide and install an isolating valve—</listIntroduction>
+                <item id="section-20.2.list1.a">
+                  <num>(a)</num>
+                  <p>in the case of a meter installed on the premises, at a suitable point on his or her side of the meter;</p>
+                </item>
+                <item id="section-20.2.list1.b">
+                  <num>(b)</num>
+                  <p>in the case of a meter installed outside the premises, at a suitable point immediately inside the boundary of his or her premises, provided that the <term refersTo="#term-authorised_official" id="trm169">authorised official</term> may, on failure of the <term refersTo="#term-consumer" id="trm170">consumer</term> and at the <term refersTo="#term-consumer" id="trm171">consumer</term>’s expense, provide and so install an isolating valve.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-20.3">
+            <num>(3)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm172">person</term> may without the approval of the <term refersTo="#term-City" id="trm173">City</term> tamper with the isolating valve between the meter and the main.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-21">
+          <num>21.</num>
+          <heading>Availability and assurance of supply</heading>
+          <subsection id="section-21.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-21.1.list1">
+                <listIntroduction>The supply of <term refersTo="#term-treated_effluent" id="trm174">treated effluent</term> by the <term refersTo="#term-City" id="trm175">City</term> does not constitute an undertaking to maintain at any time or at any point in its <term refersTo="#term-treated_effluent" id="trm176">treated effluent</term> system—</listIntroduction>
+                <item id="section-21.1.list1.a">
+                  <num>(a)</num>
+                  <p>an uninterrupted supply;</p>
+                </item>
+                <item id="section-21.1.list1.b">
+                  <num>(b)</num>
+                  <p>a specific pressure or rate of flow in such supply; or</p>
+                </item>
+                <item id="section-21.1.list1.c">
+                  <num>(c)</num>
+                  <p>a specific standard of quality of the water.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-21.2">
+            <num>(2)</num>
+            <content>
+              <p>If a <term refersTo="#term-consumer" id="trm177">consumer</term> requires an uninterrupted supply, a specific pressure or rate of flow or a specific standard of quality of water on the premises, the <term refersTo="#term-consumer" id="trm178">consumer</term> must make his or her own arrangements for compliance with such requirements.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-City" id="trm179">City</term> may, for the purpose of this By-law, interrupt the supply of <term refersTo="#term-treated_effluent" id="trm180">treated effluent</term> without prior notice.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.4">
+            <num>(4)</num>
+            <content>
+              <p>If the consumption of <term refersTo="#term-treated_effluent" id="trm181">treated effluent</term> on a premises adversely affects the supply of <term refersTo="#term-treated_effluent" id="trm182">treated effluent</term> to another premises, the <term refersTo="#term-authorised_official" id="trm183">authorised official</term> may apply such restrictions as he or she may deem fit to the supply of <term refersTo="#term-treated_effluent" id="trm184">treated effluent</term> to the first-mentioned premises in order to ensure a reasonable supply of <term refersTo="#term-treated_effluent" id="trm185">treated effluent</term> to the other premises, and must inform the <term refersTo="#term-consumer" id="trm186">consumer</term> of the first mentioned premises of such restrictions.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-22">
+          <num>22.</num>
+          <heading>Restriction or cutting-off of supply</heading>
+          <subsection id="section-22.1">
+            <num>(1)</num>
+            <content>
+              <p>Subject to any other right the <term refersTo="#term-City" id="trm187">City</term> may have, the <term refersTo="#term-authorised_official" id="trm188">authorised official</term> may, if a <term refersTo="#term-consumer" id="trm189">consumer</term> has failed to pay a sum due in terms of the <term refersTo="#term-Tariff_By-law" id="trm190">Tariff By-law</term>, by written notice inform him or her of the intention to restrict or cut off the supply of <term refersTo="#term-treated_effluent" id="trm191">treated effluent</term> on a specified date and to restrict or cut off such supply on or after that date.</p>
+            </content>
+          </subsection>
+          <subsection id="section-22.2">
+            <num>(2)</num>
+            <content>
+              <p>Subject to any other right the <term refersTo="#term-City" id="trm192">City</term> may have, the <term refersTo="#term-authorised_official" id="trm193">authorised official</term> may by written notice, if a <term refersTo="#term-consumer" id="trm194">consumer</term> has contravened this By-law and has failed to rectify such contravention within the period specified in a written notice served on him or her requiring him or her to do so, inform him or her of the intention to restrict or cut off his supply of <term refersTo="#term-treated_effluent" id="trm195">treated effluent</term> on a specified date and to restrict or cut off such supply on or after that date.</p>
+            </content>
+          </subsection>
+          <subsection id="section-22.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm196">consumer</term> or the <term refersTo="#term-owner" id="trm197">owner</term> must pay the fees for the cutting-off of supply and restoration of the <term refersTo="#term-treated_effluent" id="trm198">treated effluent</term> supply in terms of the <term refersTo="#term-Tariff_By-law" id="trm199">Tariff By-law</term>: Provided that all such fees are paid prior to the restoration of the <term refersTo="#term-treated_effluent" id="trm200">treated effluent</term> supply.</p>
+            </content>
+          </subsection>
+          <subsection id="section-22.4">
+            <num>(4)</num>
+            <content>
+              <p>A <term refersTo="#term-consumer" id="trm201">consumer</term> whose access to <term refersTo="#term-treated_effluent" id="trm202">treated effluent</term> has been restricted or disconnected, who unlawfully reconnects it, must be disconnected.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-23">
+          <num>23.</num>
+          <heading>Metering of <term refersTo="#term-treated_effluent" id="trm203">treated effluent</term> supplied</heading>
+          <subsection id="section-23.1">
+            <num>(1)</num>
+            <content>
+              <p>Treated effluent supplied to premises must pass through a meter, installed in a position determined by the <term refersTo="#term-authorised_official" id="trm204">authorised official</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.2">
+            <num>(2)</num>
+            <content>
+              <p>A meter and its associated apparatus is provided and installed by the <term refersTo="#term-City" id="trm205">City</term>, remains its property, and may be replaced or removed when deemed necessary by the Director: Water and Sanitation.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-23.3.list1">
+                <listIntroduction>If the <term refersTo="#term-City" id="trm206">City</term> installs a meter together with its associated apparatus in a <term refersTo="#term-treated_effluent_installation" id="trm207">treated effluent installation</term> the <term refersTo="#term-consumer" id="trm208">consumer</term>—</listIntroduction>
+                <item id="section-23.3.list1.a">
+                  <num>(a)</num>
+                  <p>must provide an installation point approved by the <term refersTo="#term-authorised_official" id="trm209">authorised official</term>;</p>
+                </item>
+                <item id="section-23.3.list1.b">
+                  <num>(b)</num>
+                  <p>must ensure that unrestricted access is available to it at all times;</p>
+                </item>
+                <item id="section-23.3.list1.c">
+                  <num>(c)</num>
+                  <p>is responsible for its protection when situated inside the property and liable for the costs arising from damage thereto excluding damages arising from normal fair wear and tear;</p>
+                </item>
+                <item id="section-23.3.list1.d">
+                  <num>(d)</num>
+                  <p>must ensure that no connection is made to the pipe in which the meter is installed, between the meter and the main;</p>
+                </item>
+                <item id="section-23.3.list1.e">
+                  <num>(e)</num>
+                  <p>must make provision for the drainage of water which may be discharged from the pipe in which the meter is installed, in the course of work done by the <term refersTo="#term-City" id="trm210">City</term> on the meter; and</p>
+                </item>
+                <item id="section-23.3.list1.f">
+                  <num>(f)</num>
+                  <p>may not use, nor permit to be used, on any <term refersTo="#term-treated_effluent_installation" id="trm211">treated effluent installation</term>, any fitting, machine or appliance which causes damage or is likely to cause damage to the <term refersTo="#term-treated_effluent" id="trm212">treated effluent</term> supply system inclusive of the meter.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-23.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-23.4.list1">
+                <listIntroduction>Only the <term refersTo="#term-City" id="trm213">City</term> may—</listIntroduction>
+                <item id="section-23.4.list1.a">
+                  <num>(a)</num>
+                  <p>disconnect a meter and its associated apparatus from the pipe in which they are installed;</p>
+                </item>
+                <item id="section-23.4.list1.b">
+                  <num>(b)</num>
+                  <p>break a seal on a meter; or</p>
+                </item>
+                <item id="section-23.4.list1.c">
+                  <num>(c)</num>
+                  <p>in any other way interfere with a meter and its associated apparatus.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-23.5">
+            <num>(5)</num>
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm214">person</term> contravening subsection (4) must pay the <term refersTo="#term-City" id="trm215">City</term> the cost of such quantity of <term refersTo="#term-treated_effluent" id="trm216">treated effluent</term> as was supplied.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.6">
+            <num>(6)</num>
+            <content>
+              <p>An <term refersTo="#term-occupier" id="trm217">occupier</term> of a premises must, immediately upon detection of a leak in a service pipe or from the body of the meter or its associated fittings, inform the <term refersTo="#term-City" id="trm218">City</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.7">
+            <num>(7)</num>
+            <content>
+              <blockList id="section-23.7.list1">
+                <listIntroduction>If access to a meter is denied for reading purposes, the <term refersTo="#term-authorised_official" id="trm219">authorised official</term> may—</listIntroduction>
+                <item id="section-23.7.list1.a">
+                  <num>(a)</num>
+                  <p>upon written notice to the <term refersTo="#term-consumer" id="trm220">consumer</term> on the premises, inform him or her of the intention to install at the <term refersTo="#term-consumer" id="trm221">consumer</term>’s cost, another meter;</p>
+                </item>
+                <item id="section-23.7.list1.b">
+                  <num>(b)</num>
+                  <p>render an account for the quantity of <term refersTo="#term-treated_effluent" id="trm222">treated effluent</term> consumed at such premises as measured on the meter installed.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-23.8">
+            <num>(8)</num>
+            <content>
+              <p>The <term refersTo="#term-owner" id="trm223">owner</term> of the premises is liable for all costs of the <term refersTo="#term-treated_effluent" id="trm224">treated effluent</term> supply system and apparatus inclusive of the meter where damaged as a result of negligence or installation of incorrect fittings or appliances.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-24">
+          <num>24.</num>
+          <heading>Quantity of <term refersTo="#term-treated_effluent" id="trm225">treated effluent</term> supplied</heading>
+          <paragraph id="section-24.paragraph-0">
+            <content>
+              <blockList id="section-24.paragraph-0.list1">
+                <listIntroduction>For the purpose of assessing the quantity of <term refersTo="#term-treated_effluent" id="trm226">treated effluent</term> supplied through a meter over a specific period, it must be deemed, unless the contrary can be proved, that—</listIntroduction>
+                <item id="section-24.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>the quantity is represented by the difference between readings of the meter taken at the beginning and end of such period;</p>
+                </item>
+                <item id="section-24.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>the meter was registering correctly during such period; and</p>
+                </item>
+                <item id="section-24.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>the entries in the records of the <term refersTo="#term-City" id="trm227">City</term> were correctly made;</p>
+                </item>
+              </blockList>
+              <p>provided that if <term refersTo="#term-treated_effluent" id="trm228">treated effluent</term> is supplied or taken without its passing through a meter where tampering has occurred, the estimate by the <term refersTo="#term-authorised_official" id="trm229">authorised official</term> of the quantity of such <term refersTo="#term-treated_effluent" id="trm230">treated effluent</term> shall be deemed to be correct.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-25">
+          <num>25.</num>
+          <heading>Resale of <term refersTo="#term-treated_effluent" id="trm231">treated effluent</term></heading>
+          <subsection id="section-25.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-25.1.list1">
+                <listIntroduction>No <term refersTo="#term-person" id="trm232">person</term> who is supplied with <term refersTo="#term-treated_effluent" id="trm233">treated effluent</term> in terms of this By-law may sell such <term refersTo="#term-treated_effluent" id="trm234">treated effluent</term> unless—</listIntroduction>
+                <item id="section-25.1.list1.a">
+                  <num>(a)</num>
+                  <p>provision has been made therefore in an <term refersTo="#term-agreement" id="trm235">agreement</term> referred to in section 13; or</p>
+                </item>
+                <item id="section-25.1.list1.b">
+                  <num>(b)</num>
+                  <p>he or she has obtained the prior written permission of the <term refersTo="#term-authorised_official" id="trm236">authorised official</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-25.2">
+            <num>(2)</num>
+            <content>
+              <p>If the <term refersTo="#term-authorised_official" id="trm237">authorised official</term> grants the permission referred to in subsection (1)(b), he or she may stipulate the maximum price, determined by <term refersTo="#term-Council" id="trm238">Council</term>, at which the <term refersTo="#term-treated_effluent" id="trm239">treated effluent</term> may be sold and impose such other conditions as he or she may deem fit.</p>
+            </content>
+          </subsection>
+          <subsection id="section-25.3">
+            <num>(3)</num>
+            <content>
+              <p>Permission referred to in subsection (1)(b) may, due to failure to comply with the conditions imposed by the <term refersTo="#term-authorised_official" id="trm240">authorised official</term>, be withdrawn at any time.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-26">
+          <num>26.</num>
+          <heading>Estimation of quantity of <term refersTo="#term-treated_effluent" id="trm241">treated effluent</term> supplied to <term refersTo="#term-consumer" id="trm242">consumer</term> through defective meter</heading>
+          <subsection id="section-26.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-26.1.list1">
+                <listIntroduction>If a meter is found to be defective, the <term refersTo="#term-authorised_official" id="trm243">authorised official</term> may estimate the quantity of <term refersTo="#term-treated_effluent" id="trm244">treated effluent</term> supplied to the <term refersTo="#term-consumer" id="trm245">consumer</term> concerned during the period in which such meter was defective, on the basis of the average daily quantity of <term refersTo="#term-treated_effluent" id="trm246">treated effluent</term> supplied over—</listIntroduction>
+                <item id="section-26.1.list1.a">
+                  <num>(a)</num>
+                  <p>a period between two successive meter readings subsequent to the replacement of the meter; or</p>
+                </item>
+                <item id="section-26.1.list1.b">
+                  <num>(b)</num>
+                  <p>a period in the previous year corresponding to the period in which the meter was defective; or</p>
+                </item>
+                <item id="section-26.1.list1.c">
+                  <num>(c)</num>
+                  <p>the period between three successive meter readings prior to the meter becoming defective,</p>
+                </item>
+              </blockList>
+              <p>whichever the <term refersTo="#term-authorised_official" id="trm247">authorised official</term> considers the most appropriate.</p>
+            </content>
+          </subsection>
+          <subsection id="section-26.2">
+            <num>(2)</num>
+            <content>
+              <p>If the quantity of <term refersTo="#term-treated_effluent" id="trm248">treated effluent</term> supplied to a <term refersTo="#term-consumer" id="trm249">consumer</term> during the period when the meter was defective cannot be estimated in terms of subsection (1), the <term refersTo="#term-authorised_official" id="trm250">authorised official</term> may estimate the quantity on any basis that is available.</p>
+            </content>
+          </subsection>
+          <subsection id="section-26.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm251">consumer</term> must be informed of the method used by the <term refersTo="#term-authorised_official" id="trm252">authorised official</term> to estimate the quantity of <term refersTo="#term-treated_effluent" id="trm253">treated effluent</term> supplied to him or her, as contemplated in subsection (1) and (2).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-27">
+          <num>27.</num>
+          <heading>Special measurement</heading>
+          <subsection id="section-27.1">
+            <num>(1)</num>
+            <content>
+              <p>If the <term refersTo="#term-authorised_official" id="trm254">authorised official</term> requires, for purposes other than charging for <term refersTo="#term-treated_effluent" id="trm255">treated effluent</term> consumed, to ascertain the quantity of <term refersTo="#term-treated_effluent" id="trm256">treated effluent</term> which is used in a part of a <term refersTo="#term-treated_effluent_installation" id="trm257">treated effluent installation</term>, may, by written notice, advise the <term refersTo="#term-consumer" id="trm258">consumer</term> concerned of his or her intention to install a measuring device at any point in the <term refersTo="#term-treated_effluent_installation" id="trm259">treated effluent installation</term> that he or she may specify.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.2">
+            <num>(2)</num>
+            <content>
+              <p>The installation and removal of a measuring device referred to in subsection (1) will be carried out at the expense of the <term refersTo="#term-City" id="trm260">City</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.3">
+            <num>(3)</num>
+            <content>
+              <p>The provisions of sections 23(3) (b) and 24(b) apply, insofar as they may be applicable, in respect of a measuring device that has been installed in terms of subsection (1).</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-City" id="trm261">City</term> may on receipt of a written notice from the <term refersTo="#term-consumer" id="trm262">consumer</term> and subject to arrangement of payment of the relevant <term refersTo="#term-prescribed_charge" id="trm263">prescribed charge</term> for water meters, read the meter to ascertain the quantity of <term refersTo="#term-treated_effluent" id="trm264">treated effluent</term> supplied at a time, or on a day, other than upon which the meter would normally be read.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>General <term refersTo="#term-treated_effluent_installation" id="trm265">treated effluent installation</term> requirements</heading>
+        <section id="section-28">
+          <num>28.</num>
+          <heading>Provision and maintenance of <term refersTo="#term-treated_effluent" id="trm266">treated effluent</term> installations</heading>
+          <subsection id="section-28.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-28.1.list1">
+                <listIntroduction>A <term refersTo="#term-consumer" id="trm267">consumer</term> must provide and maintain the <term refersTo="#term-treated_effluent_installation" id="trm268">treated effluent installation</term> at own cost and, except—</listIntroduction>
+                <item id="section-28.1.list1.a">
+                  <num>(a)</num>
+                  <p>in the case of a connection to a communication pipe; or</p>
+                </item>
+                <item id="section-28.1.list1.b">
+                  <num>(b)</num>
+                  <p>where permitted in terms of section 14, and must ensure that the installation is within the boundary of the premises.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-28.2">
+            <num>(2)</num>
+            <content>
+              <p>Before work is commenced in connection with the maintenance of a portion of the <term refersTo="#term-treated_effluent_installation" id="trm269">treated effluent installation</term> which is situated outside the boundary of the premises, a <term refersTo="#term-consumer" id="trm270">consumer</term> must obtain the written consent of the <term refersTo="#term-authorised_official" id="trm271">authorised official</term> or the <term refersTo="#term-owner" id="trm272">owner</term> of the land on which such portion is situated, as the case may be.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-29">
+          <num>29.</num>
+          <heading>Accepted pipes and <term refersTo="#term-treated_effluent" id="trm273">treated effluent</term> fittings</heading>
+          <subsection id="section-29.1">
+            <num>(1)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm274">person</term> may install or use a pipe or <term refersTo="#term-treated_effluent" id="trm275">treated effluent</term> fitting in a <term refersTo="#term-treated_effluent_installation" id="trm276">treated effluent installation</term> unless it complies with Schedule 1.</p>
+            </content>
+          </subsection>
+          <subsection id="section-29.2">
+            <num>(2)</num>
+            <content>
+              <p>Notwithstanding the provision of subsection (1), the <term refersTo="#term-authorised_official" id="trm277">authorised official</term> may for a specific use in a specific installation, permit the installation or use of a pipe or <term refersTo="#term-treated_effluent" id="trm278">treated effluent</term> fitting which is not included in Schedule 1.</p>
+            </content>
+          </subsection>
+          <subsection id="section-29.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-authorised_official" id="trm279">authorised official</term> may, in respect of any pipe or <term refersTo="#term-treated_effluent" id="trm280">treated effluent</term> fitting included in Schedule 1, impose such conditions as he or she may deem necessary in respect of the use or method of installation thereof.</p>
+            </content>
+          </subsection>
+          <subsection id="section-29.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-authorised_official" id="trm281">authorised official</term> may at any time remove a pipe or <term refersTo="#term-treated_effluent" id="trm282">treated effluent</term> fitting from Schedule 1 if the pipe or <term refersTo="#term-treated_effluent" id="trm283">treated effluent</term> fitting no longer suitable for the purpose for which its use was accepted or included.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-30">
+          <num>30.</num>
+          <heading>Signage</heading>
+          <subsection id="section-30.1">
+            <num>(1)</num>
+            <content>
+              <p>An <term refersTo="#term-owner" id="trm284">owner</term> of premises on which <term refersTo="#term-treated_effluent" id="trm285">treated effluent</term> is used, must ensure that every terminal water fitting and every appliance which supplies or uses the water is clearly marked with a weatherproof notice indicating that such water is unsuitable for domestic purposes.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.2">
+            <num>(2)</num>
+            <content>
+              <p>In an area where <term refersTo="#term-treated_effluent" id="trm286">treated effluent</term> is used, the <term refersTo="#term-consumer" id="trm287">consumer</term> shall erect weatherproof notices in prominent positions warning that such water is not suitable for domestic purposes.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.3">
+            <num>(3)</num>
+            <content>
+              <p>Every warning notice prescribed in terms of subsections (1) and (2) must be in the three official languages used in the <term refersTo="#term-City" id="trm288">City</term>. (4)Signage must comply with the minimum standard set in the signage of the <term refersTo="#term-City" id="trm289">City</term> as contained in Schedule 2.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.4">
+            <num>(4)</num>
+            <content>
+              <p>Signage must comply with the minimum standard set in the signage of the <term refersTo="#term-City" id="trm290">City</term> as contained in Schedule 2.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.5">
+            <num>(5)</num>
+            <content>
+              <p>Prominent notices indicating that <term refersTo="#term-treated_effluent" id="trm291">treated effluent</term> is being used is to be erected in a position clearly visible from a public thoroughfare, at positions determined by the <term refersTo="#term-City" id="trm292">City</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.6">
+            <num>(6)</num>
+            <content>
+              <p>The <term refersTo="#term-authorised_official" id="trm293">authorised official</term> may subject to national legislation or any other law substitute Schedule 2 to this By-law and issue revised or new signage applicable in terms of this section.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-31">
+          <num>31.</num>
+          <heading>Design criteria for <term refersTo="#term-treated_effluent" id="trm294">treated effluent</term> installations</heading>
+          <subsection id="section-31.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-31.1.list1">
+                <listIntroduction>A <term refersTo="#term-consumer" id="trm295">consumer</term> must ensure that—</listIntroduction>
+                <item id="section-31.1.list1.a">
+                  <num>(a)</num>
+                  <p><term refersTo="#term-treated_effluent" id="trm296">treated effluent</term> installations comply with <term refersTo="#term-SANS" id="trm297">SANS</term> 10252: 2004 Part 1, or as it may be amended; and</p>
+                </item>
+                <item id="section-31.1.list1.b">
+                  <num>(b)</num>
+                  <p>no interconnection between <term refersTo="#term-treated_effluent" id="trm298">treated effluent</term> and potable water supplies exist.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-31.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-31.3.list1">
+                <listIntroduction>If a pipe or <term refersTo="#term-treated_effluent" id="trm299">treated effluent</term> fitting of a particular type is unsuitable for use in a particular situation or any connection between <term refersTo="#term-treated_effluent" id="trm300">treated effluent</term> and potable water supplies are made, the <term refersTo="#term-authorised_official" id="trm301">authorised official</term> may by written notice to the <term refersTo="#term-owner" id="trm302">owner</term>—</listIntroduction>
+                <item id="section-31.3.list1.a">
+                  <num>(a)</num>
+                  <p>prohibit the use thereof; or</p>
+                </item>
+                <item id="section-31.3.list1.b">
+                  <num>(b)</num>
+                  <p>require acceptable protective measures to be applied.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-31.4">
+            <num>(4)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm303">person</term> may connect to a <term refersTo="#term-treated_effluent_installation" id="trm304">treated effluent installation</term> a <term refersTo="#term-treated_effluent" id="trm305">treated effluent</term> fitting or apparatus which causes or is likely to cause damage to the <term refersTo="#term-treated_effluent" id="trm306">treated effluent</term> supply system or another water installation as a result of pressure surges.</p>
+            </content>
+          </subsection>
+          <subsection id="section-31.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-31.5.list1">
+                <listIntroduction>Premises that require feeds from both the <term refersTo="#term-treated_effluent" id="trm307">treated effluent</term> and potable supply schemes must comply with the following minimum standard:</listIntroduction>
+                <item id="section-31.5.list1.a">
+                  <num>(a)</num>
+                  <blockList id="section-31.5.list1.a.list0">
+                    <listIntroduction>Where both <term refersTo="#term-treated_effluent" id="trm308">treated effluent</term> and potable supply is to feed into a <term refersTo="#term-storage_tank" id="trm309">storage tank</term> with separate lines without connection,—</listIntroduction>
+                    <item id="section-31.5.list1.a.list0.i">
+                      <num>(i)</num>
+                      <p>the feeds should be into the top of such a <term refersTo="#term-storage_tank" id="trm310">storage tank</term> and close with manual or float ball valves;</p>
+                    </item>
+                    <item id="section-31.5.list1.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>the potable supply pipe must pass over the rim of the tank, not through the sidewall and end at least 100mm above the top of the maximum possible water level in the tank to ensure an air gap is always present and no feedback is possible; and</p>
+                    </item>
+                    <item id="section-31.5.list1.a.list0.iii">
+                      <num>(iii)</num>
+                      <p>distribution from the tank can then take place with a pump or other reticulation system.</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-31.5.list1.b">
+                  <num>(b)</num>
+                  <p>Feed into an irrigation system or other distribution may take place through a switchover chamber that allows only one connection at a time through a flexible hose installation.</p>
+                </item>
+                <item id="section-31.5.list1.c">
+                  <num>(c)</num>
+                  <blockList id="section-31.5.list1.c.list1">
+                    <listIntroduction>The flexible hose installation referred to in paragraph (b) shall include the following safety systems:</listIntroduction>
+                    <item id="section-31.5.list1.c.list1.i">
+                      <num>(i)</num>
+                      <p>the connection of the flexible hose to the discharge or downstream side shall be fixed and unremovable;</p>
+                    </item>
+                    <item id="section-31.5.list1.c.list1.ii">
+                      <num>(ii)</num>
+                      <p>a vacuum break air valve shall be installed on the discharge or downstream side; and</p>
+                    </item>
+                    <item id="section-31.5.list1.c.list1.iii">
+                      <num>(iii)</num>
+                      <p>the covers to the chamber shall be lockable for controlled access.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-31.6">
+            <num>(6)</num>
+            <content>
+              <p>The connection details of the chosen standard as described in subsection (5) must be submitted to the Director: Water and Sanitation for approval and the approved copy will form part of the signed <term refersTo="#term-agreement" id="trm311">agreement</term> in section 13.</p>
+            </content>
+          </subsection>
+          <subsection id="section-31.7">
+            <num>(7)</num>
+            <content>
+              <p>Any <term refersTo="#term-consumer" id="trm312">consumer</term> with both a <term refersTo="#term-treated_effluent" id="trm313">treated effluent</term> and a potable water supply on the premises, must install a Reduced Pressure Zone Backflow Preventer (RPZ) in accordance with <term refersTo="#term-SANS" id="trm314">SANS</term> 10252-1: 2004 Part 1 in all the potable water supply points entering the premises, downstream of his or her isolating valve which is situated downstream of the water meter.</p>
+            </content>
+          </subsection>
+          <subsection id="section-31.8">
+            <num>(8)</num>
+            <content>
+              <blockList id="section-31.8.list1">
+                <listIntroduction>The <term refersTo="#term-treated_effluent_tracer" id="trm315">treated effluent tracer</term> of the <term refersTo="#term-City" id="trm316">City</term> with text and <term refersTo="#term-SABS" id="trm317">SABS</term> non-potable sign must be installed—</listIntroduction>
+                <item id="section-31.8.list1.a">
+                  <num>(a)</num>
+                  <p>for the full length of all pipelines, including all distribution lines within the property;</p>
+                </item>
+                <item id="section-31.8.list1.b">
+                  <num>(b)</num>
+                  <p>directly over the pipeline; and</p>
+                </item>
+                <item id="section-31.8.list1.c">
+                  <num>(c)</num>
+                  <p>at a depth not greater than 500 mm below ground level.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-31.9">
+            <num>(9)</num>
+            <content>
+              <p>All pipelines must be painted orange and suitably designated.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-4">
+        <num>4</num>
+        <heading>Water quality</heading>
+        <section id="section-32">
+          <num>32.</num>
+          <heading>Disclaimer in respect of <term refersTo="#term-treated_effluent" id="trm318">treated effluent</term> quality</heading>
+          <subsection id="section-32.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-City" id="trm319">City</term> does not warrant, expressly or impliedly, the purity of any <term refersTo="#term-treated_effluent" id="trm320">treated effluent</term> supplied by it or its suitability for the purpose for which the supply was granted.</p>
+            </content>
+          </subsection>
+          <subsection id="section-32.2">
+            <num>(2)</num>
+            <content>
+              <p>The quality of the <term refersTo="#term-treated_effluent" id="trm321">treated effluent</term> may vary and the <term refersTo="#term-consumer" id="trm322">consumer</term> must take this into account.</p>
+            </content>
+          </subsection>
+          <subsection id="section-32.3">
+            <num>(3)</num>
+            <content>
+              <p>The use of <term refersTo="#term-treated_effluent" id="trm323">treated effluent</term> is entirely at the risk of the <term refersTo="#term-consumer" id="trm324">consumer</term> and the <term refersTo="#term-City" id="trm325">City</term> is not liable for any consequential damage or loss arising directly or indirectly therefrom.</p>
+            </content>
+          </subsection>
+          <subsection id="section-32.4">
+            <num>(4)</num>
+            <content>
+              <p>A <term refersTo="#term-consumer" id="trm326">consumer</term> that uses <term refersTo="#term-treated_effluent" id="trm327">treated effluent</term> for irrigation purposes is responsible for monitoring the quality of the <term refersTo="#term-treated_effluent" id="trm328">treated effluent</term> and to ensure that reports of such monitoring are made immediately available to and on request by an <term refersTo="#term-authorised_official" id="trm329">authorised official</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-32.5">
+            <num>(5)</num>
+            <content>
+              <p>Should a <term refersTo="#term-consumer" id="trm330">consumer</term> require a different quality status or parameter analysis of <term refersTo="#term-treated_effluent" id="trm331">treated effluent</term> to what is supplied to him or her or conducted on the effluent, the onus is on such <term refersTo="#term-consumer" id="trm332">consumer</term> to, at his or her own cost, cause the effluent to be improved or analyzed to meet his or her needs.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-33">
+          <num>33.</num>
+          <heading>Regulations from the department of water affairs and forestry</heading>
+          <paragraph id="section-33.paragraph-0">
+            <content>
+              <p>
+                <remark status="editorial">[Section 33 repealed by amendment on 2015-08-28.]</remark>
+              </p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+      <chapter id="chapter-5">
+        <num>5</num>
+        <heading>Health and hygiene</heading>
+        <section id="section-34">
+          <num>34.</num>
+          <heading>Guide on permissible utilization and disposal of treated sewage effluent</heading>
+          <paragraph id="section-34.paragraph-0">
+            <content>
+              <p>
+                <remark status="editorial">[Section 34 repealed by amendment on 2015-08-28.]</remark>
+              </p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+      <chapter id="chapter-6">
+        <num>6</num>
+        <heading>Plans approval procedure</heading>
+        <section id="section-35">
+          <num>35.</num>
+          <heading>Plans approval procedure</heading>
+          <paragraph id="section-35.paragraph-0">
+            <content>
+              <p>If a <term refersTo="#term-consumer" id="trm333">consumer</term> wishes to install a new <term refersTo="#term-treated_effluent_installation" id="trm334">treated effluent installation</term>, he or she must, in terms of applicable legislation, first obtain the written approval of the building plan for such installation.</p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+      <chapter id="chapter-7">
+        <num>7</num>
+        <heading>Installation by plumbers</heading>
+        <section id="section-36">
+          <num>36.</num>
+          <heading>Persons permitted to do installation and other work</heading>
+          <subsection id="section-36.1">
+            <num>(1)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm335">person</term>, who is not qualified and accredited in terms of the South African Qualifications Authority Act, 1995(Act No. 58 of 1995) may do <term refersTo="#term-installation_work" id="trm336">installation work</term> for which approval is required in terms of section 35;</p>
+            </content>
+          </subsection>
+          <subsection id="section-36.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-authorised_official" id="trm337">authorised official</term> may maintain a register of such qualified plumbers.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-37">
+          <num>37.</num>
+          <heading>Responsibilities of a property <term refersTo="#term-owner" id="trm338">owner</term> or <term refersTo="#term-consumer" id="trm339">consumer</term></heading>
+          <subsection id="section-37.1">
+            <num>(1)</num>
+            <content>
+              <p>A property <term refersTo="#term-owner" id="trm340">owner</term> or <term refersTo="#term-consumer" id="trm341">consumer</term> must ensure that the <term refersTo="#term-installation_work" id="trm342">installation work</term> done on his or her premises is carried out by a qualified plumber and complies with this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-37.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-37.2.list1">
+                <listIntroduction>If <term refersTo="#term-installation_work" id="trm343">installation work</term> is being done in contravention of section 36, the <term refersTo="#term-authorised_official" id="trm344">authorised official</term> may by written notice require the <term refersTo="#term-owner" id="trm345">owner</term> of the premises concerned to cease such work until he or she has employed a qualified plumber to—</listIntroduction>
+                <item id="section-37.2.list1.a">
+                  <num>(a)</num>
+                  <p>inspect such work and rectify any part of it which does not comply with this By-law; and</p>
+                </item>
+                <item id="section-37.2.list1.b">
+                  <num>(b)</num>
+                  <p>ensure that a certificate of compliance stating that the work carried out complies with this By-law is submitted to the <term refersTo="#term-authorised_official" id="trm346">authorised official</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-8">
+        <num>8</num>
+        <heading>Good use practices</heading>
+        <section id="section-38">
+          <num>38.</num>
+          <heading>Management</heading>
+          <paragraph id="section-38.paragraph-0">
+            <content>
+              <p>A <term refersTo="#term-consumer" id="trm347">consumer</term> should assign the responsibility for the use of <term refersTo="#term-treated_effluent" id="trm348">treated effluent</term> to a <term refersTo="#term-person" id="trm349">person</term> suitably qualified to manage use of <term refersTo="#term-treated_effluent" id="trm350">treated effluent</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-39">
+          <num>39.</num>
+          <heading>Offences and penalties</heading>
+          <subsection id="section-39.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-39.1.list1">
+                <listIntroduction>Any <term refersTo="#term-person" id="trm351">person</term> who—</listIntroduction>
+                <item id="section-39.1.list1.a">
+                  <num>(a)</num>
+                  <p>contravenes any provision of this By-law;</p>
+                </item>
+                <item id="section-39.1.list1.b">
+                  <num>(b)</num>
+                  <p>fails to comply with the terms of any notice issued in terms of this By-law;</p>
+                </item>
+                <item id="section-39.1.list1.c">
+                  <num>(c)</num>
+                  <p>threatens, resists, hinders or obstructs or uses foul, abusive or insulting language towards or at a councilor or an employee or contractor of the <term refersTo="#term-Council" id="trm352">Council</term> in the exercise of any powers or performance of any duties or function in terms of this By-law, or falsely holds himself or herself to be a councilor or an employee or a contractor of the <term refersTo="#term-Council" id="trm353">Council</term>,</p>
+                </item>
+              </blockList>
+              <p>shall be guilty of an offence and be liable, on conviction, to a term of imprisonment or a fine or to both such imprisonment and such a fine.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-40">
+          <num>40.</num>
+          <heading>Indemnity</heading>
+          <paragraph id="section-40.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm354">Council</term> shall not be liable for any damages or compensation arising from anything done in good faith in the course of implementation of this By-law.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-41">
+          <num>41.</num>
+          <heading>Appeals</heading>
+          <paragraph id="section-41.paragraph-0">
+            <content>
+              <p>A <term refersTo="#term-person" id="trm355">person</term> whose rights are affected by a decision taken in terms of a power or duty delegated or sub-delegated in terms of this By-law, may appeal against that decision in accordance with section 62 of the Local Government: Municipal Systems Act, 2000(Act No 32 of 2000).</p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+    </body>
+  </act>
+  <components>
+    <component id="component-schedule1">
+      <doc name="schedule1">
+        <meta>
+          <identification source="#slaw">
+            <FRBRWork>
+              <FRBRthis value="/za-cpt/act/by-law/2010/treated-effluent/schedule1"/>
+              <FRBRuri value="/za-cpt/act/by-law/2010/treated-effluent"/>
+              <FRBRalias value="Schedule 1"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-cpt/act/by-law/2010/treated-effluent/eng@2015-08-28/schedule1"/>
+              <FRBRuri value="/za-cpt/act/by-law/2010/treated-effluent/eng@2015-08-28"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-cpt/act/by-law/2010/treated-effluent/eng@2015-08-28/schedule1"/>
+              <FRBRuri value="/za-cpt/act/by-law/2010/treated-effluent/eng@2015-08-28"/>
+              <FRBRdate date="2016-07-10" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule1">
+            <heading>Accepted Pipes and Fittings</heading>
+            <section id="section-1">
+              <num>1.</num>
+              <heading>The piping used for treated effluent must be orange to be identified from the piping used for drinking water in respect of colour.</heading>
+            </section>
+            <section id="section-2">
+              <num>2.</num>
+              <heading>The taps, valves and sprayers of the irrigation system must be so designed that only authorised persons can open them or bring them into operation.</heading>
+            </section>
+            <section id="section-3">
+              <num>3.</num>
+              <heading>bears the standardization mark of the SABS in respect of the relevant SANS specification issued by the Bureau;</heading>
+            </section>
+            <section id="section-4">
+              <num>4.</num>
+              <heading>bears a certification mark issued by the SABS to certify that the pipe or treated effluent fitting complies with an SABS Mark specifica- tion or a provisional specification issued by the SABS, provided that no certification marks shall be issued for a period exceeding two years;</heading>
+            </section>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+    <component id="component-schedule2">
+      <doc name="schedule2">
+        <meta>
+          <identification source="#slaw">
+            <FRBRWork>
+              <FRBRthis value="/za-cpt/act/by-law/2010/treated-effluent/schedule2"/>
+              <FRBRuri value="/za-cpt/act/by-law/2010/treated-effluent"/>
+              <FRBRalias value="Schedule 2"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-cpt/act/by-law/2010/treated-effluent/eng@2015-08-28/schedule2"/>
+              <FRBRuri value="/za-cpt/act/by-law/2010/treated-effluent/eng@2015-08-28"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-cpt/act/by-law/2010/treated-effluent/eng@2015-08-28/schedule2"/>
+              <FRBRuri value="/za-cpt/act/by-law/2010/treated-effluent/eng@2015-08-28"/>
+              <FRBRdate date="2016-07-10" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule2">
+            <heading>Signage</heading>
+            <paragraph id="schedule2.paragraph-0">
+              <content>
+                <p>This schedule contains images which are not available in this format. Please see the original enacted PDF.</p>
+              </content>
+            </paragraph>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+    <component id="component-schedule3">
+      <doc name="schedule3">
+        <meta>
+          <identification source="#slaw">
+            <FRBRWork>
+              <FRBRthis value="/za-cpt/act/by-law/2010/treated-effluent/schedule3"/>
+              <FRBRuri value="/za-cpt/act/by-law/2010/treated-effluent"/>
+              <FRBRalias value="Schedule 3"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-cpt/act/by-law/2010/treated-effluent/eng@2015-08-28/schedule3"/>
+              <FRBRuri value="/za-cpt/act/by-law/2010/treated-effluent/eng@2015-08-28"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-cpt/act/by-law/2010/treated-effluent/eng@2015-08-28/schedule3"/>
+              <FRBRuri value="/za-cpt/act/by-law/2010/treated-effluent/eng@2015-08-28"/>
+              <FRBRdate date="2016-07-10" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule3">
+            <heading>Guide: Permissible utilization and disposal of treated sewage effluent</heading>
+            <paragraph id="schedule3.paragraph-0">
+              <content>
+                <p>
+                  <remark status="editorial">[Schedule 3 repealed by amendment on 2015-08-28.]</remark>
+                </p>
+              </content>
+            </paragraph>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>

@@ -1,0 +1,461 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-jhb/act/by-law/2008/tariff-determination/main"/>
+          <FRBRuri value="/za-jhb/act/by-law/2008/tariff-determination"/>
+          <FRBRalias value="City of Johannesburg's Tariff Determination By-laws, 2008"/>
+          <FRBRdate date="2008-08-21" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-jhb/act/by-law/2008/tariff-determination/eng@2008-08-21/main"/>
+          <FRBRuri value="/za-jhb/act/by-law/2008/tariff-determination/eng@2008-08-21"/>
+          <FRBRdate date="2008-08-21" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-jhb/act/by-law/2008/tariff-determination/eng@2008-08-21/main"/>
+          <FRBRuri value="/za-jhb/act/by-law/2008/tariff-determination/eng@2008-08-21"/>
+          <FRBRdate date="2017-02-19" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-08-21" name="Gauteng Provincial Gazette" showAs="Gauteng Provincial Gazette" number="228"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-By-laws" href="/ontology/term/this.eng.By-laws" showAs="By-laws"/>
+        <TLCTerm id="term-City" href="/ontology/term/this.eng.City" showAs="City"/>
+        <TLCTerm id="term-City_s_tariff_policy" href="/ontology/term/this.eng.City_s_tariff_policy" showAs="City's tariff policy"/>
+        <TLCTerm id="term-Constitution" href="/ontology/term/this.eng.Constitution" showAs="Constitution"/>
+        <TLCTerm id="term-Consumer" href="/ontology/term/this.eng.Consumer" showAs="Consumer"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-Credit_Control_and_Debt_Collection_By-Laws_and_Policy" href="/ontology/term/this.eng.Credit_Control_and_Debt_Collection_By-Laws_and_Policy" showAs="Credit Control and Debt Collection By-Laws and Policy"/>
+        <TLCTerm id="term-Determine" href="/ontology/term/this.eng.Determine" showAs="Determine"/>
+        <TLCTerm id="term-Premises" href="/ontology/term/this.eng.Premises" showAs="Premises"/>
+        <TLCTerm id="term-Municipal_service" href="/ontology/term/this.eng.Municipal_service" showAs="Municipal service"/>
+        <TLCTerm id="term-Systems_Act" href="/ontology/term/this.eng.Systems_Act" showAs="Systems Act"/>
+        <TLCTerm id="term-Tariff" href="/ontology/term/this.eng.Tariff" showAs="Tariff"/>
+      </references>
+    </meta>
+    <preface>
+      <p>The Municipal Manager of the City of Johannesburg Metropolitan Municipality hereby in terms is section 13(a) Local Government: Municipal Systems Act, 2000 (Act 32 of 2000), publishes Tariff Determination By-laws for the of the City of Johannesburg Metropolitan Municipality as approved by its Council, as set out hereunder.</p>
+    </preface>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Preamble</heading>
+        <subsection id="section-1.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-1.1.list1">
+              <listIntroduction>Section 229(1) of the <term refersTo="#term-Constitution" id="trm0">Constitution</term> authorizes a municipality to impose:</listIntroduction>
+              <item id="section-1.1.list1.a">
+                <num>(a)</num>
+                <p>rates in property and surcharges on fees for services provided by or on behalf of the municipality; and</p>
+              </item>
+              <item id="section-1.1.list1.b">
+                <num>(b)</num>
+                <p>if authorized by national legislation, other taxes, levies and duties.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-1.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-1.2.list1">
+              <listIntroduction>In terms of section 75A of the <term refersTo="#term-Systems_Act" id="trm1">Systems Act</term> a municipality a municipality may:</listIntroduction>
+              <item id="section-1.2.list1.a">
+                <num>(a)</num>
+                <p>levy and recover fees, charges or tariffs in respect of any function or service of the municipality; and</p>
+              </item>
+              <item id="section-1.2.list1.b">
+                <num>(b)</num>
+                <p>recover collection charges and interest on any outstanding amount.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-1.3">
+          <num>(3)</num>
+          <content>
+            <p>In terms of section 74(1) of the <term refersTo="#term-Systems_Act" id="trm2">Systems Act</term>, a municipal council must adopt and implement a tariff policy on the levying of fees for a municipal service provided by the municipality or by way of service delivery agreements and which complies with the provisions of the <term refersTo="#term-Systems_Act" id="trm3">Systems Act</term>, the Local Government: Municipal Finance Management Act, 53 of 2003 and any other applicable legislation.</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.4">
+          <num>(4)</num>
+          <content>
+            <p>In terms of section 75(1) of the <term refersTo="#term-Systems_Act" id="trm4">Systems Act</term>, a municipal council must adopt bylaws to give effect to the implementation and enforcement of its tariff policy.</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.5">
+          <num>(5)</num>
+          <content>
+            <p>In terms of section 75(2) of the <term refersTo="#term-Systems_Act" id="trm5">Systems Act</term>, by-laws adopted in terms of subsection 75(1) may differentiate between different categories of users, debtor, service providers, services, service standards and geographical areas as long as such differentiation does not amount to unfair discrimination.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Interpretation</heading>
+        <paragraph id="section-2.paragraph-0" refersTo="#term-Tariff">
+          <content>
+            <p>In these By-Laws, the English test prevails in the event of any conflict with the Afrikaans or lsi-Zulu, SeSotho, SePedi texts, and unless the context otherwise indicates -</p>
+            <p>"<def refersTo="#term-By-laws">By-laws</def>" means the tariff <term refersTo="#term-By-laws" id="trm6">By-laws</term> as may be amended from time to time</p>
+            <p>"<def refersTo="#term-City">City</def>" means the <term refersTo="#term-City" id="trm7">City</term> of Johannesburg;</p>
+            <p>"<def refersTo="#term-City_s_tariff_policy">City's tariff policy</def>" means the <term refersTo="#term-Tariff" id="trm8">Tariff</term> Determination Policy for Trading and Minor Services for the <term refersTo="#term-City" id="trm9">City</term> of Johannesburg as may be amended by <term refersTo="#term-Council" id="trm10">Council</term> from time to time;</p>
+            <p>"<def refersTo="#term-Constitution">Constitution</def>" means the <term refersTo="#term-Constitution" id="trm11">Constitution</term> of the Republic of South Africa;</p>
+            <blockList id="section-2.paragraph-0.list6" refersTo="#term-Consumer">
+              <listIntroduction>"<def refersTo="#term-Consumer">Consumer</def>" means -</listIntroduction>
+              <item id="section-2.paragraph-0.list6.a">
+                <num>(a)</num>
+                <blockList id="section-2.paragraph-0.list6.a.list0">
+                  <listIntroduction>any person who occupies premises to whom, and in respect of which, the <term refersTo="#term-Council" id="trm12">Council</term>-</listIntroduction>
+                  <item id="section-2.paragraph-0.list6.a.list0.i">
+                    <num>(i)</num>
+                    <p>has agreed to provide municipal services</p>
+                  </item>
+                  <item id="section-2.paragraph-0.list6.a.list0.ii">
+                    <num>(ii)</num>
+                    <p>is actually providing municipal services</p>
+                  </item>
+                  <item id="section-2.paragraph-0.list6.a.list0.iii">
+                    <num>(iii)</num>
+                    <p>has entered into an agreement with the council for the provision of municipal services to or any premises;</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-2.paragraph-0.list6.b">
+                <num>(b)</num>
+                <p>the owner of any premises to which the <term refersTo="#term-Council" id="trm13">Council</term> is providing a municipal service</p>
+              </item>
+            </blockList>
+            <p>"<def refersTo="#term-Council">Council</def>" means the <term refersTo="#term-City" id="trm14">City</term> of Johannesburg Metropolitan Municipal <term refersTo="#term-Council" id="trm15">Council</term>;</p>
+            <p>"<def refersTo="#term-Credit_Control_and_Debt_Collection_By-Laws_and_Policy">Credit Control and Debt Collection By-Laws and Policy</def>" means the <term refersTo="#term-City" id="trm16">City</term>'s Credit Control and Debt Collection By-Law and Policy as required by sections 96(b), 97 and 98 of the <term refersTo="#term-Systems_Act" id="trm17">Systems Act</term>;</p>
+            <p>"<def refersTo="#term-Determine">Determine</def>" means determined by the <term refersTo="#term-Council" id="trm18">Council</term> by resolution from time to time, the amendment of tariffs by the <term refersTo="#term-Council" id="trm19">Council</term> shall have the same meaning;</p>
+            <blockList id="section-2.paragraph-0.list11" refersTo="#term-Premises">
+              <listIntroduction>"<def refersTo="#term-Premises">Premises</def>" means any piece of land, with or without any building or structure theron, the external surface boundries of which are delineated on -</listIntroduction>
+              <item id="section-2.paragraph-0.list11.a">
+                <num>(a)</num>
+                <p>a general plan or diagram registered in terms of the Land Survey Act, 9 of 1927, or in terms of the Deed Registry Act, 47 of 1937; or</p>
+              </item>
+              <item id="section-2.paragraph-0.list11.b">
+                <num>(b)</num>
+                <p>a sectional title plan registered in terms of the Sectional Titles Act, 95 of 1986,</p>
+              </item>
+            </blockList>
+            <p>which is situated within the area of jurisdiction of the <term refersTo="#term-Council" id="trm20">Council</term>;</p>
+            <p>"<def refersTo="#term-Municipal_service">Municipal service</def>" means a service that the <term refersTo="#term-City" id="trm21">City</term> in terms of its powers and functions provides or may provide to or for the benefit of the local community;</p>
+            <p>"<def refersTo="#term-Systems_Act">Systems Act</def>" means the Local Government: Municipal <term refersTo="#term-Systems_Act" id="trm22">Systems Act</term>, 32 of 2000;</p>
+            <p>"<def refersTo="#term-Tariff">Tariff</def>" means fees, charges or any other tariffs levied by the <term refersTo="#term-City" id="trm23">City</term> in respect if any function or service provided by the <term refersTo="#term-City" id="trm24">City</term>, excluding rates levied by the <term refersTo="#term-City" id="trm25">City</term> in terms of the Local Government: Municipal Property Rates Act, 6 of 2004.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Adoption and implementation of tariff policy</heading>
+        <subsection id="section-3.1">
+          <num>(1)</num>
+          <content>
+            <p>These <term refersTo="#term-By-laws" id="trm26">By-laws</term> are adopted in terms of section 75 of the <term refersTo="#term-Systems_Act" id="trm27">Systems Act</term> to give effect to the implementation of the <term refersTo="#term-City" id="trm28">City</term>'s <term refersTo="#term-Tariff" id="trm29">Tariff</term> Policy, a copy of which is available from the <term refersTo="#term-City" id="trm30">City</term>'s website.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Application of the bylaws</heading>
+        <subsection id="section-4.1">
+          <num>(1)</num>
+          <content>
+            <p>These <term refersTo="#term-By-laws" id="trm31">By-laws</term> shall apply in respect of tariffs determined or amended by the <term refersTo="#term-Council" id="trm32">Council</term> relating to the provision of municipal services, irrespective whether such services are rendered by the <term refersTo="#term-Council" id="trm33">Council</term> itself or by a service provider in terms of a service delivery agreement with <term refersTo="#term-Council" id="trm34">Council</term> as provided fro in the Act or any other law;</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.2">
+          <num>(2)</num>
+          <content>
+            <p>These <term refersTo="#term-By-laws" id="trm35">By-laws</term> shall be applied and be read with any other applicable law.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Liability for tariffs</heading>
+        <subsection id="section-5.1">
+          <num>(1)</num>
+          <content>
+            <p>Every consumer of municipal services shall be liable for the tariffs as determined by <term refersTo="#term-Council" id="trm36">Council</term> from time to time.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Guiding principles for the determination of tariffs</heading>
+        <subsection id="section-6.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-6.1.list1">
+              <listIntroduction>In the determination of tariffs the <term refersTo="#term-Council" id="trm37">Council</term> shall be guided by the following principles:</listIntroduction>
+              <item id="section-6.1.list1.a">
+                <num>(a)</num>
+                <p>Tariffs shall be equitable and affordable in that the amount individual users pay for a municipal service should generally be in proportion to their use of that service;</p>
+              </item>
+              <item id="section-6.1.list1.b">
+                <num>(b)</num>
+                <p>Tariffs shall provide access to basic municipal services for everyone, including poor households;</p>
+              </item>
+              <item id="section-6.1.list1.c">
+                <num>(c)</num>
+                <p>Tariffs shall ensure the ability to extend municipal services to all consumers;</p>
+              </item>
+              <item id="section-6.1.list1.d">
+                <num>(d)</num>
+                <p>Tariffs shall where necessary provide for cross subsidization of the poor to enable the poor access to basic municipal services</p>
+              </item>
+              <item id="section-6.1.list1.e">
+                <num>(e)</num>
+                <p>Tariffs shall encourage the relative competitiveness of the <term refersTo="#term-Council" id="trm38">Council</term> in line with strategies adopted by the <term refersTo="#term-Council" id="trm39">Council</term>;</p>
+              </item>
+              <item id="section-6.1.list1.f">
+                <num>(f)</num>
+                <p>Tariffs shall be used as a tool to influence positively the micro-economic input costs facing businesses;</p>
+              </item>
+              <item id="section-6.1.list1.g">
+                <num>(g)</num>
+                <p>Tariffs shall be used as a tool to promote local economic development;</p>
+              </item>
+              <item id="section-6.1.list1.h">
+                <num>(h)</num>
+                <p>Tariffs shall support national macro-economic policies and shall incorporate visions, strategies and economic policies of the Republic of South Africa</p>
+              </item>
+              <item id="section-6.1.list1.i">
+                <num>(i)</num>
+                <p>Tariffs shall be cost effective and cost reflective and should reflect the cost reasonably associated with rendering municipal services, including capital, operating, maintenance, administration, replacement costs and interest charges;</p>
+              </item>
+              <item id="section-6.1.list1.j">
+                <num>(j)</num>
+                <p>Tariffs shall ensure that all costs of providing municipal services are recovered through the tariff;</p>
+              </item>
+              <item id="section-6.1.list1.k">
+                <num>(k)</num>
+                <p>Tariffs shall promote the sustainability of the provision of municipal services;</p>
+              </item>
+              <item id="section-6.1.list1.l">
+                <num>(l)</num>
+                <p>Tariffs shall be transparent, and the extent of subsidization and cross functional subsidization of tariffs for poor households and such other categories as may from time to time be determined by <term refersTo="#term-Council" id="trm40">Council</term> shall be fully disclosed;</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Differentiation between different categories of consumers</heading>
+        <subsection id="section-7.1">
+          <num>(1)</num>
+          <content>
+            <p>Section 74(3) of the Municipal <term refersTo="#term-Systems_Act" id="trm41">Systems Act</term> allows for the differentiation between different categories of users, debtors, service providers, services, service standards, geographical areas and other matters for tariff purposes as long as the differentiation does not amount to unfair discrimination;</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.2">
+          <num>(2)</num>
+          <content>
+            <p>When determining the tariffs and making the differentiation for tariff purposes, the <term refersTo="#term-Council" id="trm42">Council</term> may allow for the following categorization -</p>
+            <blockList id="section-7.2.list2">
+              <listIntroduction>A. Categories of users</listIntroduction>
+              <item id="section-7.2.list2.i">
+                <num>(i)</num>
+                <p>Residential or Domestic;</p>
+              </item>
+              <item id="section-7.2.list2.ii">
+                <num>(ii)</num>
+                <p>Commercial;</p>
+              </item>
+              <item id="section-7.2.list2.iii">
+                <num>(iii)</num>
+                <p>Industrial;</p>
+              </item>
+              <item id="section-7.2.list2.iv">
+                <num>(iv)</num>
+                <p>Farming;</p>
+              </item>
+              <item id="section-7.2.list2.v">
+                <num>(v)</num>
+                <p>Government; and</p>
+              </item>
+              <item id="section-7.2.list2.vi">
+                <num>(vi)</num>
+                <p>State owned enterprises.</p>
+              </item>
+            </blockList>
+            <blockList id="section-7.2.list4">
+              <listIntroduction>The sub-categories of residential or domestic users may be defined based on anyone or more of the following criteria:</listIntroduction>
+              <item id="section-7.2.list4.i">
+                <num>(i)</num>
+                <p>Settlement type (which must include informal settlements and Homeless people Shelters);</p>
+              </item>
+              <item id="section-7.2.list4.ii">
+                <num>(ii)</num>
+                <p>Property value;</p>
+              </item>
+              <item id="section-7.2.list4.iii">
+                <num>(iii)</num>
+                <p>Service consumption level;</p>
+              </item>
+              <item id="section-7.2.list4.iv">
+                <num>(iv)</num>
+                <p>Payment levels;</p>
+              </item>
+              <item id="section-7.2.list4.v">
+                <num>(v)</num>
+                <p>Household income; and</p>
+              </item>
+              <item id="section-7.2.list4.vi">
+                <num>(vi)</num>
+                <p>Type of connection.</p>
+              </item>
+            </blockList>
+            <blockList id="section-7.2.list6">
+              <listIntroduction>B. Categories of service</listIntroduction>
+              <item id="section-7.2.list6.i">
+                <num>(i)</num>
+                <p>Type of service;</p>
+              </item>
+              <item id="section-7.2.list6.ii">
+                <num>(ii)</num>
+                <p>Category of user;</p>
+              </item>
+              <item id="section-7.2.list6.iii">
+                <num>(iii)</num>
+                <p>Level of consumption;</p>
+              </item>
+              <item id="section-7.2.list6.iv">
+                <num>(iv)</num>
+                <p>Type of connection; and</p>
+              </item>
+              <item id="section-7.2.list6.v">
+                <num>(v)</num>
+                <p>Time of use.</p>
+              </item>
+            </blockList>
+            <p>C. Categories of standard of service</p>
+            <blockList id="section-7.2.list9">
+              <listIntroduction>Different categories of standard of service may be defined for different categories of users or services. They may be based on:</listIntroduction>
+              <item id="section-7.2.list9.i">
+                <num>(i)</num>
+                <p>Access; and</p>
+              </item>
+              <item id="section-7.2.list9.ii">
+                <num>(ii)</num>
+                <p>Frequency</p>
+              </item>
+            </blockList>
+            <p>D. Categories of Geographical Area</p>
+            <blockList id="section-7.2.list12">
+              <listIntroduction>Differentiation based on geographic area may be used if the service provided is at least the basic service and one of the following criteria is met:</listIntroduction>
+              <item id="section-7.2.list12.i">
+                <num>(i)</num>
+                <p>Topography must have significant impact on the cost of delivering the service;</p>
+              </item>
+              <item id="section-7.2.list12.ii">
+                <num>(ii)</num>
+                <p>Significant capital costs are needed to develop service infrastructure in the area; and</p>
+              </item>
+              <item id="section-7.2.list12.ii">
+                <num>(ii)</num>
+                <p>The Integrated Development Plan identifies the area as having strategic developmental importance.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-7.3">
+          <num>(3)</num>
+          <content>
+            <p>The differentiation for tariff purposes shall be done during the tariff determination process.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Queries or complaints in respect of categorisation</heading>
+        <subsection id="section-8.1">
+          <num>(1)</num>
+          <content>
+            <p>A consumer may lodge a query or complaint in respect any categorization in terms of these <term refersTo="#term-By-laws" id="trm43">By-laws</term></p>
+          </content>
+        </subsection>
+        <subsection id="section-8.2">
+          <num>(2)</num>
+          <content>
+            <p>A query or complaint must be lodged with the <term refersTo="#term-Council" id="trm44">Council</term> within 30 days of determination and categorization by <term refersTo="#term-Council" id="trm45">Council</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.3">
+          <num>(3)</num>
+          <content>
+            <p>An authorized official must register the query or complaint and provide the consumer with a reference number;</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.4">
+          <num>(4)</num>
+          <content>
+            <blockList id="section-8.4.list1">
+              <listIntroduction>The <term refersTo="#term-Council" id="trm46">Council</term> must -</listIntroduction>
+              <item id="section-8.4.list1.a">
+                <num>(a)</num>
+                <p>investigate or cause the query or complaint to be investigated within 14 days, or as soon as possible after query or complaint was received; and inform</p>
+              </item>
+              <item id="section-8.4.list1.b">
+                <num>(b)</num>
+                <p>inform the consumer, in writing, of its decision as soon as possible after the conclusion of the investigation.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-8.5">
+          <num>(5)</num>
+          <content>
+            <p>A consumer may lodge an appeal with the <term refersTo="#term-City" id="trm47">City</term> Manager in terms of Section 62 of the <term refersTo="#term-Systems_Act" id="trm48">Systems Act</term> against a decision referred to in subsection (4)(b), within 21 days of the date of notification of the decision.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.6">
+          <num>(6)</num>
+          <content>
+            <p>The <term refersTo="#term-City" id="trm49">City</term> Manager must inform the consumer concerned in writing of the decision on the appeal.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Enforcement of tariff policy</heading>
+        <paragraph id="section-9.paragraph-0">
+          <content>
+            <p>The collection of tariffs for municipal services shall be enforced through the Credit Control and Debt Collection By-Laws and any further legal enforcement mechanisms.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Operative date</heading>
+        <paragraph id="section-10.paragraph-0">
+          <content>
+            <p>These By-Laws shall take effect on the date of promulgation.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-11">
+        <num>11.</num>
+        <heading>Short Title</heading>
+        <paragraph id="section-11.paragraph-0">
+          <content>
+            <p>These <term refersTo="#term-By-laws" id="trm50">By-laws</term> are called the <term refersTo="#term-City" id="trm51">City</term> of Johannesburg's <term refersTo="#term-Tariff" id="trm52">Tariff</term> Determination <term refersTo="#term-By-laws" id="trm53">By-laws</term>, 2008</p>
+          </content>
+        </paragraph>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

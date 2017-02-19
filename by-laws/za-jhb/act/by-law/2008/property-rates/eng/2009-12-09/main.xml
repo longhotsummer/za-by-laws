@@ -1,0 +1,585 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="singleVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-jhb/act/by-law/2008/property-rates/main"/>
+          <FRBRuri value="/za-jhb/act/by-law/2008/property-rates"/>
+          <FRBRalias value="Property Rates By-laws"/>
+          <FRBRdate date="2008-06-18" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-jhb/act/by-law/2008/property-rates/eng@2009-12-09/main"/>
+          <FRBRuri value="/za-jhb/act/by-law/2008/property-rates/eng@2009-12-09"/>
+          <FRBRdate date="2009-12-09" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-jhb/act/by-law/2008/property-rates/eng@2009-12-09/main"/>
+          <FRBRuri value="/za-jhb/act/by-law/2008/property-rates/eng@2009-12-09"/>
+          <FRBRdate date="2017-02-19" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-06-18" name="Gauteng Provincial Gazette" showAs="Gauteng Provincial Gazette" number="159"/>
+      <lifecycle source="#OpenByLaws-org-za">
+        <eventRef id="amendment-2009-12-09" date="2009-12-09" type="amendment" source="#amendment-0-source"/>
+      </lifecycle>
+      <references source="#this">
+        <TLCOrganization id="OpenByLaws-org-za" href="https://indigo.openbylaws.org.za" showAs="OpenByLaws.org.za"/>
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <passiveRef id="amendment-0-source" href="/za-jhb/act/notice/2009/1981" showAs="City of Johannesburg Property Rates By-law"/>
+        <TLCTerm id="term-the_Act" href="/ontology/term/this.eng.the_Act" showAs="the Act"/>
+        <TLCTerm id="term-category" href="/ontology/term/this.eng.category" showAs="category"/>
+        <TLCTerm id="term-exemption" href="/ontology/term/this.eng.exemption" showAs="exemption"/>
+        <TLCTerm id="term-rate" href="/ontology/term/this.eng.rate" showAs="rate"/>
+        <TLCTerm id="term-rebate" href="/ontology/term/this.eng.rebate" showAs="rebate"/>
+        <TLCTerm id="term-reduction" href="/ontology/term/this.eng.reduction" showAs="reduction"/>
+        <TLCTerm id="term-the_its_Policy" href="/ontology/term/this.eng.the_its_Policy" showAs="the/its Policy"/>
+      </references>
+    </meta>
+    <preface>
+      <p>The City Manager of the City of Johannesburg Metropolitan Municipality, in terms of section 156(2) of the Constitution, 1996, read with section 11(3 )(m) of the Local Government: Municipal Systems Act, 2000 (Act No. 32 of 2000), and section 6 of the Local Government: Municipal Property Rates Act, 2004 (Act No.6 of 2004), hereby publishes the Property Rates By-laws for the City of Johannesburg Metropolitan Municipality as approved by its Council as set out hereunder.</p>
+    </preface>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Interpretation</heading>
+        <subsection id="section-1.1" refersTo="#term-the_its_Policy">
+          <num>(1)</num>
+          <content>
+            <p>In these By-laws, any word or expression to which a meaning has been assigned in the Act and the Policy bears that meaning and, unless the context otherwise indicates -</p>
+            <p>"<def refersTo="#term-the_Act">the Act</def>" means the Local Government: Municipal Property Rates Act 6 of 2004;</p>
+            <blockList id="section-1.1.list3" refersTo="#term-category">
+              <listIntroduction>"<def refersTo="#term-category">category</def>"</listIntroduction>
+              <item id="section-1.1.list3.a">
+                <num>(a)</num>
+                <p>in relation to property, means a category of property contemplated in section 7 of these By-laws; and</p>
+              </item>
+              <item id="section-1.1.list3.b">
+                <num>(b)</num>
+                <p>in relation to owners of property, means a category of owners of property contemplated in section 8 of these By-laws;</p>
+              </item>
+            </blockList>
+            <p>"<def refersTo="#term-exemption">exemption</def>" in relation to the payment of a rate, means an exemption granted in terms of section 9 of these By-laws;</p>
+            <p>"<def refersTo="#term-rate">rate</def>" means a municipal rate on property envisaged in section 229(1 )(a) of the Constitution, 1996;</p>
+            <p>"<def refersTo="#term-rebate">rebate</def>" in relation to a rate payable on property, means a discount in the amount of the rate payable on the property granted in terms of section 9 of these By-laws;</p>
+            <p>"<def refersTo="#term-reduction">reduction</def>" in relation to a rate payable on property, means a reduction in the amount of the rate payable on the property granted in terms of section 9 of these By-laws;</p>
+            <p>"<def refersTo="#term-the_its_Policy">the/its Policy</def>" means the Property Rates Policy adopted by the Council in terms of Section 3(1) of the Act.</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-1.2.list1">
+              <listIntroduction>Any word or expression -</listIntroduction>
+              <item id="section-1.2.list1.a">
+                <num>(a)</num>
+                <p>imparting any gender or the neuter includes both genders and the neuter, or</p>
+              </item>
+              <item id="section-1.2.list1.b">
+                <num>(b)</num>
+                <p>imparting the singular only also includes the plural and vice versa,</p>
+              </item>
+            </blockList>
+            <p>unless the context otherwise indicates.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Adoption of by-laws</heading>
+        <subsection id="section-2.1">
+          <num>(1)</num>
+          <content>
+            <p>These By-laws are adopted in terms of section 6 of <term refersTo="#term-the_Act" id="trm0">the Act</term> to give effect to the implementation of the Policy.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.2">
+          <num>(2)</num>
+          <content>
+            <p>The Council must, in terms of section 5(1) of <term refersTo="#term-the_Act" id="trm1">the Act</term>, annually review, and may, if necessary, amend its Policy. Proposals for reviewing its Policy must be considered by the Council in conjunction with its annual operating budget.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.3">
+          <num>(3)</num>
+          <content>
+            <p>The Policy is hereby incorporated by reference in the By-laws. All amendments to the Policy as the Council may approve from time to time shall deemed to be likewise incorporated.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.4">
+          <num>(4)</num>
+          <content>
+            <p>These By-laws ascribe to the objectives set out in paragraph 4 of the Policy.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Rating of property</heading>
+        <paragraph id="section-3.paragraph-0">
+          <content>
+            <p>In terms of Section 2(3) of <term refersTo="#term-the_Act" id="trm2">the Act</term>, the Council may levy rates on property subject to:</p>
+          </content>
+        </paragraph>
+        <subsection id="section-3.1">
+          <num>(1)</num>
+          <content>
+            <p>Section 229 and any other applicable provisions of the Constitution of the Republic of South Africa, 1996;</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.2">
+          <num>(2)</num>
+          <content>
+            <p>The provisions of <term refersTo="#term-the_Act" id="trm3">the Act</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.3">
+          <num>(3)</num>
+          <content>
+            <p>The Policy; and</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.4">
+          <num>(4)</num>
+          <content>
+            <p>These By-laws.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>General principles</heading>
+        <subsection id="section-4.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-4.1.list1">
+              <listIntroduction>These By-laws must be read in conjunction with the provisions of:</listIntroduction>
+              <item id="section-4.1.list1.a">
+                <num>(a)</num>
+                <p>any applicable Town Planning Scheme;</p>
+              </item>
+              <item id="section-4.1.list1.b">
+                <num>(b)</num>
+                <p>the Town Planning and Townships Ordinance 25 of 1965;</p>
+              </item>
+              <item id="section-4.1.list1.c">
+                <num>(c)</num>
+                <p>the Town Planning and Townships Ordinance 15 of 1986;</p>
+              </item>
+              <item id="section-4.1.list1.d">
+                <num>(d)</num>
+                <p>any other legislation pertaining to the use of property; and</p>
+              </item>
+              <item id="section-4.1.list1.e">
+                <num>(e)</num>
+                <p>any applicable policy of the Council.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4.2">
+          <num>(2)</num>
+          <content>
+            <p>The Policy must ensure equitable treatment by the Council in the levying of rates on property owners, including owners under sectional title as contemplated in the Sectional Titles Act, as well as other persons who may become liable for the payment of rates.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.3">
+          <num>(3)</num>
+          <content>
+            <p>Rates are levied in accordance with <term refersTo="#term-the_Act" id="trm4">the Act</term> as an amount in the Rand based on the market value of all rateable property as reflected in the valuation roll and any supplementary valuation roll, as contemplated in Chapters 6 and 8, respectively, of <term refersTo="#term-the_Act" id="trm5">the Act</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4">
+          <num>(4)</num>
+          <content>
+            <p>Different rates may be levied for different categories of property.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.5">
+          <num>(5)</num>
+          <content>
+            <p>The Council may, in terms of section 22 of <term refersTo="#term-the_Act" id="trm6">the Act</term>, levy an additional <term refersTo="#term-rate" id="trm7">rate</term> on property in a special rating area and, in doing so, may differentiate between categories of property;</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.6">
+          <num>(6)</num>
+          <content>
+            <p>Relief measures in respect of payment for rates will not be granted to any <term refersTo="#term-category" id="trm8">category</term> of property or owners on an individual basis, other than by way of <term refersTo="#term-exemption" id="trm9">exemption</term>, <term refersTo="#term-rebate" id="trm10">rebate</term> or <term refersTo="#term-reduction" id="trm11">reduction</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.7">
+          <num>(7)</num>
+          <content>
+            <p>Where the rates levied on a property are based on a supplementary valuation made in terms of section 78(1) of <term refersTo="#term-the_Act" id="trm12">the Act</term>, such <term refersTo="#term-rate" id="trm13">rate</term> will be payable from the date contemplated in section 78(4) of <term refersTo="#term-the_Act" id="trm14">the Act</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.8">
+          <num>(8)</num>
+          <content>
+            <p>The Council shall specify a threshold at which rating in respect of residential properties may commence as provided for in section 15(1 )(a) of <term refersTo="#term-the_Act" id="trm15">the Act</term>, which it is hereby authorised to do.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Annual operating budget</heading>
+        <subsection id="section-5.1">
+          <num>(1)</num>
+          <content>
+            <p>The Council must consider the levying of rates annually during the budget process referred to in section 12(2) of <term refersTo="#term-the_Act" id="trm16">the Act</term>. Rates will be based on the market value of all rateable property and the amount required by the Council to balance its annual operating budget.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.2">
+          <num>(2)</num>
+          <content>
+            <p>Rate increases must be used to finance the increase in operating costs of municipal services and facilities.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.3">
+          <num>(3)</num>
+          <content>
+            <p>The Policy must set out the criteria to be applied when determining the level of increases in rates.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Differential rating</heading>
+        <paragraph id="section-6.paragraph-0">
+          <content>
+            <blockList id="section-6.paragraph-0.list1">
+              <listIntroduction>The Council may in terms of the criteria set out in the Policy, levy different rates for different categories of rateable property, which may include categories determined according to the:</listIntroduction>
+              <item id="section-6.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>use of the property;</p>
+              </item>
+              <item id="section-6.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>permitted use of the property; or</p>
+              </item>
+              <item id="section-6.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>geographical area in which the property is situated.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Categories of property for purposes of differential rates</heading>
+        <paragraph id="section-7.paragraph-0">
+          <content>
+            <blockList id="section-7.paragraph-0.list1">
+              <listIntroduction>The Policy must, for purposes of levying differential rates, provide for different categories of property, which may include, but are not limited to, the following:</listIntroduction>
+              <item id="section-7.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>Business, Commercial and Industrial;</p>
+              </item>
+              <item id="section-7.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>Residential Property;</p>
+              </item>
+              <item id="section-7.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>Residential Property with Additional Rights &amp; Consent Use</p>
+              </item>
+              <item id="section-7.paragraph-0.list1.d">
+                <num>(d)</num>
+                <p>Municipal Property: Not Rateable;</p>
+              </item>
+              <item id="section-7.paragraph-0.list1.e">
+                <num>(e)</num>
+                <p>Municipal Property: Rateable;</p>
+              </item>
+              <item id="section-7.paragraph-0.list1.f">
+                <num>(f)</num>
+                <p>Property Owned by the State or an Organ of State;</p>
+              </item>
+              <item id="section-7.paragraph-0.list1.g">
+                <num>(g)</num>
+                <p>Farming Land/Property used for Bona Fide Farming;</p>
+              </item>
+              <item id="section-7.paragraph-0.list1.h">
+                <num>(h)</num>
+                <p>Public Service Infrastructure;</p>
+              </item>
+              <item id="section-7.paragraph-0.list1.i">
+                <num>(i)</num>
+                <p>Property used for Multiple Purposes;</p>
+              </item>
+              <item id="section-7.paragraph-0.list1.j">
+                <num>(j)</num>
+                <p>Agricultural Holdings;</p>
+              </item>
+              <item id="section-7.paragraph-0.list1.k">
+                <num>(k)</num>
+                <p>Vacant Land irrespective of Zoning;</p>
+              </item>
+              <item id="section-7.paragraph-0.list1.l">
+                <num>(l)</num>
+                <p>Mining Property;</p>
+              </item>
+              <item id="section-7.paragraph-0.list1.m">
+                <num>(m)</num>
+                <p>Education;</p>
+              </item>
+              <item id="section-7.paragraph-0.list1.n">
+                <num>(n)</num>
+                <p>Religious; and</p>
+              </item>
+              <item id="section-7.paragraph-0.list1.o">
+                <num>(o)</num>
+                <p>Special.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Categories of ownership for purposes of exemptions, reductions and rebates</heading>
+        <paragraph id="section-8.paragraph-0">
+          <content>
+            <blockList id="section-8.paragraph-0.list1">
+              <listIntroduction>The Policy must, for purposes of exemptions, reductions and rebates, provide for different categories of ownership, which may include, but are not limited to, the following:</listIntroduction>
+              <item id="section-8.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>residential properties owned and occupied by natural persons who have limited income and who are not pensioners but can show that his or her annual income falls below the limit determined by Council from time to time;</p>
+              </item>
+              <item id="section-8.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>residential properties owned and occupied by natural persons who are dependent on social assistance in terms of the Social Assistance Act 59 of 1992 as their sole source of income;</p>
+              </item>
+              <item id="section-8.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>residential properties owned and occupied by pensioners who are not persons contemplated in subparagraph (b), provided that the total income of the household does not exceed the limits determined by Council from time to time;</p>
+              </item>
+              <item id="section-8.paragraph-0.list1.d">
+                <num>(d)</num>
+                <p>property owned by organisations which in the opinion of and to the satisfaction of the Council, care for the aged and use the property for such purpose;</p>
+              </item>
+              <item id="section-8.paragraph-0.list1.e">
+                <num>(e)</num>
+                <blockList id="section-8.paragraph-0.list1.e.list0">
+                  <listIntroduction>property owned by institutions which provide education and / or student accommodation at -</listIntroduction>
+                  <item id="section-8.paragraph-0.list1.e.list0.i">
+                    <num>(i)</num>
+                    <p>public schools;</p>
+                  </item>
+                  <item id="section-8.paragraph-0.list1.e.list0.ii">
+                    <num>(ii)</num>
+                    <p>independent schools;</p>
+                  </item>
+                  <item id="section-8.paragraph-0.list1.e.list0.iii">
+                    <num>(iii)</num>
+                    <p>universities; and</p>
+                  </item>
+                  <item id="section-8.paragraph-0.list1.e.list0.iv">
+                    <num>(iv)</num>
+                    <p>technical and other colleges;</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-8.paragraph-0.list1.f">
+                <num>(f)</num>
+                <p>property owned by public benefit organisations approved in terms of section 30 of the Income Tax Act 58 of 1962, read with Items 1, 2 and 4 of the Ninth Schedule to that Act;</p>
+              </item>
+              <item id="section-8.paragraph-0.list1.g">
+                <num>(g)</num>
+                <p>property owned by private sports clubs which use such property primarily for sports purposes;</p>
+              </item>
+              <item id="section-8.paragraph-0.list1.h">
+                <num>(h)</num>
+                <p>property in the inner city [[subsection 8(h) amended on 2009-12-09 with effective date 2008-07-01]];</p>
+              </item>
+              <item id="section-8.paragraph-0.list1.i">
+                <num>(i)</num>
+                <blockList id="section-8.paragraph-0.list1.i.list1">
+                  <listIntroduction>property:</listIntroduction>
+                  <item id="section-8.paragraph-0.list1.i.list1.i">
+                    <num>(i)</num>
+                    <p>declared as heritage sites in terms of Section 27 of the National Heritage Resources Act 25 of 1999;</p>
+                  </item>
+                  <item id="section-8.paragraph-0.list1.i.list1.ii">
+                    <num>(ii)</num>
+                    <p>desiqnated as protected areas in terms of section 28 of the National Heritage Resources Act 25 of 1999; and</p>
+                  </item>
+                  <item id="section-8.paragraph-0.list1.i.list1.iii">
+                    <num>(iii)</num>
+                    <p>designated as heritage areas in terms of section 31 of the National Heritage Resources Act 25 of 1999;</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-8.paragraph-0.list1.j">
+                <num>(j)</num>
+                <p>property used for bona fide agricultural/farming purposes;</p>
+              </item>
+              <item id="section-8.paragraph-0.list1.k">
+                <num>(k)</num>
+                <p>residential sectional title properties;</p>
+              </item>
+              <item id="section-8.paragraph-0.list1.l">
+                <num>(l)</num>
+                <p>property registered in the name of an institution or organisation which has as its exclusive objective the protection of animals;</p>
+              </item>
+              <item id="section-8.paragraph-0.list1.m">
+                <num>(m)</num>
+                <p>property registered in the name of an institution or organisation which has as its exclusive objective the provision and, or promotion of youth development programmes;</p>
+              </item>
+              <item id="section-8.paragraph-0.list1.n">
+                <num>(n)</num>
+                <p>property, including sectional title units that form part of a development, that are developed at an appropriate density as determined by the Council from time to time during its budget process contemplated in section 12(2) of <term refersTo="#term-the_Act" id="trm17">the Act</term>;</p>
+              </item>
+              <item id="section-8.paragraph-0.list1.o">
+                <num>(o)</num>
+                <p>residential properties owned and occupied by natural persons temporarily without income as contemplated in section 15(2)(c) of <term refersTo="#term-the_Act" id="trm18">the Act</term>;</p>
+              </item>
+              <item id="section-8.paragraph-0.list1.p">
+                <num>(p)</num>
+                <blockList id="section-8.paragraph-0.list1.p.list2">
+                  <listIntroduction>property situated within an area affected by:</listIntroduction>
+                  <item id="section-8.paragraph-0.list1.p.list2.i">
+                    <num>(i)</num>
+                    <p>a disaster within the meaning of the Disaster Management Act 57 of 2002; and</p>
+                  </item>
+                  <item id="section-8.paragraph-0.list1.p.list2.ii">
+                    <num>(ii)</num>
+                    <p>any other serious adverse social or economic conditions as determined by the Council from time to time; and</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-8.paragraph-0.list1.q">
+                <num>(q)</num>
+                <p>vacant land.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Rebates, exemptions and reductions</heading>
+        <paragraph id="section-9.paragraph-0">
+          <content>
+            <blockList id="section-9.paragraph-0.list0">
+              <item id="section-9.paragraph-0.list0.l">
+                <num>(l)</num>
+                <p>The Policy must stipulate the extent of any rebates, exemptions or reductions in rates that the Council may grant, as well as the conditions that would apply in relation thereto: Provided that the granting of such rebates, exemptions or reductions shall not allow a total <term refersTo="#term-rebate" id="trm19">rebate</term> in excess of 100%.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+        <subsection id="section-9.2">
+          <num>(2)</num>
+          <content>
+            <p>The Policy may allow the Council, notwithstanding the extent of any <term refersTo="#term-rebate" id="trm20">rebate</term> granted, to resolve that all rateable property, including properties in respect of which 100% rebates are granted, shall be subject to the payment of such minimum property <term refersTo="#term-rate" id="trm21">rate</term> as the Council may determine from time to time during its annual budget process contemplated in section 12(2) of <term refersTo="#term-the_Act" id="trm22">the Act</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Phasing in of rates on newly rateable property</heading>
+        <paragraph id="section-10.paragraph-0">
+          <content>
+            <p>The rates on newly rateable property, as defined in <term refersTo="#term-the_Act" id="trm23">the Act</term>, will be phased in as determined in section 21 of <term refersTo="#term-the_Act" id="trm24">the Act</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-11">
+        <num>11.</num>
+        <heading>Certificate of occupancy</heading>
+        <paragraph id="section-11.paragraph-0">
+          <content>
+            <p>Prior to a residential property being eligible for a residential <term refersTo="#term-rate" id="trm25">rate</term> or a <term refersTo="#term-rebate" id="trm26">rebate</term>, a Certificate of Occupancy must have been issued in respect thereof by the relevant Council Department concerned.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-12">
+        <num>12.</num>
+        <heading>Liability for and recovery of rates</heading>
+        <subsection id="section-12.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-12.1.list1">
+              <listIntroduction>Rates-</listIntroduction>
+              <item id="section-12.1.list1.a">
+                <num>(a)</num>
+                <p>which are recovered by the Council on a monthly basis, are payable on or before the due date stipulated in the account sent to the ratepayer.</p>
+              </item>
+              <item id="section-12.1.list1.b">
+                <num>(b)</num>
+                <p>are payable in full on or before the due date and interest will be charged on rates that are in arrears.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-12.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-12.2.list1">
+              <listIntroduction>The Policy must make provision for the recovery of rates, under appropriate circumstances, from:</listIntroduction>
+              <item id="section-12.2.list1.a">
+                <num>(a)</num>
+                <p>Ratepayers who did not receive accounts;</p>
+              </item>
+              <item id="section-12.2.list1.b">
+                <num>(b)</num>
+                <p>Joint property owners;</p>
+              </item>
+              <item id="section-12.2.list1.c">
+                <num>(c)</num>
+                <p>Tenants of property; and</p>
+              </item>
+              <item id="section-12.2.list1.d">
+                <num>(d)</num>
+                <p>Ratepayers that intend to dispose of property.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-13">
+        <num>13.</num>
+        <heading>Publication of resolutions levying rates</heading>
+        <paragraph id="section-13.paragraph-0">
+          <content>
+            <p>The Rates Policy must set out the procedure to be followed in the consideration of any objections or comments received pursuant to the publication of any resolutions of the Council regarding the levying of rates.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-14">
+        <num>14.</num>
+        <heading>Dealing with applications</heading>
+        <paragraph id="section-14.paragraph-0">
+          <content>
+            <p>The Council must consider every application in terms of the Policy within a reasonable time and may approve the application, subject to such conditions as the Council may deem appropriate under the circumstances, or refuse it.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-15">
+        <num>15.</num>
+        <heading>Enforcement of by-laws and policy</heading>
+        <paragraph id="section-15.paragraph-0">
+          <content>
+            <p>These By-laws and the Policy shall, to the extent necessary, be enforced through the Credit Control and Debt Collection Policy and By-laws of the City and/or any other applicable mechanism.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-16">
+        <num>16.</num>
+        <heading>Short title and commencement</heading>
+        <paragraph id="section-16.paragraph-0">
+          <content>
+            <p>These By-laws are called the Property Rates By-laws and shall come into effect on 1 July 2008.</p>
+          </content>
+        </paragraph>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>
