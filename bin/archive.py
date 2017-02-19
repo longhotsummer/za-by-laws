@@ -1,4 +1,4 @@
-#!/bin/env python
+#!/usr/bin/env python
 
 # Script that downloads and archives documents from an
 # Indigo (https://github.com/Code4SA/indigo) server.
