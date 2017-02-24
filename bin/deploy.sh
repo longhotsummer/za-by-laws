@@ -28,7 +28,7 @@ if [ "${TRAVIS_PULL_REQUEST}" = "false" ] && [ "${TRAVIS_BRANCH}" = "build" ]; t
   ssh-add deploy_key
 
   git remote set-url origin git@github.com:longhotsummer/za-by-laws.git
-  echo git push origin -u master
+  git push origin -u master
 else
   echo "Ignoring pull request or non-build branch"
   exit 0
