@@ -9,19 +9,14 @@ if [ "${TRAVIS_PULL_REQUEST}" = "false" ] && [ "${TRAVIS_BRANCH}" = "build" ]; t
   git checkout FETCH_HEAD
   git checkout -b master
 
-  # update the index file and rebuild site data
-  curl http://code4sa-gazettes.s3.amazonaws.com/archive/index/gazette-index-latest.jsonlines -O
-  python bin/build-index.py
-
-  # ensure the site builds
-  bundle install
-  bundle exec jekyll build
+  # make changes
+  pip install -r requirements.txt
+  python bin/archive.py
 
   # save changes
-  git add _data _gazettes
   git commit -m "Updates from Indigo via TravisCI" || exit 0
 
-  # now update gh-pages branch on github
+  # now update master branch on github
   echo "Deploying to GitHub"
 
   # add git auth
