@@ -1,5 +1,5 @@
 <akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
-  <act contains="originalVersion">
+  <act contains="singleVersion">
     <meta>
       <identification source="#slaw">
         <FRBRWork>
@@ -11,21 +11,25 @@
           <FRBRcountry value="za"/>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/za-cpt/act/by-law/2015/ombudsman/eng@2015-07-03/main"/>
-          <FRBRuri value="/za-cpt/act/by-law/2015/ombudsman/eng@2015-07-03"/>
-          <FRBRdate date="2015-07-03" name="Generation"/>
+          <FRBRthis value="/za-cpt/act/by-law/2015/ombudsman/eng@2017-02-10/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2015/ombudsman/eng@2017-02-10"/>
+          <FRBRdate date="2017-02-10" name="Generation"/>
           <FRBRauthor href="#council"/>
           <FRBRlanguage language="eng"/>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/za-cpt/act/by-law/2015/ombudsman/eng@2015-07-03/main"/>
-          <FRBRuri value="/za-cpt/act/by-law/2015/ombudsman/eng@2015-07-03"/>
+          <FRBRthis value="/za-cpt/act/by-law/2015/ombudsman/eng@2017-02-10/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2015/ombudsman/eng@2017-02-10"/>
           <FRBRdate date="2017-02-21" name="Generation"/>
           <FRBRauthor href="#slaw"/>
         </FRBRManifestation>
       </identification>
       <publication date="2015-07-03" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" number="7419"/>
+      <lifecycle source="#OpenByLaws-org-za">
+        <eventRef id="amendment-2017-02-10" date="2017-02-10" type="amendment" source="#amendment-0-source"/>
+      </lifecycle>
       <references source="#this">
+        <TLCOrganization id="OpenByLaws-org-za" href="https://indigo.openbylaws.org.za" showAs="OpenByLaws.org.za"/>
         <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
         <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
         <TLCTerm id="term-alternative_dispute_resolution" href="/ontology/term/this.eng.alternative_dispute_resolution" showAs="alternative dispute resolution"/>
@@ -47,6 +51,7 @@
         <TLCTerm id="term-policy" href="/ontology/term/this.eng.policy" showAs="policy"/>
         <TLCTerm id="term-recommendation" href="/ontology/term/this.eng.recommendation" showAs="recommendation"/>
         <TLCTerm id="term-Speaker" href="/ontology/term/this.eng.Speaker" showAs="Speaker"/>
+        <passiveRef id="amendment-0-source" href="/za-wc/act/by-law/2017/ombudsman-amendment" showAs="City of Cape Town: City Ombudsman Amendment By law,  2016"/>
       </references>
     </meta>
     <preface>
@@ -104,14 +109,14 @@
           <num>(1)</num>
           <content>
             <blockList id="section-3.1.list1">
-              <listIntroduction>The Office of the <term refersTo="#term-City_Ombudsman" id="trm34">City Ombudsman</term> must:</listIntroduction>
+              <listIntroduction>The Office of the <term refersTo="#term-City_Ombudsman" id="trm34">City Ombudsman</term>:</listIntroduction>
               <item id="section-3.1.list1.a">
                 <num>(a)</num>
-                <p>be a member of the International Ombudsman Institute or International Ombudsman Association or related bodies.</p>
+                <p>may be a member of the International Ombudsman Institute or International Ombudsman Association or related bodies.</p>
               </item>
               <item id="section-3.1.list1.b">
                 <num>(b)</num>
-                <p>at all times, be impartial and exercise its powers and perform its functions and duties without fear, favour or prejudice.</p>
+                <p>must at all times, be impartial and exercise its powers and perform its functions and duties without fear, favour or prejudice.</p>
               </item>
             </blockList>
           </content>
@@ -119,7 +124,7 @@
         <subsection id="section-3.2">
           <num>(2)</num>
           <content>
-            <p>The <term refersTo="#term-Council" id="trm35">Council</term>, its political structures and the administration must not interfere with the functioning of the Office of the <term refersTo="#term-City_Ombudsman" id="trm36">City Ombudsman</term>.</p>
+            <p>The <term refersTo="#term-Council" id="trm35">Council</term>, its political structures and the administration must facilitate the unhindered functioning of the Office of the <term refersTo="#term-City_Ombudsman" id="trm36">City Ombudsman</term>.</p>
           </content>
         </subsection>
       </section>
@@ -145,73 +150,39 @@
         <subsection id="section-5.1">
           <num>(1)</num>
           <content>
-            <blockList id="section-5.1.list1">
-              <listIntroduction><term refersTo="#term-Council" id="trm40">Council</term> must place an advertisement in at least three (3) newspapers, in the three official languages, for the position of the <term refersTo="#term-City_Ombudsman" id="trm41">City Ombudsman</term>.</listIntroduction>
-              <item id="section-5.1.list1.a">
-                <num>(a)</num>
-                <p><term refersTo="#term-Council" id="trm42">Council</term> must establish an ad hoc committee, proportionally composed of members of all parties represented in the <term refersTo="#term-Council" id="trm43">Council</term>, to conduct the shortlisting and interviewing stages of the appointment.</p>
-              </item>
-              <item id="section-5.1.list1.b">
-                <num>(b)</num>
-                <p>The ad hoc committee must recommend three candidates who comply with section 5(3) to <term refersTo="#term-Council" id="trm44">Council</term>.</p>
-              </item>
-              <item id="section-5.1.list1.c">
-                <num>(c)</num>
-                <p><term refersTo="#term-Council" id="trm45">Council</term> must recommend the preferred candidate to the <term refersTo="#term-Executive_Mayor" id="trm46">Executive Mayor</term> by way of a resolution adopted with a supporting vote of a majority of the members of the <term refersTo="#term-Council" id="trm47">Council</term>.</p>
-              </item>
-            </blockList>
+            <p>The appointment of the <term refersTo="#term-City_Ombudsman" id="trm40">City Ombudsman</term> will be done in accordance with the  <term refersTo="#term-City" id="trm41">City</term>’s Human Resources policies.</p>
           </content>
         </subsection>
         <subsection id="section-5.2">
           <num>(2)</num>
           <content>
-            <p>The <term refersTo="#term-Executive_Mayor" id="trm48">Executive Mayor</term>, on <term refersTo="#term-recommendation" id="trm49">recommendation</term> of the <term refersTo="#term-Council" id="trm50">Council</term>, must appoint the preferred candidate who must be suitably qualified to serve as Ombudsman for the <term refersTo="#term-City" id="trm51">City</term> in terms of section 5(3) of this bylaw.</p>
+            <blockList id="section-5.2.list1">
+              <listIntroduction>The <term refersTo="#term-City_Ombudsman" id="trm42">City Ombudsman</term> must:</listIntroduction>
+              <item id="section-5.2.list1.a">
+                <num>(a)</num>
+                <p>be a South African Citizen;</p>
+              </item>
+              <item id="section-5.2.list1.b">
+                <num>(b)</num>
+                <p>be a fit and proper person to hold that particular office; and</p>
+              </item>
+              <item id="section-5.2.list1.c">
+                <num>(c)</num>
+                <p>have relevant prior experience, suitable to the position.</p>
+              </item>
+            </blockList>
           </content>
         </subsection>
         <subsection id="section-5.3">
           <num>(3)</num>
           <content>
-            <blockList id="section-5.3.list1">
-              <listIntroduction>The <term refersTo="#term-City_Ombudsman" id="trm52">City Ombudsman</term> must:</listIntroduction>
-              <item id="section-5.3.list1.a">
-                <num>(a)</num>
-                <p>be a South African citizen;</p>
-              </item>
-              <item id="section-5.3.list1.b">
-                <num>(b)</num>
-                <p>be a fit and proper person to hold that particular office; and</p>
-              </item>
-              <item id="section-5.3.list1.c">
-                <num>(c)</num>
-                <p>have specialised knowledge of or experience, for a cumulative period of at least 10 (ten) years, in the administration of justice, public administration, public finance or legal field;</p>
-              </item>
-            </blockList>
-            <blockList id="section-5.3.list3">
-              <listIntroduction>or</listIntroduction>
-              <item id="section-5.3.list3.d">
-                <num>(d)</num>
-                <p>for a cumulative period of at least 10 (ten) years, have been in the employment of a municipality or International Ombudsman Institute or International Ombudsman Association;</p>
-              </item>
-            </blockList>
-            <blockList id="section-5.3.list5">
-              <listIntroduction>or</listIntroduction>
-              <item id="section-5.3.list5.e">
-                <num>(e)</num>
-                <p>have acquired any combination of experience mentioned in paragraphs (c) and (d), for a cumulative period of at least 10 (ten) years.</p>
-              </item>
-            </blockList>
+            <p>The <term refersTo="#term-City_Ombudsman" id="trm43">City Ombudsman</term> will be appointed for period of five years.</p>
           </content>
         </subsection>
         <subsection id="section-5.4">
           <num>(4)</num>
           <content>
-            <p>The <term refersTo="#term-City_Ombudsman" id="trm53">City Ombudsman</term> will be appointed for a period of 5 (five) years.</p>
-          </content>
-        </subsection>
-        <subsection id="section-5.5">
-          <num>(5)</num>
-          <content>
-            <p>A person may be re-appointed to the position of <term refersTo="#term-City_Ombudsman" id="trm54">City Ombudsman</term>, provided that no more than two consecutive terms are served.</p>
+            <p>A person may be re appointed to the position of <term refersTo="#term-City_Ombudsman" id="trm44">City Ombudsman</term> only once.</p>
           </content>
         </subsection>
       </section>
@@ -221,20 +192,20 @@
         <subsection id="section-6.1">
           <num>(1)</num>
           <content>
-            <p>The <term refersTo="#term-City_Ombudsman" id="trm55">City Ombudsman</term> may investigate any <term refersTo="#term-complaint" id="trm56">complaint</term> submitted in accordance with section 8 of this by-law.</p>
+            <p>The <term refersTo="#term-City_Ombudsman" id="trm45">City Ombudsman</term> may investigate any <term refersTo="#term-complaint" id="trm46">complaint</term> submitted in accordance with section 8 of this by-law.</p>
           </content>
         </subsection>
         <subsection id="section-6.2">
           <num>(2)</num>
           <content>
-            <p>On receipt of a <term refersTo="#term-complaint" id="trm57">complaint</term>, the <term refersTo="#term-City_Ombudsman" id="trm58">City Ombudsman</term> must conduct a preliminary investigation for the purposes of determining the merits of the <term refersTo="#term-complaint" id="trm59">complaint</term>.</p>
+            <p>On receipt of a <term refersTo="#term-complaint" id="trm47">complaint</term>, the <term refersTo="#term-City_Ombudsman" id="trm48">City Ombudsman</term> must conduct a preliminary investigation for the purposes of determining the merits of the <term refersTo="#term-complaint" id="trm49">complaint</term>.</p>
           </content>
         </subsection>
         <subsection id="section-6.3">
           <num>(3)</num>
           <content>
             <blockList id="section-6.3.list1">
-              <listIntroduction>Where the result of the preliminary investigation determines that such <term refersTo="#term-complaint" id="trm60">complaint</term>:</listIntroduction>
+              <listIntroduction>Where the result of the preliminary investigation determines that such <term refersTo="#term-complaint" id="trm50">complaint</term>:</listIntroduction>
               <item id="section-6.3.list1.a">
                 <num>(a)</num>
                 <p>is frivolous;</p>
@@ -256,21 +227,21 @@
                 <p>for any similar reason should not be considered in terms of this by-law,</p>
               </item>
             </blockList>
-            <p>the <term refersTo="#term-complainant" id="trm61">complainant</term> will be notified in writing that the <term refersTo="#term-complaint" id="trm62">complaint</term> will not be considered.</p>
+            <p>the <term refersTo="#term-complainant" id="trm51">complainant</term> will be notified in writing that the <term refersTo="#term-complaint" id="trm52">complaint</term> will not be considered.</p>
           </content>
         </subsection>
         <subsection id="section-6.4">
           <num>(4)</num>
           <content>
             <blockList id="section-6.4.list1">
-              <listIntroduction>Subject to subsection (5), where a <term refersTo="#term-complainant" id="trm63">complainant</term>, in the opinion of the <term refersTo="#term-City_Ombudsman" id="trm64">City Ombudsman</term>, has remedies at his or her disposal and has not exhausted those remedies, the <term refersTo="#term-City_Ombudsman" id="trm65">City Ombudsman</term> may:</listIntroduction>
+              <listIntroduction>Subject to subsection (5), where a <term refersTo="#term-complainant" id="trm53">complainant</term>, in the opinion of the <term refersTo="#term-City_Ombudsman" id="trm54">City Ombudsman</term>, has remedies at his or her disposal and has not exhausted those remedies, the <term refersTo="#term-City_Ombudsman" id="trm55">City Ombudsman</term> may:</listIntroduction>
               <item id="section-6.4.list1.a">
                 <num>(a)</num>
-                <p>decline to investigate the <term refersTo="#term-complaint" id="trm66">complaint</term> concerned;</p>
+                <p>decline to investigate the <term refersTo="#term-complaint" id="trm56">complaint</term> concerned;</p>
               </item>
               <item id="section-6.4.list1.b">
                 <num>(b)</num>
-                <p>inform the <term refersTo="#term-complainant" id="trm67">complainant</term> of such other remedies that may exist.</p>
+                <p>inform the <term refersTo="#term-complainant" id="trm57">complainant</term> of such other remedies that may exist.</p>
               </item>
             </blockList>
           </content>
@@ -278,17 +249,17 @@
         <subsection id="section-6.5">
           <num>(5)</num>
           <content>
-            <p>Notwithstanding the provisions of subsection (4) of this by-law where the <term refersTo="#term-City_Ombudsman" id="trm68">City Ombudsman</term> on reasonable grounds believes that refusing to investigate a <term refersTo="#term-complaint" id="trm69">complaint</term> would, because of poverty or lack of capacity on behalf of the <term refersTo="#term-complainant" id="trm70">complainant</term>, result in a failure of justice, the <term refersTo="#term-City_Ombudsman" id="trm71">City Ombudsman</term> may investigate a <term refersTo="#term-complaint" id="trm72">complaint</term> where other remedies have not been explored.</p>
+            <p>Notwithstanding the provisions of subsection (4) of this by-law where the <term refersTo="#term-City_Ombudsman" id="trm58">City Ombudsman</term> on reasonable grounds believes that refusing to investigate a <term refersTo="#term-complaint" id="trm59">complaint</term> would, because of poverty or lack of capacity on behalf of the <term refersTo="#term-complainant" id="trm60">complainant</term>, result in a failure of justice, the <term refersTo="#term-City_Ombudsman" id="trm61">City Ombudsman</term> may investigate a <term refersTo="#term-complaint" id="trm62">complaint</term> where other remedies have not been explored.</p>
           </content>
         </subsection>
         <subsection id="section-6.6">
           <num>(6)</num>
           <content>
             <blockList id="section-6.6.list1">
-              <listIntroduction>For the purposes of an investigation contemplated in this by-law, the <term refersTo="#term-City_Ombudsman" id="trm73">City Ombudsman</term> will have the power to:</listIntroduction>
+              <listIntroduction>For the purposes of an investigation contemplated in this by-law, the <term refersTo="#term-City_Ombudsman" id="trm63">City Ombudsman</term> will have the power to:</listIntroduction>
               <item id="section-6.6.list1.a">
                 <num>(a)</num>
-                <p>require reasonable access to any book, record, file or other documents as well as physical property of the <term refersTo="#term-Council" id="trm74">Council</term>;</p>
+                <p>require reasonable access to any book, record, file or other documents as well as physical property of the <term refersTo="#term-Council" id="trm64">Council</term>;</p>
               </item>
               <item id="section-6.6.list1.b">
                 <num>(b)</num>
@@ -296,7 +267,7 @@
               </item>
               <item id="section-6.6.list1.c">
                 <num>(c)</num>
-                <p>enter any premises owned, controlled or managed by the <term refersTo="#term-Council" id="trm75">Council</term> and examine any book, record, file or other documents and physical property in the course of such a visit;</p>
+                <p>enter any premises owned, controlled or managed by the <term refersTo="#term-Council" id="trm65">Council</term> and examine any book, record, file or other documents and physical property in the course of such a visit;</p>
               </item>
               <item id="section-6.6.list1.d">
                 <num>(d)</num>
@@ -308,7 +279,7 @@
               </item>
               <item id="section-6.6.list1.f">
                 <num>(f)</num>
-                <p>require an official to appear at the <term refersTo="#term-City_Ombudsman" id="trm76">City Ombudsman</term>’s offices for the purpose of providing information relating to any investigation;</p>
+                <p>require an official to appear at the <term refersTo="#term-City_Ombudsman" id="trm66">City Ombudsman</term>’s offices for the purpose of providing information relating to any investigation;</p>
               </item>
               <item id="section-6.6.list1.g">
                 <num>(g)</num>
@@ -316,7 +287,7 @@
               </item>
               <item id="section-6.6.list1.h">
                 <num>(h)</num>
-                <p>institute, should the relevant parties consent thereto, informal mediation or other facilitative processes which are aimed at addressing the <term refersTo="#term-complaint" id="trm77">complaint</term>; and</p>
+                <p>institute, should the relevant parties consent thereto, informal mediation or other facilitative processes which are aimed at addressing the <term refersTo="#term-complaint" id="trm67">complaint</term>; and</p>
               </item>
               <item id="section-6.6.list1.i">
                 <num>(i)</num>
@@ -331,19 +302,19 @@
         <heading>Matters not for investigation</heading>
         <paragraph id="section-7.paragraph-0">
           <content>
-            <p>The Office of the <term refersTo="#term-City_Ombudsman" id="trm78">City Ombudsman</term> does not investigate any of the following matters:</p>
+            <p>The Office of the <term refersTo="#term-City_Ombudsman" id="trm68">City Ombudsman</term> does not investigate any of the following matters:</p>
           </content>
         </paragraph>
         <subsection id="section-7.1">
           <num>(1)</num>
           <content>
-            <p>any legislative or executive decisions by the <term refersTo="#term-Council" id="trm79">Council</term>, any of its portfolio committees or subcouncils;</p>
+            <p>any legislative or executive decisions by the <term refersTo="#term-Council" id="trm69">Council</term>, any of its portfolio committees or subcouncils;</p>
           </content>
         </subsection>
         <subsection id="section-7.2">
           <num>(2)</num>
           <content>
-            <p>any matter that falls within the domain of Forensics and Ethics as referred to in the <term refersTo="#term-City" id="trm80">City</term>’s Fraud Prevention Policy;</p>
+            <p>any matter that falls within the domain of Forensics and Ethics as referred to in the <term refersTo="#term-City" id="trm70">City</term>’s Fraud Prevention Policy;</p>
           </content>
         </subsection>
         <subsection id="section-7.3">
@@ -361,13 +332,13 @@
         <subsection id="section-7.5">
           <num>(5)</num>
           <content>
-            <p>any cases where the <term refersTo="#term-complainant" id="trm81">complainant</term> has not reported the matter to the line department as first port of call, subject to section 6(5) of this by-law;</p>
+            <p>any cases where the <term refersTo="#term-complainant" id="trm71">complainant</term> has not reported the matter to the line department as first port of call, subject to section 6(5) of this by-law;</p>
           </content>
         </subsection>
         <subsection id="section-7.6">
           <num>(6)</num>
           <content>
-            <p>any alleged irregular conduct of a <term refersTo="#term-councillor" id="trm82">councillor</term>;</p>
+            <p>any alleged irregular conduct of a <term refersTo="#term-councillor" id="trm72">councillor</term>;</p>
           </content>
         </subsection>
         <subsection id="section-7.7">
@@ -389,35 +360,35 @@
         <subsection id="section-8.1">
           <num>(1)</num>
           <content>
-            <p>All complaints submitted to the Office of the <term refersTo="#term-City_Ombudsman" id="trm83">City Ombudsman</term> must be in writing.</p>
+            <p>All complaints submitted to the Office of the <term refersTo="#term-City_Ombudsman" id="trm73">City Ombudsman</term> must be in writing.</p>
           </content>
         </subsection>
         <subsection id="section-8.2">
           <num>(2)</num>
           <content>
-            <p>Where a <term refersTo="#term-complainant" id="trm84">complainant</term> is not able to compile a written <term refersTo="#term-complaint" id="trm85">complaint</term>, he or she will be assisted by an <term refersTo="#term-authorised_official" id="trm86">authorised official</term> in the Office of the <term refersTo="#term-City_Ombudsman" id="trm87">City Ombudsman</term>.</p>
+            <p>Where a <term refersTo="#term-complainant" id="trm74">complainant</term> is not able to compile a written <term refersTo="#term-complaint" id="trm75">complaint</term>, he or she will be assisted by an <term refersTo="#term-authorised_official" id="trm76">authorised official</term> in the Office of the <term refersTo="#term-City_Ombudsman" id="trm77">City Ombudsman</term>.</p>
           </content>
         </subsection>
         <subsection id="section-8.3">
           <num>(3)</num>
           <content>
             <blockList id="section-8.3.list1">
-              <listIntroduction>Each <term refersTo="#term-complaint" id="trm88">complaint</term> must at least specify:</listIntroduction>
+              <listIntroduction>Each <term refersTo="#term-complaint" id="trm78">complaint</term> must at least specify:</listIntroduction>
               <item id="section-8.3.list1.a">
                 <num>(a)</num>
                 <p>the nature of the matter in question;</p>
               </item>
               <item id="section-8.3.list1.b">
                 <num>(b)</num>
-                <p>the line department in question, if known to the <term refersTo="#term-complainant" id="trm89">complainant</term>;</p>
+                <p>the line department in question, if known to the <term refersTo="#term-complainant" id="trm79">complainant</term>;</p>
               </item>
               <item id="section-8.3.list1.c">
                 <num>(c)</num>
-                <p>the grounds on which the <term refersTo="#term-complaint" id="trm90">complaint</term> against the <term refersTo="#term-City" id="trm91">City</term> of Cape Town is based;</p>
+                <p>the grounds on which the <term refersTo="#term-complaint" id="trm80">complaint</term> against the <term refersTo="#term-City" id="trm81">City</term> of Cape Town is based;</p>
               </item>
               <item id="section-8.3.list1.d">
                 <num>(d)</num>
-                <p>such facts or other relevant information known to the <term refersTo="#term-complainant" id="trm92">complainant</term>; and</p>
+                <p>such facts or other relevant information known to the <term refersTo="#term-complainant" id="trm82">complainant</term>; and</p>
               </item>
               <item id="section-8.3.list1.e">
                 <num>(e)</num>
@@ -462,7 +433,7 @@
         <heading>Short title and date of commencement</heading>
         <paragraph id="section-10.paragraph-0">
           <content>
-            <p>This by-law will be called the <term refersTo="#term-City" id="trm93">City</term> of Cape Town: <term refersTo="#term-City_Ombudsman" id="trm94">City Ombudsman</term> By-law, 2015 and will take effect on the date of publication in the Provincial Gazette.</p>
+            <p>This by-law will be called the <term refersTo="#term-City" id="trm83">City</term> of Cape Town: <term refersTo="#term-City_Ombudsman" id="trm84">City Ombudsman</term> By-law, 2015 and will take effect on the date of publication in the Provincial Gazette.</p>
           </content>
         </paragraph>
       </section>
