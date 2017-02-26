@@ -9,6 +9,8 @@ For each by-law, we have:
 * the Akoma Ntoso XML for the by-law, and
 * any attachments linked to the by-law (which are usually the original/source versions used to capture the by-law).
 
+We use Trello to manage the process of capturing by-laws: https://trello.com/b/MPRAv1X7/south-african-by-laws
+
 ## How this repo works
 
 Both this repo and openbylaws.org.za pull the bylaws and related content from
