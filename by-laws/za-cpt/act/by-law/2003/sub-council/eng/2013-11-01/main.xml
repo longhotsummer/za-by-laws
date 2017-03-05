@@ -1,40 +1,38 @@
 <akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
   <act contains="singleVersion">
     <meta>
-      <identification source="#openbylaws">
+      <identification source="#slaw">
         <FRBRWork>
           <FRBRthis value="/za-cpt/act/by-law/2003/sub-council/main"/>
           <FRBRuri value="/za-cpt/act/by-law/2003/sub-council"/>
           <FRBRalias value="Cape Town Sub-Council By-law, 2003 as amended"/>
           <FRBRdate date="2003-05-12" name="Generation"/>
-          <FRBRauthor href="#council" as="#author"/>
+          <FRBRauthor href="#council"/>
           <FRBRcountry value="za"/>
         </FRBRWork>
         <FRBRExpression>
           <FRBRthis value="/za-cpt/act/by-law/2003/sub-council/eng@2013-11-01/main"/>
           <FRBRuri value="/za-cpt/act/by-law/2003/sub-council/eng@2013-11-01"/>
           <FRBRdate date="2013-11-01" name="Generation"/>
-          <FRBRauthor href="#council" as="#author"/>
+          <FRBRauthor href="#council"/>
           <FRBRlanguage language="eng"/>
         </FRBRExpression>
         <FRBRManifestation>
           <FRBRthis value="/za-cpt/act/by-law/2003/sub-council/eng@2013-11-01/main"/>
           <FRBRuri value="/za-cpt/act/by-law/2003/sub-council/eng@2013-11-01"/>
-          <FRBRdate date="2016-07-10" name="Generation"/>
-          <FRBRauthor href="#openbylaws" as="#author"/>
+          <FRBRdate date="2017-02-26" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
         </FRBRManifestation>
       </identification>
-      <publication date="2003-05-12" name="Province of Western Cape: Provincial Gazette" number="6013" showAs="Province of Western Cape: Provincial Gazette"/>
-      <lifecycle source="#this">
-        <eventRef id="e1" date="2003-05-12" source="#original" type="generation"/>
+      <publication date="2003-05-12" name="Province of Western Cape: Provincial Gazette" showAs="Province of Western Cape: Provincial Gazette" number="6013"/>
+      <lifecycle source="#OpenByLaws-org-za">
         <eventRef id="amendment-2011-08-05" date="2011-08-05" type="amendment" source="#amendment-0-source"/>
         <eventRef id="amendment-2013-11-01" date="2013-11-01" type="amendment" source="#amendment-1-source"/>
       </lifecycle>
       <references source="#this">
-        <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
-        <TLCOrganization id="council" href="/ontology/organization/za/council.cape-town" showAs="Cape Town City Council"/>
-        <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
-        <original id="original" href="/za/by-law/cape-town/2003/sub-council" showAs="Original"/>
+        <TLCOrganization id="OpenByLaws-org-za" href="https://indigo.openbylaws.org.za" showAs="OpenByLaws.org.za"/>
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
         <TLCTerm id="term-by-law" href="/ontology/term/this.eng.by-law" showAs="by-law"/>
         <TLCTerm id="term-City_Manager" href="/ontology/term/this.eng.City_Manager" showAs="City Manager"/>
         <TLCTerm id="term-council" href="/ontology/term/this.eng.council" showAs="council"/>
@@ -54,66 +52,22 @@
       <section id="section-1">
         <num>1.</num>
         <heading>Definitions</heading>
-        <subsection id="section-1.subsection-0">
+        <paragraph id="section-1.paragraph-0" refersTo="#term-ward">
           <content>
             <p>In this <term refersTo="#term-by-law" id="trm0">by-law</term>, unless the context otherwise indicates—</p>
-          </content>
-        </subsection>
-        <subsection id="section-1.subsection-1" refersTo="#term-by-law">
-          <content>
-            <p>"<def refersTo="#term-by-law">by-law</def>" where the term is used in this by-law, means a by-law passed by the <term refersTo="#term-council" id="trm1">council</term>;</p>
-          </content>
-        </subsection>
-        <subsection id="section-1.subsection-2" refersTo="#term-City_Manager">
-          <content>
-            <p>"<def refersTo="#term-City_Manager">City Manager</def>" means the municipal manager referred to in section 82 of the <term refersTo="#term-Structures_Act" id="trm2">Structures Act</term> and who has been appointed as the City Manager;</p>
-          </content>
-        </subsection>
-        <subsection id="section-1.subsection-3" refersTo="#term-council">
-          <content>
-            <p>"<def refersTo="#term-council">council</def>" means the council of the <term refersTo="#term-municipality" id="trm3">municipality</term>;</p>
-          </content>
-        </subsection>
-        <subsection id="section-1.subsection-4" refersTo="#term-councillor">
-          <content>
-            <p>"<def refersTo="#term-councillor">councillor</def>" means a member of the <term refersTo="#term-council" id="trm4">council</term>;</p>
-          </content>
-        </subsection>
-        <subsection id="section-1.subsection-5" refersTo="#term-effective_date">
-          <content>
+            <p>"<def refersTo="#term-by-law">by-law</def>" where the term is used in this <term refersTo="#term-by-law" id="trm1">by-law</term>, means a <term refersTo="#term-by-law" id="trm2">by-law</term> passed by the <term refersTo="#term-council" id="trm3">council</term>;</p>
+            <p>"<def refersTo="#term-City_Manager">City Manager</def>" means the municipal manager referred to in section 82 of the <term refersTo="#term-Structures_Act" id="trm4">Structures Act</term> and who has been appointed as the <term refersTo="#term-City_Manager" id="trm5">City Manager</term>;</p>
+            <p>"<def refersTo="#term-council">council</def>" means the <term refersTo="#term-council" id="trm6">council</term> of the <term refersTo="#term-municipality" id="trm7">municipality</term>;</p>
+            <p>"<def refersTo="#term-councillor">councillor</def>" means a member of the <term refersTo="#term-council" id="trm8">council</term>;</p>
             <p>"<def refersTo="#term-effective_date">effective date</def>" means the date on which this By-law is promulgated by publication in the Provincial Gazette;</p>
+            <p>"<def refersTo="#term-manager__sub-council">manager: sub-council</def>" means a member of the municipal staff appointed by the <term refersTo="#term-City_Manager" id="trm9">City Manager</term> to exercise the powers and to perform the duties and functions related to sub-councils;</p>
+            <p>"<def refersTo="#term-municipality">municipality</def>" means the Municipality of the City of Cape Town established in terms of Section 12 of the <term refersTo="#term-Structures_Act" id="trm10">Structures Act</term> in Provincial Notice 479 dated 22 September 2000 and published in Provincial Gazette Extraordinary 5588 dated 22 September 2000;</p>
+            <p>"<def refersTo="#term-Structures_Act">Structures Act</def>" means the Local Government : Municipal <term refersTo="#term-Structures_Act" id="trm11">Structures Act</term> 117 of 1998;</p>
+            <p>"<def refersTo="#term-sub-council">sub-council</def>" means a metropolitan <term refersTo="#term-sub-council" id="trm12">sub-council</term> established in terms of Section 3 of this <term refersTo="#term-by-law" id="trm13">by-law</term>;</p>
+            <p>"<def refersTo="#term-Systems_Act">Systems Act</def>" means the Local Government : Municipal <term refersTo="#term-Systems_Act" id="trm14">Systems Act</term> 32 of 2000;</p>
+            <p>"<def refersTo="#term-ward">ward</def>" means a <term refersTo="#term-ward" id="trm15">ward</term> delimited in terms of Part 1 of Schedule 1 to the <term refersTo="#term-Structures_Act" id="trm16">Structures Act</term>;</p>
           </content>
-        </subsection>
-        <subsection id="section-1.subsection-6" refersTo="#term-manager__sub-council">
-          <content>
-            <p>"<def refersTo="#term-manager__sub-council">manager: sub-council</def>" means a member of the municipal staff appointed by the <term refersTo="#term-City_Manager" id="trm5">City Manager</term> to exercise the powers and to perform the duties and functions related to sub-councils;</p>
-          </content>
-        </subsection>
-        <subsection id="section-1.subsection-7" refersTo="#term-municipality">
-          <content>
-            <p>"<def refersTo="#term-municipality">municipality</def>" means the Municipality of the City of Cape Town established in terms of Section 12 of the <term refersTo="#term-Structures_Act" id="trm6">Structures Act</term> in Provincial Notice 479 dated 22 September 2000 and published in Provincial Gazette Extraordinary 5588 dated 22 September 2000;</p>
-          </content>
-        </subsection>
-        <subsection id="section-1.subsection-8" refersTo="#term-Structures_Act">
-          <content>
-            <p>"<def refersTo="#term-Structures_Act">Structures Act</def>" means the Local Government : Municipal Structures Act 117 of 1998;</p>
-          </content>
-        </subsection>
-        <subsection id="section-1.subsection-9" refersTo="#term-sub-council">
-          <content>
-            <p>"<def refersTo="#term-sub-council">sub-council</def>" means a metropolitan sub-<term refersTo="#term-council" id="trm7">council</term> established in terms of Section 3 of this <term refersTo="#term-by-law" id="trm8">by-law</term>;</p>
-          </content>
-        </subsection>
-        <subsection id="section-1.subsection-10" refersTo="#term-Systems_Act">
-          <content>
-            <p>"<def refersTo="#term-Systems_Act">Systems Act</def>" means the Local Government : Municipal Systems Act 32 of 2000;</p>
-          </content>
-        </subsection>
-        <subsection id="section-1.subsection-11" refersTo="#term-ward">
-          <content>
-            <p>"<def refersTo="#term-ward">ward</def>" means a ward delimited in terms of Part 1 of Schedule 1 to the <term refersTo="#term-Structures_Act" id="trm9">Structures Act</term>;</p>
-          </content>
-        </subsection>
+        </paragraph>
       </section>
       <part id="part-1">
         <num>1</num>
@@ -121,20 +75,20 @@
         <section id="section-2">
           <num>2.</num>
           <heading>Disestablishment</heading>
-          <subsection id="section-2.subsection-0">
+          <paragraph id="section-2.paragraph-0">
             <content>
-              <p>With effect from midnight on the day before the <term refersTo="#term-effective_date" id="trm10">effective date</term>, the twenty-three sub-councils set out in column 1 of Schedule 1 and consisting of the cluster of wards set out in column 2 of Schedule 1 shall be disestablished.</p>
+              <p>With effect from midnight on the day before the <term refersTo="#term-effective_date" id="trm17">effective date</term>, the twenty-three sub-councils set out in column 1 of Schedule 1 and consisting of the cluster of wards set out in column 2 of Schedule 1 shall be disestablished.</p>
             </content>
-          </subsection>
+          </paragraph>
         </section>
         <section id="section-3">
           <num>3.</num>
           <heading>Establishment</heading>
-          <subsection id="section-3.subsection-0">
+          <paragraph id="section-3.paragraph-0">
             <content>
-              <p>With effect from the <term refersTo="#term-effective_date" id="trm11">effective date</term>, the twenty-four sub-councils set out in column 1 of Schedule 2, shall be established for the area consisting of the cluster of adjoining wards set out in column 2 of Schedule 2.</p>
+              <p>With effect from the <term refersTo="#term-effective_date" id="trm18">effective date</term>, the twenty-four sub-councils set out in column 1 of Schedule 2, shall be established for the area consisting of the cluster of adjoining wards set out in column 2 of Schedule 2.</p>
             </content>
-          </subsection>
+          </paragraph>
         </section>
         <section id="section-4">
           <num>4.</num>
@@ -142,19 +96,19 @@
           <subsection id="section-4.1">
             <num>(1)</num>
             <content>
-              <p>The name of each <term refersTo="#term-sub-council" id="trm12">sub-council</term> shall be the name allocated to it in column 2 of the Schedule 2 of the Annexure to this By-law.</p>
+              <p>The name of each <term refersTo="#term-sub-council" id="trm19">sub-council</term> shall be the name allocated to it in column 2 of the Schedule 2 of the Annexure to this By-law.</p>
             </content>
           </subsection>
           <subsection id="section-4.2">
             <num>(2)</num>
             <content>
-              <p>A <term refersTo="#term-sub-council" id="trm13">sub-council</term> may recommend to <term refersTo="#term-council" id="trm14">council</term> an amendment to the name allocated to such <term refersTo="#term-sub-council" id="trm15">sub-council</term> in terms of sub-section (1).</p>
+              <p>A <term refersTo="#term-sub-council" id="trm20">sub-council</term> may recommend to <term refersTo="#term-council" id="trm21">council</term> an amendment to the name allocated to such <term refersTo="#term-sub-council" id="trm22">sub-council</term> in terms of sub-section (1).</p>
             </content>
           </subsection>
           <subsection id="section-4.3">
             <num>(3)</num>
             <content>
-              <p>Council shall consider recommendations to change the name of a <term refersTo="#term-sub-council" id="trm16">sub-council</term> and cause an amendment to Schedule 2 to effect a name change.</p>
+              <p>Council shall consider recommendations to change the name of a <term refersTo="#term-sub-council" id="trm23">sub-council</term> and cause an amendment to Schedule 2 to effect a name change.</p>
             </content>
           </subsection>
         </section>
@@ -164,15 +118,15 @@
           <subsection id="section-5.1">
             <num>(1)</num>
             <content>
-              <blockList id="section-5.1.list0">
-                <listIntroduction> A <term refersTo="#term-sub-council" id="trm17">sub-council</term> is composed of: </listIntroduction>
-                <item id="section-5.1.list0.a">
+              <blockList id="section-5.1.list1">
+                <listIntroduction>A <term refersTo="#term-sub-council" id="trm24">sub-council</term> is composed of:</listIntroduction>
+                <item id="section-5.1.list1.a">
                   <num>(a)</num>
-                  <p>the elected <term refersTo="#term-ward" id="trm18">ward</term> councillors of wards contained in the <term refersTo="#term-sub-council" id="trm19">sub-council</term>, and</p>
+                  <p>the elected <term refersTo="#term-ward" id="trm25">ward</term> councillors of wards contained in the <term refersTo="#term-sub-council" id="trm26">sub-council</term>, and</p>
                 </item>
-                <item id="section-5.1.list0.b">
+                <item id="section-5.1.list1.b">
                   <num>(b)</num>
-                  <p>the proportional councillors allocated to a <term refersTo="#term-sub-council" id="trm20">sub-council</term> in terms of Section 63(1) of the <term refersTo="#term-Structures_Act" id="trm21">Structures Act</term> read with Section 62(cA) (where applicable) and Schedule 4 of the <term refersTo="#term-Structures_Act" id="trm22">Structures Act</term>.</p>
+                  <p>the proportional councillors allocated to a <term refersTo="#term-sub-council" id="trm27">sub-council</term> in terms of Section 63(1) of the <term refersTo="#term-Structures_Act" id="trm28">Structures Act</term> read with Section 62(cA) (where applicable) and Schedule 4 of the <term refersTo="#term-Structures_Act" id="trm29">Structures Act</term>.</p>
                 </item>
               </blockList>
             </content>
@@ -181,11 +135,7 @@
             <num>(2)</num>
             <content>
               <p>The mechanism referred to in Section 62(cA) for the appointment of councillors to sub-councils shall be as follows:</p>
-            </content>
-          </subsection>
-          <subsection id="section-5.subsection-2">
-            <content>
-              <p>The speaker, after consultation with the chief whips of the parties represented in <term refersTo="#term-council" id="trm23">council</term> will recommend to <term refersTo="#term-council" id="trm24">council</term> the allocation of the Section 63(1)(b) seats to the parties in a manner that reasonably reflects the governing majority in <term refersTo="#term-council" id="trm25">council</term>.</p>
+              <p>The speaker, after consultation with the chief whips of the parties represented in <term refersTo="#term-council" id="trm30">council</term> will recommend to <term refersTo="#term-council" id="trm31">council</term> the allocation of the Section 63(1)(b) seats to the parties in a manner that reasonably reflects the governing majority in <term refersTo="#term-council" id="trm32">council</term>.</p>
             </content>
           </subsection>
         </section>
@@ -195,15 +145,15 @@
           <subsection id="section-6.1">
             <num>(1)</num>
             <content>
-              <blockList id="section-6.1.list0">
-                <listIntroduction> Whenever a vacancy occurs in the membership of a <term refersTo="#term-sub-council" id="trm26">sub-council</term> because a <term refersTo="#term-councillor" id="trm27">councillor</term> who is a member of such <term refersTo="#term-sub-council" id="trm28">sub-council</term> resigns as a <term refersTo="#term-councillor" id="trm29">councillor</term> or ceases to be a <term refersTo="#term-councillor" id="trm30">councillor</term>, such vacancy shall be filled: </listIntroduction>
-                <item id="section-6.1.list0.a">
+              <blockList id="section-6.1.list1">
+                <listIntroduction>Whenever a vacancy occurs in the membership of a <term refersTo="#term-sub-council" id="trm33">sub-council</term> because a <term refersTo="#term-councillor" id="trm34">councillor</term> who is a member of such <term refersTo="#term-sub-council" id="trm35">sub-council</term> resigns as a <term refersTo="#term-councillor" id="trm36">councillor</term> or ceases to be a <term refersTo="#term-councillor" id="trm37">councillor</term>, such vacancy shall be filled:</listIntroduction>
+                <item id="section-6.1.list1.a">
                   <num>(a)</num>
-                  <p>in the case of such a <term refersTo="#term-councillor" id="trm31">councillor</term> who represented a <term refersTo="#term-ward" id="trm32">ward</term>, by the <term refersTo="#term-councillor" id="trm33">councillor</term> elected to fill that vacancy; and</p>
+                  <p>in the case of such a <term refersTo="#term-councillor" id="trm38">councillor</term> who represented a <term refersTo="#term-ward" id="trm39">ward</term>, by the <term refersTo="#term-councillor" id="trm40">councillor</term> elected to fill that vacancy; and</p>
                 </item>
-                <item id="section-6.1.list0.b">
+                <item id="section-6.1.list1.b">
                   <num>(b)</num>
-                  <p>in the case of a <term refersTo="#term-councillor" id="trm34">councillor</term> elected according to the system of proportional representation referred to in Part 3 of Schedule 1 to the <term refersTo="#term-Structures_Act" id="trm35">Structures Act</term>, by the party to which that seat was allocated in terms of Schedule 4 to the <term refersTo="#term-Structures_Act" id="trm36">Structures Act</term>, appointing any <term refersTo="#term-councillor" id="trm37">councillor</term> from among its proportionally elected councillors.</p>
+                  <p>in the case of a <term refersTo="#term-councillor" id="trm41">councillor</term> elected according to the system of proportional representation referred to in Part 3 of Schedule 1 to the <term refersTo="#term-Structures_Act" id="trm42">Structures Act</term>, by the party to which that seat was allocated in terms of Schedule 4 to the <term refersTo="#term-Structures_Act" id="trm43">Structures Act</term>, appointing any <term refersTo="#term-councillor" id="trm44">councillor</term> from among its proportionally elected councillors.</p>
                 </item>
               </blockList>
             </content>
@@ -211,7 +161,7 @@
           <subsection id="section-6.2">
             <num>(2)</num>
             <content>
-              <p>Whenever a vacancy occurs in the membership of <term refersTo="#term-sub-council" id="trm38">sub-council</term> because a <term refersTo="#term-councillor" id="trm39">councillor</term> who is elected according to a system of proportional representation, resigns as a member of such a <term refersTo="#term-sub-council" id="trm40">sub-council</term>, such vacancy shall be filled, by the party to which that seat was allocated in terms of Schedule 4 of the <term refersTo="#term-Structures_Act" id="trm41">Structures Act</term>, appointing any <term refersTo="#term-councillor" id="trm42">councillor</term> from among its proportionally elected councillors.</p>
+              <p>Whenever a vacancy occurs in the membership of <term refersTo="#term-sub-council" id="trm45">sub-council</term> because a <term refersTo="#term-councillor" id="trm46">councillor</term> who is elected according to a system of proportional representation, resigns as a member of such a <term refersTo="#term-sub-council" id="trm47">sub-council</term>, such vacancy shall be filled, by the party to which that seat was allocated in terms of Schedule 4 of the <term refersTo="#term-Structures_Act" id="trm48">Structures Act</term>, appointing any <term refersTo="#term-councillor" id="trm49">councillor</term> from among its proportionally elected councillors.</p>
             </content>
           </subsection>
         </section>
@@ -225,25 +175,25 @@
           <subsection id="section-7.1">
             <num>(1)</num>
             <content>
-              <p>The first meeting of a <term refersTo="#term-sub-council" id="trm43">sub-council</term> shall take place at a place, on a date and at a time determined by the <term refersTo="#term-City_Manager" id="trm44">City Manager</term> who shall give notice in the press of the place, date and time of such meeting.</p>
+              <p>The first meeting of a <term refersTo="#term-sub-council" id="trm50">sub-council</term> shall take place at a place, on a date and at a time determined by the <term refersTo="#term-City_Manager" id="trm51">City Manager</term> who shall give notice in the press of the place, date and time of such meeting.</p>
             </content>
           </subsection>
           <subsection id="section-7.2">
             <num>(2)</num>
             <content>
-              <p>The <term refersTo="#term-City_Manager" id="trm45">City Manager</term> shall determine the agenda for the first meeting of a <term refersTo="#term-sub-council" id="trm46">sub-council</term>, the first item of which shall be the election of the chairperson.</p>
+              <p>The <term refersTo="#term-City_Manager" id="trm52">City Manager</term> shall determine the agenda for the first meeting of a <term refersTo="#term-sub-council" id="trm53">sub-council</term>, the first item of which shall be the election of the chairperson.</p>
             </content>
           </subsection>
           <subsection id="section-7.3">
             <num>(3)</num>
             <content>
-              <p>The <term refersTo="#term-City_Manager" id="trm47">City Manager</term> shall instruct a member of the municipal staff to preside at the first meeting of a <term refersTo="#term-sub-council" id="trm48">sub-council</term> until the <term refersTo="#term-sub-council" id="trm49">sub-council</term> elects its chairperson in terms of Section 8.</p>
+              <p>The <term refersTo="#term-City_Manager" id="trm54">City Manager</term> shall instruct a member of the municipal staff to preside at the first meeting of a <term refersTo="#term-sub-council" id="trm55">sub-council</term> until the <term refersTo="#term-sub-council" id="trm56">sub-council</term> elects its chairperson in terms of Section 8.</p>
             </content>
           </subsection>
           <subsection id="section-7.4">
             <num>(4)</num>
             <content>
-              <p>The provisions of this section shall apply after every election of all the members of the <term refersTo="#term-council" id="trm50">council</term>, including a by-election contemplated in Section 25 of the <term refersTo="#term-Structures_Act" id="trm51">Structures Act</term>.</p>
+              <p>The provisions of this section shall apply after every election of all the members of the <term refersTo="#term-council" id="trm57">council</term>, including a by-election contemplated in Section 25 of the <term refersTo="#term-Structures_Act" id="trm58">Structures Act</term>.</p>
             </content>
           </subsection>
         </section>
@@ -253,7 +203,7 @@
           <subsection id="section-8.1">
             <num>(1)</num>
             <content>
-              <p>Whenever it is necessary to elect a chairperson of a <term refersTo="#term-sub-council" id="trm52">sub-council</term>, a <term refersTo="#term-sub-council" id="trm53">sub-council</term> shall elect one of its members to be the chairperson. Where there is an equality of votes, the election shall be determined by the drawing of lots.</p>
+              <p>Whenever it is necessary to elect a chairperson of a <term refersTo="#term-sub-council" id="trm59">sub-council</term>, a <term refersTo="#term-sub-council" id="trm60">sub-council</term> shall elect one of its members to be the chairperson. Where there is an equality of votes, the election shall be determined by the drawing of lots.</p>
             </content>
           </subsection>
           <subsection id="section-8.2">
@@ -265,13 +215,13 @@
           <subsection id="section-8.3">
             <num>(3)</num>
             <content>
-              <p>A <term refersTo="#term-sub-council" id="trm54">sub-council</term> may by resolution remove the chairperson from office. Prior notice of an intention to move a motion for the removal of the chairperson must be given.</p>
+              <p>A <term refersTo="#term-sub-council" id="trm61">sub-council</term> may by resolution remove the chairperson from office. Prior notice of an intention to move a motion for the removal of the chairperson must be given.</p>
             </content>
           </subsection>
           <subsection id="section-8.4">
             <num>(4)</num>
             <content>
-              <p>A chairperson who is removed from the office shall remain a member of the <term refersTo="#term-sub-council" id="trm55">sub-council</term> concerned.</p>
+              <p>A chairperson who is removed from the office shall remain a member of the <term refersTo="#term-sub-council" id="trm62">sub-council</term> concerned.</p>
             </content>
           </subsection>
         </section>
@@ -281,14 +231,14 @@
           <subsection id="section-9.1">
             <num>(1)</num>
             <content>
-              <p>A <term refersTo="#term-sub-council" id="trm56">sub-council</term> shall hold an ordinary meeting at least once a month except when the <term refersTo="#term-council" id="trm57">council</term> has resolved to go into recess. A <term refersTo="#term-sub-council" id="trm58">sub-council</term> may hold more than one ordinary meeting in a month which does not fall into a recess period.</p>
+              <p>A <term refersTo="#term-sub-council" id="trm63">sub-council</term> shall hold an ordinary meeting at least once a month except when the <term refersTo="#term-council" id="trm64">council</term> has resolved to go into recess. A <term refersTo="#term-sub-council" id="trm65">sub-council</term> may hold more than one ordinary meeting in a month which does not fall into a recess period.</p>
             </content>
           </subsection>
           <subsection id="section-9.2">
             <num>(2)</num>
             <content>
               <blockList id="section-9.2.list1">
-                <listIntroduction> A special meeting of a <term refersTo="#term-sub-council" id="trm59">sub-council</term> shall be held whenever: </listIntroduction>
+                <listIntroduction>A special meeting of a <term refersTo="#term-sub-council" id="trm66">sub-council</term> shall be held whenever:</listIntroduction>
                 <item id="section-9.2.list1.a">
                   <num>(a)</num>
                   <p>the chairperson so directs; or</p>
@@ -309,18 +259,18 @@
           <subsection id="section-9.4">
             <num>(4)</num>
             <content>
-              <p>The <term refersTo="#term-City_Manager" id="trm60">City Manager</term> shall give notice to the public, in a manner determined by the <term refersTo="#term-council" id="trm61">council</term>, of the time, date and venue of every ordinary meeting, and except when time constraints make this impossible, of any special meeting</p>
+              <p>The <term refersTo="#term-City_Manager" id="trm67">City Manager</term> shall give notice to the public, in a manner determined by the <term refersTo="#term-council" id="trm68">council</term>, of the time, date and venue of every ordinary meeting, and except when time constraints make this impossible, of any special meeting</p>
             </content>
           </subsection>
         </section>
         <section id="section-10">
           <num>10.</num>
           <heading>Staffing</heading>
-          <subsection id="section-10.subsection-0">
+          <paragraph id="section-10.paragraph-0">
             <content>
-              <p>The <term refersTo="#term-City_Manager" id="trm62">City Manager</term> shall appoint and designate officials to enable sub-councils to efficiently and effectively exercise their powers and perform their duties.</p>
+              <p>The <term refersTo="#term-City_Manager" id="trm69">City Manager</term> shall appoint and designate officials to enable sub-councils to efficiently and effectively exercise their powers and perform their duties.</p>
             </content>
-          </subsection>
+          </paragraph>
         </section>
       </part>
       <part id="part-3">
@@ -329,11 +279,11 @@
         <section id="section-11">
           <num>11.</num>
           <heading>Recommendations</heading>
-          <subsection id="section-11.subsection-0">
+          <paragraph id="section-11.paragraph-0">
             <content>
-              <p>A <term refersTo="#term-sub-council" id="trm63">sub-council</term> may make recommendations to the <term refersTo="#term-council" id="trm64">council</term> on any matter affecting its area.</p>
+              <p>A <term refersTo="#term-sub-council" id="trm70">sub-council</term> may make recommendations to the <term refersTo="#term-council" id="trm71">council</term> on any matter affecting its area.</p>
             </content>
-          </subsection>
+          </paragraph>
         </section>
         <section id="section-12">
           <num>12.</num>
@@ -341,13 +291,13 @@
           <subsection id="section-12.1">
             <num>(1)</num>
             <content>
-              <p>A <term refersTo="#term-sub-council" id="trm65">sub-council</term> has such powers and duties as the <term refersTo="#term-council" id="trm66">council</term> may delegate to it.</p>
+              <p>A <term refersTo="#term-sub-council" id="trm72">sub-council</term> has such powers and duties as the <term refersTo="#term-council" id="trm73">council</term> may delegate to it.</p>
             </content>
           </subsection>
           <subsection id="section-12.2">
             <num>(2)</num>
             <content>
-              <p>A <term refersTo="#term-sub-council" id="trm67">sub-council</term> may advise the <term refersTo="#term-council" id="trm68">council</term> on what duties and powers should be delegated to it.</p>
+              <p>A <term refersTo="#term-sub-council" id="trm74">sub-council</term> may advise the <term refersTo="#term-council" id="trm75">council</term> on what duties and powers should be delegated to it.</p>
             </content>
           </subsection>
         </section>
@@ -361,34 +311,30 @@
           <subsection id="section-13.1">
             <num>(1)</num>
             <content>
-              <blockList id="section-13.1.list0">
-                <listIntroduction> The <term refersTo="#term-council" id="trm69">council</term> shall annually in approving its operating budget make provision for— </listIntroduction>
-                <item id="section-13.1.list0.a">
+              <blockList id="section-13.1.list1">
+                <listIntroduction>The <term refersTo="#term-council" id="trm76">council</term> shall annually in approving its operating budget make provision for—</listIntroduction>
+                <item id="section-13.1.list1.a">
                   <num>(a)</num>
                   <p>the operating costs of sub-councils, and</p>
                 </item>
-                <item id="section-13.1.list0.b">
+                <item id="section-13.1.list1.b">
                   <num>(b)</num>
                   <p>the exercise of the powers and duties delegated to sub-councils,</p>
                 </item>
               </blockList>
-            </content>
-          </subsection>
-          <subsection id="section-13.subsection-1">
-            <content>
               <p>and the amounts so allocated shall be calculated with due regard to those areas where the greater need exists, including the lack of capacity, as reflected in the Integrated Development Plan.</p>
             </content>
           </subsection>
           <subsection id="section-13.2">
             <num>(2)</num>
             <content>
-              <p>A <term refersTo="#term-sub-council" id="trm70">sub-council</term> may within any policy or controls on expenditure, authorise expenditure on the matters referred to in subsection (1)(b).</p>
+              <p>A <term refersTo="#term-sub-council" id="trm77">sub-council</term> may within any policy or controls on expenditure, authorise expenditure on the matters referred to in subsection (1)(b).</p>
             </content>
           </subsection>
           <subsection id="section-13.3">
             <num>(3)</num>
             <content>
-              <p>The <term refersTo="#term-council" id="trm71">council</term> shall annually in its capital budget allocate to each <term refersTo="#term-sub-council" id="trm72">sub-council</term> an amount to be spent on capital projects in such <term refersTo="#term-sub-council" id="trm73">sub-council</term>.</p>
+              <p>The <term refersTo="#term-council" id="trm78">council</term> shall annually in its capital budget allocate to each <term refersTo="#term-sub-council" id="trm79">sub-council</term> an amount to be spent on capital projects in such <term refersTo="#term-sub-council" id="trm80">sub-council</term>.</p>
             </content>
           </subsection>
           <subsection id="section-13.4">
@@ -400,13 +346,13 @@
           <subsection id="section-13.5">
             <num>(5)</num>
             <content>
-              <blockList id="section-13.5.list5">
-                <listIntroduction> Each <term refersTo="#term-sub-council" id="trm74">sub-council</term> shall annually submit to the <term refersTo="#term-council" id="trm75">council</term> its prioritised list of the projects referred to in subsection (4) and the only basis on which the <term refersTo="#term-council" id="trm76">council</term> may decline to release funds for a particular project shall be— </listIntroduction>
-                <item id="section-13.5.list5.a">
+              <blockList id="section-13.5.list1">
+                <listIntroduction>Each <term refersTo="#term-sub-council" id="trm81">sub-council</term> shall annually submit to the <term refersTo="#term-council" id="trm82">council</term> its prioritised list of the projects referred to in subsection (4) and the only basis on which the <term refersTo="#term-council" id="trm83">council</term> may decline to release funds for a particular project shall be—</listIntroduction>
+                <item id="section-13.5.list1.a">
                   <num>(a)</num>
                   <p>the proposal does not comply with the law, or</p>
                 </item>
-                <item id="section-13.5.list5.b">
+                <item id="section-13.5.list1.b">
                   <num>(b)</num>
                   <p>the project will not be completed within the year in which it is commenced.</p>
                 </item>
@@ -427,46 +373,46 @@
         <section id="section-14">
           <num>14.</num>
           <heading>Lines of communication</heading>
-          <subsection id="section-14.subsection-0">
+          <paragraph id="section-14.paragraph-0">
             <content>
-              <p>All official communications between a <term refersTo="#term-sub-council" id="trm77">sub-council</term> and the other structures of the <term refersTo="#term-council" id="trm78">council</term>, political office bearers, councillors and members of the municipal staff shall be by means of <term refersTo="#term-sub-council" id="trm79">sub-council</term> managers.</p>
-              <p>At all instances where the designation "manager(s): <term refersTo="#term-sub-council" id="trm80">sub-council</term>" appears in the Cape Town Sub-<term refersTo="#term-council" id="trm81">council</term> By-law, it is to be replaced with the designation "<term refersTo="#term-sub-council" id="trm82">sub-council</term> manager".</p>
+              <p>All official communications between a <term refersTo="#term-sub-council" id="trm84">sub-council</term> and the other structures of the <term refersTo="#term-council" id="trm85">council</term>, political office bearers, councillors and members of the municipal staff shall be by means of <term refersTo="#term-sub-council" id="trm86">sub-council</term> managers.</p>
+              <p>At all instances where the designation "manager(s): <term refersTo="#term-sub-council" id="trm87">sub-council</term>" appears in the Cape Town Sub-<term refersTo="#term-council" id="trm88">council</term> By-law, it is to be replaced with the designation "<term refersTo="#term-sub-council" id="trm89">sub-council</term> manager".</p>
             </content>
-          </subsection>
+          </paragraph>
         </section>
         <section id="section-15">
           <num>15.</num>
-          <heading>Accountability of <term refersTo="#term-manager__sub-council" id="trm83">manager: sub-council</term></heading>
+          <heading>Accountability of <term refersTo="#term-manager__sub-council" id="trm90">manager: sub-council</term></heading>
           <subsection id="section-15.1">
             <num>(1)</num>
             <content>
-              <p>A <term refersTo="#term-manager__sub-council" id="trm84">manager: sub-council</term> is accountable to the <term refersTo="#term-City_Manager" id="trm85">City Manager</term> for the exercise of any power conferred or the performance of any function or duty imposed in terms of this <term refersTo="#term-by-law" id="trm86">by-law</term> and for the carrying out of any instruction or order given by or on behalf of the <term refersTo="#term-City_Manager" id="trm87">City Manager</term>.</p>
+              <p>A <term refersTo="#term-manager__sub-council" id="trm91">manager: sub-council</term> is accountable to the <term refersTo="#term-City_Manager" id="trm92">City Manager</term> for the exercise of any power conferred or the performance of any function or duty imposed in terms of this <term refersTo="#term-by-law" id="trm93">by-law</term> and for the carrying out of any instruction or order given by or on behalf of the <term refersTo="#term-City_Manager" id="trm94">City Manager</term>.</p>
             </content>
           </subsection>
           <subsection id="section-15.2">
             <num>(2)</num>
             <content>
-              <p>A <term refersTo="#term-manager__sub-council" id="trm88">manager: sub-council</term> shall report to such functionary of the administration as the <term refersTo="#term-City_Manager" id="trm89">City Manager</term> may determine.</p>
+              <p>A <term refersTo="#term-manager__sub-council" id="trm95">manager: sub-council</term> shall report to such functionary of the administration as the <term refersTo="#term-City_Manager" id="trm96">City Manager</term> may determine.</p>
             </content>
           </subsection>
         </section>
         <section id="section-16">
           <num>16.</num>
           <heading>City manager to sub-delegate</heading>
-          <subsection id="section-16.subsection-0">
+          <paragraph id="section-16.paragraph-0">
             <content>
-              <p>The <term refersTo="#term-City_Manager" id="trm90">City Manager</term> may sub-delegate any power conferred or any function or duty imposed on him or her in terms of this <term refersTo="#term-by-law" id="trm91">by-law</term> to a member of the municipal staff.</p>
+              <p>The <term refersTo="#term-City_Manager" id="trm97">City Manager</term> may sub-delegate any power conferred or any function or duty imposed on him or her in terms of this <term refersTo="#term-by-law" id="trm98">by-law</term> to a member of the municipal staff.</p>
             </content>
-          </subsection>
+          </paragraph>
         </section>
         <section id="section-17">
           <num>17.</num>
-          <heading>Sub-<term refersTo="#term-council" id="trm92">council</term> to delegate</heading>
-          <subsection id="section-17.subsection-0">
+          <heading>Sub-<term refersTo="#term-council" id="trm99">council</term> to delegate</heading>
+          <paragraph id="section-17.paragraph-0">
             <content>
-              <p>Asub-<term refersTo="#term-council" id="trm93">council</term> may sub-delegate any power conferred or duty or function imposed on it in terms of this <term refersTo="#term-by-law" id="trm94">by-law</term>, to a member of the municipal staff.</p>
+              <p>Asub-<term refersTo="#term-council" id="trm100">council</term> may sub-delegate any power conferred or duty or function imposed on it in terms of this <term refersTo="#term-by-law" id="trm101">by-law</term>, to a member of the municipal staff.</p>
             </content>
-          </subsection>
+          </paragraph>
         </section>
         <section id="section-18">
           <num>18.</num>
@@ -474,13 +420,13 @@
           <subsection id="section-18.1">
             <num>(1)</num>
             <content>
-              <p>This <term refersTo="#term-by-law" id="trm95">by-law</term> is called the Cape Town Sub-<term refersTo="#term-council" id="trm96">council</term> By-law, 2003 and shall come into effect on the <term refersTo="#term-effective_date" id="trm97">effective date</term>.</p>
+              <p>This <term refersTo="#term-by-law" id="trm102">by-law</term> is called the Cape Town Sub-<term refersTo="#term-council" id="trm103">council</term> By-law, 2003 and shall come into effect on the <term refersTo="#term-effective_date" id="trm104">effective date</term>.</p>
             </content>
           </subsection>
           <subsection id="section-18.2">
             <num>(2)</num>
             <content>
-              <p>In the event of any conflict between the English text of this <term refersTo="#term-by-law" id="trm98">by-law</term> and its text in another language, the English text shall prevail.</p>
+              <p>In the event of any conflict between the English text of this <term refersTo="#term-by-law" id="trm105">by-law</term> and its text in another language, the English text shall prevail.</p>
             </content>
           </subsection>
         </section>
@@ -488,239 +434,241 @@
     </body>
   </act>
   <components>
-    <component id="component-1">
+    <component id="component-schedule1">
       <doc name="schedule1">
         <meta>
-          <identification source="#this">
+          <identification source="#slaw">
             <FRBRWork>
               <FRBRthis value="/za-cpt/act/by-law/2003/sub-council/schedule1"/>
               <FRBRuri value="/za-cpt/act/by-law/2003/sub-council"/>
               <FRBRalias value="Schedule 1"/>
-              <FRBRdate date="2003-05-12" name="Generation"/>
-              <FRBRauthor href="#council" as="#author"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
               <FRBRcountry value="za"/>
             </FRBRWork>
             <FRBRExpression>
               <FRBRthis value="/za-cpt/act/by-law/2003/sub-council/eng@2013-11-01/schedule1"/>
               <FRBRuri value="/za-cpt/act/by-law/2003/sub-council/eng@2013-11-01"/>
-              <FRBRdate date="2003-05-12" name="Generation"/>
-              <FRBRauthor href="#council" as="#author"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
               <FRBRlanguage language="eng"/>
             </FRBRExpression>
             <FRBRManifestation>
               <FRBRthis value="/za-cpt/act/by-law/2003/sub-council/eng@2013-11-01/schedule1"/>
               <FRBRuri value="/za-cpt/act/by-law/2003/sub-council/eng@2013-11-01"/>
-              <FRBRdate date="2013-12-04" name="Generation"/>
-              <FRBRauthor href="#openbylaws" as="#author"/>
+              <FRBRdate date="2017-02-26" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
             </FRBRManifestation>
           </identification>
         </meta>
         <mainBody>
-          <article id="schedule-1">
-            <content>
-              <table id="schedule-1.table0">
-                <tr>
-                  <th>
-                    <p>Column 1</p>
-                  </th>
-                  <th>
-                    <p>Column 2</p>
-                  </th>
-                </tr>
-                <tr>
-                  <th>
-                    <p>Sub-Council Designation</p>
-                  </th>
-                  <th>
-                    <p>Ward Numbers</p>
-                  </th>
-                </tr>
-                <tr>
-                  <td>
-                    <p>1</p>
-                  </td>
-                  <td>
-                    <p>4, 23, 55, 56 and 104</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>2</p>
-                  </td>
-                  <td>
-                    <p>3, 6, 7, 8, 101 and 102</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>3</p>
-                  </td>
-                  <td>
-                    <p>1, 5, 27 and 70</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>4</p>
-                  </td>
-                  <td>
-                    <p>2, 25, 26 and 28</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>5</p>
-                  </td>
-                  <td>
-                    <p>24, 31, 50 and 51</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>6</p>
-                  </td>
-                  <td>
-                    <p>9, 10 and 22</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>7</p>
-                  </td>
-                  <td>
-                    <p>21, 29, 32, 103 and 105</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>8</p>
-                  </td>
-                  <td>
-                    <p>15, 83, 84, 85, 86 and 100</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>9</p>
-                  </td>
-                  <td>
-                    <p>90, 91, 92, 94 and 97</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>10</p>
-                  </td>
-                  <td>
-                    <p>82, 95, 96, 98 and 99</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>11</p>
-                  </td>
-                  <td>
-                    <p>40, 41, 42, 44 and 45</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>12</p>
-                  </td>
-                  <td>
-                    <p>43, 75, 76, 78, 79 and 81</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>13</p>
-                  </td>
-                  <td>
-                    <p>33, 34, 35 and 88</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>14</p>
-                  </td>
-                  <td>
-                    <p>36, 37, 38 and 39</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>15</p>
-                  </td>
-                  <td>
-                    <p>30, 53 and 57</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>16</p>
-                  </td>
-                  <td>
-                    <p>54, 74 and 77</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>17</p>
-                  </td>
-                  <td>
-                    <p>46, 47, 48, 49, 52 and 60</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>18</p>
-                  </td>
-                  <td>
-                    <p>63, 65, 66, 67, 72 and 80</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>19</p>
-                  </td>
-                  <td>
-                    <p>61, 64, 68, 69 and 71</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>20</p>
-                  </td>
-                  <td>
-                    <p>58, 59, 62 and 73</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>21</p>
-                  </td>
-                  <td>
-                    <p>11, 14 and 17</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>22</p>
-                  </td>
-                  <td>
-                    <p>16, 18, 19 and 93</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>23</p>
-                  </td>
-                  <td>
-                    <p>12, 13, 20, 87 and 89</p>
-                  </td>
-                </tr>
-              </table>
-            </content>
+          <article id="schedule1">
+            <paragraph id="schedule1.paragraph-0">
+              <content>
+                <table id="schedule1.paragraph-0.table0">
+                  <tr>
+                    <th>
+                      <p>Column 1</p>
+                    </th>
+                    <th>
+                      <p>Column 2</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th>
+                      <p>Sub-Council Designation</p>
+                    </th>
+                    <th>
+                      <p>Ward Numbers</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>1</p>
+                    </td>
+                    <td>
+                      <p>4, 23, 55, 56 and 104</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>2</p>
+                    </td>
+                    <td>
+                      <p>3, 6, 7, 8, 101 and 102</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>3</p>
+                    </td>
+                    <td>
+                      <p>1, 5, 27 and 70</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>4</p>
+                    </td>
+                    <td>
+                      <p>2, 25, 26 and 28</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>5</p>
+                    </td>
+                    <td>
+                      <p>24, 31, 50 and 51</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>6</p>
+                    </td>
+                    <td>
+                      <p>9, 10 and 22</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>7</p>
+                    </td>
+                    <td>
+                      <p>21, 29, 32, 103 and 105</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>8</p>
+                    </td>
+                    <td>
+                      <p>15, 83, 84, 85, 86 and 100</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>9</p>
+                    </td>
+                    <td>
+                      <p>90, 91, 92, 94 and 97</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>10</p>
+                    </td>
+                    <td>
+                      <p>82, 95, 96, 98 and 99</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>11</p>
+                    </td>
+                    <td>
+                      <p>40, 41, 42, 44 and 45</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>12</p>
+                    </td>
+                    <td>
+                      <p>43, 75, 76, 78, 79 and 81</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>13</p>
+                    </td>
+                    <td>
+                      <p>33, 34, 35 and 88</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>14</p>
+                    </td>
+                    <td>
+                      <p>36, 37, 38 and 39</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>15</p>
+                    </td>
+                    <td>
+                      <p>30, 53 and 57</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>16</p>
+                    </td>
+                    <td>
+                      <p>54, 74 and 77</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>17</p>
+                    </td>
+                    <td>
+                      <p>46, 47, 48, 49, 52 and 60</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>18</p>
+                    </td>
+                    <td>
+                      <p>63, 65, 66, 67, 72 and 80</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>19</p>
+                    </td>
+                    <td>
+                      <p>61, 64, 68, 69 and 71</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>20</p>
+                    </td>
+                    <td>
+                      <p>58, 59, 62 and 73</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>21</p>
+                    </td>
+                    <td>
+                      <p>11, 14 and 17</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>22</p>
+                    </td>
+                    <td>
+                      <p>16, 18, 19 and 93</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>23</p>
+                    </td>
+                    <td>
+                      <p>12, 13, 20, 87 and 89</p>
+                    </td>
+                  </tr>
+                </table>
+              </content>
+            </paragraph>
           </article>
         </mainBody>
       </doc>
@@ -747,7 +695,7 @@
             <FRBRManifestation>
               <FRBRthis value="/za-cpt/act/by-law/2003/sub-council/eng@2013-11-01/schedule2"/>
               <FRBRuri value="/za-cpt/act/by-law/2003/sub-council/eng@2013-11-01"/>
-              <FRBRdate date="2016-07-10" name="Generation"/>
+              <FRBRdate date="2017-02-26" name="Generation"/>
               <FRBRauthor href="#slaw"/>
             </FRBRManifestation>
           </identification>
