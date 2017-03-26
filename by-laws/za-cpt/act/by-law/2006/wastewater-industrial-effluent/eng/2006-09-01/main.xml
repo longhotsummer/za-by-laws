@@ -20,12 +20,16 @@
         <FRBRManifestation>
           <FRBRthis value="/za-cpt/act/by-law/2006/wastewater-industrial-effluent/eng@2006-09-01/main"/>
           <FRBRuri value="/za-cpt/act/by-law/2006/wastewater-industrial-effluent/eng@2006-09-01"/>
-          <FRBRdate date="2015-09-06" name="Generation"/>
+          <FRBRdate date="2017-03-22" name="Generation"/>
           <FRBRauthor href="#openbylaws" as="#author"/>
         </FRBRManifestation>
       </identification>
       <publication date="2006-09-01" name="Province of Western Cape: Provincial Gazette" number="6378" showAs="Province of Western Cape: Provincial Gazette"/>
+      <lifecycle source="#OpenByLaws-org-za">
+        <eventRef id="repeal-2014-02-07" date="2014-02-07" type="repeal" source="#repeal-source"/>
+      </lifecycle>
       <references source="#this">
+        <TLCOrganization id="OpenByLaws-org-za" href="https://indigo.openbylaws.org.za" showAs="OpenByLaws.org.za"/>
         <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
         <TLCOrganization id="council" href="/ontology/organization/za/council.cape-town" showAs="Cape Town City Council"/>
         <TLCRole id="author" href="/ontology/role/author" showAs="Author"/>
@@ -39,6 +43,7 @@
         <TLCTerm id="term-waste_grinder" href="/ontology/term/this.eng.waste_grinder" showAs="waste grinder"/>
         <TLCTerm id="term-wastewater" href="/ontology/term/this.eng.wastewater" showAs="wastewater"/>
         <TLCTerm id="term-wastewater_system" href="/ontology/term/this.eng.wastewater_system" showAs="wastewater system"/>
+        <passiveRef id="repeal-source" href="/za-cpt/act/by-law/2013/wastewater-industrial-effluent" showAs="City of Cape Town: Wastewater and Industrial Effluent By law, 2013"/>
       </references>
     </meta>
     <body>
