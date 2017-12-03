@@ -1,0 +1,1962 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="singleVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-cpt/act/by-law/2009/integrated-waste-management/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2009/integrated-waste-management"/>
+          <FRBRalias value="City of Cape Town: Integrated Waste Management By-law, 2009"/>
+          <FRBRdate date="2009-08-21" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-cpt/act/by-law/2009/integrated-waste-management/eng@2016-06-30/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2009/integrated-waste-management/eng@2016-06-30"/>
+          <FRBRdate date="2016-06-30" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-cpt/act/by-law/2009/integrated-waste-management/eng@2016-06-30/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2009/integrated-waste-management/eng@2016-06-30"/>
+          <FRBRdate date="2017-11-29" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication name="Province of Western Cape: Provincial Gazette" showAs="Province of Western Cape: Provincial Gazette" number="6651" date="2009-08-21"/>
+      <lifecycle source="#OpenByLaws-org-za">
+        <eventRef id="amendment-2010-06-04" date="2010-06-04" type="amendment" source="#amendment-0-source"/>
+        <eventRef id="amendment-2016-06-30" date="2016-06-30" type="amendment" source="#amendment-1-source"/>
+      </lifecycle>
+      <references source="#this">
+        <TLCOrganization id="OpenByLaws-org-za" href="https://indigo.openbylaws.org.za" showAs="OpenByLaws.org.za"/>
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-accredited_service_provider" href="/ontology/term/this.eng.accredited_service_provider" showAs="accredited service provider"/>
+        <TLCTerm id="term-building_waste" href="/ontology/term/this.eng.building_waste" showAs="building waste"/>
+        <TLCTerm id="term-business_waste" href="/ontology/term/this.eng.business_waste" showAs="business waste"/>
+        <TLCTerm id="term-City" href="/ontology/term/this.eng.City" showAs="City"/>
+        <TLCTerm id="term-Director" href="/ontology/term/this.eng.Director" showAs="Director"/>
+        <TLCTerm id="term-domestic_waste" href="/ontology/term/this.eng.domestic_waste" showAs="domestic waste"/>
+        <TLCTerm id="term-dump" href="/ontology/term/this.eng.dump" showAs="dump"/>
+        <TLCTerm id="term-event_waste" href="/ontology/term/this.eng.event_waste" showAs="event waste"/>
+        <TLCTerm id="term-garden_waste" href="/ontology/term/this.eng.garden_waste" showAs="garden waste"/>
+        <TLCTerm id="term-hazardous_waste" href="/ontology/term/this.eng.hazardous_waste" showAs="hazardous waste"/>
+        <TLCTerm id="term-infectious_agent" href="/ontology/term/this.eng.infectious_agent" showAs="infectious agent"/>
+        <TLCTerm id="term-infectious_waste" href="/ontology/term/this.eng.infectious_waste" showAs="infectious waste"/>
+        <TLCTerm id="term-pharmaceutical_waste" href="/ontology/term/this.eng.pharmaceutical_waste" showAs="pharmaceutical waste"/>
+        <TLCTerm id="term-general_waste" href="/ontology/term/this.eng.general_waste" showAs="general waste"/>
+        <TLCTerm id="term-health_care_risk_waste" href="/ontology/term/this.eng.health_care_risk_waste" showAs="health care risk waste"/>
+        <TLCTerm id="term-holders_of_waste" href="/ontology/term/this.eng.holders_of_waste" showAs="holders of waste"/>
+        <TLCTerm id="term-industrial_waste" href="/ontology/term/this.eng.industrial_waste" showAs="industrial waste"/>
+        <TLCTerm id="term-integrated_waste_management_plan" href="/ontology/term/this.eng.integrated_waste_management_plan" showAs="integrated waste management plan"/>
+        <TLCTerm id="term-licenced_waste_disposal_facility" href="/ontology/term/this.eng.licenced_waste_disposal_facility" showAs="licenced waste disposal facility"/>
+        <TLCTerm id="term-litter" href="/ontology/term/this.eng.litter" showAs="litter"/>
+        <TLCTerm id="term-person" href="/ontology/term/this.eng.person" showAs="person"/>
+        <TLCTerm id="term-priority_waste" href="/ontology/term/this.eng.priority_waste" showAs="priority waste"/>
+        <TLCTerm id="term-recyclable_materials" href="/ontology/term/this.eng.recyclable_materials" showAs="recyclable materials"/>
+        <TLCTerm id="term-recovery" href="/ontology/term/this.eng.recovery" showAs="recovery"/>
+        <TLCTerm id="term-recycle" href="/ontology/term/this.eng.recycle" showAs="recycle"/>
+        <TLCTerm id="term-re-use" href="/ontology/term/this.eng.re-use" showAs="re-use"/>
+        <TLCTerm id="term-sanitary_waste" href="/ontology/term/this.eng.sanitary_waste" showAs="sanitary waste"/>
+        <TLCTerm id="term-SANS_10234" href="/ontology/term/this.eng.SANS_10234" showAs="SANS 10234"/>
+        <TLCTerm id="term-storage" href="/ontology/term/this.eng.storage" showAs="storage"/>
+        <TLCTerm id="term-Tariff_Policy_and_Tariff_By-Law" href="/ontology/term/this.eng.Tariff_Policy_and_Tariff_By-Law" showAs="Tariff Policy and Tariff By-Law"/>
+        <TLCTerm id="term-treatment" href="/ontology/term/this.eng.treatment" showAs="treatment"/>
+        <TLCTerm id="term-the_Waste_Act" href="/ontology/term/this.eng.the_Waste_Act" showAs="the Waste Act"/>
+        <TLCTerm id="term-waste" href="/ontology/term/this.eng.waste" showAs="waste"/>
+        <TLCTerm id="term-waste_classification" href="/ontology/term/this.eng.waste_classification" showAs="waste classification"/>
+        <TLCTerm id="term-waste_generator" href="/ontology/term/this.eng.waste_generator" showAs="waste generator"/>
+        <TLCTerm id="term-waste_manager" href="/ontology/term/this.eng.waste_manager" showAs="waste manager"/>
+        <TLCTerm id="term-waste_management_facility" href="/ontology/term/this.eng.waste_management_facility" showAs="waste management facility"/>
+        <TLCTerm id="term-waste_management_officer" href="/ontology/term/this.eng.waste_management_officer" showAs="waste management officer"/>
+        <TLCTerm id="term-waste_minimisation_club" href="/ontology/term/this.eng.waste_minimisation_club" showAs="waste minimisation club"/>
+        <TLCTerm id="term-waste_transporter" href="/ontology/term/this.eng.waste_transporter" showAs="waste transporter"/>
+        <TLCTerm id="term-waste_with_heavy_metals" href="/ontology/term/this.eng.waste_with_heavy_metals" showAs="waste with heavy metals"/>
+        <passiveRef id="amendment-0-source" href="/za-cpt/act/by-law/2010/integrated-waste-management-amendment" showAs="City of Cape Town: Integrated Waste Management Amendment By-law, 2010"/>
+        <passiveRef id="amendment-1-source" href="/za-cpt/act/by-law/2016/integrated-waste-management-amendment" showAs="City of Cape Town: Integrated Waste Management Amendment By-law, 2016"/>
+      </references>
+    </meta>
+    <preamble>
+      <p>WHEREAS the City has under the Constitution, legislative competence in respect of refuse removal, refuse dumps and solid waste disposal;</p>
+      <p>Whereas the City of Cape Town ("the City") has an obligation to regulate and control waste management so as to ensure a safe, healthy and sustainable environment and to ensure that the rights of individuals are protected;</p>
+      <p>Whereas the City wishes to reduce the generation and the environmental impact of waste to ensure that the socio-economic development, the health of the people within the City’s boundaries and the quality of environmental resources are not unduly adversely affected by waste;</p>
+      <p>Whereas the City wants to ensure that all residents, organisations, institutions, businesses, visitors or tourists and government departments are able to access services from a legitimate waste management service provider; and</p>
+      <p>Whereas the City wishes to regulate waste generation, cleaning, separation, storage, collection, processing, treatment, recycling, re-use and disposal of waste, including littering and illegal dumping and the regulation of facilities used for the management of waste, with the ultimate aim of avoiding or minimising the generation of waste.</p>
+      <p>BE IT ENACTED by the City of Cape Town, as follows:—</p>
+    </preamble>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <paragraph id="section-1.paragraph-0" refersTo="#term-waste_with_heavy_metals">
+          <content>
+            <p>In this By-law, unless the context indicates otherwise:</p>
+            <p>"<def refersTo="#term-accredited_service_provider">accredited service provider</def>" means a <term refersTo="#term-person" id="trm0">person</term> accredited by the <term refersTo="#term-City" id="trm1">City</term> in terms of this by-law who provides a <term refersTo="#term-waste" id="trm2">waste</term> management service in the <term refersTo="#term-City" id="trm3">City</term> and may include <term refersTo="#term-waste" id="trm4">waste</term> managers, large and small business, community cooperatives, and venture learnerships;</p>
+            <blockList id="section-1.paragraph-0.list3" refersTo="#term-building_waste">
+              <listIntroduction>"<def refersTo="#term-building_waste">building waste</def>" means <term refersTo="#term-waste" id="trm5">waste</term> produced through the construction, alteration, repair or demolition of any structure both manmade and natural, -</listIntroduction>
+              <item id="section-1.paragraph-0.list3.a">
+                <num>(a)</num>
+                <p>and includes rubble, earth, wood and rock that is displaced during any construction, alteration, repair or demolition,</p>
+              </item>
+              <item id="section-1.paragraph-0.list3.b">
+                <num>(b)</num>
+                <p>but excludes <term refersTo="#term-garden_waste" id="trm6">garden waste</term> and <term refersTo="#term-hazardous_waste" id="trm7">hazardous waste</term>;</p>
+              </item>
+            </blockList>
+            <p>"<def refersTo="#term-business_waste">business waste</def>" means <term refersTo="#term-waste" id="trm8">waste</term> that emanates from premises that are used, whether lawfully or unlawfully mainly, for commercial, retail, wholesale, entertainment or government administration purposes, and also applies to <term refersTo="#term-waste" id="trm9">waste</term> generated by informal traders and residential premises where commercial activities are being conducted;</p>
+            <p>"<def refersTo="#term-City">City</def>" means the <term refersTo="#term-City" id="trm10">City</term> of Cape Town established by Provincial Notice No. 479 of 2000 or its successors in title;</p>
+            <p>"<def refersTo="#term-Director">Director</def>" means the <term refersTo="#term-Director" id="trm11">Director</term> responsible for solid <term refersTo="#term-waste" id="trm12">waste</term> management in the <term refersTo="#term-City" id="trm13">City</term>;</p>
+            <blockList id="section-1.paragraph-0.list8" refersTo="#term-domestic_waste">
+              <listIntroduction>"<def refersTo="#term-domestic_waste">domestic waste</def>" means <term refersTo="#term-waste" id="trm14">waste</term>, that emanates from premises used wholly or mainly for residential, educational, healthcare, sport or recreational purposes, and -</listIntroduction>
+              <item id="section-1.paragraph-0.list8.a">
+                <num>(a)</num>
+                <p>includes <term refersTo="#term-recyclable_materials" id="trm15">recyclable materials</term> and non-recyclable material,</p>
+              </item>
+              <item id="section-1.paragraph-0.list8.b">
+                <num>(b)</num>
+                <p>excludes <term refersTo="#term-hazardous_waste" id="trm16">hazardous waste</term>;</p>
+              </item>
+            </blockList>
+            <p>"<def refersTo="#term-dump">dump</def>" means to dispose of <term refersTo="#term-waste" id="trm17">waste</term> in any manner other than one permitted by law and includes, without derogating from the generality of the aforegoing, to deposit, discharge, spill or release <term refersTo="#term-waste" id="trm18">waste</term>, whether or not the <term refersTo="#term-waste" id="trm19">waste</term> is in a container or receptacle, in or at any place whatsoever whether publicly or privately owned, including but not limited to vacant land, rivers, waterways, catchments, and sewage and storm water systems, but excludes littering;</p>
+            <p>"<def refersTo="#term-event_waste">event waste</def>" means <term refersTo="#term-waste" id="trm20">waste</term> that originates from the activities related to an event that is held in the <term refersTo="#term-City" id="trm21">City</term>;</p>
+            <p>"<def refersTo="#term-garden_waste">garden waste</def>" means organic <term refersTo="#term-waste" id="trm22">waste</term> which emanates from gardening or landscaping activities at residential, business or industrial properties including but not limited to, soil, grass cuttings, leaves and branches, and includes any biodegradable material and includes such <term refersTo="#term-waste" id="trm23">waste</term> emanating from residential, business or industrial properties, but excludes <term refersTo="#term-waste" id="trm24">waste</term> products of animal origin;</p>
+            <p>"<def refersTo="#term-hazardous_waste">hazardous waste</def>" means any <term refersTo="#term-waste" id="trm25">waste</term> that contains organic or inorganic elements or compounds that may, owing to the inherent physical, chemical or toxicological characteristics of that <term refersTo="#term-waste" id="trm26">waste</term>, have a detrimental impact on health and the environment and includes <term refersTo="#term-health_care_risk_waste" id="trm27">health care risk waste</term> and the hazardous substances, materials or objects within <term refersTo="#term-business_waste" id="trm28">business waste</term>, residue deposits and residue stockpiles;</p>
+            <p>"<def refersTo="#term-infectious_agent">infectious agent</def>" means microorganisms including bacteria, mycobacteria, fungi, parasites, or viruses which normally cause or significantly contribute to infectious diseases and result in an increased morbidity or mortality of humans or animals;</p>
+            <p>"<def refersTo="#term-infectious_waste">infectious waste</def>" means <term refersTo="#term-waste" id="trm29">waste</term> which contains or may be reasonably presumed to contain infectious agents in sufficient concentrations or quantities to cause disease in susceptible hosts; and includes <term refersTo="#term-waste" id="trm30">waste</term> containing discarded materials contaminated with excretion, secretion, other fluids discharged from a body or materials generated in the <term refersTo="#term-treatment" id="trm31">treatment</term> or diagnosis of humans or animals who or which are isolated from the general population due to the infectiousness or transmissibility of the suspected disease-causing agents;</p>
+            <p>"<def refersTo="#term-pharmaceutical_waste">pharmaceutical waste</def>" includes expired, unused, spilt and contaminated pharmaceutical products, drugs, vaccines and sera that are no longer required and that need to be disposed of appropriately;</p>
+            <p>"<def refersTo="#term-general_waste">general waste</def>" is a generic term for <term refersTo="#term-waste" id="trm32">waste</term> that, because of its composition and characteristics, does not pose an immediate risk to public health or the environment if managed properly, and includes <term refersTo="#term-domestic_waste" id="trm33">domestic waste</term>, <term refersTo="#term-building_waste" id="trm34">building waste</term>, <term refersTo="#term-business_waste" id="trm35">business waste</term>, and any <term refersTo="#term-waste" id="trm36">waste</term> classified as non-<term refersTo="#term-hazardous_waste" id="trm37">hazardous waste</term> in terms of national legislation;</p>
+            <p>"<def refersTo="#term-health_care_risk_waste">health care risk waste</def>" means that portion of health care <term refersTo="#term-waste" id="trm38">waste</term> that is hazardous and includes <term refersTo="#term-infectious_waste" id="trm39">infectious waste</term>, pathological <term refersTo="#term-waste" id="trm40">waste</term>, sharp <term refersTo="#term-waste" id="trm41">waste</term>, <term refersTo="#term-pharmaceutical_waste" id="trm42">pharmaceutical waste</term>, genotoxic <term refersTo="#term-waste" id="trm43">waste</term>, chemical <term refersTo="#term-waste" id="trm44">waste</term>, <term refersTo="#term-waste_with_heavy_metals" id="trm45">waste with heavy metals</term>, radioactive <term refersTo="#term-waste" id="trm46">waste</term>, and any other health care <term refersTo="#term-waste" id="trm47">waste</term> which is defined as hazardous in terms of the <term refersTo="#term-waste" id="trm48">waste</term> Management Series: Document 1: Minimum Requirements/or the Handling, Classification and Disposal of Hazardous <term refersTo="#term-waste" id="trm49">waste</term>, as published by the Department of Water Affairs and Forestry or any other applicable legislation;</p>
+            <p>"<def refersTo="#term-holders_of_waste">holders of waste</def>" means any <term refersTo="#term-person" id="trm50">person</term> who imports, generates, stores, accumulates, transports, processes, treats, exports or disposes of <term refersTo="#term-waste" id="trm51">waste</term> and also includes recyclers and scrap dealers;</p>
+            <p>"<def refersTo="#term-industrial_waste">industrial waste</def>" means <term refersTo="#term-waste" id="trm52">waste</term> that emanates from premises that are used wholly or mainly for industrial purposes and generate <term refersTo="#term-waste" id="trm53">waste</term> through manufacturing, industrial or fabricating processes including premises used for agricultural activities, mining activities or the operation of power stations;</p>
+            <p>"<def refersTo="#term-integrated_waste_management_plan">integrated waste management plan</def>" means an <term refersTo="#term-integrated_waste_management_plan" id="trm54">integrated waste management plan</term> which is required by the <term refersTo="#term-City" id="trm55">City</term> in terms of this By-law or that is required in terms of any other applicable legislation;</p>
+            <p>"<def refersTo="#term-licenced_waste_disposal_facility">licenced waste disposal facility</def>" means a site, or premises which is licenced by the Province of the Western Cape or the National Government and used for the accumulation or disposal of <term refersTo="#term-waste" id="trm56">waste</term>;</p>
+            <p>"<def refersTo="#term-litter">litter</def>" means <term refersTo="#term-waste" id="trm57">waste</term>, excluding <term refersTo="#term-hazardous_waste" id="trm58">hazardous waste</term>, arising from activities in public areas that has not been disposed of in a public <term refersTo="#term-litter" id="trm59">litter</term> container; "owner" includes the registered owner, lessee or occupier of a premises, or the <term refersTo="#term-person" id="trm60">person</term> in charge or control of any premises or part thereof who is over 16 years of age, and any <term refersTo="#term-person" id="trm61">person</term> who obtains a benefit from the premises or is entitled thereto;</p>
+            <blockList id="section-1.paragraph-0.list24" refersTo="#term-person">
+              <listIntroduction>"<def refersTo="#term-person">person</def>" includes-</listIntroduction>
+              <item id="section-1.paragraph-0.list24.a">
+                <num>(a)</num>
+                <p>any divisional council, municipal council, village management board, or like authority;</p>
+              </item>
+              <item id="section-1.paragraph-0.list24.b">
+                <num>(b)</num>
+                <p>any company incorporated or registered as such under any law;</p>
+              </item>
+              <item id="section-1.paragraph-0.list24.c">
+                <num>(c)</num>
+                <p>any body of persons corporate or unincorporate;</p>
+              </item>
+            </blockList>
+            <p>"<def refersTo="#term-priority_waste">priority waste</def>" means <term refersTo="#term-waste" id="trm62">waste</term> declared to be such by the <term refersTo="#term-Director" id="trm63">Director</term> in terms of this By-law or in terms of national or provincial legislation;</p>
+            <p>"<def refersTo="#term-recyclable_materials">recyclable materials</def>" means any material that can be converted into raw material that can be re-used to make new products or resources;</p>
+            <p>"<def refersTo="#term-recovery">recovery</def>" means the controlled extraction or retrieval of any substance, material or</p>
+            <p>object from <term refersTo="#term-waste" id="trm64">waste</term>;</p>
+            <p>"<def refersTo="#term-recycle">recycle</def>" means a process where <term refersTo="#term-waste" id="trm65">waste</term> is reclaimed for further use, which process involves the separation of <term refersTo="#term-waste" id="trm66">waste</term> from a <term refersTo="#term-waste" id="trm67">waste</term> stream for further use and the processing of that separated material as a product or raw material;</p>
+            <p>"<def refersTo="#term-re-use">re-use</def>" means to utilise the whole, a portion of or a specific part of any substance, material or object from the <term refersTo="#term-waste" id="trm68">waste</term> stream for a similar or different purpose without changing the form or properties of such substance, material or object;</p>
+            <p>"<def refersTo="#term-sanitary_waste">sanitary waste</def>" means tampons, sanitary towels and incontinence pads;</p>
+            <p>"<def refersTo="#term-SANS_10234">SANS 10234</def>" means the latest edition of the South African National Standard Globally Harmonized System of Classification and Labelling of Chemicals (GHS);</p>
+            <p>"<def refersTo="#term-storage">storage</def>" means the accumulation of <term refersTo="#term-waste" id="trm69">waste</term> in a manner that does not constitute <term refersTo="#term-treatment" id="trm70">treatment</term> or disposal of that <term refersTo="#term-waste" id="trm71">waste</term>;</p>
+            <p>"<def refersTo="#term-Tariff_Policy_and_Tariff_By-Law">Tariff Policy and Tariff By-Law</def>" means the <term refersTo="#term-Tariff_Policy_and_Tariff_By-Law" id="trm72">Tariff Policy and Tariff By-Law</term> adopted by the Council of the <term refersTo="#term-City" id="trm73">City</term> and published in the Provincial Gazette from time to time;</p>
+            <blockList id="section-1.paragraph-0.list36" refersTo="#term-treatment">
+              <listIntroduction>"<def refersTo="#term-treatment">treatment</def>" means any method, technique or process that is designed to –</listIntroduction>
+              <item id="section-1.paragraph-0.list36.i">
+                <num>(i)</num>
+                <p>change the physical, biological or chemical character or composition of <term refersTo="#term-waste" id="trm74">waste</term>;</p>
+              </item>
+              <item id="section-1.paragraph-0.list36.ii">
+                <num>(ii)</num>
+                <p>remove, separate, concentrate or recover a hazardous or toxic component of <term refersTo="#term-waste" id="trm75">waste</term>; or</p>
+              </item>
+              <item id="section-1.paragraph-0.list36.iii">
+                <num>(iii)</num>
+                <p>destroy or reduce the toxicity of <term refersTo="#term-waste" id="trm76">waste</term>,</p>
+              </item>
+            </blockList>
+            <p>in order to minimise the impact of the <term refersTo="#term-waste" id="trm77">waste</term> on the environment prior to further use ordisposal;</p>
+            <p>"<def refersTo="#term-the_Waste_Act">the Waste Act</def>" means the National Environmental Management: Waste Act, 2008 (<ref href="/za/act/2008/59">Act No. 59 of 2008</ref>), and any reference to NEM:WA;</p>
+            <blockList id="section-1.paragraph-0.list40" refersTo="#term-waste">
+              <listIntroduction>"<def refersTo="#term-waste">waste</def>" means</listIntroduction>
+              <item id="section-1.paragraph-0.list40.a">
+                <num>(a)</num>
+                <p>any substance, material or object that is unwanted, rejected, abandoned, discarded or disposed of, or that is intended or required to be discarded or disposed of, by the holder of that substance, material or object, whether such substance, material or object can be re-used, recycled or recovered and includes all wastes as defined in the NEM:WA; or</p>
+              </item>
+              <item id="section-1.paragraph-0.list40.b">
+                <num>(b)</num>
+                <p>Any other substance, material or object that is not included in the NEM:WA that may be defined as a <term refersTo="#term-waste" id="trm78">waste</term> by the Minister by notice in the Gazette,</p>
+              </item>
+            </blockList>
+            <blockList id="section-1.paragraph-0.list42">
+              <listIntroduction>but any <term refersTo="#term-waste" id="trm79">waste</term> or portion of <term refersTo="#term-waste" id="trm80">waste</term>, referred to in paragraphs (a) and (b) ceases to be a <term refersTo="#term-waste" id="trm81">waste</term></listIntroduction>
+              <item id="section-1.paragraph-0.list42.i">
+                <num>(i)</num>
+                <p>Once an application for its <term refersTo="#term-re-use" id="trm82">re-use</term>, recycling or <term refersTo="#term-recovery" id="trm83">recovery</term> has been approved or, after such approval, once it is, or has been re-used, recycled or recovered;</p>
+              </item>
+              <item id="section-1.paragraph-0.list42.ii">
+                <num>(ii)</num>
+                <p>Whereapprovalisnotrequired,onceawasteis,orhasbeenre-used,recycledor recovered;</p>
+              </item>
+              <item id="section-1.paragraph-0.list42.iii">
+                <num>(iii)</num>
+                <p>Where the Minister has, in terms of NEM:WA, exempted any <term refersTo="#term-waste" id="trm84">waste</term> or a portion of <term refersTo="#term-waste" id="trm85">waste</term> generated by a particular process from the definition of <term refersTo="#term-waste" id="trm86">waste</term>; or</p>
+              </item>
+              <item id="section-1.paragraph-0.list42.iv">
+                <num>(iv)</num>
+                <p>Where the Minister has, in the prescribed manner, excluded any <term refersTo="#term-waste" id="trm87">waste</term> stream or a portion of a <term refersTo="#term-waste" id="trm88">waste</term> stream from the definition of <term refersTo="#term-waste" id="trm89">waste</term>.</p>
+              </item>
+            </blockList>
+            <p>"<def refersTo="#term-waste_classification">waste classification</def>" means establishing whether <term refersTo="#term-waste" id="trm90">waste</term> is hazardous based on the nature of its physical, health, and environmental hazardous properties; and the level of severity of the hazard posed;</p>
+            <p>"<def refersTo="#term-waste_generator">waste generator</def>" means any <term refersTo="#term-person" id="trm91">person</term> whose actions, production process or activities, including <term refersTo="#term-waste" id="trm92">waste</term> management activities, result in the generation of <term refersTo="#term-waste" id="trm93">waste</term>;</p>
+            <p>"<def refersTo="#term-waste_manager">waste manager</def>" means any <term refersTo="#term-person" id="trm94">person</term> who re-uses, recycles, recovers, treats or disposes of <term refersTo="#term-waste" id="trm95">waste</term>;</p>
+            <p>"<def refersTo="#term-waste_management_facility">waste management facility</def>" means a place, infrastructure, structure or containment of any kind wherein, upon or at which a <term refersTo="#term-waste" id="trm96">waste</term> management activity takes place and includes a <term refersTo="#term-waste" id="trm97">waste</term> transfer station, container yard, landfill site, incinerator, a recycling or a composting facility;</p>
+            <p>"<def refersTo="#term-waste_management_officer">waste management officer</def>" means the <term refersTo="#term-Director" id="trm98">Director</term>: Solid Waste Management, or an officer referred to in section 25 of this By-law;</p>
+            <p>"<def refersTo="#term-waste_minimisation_club">waste minimisation club</def>" means a group of persons, typically residing in a high density residential or office building, or a multi-property cluster residential or business development, that have an agreement approved by the <term refersTo="#term-Director" id="trm99">Director</term> in terms of this By-law to minimise <term refersTo="#term-waste" id="trm100">waste</term> in exchange for a lower tariff according to an <term refersTo="#term-integrated_waste_management_plan" id="trm101">integrated waste management plan</term>.</p>
+            <p>"<def refersTo="#term-waste_transporter">waste transporter</def>" means any <term refersTo="#term-person" id="trm102">person</term> who conveys or transfers <term refersTo="#term-waste" id="trm103">waste</term> between the <term refersTo="#term-waste_generator" id="trm104">waste generator</term> and a <term refersTo="#term-waste_management_facility" id="trm105">waste management facility</term> or between <term refersTo="#term-waste" id="trm106">waste</term> management facilities;</p>
+            <p>"<def refersTo="#term-waste_with_heavy_metals">waste with heavy metals</def>" includes mercury <term refersTo="#term-waste" id="trm107">waste</term> from thermometers, blood- pressure gauges, residues from dentistry, cadmium <term refersTo="#term-waste" id="trm108">waste</term> from discarded batteries, reinforced wood panels used in radiation proofing, and drugs containing arsenic;</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Application of this by-law</heading>
+        <paragraph id="section-2.paragraph-0">
+          <content>
+            <p>In the event of conflict between this By Law and any other by law of the <term refersTo="#term-City" id="trm109">City</term> dealing with <term refersTo="#term-waste" id="trm110">waste</term> management this By Law must prevail.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Categorisation of <term refersTo="#term-waste" id="trm111">waste</term></heading>
+        <subsection id="section-3.1">
+          <num>(1)</num>
+          <content>
+            <p>Waste shall be categorised in accordance with the definitions of the various types of <term refersTo="#term-waste" id="trm112">waste</term> in this By-law, and the Environmental Heath By-Law insofar as it defines Medical <term refersTo="#term-waste" id="trm113">waste</term> and to the extent that it is unclear under which category a type of <term refersTo="#term-waste" id="trm114">waste</term> falls.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.2">
+          <num>(2)</num>
+          <content>
+            <p>The decision of the <term refersTo="#term-Director" id="trm115">Director</term> must, subject to any other law, be final in the categorizing of <term refersTo="#term-waste" id="trm116">waste</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.3">
+          <num>(3)</num>
+          <content>
+            <p>Service categories for <term refersTo="#term-waste" id="trm117">waste</term> management, as provided for in the tariff policy of the <term refersTo="#term-City" id="trm118">City</term>, shall be as defined in the integrated <term refersTo="#term-waste" id="trm119">waste</term> management policy of the <term refersTo="#term-City" id="trm120">City</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Obligations of <term refersTo="#term-waste" id="trm121">waste</term> generators</heading>
+        <subsection id="section-4.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-4.1.list1">
+              <listIntroduction>A <term refersTo="#term-waste_generator" id="trm122">waste generator</term> must—</listIntroduction>
+              <item id="section-4.1.list1.a">
+                <num>(a)</num>
+                <p>avoid the generation of <term refersTo="#term-waste" id="trm123">waste</term> or where it cannot be avoided minimise the toxicity and amounts of <term refersTo="#term-waste" id="trm124">waste</term> generated;</p>
+              </item>
+              <item id="section-4.1.list1.b">
+                <num>(b)</num>
+                <p>separate <term refersTo="#term-waste" id="trm125">waste</term> with the aim of minimising <term refersTo="#term-waste" id="trm126">waste</term> and its impacts on the environment and to store the recyclable <term refersTo="#term-waste" id="trm127">waste</term> separately from non- recyclable <term refersTo="#term-waste" id="trm128">waste</term> provided that <term refersTo="#term-industrial_waste" id="trm129">industrial waste</term> must be separated into liquids, components and materials that can be treated for recycling or <term refersTo="#term-re-use" id="trm130">re-use</term>;</p>
+              </item>
+              <item id="section-4.1.list1.c">
+                <num>(c)</num>
+                <p><term refersTo="#term-re-use" id="trm131">re-use</term>, <term refersTo="#term-recycle" id="trm132">recycle</term> or recover <term refersTo="#term-waste" id="trm133">waste</term> where possible;</p>
+              </item>
+              <item id="section-4.1.list1.d">
+                <num>(d)</num>
+                <blockList id="section-4.1.list1.d.list0">
+                  <listIntroduction>dispose of recyclable <term refersTo="#term-waste" id="trm134">waste</term> by—</listIntroduction>
+                  <item id="section-4.1.list1.d.list0.i">
+                    <num>(i)</num>
+                    <p>contracting with the <term refersTo="#term-City" id="trm135">City</term> where the <term refersTo="#term-waste_generator" id="trm136">waste generator</term> will be charged at the <term refersTo="#term-City" id="trm137">City</term>’s standard charge in terms of the Tariff By-law; (ii) where the <term refersTo="#term-City" id="trm138">City</term> does not provide such a service by contracting with an <term refersTo="#term-accredited_service_provider" id="trm139">accredited service provider</term>; or</p>
+                  </item>
+                  <item id="section-4.1.list1.d.list0.iii">
+                    <num>(iii)</num>
+                    <p>delivering <term refersTo="#term-waste" id="trm140">waste</term> to a <term refersTo="#term-licenced_waste_disposal_facility" id="trm141">licenced waste disposal facility</term> and ensure that <term refersTo="#term-waste" id="trm142">waste</term> is treated or disposed of in an environmentally sensitive manner at a <term refersTo="#term-licenced_waste_disposal_facility" id="trm143">licenced waste disposal facility</term>;</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-4.1.list1.e">
+                <num>(e)</num>
+                <p>manage <term refersTo="#term-waste" id="trm144">waste</term> so that it does not endanger health or the environment or create a nuisance;</p>
+              </item>
+              <item id="section-4.1.list1.f">
+                <num>(f)</num>
+                <p>maintain suitable cleanliness and hygiene standards on their premises as required by the <term refersTo="#term-City" id="trm145">City</term>’s Environmental Health By-law;</p>
+              </item>
+              <item id="section-4.1.list1.g">
+                <num>(g)</num>
+                <p>make use of the <term refersTo="#term-waste" id="trm146">waste</term> removal services provided by the <term refersTo="#term-City" id="trm147">City</term> or its service provider, unless the <term refersTo="#term-City" id="trm148">City</term> does not provide a <term refersTo="#term-waste" id="trm149">waste</term> removal service for the type of <term refersTo="#term-waste" id="trm150">waste</term> to be disposed of, in which case they shall make use of an <term refersTo="#term-accredited_service_provider" id="trm151">accredited service provider</term>;</p>
+              </item>
+              <item id="section-4.1.list1.h">
+                <num>(h)</num>
+                <p>conclude a contract with the <term refersTo="#term-City" id="trm152">City</term>, its service provider or an <term refersTo="#term-accredited_service_provider" id="trm153">accredited service provider</term>, as the case may be, for the <term refersTo="#term-storage" id="trm154">storage</term> and collection of <term refersTo="#term-waste" id="trm155">waste</term>;</p>
+              </item>
+              <item id="section-4.1.list1.i">
+                <num>(i)</num>
+                <p>store <term refersTo="#term-waste" id="trm156">waste</term> in the containers provided by the <term refersTo="#term-City" id="trm157">City</term> or an <term refersTo="#term-accredited_service_provider" id="trm158">accredited service provider</term> prior to collection or where a container is not provided, store <term refersTo="#term-waste" id="trm159">waste</term> in plastic black bags, which containers or bags will be collected by the service provider at least once a week according to the routes as published by the <term refersTo="#term-City" id="trm160">City</term> or the service provider from time to time;</p>
+              </item>
+              <item id="section-4.1.list1.j">
+                <num>(j)</num>
+                <p>pay tariffs and rates charged by the <term refersTo="#term-City" id="trm161">City</term> for such <term refersTo="#term-waste" id="trm162">waste</term> removal services according to the <term refersTo="#term-City" id="trm163">City</term>’s Credit Control and Debt Collection By-law;</p>
+              </item>
+              <item id="section-4.1.list1.k">
+                <num>(k)</num>
+                <blockList id="section-4.1.list1.k.list1">
+                  <listIntroduction>ensure that the <term refersTo="#term-waste" id="trm164">waste</term> that they have generated which is not collected by the <term refersTo="#term-City" id="trm165">City</term> is re-used, recycled, recovered, treated or disposed of</listIntroduction>
+                  <item id="section-4.1.list1.k.list1.i">
+                    <num>(i)</num>
+                    <p>within a reasonable time of its generation as determined by the <term refersTo="#term-City" id="trm166">City</term>, and</p>
+                  </item>
+                  <item id="section-4.1.list1.k.list1.ii">
+                    <num>(ii)</num>
+                    <p>at a <term refersTo="#term-waste_management_facility" id="trm167">waste management facility</term> authorised to accept the type of <term refersTo="#term-waste" id="trm168">waste</term> in question.</p>
+                  </item>
+                </blockList>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4.2">
+          <num>(2)</num>
+          <content>
+            <p>A <term refersTo="#term-waste_generator" id="trm169">waste generator</term> may apply to the <term refersTo="#term-waste_management_officer" id="trm170">waste management officer</term> for an additional container and shall be liable for the additional costs as per the <term refersTo="#term-City" id="trm171">City</term>’s Tariff-By-Law and Tariff Policy.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-waste_management_officer" id="trm172">waste management officer</term> may require a <term refersTo="#term-waste_generator" id="trm173">waste generator</term> to submit an <term refersTo="#term-integrated_waste_management_plan" id="trm174">integrated waste management plan</term> prior to agreeing to supply an additional container.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4">
+          <num>(4)</num>
+          <content>
+            <p>The owner and <term refersTo="#term-waste_generator" id="trm175">waste generator</term> must comply with the terms and conditions set out by such <term refersTo="#term-waste_management_officer" id="trm176">waste management officer</term> for the generation, minimisation, <term refersTo="#term-storage" id="trm177">storage</term>, collection, <term refersTo="#term-treatment" id="trm178">treatment</term> and disposal of such additional <term refersTo="#term-waste" id="trm179">waste</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.5">
+          <num>(5)</num>
+          <content>
+            <p>Should the <term refersTo="#term-waste" id="trm180">waste</term> generated by a <term refersTo="#term-waste_generator" id="trm181">waste generator</term> exceed the volume that can be stored in the containers provided or bags, the owner must make arrangements for the collection of the excess <term refersTo="#term-waste" id="trm182">waste</term> by an <term refersTo="#term-accredited_service_provider" id="trm183">accredited service provider</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.6">
+          <num>(6)</num>
+          <content>
+            <p>If no arrangement is made for collection of excess <term refersTo="#term-waste" id="trm184">waste</term>, the owner or <term refersTo="#term-waste_generator" id="trm185">waste generator</term> must promptly transport that additional <term refersTo="#term-waste" id="trm186">waste</term> to and deposit it at a <term refersTo="#term-licenced_waste_disposal_facility" id="trm187">licenced waste disposal facility</term> at his or her own cost.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.7">
+          <num>(7)</num>
+          <content>
+            <p>The owner of a formal dwelling who has other structures on the property with persons living in these separate structures shall also be allocated one container per additional structure by the <term refersTo="#term-City" id="trm188">City</term> and shall be entitled to have it collected on the same terms as the residential dwelling.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.8">
+          <num>(8)</num>
+          <content>
+            <p>The owner of the property will have to sign an additional contract with the <term refersTo="#term-City" id="trm189">City</term> for the <term refersTo="#term-storage" id="trm190">storage</term>, collection and disposal of <term refersTo="#term-waste" id="trm191">waste</term> contemplated in subsection (7) and shall be liable for the charges levied by the <term refersTo="#term-City" id="trm192">City</term> in connection therewith.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.9">
+          <num>(9)</num>
+          <content>
+            <p>Any business or agent disposing of <term refersTo="#term-waste" id="trm193">waste</term> on behalf of such business shall provide a report of the <term refersTo="#term-waste" id="trm194">waste</term> disposed to the <term refersTo="#term-waste_management_officer" id="trm195">waste management officer</term> in a format as determined by the <term refersTo="#term-Director" id="trm196">Director</term> from time to time, on or before the 7th of each month.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.10">
+          <num>(10)</num>
+          <content>
+            <p>A <term refersTo="#term-waste_generator" id="trm197">waste generator</term> generating Industrial <term refersTo="#term-waste" id="trm198">waste</term> must contract with an <term refersTo="#term-accredited_service_provider" id="trm199">accredited service provider</term> for the collection and disposal of such <term refersTo="#term-waste" id="trm200">waste</term> to a <term refersTo="#term-licenced_waste_disposal_facility" id="trm201">licenced waste disposal facility</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.11">
+          <num>(11)</num>
+          <content>
+            <p>The owner must on demand prove to the <term refersTo="#term-waste_management_officer" id="trm202">waste management officer</term> that he or she has entered into a suitable agreement with an <term refersTo="#term-accredited_service_provider" id="trm203">accredited service provider</term> for the collection, processing, <term refersTo="#term-treatment" id="trm204">treatment</term> or disposal of <term refersTo="#term-industrial_waste" id="trm205">industrial waste</term> at least once per week or as determined by the <term refersTo="#term-waste_management_officer" id="trm206">waste management officer</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.12">
+          <num>(12)</num>
+          <content>
+            <p>An <term refersTo="#term-accredited_service_provider" id="trm207">accredited service provider</term> must in respect of <term refersTo="#term-industrial_waste" id="trm208">industrial waste</term> as defined by SANS 10228 and 10229 comply with all legislation relating to handling, transfer, <term refersTo="#term-storage" id="trm209">storage</term>, use, <term refersTo="#term-treatment" id="trm210">treatment</term> and transportation of the dangerous goods and dispose of same at a <term refersTo="#term-licenced_waste_disposal_facility" id="trm211">licenced waste disposal facility</term> or landfill site.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.13">
+          <num>(13)</num>
+          <content>
+            <p>A <term refersTo="#term-waste_generator" id="trm212">waste generator</term> generating <term refersTo="#term-industrial_waste" id="trm213">industrial waste</term> shall submit an <term refersTo="#term-integrated_waste_management_plan" id="trm214">integrated waste management plan</term> to the <term refersTo="#term-City" id="trm215">City</term> and comply with the terms and conditions set out by the <term refersTo="#term-City" id="trm216">City</term> for the generation, minimisation, <term refersTo="#term-storage" id="trm217">storage</term>, recycling, collection and disposal of such <term refersTo="#term-waste" id="trm218">waste</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.14">
+          <num>(14)</num>
+          <content>
+            <p>Garden <term refersTo="#term-waste" id="trm219">waste</term> generated at properties being used mainly for residential purposes may be composted on the property, or it may be stored in a compost heap or suitable bags as per the <term refersTo="#term-City" id="trm220">City</term>’s requirements, and it may be kept on the property until collection or taken to a <term refersTo="#term-licenced_waste_disposal_facility" id="trm221">licenced waste disposal facility</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.15">
+          <num>(15)</num>
+          <content>
+            <p>The <term refersTo="#term-waste_generator" id="trm222">waste generator</term> may be called upon by the <term refersTo="#term-waste_management_officer" id="trm223">waste management officer</term> to produce a weighbridge ticket as proof of proper disposal of <term refersTo="#term-garden_waste" id="trm224">garden waste</term> over a certain mass, as determined by the <term refersTo="#term-City" id="trm225">City</term> in terms of its guidelines and conditions imposed from time to time.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.16">
+          <num>(16)</num>
+          <content>
+            <p>Any <term refersTo="#term-person" id="trm226">person</term> who directly or indirectly generates <term refersTo="#term-building_waste" id="trm227">building waste</term> or the owner of the property on which such <term refersTo="#term-building_waste" id="trm228">building waste</term> is generated shall not store such <term refersTo="#term-waste" id="trm229">waste</term> in containers provided by the <term refersTo="#term-City" id="trm230">City</term> for residential <term refersTo="#term-waste" id="trm231">waste</term> and shall remove and dispose of it at a licenced crushing plant or landfill site or any other licenced <term refersTo="#term-building_waste" id="trm232">building waste</term> disposal facility.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.17">
+          <num>(17)</num>
+          <content>
+            <blockList id="section-4.17.list1">
+              <listIntroduction>When plans are submitted to the <term refersTo="#term-City" id="trm233">City</term> for its approval in terms of the National Building Regulations and Building Standards Act, 1977(<ref href="/za/act/1977/107">Act No. 107 of 1977</ref>), the <term refersTo="#term-person" id="trm234">person</term> submitting same must submit simultaneously therewith—</listIntroduction>
+              <item id="section-4.17.list1.a">
+                <num>(a)</num>
+                <p>an <term refersTo="#term-integrated_waste_management_plan" id="trm235">integrated waste management plan</term> setting out what provision is made for collection and disposal of the building and other <term refersTo="#term-waste" id="trm236">waste</term>;</p>
+              </item>
+              <item id="section-4.17.list1.b">
+                <num>(b)</num>
+                <p>what provisions are made to store the <term refersTo="#term-waste" id="trm237">waste</term> on their property; or</p>
+              </item>
+              <item id="section-4.17.list1.c">
+                <num>(c)</num>
+                <p>provide a permit to store the <term refersTo="#term-waste" id="trm238">waste</term> on the <term refersTo="#term-City" id="trm239">City</term>’s property.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4.18">
+          <num>(18)</num>
+          <content>
+            <p>Contaminated building or other <term refersTo="#term-waste" id="trm240">waste</term> where the contamination agent is hazardous or dangerous must be deposited at a <term refersTo="#term-licenced_waste_disposal_facility" id="trm241">licenced waste disposal facility</term> for the <term refersTo="#term-treatment" id="trm242">treatment</term> and disposal of <term refersTo="#term-hazardous_waste" id="trm243">hazardous waste</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.19">
+          <num>(19)</num>
+          <content>
+            <p>The owner of the facility where building rubble is disposed of shall provide a monthly report to the <term refersTo="#term-waste_management_officer" id="trm244">waste management officer</term> of the mass of such <term refersTo="#term-waste" id="trm245">waste</term> deposited at such facility.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.20">
+          <num>(20)</num>
+          <content>
+            <p>The <term refersTo="#term-waste_generator" id="trm246">waste generator</term> or the owner of the property on which <term refersTo="#term-waste" id="trm247">waste</term> is generated who deposits or stores <term refersTo="#term-waste" id="trm248">waste</term> on property of the <term refersTo="#term-City" id="trm249">City</term> may be fined for failure to have or produce a permit for such deposit or <term refersTo="#term-storage" id="trm250">storage</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.21">
+          <num>(21)</num>
+          <content>
+            <p>When the building control officer inspects the property where building works have been undertaken to check that it has been built in accordance with the approved plans, he or she shall also check if all <term refersTo="#term-building_waste" id="trm251">building waste</term> has been disposed of.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.22">
+          <num>(22)</num>
+          <content>
+            <p>The owner of the property referred to in subsection (21) will be required to provide the building control officer with proof of a weighbridge certificate that he or she has disposed of the full mass of the building rubble at a <term refersTo="#term-licenced_waste_disposal_facility" id="trm252">licenced waste disposal facility</term> for that category of <term refersTo="#term-waste" id="trm253">waste</term> prior to an occupancy certificate or any final approvals being granted.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4A">
+        <num>4A.</num>
+        <heading>Obligations of accredited service providers and <term refersTo="#term-waste" id="trm254">waste</term> managers</heading>
+        <subsection id="section-4A.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-4A.1.list1">
+              <listIntroduction>Accredited service providers may not accept <term refersTo="#term-hazardous_waste" id="trm255">hazardous waste</term> –</listIntroduction>
+              <item id="section-4A.1.list1.a">
+                <num>(a)</num>
+                <p>that is not accompanied by the declaration referred to in section 5 (6); or</p>
+              </item>
+              <item id="section-4A.1.list1.b">
+                <num>(b)</num>
+                <p>that is required to be classified in terms of section 5 (5) and has not been classified.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4A.2">
+          <num>(2)</num>
+          <content>
+            <p>Waste managers may not mix or treat <term refersTo="#term-waste" id="trm256">waste</term>, if the mixing or treating thereof will reduce the potential for <term refersTo="#term-re-use" id="trm257">re-use</term>, re-cycling or <term refersTo="#term-recovery" id="trm258">recovery</term> of <term refersTo="#term-waste" id="trm259">waste</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4A.3">
+          <num>(3)</num>
+          <content>
+            <p>Waste managers must ensure that they comply with the legislation that is applicable to the <term refersTo="#term-waste" id="trm260">waste</term> management activity that they are engaged in.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Hazardous <term refersTo="#term-waste" id="trm261">waste</term></heading>
+        <subsection id="section-5.1">
+          <num>(1)</num>
+          <content>
+            <p>A <term refersTo="#term-waste_generator" id="trm262">waste generator</term> who generates <term refersTo="#term-hazardous_waste" id="trm263">hazardous waste</term> and an owner of property where <term refersTo="#term-hazardous_waste" id="trm264">hazardous waste</term> is generated must contract with an <term refersTo="#term-accredited_service_provider" id="trm265">accredited service provider</term> to collect and dispose of such <term refersTo="#term-waste" id="trm266">waste</term> at a licenced <term refersTo="#term-hazardous_waste" id="trm267">hazardous waste</term> disposal facility.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.2">
+          <num>(2)</num>
+          <content>
+            <p>A <term refersTo="#term-person" id="trm268">person</term> transporting the <term refersTo="#term-hazardous_waste" id="trm269">hazardous waste</term> must ensure that the facility or place to which the <term refersTo="#term-hazardous_waste" id="trm270">hazardous waste</term> is transported is authorised to accept such <term refersTo="#term-hazardous_waste" id="trm271">hazardous waste</term> prior to off-loading the <term refersTo="#term-hazardous_waste" id="trm272">hazardous waste</term> from the vehicle.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-5.3.list1">
+              <listIntroduction>A <term refersTo="#term-waste_generator" id="trm273">waste generator</term> who generates <term refersTo="#term-hazardous_waste" id="trm274">hazardous waste</term> must keep accurate and up to date records of the <term refersTo="#term-waste" id="trm275">waste</term> they generate and the <term refersTo="#term-waste" id="trm276">waste</term> they handover to the <term refersTo="#term-waste" id="trm277">waste</term> transporters to be delivered to <term refersTo="#term-waste" id="trm278">waste</term> management facilities; which records must reflect-</listIntroduction>
+              <item id="section-5.3.list1.a">
+                <num>(a)</num>
+                <p>the classification of the wastes in terms of subsection (5);</p>
+              </item>
+              <item id="section-5.3.list1.b">
+                <num>(b)</num>
+                <p>the quantity of each <term refersTo="#term-waste" id="trm279">waste</term> stream generated per month is expressed in tons or cubic metres;</p>
+              </item>
+              <item id="section-5.3.list1.c">
+                <num>(c)</num>
+                <p>the quantities of each <term refersTo="#term-waste" id="trm280">waste</term> stream that has either been re-used, recycled, recovered, treated or disposed of; and</p>
+              </item>
+              <item id="section-5.3.list1.d">
+                <num>(d)</num>
+                <p>by whom the <term refersTo="#term-waste" id="trm281">waste</term> was collected and by whom the <term refersTo="#term-waste" id="trm282">waste</term> was managed.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-5.4">
+          <num>(4)</num>
+          <content>
+            <p>The records referred to in subsection (3), (4), and (5) must be retained for a period of five years and must be made available to the <term refersTo="#term-waste_management_officer" id="trm283">waste management officer</term> upon request.”.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.5">
+          <num>(5)</num>
+          <content>
+            <blockList id="section-5.5.list1">
+              <listIntroduction>A <term refersTo="#term-waste_generator" id="trm284">waste generator</term> must ensure that <term refersTo="#term-hazardous_waste" id="trm285">hazardous waste</term>, except for <term refersTo="#term-hazardous_waste" id="trm286">hazardous waste</term> that does not require classification in terms of national legislation, is classified in accordance with the <term refersTo="#term-SANS_10234" id="trm287">SANS 10234</term> within –</listIntroduction>
+              <item id="section-5.5.list1.a">
+                <num>(a)</num>
+                <p>180 days of its generation;</p>
+              </item>
+              <item id="section-5.5.list1.b">
+                <num>(b)</num>
+                <p>180 days from the date of commencement of this By-law; or</p>
+              </item>
+              <item id="section-5.5.list1.c">
+                <num>(c)</num>
+                <p>the time frame specified in a notice delivered by the <term refersTo="#term-City" id="trm288">City</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-5.6">
+          <num>(6)</num>
+          <content>
+            <blockList id="section-5.6.list1">
+              <listIntroduction>A <term refersTo="#term-waste_generator" id="trm289">waste generator</term> may not hand over <term refersTo="#term-hazardous_waste" id="trm290">hazardous waste</term> to a <term refersTo="#term-waste_transporter" id="trm291">waste transporter</term> unless it is accompanied by a declaration in which –</listIntroduction>
+              <item id="section-5.6.list1.a">
+                <num>(a)</num>
+                <p>the content of the consignment is fully and accurately described;</p>
+              </item>
+              <item id="section-5.6.list1.b">
+                <num>(b)</num>
+                <p>it is stated whether or not the <term refersTo="#term-hazardous_waste" id="trm292">hazardous waste</term> requires classification in terms of subsection (5);</p>
+              </item>
+              <item id="section-5.6.list1.c">
+                <num>(c)</num>
+                <p>if the <term refersTo="#term-waste" id="trm293">waste</term> requires classification, the details of its classification are included, subject to the provisions of subsection (5) if the <term refersTo="#term-waste" id="trm294">waste</term> was generated before the commencement of the provisions of subsection (5); and</p>
+              </item>
+              <item id="section-5.6.list1.d">
+                <num>(d)</num>
+                <p>the intended receiver is identified.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-5.7">
+          <num>(7)</num>
+          <content>
+            <p>For the purposes of subsections (3) and (6) a document prepared in terms of national or provincial laws is acceptable provided that it contains all the required information.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.8">
+          <num>(8)</num>
+          <content>
+            <p>The <term refersTo="#term-City" id="trm295">City</term> may, from time to time, publish a list of additional <term refersTo="#term-hazardous_waste" id="trm296">hazardous waste</term> that requires classification in terms of subsection (5).</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Event <term refersTo="#term-waste" id="trm297">waste</term></heading>
+        <subsection id="section-6.1">
+          <num>(1)</num>
+          <content>
+            <p>Any <term refersTo="#term-person" id="trm298">person</term> who is directly or indirectly involved with the organisation or management of a sporting, entertainment, cultural or religious event which is to take place on private or public property or owns or controls premises at which a sporting, entertainment, cultural or religious event is to take place, including sports stadia and conference centres, must submit an <term refersTo="#term-integrated_waste_management_plan" id="trm299">integrated waste management plan</term> consistent with this By-law to the <term refersTo="#term-waste_management_officer" id="trm300">waste management officer</term> in respect of the <term refersTo="#term-storage" id="trm301">storage</term>, collection, recycling and disposal of <term refersTo="#term-waste" id="trm302">waste</term> at and after such event at least five working days prior to the proposed event and comply with the terms and conditions set out by the <term refersTo="#term-City" id="trm303">City</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-integrated_waste_management_plan" id="trm304">integrated waste management plan</term> must also include costing information, and the organiser, management or owner will be required to pay a refundable deposit as determined by the <term refersTo="#term-City" id="trm305">City</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.3">
+          <num>(3)</num>
+          <content>
+            <p>Any <term refersTo="#term-person" id="trm306">person</term> who intends to generate <term refersTo="#term-event_waste" id="trm307">event waste</term> shall contract with an <term refersTo="#term-accredited_service_provider" id="trm308">accredited service provider</term> for the collection and disposal of such <term refersTo="#term-waste" id="trm309">waste</term> to a <term refersTo="#term-licenced_waste_disposal_facility" id="trm310">licenced waste disposal facility</term> and provide proof of this to the <term refersTo="#term-City" id="trm311">City</term> as part of its <term refersTo="#term-integrated_waste_management_plan" id="trm312">integrated waste management plan</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.4">
+          <num>(4)</num>
+          <content>
+            <p>If the event is to be held in a public area, the use, sale or distribution of glass or similar containers is prohibited, unless the prior consent has been obtained from the <term refersTo="#term-waste_management_officer" id="trm313">waste management officer</term> on such conditions as will be determined by him or her that will reduce the likelihood of injury from broken glass.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.5">
+          <num>(5)</num>
+          <content>
+            <p>Should a <term refersTo="#term-person" id="trm314">person</term> fail or neglect to obtain services of an <term refersTo="#term-accredited_service_provider" id="trm315">accredited service provider</term> in terms of subsection (3) prior to the event in question, or fail to provide the <term refersTo="#term-City" id="trm316">City</term> with the <term refersTo="#term-integrated_waste_management_plan" id="trm317">integrated waste management plan</term> or should there be <term refersTo="#term-waste" id="trm318">waste</term> left at the area where the event has been held or the surrounding area as a result of the event, the <term refersTo="#term-waste_management_officer" id="trm319">waste management officer</term> may subject to subsection (6), arrange for the collection, clean-up, recycling and disposal of the <term refersTo="#term-waste" id="trm320">waste</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.6">
+          <num>(6)</num>
+          <content>
+            <p>The cost for the collection, clean-up, recycling and disposal of the <term refersTo="#term-waste" id="trm321">waste</term> shall be payable by the event organiser and may be recovered from the deposit paid or in terms of the <term refersTo="#term-City" id="trm322">City</term>’s Credit Control and Debt Collection By-law.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Priority <term refersTo="#term-waste" id="trm323">waste</term></heading>
+        <subsection id="section-7.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-7.1.list1">
+              <listIntroduction>The <term refersTo="#term-Director" id="trm324">Director</term> must in terms of this By-law categorise <term refersTo="#term-priority_waste" id="trm325">priority waste</term> if he or she reasonably believes that special measures are required in respect of the management of that <term refersTo="#term-waste" id="trm326">waste</term>, because it—</listIntroduction>
+              <item id="section-7.1.list1.a">
+                <num>(a)</num>
+                <p>poses a significant threat to health or the environment;</p>
+              </item>
+              <item id="section-7.1.list1.b">
+                <num>(b)</num>
+                <p>may persist in the environment;</p>
+              </item>
+              <item id="section-7.1.list1.c">
+                <num>(c)</num>
+                <p>contains or could foster pathogens or communicable diseases; or</p>
+              </item>
+              <item id="section-7.1.list1.d">
+                <num>(d)</num>
+                <p>has been declared a <term refersTo="#term-priority_waste" id="trm327">priority waste</term> in terms of other applicable legislation.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-7.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-City" id="trm328">City</term> may publish guidelines from time to time insofar as may be necessary in respect of categorisation of <term refersTo="#term-waste" id="trm329">waste</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Emergencies requiring the management of <term refersTo="#term-waste" id="trm330">waste</term></heading>
+        <subsection id="section-8.1">
+          <num>(1)</num>
+          <content>
+            <p>In the event of an emergency, the <term refersTo="#term-Director" id="trm331">Director</term> may call upon the owner of the property or the <term refersTo="#term-waste_generator" id="trm332">waste generator</term> to manage same within a stipulated period to the <term refersTo="#term-City" id="trm333">City</term>’s satisfaction.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-Director" id="trm334">Director</term> may arrange for management of an emergency, including the clearing and cleaning of debris and pollution effects, transporting and disposing of the <term refersTo="#term-waste" id="trm335">waste</term> at a <term refersTo="#term-licenced_waste_disposal_facility" id="trm336">licenced waste disposal facility</term> accredited for the specific type of <term refersTo="#term-waste" id="trm337">waste</term> generated.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-Director" id="trm338">Director</term> may also arrange, manage and co-ordinate the rehabilitation and repair of any infra-structure, buildings, equipment or natural environment in this process.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.4">
+          <num>(4)</num>
+          <content>
+            <p>The cost of such management, rehabilitation and repair, including all costs incurred in the utilisation of the <term refersTo="#term-City" id="trm339">City</term>’s resources, equipment and materials shall be for the account of the <term refersTo="#term-person" id="trm340">person</term> responsible for the emergency.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.5">
+          <num>(5)</num>
+          <content>
+            <p>If an emergency occurs by an act of God the <term refersTo="#term-City" id="trm341">City</term> will deal with such emergency in such manner as the circumstances and funding may allow.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Establishment of formal <term refersTo="#term-waste" id="trm342">waste</term> minimisation clubs in communities or businesses</heading>
+        <subsection id="section-9.1">
+          <num>(1)</num>
+          <content>
+            <p>Waste management clubs may apply to the <term refersTo="#term-Director" id="trm343">Director</term> for special dispensation as an enhanced service associated with <term refersTo="#term-waste" id="trm344">waste</term> minimisation in terms of the <term refersTo="#term-City" id="trm345">City</term>’s Tariff By-Law and Tariff Policy.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.2">
+          <num>(2)</num>
+          <content>
+            <p>The club must submit an <term refersTo="#term-integrated_waste_management_plan" id="trm346">integrated waste management plan</term> in writing to the <term refersTo="#term-Director" id="trm347">Director</term> for approval, as well as other application documentation for the formation and operation of a <term refersTo="#term-waste_minimisation_club" id="trm348">waste minimisation club</term>, as may be determined by the <term refersTo="#term-City" id="trm349">City</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-Director" id="trm350">Director</term> may subject to the provisions of this By-law determine whether to approve the application for a special dispensation of a <term refersTo="#term-waste_minimisation_club" id="trm351">waste minimisation club</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.4">
+          <num>(4)</num>
+          <content>
+            <p>If an application is unsuccessful, the <term refersTo="#term-Director" id="trm352">Director</term> must stipulate and provide reasons for turning down an approval to the <term refersTo="#term-waste_minimisation_club" id="trm353">waste minimisation club</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.5">
+          <num>(5)</num>
+          <content>
+            <p>If an application to form a <term refersTo="#term-waste_minimisation_club" id="trm354">waste minimisation club</term> is approved by the <term refersTo="#term-Director" id="trm355">Director</term>, the club must comply with the terms and conditions set out by the <term refersTo="#term-Director" id="trm356">Director</term> for the generation, minimisation, <term refersTo="#term-storage" id="trm357">storage</term>, collection and disposal of such <term refersTo="#term-waste" id="trm358">waste</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Integrated <term refersTo="#term-waste" id="trm359">waste</term> management plan</heading>
+        <subsection id="section-10.1">
+          <num>(1)</num>
+          <content>
+            <p>An <term refersTo="#term-integrated_waste_management_plan" id="trm360">integrated waste management plan</term> must be submitted by the <term refersTo="#term-waste" id="trm361">waste</term> generators listed in subsection (10) in writing to the <term refersTo="#term-waste_management_officer" id="trm362">waste management officer</term> for approval prior to the generation of the <term refersTo="#term-waste" id="trm363">waste</term> to be dealt with in terms of the said plan.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-10.2.list1">
+              <listIntroduction>An <term refersTo="#term-integrated_waste_management_plan" id="trm364">integrated waste management plan</term> must include —</listIntroduction>
+              <item id="section-10.2.list1.a">
+                <num>(a)</num>
+                <p>an assessment of the quantity and type of <term refersTo="#term-waste" id="trm365">waste</term> that will be generated;</p>
+              </item>
+              <item id="section-10.2.list1.b">
+                <num>(b)</num>
+                <p>a description of the services required to store, collect, transport and dispose of such <term refersTo="#term-waste" id="trm366">waste</term>;</p>
+              </item>
+              <item id="section-10.2.list1.c">
+                <num>(c)</num>
+                <p>a description of how they intend separating recyclable and non-recyclable material at the point of source;</p>
+              </item>
+              <item id="section-10.2.list1.d">
+                <num>(d)</num>
+                <p>the <term refersTo="#term-waste" id="trm367">waste</term> minimisation and pollution prevention plans of such <term refersTo="#term-waste_generator" id="trm368">waste generator</term>;</p>
+              </item>
+              <item id="section-10.2.list1.e">
+                <num>(e)</num>
+                <p>the impact or potential impact on the environment of the <term refersTo="#term-waste" id="trm369">waste</term> created by them;</p>
+              </item>
+              <item id="section-10.2.list1.f">
+                <num>(f)</num>
+                <p>the type or characteristics of <term refersTo="#term-waste" id="trm370">waste</term> produced of an environmentally sensitive nature or the amount of natural resources that are consumed in the manufacturing or production process that result in <term refersTo="#term-waste" id="trm371">waste</term>; and</p>
+              </item>
+              <item id="section-10.2.list1.g">
+                <num>(g)</num>
+                <p>targets for <term refersTo="#term-waste" id="trm372">waste</term> production through <term refersTo="#term-waste" id="trm373">waste</term> minimisation, <term refersTo="#term-re-use" id="trm374">re-use</term>, recycling and <term refersTo="#term-recovery" id="trm375">recovery</term> measures or programmes that can minimise the consumption of natural resources and the method of disposal of <term refersTo="#term-waste" id="trm376">waste</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-10.3">
+          <num>(3)</num>
+          <content>
+            <p>Industrial entities must include in an <term refersTo="#term-integrated_waste_management_plan" id="trm377">integrated waste management plan</term> measures or actions to be taken to manage <term refersTo="#term-waste" id="trm378">waste</term>, the phasing out of the use of certain substances, opportunities for reduction of <term refersTo="#term-waste" id="trm379">waste</term> generation through changes to product design, product production or packaging to reduce resource consumption.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.4">
+          <num>(4)</num>
+          <content>
+            <p>Industrial and business entities must provide for the education, marketing and sales information to influence perception and behaviour of customers to ensure recycling of products.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.5">
+          <num>(5)</num>
+          <content>
+            <p>When requested to submit an <term refersTo="#term-integrated_waste_management_plan" id="trm380">integrated waste management plan</term> or a further <term refersTo="#term-integrated_waste_management_plan" id="trm381">integrated waste management plan</term> in terms of this By-law, a <term refersTo="#term-waste_generator" id="trm382">waste generator</term> shall do so within the time stipulated and comply with the terms and conditions set out by the <term refersTo="#term-waste_management_officer" id="trm383">waste management officer</term> for the generation, minimisation, <term refersTo="#term-storage" id="trm384">storage</term>, collection and disposal of such <term refersTo="#term-waste" id="trm385">waste</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.6">
+          <num>(6)</num>
+          <content>
+            <blockList id="section-10.6.list1">
+              <listIntroduction>The <term refersTo="#term-waste_management_officer" id="trm386">waste management officer</term> must consider the plan and —</listIntroduction>
+              <item id="section-10.6.list1.a">
+                <num>(a)</num>
+                <p>approve it with conditions and give directions for the implementation thereof;</p>
+              </item>
+              <item id="section-10.6.list1.b">
+                <num>(b)</num>
+                <p>request that additional information be furnished or a revised plan be submitted for approval;</p>
+              </item>
+              <item id="section-10.6.list1.c">
+                <num>(c)</num>
+                <p>require amendments to be made within a time frame so specified by them;</p>
+              </item>
+              <item id="section-10.6.list1.d">
+                <num>(d)</num>
+                <p>reject the plan and provide reasons therefor; or</p>
+              </item>
+              <item id="section-10.6.list1.e">
+                <num>(e)</num>
+                <p>approve such a plan and specify conditions pertaining to such approval.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-10.7">
+          <num>(7)</num>
+          <content>
+            <p>If an <term refersTo="#term-integrated_waste_management_plan" id="trm387">integrated waste management plan</term> is rejected or not submitted at all, the <term refersTo="#term-waste_management_officer" id="trm388">waste management officer</term> shall give directives as to what <term refersTo="#term-waste" id="trm389">waste</term> management measures must be taken by the <term refersTo="#term-waste_generator" id="trm390">waste generator</term> and should the <term refersTo="#term-waste_generator" id="trm391">waste generator</term> fail to take such measures within the time frame specified by the <term refersTo="#term-waste_management_officer" id="trm392">waste management officer</term>, the <term refersTo="#term-City" id="trm393">City</term> may implement such measures and the <term refersTo="#term-waste_generator" id="trm394">waste generator</term> will be liable for the cost thereof.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.7A">
+          <num>(7A)</num>
+          <content>
+            <blockList id="section-10.7A.list1">
+              <listIntroduction>The <term refersTo="#term-waste_management_officer" id="trm395">waste management officer</term> may, by written notice, require the generators of <term refersTo="#term-waste" id="trm396">waste</term> to –</listIntroduction>
+              <item id="section-10.7A.list1.a">
+                <num>(a)</num>
+                <blockList id="section-10.7A.list1.a.list0">
+                  <listIntroduction>take reasonable steps to ensure that the <term refersTo="#term-waste_generator" id="trm397">waste generator</term> -</listIntroduction>
+                  <item id="section-10.7A.list1.a.list0.i">
+                    <num>(i)</num>
+                    <p>implements the <term refersTo="#term-integrated_waste_management_plan" id="trm398">integrated waste management plan</term>;</p>
+                  </item>
+                  <item id="section-10.7A.list1.a.list0.ii">
+                    <num>(ii)</num>
+                    <p>complies with the directives given by the <term refersTo="#term-waste_management_officer" id="trm399">waste management officer</term>; and</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-10.7A.list1.b">
+                <num>(b)</num>
+                <p>report any non-compliance with any applicable <term refersTo="#term-waste" id="trm400">waste</term> management plan or directive to the <term refersTo="#term-waste_management_officer" id="trm401">waste management officer</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-10.8">
+          <num>(8)</num>
+          <content>
+            <p>The <term refersTo="#term-Director" id="trm402">Director</term> may by written notice require any <term refersTo="#term-person" id="trm403">person</term> to provide such information as he or she requires when preparing the <term refersTo="#term-City" id="trm404">City</term>’s <term refersTo="#term-integrated_waste_management_plan" id="trm405">integrated waste management plan</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.9">
+          <num>(9)</num>
+          <content>
+            <p>Should a <term refersTo="#term-person" id="trm406">person</term> fail to provide the information referred to in subsection (8), the <term refersTo="#term-Director" id="trm407">Director</term> may appoint an auditor to obtain such information at the cost of <term refersTo="#term-waste_generator" id="trm408">waste generator</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.10">
+          <num>(10)</num>
+          <content>
+            <blockList id="section-10.10.list1">
+              <listIntroduction>The <term refersTo="#term-waste" id="trm409">waste</term> generators of the following classes of <term refersTo="#term-waste" id="trm410">waste</term> must submit an <term refersTo="#term-integrated_waste_management_plan" id="trm411">integrated waste management plan</term>:</listIntroduction>
+              <item id="section-10.10.list1.a">
+                <num>(a)</num>
+                <p><term refersTo="#term-business_waste" id="trm412">business waste</term>;</p>
+              </item>
+              <item id="section-10.10.list1.b">
+                <num>(b)</num>
+                <p><term refersTo="#term-industrial_waste" id="trm413">industrial waste</term>;</p>
+              </item>
+              <item id="section-10.10.list1.c">
+                <num>(c)</num>
+                <p><term refersTo="#term-building_waste" id="trm414">building waste</term>;</p>
+              </item>
+              <item id="section-10.10.list1.d">
+                <num>(d)</num>
+                <p><term refersTo="#term-event_waste" id="trm415">event waste</term>;</p>
+              </item>
+              <item id="section-10.10.list1.e">
+                <num>(e)</num>
+                <p><term refersTo="#term-priority_waste" id="trm416">priority waste</term>;</p>
+              </item>
+              <item id="section-10.10.list1.f">
+                <num>(f)</num>
+                <p><term refersTo="#term-hazardous_waste" id="trm417">hazardous waste</term>;</p>
+              </item>
+              <item id="section-10.10.list1.g">
+                <num>(g)</num>
+                <p>those applying for special dispensation in terms of section 9;</p>
+              </item>
+              <item id="section-10.10.list1.h">
+                <num>(h)</num>
+                <p>those who sort <term refersTo="#term-waste" id="trm418">waste</term> or undertake a recycling, <term refersTo="#term-re-use" id="trm419">re-use</term> or <term refersTo="#term-waste" id="trm420">waste</term> <term refersTo="#term-recovery" id="trm421">recovery</term> activity including but not limited to scrap dealers, recycling groups and buy back centres;</p>
+              </item>
+              <item id="section-10.10.list1.i">
+                <num>(i)</num>
+                <p>any other <term refersTo="#term-person" id="trm422">person</term> who is given notice to do so by the <term refersTo="#term-Director" id="trm423">Director</term>; or</p>
+              </item>
+              <item id="section-10.10.list1.j">
+                <num>(j)</num>
+                <p>those persons carrying out the activities listed in paragraph (h).</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-11">
+        <num>11.</num>
+        <heading>Exemptions from submitting an <term refersTo="#term-integrated_waste_management_plan" id="trm424">integrated waste management plan</term></heading>
+        <subsection id="section-11.1">
+          <num>(1)</num>
+          <content>
+            <p>If one of the <term refersTo="#term-waste" id="trm425">waste</term> generators for the categories of <term refersTo="#term-waste" id="trm426">waste</term> referred to in section 10(10)(j) wishes to be exempt from submitting a <term refersTo="#term-waste" id="trm427">waste</term> management plan, an application must be made in writing to the <term refersTo="#term-waste_management_officer" id="trm428">waste management officer</term>, stipulating reasons for the application.</p>
+          </content>
+        </subsection>
+        <subsection id="section-11.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-11.2.list1">
+              <listIntroduction>A <term refersTo="#term-waste_management_officer" id="trm429">waste management officer</term> may also declare—</listIntroduction>
+              <item id="section-11.2.list1.a">
+                <num>(a)</num>
+                <p>certain types of <term refersTo="#term-waste" id="trm430">waste</term> or <term refersTo="#term-waste" id="trm431">waste</term> generators;</p>
+              </item>
+              <item id="section-11.2.list1.b">
+                <num>(b)</num>
+                <p>a particular mass or volume of <term refersTo="#term-waste" id="trm432">waste</term>; or</p>
+              </item>
+              <item id="section-11.2.list1.c">
+                <num>(c)</num>
+                <p>persons who have submitted such a plan to the other spheres of government in terms of their applicable legislation, to be exempt from the submission of an <term refersTo="#term-integrated_waste_management_plan" id="trm433">integrated waste management plan</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-12">
+        <num>12.</num>
+        <heading>Storage and transportation of <term refersTo="#term-waste" id="trm434">waste</term></heading>
+        <subsection id="section-12.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-12.1.list1">
+              <listIntroduction>Any holder of <term refersTo="#term-waste" id="trm435">waste</term> who stores or transports <term refersTo="#term-waste" id="trm436">waste</term> must ensure that—</listIntroduction>
+              <item id="section-12.1.list1.a">
+                <num>(a)</num>
+                <p>the container in which any <term refersTo="#term-waste" id="trm437">waste</term> is stored is intact and not corroded or in any other way rendered unfit for the safe <term refersTo="#term-storage" id="trm438">storage</term> or transportation of <term refersTo="#term-waste" id="trm439">waste</term> if the <term refersTo="#term-waste" id="trm440">waste</term> is not in a container provided by the <term refersTo="#term-City" id="trm441">City</term>;</p>
+              </item>
+              <item id="section-12.1.list1.b">
+                <num>(b)</num>
+                <p>suitable measures are in place to prevent accidental spillage or leakage;</p>
+              </item>
+              <item id="section-12.1.list1.c">
+                <num>(c)</num>
+                <p>the <term refersTo="#term-waste" id="trm442">waste</term> cannot be blown away;</p>
+              </item>
+              <item id="section-12.1.list1.d">
+                <num>(d)</num>
+                <p>nuisances such as odour, visual impacts and breeding of vectors do not arise;</p>
+              </item>
+              <item id="section-12.1.list1.e">
+                <num>(e)</num>
+                <p>pollution of the environment and harm to health are prevented;</p>
+              </item>
+              <item id="section-12.1.list1.f">
+                <num>(f)</num>
+                <p><term refersTo="#term-hazardous_waste" id="trm443">hazardous waste</term> is sealed in an impervious container and suitable measures are in place to prevent tampering;</p>
+              </item>
+              <item id="section-12.1.list1.g">
+                <num>(g)</num>
+                <p>any <term refersTo="#term-waste" id="trm444">waste</term> items or substances are safe for handling, collection or disposal and are not harmful to persons when accessed by unauthorised persons or members of the public;</p>
+              </item>
+              <item id="section-12.1.list1.h">
+                <num>(h)</num>
+                <p>any container holding <term refersTo="#term-hazardous_waste" id="trm445">hazardous waste</term> is labelled or records are kept reflecting the date on which the <term refersTo="#term-waste" id="trm446">waste</term> was first placed in the container and the categories or the specific category of <term refersTo="#term-waste" id="trm447">waste</term> stored in the container; and</p>
+              </item>
+              <item id="section-12.1.list1.i">
+                <num>(i)</num>
+                <p><term refersTo="#term-waste" id="trm448">waste</term> is not stored at any public place without the permission of the <term refersTo="#term-City" id="trm449">City</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-12.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-waste_generator" id="trm450">waste generator</term> and the holder of <term refersTo="#term-waste" id="trm451">waste</term> must ensure that <term refersTo="#term-waste" id="trm452">waste</term> is transported to the nearest licenced disposal facility that has capacity to deal with the <term refersTo="#term-waste" id="trm453">waste</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-12.3">
+          <num>(3)</num>
+          <content>
+            <p>Waste transporters may not accept <term refersTo="#term-hazardous_waste" id="trm454">hazardous waste</term> unless it is accompanied by the declaration referred to in section 5(6).</p>
+          </content>
+        </subsection>
+        <subsection id="section-12.4">
+          <num>(4)</num>
+          <content>
+            <p>The transporters of <term refersTo="#term-hazardous_waste" id="trm455">hazardous waste</term> must ensure that each consignment of <term refersTo="#term-waste" id="trm456">waste</term> they receive is properly packed, marked and labelled, and in all respects in proper condition for transportation in accordance with the applicable laws, regulations, norms and standards.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-13">
+        <num>13.</num>
+        <heading>Recycling, <term refersTo="#term-re-use" id="trm457">re-use</term>, sorting and <term refersTo="#term-recovery" id="trm458">recovery</term> of <term refersTo="#term-waste" id="trm459">waste</term></heading>
+        <subsection id="section-13.1">
+          <num>(1)</num>
+          <content>
+            <p>Any <term refersTo="#term-person" id="trm460">person</term> who undertakes a recycling, <term refersTo="#term-re-use" id="trm461">re-use</term> or <term refersTo="#term-recovery" id="trm462">recovery</term> activity or who sorts <term refersTo="#term-waste" id="trm463">waste</term>, including scrap dealers, buy back centres and formalised recycling groups, must, before undertaking that activity make sure by way of an environmental impact assessment or similar procedure required by national or provincial legislation, that the recycling, <term refersTo="#term-re-use" id="trm464">re-use</term> or <term refersTo="#term-recovery" id="trm465">recovery</term> of the <term refersTo="#term-waste" id="trm466">waste</term> is less harmful to the environment than its disposal and must obtain accreditation from the <term refersTo="#term-City" id="trm467">City</term> in terms of its guidelines as published from time to time.</p>
+          </content>
+        </subsection>
+        <subsection id="section-13.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-person" id="trm468">person</term> referred to in subsection (1) must also submit an <term refersTo="#term-integrated_waste_management_plan" id="trm469">integrated waste management plan</term>, and the <term refersTo="#term-waste_management_officer" id="trm470">waste management officer</term> must, when deciding to grant authorisation, consider such <term refersTo="#term-integrated_waste_management_plan" id="trm471">integrated waste management plan</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-13.3">
+          <num>(3)</num>
+          <content>
+            <p>Any <term refersTo="#term-person" id="trm472">person</term> who undertakes a recycling, <term refersTo="#term-re-use" id="trm473">re-use</term>, processing, <term refersTo="#term-treatment" id="trm474">treatment</term> or <term refersTo="#term-recovery" id="trm475">recovery</term> activity or who sorts <term refersTo="#term-waste" id="trm476">waste</term>, including scrap dealers, buy back centres and formalised recycling groups, must register for accreditation with the <term refersTo="#term-City" id="trm477">City</term> that will entitle them to perform such activities.</p>
+          </content>
+        </subsection>
+        <subsection id="section-13.4">
+          <num>(4)</num>
+          <content>
+            <p>Persons and entities that handle, transport, process, treat and dispose of <term refersTo="#term-waste" id="trm478">waste</term> for recycling purposes shall provide the <term refersTo="#term-waste_management_officer" id="trm479">waste management officer</term> with a written report on or before the 7th of each month in a format to be determined by the <term refersTo="#term-Director" id="trm480">Director</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-13.5">
+          <num>(5)</num>
+          <content>
+            <p>The <term refersTo="#term-waste_management_officer" id="trm481">waste management officer</term> may exempt certain <term refersTo="#term-waste" id="trm482">waste</term> generators, handlers, transporters or agents of <term refersTo="#term-waste" id="trm483">waste</term> from such requirements.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-14">
+        <num>14.</num>
+        <heading>Prohibition of unauthorised disposal of <term refersTo="#term-waste" id="trm484">waste</term></heading>
+        <paragraph id="section-14.paragraph-0">
+          <content>
+            <blockList id="section-14.paragraph-0.list1">
+              <listIntroduction>No <term refersTo="#term-person" id="trm485">person</term> may—</listIntroduction>
+              <item id="section-14.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>dispose of <term refersTo="#term-waste" id="trm486">waste</term> in a manner likely to cause pollution of, or have an impact on, the environment or to be harmful to health;</p>
+              </item>
+              <item id="section-14.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>dispose of <term refersTo="#term-waste" id="trm487">waste</term> other than in accordance with this By-law or National and Provincial legislation;</p>
+              </item>
+              <item id="section-14.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>dispose of <term refersTo="#term-hazardous_waste" id="trm488">hazardous waste</term> in a container provided by the <term refersTo="#term-City" id="trm489">City</term> that is designed for the <term refersTo="#term-storage" id="trm490">storage</term> of residential or <term refersTo="#term-business_waste" id="trm491">business waste</term> or in bags to be collected by the <term refersTo="#term-City" id="trm492">City</term>;</p>
+              </item>
+              <item id="section-14.paragraph-0.list1.d">
+                <num>(d)</num>
+                <p>burn <term refersTo="#term-waste" id="trm493">waste</term> especially <term refersTo="#term-hazardous_waste" id="trm494">hazardous waste</term> except in approved incinerators which have a permit or licence to do so;</p>
+              </item>
+              <item id="section-14.paragraph-0.list1.e">
+                <num>(e)</num>
+                <p>dispose of <term refersTo="#term-hazardous_waste" id="trm495">hazardous waste</term>, unless in accordance with an approved integrated management plan;</p>
+              </item>
+              <item id="section-14.paragraph-0.list1.f">
+                <num>(f)</num>
+                <p>deposit domestic, business, industrial, garden, building or <term refersTo="#term-hazardous_waste" id="trm496">hazardous waste</term> in a public <term refersTo="#term-litter" id="trm497">litter</term> bin; or</p>
+              </item>
+              <item id="section-14.paragraph-0.list1.g">
+                <num>(g)</num>
+                <p>deal with <term refersTo="#term-waste" id="trm498">waste</term> in a manner that causes dust, spillage or <term refersTo="#term-litter" id="trm499">litter</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-15">
+        <num>15.</num>
+        <heading>Littering and dumping</heading>
+        <subsection id="section-15.1">
+          <num>(1)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm500">person</term> may drop, throw, deposit, spill, <term refersTo="#term-dump" id="trm501">dump</term>, store or in any other way discard, any <term refersTo="#term-litter" id="trm502">litter</term> or <term refersTo="#term-waste" id="trm503">waste</term> into or onto any public place, municipal drain, land, vacant erf, stream, water course, street, road, wetland, coastline or on any place to which the public has access, or otherwise dispose of it nor may they allow a <term refersTo="#term-person" id="trm504">person</term> under their control to do so.</p>
+          </content>
+        </subsection>
+        <subsection id="section-15.2">
+          <num>(2)</num>
+          <content>
+            <p>The owner of private land to which the public has access must ensure that sufficient containers are provided to contain <term refersTo="#term-litter" id="trm505">litter</term> which is discarded by the public.</p>
+          </content>
+        </subsection>
+        <subsection id="section-15.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-15.3.list1">
+              <listIntroduction>If the provisions of subsection (1) are contravened, the <term refersTo="#term-Director" id="trm506">Director</term> may direct, by way of a written notice to persons that—</listIntroduction>
+              <item id="section-15.3.list1.a">
+                <num>(a)</num>
+                <p>they cease the contravention, in a specified time;</p>
+              </item>
+              <item id="section-15.3.list1.b">
+                <num>(b)</num>
+                <p>they prevent a further contravention or the continuation of the contravention;</p>
+              </item>
+              <item id="section-15.3.list1.c">
+                <num>(c)</num>
+                <p>take whatever measures the <term refersTo="#term-Director" id="trm507">Director</term> considers necessary to clean up or remove the <term refersTo="#term-waste" id="trm508">waste</term>, and to rehabilitate the affected facets of the environment,</p>
+              </item>
+            </blockList>
+            <p>to ensure that the <term refersTo="#term-waste" id="trm509">waste</term> and any contaminated material which cannot be cleaned or rehabilitated is disposed of lawfully.</p>
+          </content>
+        </subsection>
+        <subsection id="section-15.4">
+          <num>(4)</num>
+          <content>
+            <p>The <term refersTo="#term-Director" id="trm510">Director</term> may in respect of the notice contemplated in subsection (3)(c) state that the <term refersTo="#term-person" id="trm511">person</term> must, within a maximum of 5 working days remove the <term refersTo="#term-waste" id="trm512">waste</term> or <term refersTo="#term-litter" id="trm513">litter</term>, provided the <term refersTo="#term-Director" id="trm514">Director</term> may grant a further 2 days, on request of the <term refersTo="#term-person" id="trm515">person</term>, to remove the <term refersTo="#term-litter" id="trm516">litter</term> or <term refersTo="#term-waste" id="trm517">waste</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-15.5">
+          <num>(5)</num>
+          <content>
+            <p>A <term refersTo="#term-person" id="trm518">person</term> who owns land or premises, or who is in control of or has a right to use land or premises, may not use or permit the use of the land or premises for unlawful dumping of <term refersTo="#term-waste" id="trm519">waste</term> and must take reasonable steps to prevent the use of the land or premises for that purpose.</p>
+          </content>
+        </subsection>
+        <subsection id="section-15.6">
+          <num>(6)</num>
+          <content>
+            <p>If the <term refersTo="#term-City" id="trm520">City</term> elects to remove the <term refersTo="#term-waste" id="trm521">waste</term> or <term refersTo="#term-litter" id="trm522">litter</term> the <term refersTo="#term-person" id="trm523">person</term> concerned shall be liable for the cost of such removal operation.</p>
+          </content>
+        </subsection>
+        <subsection id="section-15.7">
+          <num>(7)</num>
+          <content>
+            <p>In the case of <term refersTo="#term-hazardous_waste" id="trm524">hazardous waste</term>, the <term refersTo="#term-City" id="trm525">City</term> may immediately act as contemplated in subsections (3) and (6) and immediately thereafter notify the <term refersTo="#term-person" id="trm526">person</term> concerned of their liability to pay the costs of removal, rehabilitation and any other related costs within the stipulated time.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-16">
+        <num>16.</num>
+        <heading>Licences</heading>
+        <paragraph id="section-16.paragraph-0">
+          <content>
+            <p>Any <term refersTo="#term-person" id="trm527">person</term> who, or entity which, requires a license in terms of national, provincial or municipal legislation will have to prove on request, to the <term refersTo="#term-waste_management_officer" id="trm528">waste management officer</term> that such <term refersTo="#term-person" id="trm529">person</term> or entity has obtained the appropriate license within 30 days or such lesser period as specified by such officer.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-17">
+        <num>17.</num>
+        <heading>Waste management services, applications and registration for <term refersTo="#term-waste" id="trm530">waste</term> collection and removal services</heading>
+        <subsection id="section-17.1">
+          <num>(1)</num>
+          <content>
+            <p>All persons collecting or removing <term refersTo="#term-waste" id="trm531">waste</term> must have a contract for the collection and removal of <term refersTo="#term-waste" id="trm532">waste</term> with the <term refersTo="#term-City" id="trm533">City</term> or an <term refersTo="#term-accredited_service_provider" id="trm534">accredited service provider</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-17.2">
+          <num>(2)</num>
+          <content>
+            <p>Residents must apply and register for <term refersTo="#term-waste" id="trm535">waste</term> collection and removal services that will be provided exclusively by the <term refersTo="#term-City" id="trm536">City</term> or its contracted <term refersTo="#term-accredited_service_provider" id="trm537">accredited service provider</term>, unless the Council authorises otherwise.</p>
+          </content>
+        </subsection>
+        <subsection id="section-17.3">
+          <num>(3)</num>
+          <content>
+            <p>Businesses have an option to contract with the <term refersTo="#term-City" id="trm538">City</term> for the <term refersTo="#term-waste" id="trm539">waste</term> collection and removal services, or to contract with an <term refersTo="#term-accredited_service_provider" id="trm540">accredited service provider</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-17.4">
+          <num>(4)</num>
+          <content>
+            <p>Industries, including those that produce <term refersTo="#term-hazardous_waste" id="trm541">hazardous waste</term>, due to the specialised nature of <term refersTo="#term-waste" id="trm542">waste</term> produced in these sectors, must contract with a private sector <term refersTo="#term-accredited_service_provider" id="trm543">accredited service provider</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-17.5">
+          <num>(5)</num>
+          <content>
+            <p>If an entity or an <term refersTo="#term-accredited_service_provider" id="trm544">accredited service provider</term> is required to have a licence or approval in terms of national or provincial legislation, they are required to provide proof thereof, as well as comply with criteria determined by the Council before they will be registered by the <term refersTo="#term-Director" id="trm545">Director</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-17.6">
+          <num>(6)</num>
+          <content>
+            <p>The <term refersTo="#term-Director" id="trm546">Director</term> shall keep an updated record of registered accredited service providers.</p>
+          </content>
+        </subsection>
+        <subsection id="section-17.7">
+          <num>(7)</num>
+          <content>
+            <p>Commercial and industrial undertakings, including scrap dealers requiring a <term refersTo="#term-waste" id="trm547">waste</term> collection and removal service which is not provided by the <term refersTo="#term-City" id="trm548">City</term>, must register with the <term refersTo="#term-City" id="trm549">City</term> and prove that they have contracted with an <term refersTo="#term-accredited_service_provider" id="trm550">accredited service provider</term> for such service.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-18">
+        <num>18.</num>
+        <heading>Access to private property</heading>
+        <subsection id="section-18.1">
+          <num>(1)</num>
+          <content>
+            <p>The owner must, on request, allow a peace officer or any other duly authorised employee of the <term refersTo="#term-City" id="trm551">City</term> access to their property for the purpose</p>
+            <p>of inspecting the property and investigating any contravention of this By-law and to ensure compliance therewith.</p>
+          </content>
+        </subsection>
+        <subsection id="section-18.2">
+          <num>(2)</num>
+          <content>
+            <p>When accessing the property the authorised employee must, on request, identify him or herself by producing written proof of such authority.</p>
+          </content>
+        </subsection>
+        <subsection id="section-18.3">
+          <num>(3)</num>
+          <content>
+            <p>Such employee may be accompanied by a <term refersTo="#term-person" id="trm552">person</term> reasonably required to assist in inspecting or conducting an investigation who must be identified as such by the authorised employee.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-19">
+        <num>19.</num>
+        <heading>Premises inaccessible for refuse collection</heading>
+        <paragraph id="section-19.paragraph-0">
+          <content>
+            <p>Should the <term refersTo="#term-City" id="trm553">City</term> be impeded from handling or collecting refuse due to the layout of a <term refersTo="#term-person" id="trm554">person</term>’s premises, and if this impediment imposes a danger to employees of the <term refersTo="#term-City" id="trm555">City</term>, the <term refersTo="#term-Director" id="trm556">Director</term> may require the owner to do such alterations or additions to the premises as are necessary to remove such impediment at that persons cost.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-20">
+        <num>20.</num>
+        <heading>Compliance notices</heading>
+        <subsection id="section-20.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-20.1.list1">
+              <listIntroduction>The <term refersTo="#term-waste_management_officer" id="trm557">waste management officer</term> may issue notices to any <term refersTo="#term-person" id="trm558">person</term> contravening the provisions of this By-Law—</listIntroduction>
+              <item id="section-20.1.list1.a">
+                <num>(a)</num>
+                <p>setting out the provisions or conditions contravened;</p>
+              </item>
+              <item id="section-20.1.list1.b">
+                <num>(b)</num>
+                <p>directing such <term refersTo="#term-person" id="trm559">person</term> to comply with such provisions or conditions; and</p>
+              </item>
+              <item id="section-20.1.list1.c">
+                <num>(c)</num>
+                <p>setting out the measures which must be taken to rectify the contravention, and the period in which he or she must do so.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-20.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-20.2.list1">
+              <listIntroduction>If a <term refersTo="#term-person" id="trm560">person</term> fails to comply with directions given in a notice issued by the <term refersTo="#term-waste_management_officer" id="trm561">waste management officer</term>, the <term refersTo="#term-waste_management_officer" id="trm562">waste management officer</term> may —</listIntroduction>
+              <item id="section-20.2.list1.a">
+                <num>(a)</num>
+                <p>take whatever steps it considers necessary to clean up or remove <term refersTo="#term-waste" id="trm563">waste</term>, to rehabilitate the premises, place or the affected environment at which the <term refersTo="#term-waste" id="trm564">waste</term> has been illegally dumped or stored and to ensure that the <term refersTo="#term-waste" id="trm565">waste</term>, and any contaminated material which cannot be removed, cleaned or rehabilitated, is disposed of lawfully;</p>
+              </item>
+              <item id="section-20.2.list1.b">
+                <num>(b)</num>
+                <p>recover the costs of cleaning, removing, rehabilitating or disposing <term refersTo="#term-waste" id="trm566">waste</term>, premises or environment, or contaminated material, respectively, from the persons obliged to take such steps in terms of this By-Law, who shall be jointly and severally liable therefor.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-20.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-City" id="trm567">City</term> may, in the case of hazardous or <term refersTo="#term-priority_waste" id="trm568">priority waste</term>, require the persons generating such <term refersTo="#term-waste" id="trm569">waste</term> to close until such time as steps are taken to dispose of the <term refersTo="#term-waste" id="trm570">waste</term> in terms of subsection (2) if there is a real threat of damage or injury to any <term refersTo="#term-person" id="trm571">person</term> or property.</p>
+          </content>
+        </subsection>
+        <subsection id="section-20.4">
+          <num>(4)</num>
+          <content>
+            <blockList id="section-20.4.list1">
+              <listIntroduction>The following persons may be served with such notice:</listIntroduction>
+              <item id="section-20.4.list1.a">
+                <num>(a)</num>
+                <p>any <term refersTo="#term-person" id="trm572">person</term> who committed, or who directly or indirectly permitted, the contravention;</p>
+              </item>
+              <item id="section-20.4.list1.b">
+                <num>(b)</num>
+                <p>the generator of the <term refersTo="#term-waste" id="trm573">waste</term>;</p>
+              </item>
+              <item id="section-20.4.list1.c">
+                <num>(c)</num>
+                <p>the owner of the land or premises where the contravention took place;</p>
+              </item>
+              <item id="section-20.4.list1.d">
+                <num>(d)</num>
+                <p>the <term refersTo="#term-person" id="trm574">person</term> in control of, or any <term refersTo="#term-person" id="trm575">person</term> who has or had, at that stage of the contravention, a right to use the land or premises where contravention took place; or</p>
+              </item>
+              <item id="section-20.4.list1.e">
+                <num>(e)</num>
+                <p>a service provider.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-21">
+        <num>21.</num>
+        <heading>Service of documents and process</heading>
+        <paragraph id="section-21.paragraph-0">
+          <content>
+            <blockList id="section-21.paragraph-0.list1">
+              <listIntroduction>Whenever any notice, order, demand or other document is authorised or required to be served on a <term refersTo="#term-person" id="trm576">person</term> in terms of this By-law, it shall be deemed to have been effectively and sufficiently served on such a <term refersTo="#term-person" id="trm577">person</term>—</listIntroduction>
+              <item id="section-21.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>when it has been delivered to him or her personally;</p>
+              </item>
+              <item id="section-21.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>when it has been left at his or her place of residence or business with a <term refersTo="#term-person" id="trm578">person</term> apparently over the age of 16 years;</p>
+              </item>
+              <item id="section-21.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>when it has been posted by registered or certified mail to his or her last known residential or business address and an acknowledgement of posting thereof is produced;</p>
+              </item>
+              <item id="section-21.paragraph-0.list1.d">
+                <num>(d)</num>
+                <p>if his or her address is unknown, when it has been served on his or her agent or representative in a manner provided for in paragraph (a), (b) or (c); or</p>
+              </item>
+              <item id="section-21.paragraph-0.list1.e">
+                <num>(e)</num>
+                <p>if his or her address and agent are unknown, when it has been posted in a conspicuous place on the immovable property, if any, to which it relates.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-22">
+        <num>22.</num>
+        <heading>Failure to comply with the by-law and enforcement</heading>
+        <subsection id="section-22.1">
+          <num>(1)</num>
+          <content>
+            <p>If the <term refersTo="#term-waste_management_officer" id="trm579">waste management officer</term> has issued a compliance notice in terms of section 21 to anyone for contravening any provision of this By-law and such <term refersTo="#term-person" id="trm580">person</term> fails to comply with such notice he or she shall be guilty of an offence.</p>
+          </content>
+        </subsection>
+        <subsection id="section-22.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-waste_management_officer" id="trm581">waste management officer</term> may in writing require any <term refersTo="#term-person" id="trm582">person</term> to submit a report to him or her in respect of the impact of <term refersTo="#term-waste" id="trm583">waste</term> in a specified form as stipulated in the <term refersTo="#term-City" id="trm584">City</term>’s guidelines as published from time to time.</p>
+          </content>
+        </subsection>
+        <subsection id="section-22.3">
+          <num>(3)</num>
+          <content>
+            <p>If the <term refersTo="#term-person" id="trm585">person</term> fails to submit such a report within the period specified, the <term refersTo="#term-waste_management_officer" id="trm586">waste management officer</term> may appoint an independent <term refersTo="#term-person" id="trm587">person</term> to compile the report and recover the costs of compiling the report from the <term refersTo="#term-person" id="trm588">person</term> required to submit it.</p>
+          </content>
+        </subsection>
+        <subsection id="section-22.4">
+          <num>(4)</num>
+          <content>
+            <p>If the <term refersTo="#term-waste_management_officer" id="trm589">waste management officer</term> suspects that the <term refersTo="#term-person" id="trm590">person</term> has on one or more occasion contravened or failed to comply with the By-law or a license issued in terms of provincial or national legislation and this has had a detrimental effect on the environment, including health, social conditions, economic conditions, ecological conditions or cultural heritage or has contributed to the degradation of the environment, the <term refersTo="#term-waste_management_officer" id="trm591">waste management officer</term> may direct that such a report be compiled by an independent <term refersTo="#term-person" id="trm592">person</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-22.5">
+          <num>(5)</num>
+          <content>
+            <p>The <term refersTo="#term-waste_management_officer" id="trm593">waste management officer</term> may then direct the <term refersTo="#term-person" id="trm594">person</term> who failed to comply with the By-Law to take the action recommended in such report, failing which the <term refersTo="#term-City" id="trm595">City</term> may do so, and the <term refersTo="#term-person" id="trm596">person</term> who contravened the By-Law shall be liable for the cost thereof.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-23">
+        <num>23.</num>
+        <heading>Offences and penalties</heading>
+        <subsection id="section-23.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-23.1.list1">
+              <listIntroduction>A <term refersTo="#term-person" id="trm597">person</term> who is guilty of an offence in terms of this By-law for—</listIntroduction>
+              <item id="section-23.1.list1.a">
+                <num>(a)</num>
+                <p>littering or dumping over 8m3 of <term refersTo="#term-waste" id="trm598">waste</term> or any volume of <term refersTo="#term-hazardous_waste" id="trm599">hazardous waste</term>;</p>
+              </item>
+              <item id="section-23.1.list1.b">
+                <num>(b)</num>
+                <p>spillage or leakage over 8m3 of <term refersTo="#term-waste" id="trm600">waste</term> or any volume of <term refersTo="#term-hazardous_waste" id="trm601">hazardous waste</term> without putting in place suitable measures;</p>
+              </item>
+              <item id="section-23.1.list1.c">
+                <num>(c)</num>
+                <p>conveying of an uncovered or unsecured load of <term refersTo="#term-hazardous_waste" id="trm602">hazardous waste</term> of any volume;</p>
+              </item>
+              <item id="section-23.1.list1.d">
+                <num>(d)</num>
+                <p>conveying of an uncovered or unsecured load which results in spillage over 8m3 of <term refersTo="#term-waste" id="trm603">waste</term> or any volume of <term refersTo="#term-hazardous_waste" id="trm604">hazardous waste</term>,</p>
+              </item>
+            </blockList>
+            <p>shall on conviction be liable for a fine or a period of imprisonment not exceeding five years, and the court may in addition order the removal of such <term refersTo="#term-waste" id="trm605">waste</term> or determine what measures must be taken by such <term refersTo="#term-person" id="trm606">person</term> and the payment of the expenses incurred in respect thereof or any other costs or damages.</p>
+          </content>
+        </subsection>
+        <subsection id="section-23.2">
+          <num>(2)</num>
+          <content>
+            <p>Should any <term refersTo="#term-person" id="trm607">person</term> induce, influence, persuade or force an employee of the <term refersTo="#term-City" id="trm608">City</term> or other <term refersTo="#term-person" id="trm609">person</term> to commit an offence in terms of this By-law he or she shall be guilty of an offence.</p>
+          </content>
+        </subsection>
+        <subsection id="section-23.3">
+          <num>(3)</num>
+          <content>
+            <p>Should any <term refersTo="#term-person" id="trm610">person</term> induce an employee of the <term refersTo="#term-City" id="trm611">City</term> to collect and dispose of <term refersTo="#term-waste" id="trm612">waste</term> without the correct payment to the Council, or the correct methods being employed, shall be guilty of an offence.</p>
+          </content>
+        </subsection>
+        <subsection id="section-23.4">
+          <num>(4)</num>
+          <content>
+            <p>Any <term refersTo="#term-waste_generator" id="trm613">waste generator</term> who fails to submit or comply with an <term refersTo="#term-integrated_waste_management_plan" id="trm614">integrated waste management plan</term> in terms of this By-law, and any <term refersTo="#term-person" id="trm615">person</term> who fails to comply with a compliance notice referred to in section 20, shall be guilty of an offence.</p>
+          </content>
+        </subsection>
+        <subsection id="section-23.5">
+          <num>(5)</num>
+          <content>
+            <p>Any <term refersTo="#term-person" id="trm616">person</term> who commits any offence referred to in subsections (2) to (4) or any other offence in terms of this By-law shall on conviction be liable for the payment of a fine or imprisonment for a period not exceeding 3 years, or to both such fine and such imprisonment.</p>
+          </content>
+        </subsection>
+        <subsection id="section-23.6">
+          <num>(6)</num>
+          <content>
+            <p>The court may in addition to any penalty imposed in terms of subsection (5), order a <term refersTo="#term-person" id="trm617">person</term> to repair the damage, make good the loss, rehabilitate the environment, remove <term refersTo="#term-waste" id="trm618">waste</term>, or determine what measures must be taken by such <term refersTo="#term-person" id="trm619">person</term> and the payment of the expenses incurred in respect thereof or any other costs or damages.</p>
+          </content>
+        </subsection>
+        <subsection id="section-23.7">
+          <num>(7)</num>
+          <content>
+            <blockList id="section-23.7.list1">
+              <listIntroduction>The Court may, when considering any sentence for an offence in terms of this By-Law, take into account the following:</listIntroduction>
+              <item id="section-23.7.list1.a">
+                <num>(a)</num>
+                <p>That a <term refersTo="#term-person" id="trm620">person</term> delayed in complying with or failed to comply with the terms of notices or directions given to that <term refersTo="#term-person" id="trm621">person</term> under this By-law;</p>
+              </item>
+              <item id="section-23.7.list1.b">
+                <num>(b)</num>
+                <p>that <term refersTo="#term-person" id="trm622">person</term> obtained a financial advantage or was to obtain a financial advantage as a result of the commission of the offence;</p>
+              </item>
+              <item id="section-23.7.list1.c">
+                <num>(c)</num>
+                <p>the severity of the offence in terms of its impact or potential impact on health, wellbeing, public safety and the environment.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-23.8">
+          <num>(8)</num>
+          <content>
+            <p>A <term refersTo="#term-person" id="trm623">person</term> who, is convicted of an offence in terms of this By-law and who persists after conviction in the act or omission that constituted the offence, commits a continuing offence and shall, on conviction, be liable for the payment of a fine or to imprisonment for a period not exceeding 10 days, or to both such fine and such imprisonment, in respect of each day that such a <term refersTo="#term-person" id="trm624">person</term> persists with such act or omission.</p>
+          </content>
+        </subsection>
+        <subsection id="section-23.9">
+          <num>(9)</num>
+          <content>
+            <p>The court may declare any vehicle used in connection with the commission of an offence under this By-law forfeited to the <term refersTo="#term-City" id="trm625">City</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-23A">
+        <num>23A.</num>
+        <heading>Seizure and impounding of vehicles</heading>
+        <subsection id="section-23A.1">
+          <num>(1)</num>
+          <content>
+            <p>A peace officer may, without a warrant, seize and impound a vehicle which is concerned or is on reasonable grounds believed to be concerned with the commission of an offence under this By-law.</p>
+          </content>
+        </subsection>
+        <subsection id="section-23A.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-23A.2.list1">
+              <listIntroduction>The peace officer, at the time of impoundment, must give the holder of the seized and impounded vehicle a copy of a notice setting out –</listIntroduction>
+              <item id="section-23A.2.list1.i">
+                <num>(i)</num>
+                <p>the reason for the impoundment;</p>
+              </item>
+              <item id="section-23A.2.list1.ii">
+                <num>(ii)</num>
+                <p>the description of the vehicle being impounded;</p>
+              </item>
+              <item id="section-23A.2.list1.iii">
+                <num>(iii)</num>
+                <p>the address and contact details of the designated pound;</p>
+              </item>
+              <item id="section-23A.2.list1.iv">
+                <num>(iv)</num>
+                <p>the payment of an impoundment fee; and</p>
+              </item>
+              <item id="section-23A.2.list1.v">
+                <num>(v)</num>
+                <p>the possibility of the impounded vehicle being sold to recover the costs.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-23A.3">
+          <num>(3)</num>
+          <content>
+            <p>A vehicle which has been seized and impounded in terms of subsection (1) and (2) must be taken to a designated pound where it will be retained and dealt with in terms of subsection (4).</p>
+          </content>
+        </subsection>
+        <subsection id="section-23A.4">
+          <num>(4)</num>
+          <content>
+            <blockList id="section-23A.4.list1">
+              <listIntroduction>The seized and impounded vehicle will be released immediately under the following conditions:</listIntroduction>
+              <item id="section-23A.4.list1.a">
+                <num>(a)</num>
+                <p>if a criminal charge is not laid or no fine is issued within 48 hours of the seizure of the vehicle;</p>
+              </item>
+              <item id="section-23A.4.list1.b">
+                <num>(b)</num>
+                <p>when the criminal charges against the <term refersTo="#term-person" id="trm626">person</term> have been withdrawn or the <term refersTo="#term-person" id="trm627">person</term> has been acquitted of the offence charged; or</p>
+              </item>
+              <item id="section-23A.4.list1.c">
+                <num>(c)</num>
+                <p>in the case where the <term refersTo="#term-person" id="trm628">person</term> is convicted of the offence charged, and unless the court has ordered otherwise, on payment of the impoundment fee to the authorised official of the vehicle impoundment facility of the <term refersTo="#term-City" id="trm629">City</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-24">
+        <num>24.</num>
+        <heading>Delegations by the <term refersTo="#term-waste_management_officer" id="trm630">waste management officer</term></heading>
+        <paragraph id="section-24.paragraph-0">
+          <content>
+            <p>The <term refersTo="#term-waste_management_officer" id="trm631">waste management officer</term> shall be entitled to delegate to any other official of the <term refersTo="#term-City" id="trm632">City</term> any of his or her powers or obligations in terms of this By-law.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-25">
+        <num>25.</num>
+        <heading>Functions and powers of <term refersTo="#term-waste_management_officer" id="trm633">waste management officer</term></heading>
+        <paragraph id="section-25.paragraph-0">
+          <content>
+            <p>The <term refersTo="#term-waste_management_officer" id="trm634">waste management officer</term> shall be responsible for regulating, controlling, managing and enforcing the provisions of this By-Law and national and provincial legislation relating to <term refersTo="#term-waste" id="trm635">waste</term> management.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-26">
+        <num>26.</num>
+        <heading>Amendments to <term refersTo="#term-waste" id="trm636">waste</term> removal services</heading>
+        <paragraph id="section-26.paragraph-0">
+          <content>
+            <p>The <term refersTo="#term-City" id="trm637">City</term> may amend any existing <term refersTo="#term-waste" id="trm638">waste</term> removal or cleansing services once a process of public notification, participation and comment has been completed and provided the amendment is practical, cost effective and has as its objective the prevention of the proliferation of <term refersTo="#term-waste" id="trm639">waste</term>, the minimisation of <term refersTo="#term-waste" id="trm640">waste</term> or the reduction of <term refersTo="#term-waste" id="trm641">waste</term> to be removed.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-26A">
+        <num>26A.</num>
+        <heading>Ownership of <term refersTo="#term-waste" id="trm642">waste</term></heading>
+        <subsection id="section-26A.1">
+          <num>(1)</num>
+          <content>
+            <p>Waste on premises controlled by the <term refersTo="#term-City" id="trm643">City</term>, including landfill sites, refuse transfer stations and facilities where <term refersTo="#term-waste" id="trm644">waste</term> is received, stored or recovered shall be the property of the <term refersTo="#term-City" id="trm645">City</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-26A.2">
+          <num>(2)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm646">person</term> who is not duly authorized by the <term refersTo="#term-City" id="trm647">City</term> may remove or interfere with <term refersTo="#term-waste" id="trm648">waste</term> on premises controlled by the <term refersTo="#term-City" id="trm649">City</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-26A.3">
+          <num>(3)</num>
+          <content>
+            <p>Waste that is collected by the <term refersTo="#term-City" id="trm650">City</term> or its service provider becomes the property of the <term refersTo="#term-City" id="trm651">City</term> when it is placed in receptacles provided by the <term refersTo="#term-City" id="trm652">City</term> on the kerbside by the generator thereof for collection.</p>
+          </content>
+        </subsection>
+        <subsection id="section-26A.4">
+          <num>(4)</num>
+          <content>
+            <p>Accredited service providers become the owners of <term refersTo="#term-waste" id="trm653">waste</term> placed for collection by such accredited service providers.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-27">
+        <num>27.</num>
+        <heading>Transitional provisions</heading>
+        <paragraph id="section-27.paragraph-0">
+          <content>
+            <p>Any approvals given in accordance with previous by-laws will be valid in respect of the premises for which they were granted and in respect of the <term refersTo="#term-person" id="trm654">person</term> to whom they were granted, but cannot be transferred to any other <term refersTo="#term-person" id="trm655">person</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-28">
+        <num>28.</num>
+        <heading>Guidelines</heading>
+        <paragraph id="section-28.paragraph-0">
+          <content>
+            <p>The Council may make guidelines not inconsistent with other legislation generally for the better carrying out of the objects and purposes of this By-law.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-29">
+        <num>29.</num>
+        <heading>Repeal of by-laws</heading>
+        <paragraph id="section-29.paragraph-0">
+          <content>
+            <p>The By-laws in Schedule 1 hereto are hereby repealed.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-30">
+        <num>30.</num>
+        <heading>Interpretation</heading>
+        <paragraph id="section-30.paragraph-0">
+          <content>
+            <p>In the event of a conflict between English, Xhosa and Afrikaans versions of this By-law, the English version shall be decisive.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-31">
+        <num>31.</num>
+        <heading>Short title and commencement</heading>
+        <paragraph id="section-31.paragraph-0">
+          <content>
+            <p>This By-law is called <term refersTo="#term-City" id="trm656">City</term> of Cape Town: Integrated Waste Management By-law, 2009.</p>
+          </content>
+        </paragraph>
+      </section>
+    </body>
+  </act>
+  <components>
+    <component id="component-schedule1">
+      <doc name="schedule1">
+        <meta>
+          <identification source="#slaw">
+            <FRBRWork>
+              <FRBRthis value="/za-cpt/act/by-law/2009/integrated-waste-management/schedule1"/>
+              <FRBRuri value="/za-cpt/act/by-law/2009/integrated-waste-management"/>
+              <FRBRalias value="Schedule 1"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-cpt/act/by-law/2009/integrated-waste-management/eng@2016-06-30/schedule1"/>
+              <FRBRuri value="/za-cpt/act/by-law/2009/integrated-waste-management/eng@2016-06-30"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-cpt/act/by-law/2009/integrated-waste-management/eng@2016-06-30/schedule1"/>
+              <FRBRuri value="/za-cpt/act/by-law/2009/integrated-waste-management/eng@2016-06-30"/>
+              <FRBRdate date="2017-11-29" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule1">
+            <heading>Repealed Laws</heading>
+            <paragraph id="schedule1.paragraph-0">
+              <content>
+                <table id="schedule1.paragraph-0.table0">
+                  <tr>
+                    <th>
+                      <p>Administration</p>
+                    </th>
+                    <th>
+                      <p>By-law to be repealed</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Brackenfell Municipality</p>
+                    </td>
+                    <td>
+                      <p>P.N. 538/1968: Additional by-law relating to the removal and disposal of refuse</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Cape Town Municipality</p>
+                    </td>
+                    <td>
+                      <p>P.N. 0733/1961: Refuse Bins by-law</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Helderberg Municipality</p>
+                    </td>
+                    <td>
+                      <p>P.N. 656/2000: By-law relating to the removal of refuse and waste</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Kuils River Municipality</p>
+                    </td>
+                    <td>
+                      <p>P.N. 287/1964: Additional by-law relating to the removal and disposal of refuse</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Pinelands Municipality</p>
+                    </td>
+                    <td>
+                      <p>P.N. 34/1982: By-law relating to the removal of refuse</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>South Peninsula Municipality</p>
+                    </td>
+                    <td>
+                      <p>P.N. 228/1999: Solid Waste by-law</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Tygerberg Municipality</p>
+                    </td>
+                    <td>
+                      <p>P.N. 89/1999: Refuse removal by-law</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>West Coast Peninsula Transitional Council</p>
+                    </td>
+                    <td>
+                      <p>P.N. 123/1997: Refuse removal by-law (insofar as it is applicable to the municipal area of the City of Cape Town)</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>City of Cape Town</p>
+                    </td>
+                    <td>
+                      <p>PN 346/2000: Control of Dumping of Refuse By-law in so far as it relates to the accumulation or storage of matter</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>City of Cape Town</p>
+                    </td>
+                    <td>
+                      <p>PN 190/2001: Dumping and Littering By-law</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>In addition:</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Unicity</p>
+                    </td>
+                    <td>
+                      <p>Littering and Dumping By-law (Provincial Gazette 5894, 21 June 2002)</p>
+                    </td>
+                  </tr>
+                </table>
+              </content>
+            </paragraph>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+    <component id="component-schedule2">
+      <doc name="schedule2">
+        <meta>
+          <identification source="#slaw">
+            <FRBRWork>
+              <FRBRthis value="/za-cpt/act/by-law/2009/integrated-waste-management/schedule2"/>
+              <FRBRuri value="/za-cpt/act/by-law/2009/integrated-waste-management"/>
+              <FRBRalias value="Schedule 2"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-cpt/act/by-law/2009/integrated-waste-management/eng@2016-06-30/schedule2"/>
+              <FRBRuri value="/za-cpt/act/by-law/2009/integrated-waste-management/eng@2016-06-30"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-cpt/act/by-law/2009/integrated-waste-management/eng@2016-06-30/schedule2"/>
+              <FRBRuri value="/za-cpt/act/by-law/2009/integrated-waste-management/eng@2016-06-30"/>
+              <FRBRdate date="2017-11-29" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule2">
+            <heading>Admission of Guilt Fines</heading>
+            <paragraph id="schedule2.paragraph-0">
+              <content>
+                <table id="schedule2.paragraph-0.table0">
+                  <tr>
+                    <th>
+                      <p>Section</p>
+                    </th>
+                    <th>
+                      <p>Offence</p>
+                    </th>
+                    <th>
+                      <p>Fine</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td rowspan="5">
+                      <p>Section 15(1)</p>
+                    </td>
+                    <td>
+                      <p>Littering or dumping under 1m3</p>
+                    </td>
+                    <td>
+                      <p>R500</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Littering or dumping over 1m3 to 3m3</p>
+                    </td>
+                    <td>
+                      <p>R100</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>littering or dumping over 3m3 to 5m3</p>
+                    </td>
+                    <td>
+                      <p>R1 500</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Littering or dumping over 5m3 to 7m3</p>
+                    </td>
+                    <td>
+                      <p>R2000</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>litter or dumping over 7m3 to 8m3</p>
+                    </td>
+                    <td>
+                      <p>R2 500</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td rowspan="10">
+                      <p>Section 12(b)</p>
+                    </td>
+                    <td>
+                      <p>Conveying of an uncovered load which results in spillage of load—Spillage under 1m3</p>
+                    </td>
+                    <td>
+                      <p>R500</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Spillage over 1m3 to 3m3</p>
+                    </td>
+                    <td>
+                      <p>R1000</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Spillage over 3m3 to 5m3</p>
+                    </td>
+                    <td>
+                      <p>R1 500</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Spillage over 5m3 to 7m3</p>
+                    </td>
+                    <td>
+                      <p>R2000</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Spillage over 7m3 to 8m3</p>
+                    </td>
+                    <td>
+                      <p>R2 500</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Conveying of an unsecured load which results in spillage of load—Spillage under 1m3</p>
+                    </td>
+                    <td>
+                      <p>R500</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Spillage over 1m3 to 3m3</p>
+                    </td>
+                    <td>
+                      <p>R1000</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Spillage over 3m3 to 5m3</p>
+                    </td>
+                    <td>
+                      <p>R1 500</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Spillage over 5m3 to 7m3</p>
+                    </td>
+                    <td>
+                      <p>R2000</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Spillage over 7m3 to 8m3</p>
+                    </td>
+                    <td>
+                      <p>R2 500</p>
+                    </td>
+                  </tr>
+                </table>
+              </content>
+            </paragraph>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>
