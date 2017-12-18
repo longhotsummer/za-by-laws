@@ -14,10 +14,12 @@ import urlparse
 
 
 API_ENDPOINT = os.environ.get('INDIGO_API_URL', "http://indigo.openbylaws.org.za/api")
+API_TOKEN = os.environ.get('INDIGO_API_TOKEN', "")
 BASE_DIR = os.getcwd()
 TARGET_DIR = os.path.join(BASE_DIR, 'by-laws')
 
 session = requests.Session()
+session.headers['Authorization'] = 'Token %s' % API_TOKEN
 
 
 def make_path(uri, doc):
