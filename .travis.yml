@@ -1,5 +1,9 @@
 language: python
 python:
 - '2.7'
+env:
+  global:
+    # INDIGO_API_TOKEN
+    secure: "KEBGKwNnWB0vjzZqsatyl8SOvPf0aMUigmR9eZ3VGTTE3Ky3ApdHm6RNpx6E7MlUlk079fzcPstyFX+8ylXYiviS0LXnpg+EWEvdhzphsXtA67LQAE/e6ZXSIDwZdNkOiVAk6B+YIJHsd5MoUeyx++DofuaaShgpjXHIzGzv4o8="
 script:
 - bin/deploy.sh
