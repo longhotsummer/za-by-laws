@@ -1,0 +1,702 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-eth/act/by-law/1993/accommodation-establishment/main"/>
+          <FRBRuri value="/za-eth/act/by-law/1993/accommodation-establishment"/>
+          <FRBRalias value="Accommodation Establishment By-laws"/>
+          <FRBRdate date="1993-12-17" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-eth/act/by-law/1993/accommodation-establishment/eng@1993-12-17/main"/>
+          <FRBRuri value="/za-eth/act/by-law/1993/accommodation-establishment/eng@1993-12-17"/>
+          <FRBRdate date="1993-12-17" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-eth/act/by-law/1993/accommodation-establishment/eng@1993-12-17/main"/>
+          <FRBRuri value="/za-eth/act/by-law/1993/accommodation-establishment/eng@1993-12-17"/>
+          <FRBRdate date="2017-12-18" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="1993-12-17" name="KwaZulu-Natal Provincial Gazette" showAs="KwaZulu-Natal Provincial Gazette" number="4941"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-accommodation_establishment" href="/ontology/term/this.eng.accommodation_establishment" showAs="accommodation establishment"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-designated_officer" href="/ontology/term/this.eng.designated_officer" showAs="designated officer"/>
+        <TLCTerm id="term-National_Building_Regulations" href="/ontology/term/this.eng.National_Building_Regulations" showAs="National Building Regulations"/>
+        <TLCTerm id="term-nuisance" href="/ontology/term/this.eng.nuisance" showAs="nuisance"/>
+        <TLCTerm id="term-premises" href="/ontology/term/this.eng.premises" showAs="premises"/>
+        <TLCTerm id="term-prescribed_fee" href="/ontology/term/this.eng.prescribed_fee" showAs="prescribed fee"/>
+        <TLCTerm id="term-prescribed_form" href="/ontology/term/this.eng.prescribed_form" showAs="prescribed form"/>
+        <TLCTerm id="term-registration_certificate" href="/ontology/term/this.eng.registration_certificate" showAs="registration certificate"/>
+        <TLCTerm id="term-responsible_person" href="/ontology/term/this.eng.responsible_person" showAs="responsible person"/>
+        <TLCTerm id="term-the_Ordinance" href="/ontology/term/this.eng.the_Ordinance" showAs="the Ordinance"/>
+      </references>
+    </meta>
+    <preface>
+      <p>
+        <remark status="editorial">[The Accommodation Establishment By-laws have been extended to the whole area of jurisdiction of the eThekwini Municipality by PN 469 of 5 April 2007.]</remark>
+      </p>
+      <p>The City Council of the City of Durban has in terms of section 268 of the Local Authorities Ordinance, 1974 (Ordinance 25 of 1974); made the following By-laws—</p>
+    </preface>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <paragraph id="section-1.paragraph-0" refersTo="#term-the_Ordinance">
+          <content>
+            <p>In these By-laws, unless the context otherwise indicates—</p>
+            <blockList id="section-1.paragraph-0.list2" refersTo="#term-accommodation_establishment">
+              <listIntroduction>"<def refersTo="#term-accommodation_establishment">accommodation establishment</def>" means any <term refersTo="#term-premises" id="trm0">premises</term> in or upon which the business of supplying lodging with or without meals for reward is conducted for more than four persons, but does not include—</listIntroduction>
+              <item id="section-1.paragraph-0.list2.a">
+                <num>(a)</num>
+                <p>self-contained units of accommodation such as flats or maisonettes;</p>
+              </item>
+              <item id="section-1.paragraph-0.list2.b">
+                <num>(b)</num>
+                <p>a home for the aged which is registered as such in terms of the Aged Persons Act, 1967 (<ref href="/za/act/1967/81">Act 81 of 1967</ref>);</p>
+              </item>
+              <item id="section-1.paragraph-0.list2.c">
+                <num>(c)</num>
+                <p>a hostel which is ancillary to and under the control of a school, university or other educational establishment; or</p>
+              </item>
+              <item id="section-1.paragraph-0.list2.d">
+                <num>(d)</num>
+                <p>an hotel which is registered as an hotel under the Hotels Act, 1965 (<ref href="/za/act/1965/70">Act 70 of 1965</ref>);"certificate holder" means a person who is the holder of a valid <term refersTo="#term-registration_certificate" id="trm1">registration certificate</term> issued in terms of section 3 (6) and includes in his absence from the <term refersTo="#term-premises" id="trm2">premises</term> a <term refersTo="#term-responsible_person" id="trm3">responsible person</term> referred to in section 9;</p>
+              </item>
+            </blockList>
+            <p>"<def refersTo="#term-Council">Council</def>" means the City <term refersTo="#term-Council" id="trm4">Council</term> of the City of Durban;</p>
+            <p>"<def refersTo="#term-designated_officer">designated officer</def>" means the employee of the <term refersTo="#term-Council" id="trm5">Council</term> appointed by it to administer these By-laws and includes any other employee authorised in law to act in his name and on his behalf;</p>
+            <p>"<def refersTo="#term-National_Building_Regulations">National Building Regulations</def>" mean the regulations made in terms of the <term refersTo="#term-National_Building_Regulations" id="trm6">National Building Regulations</term> and Building Standards Act, 1977 (<ref href="/za/act/1977/103">Act 103 of 1977</ref>);</p>
+            <p>"<def refersTo="#term-nuisance">nuisance</def>" means a <term refersTo="#term-nuisance" id="trm7">nuisance</term> as defined in section 1 of <term refersTo="#term-the_Ordinance" id="trm8">the Ordinance</term>;</p>
+            <p>"<def refersTo="#term-premises">premises</def>" means <term refersTo="#term-premises" id="trm9">premises</term> in or upon which the business of an <term refersTo="#term-accommodation_establishment" id="trm10">accommodation establishment</term> is or is to be conducted together with the land on which the same is situated and includes any outbuildings on such land;</p>
+            <p>"<def refersTo="#term-prescribed_fee">prescribed fee</def>" means a fee prescribed by the <term refersTo="#term-Council" id="trm11">Council</term> by resolution from time to time;</p>
+            <p>"<def refersTo="#term-prescribed_form">prescribed form</def>" means a form prescribed and made available by the <term refersTo="#term-Council" id="trm12">Council</term>;</p>
+            <p>"<def refersTo="#term-registration_certificate">registration certificate</def>" means a <term refersTo="#term-registration_certificate" id="trm13">registration certificate</term> issued in terms of section 3 (6);</p>
+            <p>"<def refersTo="#term-responsible_person">responsible person</def>" means a person appointed as such in terms of section 9 (1); and</p>
+            <p>"<def refersTo="#term-the_Ordinance">the Ordinance</def>" means the Local Authorities Ordinance, 1974 (Ordinance 25 of 1974).</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Application of By-laws</heading>
+        <subsection id="section-2.1">
+          <num>(1)</num>
+          <content>
+            <p>No person shall conduct a business which involves the supply of accommodation in an <term refersTo="#term-accommodation_establishment" id="trm14">accommodation establishment</term> unless he is in possession of a valid <term refersTo="#term-registration_certificate" id="trm15">registration certificate</term> issued to him by the <term refersTo="#term-Council" id="trm16">Council</term> in terms of section 3.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.2">
+          <num>(2)</num>
+          <content>
+            <p>A person who is at the date of commencement of these By-laws conducting a business referred to in subsection (1) shall within six months of that date, or within such extended period as the <term refersTo="#term-Council" id="trm17">Council</term> may on application made prior to the expiry of the said period of six months in writing allow, apply for registration of such business in terms of section 3 and if he fails to do so or his application is refused, he shall if he continues to conduct such business after the expiry of that period or after such refusal be deemed to have contravened subsection (1).</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.3">
+          <num>(3)</num>
+          <content>
+            <p>A person whose business has been registered in terms of section 3 shall in the conduct of his business comply with all the provisions of these By-laws and with the limitations, restrictions, terms and conditions imposed upon the approval of the registration of his business and if he fails to do so he shall be guilty of an offence for which the penalties referred to in section 18 shall be applicable.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Applications for registration</heading>
+        <subsection id="section-3.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-3.1.list1">
+              <listIntroduction>A person who is referred to in section 2 (2) and a person who intends conducting a business involving the supply of accommodation at an <term refersTo="#term-accommodation_establishment" id="trm18">accommodation establishment</term> shall apply for registration of his business or proposed business to the <term refersTo="#term-designated_officer" id="trm19">designated officer</term> in writing on the <term refersTo="#term-prescribed_form" id="trm20">prescribed form</term> and such application shall be accompanied by—</listIntroduction>
+              <item id="section-3.1.list1.a">
+                <num>(a)</num>
+                <p>a site plan;</p>
+              </item>
+              <item id="section-3.1.list1.b">
+                <num>(b)</num>
+                <blockList id="section-3.1.list1.b.list0">
+                  <listIntroduction>a layout plan of the building or buildings on the <term refersTo="#term-premises" id="trm21">premises</term> indicating—</listIntroduction>
+                  <item id="section-3.1.list1.b.list0.i">
+                    <num>(i)</num>
+                    <p>the dimensions and floor area of each room or other distinct part of the <term refersTo="#term-premises" id="trm22">premises</term> and the use to which it is to be put;</p>
+                  </item>
+                  <item id="section-3.1.list1.b.list0.ii">
+                    <num>(ii)</num>
+                    <p>the maximum number of persons to be accommodated in each room intended for use as a bedroom as determined in accordance with the provisions of section 13;</p>
+                  </item>
+                  <item id="section-3.1.list1.b.list0.iii">
+                    <num>(iii)</num>
+                    <p>the location of cooking facilities, bathrooms, showers, toilets and laundry facilities;</p>
+                  </item>
+                  <item id="section-3.1.list1.b.list0.iv">
+                    <num>(iv)</num>
+                    <p>the position of lighting and electrical socket outlet points, electric cooking appliances and electric water heaters, if applicable;</p>
+                  </item>
+                  <item id="section-3.1.list1.b.list0.v">
+                    <num>(v)</num>
+                    <p>the siting of hose reels, fire hydrants and portable fire extinguishers in compliance with the requirements of the <term refersTo="#term-National_Building_Regulations" id="trm23">National Building Regulations</term>;</p>
+                  </item>
+                  <item id="section-3.1.list1.b.list0.vi">
+                    <num>(vi)</num>
+                    <blockList id="section-3.1.list1.b.list0.vi.list0">
+                      <listIntroduction>the location of emergency routes provided in accordance with the <term refersTo="#term-National_Building_Regulations" id="trm24">National Building Regulations</term> for escape from the building in the event of fire, reflecting—</listIntroduction>
+                      <item id="section-3.1.list1.b.list0.vi.list0.aa">
+                        <num>(aa)</num>
+                        <p>all doors, passages, ramps and stairs which are components of such routes and indicating their widths;</p>
+                      </item>
+                      <item id="section-3.1.list1.b.list0.vi.list0.bb">
+                        <num>(bb)</num>
+                        <p>the fire resistance of the elements constituting such components;</p>
+                      </item>
+                    </blockList>
+                  </item>
+                  <item id="section-3.1.list1.b.list0.vii">
+                    <num>(vii)</num>
+                    <p>the siting of all sanitary fixtures, which shall comply with the requirements of Part P of the <term refersTo="#term-National_Building_Regulations" id="trm25">National Building Regulations</term>; and</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-3.1.list1.c">
+                <num>(c)</num>
+                <p>the prescribed application fee which shall not be refundable;</p>
+              </item>
+            </blockList>
+            <blockList id="section-3.1.list3">
+              <listIntroduction>Provided that—</listIntroduction>
+              <item id="section-3.1.list3.i">
+                <num>(i)</num>
+                <p>the <term refersTo="#term-designated_officer" id="trm26">designated officer</term> may require an applicant to submit such other plans, documents and information as he deems necessary for the purpose of considering any application or a particular application.</p>
+              </item>
+              <item id="section-3.1.list3.ii">
+                <num>(ii)</num>
+                <p>no person may apply for or be granted registration within six months after the cancellation in terms of section 7 or section 18 (3) of registration effected either in his name or in that of a company, close corporation or partnership of which he is or was a member.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-3.2">
+          <num>(2)</num>
+          <content>
+            <p>The application shall be signed by the person who intends to conduct the business on the <term refersTo="#term-premises" id="trm27">premises</term> or his authorised agent and in the case of the latter he shall annex a copy of his authorisation to the <term refersTo="#term-prescribed_form" id="trm28">prescribed form</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.3">
+          <num>(3)</num>
+          <content>
+            <p>If the applicant is a juristic person the application shall be accompanied by a certified copy of the resolution of the executive body of such person authorising the making of the application.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.4">
+          <num>(4)</num>
+          <content>
+            <p>If the applicant is not the registered owner of the <term refersTo="#term-premises" id="trm29">premises</term>, the application shall be accompanied by a certified copy of the lease or other document from which he derives his right to occupy the <term refersTo="#term-premises" id="trm30">premises</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.5">
+          <num>(5)</num>
+          <content>
+            <p>The <term refersTo="#term-designated_officer" id="trm31">designated officer</term> shall convey his decision on an application made in terms of subsection (1) within 30 days of the date of receipt of the application or within such extended period as may be approved by the <term refersTo="#term-Council" id="trm32">Council</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.6">
+          <num>(6)</num>
+          <content>
+            <p>Upon approval of an application, the <term refersTo="#term-designated_officer" id="trm33">designated officer</term> shall register the business to which the application relates and issue a <term refersTo="#term-registration_certificate" id="trm34">registration certificate</term> to the applicant on the <term refersTo="#term-prescribed_form" id="trm35">prescribed form</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.7">
+          <num>(7)</num>
+          <content>
+            <blockList id="section-3.7.list1">
+              <listIntroduction>If the <term refersTo="#term-designated_officer" id="trm36">designated officer</term> refuses an application, the applicant may within 30 days of the date of the notice conveying such refusal to him, appeal to a committee appointed by the <term refersTo="#term-Council" id="trm37">Council</term> for the purpose, such committee to comprise three persons, of whom one—</listIntroduction>
+              <item id="section-3.7.list1.a">
+                <num>(a)</num>
+                <p>shall be an independent person who is a retired judge of the Supreme Court, a retired magistrate or a person who has practiced as an advocate or attorney for at least 7 years;</p>
+              </item>
+              <item id="section-3.7.list1.b">
+                <num>(b)</num>
+                <p>shall be a councillor; and</p>
+              </item>
+              <item id="section-3.7.list1.c">
+                <num>(c)</num>
+                <p>shall be a person with appropriate knowledge or experience nominated from time to time by the Durban Regional Chamber of Business or, if that body ceases to exist, a body having similar objectives which is approved by the <term refersTo="#term-Council" id="trm38">Council</term>;</p>
+              </item>
+            </blockList>
+            <p>and alternates may be appointed or nominated in each case to act in the absence of a member.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.8">
+          <num>(8)</num>
+          <content>
+            <p>The member referred to in subsection (7) (a) or in his absence his alternate, shall be the chairman of the committee.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.9">
+          <num>(9)</num>
+          <content>
+            <p>A quorum of the committee shall be three.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.10">
+          <num>(10)</num>
+          <content>
+            <p>The members of the committee shall hold office until replaced by the <term refersTo="#term-Council" id="trm39">Council</term> or, in the case of the member referred to in subsection (7) (c), until the body referred to in that subsection nominates another person for membership of the Committee.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.11">
+          <num>(11)</num>
+          <content>
+            <p>In granting an application for registration the <term refersTo="#term-designated_officer" id="trm40">designated officer</term> or in the case of an appeal in terms of subsection (7), the committee, may impose such limitations, restrictions, terms and conditions as he or it deems fit in furtherance of the aims of these By-laws.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.12">
+          <num>(12)</num>
+          <content>
+            <p>An application may be refused on the grounds that the <term refersTo="#term-premises" id="trm41">premises</term> do not comply with the requirements of these By-laws or that the applicant is not a fit and proper person to conduct an <term refersTo="#term-accommodation_establishment" id="trm42">accommodation establishment</term> business.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.13">
+          <num>(13)</num>
+          <content>
+            <p>A certificate holder shall within twenty-one days of any such change notify the <term refersTo="#term-designated_officer" id="trm43">designated officer</term> of any change in the information reflected in the application submitted by him in terms of subsection (1) or on any plan or in any document submitted therewith.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Display of <term refersTo="#term-registration_certificate" id="trm44">registration certificate</term></heading>
+        <paragraph id="section-4.paragraph-0">
+          <content>
+            <p>A person to whom a <term refersTo="#term-registration_certificate" id="trm45">registration certificate</term> has been issued in terms of these By-laws shall publicly display such certificate at all times in the office or reception area of the <term refersTo="#term-accommodation_establishment" id="trm46">accommodation establishment</term> to which it relates.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Validity of registration</heading>
+        <paragraph id="section-5.paragraph-0">
+          <content>
+            <p>A <term refersTo="#term-registration_certificate" id="trm47">registration certificate</term> issued in terms of section 3 (6) and the registration to which it relates shall remain valid for as long as the <term refersTo="#term-accommodation_establishment" id="trm48">accommodation establishment</term> business continues to be conducted on the <term refersTo="#term-premises" id="trm49">premises</term> to which it relates by the person to whom it was issued unless it is cancelled in terms of section 7 or is cancelled by order of court in terms of section 18.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Transfer of business</heading>
+        <subsection id="section-6.1">
+          <num>(1)</num>
+          <content>
+            <p>In the event of the transfer of a business relating to the conduct of an <term refersTo="#term-accommodation_establishment" id="trm50">accommodation establishment</term> in respect of which a <term refersTo="#term-registration_certificate" id="trm51">registration certificate</term> has been issued in terms of section 3 or upon any other change in the identity of the certificate holder, the transferee or, in the case of a change in identity, the person who will in future conduct the business shall forthwith apply to the <term refersTo="#term-designated_officer" id="trm52">designated officer</term> on the <term refersTo="#term-prescribed_form" id="trm53">prescribed form</term> for the registration of the business and the issue to him of a <term refersTo="#term-registration_certificate" id="trm54">registration certificate</term> in his name; Provided that the proviso to section 3 (1) shall mutatis mutandis apply to such person.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.2">
+          <num>(2)</num>
+          <content>
+            <p>An application made in terms of subsection (1) shall be accompanied by such plans, documents and other information as the <term refersTo="#term-designated_officer" id="trm55">designated officer</term> may have reason to require in accordance with these By-laws, together with the <term refersTo="#term-prescribed_fee" id="trm56">prescribed fee</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.3">
+          <num>(3)</num>
+          <content>
+            <p>Upon receipt of an application made in terms of subsection (1) the <term refersTo="#term-designated_officer" id="trm57">designated officer</term> shall, if he is satisfied that the <term refersTo="#term-premises" id="trm58">premises</term> comply with the requirements of these By-laws and that the applicant is a fit and proper person to conduct the business, register the business and issue a <term refersTo="#term-registration_certificate" id="trm59">registration certificate</term> in the name of the applicant.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Cancellation of registration</heading>
+        <subsection id="section-7.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-7.1.list1">
+              <listIntroduction>If a certificate holder or a <term refersTo="#term-responsible_person" id="trm60">responsible person</term> referred to in section 9(1) or either of them has on three separate occasions within any period of 12 months committed a breach of any of the following—</listIntroduction>
+              <item id="section-7.1.list1.a">
+                <num>(a)</num>
+                <p>a law referred to in section 8 (1);</p>
+              </item>
+              <item id="section-7.1.list1.b">
+                <num>(b)</num>
+                <p>paragraphs (a), (c), (d), (h), (i), (j), (k), (l), (n), (o), (q) and (r) of section 15 (1),</p>
+              </item>
+            </blockList>
+            <p>for which he is convicted, the <term refersTo="#term-designated_officer" id="trm61">designated officer</term> may, if in his opinion such breach has in each case caused or is likely to cause a threat to the health or safety of persons on the <term refersTo="#term-premises" id="trm62">premises</term> of the <term refersTo="#term-accommodation_establishment" id="trm63">accommodation establishment</term> concerned, or a <term refersTo="#term-nuisance" id="trm64">nuisance</term>, after notice to the certificate holder calling on him to show cause within a period specified in the notice why he should not do so, cancel his registration, whereupon the certificate issued to that person shall automatically cease to be valid.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.2">
+          <num>(2)</num>
+          <content>
+            <p>A certificate holder whose registration has been cancelled in terms of subsection (1) may within 21 days of the date of the notice conveying such cancellation to him appeal in writing to the committee appointed by the <term refersTo="#term-Council" id="trm65">Council</term> in terms of section 3 (7) and the decision of that committee shall be final.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.3">
+          <num>(3)</num>
+          <content>
+            <p>Unless the <term refersTo="#term-designated_officer" id="trm66">designated officer</term> decides otherwise, cancellation of registration in terms of subsection (1) shall not take effect until expiry of the period of the 21 days referred to in subsection (2) or, in the event of an appeal in terms of that subsection, until the date on which the committee confirms the cancellation.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Compliance with laws</heading>
+        <subsection id="section-8.1">
+          <num>(1)</num>
+          <content>
+            <p>If the certificate holder in the conduct of an <term refersTo="#term-accommodation_establishment" id="trm67">accommodation establishment</term> business commits a breach of any law the nature of which constitutes a threat to the health or safety of persons or a <term refersTo="#term-nuisance" id="trm68">nuisance</term>, such breach shall be deemed to be a breach referred to in section 7 (1).</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.2">
+          <num>(2)</num>
+          <content>
+            <p>In the event of the approval of any plan involving the alteration of the <term refersTo="#term-premises" id="trm69">premises</term> in terms of section 7 of the <term refersTo="#term-National_Building_Regulations" id="trm70">National Building Regulations</term> and Building Standards Act, 1977 (<ref href="/za/act/1977/103">Act 103 of 1977</ref>), which will when implemented result in any change to the number or size of bedrooms depicted as such on the plan lodged in terms of section 3(1), the certificate holder shall within 21 days of the approval of such plan lodge a copy thereof with the <term refersTo="#term-designated_officer" id="trm71">designated officer</term> who may amend the plan lodged in terms of section 3 (1) (b) accordingly.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-8.3.list1">
+              <listIntroduction>The certificate holder shall not—</listIntroduction>
+              <item id="section-8.3.list1.a">
+                <num>(a)</num>
+                <p>make or cause, permit or allow to be made any alteration to the <term refersTo="#term-premises" id="trm72">premises</term> or to the internal arrangement of rooms and other components of the <term refersTo="#term-premises" id="trm73">premises</term>;</p>
+              </item>
+              <item id="section-8.3.list1.b">
+                <num>(b)</num>
+                <p>introduce partitions in the <term refersTo="#term-premises" id="trm74">premises</term> or alter existing partitions or cause, permit or allow the same to be done;</p>
+              </item>
+            </blockList>
+            <p>if the effect of such act will be to interfere with or render less effective the emergency routes referred to in section 3 (1) (b) (vi) and he shall not make any alteration or cause, permit or allow any alteration to be made to any such emergency routes without the prior written consent of the <term refersTo="#term-designated_officer" id="trm75">designated officer</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.4">
+          <num>(4)</num>
+          <content>
+            <p>The certificate holder shall not keep or cause, allow or permit the keeping of any flammable liquid or substance as defined in the <term refersTo="#term-Council" id="trm76">Council</term>’s By-laws relating to Fire Prevention and Flammable Liquids and Substances the keeping of which requires authority in terms of any law without that authority and without giving notice in writing to the <term refersTo="#term-designated_officer" id="trm77">designated officer</term> prior to the keeping of such liquid or substance.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Appointment of a <term refersTo="#term-responsible_person" id="trm78">responsible person</term></heading>
+        <subsection id="section-9.1">
+          <num>(1)</num>
+          <content>
+            <p>A certificate holder shall be responsible for ensuring that at all times either he or a <term refersTo="#term-responsible_person" id="trm79">responsible person</term> appointed by him to act on his behalf is present on the <term refersTo="#term-premises" id="trm80">premises</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.2">
+          <num>(2)</num>
+          <content>
+            <p>The certificate holder shall within seven days inform the <term refersTo="#term-designated_officer" id="trm81">designated officer</term> in writing of the identity and particulars of any <term refersTo="#term-responsible_person" id="trm82">responsible person</term> appointed by him and shall furnish the <term refersTo="#term-designated_officer" id="trm83">designated officer</term> with such particulars of such person as the officer may require and shall within seven days of any such change notify the <term refersTo="#term-designated_officer" id="trm84">designated officer</term> of any change that may take place from time to time as to the identity of a <term refersTo="#term-responsible_person" id="trm85">responsible person</term> or of his particulars.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.3">
+          <num>(3)</num>
+          <content>
+            <p>The certificate holder shall ensure that the name of any <term refersTo="#term-responsible_person" id="trm86">responsible person</term> appointed in terms of subsection (1) as well as his address and the telephone number or numbers at which he may be contacted are publicly displayed in the office or reception area of the <term refersTo="#term-premises" id="trm87">premises</term> at all times.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.4">
+          <num>(4)</num>
+          <content>
+            <p>The certificate holder and any <term refersTo="#term-responsible_person" id="trm88">responsible person</term> appointed to act in his absence shall take all reasonable steps to ensure that the provisions of these By-laws and any limitations, restrictions, terms and conditions imposed in terms of section 3 (8) are complied with.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Certificate by occupants</heading>
+        <paragraph id="section-10.paragraph-0">
+          <content>
+            <p>Every adult person admitted to the <term refersTo="#term-premises" id="trm89">premises</term> for the purpose of occupying accommodation therein shall be required to sign a certificate to the effect that his attention has been drawn to the copy of these By-laws displayed in terms of section 11 and in which he acknowledges that he may be required to leave the <term refersTo="#term-premises" id="trm90">premises</term> if he commits a breach of these By-laws or commits a <term refersTo="#term-nuisance" id="trm91">nuisance</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-11">
+        <num>11.</num>
+        <heading>Display of By-laws</heading>
+        <paragraph id="section-11.paragraph-0">
+          <content>
+            <p>The certificate holder shall publicly display an up-to-date copy of these By-laws in the office or reception area of the <term refersTo="#term-premises" id="trm92">premises</term> at all times and such By-laws shall be accessible to all occupants.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-12">
+        <num>12.</num>
+        <heading>Right of entry and inspection</heading>
+        <subsection id="section-12.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-12.1.list1">
+              <listIntroduction>The <term refersTo="#term-designated_officer" id="trm93">designated officer</term> and any other employee of the <term refersTo="#term-Council" id="trm94">Council</term> authorised by him shall at all reasonable and appropriate times be entitled to enter upon the <term refersTo="#term-premises" id="trm95">premises</term> for any of the following purposes, namely—</listIntroduction>
+              <item id="section-12.1.list1.a">
+                <num>(a)</num>
+                <p>to determine whether these By-laws and any other law is being complied with;</p>
+              </item>
+              <item id="section-12.1.list1.b">
+                <num>(b)</num>
+                <p>to inspect the <term refersTo="#term-premises" id="trm96">premises</term>;</p>
+              </item>
+              <item id="section-12.1.list1.c">
+                <num>(c)</num>
+                <p>to exercise and perform any power, duty or function vested in or imposed on him by these By-laws or any other law.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-12.2">
+          <num>(2)</num>
+          <content>
+            <p>A person commits an offence if he prevents or attempts to prevent any person referred to in subsection (1) from entering the <term refersTo="#term-premises" id="trm97">premises</term> or from exercising his powers or performing his duties or functions or if he in any way hinders or interferes with such person in such exercise or performance.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-13">
+        <num>13.</num>
+        <heading>Limits on occupancy</heading>
+        <paragraph id="section-13.paragraph-0">
+          <content>
+            <p>The maximum number of persons that may be accommodated in any room designated as a bedroom on the plan lodged in terms of section 3 (1) as amended from time to time shall not exceed the maximum number of persons calculated on the basis of the floor space allocation prescribed in paragraph 1 of Schedule 3 to the Slums Act, 1979 (<ref href="/za/act/1979/76">Act 76 of 1979</ref>).</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-14">
+        <num>14.</num>
+        <heading>Identification and marking of bedrooms</heading>
+        <subsection id="section-14.1">
+          <num>(1)</num>
+          <content>
+            <p>The certificate holder shall cause each room intended for use as a bedroom and reflected as such on the plan lodged in terms of section 3 (1) as amended from time to time to be allocated a distinct number and he shall cause that number to be displayed on the external face of the door giving access to that room.</p>
+          </content>
+        </subsection>
+        <subsection id="section-14.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-14.2.list1">
+              <listIntroduction>The certificate holder shall cause a notice to be displayed prominently on an internal wall of each room referred to in subsection (1), which notice shall reflect—</listIntroduction>
+              <item id="section-14.2.list1.a">
+                <num>(a)</num>
+                <p>the floor area of the room in square metres;</p>
+              </item>
+              <item id="section-14.2.list1.b">
+                <num>(b)</num>
+                <p>the maximum number of persons who may be accommodated in that room as calculated in terms of section 13;</p>
+              </item>
+            </blockList>
+            <p>as shown on the plan lodged in terms of section 3 (1) (b) as amended in terms of section 8 (2).</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-15">
+        <num>15.</num>
+        <heading>Duties of certificate holder: Offences</heading>
+        <subsection id="section-15.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-15.1.list1">
+              <listIntroduction>The certificate holder shall—</listIntroduction>
+              <item id="section-15.1.list1.a">
+                <num>(a)</num>
+                <p>ensure that in the interests of public health and safety and to obviate the creation of nuisances all buildings comprising the <term refersTo="#term-premises" id="trm98">premises</term> are maintained in a clean, hygienic, safe and sound condition and comply with all laws;</p>
+              </item>
+              <item id="section-15.1.list1.b">
+                <num>(b)</num>
+                <p>make adequate provision for cooking and food preparation facilities to the satisfaction of the City Medical Officer of Health of the <term refersTo="#term-Council" id="trm99">Council</term> for the persons accommodated on the <term refersTo="#term-premises" id="trm100">premises</term> if meals are not supplied to them and they are permitted by the certificate holder to cook or prepare food on the <term refersTo="#term-premises" id="trm101">premises</term>, which facilities shall be provided in a part of the building which is separate from the bedroom accommodation and which is depicted as set aside for that purpose on the plan lodged in terms of section 3 (1) (b);</p>
+              </item>
+              <item id="section-15.1.list1.c">
+                <num>(c)</num>
+                <p>not cause, allow or permit cooking or preparation of food to take place in any bedroom or elsewhere than in the part of the building referred to in paragraph (b) above by means of a naked flame or cause or allow or permit any fire to be lit on the <term refersTo="#term-premises" id="trm102">premises</term> except in a stove or in any other device or installation designed for the purpose;</p>
+              </item>
+              <item id="section-15.1.list1.d">
+                <num>(d)</num>
+                <p>not use or cause, allow or permit to be used any device for heating or lighting which involves the use of gas or flammable liquid or substance referred to in section 8 (4) other than a stove situated in the part of the <term refersTo="#term-premises" id="trm103">premises</term> referred to in paragraph (b) above, except with the prior written permission of the <term refersTo="#term-designated_officer" id="trm104">designated officer</term>;</p>
+              </item>
+              <item id="section-15.1.list1.e">
+                <num>(e)</num>
+                <p>provide and maintain in good order ablution and toilet facilities and ensure a supply of water at all times, which facilities and supply are adequate in relation to the services available in the area;</p>
+              </item>
+              <item id="section-15.1.list1.f">
+                <num>(f)</num>
+                <p>if occupants to whom accommodation is supplied are furnished with bedsheets, pillows or towels, ensure that each such occupant is furnished with clean items which have been laundered since use by any other person;</p>
+              </item>
+              <item id="section-15.1.list1.g">
+                <num>(g)</num>
+                <p>equip each bedroom with adequate furniture and fittings, including sufficient beds and mattresses for the number of persons permitted to occupy such bedroom, as well as curtains or screens for each window which are of a width and density adequate to screen such window;</p>
+              </item>
+              <item id="section-15.1.list1.h">
+                <num>(h)</num>
+                <p>ensure that no person sleeps in any part of the <term refersTo="#term-premises" id="trm105">premises</term> other than a bedroom or occupies or uses any part of the <term refersTo="#term-premises" id="trm106">premises</term> for a purpose for which it was not designed;</p>
+              </item>
+              <item id="section-15.1.list1.i">
+                <num>(i)</num>
+                <p>not accommodate on the <term refersTo="#term-premises" id="trm107">premises</term> any persons in excess of the number for which it is designed and as calculated in accordance with these By-laws and shall not cause, allow or permit any person to occupy a bedroom so that the maximum number of persons that may be accommodated therein as determined in terms of section 13 is exceeded;</p>
+              </item>
+              <item id="section-15.1.list1.j">
+                <num>(j)</num>
+                <p>ensure that while the <term refersTo="#term-premises" id="trm108">premises</term> are occupied the electricity and water supply and sewage disposal and plumbing installations and all equipment pertaining thereto are in good working order at all times;</p>
+              </item>
+              <item id="section-15.1.list1.k">
+                <num>(k)</num>
+                <blockList id="section-15.1.list1.k.list0">
+                  <listIntroduction>ensure that no person occupies such <term refersTo="#term-premises" id="trm109">premises</term> unless—</listIntroduction>
+                  <item id="section-15.1.list1.k.list0.i">
+                    <num>(i)</num>
+                    <p>each room has a functioning lighting system and</p>
+                  </item>
+                  <item id="section-15.1.list1.k.list0.ii">
+                    <num>(ii)</num>
+                    <p>every emergency route, passageway, entrance, stairway and lift has adequate lighting and is unobstructed;</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-15.1.list1.l">
+                <num>(l)</num>
+                <p>provide and maintain in good order fire-fighting equipment in accordance with the requirements of the <term refersTo="#term-National_Building_Regulations" id="trm110">National Building Regulations</term> and ensure that nothing is done to render any emergency route referred to in section 3 (1) (b) (vi) inadequate or less effective;</p>
+              </item>
+              <item id="section-15.1.list1.m">
+                <num>(m)</num>
+                <p>ensure that waste and stormwater drains and gullies are kept clear and unblocked at all times;</p>
+              </item>
+              <item id="section-15.1.list1.n">
+                <num>(n)</num>
+                <p>keep all sanitary fittings, boilers, lighting and all other equipment and installations on the <term refersTo="#term-premises" id="trm111">premises</term> at all times in proper working order and ensure that they are functioning efficiently and do not give rise to a <term refersTo="#term-nuisance" id="trm112">nuisance</term>;</p>
+              </item>
+              <item id="section-15.1.list1.o">
+                <num>(o)</num>
+                <p>not allow the accumulation of refuse, rubble and litter on the <term refersTo="#term-premises" id="trm113">premises</term> in a manner or to an extent which could create a <term refersTo="#term-nuisance" id="trm114">nuisance</term> or a public health or safety hazard;</p>
+              </item>
+              <item id="section-15.1.list1.p">
+                <num>(p)</num>
+                <p>make adequate provision in compliance with the laws applicable thereto for the collection and temporary storage of refuse generated on the <term refersTo="#term-premises" id="trm115">premises</term> and take steps to ensure that refuse is not discarded or dumped elsewhere than in the refuse storage bins placed within the boundaries of the <term refersTo="#term-premises" id="trm116">premises</term>;</p>
+              </item>
+              <item id="section-15.1.list1.q">
+                <num>(q)</num>
+                <p>take adequate measures to prevent the breeding or harbouring of rodents, flies, vermin or mosquitoes;</p>
+              </item>
+              <item id="section-15.1.list1.r">
+                <num>(r)</num>
+                <p>take adequate steps to prevent the commission by any person accommodated on the <term refersTo="#term-premises" id="trm117">premises</term> or any other person therein or thereon of any breach of these By-laws or of any <term refersTo="#term-nuisance" id="trm118">nuisance</term>;</p>
+              </item>
+              <item id="section-15.1.list1.s">
+                <num>(s)</num>
+                <p>not cause, allow or permit a prostitute, whether male or female, to operate from the <term refersTo="#term-premises" id="trm119">premises</term> or to solicit therein;</p>
+              </item>
+              <item id="section-15.1.list1.t">
+                <num>(t)</num>
+                <p>not cause, allow or permit any person indecently to expose herself or himself from anywhere on the <term refersTo="#term-premises" id="trm120">premises</term>; and any breach of this section shall constitute an offence for which the penalties referred to in section 18 shall be applicable.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-15.2">
+          <num>(2)</num>
+          <content>
+            <p>For the purposes of subsection (1) the expression “certificate holder” shall include any person who is in actual control of the <term refersTo="#term-premises" id="trm121">premises</term> or is managing the business on behalf of the certificate holder at the time that a contravention of subsection (1) takes place.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-16">
+        <num>16.</num>
+        <heading>General offences</heading>
+        <paragraph id="section-16.paragraph-0">
+          <content>
+            <blockList id="section-16.paragraph-0.list1">
+              <listIntroduction>A person commits an offence if he—</listIntroduction>
+              <item id="section-16.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>commits any act which constitutes a <term refersTo="#term-nuisance" id="trm122">nuisance</term> whilst on the <term refersTo="#term-premises" id="trm123">premises</term>, or, being an occupant of the <term refersTo="#term-premises" id="trm124">premises</term>, in any public place adjoining the <term refersTo="#term-premises" id="trm125">premises</term>;</p>
+              </item>
+              <item id="section-16.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>whilst on the <term refersTo="#term-premises" id="trm126">premises</term> indecently exposes his person to the public view or in any of the common parts of the <term refersTo="#term-premises" id="trm127">premises</term>;</p>
+              </item>
+              <item id="section-16.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>cooks or heats food in a bedroom or in any part of the <term refersTo="#term-premises" id="trm128">premises</term> other than a part designed for the purpose and set aside in terms of section 15 (b) or heats any liquid in a bedroom by means of a device which involves a naked flame;</p>
+              </item>
+              <item id="section-16.paragraph-0.list1.d">
+                <num>(d)</num>
+                <p>lights a fire on the <term refersTo="#term-premises" id="trm129">premises</term> otherwise than in a stove or other device or installation designed for the purpose;(e) sleeps in any part of the <term refersTo="#term-premises" id="trm130">premises</term> other than a bedroom assigned to him for that purpose or occupies or uses any part of the <term refersTo="#term-premises" id="trm131">premises</term> for a purpose other than that for which it was designed;</p>
+              </item>
+              <item id="section-16.paragraph-0.list1.f">
+                <num>(f)</num>
+                <p>throws or discards any object onto adjoining property or urinates in view of the public or a public place;</p>
+              </item>
+              <item id="section-16.paragraph-0.list1.g">
+                <num>(g)</num>
+                <p>creates any disturbance of the peace on the <term refersTo="#term-premises" id="trm132">premises</term>;</p>
+              </item>
+              <item id="section-16.paragraph-0.list1.h">
+                <num>(h)</num>
+                <p>refuses to leave the <term refersTo="#term-premises" id="trm133">premises</term> when lawfully required to do so in terms of the certificate referred to in section 10.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-17">
+        <num>17.</num>
+        <heading>Presumptions</heading>
+        <paragraph id="section-17.paragraph-0">
+          <content>
+            <blockList id="section-17.paragraph-0.list1">
+              <listIntroduction>For the purposes of these By-laws—</listIntroduction>
+              <item id="section-17.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>a person shall be held to have caused, allowed or permitted an act to be performed, an event to happen or a situation to arise if he fails to take reasonable steps to prevent it; and</p>
+              </item>
+              <item id="section-17.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>where a <term refersTo="#term-responsible_person" id="trm134">responsible person</term> has by act or omission committed an offence under these By-laws the certificate holder shall, notwithstanding proof to the effect that he gave instructions to the manager or <term refersTo="#term-responsible_person" id="trm135">responsible person</term>, as the case may be, aimed at preventing the commission of the offence, also be guilty of that offence unless he proves to the satisfaction of the court that he took all reasonable steps to prevent its commission.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-18">
+        <num>18.</num>
+        <heading>Offences and penalties</heading>
+        <subsection id="section-18.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-18.1.list1">
+              <listIntroduction>Any person who—</listIntroduction>
+              <item id="section-18.1.list1.a">
+                <num>(a)</num>
+                <p>contravenes any provision of these By-laws or commits any offence thereunder; or</p>
+              </item>
+              <item id="section-18.1.list1.b">
+                <num>(b)</num>
+                <p>contravenes any limitations, restrictions, terms and conditions imposed upon the granting of any application, approval, authority, concession, consent, relaxation or permit in terms of these By-laws; or</p>
+              </item>
+              <item id="section-18.1.list1.c">
+                <num>(c)</num>
+                <p>fails to comply with the terms of any notice served upon him in terms of these By-laws;</p>
+              </item>
+            </blockList>
+            <p>shall be guilty of an offence for which the penalties provided for by section 266 (7) (a) of <term refersTo="#term-the_Ordinance" id="trm136">the Ordinance</term> are hereby prescribed.</p>
+          </content>
+        </subsection>
+        <subsection id="section-18.2">
+          <num>(2)</num>
+          <content>
+            <p>Breach of section 2 (1) and failure to comply with the terms of any limitation, restriction, term, condition or notice referred to in subsection (1) (b) or (c) above shall constitute a separate offence committed on each day during which such contravention or failure continues for which a separate penalty may be imposed in respect of each such offence.</p>
+          </content>
+        </subsection>
+        <subsection id="section-18.3">
+          <num>(3)</num>
+          <content>
+            <p>A court may when convicting and sentencing a certificate holder or a <term refersTo="#term-responsible_person" id="trm137">responsible person</term> for an offence under these By-laws in the circumstances described in section 7 (1) order that the registration of the business in terms of section 3 in respect of the <term refersTo="#term-accommodation_establishment" id="trm138">accommodation establishment</term> in relation to which the offence was committed be cancelled, whereupon the certificate issued in terms of section 3 (6) shall automatically cease to be valid.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

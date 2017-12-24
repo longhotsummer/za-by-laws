@@ -1,5 +1,5 @@
 <akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
-  <act contains="originalVersion">
+  <act contains="singleVersion">
     <meta>
       <identification source="#slaw">
         <FRBRWork>
@@ -11,21 +11,25 @@
           <FRBRcountry value="za"/>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/za-eth/act/by-law/2015/property-rates/eng@2015-08-27/main"/>
-          <FRBRuri value="/za-eth/act/by-law/2015/property-rates/eng@2015-08-27"/>
-          <FRBRdate date="2015-08-27" name="Generation"/>
+          <FRBRthis value="/za-eth/act/by-law/2015/property-rates/eng@2017-02-03/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2015/property-rates/eng@2017-02-03"/>
+          <FRBRdate date="2017-02-03" name="Generation"/>
           <FRBRauthor href="#council"/>
           <FRBRlanguage language="eng"/>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/za-eth/act/by-law/2015/property-rates/eng@2015-08-27/main"/>
-          <FRBRuri value="/za-eth/act/by-law/2015/property-rates/eng@2015-08-27"/>
+          <FRBRthis value="/za-eth/act/by-law/2015/property-rates/eng@2017-02-03/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2015/property-rates/eng@2017-02-03"/>
           <FRBRdate date="2017-12-18" name="Generation"/>
           <FRBRauthor href="#slaw"/>
         </FRBRManifestation>
       </identification>
       <publication date="2015-08-27" name="KwaZulu-Natal Provincial Gazette" showAs="KwaZulu-Natal Provincial Gazette" number="1481"/>
+      <lifecycle source="#OpenByLaws-org-za">
+        <eventRef id="amendment-2017-02-03" date="2017-02-03" type="amendment" source="#amendment-0-source"/>
+      </lifecycle>
       <references source="#this">
+        <TLCOrganization id="OpenByLaws-org-za" href="https://indigo.openbylaws.org.za" showAs="OpenByLaws.org.za"/>
         <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
         <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
         <TLCTerm id="term-account" href="/ontology/term/this.eng.account" showAs="account"/>
@@ -59,6 +63,7 @@
         <TLCTerm id="term-Rates_Policy" href="/ontology/term/this.eng.Rates_Policy" showAs="Rates Policy"/>
         <TLCTerm id="term-Systems_Act" href="/ontology/term/this.eng.Systems_Act" showAs="Systems Act"/>
         <TLCTerm id="term-valuation_roll" href="/ontology/term/this.eng.valuation_roll" showAs="valuation roll"/>
+        <passiveRef id="amendment-0-source" href="/za-eth/act/by-law/2017/property-rates-amendment" showAs="eThekwini Municipality: Property Rates Amendment By-law, 2016"/>
       </references>
     </meta>
     <preface>
@@ -316,39 +321,43 @@
                 </item>
                 <item id="section-1.paragraph-0.list32.xiii">
                   <num>(xiii)</num>
-                  <p>where the <term refersTo="#term-property" id="trm93">property</term> was previously governed by the Black Estates Act, and the estate has not yet been finalised, the occupants of the <term refersTo="#term-property" id="trm94">property</term> concerned but only for the purposes of municipal accounts in respect of <term refersTo="#term-rates" id="trm95">rates</term> and service charges; and</p>
+                  <p>where the <term refersTo="#term-property" id="trm93">property</term> was previously governed by the Black Estates Act, and the estate has not yet been finalised, the occupants of the <term refersTo="#term-property" id="trm94">property</term> concerned but only for the purposes of municipal accounts in respect of <term refersTo="#term-rates" id="trm95">rates</term> and service charges;</p>
                 </item>
                 <item id="section-1.paragraph-0.list32.xiv">
                   <num>(xiv)</num>
-                  <p>a lessee, in the case of <term refersTo="#term-property" id="trm96">property</term> to which a <term refersTo="#term-land" id="trm97">land</term> tenure right applies and which is leased by the holder of such right;</p>
+                  <p>a lessee, in the case of <term refersTo="#term-property" id="trm96">property</term> to which a <term refersTo="#term-land" id="trm97">land</term> tenure right applies and which is leased by the holder of such right; and</p>
+                </item>
+                <item id="section-1.paragraph-0.list32.xv">
+                  <num>(xv)</num>
+                  <p>any <term refersTo="#term-person" id="trm98">person</term> defined as an <term refersTo="#term-owner" id="trm99">owner</term> in terms of the <term refersTo="#term-Rates_Policy" id="trm100">Rates Policy</term>;</p>
                 </item>
               </blockList>
-              <p>"<def refersTo="#term-person">person</def>" means a natural or juristic <term refersTo="#term-person" id="trm98">person</term>, including an organ of state;</p>
+              <p>"<def refersTo="#term-person">person</def>" means a natural or juristic <term refersTo="#term-person" id="trm101">person</term>, including an organ of state;</p>
               <blockList id="section-1.paragraph-0.list35" refersTo="#term-property">
                 <listIntroduction>"<def refersTo="#term-property">property</def>" means –</listIntroduction>
                 <item id="section-1.paragraph-0.list35.a">
                   <num>(a)</num>
-                  <p>immovable <term refersTo="#term-property" id="trm99">property</term> registered in the name of a <term refersTo="#term-person" id="trm100">person</term>, including, in the case of a sectional title scheme, a sectional title unit registered in the name of a <term refersTo="#term-person" id="trm101">person</term>;</p>
+                  <p>immovable <term refersTo="#term-property" id="trm102">property</term> registered in the name of a <term refersTo="#term-person" id="trm103">person</term>, including, in the case of a sectional title scheme, a sectional title unit registered in the name of a <term refersTo="#term-person" id="trm104">person</term>;</p>
                 </item>
                 <item id="section-1.paragraph-0.list35.b">
                   <num>(b)</num>
-                  <p>a right registered against immovable <term refersTo="#term-property" id="trm102">property</term> in the name of a <term refersTo="#term-person" id="trm103">person</term>;</p>
+                  <p>a right registered against immovable <term refersTo="#term-property" id="trm105">property</term> in the name of a <term refersTo="#term-person" id="trm106">person</term>;</p>
                 </item>
                 <item id="section-1.paragraph-0.list35.c">
                   <num>(c)</num>
-                  <p>a <term refersTo="#term-land" id="trm104">land</term> tenure right registered in the name of a <term refersTo="#term-person" id="trm105">person</term> or granted to a <term refersTo="#term-person" id="trm106">person</term> in terms of legislation;</p>
+                  <p>a <term refersTo="#term-land" id="trm107">land</term> tenure right registered in the name of a <term refersTo="#term-person" id="trm108">person</term> or granted to a <term refersTo="#term-person" id="trm109">person</term> in terms of legislation;</p>
                 </item>
                 <item id="section-1.paragraph-0.list35.d">
                   <num>(d)</num>
-                  <p><term refersTo="#term-public_service_infrastructure" id="trm107">public service infrastructure</term>; or</p>
+                  <p><term refersTo="#term-public_service_infrastructure" id="trm110">public service infrastructure</term>; or</p>
                 </item>
                 <item id="section-1.paragraph-0.list35.e">
                   <num>(e)</num>
-                  <p>any immovable <term refersTo="#term-property" id="trm108">property</term> or a portion thereof of which a <term refersTo="#term-person" id="trm109">person</term> has taken occupation or possession without title: Provided that this in no way infers the granting of permission or the regularisation by the <term refersTo="#term-Municipality" id="trm110">Municipality</term> for the illegal occupation of <term refersTo="#term-land" id="trm111">land</term> or <term refersTo="#term-property" id="trm112">property</term> by any <term refersTo="#term-person" id="trm113">person</term>;</p>
+                  <p>any immovable <term refersTo="#term-property" id="trm111">property</term> or a portion thereof of which a <term refersTo="#term-person" id="trm112">person</term> has taken occupation or possession without title: Provided that this in no way infers the granting of permission or the regularisation by the <term refersTo="#term-Municipality" id="trm113">Municipality</term> for the illegal occupation of <term refersTo="#term-land" id="trm114">land</term> or <term refersTo="#term-property" id="trm115">property</term> by any <term refersTo="#term-person" id="trm116">person</term>;</p>
                 </item>
               </blockList>
-              <p>"<def refersTo="#term-public_holiday">public holiday</def>" means a <term refersTo="#term-public_holiday" id="trm114">public holiday</term> as defined in section 1 of the Public Holidays Act, 1994 (<ref href="/za/act/1994/36">Act No. 36 of 1994</ref>);</p>
-              <p>"<def refersTo="#term-public_service_infrastructure">public service infrastructure</def>" means <term refersTo="#term-publicly_controlled" id="trm115">publicly controlled</term> infrastructure as defined in section 1 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm116">Municipal Property Rates Act</term>, excluding any infrastructure which is used for an activity of a commercial or industrial nature;</p>
+              <p>"<def refersTo="#term-public_holiday">public holiday</def>" means a <term refersTo="#term-public_holiday" id="trm117">public holiday</term> as defined in section 1 of the Public Holidays Act, 1994 (<ref href="/za/act/1994/36">Act No. 36 of 1994</ref>);</p>
+              <p>"<def refersTo="#term-public_service_infrastructure">public service infrastructure</def>" means <term refersTo="#term-publicly_controlled" id="trm118">publicly controlled</term> infrastructure as defined in section 1 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm119">Municipal Property Rates Act</term>, excluding any infrastructure which is used for an activity of a commercial or industrial nature;</p>
               <blockList id="section-1.paragraph-0.list39" refersTo="#term-publicly_controlled">
                 <listIntroduction>"<def refersTo="#term-publicly_controlled">publicly controlled</def>" means owned by or otherwise under the control of an organ of state, including a –</listIntroduction>
                 <item id="section-1.paragraph-0.list39.a">
@@ -361,14 +370,14 @@
                 </item>
                 <item id="section-1.paragraph-0.list39.c">
                   <num>(c)</num>
-                  <p>municipal entity as defined in the <term refersTo="#term-Systems_Act" id="trm117">Systems Act</term>;</p>
+                  <p>municipal entity as defined in the <term refersTo="#term-Systems_Act" id="trm120">Systems Act</term>;</p>
                 </item>
               </blockList>
-              <p>"<def refersTo="#term-rate_randage">rate randage</def>" means an amount in the rand levied by the <term refersTo="#term-Municipality" id="trm118">Municipality</term> on rateable <term refersTo="#term-property" id="trm119">property</term> within a specified <term refersTo="#term-category" id="trm120">category</term>;</p>
-              <p>"<def refersTo="#term-rates">rates</def>" means a municipal rate on <term refersTo="#term-property" id="trm121">property</term> envisaged in section 229(1)(a) of the <term refersTo="#term-Constitution" id="trm122">Constitution</term> and levied by the <term refersTo="#term-Municipality" id="trm123">Municipality</term> in terms of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm124">Municipal Property Rates Act</term>;</p>
-              <p>"<def refersTo="#term-Rates_Policy">Rates Policy</def>" means the <term refersTo="#term-Rates_Policy" id="trm125">Rates Policy</term> adopted by the <term refersTo="#term-Council" id="trm126">Council</term> in terms of section 3 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm127">Municipal Property Rates Act</term>, as amended from time to time;</p>
-              <p>"<def refersTo="#term-Systems_Act">Systems Act</def>" means the Local Government: Municipal <term refersTo="#term-Systems_Act" id="trm128">Systems Act</term>, 2000 (<ref href="/za/act/2000/32">Act No. 32 of 2000</ref>); and</p>
-              <p>"<def refersTo="#term-valuation_roll">valuation roll</def>" means a <term refersTo="#term-valuation_roll" id="trm129">valuation roll</term> contemplated in Chapter 6 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm130">Municipal Property Rates Act</term>, and “roll” has a corresponding meaning.</p>
+              <p>"<def refersTo="#term-rate_randage">rate randage</def>" means an amount in the rand levied by the <term refersTo="#term-Municipality" id="trm121">Municipality</term> on rateable <term refersTo="#term-property" id="trm122">property</term> within a specified <term refersTo="#term-category" id="trm123">category</term>;</p>
+              <p>"<def refersTo="#term-rates">rates</def>" means a municipal rate on <term refersTo="#term-property" id="trm124">property</term> envisaged in section 229(1)(a) of the <term refersTo="#term-Constitution" id="trm125">Constitution</term> and levied by the <term refersTo="#term-Municipality" id="trm126">Municipality</term> in terms of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm127">Municipal Property Rates Act</term>;</p>
+              <p>"<def refersTo="#term-Rates_Policy">Rates Policy</def>" means the <term refersTo="#term-Rates_Policy" id="trm128">Rates Policy</term> adopted by the <term refersTo="#term-Council" id="trm129">Council</term> in terms of section 3 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm130">Municipal Property Rates Act</term>, as amended from time to time;</p>
+              <p>"<def refersTo="#term-Systems_Act">Systems Act</def>" means the Local Government: Municipal <term refersTo="#term-Systems_Act" id="trm131">Systems Act</term>, 2000 (<ref href="/za/act/2000/32">Act No. 32 of 2000</ref>); and</p>
+              <p>"<def refersTo="#term-valuation_roll">valuation roll</def>" means a <term refersTo="#term-valuation_roll" id="trm132">valuation roll</term> contemplated in Chapter 6 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm133">Municipal Property Rates Act</term>, and “roll” has a corresponding meaning.</p>
             </content>
           </paragraph>
         </section>
@@ -384,7 +393,7 @@
           <subsection id="section-2.2">
             <num>(2)</num>
             <content>
-              <p>This By-law must be read in conjunction with the <term refersTo="#term-Rates_Policy" id="trm131">Rates Policy</term>.</p>
+              <p>This By-law must be read in conjunction with the <term refersTo="#term-Rates_Policy" id="trm134">Rates Policy</term>.</p>
             </content>
           </subsection>
         </section>
@@ -397,11 +406,11 @@
                 <listIntroduction>The objects of this By-law are to –</listIntroduction>
                 <item id="section-3.paragraph-0.list1.a">
                   <num>(a)</num>
-                  <p>give effect to the implementation of the <term refersTo="#term-Municipality" id="trm132">Municipality</term>'s <term refersTo="#term-Rates_Policy" id="trm133">Rates Policy</term> in compliance with the provisions of section 6 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm134">Municipal Property Rates Act</term>;</p>
+                  <p>give effect to the implementation of the <term refersTo="#term-Municipality" id="trm135">Municipality</term>'s <term refersTo="#term-Rates_Policy" id="trm136">Rates Policy</term> in compliance with the provisions of section 6 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm137">Municipal Property Rates Act</term>;</p>
                 </item>
                 <item id="section-3.paragraph-0.list1.b">
                   <num>(b)</num>
-                  <p>provide for the levying and recovery of <term refersTo="#term-rates" id="trm135">rates</term> by the <term refersTo="#term-Municipality" id="trm136">Municipality</term>; and</p>
+                  <p>provide for the levying and recovery of <term refersTo="#term-rates" id="trm138">rates</term> by the <term refersTo="#term-Municipality" id="trm139">Municipality</term>; and</p>
                 </item>
                 <item id="section-3.paragraph-0.list1.c">
                   <num>(c)</num>
@@ -416,25 +425,25 @@
           <heading>Application of By-law</heading>
           <paragraph id="section-4.paragraph-0">
             <content>
-              <p>This By-law applies in respect of all <term refersTo="#term-property" id="trm137">property</term> in the <term refersTo="#term-Municipality" id="trm138">Municipality</term>'s area of jurisdiction.</p>
+              <p>This By-law applies in respect of all <term refersTo="#term-property" id="trm140">property</term> in the <term refersTo="#term-Municipality" id="trm141">Municipality</term>'s area of jurisdiction.</p>
             </content>
           </paragraph>
         </section>
       </chapter>
       <chapter id="chapter-2">
         <num>2</num>
-        <heading>Levying of <term refersTo="#term-rates" id="trm139">rates</term></heading>
+        <heading>Levying of <term refersTo="#term-rates" id="trm142">rates</term></heading>
         <section id="section-5">
           <num>5.</num>
-          <heading>Power to levy <term refersTo="#term-rates" id="trm140">rates</term></heading>
+          <heading>Power to levy <term refersTo="#term-rates" id="trm143">rates</term></heading>
           <subsection id="section-5.1">
             <num>(1)</num>
             <content>
               <blockList id="section-5.1.list1">
-                <listIntroduction>The <term refersTo="#term-Council" id="trm141">Council</term> may, by resolution supported by a majority of its members, exercise the right of the <term refersTo="#term-Municipality" id="trm142">Municipality</term> to levy a rate on <term refersTo="#term-property" id="trm143">property</term> in its area of jurisdiction under section 229 of the <term refersTo="#term-Constitution" id="trm144">Constitution</term> in accordance with –</listIntroduction>
+                <listIntroduction>The <term refersTo="#term-Council" id="trm144">Council</term> may, by resolution supported by a majority of its members, exercise the right of the <term refersTo="#term-Municipality" id="trm145">Municipality</term> to levy a rate on <term refersTo="#term-property" id="trm146">property</term> in its area of jurisdiction under section 229 of the <term refersTo="#term-Constitution" id="trm147">Constitution</term> in accordance with –</listIntroduction>
                 <item id="section-5.1.list1.a">
                   <num>(a)</num>
-                  <p>the <term refersTo="#term-Rates_Policy" id="trm145">Rates Policy</term>;</p>
+                  <p>the <term refersTo="#term-Rates_Policy" id="trm148">Rates Policy</term>;</p>
                 </item>
                 <item id="section-5.1.list1.b">
                   <num>(b)</num>
@@ -442,11 +451,11 @@
                 </item>
                 <item id="section-5.1.list1.c">
                   <num>(c)</num>
-                  <p>the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm146">Municipal Property Rates Act</term>;</p>
+                  <p>the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm149">Municipal Property Rates Act</term>;</p>
                 </item>
                 <item id="section-5.1.list1.d">
                   <num>(d)</num>
-                  <p>the provisions of Chapter 4 of the <term refersTo="#term-Municipal_Finance_Management_Act" id="trm147">Municipal Finance Management Act</term>; and</p>
+                  <p>the provisions of Chapter 4 of the <term refersTo="#term-Municipal_Finance_Management_Act" id="trm150">Municipal Finance Management Act</term>; and</p>
                 </item>
                 <item id="section-5.1.list1.e">
                   <num>(e)</num>
@@ -458,37 +467,37 @@
           <subsection id="section-5.2">
             <num>(2)</num>
             <content>
-              <p>When levying <term refersTo="#term-rates" id="trm148">rates</term>, the <term refersTo="#term-Municipality" id="trm149">Municipality</term> must levy <term refersTo="#term-rates" id="trm150">rates</term> on all rateable <term refersTo="#term-property" id="trm151">property</term> in its area of jurisdiction, subject to section 7(2)(a) of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm152">Municipal Property Rates Act</term>.</p>
+              <p>When levying <term refersTo="#term-rates" id="trm151">rates</term>, the <term refersTo="#term-Municipality" id="trm152">Municipality</term> must levy <term refersTo="#term-rates" id="trm153">rates</term> on all rateable <term refersTo="#term-property" id="trm154">property</term> in its area of jurisdiction, subject to section 7(2)(a) of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm155">Municipal Property Rates Act</term>.</p>
             </content>
           </subsection>
           <subsection id="section-5.3">
             <num>(3)</num>
             <content>
-              <p>A rate levied by the <term refersTo="#term-Municipality" id="trm153">Municipality</term> on rateable <term refersTo="#term-property" id="trm154">property</term> must be in the form of a <term refersTo="#term-rate_randage" id="trm155">rate randage</term> on the market value of the <term refersTo="#term-property" id="trm156">property</term>, with the exception of privileged <term refersTo="#term-property" id="trm157">property</term> where the rate must be levied in accordance with the provisions of section 11(1)(b) or (c) of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm158">Municipal Property Rates Act</term>, as the case may be.</p>
+              <p>A rate levied by the <term refersTo="#term-Municipality" id="trm156">Municipality</term> on rateable <term refersTo="#term-property" id="trm157">property</term> must be in the form of a <term refersTo="#term-rate_randage" id="trm158">rate randage</term> on the market value of the <term refersTo="#term-property" id="trm159">property</term>, with the exception of privileged <term refersTo="#term-property" id="trm160">property</term> where the rate must be levied in accordance with the provisions of section 11(1)(b) or (c) of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm161">Municipal Property Rates Act</term>, as the case may be.</p>
             </content>
           </subsection>
           <subsection id="section-5.4">
             <num>(4)</num>
             <content>
-              <p>Where a resolution for the levying of <term refersTo="#term-rates" id="trm159">rates</term> and the imposition of other taxes, levies and duties is adopted by the <term refersTo="#term-Council" id="trm160">Council</term>, the <term refersTo="#term-Municipality" id="trm161">Municipality</term> must, without delay, publish the resolution concerned in the manner prescribed under section 14 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm162">Municipal Property Rates Act</term>, read with section 21A of the <term refersTo="#term-Systems_Act" id="trm163">Systems Act</term>.</p>
+              <p>Where a resolution for the levying of <term refersTo="#term-rates" id="trm162">rates</term> and the imposition of other taxes, levies and duties is adopted by the <term refersTo="#term-Council" id="trm163">Council</term>, the <term refersTo="#term-Municipality" id="trm164">Municipality</term> must, without delay, publish the resolution concerned in the manner prescribed under section 14 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm165">Municipal Property Rates Act</term>, read with section 21A of the <term refersTo="#term-Systems_Act" id="trm166">Systems Act</term>.</p>
             </content>
           </subsection>
         </section>
         <section id="section-6">
           <num>6.</num>
-          <heading>Differential <term refersTo="#term-rates" id="trm164">rates</term></heading>
+          <heading>Differential <term refersTo="#term-rates" id="trm167">rates</term></heading>
           <subsection id="section-6.1">
             <num>(1)</num>
             <content>
               <blockList id="section-6.1.list1">
-                <listIntroduction>Subject to section 19 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm165">Municipal Property Rates Act</term>, the <term refersTo="#term-Municipality" id="trm166">Municipality</term> may, in terms of the criteria set out in the <term refersTo="#term-Rates_Policy" id="trm167">Rates Policy</term>, levy different <term refersTo="#term-rates" id="trm168">rates</term> for different categories of rateable <term refersTo="#term-property" id="trm169">property</term>, which may include but are not limited to categories determined according to the –</listIntroduction>
+                <listIntroduction>Subject to section 19 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm168">Municipal Property Rates Act</term>, the <term refersTo="#term-Municipality" id="trm169">Municipality</term> may, in terms of the criteria set out in the <term refersTo="#term-Rates_Policy" id="trm170">Rates Policy</term>, levy different <term refersTo="#term-rates" id="trm171">rates</term> for different categories of rateable <term refersTo="#term-property" id="trm172">property</term>, which may include but are not limited to categories determined according to the –</listIntroduction>
                 <item id="section-6.1.list1.a">
                   <num>(a)</num>
-                  <p>use of the <term refersTo="#term-property" id="trm170">property</term>;</p>
+                  <p>use of the <term refersTo="#term-property" id="trm173">property</term>;</p>
                 </item>
                 <item id="section-6.1.list1.b">
                   <num>(b)</num>
-                  <p>permitted use of the <term refersTo="#term-property" id="trm171">property</term>; or</p>
+                  <p>permitted use of the <term refersTo="#term-property" id="trm174">property</term>; or</p>
                 </item>
                 <item id="section-6.1.list1.c">
                   <num>(c)</num>
@@ -500,19 +509,19 @@
           <subsection id="section-6.2">
             <num>(2)</num>
             <content>
-              <p>The different rate randages on different categories of rateable <term refersTo="#term-property" id="trm172">property</term> must not be applied in such a manner that they constitute unfair discrimination or become inconsistent with the provisions of section 16(1) of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm173">Municipal Property Rates Act</term>.</p>
+              <p>The different rate randages on different categories of rateable <term refersTo="#term-property" id="trm175">property</term> must not be applied in such a manner that they constitute unfair discrimination or become inconsistent with the provisions of section 16(1) of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm176">Municipal Property Rates Act</term>.</p>
             </content>
           </subsection>
           <subsection id="section-6.3">
             <num>(3)</num>
             <content>
-              <p>The <term refersTo="#term-Municipality" id="trm174">Municipality</term> may in terms of criteria set out in the <term refersTo="#term-Rates_Policy" id="trm175">Rates Policy</term> grant exemptions, rebates or reductions on <term refersTo="#term-rates" id="trm176">rates</term>: Provided that such exemptions, rebates or reductions may not be inconsistent with the provisions of section 16(1) of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm177">Municipal Property Rates Act</term> or constitute unfair discrimination.</p>
+              <p>The <term refersTo="#term-Municipality" id="trm177">Municipality</term> may in terms of criteria set out in the <term refersTo="#term-Rates_Policy" id="trm178">Rates Policy</term> grant exemptions, rebates or reductions on <term refersTo="#term-rates" id="trm179">rates</term>: Provided that such exemptions, rebates or reductions may not be inconsistent with the provisions of section 16(1) of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm180">Municipal Property Rates Act</term> or constitute unfair discrimination.</p>
             </content>
           </subsection>
           <subsection id="section-6.4">
             <num>(4)</num>
             <content>
-              <p>A <term refersTo="#term-property" id="trm178">property</term> used for multiple purposes must, for <term refersTo="#term-rates" id="trm179">rates</term> purposes, be assigned to a <term refersTo="#term-category" id="trm180">category</term> determined by the <term refersTo="#term-Municipality" id="trm181">Municipality</term> for its dominant use as defined in the <term refersTo="#term-Rates_Policy" id="trm182">Rates Policy</term>.</p>
+              <p>A <term refersTo="#term-property" id="trm181">property</term> used for multiple purposes must, for <term refersTo="#term-rates" id="trm182">rates</term> purposes, be assigned to a <term refersTo="#term-category" id="trm183">category</term> determined by the <term refersTo="#term-Municipality" id="trm184">Municipality</term> in terms of its <term refersTo="#term-Rates_Policy" id="trm185">Rates Policy</term>, read together with section 9 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm186">Municipal Property Rates Act</term>.</p>
             </content>
           </subsection>
         </section>
@@ -523,14 +532,14 @@
             <num>(1)</num>
             <content>
               <blockList id="section-7.1.list1">
-                <listIntroduction>Subject to due compliance with the provisions of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm183">Municipal Property Rates Act</term> and the <term refersTo="#term-Rates_Policy" id="trm184">Rates Policy</term>, the <term refersTo="#term-Municipality" id="trm185">Municipality</term> may, by resolution of the <term refersTo="#term-Council" id="trm186">Council</term>, enter into an agreement with any <term refersTo="#term-person" id="trm187">person</term> or group of persons on such terms and conditions as the <term refersTo="#term-Municipality" id="trm188">Municipality</term> may deem appropriate, to –</listIntroduction>
+                <listIntroduction>Subject to due compliance with the provisions of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm187">Municipal Property Rates Act</term> and the <term refersTo="#term-Rates_Policy" id="trm188">Rates Policy</term>, the <term refersTo="#term-Municipality" id="trm189">Municipality</term> may, by resolution of the <term refersTo="#term-Council" id="trm190">Council</term>, enter into an agreement with any <term refersTo="#term-person" id="trm191">person</term> or group of persons on such terms and conditions as the <term refersTo="#term-Municipality" id="trm192">Municipality</term> may deem appropriate, to –</listIntroduction>
                 <item id="section-7.1.list1.a">
                   <num>(a)</num>
-                  <p>determine an area within the <term refersTo="#term-Municipality" id="trm189">Municipality</term> as a special rating area, subject to the <term refersTo="#term-Municipality" id="trm190">Municipality</term> being satisfied that the terms and conditions of the resultant agreement are acceptable to the general body of ratepayers in the area concerned;</p>
+                  <p>determine an area within the <term refersTo="#term-Municipality" id="trm193">Municipality</term> as a special rating area, subject to the <term refersTo="#term-Municipality" id="trm194">Municipality</term> being satisfied that the terms and conditions of the resultant agreement are acceptable to the general body of ratepayers in the area concerned;</p>
                 </item>
                 <item id="section-7.1.list1.b">
                   <num>(b)</num>
-                  <p>levy by way of a percentage surcharge an additional rate on <term refersTo="#term-property" id="trm191">property</term> in that area for the purpose of raising funds exclusively for improving or upgrading that area; and</p>
+                  <p>levy by way of a percentage surcharge an additional rate on <term refersTo="#term-property" id="trm195">property</term> in that area for the purpose of raising funds exclusively for improving or upgrading that area; and</p>
                 </item>
                 <item id="section-7.1.list1.c">
                   <num>(c)</num>
@@ -543,7 +552,7 @@
             <num>(2)</num>
             <content>
               <blockList id="section-7.2.list1">
-                <listIntroduction>When the <term refersTo="#term-Council" id="trm192">Council</term> designates an area a special rating area, the <term refersTo="#term-Municipality" id="trm193">Municipality</term> must –</listIntroduction>
+                <listIntroduction>When the <term refersTo="#term-Council" id="trm196">Council</term> designates an area a special rating area, the <term refersTo="#term-Municipality" id="trm197">Municipality</term> must –</listIntroduction>
                 <item id="section-7.2.list1.a">
                   <num>(a)</num>
                   <p>indicate the works to be effected or the municipal services to be carried out in such special rating area; and</p>
@@ -562,19 +571,19 @@
           <subsection id="section-8.1">
             <num>(1)</num>
             <content>
-              <p>The register of properties drawn and maintained by the <term refersTo="#term-Municipality" id="trm194">Municipality</term> in terms of section 23 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm195">Municipal Property Rates Act</term> serves the purpose of a <term refersTo="#term-valuation_roll" id="trm196">valuation roll</term> as contemplated in Chapter 6 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm197">Municipal Property Rates Act</term>.</p>
+              <p>The register of properties drawn and maintained by the <term refersTo="#term-Municipality" id="trm198">Municipality</term> in terms of section 23 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm199">Municipal Property Rates Act</term> serves the purpose of a <term refersTo="#term-valuation_roll" id="trm200">valuation roll</term> as contemplated in Chapter 6 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm201">Municipal Property Rates Act</term>.</p>
             </content>
           </subsection>
           <subsection id="section-8.2">
             <num>(2)</num>
             <content>
-              <p>The register must be available for public inspection during office hours at the address supplied by the <term refersTo="#term-Municipality" id="trm198">Municipality</term> for that purpose, and must also be displayed on the official website of the <term refersTo="#term-Municipality" id="trm199">Municipality</term>.</p>
+              <p>The register must be available for public inspection during office hours at the address supplied by the <term refersTo="#term-Municipality" id="trm202">Municipality</term> for that purpose, and must also be displayed on the official website of the <term refersTo="#term-Municipality" id="trm203">Municipality</term>.</p>
             </content>
           </subsection>
           <subsection id="section-8.3">
             <num>(3)</num>
             <content>
-              <p>The <term refersTo="#term-Municipality" id="trm200">Municipality</term> must review the register at least annually and update Part A and Part B thereof in accordance with the provisions of section 23(5) of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm201">Municipal Property Rates Act</term>.</p>
+              <p>The <term refersTo="#term-Municipality" id="trm204">Municipality</term> must review the register at least annually and update Part A and Part B thereof in accordance with the provisions of section 23(5) of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm205">Municipal Property Rates Act</term>.</p>
             </content>
           </subsection>
         </section>
@@ -584,44 +593,44 @@
         <heading>Valuation rolls</heading>
         <section id="section-9">
           <num>9.</num>
-          <heading>Contents of <term refersTo="#term-valuation_roll" id="trm202">valuation roll</term></heading>
+          <heading>Contents of <term refersTo="#term-valuation_roll" id="trm206">valuation roll</term></heading>
           <subsection id="section-9.1">
             <num>(1)</num>
             <content>
-              <p>A <term refersTo="#term-valuation_roll" id="trm203">valuation roll</term> must list all properties in the <term refersTo="#term-Municipality" id="trm204">Municipality</term> determined in terms of section 30(3) of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm205">Municipal Property Rates Act</term>, and subject to the proviso stipulated in that section.</p>
+              <p>A <term refersTo="#term-valuation_roll" id="trm207">valuation roll</term> must list all properties in the <term refersTo="#term-Municipality" id="trm208">Municipality</term> determined in terms of section 30(3) of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm209">Municipal Property Rates Act</term>, and subject to the proviso stipulated in that section.</p>
             </content>
           </subsection>
           <subsection id="section-9.2">
             <num>(2)</num>
             <content>
-              <p>The <term refersTo="#term-valuation_roll" id="trm206">valuation roll</term> must reflect such particulars in respect of each <term refersTo="#term-property" id="trm207">property</term> as indicated in section 48(2) of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm208">Municipal Property Rates Act</term> to the extent that such information is available to, or reasonably determinable by, the <term refersTo="#term-Municipality" id="trm209">Municipality</term>.</p>
+              <p>The <term refersTo="#term-valuation_roll" id="trm210">valuation roll</term> must reflect such particulars in respect of each <term refersTo="#term-property" id="trm211">property</term> as indicated in section 48(2) of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm212">Municipal Property Rates Act</term> to the extent that such information is available to, or reasonably determinable by, the <term refersTo="#term-Municipality" id="trm213">Municipality</term>.</p>
             </content>
           </subsection>
         </section>
         <section id="section-10">
           <num>10.</num>
-          <heading>Multiple entries in the <term refersTo="#term-valuation_roll" id="trm210">valuation roll</term></heading>
+          <heading>Multiple entries in the <term refersTo="#term-valuation_roll" id="trm214">valuation roll</term></heading>
           <subsection id="section-10.1">
             <num>(1)</num>
             <content>
-              <p>On application, unregistered long leases on <term refersTo="#term-land" id="trm211">land</term> owned by the State or a State Entity may, at the discretion of the <term refersTo="#term-Head_of_department" id="trm212">Head of department</term>, be valued and rated per lease boundary, the costs of which shall be borne by the Applicant.</p>
+              <p>On application, unregistered long leases on <term refersTo="#term-land" id="trm215">land</term> owned by the State or a State Entity may, at the discretion of the <term refersTo="#term-Head_of_department" id="trm216">Head of department</term>, be valued and rated per lease boundary, the costs of which shall be borne by the Applicant.</p>
             </content>
           </subsection>
           <subsection id="section-10.2">
             <num>(2)</num>
             <content>
-              <p>Notwithstanding such valuation and rating, the <term refersTo="#term-owner" id="trm213">owner</term> of the <term refersTo="#term-land" id="trm214">land</term> shall remain responsible for the <term refersTo="#term-rates" id="trm215">rates</term> on such <term refersTo="#term-land" id="trm216">land</term>.</p>
+              <p>Notwithstanding such valuation and rating, the <term refersTo="#term-owner" id="trm217">owner</term> of the <term refersTo="#term-land" id="trm218">land</term> shall remain responsible for the <term refersTo="#term-rates" id="trm219">rates</term> on such <term refersTo="#term-land" id="trm220">land</term>.</p>
             </content>
           </subsection>
         </section>
         <section id="section-11">
           <num>11.</num>
-          <heading>Publication and inspection of <term refersTo="#term-valuation_roll" id="trm217">valuation roll</term></heading>
+          <heading>Publication and inspection of <term refersTo="#term-valuation_roll" id="trm221">valuation roll</term></heading>
           <subsection id="section-11.1">
             <num>(1)</num>
             <content>
               <blockList id="section-11.1.list1">
-                <listIntroduction>The <term refersTo="#term-municipal_valuer" id="trm218">municipal valuer</term> must submit the certified <term refersTo="#term-valuation_roll" id="trm219">valuation roll</term> to the <term refersTo="#term-Municipal_Manager" id="trm220">Municipal Manager</term>, and the <term refersTo="#term-Municipal_Manager" id="trm221">Municipal Manager</term> must, within 21 days of receipt of the roll –</listIntroduction>
+                <listIntroduction>The <term refersTo="#term-municipal_valuer" id="trm222">municipal valuer</term> must submit the certified <term refersTo="#term-valuation_roll" id="trm223">valuation roll</term> to the <term refersTo="#term-Municipal_Manager" id="trm224">Municipal Manager</term>, and the <term refersTo="#term-Municipal_Manager" id="trm225">Municipal Manager</term> must, within 21 days of receipt of the roll –</listIntroduction>
                 <item id="section-11.1.list1.a">
                   <num>(a)</num>
                   <blockList id="section-11.1.list1.a.list0">
@@ -632,17 +641,17 @@
                     </item>
                     <item id="section-11.1.list1.a.list0.ii">
                       <num>(ii)</num>
-                      <p>inviting every <term refersTo="#term-person" id="trm222">person</term> who wishes to lodge an objection in respect of any matter in, or omitted from, the roll to do so in the prescribed manner within the stated period;</p>
+                      <p>inviting every <term refersTo="#term-person" id="trm226">person</term> who wishes to lodge an objection in respect of any matter in, or omitted from, the roll to do so in the prescribed manner within the stated period;</p>
                     </item>
                   </blockList>
                 </item>
                 <item id="section-11.1.list1.b">
                   <num>(b)</num>
-                  <p>disseminate the substance of the notice referred to in paragraph (a) to the local community in terms of Chapter 4 of the <term refersTo="#term-Systems_Act" id="trm223">Systems Act</term>; and</p>
+                  <p>disseminate the substance of the notice referred to in paragraph (a) to the local community in terms of Chapter 4 of the <term refersTo="#term-Systems_Act" id="trm227">Systems Act</term>; and</p>
                 </item>
                 <item id="section-11.1.list1.c">
                   <num>(c)</num>
-                  <p>serve, by ordinary mail or, if appropriate in accordance with section 115 of the Municipal <term refersTo="#term-Systems_Act" id="trm224">Systems Act</term>, on every <term refersTo="#term-owner" id="trm225">owner</term> of <term refersTo="#term-property" id="trm226">property</term> listed in the <term refersTo="#term-valuation_roll" id="trm227">valuation roll</term> a copy of the notice referred to in paragraph (a) together with an extract of the <term refersTo="#term-valuation_roll" id="trm228">valuation roll</term> pertaining to that owners <term refersTo="#term-property" id="trm229">property</term>.</p>
+                  <p>serve, by ordinary mail or, if appropriate in accordance with section 115 of the Municipal <term refersTo="#term-Systems_Act" id="trm228">Systems Act</term>, on every <term refersTo="#term-owner" id="trm229">owner</term> of <term refersTo="#term-property" id="trm230">property</term> listed in the <term refersTo="#term-valuation_roll" id="trm231">valuation roll</term> a copy of the notice referred to in paragraph (a) together with an extract of the <term refersTo="#term-valuation_roll" id="trm232">valuation roll</term> pertaining to that owners <term refersTo="#term-property" id="trm233">property</term>.</p>
                 </item>
               </blockList>
             </content>
@@ -651,18 +660,18 @@
             <num>(2)</num>
             <content>
               <blockList id="section-11.2.list1">
-                <listIntroduction>Any <term refersTo="#term-person" id="trm230">person</term>, including a municipal official, may, within the period stated in the notice referred to in subsection (1)(a) –</listIntroduction>
+                <listIntroduction>Any <term refersTo="#term-person" id="trm234">person</term>, including a municipal official, may, within the period stated in the notice referred to in subsection (1)(a) –</listIntroduction>
                 <item id="section-11.2.list1.a">
                   <num>(a)</num>
                   <p>inspect the roll during office hours;</p>
                 </item>
                 <item id="section-11.2.list1.b">
                   <num>(b)</num>
-                  <p>on payment of a fee prescribed by the <term refersTo="#term-Municipality" id="trm231">Municipality</term> in terms of the tariff as set out in the Tariff Policy, request the <term refersTo="#term-Municipality" id="trm232">Municipality</term> during office hours to make extracts from the roll; and</p>
+                  <p>on payment of a fee prescribed by the <term refersTo="#term-Municipality" id="trm235">Municipality</term> in terms of the tariff as set out in the Tariff Policy, request the <term refersTo="#term-Municipality" id="trm236">Municipality</term> during office hours to make extracts from the roll; and</p>
                 </item>
                 <item id="section-11.2.list1.c">
                   <num>(c)</num>
-                  <p>lodge an objection with the <term refersTo="#term-Municipal_Manager" id="trm233">Municipal Manager</term> against any matter reflected in, or omitted from, the roll.</p>
+                  <p>lodge an objection with the <term refersTo="#term-Municipal_Manager" id="trm237">Municipal Manager</term> against any matter reflected in, or omitted from, the roll.</p>
                 </item>
               </blockList>
             </content>
@@ -670,35 +679,35 @@
           <subsection id="section-11.3">
             <num>(3)</num>
             <content>
-              <p>The <term refersTo="#term-Municipal_Manager" id="trm234">Municipal Manager</term> may delegate to any municipal official he or she may deem appropriate the duty to assist an objector to lodge an objection if that objector is unable to read or write.</p>
+              <p>The <term refersTo="#term-Municipal_Manager" id="trm238">Municipal Manager</term> may delegate to any municipal official he or she may deem appropriate the duty to assist an objector to lodge an objection if that objector is unable to read or write.</p>
             </content>
           </subsection>
           <subsection id="section-11.4">
             <num>(4)</num>
             <content>
-              <p>The <term refersTo="#term-Municipal_Manager" id="trm235">Municipal Manager</term> must inform the <term refersTo="#term-Council" id="trm236">Council</term> of any matter reflected in, or omitted from, the roll that affects the interests of the <term refersTo="#term-Municipality" id="trm237">Municipality</term>.</p>
+              <p>The <term refersTo="#term-Municipal_Manager" id="trm239">Municipal Manager</term> must inform the <term refersTo="#term-Council" id="trm240">Council</term> of any matter reflected in, or omitted from, the roll that affects the interests of the <term refersTo="#term-Municipality" id="trm241">Municipality</term>.</p>
             </content>
           </subsection>
         </section>
         <section id="section-12">
           <num>12.</num>
-          <heading>Supplementary <term refersTo="#term-valuation_roll" id="trm238">valuation roll</term></heading>
+          <heading>Supplementary <term refersTo="#term-valuation_roll" id="trm242">valuation roll</term></heading>
           <subsection id="section-12.1">
             <num>(1)</num>
             <content>
-              <p>The <term refersTo="#term-Municipality" id="trm239">Municipality</term> must, whenever necessary, cause a supplementary <term refersTo="#term-valuation_roll" id="trm240">valuation roll</term> to be made or prepared in respect of any rateable <term refersTo="#term-property" id="trm241">property</term> due to any one or more of the reasons listed in section 78(1)(a) to (h) of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm242">Municipal Property Rates Act</term>.</p>
+              <p>The <term refersTo="#term-Municipality" id="trm243">Municipality</term> must, whenever necessary, cause a supplementary <term refersTo="#term-valuation_roll" id="trm244">valuation roll</term> to be made or prepared in respect of any rateable <term refersTo="#term-property" id="trm245">property</term> due to any one or more of the reasons listed in section 78(1)(a) to (h) of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm246">Municipal Property Rates Act</term>.</p>
             </content>
           </subsection>
           <subsection id="section-12.2">
             <num>(2)</num>
             <content>
-              <p>The question as to whether an exceptional reason exists to justify the revaluation of a <term refersTo="#term-property" id="trm243">property</term> in terms of section 78 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm244">Municipal Property Rates Act</term> is in the sole discretion of the <term refersTo="#term-Municipality" id="trm245">Municipality</term>.</p>
+              <p>The question as to whether an exceptional reason exists to justify the revaluation of a <term refersTo="#term-property" id="trm247">property</term> in terms of section 78 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm248">Municipal Property Rates Act</term> is in the sole discretion of the <term refersTo="#term-Municipality" id="trm249">Municipality</term>.</p>
             </content>
           </subsection>
           <subsection id="section-12.3">
             <num>(3)</num>
             <content>
-              <p>In the event of the market value of a rateable <term refersTo="#term-property" id="trm246">property</term> having substantially increased or decreased for any reason after the last general valuation thereof, the <term refersTo="#term-owner" id="trm247">owner</term> of the <term refersTo="#term-property" id="trm248">property</term> concerned must notify the <term refersTo="#term-Municipality" id="trm249">Municipality</term> in writing or in electronic format of the change in the market value of the <term refersTo="#term-property" id="trm250">property</term> concerned.</p>
+              <p>In the event of the market value of a rateable <term refersTo="#term-property" id="trm250">property</term> having substantially increased or decreased for any reason after the last general valuation thereof, the <term refersTo="#term-owner" id="trm251">owner</term> of the <term refersTo="#term-property" id="trm252">property</term> concerned must notify the <term refersTo="#term-Municipality" id="trm253">Municipality</term> in writing or in electronic format of the change in the market value of the <term refersTo="#term-property" id="trm254">property</term> concerned.</p>
             </content>
           </subsection>
         </section>
@@ -712,13 +721,13 @@
           <subsection id="section-13.1">
             <num>(1)</num>
             <content>
-              <p>The <term refersTo="#term-Municipality" id="trm251">Municipality</term> may establish a process for the determination of valuation queries and charge a fee in terms of the Tariff Policy for attending to such queries.</p>
+              <p>The <term refersTo="#term-Municipality" id="trm255">Municipality</term> may establish a process for the determination of valuation queries and charge a fee in terms of the Tariff Policy for attending to such queries.</p>
             </content>
           </subsection>
           <subsection id="section-13.2">
             <num>(2)</num>
             <content>
-              <p>Any <term refersTo="#term-person" id="trm252">person</term> who wishes to submit a valuation query in terms of subsection (1) must complete a form prescribed by the <term refersTo="#term-Municipality" id="trm253">Municipality</term> for that purpose providing the minimum information required therein and submit same to the office specified on the prescribed form, together with proof of payment of the fee referred to in subsection (1).</p>
+              <p>Any <term refersTo="#term-person" id="trm256">person</term> who wishes to submit a valuation query in terms of subsection (1) must complete a form prescribed by the <term refersTo="#term-Municipality" id="trm257">Municipality</term> for that purpose providing the minimum information required therein and submit same to the office specified on the prescribed form, together with proof of payment of the fee referred to in subsection (1).</p>
             </content>
           </subsection>
         </section>
@@ -729,18 +738,18 @@
             <num>(1)</num>
             <content>
               <blockList id="section-14.1.list1">
-                <listIntroduction>The <term refersTo="#term-municipal_valuer" id="trm254">municipal valuer</term> must promptly –</listIntroduction>
+                <listIntroduction>The <term refersTo="#term-municipal_valuer" id="trm258">municipal valuer</term> must promptly –</listIntroduction>
                 <item id="section-14.1.list1.a">
                   <num>(a)</num>
-                  <p>consider objections in accordance with the procedure prescribed by the <term refersTo="#term-municipal_valuer" id="trm255">municipal valuer</term>;</p>
+                  <p>consider objections in accordance with the procedure prescribed by the <term refersTo="#term-municipal_valuer" id="trm259">municipal valuer</term>;</p>
                 </item>
                 <item id="section-14.1.list1.b">
                   <num>(b)</num>
-                  <p>decide objections on facts, including the submissions of an objector, and, if the objector is not the <term refersTo="#term-owner" id="trm256">owner</term>, the submissions of the <term refersTo="#term-owner" id="trm257">owner</term>; and</p>
+                  <p>decide objections on facts, including the submissions of an objector, and, if the objector is not the <term refersTo="#term-owner" id="trm260">owner</term>, the submissions of the <term refersTo="#term-owner" id="trm261">owner</term>; and</p>
                 </item>
                 <item id="section-14.1.list1.c">
                   <num>(c)</num>
-                  <p>adjust or add to the <term refersTo="#term-valuation_roll" id="trm258">valuation roll</term> in accordance with any decision taken, subject to compulsory review of such decision in terms of section 52 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm259">Municipal Property Rates Act</term> if the <term refersTo="#term-municipal_valuer" id="trm260">municipal valuer</term> adjusts the valuation of a <term refersTo="#term-property" id="trm261">property</term> by more than 10% upwards or downwards.</p>
+                  <p>adjust or add to the <term refersTo="#term-valuation_roll" id="trm262">valuation roll</term> in accordance with any decision taken, subject to compulsory review of such decision in terms of section 52 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm263">Municipal Property Rates Act</term> if the <term refersTo="#term-municipal_valuer" id="trm264">municipal valuer</term> adjusts the valuation of a <term refersTo="#term-property" id="trm265">property</term> by more than 10% upwards or downwards.</p>
                 </item>
               </blockList>
             </content>
@@ -749,18 +758,18 @@
             <num>(2)</num>
             <content>
               <blockList id="section-14.2.list1">
-                <listIntroduction>The <term refersTo="#term-municipal_valuer" id="trm262">municipal valuer</term> must, in writing, notify every <term refersTo="#term-person" id="trm263">person</term> who has lodged an objection and also the <term refersTo="#term-owner" id="trm264">owner</term> of the <term refersTo="#term-property" id="trm265">property</term> concerned if the objector is not the <term refersTo="#term-owner" id="trm266">owner</term>, of –</listIntroduction>
+                <listIntroduction>The <term refersTo="#term-municipal_valuer" id="trm266">municipal valuer</term> must, in writing, notify every <term refersTo="#term-person" id="trm267">person</term> who has lodged an objection and also the <term refersTo="#term-owner" id="trm268">owner</term> of the <term refersTo="#term-property" id="trm269">property</term> concerned if the objector is not the <term refersTo="#term-owner" id="trm270">owner</term>, of –</listIntroduction>
                 <item id="section-14.2.list1.a">
                   <num>(a)</num>
-                  <p>the <term refersTo="#term-municipal_valuer" id="trm267">municipal valuer</term>'s decision in terms of subsection (1)(b) regarding that objection;</p>
+                  <p>the <term refersTo="#term-municipal_valuer" id="trm271">municipal valuer</term>'s decision in terms of subsection (1)(b) regarding that objection;</p>
                 </item>
                 <item id="section-14.2.list1.b">
                   <num>(b)</num>
-                  <p>any adjustment made to the <term refersTo="#term-valuation_roll" id="trm268">valuation roll</term> in respect of the <term refersTo="#term-property" id="trm269">property</term> concerned; and</p>
+                  <p>any adjustment made to the <term refersTo="#term-valuation_roll" id="trm272">valuation roll</term> in respect of the <term refersTo="#term-property" id="trm273">property</term> concerned; and</p>
                 </item>
                 <item id="section-14.2.list1.c">
                   <num>(c)</num>
-                  <p>whether the <term refersTo="#term-municipal_valuer" id="trm270">municipal valuer</term>'s decision will be subject to compulsory review in terms of section 52 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm271">Municipal Property Rates Act</term>.</p>
+                  <p>whether the <term refersTo="#term-municipal_valuer" id="trm274">municipal valuer</term>'s decision will be subject to compulsory review in terms of section 52 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm275">Municipal Property Rates Act</term>.</p>
                 </item>
               </blockList>
             </content>
@@ -768,13 +777,13 @@
           <subsection id="section-14.3">
             <num>(3)</num>
             <content>
-              <p>Once certified, the <term refersTo="#term-valuation_roll" id="trm272">valuation roll</term> becomes final for the period for which it is in force, subject to the right of appeal in terms of section 54 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm273">Municipal Property Rates Act</term>.</p>
+              <p>Once certified, the <term refersTo="#term-valuation_roll" id="trm276">valuation roll</term> becomes final for the period for which it is in force, subject to the right of appeal in terms of section 54 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm277">Municipal Property Rates Act</term>.</p>
             </content>
           </subsection>
           <subsection id="section-14.4">
             <num>(4)</num>
             <content>
-              <p>The mere lodgement of an objection in terms of this section does not constitute a dispute as contemplated in section 102(2) of the <term refersTo="#term-Systems_Act" id="trm274">Systems Act</term> between the <term refersTo="#term-Municipality" id="trm275">Municipality</term> and the objector concerned.</p>
+              <p>The mere lodgement of an objection in terms of this section does not constitute a dispute as contemplated in section 102(2) of the <term refersTo="#term-Systems_Act" id="trm278">Systems Act</term> between the <term refersTo="#term-Municipality" id="trm279">Municipality</term> and the objector concerned.</p>
             </content>
           </subsection>
         </section>
@@ -784,31 +793,31 @@
           <subsection id="section-15.1">
             <num>(1)</num>
             <content>
-              <p>Any <term refersTo="#term-person" id="trm276">person</term>, including the <term refersTo="#term-Municipality" id="trm277">Municipality</term>, who is aggrieved by a decision taken by the <term refersTo="#term-municipal_valuer" id="trm278">municipal valuer</term> in terms of section 15 of this By-law has a right of appeal under section 54 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm279">Municipal Property Rates Act</term>.</p>
+              <p>Any <term refersTo="#term-person" id="trm280">person</term>, including the <term refersTo="#term-Municipality" id="trm281">Municipality</term>, who is aggrieved by a decision taken by the <term refersTo="#term-municipal_valuer" id="trm282">municipal valuer</term> in terms of section 15 of this By-law has a right of appeal under section 54 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm283">Municipal Property Rates Act</term>.</p>
             </content>
           </subsection>
           <subsection id="section-15.2">
             <num>(2)</num>
             <content>
-              <p>An appeal lodged in terms of section 54 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm280">Municipal Property Rates Act</term> does not defer a <term refersTo="#term-person" id="trm281">person</term>'s liability for payment of <term refersTo="#term-rates" id="trm282">rates</term> beyond the date determined by the <term refersTo="#term-Municipality" id="trm283">Municipality</term> for payment.</p>
+              <p>An appeal lodged in terms of section 54 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm284">Municipal Property Rates Act</term> does not defer a <term refersTo="#term-person" id="trm285">person</term>'s liability for payment of <term refersTo="#term-rates" id="trm286">rates</term> beyond the date determined by the <term refersTo="#term-Municipality" id="trm287">Municipality</term> for payment.</p>
             </content>
           </subsection>
           <subsection id="section-15.3">
             <num>(3)</num>
             <content>
-              <p>The lodgement of an appeal in terms of section 54 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm284">Municipal Property Rates Act</term> does not constitute a dispute as contemplated in section 102(2) of the <term refersTo="#term-Systems_Act" id="trm285">Systems Act</term> between the <term refersTo="#term-Municipality" id="trm286">Municipality</term> and the appellant concerned.</p>
+              <p>The lodgement of an appeal in terms of section 54 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm288">Municipal Property Rates Act</term> does not constitute a dispute as contemplated in section 102(2) of the <term refersTo="#term-Systems_Act" id="trm289">Systems Act</term> between the <term refersTo="#term-Municipality" id="trm290">Municipality</term> and the appellant concerned.</p>
             </content>
           </subsection>
           <subsection id="section-15.4">
             <num>(4)</num>
             <content>
-              <p>The provisions of this section must not be interpreted to prevent the <term refersTo="#term-municipal_valuer" id="trm287">municipal valuer</term> from reviewing the objection outcome with any appellant based on the additional evidence provided by the appellant concerned to the <term refersTo="#term-municipal_valuer" id="trm288">municipal valuer</term>.</p>
+              <p>The provisions of this section must not be interpreted to prevent the <term refersTo="#term-municipal_valuer" id="trm291">municipal valuer</term> from reviewing the objection outcome with any appellant based on the additional evidence provided by the appellant concerned to the <term refersTo="#term-municipal_valuer" id="trm292">municipal valuer</term>.</p>
             </content>
           </subsection>
           <subsection id="section-15.5">
             <num>(5)</num>
             <content>
-              <p>Any <term refersTo="#term-person" id="trm289">person</term> may, with the written consent of the <term refersTo="#term-municipal_valuer" id="trm290">municipal valuer</term>, withdraw an appeal lodged by such <term refersTo="#term-person" id="trm291">person</term> in terms of subsection (1).</p>
+              <p>Any <term refersTo="#term-person" id="trm293">person</term> may, with the written consent of the <term refersTo="#term-municipal_valuer" id="trm294">municipal valuer</term>, withdraw an appeal lodged by such <term refersTo="#term-person" id="trm295">person</term> in terms of subsection (1).</p>
             </content>
           </subsection>
         </section>
@@ -821,29 +830,29 @@
           <heading>Municipal boundary adjustment</heading>
           <paragraph id="section-16.paragraph-0">
             <content>
-              <p>If any <term refersTo="#term-property" id="trm292">property</term> or a <term refersTo="#term-category" id="trm293">category</term> of <term refersTo="#term-property" id="trm294">property</term> is newly included in the area of jurisdiction of the <term refersTo="#term-Municipality" id="trm295">Municipality</term> by way of a municipal boundary adjustment, the valuation and <term refersTo="#term-rate_randage" id="trm296">rate randage</term> of the <term refersTo="#term-property" id="trm297">property</term> or the <term refersTo="#term-category" id="trm298">category</term> of the <term refersTo="#term-property" id="trm299">property</term> concerned shall remain applicable for the remainder of the financial year during which such <term refersTo="#term-property" id="trm300">property</term> or <term refersTo="#term-category" id="trm301">category</term> of <term refersTo="#term-property" id="trm302">property</term> was included in the <term refersTo="#term-Municipality" id="trm303">Municipality</term>'s area of jurisdiction.</p>
+              <p>If any <term refersTo="#term-property" id="trm296">property</term> or a <term refersTo="#term-category" id="trm297">category</term> of <term refersTo="#term-property" id="trm298">property</term> is newly included in the area of jurisdiction of the <term refersTo="#term-Municipality" id="trm299">Municipality</term> by way of a municipal boundary adjustment, the valuation and <term refersTo="#term-rate_randage" id="trm300">rate randage</term> of the <term refersTo="#term-property" id="trm301">property</term> or the <term refersTo="#term-category" id="trm302">category</term> of the <term refersTo="#term-property" id="trm303">property</term> concerned shall remain applicable for the remainder of the financial year during which such <term refersTo="#term-property" id="trm304">property</term> or <term refersTo="#term-category" id="trm305">category</term> of <term refersTo="#term-property" id="trm306">property</term> was included in the <term refersTo="#term-Municipality" id="trm307">Municipality</term>'s area of jurisdiction.</p>
             </content>
           </paragraph>
         </section>
         <section id="section-17">
           <num>17.</num>
-          <heading>Interest on arrear <term refersTo="#term-rates" id="trm304">rates</term></heading>
+          <heading>Interest on arrear <term refersTo="#term-rates" id="trm308">rates</term></heading>
           <paragraph id="section-17.paragraph-0">
             <content>
-              <p>If an amount due for <term refersTo="#term-rates" id="trm305">rates</term> levied in respect of a <term refersTo="#term-property" id="trm306">property</term> remains unpaid after the date determined by the <term refersTo="#term-Municipality" id="trm307">Municipality</term> for the payment thereof, interest on the outstanding amount accrues at the legal rate of interest prevailing from time to time, subject to the provisions of sections 9 and 55 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm308">Municipal Property Rates Act</term>.</p>
+              <p>If an amount due for <term refersTo="#term-rates" id="trm309">rates</term> levied in respect of a <term refersTo="#term-property" id="trm310">property</term> remains unpaid after the date determined by the <term refersTo="#term-Municipality" id="trm311">Municipality</term> for the payment thereof, interest on the outstanding amount accrues at the legal rate of interest prevailing from time to time, subject to the provisions of sections 9 and 55 of the <term refersTo="#term-Municipal_Property_Rates_Act" id="trm312">Municipal Property Rates Act</term>.</p>
             </content>
           </paragraph>
         </section>
         <section id="section-18">
           <num>18.</num>
-          <heading>Valuation of right in <term refersTo="#term-land" id="trm309">land</term></heading>
+          <heading>Valuation of right in <term refersTo="#term-land" id="trm313">land</term></heading>
           <paragraph id="section-18.paragraph-0">
             <content>
               <blockList id="section-18.paragraph-0.list1">
-                <listIntroduction>The <term refersTo="#term-Municipality" id="trm310">Municipality</term> is entitled to value a limited real right in respect of the <term refersTo="#term-land" id="trm311">land</term> concerned with reference to –</listIntroduction>
+                <listIntroduction>The <term refersTo="#term-Municipality" id="trm314">Municipality</term> is entitled to value a limited real right in respect of the <term refersTo="#term-land" id="trm315">land</term> concerned with reference to –</listIntroduction>
                 <item id="section-18.paragraph-0.list1.a">
                   <num>(a)</num>
-                  <p><term refersTo="#term-public_service_infrastructure" id="trm312">public service infrastructure</term>; and</p>
+                  <p><term refersTo="#term-public_service_infrastructure" id="trm316">public service infrastructure</term>; and</p>
                 </item>
                 <item id="section-18.paragraph-0.list1.b">
                   <num>(b)</num>
@@ -864,10 +873,10 @@
             <num>(1)</num>
             <content>
               <blockList id="section-19.1.list1">
-                <listIntroduction>Subject to the <term refersTo="#term-Constitution" id="trm313">Constitution</term> and applicable national and provincial laws, any –</listIntroduction>
+                <listIntroduction>Subject to the <term refersTo="#term-Constitution" id="trm317">Constitution</term> and applicable national and provincial laws, any –</listIntroduction>
                 <item id="section-19.1.list1.a">
                   <num>(a)</num>
-                  <p>power, excluding a power referred to in section 160(2) of the <term refersTo="#term-Constitution" id="trm314">Constitution</term>;</p>
+                  <p>power, excluding a power referred to in section 160(2) of the <term refersTo="#term-Constitution" id="trm318">Constitution</term>;</p>
                 </item>
                 <item id="section-19.1.list1.b">
                   <num>(b)</num>
@@ -878,13 +887,13 @@
                   <p>duty,</p>
                 </item>
               </blockList>
-              <p>conferred, in terms of this By-law, upon the <term refersTo="#term-Council" id="trm315">Council</term>, or on any of the <term refersTo="#term-Municipality" id="trm316">Municipality</term>'s other political structures, political office bearers, councillors or staff members, may be delegated or sub-delegated by such political structure, political office bearer, councillor or staff member, to an entity within, or a staff member employed by, the <term refersTo="#term-Municipality" id="trm317">Municipality</term>.</p>
+              <p>conferred, in terms of this By-law, upon the <term refersTo="#term-Council" id="trm319">Council</term>, or on any of the <term refersTo="#term-Municipality" id="trm320">Municipality</term>'s other political structures, political office bearers, councillors or staff members, may be delegated or sub-delegated by such political structure, political office bearer, councillor or staff member, to an entity within, or a staff member employed by, the <term refersTo="#term-Municipality" id="trm321">Municipality</term>.</p>
             </content>
           </subsection>
           <subsection id="section-19.2">
             <num>(2)</num>
             <content>
-              <p>The delegation in terms of subsection (1) must be effected in accordance with the system of delegation adopted by the <term refersTo="#term-Council" id="trm318">Council</term> in accordance with section 59(1) of the <term refersTo="#term-Systems_Act" id="trm319">Systems Act</term>, subject to the criteria set out in section 50(2) of said Act.</p>
+              <p>The delegation in terms of subsection (1) must be effected in accordance with the system of delegation adopted by the <term refersTo="#term-Council" id="trm322">Council</term> in accordance with section 59(1) of the <term refersTo="#term-Systems_Act" id="trm323">Systems Act</term>, subject to the criteria set out in section 50(2) of said Act.</p>
             </content>
           </subsection>
           <subsection id="section-19.3">
@@ -894,7 +903,7 @@
                 <listIntroduction>Any delegation contemplated in this section must be recorded in the Register of Delegations, which must contain information on the –</listIntroduction>
                 <item id="section-19.3.list1.a">
                   <num>(a)</num>
-                  <p>entity or <term refersTo="#term-person" id="trm320">person</term> issuing the delegation or sub-delegation;</p>
+                  <p>entity or <term refersTo="#term-person" id="trm324">person</term> issuing the delegation or sub-delegation;</p>
                 </item>
                 <item id="section-19.3.list1.b">
                   <num>(b)</num>
@@ -950,15 +959,15 @@
               <FRBRcountry value="za"/>
             </FRBRWork>
             <FRBRExpression>
-              <FRBRthis value="/za-eth/act/by-law/2015/property-rates/eng@2015-08-27/lawsrepealed"/>
-              <FRBRuri value="/za-eth/act/by-law/2015/property-rates/eng@2015-08-27"/>
+              <FRBRthis value="/za-eth/act/by-law/2015/property-rates/eng@2017-02-03/lawsrepealed"/>
+              <FRBRuri value="/za-eth/act/by-law/2015/property-rates/eng@2017-02-03"/>
               <FRBRdate date="1980-01-01" name="Generation"/>
               <FRBRauthor href="#council"/>
               <FRBRlanguage language="eng"/>
             </FRBRExpression>
             <FRBRManifestation>
-              <FRBRthis value="/za-eth/act/by-law/2015/property-rates/eng@2015-08-27/lawsrepealed"/>
-              <FRBRuri value="/za-eth/act/by-law/2015/property-rates/eng@2015-08-27"/>
+              <FRBRthis value="/za-eth/act/by-law/2015/property-rates/eng@2017-02-03/lawsrepealed"/>
+              <FRBRuri value="/za-eth/act/by-law/2015/property-rates/eng@2017-02-03"/>
               <FRBRdate date="2017-12-18" name="Generation"/>
               <FRBRauthor href="#slaw"/>
             </FRBRManifestation>

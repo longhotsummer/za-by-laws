@@ -1,0 +1,984 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-eth/act/by-law/2015/parks-recreational-grounds/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2015/parks-recreational-grounds"/>
+          <FRBRalias value="Parks and Recreational Grounds By-law, 2015"/>
+          <FRBRdate date="2015-10-12" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-eth/act/by-law/2015/parks-recreational-grounds/eng@2015-10-12/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2015/parks-recreational-grounds/eng@2015-10-12"/>
+          <FRBRdate date="2015-10-12" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-eth/act/by-law/2015/parks-recreational-grounds/eng@2015-10-12/main"/>
+          <FRBRuri value="/za-eth/act/by-law/2015/parks-recreational-grounds/eng@2015-10-12"/>
+          <FRBRdate date="2017-12-18" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-10-12" name="KwaZulu-Natal Provincial Gazette" showAs="KwaZulu-Natal Provincial Gazette" number="1524"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-animal" href="/ontology/term/this.eng.animal" showAs="animal"/>
+        <TLCTerm id="term-authorised_official" href="/ontology/term/this.eng.authorised_official" showAs="authorised official"/>
+        <TLCTerm id="term-Constitution" href="/ontology/term/this.eng.Constitution" showAs="Constitution"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-Municipality" href="/ontology/term/this.eng.Municipality" showAs="Municipality"/>
+        <TLCTerm id="term-Municipal_Manager" href="/ontology/term/this.eng.Municipal_Manager" showAs="Municipal Manager"/>
+        <TLCTerm id="term-notice" href="/ontology/term/this.eng.notice" showAs="notice"/>
+        <TLCTerm id="term-park" href="/ontology/term/this.eng.park" showAs="park"/>
+        <TLCTerm id="term-person" href="/ontology/term/this.eng.person" showAs="person"/>
+        <TLCTerm id="term-Policy" href="/ontology/term/this.eng.Policy" showAs="Policy"/>
+        <TLCTerm id="term-prescribed_fee" href="/ontology/term/this.eng.prescribed_fee" showAs="prescribed fee"/>
+        <TLCTerm id="term-reservation" href="/ontology/term/this.eng.reservation" showAs="reservation"/>
+        <TLCTerm id="term-Systems_Act" href="/ontology/term/this.eng.Systems_Act" showAs="Systems Act"/>
+        <TLCTerm id="term-tree_preservation_order" href="/ontology/term/this.eng.tree_preservation_order" showAs="tree preservation order"/>
+        <TLCTerm id="term-vehicle" href="/ontology/term/this.eng.vehicle" showAs="vehicle"/>
+      </references>
+    </meta>
+    <preface>
+      <p>To provide for the control, preservation and maintenance of the municipal parks and recreational grounds as well as the use and enjoyment thereof by members of the public; to provide for the repeal of laws and savings; and to provide for matters incidental thereto.</p>
+    </preface>
+    <preamble>
+      <p>WHEREAS the eThekwini Municipality has legislative and executive competence relating to local amenities and municipal parks and recreation within its area of jurisdiction;</p>
+      <p>WHEREAS the municipal parks and recreational grounds are available for use and enjoyment by members of the public;</p>
+      <p>AND WHEREAS the Municipality wishes to adopt such measures as may be necessary to protect and preserve the natural vegetation and equipment on the municipal parks and recreational grounds and to control the use and enjoyment thereof by members of the public;</p>
+      <p>NOW THEREFORE the Municipal Council of the eThekwini Metropolitan Municipality, acting in terms of section 156 read with Schedule 5 Part B of the Constitution of the Republic of South Africa, and read with section 11 of the Local Government: Municipal Systems Act, 2000 (<ref href="/za/act/2000/32">Act No. 32 of 2000</ref>), hereby makes the following By-law:</p>
+    </preamble>
+    <body>
+      <chapter id="chapter-1">
+        <num>1</num>
+        <heading>Interpretation</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <paragraph id="section-1.paragraph-0" refersTo="#term-tree_preservation_order">
+            <content>
+              <p>In this By-law, unless the context indicates otherwise –</p>
+              <p>"<def refersTo="#term-animal">animal</def>" means any mammal, fish, bird, reptile, insect, amphibian or invertebrate;</p>
+              <blockList id="section-1.paragraph-0.list3" refersTo="#term-authorised_official">
+                <listIntroduction>"<def refersTo="#term-authorised_official">authorised official</def>" means a <term refersTo="#term-person" id="trm0">person</term> authorised to implement the provisions of this By-law, including but not limited to –</listIntroduction>
+                <item id="section-1.paragraph-0.list3.a">
+                  <num>(a)</num>
+                  <p>peace officers as contemplated in section 334 of the Criminal Procedure Act, 1977 (<ref href="/za/act/1977/51">Act No. 51 of 1977</ref>);</p>
+                </item>
+                <item id="section-1.paragraph-0.list3.b">
+                  <num>(b)</num>
+                  <p>municipal or metropolitan police officers as contemplated in the South African Police Service Act, 1995 (<ref href="/za/act/1995/68">Act No. 68 of 1995</ref>); and</p>
+                </item>
+                <item id="section-1.paragraph-0.list3.c">
+                  <num>(c)</num>
+                  <p>such employees, agents, delegated nominees, representatives and service providers of the <term refersTo="#term-Municipality" id="trm1">Municipality</term> as are specifically authorised by the <term refersTo="#term-Municipality" id="trm2">Municipality</term> in this regard: Provided that for the purposes of search and seizure, where such <term refersTo="#term-person" id="trm3">person</term> is not a peace officer, such <term refersTo="#term-person" id="trm4">person</term> must be accompanied by a peace officer;</p>
+                </item>
+              </blockList>
+              <p>"<def refersTo="#term-Constitution">Constitution</def>" means the <term refersTo="#term-Constitution" id="trm5">Constitution</term> of the Republic of South Africa, 1996;</p>
+              <p>"<def refersTo="#term-Council">Council</def>" or “Municipal <term refersTo="#term-Council" id="trm6">Council</term>” means the eThekwini Municipal <term refersTo="#term-Council" id="trm7">Council</term>, a municipal council referred to in section 157(1) of the <term refersTo="#term-Constitution" id="trm8">Constitution</term>;</p>
+              <p>"<def refersTo="#term-Municipality">Municipality</def>" means the eThekwini <term refersTo="#term-Municipality" id="trm9">Municipality</term>, a category A municipality as envisaged in terms of section 155(1) of the <term refersTo="#term-Constitution" id="trm10">Constitution</term> and established in terms of PN343 of 2000 (KZN);</p>
+              <p>"<def refersTo="#term-Municipal_Manager">Municipal Manager</def>" means the official of the <term refersTo="#term-Municipality" id="trm11">Municipality</term> appointed as contemplated in section 54A of the <term refersTo="#term-Systems_Act" id="trm12">Systems Act</term>;</p>
+              <p>"<def refersTo="#term-notice">notice</def>" means a written notification issued or pictogram displayed in terms of this By-law which is prominently and legibly displayed in any part of a <term refersTo="#term-park" id="trm13">park</term>;</p>
+              <p>"<def refersTo="#term-park">park</def>" means any <term refersTo="#term-park" id="trm14">park</term>, recreational ground, open space, square, reserve, bird sanctuary, botanic or other garden which is under the control or ownership of the <term refersTo="#term-Municipality" id="trm15">Municipality</term>, and includes all buildings, facilities, equipment, trees and natural vegetation within such <term refersTo="#term-park" id="trm16">park</term>;</p>
+              <p>"<def refersTo="#term-person">person</def>" means a natural or juristic <term refersTo="#term-person" id="trm17">person</term>;</p>
+              <p>"<def refersTo="#term-Policy">Policy</def>" means the tariff policy adopted by the <term refersTo="#term-Council" id="trm18">Council</term> in term of section 74 of the <term refersTo="#term-Systems_Act" id="trm19">Systems Act</term>;</p>
+              <p>"<def refersTo="#term-prescribed_fee">prescribed fee</def>" means a fee determined by the <term refersTo="#term-Council" id="trm20">Council</term> by resolution in accordance with the <term refersTo="#term-Policy" id="trm21">Policy</term>;</p>
+              <p>"<def refersTo="#term-reservation">reservation</def>" means a written application to the <term refersTo="#term-Municipality" id="trm22">Municipality</term> for the use of a <term refersTo="#term-park" id="trm23">park</term> or any part thereof for the purpose of a private event or function, and “reserve” has a corresponding meaning;</p>
+              <p>"<def refersTo="#term-Systems_Act">Systems Act</def>" means the Local Government: Municipal <term refersTo="#term-Systems_Act" id="trm24">Systems Act</term>, 2000 (<ref href="/za/act/2000/32">Act No. 32 of 2000</ref>);</p>
+              <p>"<def refersTo="#term-tree_preservation_order">tree preservation order</def>" means an order issued by the <term refersTo="#term-Municipality" id="trm25">Municipality</term> for the protection of specific trees or a group of trees from deliberate damage or destruction; and</p>
+              <blockList id="section-1.paragraph-0.list17" refersTo="#term-vehicle">
+                <listIntroduction>"<def refersTo="#term-vehicle">vehicle</def>" means any self-propelled <term refersTo="#term-vehicle" id="trm26">vehicle</term> and includes–</listIntroduction>
+                <item id="section-1.paragraph-0.list17.a">
+                  <num>(a)</num>
+                  <p>a trailer; and</p>
+                </item>
+                <item id="section-1.paragraph-0.list17.b">
+                  <num>(b)</num>
+                  <p>a <term refersTo="#term-vehicle" id="trm27">vehicle</term> having pedals and an engine or an electric motor as an integral part thereof or attached thereto and which is designed or adapted to be propelled by means of such pedals, engine or motor, or both such pedals and engine or motor.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Interpretation of By-law</heading>
+          <paragraph id="section-2.paragraph-0">
+            <content>
+              <p>In the event that there is a conflict of interpretation between the English version of this By-law and a translated version, the English version prevails.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Objects of By-law</heading>
+          <paragraph id="section-3.paragraph-0">
+            <content>
+              <blockList id="section-3.paragraph-0.list1">
+                <listIntroduction>The objects of this By-law are to –</listIntroduction>
+                <item id="section-3.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>protect and preserve parks for the benefit of the public;</p>
+                </item>
+                <item id="section-3.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>regulate proper use and enjoyment of parks by members of the public;</p>
+                </item>
+                <item id="section-3.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>standardise the fees prescribed for the <term refersTo="#term-reservation" id="trm28">reservation</term> of parks for private events and functions; and</p>
+                </item>
+                <item id="section-3.paragraph-0.list1.d">
+                  <num>(d)</num>
+                  <p>provide for matters incidental thereto.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Application of By-law</heading>
+          <paragraph id="section-4.paragraph-0">
+            <content>
+              <blockList id="section-4.paragraph-0.list1">
+                <listIntroduction>This By-law applies to –</listIntroduction>
+                <item id="section-4.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>all parks under the ownership or control of the <term refersTo="#term-Municipality" id="trm29">Municipality</term>; and</p>
+                </item>
+                <item id="section-4.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>any <term refersTo="#term-park" id="trm30">park</term> which is lawfully controlled and managed by a <term refersTo="#term-person" id="trm31">person</term> other than the <term refersTo="#term-Municipality" id="trm32">Municipality</term> in terms of an agreement concluded between such <term refersTo="#term-person" id="trm33">person</term> and the <term refersTo="#term-Municipality" id="trm34">Municipality</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+      <chapter id="chapter-2">
+        <num>2</num>
+        <heading>Public access</heading>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Terms and conditions</heading>
+          <subsection id="section-5.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm35">Municipality</term> reserves the right to determine the terms and conditions for access into a <term refersTo="#term-park" id="trm36">park</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-5.2.list1">
+                <listIntroduction>A <term refersTo="#term-person" id="trm37">person</term> who is allowed access into a <term refersTo="#term-park" id="trm38">park</term> must –</listIntroduction>
+                <item id="section-5.2.list1.a">
+                  <num>(a)</num>
+                  <p>observe and comply with all the notices displayed at any area of the <term refersTo="#term-park" id="trm39">park</term>, including the entrance thereto; and</p>
+                </item>
+                <item id="section-5.2.list1.b">
+                  <num>(b)</num>
+                  <p>obey any lawful instruction given to him or her by an <term refersTo="#term-authorised_official" id="trm40">authorised official</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Entrance into a <term refersTo="#term-park" id="trm41">park</term></heading>
+          <paragraph id="section-6.paragraph-0">
+            <content>
+              <p>A <term refersTo="#term-person" id="trm42">person</term> may only enter a <term refersTo="#term-park" id="trm43">park</term> through the gates provided for that purpose as indicated on a <term refersTo="#term-notice" id="trm44">notice</term> displayed at or near the entrance to the <term refersTo="#term-park" id="trm45">park</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Maximum number of persons</heading>
+          <paragraph id="section-7.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm46">Municipality</term> reserves the right to determine the maximum number of persons who may be present in a <term refersTo="#term-park" id="trm47">park</term> at any one time: Provided that an <term refersTo="#term-authorised_official" id="trm48">authorised official</term> may vary the maximum number of persons allowed in a <term refersTo="#term-park" id="trm49">park</term> where permission is granted for a <term refersTo="#term-park" id="trm50">park</term> to be used for either a different purpose or a private event or function as contemplated in section 11.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Entrance fees</heading>
+          <subsection id="section-8.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm51">Municipality</term> may prescribe an entrance fee which is payable upon entry into the <term refersTo="#term-park" id="trm52">park</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.2">
+            <num>(2)</num>
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm53">person</term> in a <term refersTo="#term-park" id="trm54">park</term> who is required to pay an entrance fee must, upon request by an <term refersTo="#term-authorised_official" id="trm55">authorised official</term>, produce proof of payment of such fee.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm56">Municipality</term> may, subject to subsection (1), suspend the payment of an entrance fee in respect of any <term refersTo="#term-park" id="trm57">park</term> on any specific day or days and for such period as it may deem appropriate.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Closure or restriction of access</heading>
+          <subsection id="section-9.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-Municipality" id="trm58">Municipality</term> may close or restrict public access to any <term refersTo="#term-park" id="trm59">park</term> or part thereof for any purpose not inconsistent with the provisions of this By-law, including maintenance, safety and restoration or protection of trees and natural vegetation.</p>
+            </content>
+          </subsection>
+          <subsection id="section-9.2">
+            <num>(2)</num>
+            <content>
+              <p>In the event of closure of or restriction of access to a <term refersTo="#term-park" id="trm60">park</term> in accordance with subsection (1), a <term refersTo="#term-notice" id="trm61">notice</term> must be posted at or near the entrance to the <term refersTo="#term-park" id="trm62">park</term> concerned indicating the actual period of such closure or restriction of access.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Exclusion or removal from a <term refersTo="#term-park" id="trm63">park</term></heading>
+          <subsection id="section-10.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-10.1.list1">
+                <listIntroduction>An <term refersTo="#term-authorised_official" id="trm64">authorised official</term> may exclude or remove from a <term refersTo="#term-park" id="trm65">park</term> any <term refersTo="#term-person" id="trm66">person</term> who –</listIntroduction>
+                <item id="section-10.1.list1.a">
+                  <num>(a)</num>
+                  <p>is in a state of intoxication or under the influence of narcotics;</p>
+                </item>
+                <item id="section-10.1.list1.b">
+                  <num>(b)</num>
+                  <p>behaves in a manner which is disorderly, unseemly or disruptive to other persons visiting the <term refersTo="#term-park" id="trm67">park</term>; or</p>
+                </item>
+                <item id="section-10.1.list1.c">
+                  <num>(c)</num>
+                  <p>commits, or is reasonably suspected by an <term refersTo="#term-authorised_official" id="trm68">authorised official</term> to have committed, an offence or any other act which is in contravention of any provision of this By-law.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-10.2">
+            <num>(2)</num>
+            <content>
+              <p>Failure or refusal by a <term refersTo="#term-person" id="trm69">person</term> referred to in subsection (1) to leave a <term refersTo="#term-park" id="trm70">park</term> upon being ordered by the <term refersTo="#term-authorised_official" id="trm71">authorised official</term> to do so is an offence in terms of this By-law.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>Private events and functions</heading>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Reservation of <term refersTo="#term-park" id="trm72">park</term> for private event or function</heading>
+          <paragraph id="section-11.paragraph-0">
+            <content>
+              <blockList id="section-11.paragraph-0.list1">
+                <listIntroduction>Any <term refersTo="#term-person" id="trm73">person</term> who wishes to apply for the <term refersTo="#term-reservation" id="trm74">reservation</term> of a <term refersTo="#term-park" id="trm75">park</term> or part thereof for a private event or function must –</listIntroduction>
+                <item id="section-11.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>submit an application to the <term refersTo="#term-authorised_official" id="trm76">authorised official</term> on the form prescribed by the <term refersTo="#term-Municipality" id="trm77">Municipality</term> for that purpose; and</p>
+                </item>
+                <item id="section-11.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>make payment to the <term refersTo="#term-Municipality" id="trm78">Municipality</term> or its authorised agent of a <term refersTo="#term-prescribed_fee" id="trm79">prescribed fee</term> for the private use of the <term refersTo="#term-park" id="trm80">park</term> before the date applied for, unless payment of the <term refersTo="#term-prescribed_fee" id="trm81">prescribed fee</term> is exempted by the <term refersTo="#term-Municipality" id="trm82">Municipality</term> in writing.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-12">
+          <num>12.</num>
+          <heading><term refersTo="#term-Municipality" id="trm83">Municipality</term>'s right of refusal or cancellation</heading>
+          <subsection id="section-12.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-12.1.list1">
+                <listIntroduction>The <term refersTo="#term-Municipality" id="trm84">Municipality</term> may –</listIntroduction>
+                <item id="section-12.1.list1.a">
+                  <num>(a)</num>
+                  <p>refuse to grant an application for the private event or function; or</p>
+                </item>
+                <item id="section-12.1.list1.b">
+                  <num>(b)</num>
+                  <p>cancel any approval if such application is already approved, if an <term refersTo="#term-authorised_official" id="trm85">authorised official</term> suspects on reasonable grounds that the event or function applied for is either unlawful or is likely to result in public disturbance.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-12.2">
+            <num>(2)</num>
+            <content>
+              <p>In the event of the approved private use of a <term refersTo="#term-park" id="trm86">park</term> being cancelled by the <term refersTo="#term-Municipality" id="trm87">Municipality</term> in accordance with subsection (1) or for any other reason not attributable to the applicant, the applicant concerned is entitled to a refund of the <term refersTo="#term-prescribed_fee" id="trm88">prescribed fee</term> paid to the <term refersTo="#term-Municipality" id="trm89">Municipality</term> in accordance with section 11(b).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Terms and conditions of private use of <term refersTo="#term-park" id="trm90">park</term></heading>
+          <subsection id="section-13.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-13.1.list1">
+                <listIntroduction>Where an application for the private use of a <term refersTo="#term-park" id="trm91">park</term> or part thereof is granted by the <term refersTo="#term-Municipality" id="trm92">Municipality</term> in terms of section 11, such <term refersTo="#term-park" id="trm93">park</term> or part thereof may only be used –</listIntroduction>
+                <item id="section-13.1.list1.a">
+                  <num>(a)</num>
+                  <p>for the purpose indicated on the application form; and</p>
+                </item>
+                <item id="section-13.1.list1.b">
+                  <num>(b)</num>
+                  <p>subject to the terms and conditions stipulated by the <term refersTo="#term-Municipality" id="trm94">Municipality</term> in an agreement designed for that purpose,</p>
+                </item>
+              </blockList>
+              <p>unless prior approval of the <term refersTo="#term-authorised_official" id="trm95">authorised official</term> is obtained in writing authorising it to be used for a different purpose.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-person" id="trm96">person</term> who applies for the private use of a <term refersTo="#term-park" id="trm97">park</term> must, subsequent to the approval of such application by the <term refersTo="#term-Municipality" id="trm98">Municipality</term>, sign an agreement obtainable from the municipal department responsible for the <term refersTo="#term-park" id="trm99">park</term> in question setting out the terms and conditions of the private use thereof.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>Public announcement and advertising</heading>
+          <subsection id="section-14.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-person" id="trm100">person</term> who has applied for the use of a <term refersTo="#term-park" id="trm101">park</term> for a private event or function may not publicly announce or advertise the use of such <term refersTo="#term-park" id="trm102">park</term> for the event or function concerned before the <term refersTo="#term-Municipality" id="trm103">Municipality</term> has notified that <term refersTo="#term-person" id="trm104">person</term> in writing that the application has been approved.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.2">
+            <num>(2)</num>
+            <content>
+              <p>An approval of an application for the use of a <term refersTo="#term-park" id="trm105">park</term> for a private event or function does not absolve the applicant from due compliance with the <term refersTo="#term-Municipality" id="trm106">Municipality</term>'s Advertising and Signs By-law in respect of the private event or function concerned.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.3">
+            <num>(3)</num>
+            <content>
+              <p>An applicant referred to in subsection (1) must, before vacating the <term refersTo="#term-park" id="trm107">park</term> at the end of the private event or function concerned, remove every poster, <term refersTo="#term-notice" id="trm108">notice</term>, decoration, flag, emblem, sign and other form of advertisement or direction erected or affixed by or at the instance of such <term refersTo="#term-person" id="trm109">person</term> and make good any damage caused by such removal.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-4">
+        <num>4</num>
+        <heading>General provisions</heading>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Food and alcoholic beverages</heading>
+          <subsection id="section-15.1">
+            <num>(1)</num>
+            <content>
+              <p>Subject to the provisions of subsection (2), the preparation and cooking of food in a <term refersTo="#term-park" id="trm110">park</term> is restricted to the place or places set aside by <term refersTo="#term-notice" id="trm111">notice</term> for such purpose and must be done under clean and hygienic conditions.</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.2">
+            <num>(2)</num>
+            <content>
+              <p>The slaughtering or skinning of an <term refersTo="#term-animal" id="trm112">animal</term> for any purpose whatsoever is not allowed in a <term refersTo="#term-park" id="trm113">park</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-15.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-15.3.list1">
+                <listIntroduction>Unless authorised by the <term refersTo="#term-Municipality" id="trm114">Municipality</term> in writing to do so, a <term refersTo="#term-person" id="trm115">person</term> may not –</listIntroduction>
+                <item id="section-15.3.list1.a">
+                  <num>(a)</num>
+                  <p>sell or display for sale any items, goods or services; or</p>
+                </item>
+                <item id="section-15.3.list1.b">
+                  <num>(b)</num>
+                  <p>bring into, consume or sell any alcoholic beverage or other intoxicating substance,</p>
+                </item>
+              </blockList>
+              <p>in a <term refersTo="#term-park" id="trm116">park</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Starting of a fire</heading>
+          <subsection id="section-16.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-person" id="trm117">person</term> may only start a fire in a <term refersTo="#term-park" id="trm118">park</term> in a place as may be designated by the <term refersTo="#term-Municipality" id="trm119">Municipality</term> for that purpose.</p>
+            </content>
+          </subsection>
+          <subsection id="section-16.2">
+            <num>(2)</num>
+            <content>
+              <p>Where a <term refersTo="#term-person" id="trm120">person</term> has started a fire in a place designated for that purpose as contemplated in subsection (1), such <term refersTo="#term-person" id="trm121">person</term> may not leave the fire unattended or depart from the place where the fire is burning or smouldering without first ensuring that such fire is completely extinguished.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Vehicles</heading>
+          <subsection id="section-17.1">
+            <num>(1)</num>
+            <content>
+              <p>Unless specifically authorised by the <term refersTo="#term-Municipality" id="trm122">Municipality</term> through the use of relevant signage displayed at the entrance to a <term refersTo="#term-park" id="trm123">park</term>, access of vehicles of any kind is prohibited in a <term refersTo="#term-park" id="trm124">park</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-17.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-17.2.list1">
+                <listIntroduction>Where vehicular access is allowed in a <term refersTo="#term-park" id="trm125">park</term>, an <term refersTo="#term-authorised_official" id="trm126">authorised official</term> is empowered to control and regulate the use thereof within the <term refersTo="#term-park" id="trm127">park</term> concerned, including the –</listIntroduction>
+                <item id="section-17.2.list1.a">
+                  <num>(a)</num>
+                  <p>adoption of traffic signage and rules;</p>
+                </item>
+                <item id="section-17.2.list1.b">
+                  <num>(b)</num>
+                  <p>demarcation of parking bays and the levying of tariffs for the use thereof, if any; and</p>
+                </item>
+                <item id="section-17.2.list1.c">
+                  <num>(c)</num>
+                  <p>charging of fines for non-compliance with the traffic signage and rules within the <term refersTo="#term-park" id="trm128">park</term>, as well as the recovery thereof.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Facilities reserved for children</heading>
+          <subsection id="section-18.1">
+            <num>(1)</num>
+            <content>
+              <p>Where a facility or equipment in a <term refersTo="#term-park" id="trm129">park</term> is reserved for children, the use of such facility or equipment must be restricted to persons not older than 12 years of age.</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.2">
+            <num>(2)</num>
+            <content>
+              <p>An <term refersTo="#term-authorised_official" id="trm130">authorised official</term> may require any <term refersTo="#term-person" id="trm131">person</term> to produce documentary proof of age of any <term refersTo="#term-person" id="trm132">person</term> intending to use a facility or equipment referred to in subsection (1), failing which such <term refersTo="#term-person" id="trm133">person</term> may be refused access to the facility or equipment concerned.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-19">
+          <num>19.</num>
+          <heading>Animals</heading>
+          <subsection id="section-19.1">
+            <num>(1)</num>
+            <content>
+              <p>Except for a guide dog which is being used by a blind <term refersTo="#term-person" id="trm134">person</term>, the <term refersTo="#term-Municipality" id="trm135">Municipality</term> reserves the right to prohibit or restrict the access of any <term refersTo="#term-animal" id="trm136">animal</term> into a <term refersTo="#term-park" id="trm137">park</term> through a <term refersTo="#term-notice" id="trm138">notice</term> to that effect displayed at or near the entrance to such <term refersTo="#term-park" id="trm139">park</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-19.2">
+            <num>(2)</num>
+            <content>
+              <p>Where <term refersTo="#term-animal" id="trm140">animal</term> access into a <term refersTo="#term-park" id="trm141">park</term> is not prohibited in terms of subsection (1), any <term refersTo="#term-person" id="trm142">person</term> who brings an <term refersTo="#term-animal" id="trm143">animal</term> into a <term refersTo="#term-park" id="trm144">park</term> must keep it under proper control and ensure that any excrement by such <term refersTo="#term-animal" id="trm145">animal</term> is immediately removed and disposed of in a waste bin or other receptacle provided by the <term refersTo="#term-Municipality" id="trm146">Municipality</term> for that purpose.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>Tree preservation orders</heading>
+          <subsection id="section-20.1">
+            <num>(1)</num>
+            <content>
+              <p>If, in the opinion of the <term refersTo="#term-Municipality" id="trm147">Municipality</term>, any tree or group of trees in a <term refersTo="#term-park" id="trm148">park</term> requires legal protection, the <term refersTo="#term-Municipality" id="trm149">Municipality</term> may issue a <term refersTo="#term-tree_preservation_order" id="trm150">tree preservation order</term> in respect of the tree or group of trees concerned.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.2">
+            <num>(2)</num>
+            <content>
+              <p>A copy of the <term refersTo="#term-tree_preservation_order" id="trm151">tree preservation order</term> must be displayed prominently within three metres of the tree or group of trees to which the order relates.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.3">
+            <num>(3)</num>
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm152">person</term> who cuts, uproots or causes any damage whatsoever to a tree or group of trees to which a <term refersTo="#term-tree_preservation_order" id="trm153">tree preservation order</term> relates, commits an offence.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-21">
+          <num>21.</num>
+          <heading>Prohibited conduct</heading>
+          <subsection id="section-21.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-person" id="trm154">person</term> entering or visiting a <term refersTo="#term-park" id="trm155">park</term> must at all times act in strict compliance with the provisions of this By-law, as well as such lawful instructions and orders as may be issued or given by an <term refersTo="#term-authorised_official" id="trm156">authorised official</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-21.2.list1">
+                <listIntroduction>Subject to the provisions of subsection (1), a <term refersTo="#term-person" id="trm157">person</term> entering or visiting a <term refersTo="#term-park" id="trm158">park</term> may not –</listIntroduction>
+                <item id="section-21.2.list1.a">
+                  <num>(a)</num>
+                  <p>conduct himself or herself in a manner which is inappropriate, improper or indecent;</p>
+                </item>
+                <item id="section-21.2.list1.b">
+                  <num>(b)</num>
+                  <p>cause a nuisance, annoyance or disturbance to any other <term refersTo="#term-person" id="trm159">person</term> visiting the <term refersTo="#term-park" id="trm160">park</term>;</p>
+                </item>
+                <item id="section-21.2.list1.c">
+                  <num>(c)</num>
+                  <p>destroy or remove any tree, flower or plant growing in any part of the <term refersTo="#term-park" id="trm161">park</term>;</p>
+                </item>
+                <item id="section-21.2.list1.d">
+                  <num>(d)</num>
+                  <p>deposit or throw any rubbish, paper or other waste matter or thing anywhere other than in a receptacle provided by the <term refersTo="#term-Municipality" id="trm162">Municipality</term> for such purpose;</p>
+                </item>
+                <item id="section-21.2.list1.e">
+                  <num>(e)</num>
+                  <p>shoot or injure any bird or <term refersTo="#term-animal" id="trm163">animal</term> or throw a stick, stone or other object with the intent to injure any bird or <term refersTo="#term-animal" id="trm164">animal</term> or interfere with any fish in a fountain;</p>
+                </item>
+                <item id="section-21.2.list1.f">
+                  <num>(f)</num>
+                  <p>bathe or wash any dog or other <term refersTo="#term-animal" id="trm165">animal</term> in any pond or fountain;</p>
+                </item>
+                <item id="section-21.2.list1.g">
+                  <num>(g)</num>
+                  <p>drive, ride or <term refersTo="#term-park" id="trm166">park</term> any <term refersTo="#term-vehicle" id="trm167">vehicle</term> or cause or permit any <term refersTo="#term-vehicle" id="trm168">vehicle</term> to be within the area of any <term refersTo="#term-park" id="trm169">park</term>, except insofar as is permitted by a <term refersTo="#term-notice" id="trm170">notice</term> displayed in the <term refersTo="#term-park" id="trm171">park</term>;</p>
+                </item>
+                <item id="section-21.2.list1.h">
+                  <num>(h)</num>
+                  <p>damage, tamper with or destroy any equipment, amenity or structure;</p>
+                </item>
+                <item id="section-21.2.list1.i">
+                  <num>(i)</num>
+                  <p>lie on a bench or seating place or use it in such a manner that it prevents others from using it;</p>
+                </item>
+                <item id="section-21.2.list1.j">
+                  <num>(j)</num>
+                  <p>use any <term refersTo="#term-park" id="trm172">park</term> facility or water resources, including a fish pond, fountain, stream, dam or pond to swim, bathe, walk, or place or wash clothes or other things;</p>
+                </item>
+                <item id="section-21.2.list1.k">
+                  <num>(k)</num>
+                  <p>skate on roller skates or on a skateboard or similar device except where permitted by a <term refersTo="#term-notice" id="trm173">notice</term> displayed in the <term refersTo="#term-park" id="trm174">park</term>;</p>
+                </item>
+                <item id="section-21.2.list1.l">
+                  <num>(l)</num>
+                  <p>build, erect, place, create, remove or modify any structure, amenity, pathway, trail, jump or ramp;</p>
+                </item>
+                <item id="section-21.2.list1.m">
+                  <num>(m)</num>
+                  <blockList id="section-21.2.list1.m.list0">
+                    <listIntroduction>play or conduct any game of any nature that will cause –</listIntroduction>
+                    <item id="section-21.2.list1.m.list0.i">
+                      <num>(i)</num>
+                      <p>disturbance or potentially disturb; or</p>
+                    </item>
+                    <item id="section-21.2.list1.m.list0.ii">
+                      <num>(ii)</num>
+                      <p>injury to, other <term refersTo="#term-park" id="trm175">park</term> users, except at places set aside for such purpose by a <term refersTo="#term-notice" id="trm176">notice</term> displayed in the <term refersTo="#term-park" id="trm177">park</term> and in accordance with the direction of an <term refersTo="#term-authorised_official" id="trm178">authorised official</term>, if any;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-21.2.list1.n">
+                  <num>(n)</num>
+                  <p>sell, offer or display for sale or hire any commodity or article or distribute any pamphlet, book, handbill, or other printed or written matter without prior written consent of the <term refersTo="#term-Municipality" id="trm179">Municipality</term>;</p>
+                </item>
+                <item id="section-21.2.list1.o">
+                  <num>(o)</num>
+                  <blockList id="section-21.2.list1.o.list1">
+                    <listIntroduction>carry, possess or discharge within a <term refersTo="#term-park" id="trm180">park</term> a –</listIntroduction>
+                    <item id="section-21.2.list1.o.list1.i">
+                      <num>(i)</num>
+                      <p>firearm or airgun unless it is in accordance with any applicable law; or</p>
+                    </item>
+                    <item id="section-21.2.list1.o.list1.ii">
+                      <num>(ii)</num>
+                      <p>slingshot, bow and arrow, dart device, or other device designed for high-speed missile projection, except where permitted by the <term refersTo="#term-Municipality" id="trm181">Municipality</term> to do so;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-21.2.list1.p">
+                  <num>(p)</num>
+                  <p>engage in any other conduct in contravention of this By-law, the <term refersTo="#term-Municipality" id="trm182">Municipality</term>’s Nuisance and Health By-laws or any other applicable law;</p>
+                </item>
+                <item id="section-21.2.list1.q">
+                  <num>(q)</num>
+                  <p>sleep over or camp in the <term refersTo="#term-park" id="trm183">park</term>;</p>
+                </item>
+                <item id="section-21.2.list1.r">
+                  <num>(r)</num>
+                  <p>remove any gravel, sand, sod, turf or mould;</p>
+                </item>
+                <item id="section-21.2.list1.s">
+                  <num>(s)</num>
+                  <p>fish, except where permitted by <term refersTo="#term-notice" id="trm184">notice</term> and in accordance with the conditions of the applicable permit;</p>
+                </item>
+                <item id="section-21.2.list1.t">
+                  <num>(t)</num>
+                  <p>launch a boat of any kind on any river or pond except where permitted by the <term refersTo="#term-Municipality" id="trm185">Municipality</term> to do so;</p>
+                </item>
+                <item id="section-21.2.list1.u">
+                  <num>(u)</num>
+                  <p>pollute or contaminate in any way the water in any water resource, including a fish pond, fountain, stream, dam or pond; and</p>
+                </item>
+                <item id="section-21.2.list1.v">
+                  <num>(v)</num>
+                  <p>perform any act that may detrimentally affect the health of any visitors to the <term refersTo="#term-park" id="trm186">park</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-5">
+        <num>5</num>
+        <heading>Enforcement</heading>
+        <section id="section-22">
+          <num>22.</num>
+          <heading>Offences and penalties</heading>
+          <subsection id="section-22.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-22.1.list1">
+                <listIntroduction>A <term refersTo="#term-person" id="trm187">person</term> who –</listIntroduction>
+                <item id="section-22.1.list1.a">
+                  <num>(a)</num>
+                  <p>contravenes, refuses or fails to comply with any provision of this By-law;</p>
+                </item>
+                <item id="section-22.1.list1.b">
+                  <num>(b)</num>
+                  <blockList id="section-22.1.list1.b.list0">
+                    <listIntroduction>refuses or fails to comply with any –</listIntroduction>
+                    <item id="section-22.1.list1.b.list0.i">
+                      <num>(i)</num>
+                      <p><term refersTo="#term-notice" id="trm188">notice</term> issued; or</p>
+                    </item>
+                    <item id="section-22.1.list1.b.list0.ii">
+                      <num>(ii)</num>
+                      <p>lawful instruction given, in accordance with this By-law; or</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-22.1.list1.c">
+                  <num>(c)</num>
+                  <p>obstructs or hinders any <term refersTo="#term-authorised_official" id="trm189">authorised official</term> of the <term refersTo="#term-Municipality" id="trm190">Municipality</term> in the execution of his or her duties under this By-law,</p>
+                </item>
+              </blockList>
+              <p>is guilty of an offence.</p>
+            </content>
+          </subsection>
+          <subsection id="section-22.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-person" id="trm191">person</term> who is convicted of an offence under this section may be sentenced to a maximum fine of R40 000or to imprisonment for a period not exceeding two years or to both such fine and a period of imprisonment.</p>
+            </content>
+          </subsection>
+          <subsection id="section-22.3">
+            <num>(3)</num>
+            <content>
+              <p>In the case of a continuing offence an additional fine of an amount not exceeding R200-00 or imprisonment for a period not exceeding 10 days, for each day on which such offence continues or both such fine and imprisonment, will be imposed.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-6">
+        <num>6</num>
+        <heading>Miscellaneous</heading>
+        <section id="section-23">
+          <num>23.</num>
+          <heading>Delegations</heading>
+          <subsection id="section-23.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-23.1.list1">
+                <listIntroduction>Subject to the <term refersTo="#term-Constitution" id="trm192">Constitution</term> and applicable national and provincial laws, any –</listIntroduction>
+                <item id="section-23.1.list1.a">
+                  <num>(a)</num>
+                  <p>power, excluding a power referred to in section 160(2) of the <term refersTo="#term-Constitution" id="trm193">Constitution</term>;</p>
+                </item>
+                <item id="section-23.1.list1.b">
+                  <num>(b)</num>
+                  <p>function; or</p>
+                </item>
+                <item id="section-23.1.list1.c">
+                  <num>(c)</num>
+                  <p>duty,</p>
+                </item>
+              </blockList>
+              <p>conferred, in terms of this By-law, upon the <term refersTo="#term-Council" id="trm194">Council</term>, or on any of the <term refersTo="#term-Municipality" id="trm195">Municipality</term>'s other political structures, political office bearers, councillors or staff members, may be delegated or subdelegated by such political structure, political office bearer, councillor or staff member, to an entity within, or a staff member employed by, the <term refersTo="#term-Municipality" id="trm196">Municipality</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.2">
+            <num>(2)</num>
+            <content>
+              <p>A delegation in accordance with subsection (1) must be effected in accordance with the system of delegation adopted by the <term refersTo="#term-Council" id="trm197">Council</term> in accordance with section 59(1) of the <term refersTo="#term-Systems_Act" id="trm198">Systems Act</term>, subject to the criteria set out in section 50(2) of the said Act.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-23.3.list1">
+                <listIntroduction>Any delegation contemplated in this section must be recorded in the Register of Delegations, which must contain information on the-</listIntroduction>
+                <item id="section-23.3.list1.a">
+                  <num>(a)</num>
+                  <p>entity or <term refersTo="#term-person" id="trm199">person</term> issuing the delegation or sub-delegation;</p>
+                </item>
+                <item id="section-23.3.list1.b">
+                  <num>(b)</num>
+                  <p>recipient of the delegation or sub-delegation; and</p>
+                </item>
+                <item id="section-23.3.list1.c">
+                  <num>(c)</num>
+                  <p>conditions attached to the delegation or sub-delegation.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-24">
+          <num>24.</num>
+          <heading>Appeals</heading>
+          <subsection id="section-24.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-person" id="trm200">person</term> whose rights are affected by a decision taken by the <term refersTo="#term-Municipality" id="trm201">Municipality</term> in terms of this By-law may appeal against the decision in terms of the Appeals provision contained the <term refersTo="#term-Systems_Act" id="trm202">Systems Act</term> by giving written <term refersTo="#term-notice" id="trm203">notice</term> of the appeal and reasons to the <term refersTo="#term-Municipal_Manager" id="trm204">Municipal Manager</term> within 21 days of the date of the notification of the decision.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-Municipal_Manager" id="trm205">Municipal Manager</term> must promptly submit the appeal to the appropriate appeal authority.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.3">
+            <num>(3)</num>
+            <content>
+              <p>The appeal authority must commence with an appeal within six weeks and decide the appeal within a reasonable period.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.4">
+            <num>(4)</num>
+            <content>
+              <p>The appeal authority must confirm, vary or revoke the decision, but no such variation or revocation of a decision may detract from any rights which may have accrued as a result of the decision.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.5">
+            <num>(5)</num>
+            <content>
+              <p>The appeal authority must furnish written reasons for its decision on all appeal matters.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.6">
+            <num>(6)</num>
+            <content>
+              <p>All appeals lodged are done so in terms of the <term refersTo="#term-Systems_Act" id="trm206">Systems Act</term> and not in terms of this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.7">
+            <num>(7)</num>
+            <content>
+              <p>Where a conviction has been affirmed by a court of law and the accused wishes to appeal such conviction, the appeal must take place in terms of the court’s appeal process and not in terms of subsections (1) to (5).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-25">
+          <num>25.</num>
+          <heading>Repeal of laws and savings</heading>
+          <subsection id="section-25.1">
+            <num>(1)</num>
+            <content>
+              <p>The laws mentioned in the first and second columns of the Schedule to this By-law are hereby repealed to the extent set out in the third column of the said Schedule.</p>
+            </content>
+          </subsection>
+          <subsection id="section-25.2">
+            <num>(2)</num>
+            <content>
+              <p>Any rights accrued or obligations incurred under any By-law repealed in terms of subsection (1) remain in force as if that By-law has not been repealed.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-26">
+          <num>26.</num>
+          <heading>Short title and commencement</heading>
+          <paragraph id="section-26.paragraph-0">
+            <content>
+              <p>This By-law is called the Parks and Recreational Grounds By-law, 2015, and takes effect six months from the date of publication thereof in the Provincial Gazette or on such earlier date as may be determined by the publication of a commencement <term refersTo="#term-notice" id="trm207">notice</term> in the Provincial Gazette.</p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+    </body>
+  </act>
+  <components>
+    <component id="component-schedule">
+      <doc name="schedule">
+        <meta>
+          <identification source="#slaw">
+            <FRBRWork>
+              <FRBRthis value="/za-eth/act/by-law/2015/parks-recreational-grounds/schedule"/>
+              <FRBRuri value="/za-eth/act/by-law/2015/parks-recreational-grounds"/>
+              <FRBRalias value="SCHEDULE"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-eth/act/by-law/2015/parks-recreational-grounds/eng@2015-10-12/schedule"/>
+              <FRBRuri value="/za-eth/act/by-law/2015/parks-recreational-grounds/eng@2015-10-12"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-eth/act/by-law/2015/parks-recreational-grounds/eng@2015-10-12/schedule"/>
+              <FRBRuri value="/za-eth/act/by-law/2015/parks-recreational-grounds/eng@2015-10-12"/>
+              <FRBRdate date="2017-12-18" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule">
+            <heading>LAWS REPEALED</heading>
+            <paragraph id="schedule.paragraph-0">
+              <content>
+                <table xmlns="http://www.akomantoso.org/2.0" id="schedule/schedule/schedule.paragraph-0.table0">
+                  <tr>
+                    <th>
+                      <p>Number and year of law</p>
+                    </th>
+                    <th>
+                      <p>Title</p>
+                    </th>
+                    <th>
+                      <p>Extent of repeal</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 136 of 1928 (as amended) published in Provincial Gazette No. 1028 dated 26 April 1928</p>
+                    </td>
+                    <td>
+                      <p>Parks and Pleasure Grounds By-law</p>
+                    </td>
+                    <td>
+                      <p>The whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 493 of 1963 published in Provincial Gazette No. 3182 dated 21 November 1963</p>
+                    </td>
+                    <td>
+                      <p>Borough Of Amanzimtoti By-Laws Controlling Parks And Pleasure Grounds</p>
+                    </td>
+                    <td>
+                      <p>The whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Municipal Notice No. 30 of 2002 published in Provincial Gazette No. 6125 dated 5 September 2002</p>
+                    </td>
+                    <td>
+                      <p>Ethekwini Municipality Interim Parks And Recreation Grounds By-Laws</p>
+                    </td>
+                    <td>
+                      <p>The whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 87of 1953 published in Provincial Gazette No. 4769 dated 15 October 1990</p>
+                    </td>
+                    <td>
+                      <p>Gillitts Town Board Standard By-Laws</p>
+                    </td>
+                    <td>
+                      <p>The whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 493 of 1963 published in Provincial Gazette No. 3182 dated 21 November 1963</p>
+                    </td>
+                    <td>
+                      <p>Borough Of Isipingo By-Laws Controlling Parks And Pleasure Grounds</p>
+                    </td>
+                    <td>
+                      <p>The whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 57 of 1971 published in Provincial Gazette No. 3601 dated 28 January 1971</p>
+                    </td>
+                    <td>
+                      <p>Borough Of New Germany By-Laws Relating To Public Parks, RecreationGrounds And Open Spaces</p>
+                    </td>
+                    <td>
+                      <p>The whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>ProvincialNotice No. 87 of 1953 published in Provincial Gazette No. 2461 dated 10 March 1953</p>
+                    </td>
+                    <td>
+                      <p>Township Of Mount Edgecombe Standard By-Laws</p>
+                    </td>
+                    <td>
+                      <p>Chapter XX By-Laws Relating To Public Amenities</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 87 of 1953 published in Provincial Gazette No. 2461 dated 10 March 1953</p>
+                    </td>
+                    <td>
+                      <p>Township Of Tongaat Standard By-Laws</p>
+                    </td>
+                    <td>
+                      <p>Chapter Xx By-Laws Relating To Public Amenities</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 509 of 1973 published in Provincial Gazette No. 3759 dated 20 September 1973</p>
+                    </td>
+                    <td>
+                      <p>Borough Of Umhlanga Parks And Pleasure Grounds By-Laws</p>
+                    </td>
+                    <td>
+                      <p>The whole</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Provincial Notice No. 442 of 1965 published in Provincial Gazette No. 3294 dated 28 October 1965</p>
+                    </td>
+                    <td>
+                      <p>Township Of Umkomaas By-Laws Relating To Parks, Gardens, Beaches, Swimming Baths, Sports Grounds And Public Places</p>
+                    </td>
+                    <td>
+                      <p>The whole</p>
+                    </td>
+                  </tr>
+                </table>
+              </content>
+            </paragraph>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>
