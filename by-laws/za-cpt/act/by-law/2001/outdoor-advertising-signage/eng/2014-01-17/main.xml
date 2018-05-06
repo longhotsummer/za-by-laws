@@ -11,22 +11,22 @@
           <FRBRcountry value="za"/>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/main"/>
-          <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
-          <FRBRdate date="2001-12-05" name="Generation"/>
+          <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
+          <FRBRdate date="2014-01-17" name="Generation"/>
           <FRBRauthor href="#council" as="#author"/>
           <FRBRlanguage language="eng"/>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/main"/>
-          <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
-          <FRBRdate date="2017-05-06" name="Generation"/>
+          <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/main"/>
+          <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
+          <FRBRdate date="2018-05-01" name="Generation"/>
           <FRBRauthor href="#openbylaws" as="#author"/>
         </FRBRManifestation>
       </identification>
       <publication date="2001-12-05" name="Province of Western Cape: Provincial Gazette" number="5801" showAs="Province of Western Cape: Provincial Gazette"/>
       <lifecycle source="#this">
-        <eventRef id="amendment-2014-01-21" date="2014-01-21" type="amendment" source="#amendment-0-source"/>
+        <eventRef id="amendment-2014-01-17" date="2014-01-17" type="amendment" source="#amendment-0-source"/>
       </lifecycle>
       <references source="#this">
         <TLCOrganization id="openbylaws" href="http://openbylaws.org.za" showAs="openbylaws.org.za"/>
@@ -83,7 +83,7 @@
         <TLCTerm id="term-Security_sign" href="/ontology/term/this.eng.Security_sign" showAs="Security sign"/>
         <TLCTerm id="term-Service_station_facility_sign" href="/ontology/term/this.eng.Service_station_facility_sign" showAs="Service station facility sign"/>
         <TLCTerm id="term-Sign" href="/ontology/term/this.eng.Sign" showAs="Sign"/>
-        <TLCTerm id="term-Signalized_traff_c_intersection" href="/ontology/term/this.eng.Signalized_traff_c_intersection" showAs="Signalized traffıc intersection"/>
+        <TLCTerm id="term-Signalized_traffic_intersection" href="/ontology/term/this.eng.Signalized_traffic_intersection" showAs="Signalized traffic intersection"/>
         <TLCTerm id="term-Sky_sign" href="/ontology/term/this.eng.Sky_sign" showAs="Sky sign"/>
         <TLCTerm id="term-Sponsored_sign" href="/ontology/term/this.eng.Sponsored_sign" showAs="Sponsored sign"/>
         <TLCTerm id="term-Street_name_signs" href="/ontology/term/this.eng.Street_name_signs" showAs="Street name signs"/>
@@ -91,15 +91,15 @@
         <TLCTerm id="term-Sub-council" href="/ontology/term/this.eng.Sub-council" showAs="Sub-council"/>
         <TLCTerm id="term-Third-party_advertising" href="/ontology/term/this.eng.Third-party_advertising" showAs="Third-party advertising"/>
         <TLCTerm id="term-Three_dimensional_sign" href="/ontology/term/this.eng.Three_dimensional_sign" showAs="Three dimensional sign"/>
-        <TLCTerm id="term-Traff_c_Impact_Assessment" href="/ontology/term/this.eng.Traff_c_Impact_Assessment" showAs="Traffıc Impact Assessment"/>
-        <TLCTerm id="term-Traff_c_Sign" href="/ontology/term/this.eng.Traff_c_Sign" showAs="Traffıc Sign"/>
+        <TLCTerm id="term-Traffic_Impact_Assessment" href="/ontology/term/this.eng.Traffic_Impact_Assessment" showAs="Traffic Impact Assessment"/>
+        <TLCTerm id="term-Traffic_Sign" href="/ontology/term/this.eng.Traffic_Sign" showAs="Traffic Sign"/>
         <TLCTerm id="term-Transit_advertising" href="/ontology/term/this.eng.Transit_advertising" showAs="Transit advertising"/>
         <TLCTerm id="term-Transportation_Terminals" href="/ontology/term/this.eng.Transportation_Terminals" showAs="Transportation Terminals"/>
         <TLCTerm id="term-Urban_edge_line" href="/ontology/term/this.eng.Urban_edge_line" showAs="Urban edge line"/>
         <TLCTerm id="term-Verandah" href="/ontology/term/this.eng.Verandah" showAs="Verandah"/>
         <TLCTerm id="term-Window_signs" href="/ontology/term/this.eng.Window_signs" showAs="Window signs"/>
         <TLCTerm id="term-Zone" href="/ontology/term/this.eng.Zone" showAs="Zone"/>
-        <passiveRef id="amendment-0-source" href="/za/by-law/cape-town/2014/outdoor-advertising-signage-amendment" showAs="City of Cape Town: Outdoor Advertising and Signage By-law No 5801 of 2001, First Amendment By-law 2013"/>
+        <passiveRef id="amendment-0-source" href="/za-cpt/act/by-law/2014/outdoor-advertising-signage-amendment" showAs="City of Cape Town: Outdoor Advertising and Signage By-law No 5801 of 2001, First Amendment By-law 2013"/>
       </references>
     </meta>
     <preamble>
@@ -117,390 +117,118 @@
       <p>Finally, this By-Law sets out the procedures to be followed and the criteria used when obtaining approval for a sign applicable to outdoor advertising in the City of Cape Town. In doing so, it recognises that there is an extensive amount of technical detail applicable to specific sign types and their effect in specific localities. The specific requirements for specific signs are set out in the Schedules hereto. The Schedules are part of the By-Law. These Schedules are not any less important than the content of the By-Law itself.</p>
     </preamble>
     <body>
-      <part id="part-A">
+      <part xmlns="http://www.akomantoso.org/2.0" id="part-A">
         <num>A</num>
         <heading>Definitions</heading>
-        <section id="section-0">
+        <section id="section-definitions">
           <heading>Definitions</heading>
-          <subsection id="section-0.subsection-0">
+          <paragraph id="section-definitions.paragraph-0" refersTo="#term-Zone">
             <content>
               <p>In this By-law, unless the context otherwise indicates:</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-1" refersTo="#term-Advertising_structure">
-            <content>
               <p>"<def refersTo="#term-Advertising_structure">Advertising structure</def>" means any physical structure built or capable of being used to display a sign.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-2" refersTo="#term-Advertisement">
-            <content>
               <p>"<def refersTo="#term-Advertisement">Advertisement</def>" means any representation of a word, name, letter, figure or object or an abbreviation of a word or name, or any symbol; or any light which is not intended solely for illumination or as a warning against any dangers and "advertising" has a similar meaning.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-3" refersTo="#term-Aerial_sign">
-            <content>
               <p>"<def refersTo="#term-Aerial_sign">Aerial sign</def>" means a sign that is displayed or performed in the air, including but not limited to balloons and blimps that can be viewed from within the <term refersTo="#term-Municipality" id="trm0">Municipality</term>’s area of jurisdiction.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-4" refersTo="#term-Approval">
-            <content>
               <p>"<def refersTo="#term-Approval">Approval</def>" means approval by the <term refersTo="#term-Municipality" id="trm1">Municipality</term> or by officials, sub-council’s committees or executive councillors by virtue of powers delegated to them; and "approve" has a corresponding meaning.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-5" refersTo="#term-Areas_of_control">
-            <content>
               <p>"<def refersTo="#term-Areas_of_control">Areas of control</def>" means those areas set out in Schedule 1 of the By-law; and which may be modified and/or amended from time to time, which amendments and modifications will be graphically depicted by way of maps as prepared by the <term refersTo="#term-Municipality" id="trm2">Municipality</term> from time to time.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-6" refersTo="#term-Banner">
-            <content>
               <p>"<def refersTo="#term-Banner">Banner</def>" means any material upon which a sign is displayed in such a manner as to be fully legible in windless conditions, attached to one or more ropes, poles or flagstaffs projecting vertically, horizontally or at an angle, or attached to buildings or special structures, but excludes banners carried as part of a procession. A flag which is not displayed on an approved flag pole shall for the purposes of this By-law, be deemed to be a banner.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-7" refersTo="#term-Billboard">
-            <content>
               <p>"<def refersTo="#term-Billboard">Billboard</def>" means any screen or board which stands free and is larger than 4,5m² in total area; which is supported by, or consists of, a structure used, or intended to be used, for the purpose of posting, displaying or exhibiting a sign.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-8" refersTo="#term-Clear_height">
-            <content>
               <p>"<def refersTo="#term-Clear_height">Clear height</def>", in relation to a sign, means the vertical distance between the lowest edge of the sign and the natural level of the surrounding ground, footway or roadway immediately below the sign.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-9" refersTo="#term-Commercial_advertising">
-            <content>
               <p>"<def refersTo="#term-Commercial_advertising">Commercial advertising</def>" means any words, letters, logos, figures, symbols, pictures relating to the name of a business, trade, partnership, individual, or any information, recommendation or exhortation; in respect of any particular goods manufactured or sold, or any particular services rendered or offered, or any event for commerce or entertainment, including sporting events.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-10" refersTo="#term-Commercially_sponsored_sign">
-            <content>
               <p>"<def refersTo="#term-Commercially_sponsored_sign">Commercially sponsored sign</def>" means a sign which advertises goods or services; but the erection of which has a secondary purpose, which is to promote or contribute to some recognised public or community goal or function.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-11" refersTo="#term-Common_boundary_fa_ade">
-            <content>
               <p>"<def refersTo="#term-Common_boundary_fa_ade">Common boundary façade</def>" means any façade of a building which is built abutting a rear or side boundary of an erf and which façade is blank, meaning having no architectural features, which includes windows.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-12" refersTo="#term-Composite_sign">
-            <content>
               <p>"<def refersTo="#term-Composite_sign">Composite sign</def>" means a single freestanding advertising structure for the display of more than one advertising sign.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-13" refersTo="#term-Consultant">
-            <content>
               <p>"<def refersTo="#term-Consultant">Consultant</def>" means a suitably qualified independent person or company that acts on behalf of, or as an agent of, an applicant for approval of a sign in terms of this By-law.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-14" refersTo="#term-Continuing_offence">
-            <content>
               <p>"<def refersTo="#term-Continuing_offence">Continuing offence</def>" means an offence in terms of this By-law, which continues to exist, after the expiry of the notice period referred to in a notice served in terms of this By-law.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-15" refersTo="#term-Custom_made_design">
-            <content>
               <p>"<def refersTo="#term-Custom_made_design">Custom made design</def>" means the design of any sign, which features special effects such as specialist character cut outs and/or shapes and/or three dimensional presentations or moving parts and which is uniquely designed and/or constructed for erection in a particular location.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-16" refersTo="#term-Designated_Metropolitan_Road">
-            <content>
               <p>"<def refersTo="#term-Designated_Metropolitan_Road">Designated Metropolitan Road</def>" means a Class I (freeways and expressways), class 2 (primary arterials), class 3 (secondary arterials) road as depicted graphically from time to time on MAP CMT.R-0007, issued by the <term refersTo="#term-Municipality" id="trm3">Municipality</term> from time to time in terms of The Urban Transport <ref href="/za/act/1977/78">Act No. 78 of 1977</ref>.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-17" refersTo="#term-Development_board">
-            <content>
               <p>"<def refersTo="#term-Development_board">Development board</def>" means a sign displayed at premises upon which building operations are currently in progress and relating to any services being provided, work being done or goods being supplied in connection with such building operations. This excludes contract boards for building and civil engineering projects as required in terms of the National Building Regulations and Control <ref href="/za/act/1977/103">Act, 103 of 1977</ref> as amended from time to time and defined in terms of the General Conditions of Contract and/or Specifications of the appropriate institutions.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-18" refersTo="#term-Display">
-            <content>
               <p>"<def refersTo="#term-Display">Display</def>" means the display of a sign and includes the erection of any billboard, sign or structure intended solely or primarily for the support of a sign or billboard; and, in addition, includes the display of a sign of a business, trade partnership or individual connected with the contents of the sign or sign; and "displayed" has a corresponding meaning.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-19" refersTo="#term-Electronic_sign">
-            <content>
               <p>"<def refersTo="#term-Electronic_sign">Electronic sign</def>" means a sign which has an electronically controlled, illuminated display surface which allows all, or a portion, of the sign to be changed, or illuminated in different ways.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-20" refersTo="#term-Environmental_Impact_Assessment">
-            <content>
               <p>"<def refersTo="#term-Environmental_Impact_Assessment">Environmental Impact Assessment</def>" (EIA) means an assessment carried out in accordance with the <term refersTo="#term-Municipality" id="trm4">Municipality</term>’s guidelines for outdoor advertising. "Estate Agency" means a person who markets and/or sells properties with or without buildings erected thereon and "estate agent" has a corresponding meaning.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-21" refersTo="#term-Existing_sign">
-            <content>
               <p>"<def refersTo="#term-Existing_sign">Existing sign</def>" means any sign previously approved by the <term refersTo="#term-Municipality" id="trm5">Municipality</term>.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-22" refersTo="#term-Flat_sign">
-            <content>
               <p>"<def refersTo="#term-Flat_sign">Flat sign</def>" means a sign which is affixed to, or painted directly onto, a wall of a building but not onto, or over, windows or doors or architectural articulations and which at no point projects more than 250 mm in front of the surface of such wall.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-23" refersTo="#term-Freestanding_sign">
-            <content>
               <p>"<def refersTo="#term-Freestanding_sign">Freestanding sign</def>" means any sign or group of signs contained or displayed on one freestanding structure which is not attached to a building or to any structure or object not intended to be used for the primary purpose of advertising.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-24" refersTo="#term-Gateway_route">
-            <content>
               <p>"<def refersTo="#term-Gateway_route">Gateway route</def>" means a prominent route with an entrance to or exit from a specific part of the <term refersTo="#term-Municipality" id="trm6">Municipality</term>’s jurisdiction, consisting of man-made or natural features and creating a strong sense of arrival or departure and which is consistent with city planning and/or development framework plans or policy. These routes may be geographically depicted by way of maps or listed by the <term refersTo="#term-Municipality" id="trm7">Municipality</term> from time to time.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-25" refersTo="#term-Graphic">
-            <content>
               <p>"<def refersTo="#term-Graphic">Graphic</def>" includes but is not limited to any component which contributes to the visual appearance or aesthetics of a sign; including its background. "Headline poster" means a temporary poster advertising the contents of a daily or weekly newspaper.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-26">
-            <content>
               <p>The "Height of a sign" is calculated by measuring the vertical distance between the uppermost and lowest parts of the structure.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-27" refersTo="#term-Heritage_Impact_Assessment">
-            <content>
               <p>"<def refersTo="#term-Heritage_Impact_Assessment">Heritage Impact Assessment</def>" (HIA) means a visual assessment of the impact that any proposed sign may have on the cultural heritage, whether built or recognised, at the locality where the proposed sign will be displayed.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-28" refersTo="#term-Internally_Illuminated_Sign">
-            <content>
               <p>"<def refersTo="#term-Internally_Illuminated_Sign">Internally Illuminated Sign</def>" means an advertisement or structure used to display an advertisement which has been installed with electrical or other power and an artificial light source which is fully or partially enclosed within the structure or sign and which light is intended to illuminate the advertisement or a portion thereof.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-29" refersTo="#term-Law">
-            <content>
               <p>"<def refersTo="#term-Law">Law</def>" means any law, proclamation, ordinance, Act of Parliament or Provincial Legislature, or any other enactment having the force of law.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-30" refersTo="#term-Locality_Bound_Advertising">
-            <content>
               <p>"<def refersTo="#term-Locality_Bound_Advertising">Locality Bound Advertising</def>" means any sign displayed on a specific erf, premises or building and may include (that subject to a prescribed encroachment fee) such a sign on municipal owned land, adjacent to, abutting on and/or within 5 metres of the aforementioned erf; premises or building which sign refers to an activity product service or attraction; located, rendered or provided on or from that erf or those premises.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-31" refersTo="#term-Loose_portable_sign">
-            <content>
               <p>"<def refersTo="#term-Loose_portable_sign">Loose portable sign</def>" means a freestanding locality bound notice or advertising board placed or erected in the <term refersTo="#term-Road_Reserve" id="trm8">Road Reserve</term> or in a public open space. "Movable sign" means a sign not permanently fixed and not intended to remain fixed in one position, but does not include any moving part on a fixed permanent sign.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-32" refersTo="#term-Municipality">
-            <content>
-              <p>"<def refersTo="#term-Municipality">Municipality</def>" means the Municipality of the City of Cape Town and includes any executive councillor, or Committee or Sub-Council established by the Municipality, or any employee thereof, or duly authorised agent thereof acting in connection with this By-law by virtue of a power vested in the Municipality and delegated to such employee or agent.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-33" refersTo="#term-New_sign">
-            <content>
+              <p>"<def refersTo="#term-Municipality">Municipality</def>" means the <term refersTo="#term-Municipality" id="trm9">Municipality</term> of the City of Cape Town and includes any executive councillor, or Committee or Sub-Council established by the <term refersTo="#term-Municipality" id="trm10">Municipality</term>, or any employee thereof, or duly authorised agent thereof acting in connection with this By-law by virtue of a power vested in the <term refersTo="#term-Municipality" id="trm11">Municipality</term> and delegated to such employee or agent.</p>
               <p>"<def refersTo="#term-New_sign">New sign</def>" means any sign first displayed after the promulgation of this By-law;</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-34" refersTo="#term-Non-profit_body">
-            <content>
-              <p>"<def refersTo="#term-Non-profit_body">Non-profit body</def>" is a body established primarily to promote a community goal or benefit without direct or personal financial gain; and may include educational, sporting, medical, municipal departments; bodies as well as charities or community organisations. The <term refersTo="#term-Municipality" id="trm9">Municipality</term> may call for documentary proof, (which may include the production of bank statements) of the non profit status or community benefit objective of the body.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-35">
-            <content>
-              <blockList id="section-0.subsection-35.list35" refersTo="#term-Organ_of_state">
+              <p>"<def refersTo="#term-Non-profit_body">Non-profit body</def>" is a body established primarily to promote a community goal or benefit without direct or personal financial gain; and may include educational, sporting, medical, municipal departments; bodies as well as charities or community organisations. The <term refersTo="#term-Municipality" id="trm12">Municipality</term> may call for documentary proof, (which may include the production of bank statements) of the non profit status or community benefit objective of the body.</p>
+              <blockList id="section-definitions.paragraph-0.list36" refersTo="#term-Organ_of_state">
                 <listIntroduction>"<def refersTo="#term-Organ_of_state">Organ of state</def>" means:</listIntroduction>
-                <item id="section-0.subsection-35.list35.a">
+                <item id="section-definitions.paragraph-0.list36.a">
                   <num>(a)</num>
                   <p>any department of state or administration in the national, provincial or local sphere of government;</p>
                 </item>
-                <item id="section-0.subsection-35.list35.b">
+                <item id="section-definitions.paragraph-0.list36.b">
                   <num>(b)</num>
-                  <blockList id="section-0.subsection-35.list35.b.list0">
+                  <blockList id="section-definitions.paragraph-0.list36.b.list0">
                     <listIntroduction>any other functionary or institution:</listIntroduction>
-                    <item id="section-0.subsection-35.list35.b.list0.i">
+                    <item id="section-definitions.paragraph-0.list36.b.list0.i">
                       <num>(i)</num>
                       <p>exercising a power or performing a function in terms of the Constitution or a provincial constitution; or</p>
                     </item>
-                    <item id="section-0.subsection-35.list35.b.list0.ii">
+                    <item id="section-definitions.paragraph-0.list36.b.list0.ii">
                       <num>(ii)</num>
                       <p>exercising a public power or performing a public function in terms of any other legislation.</p>
                     </item>
                   </blockList>
                 </item>
               </blockList>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-36" refersTo="#term-Overall_height">
-            <content>
               <p>"<def refersTo="#term-Overall_height">Overall height</def>", in relation to a sign, means the vertical distance between the uppermost edge of the sign and the finished level of the ground, footway or roadway immediately below the centre point of the sign.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-37" refersTo="#term-Perimeter_of_an_Intersection">
-            <content>
               <p>"<def refersTo="#term-Perimeter_of_an_Intersection">Perimeter of an Intersection</def>" means the perimeter of the area embraced within the prolongation of the road reserve lines of two or more public roads that join one another at any angle, whether or not one such public road crosses the other.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-38">
-            <content>
-              <blockList id="section-0.subsection-38.list38" refersTo="#term-Person">
+              <blockList id="section-definitions.paragraph-0.list40" refersTo="#term-Person">
                 <listIntroduction>"<def refersTo="#term-Person">Person</def>" includes:</listIntroduction>
-                <item id="section-0.subsection-38.list38.a">
+                <item id="section-definitions.paragraph-0.list40.a">
                   <num>(a)</num>
                   <p>any organ of state</p>
                 </item>
-                <item id="section-0.subsection-38.list38.b">
+                <item id="section-definitions.paragraph-0.list40.b">
                   <num>(b)</num>
                   <p>any company incorporated or registered as such under any law</p>
                 </item>
-                <item id="section-0.subsection-38.list38.c">
+                <item id="section-definitions.paragraph-0.list40.c">
                   <num>(c)</num>
                   <p>any body of persons, whether incorporated or not, functioning as a single entity for whatever purpose.</p>
                 </item>
               </blockList>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-39" refersTo="#term-Poster">
-            <content>
               <p>"<def refersTo="#term-Poster">Poster</def>" means temporary signs capable of being attached to the Municipal electrical light standards and/or pasted to fixed structures to advertise events or campaigns, including elections or referenda of limited duration and excluding signs advertising markets, exhibitions or events which are held on a regular basis of more than two days per month.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-40" refersTo="#term-Projected_sign">
-            <content>
               <p>"<def refersTo="#term-Projected_sign">Projected sign</def>" means any sign projected by a laser projector, video projector, or other apparatus.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-41" refersTo="#term-Projecting_sign">
-            <content>
               <p>"<def refersTo="#term-Projecting_sign">Projecting sign</def>" means a sign which is affixed to a wall of a building and which at some point projects more than 250 mm in front of the surface of such wall.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-42" refersTo="#term-Public_fa_ade">
-            <content>
               <p>"<def refersTo="#term-Public_fa_ade">Public façade</def>" means any façade that has windows or other architectural articulation.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-43" refersTo="#term-Public_place">
-            <content>
-              <p>"<def refersTo="#term-Public_place">Public place</def>" means any public road, public street, thoroughfare, bridge, subway, footway, foot pavement, footpath, sidewalk, (or similar pedestrian portion of a <term refersTo="#term-Road_Reserve" id="trm10">Road Reserve</term>), lane, square, open space, garden, park or enclosed place vested in the <term refersTo="#term-Municipality" id="trm11">Municipality</term>, or other state authority or indicated as such on the Surveyor General’s records, or utilized by the public or zoned as such in terms of the applicable zoning scheme.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-44" refersTo="#term-Public_road">
-            <content>
+              <p>"<def refersTo="#term-Public_place">Public place</def>" means any public road, public street, thoroughfare, bridge, subway, footway, foot pavement, footpath, sidewalk, (or similar pedestrian portion of a <term refersTo="#term-Road_Reserve" id="trm13">Road Reserve</term>), lane, square, open space, garden, park or enclosed place vested in the <term refersTo="#term-Municipality" id="trm14">Municipality</term>, or other state authority or indicated as such on the Surveyor General’s records, or utilized by the public or zoned as such in terms of the applicable zoning scheme.</p>
               <p>"<def refersTo="#term-Public_road">Public road</def>" means public road as defined in the National Road Traffic <ref href="/za/act/1996/93">Act 93 of 1996</ref>.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-45" refersTo="#term-Road_Authority">
-            <content>
               <p>"<def refersTo="#term-Road_Authority">Road Authority</def>" means the road authority as defined in Section 2 of the Roads Ordinance (Ordinance 19 of 1976).</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-46" refersTo="#term-Road_Reserve">
-            <content>
               <p>"<def refersTo="#term-Road_Reserve">Road Reserve</def>" means the area contained within the statutory width of a road, and includes roadways, shoulders and sidewalks and the airspace above such roadways, shoulders and sidewalks and all other areas within the road reserve boundary.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-47" refersTo="#term-Roadway">
-            <content>
               <p>"<def refersTo="#term-Roadway">Roadway</def>" means that portion of a road, street or thoroughfare improved, constructed or intended for vehicular traffic as defined in the National Road Traffic <ref href="/za/act/1996/93">Act No 93 of 1996</ref>.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-48" refersTo="#term-Roof_sign">
-            <content>
               <p>"<def refersTo="#term-Roof_sign">Roof sign</def>" means a sign affixed to a roof of a building where the top edge of any point of that sign does not exceed the height of the roof plane to which it is affixed.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-49" refersTo="#term-Scenic_Drive">
-            <content>
-              <p>"<def refersTo="#term-Scenic_Drive">Scenic Drive</def>" means a road designated as such on an approved zoning scheme or from which landscapes or features of aesthetic or cultural significance can be seen or viewed as designated by the <term refersTo="#term-Municipality" id="trm12">Municipality</term> from time to time.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-50" refersTo="#term-Security_sign">
-            <content>
+              <p>"<def refersTo="#term-Scenic_Drive">Scenic Drive</def>" means a road designated as such on an approved zoning scheme or from which landscapes or features of aesthetic or cultural significance can be seen or viewed as designated by the <term refersTo="#term-Municipality" id="trm15">Municipality</term> from time to time.</p>
               <p>"<def refersTo="#term-Security_sign">Security sign</def>" means an outdoor sign for neighbourhood watch and similar schemes, and a sign containing the name, logo, address and telephone number of a security company contracted to protect, or security system installed to protect, the premises on which the sign is displayed.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-51" refersTo="#term-Service_station_facility_sign">
-            <content>
               <p>"<def refersTo="#term-Service_station_facility_sign">Service station facility sign</def>" means freestanding signs at petrol filling stations, roadside rest and service areas and includes service station pylon signs. "Shop" means a building used for retail trade or services.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-52" refersTo="#term-Sign">
-            <content>
               <p>"<def refersTo="#term-Sign">Sign</def>" means any object, product, replica, advertising structure, mural, device or board which is used to publicly display a sign or which is in itself a sign; and includes a poster and a billboard.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-53" refersTo="#term-Signalized_traff_c_intersection">
-            <content>
-              <p>"<def refersTo="#term-Signalized_traff_c_intersection">Signalized traffıc intersection</def>" means an intersection controlled by traffic signals.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-54" refersTo="#term-Sky_sign">
-            <content>
+              <p>"<def refersTo="#term-Signalized_traffic_intersection">Signalized traffic intersection</def>" means an intersection controlled by traffic signals.</p>
               <p>"<def refersTo="#term-Sky_sign">Sky sign</def>" means a sign where the top edge of any point of that sign exceeds the height of the roof plane to which it is affixed.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-55" refersTo="#term-Sponsored_sign">
-            <content>
               <p>"<def refersTo="#term-Sponsored_sign">Sponsored sign</def>" means a sign, the primary purpose of which is not to advertise goods or services but which displays a graphic or content which promotes community or public awareness of a recognised public or community goal.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-56" refersTo="#term-Street_name_signs">
-            <content>
               <p>"<def refersTo="#term-Street_name_signs">Street name signs</def>" means pole-mounted, double-sided, internally illuminated or unilluminated signs displayed in combination with names of streets, not exceeding 1 m².</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-57" refersTo="#term-Street_furniture">
-            <content>
               <p>"<def refersTo="#term-Street_furniture">Street furniture</def>" means public facilities and structures which are not intended primarily for advertising and includes but is not limited to seating benches, planters, bins, pole mounted bins, bus shelters, sidewalk clocks, drinking fountains, Telkom boxes, traffic signal controllers, electricity boxes, post boxes and telephone booths, but excludes road traffic signs, traffic signals, street lights or any other road-related structures.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-58" refersTo="#term-Sub-council">
-            <content>
-              <p>"<def refersTo="#term-Sub-council">Sub-council</def>" means a metropolitan sub-council referred to in Section 62 of the Local Government: Municipal Structures <ref href="/za/act/1998/117">Act No 117 of 1998</ref>. "Temporary signs" means signs which are displayed for a maximum period of 14 days, or such other period as may be approved by the <term refersTo="#term-Municipality" id="trm13">Municipality</term>. "Thickness" in relation to a projecting sign, means the width of such sign measured parallel to the plane of the main wall to which such sign is affixed.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-59" refersTo="#term-Third-party_advertising">
-            <content>
+              <p>"<def refersTo="#term-Sub-council">Sub-council</def>" means a metropolitan sub-council referred to in Section 62 of the Local Government: Municipal Structures <ref href="/za/act/1998/117">Act No 117 of 1998</ref>. "Temporary signs" means signs which are displayed for a maximum period of 14 days, or such other period as may be approved by the <term refersTo="#term-Municipality" id="trm16">Municipality</term>. "Thickness" in relation to a projecting sign, means the width of such sign measured parallel to the plane of the main wall to which such sign is affixed.</p>
               <p>"<def refersTo="#term-Third-party_advertising">Third-party advertising</def>" means the advertising of goods or services that are not made, procured, sold or delivered from the property on which the sign and/or sign advertising of those goods or services is fixed or placed, and includes advertising which is not locality bound as well as the display of a sign which is made, procured or sold from the property but advertises goods or services which are not made, procured, sold or delivered from that property.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-60" refersTo="#term-Three_dimensional_sign">
-            <content>
               <p>"<def refersTo="#term-Three_dimensional_sign">Three dimensional sign</def>" means a sign containing more than 2 dimensions, including product replicas.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-61" refersTo="#term-Traff_c_Impact_Assessment">
-            <content>
-              <p>"<def refersTo="#term-Traff_c_Impact_Assessment">Traffıc Impact Assessment</def>" (TIA) means a study carried out by a registered Professional Engineer with demonstrable experience in the field of traffic engineering that investigates the impact a proposed sign may have on vehicle/pedestrian/cyclist safety and traffic operation. The study should recommend any mitigating measures that may be required as a result of that impact.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-62" refersTo="#term-Traff_c_Sign">
-            <content>
-              <p>"<def refersTo="#term-Traff_c_Sign">Traffıc Sign</def>" means a road traffic sign as prescribed in the National Road Traffic <ref href="/za/act/1996/93">Act No. 93 of 1996</ref>. "Traffıc Signal" means a road traffic signal as prescribed in the National Road Traffic <ref href="/za/act/1996/93">Act No. 93 of 1996</ref>.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-63" refersTo="#term-Transit_advertising">
-            <content>
+              <p>"<def refersTo="#term-Traffic_Impact_Assessment">Traffic Impact Assessment</def>" (TIA) means a study carried out by a registered Professional Engineer with demonstrable experience in the field of traffic engineering that investigates the impact a proposed sign may have on vehicle/pedestrian/cyclist safety and traffic operation. The study should recommend any mitigating measures that may be required as a result of that impact.</p>
+              <p>"<def refersTo="#term-Traffic_Sign">Traffic Sign</def>" means a road traffic sign as prescribed in the National Road Traffic <ref href="/za/act/1996/93">Act No. 93 of 1996</ref>. "Traffic Signal" means a road traffic signal as prescribed in the National Road Traffic <ref href="/za/act/1996/93">Act No. 93 of 1996</ref>.</p>
               <p>"<def refersTo="#term-Transit_advertising">Transit advertising</def>" means advertising by means of a movable sign which is capable of being transported by road either on or in conjunction with a motorized vehicle or non-motorized vehicle, including trailers primarily used for advertising.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-64" refersTo="#term-Transportation_Terminals">
-            <content>
-              <p>"<def refersTo="#term-Transportation_Terminals">Transportation Terminals</def>" means any area designated by the <term refersTo="#term-Municipality" id="trm14">Municipality</term> as such, where the formal interchange of modes of public transport takes place by the public, including, but not limited to designated railway stations, official taxi terminals and bus terminals.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-65" refersTo="#term-Urban_edge_line">
-            <content>
-              <p>"<def refersTo="#term-Urban_edge_line">Urban edge line</def>" means a predetermined point to point boundary line as determined by the <term refersTo="#term-Municipality" id="trm15">Municipality</term> from time to time, which has as its purpose, the containment of urban development.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-66" refersTo="#term-Verandah">
-            <content>
+              <p>"<def refersTo="#term-Transportation_Terminals">Transportation Terminals</def>" means any area designated by the <term refersTo="#term-Municipality" id="trm17">Municipality</term> as such, where the formal interchange of modes of public transport takes place by the public, including, but not limited to designated railway stations, official taxi terminals and bus terminals.</p>
+              <p>"<def refersTo="#term-Urban_edge_line">Urban edge line</def>" means a predetermined point to point boundary line as determined by the <term refersTo="#term-Municipality" id="trm18">Municipality</term> from time to time, which has as its purpose, the containment of urban development.</p>
               <p>"<def refersTo="#term-Verandah">Verandah</def>" includes a cantilevered canopy and sunblind.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-67" refersTo="#term-Window_signs">
-            <content>
               <p>"<def refersTo="#term-Window_signs">Window signs</def>" means signs which are temporarily or permanently painted on, or attached to the window-glass of a building.</p>
-            </content>
-          </subsection>
-          <subsection id="section-0.subsection-68" refersTo="#term-Zone">
-            <content>
               <p>"<def refersTo="#term-Zone">Zone</def>" means a land use zone as set out in the relevant zoning schemes or Town Planning Regulations as amended from time to time and applicable to any erf on which a sign is displayed or intended to be displayed and "zoning" has a corresponding meaning.</p>
             </content>
-          </subsection>
+          </paragraph>
         </section>
       </part>
       <part id="part-B">
@@ -511,7 +239,7 @@
           <heading/>
           <subsection id="section-1.subsection-0">
             <content>
-              <p>Other than those signs referred to in Sections 55 to 62 hereinbelow, no person shall display any advertisement or erect or use any sign or advertising structure for advertising purposes without the <term refersTo="#term-Municipality" id="trm16">Municipality</term>’s approval in terms of this By-law and any other applicable legislation.</p>
+              <p>Other than those signs referred to in Sections 55 to 62 hereinbelow, no person shall display any advertisement or erect or use any sign or advertising structure for advertising purposes without the <term refersTo="#term-Municipality" id="trm19">Municipality</term>’s approval in terms of this By-law and any other applicable legislation.</p>
             </content>
           </subsection>
         </section>
@@ -520,7 +248,7 @@
           <heading/>
           <subsection id="section-2.subsection-0">
             <content>
-              <p>Every person intending to display a new sign or to alter or to add to an existing approved sign; or submitting a signage plan in terms of a Site Development Plan proposal, shall apply in writing to the <term refersTo="#term-Municipality" id="trm17">Municipality</term> which application shall be accompanied by the following information in duplicate:</p>
+              <p>Every person intending to display a new sign or to alter or to add to an existing approved sign; or submitting a signage plan in terms of a Site Development Plan proposal, shall apply in writing to the <term refersTo="#term-Municipality" id="trm20">Municipality</term> which application shall be accompanied by the following information in duplicate:</p>
             </content>
           </subsection>
           <subsection id="section-2.2.1">
@@ -532,7 +260,7 @@
           <subsection id="section-2.2.2">
             <num>2.2</num>
             <content>
-              <p>A drawing, which complies with the requirements of the National Building and Regulations Standards <ref href="/za/act/1977/103">Act 103 of 1977</ref> and is in sufficient detail to enable the <term refersTo="#term-Municipality" id="trm18">Municipality</term> to consider the appearance of the sign and all relevant construction detail, including a description of the materials of which the sign is to be constructed, the colours to be used, and whether or not the sign is to be illuminated; and in the latter event, the plan shall indicate whether or not the sign is an electronic sign and, if so, full details shall be furnished.</p>
+              <p>A drawing, which complies with the requirements of the National Building and Regulations Standards <ref href="/za/act/1977/103">Act 103 of 1977</ref> and is in sufficient detail to enable the <term refersTo="#term-Municipality" id="trm21">Municipality</term> to consider the appearance of the sign and all relevant construction detail, including a description of the materials of which the sign is to be constructed, the colours to be used, and whether or not the sign is to be illuminated; and in the latter event, the plan shall indicate whether or not the sign is an electronic sign and, if so, full details shall be furnished.</p>
             </content>
           </subsection>
           <subsection id="section-2.2.3">
@@ -544,13 +272,13 @@
           <subsection id="section-2.2.4">
             <num>2.4</num>
             <content>
-              <p>If the proposed graphics of the sign are to be altered or changed at any stage during its proposed period of display, such intention must be specified in the application, together with an undertaking that every proposed change of graphic will be delivered to the <term refersTo="#term-Municipality" id="trm19">Municipality</term> for its prior approval, two weeks prior to the proposed display thereof, failing which only the proposed graphics will be considered for approval.</p>
+              <p>If the proposed graphics of the sign are to be altered or changed at any stage during its proposed period of display, such intention must be specified in the application, together with an undertaking that every proposed change of graphic will be delivered to the <term refersTo="#term-Municipality" id="trm22">Municipality</term> for its prior approval, two weeks prior to the proposed display thereof, failing which only the proposed graphics will be considered for approval.</p>
             </content>
           </subsection>
           <subsection id="section-2.2.5">
             <num>2.5</num>
             <content>
-              <p>If a sign is to be attached to or displayed on the wall or façade of a building, the <term refersTo="#term-Municipality" id="trm20">Municipality</term> may require the submission of an additional drawing showing an elevation of the building in colour, the details and position of the proposed sign and the details and the position of every existing sign on the building drawn to a scale of not less than 1:100, or the <term refersTo="#term-Municipality" id="trm21">Municipality</term> may require a coloured print of or an artist’s photographic or computer generated impression of the building with the details of the proposed sign superimposed on such graphic and drawn as nearly as is practicable to the same scale as that of the graphic.</p>
+              <p>If a sign is to be attached to or displayed on the wall or façade of a building, the <term refersTo="#term-Municipality" id="trm23">Municipality</term> may require the submission of an additional drawing showing an elevation of the building in colour, the details and position of the proposed sign and the details and the position of every existing sign on the building drawn to a scale of not less than 1:100, or the <term refersTo="#term-Municipality" id="trm24">Municipality</term> may require a coloured print of or an artist’s photographic or computer generated impression of the building with the details of the proposed sign superimposed on such graphic and drawn as nearly as is practicable to the same scale as that of the graphic.</p>
             </content>
           </subsection>
           <subsection id="section-2.2.6">
@@ -562,7 +290,7 @@
           <subsection id="section-2.2.7">
             <num>2.7</num>
             <content>
-              <p>Upon the request of the <term refersTo="#term-Municipality" id="trm22">Municipality</term>; such additional drawings, calculations and other information as is necessary to enable the <term refersTo="#term-Municipality" id="trm23">Municipality</term> to establish the adequacy of the proposed means of securing, fixing or supporting any proposed sign, sign or billboard and its ability to resist all loads and forces to which the sign, advertising or billboard may be exposed and the sufficiency of the margin of safety against failure.</p>
+              <p>Upon the request of the <term refersTo="#term-Municipality" id="trm25">Municipality</term>; such additional drawings, calculations and other information as is necessary to enable the <term refersTo="#term-Municipality" id="trm26">Municipality</term> to establish the adequacy of the proposed means of securing, fixing or supporting any proposed sign, sign or billboard and its ability to resist all loads and forces to which the sign, advertising or billboard may be exposed and the sufficiency of the margin of safety against failure.</p>
             </content>
           </subsection>
         </section>
@@ -580,7 +308,7 @@
           <heading/>
           <subsection id="section-4.subsection-0">
             <content>
-              <p>The <term refersTo="#term-Municipality" id="trm24">Municipality</term> may require the submission of an <term refersTo="#term-Environmental_Impact_Assessment" id="trm25">Environmental Impact Assessment</term> (either the 1st stage thereof; being the completion of an Environmental Checklist or in its entirety), <term refersTo="#term-Heritage_Impact_Assessment" id="trm26">Heritage Impact Assessment</term> and/or a Traffic Impact Assessment.</p>
+              <p>The <term refersTo="#term-Municipality" id="trm27">Municipality</term> may require the submission of an <term refersTo="#term-Environmental_Impact_Assessment" id="trm28">Environmental Impact Assessment</term> (either the 1st stage thereof; being the completion of an Environmental Checklist or in its entirety), <term refersTo="#term-Heritage_Impact_Assessment" id="trm29">Heritage Impact Assessment</term> and/or a <term refersTo="#term-Traffic_Impact_Assessment" id="trm30">Traffic Impact Assessment</term>.</p>
             </content>
           </subsection>
         </section>
@@ -589,7 +317,7 @@
           <heading/>
           <subsection id="section-5.subsection-0">
             <content>
-              <p>If in the <term refersTo="#term-Municipality" id="trm27">Municipality</term>’s opinion, a community or portion thereof or a person will be affected by the proposed sign, it may require a public participation process prior to considering the approval, which public participation process shall comply with the <term refersTo="#term-Municipality" id="trm28">Municipality</term>’s policy on public participation.</p>
+              <p>If in the <term refersTo="#term-Municipality" id="trm31">Municipality</term>’s opinion, a community or portion thereof or a person will be affected by the proposed sign, it may require a public participation process prior to considering the approval, which public participation process shall comply with the <term refersTo="#term-Municipality" id="trm32">Municipality</term>’s policy on public participation.</p>
             </content>
           </subsection>
         </section>
@@ -598,7 +326,7 @@
           <heading/>
           <subsection id="section-6.subsection-0">
             <content>
-              <p>The <term refersTo="#term-Municipality" id="trm29">Municipality</term> will require a signage master plan in respect of any development where the erection of numerous signs is proposed or the rationalisation of previously approved signs is required so as to allow it to consider a consistent design master plan prior to assessment of any individual sign.</p>
+              <p>The <term refersTo="#term-Municipality" id="trm33">Municipality</term> will require a signage master plan in respect of any development where the erection of numerous signs is proposed or the rationalisation of previously approved signs is required so as to allow it to consider a consistent design master plan prior to assessment of any individual sign.</p>
             </content>
           </subsection>
         </section>
@@ -607,7 +335,7 @@
           <heading/>
           <subsection id="section-7.subsection-0">
             <content>
-              <p>The <term refersTo="#term-Municipality" id="trm30">Municipality</term> shall notify the applicant of any additional requirements it has, within 21 working days of the date of submission of the original application and payment of the application fee.</p>
+              <p>The <term refersTo="#term-Municipality" id="trm34">Municipality</term> shall notify the applicant of any additional requirements it has, within 21 working days of the date of submission of the original application and payment of the application fee.</p>
             </content>
           </subsection>
         </section>
@@ -616,7 +344,7 @@
           <heading/>
           <subsection id="section-8.subsection-0">
             <content>
-              <p>The <term refersTo="#term-Municipality" id="trm31">Municipality</term> shall be entitled to retain a copy of every document supplied to it as part of an application, but is not obliged to do so.</p>
+              <p>The <term refersTo="#term-Municipality" id="trm35">Municipality</term> shall be entitled to retain a copy of every document supplied to it as part of an application, but is not obliged to do so.</p>
             </content>
           </subsection>
         </section>
@@ -625,7 +353,7 @@
           <heading/>
           <subsection id="section-9.subsection-0">
             <content>
-              <p>The <term refersTo="#term-Municipality" id="trm32">Municipality</term> may require written notification, by the applicant or person who erects an approved sign that such sign has been erected.</p>
+              <p>The <term refersTo="#term-Municipality" id="trm36">Municipality</term> may require written notification, by the applicant or person who erects an approved sign that such sign has been erected.</p>
             </content>
           </subsection>
         </section>
@@ -638,7 +366,7 @@
           <heading/>
           <subsection id="section-9a.subsection-0">
             <content>
-              <p>Every person who applies to the <term refersTo="#term-Municipality" id="trm33">Municipality</term> for approval in terms of this By-law shall, on making application, pay to the <term refersTo="#term-Municipality" id="trm34">Municipality</term> an application fee as determined by the <term refersTo="#term-Municipality" id="trm35">Municipality</term> from time to time. In addition, on approval of an application, an approval fee as determined by the <term refersTo="#term-Municipality" id="trm36">Municipality</term> from time to time shall be paid. No sign shall be erected until such time as both the application and approval fees have been paid in full.</p>
+              <p>Every person who applies to the <term refersTo="#term-Municipality" id="trm37">Municipality</term> for approval in terms of this By-law shall, on making application, pay to the <term refersTo="#term-Municipality" id="trm38">Municipality</term> an application fee as determined by the <term refersTo="#term-Municipality" id="trm39">Municipality</term> from time to time. In addition, on approval of an application, an approval fee as determined by the <term refersTo="#term-Municipality" id="trm40">Municipality</term> from time to time shall be paid. No sign shall be erected until such time as both the application and approval fees have been paid in full.</p>
             </content>
           </subsection>
         </section>
@@ -647,13 +375,13 @@
           <heading/>
           <subsection id="section-10.subsection-0">
             <content>
-              <p>In considering an application for the display of an advertisement or the erection of a sign in terms of this By-law, or an amendment or condition attaching or to be attached to an approval, the <term refersTo="#term-Municipality" id="trm37">Municipality</term> shall have regard to the following factors:</p>
+              <p>In considering an application for the display of an advertisement or the erection of a sign in terms of this By-law, or an amendment or condition attaching or to be attached to an approval, the <term refersTo="#term-Municipality" id="trm41">Municipality</term> shall have regard to the following factors:</p>
             </content>
           </subsection>
           <subsection id="section-10.10.1">
             <num>10.1</num>
             <content>
-              <p>The area of control in which the proposed sign is to be erected or displayed are as set out in Schedule 1 annexed hereto. Provided further that if a sign falls into more than one possible area of control or if a proposed sign site located in one area of control may impact on an adjacent area of control, the <term refersTo="#term-Municipality" id="trm38">Municipality</term> shall be entitled to determine the area of control pertaining to that application.</p>
+              <p>The area of control in which the proposed sign is to be erected or displayed are as set out in Schedule 1 annexed hereto. Provided further that if a sign falls into more than one possible area of control or if a proposed sign site located in one area of control may impact on an adjacent area of control, the <term refersTo="#term-Municipality" id="trm42">Municipality</term> shall be entitled to determine the area of control pertaining to that application.</p>
             </content>
           </subsection>
           <subsection id="section-10.10.2">
@@ -671,7 +399,7 @@
           <subsection id="section-10.10.4">
             <num>10.4</num>
             <content>
-              <p>The findings of any Traffic Impact Assessment, Environmental or <term refersTo="#term-Heritage_Impact_Assessment" id="trm39">Heritage Impact Assessment</term> more specifically any such finding as to whether the proposed sign will be detrimental to the environment or adversely affect the amenity of the locality or neighbourhood or affected properties;</p>
+              <p>The findings of any <term refersTo="#term-Traffic_Impact_Assessment" id="trm43">Traffic Impact Assessment</term>, Environmental or <term refersTo="#term-Heritage_Impact_Assessment" id="trm44">Heritage Impact Assessment</term> more specifically any such finding as to whether the proposed sign will be detrimental to the environment or adversely affect the amenity of the locality or neighbourhood or affected properties;</p>
             </content>
           </subsection>
           <subsection id="section-10.10.5">
@@ -729,19 +457,19 @@
           <subsection id="section-10.10.10">
             <num>10.10</num>
             <content>
-              <p>In considering a proposal for new graphics in respect of a sign approved in terms of this By-law, the <term refersTo="#term-Municipality" id="trm40">Municipality</term> will have regard to the factors referred to in Sections 10.4 to 10.8 inclusive.</p>
+              <p>In considering a proposal for new graphics in respect of a sign approved in terms of this By-law, the <term refersTo="#term-Municipality" id="trm45">Municipality</term> will have regard to the factors referred to in Sections 10.4 to 10.8 inclusive.</p>
             </content>
           </subsection>
           <subsection id="section-10.10.11">
             <num>10.11</num>
             <content>
-              <p>The <term refersTo="#term-Municipality" id="trm41">Municipality</term> will only consider an application for the extension of an approval period (in terms of Section 47 on condition that the said sign complies with the provisions of this By-law as at the date of application for such an extension.</p>
+              <p>The <term refersTo="#term-Municipality" id="trm46">Municipality</term> will only consider an application for the extension of an approval period (in terms of Section 47 on condition that the said sign complies with the provisions of this By-law as at the date of application for such an extension.</p>
             </content>
           </subsection>
           <subsection id="section-10.10.12">
             <num>10.12</num>
             <content>
-              <p>The <term refersTo="#term-Municipality" id="trm42">Municipality</term> will have regard to the factors referred to in Section 10.4 to 10.8 in assessing an application for an extension of the approval period in terms of Section 47. In the event of the approval period being extended by the <term refersTo="#term-Municipality" id="trm43">Municipality</term>, the extension period shall not exceed a further 5 year period.</p>
+              <p>The <term refersTo="#term-Municipality" id="trm47">Municipality</term> will have regard to the factors referred to in Section 10.4 to 10.8 in assessing an application for an extension of the approval period in terms of Section 47. In the event of the approval period being extended by the <term refersTo="#term-Municipality" id="trm48">Municipality</term>, the extension period shall not exceed a further 5 year period.</p>
             </content>
           </subsection>
           <subsection id="section-10.10.13">
@@ -760,7 +488,7 @@
           <heading/>
           <subsection id="section-11.subsection-0">
             <content>
-              <p>The <term refersTo="#term-Municipality" id="trm44">Municipality</term> shall, in addition to the factors set out hereinabove in Parts B and C and Part E and H below, apply certain minimum standards to certain specific sign types and proposed localities when an application for approval is made in respect thereof and will apply certain specific criteria to applications for the erection of signs by non-profit bodies. These specific standards and criteria are set out as Schedules to this By-law. Schedule 1 to this By-law indicates the areas of control in which certain specific sign types may be permitted, subject always to approval in terms of this By-law and furthermore subject to any additional requirement pertaining to a specific sign type as set out in the following Schedules:</p>
+              <p>The <term refersTo="#term-Municipality" id="trm49">Municipality</term> shall, in addition to the factors set out hereinabove in Parts B and C and Part E and H below, apply certain minimum standards to certain specific sign types and proposed localities when an application for approval is made in respect thereof and will apply certain specific criteria to applications for the erection of signs by non-profit bodies. These specific standards and criteria are set out as Schedules to this By-law. Schedule 1 to this By-law indicates the areas of control in which certain specific sign types may be permitted, subject always to approval in terms of this By-law and furthermore subject to any additional requirement pertaining to a specific sign type as set out in the following Schedules:</p>
             </content>
           </subsection>
           <subsection id="section-11.subsection-1">
@@ -846,7 +574,7 @@
           <subsection id="section-11.subsection-17">
             <content>
               <blockList id="section-11.subsection-17.list17">
-                <listIntroduction> The <term refersTo="#term-Municipality" id="trm45">Municipality</term> may grant an exemption from the terms of this By-law in respect of the sign types or areas of control set out in Schedules 10, 11 and 12 hereto having regard to: </listIntroduction>
+                <listIntroduction> The <term refersTo="#term-Municipality" id="trm50">Municipality</term> may grant an exemption from the terms of this By-law in respect of the sign types or areas of control set out in Schedules 10, 11 and 12 hereto having regard to: </listIntroduction>
                 <item id="section-11.subsection-17.list17.i">
                   <num>(i)</num>
                   <p>the area of control where it is proposed to display the sign/s;</p>
@@ -1017,7 +745,7 @@
           <heading/>
           <subsection id="section-25.subsection-0">
             <content>
-              <p>The <term refersTo="#term-Municipality" id="trm46">Municipality</term> may approve an illuminated sign, provided that the provisions of this By-law are complied with and that such illumination should be designed to ensure maximum energy efficiency and controlled hours of illumination and that the illumination does not constitute a road safety hazard or cause undue light spillage.</p>
+              <p>The <term refersTo="#term-Municipality" id="trm51">Municipality</term> may approve an illuminated sign, provided that the provisions of this By-law are complied with and that such illumination should be designed to ensure maximum energy efficiency and controlled hours of illumination and that the illumination does not constitute a road safety hazard or cause undue light spillage.</p>
             </content>
           </subsection>
         </section>
@@ -1041,7 +769,7 @@
           <subsection id="section-27.27.1">
             <num>27.1</num>
             <content>
-              <p>Internally illuminated and electronic signs containing third party advertising may only be displayed in areas of partial and minimum control 22 and must be less than 2,1 m² . This size condition may be waived, up to a maximum size of 4,5 m² in any such area upon receipt of an Environmental and <term refersTo="#term-Heritage_Impact_Assessment" id="trm47">Heritage Impact Assessment</term> showing no detrimental impact will be caused by the proposed display, or to any larger size specified by the <term refersTo="#term-Municipality" id="trm48">Municipality</term> in an area designated by the <term refersTo="#term-Municipality" id="trm49">Municipality</term> as a district in which illuminated or electronic signs are to be encouraged.</p>
+              <p>Internally illuminated and electronic signs containing third party advertising may only be displayed in areas of partial and minimum control 22 and must be less than 2,1 m² . This size condition may be waived, up to a maximum size of 4,5 m² in any such area upon receipt of an Environmental and <term refersTo="#term-Heritage_Impact_Assessment" id="trm52">Heritage Impact Assessment</term> showing no detrimental impact will be caused by the proposed display, or to any larger size specified by the <term refersTo="#term-Municipality" id="trm53">Municipality</term> in an area designated by the <term refersTo="#term-Municipality" id="trm54">Municipality</term> as a district in which illuminated or electronic signs are to be encouraged.</p>
             </content>
           </subsection>
           <subsection id="section-27.27.2">
@@ -1053,7 +781,7 @@
           <subsection id="section-27.27.3">
             <num>27.3</num>
             <content>
-              <p>Prior to erection, the <term refersTo="#term-Municipality" id="trm50">Municipality</term> may require a Traffic Impact Assessment to be conducted, the results of which must indicate that no detrimental impact on traffic is envisaged. In addition the <term refersTo="#term-Municipality" id="trm51">Municipality</term> may require subsequent traffic monitoring of any internally illuminated or electronic sign.</p>
+              <p>Prior to erection, the <term refersTo="#term-Municipality" id="trm55">Municipality</term> may require a <term refersTo="#term-Traffic_Impact_Assessment" id="trm56">Traffic Impact Assessment</term> to be conducted, the results of which must indicate that no detrimental impact on traffic is envisaged. In addition the <term refersTo="#term-Municipality" id="trm57">Municipality</term> may require subsequent traffic monitoring of any internally illuminated or electronic sign.</p>
             </content>
           </subsection>
         </section>
@@ -1103,7 +831,7 @@
           <heading/>
           <subsection id="section-30.subsection-0">
             <content>
-              <p>Electronic signs shall not be permitted if they are visible from a class 1 road, gateway route or a scenic drive unless expressly approved in writing by the <term refersTo="#term-Road_Authority" id="trm52">Road Authority</term>.</p>
+              <p>Electronic signs shall not be permitted if they are visible from a class 1 road, gateway route or a scenic drive unless expressly approved in writing by the <term refersTo="#term-Road_Authority" id="trm58">Road Authority</term>.</p>
             </content>
           </subsection>
         </section>
@@ -1297,7 +1025,7 @@
           <heading/>
           <subsection id="section-42.subsection-0">
             <content>
-              <p>The abovementioned minimum distances specified in Table 1 above may be decreased by the <term refersTo="#term-Municipality" id="trm53">Municipality</term> if the sign falls within an area of minimum control, or in other areas of control on submission of a TIA motivating a reduction of this spacing to the satisfaction of the <term refersTo="#term-Municipality" id="trm54">Municipality</term>. The <term refersTo="#term-Municipality" id="trm55">Municipality</term> may from time to time prepare a list or map of designated areas in which the abovementioned spacing requirements shall not be applicable.</p>
+              <p>The abovementioned minimum distances specified in Table 1 above may be decreased by the <term refersTo="#term-Municipality" id="trm59">Municipality</term> if the sign falls within an area of minimum control, or in other areas of control on submission of a TIA motivating a reduction of this spacing to the satisfaction of the <term refersTo="#term-Municipality" id="trm60">Municipality</term>. The <term refersTo="#term-Municipality" id="trm61">Municipality</term> may from time to time prepare a list or map of designated areas in which the abovementioned spacing requirements shall not be applicable.</p>
             </content>
           </subsection>
           <subsection id="section-42.subsection-1">
@@ -1311,7 +1039,7 @@
           <heading/>
           <subsection id="section-43.subsection-0">
             <content>
-              <p>All signs to be erected and/or displayed within the area of jurisdiction of the <term refersTo="#term-Municipality" id="trm56">Municipality</term> must, in addition to complying with this By-law, comply with all other applicable legislation, including any applicable Zoning Scheme Regulations or condition of approval of any departure from the applicable Zoning Scheme Regulations.</p>
+              <p>All signs to be erected and/or displayed within the area of jurisdiction of the <term refersTo="#term-Municipality" id="trm62">Municipality</term> must, in addition to complying with this By-law, comply with all other applicable legislation, including any applicable Zoning Scheme Regulations or condition of approval of any departure from the applicable Zoning Scheme Regulations.</p>
             </content>
           </subsection>
         </section>
@@ -1319,14 +1047,14 @@
       <part id="part-F">
         <num>F</num>
         <heading>
-          <term refersTo="#term-Approval" id="trm57">Approval</term>
+          <term refersTo="#term-Approval" id="trm63">Approval</term>
         </heading>
         <section id="section-44">
           <num>44.</num>
           <heading/>
           <subsection id="section-44.subsection-0">
             <content>
-              <p>The <term refersTo="#term-Municipality" id="trm58">Municipality</term> may refuse any application or grant its approval subject to conditions relating to the erection and/or use of the sign and including a condition that the owner of any sign or billboard or the land or building on which it is erected or displayed, or both such owners and/or the person whose product and/or services are advertised, indemnify the <term refersTo="#term-Municipality" id="trm59">Municipality</term> against any consequences flowing from the erection, display or mere presence of such sign.</p>
+              <p>The <term refersTo="#term-Municipality" id="trm64">Municipality</term> may refuse any application or grant its approval subject to conditions relating to the erection and/or use of the sign and including a condition that the owner of any sign or billboard or the land or building on which it is erected or displayed, or both such owners and/or the person whose product and/or services are advertised, indemnify the <term refersTo="#term-Municipality" id="trm65">Municipality</term> against any consequences flowing from the erection, display or mere presence of such sign.</p>
             </content>
           </subsection>
         </section>
@@ -1335,7 +1063,7 @@
           <heading/>
           <subsection id="section-45.subsection-0">
             <content>
-              <p>The <term refersTo="#term-Municipality" id="trm60">Municipality</term> may, at any time, withdraw an approval granted in terms of this By—<term refersTo="#term-Law" id="trm61">Law</term> or its predecessor or amend any condition or impose a further condition in respect of such approval, if a sign or advertising structure is in a state of disrepair, stands empty for more than 90 consecutive days, no longer complies with any provision of this By-law or is substantially altered from the original approved application by way of either structure or graphic content.</p>
+              <p>The <term refersTo="#term-Municipality" id="trm66">Municipality</term> may, at any time, withdraw an approval granted in terms of this By—<term refersTo="#term-Law" id="trm67">Law</term> or its predecessor or amend any condition or impose a further condition in respect of such approval, if a sign or advertising structure is in a state of disrepair, stands empty for more than 90 consecutive days, no longer complies with any provision of this By-law or is substantially altered from the original approved application by way of either structure or graphic content.</p>
             </content>
           </subsection>
         </section>
@@ -1344,7 +1072,7 @@
           <heading/>
           <subsection id="section-46.subsection-0">
             <content>
-              <p>Should an approved sign not be erected within 12 months from the date of approval or within such other time as is specified in the approval, such approval shall lapse, unless that period is extended in writing by the <term refersTo="#term-Municipality" id="trm62">Municipality</term> prior to such lapse.</p>
+              <p>Should an approved sign not be erected within 12 months from the date of approval or within such other time as is specified in the approval, such approval shall lapse, unless that period is extended in writing by the <term refersTo="#term-Municipality" id="trm68">Municipality</term> prior to such lapse.</p>
             </content>
           </subsection>
         </section>
@@ -1353,7 +1081,7 @@
           <heading/>
           <subsection id="section-47.subsection-0">
             <content>
-              <p>Any approval of third party advertising granted by the <term refersTo="#term-Municipality" id="trm63">Municipality</term> in terms of this By-law, shall endure for a maximum period of 5 years, calculated from the date of approval, unless extended in writing prior to the expiry of the approval period. The <term refersTo="#term-Municipality" id="trm64">Municipality</term> must receive a written application for extension of the approval period at least six calendar months prior to the lapse of the approval period.</p>
+              <p>Any approval of third party advertising granted by the <term refersTo="#term-Municipality" id="trm69">Municipality</term> in terms of this By-law, shall endure for a maximum period of 5 years, calculated from the date of approval, unless extended in writing prior to the expiry of the approval period. The <term refersTo="#term-Municipality" id="trm70">Municipality</term> must receive a written application for extension of the approval period at least six calendar months prior to the lapse of the approval period.</p>
             </content>
           </subsection>
         </section>
@@ -1362,7 +1090,7 @@
           <heading/>
           <subsection id="section-48.subsection-0">
             <content>
-              <p>In the event that the structure supporting such sign is intentionally demolished before the expiry of the approval period, the approval shall lapse and no further sign or supporting structure may be erected or re-erected without the <term refersTo="#term-Municipality" id="trm65">Municipality</term>’s prior approval in terms of this By-law.</p>
+              <p>In the event that the structure supporting such sign is intentionally demolished before the expiry of the approval period, the approval shall lapse and no further sign or supporting structure may be erected or re-erected without the <term refersTo="#term-Municipality" id="trm71">Municipality</term>’s prior approval in terms of this By-law.</p>
             </content>
           </subsection>
         </section>
@@ -1371,7 +1099,7 @@
           <heading/>
           <subsection id="section-49.subsection-0">
             <content>
-              <p>All decisions by the <term refersTo="#term-Municipality" id="trm66">Municipality</term> regarding applications made in terms of this By-law shall be in writing and will be provided to Applicants within 90 calendar days of date of submission of a complete application, alternatively, if so required by the <term refersTo="#term-Municipality" id="trm67">Municipality</term>, within 90 calendar days of its receipt of any additional information and/or assessments provided to the <term refersTo="#term-Municipality" id="trm68">Municipality</term>.</p>
+              <p>All decisions by the <term refersTo="#term-Municipality" id="trm72">Municipality</term> regarding applications made in terms of this By-law shall be in writing and will be provided to Applicants within 90 calendar days of date of submission of a complete application, alternatively, if so required by the <term refersTo="#term-Municipality" id="trm73">Municipality</term>, within 90 calendar days of its receipt of any additional information and/or assessments provided to the <term refersTo="#term-Municipality" id="trm74">Municipality</term>.</p>
             </content>
           </subsection>
         </section>
@@ -1384,7 +1112,7 @@
           <heading/>
           <subsection id="section-50.subsection-0">
             <content>
-              <p>Any persons whose rights are affected by a decision made in connection with this By-law by the <term refersTo="#term-Municipality" id="trm69">Municipality</term> may appeal against that decision by giving written notice of the appeal and reasons to the Municipal Manager within 21 days of the date of the notification of the decision.</p>
+              <p>Any persons whose rights are affected by a decision made in connection with this By-law by the <term refersTo="#term-Municipality" id="trm75">Municipality</term> may appeal against that decision by giving written notice of the appeal and reasons to the Municipal Manager within 21 days of the date of the notification of the decision.</p>
             </content>
           </subsection>
         </section>
@@ -1433,7 +1161,7 @@
           <subsection id="section-54a.subsection-0">
             <content>
               <p>Should any sign not comply with the conditions relative to each sign type listed below, an application in terms of B shall be required.</p>
-              <p>Subject to compliance with the conditions relative to each sign type listed hereinbelow, and any other applicable legislation, or condition imposed by the <term refersTo="#term-Municipality" id="trm70">Municipality</term>, no application for approval is required in terms of this By-law in respect of:</p>
+              <p>Subject to compliance with the conditions relative to each sign type listed hereinbelow, and any other applicable legislation, or condition imposed by the <term refersTo="#term-Municipality" id="trm76">Municipality</term>, no application for approval is required in terms of this By-law in respect of:</p>
             </content>
           </subsection>
         </section>
@@ -1449,7 +1177,7 @@
           <subsection id="section-55.55.2">
             <num>55.2</num>
             <content>
-              <p>The <term refersTo="#term-Municipality" id="trm71">Municipality</term> may order the removal of any such sign if the building operations have been substantially completed or discontinued or an Occupancy Certificate has been issued by the <term refersTo="#term-Municipality" id="trm72">Municipality</term>, or the provision of the services, the doing of the work or the supply of the goods to which it relates, has for all practical purposes ceased, and such signs shall thereupon be forthwith removed but no later than 5 days after the date of the order for removal thereof;</p>
+              <p>The <term refersTo="#term-Municipality" id="trm77">Municipality</term> may order the removal of any such sign if the building operations have been substantially completed or discontinued or an Occupancy Certificate has been issued by the <term refersTo="#term-Municipality" id="trm78">Municipality</term>, or the provision of the services, the doing of the work or the supply of the goods to which it relates, has for all practical purposes ceased, and such signs shall thereupon be forthwith removed but no later than 5 days after the date of the order for removal thereof;</p>
             </content>
           </subsection>
           <subsection id="section-55.55.3">
@@ -1492,7 +1220,7 @@
         <section id="section-58">
           <num>58.</num>
           <heading>
-            <term refersTo="#term-Window_signs" id="trm73">Window signs</term>
+            <term refersTo="#term-Window_signs" id="trm79">Window signs</term>
           </heading>
           <subsection id="section-58.subsection-0">
             <content>
@@ -1551,7 +1279,7 @@
           <subsection id="section-62.62.2">
             <num>62.2</num>
             <content>
-              <p>Signs which comply with provisions of Section 62.1 shall, when erected on municipal land, only be erected once agreement has been concluded with the <term refersTo="#term-Municipality" id="trm74">Municipality</term>, wherein the extent of the community or public benefit as jointly agreed between the municipal department responsible for the premises and/or land has been agreed and the terms of the erection of the sign agreed, and a copy of the agreement lodged with the environmental management branch or its successor in title, of the <term refersTo="#term-Municipality" id="trm75">Municipality</term>.</p>
+              <p>Signs which comply with provisions of Section 62.1 shall, when erected on municipal land, only be erected once agreement has been concluded with the <term refersTo="#term-Municipality" id="trm80">Municipality</term>, wherein the extent of the community or public benefit as jointly agreed between the municipal department responsible for the premises and/or land has been agreed and the terms of the erection of the sign agreed, and a copy of the agreement lodged with the environmental management branch or its successor in title, of the <term refersTo="#term-Municipality" id="trm81">Municipality</term>.</p>
             </content>
           </subsection>
           <subsection id="section-62.62.3">
@@ -1614,7 +1342,7 @@
           <heading/>
           <subsection id="section-67.subsection-0">
             <content>
-              <p>The <term refersTo="#term-Municipality" id="trm76">Municipality</term> shall be entitled, through its duly authorized officers, and following prior written notification to the owner or occupant of a property, to enter into and upon any premises, at a reasonable time for the purpose of carrying out any inspection necessary for the proper administration and enforcement of the provisions of this By-law.</p>
+              <p>The <term refersTo="#term-Municipality" id="trm82">Municipality</term> shall be entitled, through its duly authorized officers, and following prior written notification to the owner or occupant of a property, to enter into and upon any premises, at a reasonable time for the purpose of carrying out any inspection necessary for the proper administration and enforcement of the provisions of this By-law.</p>
             </content>
           </subsection>
         </section>
@@ -1665,7 +1393,7 @@
           <heading/>
           <subsection id="section-69.subsection-0">
             <content>
-              <p>In the case of a continuing offence, to a fine, as set out hereinbelow, for every day during the continuation of such offence after a written notice has been issued by the <term refersTo="#term-Municipality" id="trm77">Municipality</term> requiring discontinuance of such offence; and</p>
+              <p>In the case of a continuing offence, to a fine, as set out hereinbelow, for every day during the continuation of such offence after a written notice has been issued by the <term refersTo="#term-Municipality" id="trm83">Municipality</term> requiring discontinuance of such offence; and</p>
             </content>
           </subsection>
         </section>
@@ -1719,7 +1447,7 @@
           <heading/>
           <subsection id="section-73.subsection-0">
             <content>
-              <p>Unlawful signs removed by the <term refersTo="#term-Municipality" id="trm78">Municipality</term> may be reclaimed from the <term refersTo="#term-Municipality" id="trm79">Municipality</term> on payment in full to it of any costs incurred by the <term refersTo="#term-Municipality" id="trm80">Municipality</term> in the removal of the said sign, as well as payment of the costs of any charges incurred in the storage of such sign within two months. Any unlawful signs removed by the <term refersTo="#term-Municipality" id="trm81">Municipality</term> and not reclaimed within two months of the date of removal shall be disposed of by the <term refersTo="#term-Municipality" id="trm82">Municipality</term> in its sole discretion to defray its removal and/or storage costs.</p>
+              <p>Unlawful signs removed by the <term refersTo="#term-Municipality" id="trm84">Municipality</term> may be reclaimed from the <term refersTo="#term-Municipality" id="trm85">Municipality</term> on payment in full to it of any costs incurred by the <term refersTo="#term-Municipality" id="trm86">Municipality</term> in the removal of the said sign, as well as payment of the costs of any charges incurred in the storage of such sign within two months. Any unlawful signs removed by the <term refersTo="#term-Municipality" id="trm87">Municipality</term> and not reclaimed within two months of the date of removal shall be disposed of by the <term refersTo="#term-Municipality" id="trm88">Municipality</term> in its sole discretion to defray its removal and/or storage costs.</p>
             </content>
           </subsection>
         </section>
@@ -1763,7 +1491,7 @@
           <heading/>
           <subsection id="section-75.subsection-0">
             <content>
-              <p>If any sign displayed is in contravention of this By-law, the <term refersTo="#term-Municipality" id="trm83">Municipality</term> may serve a notice on the owner or lessee of the sign, or the land owner on whose land the sign is erected or displayed, or person whose product or services are advertised, calling upon such person to remove such sign or carry out such alteration thereto or do such work as may be specified in such request or notice, within a time frame specified therein. Notwithstanding the service of such notice, it may be withdrawn or varied by the <term refersTo="#term-Municipality" id="trm84">Municipality</term>, by agreement with the person so served, or failing such agreement, by the service of a further notice.</p>
+              <p>If any sign displayed is in contravention of this By-law, the <term refersTo="#term-Municipality" id="trm89">Municipality</term> may serve a notice on the owner or lessee of the sign, or the land owner on whose land the sign is erected or displayed, or person whose product or services are advertised, calling upon such person to remove such sign or carry out such alteration thereto or do such work as may be specified in such request or notice, within a time frame specified therein. Notwithstanding the service of such notice, it may be withdrawn or varied by the <term refersTo="#term-Municipality" id="trm90">Municipality</term>, by agreement with the person so served, or failing such agreement, by the service of a further notice.</p>
             </content>
           </subsection>
         </section>
@@ -1772,7 +1500,7 @@
           <heading/>
           <subsection id="section-76.subsection-0">
             <content>
-              <p>Should the <term refersTo="#term-Municipality" id="trm85">Municipality</term>’s demands, as set out in the notice, not be carried out within the time period specified therein, the <term refersTo="#term-Municipality" id="trm86">Municipality</term> may, without further notice to the person upon whom the notice was served and after obtaining relief from the appropriate court on an ex parte basis, remove or alter the sign or do such work as may be specified in such notice, provided that no court order shall be required, if the unlawful sign is erected or displayed on property belonging to the <term refersTo="#term-Municipality" id="trm87">Municipality</term>, prior to removal or alteration thereof.</p>
+              <p>Should the <term refersTo="#term-Municipality" id="trm91">Municipality</term>’s demands, as set out in the notice, not be carried out within the time period specified therein, the <term refersTo="#term-Municipality" id="trm92">Municipality</term> may, without further notice to the person upon whom the notice was served and after obtaining relief from the appropriate court on an ex parte basis, remove or alter the sign or do such work as may be specified in such notice, provided that no court order shall be required, if the unlawful sign is erected or displayed on property belonging to the <term refersTo="#term-Municipality" id="trm93">Municipality</term>, prior to removal or alteration thereof.</p>
             </content>
           </subsection>
         </section>
@@ -1781,7 +1509,7 @@
           <heading/>
           <subsection id="section-77.subsection-0">
             <content>
-              <p>In the event of the <term refersTo="#term-Municipality" id="trm88">Municipality</term> removing or altering a sign, the <term refersTo="#term-Municipality" id="trm89">Municipality</term> shall be required to compensate any person for any unreasonable loss or damage occasioned by or in respect of such removal or alteration.</p>
+              <p>In the event of the <term refersTo="#term-Municipality" id="trm94">Municipality</term> removing or altering a sign, the <term refersTo="#term-Municipality" id="trm95">Municipality</term> shall be required to compensate any person for any unreasonable loss or damage occasioned by or in respect of such removal or alteration.</p>
             </content>
           </subsection>
         </section>
@@ -1790,7 +1518,7 @@
           <heading/>
           <subsection id="section-78.subsection-0">
             <content>
-              <p>Any costs incurred by the <term refersTo="#term-Municipality" id="trm90">Municipality</term> in removing signs, or in doing alterations or other works required in terms of a Notice, may be recovered from the person on whom the notice was served.</p>
+              <p>Any costs incurred by the <term refersTo="#term-Municipality" id="trm96">Municipality</term> in removing signs, or in doing alterations or other works required in terms of a Notice, may be recovered from the person on whom the notice was served.</p>
             </content>
           </subsection>
         </section>
@@ -1799,7 +1527,7 @@
           <heading/>
           <subsection id="section-79.subsection-0">
             <content>
-              <p>Notwithstanding any other clause in this By-law, if a sign is, or is reasonably considered to be a danger to life or property, by a duly authorised employee of the <term refersTo="#term-Municipality" id="trm91">Municipality</term>, acting in connection with this By-law, the <term refersTo="#term-Municipality" id="trm92">Municipality</term> itself may, without prior notice and without a Court Order; carry out or arrange for the removal of such sign. Any costs incurred by the <term refersTo="#term-Municipality" id="trm93">Municipality</term> in carrying out or arranging for the removal of such sign may be recovered from the owner or lessee of the sign, or the landowner on whose land the sign was erected, or the person whose product or services were advertised, jointly and severally.</p>
+              <p>Notwithstanding any other clause in this By-law, if a sign is, or is reasonably considered to be a danger to life or property, by a duly authorised employee of the <term refersTo="#term-Municipality" id="trm97">Municipality</term>, acting in connection with this By-law, the <term refersTo="#term-Municipality" id="trm98">Municipality</term> itself may, without prior notice and without a Court Order; carry out or arrange for the removal of such sign. Any costs incurred by the <term refersTo="#term-Municipality" id="trm99">Municipality</term> in carrying out or arranging for the removal of such sign may be recovered from the owner or lessee of the sign, or the landowner on whose land the sign was erected, or the person whose product or services were advertised, jointly and severally.</p>
             </content>
           </subsection>
         </section>
@@ -1812,7 +1540,7 @@
           <heading/>
           <subsection id="section-80.subsection-0">
             <content>
-              <p>Where any notice or other document is required by this By-law to be served on any person, it shall be deemed to have been properly served if served personally on him/her, or any member of his/her household, apparently over the age of 16 years, at his place of residence, or on any person employed by or with him at his place of business, or if posted by registered post to such person’s residential or her business address, as it appears in the records of the <term refersTo="#term-Municipality" id="trm94">Municipality</term>, or if such person is a company or closed corporation or a trust, if served on any person apparently employed by that company, closed corporation or a trust, at the registered office thereof, or sent by registered post to such office.</p>
+              <p>Where any notice or other document is required by this By-law to be served on any person, it shall be deemed to have been properly served if served personally on him/her, or any member of his/her household, apparently over the age of 16 years, at his place of residence, or on any person employed by or with him at his place of business, or if posted by registered post to such person’s residential or her business address, as it appears in the records of the <term refersTo="#term-Municipality" id="trm100">Municipality</term>, or if such person is a company or closed corporation or a trust, if served on any person apparently employed by that company, closed corporation or a trust, at the registered office thereof, or sent by registered post to such office.</p>
             </content>
           </subsection>
         </section>
@@ -1856,12 +1584,12 @@
           </subsection>
           <subsection id="section-83.subsection-1">
             <content>
-              <p>Cape Town <term refersTo="#term-Municipality" id="trm95">Municipality</term> By-law relating to advertising, billposting, signs etc. and the disfigurement of the front or frontages of streets, etc, number 1959 of 1966 and all amendments thereto;</p>
+              <p>Cape Town <term refersTo="#term-Municipality" id="trm101">Municipality</term> By-law relating to advertising, billposting, signs etc. and the disfigurement of the front or frontages of streets, etc, number 1959 of 1966 and all amendments thereto;</p>
             </content>
           </subsection>
           <subsection id="section-83.subsection-2">
             <content>
-              <p>Cape Town <term refersTo="#term-Municipality" id="trm96">Municipality</term> Outdoor Advertising By-law, being By-law number PN 151 of 2000</p>
+              <p>Cape Town <term refersTo="#term-Municipality" id="trm102">Municipality</term> Outdoor Advertising By-law, being By-law number PN 151 of 2000</p>
             </content>
           </subsection>
           <subsection id="section-83.subsection-3">
@@ -1876,7 +1604,7 @@
           </subsection>
           <subsection id="section-83.subsection-5">
             <content>
-              <p>Parow <term refersTo="#term-Municipality" id="trm97">Municipality</term> By-law PN 4258 of 17 March 1983 : Advertising signs and disfigurement on the front or frontage of streets</p>
+              <p>Parow <term refersTo="#term-Municipality" id="trm103">Municipality</term> By-law PN 4258 of 17 March 1983 : Advertising signs and disfigurement on the front or frontage of streets</p>
             </content>
           </subsection>
         </section>
@@ -1907,7 +1635,7 @@
           <heading/>
           <subsection id="section-86.subsection-0">
             <content>
-              <p>Any application for the display of any advertisement or erection of any advertising structure for advertising purposes, submitted to the <term refersTo="#term-Municipality" id="trm98">Municipality</term> prior to promulgation of this By-law and in respect of which a decision has not yet been made by the <term refersTo="#term-Municipality" id="trm99">Municipality</term> prior to promulgation of this By-law, shall be considered by the <term refersTo="#term-Municipality" id="trm100">Municipality</term> in terms of this By-law which is applicable thereto.</p>
+              <p>Any application for the display of any advertisement or erection of any advertising structure for advertising purposes, submitted to the <term refersTo="#term-Municipality" id="trm104">Municipality</term> prior to promulgation of this By-law and in respect of which a decision has not yet been made by the <term refersTo="#term-Municipality" id="trm105">Municipality</term> prior to promulgation of this By-law, shall be considered by the <term refersTo="#term-Municipality" id="trm106">Municipality</term> in terms of this By-law which is applicable thereto.</p>
             </content>
           </subsection>
         </section>
@@ -1928,15 +1656,15 @@
               <FRBRcountry value="za"/>
             </FRBRWork>
             <FRBRExpression>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule1"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule1"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="1980-01-01" name="Generation"/>
               <FRBRauthor href="#council"/>
               <FRBRlanguage language="eng"/>
             </FRBRExpression>
             <FRBRManifestation>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule1"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule1"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2016-04-09" name="Generation"/>
               <FRBRauthor href="#slaw"/>
             </FRBRManifestation>
@@ -2013,15 +1741,15 @@
               <FRBRcountry value="za"/>
             </FRBRWork>
             <FRBRExpression>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule2"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule2"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2001-12-05" name="Generation"/>
               <FRBRauthor href="#council" as="#author"/>
               <FRBRlanguage language="eng"/>
             </FRBRExpression>
             <FRBRManifestation>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule2"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule2"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2014-04-25" name="Generation"/>
               <FRBRauthor href="#openbylaws" as="#author"/>
             </FRBRManifestation>
@@ -2231,15 +1959,15 @@
               <FRBRcountry value="za"/>
             </FRBRWork>
             <FRBRExpression>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule3"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule3"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2001-12-05" name="Generation"/>
               <FRBRauthor href="#council" as="#author"/>
               <FRBRlanguage language="eng"/>
             </FRBRExpression>
             <FRBRManifestation>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule3"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule3"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2014-04-25" name="Generation"/>
               <FRBRauthor href="#openbylaws" as="#author"/>
             </FRBRManifestation>
@@ -2286,15 +2014,15 @@
               <FRBRcountry value="za"/>
             </FRBRWork>
             <FRBRExpression>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule4"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule4"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2001-12-05" name="Generation"/>
               <FRBRauthor href="#council" as="#author"/>
               <FRBRlanguage language="eng"/>
             </FRBRExpression>
             <FRBRManifestation>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule4"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule4"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2014-04-25" name="Generation"/>
               <FRBRauthor href="#openbylaws" as="#author"/>
             </FRBRManifestation>
@@ -2339,15 +2067,15 @@
               <FRBRcountry value="za"/>
             </FRBRWork>
             <FRBRExpression>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule5"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule5"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2001-12-05" name="Generation"/>
               <FRBRauthor href="#council" as="#author"/>
               <FRBRlanguage language="eng"/>
             </FRBRExpression>
             <FRBRManifestation>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule5"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule5"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2014-04-25" name="Generation"/>
               <FRBRauthor href="#openbylaws" as="#author"/>
             </FRBRManifestation>
@@ -2484,15 +2212,15 @@
               <FRBRcountry value="za"/>
             </FRBRWork>
             <FRBRExpression>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule6"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule6"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2001-12-05" name="Generation"/>
               <FRBRauthor href="#council" as="#author"/>
               <FRBRlanguage language="eng"/>
             </FRBRExpression>
             <FRBRManifestation>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule6"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule6"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2014-04-25" name="Generation"/>
               <FRBRauthor href="#openbylaws" as="#author"/>
             </FRBRManifestation>
@@ -2526,15 +2254,15 @@
               <FRBRcountry value="za"/>
             </FRBRWork>
             <FRBRExpression>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule7"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule7"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2001-12-05" name="Generation"/>
               <FRBRauthor href="#council" as="#author"/>
               <FRBRlanguage language="eng"/>
             </FRBRExpression>
             <FRBRManifestation>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule7"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule7"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2014-04-25" name="Generation"/>
               <FRBRauthor href="#openbylaws" as="#author"/>
             </FRBRManifestation>
@@ -2570,15 +2298,15 @@
               <FRBRcountry value="za"/>
             </FRBRWork>
             <FRBRExpression>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule8"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule8"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2001-12-05" name="Generation"/>
               <FRBRauthor href="#council" as="#author"/>
               <FRBRlanguage language="eng"/>
             </FRBRExpression>
             <FRBRManifestation>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule8"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule8"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2014-04-25" name="Generation"/>
               <FRBRauthor href="#openbylaws" as="#author"/>
             </FRBRManifestation>
@@ -2618,15 +2346,15 @@
               <FRBRcountry value="za"/>
             </FRBRWork>
             <FRBRExpression>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule9"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule9"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2001-12-05" name="Generation"/>
               <FRBRauthor href="#council" as="#author"/>
               <FRBRlanguage language="eng"/>
             </FRBRExpression>
             <FRBRManifestation>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule9"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule9"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2014-04-25" name="Generation"/>
               <FRBRauthor href="#openbylaws" as="#author"/>
             </FRBRManifestation>
@@ -2675,15 +2403,15 @@
               <FRBRcountry value="za"/>
             </FRBRWork>
             <FRBRExpression>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule10"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule10"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2001-12-05" name="Generation"/>
               <FRBRauthor href="#council" as="#author"/>
               <FRBRlanguage language="eng"/>
             </FRBRExpression>
             <FRBRManifestation>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule10"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule10"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2014-04-25" name="Generation"/>
               <FRBRauthor href="#openbylaws" as="#author"/>
             </FRBRManifestation>
@@ -2724,15 +2452,15 @@
               <FRBRcountry value="za"/>
             </FRBRWork>
             <FRBRExpression>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule11"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule11"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2001-12-05" name="Generation"/>
               <FRBRauthor href="#council" as="#author"/>
               <FRBRlanguage language="eng"/>
             </FRBRExpression>
             <FRBRManifestation>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule11"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule11"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2014-04-25" name="Generation"/>
               <FRBRauthor href="#openbylaws" as="#author"/>
             </FRBRManifestation>
@@ -2780,15 +2508,15 @@
               <FRBRcountry value="za"/>
             </FRBRWork>
             <FRBRExpression>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule12"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule12"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2001-12-05" name="Generation"/>
               <FRBRauthor href="#council" as="#author"/>
               <FRBRlanguage language="eng"/>
             </FRBRExpression>
             <FRBRManifestation>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule12"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule12"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2014-04-25" name="Generation"/>
               <FRBRauthor href="#openbylaws" as="#author"/>
             </FRBRManifestation>
@@ -2845,15 +2573,15 @@
               <FRBRcountry value="za"/>
             </FRBRWork>
             <FRBRExpression>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule13"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule13"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2001-12-05" name="Generation"/>
               <FRBRauthor href="#council" as="#author"/>
               <FRBRlanguage language="eng"/>
             </FRBRExpression>
             <FRBRManifestation>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule13"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule13"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2014-04-25" name="Generation"/>
               <FRBRauthor href="#openbylaws" as="#author"/>
             </FRBRManifestation>
@@ -2900,15 +2628,15 @@
               <FRBRcountry value="za"/>
             </FRBRWork>
             <FRBRExpression>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule14"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule14"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2001-12-05" name="Generation"/>
               <FRBRauthor href="#council" as="#author"/>
               <FRBRlanguage language="eng"/>
             </FRBRExpression>
             <FRBRManifestation>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule14"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule14"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2014-04-25" name="Generation"/>
               <FRBRauthor href="#openbylaws" as="#author"/>
             </FRBRManifestation>
@@ -2941,15 +2669,15 @@
               <FRBRcountry value="za"/>
             </FRBRWork>
             <FRBRExpression>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule15"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule15"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2001-12-05" name="Generation"/>
               <FRBRauthor href="#council" as="#author"/>
               <FRBRlanguage language="eng"/>
             </FRBRExpression>
             <FRBRManifestation>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule15"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule15"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2014-04-25" name="Generation"/>
               <FRBRauthor href="#openbylaws" as="#author"/>
             </FRBRManifestation>
@@ -2988,15 +2716,15 @@
               <FRBRcountry value="za"/>
             </FRBRWork>
             <FRBRExpression>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule16"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule16"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2001-12-05" name="Generation"/>
               <FRBRauthor href="#council" as="#author"/>
               <FRBRlanguage language="eng"/>
             </FRBRExpression>
             <FRBRManifestation>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule16"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule16"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2014-04-25" name="Generation"/>
               <FRBRauthor href="#openbylaws" as="#author"/>
             </FRBRManifestation>
@@ -3047,15 +2775,15 @@
               <FRBRcountry value="za"/>
             </FRBRWork>
             <FRBRExpression>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule17"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule17"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2001-12-05" name="Generation"/>
               <FRBRauthor href="#council" as="#author"/>
               <FRBRlanguage language="eng"/>
             </FRBRExpression>
             <FRBRManifestation>
-              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05/schedule17"/>
-              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2001-12-05"/>
+              <FRBRthis value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17/schedule17"/>
+              <FRBRuri value="/za-cpt/act/by-law/2001/outdoor-advertising-signage/eng@2014-01-17"/>
               <FRBRdate date="2014-04-25" name="Generation"/>
               <FRBRauthor href="#openbylaws" as="#author"/>
             </FRBRManifestation>
