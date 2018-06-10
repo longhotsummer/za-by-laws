@@ -1,0 +1,126 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc033/act/by-law/2009/property-rates/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2009/property-rates"/>
+          <FRBRalias value="Property Rates By-Law of Cape Agulhas Municipality"/>
+          <FRBRdate date="2009-07-10" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc033/act/by-law/2009/property-rates/eng@2009-07-10/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2009/property-rates/eng@2009-07-10"/>
+          <FRBRdate date="2009-07-10" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc033/act/by-law/2009/property-rates/eng@2009-07-10/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2009/property-rates/eng@2009-07-10"/>
+          <FRBRdate date="2018-02-10" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication number="1402" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" date="2009-07-10"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-Constitution" href="/ontology/term/this.eng.Constitution" showAs="Constitution"/>
+        <TLCTerm id="term-Municipality" href="/ontology/term/this.eng.Municipality" showAs="Municipality"/>
+        <TLCTerm id="term-Property_Rates_Act" href="/ontology/term/this.eng.Property_Rates_Act" showAs="Property Rates Act"/>
+        <TLCTerm id="term-rate" href="/ontology/term/this.eng.rate" showAs="rate"/>
+        <TLCTerm id="term-rates_policy" href="/ontology/term/this.eng.rates_policy" showAs="rates policy"/>
+      </references>
+    </meta>
+    <preamble>
+      <p>WHEREAS</p>
+      <p>(1) Section 229(1) of the Constitution authorises a municipality to impose rates on property;</p>
+      <p>(2) Section 3 of the Property Rates Act determines that a council of a municipality must adopt a policy consistent with the Property Rates Act on the levying of rates on rateable property in the municipality;</p>
+      <p>(3) Section 6(1) of the Property Rates Act determines that a municipality must adopt by-laws to give effect to the implementation of its rates policy.</p>
+      <p>BE IT ENACTED by the Cape Agulhas Municipality Council, as follows:</p>
+    </preamble>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Interpretation</heading>
+        <paragraph id="section-1.paragraph-0" refersTo="#term-rates_policy">
+          <content>
+            <p>In this By-Law,</p>
+            <p>"<def refersTo="#term-Constitution">Constitution</def>" means the <term refersTo="#term-Constitution" id="trm0">Constitution</term> of the Republic of South Africa, 1996;</p>
+            <p>"<def refersTo="#term-Municipality">Municipality</def>" means the Cape Agulhas <term refersTo="#term-Municipality" id="trm1">Municipality</term>;</p>
+            <p>"<def refersTo="#term-Property_Rates_Act">Property Rates Act</def>" means the Local Government: Municipal Property Rates <ref href="/za/act/2004/6">Act, 6 of 2004</ref>;</p>
+            <p>"<def refersTo="#term-rate">rate</def>" or "rates" means a municipal <term refersTo="#term-rate" id="trm2">rate</term> on property as envisaged in section 229 of the <term refersTo="#term-Constitution" id="trm3">Constitution</term>;</p>
+            <p>"<def refersTo="#term-rates_policy">rates policy</def>" means the <term refersTo="#term-rates_policy" id="trm4">rates policy</term> adopted by the <term refersTo="#term-Municipality" id="trm5">Municipality</term> in terms of the <term refersTo="#term-Property_Rates_Act" id="trm6">Property Rates Act</term> and this by-law.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Adoption and implementation of <term refersTo="#term-rates_policy" id="trm7">rates policy</term></heading>
+        <subsection id="section-2.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Municipality" id="trm8">Municipality</term> shall adopt a <term refersTo="#term-rates_policy" id="trm9">rates policy</term> on the levying of rates on rateable property in the municipality.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-Municipality" id="trm10">Municipality</term> may implement such <term refersTo="#term-rates_policy" id="trm11">rates policy</term> to give effect to it.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Content of <term refersTo="#term-rates_policy" id="trm12">rates policy</term></heading>
+        <paragraph id="section-3.paragraph-0">
+          <content>
+            <p>The <term refersTo="#term-Municipality" id="trm13">Municipality</term>’s <term refersTo="#term-rates_policy" id="trm14">rates policy</term> shall be compiled in accordance with Section 3 of the <term refersTo="#term-Property_Rates_Act" id="trm15">Property Rates Act</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Statements or declarations</heading>
+        <paragraph id="section-4.paragraph-0">
+          <content>
+            <p>No person shall—</p>
+          </content>
+        </paragraph>
+        <subsection id="section-4.4.1">
+          <num>4.1</num>
+          <content>
+            <p>make any false application, statement or declaration which will affect the rates payable on any property whether on his/ her own behalf or that of someone else;</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.2">
+          <num>4.2</num>
+          <content>
+            <p>refuse to report any amendments to an application, statement or declaration, referred to in sub-section 4.1, to the <term refersTo="#term-Municipality" id="trm16">Municipality</term> within 7 days after such occurrence.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Penalties</heading>
+        <paragraph id="section-5.paragraph-0">
+          <content>
+            <p>Any person who contravenes the provisions of section 4 shall be guilty of an offence and on conviction liable to the payment of a fine not exceeding one thousand rand or imprisonment for a period not exceeding 3 months or to such imprisonment without the option of a fine or to both such fine and such imprisonment.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Short title</heading>
+        <paragraph id="section-6.paragraph-0">
+          <content>
+            <p>This By-Law shall be called the Property Rates By-Law of Cape Agulhas <term refersTo="#term-Municipality" id="trm17">Municipality</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

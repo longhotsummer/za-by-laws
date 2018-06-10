@@ -1,0 +1,1554 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc033/act/by-law/2005/conduct-of-meetings/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/conduct-of-meetings"/>
+          <FRBRalias value="Rules of Order Regulating the Conduct of Meetings"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc033/act/by-law/2005/conduct-of-meetings/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/conduct-of-meetings/eng@2005-10-03"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc033/act/by-law/2005/conduct-of-meetings/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/conduct-of-meetings/eng@2005-10-03"/>
+          <FRBRdate date="2018-02-04" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-10-03" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" number="6303"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-council" href="/ontology/term/this.eng.council" showAs="council"/>
+        <TLCTerm id="term-code" href="/ontology/term/this.eng.code" showAs="code"/>
+        <TLCTerm id="term-Constitution" href="/ontology/term/this.eng.Constitution" showAs="Constitution"/>
+        <TLCTerm id="term-MEC" href="/ontology/term/this.eng.MEC" showAs="MEC"/>
+        <TLCTerm id="term-meeting" href="/ontology/term/this.eng.meeting" showAs="meeting"/>
+        <TLCTerm id="term-motion" href="/ontology/term/this.eng.motion" showAs="motion"/>
+        <TLCTerm id="term-member" href="/ontology/term/this.eng.member" showAs="member"/>
+        <TLCTerm id="term-municipal_manager" href="/ontology/term/this.eng.municipal_manager" showAs="municipal manager"/>
+        <TLCTerm id="term-rules" href="/ontology/term/this.eng.rules" showAs="rules"/>
+        <TLCTerm id="term-speaker" href="/ontology/term/this.eng.speaker" showAs="speaker"/>
+        <TLCTerm id="term-Systems_Act" href="/ontology/term/this.eng.Systems_Act" showAs="Systems Act"/>
+        <TLCTerm id="term-Structures_Act" href="/ontology/term/this.eng.Structures_Act" showAs="Structures Act"/>
+      </references>
+    </meta>
+    <body>
+      <part id="part-1">
+        <num>1</num>
+        <heading>General</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <paragraph id="section-1.paragraph-0" refersTo="#term-Structures_Act">
+            <content>
+              <p>In this by-law, unless inconsistent with the context—</p>
+              <p>"<def refersTo="#term-council">council</def>" means the municipal <term refersTo="#term-council" id="trm0">council</term> of the Municipality of Cape Agulhas;</p>
+              <p>"<def refersTo="#term-code">code</def>" means the Code of Conduct for Councillors as set out in Schedule - of the <term refersTo="#term-Systems_Act" id="trm1">Systems Act</term>;</p>
+              <p>"<def refersTo="#term-Constitution">Constitution</def>" means the <term refersTo="#term-Constitution" id="trm2">Constitution</term> of the Republic of South Africa, 1996;</p>
+              <p>"<def refersTo="#term-MEC">MEC</def>" means the <term refersTo="#term-member" id="trm3">member</term> of the Provincial Executive Council responsible for local government in the province of the Western Cape;</p>
+              <p>"<def refersTo="#term-meeting">meeting</def>" means the meetings of the <term refersTo="#term-council" id="trm4">council</term>;</p>
+              <p>"<def refersTo="#term-motion">motion</def>" means a <term refersTo="#term-motion" id="trm5">motion</term> of which notice is given by a <term refersTo="#term-member" id="trm6">member</term> but shall not include a <term refersTo="#term-motion" id="trm7">motion</term> as contemplated in sections 38 and 39;</p>
+              <p>"<def refersTo="#term-member">member</def>" means a <term refersTo="#term-member" id="trm8">member</term> of the <term refersTo="#term-council" id="trm9">council</term>;</p>
+              <p>"<def refersTo="#term-municipal_manager">municipal manager</def>" means the person appointed by <term refersTo="#term-council" id="trm10">council</term> in terms of the <term refersTo="#term-Structures_Act" id="trm11">Structures Act</term>, or a person delegated by the <term refersTo="#term-municipal_manager" id="trm12">municipal manager</term>;</p>
+              <p>"<def refersTo="#term-rules">rules</def>" means the provisions of this by-law;</p>
+              <p>"<def refersTo="#term-speaker">speaker</def>" means the <term refersTo="#term-member" id="trm13">member</term> elected as chairperson of the <term refersTo="#term-council" id="trm14">council</term> or any other <term refersTo="#term-member" id="trm15">member</term> acting as chairperson of the <term refersTo="#term-council" id="trm16">council</term>;</p>
+              <p>"<def refersTo="#term-Systems_Act">Systems Act</def>" means the Local Government: Municipal <term refersTo="#term-Systems_Act" id="trm17">Systems Act</term>, 2000 (<ref href="/za/act/2000/32">Act 32 of 2000</ref>);</p>
+              <p>"<def refersTo="#term-Structures_Act">Structures Act</def>" means the Local Government: Municipal <term refersTo="#term-Structures_Act" id="trm18">Structures Act</term>, 1998 (<ref href="/za/act/1998/117">Act 117 of 1998</ref>).</p>
+            </content>
+          </paragraph>
+        </section>
+      </part>
+      <part id="part-2">
+        <num>2</num>
+        <heading>Application of Rules</heading>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Application</heading>
+          <subsection id="section-2.1">
+            <num>(1)</num>
+            <content>
+              <p>These <term refersTo="#term-rules" id="trm19">rules</term> apply to all meetings.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.2">
+            <num>(2)</num>
+            <content>
+              <p>Except where it is clearly inappropriate, a rule applying to a <term refersTo="#term-member" id="trm20">member</term> in any proceedings, also apply to a non-<term refersTo="#term-member" id="trm21">member</term> who takes part in those proceedings with the approval of the <term refersTo="#term-speaker" id="trm22">speaker</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.3">
+            <num>(3)</num>
+            <content>
+              <p>These <term refersTo="#term-rules" id="trm23">rules</term> apply to a committee of the <term refersTo="#term-council" id="trm24">council</term> unless a committee has determined its own <term refersTo="#term-rules" id="trm25">rules</term> and procedures.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Supplementation</heading>
+          <subsection id="section-3.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-speaker" id="trm26">speaker</term> may give a ruling in respect of any eventuality for which these <term refersTo="#term-rules" id="trm27">rules</term> do not provide and no further discussion shall be allowed on the ruling.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.2">
+            <num>(2)</num>
+            <content>
+              <p>The ruling of the <term refersTo="#term-speaker" id="trm28">speaker</term> must be entered into the minutes.</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part id="part-3">
+        <num>3</num>
+        <heading>Meetings</heading>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Commencement of Meeting</heading>
+          <paragraph id="section-4.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-speaker" id="trm29">speaker</term> must take the chair precisely at the time the <term refersTo="#term-meeting" id="trm30">meeting</term> has been scheduled for and must proceed immediately with the business of the <term refersTo="#term-meeting" id="trm31">meeting</term> subject to section 14.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Order of Business</heading>
+          <subsection id="section-5.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-5.1.list1">
+                <listIntroduction>The business of meetings will appear in the following order on the agenda—</listIntroduction>
+                <item id="section-5.1.list1.a">
+                  <num>(a)</num>
+                  <p>election of acting <term refersTo="#term-speaker" id="trm32">speaker</term>, if necessary;</p>
+                </item>
+                <item id="section-5.1.list1.b">
+                  <num>(b)</num>
+                  <p>applications for leave of absence;</p>
+                </item>
+                <item id="section-5.1.list1.c">
+                  <num>(c)</num>
+                  <p>confirmation of minutes;</p>
+                </item>
+                <item id="section-5.1.list1.d">
+                  <num>(d)</num>
+                  <p>statements and communications by the <term refersTo="#term-speaker" id="trm33">speaker</term>;</p>
+                </item>
+                <item id="section-5.1.list1.e">
+                  <num>(e)</num>
+                  <p>statements and communications by the executive mayor;</p>
+                </item>
+                <item id="section-5.1.list1.f">
+                  <num>(f)</num>
+                  <p>consideration of reports;</p>
+                </item>
+                <item id="section-5.1.list1.g">
+                  <num>(g)</num>
+                  <p>urgent matters submitted by the <term refersTo="#term-municipal_manager" id="trm34">municipal manager</term>;</p>
+                </item>
+                <item id="section-5.1.list1.h">
+                  <num>(h)</num>
+                  <p>consideration of notices of <term refersTo="#term-motion" id="trm35">motion</term>;</p>
+                </item>
+                <item id="section-5.1.list1.i">
+                  <num>(i)</num>
+                  <p>consideration of notices of questions;</p>
+                </item>
+                <item id="section-5.1.list1.j">
+                  <num>(j)</num>
+                  <p>consideration of motions of exigency.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-5.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-speaker" id="trm36">speaker</term> may of his or her own volition change the order of the business appearing on the agenda.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.3">
+            <num>(3)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm37">member</term> who wishes to have the order of business on the agenda changed must approach the <term refersTo="#term-speaker" id="trm38">speaker</term> prior to the <term refersTo="#term-meeting" id="trm39">meeting</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Non-disclosure of Matters</heading>
+          <subsection id="section-6.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-6.1.list1">
+                <listIntroduction>Whenever the <term refersTo="#term-municipal_manager" id="trm40">municipal manager</term>, in his or her discretion, has before the <term refersTo="#term-meeting" id="trm41">meeting</term> provisionally placed any matter on a part of the agenda which will not be disclosed to the public or during a <term refersTo="#term-meeting" id="trm42">meeting</term> requested the <term refersTo="#term-speaker" id="trm43">speaker</term> to exclude the public from a discussion, the <term refersTo="#term-speaker" id="trm44">speaker</term>, when such matters are to be considered, must:</listIntroduction>
+                <item id="section-6.1.list1.a">
+                  <num>(a)</num>
+                  <p>direct that all members of the public leave the venue of the <term refersTo="#term-meeting" id="trm45">meeting</term>, and</p>
+                </item>
+                <item id="section-6.1.list1.b">
+                  <num>(b)</num>
+                  <p>direct that the members consider whether it would be reasonable for any or all of the items on such part of the agenda to be considered without the presence of the public, with due regard to section 160(7) of the <term refersTo="#term-Constitution" id="trm46">Constitution</term> which requires that the public and media may only be excluded from being present at a <term refersTo="#term-meeting" id="trm47">meeting</term> when it is reasonable to do so, having regard to the nature of the business being transacted.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-6.2">
+            <num>(2)</num>
+            <content>
+              <p>The motivation for the exclusion of the public must be minuted if not appearing from the report.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Speaker may introduce urgent matter</heading>
+          <paragraph id="section-7.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-speaker" id="trm48">speaker</term> may at any time and without notice make any statement or introduce urgent matters.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Business to be transacted</heading>
+          <paragraph id="section-8.paragraph-0">
+            <content>
+              <p>Except as otherwise provided in these <term refersTo="#term-rules" id="trm49">rules</term>, no matter not specified in the agenda of a <term refersTo="#term-meeting" id="trm50">meeting</term> may be transacted at such <term refersTo="#term-meeting" id="trm51">meeting</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Meetings</heading>
+          <subsection id="section-9.1">
+            <num>(1)</num>
+            <content>
+              <p>Council must meet at least quarterly.</p>
+            </content>
+          </subsection>
+          <subsection id="section-9.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-speaker" id="trm52">speaker</term> decides when and where the <term refersTo="#term-council" id="trm53">council</term> meets, but if a majority of the members request the <term refersTo="#term-speaker" id="trm54">speaker</term> in writing to convene a <term refersTo="#term-meeting" id="trm55">meeting</term>, the <term refersTo="#term-speaker" id="trm56">speaker</term> must convene a <term refersTo="#term-meeting" id="trm57">meeting</term> at a time set out in the request.</p>
+            </content>
+          </subsection>
+          <subsection id="section-9.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-municipal_manager" id="trm58">municipal manager</term> must, at the direction of the <term refersTo="#term-speaker" id="trm59">speaker</term>, give notice in writing to each <term refersTo="#term-member" id="trm60">member</term> of every <term refersTo="#term-meeting" id="trm61">meeting</term> decided upon in terms of sub-section (2).</p>
+            </content>
+          </subsection>
+          <subsection id="section-9.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-municipal_manager" id="trm62">municipal manager</term> must give notice to the public of the date, time and venue of every <term refersTo="#term-meeting" id="trm63">meeting</term> by publishing a notice in a local newspaper determined by him or her; provided that he or she may depart from this requirement when time constraints make this impossible.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Attendance at Meetings</heading>
+          <subsection id="section-10.1">
+            <num>(1)</num>
+            <content>
+              <p>Every <term refersTo="#term-member" id="trm64">member</term> attending a <term refersTo="#term-meeting" id="trm65">meeting</term> of the <term refersTo="#term-council" id="trm66">council</term> must sign his or her name in the attendance register kept for such purpose.</p>
+            </content>
+          </subsection>
+          <subsection id="section-10.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-10.2.list1">
+                <listIntroduction>A <term refersTo="#term-member" id="trm67">member</term> must attend each <term refersTo="#term-meeting" id="trm68">meeting</term> except when—</listIntroduction>
+                <item id="section-10.2.list1.a">
+                  <num>(a)</num>
+                  <p>leave of absence is granted in terms of section 11; or</p>
+                </item>
+                <item id="section-10.2.list1.b">
+                  <num>(b)</num>
+                  <p>the <term refersTo="#term-member" id="trm69">member</term> is required to withdraw in terms of law.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Leave of Absence</heading>
+          <paragraph id="section-11.paragraph-0">
+            <content>
+              <p>A <term refersTo="#term-member" id="trm70">member</term> who wishes to absent himself or herself from meetings must before so absenting himself or herself, obtain leave of absence from the Council, provided that the <term refersTo="#term-speaker" id="trm71">speaker</term>, on good cause shown, may grant leave of absence to a <term refersTo="#term-member" id="trm72">member</term> who has been prevented by special circumstances from obtaining leave of absence from the Council.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Sanction for Non-attendance</heading>
+          <subsection id="section-12.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm73">member</term> who without leave absents himself or herself from a <term refersTo="#term-meeting" id="trm74">meeting</term> or who fails to be in attendance at the start of the <term refersTo="#term-meeting" id="trm75">meeting</term> or fails to remain in attendance at such a <term refersTo="#term-meeting" id="trm76">meeting</term>, is in breach of these <term refersTo="#term-rules" id="trm77">rules</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.2">
+            <num>(2)</num>
+            <content>
+              <p>A committee elected by <term refersTo="#term-council" id="trm78">council</term>, must investigate and make a finding on any breach referred to in sub-section (1).</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.3">
+            <num>(3)</num>
+            <content>
+              <p>The committee elected by <term refersTo="#term-council" id="trm79">council</term> must conduct its business in accordance with the uniform standing procedures determined by <term refersTo="#term-council" id="trm80">council</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.4">
+            <num>(4)</num>
+            <content>
+              <p>If the committee elected by <term refersTo="#term-council" id="trm81">council</term> finds that a <term refersTo="#term-member" id="trm82">member</term> has breached sub-section (1), the <term refersTo="#term-member" id="trm83">member</term> must be fined 10% of his or her monthly salary.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.5">
+            <num>(5)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm84">member</term> who is absent from three or more consecutive meetings which he or she is required to attend in terms of section 9, must be removed from office in terms of item 4(2) of the <term refersTo="#term-code" id="trm85">code</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.6">
+            <num>(6)</num>
+            <content>
+              <p>Proceedings for the removal of a <term refersTo="#term-member" id="trm86">member</term> in terms of subsection (5) or for the imposition of a fine in terms of sub-section (4) must be conducted in accordance with the uniform standing procedure determined by the Council in terms of subsection (3).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Minutes</heading>
+          <subsection id="section-13.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-municipal_manager" id="trm87">municipal manager</term> must compile the minutes of the proceedings of meetings in printed form.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.2">
+            <num>(2)</num>
+            <content>
+              <p>The minutes of a <term refersTo="#term-meeting" id="trm88">meeting</term> must be confirmed by the <term refersTo="#term-council" id="trm89">council</term> at the next <term refersTo="#term-meeting" id="trm90">meeting</term> and signed by the <term refersTo="#term-speaker" id="trm91">speaker</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.3">
+            <num>(3)</num>
+            <content>
+              <p>The minutes shall be taken as read, for the purpose of confirmation, if a copy thereof was sent to each <term refersTo="#term-member" id="trm92">member</term> within a reasonable period before the next <term refersTo="#term-meeting" id="trm93">meeting</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.4">
+            <num>(4)</num>
+            <content>
+              <p>No <term refersTo="#term-motion" id="trm94">motion</term> or discussion shall be allowed on the minutes, except in connection with the correctness thereof.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>Quorum</heading>
+          <subsection id="section-14.1">
+            <num>(1)</num>
+            <content>
+              <p>A majority of the members constitutes a quorum.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.2">
+            <num>(2)</num>
+            <content>
+              <p>If there is no quorum at the time for which the <term refersTo="#term-meeting" id="trm95">meeting</term> is scheduled, the <term refersTo="#term-speaker" id="trm96">speaker</term> must take the chair as soon as a quorum is present.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.3">
+            <num>(3)</num>
+            <content>
+              <p>Whenever there is no quorum, the start of the <term refersTo="#term-meeting" id="trm97">meeting</term> must be delayed for no longer than 30 minutes and if at the end of that period, there is no quorum, the <term refersTo="#term-speaker" id="trm98">speaker</term> must adjourn the <term refersTo="#term-meeting" id="trm99">meeting</term> to another time, date and venue at his or her discretion and record the names of those members present.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.4">
+            <num>(4)</num>
+            <content>
+              <p>Whenever the <term refersTo="#term-speaker" id="trm100">speaker</term> is not present and there is no quorum, the start of the <term refersTo="#term-meeting" id="trm101">meeting</term> must be delayed for no more than 30 minutes and if there is no quorum at the end of that period, no <term refersTo="#term-meeting" id="trm102">meeting</term> may take place and the <term refersTo="#term-municipal_manager" id="trm103">municipal manager</term> must record the names of the members present.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.5">
+            <num>(5)</num>
+            <content>
+              <p>Whenever during a <term refersTo="#term-meeting" id="trm104">meeting</term> there is no quorum, the <term refersTo="#term-speaker" id="trm105">speaker</term> must suspend the proceedings until a quorum is again present, provided that if after 10 minutes or such longer time the Speaker may allow, there is still no quorum the <term refersTo="#term-speaker" id="trm106">speaker</term> must adjourn the <term refersTo="#term-meeting" id="trm107">meeting</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.6">
+            <num>(6)</num>
+            <content>
+              <p>Whenever a <term refersTo="#term-meeting" id="trm108">meeting</term> is adjourned owing to the absence of a quorum, the time of such adjournment, as well as the names of the members present, must be recorded in the minutes.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.7">
+            <num>(7)</num>
+            <content>
+              <p>The <term refersTo="#term-speaker" id="trm109">speaker</term> must report the names of the absentee members to the committee established in terms of section 12 for the purposes of an investigation of a breach of these <term refersTo="#term-rules" id="trm110">rules</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part id="part-4">
+        <num>4</num>
+        <heading>Decisions</heading>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Unopposed Matters</heading>
+          <paragraph id="section-15.paragraph-0">
+            <content>
+              <p>Whenever <term refersTo="#term-council" id="trm111">council</term> is called upon to consider a matter before it and there is no opposition from any <term refersTo="#term-member" id="trm112">member</term>, a unanimous vote will be recorded in the minutes.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Opposed matters</heading>
+          <subsection id="section-16.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-speaker" id="trm113">speaker</term> must put every opposed matter to the vote by calling upon the members to indicate by a show of hands unless otherwise prescribed by law, whether they are for such matter or against it, whereupon he or she must declare the result of such vote.</p>
+            </content>
+          </subsection>
+          <subsection id="section-16.2">
+            <num>(2)</num>
+            <content>
+              <p>Upon the <term refersTo="#term-speaker" id="trm114">speaker</term>’s declaration of the result of a vote, a <term refersTo="#term-member" id="trm115">member</term> may demand for his or her vote to be recorded against the decision concerned and the <term refersTo="#term-municipal_manager" id="trm116">municipal manager</term> shall ensure that such vote is recorded in the minutes.</p>
+            </content>
+          </subsection>
+          <subsection id="section-16.3">
+            <num>(3)</num>
+            <content>
+              <p>If there is an equality of votes in respect of a matter on which voting takes place in accordance with sub-section (1) the <term refersTo="#term-speaker" id="trm117">speaker</term> must exercise his or her casting vote, in addition to his or her deliberative vote, provided that the <term refersTo="#term-speaker" id="trm118">speaker</term> may not exercise a casting vote in terms of any matter set out in section 160(2) of the <term refersTo="#term-Constitution" id="trm119">Constitution</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Decisions</heading>
+          <subsection id="section-17.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-17.1.list1">
+                <listIntroduction>In accordance with the <term refersTo="#term-Constitution" id="trm120">Constitution</term>, a supporting vote of a majority of the members is necessary to decide on—</listIntroduction>
+                <item id="section-17.1.list1.a">
+                  <num>(a)</num>
+                  <p>the passing of by-laws;</p>
+                </item>
+                <item id="section-17.1.list1.b">
+                  <num>(b)</num>
+                  <p>the approval of the budget;</p>
+                </item>
+                <item id="section-17.1.list1.c">
+                  <num>(c)</num>
+                  <p>the imposition of rates and other taxes, levies and duties;</p>
+                </item>
+                <item id="section-17.1.list1.d">
+                  <num>(d)</num>
+                  <p>the raising of loans.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-17.2">
+            <num>(2)</num>
+            <content>
+              <p>In accordance with section 30(5) of the <term refersTo="#term-Structures_Act" id="trm121">Structures Act</term> a supporting vote of at least two-thirds of the members is necessary to adopt a decision to dissolve the <term refersTo="#term-council" id="trm122">council</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-17.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-17.3.list1">
+                <listIntroduction>In accordance with item 6(3) of the <term refersTo="#term-code" id="trm123">code</term>, if more than one quarter of the members are against a <term refersTo="#term-motion" id="trm124">motion</term> to grant consent to a <term refersTo="#term-member" id="trm125">member</term> to—</listIntroduction>
+                <item id="section-17.3.list1.a">
+                  <num>(a)</num>
+                  <blockList id="section-17.3.list1.a.list0">
+                    <listIntroduction>be a party to or beneficiary under a contract for—</listIntroduction>
+                    <item id="section-17.3.list1.a.list0.i">
+                      <num>(i)</num>
+                      <p>the provision of goods or services to the municipality; or</p>
+                    </item>
+                    <item id="section-17.3.list1.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>the performance of any work otherwise than as a <term refersTo="#term-member" id="trm126">member</term> for the municipality;</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-17.3.list1.b">
+                  <num>(b)</num>
+                  <p>obtain a financial interest in any business of the municipality; or</p>
+                </item>
+                <item id="section-17.3.list1.c">
+                  <num>(c)</num>
+                  <p>for a fee or other consideration appear on behalf of any other person before the <term refersTo="#term-council" id="trm127">council</term> or a committee;</p>
+                </item>
+              </blockList>
+              <p>such consent may only be given to the <term refersTo="#term-member" id="trm128">member</term> with the approval of the <term refersTo="#term-MEC" id="trm129">MEC</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-17.4">
+            <num>(4)</num>
+            <content>
+              <p>All other questions are decided by a majority of votes cast.</p>
+            </content>
+          </subsection>
+          <subsection id="section-17.5">
+            <num>(5)</num>
+            <content>
+              <p>In accordance with section 59(3)(a) of the <term refersTo="#term-Systems_Act" id="trm130">Systems Act</term>, the <term refersTo="#term-council" id="trm131">council</term> may, or at the request in writing of at least one quarter of the councillors, must, review any decision taken by a political structure, political office bearer, councillor or staff <term refersTo="#term-member" id="trm132">member</term> in consequence of a delegation or instruction, and either confirm, vary or revoke the decision subject to any rights that may have accrued to a person.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Preference to unopposed business</heading>
+          <subsection id="section-18.1">
+            <num>(1)</num>
+            <content>
+              <p>When a <term refersTo="#term-meeting" id="trm133">meeting</term> has been in progress for not less than one hour the <term refersTo="#term-speaker" id="trm134">speaker</term> may interrupt the proceedings and direct that the <term refersTo="#term-council" id="trm135">council</term> proceed forthwith to dispose of business other than opposed business.</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.2">
+            <num>(2)</num>
+            <content>
+              <p>After the disposal of such business the proceedings shall be resumed at the point at which they were interrupted, unless all other remaining business has been adjourned until the next <term refersTo="#term-meeting" id="trm136">meeting</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.3">
+            <num>(3)</num>
+            <content>
+              <p>An item on the agenda shall be deemed to be opposed business if a <term refersTo="#term-member" id="trm137">member</term> signifies his intention to discuss such item immediately after the <term refersTo="#term-speaker" id="trm138">speaker</term> has intimated to the <term refersTo="#term-meeting" id="trm139">meeting</term> that such item is open for discussion; provided that no item shall be deemed to be opposed by reason only of matters being asked in connection therewith.</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part id="part-5">
+        <num>5</num>
+        <heading>Public Access</heading>
+        <section id="section-19">
+          <num>19.</num>
+          <heading>Admittance of Public</heading>
+          <paragraph id="section-19.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-speaker" id="trm140">speaker</term> must take reasonable steps to regulate public access to, and public conduct at meetings.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>Exclusion of the public from meetings</heading>
+          <subsection id="section-20.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-20.1.list1">
+                <listIntroduction>The public may be excluded from the <term refersTo="#term-meeting" id="trm141">meeting</term>:</listIntroduction>
+                <item id="section-20.1.list1.a">
+                  <num>(a)</num>
+                  <p>where so directed by the <term refersTo="#term-speaker" id="trm142">speaker</term> in terms of section 6, or</p>
+                </item>
+                <item id="section-20.1.list1.b">
+                  <num>(b)</num>
+                  <p>where so decided by <term refersTo="#term-council" id="trm143">council</term> in terms of sub-section (3).</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-20.2">
+            <num>(2)</num>
+            <content>
+              <p>If a <term refersTo="#term-motion" id="trm144">motion</term> by to exclude the public from the <term refersTo="#term-meeting" id="trm145">meeting</term> is seconded, the <term refersTo="#term-motion" id="trm146">motion</term> must be put to the vote, after discussion of the reasons but without discussion of the matter.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.3">
+            <num>(3)</num>
+            <content>
+              <p>If a <term refersTo="#term-motion" id="trm147">motion</term> to exclude the public is carried, the place of <term refersTo="#term-meeting" id="trm148">meeting</term> shall be cleared of all members of the public, including the media.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.4">
+            <num>(4)</num>
+            <content>
+              <p>The motivation for the exclusion of the public must be minuted.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-21">
+          <num>21.</num>
+          <heading>Re-admission of public and media to meetings</heading>
+          <subsection id="section-21.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm149">member</term> may during the course of the <term refersTo="#term-meeting" id="trm150">meeting</term> from which the public and the media were excluded, move "that the <term refersTo="#term-meeting" id="trm151">meeting</term> again be opened" and state the reasons for such <term refersTo="#term-motion" id="trm152">motion</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-21.2">
+            <num>(2)</num>
+            <content>
+              <p>If such <term refersTo="#term-motion" id="trm153">motion</term> is seconded it shall be put to the vote forthwith without discussion.</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part id="part-6">
+        <num>6</num>
+        <heading>Order in Meetings</heading>
+        <section id="section-22">
+          <num>22.</num>
+          <heading>Conduct of non-members and members of the public</heading>
+          <paragraph id="section-22.paragraph-0">
+            <content>
+              <p>If a non-<term refersTo="#term-member" id="trm154">member</term> or <term refersTo="#term-member" id="trm155">member</term> of the public misconducts himself or herself, behaves in an unseemly manner or obstructs the business of any <term refersTo="#term-meeting" id="trm156">meeting</term>, the <term refersTo="#term-speaker" id="trm157">speaker</term> may direct such person to retire from the place of <term refersTo="#term-meeting" id="trm158">meeting</term> for the remainder of the <term refersTo="#term-meeting" id="trm159">meeting</term> and may, if necessary, cause him or her to be removed therefrom.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-23">
+          <num>23.</num>
+          <heading>Conduct of members</heading>
+          <subsection id="section-23.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-23.1.list1">
+                <listIntroduction>If a <term refersTo="#term-member" id="trm160">member</term>—</listIntroduction>
+                <item id="section-23.1.list1.a">
+                  <num>(a)</num>
+                  <p>misconducts himself or herself, or</p>
+                </item>
+                <item id="section-23.1.list1.b">
+                  <num>(b)</num>
+                  <p>behaves in an unseemly manner, or</p>
+                </item>
+                <item id="section-23.1.list1.c">
+                  <num>(c)</num>
+                  <p>obstructs the business of a <term refersTo="#term-meeting" id="trm161">meeting</term>, or</p>
+                </item>
+                <item id="section-23.1.list1.d">
+                  <num>(d)</num>
+                  <p>challenges the ruling of the <term refersTo="#term-speaker" id="trm162">speaker</term> on any point of order or ruling, or</p>
+                </item>
+                <item id="section-23.1.list1.e">
+                  <num>(e)</num>
+                  <p>declines to withdraw any expression when required to do so by the <term refersTo="#term-speaker" id="trm163">speaker</term>, or</p>
+                </item>
+                <item id="section-23.1.list1.f">
+                  <num>(f)</num>
+                  <p>indulges in tedious repetition, unbecoming language or remarks which are of a defamatory nature, or</p>
+                </item>
+                <item id="section-23.1.list1.g">
+                  <num>(g)</num>
+                  <p>commits any breach of these <term refersTo="#term-rules" id="trm164">rules</term>,</p>
+                </item>
+              </blockList>
+              <p>the <term refersTo="#term-speaker" id="trm165">speaker</term> shall direct such <term refersTo="#term-member" id="trm166">member</term> to conduct himself or herself properly and, if speaking, to discontinue his or her speech.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.2">
+            <num>(2)</num>
+            <content>
+              <p>In the event of a disregard of the directions of the <term refersTo="#term-speaker" id="trm167">speaker</term>, the <term refersTo="#term-speaker" id="trm168">speaker</term> may direct such <term refersTo="#term-member" id="trm169">member</term> to retire from the place of <term refersTo="#term-meeting" id="trm170">meeting</term> for the remainder of the <term refersTo="#term-meeting" id="trm171">meeting</term> and may, if necessary, cause him or her to be removed therefrom.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-24">
+          <num>24.</num>
+          <heading>Offence</heading>
+          <paragraph id="section-24.paragraph-0">
+            <content>
+              <blockList id="section-24.paragraph-0.list1">
+                <listIntroduction>Any non-<term refersTo="#term-member" id="trm172">member</term> or <term refersTo="#term-member" id="trm173">member</term> of the public who—</listIntroduction>
+                <item id="section-24.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>refuses or fails to comply with a direction of the <term refersTo="#term-speaker" id="trm174">speaker</term> given in terms of section 22; or</p>
+                </item>
+                <item id="section-24.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>returns to the place of <term refersTo="#term-meeting" id="trm175">meeting</term> prior to the conclusion of the <term refersTo="#term-meeting" id="trm176">meeting</term> from which he or she was directed to retire or to be removed;</p>
+                </item>
+                <item id="section-24.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>offers resistance whilst being removed from the place of <term refersTo="#term-meeting" id="trm177">meeting</term>,</p>
+                </item>
+              </blockList>
+              <p>shall be guilty of an offence and liable on conviction to a fine determined by the court or to imprisonment for a period as determined by the court.</p>
+            </content>
+          </paragraph>
+        </section>
+      </part>
+      <part id="part-7">
+        <num>7</num>
+        <heading>Rules of Debate</heading>
+        <section id="section-25">
+          <num>25.</num>
+          <heading>Member to address the chair</heading>
+          <paragraph id="section-25.paragraph-0">
+            <content>
+              <p>A <term refersTo="#term-member" id="trm178">member</term> who speaks at a <term refersTo="#term-meeting" id="trm179">meeting</term> must address the chair and may do so in any one of the three official languages of the Province of the Western Cape.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-26">
+          <num>26.</num>
+          <heading>Order of priority</heading>
+          <paragraph id="section-26.paragraph-0">
+            <content>
+              <p>When a <term refersTo="#term-member" id="trm180">member</term> wishes to address the <term refersTo="#term-council" id="trm181">council</term>, he or she must first have the permission of the <term refersTo="#term-speaker" id="trm182">speaker</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-27">
+          <num>27.</num>
+          <heading>Precedence of Speaker</heading>
+          <paragraph id="section-27.paragraph-0">
+            <content>
+              <p>Whenever the <term refersTo="#term-speaker" id="trm183">speaker</term> addresses the <term refersTo="#term-meeting" id="trm184">meeting</term>, all members must be silent so that the <term refersTo="#term-speaker" id="trm185">speaker</term> may be heard without any interruption.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-28">
+          <num>28.</num>
+          <heading>Relevance</heading>
+          <subsection id="section-28.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm186">member</term> who speaks must direct his speech strictly to the subject or matter under discussion or to an explanation or to a point of order.</p>
+            </content>
+          </subsection>
+          <subsection id="section-28.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-28.2.list1">
+                <listIntroduction>No discussion may be permitted—</listIntroduction>
+                <item id="section-28.2.list1.a">
+                  <num>(a)</num>
+                  <p>which will anticipate any matter on the agenda;</p>
+                </item>
+                <item id="section-28.2.list1.b">
+                  <num>(b)</num>
+                  <p>on any matter in respect of which a decision by a judicial or administrative body or a commission of enquiry is pending.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-29">
+          <num>29.</num>
+          <heading>Right to speak</heading>
+          <subsection id="section-29.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-29.1.list1">
+                <listIntroduction>A <term refersTo="#term-member" id="trm187">member</term> may only speak once—</listIntroduction>
+                <item id="section-29.1.list1.a">
+                  <num>(a)</num>
+                  <p>to the matter before the <term refersTo="#term-council" id="trm188">council</term>;</p>
+                </item>
+                <item id="section-29.1.list1.b">
+                  <num>(b)</num>
+                  <p>to any <term refersTo="#term-motion" id="trm189">motion</term> before the <term refersTo="#term-council" id="trm190">council</term>;</p>
+                </item>
+                <item id="section-29.1.list1.c">
+                  <num>(c)</num>
+                  <p>to any amendments to a matter or <term refersTo="#term-motion" id="trm191">motion</term> before the <term refersTo="#term-council" id="trm192">council</term>;</p>
+                </item>
+                <item id="section-29.1.list1.d">
+                  <num>(d)</num>
+                  <p>to a point of order or a question of privilege,</p>
+                </item>
+              </blockList>
+              <p>unless authorised by the <term refersTo="#term-speaker" id="trm193">speaker</term> or as provided for in terms of these <term refersTo="#term-rules" id="trm194">rules</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-29.2">
+            <num>(2)</num>
+            <content>
+              <p>The mover of an original <term refersTo="#term-motion" id="trm195">motion</term> may speak to the <term refersTo="#term-motion" id="trm196">motion</term> and reply but in replying he or she must strictly confine himself or herself to answering previous speakers and may not introduce any new matter into the debate.</p>
+            </content>
+          </subsection>
+          <subsection id="section-29.3">
+            <num>(3)</num>
+            <content>
+              <p>The right of reply shall not extend to the mover of an amendment which, having been carried, has become the substantive <term refersTo="#term-motion" id="trm197">motion</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-30">
+          <num>30.</num>
+          <heading>Length of speeches</heading>
+          <paragraph id="section-30.paragraph-0">
+            <content>
+              <p>Except with the consent of the <term refersTo="#term-speaker" id="trm198">speaker</term> no <term refersTo="#term-member" id="trm199">member</term> may speak for more than five minutes.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-31">
+          <num>31.</num>
+          <heading>Re-introduction of <term refersTo="#term-motion" id="trm200">motion</term> or question</heading>
+          <paragraph id="section-31.paragraph-0">
+            <content>
+              <p>No <term refersTo="#term-motion" id="trm201">motion</term> which has been rejected by the <term refersTo="#term-council" id="trm202">council</term> and no question asked in terms of the <term refersTo="#term-rules" id="trm203">rules</term> and dealt with at any <term refersTo="#term-meeting" id="trm204">meeting</term> may again be moved or asked within a period of three months of such <term refersTo="#term-meeting" id="trm205">meeting</term> except with the consent of the <term refersTo="#term-speaker" id="trm206">speaker</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-32">
+          <num>32.</num>
+          <heading>Notices of motions</heading>
+          <subsection id="section-32.1">
+            <num>(1)</num>
+            <content>
+              <p>Subject to section 35(2), the <term refersTo="#term-speaker" id="trm207">speaker</term> may not accept any <term refersTo="#term-motion" id="trm208">motion</term> except a <term refersTo="#term-motion" id="trm209">motion</term> of exigency or a <term refersTo="#term-motion" id="trm210">motion</term> of course unless notice thereof has been given in terms of subsection (2).</p>
+            </content>
+          </subsection>
+          <subsection id="section-32.2">
+            <num>(2)</num>
+            <content>
+              <p>Every notice of intention by a <term refersTo="#term-member" id="trm211">member</term> to introduce a <term refersTo="#term-motion" id="trm212">motion</term> shall be in writing, motivated, signed and dated and delivered to the <term refersTo="#term-municipal_manager" id="trm213">municipal manager</term> at least six working days before the date of the <term refersTo="#term-meeting" id="trm214">meeting</term> on which it is intended to be introduced.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-33">
+          <num>33.</num>
+          <heading>Notices of questions</heading>
+          <subsection id="section-33.1">
+            <num>(1)</num>
+            <content>
+              <p>Subject to section 35(2) and 37, the <term refersTo="#term-speaker" id="trm215">speaker</term> may not accept any question unless notice thereof has been given in terms of sub-section (2).</p>
+            </content>
+          </subsection>
+          <subsection id="section-33.2">
+            <num>(2)</num>
+            <content>
+              <p>Every notice of intention by a <term refersTo="#term-member" id="trm216">member</term> to introduce a question shall be in writing, motivated, signed and dated and delivered to the <term refersTo="#term-municipal_manager" id="trm217">municipal manager</term> at least six working days before the date of the <term refersTo="#term-meeting" id="trm218">meeting</term> on which it is intended to be introduced.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-34">
+          <num>34.</num>
+          <heading>Absence of mover or questioner</heading>
+          <paragraph id="section-34.paragraph-0">
+            <content>
+              <p>In the event of the mover or questioner not being present at the <term refersTo="#term-meeting" id="trm219">meeting</term> of the <term refersTo="#term-council" id="trm220">council</term> when called upon by the <term refersTo="#term-speaker" id="trm221">speaker</term> to move a <term refersTo="#term-motion" id="trm222">motion</term> or ask a question standing in his name on the agenda, such <term refersTo="#term-motion" id="trm223">motion</term> or question shall lapse unless the original mover or questioner has notified the <term refersTo="#term-speaker" id="trm224">speaker</term> in writing of a substitute to move the <term refersTo="#term-motion" id="trm225">motion</term> or ask the question.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-35">
+          <num>35.</num>
+          <heading>Motions and questions on matters dealt with by committee, executive mayor or <term refersTo="#term-member" id="trm226">member</term> of the mayoral committee</heading>
+          <subsection id="section-35.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm227">member</term> may not give notice of a <term refersTo="#term-motion" id="trm228">motion</term> or question in regard to any matter assigned to a committee or delegated to the executive mayor or a <term refersTo="#term-member" id="trm229">member</term> of the mayoral committee, unless such <term refersTo="#term-motion" id="trm230">motion</term> or question has previously been submitted to such committee, executive mayor or <term refersTo="#term-member" id="trm231">member</term> of the mayoral committee, or unless it is in the form of a reference to such committee or <term refersTo="#term-member" id="trm232">member</term> for consideration and report.</p>
+            </content>
+          </subsection>
+          <subsection id="section-35.2">
+            <num>(2)</num>
+            <content>
+              <p>The chairperson of a committee, the executive mayor or a <term refersTo="#term-member" id="trm233">member</term> of the mayoral committee may, if he or she is of the opinion that the matter is one of urgency, give notice of his or her intention to introduce a <term refersTo="#term-motion" id="trm234">motion</term> or ask a question on a matter assigned to such a committee or delegated to the executive mayor or a <term refersTo="#term-member" id="trm235">member</term> of the mayoral committee, notwithstanding the fact that such <term refersTo="#term-motion" id="trm236">motion</term> or question has not received the prior consideration of such committee, the executive mayor or a <term refersTo="#term-member" id="trm237">member</term> of the mayoral committee.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-36">
+          <num>36.</num>
+          <heading>Recommendation of the executive mayor regarded as <term refersTo="#term-motion" id="trm238">motion</term></heading>
+          <subsection id="section-36.1">
+            <num>(1)</num>
+            <content>
+              <p>The adoption of a recommendation contained in a report submitted by the executive mayor to the <term refersTo="#term-council" id="trm239">council</term> shall be deemed to have been moved by him or her or in his or her absence, by a <term refersTo="#term-member" id="trm240">member</term> of the mayoral committee deputed by him or her to act at the time when the <term refersTo="#term-speaker" id="trm241">speaker</term> intimates that such report is open for discussion, and no such <term refersTo="#term-motion" id="trm242">motion</term> need be seconded, nor shall the executive mayor be thereby precluded from exercising his or her right to speak thereon.</p>
+            </content>
+          </subsection>
+          <subsection id="section-36.2">
+            <num>(2)</num>
+            <content>
+              <p>The executive mayor or <term refersTo="#term-member" id="trm243">member</term> referred to in subsection (1) may speak on the matter and reply but in replying he or she shall strictly confine himself or herself to answering previous speakers and shall not introduce any new matter into the debate.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-37">
+          <num>37.</num>
+          <heading>Questions</heading>
+          <subsection id="section-37.1">
+            <num>(1)</num>
+            <content>
+              <p>After any <term refersTo="#term-motion" id="trm244">motion</term> or amendment has been moved and seconded or at the conclusion of any speech thereon a <term refersTo="#term-member" id="trm245">member</term> may ask any question relevant to such <term refersTo="#term-motion" id="trm246">motion</term> or amendment.</p>
+            </content>
+          </subsection>
+          <subsection id="section-37.2">
+            <num>(2)</num>
+            <content>
+              <p>No supplementary questions may be asked except by the <term refersTo="#term-member" id="trm247">member</term> asking the original question and then only in respect of matters arising out of the reply to such original question.</p>
+            </content>
+          </subsection>
+          <subsection id="section-37.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-speaker" id="trm248">speaker</term> may not disallow any such question, provided that the <term refersTo="#term-member" id="trm249">member</term> to whom such question is directed may either reply thereto forthwith or require that notice thereof be given in terms of section 33.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-38">
+          <num>38.</num>
+          <heading>Motion of exigency</heading>
+          <subsection id="section-38.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm250">member</term> may direct the attention of the <term refersTo="#term-council" id="trm251">council</term> to any matter which does not appear on the agenda and of which no previous notice has been given, by stating brieﬂy the subject of the matter and without comment thereon moving "that the <term refersTo="#term-motion" id="trm252">motion</term> to which attention has been directed be considered forthwith as a matter of exigency".</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.2">
+            <num>(2)</num>
+            <content>
+              <p>Such <term refersTo="#term-motion" id="trm253">motion</term> is herein referred to as a <term refersTo="#term-motion" id="trm254">motion</term> of exigency.</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.3">
+            <num>(3)</num>
+            <content>
+              <p>If a <term refersTo="#term-motion" id="trm255">motion</term> of exigency is seconded and carried, the mover shall be permitted without notice to bring the matter under consideration by way of <term refersTo="#term-motion" id="trm256">motion</term> or question.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-39">
+          <num>39.</num>
+          <heading>Motions of course</heading>
+          <paragraph id="section-39.paragraph-0">
+            <content>
+              <blockList id="section-39.paragraph-0.list1">
+                <listIntroduction>In addition to those provided for elsewhere in these <term refersTo="#term-rules" id="trm257">rules</term>, the following shall be regarded as motions of course:</listIntroduction>
+                <item id="section-39.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>that precedence be given to the consideration of any particular item appearing on the agenda;</p>
+                </item>
+                <item id="section-39.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>that any report referred to in the agenda be noted, adopted, acted upon or referred back;</p>
+                </item>
+                <item id="section-39.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>that any document before the <term refersTo="#term-council" id="trm258">council</term> be acted upon in the manner specified in the <term refersTo="#term-motion" id="trm259">motion</term>;</p>
+                </item>
+                <item id="section-39.paragraph-0.list1.d">
+                  <num>(d)</num>
+                  <p>that action be taken in regard to any item submitted for consideration in the manner specified in the <term refersTo="#term-motion" id="trm260">motion</term>;</p>
+                </item>
+                <item id="section-39.paragraph-0.list1.e">
+                  <num>(e)</num>
+                  <p>that the public be excluded from the <term refersTo="#term-meeting" id="trm261">meeting</term> during a discussion of an item or items on the agenda.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-40">
+          <num>40.</num>
+          <heading>Points of order</heading>
+          <paragraph id="section-40.paragraph-0">
+            <content>
+              <p>A <term refersTo="#term-member" id="trm262">member</term> may raise a point of order to call attention to a departure from these <term refersTo="#term-rules" id="trm263">rules</term> by stating the particular rule such <term refersTo="#term-member" id="trm264">member</term> relies on, whereupon such <term refersTo="#term-member" id="trm265">member</term> shall immediately be heard.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-41">
+          <num>41.</num>
+          <heading>Points of explanation</heading>
+          <paragraph id="section-41.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-speaker" id="trm266">speaker</term> may allow a <term refersTo="#term-member" id="trm267">member</term> to raise a point of explanation provided that such explanation shall be confined to some material part of the debate which may have been misunderstood.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-42">
+          <num>42.</num>
+          <heading>Withdrawal of <term refersTo="#term-motion" id="trm268">motion</term>, amendment or question</heading>
+          <subsection id="section-42.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-motion" id="trm269">motion</term> or amendment may without debate and with the permission of the seconder and <term refersTo="#term-council" id="trm270">council</term>, be withdrawn by the mover.</p>
+            </content>
+          </subsection>
+          <subsection id="section-42.2">
+            <num>(2)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm271">member</term> may not speak on such <term refersTo="#term-motion" id="trm272">motion</term> or amendment after the Council has agreed to the withdrawal of such <term refersTo="#term-motion" id="trm273">motion</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-42.3">
+            <num>(3)</num>
+            <content>
+              <p>A question may be withdrawn by the <term refersTo="#term-member" id="trm274">member</term> intending to put it.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-43">
+          <num>43.</num>
+          <heading>Speaker’s ruling on points of order and explanation</heading>
+          <subsection id="section-43.1">
+            <num>(1)</num>
+            <content>
+              <p>The ruling of the <term refersTo="#term-speaker" id="trm275">speaker</term> on a point of order or an explanation shall be final and not open to discussion.</p>
+            </content>
+          </subsection>
+          <subsection id="section-43.2">
+            <num>(2)</num>
+            <content>
+              <p>The ruling of the <term refersTo="#term-speaker" id="trm276">speaker</term> on any point of order raised as to the interpretation of these <term refersTo="#term-rules" id="trm277">rules</term> must be entered in the minutes.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-44">
+          <num>44.</num>
+          <heading>Order of debate</heading>
+          <paragraph id="section-44.paragraph-0">
+            <content>
+              <blockList id="section-44.paragraph-0.list1">
+                <listIntroduction>When a <term refersTo="#term-motion" id="trm278">motion</term> is under debate no further <term refersTo="#term-motion" id="trm279">motion</term> shall be received except the following:</listIntroduction>
+                <item id="section-44.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>that the <term refersTo="#term-motion" id="trm280">motion</term> be amended;</p>
+                </item>
+                <item id="section-44.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>that the consideration of the matter be postponed;</p>
+                </item>
+                <item id="section-44.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>that the public and the media be excluded;</p>
+                </item>
+                <item id="section-44.paragraph-0.list1.d">
+                  <num>(d)</num>
+                  <p>that the public and the media be re-admitted;</p>
+                </item>
+                <item id="section-44.paragraph-0.list1.e">
+                  <num>(e)</num>
+                  <p>that the <term refersTo="#term-council" id="trm281">council</term> do now adjourn to another date;</p>
+                </item>
+                <item id="section-44.paragraph-0.list1.f">
+                  <num>(f)</num>
+                  <p>that the <term refersTo="#term-council" id="trm282">council</term> adjourn for a specified time;</p>
+                </item>
+                <item id="section-44.paragraph-0.list1.g">
+                  <num>(g)</num>
+                  <p>that the debate be adjourned;</p>
+                </item>
+                <item id="section-44.paragraph-0.list1.h">
+                  <num>(h)</num>
+                  <p>that the matter be put to the vote;</p>
+                </item>
+                <item id="section-44.paragraph-0.list1.i">
+                  <num>(i)</num>
+                  <p>that the matter be removed from the agenda.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-45">
+          <num>45.</num>
+          <heading>That the <term refersTo="#term-motion" id="trm283">motion</term> be amended</heading>
+          <subsection id="section-45.1">
+            <num>(1)</num>
+            <content>
+              <p>Every amendment must be relevant to the <term refersTo="#term-motion" id="trm284">motion</term> on which it is moved.</p>
+            </content>
+          </subsection>
+          <subsection id="section-45.2">
+            <num>(2)</num>
+            <content>
+              <p>An amendment must, if required by the <term refersTo="#term-speaker" id="trm285">speaker</term>, be in writing, signed by the mover and handed to the <term refersTo="#term-speaker" id="trm286">speaker</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-45.3">
+            <num>(3)</num>
+            <content>
+              <p>An amendment must be read before being moved.</p>
+            </content>
+          </subsection>
+          <subsection id="section-45.4">
+            <num>(4)</num>
+            <content>
+              <p>An amendment may not be discussed or put to the <term refersTo="#term-council" id="trm287">council</term> until it has been seconded.</p>
+            </content>
+          </subsection>
+          <subsection id="section-45.5">
+            <num>(5)</num>
+            <content>
+              <p>If there is more than one amendment to a <term refersTo="#term-motion" id="trm288">motion</term> the amendment last proposed must be put to the vote first and if carried the matter shall be resolved accordingly.</p>
+            </content>
+          </subsection>
+          <subsection id="section-45.6">
+            <num>(6)</num>
+            <content>
+              <p>If the amendment last proposed is rejected the amendment proposed immediately prior to the last amendment must be put to the vote.</p>
+            </content>
+          </subsection>
+          <subsection id="section-45.7">
+            <num>(7)</num>
+            <content>
+              <p>No further amendment may be moved to a <term refersTo="#term-motion" id="trm289">motion</term> or amendment after the <term refersTo="#term-speaker" id="trm290">speaker</term> has commenced to take the vote upon such <term refersTo="#term-motion" id="trm291">motion</term> or amendment.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-46">
+          <num>46.</num>
+          <heading>That consideration of the matter be postponed</heading>
+          <subsection id="section-46.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm292">member</term> may at the conclusion of a speech move that the consideration of the matter be postponed to a fixed or undetermined date.</p>
+            </content>
+          </subsection>
+          <subsection id="section-46.2">
+            <num>(2)</num>
+            <content>
+              <p>Such <term refersTo="#term-motion" id="trm293">motion</term> must be seconded but need not be in writing, provided that the seconder may not be permitted to speak. The mover must be permitted to speak to the <term refersTo="#term-motion" id="trm294">motion</term> for a period not exceeding five minutes and the seconder may not speak except for seconding the <term refersTo="#term-motion" id="trm295">motion</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-46.3">
+            <num>(3)</num>
+            <content>
+              <p>Upon such <term refersTo="#term-motion" id="trm296">motion</term> being made the mover of the matter under debate may (without prejudice to his or her ultimate right of reply if the <term refersTo="#term-motion" id="trm297">motion</term> that the matter be postponed be not carried) be heard in reply for five minutes, after which the <term refersTo="#term-motion" id="trm298">motion</term> shall be put without further debate.</p>
+            </content>
+          </subsection>
+          <subsection id="section-46.4">
+            <num>(4)</num>
+            <content>
+              <p>If the <term refersTo="#term-motion" id="trm299">motion</term> is carried, the matter must be placed first on the agenda of matters to be considered at the <term refersTo="#term-meeting" id="trm300">meeting</term> to which it has been postponed, provided that sections 5(2) and (3) shall not apply to such matter.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-47">
+          <num>47.</num>
+          <heading>That the <term refersTo="#term-council" id="trm301">council</term> do now adjourn to another date</heading>
+          <subsection id="section-47.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm302">member</term> who has not yet participated in the debate on the matter then before the <term refersTo="#term-meeting" id="trm303">meeting</term> may at any time except during the course of a speech by another <term refersTo="#term-member" id="trm304">member</term> or while a vote is being taken move "that the <term refersTo="#term-council" id="trm305">council</term> do now adjourn to another date".</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.2">
+            <num>(2)</num>
+            <content>
+              <p>Such <term refersTo="#term-motion" id="trm306">motion</term> must be seconded but need not be in writing.</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.3">
+            <num>(3)</num>
+            <content>
+              <p>The mover may speak to the <term refersTo="#term-motion" id="trm307">motion</term> for a period not exceeding five minutes, but the seconder may not speak except for seconding the <term refersTo="#term-motion" id="trm308">motion</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.4">
+            <num>(4)</num>
+            <content>
+              <p>If the <term refersTo="#term-motion" id="trm309">motion</term> is carried the <term refersTo="#term-council" id="trm310">council</term> must forthwith adjourn, provided that the <term refersTo="#term-speaker" id="trm311">speaker</term> may direct that the <term refersTo="#term-meeting" id="trm312">meeting</term> proceed first to dispose of business other than opposed business.</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.5">
+            <num>(5)</num>
+            <content>
+              <p>If the <term refersTo="#term-motion" id="trm313">motion</term> is not carried the <term refersTo="#term-speaker" id="trm314">speaker</term> may not accept another such <term refersTo="#term-motion" id="trm315">motion</term> until the period of half an hour has elapsed.</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.6">
+            <num>(6)</num>
+            <content>
+              <p>Save as is provided in sub-section (3), no discussion on such <term refersTo="#term-motion" id="trm316">motion</term> shall be permitted, except that a <term refersTo="#term-member" id="trm317">member</term>, who has first indicated as such, may speak in opposition of the <term refersTo="#term-motion" id="trm318">motion</term> for not more than five minutes.</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.7">
+            <num>(7)</num>
+            <content>
+              <p>No amendment to such <term refersTo="#term-motion" id="trm319">motion</term> may be moved except in relation to the period of adjournment.</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.8">
+            <num>(8)</num>
+            <content>
+              <p>If a <term refersTo="#term-motion" id="trm320">motion</term> to adjourn a <term refersTo="#term-meeting" id="trm321">meeting</term> has been carried during a debate and prior to the conclusion thereof, then upon consideration of the matter forming the subject of such debate at the adjourned <term refersTo="#term-meeting" id="trm322">meeting</term>, the <term refersTo="#term-member" id="trm323">member</term> who moved the adjournment shall be entitled to speak first.</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.9">
+            <num>(9)</num>
+            <content>
+              <p>No business may be transacted at an adjourned <term refersTo="#term-meeting" id="trm324">meeting</term> except such as was set out in the agenda for the <term refersTo="#term-meeting" id="trm325">meeting</term> of which it is an adjournment.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-48">
+          <num>48.</num>
+          <heading>That the <term refersTo="#term-council" id="trm326">council</term> adjourn for a specified time</heading>
+          <subsection id="section-48.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm327">member</term> may at any time except during the course of a speech by another <term refersTo="#term-member" id="trm328">member</term> or while a vote is being taken move "that the <term refersTo="#term-council" id="trm329">council</term> now adjourn for a specified time", up to one hour.</p>
+            </content>
+          </subsection>
+          <subsection id="section-48.2">
+            <num>(2)</num>
+            <content>
+              <p>Such <term refersTo="#term-motion" id="trm330">motion</term> must be seconded but need not be in writing.</p>
+            </content>
+          </subsection>
+          <subsection id="section-48.3">
+            <num>(3)</num>
+            <content>
+              <p>If the <term refersTo="#term-motion" id="trm331">motion</term> is carried the <term refersTo="#term-council" id="trm332">council</term> shall forthwith adjourn for the specified time.</p>
+            </content>
+          </subsection>
+          <subsection id="section-48.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-speaker" id="trm333">speaker</term> may limit the number of such motions.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-49">
+          <num>49.</num>
+          <heading>That the debate be adjourned</heading>
+          <subsection id="section-49.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm334">member</term> who has not yet participated in the debate on a matter then before the <term refersTo="#term-meeting" id="trm335">meeting</term> may at the conclusion of any speech move that the debate be adjourned.</p>
+            </content>
+          </subsection>
+          <subsection id="section-49.2">
+            <num>(2)</num>
+            <content>
+              <p>Such <term refersTo="#term-motion" id="trm336">motion</term> must be seconded but need not be in writing.</p>
+            </content>
+          </subsection>
+          <subsection id="section-49.3">
+            <num>(3)</num>
+            <content>
+              <p>The mover of such <term refersTo="#term-motion" id="trm337">motion</term> may speak to it for five minutes, but the seconder may not speak beyond formally seconding it.</p>
+            </content>
+          </subsection>
+          <subsection id="section-49.4">
+            <num>(4)</num>
+            <content>
+              <p>Save as is provided in sub-section (3) no discussion may be permitted on such <term refersTo="#term-motion" id="trm338">motion</term> except in relation to the period of adjournment and that the <term refersTo="#term-member" id="trm339">member</term> who first rises in his place for that purpose may speak in opposition thereto for five minutes.</p>
+            </content>
+          </subsection>
+          <subsection id="section-49.5">
+            <num>(5)</num>
+            <content>
+              <p>If such <term refersTo="#term-motion" id="trm340">motion</term> is carried, the <term refersTo="#term-meeting" id="trm341">meeting</term> proceeds to the next business on the agenda, and the discussion of the adjourned debate, unless otherwise resolved, is resumed at the next <term refersTo="#term-meeting" id="trm342">meeting</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-49.6">
+            <num>(6)</num>
+            <content>
+              <p>On the resumption of the adjourned debate the <term refersTo="#term-member" id="trm343">member</term> who moved the adjournment is entitled to speak first.</p>
+            </content>
+          </subsection>
+          <subsection id="section-49.7">
+            <num>(7)</num>
+            <content>
+              <p>If the <term refersTo="#term-motion" id="trm344">motion</term> is not carried the <term refersTo="#term-speaker" id="trm345">speaker</term> may not accept another such <term refersTo="#term-motion" id="trm346">motion</term> until half an hour has elapsed.</p>
+            </content>
+          </subsection>
+          <subsection id="section-49.8">
+            <num>(8)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm347">member</term> may not move or second more than one <term refersTo="#term-motion" id="trm348">motion</term> for the adjournment of the debate during the course of that debate.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-50">
+          <num>50.</num>
+          <heading>That the matter be put to the vote</heading>
+          <subsection id="section-50.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm349">member</term> who has not yet participated in the debate on a matter then before the <term refersTo="#term-meeting" id="trm350">meeting</term>, may during such debate, at the conclusion of any speech, move that the matter be now put to the vote.</p>
+            </content>
+          </subsection>
+          <subsection id="section-50.2">
+            <num>(2)</num>
+            <content>
+              <p>Subject to the provisions of sub-section (3), no <term refersTo="#term-motion" id="trm351">motion</term> put in terms of sub-section (1) is open to discussion.</p>
+            </content>
+          </subsection>
+          <subsection id="section-50.3">
+            <num>(3)</num>
+            <content>
+              <p>The mover of a matter under discussion may, when a <term refersTo="#term-motion" id="trm352">motion</term> has been put in terms of sub-section (1), speak on such <term refersTo="#term-motion" id="trm353">motion</term> for not more than five minutes, whereupon the said <term refersTo="#term-motion" id="trm354">motion</term> must be put to the vote without any further discussion.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-51">
+          <num>51.</num>
+          <heading>That the matter be removed from the agenda</heading>
+          <subsection id="section-51.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm355">member</term> who has not yet participated in the debate on a matter then before the <term refersTo="#term-meeting" id="trm356">meeting</term>, may during such debate, at the conclusion of any speech, move that the matter be removed from the agenda.</p>
+            </content>
+          </subsection>
+          <subsection id="section-51.2">
+            <num>(2)</num>
+            <content>
+              <p>Subject to the provisions of sub-section (3), no <term refersTo="#term-motion" id="trm357">motion</term> put in terms of sub-section (1) is open to discussion.</p>
+            </content>
+          </subsection>
+          <subsection id="section-51.3">
+            <num>(3)</num>
+            <content>
+              <p>The mover of a matter under discussion may, when a <term refersTo="#term-motion" id="trm358">motion</term> has been put in terms of sub-section (1), speak on such <term refersTo="#term-motion" id="trm359">motion</term> for not more than five minutes, whereupon the said <term refersTo="#term-motion" id="trm360">motion</term> must be put to the vote without any further discussion.</p>
+            </content>
+          </subsection>
+          <subsection id="section-51.4">
+            <num>(4)</num>
+            <content>
+              <p>If such a <term refersTo="#term-motion" id="trm361">motion</term> is carried, the matter under discussion may not be further pursued.</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part id="part-8">
+        <num>8</num>
+        <heading>Legislative Process</heading>
+        <section id="section-52">
+          <num>52.</num>
+          <heading>Introduction of draft by-laws</heading>
+          <paragraph id="section-52.paragraph-0">
+            <content>
+              <p>In accordance with section 12 of the <term refersTo="#term-Systems_Act" id="trm362">Systems Act</term>, a draft by-law may only be introduced by a <term refersTo="#term-member" id="trm363">member</term> or the executive mayor.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-53">
+          <num>53.</num>
+          <heading>Introduction by <term refersTo="#term-member" id="trm364">member</term></heading>
+          <subsection id="section-53.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-member" id="trm365">member</term> introduces a draft by-law by submitting it together with a memorandum on the objects of the by-law to the <term refersTo="#term-speaker" id="trm366">speaker</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-53.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-speaker" id="trm367">speaker</term> must on receipt of a draft by-law, present it together with any comments received in terms of subsection (3), to the executive mayor for consideration in accordance with section 30(5) of the <term refersTo="#term-Structures_Act" id="trm368">Structures Act</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-53.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-speaker" id="trm369">speaker</term> must obtain the comments of the <term refersTo="#term-municipal_manager" id="trm370">municipal manager</term> on the contents of the draft by-law and may solicit the comments of any person.</p>
+            </content>
+          </subsection>
+          <subsection id="section-53.4">
+            <num>(4)</num>
+            <content>
+              <p>The executive mayor must within 3 months of receipt of a draft by-law from the <term refersTo="#term-speaker" id="trm371">speaker</term>, consider the proposed by-law and decide to either support or not to support it.</p>
+            </content>
+          </subsection>
+          <subsection id="section-53.5">
+            <num>(5)</num>
+            <content>
+              <p>If the executive mayor decides to support the proposed by-law he or she must request the <term refersTo="#term-municipal_manager" id="trm372">municipal manager</term> to publish the draft by-law for public comment in order that the public will have the opportunity to make representations with regard thereto.</p>
+            </content>
+          </subsection>
+          <subsection id="section-53.6">
+            <num>(6)</num>
+            <content>
+              <blockList id="section-53.6.list1">
+                <listIntroduction>If the executive mayor decides not to support the proposed by-law he or she must submit a report to the <term refersTo="#term-council" id="trm373">council</term> in the following form—</listIntroduction>
+                <item id="section-53.6.list1.a">
+                  <num>(a)</num>
+                  <p>an executive summary of the draft by-law,</p>
+                </item>
+                <item id="section-53.6.list1.b">
+                  <num>(b)</num>
+                  <p>a memorandum on the objects of the by-law,</p>
+                </item>
+                <item id="section-53.6.list1.c">
+                  <num>(c)</num>
+                  <p>the need to regulate the conduct proposed in the draft by-law,</p>
+                </item>
+                <item id="section-53.6.list1.d">
+                  <num>(d)</num>
+                  <p>the contents of the proposed by-law,</p>
+                </item>
+                <item id="section-53.6.list1.e">
+                  <num>(e)</num>
+                  <p>other by-laws that must be repealed or amended if the draft by-law is adopted,</p>
+                </item>
+                <item id="section-53.6.list1.f">
+                  <num>(f)</num>
+                  <p>any relevant comments or proposals,</p>
+                </item>
+                <item id="section-53.6.list1.g">
+                  <num>(g)</num>
+                  <p>the reasons why the proposed by-law is not supported; and</p>
+                </item>
+                <item id="section-53.6.list1.h">
+                  <num>(h)</num>
+                  <p>a recommendation.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-53.7">
+            <num>(7)</num>
+            <content>
+              <p>After considering the report referred to in sub-section (6), the Council must decide to either reject the proposed by-law or to provisionally pass it.</p>
+            </content>
+          </subsection>
+          <subsection id="section-53.8">
+            <num>(8)</num>
+            <content>
+              <p>When a proposed by law has been rejected by the <term refersTo="#term-council" id="trm374">council</term> no by-law of the same substance may be introduced within a period of 6 months from the date of rejection.</p>
+            </content>
+          </subsection>
+          <subsection id="section-53.9">
+            <num>(9)</num>
+            <content>
+              <p>When a proposed by-law has been provisionally passed, it must be advertised for public comment.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-54">
+          <num>54.</num>
+          <heading>Introduction by executive mayor</heading>
+          <subsection id="section-54.1">
+            <num>(1)</num>
+            <content>
+              <p>The executive mayor may on own volition or after considering a request from the <term refersTo="#term-municipal_manager" id="trm375">municipal manager</term> introduce a draft bylaw.</p>
+            </content>
+          </subsection>
+          <subsection id="section-54.2">
+            <num>(2)</num>
+            <content>
+              <p>If the executive mayor on own volition decides to introduce a draft by-law, he or she must obtain the comments of the <term refersTo="#term-municipal_manager" id="trm376">municipal manager</term> on the contents thereof and may solicit the comments of any person thereon.</p>
+            </content>
+          </subsection>
+          <subsection id="section-54.3">
+            <num>(3)</num>
+            <content>
+              <p>When the executive mayor is satisfied that proposed by-law should be proceeded with, it must be advertised for public comment.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-55">
+          <num>55.</num>
+          <heading>Publication</heading>
+          <paragraph id="section-55.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-municipal_manager" id="trm377">municipal manager</term> must as soon as possible after <term refersTo="#term-council" id="trm378">council</term> has provisionally passed a by-law in terms of section 53(9) or the executive mayor has indicated satisfaction with a proposed by-law in terms of section 54(3), publish the draft by-law for public comment in order that the public will have the opportunity to make representations with regard thereto.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-56">
+          <num>56.</num>
+          <heading>Introduction to <term refersTo="#term-council" id="trm379">council</term></heading>
+          <subsection id="section-56.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-56.1.list1">
+                <listIntroduction>The <term refersTo="#term-municipal_manager" id="trm380">municipal manager</term> must as soon as possible after the closing date for public representations, submit a report to the executive mayor together with,</listIntroduction>
+                <item id="section-56.1.list1.a">
+                  <num>(a)</num>
+                  <p>a copy of the proposed by-law;</p>
+                </item>
+                <item id="section-56.1.list1.b">
+                  <num>(b)</num>
+                  <p>copies of the advertisements in which the public was invited to make representations;</p>
+                </item>
+                <item id="section-56.1.list1.c">
+                  <num>(c)</num>
+                  <p>any comments received from the public; and</p>
+                </item>
+                <item id="section-56.1.list1.d">
+                  <num>(d)</num>
+                  <p>any other comments from the administration.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-56.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-56.2.list1">
+                <listIntroduction>The executive mayor must consider the report by the <term refersTo="#term-municipal_manager" id="trm381">municipal manager</term> and—</listIntroduction>
+                <item id="section-56.2.list1.a">
+                  <num>(a)</num>
+                  <blockList id="section-56.2.list1.a.list0">
+                    <listIntroduction>report to the <term refersTo="#term-council" id="trm382">council</term> in the following form—</listIntroduction>
+                    <item id="section-56.2.list1.a.list0.i">
+                      <num>(i)</num>
+                      <p>an executive summary of the draft by-law,</p>
+                    </item>
+                    <item id="section-56.2.list1.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>a memorandum on the objects of the by-law,</p>
+                    </item>
+                    <item id="section-56.2.list1.a.list0.iii">
+                      <num>(iii)</num>
+                      <p>the need to regulate the conduct proposed in the draft by-law,</p>
+                    </item>
+                    <item id="section-56.2.list1.a.list0.iv">
+                      <num>(iv)</num>
+                      <p>the contents of the proposed by-law,</p>
+                    </item>
+                    <item id="section-56.2.list1.a.list0.v">
+                      <num>(v)</num>
+                      <p>other by-laws that must be repealed or amended if the draft by-law is adopted,</p>
+                    </item>
+                    <item id="section-56.2.list1.a.list0.vi">
+                      <num>(vi)</num>
+                      <p>any relevant comments or proposals, and</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-56.2.list1.b">
+                  <num>(b)</num>
+                  <p>recommend to Council to pass the by-law, pass the by-law in an amended form or reject it.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-56.3">
+            <num>(3)</num>
+            <content>
+              <p>When a draft by-law has been rejected by the <term refersTo="#term-council" id="trm383">council</term>, no by-law of the same substance may be introduced within a period of 6 months from the date of rejection.</p>
+            </content>
+          </subsection>
+          <subsection id="section-56.4">
+            <num>(4)</num>
+            <content>
+              <p>When a proposed by-law has been passed, it must be published in the Provincial Gazette.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-57">
+          <num>57.</num>
+          <heading>Debate Procedure</heading>
+          <paragraph id="section-57.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-rules" id="trm384">rules</term> pertaining to debate also apply to the legislative process.</p>
+            </content>
+          </paragraph>
+        </section>
+      </part>
+    </body>
+  </act>
+</akomaNtoso>

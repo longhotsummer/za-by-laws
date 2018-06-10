@@ -1,0 +1,1474 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc033/act/by-law/2005/credit-control-debt-collection/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/credit-control-debt-collection"/>
+          <FRBRalias value="Credit Control and Debt Collection By-law"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc033/act/by-law/2005/credit-control-debt-collection/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/credit-control-debt-collection/eng@2005-10-03"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc033/act/by-law/2005/credit-control-debt-collection/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/credit-control-debt-collection/eng@2005-10-03"/>
+          <FRBRdate date="2018-02-04" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-10-03" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" number="6303"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-council" href="/ontology/term/this.eng.council" showAs="council"/>
+        <TLCTerm id="term-debt" href="/ontology/term/this.eng.debt" showAs="debt"/>
+        <TLCTerm id="term-debt_agreement" href="/ontology/term/this.eng.debt_agreement" showAs="debt agreement"/>
+        <TLCTerm id="term-debtor" href="/ontology/term/this.eng.debtor" showAs="debtor"/>
+        <TLCTerm id="term-due_date" href="/ontology/term/this.eng.due_date" showAs="due date"/>
+        <TLCTerm id="term-indigent" href="/ontology/term/this.eng.indigent" showAs="indigent"/>
+        <TLCTerm id="term-mayor" href="/ontology/term/this.eng.mayor" showAs="mayor"/>
+        <TLCTerm id="term-MFMA" href="/ontology/term/this.eng.MFMA" showAs="MFMA"/>
+        <TLCTerm id="term-municipality" href="/ontology/term/this.eng.municipality" showAs="municipality"/>
+        <TLCTerm id="term-municipal_manager" href="/ontology/term/this.eng.municipal_manager" showAs="municipal manager"/>
+        <TLCTerm id="term-Property_Rates_Act" href="/ontology/term/this.eng.Property_Rates_Act" showAs="Property Rates Act"/>
+        <TLCTerm id="term-policy" href="/ontology/term/this.eng.policy" showAs="policy"/>
+        <TLCTerm id="term-pre-payment_meter" href="/ontology/term/this.eng.pre-payment_meter" showAs="pre-payment meter"/>
+        <TLCTerm id="term-rates" href="/ontology/term/this.eng.rates" showAs="rates"/>
+        <TLCTerm id="term-rateable_property" href="/ontology/term/this.eng.rateable_property" showAs="rateable property"/>
+        <TLCTerm id="term-rates_policy_and_by-law" href="/ontology/term/this.eng.rates_policy_and_by-law" showAs="rates policy and by-law"/>
+        <TLCTerm id="term-service" href="/ontology/term/this.eng.service" showAs="service"/>
+        <TLCTerm id="term-Systems_Act" href="/ontology/term/this.eng.Systems_Act" showAs="Systems Act"/>
+        <TLCTerm id="term-Structures_Act" href="/ontology/term/this.eng.Structures_Act" showAs="Structures Act"/>
+        <TLCTerm id="term-tariff_policy_and_by-law" href="/ontology/term/this.eng.tariff_policy_and_by-law" showAs="tariff policy and by-law"/>
+        <TLCTerm id="term-user" href="/ontology/term/this.eng.user" showAs="user"/>
+        <TLCTerm id="term-RSC_act" href="/ontology/term/this.eng.RSC_act" showAs="RSC act"/>
+        <TLCTerm id="term-levypayer" href="/ontology/term/this.eng.levypayer" showAs="levypayer"/>
+        <TLCTerm id="term-SARS" href="/ontology/term/this.eng.SARS" showAs="SARS"/>
+      </references>
+    </meta>
+    <preface>
+      <p>To give effect to the municipality’s credit control and debt collection policy, its implementation and enforcement, as required by Section 98 of the Municipal Systems <ref href="/za/act/2000/32">Act, 32 of 2000</ref>, and to give effect to the duty imposed by Section 96 of the Municipal Systems Act to collect all money that is due and payable to the municipality.</p>
+    </preface>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Deﬁnitions</heading>
+        <paragraph id="section-1.paragraph-0" refersTo="#term-user">
+          <content>
+            <p>Unless inconsistent with the context—</p>
+            <p>"<def refersTo="#term-council">council</def>" means the municipal <term refersTo="#term-council" id="trm0">council</term> of the <term refersTo="#term-municipality" id="trm1">municipality</term>;</p>
+            <p>"<def refersTo="#term-debt">debt</def>" means any monies owing to the <term refersTo="#term-municipality" id="trm2">municipality</term> in respect of the rendering of a <term refersTo="#term-service" id="trm3">service</term>, and includes monies owing in regard to property <term refersTo="#term-rates" id="trm4">rates</term>, housing and any other amounts owing to the <term refersTo="#term-municipality" id="trm5">municipality</term>;</p>
+            <p>"<def refersTo="#term-debt_agreement">debt agreement</def>" means a written agreement between the <term refersTo="#term-municipal_manager" id="trm6">municipal manager</term> and a <term refersTo="#term-debtor" id="trm7">debtor</term> in terms of which the <term refersTo="#term-debtor" id="trm8">debtor</term> is allowed to settle arrear <term refersTo="#term-debt" id="trm9">debt</term> subject to terms and conditions;</p>
+            <p>"<def refersTo="#term-debtor">debtor</def>" means any person who owes a <term refersTo="#term-debt" id="trm10">debt</term> to the <term refersTo="#term-council" id="trm11">council</term>;</p>
+            <blockList id="section-1.paragraph-0.list6" refersTo="#term-due_date">
+              <listIntroduction>"<def refersTo="#term-due_date">due date</def>" in the absence of any express agreement and in relation to—</listIntroduction>
+              <item id="section-1.paragraph-0.list6.a">
+                <num>(a)</num>
+                <p><term refersTo="#term-rates" id="trm12">rates</term>, other than <term refersTo="#term-rates" id="trm13">rates</term> which are being paid by instalments, means the ﬁrst day of July of the ﬁnancial year for which such rate is determined, and</p>
+              </item>
+              <item id="section-1.paragraph-0.list6.b">
+                <num>(b)</num>
+                <p>any <term refersTo="#term-service" id="trm14">service</term> and <term refersTo="#term-rates" id="trm15">rates</term> which are being paid by instalments, means the date stipulated on the account and determined by the <term refersTo="#term-municipal_manager" id="trm16">municipal manager</term> as the last date on which the account can be paid;</p>
+              </item>
+            </blockList>
+            <p>"<def refersTo="#term-indigent">indigent</def>" means a <term refersTo="#term-debtor" id="trm17">debtor</term> who cannot afford to pay for the basic supply of services or <term refersTo="#term-rates" id="trm18">rates</term>;</p>
+            <p>"<def refersTo="#term-mayor">mayor</def>" means the executive <term refersTo="#term-mayor" id="trm19">mayor</term> of the <term refersTo="#term-municipality" id="trm20">municipality</term>;</p>
+            <p>"<def refersTo="#term-MFMA">MFMA</def>" means the Local Government: Municipal Finance Management <ref href="/za/act/2003/56">Act, No 56 of 2003</ref></p>
+            <p>"<def refersTo="#term-municipality">municipality</def>" means the Municipality of Cape Agulhas;</p>
+            <p>"<def refersTo="#term-municipal_manager">municipal manager</def>" means the person appointed by the <term refersTo="#term-council" id="trm21">council</term> in terms of the <term refersTo="#term-Structures_Act" id="trm22">Structures Act</term>;</p>
+            <p>"<def refersTo="#term-Property_Rates_Act">Property Rates Act</def>" means the Local Government: Municipal Property Rates <ref href="/za/act/2004/6">Act, No. 6 of 2004</ref></p>
+            <p>"<def refersTo="#term-policy">policy</def>" means the <term refersTo="#term-municipality" id="trm23">municipality</term>’s credit control and <term refersTo="#term-debt" id="trm24">debt</term> collection <term refersTo="#term-policy" id="trm25">policy</term>, reﬂected in the schedule to this by-law;</p>
+            <p>"<def refersTo="#term-pre-payment_meter">pre-payment meter</def>" means a meter that can be programmed to allow the ﬂow of pre-purchased amounts of energy in an electrical circuit;</p>
+            <p>"<def refersTo="#term-rates">rates</def>" means a municipal rate on <term refersTo="#term-rateable_property" id="trm26">rateable property</term>;</p>
+            <p>"<def refersTo="#term-rateable_property">rateable property</def>" means property on which the <term refersTo="#term-municipality" id="trm27">municipality</term> may levy a rate in terms of the <term refersTo="#term-Property_Rates_Act" id="trm28">Property Rates Act</term>;</p>
+            <p>"<def refersTo="#term-rates_policy_and_by-law">rates policy and by-law</def>" means the <term refersTo="#term-municipality" id="trm29">municipality</term>’s Rates Policy By-law, published in the Provincial Gazette;</p>
+            <p>"<def refersTo="#term-service">service</def>" means any municipal <term refersTo="#term-service" id="trm30">service</term> as deﬁned in the <term refersTo="#term-Systems_Act" id="trm31">Systems Act</term> and any other <term refersTo="#term-service" id="trm32">service</term> rendered by the <term refersTo="#term-municipality" id="trm33">municipality</term> as deﬁned in the <term refersTo="#term-policy" id="trm34">policy</term>, and</p>
+            <p>"<def refersTo="#term-Systems_Act">Systems Act</def>" means the Local Government: Municipal <term refersTo="#term-Systems_Act" id="trm35">Systems Act</term>, 2000 (<ref href="/za/act/2000/32">Act 32 of 2000</ref>);</p>
+            <p>"<def refersTo="#term-Structures_Act">Structures Act</def>" means the Local Government: Municipal <term refersTo="#term-Structures_Act" id="trm36">Structures Act</term>, 1998 (<ref href="/za/act/1998/117">Act 117 of 1998</ref>);</p>
+            <p>"<def refersTo="#term-tariff_policy_and_by-law">tariff policy and by-law</def>" means the <term refersTo="#term-municipality" id="trm37">municipality</term>’s Tariff Policy By-law, published in the Provincial Gazette;</p>
+            <p>"<def refersTo="#term-user">user</def>" means a person who has applied for and entered into an agreement with the <term refersTo="#term-municipality" id="trm38">municipality</term> for the supply of any <term refersTo="#term-service" id="trm39">service</term> by the <term refersTo="#term-municipality" id="trm40">municipality</term> or any person who in terms of any other by-law of the <term refersTo="#term-municipality" id="trm41">municipality</term> is liable for the payment of a <term refersTo="#term-service" id="trm42">service</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Scope</heading>
+        <paragraph id="section-2.paragraph-0">
+          <content>
+            <blockList id="section-2.paragraph-0.list1">
+              <listIntroduction>The credit control and <term refersTo="#term-debt" id="trm43">debt</term> collection mechanisms and procedures in this by-law aim to ensure the collection of all moneys due and payable to the <term refersTo="#term-municipality" id="trm44">municipality</term>, including but not limited to—</listIntroduction>
+              <item id="section-2.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>fees, charges or tariffs in respect of services;</p>
+              </item>
+              <item id="section-2.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p><term refersTo="#term-rates" id="trm45">rates</term>;</p>
+              </item>
+              <item id="section-2.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>sundry fees, charges or tariffs; and</p>
+              </item>
+              <item id="section-2.paragraph-0.list1.d">
+                <num>(d)</num>
+                <p>charges and interest on any outstanding amount.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Provision of services</heading>
+        <subsection id="section-3.1">
+          <num>(1)</num>
+          <content>
+            <p>Any person who wishes to make use of a <term refersTo="#term-service" id="trm46">service</term> must apply for it on the prescribed official form.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.2">
+          <num>(2)</num>
+          <content>
+            <p>An application for a <term refersTo="#term-service" id="trm47">service</term> must be lodged with the <term refersTo="#term-municipality" id="trm48">municipality</term> in terms of the provisions of the particular by-law regulating the relevant <term refersTo="#term-service" id="trm49">service</term> or in terms of the <term refersTo="#term-policy" id="trm50">policy</term> if the particular by-law does not contain such a provision.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.3">
+          <num>(3)</num>
+          <content>
+            <p>Any person who no longer wishes to make use of a <term refersTo="#term-service" id="trm51">service</term> must inform the <term refersTo="#term-municipal_manager" id="trm52">municipal manager</term> thereof in writing on the official discontinuance form.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Service agreement</heading>
+        <subsection id="section-4.1">
+          <num>(1)</num>
+          <content>
+            <p>Unless provided differently in a by-law referred to in section 3(2), or other applicable legislation, a person whose application for a <term refersTo="#term-service" id="trm53">service</term> has been approved must enter into an agreement with the <term refersTo="#term-municipality" id="trm54">municipality</term> for the rendering of such <term refersTo="#term-service" id="trm55">service</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.2">
+          <num>(2)</num>
+          <content>
+            <p>Unless provided differently in a by-law referred to in section 3(2), the <term refersTo="#term-municipal_manager" id="trm56">municipal manager</term> may, on behalf of the <term refersTo="#term-municipality" id="trm57">municipality</term>, enter into an agreement with a person requiring a <term refersTo="#term-service" id="trm58">service</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.3">
+          <num>(3)</num>
+          <content>
+            <p>Except as otherwise determined in this by-law, no <term refersTo="#term-service" id="trm59">service</term> will be rendered until an agreement has been entered into between the <term refersTo="#term-municipality" id="trm60">municipality</term> and the <term refersTo="#term-user" id="trm61">user</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Charges for services and amount of <term refersTo="#term-rates" id="trm62">rates</term></heading>
+        <subsection id="section-5.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-5.1.list1">
+              <listIntroduction>All fees, charges or tariffs payable in respect of services, including but not limited to the payment of the connection charges, ﬁxed charges or any additional charges and interest on outstanding amounts are determined by the Council in accordance with—</listIntroduction>
+              <item id="section-5.1.list1.a">
+                <num>(a)</num>
+                <p>section 75A of the <term refersTo="#term-Systems_Act" id="trm63">Systems Act</term>, and</p>
+              </item>
+              <item id="section-5.1.list1.b">
+                <num>(b)</num>
+                <p>its <term refersTo="#term-tariff_policy_and_by-law" id="trm64">tariff policy and by-law</term> in respect thereof;</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-5.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-5.2.list1">
+              <listIntroduction>The amount of <term refersTo="#term-rates" id="trm65">rates</term> payable by the owner of <term refersTo="#term-rateable_property" id="trm66">rateable property</term> and interest on outstanding amounts are determined by the <term refersTo="#term-council" id="trm67">council</term> in accordance with—</listIntroduction>
+              <item id="section-5.2.list1.a">
+                <num>(a)</num>
+                <p>chapter 2 of the <term refersTo="#term-Property_Rates_Act" id="trm68">Property Rates Act</term>, and</p>
+              </item>
+              <item id="section-5.2.list1.b">
+                <num>(b)</num>
+                <p>its <term refersTo="#term-rates_policy_and_by-law" id="trm69">rates policy and by-law</term> in respect thereof.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Deposits</heading>
+        <subsection id="section-6.1">
+          <num>(1)</num>
+          <content>
+            <p>Deposits are payable in respect of water and electricity services only; provided that no deposit is payable if a <term refersTo="#term-pre-payment_meter" id="trm70">pre-payment meter</term> is installed for the particular <term refersTo="#term-service" id="trm71">service</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.2">
+          <num>(2)</num>
+          <content>
+            <p>Deposits are payable in advance for the provision of new services or the reconnection of services.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-council" id="trm72">council</term> determines deposits for the different categories of users and services when it determines tariffs annually.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.4">
+          <num>(4)</num>
+          <content>
+            <p>The <term refersTo="#term-municipal_manager" id="trm73">municipal manager</term> may adjust the amount of any existing deposit, as set out in the <term refersTo="#term-policy" id="trm74">policy</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Interest charges</heading>
+        <subsection id="section-7.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-municipal_manager" id="trm75">municipal manager</term> must monthly charge and recover interest in respect of any <term refersTo="#term-debt" id="trm76">debt</term> that is in arrears after the <term refersTo="#term-due_date" id="trm77">due date</term>, from the ﬁrst working day of the month following the <term refersTo="#term-due_date" id="trm78">due date</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.2">
+          <num>(2)</num>
+          <content>
+            <p>For the purposes of subsection (1) a part of a month shall be deemed to be a month.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Debt collection responsibility</heading>
+        <subsection id="section-8.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-municipal_manager" id="trm79">municipal manager</term> must collect all money that is due and payable to the <term refersTo="#term-municipality" id="trm80">municipality</term>, subject to the <term refersTo="#term-Systems_Act" id="trm81">Systems Act</term>, <term refersTo="#term-Property_Rates_Act" id="trm82">Property Rates Act</term>, this by-law and any other applicable legislation.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.2">
+          <num>(2)</num>
+          <content>
+            <p>No deviation from the <term refersTo="#term-policy" id="trm83">policy</term> is permissible without amendment to the <term refersTo="#term-policy" id="trm84">policy</term> itself.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Agreement to pay arrears</heading>
+        <subsection id="section-9.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-municipal_manager" id="trm85">municipal manager</term> may enter into a <term refersTo="#term-debt_agreement" id="trm86">debt agreement</term> with a <term refersTo="#term-debtor" id="trm87">debtor</term>, subject to the provisions of the <term refersTo="#term-policy" id="trm88">policy</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.2">
+          <num>(2)</num>
+          <content>
+            <p>A <term refersTo="#term-debtor" id="trm89">debtor</term> who refuses to enter into a <term refersTo="#term-debt_agreement" id="trm90">debt agreement</term> in respect of any arrear <term refersTo="#term-debt" id="trm91">debt</term>, will be dealt with as prescribed in the <term refersTo="#term-policy" id="trm92">policy</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.3">
+          <num>(3)</num>
+          <content>
+            <p>Should any dispute arise as to the amount of the arrear <term refersTo="#term-debt" id="trm93">debt</term>, the <term refersTo="#term-debtor" id="trm94">debtor</term> must nevertheless continue to make regular payments, in terms of the <term refersTo="#term-debt_agreement" id="trm95">debt agreement</term>, until such time as the dispute has been settled.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Restriction or disconnection of supply of services</heading>
+        <subsection id="section-10.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-10.1.list1">
+              <listIntroduction>The <term refersTo="#term-municipal_manager" id="trm96">municipal manager</term> may restrict or disconnect the supply of water or electricity, or discontinue any other <term refersTo="#term-service" id="trm97">service</term> to the premises of any <term refersTo="#term-user" id="trm98">user</term> whenever such <term refersTo="#term-user" id="trm99">user</term>—</listIntroduction>
+              <item id="section-10.1.list1.a">
+                <num>(a)</num>
+                <p>fails to make payment before or on the <term refersTo="#term-due_date" id="trm100">due date</term>;</p>
+              </item>
+              <item id="section-10.1.list1.b">
+                <num>(b)</num>
+                <p>fails to comply with a <term refersTo="#term-debt_agreement" id="trm101">debt agreement</term>;</p>
+              </item>
+              <item id="section-10.1.list1.c">
+                <num>(c)</num>
+                <p>unlawfully reconnects a restricted or disconnected <term refersTo="#term-service" id="trm102">service</term>;</p>
+              </item>
+              <item id="section-10.1.list1.d">
+                <num>(d)</num>
+                <p>tampers with a <term refersTo="#term-service" id="trm103">service</term> or bypasses a meter;</p>
+              </item>
+              <item id="section-10.1.list1.e">
+                <num>(e)</num>
+                <p>fails to comply with a condition of supply imposed by the <term refersTo="#term-municipality" id="trm104">municipality</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-10.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-10.2.list1">
+              <listIntroduction>The <term refersTo="#term-municipal_manager" id="trm105">municipal manager</term> may reconnect and restore full levels of supply of any of the restricted or discontinued services only—</listIntroduction>
+              <item id="section-10.2.list1.a">
+                <num>(a)</num>
+                <p>after the arrear <term refersTo="#term-debt" id="trm106">debt</term>, including interest and the costs of disconnection or reconnection, if any, have been paid in full and any other conditions of the <term refersTo="#term-municipality" id="trm107">municipality</term> have been complied with, or</p>
+              </item>
+              <item id="section-10.2.list1.b">
+                <num>(b)</num>
+                <p>after a <term refersTo="#term-debt_agreement" id="trm108">debt agreement</term> with the <term refersTo="#term-debtor" id="trm109">debtor</term> has been concluded.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-10.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-municipal_manager" id="trm110">municipal manager</term> may restrict, disconnect or discontinue any <term refersTo="#term-service" id="trm111">service</term> in respect of any arrear <term refersTo="#term-debt" id="trm112">debt</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-11">
+        <num>11.</num>
+        <heading>Recovery of costs</heading>
+        <paragraph id="section-11.paragraph-0">
+          <content>
+            <blockList id="section-11.paragraph-0.list1">
+              <listIntroduction>The <term refersTo="#term-municipal_manager" id="trm113">municipal manager</term> may recover the following costs, incurred by or on behalf of the <term refersTo="#term-municipality" id="trm114">municipality</term>—</listIntroduction>
+              <item id="section-11.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>actual costs and administration fees where payments made to the <term refersTo="#term-municipality" id="trm115">municipality</term> by negotiable instruments are dishonoured by banks when presented for payment;</p>
+              </item>
+              <item id="section-11.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>all legal and administration costs, including attorney-and-client costs, interest on arrears, collection commission and tracing fees incurred in the recovery of debts;</p>
+              </item>
+              <item id="section-11.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>the actual costs incurred relating to any action taken in demanding payment from a <term refersTo="#term-user" id="trm116">user</term> or reminding a <term refersTo="#term-user" id="trm117">user</term> by means of telephone, fax, e-mail, letter or otherwise;</p>
+              </item>
+              <item id="section-11.paragraph-0.list1.d">
+                <num>(d)</num>
+                <p>disconnection, defaulter and reconnection fees, where any <term refersTo="#term-service" id="trm118">service</term> has been disconnected as a result of non-compliance with this by-laws, and</p>
+              </item>
+              <item id="section-11.paragraph-0.list1.e">
+                <num>(e)</num>
+                <p>any losses the <term refersTo="#term-municipality" id="trm119">municipality</term> may suffer as a result of tampering with municipal equipment or meters.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-12">
+        <num>12.</num>
+        <heading>Consolidation and crediting of accounts</heading>
+        <paragraph id="section-12.paragraph-0">
+          <content>
+            <blockList id="section-12.paragraph-0.list1">
+              <listIntroduction>The <term refersTo="#term-municipal_manager" id="trm120">municipal manager</term> may—</listIntroduction>
+              <item id="section-12.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>consolidate any separate accounts of a <term refersTo="#term-debtor" id="trm121">debtor</term>; and</p>
+              </item>
+              <item id="section-12.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>credit a payment by such a <term refersTo="#term-debtor" id="trm122">debtor</term> against any account of that <term refersTo="#term-debtor" id="trm123">debtor</term>; and</p>
+              </item>
+              <item id="section-12.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>appropriate any payment by a <term refersTo="#term-user" id="trm124">user</term>, ﬁrstly to the costs referred to in section 9, then to any interest charges due, and thereafter to the outstanding amount.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-13">
+        <num>13.</num>
+        <heading>Attachment</heading>
+        <subsection id="section-13.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-municipal_manager" id="trm125">municipal manager</term> may, in order to recover <term refersTo="#term-debt" id="trm126">debt</term>, as a last resort, apply to a competent court to attach a <term refersTo="#term-debtor" id="trm127">debtor</term>’s movable and immovable property.</p>
+          </content>
+        </subsection>
+        <subsection id="section-13.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-municipal_manager" id="trm128">municipal manager</term> may apply to a court for the attachment of any rent, due in respect of any <term refersTo="#term-rateable_property" id="trm129">rateable property</term>, to cover in part or in full any amount in respect of property <term refersTo="#term-rates" id="trm130">rates</term> outstanding for a period longer than three months after the <term refersTo="#term-due_date" id="trm131">due date</term> for payment.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-14">
+        <num>14.</num>
+        <heading>Payments</heading>
+        <subsection id="section-14.1">
+          <num>(1)</num>
+          <content>
+            <p>Any amount tendered in defrayment of a <term refersTo="#term-debt" id="trm132">debt</term>, will be accepted at any cash receiving office of the <term refersTo="#term-municipality" id="trm133">municipality</term> or office of an authorised agent.</p>
+          </content>
+        </subsection>
+        <subsection id="section-14.2">
+          <num>(2)</num>
+          <content>
+            <p>An offer of payment in full and ﬁnal settlement of a <term refersTo="#term-debt" id="trm134">debt</term>, whilst such amount is less than the outstanding amount, will be credited against the <term refersTo="#term-debtor" id="trm135">debtor</term>’s account, but without admitting acceptance of the offer.</p>
+          </content>
+        </subsection>
+        <subsection id="section-14.3">
+          <num>(3)</num>
+          <content>
+            <p>Only official receipts of the <term refersTo="#term-municipality" id="trm136">municipality</term> are recognised as proof of payment.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-15">
+        <num>15.</num>
+        <heading>Indigents</heading>
+        <paragraph id="section-15.paragraph-0">
+          <content>
+            <p>A <term refersTo="#term-debtor" id="trm137">debtor</term>, who can prove indigence, will be dealt with as prescribed in the <term refersTo="#term-policy" id="trm138">policy</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-16">
+        <num>16.</num>
+        <heading>Amendments to the <term refersTo="#term-policy" id="trm139">policy</term></heading>
+        <subsection id="section-16.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-mayor" id="trm140">mayor</term> must, when preparing the annual budget, coordinate the processes for reviewing the <term refersTo="#term-policy" id="trm141">policy</term> in terms of the <term refersTo="#term-MFMA" id="trm142">MFMA</term>, if necessary.</p>
+          </content>
+        </subsection>
+        <subsection id="section-16.2">
+          <num>(2)</num>
+          <content>
+            <p>Any changes to the <term refersTo="#term-policy" id="trm143">policy</term> must be approved together with the adoption of the annual budget in terms of the <term refersTo="#term-MFMA" id="trm144">MFMA</term> and published as an amendment to this by-law.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-17">
+        <num>17.</num>
+        <heading>Delegation</heading>
+        <paragraph id="section-17.paragraph-0">
+          <content>
+            <p>The <term refersTo="#term-municipal_manager" id="trm145">municipal manager</term> may in writing delegate any power or duty conferred on the <term refersTo="#term-municipal_manager" id="trm146">municipal manager</term> in terms of this by-law, to an official of the <term refersTo="#term-municipality" id="trm147">municipality</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-18">
+        <num>18.</num>
+        <heading>Refund of payments not due to <term refersTo="#term-council" id="trm148">council</term></heading>
+        <subsection id="section-18.1">
+          <num>(1)</num>
+          <content>
+            <p>Where any amount has been paid to the <term refersTo="#term-council" id="trm149">council</term> by or behalf of any person in consequence of an error of fact or of law while such amount is not lawfully due to the <term refersTo="#term-council" id="trm150">council</term> the <term refersTo="#term-municipal_manager" id="trm151">municipal manager</term> must, on written application within a period of twelve months from the payment of such amount, refund such person.</p>
+          </content>
+        </subsection>
+        <subsection id="section-18.2">
+          <num>(2)</num>
+          <content>
+            <p>Notwithstanding the provisions of subsection (1) the <term refersTo="#term-municipal_manager" id="trm152">municipal manager</term> may utilise such amount in full or partial settlement of any other amount due and payable to the <term refersTo="#term-council" id="trm153">council</term> by such person on the date of such application, and refund the balance (if any) of such amount after such settlement.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-19">
+        <num>19.</num>
+        <heading>Offences and penalties</heading>
+        <paragraph id="section-19.paragraph-0">
+          <content>
+            <blockList id="section-19.paragraph-0.list1">
+              <listIntroduction>Any person who—</listIntroduction>
+              <item id="section-19.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>obstructs or hinders the <term refersTo="#term-municipal_manager" id="trm154">municipal manager</term> or any official of the <term refersTo="#term-municipality" id="trm155">municipality</term> in the execution of his or her duties under this by-law;</p>
+              </item>
+              <item id="section-19.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>uses or interferes with municipal equipment or consumption of services supplied;</p>
+              </item>
+              <item id="section-19.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>tampers with any municipal equipment or breaks any seal on a meter;</p>
+              </item>
+              <item id="section-19.paragraph-0.list1.d">
+                <num>(d)</num>
+                <p>contravenes or fails to comply with the provisions of this by-law or the <term refersTo="#term-policy" id="trm156">policy</term>, or</p>
+              </item>
+              <item id="section-19.paragraph-0.list1.e">
+                <num>(e)</num>
+                <p>fails to comply with a notice served in terms of this bylaw;</p>
+              </item>
+            </blockList>
+            <p>is guilty of an offence and liable on conviction to pay a ﬁne.</p>
+          </content>
+        </paragraph>
+      </section>
+    </body>
+  </act>
+  <components>
+    <component id="component-schedule">
+      <doc name="schedule">
+        <meta>
+          <identification source="#slaw">
+            <FRBRWork>
+              <FRBRthis value="/za-wc033/act/by-law/2005/credit-control-debt-collection/schedule"/>
+              <FRBRuri value="/za-wc033/act/by-law/2005/credit-control-debt-collection"/>
+              <FRBRalias value="Schedule"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-wc033/act/by-law/2005/credit-control-debt-collection/eng@2005-10-03/schedule"/>
+              <FRBRuri value="/za-wc033/act/by-law/2005/credit-control-debt-collection/eng@2005-10-03"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-wc033/act/by-law/2005/credit-control-debt-collection/eng@2005-10-03/schedule"/>
+              <FRBRuri value="/za-wc033/act/by-law/2005/credit-control-debt-collection/eng@2005-10-03"/>
+              <FRBRdate date="2018-01-05" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule">
+            <part id="part-1">
+              <num>1</num>
+              <heading>Rates</heading>
+              <section id="section-1">
+                <num>1.</num>
+                <heading>When due and payable</heading>
+                <paragraph id="section-1.paragraph-0">
+                  <content>
+                    <p>All rates as assessed by the council become due and payable on the due date for such rate; provided that any rates assessed in respect of immovable property becoming ratable after the due date, become due and payable on the date on which notice of the assessment thereof is served on the owner.</p>
+                  </content>
+                </paragraph>
+              </section>
+              <section id="section-2">
+                <num>2.</num>
+                <heading>Liability for the payment</heading>
+                <paragraph id="section-2.paragraph-0">
+                  <content>
+                    <p>The owner of ratable property is on the due date, in the ﬁnancial year for which any rate is made, liable for the payment of all rates assessed thereon in respect of such rate; provided that in the case of immovable property becoming ratable after such due date, the owner on the date on which it so becomes ratable shall be liable to pay such rates.</p>
+                  </content>
+                </paragraph>
+              </section>
+              <section id="section-3">
+                <num>3.</num>
+                <heading>Annual payment</heading>
+                <subsection id="section-3.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>If any rates, other than rates which are being paid in instalments, remain unpaid after a period of four months from the date upon which such rates became due and payable, interest thereon is calculated from the day following the expiration of such period.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-3.2">
+                  <num>(2)</num>
+                  <content>
+                    <blockList id="section-3.2.list1">
+                      <listIntroduction>If any rates, other than rates which are being paid in instalments remain unpaid after a period of four months from the date on which such rates became due and payable, the municipal manager must—</listIntroduction>
+                      <item id="section-3.2.list1.a">
+                        <num>(a)</num>
+                        <p>demand payment of the amount due and payable within a period of fourteen days, and</p>
+                      </item>
+                      <item id="section-3.2.list1.b">
+                        <num>(b)</num>
+                        <p>if after the expiration of the aforementioned period of fourteen days such rates have not been paid, cause legal proceedings to be instituted for the recovery thereof.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-4">
+                <num>4.</num>
+                <heading>Payment by instalments</heading>
+                <subsection id="section-4.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>An owner of ratable property may pay all rates in respect of such property by instalments. Payment will then be in twelve equal instalments and will be due and payable on or before the due date.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-4.2">
+                  <num>(2)</num>
+                  <content>
+                    <blockList id="section-4.2.list1">
+                      <listIntroduction>If any instalment referred to in subitem (1) remains unpaid after the due date, the municipal manager—</listIntroduction>
+                      <item id="section-4.2.list1.a">
+                        <num>(a)</num>
+                        <p>must charge and recover interest thereon from the ﬁrst working day of the month following the due date, for each month for which such instalment remains unpaid, and</p>
+                      </item>
+                      <item id="section-4.2.list1.b">
+                        <num>(b)</num>
+                        <p>must, if not less than three instalments, whether consecutive or not, are so unpaid or paid in arrear during any ﬁnancial year, withdraw the owners right to pay rates by instalments.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+                <subsection id="section-4.3">
+                  <num>(3)</num>
+                  <content>
+                    <blockList id="section-4.3.list1">
+                      <listIntroduction>If rates which are being paid in instalments have not been paid in full after the expiration of a period of twelve months from the date on which such rates became due and payable, the municipal manager must—</listIntroduction>
+                      <item id="section-4.3.list1.a">
+                        <num>(a)</num>
+                        <p>demand payment of the amount due and payable within a period of fourteen days, and</p>
+                      </item>
+                      <item id="section-4.3.list1.b">
+                        <num>(b)</num>
+                        <p>if after the expiration of the aforementioned period of fourteen days such rates have not been paid, cause legal proceedings to be instituted for the recovery thereof.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-5">
+                <num>5.</num>
+                <heading>Accounts</heading>
+                <subsection id="section-5.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>An account for rates, other than rates which are being paid in instalments, will during the ﬁrst month of the ﬁnancial year be sent to the owner of ratable property.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-5.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>An account for rates which are being paid in instalments, will monthly be sent to the owner of ratable property.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-5.3">
+                  <num>(3)</num>
+                  <content>
+                    <p>The fact that a ratepayer did not receive an account does not exempt such ratepayer from making payments before or on the due date.</p>
+                  </content>
+                </subsection>
+              </section>
+            </part>
+            <part id="part-2">
+              <num>2</num>
+              <heading>Services</heading>
+              <section id="section-6">
+                <num>6.</num>
+                <heading>When due and payable</heading>
+                <paragraph id="section-6.paragraph-0">
+                  <content>
+                    <p>All services rendered by the municipality become due and payable by the user on the due date.</p>
+                  </content>
+                </paragraph>
+              </section>
+              <section id="section-7">
+                <num>7.</num>
+                <heading>Liability for the payment</heading>
+                <paragraph id="section-7.paragraph-0">
+                  <content>
+                    <p>The user of a service must pay for such service on or before the due date.</p>
+                  </content>
+                </paragraph>
+              </section>
+              <section id="section-8">
+                <num>8.</num>
+                <heading>Accounts</heading>
+                <subsection id="section-8.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>An account for services will be sent monthly to the user of such services.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-8.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>The fact that a user did not receive an account does not exempt such ratepayer from making payments before or on the due date.</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-9">
+                <num>9.</num>
+                <heading>Default on payment</heading>
+                <subsection id="section-9.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>If an account for any services remains unpaid on the due date the municipal manager must levy interest thereon.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-9.2">
+                  <num>(2)</num>
+                  <content>
+                    <blockList id="section-9.2.list1">
+                      <listIntroduction>If an account for any service remains unpaid after a period of one month from the due date, the municipal manager must—</listIntroduction>
+                      <item id="section-9.2.list1.a">
+                        <num>(a)</num>
+                        <p>demand payment of the amount due and payable within a period of seven days, and</p>
+                      </item>
+                      <item id="section-9.2.list1.b">
+                        <num>(b)</num>
+                        <p>afford the debtor the opportunity to conclude a debt agreement in terms of item 10.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+                <subsection id="section-9.3">
+                  <num>(3)</num>
+                  <content>
+                    <blockList id="section-9.3.list1">
+                      <listIntroduction>If the debtor is unwilling to conclude a debt agreement or if the debtor with whom a debt agreement has been concluded fails to pay three instalments, whether consecutive or not, the municipal manager must demand payment of the amount due and payable within a period of fourteen days, and may—</listIntroduction>
+                      <item id="section-9.3.list1.a">
+                        <num>(a)</num>
+                        <p>conclude an agreement with the debtor’s employer in terms of item 11; or</p>
+                      </item>
+                      <item id="section-9.3.list1.b">
+                        <num>(b)</num>
+                        <p>restrict or disconnect the supply of services.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+                <subsection id="section-9.4">
+                  <num>(4)</num>
+                  <content>
+                    <p>If an agreement with the debtor’s employer cannot be concluded, and the debtor cannot prove indigence, the municipal manager must cause legal proceedings to be instituted for the recovery of the debt.</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-10">
+                <num>10.</num>
+                <heading>Debt Agreement</heading>
+                <subsection id="section-10.1">
+                  <num>(1)</num>
+                  <content>
+                    <blockList id="section-10.1.list1">
+                      <listIntroduction>A debtor may in writing request the municipal manager to—</listIntroduction>
+                      <item id="section-10.1.list1.a">
+                        <num>(a)</num>
+                        <p>extend the time within which to pay any outstanding amount for services, or</p>
+                      </item>
+                      <item id="section-10.1.list1.b">
+                        <num>(b)</num>
+                        <p>pay the arrear debt by instalments in accordance with the "Masakhane" work procedures.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+                <subsection id="section-10.2">
+                  <num>(2)</num>
+                  <content>
+                    <blockList id="section-10.2.list1">
+                      <listIntroduction>If the municipal manager favourably considers the debtor’s request a written agreement must be entered into between the municipality and the debtor for—</listIntroduction>
+                      <item id="section-10.2.list1.a">
+                        <num>(a)</num>
+                        <p>the extension of the time within which to pay any arrear amount for services, by not more than thirty six months; provided that the debtor coninues to pay the current monthly account, or</p>
+                      </item>
+                      <item id="section-10.2.list1.b">
+                        <num>(b)</num>
+                        <p>the payment in regular and consecutive monthly instalments of the arrear balance, costs and interest on it; provided that a single instalment in respect of arrear debt may not be less than R50,00.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+                <subsection id="section-10.3">
+                  <num>(3)</num>
+                  <content>
+                    <p>A debt agreement may only be concluded with a debtor who is employed, if the debtor signs a stop order that provides for deduction from his or her salary of arrears as well as the current account over the agreed period.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-10.4">
+                  <num>(4)</num>
+                  <content>
+                    <p>The municipal manager is authorised to enter into agreements with a debtor as mentioned in subitem (2).</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-11">
+                <num>11.</num>
+                <heading>Agreements with employers</heading>
+                <paragraph id="section-11.paragraph-0">
+                  <content>
+                    <blockList id="section-11.paragraph-0.list1">
+                      <listIntroduction>The municipal manager may with the consent of a debtor, enter into an agreement with that debtor’s employer to deduct from the salary or wages of that debtor—</listIntroduction>
+                      <item id="section-11.paragraph-0.list1.a">
+                        <num>(a)</num>
+                        <p>any outstanding amounts due by that debtor to the municipality; or</p>
+                      </item>
+                      <item id="section-11.paragraph-0.list1.b">
+                        <num>(b)</num>
+                        <p>regular monthly amounts as may be agreed.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </paragraph>
+              </section>
+              <section id="section-12">
+                <num>12.</num>
+                <heading>Restriction or disconnection of supply of services</heading>
+                <subsection id="section-12.1">
+                  <num>(1)</num>
+                  <content>
+                    <blockList id="section-12.1.list1">
+                      <listIntroduction>The municipal manager may restrict or disconnect the supply of water or electricity, or discontinue any other service to the premises of any user whenever such user of a service fails to:</listIntroduction>
+                      <item id="section-12.1.list1.a">
+                        <num>(a)</num>
+                        <p>make payment before or on the due date,</p>
+                      </item>
+                      <item id="section-12.1.list1.b">
+                        <num>(b)</num>
+                        <p>comply with the terms and conditions of a debt agreement, or</p>
+                      </item>
+                      <item id="section-12.1.list1.c">
+                        <num>(c)</num>
+                        <p>comply with a condition of supply imposed by the municipality.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+                <subsection id="section-12.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>The municipal manager will reconnect and restore full levels of supply of any of the restricted or discontinued services only after the arrear debt, including the costs of disconnection or reconnection and/or defaulters cost, if any, have been paid in full and any other conditions of the municipality has been complied with.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-12.3">
+                  <num>(3)</num>
+                  <content>
+                    <p>The municipal manager may restrict, disconnect or discontinue any service in respect of any arrear debt.</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-13">
+                <num>13.</num>
+                <heading>Illegal re-connection</heading>
+                <subsection id="section-13.1">
+                  <num>(1)</num>
+                  <content>
+                    <blockList id="section-13.1.list1">
+                      <listIntroduction>The municipal manager may disconnect a user from all services if—</listIntroduction>
+                      <item id="section-13.1.list1.a">
+                        <num>(a)</num>
+                        <p>the supply of water or electricity has been unlawfully reconnected after having been restricted or disconnected,in terms of item 12(1).</p>
+                      </item>
+                      <item id="section-13.1.list1.b">
+                        <num>(b)</num>
+                        <p>the user allowed tampering with the supply; or</p>
+                      </item>
+                      <item id="section-13.1.list1.c">
+                        <num>(c)</num>
+                        <p>a by-pass was made.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+                <subsection id="section-13.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>A person who re-connects the supply of water or electricity in the circumstances referred to in item 12(1) is liable for the cost associated with any consumption, the cost of de- and/or re-connection and all other costs incurred by the municipality pursuant to the disconnection, notwithstanding any other actions which the municipal manager may take against such a person.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-13.3">
+                  <num>(3)</num>
+                  <content>
+                    <p>The municipal manager may only reinstate the supply of services when the amounts referred to in subitem (2) have been paid in full.</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-14">
+                <num>14.</num>
+                <heading>Tampering</heading>
+                <subsection id="section-14.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>Where an electrical or water supply is found to have been tampered with or the meter bypassed, the municipal manager may, notwithstanding the provisions in the municipality’s by-laws relating to water and electricity, disconnect the relevant supply.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-14.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>A person who tampers with the supply of water or electricity in the circumstances referred to in subitem (1) or permits such tampering, is liable for the cost associated with any consumption, the cost of de- and/or re-connection and all other costs incurred by the municipality pursuant to the disconnection, notwithstanding any other actions which the municipal manager may take against such a person.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-14.3">
+                  <num>(3)</num>
+                  <content>
+                    <p>The municipal manager may only reinstate the supply of services when the amounts referred to in subitem (2) have been paid in full.</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-15">
+                <num>15.</num>
+                <heading>Prepaid services</heading>
+                <paragraph id="section-15.paragraph-0">
+                  <content>
+                    <p>The municipal manager may conclude an agreement with the user of a pre-paid service to appropriate no more than 50 per cent of prepayments to any other outstanding debt of such user.</p>
+                  </content>
+                </paragraph>
+              </section>
+              <section id="section-16">
+                <num>16.</num>
+                <heading>Deposits</heading>
+                <subsection id="section-16.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>A user must on application for the provision of services pay the required deposit.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-16.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>The municipal manager may, in any service agreement, determine and require a deposit from the user, equivalent to at least twice the charge for one month’s estimated supply of the particular service to the particular user.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-16.3">
+                  <num>(3)</num>
+                  <content>
+                    <p>The municipal manager may reassess deposits for new commercial and industrial users three months after the initial deposit date, and may, as a result of this reassessment require an additional deposit from any such customer.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-16.4">
+                  <num>(4)</num>
+                  <content>
+                    <p>The municipal manager may increase the deposit required from the user for the supply of a service, to a greater amount, after the disconnection of services to a user before resuming the supply to a user of a service. The increased deposit may be required in addition to a reconnection/defaulters fee.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-16.5">
+                  <num>(5)</num>
+                  <content>
+                    <p>The municipality renders no service before a deposit and connection fees have been paid in full.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-16.6">
+                  <num>(6)</num>
+                  <content>
+                    <p>Deposits must be paid in cash or by cheque. The municipal manager may accept a bank guarantee in cases where the deposit exceeds R2 000,00 and subject to such terms and conditions as the municipal manager my deem ﬁt.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-16.7">
+                  <num>(7)</num>
+                  <content>
+                    <p>No interest is payable by the municipality on any deposit held.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-16.8">
+                  <num>(8)</num>
+                  <content>
+                    <p>The deposit, if any, is refundable to the user on termination of the service agreement, unless the deposit has been used in full or partially to set off any outstanding or arrears amounts on the user’s account. A deposit is forfeited to the municipality if it has not been claimed by the user within 12 months of termination of the service agreement.</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-17">
+                <num>17.</num>
+                <heading>Interest charges</heading>
+                <paragraph id="section-17.paragraph-0">
+                  <content>
+                    <p>All amounts outstanding after the due date for payment bear interest at the rate of interest, determined by council from time to time, as from the due date for payment.</p>
+                  </content>
+                </paragraph>
+              </section>
+            </part>
+            <part id="part-3">
+              <num>3</num>
+              <heading>Housing</heading>
+              <section id="section-18">
+                <num>18.</num>
+                <heading>Application</heading>
+                <paragraph id="section-18.paragraph-0">
+                  <content>
+                    <p>The provisions of this part do not derogate from any other statutory or contractual provision relating to credit control or debt collection contained in that statute or contract.</p>
+                  </content>
+                </paragraph>
+              </section>
+              <section id="section-19">
+                <num>19.</num>
+                <heading>Interest</heading>
+                <paragraph id="section-19.paragraph-0">
+                  <content>
+                    <p>The municipal manager must charge interest on all overdue accounts.</p>
+                  </content>
+                </paragraph>
+              </section>
+              <section id="section-20">
+                <num>20.</num>
+                <heading>Default on payment</heading>
+                <subsection id="section-20.1">
+                  <num>(1)</num>
+                  <content>
+                    <blockList id="section-20.1.list1">
+                      <listIntroduction>If payment is not received from a debtor on the expiry of a period of one month from the due date, the municipal manager must—</listIntroduction>
+                      <item id="section-20.1.list1.a">
+                        <num>(a)</num>
+                        <p>demand payment of the amount due and payable within a period of fourteen days, and</p>
+                      </item>
+                      <item id="section-20.1.list1.b">
+                        <num>(b)</num>
+                        <p>afford the debtor the opportunity to conclude a debt agreement in terms of item 21.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+                <subsection id="section-20.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>If the debtor is unwilling to conclude a debt agreement or if the debtor with whom a debt agreement has been concluded fails to pay three instalments, whether consecutive or not, the municipal manager must demand payment of the amount due and payable within a period of fourteen days, and may conclude an agreement with the debtor’s employer in terms of item 22.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-20.3">
+                  <num>(3)</num>
+                  <content>
+                    <p>If an agreement with the debtor’s employer cannot be concluded the municipal manager must institute legal proceedings for the recovery of the debt.</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-21">
+                <num>21.</num>
+                <heading>Debt Agreement</heading>
+                <subsection id="section-21.1">
+                  <num>(1)</num>
+                  <content>
+                    <blockList id="section-21.1.list1">
+                      <listIntroduction>The municipal manager may by written agreement between the municipality and the debtor and taking into account the "Masakhane" work procedures—</listIntroduction>
+                      <item id="section-21.1.list1.a">
+                        <num>(a)</num>
+                        <p>extend the time within which the debtor must pay any arrear debt by not more than three months, or</p>
+                      </item>
+                      <item id="section-21.1.list1.b">
+                        <num>(b)</num>
+                        <p>allow the debtor to pay the arrear debt, apart from the current monthly account, by regular and consecutive monthly instalments over a period of not more than thirty six months and at a minimum installment of R50,00 per month; provided that a single instalment must at least exceed the current monthly obligation by R50,00.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+                <subsection id="section-21.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>The municipal manager is authorised to enter into agreements with a debtor as mentioned in subitem (1).</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-22">
+                <num>22.</num>
+                <heading>Agreements with employers</heading>
+                <paragraph id="section-22.paragraph-0">
+                  <content>
+                    <blockList id="section-22.paragraph-0.list1">
+                      <listIntroduction>The municipal manager may with the consent of a debtor, enter into an agreement with that debtor’s employer to deduct from the salary or wages of that debtor—</listIntroduction>
+                      <item id="section-22.paragraph-0.list1.a">
+                        <num>(a)</num>
+                        <p>any outstanding amounts due by that debtor to the municipality; or</p>
+                      </item>
+                      <item id="section-22.paragraph-0.list1.b">
+                        <num>(b)</num>
+                        <p>regular monthly amounts as may be agreed.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </paragraph>
+              </section>
+              <section id="section-23">
+                <num>23.</num>
+                <heading>Legal costs</heading>
+                <paragraph id="section-23.paragraph-0">
+                  <content>
+                    <p>The debtor is responsible for all legal and collection costs.</p>
+                  </content>
+                </paragraph>
+              </section>
+            </part>
+            <part id="part-4">
+              <num>4</num>
+              <heading>Other Debt</heading>
+              <section id="section-24">
+                <num>24.</num>
+                <heading>Application</heading>
+                <paragraph id="section-24.paragraph-0">
+                  <content>
+                    <p>"Other debt" means any moneys due and payable to the municipality, for whatever purpose relative to its powers and function, but does not include moneys due and payable to the municipality in respect of rates, services and housing.</p>
+                  </content>
+                </paragraph>
+              </section>
+              <section id="section-25">
+                <num>25.</num>
+                <heading>Sundries</heading>
+                <subsection id="section-25.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>Interest will be charged on all overdue accounts.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-25.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>The municipal manager may in the recovery of sundry debt utilise any legal action as well as making use of any third party debt collector.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-25.3">
+                  <num>(3)</num>
+                  <content>
+                    <p>The municipal manager may disconnect or terminate services to a user in an endeavour to obtain payment on overdue accounts.</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-26">
+                <num>26.</num>
+                <heading>Leases: immovable property</heading>
+                <paragraph id="section-26.paragraph-0">
+                  <content>
+                    <p>The procedure to recover arrears in respect of immovable property let by the municipality must be in accordance with the terms of the relevant lease agreement.</p>
+                  </content>
+                </paragraph>
+              </section>
+            </part>
+            <part id="part-5">
+              <num>5</num>
+              <heading>Indigent Relief</heading>
+              <section id="section-27">
+                <num>27.</num>
+                <heading>Determination of relief</heading>
+                <subsection id="section-27.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>The Council will annually, as part of its budgetary process, determine the levels of relief measures for indigent users and property owners in respect of rates and services, but subject to principles of sustainability and affordability.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-27.2">
+                  <num>(2)</num>
+                  <content>
+                    <blockList id="section-27.2.list1">
+                      <listIntroduction>The Council will, subject to the availability of funds, by means of cross subsidation in the case of paragraphs (a), (b) and (f), and by means of compassionate allocations to qualifying indigent and poor households within the limits determined by council from time to time, in the case of paragraphs (c), (d) en (e), subsidise services as follows—</listIntroduction>
+                      <item id="section-27.2.list1.a">
+                        <num>(a)</num>
+                        <p>Water supply: 6 kilolitres per household per month for all households;</p>
+                      </item>
+                      <item id="section-27.2.list1.b">
+                        <num>(b)</num>
+                        <p>Electricity supply: 50 kWh per household per month for all households;</p>
+                      </item>
+                      <item id="section-27.2.list1.c">
+                        <num>(c)</num>
+                        <p>Sanitation services: a monthly amount as determined by Council from time to time;</p>
+                      </item>
+                      <item id="section-27.2.list1.d">
+                        <num>(d)</num>
+                        <p>Refuse Removal: a monthly amount as determined by Council from time to time;</p>
+                      </item>
+                      <item id="section-27.2.list1.e">
+                        <num>(e)</num>
+                        <p>Water availability fees: a monthly amount as determined by council from time to time;</p>
+                      </item>
+                      <item id="section-27.2.list1.f">
+                        <num>(f)</num>
+                        <p>Rates: An amount for rates based on the valuation of the property with improvements that is used fully or partially for residential purposes.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-28">
+                <num>28.</num>
+                <heading>Application for relief</heading>
+                <subsection id="section-28.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>A debtor must make application for indigent relief on an application form prescribed by the municipal manager.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-28.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>Only debt of household users of municipal services will be condidered for indigent relief.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-28.3">
+                  <num>(3)</num>
+                  <content>
+                    <p>A debtor who qualiﬁes for indigent relief must reapply every 6 months in order to determine whether or not the debtor’s ﬁnancial circumstances have changed. Failure to comply will result in their indigent status being revoked and the compassionate allowance being discontinued.</p>
+                  </content>
+                </subsection>
+              </section>
+            </part>
+            <part id="part-6">
+              <num>6</num>
+              <heading>Queries, Complaints and Appeals</heading>
+              <section id="section-29">
+                <num>29.</num>
+                <heading>Queries or complaints in respect of an account</heading>
+                <subsection id="section-29.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>A user may lodge a query or complaint in respect of the accuracy of an amount due and payable in respect of a speciﬁc service as reﬂected on the account rendered.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-29.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>A query or complaint must be lodged with the municipal manager before the due date for payment of the account.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-29.3">
+                  <num>(3)</num>
+                  <content>
+                    <blockList id="section-29.3.list1">
+                      <listIntroduction>A query or complaint must be accompanied by the payment of—</listIntroduction>
+                      <item id="section-29.3.list1.a">
+                        <num>(a)</num>
+                        <p>the average of the last three month’s accounts where history of the account is available; or</p>
+                      </item>
+                      <item id="section-29.3.list1.b">
+                        <num>(b)</num>
+                        <p>an estimated amount provided by the municipal manager before payment due date until the matter is resolved.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+                <subsection id="section-29.4">
+                  <num>(4)</num>
+                  <content>
+                    <p>Failure to make such interim payment or payments will render the user liable for restriction or disconnection of the services provided.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-29.5">
+                  <num>(5)</num>
+                  <content>
+                    <p>A user may not withold payment of future accounts because a query or complaint was lodged.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-29.6">
+                  <num>(6)</num>
+                  <content>
+                    <blockList id="section-29.6.list1">
+                      <listIntroduction>The municipal manager—</listIntroduction>
+                      <item id="section-29.6.list1.a">
+                        <num>(a)</num>
+                        <p>must investigate the query or complaint; and</p>
+                      </item>
+                      <item id="section-29.6.list1.b">
+                        <num>(b)</num>
+                        <p>must inform the user, in writing, of his or her ﬁnding within one month after the query or complaint was received.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-30">
+                <num>30.</num>
+                <heading>Appeals</heading>
+                <paragraph id="section-30.paragraph-0">
+                  <content>
+                    <p>A user may appeal in writing against a ﬁnding of the municipal manger in terms of section 62 of the Systems Act.</p>
+                  </content>
+                </paragraph>
+              </section>
+            </part>
+            <part id="part-7">
+              <num>7</num>
+              <heading>Regional Services Levy</heading>
+              <section id="section-31">
+                <num>31.</num>
+                <heading>Deﬁnitions</heading>
+                <paragraph id="section-31.paragraph-0" refersTo="#term-SARS">
+                  <content>
+                    <p>In this part unless inconsistent with the context:</p>
+                    <p>"<def refersTo="#term-RSC_act">RSC act</def>" means the Regional Services Council <ref href="/za/act/1985/109">Act No 109 of 1985</ref> and includes a regulation made by the Minister of Finance in terms thereof;</p>
+                    <p>"<def refersTo="#term-due_date">due date</def>" means the twentieth day of every calendar month;</p>
+                    <p>"<def refersTo="#term-levypayer">levypayer</def>" means any person who is liable for the payment of a regional services levy or regional establishment levy;</p>
+                    <p>"<def refersTo="#term-SARS">SARS</def>" means the South African Revenue Services.</p>
+                  </content>
+                </paragraph>
+              </section>
+              <section id="section-32">
+                <num>32.</num>
+                <heading>Levies</heading>
+                <paragraph id="section-32.paragraph-0">
+                  <content>
+                    <blockList id="section-32.paragraph-0.list1">
+                      <listIntroduction>The Council levies and claims in terms of the RSC act—</listIntroduction>
+                      <item id="section-32.paragraph-0.list1.a">
+                        <num>(a)</num>
+                        <p>a regional services levy from every employer who employs or is deemed to employ employees within its region, and each person carrying on or deemed to be carrying on an enterprise as referred to in the RSC act within its region, and</p>
+                      </item>
+                      <item id="section-32.paragraph-0.list1.b">
+                        <num>(b)</num>
+                        <p>a regional establishment levy from every person carrying on or deemed to be carrying on an enterprise within its region.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </paragraph>
+              </section>
+              <section id="section-33">
+                <num>33.</num>
+                <heading>When due and payable</heading>
+                <paragraph id="section-33.paragraph-0">
+                  <content>
+                    <p>A levypayer must pay a levy for which the levypayer is liable on or before the due date, provided that in the case of levypayers in the rural area such due date must be construed as 20 days after the end of a ﬁnancial year.</p>
+                  </content>
+                </paragraph>
+              </section>
+              <section id="section-34">
+                <num>34.</num>
+                <heading>Failure to pay</heading>
+                <paragraph id="section-34.paragraph-0">
+                  <content>
+                    <p>Where a levypayer has failed to pay any levy by the due date the municipal manager must by written notice request such levypayer to pay the outstanding amount within 14 days and thereafter proceed to recover such outstanding levy.</p>
+                  </content>
+                </paragraph>
+              </section>
+              <section id="section-35">
+                <num>35.</num>
+                <heading>Incorrect payment</heading>
+                <subsection id="section-35.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>If it is found that the levy that a levypayer paid is incorrect the municipal manager must either refund the excess amount or recover the underpaid amount.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-35.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>If the municipal manager has reason to believe that a levypayer has not paid in full a levy for which the levypayer is liable, he or she may submit the matter to SARS for such action as it deems ﬁt.</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-36">
+                <num>36.</num>
+                <heading>Failure to furnish return</heading>
+                <subsection id="section-36.1">
+                  <num>(1)</num>
+                  <content>
+                    <blockList id="section-36.1.list1">
+                      <listIntroduction>If a levypayer fails to furnish a return that is required in terms of the RSC act the municipal manager—</listIntroduction>
+                      <item id="section-36.1.list1.a">
+                        <num>(a)</num>
+                        <p>must by notice remind the levypayer to submit such return within 14 days;</p>
+                      </item>
+                      <item id="section-36.1.list1.b">
+                        <num>(b)</num>
+                        <p>must give the levypayer a ﬁnal notice to submit such return within 14 days;</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+                <subsection id="section-36.2">
+                  <num>(2)</num>
+                  <content>
+                    <blockList id="section-36.2.list1">
+                      <listIntroduction>If a levypayer fails to furnish a return the municipal manager—</listIntroduction>
+                      <item id="section-36.2.list1.a">
+                        <num>(a)</num>
+                        <p>may estimate the amount of any levy which in his or her opinion, is probably payable;</p>
+                      </item>
+                      <item id="section-36.2.list1.b">
+                        <num>(b)</num>
+                        <p>may make an assessment of the amount of the unpaid levy;</p>
+                      </item>
+                      <item id="section-36.2.list1.c">
+                        <num>(c)</num>
+                        <p>must give the levypayer concerned notice of such assessment; and</p>
+                      </item>
+                      <item id="section-36.2.list1.d">
+                        <num>(d)</num>
+                        <p>must recover the levy so assessed from the levypayer.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-37">
+                <num>37.</num>
+                <heading>Interest</heading>
+                <subsection id="section-37.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>If a levy payer fails to pay such levy in full on the due date, interest shall become payable by that person on the balance of the levy outstanding, reckoned from the due date.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-37.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>Interest will be charged on all overdue accounts at the same rate as the rate determined from time to time for the purposes of paragraph (b) of the deﬁnition of "prescribed rate" in section 1 of the Income Tax Act, 1962 (<ref href="/za/act/1962/58">Act No 58 of 1962</ref>).</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-38">
+                <num>38.</num>
+                <heading>Measures to recover levies</heading>
+                <subsection id="section-38.1">
+                  <num>(1)</num>
+                  <content>
+                    <blockList id="section-38.1.list1">
+                      <listIntroduction>The municipal manager may use any of the following measures to recover any levy or any outstanding levy—</listIntroduction>
+                      <item id="section-38.1.list1.a">
+                        <num>(a)</num>
+                        <p>permitting the levypayer to pay levies in installments;</p>
+                      </item>
+                      <item id="section-38.1.list1.b">
+                        <num>(b)</num>
+                        <p>using a third party collection agency;</p>
+                      </item>
+                      <item id="section-38.1.list1.c">
+                        <num>(c)</num>
+                        <p>issuing civil summons;</p>
+                      </item>
+                      <item id="section-38.1.list1.d">
+                        <num>(d)</num>
+                        <p>instituting criminal charges as contemplated in the RSC act.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+                <subsection id="section-38.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>A levypayer who cannot pay in full a levy for which the levypayer is liable may request the municipal manager for approval to pay off the amount of such levy in monthly instalments; provided that no more than 3 instalments is permissible where the amount is less than R2 500,00 and no more than 6 instalments is permissible where the amount is more than R2 500,00; and provided further that the current monthly levy is also paid.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-38.3">
+                  <num>(3)</num>
+                  <content>
+                    <p>The municipal manager must conclude an agreement with a levypayer referred to in sub-item (2) and must, in the event of a breach of the agreement, immediately recover the full outstanding amount.</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-39">
+                <num>39.</num>
+                <heading>Appropriation of payments</heading>
+                <paragraph id="section-39.paragraph-0">
+                  <content>
+                    <blockList id="section-39.paragraph-0.list1">
+                      <listIntroduction>Payments by a levypayer will be appropriated in the following sequence:</listIntroduction>
+                      <item id="section-39.paragraph-0.list1.a">
+                        <num>(a)</num>
+                        <p>legal costs incurred;</p>
+                      </item>
+                      <item id="section-39.paragraph-0.list1.b">
+                        <num>(b)</num>
+                        <p>interest;</p>
+                      </item>
+                      <item id="section-39.paragraph-0.list1.c">
+                        <num>(c)</num>
+                        <p>establishment levies;</p>
+                      </item>
+                      <item id="section-39.paragraph-0.list1.d">
+                        <num>(d)</num>
+                        <p>services levies.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </paragraph>
+              </section>
+            </part>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>

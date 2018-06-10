@@ -1,0 +1,525 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc033/act/by-law/2015/problem-building/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2015/problem-building"/>
+          <FRBRalias value="Cape Agulhas Municipality: Problem Building By-law"/>
+          <FRBRdate date="2015-03-06" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc033/act/by-law/2015/problem-building/eng@2015-03-06/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2015/problem-building/eng@2015-03-06"/>
+          <FRBRdate date="2015-03-06" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc033/act/by-law/2015/problem-building/eng@2015-03-06/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2015/problem-building/eng@2015-03-06"/>
+          <FRBRdate date="2018-05-09" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication number="7363" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" date="2015-03-06"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-building" showAs="building" href="/ontology/term/this.eng.building"/>
+        <TLCTerm id="term-National_Building_Regulations" showAs="National Building Regulations" href="/ontology/term/this.eng.National_Building_Regulations"/>
+        <TLCTerm id="term-Municipality" showAs="Municipality" href="/ontology/term/this.eng.Municipality"/>
+        <TLCTerm id="term-problem_building" showAs="problem building" href="/ontology/term/this.eng.problem_building"/>
+        <TLCTerm id="term-owner" showAs="owner" href="/ontology/term/this.eng.owner"/>
+        <TLCTerm id="term-authorised_official" showAs="authorised official" href="/ontology/term/this.eng.authorised_official"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Under the provisions of Section 156 of the Constitution of the Republic of South Africa, 1996, Cape Agulhas Municipality enacts as follows:</p>
+    </preface>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definition</heading>
+        <paragraph id="section-1.paragraph-0">
+          <content>
+            <p>In this by-law, the English text shall prevail in the event of an inconsistency between the difference texts, and unless the context otherwise indicates:</p>
+            <p refersTo="#term-authorised_official">"<def refersTo="#term-authorised_official">authorised official</def>" means an employee of the <term refersTo="#term-Municipality" id="trm0">Municipality</term> authorised by the <term refersTo="#term-Municipality" id="trm1">Municipality</term> to implement and enforce the provisions of this By-law;</p>
+            <blockList id="section-1.paragraph-0.list3" refersTo="#term-building">
+              <listIntroduction>"<def refersTo="#term-building">building</def>" includes:</listIntroduction>
+              <item id="section-1.paragraph-0.list3.a">
+                <num>(a)</num>
+                <blockList id="section-1.paragraph-0.list3.a.list0">
+                  <listIntroduction>Any structure, whether of a temporary or permanent nature and irrespective of the materials used in the erection thereof, erected or used for or in connection with the;</listIntroduction>
+                  <item id="section-1.paragraph-0.list3.a.list0.i">
+                    <num>(i)</num>
+                    <p>Accommodation or convenience of human beings or animals;</p>
+                  </item>
+                  <item id="section-1.paragraph-0.list3.a.list0.ii">
+                    <num>(ii)</num>
+                    <p>Manufacture, processing, storage, display or sale any goods;</p>
+                  </item>
+                  <item id="section-1.paragraph-0.list3.a.list0.iii">
+                    <num>(iii)</num>
+                    <p>Rendering of any services;</p>
+                  </item>
+                  <item id="section-1.paragraph-0.list3.a.list0.iv">
+                    <num>(iv)</num>
+                    <p>Cultivation or growing of any plant or crop;</p>
+                  </item>
+                  <item id="section-1.paragraph-0.list3.a.list0.v">
+                    <num>(v)</num>
+                    <p>Destruction or treatment of refuse or other waste materials;</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-1.paragraph-0.list3.b">
+                <num>(b)</num>
+                <p>Any wall, fence or part of a building, including a building as defined in paragraph (a):</p>
+              </item>
+              <item id="section-1.paragraph-0.list3.c">
+                <num>(c)</num>
+                <p>A unit as defined in the Sectional Title Act, 1986 (<ref href="/za/act/1986/95">Act No. 95 of 1986</ref>); and</p>
+              </item>
+              <item id="section-1.paragraph-0.list3.d">
+                <num>(d)</num>
+                <p>Any vacant or unoccupied erf;</p>
+              </item>
+            </blockList>
+            <p refersTo="#term-Municipality">"<def refersTo="#term-Municipality">Municipality</def>" means the Cape Agulhas Municipality establish in terms of Section 12 of the Municipality Structures Act, 117 of 1998, and includes any political structure, political office-bearer, councillor, duly authorised agent thereof or any employee thereof acting in connection with this by-law virtue of a power vested in the municipality and delegated or subdelegated to such political structure, political office-bearer, councillor, agent or employee;</p>
+            <p refersTo="#term-National_Building_Regulations">"<def refersTo="#term-National_Building_Regulations">National Building Regulations</def>" means regulations issued in terms of the National Building Regulations and Building Standards Act, 1977 (<ref href="/za/act/1977/103">Act No.103 of 1977</ref>);</p>
+            <blockList id="section-1.paragraph-0.list7" refersTo="#term-owner">
+              <listIntroduction>"<def refersTo="#term-owner">owner</def>" in relation to a <term refersTo="#term-building" id="trm2">building</term> or land means the person in whose name the land on which such <term refersTo="#term-building" id="trm3">building</term> was or erected, as the case may be, is registered in the deeds office in question and includes e person in charge of such <term refersTo="#term-building" id="trm4">building</term>: Provided if:</listIntroduction>
+              <item id="section-1.paragraph-0.list7.a">
+                <num>(a)</num>
+                <p>Such person, in the case of a natural person, is deceased or was declared by any court to be incapable of managing his or her own affairs or a prodigal or is a patient a defined in section 1 of the Mental Health Act, 1973 (Act no. 18 of 1973), or if his or her estate has been sequestrated, the executor or curator concerned, as the case may be;</p>
+              </item>
+              <item id="section-1.paragraph-0.list7.b">
+                <num>(b)</num>
+                <p>Such person, in the case of a juristic person, has been liquidated or placed under judicial management, the liquidator or judicial manager concerned, as the case may be;</p>
+              </item>
+              <item id="section-1.paragraph-0.list7.c">
+                <num>(c)</num>
+                <p>Such person is absent from the Republic or if his or her whereabouts are unknown, any person who, as agent or otherwise, undertakes the management, maintenance or collection of rentals or other moneys in respect of such <term refersTo="#term-building" id="trm5">building</term> or who is responsible thereof;</p>
+              </item>
+              <item id="section-1.paragraph-0.list7.d">
+                <num>(d)</num>
+                <p>The mortgage bond is registered in favour of a financial institution, that financial institution;</p>
+              </item>
+              <item id="section-1.paragraph-0.list7.e">
+                <num>(e)</num>
+                <p>In the case of a sectional title scheme, a sectional title unit is registered in the name of a person, that person;</p>
+              </item>
+              <item id="section-1.paragraph-0.list7.f">
+                <num>(f)</num>
+                <p>In the case of a sectional title scheme, a body corporate responsible for the control, administration and management of the common property; or</p>
+              </item>
+              <item id="section-1.paragraph-0.list7.g">
+                <num>(g)</num>
+                <p>The <term refersTo="#term-Municipality" id="trm6">Municipality</term> in question is unable to determine the identity of such person, any person who is entitled to the benefit of the use of such <term refersTo="#term-building" id="trm7">building</term> who enjoys such benefit</p>
+              </item>
+            </blockList>
+            <blockList id="section-1.paragraph-0.list9" refersTo="#term-problem_building">
+              <listIntroduction>"<def refersTo="#term-problem_building">problem building</def>" includes any:</listIntroduction>
+              <item id="section-1.paragraph-0.list9.a">
+                <num>(a)</num>
+                <p>Building or land that have been abandoned or appears to have been abandoned by the <term refersTo="#term-owner" id="trm8">owner</term> with or without the consequence that rates or other service changes are not being paid;</p>
+              </item>
+              <item id="section-1.paragraph-0.list9.b">
+                <num>(b)</num>
+                <p>Building or land that is derelict in appearance, overcrowded or showing signs that it is unhealthy, unsanitary, unsightly or objectionable;</p>
+              </item>
+              <item id="section-1.paragraph-0.list9.c">
+                <num>(c)</num>
+                <p>Building or land that is the subject of complaints from the public including complaints in respect of criminal activity taking place in or at such <term refersTo="#term-building" id="trm9">building</term> or land;</p>
+              </item>
+              <item id="section-1.paragraph-0.list9.d">
+                <num>(d)</num>
+                <p>Building or land that is illegally occupied;</p>
+              </item>
+              <item id="section-1.paragraph-0.list9.e">
+                <num>(e)</num>
+                <p>Building or land where refuse or waste material is accumulated, dumped, stored or deposited; or</p>
+              </item>
+              <item id="section-1.paragraph-0.list9.f">
+                <num>(f)</num>
+                <p>Building partially completed, or structurally unsound and that shows signs of any of the risks contemplated in paragraphs (a) to (e).</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Principles and applications</heading>
+        <subsection id="section-2.1">
+          <num>(1)</num>
+          <content>
+            <p>In the implementation and enforcement of this by-law, the municipality may take into consideration the realities of the Cape Agulhas area, the different customs, cultures, circumstances, geographical areas, kinds of premises, levels of development and conventions and the municipality may from time to time determine the areas in which the by-law will be applicable.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.2">
+          <num>(2)</num>
+          <content>
+            <p>This by-law applies to all problem buildings situated within the area of jurisdiction of the municipality, except those exempted in terms of section 13 of the <term refersTo="#term-National_Building_Regulations" id="trm10">National Building Regulations</term> and Building Standards Act, 1977 (Act 103 of 1977).</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Appointment of authorised officials</heading>
+        <paragraph id="section-3.paragraph-0">
+          <content>
+            <p>The municipal manager may appoint officials to implement and enforce the provisions of this by-law.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Delegation</heading>
+        <paragraph id="section-4.paragraph-0">
+          <content>
+            <p>The municipal Manager may exercise all powers, duties and functions conferred upon the municipality in terms of this bylaw and may delegate all or any of such powers, duties and functions to authorised officials.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Entry by authorised officials of buildings and land</heading>
+        <subsection id="section-5.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-5.1.list1">
+              <listIntroduction>Any <term refersTo="#term-authorised_official" id="trm11">authorised official</term> may enter any <term refersTo="#term-building" id="trm12">building</term> or land at any reasonable time with a view to:</listIntroduction>
+              <item id="section-5.1.list1.a">
+                <num>(a)</num>
+                <p>Inspect or determine whether the <term refersTo="#term-building" id="trm13">building</term> or land complies with the provisions of this by-law; or</p>
+              </item>
+              <item id="section-5.1.list1.b">
+                <num>(b)</num>
+                <p>Serve the <term refersTo="#term-owner" id="trm14">owner</term> of the <term refersTo="#term-building" id="trm15">building</term> or land with a compliance notice contemplated in section 7.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-5.2">
+          <num>(2)</num>
+          <content>
+            <p>No person may hinder or obstruct the <term refersTo="#term-authorised_official" id="trm16">authorised official</term> in the exercise of his or her powers in terms of the by-law.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.3">
+          <num>(3)</num>
+          <content>
+            <p>n <term refersTo="#term-authorised_official" id="trm17">authorised official</term> must, when entering the <term refersTo="#term-building" id="trm18">building</term> or land produce a valid identification document issued to him or her by the municipality to the <term refersTo="#term-owner" id="trm19">owner</term> of such <term refersTo="#term-building" id="trm20">building</term> or land.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.4">
+          <num>(4)</num>
+          <content>
+            <p>A person who contravenes subsection (2) commits an offence.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Declaration of a <term refersTo="#term-building" id="trm21">building</term> or land, a <term refersTo="#term-problem_building" id="trm22">problem building</term></heading>
+        <subsection id="section-6.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-6.1.list1">
+              <listIntroduction>An <term refersTo="#term-authorised_official" id="trm23">authorised official</term>:</listIntroduction>
+              <item id="section-6.1.list1.a">
+                <num>(a)</num>
+                <p>May carry out and investigation of a <term refersTo="#term-building" id="trm24">building</term> or land which he or she intends to declare a <term refersTo="#term-problem_building" id="trm25">problem building</term>;</p>
+              </item>
+              <item id="section-6.1.list1.b">
+                <num>(b)</num>
+                <p>May subject to subparagraphs (c), and (d), declare such <term refersTo="#term-building" id="trm26">building</term> a <term refersTo="#term-problem_building" id="trm27">problem building</term>.</p>
+              </item>
+              <item id="section-6.1.list1.c">
+                <num>(c)</num>
+                <p>Must, before declaring such <term refersTo="#term-building" id="trm28">building</term> a <term refersTo="#term-problem_building" id="trm29">problem building</term>, inform the <term refersTo="#term-owner" id="trm30">owner</term>, in writing of his or her intention to do so; and</p>
+              </item>
+              <item id="section-6.1.list1.d">
+                <num>(d)</num>
+                <p>Must give the <term refersTo="#term-owner" id="trm31">owner</term> reasonable time to make representations.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-6.2">
+          <num>(2)</num>
+          <content>
+            <p>If an <term refersTo="#term-owner" id="trm32">owner</term> fails to respond to or make any representation with regard to a notice of intention issued in terms of subsection (1)(c) within the stipulated period, the <term refersTo="#term-authorised_official" id="trm33">authorised official</term> may proceed with the declaration of the <term refersTo="#term-building" id="trm34">building</term> as a <term refersTo="#term-problem_building" id="trm35">problem building</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-owner" id="trm36">owner</term> shall, upon a declaration in terms of subsection (b) have a right of appeal in terms of section 62 of the Municipal system Act, 2000 (<ref href="/za/act/2000/32">Act 32 of 2000</ref>).</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Compliance notice</heading>
+        <subsection id="section-7.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-7.1.list1">
+              <listIntroduction>Subject to the provisions of section 6(1) and (2) of this by-law and section 12 of the <term refersTo="#term-National_Building_Regulations" id="trm37">National Building Regulations</term> and Buildings Standards Act, 1977 (<ref href="/za/act/1977/103">Act 103 of 1977</ref>), an authorised official may serve a written notice on the owner of any building or land which has been declared a problem building, requiring such owner within a specific period to:</listIntroduction>
+              <item id="section-7.1.list1.a">
+                <num>(a)</num>
+                <p>Clean, repair, renovate, repaint, alter, close, demolish or secure such <term refersTo="#term-building" id="trm38">building</term>;</p>
+              </item>
+              <item id="section-7.1.list1.b">
+                <num>(b)</num>
+                <p>Complete the <term refersTo="#term-building" id="trm39">building</term> or any structure of such <term refersTo="#term-building" id="trm40">building</term>;</p>
+              </item>
+              <item id="section-7.1.list1.c">
+                <num>(c)</num>
+                <p>Enclose, secure, fence or barricade such <term refersTo="#term-problem_building" id="trm41">problem building</term> or land;</p>
+              </item>
+              <item id="section-7.1.list1.d">
+                <num>(d)</num>
+                <p>Instruct at the cost of such <term refersTo="#term-owner" id="trm42">owner</term>, an architect or other competent person as contemplated in Part A 19 of the <term refersTo="#term-National_Building_Regulations" id="trm43">National Building Regulations</term>, to investigate such <term refersTo="#term-building" id="trm44">building</term> and to report to <term refersTo="#term-authorised_official" id="trm45">authorised official</term> on the nature and extent of the steps to be taken to render such <term refersTo="#term-problem_building" id="trm46">problem building</term> safe or to rectify the deficiency which caused the <term refersTo="#term-building" id="trm47">building</term> to be declared a <term refersTo="#term-problem_building" id="trm48">problem building</term>;</p>
+              </item>
+              <item id="section-7.1.list1.e">
+                <num>(e)</num>
+                <p>Dispose of, destroy or remove any material or article accumulated, dumped, stored or deposited in or at the <term refersTo="#term-building" id="trm49">building</term>, which is refuse or waste and which is unsightly or is likely to constitute an obstruction or nuisance; or</p>
+              </item>
+              <item id="section-7.1.list1.f">
+                <num>(f)</num>
+                <p>Comply with any provision of this by-law</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-7.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-Municipality" id="trm50">Municipality</term> may, if an <term refersTo="#term-owner" id="trm51">owner</term> foils to comply with a notice served on him or her in terms of subsection (1), take any of the steps contemplated in subsection (1)(a) to (f), or any other steps it may deem necessary, at the cost of the <term refersTo="#term-owner" id="trm52">owner</term>, provided that no <term refersTo="#term-building" id="trm53">building</term> may be demolished by the municipality without an appropriate court order to do so.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.3">
+          <num>(3)</num>
+          <content>
+            <p>If the condition of any <term refersTo="#term-building" id="trm54">building</term> is such that it poses a danger to life or property, and the <term refersTo="#term-authorised_official" id="trm55">authorised official</term> has reason to believe that immediate steps are necessary to protect life or property, he or she may take any steps regarded necessary under the circumstances to prevent the danger to life or the property without serving the notice contemplated in subsection (1).</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.4">
+          <num>(4)</num>
+          <content>
+            <p>A person who fails to comply with a notice of compliance issued in terms of this section commits an offence.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Recovery of cost</heading>
+        <paragraph id="section-8.paragraph-0">
+          <content>
+            <p>The municipality may, if the <term refersTo="#term-owner" id="trm56">owner</term> fails to pay the cost contemplated in section 7 (2), or if costs have been incurred for any steps taken in terms of subsection (3), recover the cost in terms of the Customer Care and Revenue Management By-law which may include the right of attachment and sale in execution of <term refersTo="#term-building" id="trm57">building</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Vacation of buildings</heading>
+        <subsection id="section-9.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-9.1.list1">
+              <listIntroduction>If the <term refersTo="#term-authorised_official" id="trm58">authorised official</term> deems it necessary for the safety of any person, he or she may by notice in writing:</listIntroduction>
+              <item id="section-9.1.list1.a">
+                <num>(a)</num>
+                <p>Order the <term refersTo="#term-owner" id="trm59">owner</term> of any <term refersTo="#term-problem_building" id="trm60">problem building</term> to remove, within the period specified in such notice, any person who, for whatever purpose is in such <term refersTo="#term-building" id="trm61">building</term>, and to take care that no person who is not authorised by the municipality enters such <term refersTo="#term-building" id="trm62">building</term>; and</p>
+              </item>
+              <item id="section-9.1.list1.b">
+                <num>(b)</num>
+                <p>Order any person who for whatever purpose is in any <term refersTo="#term-problem_building" id="trm63">problem building</term>, to vacate such <term refersTo="#term-building" id="trm64">building</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-9.2">
+          <num>(2)</num>
+          <content>
+            <p>No person may occupy, use or permit the occupation or use of any <term refersTo="#term-problem_building" id="trm65">problem building</term> or continue to occupy, use or permit the occupation or use of such <term refersTo="#term-building" id="trm66">building</term> in respect of which a notice of compliance was served in terms of subsection (1) or steps were taken by the municipality in terms of subsection (2) without the written approval of the municipality.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.3">
+          <num>(3)</num>
+          <content>
+            <p>A person who fails to comply with a notice served in terms of this section commits an offence.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Indemnity</heading>
+        <paragraph id="section-10.paragraph-0">
+          <content>
+            <p>The Cape Agulhas <term refersTo="#term-Municipality" id="trm67">Municipality</term> or any <term refersTo="#term-authorised_official" id="trm68">authorised official</term> of the Cape Agulhas <term refersTo="#term-Municipality" id="trm69">Municipality</term> shall not be liable to a third party for any damage caused by anything lawfully done or omitted by the Cape Agulhas <term refersTo="#term-Municipality" id="trm70">Municipality</term> or any <term refersTo="#term-authorised_official" id="trm71">authorised official</term> in carrying out in any function or duty in terms of this By-law.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-11">
+        <num>11.</num>
+        <heading>Service of a notice</heading>
+        <subsection id="section-11.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-11.1.list1">
+              <listIntroduction>Any notice or other document that is served on a person in terms of this by-law is regarded as having been duly served:</listIntroduction>
+              <item id="section-11.1.list1.a">
+                <num>(a)</num>
+                <p>when it has been delivered to that person personally;</p>
+              </item>
+              <item id="section-11.1.list1.b">
+                <num>(b)</num>
+                <p>when it has left at the person’s place of residence or business in the Republic with a person apparently over the age of 16 years;</p>
+              </item>
+              <item id="section-11.1.list1.c">
+                <num>(c)</num>
+                <p>when it has been posted by registered or certified mail to that person’s last known residential or business address in the Republic, and an acknowledgment of the posting therefor from the postal service is obtained;</p>
+              </item>
+              <item id="section-11.1.list1.d">
+                <num>(d)</num>
+                <p>if that person’s address in the Republic is unknown, when it has been served on that person’s agent or representative in the Republic in the manner provided by paragraphs (a), (b), or (c);</p>
+              </item>
+              <item id="section-11.1.list1.e">
+                <num>(e)</num>
+                <p>if that person’s address and agent or representative in the Republic is unknown, when it has been posted in a conspicuous place on the land or business premises to which it relates;</p>
+              </item>
+              <item id="section-11.1.list1.f">
+                <num>(f)</num>
+                <p>on a event of a body corporate, when it has been delivered at the registered office of the business premises of the body corporate; or</p>
+              </item>
+              <item id="section-11.1.list1.g">
+                <num>(g)</num>
+                <p>when it has been delivered, at the request of that person, to his or her e-mail address.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-11.2">
+          <num>(2)</num>
+          <content>
+            <p>When a compliance notice as aforesaid is authorised or required to be served on a person by reason of his or her being or having been the <term refersTo="#term-owner" id="trm72">owner</term> or holding some other right in respect of immovable property, it shall not be necessary to name him or her, but it shall be sufficient if he or she is therein describe as the <term refersTo="#term-owner" id="trm73">owner</term> or holder of such immovable property or other right, as the case may be.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-12">
+        <num>12.</num>
+        <heading>Restriction of liability</heading>
+        <paragraph id="section-12.paragraph-0">
+          <content>
+            <p>No authorised employee shall be liable in respect of anything done in good faith in the exercise of a power or the performance of a duty conferred or imposed in terms of this by-law.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-13">
+        <num>13.</num>
+        <heading>Exemption</heading>
+        <subsection id="section-13.1">
+          <num>(1)</num>
+          <content>
+            <p>Any person may by means of a written application, in which the reason are given in full, apply to the municipality for exemption from any provision of this by-law.</p>
+          </content>
+        </subsection>
+        <subsection id="section-13.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-13.2.list1">
+              <listIntroduction>The municipality may:</listIntroduction>
+              <item id="section-13.2.list1.a">
+                <num>(a)</num>
+                <p>Grant an exemption in written and the conditions in terms of which, if any, and the period for which such exemption is granted must be stipulated therein;</p>
+              </item>
+              <item id="section-13.2.list1.b">
+                <num>(b)</num>
+                <p>After or cancel any condition in an exemption; provided that the municipality must give reasonable notice of such intention and give the applicant reasonable time to make representations; or</p>
+              </item>
+              <item id="section-13.2.list1.c">
+                <num>(c)</num>
+                <p>Refuse to grant an exemption in which case the applicant must be informed of the reasons of such refusal.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-13.3">
+          <num>(3)</num>
+          <content>
+            <p>In order to consider an application in terms of subsection (1), the municipality may obtain the input or comments of the owners or occupants of surrounding premises.</p>
+          </content>
+        </subsection>
+        <subsection id="section-13.4">
+          <num>(4)</num>
+          <content>
+            <p>An exemption does not take effect before the applicant has undertaken in written to comply with all conditions imposed by the municipality under subsection (2), however, if an activity is commended before such undertaking has been submitted to the municipality, the exemption lapses.</p>
+          </content>
+        </subsection>
+        <subsection id="section-13.5">
+          <num>(5)</num>
+          <content>
+            <p>If any condition of an exemption is not complied with, the municipality may withdraw or cancel such exemption; provided that the municipality must give reasonable notice of such intention and give the applicant reasonable time to make representations.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-14">
+        <num>14.</num>
+        <heading>Appeal</heading>
+        <paragraph id="section-14.paragraph-0">
+          <content>
+            <p>A person whose rights are affected by a decision of the municipality in terms of delegated authority may appeal against the decision by giving written notice of the appeal and the reason therefor in terms of section 62 of the Local Government <term refersTo="#term-Municipality" id="trm74">Municipality</term> System Act, <ref href="/za/act/2000/32">Act 32 of 2000</ref> to the municipal manager within 21 days of the date of the notification of the decision.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-15">
+        <num>15.</num>
+        <heading>Offences and penalties</heading>
+        <paragraph id="section-15.paragraph-0">
+          <content>
+            <blockList id="section-15.paragraph-0.list1">
+              <listIntroduction>A person who contravenes any provision or fails to comply with any provision of this by-law commits an offence and shall on conviction be liable to:</listIntroduction>
+              <item id="section-15.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>A fine or imprisonment, or either such fine or imprisonment or to both such fine and such imprisonment;</p>
+              </item>
+              <item id="section-15.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>In the case of a continuing offence, to an additional fine or additional period of imprisonment or to such additional imprisonment without the option of a fine or to both such additional fine and imprisonment for each day on which such offence is continued; and</p>
+              </item>
+              <item id="section-15.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>A further amount equal to any costs and expenses found by the court to have been incurred by the municipality as result of such contravention or failure.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-16">
+        <num>16.</num>
+        <heading>Repeal of by-laws</heading>
+        <paragraph id="section-16.paragraph-0">
+          <content>
+            <p>The provisions of any by-laws previously promulgated by the municipality or by any of the disestablished municipalities now incorporated in the municipality are hereby repealed as far as they relate to matters provided for in this by-law.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-17">
+        <num>17.</num>
+        <heading>Short title</heading>
+        <paragraph id="section-17.paragraph-0">
+          <content>
+            <p>This by-law shall be known as the Cape Agulhas <term refersTo="#term-Municipality" id="trm75">Municipality</term>: Problem Building By-law and shall come into operation on the date of publication thereof in the Provincial Gazette.</p>
+          </content>
+        </paragraph>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

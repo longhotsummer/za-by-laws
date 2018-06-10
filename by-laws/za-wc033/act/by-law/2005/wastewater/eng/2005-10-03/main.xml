@@ -1,0 +1,504 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc033/act/by-law/2005/wastewater/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/wastewater"/>
+          <FRBRalias value="Wastewater By-law"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc033/act/by-law/2005/wastewater/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/wastewater/eng@2005-10-03"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc033/act/by-law/2005/wastewater/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/wastewater/eng@2005-10-03"/>
+          <FRBRdate date="2018-02-04" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-10-03" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" number="6303"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-council" href="/ontology/term/this.eng.council" showAs="council"/>
+        <TLCTerm id="term-engineer" href="/ontology/term/this.eng.engineer" showAs="engineer"/>
+        <TLCTerm id="term-industrial_effluent" href="/ontology/term/this.eng.industrial_effluent" showAs="industrial effluent"/>
+        <TLCTerm id="term-municipal_sewer" href="/ontology/term/this.eng.municipal_sewer" showAs="municipal sewer"/>
+        <TLCTerm id="term-municipality" href="/ontology/term/this.eng.municipality" showAs="municipality"/>
+        <TLCTerm id="term-occupier" href="/ontology/term/this.eng.occupier" showAs="occupier"/>
+        <TLCTerm id="term-owner" href="/ontology/term/this.eng.owner" showAs="owner"/>
+        <TLCTerm id="term-private_sewer_installation" href="/ontology/term/this.eng.private_sewer_installation" showAs="private sewer installation"/>
+        <TLCTerm id="term-property" href="/ontology/term/this.eng.property" showAs="property"/>
+        <TLCTerm id="term-stormwater" href="/ontology/term/this.eng.stormwater" showAs="stormwater"/>
+        <TLCTerm id="term-Tariff_Policy_By-law" href="/ontology/term/this.eng.Tariff_Policy_By-law" showAs="Tariff Policy By-law"/>
+        <TLCTerm id="term-waste_grinder" href="/ontology/term/this.eng.waste_grinder" showAs="waste grinder"/>
+        <TLCTerm id="term-wastewater" href="/ontology/term/this.eng.wastewater" showAs="wastewater"/>
+        <TLCTerm id="term-wastewater_system" href="/ontology/term/this.eng.wastewater_system" showAs="wastewater system"/>
+      </references>
+    </meta>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <paragraph id="section-1.paragraph-0" refersTo="#term-wastewater_system">
+          <content>
+            <p>In this by-law:—</p>
+            <p>"<def refersTo="#term-council">council</def>" means the <term refersTo="#term-council" id="trm0">council</term> of the <term refersTo="#term-municipality" id="trm1">municipality</term>;</p>
+            <p>"<def refersTo="#term-engineer">engineer</def>" means the person appointed by the <term refersTo="#term-municipality" id="trm2">municipality</term> to act as <term refersTo="#term-engineer" id="trm3">engineer</term> for the purpose of administering this by-law;</p>
+            <p>"<def refersTo="#term-industrial_effluent">industrial effluent</def>" means any liquid whether or not containing matter in solution or suspension, which is given off in the course of or as a result of any industrial trade, manufacturing, mining or chemical process or any laboratory, research, service, or agricultural activity, and includes matter discharged from a <term refersTo="#term-waste_grinder" id="trm4">waste grinder</term>;</p>
+            <p>"<def refersTo="#term-municipal_sewer">municipal sewer</def>" means any pipe or conduit for the carriage of <term refersTo="#term-wastewater" id="trm5">wastewater</term>, the ownership of which is vested in the <term refersTo="#term-municipality" id="trm6">municipality</term>;</p>
+            <p>"<def refersTo="#term-municipality">municipality</def>" means the Municipality of Cape Agulhas;</p>
+            <p>"<def refersTo="#term-occupier">occupier</def>" means any person in actual occupation of premises or having the charge or management thereof, without regard to the title under which he or she occupies it;</p>
+            <p>"<def refersTo="#term-owner">owner</def>" in relation to <term refersTo="#term-property" id="trm7">property</term> or premises, means the person in whom is vested the legal title to <term refersTo="#term-property" id="trm8">property</term> or premises and includes an <term refersTo="#term-occupier" id="trm9">occupier</term>;</p>
+            <p>"<def refersTo="#term-private_sewer_installation">private sewer installation</def>" means any pipe or conduit and fittings which are situated on any <term refersTo="#term-property" id="trm10">property</term> or premises, the ownership of which is vested in the <term refersTo="#term-owner" id="trm11">owner</term> thereof and used or intended to be used in connection with the carriage of <term refersTo="#term-wastewater" id="trm12">wastewater</term> from such premises, to the <term refersTo="#term-municipal_sewer" id="trm13">municipal sewer</term>;</p>
+            <p>"<def refersTo="#term-property">property</def>" or "premises" means any piece of land, with or without improvements;</p>
+            <p>"<def refersTo="#term-stormwater">stormwater</def>" means the water resulting from natural precipitation or accumulation and includes rainwater, groundwater or spring water;</p>
+            <p>"<def refersTo="#term-Tariff_Policy_By-law">Tariff Policy By-law</def>", means the <term refersTo="#term-Tariff_Policy_By-law" id="trm14">Tariff Policy By-law</term> adopted by the <term refersTo="#term-municipality" id="trm15">municipality</term> and published in Provincial Gazette.</p>
+            <p>"<def refersTo="#term-waste_grinder">waste grinder</def>" means any mechanically operated device which grinds and ﬂushes matter into the <term refersTo="#term-wastewater_system" id="trm16">wastewater system</term> or removes from vegetables or other foodstuffs, peels, skins, scales or other matter for discharge directly or indirectly into the <term refersTo="#term-wastewater_system" id="trm17">wastewater system</term>, and includes effluent from a food <term refersTo="#term-waste_grinder" id="trm18">waste grinder</term>;</p>
+            <p>"<def refersTo="#term-wastewater">wastewater</def>" means any liquid waste, whether or not containing matter in solution or suspension, and includes domestic liquid waste and <term refersTo="#term-industrial_effluent" id="trm19">industrial effluent</term> but excludes <term refersTo="#term-stormwater" id="trm20">stormwater</term>,</p>
+            <p>"<def refersTo="#term-wastewater_system">wastewater system</def>" means the structures, sewers, pipes, valves, pumps, meters or other appurtenances under the control of the <term refersTo="#term-council" id="trm21">council</term>, which may be used for the carriage or disposal of <term refersTo="#term-wastewater" id="trm22">wastewater</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <chapter id="chapter-1">
+        <num>1</num>
+        <heading>General</heading>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Duties of owners of <term refersTo="#term-property" id="trm23">property</term></heading>
+          <subsection id="section-2.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-2.1.list1">
+                <listIntroduction>Every <term refersTo="#term-owner" id="trm24">owner</term> of <term refersTo="#term-property" id="trm25">property</term> must on receipt of a written notice by the <term refersTo="#term-engineer" id="trm26">engineer</term> and at the cost of the <term refersTo="#term-owner" id="trm27">owner</term>—</listIntroduction>
+                <item id="section-2.1.list1.a">
+                  <num>(a)</num>
+                  <p>construct a <term refersTo="#term-private_sewer_installation" id="trm28">private sewer installation</term> on his or her premises;</p>
+                </item>
+                <item id="section-2.1.list1.b">
+                  <num>(b)</num>
+                  <p>connect a <term refersTo="#term-private_sewer_installation" id="trm29">private sewer installation</term> to the <term refersTo="#term-municipal_sewer" id="trm30">municipal sewer</term>, whether directly or indirectly as required by the <term refersTo="#term-engineer" id="trm31">engineer</term>;</p>
+                </item>
+                <item id="section-2.1.list1.c">
+                  <num>(c)</num>
+                  <p>enlarge the capacity of a <term refersTo="#term-private_sewer_installation" id="trm32">private sewer installation</term> to comply with a greater discharge, or</p>
+                </item>
+                <item id="section-2.1.list1.d">
+                  <num>(d)</num>
+                  <p>reconstruct a <term refersTo="#term-private_sewer_installation" id="trm33">private sewer installation</term> to comply with the requirements of the <term refersTo="#term-engineer" id="trm34">engineer</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-2.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-2.2.list1">
+                <listIntroduction>No <term refersTo="#term-owner" id="trm35">owner</term> of <term refersTo="#term-property" id="trm36">property</term> may allow—</listIntroduction>
+                <item id="section-2.2.list1.a">
+                  <num>(a)</num>
+                  <p>the ingress of groundwater into a <term refersTo="#term-private_sewer_installation" id="trm37">private sewer installation</term> on his or her premises, or</p>
+                </item>
+                <item id="section-2.2.list1.b">
+                  <num>(b)</num>
+                  <p>the seepage of <term refersTo="#term-wastewater" id="trm38">wastewater</term> from a <term refersTo="#term-private_sewer_installation" id="trm39">private sewer installation</term> on his or her premises, or</p>
+                </item>
+                <item id="section-2.2.list1.c">
+                  <num>(c)</num>
+                  <p>the ingress of <term refersTo="#term-stormwater" id="trm40">stormwater</term> into a <term refersTo="#term-private_sewer_installation" id="trm41">private sewer installation</term> on his or her premises, except with the written consent of the <term refersTo="#term-engineer" id="trm42">engineer</term> and subject to such conditions as the <term refersTo="#term-engineer" id="trm43">engineer</term> may determine.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-2.3">
+            <num>(3)</num>
+            <content>
+              <p>Every <term refersTo="#term-owner" id="trm44">owner</term> of <term refersTo="#term-property" id="trm45">property</term> must take adequate measures to prevent the ingress of groundwater and <term refersTo="#term-stormwater" id="trm46">stormwater</term> and the seepage of <term refersTo="#term-wastewater" id="trm47">wastewater</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-2.4.list0">
+                <item id="section-2.4.list0.a">
+                  <num>(a)</num>
+                  <p>Every <term refersTo="#term-owner" id="trm48">owner</term> of <term refersTo="#term-property" id="trm49">property</term> must at his or her own expense maintain and repair a <term refersTo="#term-private_sewer_installation" id="trm50">private sewer installation</term> on his or her premises and keep it in a good and proper state of repair, to the satisfaction of the <term refersTo="#term-engineer" id="trm51">engineer</term>.</p>
+                </item>
+                <item id="section-2.4.list0.b">
+                  <num>(b)</num>
+                  <p>Where the properties of more than one <term refersTo="#term-owner" id="trm52">owner</term> are served by a single <term refersTo="#term-private_sewer_installation" id="trm53">private sewer installation</term> such owners is jointly and severally responsible for the duty of maintaining and repairing it.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Protection of municipal sewers</heading>
+          <subsection id="section-3.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-3.1.list1">
+                <listIntroduction>No person may, except with the written consent of the <term refersTo="#term-engineer" id="trm54">engineer</term> and subject to such conditions as he or she may determine—</listIntroduction>
+                <item id="section-3.1.list1.a">
+                  <num>(a)</num>
+                  <p>construct, erect or lay any building, structure or other thing over or in such a position or in such a manner as to interfere with or endanger any <term refersTo="#term-municipal_sewer" id="trm55">municipal sewer</term>;</p>
+                </item>
+                <item id="section-3.1.list1.b">
+                  <num>(b)</num>
+                  <p>excavate, open up or remove the ground above, next to, under or near any <term refersTo="#term-municipal_sewer" id="trm56">municipal sewer</term>;</p>
+                </item>
+                <item id="section-3.1.list1.c">
+                  <num>(c)</num>
+                  <p>damage, endanger or destroy or do any act likely to damage, endanger or destroy any <term refersTo="#term-municipal_sewer" id="trm57">municipal sewer</term>;</p>
+                </item>
+                <item id="section-3.1.list1.d">
+                  <num>(d)</num>
+                  <p>make any opening in any <term refersTo="#term-municipal_sewer" id="trm58">municipal sewer</term>, or abstract, divert or cause to be abstracted or diverted any <term refersTo="#term-wastewater" id="trm59">wastewater</term> therefrom;</p>
+                </item>
+                <item id="section-3.1.list1.e">
+                  <num>(e)</num>
+                  <blockList id="section-3.1.list1.e.list0">
+                    <listIntroduction>discharge, permit to enter or put into any <term refersTo="#term-municipal_sewer" id="trm60">municipal sewer</term>—</listIntroduction>
+                    <item id="section-3.1.list1.e.list0.i">
+                      <num>(i)</num>
+                      <p>any <term refersTo="#term-stormwater" id="trm61">stormwater</term>;</p>
+                    </item>
+                    <item id="section-3.1.list1.e.list0.ii">
+                      <num>(ii)</num>
+                      <p>any gas or steam;</p>
+                    </item>
+                    <item id="section-3.1.list1.e.list0.iii">
+                      <num>(iii)</num>
+                      <p>any liquid (not being domestic <term refersTo="#term-wastewater" id="trm62">wastewater</term>) of a temperature higher than 40 degrees centigrade;</p>
+                    </item>
+                    <item id="section-3.1.list1.e.list0.iv">
+                      <num>(iv)</num>
+                      <p>any petrol, oil, greases, waxes, fat or pesticides, insecticides or paints;</p>
+                    </item>
+                    <item id="section-3.1.list1.e.list0.v">
+                      <num>(v)</num>
+                      <p>any refuse or waste resulting from any industrial, trade, manufacturing or chemical process;</p>
+                    </item>
+                    <item id="section-3.1.list1.e.list0.vi">
+                      <num>(vi)</num>
+                      <p>any liquid which has a pH value of less than five comma five or greater than twelve;</p>
+                    </item>
+                    <item id="section-3.1.list1.e.list0.vii">
+                      <num>(vii)</num>
+                      <p>any substance which gives off or is liable to give off explosive, poisonous or inﬂammable gases or vapours;</p>
+                    </item>
+                    <item id="section-3.1.list1.e.list0.viii">
+                      <num>(viii)</num>
+                      <p>any inﬂammable substance;</p>
+                    </item>
+                    <item id="section-3.1.list1.e.list0.ix">
+                      <num>(ix)</num>
+                      <p>any substance which contains volatile ﬂammable solvents or solvents immiscible with water;</p>
+                    </item>
+                    <item id="section-3.1.list1.e.list0.x">
+                      <num>(x)</num>
+                      <blockList id="section-3.1.list1.e.list0.x.list0">
+                        <listIntroduction>any substance which may, in the opinion of the <term refersTo="#term-engineer" id="trm63">engineer</term>, by itself or in combination with any other substances</listIntroduction>
+                        <item id="section-3.1.list1.e.list0.x.list0.aa">
+                          <num>(aa)</num>
+                          <p>cause a nuisance to any person;</p>
+                        </item>
+                        <item id="section-3.1.list1.e.list0.x.list0.bb">
+                          <num>(bb)</num>
+                          <p>endanger the health of or injure any person:</p>
+                        </item>
+                        <item id="section-3.1.list1.e.list0.x.list0.cc">
+                          <num>(cc)</num>
+                          <p>interfere with the free ﬂow of <term refersTo="#term-wastewater" id="trm64">wastewater</term>;</p>
+                        </item>
+                        <item id="section-3.1.list1.e.list0.x.list0.dd">
+                          <num>(dd)</num>
+                          <p>injuriously affect any sewer or <term refersTo="#term-wastewater" id="trm65">wastewater</term> works or land connected with any sewer or with the carriage, treatment, purification, disposal or re-use of <term refersTo="#term-wastewater" id="trm66">wastewater</term>, or</p>
+                        </item>
+                        <item id="section-3.1.list1.e.list0.x.list0.ee">
+                          <num>(ee)</num>
+                          <p>in any way prejudice the disposal or re-use of <term refersTo="#term-wastewater" id="trm67">wastewater</term> effluent after treatment or purification or lead to an effluent which does not meet the requirements imposed in terms of any applicable legislation;</p>
+                        </item>
+                      </blockList>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-3.1.list1.f">
+                  <num>(f)</num>
+                  <p>discharge any substance other than <term refersTo="#term-industrial_effluent" id="trm68">industrial effluent</term> into a separate private system of carriage, and</p>
+                </item>
+                <item id="section-3.1.list1.g">
+                  <num>(g)</num>
+                  <p>in cases where a separate private system of carriage for <term refersTo="#term-industrial_effluent" id="trm69">industrial effluent</term> is installed, discharge <term refersTo="#term-industrial_effluent" id="trm70">industrial effluent</term> into any other sewer.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-3.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-3.2.list1">
+                <listIntroduction>The <term refersTo="#term-engineer" id="trm71">engineer</term> may order that the person or persons responsible—</listIntroduction>
+                <item id="section-3.2.list1.a">
+                  <num>(a)</num>
+                  <p>demolish, alter or otherwise deal with any building, structure or other thing constructed, erected or laid in contravention of this section;</p>
+                </item>
+                <item id="section-3.2.list1.b">
+                  <num>(b)</num>
+                  <p>fill in and make good any ground excavated or removed in contravention of this section;</p>
+                </item>
+                <item id="section-3.2.list1.c">
+                  <num>(c)</num>
+                  <p>repair and make good any damage done in contravention of this section or resulting from a contravention of this section;</p>
+                </item>
+                <item id="section-3.2.list1.d">
+                  <num>(d)</num>
+                  <p>remove anything discharged, permitted to enter or put into a <term refersTo="#term-municipal_sewer" id="trm72">municipal sewer</term> in contravention of this section, and</p>
+                </item>
+                <item id="section-3.2.list1.e">
+                  <num>(e)</num>
+                  <p>remove anything damaging, obstructing or endangering or likely to damage, obstruct, endanger or destroy any <term refersTo="#term-municipal_sewer" id="trm73">municipal sewer</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-3.3">
+            <num>(3)</num>
+            <content>
+              <p>If a person fails to comply with an order issued in terms of subsection (2), the <term refersTo="#term-engineer" id="trm74">engineer</term> may take such steps as he or she may deem necessary to rectify the matter at the cost of the person responsible.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-3.4.list1">
+                <listIntroduction>The <term refersTo="#term-engineer" id="trm75">engineer</term> may, at the cost of the <term refersTo="#term-owner" id="trm76">owner</term>, disconnect from the <term refersTo="#term-municipal_sewer" id="trm77">municipal sewer</term> system any <term refersTo="#term-private_sewer_installation" id="trm78">private sewer installation</term> which, in the opinion of the <term refersTo="#term-engineer" id="trm79">engineer</term>, in any way endangers or injuriously affects or may endanger or injuriously affect the <term refersTo="#term-wastewater_system" id="trm80">wastewater system</term> or part thereof or land connected with any sewer or the carriage, treatment, purification, disposal or re-use of <term refersTo="#term-wastewater" id="trm81">wastewater</term>, and require from such <term refersTo="#term-owner" id="trm82">owner</term> to—</listIntroduction>
+                <item id="section-3.4.list1.a">
+                  <num>(a)</num>
+                  <p>make such arrangements as may be necessary for the safe disposal of <term refersTo="#term-wastewater" id="trm83">wastewater</term> on the premises of the <term refersTo="#term-owner" id="trm84">owner</term>, or the carriage thereof to a treatment installation or other suitable place approved by the <term refersTo="#term-engineer" id="trm85">engineer</term>, and</p>
+                </item>
+                <item id="section-3.4.list1.b">
+                  <num>(b)</num>
+                  <p>clean, repair, reconstruct, replace, reposition or otherwise comply with such requirements as the <term refersTo="#term-engineer" id="trm86">engineer</term> may determine.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Clearing of blocked private sewers</heading>
+          <subsection id="section-4.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm87">engineer</term> may, at the cost of the <term refersTo="#term-owner" id="trm88">owner</term>, arrange for the clearing of blockages in a <term refersTo="#term-private_sewer_installation" id="trm89">private sewer installation</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-4.2">
+            <num>(2)</num>
+            <content>
+              <p>Where two or more properties are connected to a single <term refersTo="#term-private_sewer_installation" id="trm90">private sewer installation</term>, the cost of clearing any blockage will be divided between the owners of the premises served by such <term refersTo="#term-private_sewer_installation" id="trm91">private sewer installation</term>, unless the blockage takes place in a part of the <term refersTo="#term-private_sewer_installation" id="trm92">private sewer installation</term> used by one <term refersTo="#term-owner" id="trm93">owner</term> only, in which case the cost of removing the blockage must be borne by that <term refersTo="#term-owner" id="trm94">owner</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-4.3">
+            <num>(3)</num>
+            <content>
+              <p>No costs which will be recovered from the <term refersTo="#term-owner" id="trm95">owner</term> if the <term refersTo="#term-engineer" id="trm96">engineer</term> is satisfied that a <term refersTo="#term-private_sewer_installation" id="trm97">private sewer installation</term> became blocked as a result of a defect or a blockage in the <term refersTo="#term-municipal_sewer" id="trm98">municipal sewer</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-2">
+        <num>2</num>
+        <heading>Connection to Wastewater System</heading>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Approval for connections</heading>
+          <subsection id="section-5.1">
+            <num>(1)</num>
+            <content>
+              <p>An <term refersTo="#term-owner" id="trm99">owner</term> of <term refersTo="#term-property" id="trm100">property</term> who wishes to connect the <term refersTo="#term-private_sewer_installation" id="trm101">private sewer installation</term> on his or her <term refersTo="#term-property" id="trm102">property</term> to the <term refersTo="#term-municipal_sewer" id="trm103">municipal sewer</term> must obtain the <term refersTo="#term-engineer" id="trm104">engineer</term>’s consent and no person may establish or attempt to establish any such connection without the <term refersTo="#term-engineer" id="trm105">engineer</term>’s consent.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.2">
+            <num>(2)</num>
+            <content>
+              <p>An application in terms of subsection (1) must be made on a form provided by the <term refersTo="#term-engineer" id="trm106">engineer</term> and must be accompanied by the fee for the connection, as determined in terms of the <term refersTo="#term-Tariff_Policy_By-law" id="trm107">Tariff Policy By-law</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Connections by <term refersTo="#term-municipality" id="trm108">municipality</term> only</heading>
+          <subsection id="section-6.1">
+            <num>(1)</num>
+            <content>
+              <p>No person other than the <term refersTo="#term-engineer" id="trm109">engineer</term> may connect any <term refersTo="#term-private_sewer_installation" id="trm110">private sewer installation</term> to a <term refersTo="#term-municipal_sewer" id="trm111">municipal sewer</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.2">
+            <num>(2)</num>
+            <content>
+              <p>Notwithstanding the provision of subsection (1), the <term refersTo="#term-engineer" id="trm112">engineer</term> may, subject to such conditions as the <term refersTo="#term-engineer" id="trm113">engineer</term> may deem fit, authorise a qualified plumber to connect a <term refersTo="#term-private_sewer_installation" id="trm114">private sewer installation</term> to a <term refersTo="#term-municipal_sewer" id="trm115">municipal sewer</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Point of connection</heading>
+          <paragraph id="section-7.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm116">engineer</term> may prescribe at what point of the <term refersTo="#term-municipal_sewer" id="trm117">municipal sewer</term> a <term refersTo="#term-private_sewer_installation" id="trm118">private sewer installation</term> is to be connected.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Single connection</heading>
+          <subsection id="section-8.1">
+            <num>(1)</num>
+            <content>
+              <p>Only one connection to the <term refersTo="#term-municipal_sewer" id="trm119">municipal sewer</term> may be provided to any premises, irrespective of the number of accommodation units, business units or consumers located on such premises.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.2">
+            <num>(2)</num>
+            <content>
+              <p>Despite subsection (1), the <term refersTo="#term-engineer" id="trm120">engineer</term> may permit more than one connection if, in the opinion of the <term refersTo="#term-engineer" id="trm121">engineer</term>, undue hardship or inconvenience would be caused to any <term refersTo="#term-owner" id="trm122">owner</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-8.3">
+            <num>(3)</num>
+            <content>
+              <p>Where more than one connection is authorised by the <term refersTo="#term-engineer" id="trm123">engineer</term> under subsection (2), the actual cost for the construction of such connection incurred on the date of connection is payable in respect of the connection so authorised.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>Industrial Effluent</heading>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Consent to discharge <term refersTo="#term-industrial_effluent" id="trm124">industrial effluent</term></heading>
+          <subsection id="section-9.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-9.1.list1">
+                <listIntroduction>No person may, except with the written consent of the <term refersTo="#term-engineer" id="trm125">engineer</term>, and subject to such conditions the <term refersTo="#term-engineer" id="trm126">engineer</term> may determine—</listIntroduction>
+                <item id="section-9.1.list1.a">
+                  <num>(a)</num>
+                  <p>discharge or permit the discharge of <term refersTo="#term-industrial_effluent" id="trm127">industrial effluent</term> directly or indirectly into any <term refersTo="#term-wastewater_system" id="trm128">wastewater system</term>;</p>
+                </item>
+                <item id="section-9.1.list1.b">
+                  <num>(b)</num>
+                  <p>increase, or permit to be increased, the quantity or vary, or permit to be varied, the nature, content or composition of any <term refersTo="#term-industrial_effluent" id="trm129">industrial effluent</term> in contravention of the approval granted by the <term refersTo="#term-engineer" id="trm130">engineer</term>, or</p>
+                </item>
+                <item id="section-9.1.list1.c">
+                  <num>(c)</num>
+                  <p>contravene, or permit to be contravened, any other condition imposed by the <term refersTo="#term-engineer" id="trm131">engineer</term> when consent was granted to discharge <term refersTo="#term-industrial_effluent" id="trm132">industrial effluent</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-9.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm133">engineer</term> may if valid reasons exist, revoke any approval granted or amend the condiitions under which <term refersTo="#term-wastewater" id="trm134">wastewater</term> may be discharged.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Alternative disposal of <term refersTo="#term-industrial_effluent" id="trm135">industrial effluent</term></heading>
+          <subsection id="section-10.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-10.1.list1">
+                <listIntroduction>Where no <term refersTo="#term-municipal_sewer" id="trm136">municipal sewer</term> is available for the discharge of <term refersTo="#term-wastewater" id="trm137">wastewater</term>, no person may dispose of <term refersTo="#term-industrial_effluent" id="trm138">industrial effluent</term>—</listIntroduction>
+                <item id="section-10.1.list1.a">
+                  <num>(a)</num>
+                  <p>unless the <term refersTo="#term-engineer" id="trm139">engineer</term> has approved the method of transportation and imposed such conditions as the <term refersTo="#term-engineer" id="trm140">engineer</term> may deem fit, and</p>
+                </item>
+                <item id="section-10.1.list1.b">
+                  <num>(b)</num>
+                  <p>by any method of transportation unless written proof of acceptance is provided in every instance by the person in charge of a facility approved by the <term refersTo="#term-engineer" id="trm141">engineer</term> where such <term refersTo="#term-wastewater" id="trm142">wastewater</term> is disposed of; such proof to be retained and made available for inspection by the person who generated the <term refersTo="#term-wastewater" id="trm143">wastewater</term> or its by-products for at least one year after the date of such disposal.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-10.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-10.2.list1">
+                <listIntroduction>No person who transports <term refersTo="#term-industrial_effluent" id="trm144">industrial effluent</term> by any means other than waterborne transportation may—</listIntroduction>
+                <item id="section-10.2.list1.a">
+                  <num>(a)</num>
+                  <p>dispose of such <term refersTo="#term-industrial_effluent" id="trm145">industrial effluent</term> at or in any place other than at a facility approved by the <term refersTo="#term-engineer" id="trm146">engineer</term>, or</p>
+                </item>
+                <item id="section-10.2.list1.b">
+                  <num>(b)</num>
+                  <p>allow such <term refersTo="#term-industrial_effluent" id="trm147">industrial effluent</term> to spill, leak or seep from any container.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Charges in respect of <term refersTo="#term-industrial_effluent" id="trm148">industrial effluent</term></heading>
+          <paragraph id="section-11.paragraph-0">
+            <content>
+              <p>An <term refersTo="#term-owner" id="trm149">owner</term> of <term refersTo="#term-property" id="trm150">property</term> who has been granted consent to discharge, or permit the discharge of <term refersTo="#term-industrial_effluent" id="trm151">industrial effluent</term> into a <term refersTo="#term-municipal_sewer" id="trm152">municipal sewer</term>, shall pay to the <term refersTo="#term-municipality" id="trm153">municipality</term> the fees determined in terms of the <term refersTo="#term-Tariff_Policy_By-law" id="trm154">Tariff Policy By-law</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>Legal Matters</heading>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Delegation</heading>
+          <paragraph id="section-12.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm155">engineer</term> may delegate any power or duty conferred on the <term refersTo="#term-engineer" id="trm156">engineer</term> in terms of this by-law to an employee of the <term refersTo="#term-municipality" id="trm157">municipality</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Offences and penalties</heading>
+          <paragraph id="section-13.paragraph-0">
+            <content>
+              <blockList id="section-13.paragraph-0.list1">
+                <listIntroduction>Any person who—</listIntroduction>
+                <item id="section-13.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>contravenes any provision in this by-law or fails to comply with any condition imposed in terms thereof;</p>
+                </item>
+                <item id="section-13.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>threatens, resists, interferes with or obstructs any councillor, officer or official of the <term refersTo="#term-council" id="trm158">council</term> in the exercise or performance of his or her duties or functions in terms of this by-law, or</p>
+                </item>
+                <item id="section-13.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>deliberately furnishes false or misleading information to a councillor, officer or official of the <term refersTo="#term-council" id="trm159">council</term>, will be guilty of an offence and liable on conviction to a fine.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

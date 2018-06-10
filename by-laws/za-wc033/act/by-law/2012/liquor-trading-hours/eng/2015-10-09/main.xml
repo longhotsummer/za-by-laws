@@ -1,0 +1,193 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="singleVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc033/act/by-law/2012/liquor-trading-hours/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2012/liquor-trading-hours"/>
+          <FRBRalias value="Cape Agulhas Liquor Trading Hours By-law"/>
+          <FRBRdate date="2012-12-14" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc033/act/by-law/2012/liquor-trading-hours/eng@2015-10-09/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2012/liquor-trading-hours/eng@2015-10-09"/>
+          <FRBRdate date="2015-10-09" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc033/act/by-law/2012/liquor-trading-hours/eng@2015-10-09/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2012/liquor-trading-hours/eng@2015-10-09"/>
+          <FRBRdate date="2018-04-19" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication number="2635" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" date="2012-12-14"/>
+      <lifecycle source="#OpenByLaws-org-za">
+        <eventRef id="amendment-2015-10-09" date="2015-10-09" type="amendment" source="#amendment-0-source"/>
+      </lifecycle>
+      <references source="#this">
+        <TLCOrganization id="OpenByLaws-org-za" href="https://indigo.openbylaws.org.za" showAs="OpenByLaws.org.za"/>
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-trading_hours" showAs="trading hours" href="/ontology/term/this.eng.trading_hours"/>
+        <TLCTerm id="term-licensed_premises" showAs="licensed premises" href="/ontology/term/this.eng.licensed_premises"/>
+        <TLCTerm id="term-licensee" showAs="licensee" href="/ontology/term/this.eng.licensee"/>
+        <TLCTerm id="term-trading_days" showAs="trading days" href="/ontology/term/this.eng.trading_days"/>
+        <TLCTerm id="term-licensed_business" showAs="licensed business" href="/ontology/term/this.eng.licensed_business"/>
+        <TLCTerm id="term-municipality" showAs="municipality" href="/ontology/term/this.eng.municipality"/>
+        <TLCTerm id="term-Liquor_Authority" showAs="Liquor Authority" href="/ontology/term/this.eng.Liquor_Authority"/>
+        <TLCTerm id="term-Act" showAs="Act" href="/ontology/term/this.eng.Act"/>
+        <passiveRef id="amendment-0-source" href="/za-wc033/act/by-law/2015/liquor-trading-hours-amendment" showAs="Cape Agulhas Municipality Liquor Trading Hours Amendment By-Law 2015"/>
+      </references>
+    </meta>
+    <preface>
+      <p>To provide for the days on which and the hours during which the holder of a liquor licence may sell liquor</p>
+    </preface>
+    <preamble>
+      <p>Whereas section 156(1) of the Constitution provides that municipalities have executive authority in respect of, and has the right to administer the local</p>
+      <p>Whereas section 156(1) of the Constitution confers on a municipality the power to make and administer by-laws for the effective administration of the matters which it has the right to administer;</p>
+      <p>Whereas the Provincial Government of the Western Cape has legislative competence in respect of liquor licenses;</p>
+      <p>And Whereas the Western Cape Liquor Act 2007 acknowledges that a municipality may impose trading hours in a by-law</p>
+      <p>BE IT ENACTED by the Cape Agulhas Municipality, as follows -</p>
+    </preamble>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <paragraph id="section-1.paragraph-0">
+          <content>
+            <p>In this by-law unless the context otherwise indicates:</p>
+            <p refersTo="#term-Act">"<def refersTo="#term-Act">Act</def>" means the Western Cape Liquor Act, 2008 (<ref href="/za/act/2008/4">Act No 4 of 2008</ref>);</p>
+            <p refersTo="#term-licensed_premises">"<def refersTo="#term-licensed_premises">licensed premises</def>" means the premises upon which liquor may be sold, consumed or stored in terms of a licence under the <term refersTo="#term-Act" id="trm0">Act</term>;</p>
+            <p refersTo="#term-licensed_business">"<def refersTo="#term-licensed_business">licensed business</def>" means the business that may be conducted upon <term refersTo="#term-licensed_premises" id="trm1">licensed premises</term> as authorised by the <term refersTo="#term-Liquor_Authority" id="trm2">Liquor Authority</term>;</p>
+            <p refersTo="#term-licensee">"<def refersTo="#term-licensee">licensee</def>" means the person to whom a liquor license has been issued in terms of the <term refersTo="#term-Act" id="trm3">Act</term>;</p>
+            <p refersTo="#term-Liquor_Authority">"<def refersTo="#term-Liquor_Authority">Liquor Authority</def>" means the Western Cape Liquor Authority established by section 2(1) of the <term refersTo="#term-Act" id="trm4">Act</term>;</p>
+            <p refersTo="#term-municipality">"<def refersTo="#term-municipality">municipality</def>" means the Cape Agulhas Municipality;</p>
+            <p refersTo="#term-trading_days">"<def refersTo="#term-trading_days">trading days</def>" means the days on which liquor may be sold during <term refersTo="#term-trading_hours" id="trm5">trading hours</term>;</p>
+            <p refersTo="#term-trading_hours">"<def refersTo="#term-trading_hours">trading hours</def>" means the hours during which liquor may be sold on <term refersTo="#term-trading_days" id="trm6">trading days</term>;</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Application of by-law</heading>
+        <paragraph id="section-2.paragraph-0">
+          <content>
+            <blockList id="section-2.paragraph-0.list1">
+              <listIntroduction>This By-law applies to licensed businesses selling liquor for consumption within the area of jurisdiction of the Municipality:</listIntroduction>
+              <item id="section-2.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>on the <term refersTo="#term-licensed_premises" id="trm7">licensed premises</term>;</p>
+              </item>
+              <item id="section-2.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>off the <term refersTo="#term-licensed_premises" id="trm8">licensed premises</term>; and</p>
+              </item>
+              <item id="section-2.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>on and off the <term refersTo="#term-licensed_premises" id="trm9">licensed premises</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Trading hours</heading>
+        <paragraph id="section-3.paragraph-0">
+          <content>
+            <p>Consumption on the <term refersTo="#term-licensed_premises" id="trm10">licensed premises</term></p>
+          </content>
+        </paragraph>
+        <subsection id="section-3.1">
+          <num>(1)</num>
+          <content>
+            <p>A <term refersTo="#term-licensee" id="trm11">licensee</term> of premises upon which liquor may be sold for consumption on the <term refersTo="#term-licensed_premises" id="trm12">licensed premises</term> may sell liquor between 10:00 on any day and 02:00 on the following day.</p>
+            <p>Consumption off the <term refersTo="#term-licensed_premises" id="trm13">licensed premises</term></p>
+          </content>
+        </subsection>
+        <subsection id="section-3.2">
+          <num>(2)</num>
+          <content>
+            <p>A <term refersTo="#term-licensee" id="trm14">licensee</term> of premises upon which liquor may be sold for consumption off the <term refersTo="#term-licensed_premises" id="trm15">licensed premises</term> may sell liquor on any day between 08:00 and 20:00.</p>
+            <p>Consumption on and off the <term refersTo="#term-licensed_premises" id="trm16">licensed premises</term></p>
+          </content>
+        </subsection>
+        <subsection id="section-3.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-3.3.list1">
+              <listIntroduction>A <term refersTo="#term-licensee" id="trm17">licensee</term> of premises upon which liquor may be sold for consumption on and off the <term refersTo="#term-licensed_premises" id="trm18">licensed premises</term> may sell liquor-</listIntroduction>
+              <item id="section-3.3.list1.a">
+                <num>(a)</num>
+                <p>for consumption on the <term refersTo="#term-licensed_premises" id="trm19">licensed premises</term> between 10:00 on any day and 02:00 on the following day; and</p>
+              </item>
+              <item id="section-3.3.list1.b">
+                <num>(b)</num>
+                <p>for consumption off the <term refersTo="#term-licensed_premises" id="trm20">licensed premises</term> on any day between 08:00 and 20:00.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Departure from <term refersTo="#term-trading_hours" id="trm21">trading hours</term></heading>
+        <paragraph id="section-4.paragraph-0">
+          <content>
+            <blockList id="section-4.paragraph-0.list1">
+              <listIntroduction>The Council may, in the interests of the community and on application by a <term refersTo="#term-licensee" id="trm22">licensee</term> of premises upon which liquor may be sold for consumption on the <term refersTo="#term-licensed_premises" id="trm23">licensed premises</term>, grant consent to that <term refersTo="#term-licensee" id="trm24">licensee</term> to sell liquor between other times than those determined by section 3, but which shall not lie outside</listIntroduction>
+              <item id="section-4.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>a time earlier than 9:00; and</p>
+              </item>
+              <item id="section-4.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>a time later than 02:00.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Offence</heading>
+        <paragraph id="section-5.paragraph-0">
+          <content>
+            <p>Subject to section 7, a <term refersTo="#term-licensee" id="trm25">licensee</term> who sells, supplies or allows the consumption of liquor on the <term refersTo="#term-licensed_premises" id="trm26">licensed premises</term> at a time when the sale of liquor is not permitted by the licence, is guilty of an offence.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Penalties</heading>
+        <paragraph id="section-6.paragraph-0">
+          <content>
+            <p>Any person who commits an offence referred to in section 5 is upon conviction liable to a fine or imprisonment, or to both a fine and imprisonment.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Transitional provisions</heading>
+        <paragraph id="section-7.paragraph-0">
+          <content>
+            <p>The <term refersTo="#term-trading_hours" id="trm27">trading hours</term> in respect of any licence for premises upon which liquor may be sold for consumption either on or off the <term refersTo="#term-licensed_premises" id="trm28">licensed premises</term>, issued prior to the commencement of this By-law will continue to apply until such license has lapsed as contemplated in section 62(2) of the <term refersTo="#term-Act" id="trm29">Act</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Short title</heading>
+        <paragraph id="section-8.paragraph-0">
+          <content>
+            <p>This by-law is called the Cape Agulhas Liquor Trading Hours By-law and comes into operation on the date of the publication in the Provincial Gazette.</p>
+          </content>
+        </paragraph>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

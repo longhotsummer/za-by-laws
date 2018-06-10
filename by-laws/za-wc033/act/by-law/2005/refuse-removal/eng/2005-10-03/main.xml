@@ -1,0 +1,542 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc033/act/by-law/2005/refuse-removal/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/refuse-removal"/>
+          <FRBRalias value="Refuse Removal By-law"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc033/act/by-law/2005/refuse-removal/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/refuse-removal/eng@2005-10-03"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc033/act/by-law/2005/refuse-removal/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/refuse-removal/eng@2005-10-03"/>
+          <FRBRdate date="2018-02-04" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication number="6303" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" date="2005-10-03"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-agricultural_premises" href="/ontology/term/this.eng.agricultural_premises" showAs="agricultural premises"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-engineer" href="/ontology/term/this.eng.engineer" showAs="engineer"/>
+        <TLCTerm id="term-hazardous_waste" href="/ontology/term/this.eng.hazardous_waste" showAs="hazardous waste"/>
+        <TLCTerm id="term-municipality" href="/ontology/term/this.eng.municipality" showAs="municipality"/>
+        <TLCTerm id="term-owner" href="/ontology/term/this.eng.owner" showAs="owner"/>
+        <TLCTerm id="term-refuse" href="/ontology/term/this.eng.refuse" showAs="refuse"/>
+        <TLCTerm id="term-refuse_removal_system" href="/ontology/term/this.eng.refuse_removal_system" showAs="refuse removal system"/>
+        <TLCTerm id="term-Systems_Act" href="/ontology/term/this.eng.Systems_Act" showAs="Systems Act"/>
+        <TLCTerm id="term-Tariff_Policy_By-law" href="/ontology/term/this.eng.Tariff_Policy_By-law" showAs="Tariff Policy By-law"/>
+        <TLCTerm id="term-trade_premises" href="/ontology/term/this.eng.trade_premises" showAs="trade premises"/>
+        <TLCTerm id="term-waste" href="/ontology/term/this.eng.waste" showAs="waste"/>
+      </references>
+    </meta>
+    <preface>
+      <p>To regulate the refuse removal system of the municipality.</p>
+    </preface>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <paragraph id="section-1.paragraph-0" refersTo="#term-waste">
+          <content>
+            <p>Unless inconsistent with the context:—</p>
+            <p>"<def refersTo="#term-agricultural_premises">agricultural premises</def>" means premises zoned as such in terms of a zoning scheme and includes premises to which an undetermined zoning has been attached;</p>
+            <p>"<def refersTo="#term-Council">Council</def>" means the municipal council of the <term refersTo="#term-municipality" id="trm0">municipality</term>;</p>
+            <p>"<def refersTo="#term-engineer">engineer</def>" means the employee of the <term refersTo="#term-municipality" id="trm1">municipality</term> in charge of solid <term refersTo="#term-waste" id="trm2">waste</term> management;</p>
+            <p>"<def refersTo="#term-hazardous_waste">hazardous waste</def>" means medical <term refersTo="#term-waste" id="trm3">waste</term> and any <term refersTo="#term-refuse" id="trm4">refuse</term>, <term refersTo="#term-waste" id="trm5">waste</term>, matter or substance which may be hazardous or harmful to the environment, to persons or to other living organisms or which may cause pollution or which, in the opinion of the <term refersTo="#term-engineer" id="trm6">engineer</term>, constitute <term refersTo="#term-hazardous_waste" id="trm7">hazardous waste</term>;</p>
+            <p>"<def refersTo="#term-municipality">municipality</def>" means the Municipality of Cape Agulhas;</p>
+            <p>"<def refersTo="#term-owner">owner</def>" also means lessee, occupier, householder, the person in control of any premises, or any person who obtains a benefit from the premises or is entitled thereto;</p>
+            <p>"<def refersTo="#term-refuse">refuse</def>" means any fruit or vegetable peels, fruit or vegetable <term refersTo="#term-waste" id="trm8">waste</term>, general domestic <term refersTo="#term-waste" id="trm9">waste</term> as well as vegetable garden <term refersTo="#term-refuse" id="trm10">refuse</term> which is of such size that it may be deposited in a <term refersTo="#term-refuse" id="trm11">refuse</term> bag or <term refersTo="#term-refuse" id="trm12">refuse</term> bin, or any other matter which in the opinion of the <term refersTo="#term-engineer" id="trm13">engineer</term> constitutes <term refersTo="#term-refuse" id="trm14">refuse</term>;</p>
+            <p>"<def refersTo="#term-refuse_removal_system">refuse removal system</def>" means a system by means of which <term refersTo="#term-refuse" id="trm15">refuse</term>, <term refersTo="#term-waste" id="trm16">waste</term> or <term refersTo="#term-hazardous_waste" id="trm17">hazardous waste</term> is removed by the <term refersTo="#term-municipality" id="trm18">municipality</term>, a municipal entity, a private contractor with the <term refersTo="#term-Council" id="trm19">Council</term> or a community based service provider;</p>
+            <p>"<def refersTo="#term-Systems_Act">Systems Act</def>" means the Local Government: Municipal <term refersTo="#term-Systems_Act" id="trm20">Systems Act</term>, 2000 (<ref href="/za/act/2000/32">Act 32 of 2000</ref>);</p>
+            <p>"<def refersTo="#term-Tariff_Policy_By-law">Tariff Policy By-law</def>" means the <term refersTo="#term-Tariff_Policy_By-law" id="trm21">Tariff Policy By-law</term> adopted by the <term refersTo="#term-Council" id="trm22">Council</term> and published in Provincial Gazette;</p>
+            <p>"<def refersTo="#term-trade_premises">trade premises</def>" means any premises zoned for other purposes than single residential purposes, agricultural purposes or undetermined in terms of a zoning scheme, but includes single residential premises where commercial activities are allowed in terms of an approval granted by the <term refersTo="#term-Council" id="trm23">Council</term>, and</p>
+            <p>"<def refersTo="#term-waste">waste</def>" means any matter or substance which cannot be classified as <term refersTo="#term-refuse" id="trm24">refuse</term> or <term refersTo="#term-hazardous_waste" id="trm25">hazardous waste</term>, and includes such materials as car parts, spare parts, stones, rocks, sand, building materials, building rubble or other materials utilised in the erection of buildings, oils, lubricants, liquids or similar substances.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Application</heading>
+        <subsection id="section-2.1">
+          <num>(1)</num>
+          <content>
+            <p>The provisions of this by-law do not derogate from the provisions of any other legislation which provides for the removal or disposal of specific types of <term refersTo="#term-refuse" id="trm26">refuse</term> or <term refersTo="#term-waste" id="trm27">waste</term> as defined in that legislation.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.2">
+          <num>(2)</num>
+          <content>
+            <p>This by-law binds any organ of state.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Refuse and <term refersTo="#term-waste" id="trm28">waste</term> removal services provided by the <term refersTo="#term-Council" id="trm29">Council</term></heading>
+        <subsection id="section-3.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Council" id="trm30">Council</term> provides <term refersTo="#term-refuse" id="trm31">refuse</term> and <term refersTo="#term-waste" id="trm32">waste</term> removal services, either by itself, or by means of private contractors, municipal entities, or community based service providers.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.2">
+          <num>(2)</num>
+          <content>
+            <p>Owners of premises where a body corporate is in existence, <term refersTo="#term-trade_premises" id="trm33">trade premises</term> and <term refersTo="#term-agricultural_premises" id="trm34">agricultural premises</term> are responsible for making independent arrangements for the removal of <term refersTo="#term-refuse" id="trm35">refuse</term> and <term refersTo="#term-waste" id="trm36">waste</term>, but may, in areas where the <term refersTo="#term-Council" id="trm37">Council</term> provides a <term refersTo="#term-refuse" id="trm38">refuse</term> and <term refersTo="#term-waste" id="trm39">waste</term> removal service, apply to the <term refersTo="#term-Council" id="trm40">Council</term> to enter into an agreement for the removal of <term refersTo="#term-refuse" id="trm41">refuse</term> or <term refersTo="#term-waste" id="trm42">waste</term> by the <term refersTo="#term-Council" id="trm43">Council</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.3">
+          <num>(3)</num>
+          <content>
+            <p>Owners of premises may apply for additional receptacles of the type utilised in that particular area and, if approved, removal of <term refersTo="#term-refuse" id="trm44">refuse</term> by means of such a receptacle will be subject to the terms and conditions imposed by the <term refersTo="#term-Council" id="trm45">Council</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Retention of existing <term refersTo="#term-refuse" id="trm46">refuse</term> removal systems</heading>
+        <paragraph id="section-4.paragraph-0">
+          <content>
+            <blockList id="section-4.paragraph-0.list1">
+              <listIntroduction>On the date of the coming into effect of this by-law:—</listIntroduction>
+              <item id="section-4.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>all existing <term refersTo="#term-refuse" id="trm47">refuse</term> removal systems in operation in the area of the <term refersTo="#term-municipality" id="trm48">municipality</term>, with the exception of <term refersTo="#term-refuse" id="trm49">refuse</term> removal systems which are in the process of being amended, will be retained, and</p>
+              </item>
+              <item id="section-4.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>all agreements entered into with the <term refersTo="#term-Council" id="trm50">Council</term> in respect of a <term refersTo="#term-refuse" id="trm51">refuse</term> removal service rendered by the <term refersTo="#term-Council" id="trm52">Council</term>, will continue in terms of the provisions thereof.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Amendment of existing <term refersTo="#term-refuse" id="trm53">refuse</term> removal systems</heading>
+        <subsection id="section-5.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Council" id="trm54">Council</term> may, either on its own initiative or at the request of residents, in respect of a specifically defined area, amend any existing <term refersTo="#term-refuse_removal_system" id="trm55">refuse removal system</term>, provided that the extent of the amendment does not fall within the scope of the provisions of section 77 of the <term refersTo="#term-Systems_Act" id="trm56">Systems Act</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-5.2.list1">
+              <listIntroduction>No <term refersTo="#term-refuse_removal_system" id="trm57">refuse removal system</term> will be considered for amendment unless:—</listIntroduction>
+              <item id="section-5.2.list1.a">
+                <num>(a)</num>
+                <p>a process of public notification and comment had been completed in respect of the area concerned;</p>
+              </item>
+              <item id="section-5.2.list1.b">
+                <num>(b)</num>
+                <p>the amended <term refersTo="#term-refuse_removal_system" id="trm58">refuse removal system</term> is practicable and cost-effective;</p>
+              </item>
+              <item id="section-5.2.list1.c">
+                <num>(c)</num>
+                <p>the amended <term refersTo="#term-refuse_removal_system" id="trm59">refuse removal system</term> has as its objective to at least, prevent the proliferation of <term refersTo="#term-waste" id="trm60">waste</term>, minimise <term refersTo="#term-waste" id="trm61">waste</term> and reduce <term refersTo="#term-waste" id="trm62">waste</term> to be removed.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-5.3">
+          <num>(3)</num>
+          <content>
+            <p>A proposal by residents for the amendment of an existing <term refersTo="#term-refuse_removal_system" id="trm63">refuse removal system</term> in an area, must take into consideration the provisions of subsection (2)(b) and (c) and, in addition, must contain proposals in regard to future re-use, recovery and recycling of <term refersTo="#term-waste" id="trm64">waste</term> generated in the area.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.4">
+          <num>(4)</num>
+          <content>
+            <p>Any proposal as contemplated in subsection (3), must be in respect of an area with clearly defined natural boundaries.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.5">
+          <num>(5)</num>
+          <content>
+            <p>When an amended system of <term refersTo="#term-refuse" id="trm65">refuse</term> removal for an area is finally approved by the <term refersTo="#term-Council" id="trm66">Council</term>, the <term refersTo="#term-Council" id="trm67">Council</term> will adopt a set of provisions in respect of the additional terms of that particular <term refersTo="#term-refuse_removal_system" id="trm68">refuse removal system</term> and area not contained in this by-law, and publish it as a schedule to this by-law.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.6">
+          <num>(6)</num>
+          <content>
+            <p>When published, a set of provisions as contemplated in subsection (5), will become part of this by-law and will be effective in respect of the area for which it was published.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Powers of the <term refersTo="#term-Council" id="trm69">Council</term> in relation to <term refersTo="#term-refuse" id="trm70">refuse</term> and <term refersTo="#term-waste" id="trm71">waste</term> removal</heading>
+        <paragraph id="section-6.paragraph-0">
+          <content>
+            <blockList id="section-6.paragraph-0.list1">
+              <listIntroduction>The <term refersTo="#term-Council" id="trm72">Council</term> may:—</listIntroduction>
+              <item id="section-6.paragraph-0.list1.a">
+                <num>(a)</num>
+                <blockList id="section-6.paragraph-0.list1.a.list0">
+                  <listIntroduction>in respect of the approval in terms of town planning legislation of new developments, redevelopments and subdivisions require:—</listIntroduction>
+                  <item id="section-6.paragraph-0.list1.a.list0.i">
+                    <num>(i)</num>
+                    <p>that provision be made for the storage, handling and safeguarding of <term refersTo="#term-refuse" id="trm73">refuse</term> and <term refersTo="#term-waste" id="trm74">waste</term>;</p>
+                  </item>
+                  <item id="section-6.paragraph-0.list1.a.list0.ii">
+                    <num>(ii)</num>
+                    <p>that new businesses and industries submit operational plans for <term refersTo="#term-refuse" id="trm75">refuse</term> and <term refersTo="#term-waste" id="trm76">waste</term> minimisation, and</p>
+                  </item>
+                  <item id="section-6.paragraph-0.list1.a.list0.iii">
+                    <num>(iii)</num>
+                    <p>that the operational plans contemplated in subparagraph (ii), be implemented when required by the <term refersTo="#term-Council" id="trm77">Council</term>.</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-6.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>require that private <term refersTo="#term-refuse" id="trm78">refuse</term> and <term refersTo="#term-waste" id="trm79">waste</term> removals be scheduled on days and times approved by the <term refersTo="#term-Council" id="trm80">Council</term>.</p>
+              </item>
+              <item id="section-6.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>where in its opinion the number or size of <term refersTo="#term-refuse" id="trm81">refuse</term> bins, bags or other receptacles used by an <term refersTo="#term-owner" id="trm82">owner</term> is inadequate to cope with the amount of <term refersTo="#term-refuse" id="trm83">refuse</term> or <term refersTo="#term-waste" id="trm84">waste</term> generated on the premises, provide or require from the <term refersTo="#term-owner" id="trm85">owner</term> to provide, additional bins, bags or receptacles in accordance with such terms and conditions as the <term refersTo="#term-engineer" id="trm86">engineer</term> may impose.</p>
+              </item>
+              <item id="section-6.paragraph-0.list1.d">
+                <num>(d)</num>
+                <p>where in its opinion the frequency of <term refersTo="#term-refuse" id="trm87">refuse</term> removals from a premises is inadequate and may lead to the creation of a nuisance or a danger to health, provide, or require from the <term refersTo="#term-owner" id="trm88">owner</term> to provide, <term refersTo="#term-refuse" id="trm89">refuse</term> removals at a frequency as may be determined by the <term refersTo="#term-engineer" id="trm90">engineer</term> and in accordance with such terms and conditions as the <term refersTo="#term-engineer" id="trm91">engineer</term> may impose.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Disposal of <term refersTo="#term-refuse" id="trm92">refuse</term> and <term refersTo="#term-waste" id="trm93">waste</term></heading>
+        <paragraph id="section-7.paragraph-0">
+          <content>
+            <blockList id="section-7.paragraph-0.list1">
+              <listIntroduction>No person may dispose of <term refersTo="#term-refuse" id="trm94">refuse</term> or <term refersTo="#term-waste" id="trm95">waste</term> in any manner unless it is:—</listIntroduction>
+              <item id="section-7.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>in accordance with the terms and conditions of a <term refersTo="#term-refuse_removal_system" id="trm96">refuse removal system</term> approved or provided by the <term refersTo="#term-Council" id="trm97">Council</term>;</p>
+              </item>
+              <item id="section-7.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>in accordance with an agreement entered into between the <term refersTo="#term-owner" id="trm98">owner</term> of premises and the <term refersTo="#term-Council" id="trm99">Council</term>, or</p>
+              </item>
+              <item id="section-7.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>at or in a place or a container that the <term refersTo="#term-Council" id="trm100">Council</term> has set aside for such purpose, and then only in accordance with a notice which indicates the conditions subject to which <term refersTo="#term-refuse" id="trm101">refuse</term> or <term refersTo="#term-waste" id="trm102">waste</term> may be so deposited.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Disposal of <term refersTo="#term-refuse" id="trm103">refuse</term>, <term refersTo="#term-waste" id="trm104">waste</term> and <term refersTo="#term-hazardous_waste" id="trm105">hazardous waste</term></heading>
+        <paragraph id="section-8.paragraph-0">
+          <content>
+            <blockList id="section-8.paragraph-0.list1">
+              <listIntroduction>No person may:—</listIntroduction>
+              <item id="section-8.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>deposit any <term refersTo="#term-waste" id="trm106">waste</term> or <term refersTo="#term-hazardous_waste" id="trm107">hazardous waste</term> in a <term refersTo="#term-refuse" id="trm108">refuse</term> bin, street <term refersTo="#term-refuse" id="trm109">refuse</term> bin or any bag to be removed by the <term refersTo="#term-Council" id="trm110">Council</term>;</p>
+              </item>
+              <item id="section-8.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>burn <term refersTo="#term-refuse" id="trm111">refuse</term>, <term refersTo="#term-waste" id="trm112">waste</term> or <term refersTo="#term-hazardous_waste" id="trm113">hazardous waste</term>, except in an approved incinerator, or</p>
+              </item>
+              <item id="section-8.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>dispose of <term refersTo="#term-hazardous_waste" id="trm114">hazardous waste</term> without the prior permission of the <term refersTo="#term-Council" id="trm115">Council</term>, and then only in accordance with the conditions and requirements specified in such approval.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Storage of <term refersTo="#term-waste" id="trm116">waste</term> and <term refersTo="#term-hazardous_waste" id="trm117">hazardous waste</term></heading>
+        <subsection id="section-9.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-9.1.list1">
+              <listIntroduction>No person may store <term refersTo="#term-waste" id="trm118">waste</term> awaiting disposal:—</listIntroduction>
+              <item id="section-9.1.list1.a">
+                <num>(a)</num>
+                <blockList id="section-9.1.list1.a.list0">
+                  <listIntroduction/>
+                  <item id="section-9.1.list1.a.list0.i">
+                    <num>(i)</num>
+                    <p>on any premises unless the premises is zoned or approved in terms of a town planning scheme for a use where the materials comprising such <term refersTo="#term-waste" id="trm119">waste</term>, are allowed, or</p>
+                  </item>
+                  <item id="section-9.1.list1.a.list0.ii">
+                    <num>(ii)</num>
+                    <p>unless the <term refersTo="#term-engineer" id="trm120">engineer</term> has granted permission for the temporary storage of the <term refersTo="#term-waste" id="trm121">waste</term>, and then only in accordance with the conditions imposed by the <term refersTo="#term-engineer" id="trm122">engineer</term> for the storage of such <term refersTo="#term-waste" id="trm123">waste</term>;</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-9.1.list1.b">
+                <num>(b)</num>
+                <p>unless the <term refersTo="#term-waste" id="trm124">waste</term> is stored in such a manner that adequate measures are in place to prevent leakage, seepage, pollution of the air or ground.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-9.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-9.2.list1">
+              <listIntroduction>No <term refersTo="#term-owner" id="trm125">owner</term> of premises may store, or allow to be stored, on such premises, <term refersTo="#term-hazardous_waste" id="trm126">hazardous waste</term> awaiting disposal:—</listIntroduction>
+              <item id="section-9.2.list1.a">
+                <num>(a)</num>
+                <blockList id="section-9.2.list1.a.list0">
+                  <listIntroduction/>
+                  <item id="section-9.2.list1.a.list0.i">
+                    <num>(i)</num>
+                    <p>unless the premises is zoned or approved in terms of a town planning scheme for a use where the materials or ingredients comprising such <term refersTo="#term-hazardous_waste" id="trm127">hazardous waste</term>, are allowed, or</p>
+                  </item>
+                  <item id="section-9.2.list1.a.list0.ii">
+                    <num>(ii)</num>
+                    <p>unless the <term refersTo="#term-Council" id="trm128">Council</term> has granted permission for the temporary storage of the <term refersTo="#term-hazardous_waste" id="trm129">hazardous waste</term>, and the only in accordance with the conditions imposed by the <term refersTo="#term-Council" id="trm130">Council</term>;</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-9.2.list1.b">
+                <num>(b)</num>
+                <p>unless the <term refersTo="#term-hazardous_waste" id="trm131">hazardous waste</term> is stored in a sealed, impervious container, and adequate measures are in place to prevent tampering by unauthorised persons.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Transport of <term refersTo="#term-refuse" id="trm132">refuse</term>, <term refersTo="#term-waste" id="trm133">waste</term> and <term refersTo="#term-hazardous_waste" id="trm134">hazardous waste</term></heading>
+        <subsection id="section-10.1">
+          <num>(1)</num>
+          <content>
+            <p>No person may transport <term refersTo="#term-refuse" id="trm135">refuse</term> or <term refersTo="#term-waste" id="trm136">waste</term> by any means, unless the <term refersTo="#term-refuse" id="trm137">refuse</term> or <term refersTo="#term-waste" id="trm138">waste</term> is covered or contained in a receptacle so as to prevent spillage, seepage, leakage or being blown away by the wind.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.2">
+          <num>(2)</num>
+          <content>
+            <p>No <term refersTo="#term-owner" id="trm139">owner</term> of premises may transport, arrange for, or allow the transportation of, <term refersTo="#term-hazardous_waste" id="trm140">hazardous waste</term> from such premises unless written proof is provided in every instance from the person in charge of a facility approved by the <term refersTo="#term-Council" id="trm141">Council</term> where such <term refersTo="#term-hazardous_waste" id="trm142">hazardous waste</term> is disposed of; such proof to be retained by the <term refersTo="#term-owner" id="trm143">owner</term> and made available for inspection for at least one year after the date of such disposal.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-10.3.list1">
+              <listIntroduction>No person who transports <term refersTo="#term-hazardous_waste" id="trm144">hazardous waste</term> by any means, may:—</listIntroduction>
+              <item id="section-10.3.list1.a">
+                <num>(a)</num>
+                <p>dispose of such <term refersTo="#term-hazardous_waste" id="trm145">hazardous waste</term> at or in any place other than at a facility approved by the <term refersTo="#term-Council" id="trm146">Council</term>;</p>
+              </item>
+              <item id="section-10.3.list1.b">
+                <num>(b)</num>
+                <p>transport such <term refersTo="#term-waste" id="trm147">waste</term> unless it is in a sealed container, or</p>
+              </item>
+              <item id="section-10.3.list1.c">
+                <num>(c)</num>
+                <p>allow such <term refersTo="#term-hazardous_waste" id="trm148">hazardous waste</term> to spill, leak or seep from any container.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-11">
+        <num>11.</num>
+        <heading>Entry upon landfill sites, drop off sites and other facilities</heading>
+        <subsection id="section-11.1">
+          <num>(1)</num>
+          <content>
+            <p>Every person who enters upon a landfill site, drop off site or other facility provided by the <term refersTo="#term-Council" id="trm149">Council</term> in respect of <term refersTo="#term-waste" id="trm150">waste</term> management, must comply to the instructions for use and conditions of entry to the site displayed by means of a notice at the entrance.</p>
+          </content>
+        </subsection>
+        <subsection id="section-11.2">
+          <num>(2)</num>
+          <content>
+            <p>A person who does not comply to the contents of a notice to the entrance of a landfill site, drop off site or other facility in respect of <term refersTo="#term-waste" id="trm151">waste</term> management, is guilty of an offence.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-12">
+        <num>12.</num>
+        <heading>Removal of <term refersTo="#term-refuse" id="trm152">refuse</term></heading>
+        <subsection id="section-12.1">
+          <num>(1)</num>
+          <content>
+            <p>Only <term refersTo="#term-refuse" id="trm153">refuse</term> may be deposited in <term refersTo="#term-refuse" id="trm154">refuse</term> bins and <term refersTo="#term-refuse" id="trm155">refuse</term> bags which are removed by the <term refersTo="#term-Council" id="trm156">Council</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-12.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-12.2.list1">
+              <listIntroduction>In those residential areas where only <term refersTo="#term-refuse" id="trm157">refuse</term> bins are utilised:—</listIntroduction>
+              <item id="section-12.2.list1.a">
+                <num>(a)</num>
+                <p>bins may only be put out on the sidewalk on those days that <term refersTo="#term-refuse" id="trm158">refuse</term> is removed;</p>
+              </item>
+              <item id="section-12.2.list1.b">
+                <num>(b)</num>
+                <p>the <term refersTo="#term-refuse" id="trm159">refuse</term> which is put out but not deposited in a bin, will not be removed;</p>
+              </item>
+              <item id="section-12.2.list1.c">
+                <num>(c)</num>
+                <p>bins may not be filled to such an extent that the lid cannot be closed properly;</p>
+              </item>
+              <item id="section-12.2.list1.d">
+                <num>(d)</num>
+                <p>only bins prescribed by the <term refersTo="#term-Council" id="trm160">Council</term> may be used and removed, and</p>
+              </item>
+              <item id="section-12.2.list1.e">
+                <num>(e)</num>
+                <p>owners are responsible for the regular, thorough and effective cleansing of <term refersTo="#term-refuse" id="trm161">refuse</term> bins, so as to prevent conditions favourable for ﬂy breeding, odours, etc.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-12.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-12.3.list1">
+              <listIntroduction>In areas where the <term refersTo="#term-Council" id="trm162">Council</term> provides <term refersTo="#term-refuse" id="trm163">refuse</term> bins, the following is applicable in addition to subsection (2):—</listIntroduction>
+              <item id="section-12.3.list1.a">
+                <num>(a)</num>
+                <p>bins will remain the property of the <term refersTo="#term-Council" id="trm164">Council</term>;</p>
+              </item>
+              <item id="section-12.3.list1.b">
+                <num>(b)</num>
+                <p>bins may not be utilised for any other purpose than for the depositing of <term refersTo="#term-refuse" id="trm165">refuse</term>;</p>
+              </item>
+              <item id="section-12.3.list1.c">
+                <num>(c)</num>
+                <p>nothing which may cause damage to a bin may be deposited therein;</p>
+              </item>
+              <item id="section-12.3.list1.d">
+                <num>(d)</num>
+                <p>bins may not be removed from the premises to which it had been allocated, and</p>
+              </item>
+              <item id="section-12.3.list1.e">
+                <num>(e)</num>
+                <p>the <term refersTo="#term-Council" id="trm166">Council</term> may hold the <term refersTo="#term-owner" id="trm167">owner</term> responsible for the cost of replacing a bin if such bin had been lost or damaged through negligence of the <term refersTo="#term-owner" id="trm168">owner</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-12.4">
+          <num>(4)</num>
+          <content>
+            <blockList id="section-12.4.list1">
+              <listIntroduction>In areas where <term refersTo="#term-refuse" id="trm169">refuse</term> is removed by means of bags:—</listIntroduction>
+              <item id="section-12.4.list1.a">
+                <num>(a)</num>
+                <p><term refersTo="#term-refuse" id="trm170">refuse</term> which is not in bags as prescribed by the <term refersTo="#term-Council" id="trm171">Council</term>, will not be removed;</p>
+              </item>
+              <item id="section-12.4.list1.b">
+                <num>(b)</num>
+                <p><term refersTo="#term-refuse" id="trm172">refuse</term> may only be put out on the sidewalk on those days that <term refersTo="#term-refuse" id="trm173">refuse</term> is removed;</p>
+              </item>
+              <item id="section-12.4.list1.c">
+                <num>(c)</num>
+                <p>the <term refersTo="#term-owner" id="trm174">owner</term> must ensure that the bags are placed in such a position that the contents are secured, as the contents of damaged bags will not be removed;</p>
+              </item>
+              <item id="section-12.4.list1.d">
+                <num>(d)</num>
+                <p>the <term refersTo="#term-Council" id="trm175">Council</term> determines the maximum number of bags which may be put out on any day that <term refersTo="#term-refuse" id="trm176">refuse</term> is removed, and</p>
+              </item>
+              <item id="section-12.4.list1.e">
+                <num>(e)</num>
+                <p>the <term refersTo="#term-owner" id="trm177">owner</term> must ensure that sharp objects which may cause harm to passers-by and municipal employees, do not protrude from the bags.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-12.5">
+          <num>(5)</num>
+          <content>
+            <p>In areas where <term refersTo="#term-refuse" id="trm178">refuse</term> is removed by means of bags supplied by the <term refersTo="#term-owner" id="trm179">owner</term>, only the type of bags prescribed by the <term refersTo="#term-Council" id="trm180">Council</term>, may be utilised.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-13">
+        <num>13.</num>
+        <heading>Dumping and littering prohibited</heading>
+        <subsection id="section-13.1">
+          <num>(1)</num>
+          <content>
+            <p>No person may dump or accumulate any <term refersTo="#term-refuse" id="trm181">refuse</term> or <term refersTo="#term-waste" id="trm182">waste</term> in any street, public open space, vacant land, body of water, river or stream.</p>
+          </content>
+        </subsection>
+        <subsection id="section-13.2">
+          <num>(2)</num>
+          <content>
+            <p>No person may throw away or leave any object in a street, public place or vacant property.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-14">
+        <num>14.</num>
+        <heading>Tariffs</heading>
+        <subsection id="section-14.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Council" id="trm183">Council</term> determines and levies the tariffs in respect of services rendered by the <term refersTo="#term-municipality" id="trm184">municipality</term> in terms of the <term refersTo="#term-Tariff_Policy_By-law" id="trm185">Tariff Policy By-law</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-14.2">
+          <num>(2)</num>
+          <content>
+            <p>No person shall be entitled exemption from or a reduction in tariffs determined by the <term refersTo="#term-Council" id="trm186">Council</term>, merely on the grounds that such person makes limited use of the service rendered by the <term refersTo="#term-municipality" id="trm187">municipality</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-15">
+        <num>15.</num>
+        <heading>Transitional arrangements</heading>
+        <paragraph id="section-15.paragraph-0">
+          <content>
+            <blockList id="section-15.paragraph-0.list1">
+              <listIntroduction>A person who can prove that an approval was granted in terms of any by-law contained in Schedule 2, may continue to act in terms of that approval, provided that:—</listIntroduction>
+              <item id="section-15.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>the conditions imposed in terms of the original approval will remain in force;</p>
+              </item>
+              <item id="section-15.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>the original approval will be valid only in respect of the premises for which it was granted, and</p>
+              </item>
+              <item id="section-15.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>no approval may be transferred from the original applicant to another person.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-16">
+        <num>16.</num>
+        <heading>Offences and penalties</heading>
+        <paragraph id="section-16.paragraph-0">
+          <content>
+            <p>A person who contravenes a provision of this by-law, or fails to comply with a condition or notice legally issued in terms of this by-law, is guilty of an offence and on conviction liable to the payment of a fine.</p>
+          </content>
+        </paragraph>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

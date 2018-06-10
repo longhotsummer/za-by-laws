@@ -1,0 +1,1037 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc033/act/by-law/2005/tariff-policy/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/tariff-policy"/>
+          <FRBRalias value="Tariff Policy By-Law"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc033/act/by-law/2005/tariff-policy/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/tariff-policy/eng@2005-10-03"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc033/act/by-law/2005/tariff-policy/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/tariff-policy/eng@2005-10-03"/>
+          <FRBRdate date="2018-02-04" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-10-03" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" number="6303"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-council" href="/ontology/term/this.eng.council" showAs="council"/>
+        <TLCTerm id="term-credit_control_by-law" href="/ontology/term/this.eng.credit_control_by-law" showAs="credit control by-law"/>
+        <TLCTerm id="term-Finance_Management_Act" href="/ontology/term/this.eng.Finance_Management_Act" showAs="Finance Management Act"/>
+        <TLCTerm id="term-financial_recovery_plan" href="/ontology/term/this.eng.financial_recovery_plan" showAs="financial recovery plan"/>
+        <TLCTerm id="term-poor_household" href="/ontology/term/this.eng.poor_household" showAs="poor household"/>
+        <TLCTerm id="term-municipality" href="/ontology/term/this.eng.municipality" showAs="municipality"/>
+        <TLCTerm id="term-policy" href="/ontology/term/this.eng.policy" showAs="policy"/>
+        <TLCTerm id="term-service" href="/ontology/term/this.eng.service" showAs="service"/>
+        <TLCTerm id="term-Systems_Act" href="/ontology/term/this.eng.Systems_Act" showAs="Systems Act"/>
+        <TLCTerm id="term-Structures_Act" href="/ontology/term/this.eng.Structures_Act" showAs="Structures Act"/>
+        <TLCTerm id="term-tariff" href="/ontology/term/this.eng.tariff" showAs="tariff"/>
+        <TLCTerm id="term-this_by-law" href="/ontology/term/this.eng.this_by-law" showAs="this by-law"/>
+        <TLCTerm id="term-user" href="/ontology/term/this.eng.user" showAs="user"/>
+      </references>
+    </meta>
+    <preface>
+      <p>To give effect to the implementation and application of the tariff policy of the municipality, as required in terms of section 75 of the Local Government: Municipal Systems <ref href="/za/act/2000/32">Act, No 32 of 2000</ref> and to comply with certain requirements of Local Government: Municipal Finance Management <ref href="/za/act/2003/56">Act, No 56 of 2003</ref>;</p>
+    </preface>
+    <preamble>
+      <p>Whereas section 4 of the Systems Act confirms the right of the Municipality inter alia to charge fees for services and impose surcharges on fees, rates on property and, to the extent authorised by national legislation, other taxes, levies and duties;</p>
+      <p>Whereas section 4(2)(d) of the Systems Act imposes the duty on the Municipality to strive towards ensuring that municipal services are provided to the local community in a financially and environmentally sustainable manner;</p>
+      <p>Whereas section 4(2)(e) of the Systems Act imposes the duty on the Municipality to consult the local community about the level, quality, range and impact of municipal services provided by the Municipality either directly or through another service provider;</p>
+      <p>Whereas section 75A of the Systems Act confers on the municipality the power to levy and recover fees, charges or tariffs in respect of any function or service of the municipality;</p>
+      <p>Whereas section 74 of the Systems Act requires the Council to adopt a tariff policy on the levying of fees for municipal services;</p>
+      <p>Whereas the tariff policy must reﬂect at least the principles set out in section 74(2) and may differentiate between different categories of users, debtors, service providers, services, services standards, geographical areas and other matters as long as the differentiation does not amount to unfair discrimination;</p>
+      <p>And whereas section 75 of the Systems Act requires the Council to adopt a By-law to give effect to the implementation and application of the tariff policy.</p>
+    </preamble>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <paragraph id="section-1.paragraph-0" refersTo="#term-user">
+          <content>
+            <p>In <term refersTo="#term-this_by-law" id="trm0">this by-law</term>, unless inconsistent with the context:—</p>
+            <p>"<def refersTo="#term-council">council</def>" means the municipal <term refersTo="#term-council" id="trm1">council</term> of the <term refersTo="#term-municipality" id="trm2">municipality</term>;</p>
+            <p>"<def refersTo="#term-credit_control_by-law">credit control by-law</def>" means the <term refersTo="#term-municipality" id="trm3">municipality</term>’s Credit Control and Debt Collection Policy By-law, published in the Povincial Gazette;</p>
+            <p>"<def refersTo="#term-Finance_Management_Act">Finance Management Act</def>" means the Local Government: Municipal <term refersTo="#term-Finance_Management_Act" id="trm4">Finance Management Act</term>, 2003 (<ref href="/za/act/2003/56">Act 56 of 2003</ref>);</p>
+            <p>"<def refersTo="#term-financial_recovery_plan">financial recovery plan</def>" has the meaning ascribed to it by the <term refersTo="#term-Finance_Management_Act" id="trm5">Finance Management Act</term>;</p>
+            <p>"<def refersTo="#term-poor_household">poor household</def>" means a household in the municipal area which is unable to afford either the full <term refersTo="#term-tariff" id="trm6">tariff</term> levy for municipal services or part thereof;</p>
+            <p>"<def refersTo="#term-municipality">municipality</def>" means the Municipality of Cape Agulhas;</p>
+            <p>"<def refersTo="#term-policy">policy</def>" means the <term refersTo="#term-council" id="trm7">council</term>‘s <term refersTo="#term-tariff" id="trm8">tariff</term> <term refersTo="#term-policy" id="trm9">policy</term>, reﬂected in the schedule to <term refersTo="#term-this_by-law" id="trm10">this by-law</term>;</p>
+            <p>"<def refersTo="#term-service">service</def>" means any municipal <term refersTo="#term-service" id="trm11">service</term> as defined in the <term refersTo="#term-Systems_Act" id="trm12">Systems Act</term> and any other <term refersTo="#term-service" id="trm13">service</term> rendered by the <term refersTo="#term-municipality" id="trm14">municipality</term> as defined in the <term refersTo="#term-policy" id="trm15">policy</term>, and</p>
+            <p>"<def refersTo="#term-Systems_Act">Systems Act</def>" means the Local Government: Municipal <term refersTo="#term-Systems_Act" id="trm16">Systems Act</term>, 2000 (<ref href="/za/act/2000/32">Act 32 of 2000</ref>);</p>
+            <p>"<def refersTo="#term-Structures_Act">Structures Act</def>" means the Local Government: Municipal <term refersTo="#term-Structures_Act" id="trm17">Structures Act</term>, 1998 (<ref href="/za/act/1998/117">Act 117 of 1998</ref>);</p>
+            <p>"<def refersTo="#term-tariff">tariff</def>" means a <term refersTo="#term-tariff" id="trm18">tariff</term> for services which the <term refersTo="#term-municipality" id="trm19">municipality</term> may set for the provision of a <term refersTo="#term-service" id="trm20">service</term> to the local community, and includes a surcharge on such <term refersTo="#term-tariff" id="trm21">tariff</term>;</p>
+            <p>"<def refersTo="#term-this_by-law">this by-law</def>" also includes the <term refersTo="#term-policy" id="trm22">policy</term>; and</p>
+            <p>"<def refersTo="#term-user">user</def>" means a person who has applied for and entered into an agreement with the <term refersTo="#term-municipality" id="trm23">municipality</term> for the supply of any <term refersTo="#term-service" id="trm24">service</term> by the <term refersTo="#term-municipality" id="trm25">municipality</term> or any person who in terms of any other by-law of the <term refersTo="#term-municipality" id="trm26">municipality</term> is liable for the payment of a <term refersTo="#term-service" id="trm27">service</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Object</heading>
+        <paragraph id="section-2.paragraph-0">
+          <content>
+            <blockList id="section-2.paragraph-0.list1">
+              <listIntroduction>The object of <term refersTo="#term-this_by-law" id="trm28">this by-law</term> is to ensure that—</listIntroduction>
+              <item id="section-2.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>tariffs are determined in order to fascilitate and ensure sustainable and affordable services;</p>
+              </item>
+              <item id="section-2.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>cost reﬂecting tariffs are determined that include capital, operating, maintenance, administrative and replacement costs for the various services rendered and functions performed by the <term refersTo="#term-council" id="trm29">council</term>;</p>
+              </item>
+              <item id="section-2.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>self supporting tariffs are determined for trade and economic services and that any surplusses derived therefrom be transferred to rates and general services which due to the nature of the <term refersTo="#term-service" id="trm30">service</term> cannot be self supporting;</p>
+              </item>
+              <item id="section-2.paragraph-0.list1.d">
+                <num>(d)</num>
+                <p>uniform tariffs are determined that are applicable throughout the area of jurisdiction of <term refersTo="#term-council" id="trm31">council</term>;</p>
+              </item>
+              <item id="section-2.paragraph-0.list1.e">
+                <num>(e)</num>
+                <p>tariffs specifically for water but not limited to water are determined that will discourage waste;</p>
+              </item>
+              <item id="section-2.paragraph-0.list1.f">
+                <num>(f)</num>
+                <p>the tariffs that every individual <term refersTo="#term-user" id="trm32">user</term> or category of users must pay are generally in relation to the use of the <term refersTo="#term-service" id="trm33">service</term>;</p>
+              </item>
+              <item id="section-2.paragraph-0.list1.g">
+                <num>(g)</num>
+                <p>in so far as practical, cross-subsidation of different tariffs and concealed subsidies in tariffs are eliminated;</p>
+              </item>
+              <item id="section-2.paragraph-0.list1.h">
+                <num>(h)</num>
+                <blockList id="section-2.paragraph-0.list1.h.list0">
+                  <listIntroduction>poor households can obtain access to at least basic services through—</listIntroduction>
+                  <item id="section-2.paragraph-0.list1.h.list0.i">
+                    <num>(i)</num>
+                    <p>tariffs that cover only operating and maintenance costs;</p>
+                  </item>
+                  <item id="section-2.paragraph-0.list1.h.list0.ii">
+                    <num>(ii)</num>
+                    <p>special tariffs or life line tariffs for low levels of use or consumption of services or for basic levels of <term refersTo="#term-service" id="trm34">service</term>; or</p>
+                  </item>
+                  <item id="section-2.paragraph-0.list1.h.list0.iii">
+                    <num>(iii)</num>
+                    <p>the free supply of 6 kiloliter water and 50 kWh electricity for domestic use by means of crosssubsidation;</p>
+                  </item>
+                  <item id="section-2.paragraph-0.list1.h.list0.iv">
+                    <num>(iv)</num>
+                    <p>the awarding of compassionate subsidies on tariffs for basic services that include water, sanitation and refuse removal; and</p>
+                  </item>
+                  <item id="section-2.paragraph-0.list1.h.list0.v">
+                    <num>(v)</num>
+                    <p>any other direct or indirect method of subsidisation and/or cross-subsidatioon of tariffs for poor households;</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-2.paragraph-0.list1.i">
+                <num>(i)</num>
+                <p>provision may be made in appropriate circumstances for a surcharge on the <term refersTo="#term-tariff" id="trm35">tariff</term> for a <term refersTo="#term-service" id="trm36">service</term>;</p>
+              </item>
+              <item id="section-2.paragraph-0.list1.j">
+                <num>(j)</num>
+                <p>provision is made for the promotion of local economic development through special tariffs for categories of commercial and industrial users;</p>
+              </item>
+              <item id="section-2.paragraph-0.list1.k">
+                <num>(k)</num>
+                <p>the economical, efficient and effective use of resources, the recycling of waste, and other appropriate environmental objectives are encouraged; and</p>
+              </item>
+              <item id="section-2.paragraph-0.list1.l">
+                <num>(l)</num>
+                <p>effect is given to the implementation and enforcement of the <term refersTo="#term-policy" id="trm37">policy</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Levying of tariffs</heading>
+        <subsection id="section-3.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-council" id="trm38">council</term>, subject to subsection (2), determines tariffs when approving its budget for a budget year.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-3.2.list1">
+              <listIntroduction>The <term refersTo="#term-council" id="trm39">council</term> only determines tariffs during the course of a financial year only when—</listIntroduction>
+              <item id="section-3.2.list1.a">
+                <num>(a)</num>
+                <p>a new <term refersTo="#term-service" id="trm40">service</term> is introduced,</p>
+              </item>
+              <item id="section-3.2.list1.b">
+                <num>(b)</num>
+                <p>no <term refersTo="#term-tariff" id="trm41">tariff</term> for an existing <term refersTo="#term-service" id="trm42">service</term> has previously been imposed, or</p>
+              </item>
+              <item id="section-3.2.list1.c">
+                <num>(c)</num>
+                <p>it is necessary to correct a <term refersTo="#term-tariff" id="trm43">tariff</term> allready imposed.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-3.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-council" id="trm44">council</term> does not increase tariffs during a financial year, except when required in terms of a <term refersTo="#term-financial_recovery_plan" id="trm45">financial recovery plan</term> in terms of section 28(6) of the <term refersTo="#term-Finance_Management_Act" id="trm46">Finance Management Act</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.4">
+          <num>(4)</num>
+          <content>
+            <p>The <term refersTo="#term-council" id="trm47">council</term> levies tariffs by resolution passed with a supporting vote of a majority of its members.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Policy</heading>
+        <subsection id="section-4.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-council" id="trm48">council</term> levies tariffs in terms of the <term refersTo="#term-policy" id="trm49">policy</term> as reﬂected in the schedule top <term refersTo="#term-this_by-law" id="trm50">this by-law</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.2">
+          <num>(2)</num>
+          <content>
+            <p>Differentiation in the <term refersTo="#term-policy" id="trm51">policy</term> between different categories of users, debtors, <term refersTo="#term-service" id="trm52">service</term> providers, services, <term refersTo="#term-service" id="trm53">service</term> standards, geographical areas and other matters is necessary to achieve the objects of <term refersTo="#term-this_by-law" id="trm54">this by-law</term> without unfair discrimination.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.3">
+          <num>(3)</num>
+          <content>
+            <p>The mayor must, when preparing the annual budget, coordinate the processes for reviewing the <term refersTo="#term-policy" id="trm55">policy</term>, if necessary.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4">
+          <num>(4)</num>
+          <content>
+            <p>Any changes to the <term refersTo="#term-policy" id="trm56">policy</term> must be approved by the Council together with the adoption of resolutions setting tariffs for the budget year and published as an amendment to <term refersTo="#term-this_by-law" id="trm57">this by-law</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Public participation</heading>
+        <subsection id="section-5.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-5.1.list1">
+              <listIntroduction>The municipal manager must immediately after an annual budget is tabled in the <term refersTo="#term-council" id="trm58">council</term> in terms of section 16 of the <term refersTo="#term-Finance_Management_Act" id="trm59">Finance Management Act</term>, make public the draft resolutions setting any tariffs for the budget year and—</listIntroduction>
+              <item id="section-5.1.list1.a">
+                <num>(a)</num>
+                <p>invite the local community to submit representations in connection therewith;</p>
+              </item>
+              <item id="section-5.1.list1.b">
+                <num>(b)</num>
+                <p>submit the annual budget to the National Treasury, the Provincial Treasury and any provincial or national organs of state or municipalities as may be required in terms of section 17 of the <term refersTo="#term-Finance_Management_Act" id="trm60">Finance Management Act</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-5.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-council" id="trm61">council</term> must before finalising any tariffs for the budget year consider the views of the local community and the bodies referred to in paragraph (b) of subsection (1) which made submissions on the budget as well as the mayor’s response to the submissions.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-council" id="trm62">council</term> must consult the local community in respect of strategic decisions relevant to the planning and provision of services and the inﬂuence thereof on tariffs.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Application</heading>
+        <paragraph id="section-6.paragraph-0">
+          <content>
+            <p>This by-law is also applicable to the levying of tariffs for municipal services which are rendered by means of <term refersTo="#term-service" id="trm63">service</term> delivery agreements, and which complies to the provisions of the <term refersTo="#term-Systems_Act" id="trm64">Systems Act</term> and any other applicable legislation.</p>
+          </content>
+        </paragraph>
+      </section>
+    </body>
+  </act>
+  <components>
+    <component id="component-schedule">
+      <doc name="schedule">
+        <meta>
+          <identification source="#slaw">
+            <FRBRWork>
+              <FRBRthis value="/za-wc033/act/by-law/2005/tariff-policy/schedule"/>
+              <FRBRuri value="/za-wc033/act/by-law/2005/tariff-policy"/>
+              <FRBRalias value="Schedule"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-wc033/act/by-law/2005/tariff-policy/eng@2005-10-03/schedule"/>
+              <FRBRuri value="/za-wc033/act/by-law/2005/tariff-policy/eng@2005-10-03"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-wc033/act/by-law/2005/tariff-policy/eng@2005-10-03/schedule"/>
+              <FRBRuri value="/za-wc033/act/by-law/2005/tariff-policy/eng@2005-10-03"/>
+              <FRBRdate date="2018-01-28" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule">
+            <heading>POLICY</heading>
+            <part id="part-1">
+              <num>1</num>
+              <heading>PRINCIPLES</heading>
+              <section id="section-1">
+                <num>1.</num>
+                <heading>Cost of services to be recovered</heading>
+                <paragraph id="section-1.paragraph-0">
+                  <content>
+                    <blockList id="section-1.paragraph-0.list1">
+                      <listIntroduction>The tariffs for the following services are based on the recovery of the cost to deliver the services:</listIntroduction>
+                      <item id="section-1.paragraph-0.list1.a">
+                        <num>(a)</num>
+                        <p>electricity;</p>
+                      </item>
+                      <item id="section-1.paragraph-0.list1.b">
+                        <num>(b)</num>
+                        <p>water;</p>
+                      </item>
+                      <item id="section-1.paragraph-0.list1.c">
+                        <num>(c)</num>
+                        <p>waste water and sewage removal; and</p>
+                      </item>
+                      <item id="section-1.paragraph-0.list1.d">
+                        <num>(d)</num>
+                        <p>refuse removal.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </paragraph>
+              </section>
+              <section id="section-2">
+                <num>2.</num>
+                <heading>Cost of auxiliary services to be recovered</heading>
+                <subsection id="section-2.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>Fees, charges or tariffs for auxiliary services are based on recovery of the cost to provide the service.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-2.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>Auxiliary services are those services that are reasonably necessary for, or incidental to, the effective rendering of municipal services.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-2.3">
+                  <num>(3)</num>
+                  <content>
+                    <blockList id="section-2.3.list1">
+                      <listIntroduction>Auxiliary services include but are not limited to—</listIntroduction>
+                      <item id="section-2.3.list1.a">
+                        <num>(a)</num>
+                        <p>the lodging of an application;</p>
+                      </item>
+                      <item id="section-2.3.list1.b">
+                        <num>(b)</num>
+                        <p>the issuing of a certificate, direction, approval, consent or permission by the municipality;</p>
+                      </item>
+                      <item id="section-2.3.list1.c">
+                        <num>(c)</num>
+                        <p>the production or installation of an item or work by the municipality;</p>
+                      </item>
+                      <item id="section-2.3.list1.d">
+                        <num>(d)</num>
+                        <p>utilising the service of a municipal official;</p>
+                      </item>
+                      <item id="section-2.3.list1.e">
+                        <num>(e)</num>
+                        <p>hiring of municipal equipment; and</p>
+                      </item>
+                      <item id="section-2.3.list1.f">
+                        <num>(f)</num>
+                        <p>the utilisation of municipal infrastructure and amenities.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-3">
+                <num>3.</num>
+                <heading>Subsidisation</heading>
+                <subsection id="section-3.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>The municipality acknowledges the fact that some members of the community are better able to afford to pay for the services that they use and have the benefit of, than others and that the budget of the Municipality is an important mechanism in ensuring redistribution within the community and will ensure, where appropriate, that cross-subsidisation and subsidies occur from other sources to further contribute to its redistributive objectives.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-3.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>Subsidised services are those services of which the tariffs are</p>
+                    <p>fixed in such a way that the cost of providing them may be recovered only to some extent, but are in may cases purely regulatory by nature and any losses incurred on such services are financed from assessment rates and subsidy income.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-3.3">
+                  <num>(3)</num>
+                  <content>
+                    <blockList id="section-3.3.list1">
+                      <listIntroduction>Tariffs for the following services are not sufficient to recover the cost to deliver the such services and income from rates will be used in co-funding—</listIntroduction>
+                      <item id="section-3.3.list1.a">
+                        <num>(a)</num>
+                        <p>firefighting Services;</p>
+                      </item>
+                      <item id="section-3.3.list1.b">
+                        <num>(b)</num>
+                        <p>cemeteries and crematoria;</p>
+                      </item>
+                      <item id="section-3.3.list1.c">
+                        <num>(c)</num>
+                        <p>local amenities;</p>
+                      </item>
+                      <item id="section-3.3.list1.d">
+                        <num>(d)</num>
+                        <p>local sports facilities;</p>
+                      </item>
+                      <item id="section-3.3.list1.e">
+                        <num>(e)</num>
+                        <p>markets; and</p>
+                      </item>
+                      <item id="section-3.3.list1.f">
+                        <num>(f)</num>
+                        <p>other services the municipality is required to deliver.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-4">
+                <num>4.</num>
+                <heading>Free basic services</heading>
+                <subsection id="section-4.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>The Municipality subscribes to the policy that everybody is entitled to a minimum amount of specified free basic services.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-4.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>A basic service is a service that is necessary to ensure an acceptable and reasonable quality of life and, if not provided, would endanger public health or safety or the environment.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-4.3">
+                  <num>(3)</num>
+                  <content>
+                    <blockList id="section-4.3.list1">
+                      <listIntroduction>The specified free basic services are:</listIntroduction>
+                      <item id="section-4.3.list1.a">
+                        <num>(a)</num>
+                        <p>water;</p>
+                      </item>
+                      <item id="section-4.3.list1.b">
+                        <num>(b)</num>
+                        <p>domestic waste water and sewage removal;</p>
+                      </item>
+                      <item id="section-4.3.list1.c">
+                        <num>(c)</num>
+                        <p>domestic refuse removal; and</p>
+                      </item>
+                      <item id="section-4.3.list1.d">
+                        <num>(d)</num>
+                        <p>electricity.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-5">
+                <num>5.</num>
+                <heading>Keeping tariffs cost effective</heading>
+                <subsection id="section-5.1">
+                  <num>(1)</num>
+                  <content>
+                    <blockList id="section-5.1.list1">
+                      <listIntroduction>The Municipality undertakes to keep tariffs cost effective and will ensure that—</listIntroduction>
+                      <item id="section-5.1.list1.a">
+                        <num>(a)</num>
+                        <p>services are generally delivered at an appropriate level;</p>
+                      </item>
+                      <item id="section-5.1.list1.b">
+                        <num>(b)</num>
+                        <p>efficiency improvements are actively pursued across the operations of the municipality.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+                <subsection id="section-5.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>A performance management system is introduced to ensure that plans that are devised are actually implemented; that resources are obtained as economically as possible, used efficiently and effectively and that appropriate service delivery mechanisms are used.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-5.3">
+                  <num>(3)</num>
+                  <content>
+                    <p>Any non-core functions that the municipality currently performs are to be phased out as soon as possible, without depriving the community of any services that actually contributes to quality of life.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-5.4">
+                  <num>(4)</num>
+                  <content>
+                    <p>Any service that is provided for which there is little demand, that is priced under the actual cost of providing it and which requires the Municipality to maintain significant infrastructure and other facilities, are phased out, except where the Municipality is by law required to provide such a service.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-5.5">
+                  <num>(5)</num>
+                  <content>
+                    <p>The economic, efficient and effective use of resources, the recycling of waste, and other apposite environmental aims, are encouraged and council will consider appropriate incentives for the achievement of such aims.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-5.6">
+                  <num>(6)</num>
+                  <content>
+                    <p>The municipality may provide different service levels and may determine separate tariffs for the different levels.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-5.7">
+                  <num>(7)</num>
+                  <content>
+                    <p>When determining tariffs, the ability to pay of the various categories of users will within reasonable and cost effective limits, be taken into consideration, in order to stimulate growth in the area of the municipality.</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-6">
+                <num>6.</num>
+                <heading>Fully Utilising Sources of Revenue</heading>
+                <subsection id="section-6.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>The Municipality will ensure that where tariffs are uneconomical (i.e. too low in relation to the cost of providing the service concerned) or where no or nomiminal tariffs have been set, service charges are imposed in respect of any service where it can be done.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-6.2">
+                  <num>(2)</num>
+                  <content>
+                    <blockList id="section-6.2.list1">
+                      <listIntroduction>The Municipality will ensure that—</listIntroduction>
+                      <item id="section-6.2.list1.a">
+                        <num>(a)</num>
+                        <p>tariffs for services are reviewed every financial year.</p>
+                      </item>
+                      <item id="section-6.2.list1.b">
+                        <num>(b)</num>
+                        <p>tariff increases are in line with increases in the price of goods, material and other resources acquired and used by the Municipality to perform its functions; and</p>
+                      </item>
+                      <item id="section-6.2.list1.c">
+                        <num>(c)</num>
+                        <p>the tariff for a particular service is calculated in such a way that all relevant costs are covered. This means that a tariff for a service must include at least the capital expenditure required and interest thereon, the cost of managing and operating the service and the cost of maintaining, repairing and replacing the physical assets used in its provision.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-7">
+                <num>7.</num>
+                <heading>User must pay for services</heading>
+                <subsection id="section-7.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>Notwithstanding the Municipality’s commitment to free basic services, the Municipality believes that consumers of services must pay for the amount of services that they use. Where it is possible to measure the consumption of services, the Municipality intends to install metering systems.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-7.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>All domestic users, except indigent households, must remit the full amount in respect of services rendered.</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-8">
+                <num>8.</num>
+                <heading>Surpluses</heading>
+                <paragraph id="section-8.paragraph-0">
+                  <content>
+                    <blockList id="section-8.paragraph-0.list1">
+                      <listIntroduction>The Council may provide for surpluses on the income from the following services:</listIntroduction>
+                      <item id="section-8.paragraph-0.list1.a">
+                        <num>(a)</num>
+                        <p>water;</p>
+                      </item>
+                      <item id="section-8.paragraph-0.list1.b">
+                        <num>(b)</num>
+                        <p>waste water and sewage removal;</p>
+                      </item>
+                      <item id="section-8.paragraph-0.list1.c">
+                        <num>(c)</num>
+                        <p>refuse removal;</p>
+                      </item>
+                      <item id="section-8.paragraph-0.list1.d">
+                        <num>(d)</num>
+                        <p>electricity; and</p>
+                      </item>
+                      <item id="section-8.paragraph-0.list1.e">
+                        <num>(e)</num>
+                        <p>holiday resorts.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </paragraph>
+              </section>
+              <section id="section-9">
+                <num>9.</num>
+                <heading>Categories of users</heading>
+                <subsection id="section-9.1">
+                  <num>(1)</num>
+                  <content>
+                    <blockList id="section-9.1.list1">
+                      <listIntroduction>Categories of users of unsubsidised services include the following—</listIntroduction>
+                      <item id="section-9.1.list1.a">
+                        <num>(a)</num>
+                        <p>domestic users;</p>
+                      </item>
+                      <item id="section-9.1.list1.b">
+                        <num>(b)</num>
+                        <p>commercial users;</p>
+                      </item>
+                      <item id="section-9.1.list1.c">
+                        <num>(c)</num>
+                        <p>industrial users;</p>
+                      </item>
+                      <item id="section-9.1.list1.d">
+                        <num>(d)</num>
+                        <p>agricultural users;</p>
+                      </item>
+                      <item id="section-9.1.list1.e">
+                        <num>(e)</num>
+                        <p>rural users;</p>
+                      </item>
+                      <item id="section-9.1.list1.f">
+                        <num>(f)</num>
+                        <p>municipal services;</p>
+                      </item>
+                      <item id="section-9.1.list1.g">
+                        <num>(g)</num>
+                        <p>bulk users;</p>
+                      </item>
+                      <item id="section-9.1.list1.h">
+                        <num>(h)</num>
+                        <p>temporary users.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+                <subsection id="section-9.2">
+                  <num>(2)</num>
+                  <content>
+                    <blockList id="section-9.2.list0">
+                      <item id="section-9.2.list0.a">
+                        <num>(a)</num>
+                        <p>The council may also differentiate in tariffs for subsidised services as contemplated in Item 3.</p>
+                      </item>
+                      <item id="section-9.2.list0.b">
+                        <num>(b)</num>
+                        <blockList id="section-9.2.list0.b.list0">
+                          <listIntroduction>Categories of users for subsidised services may include the following:—</listIntroduction>
+                          <item id="section-9.2.list0.b.list0.i">
+                            <num>(i)</num>
+                            <p>Schools</p>
+                          </item>
+                          <item id="section-9.2.list0.b.list0.ii">
+                            <num>(ii)</num>
+                            <p>Churches</p>
+                          </item>
+                          <item id="section-9.2.list0.b.list0.iii">
+                            <num>(iii)</num>
+                            <p>Poor households</p>
+                          </item>
+                          <item id="section-9.2.list0.b.list0.iv">
+                            <num>(iv)</num>
+                            <p>Registered welfare organisations</p>
+                          </item>
+                          <item id="section-9.2.list0.b.list0.v">
+                            <num>(v)</num>
+                            <p>NGO’s approved by the council.</p>
+                          </item>
+                        </blockList>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+                <subsection id="section-9.3">
+                  <num>(3)</num>
+                  <content>
+                    <p>The Municipality will ensure equity within each category.</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-10">
+                <num>10.</num>
+                <heading>Billing and action for no-payment</heading>
+                <subsection id="section-10.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>Electricity is measured in units (kWh) and maximum demand (in kVA) and water in kilolitre. The council endeavours to furnish a correct monthly account to consumers by the monthly reading of meters.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-10.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>Users are billed for actual consumption only. In cases where, owing to unforeseen circumstances, it is impossible to read the meters and an average consumption is utilised for billing purposes, the necessary adjustment will be made in the following month.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-10.3">
+                  <num>(3)</num>
+                  <content>
+                    <p>Strict action will be taken against defaulters in terms of the credit control by-law.</p>
+                  </content>
+                </subsection>
+              </section>
+            </part>
+            <part id="part-2">
+              <num>2</num>
+              <heading>ELECTRICITY</heading>
+              <section id="section-11">
+                <num>11.</num>
+                <heading>Basic charges</heading>
+                <subsection id="section-11.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>Council may charge a basic charge.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-11.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>Council may differentiate between the different categories of users.</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-12">
+                <num>12.</num>
+                <heading>Tariffs</heading>
+                <subsection id="section-12.1">
+                  <num>(1)</num>
+                  <content>
+                    <blockList id="section-12.1.list1">
+                      <listIntroduction>The Council may charge the following tariffs:</listIntroduction>
+                      <item id="section-12.1.list1.a">
+                        <num>(a)</num>
+                        <p>Availability charges based on consumption and category of users;</p>
+                      </item>
+                      <item id="section-12.1.list1.b">
+                        <num>(b)</num>
+                        <p>consumption charges per kWh, differentiated between the different categories of users;</p>
+                      </item>
+                      <item id="section-12.1.list1.c">
+                        <num>(c)</num>
+                        <blockList id="section-12.1.list1.c.list0">
+                          <listIntroduction>consumption charges (per kVA demand) in respect of—</listIntroduction>
+                          <item id="section-12.1.list1.c.list0.i">
+                            <num>(i)</num>
+                            <p>bulk consumers and</p>
+                          </item>
+                          <item id="section-12.1.list1.c.list0.ii">
+                            <num>(ii)</num>
+                            <p>off-peak hours.</p>
+                          </item>
+                        </blockList>
+                      </item>
+                      <item id="section-12.1.list1.d">
+                        <num>(d)</num>
+                        <blockList id="section-12.1.list1.d.list1">
+                          <listIntroduction>Charges for the following auxiliary services, including but not limited to—</listIntroduction>
+                          <item id="section-12.1.list1.d.list1.i">
+                            <num>(i)</num>
+                            <p>test of meter;</p>
+                          </item>
+                          <item id="section-12.1.list1.d.list1.ii">
+                            <num>(ii)</num>
+                            <p>special readings; and</p>
+                          </item>
+                          <item id="section-12.1.list1.d.list1.iii">
+                            <num>(iii)</num>
+                            <p>connections, disconnections, defaulters and reconnections.</p>
+                          </item>
+                        </blockList>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+                <subsection id="section-12.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>VAT, where applicable, is included in the tariffs and must be adjusted up or down depending on the rate in terms of VAT legislation.</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-13">
+                <num>13.</num>
+                <heading>Free basic service</heading>
+                <paragraph id="section-13.paragraph-0">
+                  <content>
+                    <p>The minimum level of free electricity is 50 kWh per household per month and is not transferrable to an ensuing month.</p>
+                  </content>
+                </paragraph>
+              </section>
+            </part>
+            <part id="part-3">
+              <num>3</num>
+              <heading>WATER</heading>
+              <section id="section-14">
+                <num>14.</num>
+                <heading>Basic charges</heading>
+                <subsection id="section-14.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>The Council may charge a basic/availability charge.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-14.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>The Council may differentiate between the different categories of users.</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-15">
+                <num>15.</num>
+                <heading>Tariffs</heading>
+                <subsection id="section-15.1">
+                  <num>(1)</num>
+                  <content>
+                    <blockList id="section-15.1.list1">
+                      <listIntroduction>The Council may charge the following tariffs:</listIntroduction>
+                      <item id="section-15.1.list1.a">
+                        <num>(a)</num>
+                        <p>Availability charges.</p>
+                      </item>
+                      <item id="section-15.1.list1.b">
+                        <num>(b)</num>
+                        <blockList id="section-15.1.list1.b.list0">
+                          <listIntroduction>Water consumption charges</listIntroduction>
+                          <item id="section-15.1.list1.b.list0.i">
+                            <num>(i)</num>
+                            <p>on an ascending sliding-scale in respect of domestic users</p>
+                          </item>
+                          <item id="section-15.1.list1.b.list0.ii">
+                            <num>(ii)</num>
+                            <p>on an ascending sliding-scale in respect of other categories of users other than domestic consumers</p>
+                          </item>
+                          <item id="section-15.1.list1.b.list0.iii">
+                            <num>(iii)</num>
+                            <p>in respect of water consumption by the municipality, and</p>
+                          </item>
+                          <item id="section-15.1.list1.b.list0.iv">
+                            <num>(iv)</num>
+                            <p>in respect of bulk water supply to informal transit camps.</p>
+                          </item>
+                        </blockList>
+                      </item>
+                      <item id="section-15.1.list1.c">
+                        <num>(c)</num>
+                        <blockList id="section-15.1.list1.c.list1">
+                          <listIntroduction>Charges for the following auxiliary services, include but is not limited to—</listIntroduction>
+                          <item id="section-15.1.list1.c.list1.i">
+                            <num>(i)</num>
+                            <p>test of meter;</p>
+                          </item>
+                          <item id="section-15.1.list1.c.list1.ii">
+                            <num>(ii)</num>
+                            <p>special readings; and</p>
+                          </item>
+                          <item id="section-15.1.list1.c.list1.iii">
+                            <num>(iii)</num>
+                            <p>connections, disconnections, defaulters and reconnections;</p>
+                          </item>
+                        </blockList>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+                <subsection id="section-15.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>VAT, where applicable, is included in the tariffs and must be adjusted up or down depending on the rate in terms of VAT legislation.</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-16">
+                <num>16.</num>
+                <heading>Free basic service</heading>
+                <paragraph id="section-16.paragraph-0">
+                  <content>
+                    <p>The minimum level of free water is 6kl per household per month and is not transferrable to an ensuing month.</p>
+                  </content>
+                </paragraph>
+              </section>
+            </part>
+            <part id="part-4">
+              <num>4</num>
+              <heading>WASTE WATER AND SEWAGE REMOVAL</heading>
+              <section id="section-17">
+                <num>17.</num>
+                <heading>Basic charges</heading>
+                <subsection id="section-17.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>The Council may charge a basic charge.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-17.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>The Council may differentiate between the different categories of users.</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-18">
+                <num>18.</num>
+                <heading>Tariffs</heading>
+                <subsection id="section-18.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>The Council may charge and levy an availability charge.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-18.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>The Council may differentiate between the different categories of users.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-18.3">
+                  <num>(3)</num>
+                  <content>
+                    <blockList id="section-18.3.list1">
+                      <listIntroduction>The Council may charge for the following auxiliary services, including the following—</listIntroduction>
+                      <item id="section-18.3.list1.a">
+                        <num>(a)</num>
+                        <p>test of meter;</p>
+                      </item>
+                      <item id="section-18.3.list1.b">
+                        <num>(b)</num>
+                        <p>special readings; and</p>
+                      </item>
+                      <item id="section-18.3.list1.c">
+                        <num>(c)</num>
+                        <p>connections, disconnections and reconnections.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+                <subsection id="section-18.4">
+                  <num>(4)</num>
+                  <content>
+                    <p>VAT, where applicable, is included in the tariffs and must be adjusted up or down depending on the rate in terms of VAT legislation.</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-19">
+                <num>19.</num>
+                <heading>Free basic service</heading>
+                <paragraph id="section-19.paragraph-0">
+                  <content>
+                    <p>The minimum level of free waste water and sewage removal for identified poor households will be subsidised by means of compassionate allowances as determined by the council.</p>
+                  </content>
+                </paragraph>
+              </section>
+            </part>
+            <part id="part-5">
+              <num>5</num>
+              <heading>REFUSE REMOVAL</heading>
+              <section id="section-20">
+                <num>20.</num>
+                <heading>Basic charges</heading>
+                <subsection id="section-20.1">
+                  <num>(1)</num>
+                  <content>
+                    <p>The Council may charge a basic charge.</p>
+                  </content>
+                </subsection>
+                <subsection id="section-20.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>The Council may differentiate between the different categories of users.</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-21">
+                <num>21.</num>
+                <heading>Tariffs</heading>
+                <subsection id="section-21.1">
+                  <num>(1)</num>
+                  <content>
+                    <blockList id="section-21.1.list1">
+                      <listIntroduction>The Council may charge a tariff based on—</listIntroduction>
+                      <item id="section-21.1.list1.a">
+                        <num>(a)</num>
+                        <p>the number of removals;</p>
+                      </item>
+                      <item id="section-21.1.list1.b">
+                        <num>(b)</num>
+                        <p>the mass of a removal;</p>
+                      </item>
+                      <item id="section-21.1.list1.c">
+                        <num>(c)</num>
+                        <p>the number of containers removed;</p>
+                      </item>
+                      <item id="section-21.1.list1.d">
+                        <num>(d)</num>
+                        <p>the type of refuse; or</p>
+                      </item>
+                      <item id="section-21.1.list1.e">
+                        <num>(e)</num>
+                        <p>any other criteria relevant to the service.</p>
+                      </item>
+                    </blockList>
+                  </content>
+                </subsection>
+                <subsection id="section-21.2">
+                  <num>(2)</num>
+                  <content>
+                    <p>VAT, where applicable, is included in the tariffs and must be adjusted up or down depending on the rate in terms of VAT legislation.</p>
+                  </content>
+                </subsection>
+              </section>
+              <section id="section-22">
+                <num>22.</num>
+                <heading>Free basic service</heading>
+                <paragraph id="section-22.paragraph-0">
+                  <content>
+                    <p>The minimum level of free refuse removal for identified poor households will be subsidised by means of compassionate allowances as determined by the council.</p>
+                  </content>
+                </paragraph>
+              </section>
+            </part>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>

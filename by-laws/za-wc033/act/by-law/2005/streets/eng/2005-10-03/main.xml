@@ -1,0 +1,742 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc033/act/by-law/2005/streets/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/streets"/>
+          <FRBRalias value="By-law relating to Streets"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc033/act/by-law/2005/streets/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/streets/eng@2005-10-03"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc033/act/by-law/2005/streets/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/streets/eng@2005-10-03"/>
+          <FRBRdate date="2018-02-04" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-10-03" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" number="6303"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-implement" href="/ontology/term/this.eng.implement" showAs="implement"/>
+        <TLCTerm id="term-municipal_manager" href="/ontology/term/this.eng.municipal_manager" showAs="municipal manager"/>
+        <TLCTerm id="term-municipality" href="/ontology/term/this.eng.municipality" showAs="municipality"/>
+        <TLCTerm id="term-SAMOAG" href="/ontology/term/this.eng.SAMOAG" showAs="SAMOAG"/>
+        <TLCTerm id="term-sidewalk" href="/ontology/term/this.eng.sidewalk" showAs="sidewalk"/>
+        <TLCTerm id="term-street" href="/ontology/term/this.eng.street" showAs="street"/>
+        <TLCTerm id="term-vehicle" href="/ontology/term/this.eng.vehicle" showAs="vehicle"/>
+      </references>
+    </meta>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <paragraph id="section-1.paragraph-0" refersTo="#term-vehicle">
+          <content>
+            <p>In this by-law, unless inconsistent with the context—</p>
+            <p>"<def refersTo="#term-Council">Council</def>" means the council of the <term refersTo="#term-municipality" id="trm0">municipality</term>;</p>
+            <p>"<def refersTo="#term-implement">implement</def>" means a piece of machinery or equipment and includes farming and construction machinery and any equipment drawn by such <term refersTo="#term-implement" id="trm1">implement</term>;</p>
+            <p>"<def refersTo="#term-municipal_manager">municipal manager</def>" means the person appointed by the council in terms of the Local Government: Municipal Structures Act, 1998 (<ref href="/za/act/1998/117">Act 117 of 1998</ref>);</p>
+            <p>"<def refersTo="#term-municipality">municipality</def>" means the Municipality of Cape Agulhas;</p>
+            <p>"<def refersTo="#term-SAMOAG">SAMOAG</def>" means the South African Manual for Outdoor Advertising, published by the Department of Environmental Affairs and Tourism and the Department of Transport;</p>
+            <p>"<def refersTo="#term-sidewalk">sidewalk</def>" means that portion of a <term refersTo="#term-street" id="trm2">street</term> between the outer boundary of the roadway and the boundary lines of adjacent properties or buildings which is intended for the use of pedestrians;</p>
+            <p>"<def refersTo="#term-street">street</def>" includes a <term refersTo="#term-sidewalk" id="trm3">sidewalk</term> and a <term refersTo="#term-street" id="trm4">street</term> or road reserve, and</p>
+            <p>"<def refersTo="#term-vehicle">vehicle</def>" includes a trailer, caravan and an <term refersTo="#term-implement" id="trm5">implement</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Application of this by-law</heading>
+        <paragraph id="section-2.paragraph-0">
+          <content>
+            <blockList id="section-2.paragraph-0.list1">
+              <listIntroduction>This by-law—</listIntroduction>
+              <item id="section-2.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>does not derogate from the provisions of any other legislation, and</p>
+              </item>
+              <item id="section-2.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>binds an organ of state.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Sidewalks and encroachments on streets</heading>
+        <paragraph id="section-3.paragraph-0">
+          <content>
+            <blockList id="section-3.paragraph-0.list1">
+              <listIntroduction>No one may—</listIntroduction>
+              <item id="section-3.paragraph-0.list1.a">
+                <num>(a)</num>
+                <blockList id="section-3.paragraph-0.list1.a.list0">
+                  <listIntroduction>construct or lay a <term refersTo="#term-sidewalk" id="trm6">sidewalk</term> in a <term refersTo="#term-street" id="trm7">street</term>—</listIntroduction>
+                  <item id="section-3.paragraph-0.list1.a.list0.i">
+                    <num>(i)</num>
+                    <p>except with the written permission of the Municipal Manager, or</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list1.a.list0.ii">
+                    <num>(ii)</num>
+                    <p>otherwise than in accordance with the requirements prescribed by the Municipal Manager, or</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-3.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>construct a verandah, stoep, wall on a stoep, steps or other projection or erect a post in a <term refersTo="#term-street" id="trm8">street</term> except with the written permission of the Municipal Manager.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Advertisements visible from streets.</heading>
+        <paragraph id="section-4.paragraph-0">
+          <content>
+            <blockList id="section-4.paragraph-0.list1">
+              <listIntroduction>No one may display an advertisement, placard, poster or bill in a <term refersTo="#term-street" id="trm9">street</term>—</listIntroduction>
+              <item id="section-4.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>except with the written permission of the Municipal Manager, and</p>
+              </item>
+              <item id="section-4.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>otherwise than in accordance with such conditions as may be determined by the Municipal Manager.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Advertising signs visible from a <term refersTo="#term-street" id="trm10">street</term></heading>
+        <subsection id="section-5.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-5.1.list1">
+              <listIntroduction>No one may erect an advertising sign that is visible from a <term refersTo="#term-street" id="trm11">street</term>—</listIntroduction>
+              <item id="section-5.1.list1.a">
+                <num>(a)</num>
+                <p>except with the written approval of the Municipal Manager, and</p>
+              </item>
+              <item id="section-5.1.list1.b">
+                <num>(b)</num>
+                <p>otherwise than in accordance with the conditions determined by the Municipal Manager.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-5.2">
+          <num>(2)</num>
+          <content>
+            <p>Application for the erection of an advertising sign must be made in writing on the application form provided by the <term refersTo="#term-municipality" id="trm12">municipality</term>, and must be accompanied by such plans as may be required by the <term refersTo="#term-municipality" id="trm13">municipality</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.3">
+          <num>(3)</num>
+          <content>
+            <p>Applications for the erection of advertising signs are considered in terms of the guidelines contained in <term refersTo="#term-SAMOAG" id="trm14">SAMOAG</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.4">
+          <num>(4)</num>
+          <content>
+            <blockList id="section-5.4.list1">
+              <listIntroduction>The provisions of section (1) are not applicable to the following types of advertising signs:</listIntroduction>
+              <item id="section-5.4.list1.a">
+                <num>(a)</num>
+                <p>builders’ development boards with an area of less than 2 m²;</p>
+              </item>
+              <item id="section-5.4.list1.b">
+                <num>(b)</num>
+                <p>to let and for sale signs that do not exceed 400 mm x 500 mm;</p>
+              </item>
+              <item id="section-5.4.list1.c">
+                <num>(c)</num>
+                <p>names of professional service providers, limited to one per person, with a maximum area of 0,2 m2 per sign;</p>
+              </item>
+              <item id="section-5.4.list1.d">
+                <num>(d)</num>
+                <p>security signs on premises where a service is provided, and</p>
+              </item>
+              <item id="section-5.4.list1.e">
+                <num>(e)</num>
+                <p>signs affixed or painted directly onto the body of a motorized <term refersTo="#term-vehicle" id="trm15">vehicle</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-5.5">
+          <num>(5)</num>
+          <content>
+            <p>In order to determine if a sign, if approved, will have a negative impact on the environment or traffic control, the Municipal Manager may require that studies be made at the cost of the applicant.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Objects causing an obstruction</heading>
+        <paragraph id="section-6.paragraph-0">
+          <content>
+            <blockList id="section-6.paragraph-0.list1">
+              <listIntroduction>No one may—</listIntroduction>
+              <item id="section-6.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>deposit or leave goods or articles in a <term refersTo="#term-street" id="trm16">street</term>, other than for a reasonable period during the course of the loading, off-loading or removal thereof, or</p>
+              </item>
+              <item id="section-6.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>in any way obstruct the pedestrian traffic on a <term refersTo="#term-sidewalk" id="trm17">sidewalk</term> by bringing or allowing to be brought thereon an object or <term refersTo="#term-vehicle" id="trm18">vehicle</term> (other than a perambulator or wheel-chair which is being used for the conveyance of children or the disabled), or</p>
+              </item>
+              <item id="section-6.paragraph-0.list1.c">
+                <num>(c)</num>
+                <blockList id="section-6.paragraph-0.list1.c.list0">
+                  <listIntroduction>cause or allow a blind, awning, cord or other object to project over or onto a <term refersTo="#term-street" id="trm19">street</term>—</listIntroduction>
+                  <item id="section-6.paragraph-0.list1.c.list0.i">
+                    <num>(i)</num>
+                    <p>except with the written permission of the Municipal Manager, or</p>
+                  </item>
+                  <item id="section-6.paragraph-0.list1.c.list0.ii">
+                    <num>(ii)</num>
+                    <p>otherwise than in accordance with such conditions as may be determined by the Municipal Manager.</p>
+                  </item>
+                </blockList>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Trees in streets</heading>
+        <subsection id="section-7.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-7.1.list1">
+              <listIntroduction>No one may—</listIntroduction>
+              <item id="section-7.1.list1.a">
+                <num>(a)</num>
+                <p>plant a tree or shrub in a <term refersTo="#term-street" id="trm20">street</term>, or in any way cut down a tree or a shrub in a <term refersTo="#term-street" id="trm21">street</term> or remove it therefrom, except with the written permission of the Municipal Manager;</p>
+              </item>
+              <item id="section-7.1.list1.b">
+                <num>(b)</num>
+                <p>climb, break or damage a tree growing in a <term refersTo="#term-street" id="trm22">street</term>, or</p>
+              </item>
+              <item id="section-7.1.list1.c">
+                <num>(c)</num>
+                <p>in any way mark or paint a tree growing in a <term refersTo="#term-street" id="trm23">street</term> or attach an advertisement thereto.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-7.2">
+          <num>(2)</num>
+          <content>
+            <p>A tree or shrub planted in a <term refersTo="#term-street" id="trm24">street</term> shall become the property of the <term refersTo="#term-municipality" id="trm25">municipality</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Trees causing an interference or obstruction</heading>
+        <subsection id="section-8.1">
+          <num>(1)</num>
+          <content>
+            <p>Whenever there is upon a property a tree or other growth which interferes with overhead wires or is a source of annoyance, danger or inconvenience to persons using a <term refersTo="#term-street" id="trm26">street</term>, the <term refersTo="#term-Council" id="trm27">Council</term> may by notice in writing order the owner or occupier of such property to prune or remove such tree or growth to the extent and within the period specified in such notice.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.2">
+          <num>(2)</num>
+          <content>
+            <p>A person failing to comply with a notice issued in terms of subsection (1) shall be guilty of an offence.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.3">
+          <num>(3)</num>
+          <content>
+            <p>If a person fails to comply with a notice in terms of this section, the Municipal Manager may prune or remove the tree or growth at the expense of the person on whom the notice was served.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Refuse, motor <term refersTo="#term-vehicle" id="trm28">vehicle</term> wrecks, waste material</heading>
+        <paragraph id="section-9.paragraph-0">
+          <content>
+            <blockList id="section-9.paragraph-0.list1">
+              <listIntroduction>No one may—</listIntroduction>
+              <item id="section-9.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>dump, leave or accumulate garden refuse, litter, motor <term refersTo="#term-vehicle" id="trm29">vehicle</term> wrecks, spare parts of vehicles, building or waste materials, rubbish or other waste products in a <term refersTo="#term-street" id="trm30">street</term> or public place, or</p>
+              </item>
+              <item id="section-9.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>permit any such objects or substances to be dumped or placed in a <term refersTo="#term-street" id="trm31">street</term> or public place from premises owned or occupied by such person, except with the written permission of the Municipal Manager and otherwise than in accordance with such conditions as may be determined by the Municipal Manager.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Prohibition upon certain activities in connection with objects in streets</heading>
+        <paragraph id="section-10.paragraph-0">
+          <content>
+            <blockList id="section-10.paragraph-0.list1">
+              <listIntroduction>No one may, in a <term refersTo="#term-street" id="trm32">street</term>—</listIntroduction>
+              <item id="section-10.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>effect repairs to a <term refersTo="#term-vehicle" id="trm33">vehicle</term>, except where necessary for the purpose of removing such <term refersTo="#term-vehicle" id="trm34">vehicle</term> from the place where it was involved in an accident, or</p>
+              </item>
+              <item id="section-10.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>clean a <term refersTo="#term-vehicle" id="trm35">vehicle</term> or wash, clean, dry or bleach any other article or thing.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-11">
+        <num>11.</num>
+        <heading>Prohibition upon games and other acts in streets</heading>
+        <paragraph id="section-11.paragraph-0">
+          <content>
+            <blockList id="section-11.paragraph-0.list1">
+              <listIntroduction>No one may—</listIntroduction>
+              <item id="section-11.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>roll a hoop, ﬂy a kite, shoot with a bow and arrow or catapult, let off a firework or throw a stone, stick or other projectile in, onto or across a <term refersTo="#term-street" id="trm36">street</term>, or</p>
+              </item>
+              <item id="section-11.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>do anything in a <term refersTo="#term-street" id="trm37">street</term> which may endanger the life or safety of a person, animal or thing or may be a nuisance, obstruction or annoyance to the public.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-12">
+        <num>12.</num>
+        <heading>Conveyance of animal carcasses or other waste products through streets</heading>
+        <paragraph id="section-12.paragraph-0">
+          <content>
+            <blockList id="section-12.paragraph-0.list1">
+              <listIntroduction>No one may carry or convey through a <term refersTo="#term-street" id="trm38">street</term> the carcass of an animal or garbage, nightsoil, refuse, sand, builder’s rubble, litter, rubbish or manure—</listIntroduction>
+              <item id="section-12.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>unless it is properly covered, and</p>
+              </item>
+              <item id="section-12.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>unless it is conveyed in such type of container as will not allow any offensive liquids or parts of the load to be spilt in the <term refersTo="#term-street" id="trm39">street</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-13">
+        <num>13.</num>
+        <heading>Fences on <term refersTo="#term-street" id="trm40">street</term> boundaries</heading>
+        <paragraph id="section-13.paragraph-0">
+          <content>
+            <blockList id="section-13.paragraph-0.list1">
+              <listIntroduction>No one may except with the written permission of the Municipal Manager—</listIntroduction>
+              <item id="section-13.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>erect a barbed-wire fence or other dangerous fence on the boundary of a <term refersTo="#term-street" id="trm41">street</term>, or</p>
+              </item>
+              <item id="section-13.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>install gates in a fence or boundary wall which opens onto the <term refersTo="#term-street" id="trm42">street</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-14">
+        <num>14.</num>
+        <heading>Building materials in streets</heading>
+        <paragraph id="section-14.paragraph-0">
+          <content>
+            <blockList id="section-14.paragraph-0.list1">
+              <listIntroduction>No one may, except with the written permission of the Municipal Manager—</listIntroduction>
+              <item id="section-14.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>work with building materials in a <term refersTo="#term-street" id="trm43">street</term>, or</p>
+              </item>
+              <item id="section-14.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>store or place building materials in a <term refersTo="#term-street" id="trm44">street</term>, or</p>
+              </item>
+              <item id="section-14.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>transport building materials, mixed or unmixed, across a <term refersTo="#term-street" id="trm45">street</term> in such a way as to cause damage to the <term refersTo="#term-street" id="trm46">street</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-15">
+        <num>15.</num>
+        <heading>Balconies and verandahs</heading>
+        <paragraph id="section-15.paragraph-0">
+          <content>
+            <blockList id="section-15.paragraph-0.list1">
+              <listIntroduction>No one may, except with the written permission of the Municipal Manager—</listIntroduction>
+              <item id="section-15.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>use a balcony or verandah erected beyond the boundary line of a <term refersTo="#term-street" id="trm47">street</term> for purposes of trading or the storage of goods, or for the washing or drying of clothes thereon, or</p>
+              </item>
+              <item id="section-15.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>enclose or partition a balcony or verandah erected beyond the boundary line of a <term refersTo="#term-street" id="trm48">street</term> or portion thereof as a living or bedroom.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-16">
+        <num>16.</num>
+        <heading>Drying of washing on fences on boundaries of streets</heading>
+        <paragraph id="section-16.paragraph-0">
+          <content>
+            <p>No one may dry or spread washing on a fence on the boundary of a <term refersTo="#term-street" id="trm49">street</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-17">
+        <num>17.</num>
+        <heading>Outspanning and parking in streets</heading>
+        <paragraph id="section-17.paragraph-0">
+          <content>
+            <blockList id="section-17.paragraph-0.list1">
+              <listIntroduction>No one may—</listIntroduction>
+              <item id="section-17.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>outspan or allow to be outspanned in a <term refersTo="#term-street" id="trm50">street</term> a <term refersTo="#term-vehicle" id="trm51">vehicle</term> drawn by animals, or detach or leave in a <term refersTo="#term-street" id="trm52">street</term> a trailer, caravan or <term refersTo="#term-vehicle" id="trm53">vehicle</term> which is not self-propelled; provided that this provision shall not apply to the actual loading or unloading of such <term refersTo="#term-vehicle" id="trm54">vehicle</term>, or</p>
+              </item>
+              <item id="section-17.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>park overnight a <term refersTo="#term-vehicle" id="trm55">vehicle</term> with a tare of more than 3 000 kg or an <term refersTo="#term-implement" id="trm56">implement</term>, in a <term refersTo="#term-street" id="trm57">street</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-18">
+        <num>18.</num>
+        <heading>Protection of <term refersTo="#term-street" id="trm58">street</term> surface</heading>
+        <subsection id="section-18.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-18.1.list1">
+              <listIntroduction>No one may—</listIntroduction>
+              <item id="section-18.1.list1.a">
+                <num>(a)</num>
+                <p>use a <term refersTo="#term-vehicle" id="trm59">vehicle</term> or allow it to be used in a <term refersTo="#term-street" id="trm60">street</term> if such <term refersTo="#term-vehicle" id="trm61">vehicle</term> is in such a defective condition that it will or may cause damage to a <term refersTo="#term-street" id="trm62">street</term>, or</p>
+              </item>
+              <item id="section-18.1.list1.b">
+                <num>(b)</num>
+                <p>drive, push, roll, pull or propel an object, machine or other material through or along a <term refersTo="#term-street" id="trm63">street</term> in such a way, or while such object, machine or material is in such a condition, as may damage, break or destroy the surface of the <term refersTo="#term-street" id="trm64">street</term> in any way;</p>
+              </item>
+              <item id="section-18.1.list1.c">
+                <num>(c)</num>
+                <p>cause or allow water other than rain water to ﬂow into a <term refersTo="#term-street" id="trm65">street</term> in such a manner as to cause damage to the <term refersTo="#term-street" id="trm66">street</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-18.2">
+          <num>(2)</num>
+          <content>
+            <p>If the Municipal Manager identifies a person who, as a result of the actions referred to in subsection (1), has damaged, broken or destroyed the surface of a <term refersTo="#term-street" id="trm67">street</term>, the cost of repairs, as determined by the Municipal Manager, may be recovered from the offender.</p>
+          </content>
+        </subsection>
+        <subsection id="section-18.3">
+          <num>(3)</num>
+          <content>
+            <p>No one other than an authorised official of the <term refersTo="#term-municipality" id="trm68">municipality</term> in the performance of his duties may apply, mark, paint or draw lines, marks, words, signs or advertisements on the surface of a <term refersTo="#term-street" id="trm69">street</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-19">
+        <num>19.</num>
+        <heading>Damaging of notice-boards</heading>
+        <paragraph id="section-19.paragraph-0">
+          <content>
+            <p>No one may deface, damage or in any way interfere with any notice-board, road traffic sign, <term refersTo="#term-street" id="trm70">street</term>-name board or other similar sign or any hoarding which has been erected in a <term refersTo="#term-street" id="trm71">street</term> by or with the permission of the <term refersTo="#term-Council" id="trm72">Council</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-20">
+        <num>20.</num>
+        <heading>Street and door-to-door collections</heading>
+        <paragraph id="section-20.paragraph-0">
+          <content>
+            <blockList id="section-20.paragraph-0.list1">
+              <listIntroduction>No one may—</listIntroduction>
+              <item id="section-20.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>collect or attempt to collect money in a <term refersTo="#term-street" id="trm73">street</term> or organise or in any way assist in the organisation of such collection, except with the written permission of the Municipal Manager and otherwise than in accordance with such conditions as may be determined by the Municipal Manager, or</p>
+              </item>
+              <item id="section-20.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>collect from door to door, beg or solicit or accept alms, except with the written permission of the Municipal Manager.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-21">
+        <num>21.</num>
+        <heading>Excavations in streets</heading>
+        <paragraph id="section-21.paragraph-0">
+          <content>
+            <blockList id="section-21.paragraph-0.list1">
+              <listIntroduction>No one may make or cause to be made an excavation or dig or cause to be dug a pit, trench or hole in a <term refersTo="#term-street" id="trm74">street</term>—</listIntroduction>
+              <item id="section-21.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>except with the written permission of the Municipal Manager, and</p>
+              </item>
+              <item id="section-21.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>otherwise than in accordance with the requirements prescribed by the Municipal Manager.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-22">
+        <num>22.</num>
+        <heading>Poison in streets</heading>
+        <paragraph id="section-22.paragraph-0">
+          <content>
+            <p>No one other than an official of the <term refersTo="#term-municipality" id="trm75">municipality</term> or an authorised person who administers legally approved weed- killers or poisons may set or cast poison in a <term refersTo="#term-street" id="trm76">street</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-23">
+        <num>23.</num>
+        <heading>Roller-skating and skating on skate-boards prohibited in streets</heading>
+        <paragraph id="section-23.paragraph-0">
+          <content>
+            <p>No one may, except with the prior written permission of the Municipal Manager, skate in a public parking area or <term refersTo="#term-street" id="trm77">street</term> on roller skates or a skate-board or similar device.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-24">
+        <num>24.</num>
+        <heading>Persons to be decently clad</heading>
+        <paragraph id="section-24.paragraph-0">
+          <content>
+            <p>No one may appear in a <term refersTo="#term-street" id="trm78">street</term> without being clothed in such manner as decency demands.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-25">
+        <num>25.</num>
+        <heading>Behaviour in streets</heading>
+        <subsection id="section-25.1">
+          <num>(1)</num>
+          <content>
+            <p>No one may cause a nuisance to other persons by loitering standing, sitting or lying in a <term refersTo="#term-street" id="trm79">street</term> or public place.</p>
+          </content>
+        </subsection>
+        <subsection id="section-25.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-25.2.list1">
+              <listIntroduction>No one may—</listIntroduction>
+              <item id="section-25.2.list1.a">
+                <num>(a)</num>
+                <p>use abusive, insulting, obscene, threatening or blasphemous language;</p>
+              </item>
+              <item id="section-25.2.list1.b">
+                <num>(b)</num>
+                <p>fight or act in a riotous manner;</p>
+              </item>
+              <item id="section-25.2.list1.c">
+                <num>(c)</num>
+                <p>beg or ask members of the public for money or contributions;</p>
+              </item>
+              <item id="section-25.2.list1.d">
+                <num>(d)</num>
+                <p>annoy or inconvenience any other person by yelling, shouting of making a noise in any manner whatsoever;</p>
+              </item>
+              <item id="section-25.2.list1.e">
+                <num>(e)</num>
+                <p>obey the call of nature at a place other than a sanitary convenience provided or approved for such purpose by the <term refersTo="#term-Council" id="trm80">Council</term>;</p>
+              </item>
+              <item id="section-25.2.list1.f">
+                <num>(f)</num>
+                <p>solicit or importune any person for the purpose of prostitution or immorality;</p>
+              </item>
+              <item id="section-25.2.list1.g">
+                <num>(g)</num>
+                <p>engage in gambling;</p>
+              </item>
+              <item id="section-25.2.list1.h">
+                <num>(h)</num>
+                <p>use intoxicating liquor;</p>
+              </item>
+              <item id="section-25.2.list1.i">
+                <num>(i)</num>
+                <p>allow a dog owned or in charge of that person to be on a <term refersTo="#term-street" id="trm81">street</term> unless the dog is on a leash and under control;</p>
+              </item>
+              <item id="section-25.2.list1.j">
+                <num>(j)</num>
+                <p>sleep in or on a <term refersTo="#term-vehicle" id="trm82">vehicle</term>, or</p>
+              </item>
+              <item id="section-25.2.list1.k">
+                <num>(k)</num>
+                <p>spit in a <term refersTo="#term-street" id="trm83">street</term> or public place.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-26">
+        <num>26.</num>
+        <heading>Wild animals</heading>
+        <paragraph id="section-26.paragraph-0">
+          <content>
+            <p>No owner or person in charge of any wild or ferocious animal, monkey or horned cattle may allow such animals at any time to be insufficiently attended or at large in a <term refersTo="#term-street" id="trm84">street</term> or shall keep any such animal in such a manner as to be a danger or annoyance to the public.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-27">
+        <num>27.</num>
+        <heading>Display of <term refersTo="#term-street" id="trm85">street</term> numbers of places</heading>
+        <paragraph id="section-27.paragraph-0">
+          <content>
+            <p>The Municipal Manager may prescribe by notice in writing that a number allocated to premises by it shall be displayed on such premises, and may also prescribe the position where it is to be displayed and the owner or occupier of such premises shall, within 30 days of the date of such notice, display the allocated number on the premises in accordance with such notice.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-28">
+        <num>28.</num>
+        <heading>Bridges and crossings over gutters and sidewalks</heading>
+        <paragraph id="section-28.paragraph-0">
+          <content>
+            <blockList id="section-28.paragraph-0.list1">
+              <listIntroduction>No private crossing, pathway, bridge or culvert may be made or built to or in front of any dwelling or other premises in a <term refersTo="#term-street" id="trm86">street</term> or public place—</listIntroduction>
+              <item id="section-28.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>except with the written permission of the Municipal Manager, and</p>
+              </item>
+              <item id="section-28.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>otherwise than in accordance with the requirements prescribed by the Municipal Manager.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-29">
+        <num>29.</num>
+        <heading>Control of amusement shows and devices</heading>
+        <paragraph id="section-29.paragraph-0">
+          <content>
+            <p>No one may, except with the written permission of the Municipal Manager and otherwise than in accordance with such conditions as may be determined by the Municipal Manager, set up or use in a <term refersTo="#term-street" id="trm87">street</term> or public place any type of amusement show or device for the amusement of the public.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-30">
+        <num>30.</num>
+        <heading>Control of animal-drawn vehicles</heading>
+        <paragraph id="section-30.paragraph-0">
+          <content>
+            <blockList id="section-30.paragraph-0.list1">
+              <listIntroduction>No one may—</listIntroduction>
+              <item id="section-30.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>simultaneously drive or be in control of more than one animal drawn <term refersTo="#term-vehicle" id="trm88">vehicle</term> in a <term refersTo="#term-street" id="trm89">street</term>, or</p>
+              </item>
+              <item id="section-30.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>drive or be in control of an animal-drawn <term refersTo="#term-vehicle" id="trm90">vehicle</term> in a <term refersTo="#term-street" id="trm91">street</term> if such person is under 16 years of age.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-31">
+        <num>31.</num>
+        <heading>Processions</heading>
+        <subsection id="section-31.1">
+          <num>(1)</num>
+          <content>
+            <p>No one may, in a <term refersTo="#term-street" id="trm92">street</term>, hold or organise a procession or take part in a demonstration, except with the prior approval of the</p>
+            <p>Municipal Manager, and then only in accordance with the conditions determined by the Municipal Manager.</p>
+          </content>
+        </subsection>
+        <subsection id="section-31.2">
+          <num>(2)</num>
+          <content>
+            <p>The provisions of subsection (1) are not applicable to processions or demonstrations regulated by other legislation.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-32">
+        <num>32.</num>
+        <heading>Municipality may act and recover costs</heading>
+        <subsection id="section-32.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-32.1.list1">
+              <listIntroduction>Notwithstanding any other provisions of this by-law, the Municipal Manager may—</listIntroduction>
+              <item id="section-32.1.list1.a">
+                <num>(a)</num>
+                <p>where the permission of the Municipal Manager is required before a person may perform a certain action or build or erect anything, and such permission has not been obtained, and</p>
+              </item>
+              <item id="section-32.1.list1.b">
+                <num>(b)</num>
+                <p>where a provision of this by-law is contravened under circumstances in which the contravention may be terminated by the removal of a structure, object, material or substance, serve a written notice on the owner of the premises or the offender, as the case may be, to terminate such contravention, or to remove the structure, object, material or substance, or to take such other steps as the Municipal Manager may require to rectify such contravention within the period stated in such notice.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-32.2">
+          <num>(2)</num>
+          <content>
+            <p>A person who fails to comply with a notice in terms of subsection (1) shall be guilty of an offence, and the Municipal Manager may, without prejudice to its powers to take action against the offender, take the necessary steps to <term refersTo="#term-implement" id="trm93">implement</term> such notice at the expense of the owner of the premises or the offender, as the case may be.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-33">
+        <num>33.</num>
+        <heading>Delegation</heading>
+        <paragraph id="section-33.paragraph-0">
+          <content>
+            <p>The <term refersTo="#term-municipal_manager" id="trm94">municipal manager</term> may in writing delegate any power or duty conferred on the <term refersTo="#term-municipal_manager" id="trm95">municipal manager</term> in terms of this by-law, to an official of the <term refersTo="#term-municipality" id="trm96">municipality</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-34">
+        <num>34.</num>
+        <heading>Penalties</heading>
+        <paragraph id="section-34.paragraph-0">
+          <content>
+            <p>A person who contravenes or fails to comply with any provision of this by-law or fails to comply to a condition imposed or a notice that was issued, shall be guilty of an offence and on conviction be liable to the payment of a fine.</p>
+          </content>
+        </paragraph>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

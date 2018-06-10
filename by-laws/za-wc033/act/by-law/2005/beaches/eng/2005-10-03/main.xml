@@ -1,0 +1,436 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc033/act/by-law/2005/beaches/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/beaches"/>
+          <FRBRalias value="By-Law relating to Beaches"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc033/act/by-law/2005/beaches/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/beaches/eng@2005-10-03"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc033/act/by-law/2005/beaches/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/beaches/eng@2005-10-03"/>
+          <FRBRdate date="2018-02-04" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-10-03" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" number="6303"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-authorised_official" href="/ontology/term/this.eng.authorised_official" showAs="authorised official"/>
+        <TLCTerm id="term-beach" href="/ontology/term/this.eng.beach" showAs="beach"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-craft" href="/ontology/term/this.eng.craft" showAs="craft"/>
+        <TLCTerm id="term-life-saver" href="/ontology/term/this.eng.life-saver" showAs="life-saver"/>
+        <TLCTerm id="term-municipality" href="/ontology/term/this.eng.municipality" showAs="municipality"/>
+        <TLCTerm id="term-municipal_manager" href="/ontology/term/this.eng.municipal_manager" showAs="municipal manager"/>
+        <TLCTerm id="term-notice" href="/ontology/term/this.eng.notice" showAs="notice"/>
+        <TLCTerm id="term-sea" href="/ontology/term/this.eng.sea" showAs="sea"/>
+        <TLCTerm id="term-tidal_pool" href="/ontology/term/this.eng.tidal_pool" showAs="tidal pool"/>
+        <TLCTerm id="term-vehicle" href="/ontology/term/this.eng.vehicle" showAs="vehicle"/>
+      </references>
+    </meta>
+    <preface>
+      <p>To control and order activities on beaches and public land adjoining beaches.</p>
+    </preface>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Deﬁnitions</heading>
+        <paragraph id="section-1.paragraph-0" refersTo="#term-vehicle">
+          <content>
+            <p>In this by-law, unless inconsistent with the context:—</p>
+            <p>"<def refersTo="#term-authorised_official">authorised official</def>" means an employee of the <term refersTo="#term-municipality" id="trm0">municipality</term>, appointed by the <term refersTo="#term-municipal_manager" id="trm1">municipal manager</term> to exercise the powers of an <term refersTo="#term-authorised_official" id="trm2">authorised official</term> in terms of this by-law, or a <term refersTo="#term-life-saver" id="trm3">life-saver</term>;</p>
+            <p>"<def refersTo="#term-beach">beach</def>" means the water and the land between the low-water mark and the high-water mark and any adjoining land which belongs to the <term refersTo="#term-municipality" id="trm4">municipality</term> which is open to the public, but excludes purpose-built formal public amenities as deﬁned in the <term refersTo="#term-Council" id="trm5">Council</term>’s By-law Relating to Public Amenities;</p>
+            <p>"<def refersTo="#term-Council">Council</def>" means the municipal council of the <term refersTo="#term-municipality" id="trm6">municipality</term>;</p>
+            <p>"<def refersTo="#term-craft">craft</def>" means a boat, jet-ski or other vessel;</p>
+            <p>"<def refersTo="#term-life-saver">life-saver</def>" means a person employed or appointed in that capacity by the <term refersTo="#term-municipal_manager" id="trm7">municipal manager</term>, and includes a person registered as a <term refersTo="#term-life-saver" id="trm8">life-saver</term>;</p>
+            <p>"<def refersTo="#term-municipality">municipality</def>" means the Municipality of Cape Agulhas;</p>
+            <p>"<def refersTo="#term-municipal_manager">municipal manager</def>" means the person appointed by the council in terms of the Local Government: Municipal Structures Act, 1998 (<ref href="/za/act/1998/117">Act 117 of 1998</ref>);</p>
+            <p>"<def refersTo="#term-notice">notice</def>" means a <term refersTo="#term-notice" id="trm9">notice</term> erected or posted by the <term refersTo="#term-Council" id="trm10">Council</term>, <term refersTo="#term-municipal_manager" id="trm11">municipal manager</term> or an <term refersTo="#term-authorised_official" id="trm12">authorised official</term>;</p>
+            <p>"<def refersTo="#term-sea">sea</def>" means that part of the <term refersTo="#term-sea" id="trm13">sea</term> normally used for bathing, and includes the water and the bed of a tidal river or lagoon, and</p>
+            <p>"<def refersTo="#term-tidal_pool">tidal pool</def>" means a pool constructed on the <term refersTo="#term-beach" id="trm14">beach</term> or in the <term refersTo="#term-sea" id="trm15">sea</term> designed exclusively for bathing purposes;</p>
+            <p>"<def refersTo="#term-vehicle">vehicle</def>" includes a trailer, a caravan and an implement.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Application of this by-law</heading>
+        <subsection id="section-2.1">
+          <num>(1)</num>
+          <content>
+            <p>This by-law binds an organ of state.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.2">
+          <num>(2)</num>
+          <content>
+            <p>The provisions of this by-law does not derogate from the provisions of any other legislation.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Prohibited activities No one may—</heading>
+        <paragraph id="section-3.paragraph-0">
+          <content>
+            <blockList id="section-3.paragraph-0.list0">
+              <item id="section-3.paragraph-0.list0.a">
+                <num>(a)</num>
+                <p>deposit, discharge or bury upon the <term refersTo="#term-beach" id="trm16">beach</term> or in the <term refersTo="#term-sea" id="trm17">sea</term> any offal, rubbish, bottles or anything liable to be a nuisance or a danger to health; or</p>
+              </item>
+              <item id="section-3.paragraph-0.list0.b">
+                <num>(b)</num>
+                <p>whilst suffering from any infectious or contagious disease enter or remain on the <term refersTo="#term-beach" id="trm18">beach</term> or in the <term refersTo="#term-sea" id="trm19">sea</term>;</p>
+              </item>
+              <item id="section-3.paragraph-0.list0.c">
+                <num>(c)</num>
+                <blockList id="section-3.paragraph-0.list0.c.list0">
+                  <listIntroduction>whilst upon the <term refersTo="#term-beach" id="trm20">beach</term> or in the <term refersTo="#term-sea" id="trm21">sea</term>—</listIntroduction>
+                  <item id="section-3.paragraph-0.list0.c.list0.i">
+                    <num>(i)</num>
+                    <p>use any obscene, offensive or indecent language; or</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list0.c.list0.ii">
+                    <num>(ii)</num>
+                    <p>behave in an offensive, improper or disorderly manner; or</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list0.c.list0.iii">
+                    <num>(iii)</num>
+                    <p>wilfully or negligently commit any act which endangers or causes discomfort to other users of the <term refersTo="#term-beach" id="trm22">beach</term> or the <term refersTo="#term-sea" id="trm23">sea</term>, or is likely to cause a breach of the peace;</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-3.paragraph-0.list0.d">
+                <num>(d)</num>
+                <p>without the written permission of the <term refersTo="#term-municipal_manager" id="trm24">municipal manager</term>, and then only in accordance with any conditions which may be imposed by the <term refersTo="#term-municipal_manager" id="trm25">municipal manager</term>, irrespective whether for reward or gain, conduct an entertainment, sport event, recreational activity or business or trade of any sort on the <term refersTo="#term-beach" id="trm26">beach</term> or in the <term refersTo="#term-sea" id="trm27">sea</term>;</p>
+              </item>
+              <item id="section-3.paragraph-0.list0.e">
+                <num>(e)</num>
+                <p>without the written permission of the <term refersTo="#term-municipal_manager" id="trm28">municipal manager</term>, and then only in accordance with the conditions which may be imposed by the <term refersTo="#term-municipal_manager" id="trm29">municipal manager</term>, use a loudspeaker, public address amplifying system or some similar device on the <term refersTo="#term-beach" id="trm30">beach</term> or in the <term refersTo="#term-sea" id="trm31">sea</term>;</p>
+              </item>
+              <item id="section-3.paragraph-0.list0.f">
+                <num>(f)</num>
+                <p>without the written permission of the <term refersTo="#term-municipal_manager" id="trm32">municipal manager</term>, and then only in accordance with the conditions which may be imposed by the <term refersTo="#term-municipal_manager" id="trm33">municipal manager</term>, display an advertisement or permit it to be displayed on the <term refersTo="#term-beach" id="trm34">beach</term> or in the <term refersTo="#term-sea" id="trm35">sea</term>;</p>
+              </item>
+              <item id="section-3.paragraph-0.list0.g">
+                <num>(g)</num>
+                <p>ﬂy a model airplane, kite, or similar device or play a game likely to cause injury or discomfort to spectators or other persons on the <term refersTo="#term-beach" id="trm36">beach</term> or in the <term refersTo="#term-sea" id="trm37">sea</term>;</p>
+              </item>
+              <item id="section-3.paragraph-0.list0.h">
+                <num>(h)</num>
+                <p>play a game with a hard ball in an area where such games are prohibited by a <term refersTo="#term-notice" id="trm38">notice</term>, or</p>
+              </item>
+              <item id="section-3.paragraph-0.list0.i">
+                <num>(i)</num>
+                <p>use intoxicating liquor in an area where such use is prohibited by a <term refersTo="#term-notice" id="trm39">notice</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Bathing</heading>
+        <subsection id="section-4.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Council" id="trm40">Council</term> may prohibit bathing within any part of the <term refersTo="#term-sea" id="trm41">sea</term> or in any <term refersTo="#term-tidal_pool" id="trm42">tidal pool</term>, either permanently or as a temporary measure.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.2">
+          <num>(2)</num>
+          <content>
+            <p>An <term refersTo="#term-authorised_official" id="trm43">authorised official</term> may prohibit bathing within any part of the <term refersTo="#term-sea" id="trm44">sea</term> or in any <term refersTo="#term-tidal_pool" id="trm45">tidal pool</term>, for so long as the condition of the <term refersTo="#term-sea" id="trm46">sea</term> or <term refersTo="#term-tidal_pool" id="trm47">tidal pool</term> is considered unsafe.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.3">
+          <num>(3)</num>
+          <content>
+            <p>Any permanent prohibition under this section shall be indicated by a <term refersTo="#term-notice" id="trm48">notice</term> and any temporary prohibition by any other recognizable and intelligible marker at both ends of the prohibited area.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Damage to property</heading>
+        <paragraph id="section-5.paragraph-0">
+          <content>
+            <blockList id="section-5.paragraph-0.list1">
+              <listIntroduction>No one may—</listIntroduction>
+              <item id="section-5.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>move, deface or otherwise interfere with any <term refersTo="#term-notice" id="trm49">notice</term> board, <term refersTo="#term-notice" id="trm50">notice</term> or marker erected, posted or placed on the <term refersTo="#term-beach" id="trm51">beach</term> by the <term refersTo="#term-Council" id="trm52">Council</term>, the <term refersTo="#term-municipal_manager" id="trm53">municipal manager</term> or an <term refersTo="#term-authorised_official" id="trm54">authorised official</term>, in terms of this by-law, or</p>
+              </item>
+              <item id="section-5.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>interfere with, misuse or damage any building, closet, shelter, changing booth, or other amenity provided for the use of the public on the <term refersTo="#term-beach" id="trm55">beach</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Animals on the <term refersTo="#term-beach" id="trm56">beach</term></heading>
+        <subsection id="section-6.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-6.1.list1">
+              <listIntroduction>No one may—</listIntroduction>
+              <item id="section-6.1.list1.a">
+                <num>(a)</num>
+                <p>cause or allow a dog in his or her charge to enter or remain upon the <term refersTo="#term-beach" id="trm57">beach</term> or in the <term refersTo="#term-sea" id="trm58">sea</term> or in any <term refersTo="#term-tidal_pool" id="trm59">tidal pool</term> in contravention of a <term refersTo="#term-notice" id="trm60">notice</term>;</p>
+              </item>
+              <item id="section-6.1.list1.b">
+                <num>(b)</num>
+                <p>cause or allow a dog in his or her charge to enter or remain upon the <term refersTo="#term-beach" id="trm61">beach</term> or in the <term refersTo="#term-sea" id="trm62">sea</term>, where the presence of dogs is not prohibited by a <term refersTo="#term-notice" id="trm63">notice</term>, unless such dog is effectively restrained from causing annoyance to any other person or persons;</p>
+              </item>
+              <item id="section-6.1.list1.c">
+                <num>(c)</num>
+                <p>cause or allow a dog in his or her charge to enter upon any area adjoining the <term refersTo="#term-beach" id="trm64">beach</term>, where the presence of dogs is not prohibited by a <term refersTo="#term-notice" id="trm65">notice</term>, unless the dog is on a leash;</p>
+              </item>
+              <item id="section-6.1.list1.d">
+                <num>(d)</num>
+                <p>cause or allow a horse, or other animal in his or her charge to enter or remain upon the <term refersTo="#term-beach" id="trm66">beach</term> or in the <term refersTo="#term-sea" id="trm67">sea</term> except with permission given in writing and subject to such terms and conditions as imposed by the <term refersTo="#term-municipal_manager" id="trm68">municipal manager</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-6.2">
+          <num>(2)</num>
+          <content>
+            <p>An <term refersTo="#term-authorised_official" id="trm69">authorised official</term> may impound any dog or other animal not under control or apparently not under control of a person.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Life-saving devices</heading>
+        <paragraph id="section-7.paragraph-0">
+          <content>
+            <blockList id="section-7.paragraph-0.list1">
+              <listIntroduction>No one—</listIntroduction>
+              <item id="section-7.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>other than an <term refersTo="#term-authorised_official" id="trm70">authorised official</term> may, save in time of emergency, touch, handle or in any way make use of or damage any life-line, life-buoy, or any other life-saving appliance, installed or maintained upon the <term refersTo="#term-beach" id="trm71">beach</term> or in the <term refersTo="#term-sea" id="trm72">sea</term>, or</p>
+              </item>
+              <item id="section-7.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>may impair or impede the operation of any life-saving appliance or device while it is in use on the <term refersTo="#term-beach" id="trm73">beach</term> or in the <term refersTo="#term-sea" id="trm74">sea</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Vehicles and aircraft</heading>
+        <paragraph id="section-8.paragraph-0">
+          <content>
+            <blockList id="section-8.paragraph-0.list1">
+              <listIntroduction>No one may—</listIntroduction>
+              <item id="section-8.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>drive or park a <term refersTo="#term-vehicle" id="trm75">vehicle</term> on the <term refersTo="#term-beach" id="trm76">beach</term>, except where permitted by a <term refersTo="#term-notice" id="trm77">notice</term>;</p>
+              </item>
+              <item id="section-8.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>introduce into or ride or drive an animal drawn <term refersTo="#term-vehicle" id="trm78">vehicle</term>, bicycle or wind-propelled <term refersTo="#term-vehicle" id="trm79">vehicle</term> on the part of the <term refersTo="#term-beach" id="trm80">beach</term> between the high and low-water marks, in contravention with a <term refersTo="#term-notice" id="trm81">notice</term>;</p>
+              </item>
+              <item id="section-8.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>except in an emergency or with the written permission of the <term refersTo="#term-municipal_manager" id="trm82">municipal manager</term>, and then only subject to the conditions which may be imposed by the <term refersTo="#term-municipal_manager" id="trm83">municipal manager</term>, introduce into or land on a <term refersTo="#term-beach" id="trm84">beach</term> an aircraft, including a microlight, or any device that operates in the manner of a kite or parachute.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Control of <term refersTo="#term-craft" id="trm85">craft</term></heading>
+        <subsection id="section-9.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-9.1.list1">
+              <listIntroduction>The <term refersTo="#term-Council" id="trm86">Council</term> may—</listIntroduction>
+              <item id="section-9.1.list1.a">
+                <num>(a)</num>
+                <p>set aside by <term refersTo="#term-notice" id="trm87">notice</term>, a place or places on the <term refersTo="#term-beach" id="trm88">beach</term> for the launching, landing, beaching, keeping, letting or hiring of <term refersTo="#term-craft" id="trm89">craft</term>;</p>
+              </item>
+              <item id="section-9.1.list1.b">
+                <num>(b)</num>
+                <p>set aside by <term refersTo="#term-notice" id="trm90">notice</term>, a place or places for the exclusive use of different types of <term refersTo="#term-craft" id="trm91">craft</term> or for the use only of <term refersTo="#term-craft" id="trm92">craft</term> belonging to members of boat clubs;</p>
+              </item>
+              <item id="section-9.1.list1.c">
+                <num>(c)</num>
+                <p>prohibit the use or operation of any <term refersTo="#term-craft" id="trm93">craft</term>, or type thereof, from certain parts of the <term refersTo="#term-beach" id="trm94">beach</term>, and may differentiate between <term refersTo="#term-craft" id="trm95">craft</term> belonging to or used by members of boat clubs and those belonging to or used by non-members of such clubs.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-9.2">
+          <num>(2)</num>
+          <content>
+            <p>No one may launch, land, <term refersTo="#term-beach" id="trm96">beach</term>, keep, let or hire any <term refersTo="#term-craft" id="trm97">craft</term> contrary to subsection (1) of this by-law unless such act is done in an emergency or in order to save life.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.3">
+          <num>(3)</num>
+          <content>
+            <p>No one may keep or leave a <term refersTo="#term-craft" id="trm98">craft</term> unattended on the <term refersTo="#term-beach" id="trm99">beach</term> for more than 24 hours unless permitted by a <term refersTo="#term-notice" id="trm100">notice</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.4">
+          <num>(4)</num>
+          <content>
+            <p>A <term refersTo="#term-craft" id="trm101">craft</term> kept or left unattended on the <term refersTo="#term-sea" id="trm102">sea</term>-shore in contravention of subsection (3) may be impounded by an <term refersTo="#term-authorised_official" id="trm103">authorised official</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.5">
+          <num>(5)</num>
+          <content>
+            <blockList id="section-9.5.list1">
+              <listIntroduction>No one may—</listIntroduction>
+              <item id="section-9.5.list1.a">
+                <num>(a)</num>
+                <p>use or operate a <term refersTo="#term-craft" id="trm104">craft</term>, paddle-ski or surf-ski in a manner dangerous to or causing annoyance to any person on the <term refersTo="#term-beach" id="trm105">beach</term> or in the <term refersTo="#term-sea" id="trm106">sea</term>, and</p>
+              </item>
+              <item id="section-9.5.list1.b">
+                <num>(b)</num>
+                <p>use or operate a <term refersTo="#term-craft" id="trm107">craft</term>, paddle-ski or surf-ski in the <term refersTo="#term-sea" id="trm108">sea</term> where prohibited by a <term refersTo="#term-notice" id="trm109">notice</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Control of surf-riding and boardsailing</heading>
+        <subsection id="section-10.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Council" id="trm110">Council</term> may prohibit surf-riding or boardsailing in any part of the <term refersTo="#term-sea" id="trm111">sea</term>, either permanently or as a temporary measure.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.2">
+          <num>(2)</num>
+          <content>
+            <p>An <term refersTo="#term-authorised_official" id="trm112">authorised official</term> may prohibit surf-riding or boardsailing on the grounds that it is unsafe or is likely to cause discomfort or injury to other users of the <term refersTo="#term-beach" id="trm113">beach</term> or the <term refersTo="#term-sea" id="trm114">sea</term> or a breach of the peace.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.3">
+          <num>(3)</num>
+          <content>
+            <p>Any permanent prohibition shall be indicated by <term refersTo="#term-notice" id="trm115">notice</term> at both ends of the prohibited area and any temporary prohibition by any other recognisable and intelligible marker at both ends of the prohibited area.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.4">
+          <num>(4)</num>
+          <content>
+            <p>No one may surf-ride or boardsail in contravention of any prohibition contemplated by subsections (1) and (2).</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-11">
+        <num>11.</num>
+        <heading>Control of camping on the <term refersTo="#term-beach" id="trm116">beach</term></heading>
+        <paragraph id="section-11.paragraph-0">
+          <content>
+            <p>No one may erect a tent or other ﬁxed structure or camp on any part of the <term refersTo="#term-beach" id="trm117">beach</term> except in a facility provided by the <term refersTo="#term-Council" id="trm118">Council</term> or otherwise without written permission of the <term refersTo="#term-municipal_manager" id="trm119">municipal manager</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-12">
+        <num>12.</num>
+        <heading>Control of anglers</heading>
+        <paragraph id="section-12.paragraph-0">
+          <content>
+            <blockList id="section-12.paragraph-0.list1">
+              <listIntroduction>No one may—</listIntroduction>
+              <item id="section-12.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>ﬁsh or angle from any part of the <term refersTo="#term-beach" id="trm120">beach</term> in contravention with a <term refersTo="#term-notice" id="trm121">notice</term>;</p>
+              </item>
+              <item id="section-12.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>where ﬁshing or angling is not prohibited, throw, cast or swing any line or gear in such a manner as to cause danger or annoyance to any other person, or</p>
+              </item>
+              <item id="section-12.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>leave any bait, angling equipment or refuse on the <term refersTo="#term-beach" id="trm122">beach</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-13">
+        <num>13.</num>
+        <heading>Control of ﬁres</heading>
+        <paragraph id="section-13.paragraph-0">
+          <content>
+            <p>No one may kindle a ﬁre on the <term refersTo="#term-beach" id="trm123">beach</term>, whether by gas operated equipment or otherwise, except at such places set aside for the purpose by the <term refersTo="#term-Council" id="trm124">Council</term> by means of a <term refersTo="#term-notice" id="trm125">notice</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-14">
+        <num>14.</num>
+        <heading>Bathing area</heading>
+        <paragraph id="section-14.paragraph-0">
+          <content>
+            <p>The <term refersTo="#term-Council" id="trm126">Council</term> may by means of a <term refersTo="#term-notice" id="trm127">notice</term> set aside and reserve any area of the <term refersTo="#term-beach" id="trm128">beach</term> or the <term refersTo="#term-sea" id="trm129">sea</term> including a <term refersTo="#term-tidal_pool" id="trm130">tidal pool</term> exclusively for bathing or sunbathing.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-15">
+        <num>15.</num>
+        <heading>Delegation</heading>
+        <paragraph id="section-15.paragraph-0">
+          <content>
+            <p>The <term refersTo="#term-municipal_manager" id="trm131">municipal manager</term> may in writing delegate any power or duty conferred on the <term refersTo="#term-municipal_manager" id="trm132">municipal manager</term> in terms of this by-law, to an official of the <term refersTo="#term-municipality" id="trm133">municipality</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-16">
+        <num>16.</num>
+        <heading>Offences and penalties</heading>
+        <paragraph id="section-16.paragraph-0">
+          <content>
+            <blockList id="section-16.paragraph-0.list1">
+              <listIntroduction>A person who—</listIntroduction>
+              <item id="section-16.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>contravenes a provision of this by-law;</p>
+              </item>
+              <item id="section-16.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>fails to comply to a <term refersTo="#term-notice" id="trm134">notice</term>;</p>
+              </item>
+              <item id="section-16.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>fails to comply with an instruction by an <term refersTo="#term-authorised_official" id="trm135">authorised official</term>, or</p>
+              </item>
+              <item id="section-16.paragraph-0.list1.d">
+                <num>(d)</num>
+                <p>obstructs or interferes with an <term refersTo="#term-authorised_official" id="trm136">authorised official</term> in the execution of his or her duties,</p>
+              </item>
+            </blockList>
+            <p>shall be guilty of an offence and on conviction liable to the payment of a ﬁne.</p>
+          </content>
+        </paragraph>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

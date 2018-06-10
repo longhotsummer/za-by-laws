@@ -1,0 +1,1601 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc033/act/by-law/2005/water/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/water"/>
+          <FRBRalias value="Water By-Law"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc033/act/by-law/2005/water/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/water/eng@2005-10-03"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc033/act/by-law/2005/water/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/water/eng@2005-10-03"/>
+          <FRBRdate date="2018-02-04" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-10-03" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" number="6303"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-borehole" href="/ontology/term/this.eng.borehole" showAs="borehole"/>
+        <TLCTerm id="term-commercial_purpose" href="/ontology/term/this.eng.commercial_purpose" showAs="commercial purpose"/>
+        <TLCTerm id="term-communication_pipe" href="/ontology/term/this.eng.communication_pipe" showAs="communication pipe"/>
+        <TLCTerm id="term-consumer" href="/ontology/term/this.eng.consumer" showAs="consumer"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-domestic_purposes" href="/ontology/term/this.eng.domestic_purposes" showAs="domestic purposes"/>
+        <TLCTerm id="term-emergency" href="/ontology/term/this.eng.emergency" showAs="emergency"/>
+        <TLCTerm id="term-fire_installation" href="/ontology/term/this.eng.fire_installation" showAs="fire installation"/>
+        <TLCTerm id="term-engineer" href="/ontology/term/this.eng.engineer" showAs="engineer"/>
+        <TLCTerm id="term-industrial_purposes" href="/ontology/term/this.eng.industrial_purposes" showAs="industrial purposes"/>
+        <TLCTerm id="term-installation_work" href="/ontology/term/this.eng.installation_work" showAs="installation work"/>
+        <TLCTerm id="term-main" href="/ontology/term/this.eng.main" showAs="main"/>
+        <TLCTerm id="term-municipality" href="/ontology/term/this.eng.municipality" showAs="municipality"/>
+        <TLCTerm id="term-municipal_manager" href="/ontology/term/this.eng.municipal_manager" showAs="municipal manager"/>
+        <TLCTerm id="term-meter" href="/ontology/term/this.eng.meter" showAs="meter"/>
+        <TLCTerm id="term-NBR" href="/ontology/term/this.eng.NBR" showAs="NBR"/>
+        <TLCTerm id="term-occupier" href="/ontology/term/this.eng.occupier" showAs="occupier"/>
+        <TLCTerm id="term-organ_of_state" href="/ontology/term/this.eng.organ_of_state" showAs="organ of state"/>
+        <TLCTerm id="term-owner" href="/ontology/term/this.eng.owner" showAs="owner"/>
+        <TLCTerm id="term-person" href="/ontology/term/this.eng.person" showAs="person"/>
+        <TLCTerm id="term-premises" href="/ontology/term/this.eng.premises" showAs="premises"/>
+        <TLCTerm id="term-Tariff_Policy_By-law" href="/ontology/term/this.eng.Tariff_Policy_By-law" showAs="Tariff Policy By-law"/>
+        <TLCTerm id="term-water_fitting" href="/ontology/term/this.eng.water_fitting" showAs="water fitting"/>
+        <TLCTerm id="term-water_installation" href="/ontology/term/this.eng.water_installation" showAs="water installation"/>
+        <TLCTerm id="term-water_supply_system" href="/ontology/term/this.eng.water_supply_system" showAs="water supply system"/>
+      </references>
+    </meta>
+    <body>
+      <part id="part-1">
+        <num>1</num>
+        <heading>Definitions and Application</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Definitions</heading>
+          <paragraph id="section-1.paragraph-0" refersTo="#term-water_supply_system">
+            <content>
+              <p>In these By-laws unless the context otherwise indicates—</p>
+              <p>"<def refersTo="#term-borehole">borehole</def>" means a hole sunk into the earth for the purpose of locating, abstracting or using subterranean water and includes a spring;</p>
+              <p>"<def refersTo="#term-commercial_purpose">commercial purpose</def>" in relation to the supply of water, means water supplied to <term refersTo="#term-premises" id="trm0">premises</term> to be used in the carrying on of a trade or business;</p>
+              <p>"<def refersTo="#term-communication_pipe">communication pipe</def>" means a pipe, the ownership of which is vested in the <term refersTo="#term-municipality" id="trm1">municipality</term> and installed by it for the purpose of conveying water from a <term refersTo="#term-main" id="trm2">main</term> to a <term refersTo="#term-water_installation" id="trm3">water installation</term>;</p>
+              <p>"<def refersTo="#term-consumer">consumer</def>" means the <term refersTo="#term-occupier" id="trm4">occupier</term> of any <term refersTo="#term-premises" id="trm5">premises</term> with whom the <term refersTo="#term-municipality" id="trm6">municipality</term> has contracted to supply water or the <term refersTo="#term-owner" id="trm7">owner</term> thereof, or any <term refersTo="#term-person" id="trm8">person</term> who has entered into a contract with the <term refersTo="#term-municipality" id="trm9">municipality</term> for the supply of water to such <term refersTo="#term-person" id="trm10">person</term>, or any <term refersTo="#term-person" id="trm11">person</term> who in any other way is lawfully obtaining water from the <term refersTo="#term-municipality" id="trm12">municipality</term>;</p>
+              <p>"<def refersTo="#term-Council">Council</def>" means the council of the <term refersTo="#term-municipality" id="trm13">municipality</term>;</p>
+              <p>"<def refersTo="#term-domestic_purposes">domestic purposes</def>" in relation to the supply of water means the general use of water supplied for personal and residential uses including health and hygiene, drinking, ablution, culinary, household and garden maintenance;</p>
+              <p>"<def refersTo="#term-emergency">emergency</def>" means any situation that poses a risk or potential risk to life, health, the environment or property, or declared to be an <term refersTo="#term-emergency" id="trm14">emergency</term> under any law;</p>
+              <p>"<def refersTo="#term-fire_installation">fire installation</def>" means a <term refersTo="#term-water_installation" id="trm15">water installation</term> that conveys water for fire-fighting purposes only;</p>
+              <p>"<def refersTo="#term-engineer">engineer</def>" means an employee of the <term refersTo="#term-municipality" id="trm16">municipality</term> who is head of the department responsible for water services;</p>
+              <p>"<def refersTo="#term-industrial_purposes">industrial purposes</def>" in relation to the supply of water means water supplied to any <term refersTo="#term-premises" id="trm17">premises</term> which constitutes a factory; or the use of water for purposes of mining, manufacturing, generating electricity, land-based transport, construction or any related purpose.</p>
+              <p>"<def refersTo="#term-installation_work">installation work</def>" means work in respect of the construction of, or carried out on, a <term refersTo="#term-water_installation" id="trm18">water installation</term>;</p>
+              <p>"<def refersTo="#term-main">main</def>" means a pipe, other than a <term refersTo="#term-communication_pipe" id="trm19">communication pipe</term>, vesting in the <term refersTo="#term-municipality" id="trm20">municipality</term> and used by it for the purpose of conveying water to any number of consumers;</p>
+              <p>"<def refersTo="#term-municipality">municipality</def>" means the Municipality of Cape Agulhas;</p>
+              <p>"<def refersTo="#term-municipal_manager">municipal manager</def>" means the <term refersTo="#term-person" id="trm21">person</term> appointed by the <term refersTo="#term-Council" id="trm22">Council</term> as the Municipal Manager in terms of the Local Government: Municipal Systems Act, 1998;</p>
+              <p>"<def refersTo="#term-meter">meter</def>" means a device which measures the quantity of water passing through it;</p>
+              <p>"<def refersTo="#term-NBR">NBR</def>" means the National Building Regulations made in terms of the National Building Regulations and Building Standards Act, 1997. (<ref href="/za/act/1977/103">Act 103 of 1977</ref>);</p>
+              <p>"<def refersTo="#term-occupier">occupier</def>" means a <term refersTo="#term-person" id="trm23">person</term> who occupies any <term refersTo="#term-premises" id="trm24">premises</term> or part thereof;</p>
+              <p>"<def refersTo="#term-organ_of_state">organ of state</def>" means an <term refersTo="#term-organ_of_state" id="trm25">organ of state</term> as defined in section 239 of the Constitution, <ref href="/za/act/1996/107">Act 107 of 1996</ref>;</p>
+              <p>"<def refersTo="#term-owner">owner</def>" means an <term refersTo="#term-owner" id="trm26">owner</term> of <term refersTo="#term-premises" id="trm27">premises</term>;</p>
+              <p>"<def refersTo="#term-person">person</def>" means any natural or juristic <term refersTo="#term-person" id="trm28">person</term>, an unincorporated body, and includes a voluntary association or trust;</p>
+              <p>"<def refersTo="#term-premises">premises</def>" means any piece of land, with or without improvements;</p>
+              <p>"<def refersTo="#term-Tariff_Policy_By-law">Tariff Policy By-law</def>", means the <term refersTo="#term-Tariff_Policy_By-law" id="trm29">Tariff Policy By-law</term> adopted by the council and published in Provincial Gazette;</p>
+              <p>"<def refersTo="#term-water_fitting">water fitting</def>" means a component of a <term refersTo="#term-water_installation" id="trm30">water installation</term>, other than a pipe, through which water passes or in which it is stored;</p>
+              <p>"<def refersTo="#term-water_installation">water installation</def>" means the pipes and water fittings which are situated on any <term refersTo="#term-premises" id="trm31">premises</term> and vested in the <term refersTo="#term-owner" id="trm32">owner</term> thereof and used or intended to be used in connection with the use of water on such <term refersTo="#term-premises" id="trm33">premises</term>, and includes a pipe and <term refersTo="#term-water_fitting" id="trm34">water fitting</term> situated outside the boundary of the <term refersTo="#term-premises" id="trm35">premises</term>, which either connects to the <term refersTo="#term-communication_pipe" id="trm36">communication pipe</term> relating to such <term refersTo="#term-premises" id="trm37">premises</term> or is otherwise laid with the permission of the <term refersTo="#term-Council" id="trm38">Council</term>;</p>
+              <p>"<def refersTo="#term-water_supply_system">water supply system</def>" means the structures, aqueducts, pipes, valves, pumps, meters or other apparatus relating thereto which are vested in the <term refersTo="#term-municipality" id="trm39">municipality</term> and are used or intended to be used in connection with the supply of water.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Application of this by-law</heading>
+          <subsection id="section-2.1">
+            <num>(1)</num>
+            <content>
+              <p>This by-law binds an <term refersTo="#term-organ_of_state" id="trm40">organ of state</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.2">
+            <num>(2)</num>
+            <content>
+              <p>This by-law is only applicable in those areas where the <term refersTo="#term-municipality" id="trm41">municipality</term> provides a water supply service.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.3">
+            <num>(3)</num>
+            <content>
+              <p>Water is supplied in terms of the provisions of this by-law, but where in the opinion of the <term refersTo="#term-Council" id="trm42">Council</term> it is not reasonably possible or cost effective to supply water in the manner contemplated by this by-law to each <term refersTo="#term-consumer" id="trm43">consumer</term> within a particular area, the <term refersTo="#term-Council" id="trm44">Council</term> may, in consultation with the official in charge of health services, determine an alternative manner of water supply.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.4">
+            <num>(4)</num>
+            <content>
+              <p>Where the <term refersTo="#term-Council" id="trm45">Council</term> has determined an alternative manner of water supply in terms of subsection (3), this by-law will, to the extent necessary, apply to the supply of water to such area, subject however to such conditions as the <term refersTo="#term-Council" id="trm46">Council</term> may determine.</p>
+            </content>
+          </subsection>
+          <subsection id="section-2.5">
+            <num>(5)</num>
+            <content>
+              <p>If the <term refersTo="#term-municipality" id="trm47">municipality</term> decides to provide a water service by means of a service delivery agreement with an external service provider as contemplated in Chapter 8 of the Systems Act, the power and duties of the <term refersTo="#term-municipality" id="trm48">municipality</term>, the council, the <term refersTo="#term-municipal_manager" id="trm49">municipal manager</term> and <term refersTo="#term-engineer" id="trm50">engineer</term> as defined in this by-law, must be construed as a reference to such external service provider; provided that the ownership of the <term refersTo="#term-water_supply_system" id="trm51">water supply system</term> will remain with the council; and provided further that the external service provider will have no power to impose water restriction.</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part id="part-2">
+        <num>2</num>
+        <heading>General Conditions of Supply</heading>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Application for supply</heading>
+          <subsection id="section-3.1">
+            <num>(1)</num>
+            <content>
+              <p>No water from the <term refersTo="#term-water_supply_system" id="trm52">water supply system</term> will be supplied to any <term refersTo="#term-premises" id="trm53">premises</term> unless the <term refersTo="#term-owner" id="trm54">owner</term> or <term refersTo="#term-occupier" id="trm55">occupier</term> has applied to the <term refersTo="#term-municipal_manager" id="trm56">municipal manager</term> for a supply and such application has been agreed to.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.2">
+            <num>(2)</num>
+            <content>
+              <p>An application for the supply of water approved by the <term refersTo="#term-municipal_manager" id="trm57">municipal manager</term> constitutes an agreement between the <term refersTo="#term-municipality" id="trm58">municipality</term> and the <term refersTo="#term-owner" id="trm59">owner</term> or <term refersTo="#term-occupier" id="trm60">occupier</term> and takes effect on the date referred to in the application.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-owner" id="trm61">owner</term> or <term refersTo="#term-occupier" id="trm62">occupier</term> is liable for all the fees in respect of the supply of water, determined in terms of the <term refersTo="#term-Tariff_Policy_By-law" id="trm63">Tariff Policy By-law</term>, until the agreement has been terminated in accordance with this By-law, and is deemed to be the <term refersTo="#term-consumer" id="trm64">consumer</term> for all purposes during the currency of the agreement.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-municipal_manager" id="trm65">municipal manager</term> may require any other <term refersTo="#term-person" id="trm66">person</term> to bind himself or herself jointly and severally with the <term refersTo="#term-consumer" id="trm67">consumer</term>, for the payment of any fees payable under this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.5">
+            <num>(5)</num>
+            <content>
+              <blockList id="section-3.5.list1">
+                <listIntroduction>An application must contain at least the following information:</listIntroduction>
+                <item id="section-3.5.list1.a">
+                  <num>(a)</num>
+                  <p>a declaration that the applicant is aware of and understands the contents of the agreement;</p>
+                </item>
+                <item id="section-3.5.list1.b">
+                  <num>(b)</num>
+                  <p>acceptance by the applicant of the provisions of this By-law and acceptance of liability for the cost of the supply of water until the agreement is terminated;</p>
+                </item>
+                <item id="section-3.5.list1.c">
+                  <num>(c)</num>
+                  <p>the name of the proposed <term refersTo="#term-consumer" id="trm68">consumer</term> and his or her identity number;</p>
+                </item>
+                <item id="section-3.5.list1.d">
+                  <num>(d)</num>
+                  <p>the address or erf number of the <term refersTo="#term-premises" id="trm69">premises</term> to or on which water is to be supplied;</p>
+                </item>
+                <item id="section-3.5.list1.e">
+                  <num>(e)</num>
+                  <p>the address where accounts must be sent;</p>
+                </item>
+                <item id="section-3.5.list1.f">
+                  <num>(f)</num>
+                  <p>the purpose for which the water is to be used;</p>
+                </item>
+                <item id="section-3.5.list1.g">
+                  <num>(g)</num>
+                  <p>the agreed date on which the supply of water will commence.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-3.6">
+            <num>(6)</num>
+            <content>
+              <p>Water is supplied to a <term refersTo="#term-consumer" id="trm70">consumer</term> subject to the provisions of this By-law and the conditions imposed by the <term refersTo="#term-municipal_manager" id="trm71">municipal manager</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Fees</heading>
+          <paragraph id="section-4.paragraph-0">
+            <content>
+              <p>All fees payable for the supply of water by the <term refersTo="#term-municipality" id="trm72">municipality</term>, must be in accordance with the <term refersTo="#term-Tariff_Policy_By-law" id="trm73">Tariff Policy By-law</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Deposit</heading>
+          <paragraph id="section-5.paragraph-0">
+            <content>
+              <p>Every <term refersTo="#term-consumer" id="trm74">consumer</term> must on application for the supply of water and before water will be supplied by the <term refersTo="#term-municipality" id="trm75">municipality</term>, deposit with the <term refersTo="#term-municipality" id="trm76">municipality</term> a sum of money determined in terms of the <term refersTo="#term-Tariff_Policy_By-law" id="trm77">Tariff Policy By-law</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Termination of agreements</heading>
+          <subsection id="section-6.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-consumer" id="trm78">consumer</term> may terminate an agreement for the provision of water services by giving the <term refersTo="#term-municipality" id="trm79">municipality</term> not less than thirty days’ notice in writing of his or her intention to do so.</p>
+            </content>
+          </subsection>
+          <subsection id="section-6.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-6.2.list1">
+                <listIntroduction>The <term refersTo="#term-municipal_manager" id="trm80">municipal manager</term> may, by notice in writing of not less than fourteen days, advise a <term refersTo="#term-consumer" id="trm81">consumer</term> of the termination of his or her agreement for the supply of water if—</listIntroduction>
+                <item id="section-6.2.list1.a">
+                  <num>(a)</num>
+                  <p>he or she has not used water during the preceding six months and has not made arrangements to the satisfaction of the <term refersTo="#term-municipal_manager" id="trm82">municipal manager</term> for the continuation of the agreement; or</p>
+                </item>
+                <item id="section-6.2.list1.b">
+                  <num>(b)</num>
+                  <p>he or she has failed to comply with the provisions of this By-law and has failed to rectify such failure to comply following the issue of a notice; or</p>
+                </item>
+                <item id="section-6.2.list1.c">
+                  <num>(c)</num>
+                  <p>he or she has failed to pay any fees due and payable in terms of the <term refersTo="#term-Tariff_Policy_By-law" id="trm83">Tariff Policy By-law</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-6.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-municipal_manager" id="trm84">municipal manager</term> may terminate an agreement for the supply of water if a <term refersTo="#term-consumer" id="trm85">consumer</term> has vacated the <term refersTo="#term-premises" id="trm86">premises</term> to which such agreement relates.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Discontinuation of supply</heading>
+          <subsection id="section-7.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-7.1.list1">
+                <listIntroduction>The <term refersTo="#term-municipal_manager" id="trm87">municipal manager</term> may limit or discontinue the supply of water to any <term refersTo="#term-premises" id="trm88">premises</term>—</listIntroduction>
+                <item id="section-7.1.list1.a">
+                  <num>(a)</num>
+                  <p>on failure of the <term refersTo="#term-consumer" id="trm89">consumer</term> to pay the fees due on the date specified, in terms of the <term refersTo="#term-Tariff_Policy_By-law" id="trm90">Tariff Policy By-law</term>; or</p>
+                </item>
+                <item id="section-7.1.list1.b">
+                  <num>(b)</num>
+                  <p>at the written request of a <term refersTo="#term-consumer" id="trm91">consumer</term>; or</p>
+                </item>
+                <item id="section-7.1.list1.c">
+                  <num>(c)</num>
+                  <p>if the agreement for the supply of water has been terminated in terms of section 6 and it has not received an application for a subsequent supply of water to the <term refersTo="#term-premises" id="trm92">premises</term> within a period of ninety days of such termination;</p>
+                </item>
+                <item id="section-7.1.list1.d">
+                  <num>(d)</num>
+                  <p>if the improvements on <term refersTo="#term-premises" id="trm93">premises</term> to which water was supplied have been demolished;</p>
+                </item>
+                <item id="section-7.1.list1.e">
+                  <num>(e)</num>
+                  <p>if the <term refersTo="#term-consumer" id="trm94">consumer</term> has wilfully or negligently damaged, or caused or permitted to be damaged any <term refersTo="#term-main" id="trm95">main</term>, communicating pipe, <term refersTo="#term-meter" id="trm96">meter</term> or other equipment belonging to the <term refersTo="#term-Council" id="trm97">Council</term> and used or intended to be used in connection with the supply of water;</p>
+                </item>
+                <item id="section-7.1.list1.f">
+                  <num>(f)</num>
+                  <p>if the <term refersTo="#term-consumer" id="trm98">consumer</term> tampered with, or caused or permitted any tampering or interference with any equipment under the <term refersTo="#term-municipality" id="trm99">municipality</term>’s control and used or intended to be used by it in connection with the supply of water;</p>
+                </item>
+                <item id="section-7.1.list1.g">
+                  <num>(g)</num>
+                  <p>if the <term refersTo="#term-consumer" id="trm100">consumer</term> has unlawfully interfered with the supply of water in any way;</p>
+                </item>
+                <item id="section-7.1.list1.h">
+                  <num>(h)</num>
+                  <p>if there has been abuse of the supply of water by the <term refersTo="#term-consumer" id="trm101">consumer</term>;</p>
+                </item>
+              </blockList>
+              <p>Provided that in all cases referred to in paragraphs (c), (e), (f), (g) and (h) not less than seven days notice must be given to the <term refersTo="#term-consumer" id="trm102">consumer</term> that the supply of water is to be terminated.</p>
+            </content>
+          </subsection>
+          <subsection id="section-7.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-municipality" id="trm103">municipality</term> is not liable for any damages or claims that may arise from the discontinuation of the supply of water in terms of subsection (1).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Restoration of supply</heading>
+          <paragraph id="section-8.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-municipal_manager" id="trm104">municipal manager</term> will, where a supply of water has been discontinued, only restore it when the fee for the discontinuation and reconnection of the water has been paid.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Purpose of supply</heading>
+          <paragraph id="section-9.paragraph-0">
+            <content>
+              <p>If the purpose or extent for which the supply of water is used, is changed, the <term refersTo="#term-consumer" id="trm105">consumer</term> must inform the <term refersTo="#term-municipal_manager" id="trm106">municipal manager</term> and must enter into a new agreement with the <term refersTo="#term-municipality" id="trm107">municipality</term>, effective from the date on which such change of use took or will take effect.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Interference with <term refersTo="#term-water_supply_system" id="trm108">water supply system</term></heading>
+          <subsection id="section-10.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-10.1.list1">
+                <listIntroduction>No <term refersTo="#term-person" id="trm109">person</term> may—</listIntroduction>
+                <item id="section-10.1.list1.a">
+                  <num>(a)</num>
+                  <p>operate or maintain any part of the <term refersTo="#term-water_supply_system" id="trm110">water supply system</term>; or</p>
+                </item>
+                <item id="section-10.1.list1.b">
+                  <num>(b)</num>
+                  <p>effect a connection to the <term refersTo="#term-water_supply_system" id="trm111">water supply system</term>;</p>
+                </item>
+              </blockList>
+              <p>unless in any such case he or she has been authorised by the <term refersTo="#term-engineer" id="trm112">engineer</term> in writing.</p>
+            </content>
+          </subsection>
+          <subsection id="section-10.2">
+            <num>(2)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm113">person</term> may interfere with, or willfully or negligently damage, or permit damage to or interference with any part of the <term refersTo="#term-water_supply_system" id="trm114">water supply system</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Access to <term refersTo="#term-water_supply_system" id="trm115">water supply system</term></heading>
+          <paragraph id="section-11.paragraph-0">
+            <content>
+              <p>No <term refersTo="#term-person" id="trm116">person</term> may prevent or restrict physical access to the <term refersTo="#term-water_supply_system" id="trm117">water supply system</term> by any employee of the <term refersTo="#term-municipality" id="trm118">municipality</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Testing of pressure in water supply systems</heading>
+          <paragraph id="section-12.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm119">engineer</term> may, on application by an <term refersTo="#term-owner" id="trm120">owner</term> and on payment of the required fee, determine and furnish the <term refersTo="#term-owner" id="trm121">owner</term> with the value of the pressure in the <term refersTo="#term-water_supply_system" id="trm122">water supply system</term> relating to his or her <term refersTo="#term-premises" id="trm123">premises</term> over such period as the <term refersTo="#term-owner" id="trm124">owner</term> may request.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>No undertaking or warranty by council</heading>
+          <paragraph id="section-13.paragraph-0">
+            <content>
+              <blockList id="section-13.paragraph-0.list1">
+                <listIntroduction>The <term refersTo="#term-municipality" id="trm125">municipality</term> does not undertake to maintain at any time or any point in its <term refersTo="#term-water_supply_system" id="trm126">water supply system</term>—</listIntroduction>
+                <item id="section-13.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>an uninterrupted supply;</p>
+                </item>
+                <item id="section-13.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>a specific pressure or rate of ﬂow in such supply; or</p>
+                </item>
+                <item id="section-13.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>a specific standard of quality of water,</p>
+                </item>
+              </blockList>
+              <p>provided that, if the water supply is interrupted for more than 24 hours, then the <term refersTo="#term-engineer" id="trm127">engineer</term> must provide an alternative supply of water to meet basic needs.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>Interruption in an <term refersTo="#term-emergency" id="trm128">emergency</term></heading>
+          <paragraph id="section-14.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm129">engineer</term> may, in an <term refersTo="#term-emergency" id="trm130">emergency</term>, interrupt the supply of water to any <term refersTo="#term-premises" id="trm131">premises</term> without prior notice.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Restrictions on <term refersTo="#term-consumer" id="trm132">consumer</term> for benefit of others</heading>
+          <paragraph id="section-15.paragraph-0">
+            <content>
+              <p>If, in the opinion of the <term refersTo="#term-Council" id="trm133">Council</term>, the consumption of water by a <term refersTo="#term-consumer" id="trm134">consumer</term> adversely affects the supply of water to any other <term refersTo="#term-consumer" id="trm135">consumer</term>, it may apply such restrictions as it may deem fit to the supply of water to the first mentioned <term refersTo="#term-consumer" id="trm136">consumer</term> in order to ensure a reasonable supply of water to the other <term refersTo="#term-consumer" id="trm137">consumer</term> or consumers concerned and must inform that the first mentioned <term refersTo="#term-consumer" id="trm138">consumer</term> of such restrictions.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Cistern for continuous supply</heading>
+          <paragraph id="section-16.paragraph-0">
+            <content>
+              <p>Every steam boiler and any <term refersTo="#term-premises" id="trm139">premises</term> which require, for the purpose of the work undertaken on the <term refersTo="#term-premises" id="trm140">premises</term>, a continuous supply of water must have a cistern fitted and in working order and holding not less than half a day’s supply calculated according to the average daily consumption of that boiler.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Resale of water</heading>
+          <paragraph id="section-17.paragraph-0">
+            <content>
+              <p>No <term refersTo="#term-consumer" id="trm141">consumer</term> may resell water supplied to him by the <term refersTo="#term-municipality" id="trm142">municipality</term> except with the written permission of the <term refersTo="#term-Council" id="trm143">Council</term>, which may stipulate the maximum price at which the water may be resold, and may impose such other conditions as the <term refersTo="#term-Council" id="trm144">Council</term> may deem fit.</p>
+            </content>
+          </paragraph>
+        </section>
+      </part>
+      <part id="part-3">
+        <num>3</num>
+        <heading>Connection to Water Supply System</heading>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Provision of <term refersTo="#term-communication_pipe" id="trm145">communication pipe</term></heading>
+          <subsection id="section-18.1">
+            <num>(1)</num>
+            <content>
+              <p>If an agreement for water supply has been concluded and no <term refersTo="#term-communication_pipe" id="trm146">communication pipe</term> exists in respect of the <term refersTo="#term-premises" id="trm147">premises</term>, the <term refersTo="#term-consumer" id="trm148">consumer</term> must make application and pay the fee for the installation of such a pipe, as determined in terms of the <term refersTo="#term-Tariff_Policy_By-law" id="trm149">Tariff Policy By-law</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.2">
+            <num>(2)</num>
+            <content>
+              <p>Upon payment of the fee for the installation of a <term refersTo="#term-communication_pipe" id="trm150">communication pipe</term> the <term refersTo="#term-engineer" id="trm151">engineer</term> must lay down and maintain a <term refersTo="#term-communication_pipe" id="trm152">communication pipe</term> to serve the <term refersTo="#term-premises" id="trm153">premises</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-18.3">
+            <num>(3)</num>
+            <content>
+              <p>If it is necessary to extend, modify or upgrade the <term refersTo="#term-water_supply_system" id="trm154">water supply system</term> in order to supply water to the <term refersTo="#term-premises" id="trm155">premises</term>, the <term refersTo="#term-engineer" id="trm156">engineer</term> may undertake such extension, modification or upgrade if the <term refersTo="#term-owner" id="trm157">owner</term> agrees to pay for the cost thereof, as determined in terms of theTariff Policy By-law.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-19">
+          <num>19.</num>
+          <heading>Location of communication pipes</heading>
+          <subsection id="section-19.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-19.1.list1">
+                <listIntroduction>A <term refersTo="#term-communication_pipe" id="trm158">communication pipe</term> must—</listIntroduction>
+                <item id="section-19.1.list1.a">
+                  <num>(a)</num>
+                  <p>be located in a position determined by the <term refersTo="#term-engineer" id="trm159">engineer</term> after consultation with the <term refersTo="#term-consumer" id="trm160">consumer</term> and be of a suitable size as determined by the <term refersTo="#term-engineer" id="trm161">engineer</term>;</p>
+                </item>
+                <item id="section-19.1.list1.b">
+                  <num>(b)</num>
+                  <blockList id="section-19.1.list1.b.list0">
+                    <listIntroduction>terminate at—</listIntroduction>
+                    <item id="section-19.1.list1.b.list0.i">
+                      <num>(i)</num>
+                      <p>the boundary between the land owned by or vested in the <term refersTo="#term-municipality" id="trm162">municipality</term>, or over which <term refersTo="#term-municipality" id="trm163">municipality</term> has a servitude or other right, and the adjoining land in private ownership which is not burdened by any such servitude or other right; or</p>
+                    </item>
+                    <item id="section-19.1.list1.b.list0.ii">
+                      <num>(ii)</num>
+                      <p>at the outlet of the water <term refersTo="#term-meter" id="trm164">meter</term> connected to the <term refersTo="#term-water_installation" id="trm165">water installation</term> to be connected to the water <term refersTo="#term-main" id="trm166">main</term> if the water <term refersTo="#term-meter" id="trm167">meter</term> is situated on the <term refersTo="#term-premises" id="trm168">premises</term>.</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-19.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm169">engineer</term> may agree, subject to such conditions as it may impose, to a connection to a <term refersTo="#term-main" id="trm170">main</term> other than that which is most readily available for the provision of water supply to the <term refersTo="#term-premises" id="trm171">premises</term>; provided that the <term refersTo="#term-consumer" id="trm172">consumer</term> is responsible for any extension of the <term refersTo="#term-water_installation" id="trm173">water installation</term> to the connecting point designated and agreed to by the <term refersTo="#term-engineer" id="trm174">engineer</term> and for obtaining at his or her cost, such servitudes over other property as may be necessary.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>Single Water Connection for Supply to Several Consumers on Same Premises</heading>
+          <subsection id="section-20.1">
+            <num>(1)</num>
+            <content>
+              <p>Only one <term refersTo="#term-communication_pipe" id="trm175">communication pipe</term> may be provided to any <term refersTo="#term-premises" id="trm176">premises</term>, irrespective of the number of accommodation units, business units or consumers located on such <term refersTo="#term-premises" id="trm177">premises</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-20.2.list1">
+                <listIntroduction>Where the <term refersTo="#term-consumer" id="trm178">consumer</term>, or the <term refersTo="#term-person" id="trm179">person</term> having the charge or management of any <term refersTo="#term-premises" id="trm180">premises</term> on which several accommodation units, and/or business units or consumers are situated, requires the supply of water to such <term refersTo="#term-premises" id="trm181">premises</term> for the purpose of separate supply to the different units or consumers, the <term refersTo="#term-engineer" id="trm182">engineer</term> may, in his or her discretion, provide and install either—</listIntroduction>
+                <item id="section-20.2.list1.a">
+                  <num>(a)</num>
+                  <p>a single <term refersTo="#term-meter" id="trm183">meter</term> in respect of the <term refersTo="#term-premises" id="trm184">premises</term> as a whole or any number of such units or consumers; or</p>
+                </item>
+                <item id="section-20.2.list1.b">
+                  <num>(b)</num>
+                  <p>a separate <term refersTo="#term-meter" id="trm185">meter</term> for each such unit or <term refersTo="#term-consumer" id="trm186">consumer</term> or any number thereof.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-20.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-20.3.list1">
+                <listIntroduction>Where the <term refersTo="#term-engineer" id="trm187">engineer</term> has installed a single <term refersTo="#term-meter" id="trm188">meter</term> as contemplated in subsection (2)(a), the <term refersTo="#term-consumer" id="trm189">consumer</term> or the <term refersTo="#term-person" id="trm190">person</term> having the charge or management of the <term refersTo="#term-premises" id="trm191">premises</term>, as the case may be—</listIntroduction>
+                <item id="section-20.3.list1.a">
+                  <num>(a)</num>
+                  <blockList id="section-20.3.list1.a.list0">
+                    <listIntroduction>must, if the <term refersTo="#term-engineer" id="trm192">engineer</term> so requires, install and maintain on each branch pipe extending from the <term refersTo="#term-communication_pipe" id="trm193">communication pipe</term> to the different units or consumers</listIntroduction>
+                    <item id="section-20.3.list1.a.list0.i">
+                      <num>(i)</num>
+                      <p>a separate <term refersTo="#term-meter" id="trm194">meter</term>; and</p>
+                    </item>
+                    <item id="section-20.3.list1.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>an isolating valve; and</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-20.3.list1.b">
+                  <num>(b)</num>
+                  <p>will be liable to the <term refersTo="#term-municipality" id="trm195">municipality</term> for the fees for water, determined in terms of the <term refersTo="#term-Tariff_Policy_By-law" id="trm196">Tariff Policy By-law</term> and supplied to the <term refersTo="#term-premises" id="trm197">premises</term> through such a single <term refersTo="#term-meter" id="trm198">meter</term>, irrespective of the different quantities consumed by the different consumers served by such <term refersTo="#term-meter" id="trm199">meter</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-20.4">
+            <num>(4)</num>
+            <content>
+              <p>Despite subsection (1), the <term refersTo="#term-Council" id="trm200">Council</term> may permit more than one <term refersTo="#term-communication_pipe" id="trm201">communication pipe</term> to be provided on the <term refersTo="#term-water_supply_system" id="trm202">water supply system</term> for the supply of water to any <term refersTo="#term-premises" id="trm203">premises</term> comprising sectional title units or if, in the opinion of the <term refersTo="#term-Council" id="trm204">Council</term>, undue hardship or inconvenience would be caused to any <term refersTo="#term-consumer" id="trm205">consumer</term> on such <term refersTo="#term-premises" id="trm206">premises</term> by the provision of only one <term refersTo="#term-communication_pipe" id="trm207">communication pipe</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.5">
+            <num>(5)</num>
+            <content>
+              <p>Where the provision of more than one <term refersTo="#term-communication_pipe" id="trm208">communication pipe</term> is authorised by the <term refersTo="#term-Council" id="trm209">Council</term> under subsection (4), the fees for the provision of a <term refersTo="#term-communication_pipe" id="trm210">communication pipe</term>, determined in terms of the <term refersTo="#term-Tariff_Policy_By-law" id="trm211">Tariff Policy By-law</term>, are payable in respect of each water connection so provided.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.6">
+            <num>(6)</num>
+            <content>
+              <p>Where <term refersTo="#term-premises" id="trm212">premises</term> are supplied with water by a number of communication pipes, the <term refersTo="#term-Council" id="trm213">Council</term> may require the <term refersTo="#term-consumer" id="trm214">consumer</term> to reduce the number of connection points and alter his or her <term refersTo="#term-water_installation" id="trm215">water installation</term> accordingly at the <term refersTo="#term-consumer" id="trm216">consumer</term>’s expense.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-21">
+          <num>21.</num>
+          <heading>Interconnection between <term refersTo="#term-premises" id="trm217">premises</term> or water installations</heading>
+          <paragraph id="section-21.paragraph-0">
+            <content>
+              <blockList id="section-21.paragraph-0.list1">
+                <listIntroduction>A <term refersTo="#term-consumer" id="trm218">consumer</term> must ensure that no interconnection exists between—</listIntroduction>
+                <item id="section-21.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>the <term refersTo="#term-water_installation" id="trm219">water installation</term> on his or her <term refersTo="#term-premises" id="trm220">premises</term> and the <term refersTo="#term-water_installation" id="trm221">water installation</term> on any other <term refersTo="#term-premises" id="trm222">premises</term>; or</p>
+                </item>
+                <item id="section-21.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>where several dwelling or business units are situated on the same <term refersTo="#term-premises" id="trm223">premises</term>, the water installations of such units;</p>
+                </item>
+              </blockList>
+              <p>unless he or she has obtained the prior written consent of the <term refersTo="#term-engineer" id="trm224">engineer</term> and complies with any conditions that may have been imposed.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-22">
+          <num>22.</num>
+          <heading>Disconnection of <term refersTo="#term-water_installation" id="trm225">water installation</term> from <term refersTo="#term-communication_pipe" id="trm226">communication pipe</term></heading>
+          <paragraph id="section-22.paragraph-0">
+            <content>
+              <blockList id="section-22.paragraph-0.list1">
+                <listIntroduction>The <term refersTo="#term-engineer" id="trm227">engineer</term> may disconnect a <term refersTo="#term-water_installation" id="trm228">water installation</term> from the <term refersTo="#term-communication_pipe" id="trm229">communication pipe</term> and remove the <term refersTo="#term-communication_pipe" id="trm230">communication pipe</term> if—</listIntroduction>
+                <item id="section-22.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>the agreement for supply has been terminated in terms of section 6 and it has not received an application for a subsequent supply of water to the <term refersTo="#term-premises" id="trm231">premises</term> served by the pipe within a period of 90 days of such termination; or</p>
+                </item>
+                <item id="section-22.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>the building on the <term refersTo="#term-premises" id="trm232">premises</term> concerned has been or is in the process of being demolished pursuant to the grant of a permit for such demolition in terms of law.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-23">
+          <num>23.</num>
+          <heading>Connection of <term refersTo="#term-water_installation" id="trm233">water installation</term> to <term refersTo="#term-main" id="trm234">main</term></heading>
+          <paragraph id="section-23.paragraph-0">
+            <content>
+              <p>No <term refersTo="#term-person" id="trm235">person</term> other than the <term refersTo="#term-engineer" id="trm236">engineer</term> may connect any <term refersTo="#term-water_installation" id="trm237">water installation</term> to a <term refersTo="#term-main" id="trm238">main</term>; provided that a <term refersTo="#term-consumer" id="trm239">consumer</term> may connect a <term refersTo="#term-water_installation" id="trm240">water installation</term> to a <term refersTo="#term-communication_pipe" id="trm241">communication pipe</term> or, in the case of a <term refersTo="#term-meter" id="trm242">meter</term> installed on any <term refersTo="#term-premises" id="trm243">premises</term>, to the outlet pipe from such <term refersTo="#term-meter" id="trm244">meter</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-24">
+          <num>24.</num>
+          <heading>Height of supply</heading>
+          <paragraph id="section-24.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm245">engineer</term> may specify the maximum height above ground level or mean sea level to which water will be supplied from the <term refersTo="#term-water_supply_system" id="trm246">water supply system</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-25">
+          <num>25.</num>
+          <heading>Pipes in streets or public places</heading>
+          <paragraph id="section-25.paragraph-0">
+            <content>
+              <p>No <term refersTo="#term-person" id="trm247">person</term> may, for the purpose of conveying water derived from whatever source, lay or construct a pipe or associated component on, in or under a street, public place or other land owned by, vested in, or under the control of the <term refersTo="#term-municipality" id="trm248">municipality</term>, except with the prior written permission of the <term refersTo="#term-engineer" id="trm249">engineer</term> and subject to such conditions as the <term refersTo="#term-engineer" id="trm250">engineer</term> may impose.</p>
+            </content>
+          </paragraph>
+        </section>
+      </part>
+      <part id="part-4">
+        <num>4</num>
+        <heading>Temporary Supply</heading>
+        <section id="section-26">
+          <num>26.</num>
+          <heading>Water supplied from a hydrant</heading>
+          <subsection id="section-26.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm251">engineer</term> may authorise a temporary supply of water to be taken from one or more fire hydrants specified by him or her, subject to such conditions and for such period as may be generally prescribed or specifically imposed by him or her in respect of such supply.</p>
+            </content>
+          </subsection>
+          <subsection id="section-26.2">
+            <num>(2)</num>
+            <content>
+              <p>Except in an <term refersTo="#term-emergency" id="trm252">emergency</term>, a <term refersTo="#term-person" id="trm253">person</term> who requires a temporary supply of water referred to in subsection (1) must apply therefor.</p>
+            </content>
+          </subsection>
+          <subsection id="section-26.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm254">engineer</term> must, for the purpose of supplying water from a hydrant, provide a portable water <term refersTo="#term-meter" id="trm255">meter</term> to be returned to the <term refersTo="#term-engineer" id="trm256">engineer</term> on termination of the temporary supply, which portable <term refersTo="#term-meter" id="trm257">meter</term> and all other fittings and apparatus used for the connection of the portable water <term refersTo="#term-meter" id="trm258">meter</term> to a hydrant, remains the property of the <term refersTo="#term-municipality" id="trm259">municipality</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part id="part-5">
+        <num>5</num>
+        <heading>Measurement of Water Supply</heading>
+        <section id="section-27">
+          <num>27.</num>
+          <heading>Provision of meters</heading>
+          <subsection id="section-27.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-municipality" id="trm260">municipality</term> supplies all meters required for measuring the quantity of water that it supplies.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm261">engineer</term> determines the size of a <term refersTo="#term-meter" id="trm262">meter</term> to be installed on any <term refersTo="#term-premises" id="trm263">premises</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.3">
+            <num>(3)</num>
+            <content>
+              <p>If the <term refersTo="#term-engineer" id="trm264">engineer</term> considers that the size of the <term refersTo="#term-meter" id="trm265">meter</term> is unsuitable by reason of the quantity of water supplied to <term refersTo="#term-premises" id="trm266">premises</term>, the <term refersTo="#term-engineer" id="trm267">engineer</term> may install a <term refersTo="#term-meter" id="trm268">meter</term> of such size as he or she may deem necessary, and may recover from the <term refersTo="#term-owner" id="trm269">owner</term> of the <term refersTo="#term-premises" id="trm270">premises</term> concerned the fee for the installation of the replacement <term refersTo="#term-meter" id="trm271">meter</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm272">engineer</term> may at any time and at the expense of the <term refersTo="#term-municipality" id="trm273">municipality</term> disconnect and remove any <term refersTo="#term-meter" id="trm274">meter</term> and install in his or her discretion any other <term refersTo="#term-meter" id="trm275">meter</term> in substitution thereof.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-28">
+          <num>28.</num>
+          <heading>Fixing and position of meters</heading>
+          <subsection id="section-28.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm276">engineer</term> must fix a <term refersTo="#term-meter" id="trm277">meter</term> in each <term refersTo="#term-communication_pipe" id="trm278">communication pipe</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-28.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm279">engineer</term> may require that a <term refersTo="#term-consumer" id="trm280">consumer</term> provide within the <term refersTo="#term-premises" id="trm281">premises</term> a suitable and safe place to fix a <term refersTo="#term-meter" id="trm282">meter</term> and may position such <term refersTo="#term-meter" id="trm283">meter</term> in such place.</p>
+            </content>
+          </subsection>
+          <subsection id="section-28.3">
+            <num>(3)</num>
+            <content>
+              <p>Any maintenance necessary in that portion of a <term refersTo="#term-communication_pipe" id="trm284">communication pipe</term> which extends from the street boundary of the <term refersTo="#term-premises" id="trm285">premises</term> of the <term refersTo="#term-consumer" id="trm286">consumer</term> to a <term refersTo="#term-meter" id="trm287">meter</term> within such <term refersTo="#term-premises" id="trm288">premises</term> must be carried out by the <term refersTo="#term-engineer" id="trm289">engineer</term> at such consumers expense.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-29">
+          <num>29.</num>
+          <heading>Provision and position of stop cocks</heading>
+          <subsection id="section-29.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm290">engineer</term> must for the exclusive use of the <term refersTo="#term-municipality" id="trm291">municipality</term>, install a stop cock between every <term refersTo="#term-meter" id="trm292">meter</term> and the <term refersTo="#term-main" id="trm293">main</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-29.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-29.2.list1">
+                <listIntroduction>The <term refersTo="#term-consumer" id="trm294">consumer</term> must, at his or her expense, and for his or her exclusive use, provide and install a stop cock on the <term refersTo="#term-communication_pipe" id="trm295">communication pipe</term>—</listIntroduction>
+                <item id="section-29.2.list1.a">
+                  <num>(a)</num>
+                  <p>in the case of a <term refersTo="#term-meter" id="trm296">meter</term> installed on the <term refersTo="#term-premises" id="trm297">premises</term>, at a suitable point on his or her side of the <term refersTo="#term-meter" id="trm298">meter</term>;</p>
+                </item>
+                <item id="section-29.2.list1.b">
+                  <num>(b)</num>
+                  <p>in the case of a <term refersTo="#term-meter" id="trm299">meter</term> installed outside the <term refersTo="#term-premises" id="trm300">premises</term>, at a suitable point immediately inside the boundary of his or her <term refersTo="#term-premises" id="trm301">premises</term>:</p>
+                </item>
+              </blockList>
+              <p>Provided that the <term refersTo="#term-engineer" id="trm302">engineer</term> may in his or her discretion and at the consumers expense provide and so install such stop cock for the exclusive use of such <term refersTo="#term-consumer" id="trm303">consumer</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-30">
+          <num>30.</num>
+          <heading>Cost of installation of meters</heading>
+          <paragraph id="section-30.paragraph-0">
+            <content>
+              <p>A <term refersTo="#term-consumer" id="trm304">consumer</term> must pay all fees in connection with the installation of any <term refersTo="#term-meter" id="trm305">meter</term> on his <term refersTo="#term-water_installation" id="trm306">water installation</term> as determined in terms of the Tariff By-law and Policy.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-31">
+          <num>31.</num>
+          <heading>Ownership of meters</heading>
+          <paragraph id="section-31.paragraph-0">
+            <content>
+              <p>Any <term refersTo="#term-meter" id="trm307">meter</term> provided and installed the <term refersTo="#term-engineer" id="trm308">engineer</term> in terms of this By-law together with the fittings thereof is and remain the property of the <term refersTo="#term-municipality" id="trm309">municipality</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-32">
+          <num>32.</num>
+          <heading>Safe-keeping of meters</heading>
+          <subsection id="section-32.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-consumer" id="trm310">consumer</term> must see to the safe keeping and condition of any <term refersTo="#term-meter" id="trm311">meter</term> installed upon his or her <term refersTo="#term-premises" id="trm312">premises</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-32.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm313">consumer</term> is liable to the <term refersTo="#term-municipality" id="trm314">municipality</term> for any damage to a <term refersTo="#term-meter" id="trm315">meter</term> installed upon his or her <term refersTo="#term-premises" id="trm316">premises</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-33">
+          <num>33.</num>
+          <heading>Interference with or damage to meters</heading>
+          <subsection id="section-33.1">
+            <num>(1)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm317">person</term> other than the <term refersTo="#term-engineer" id="trm318">engineer</term> may disconnect or interfere with, or cause or permit any other <term refersTo="#term-person" id="trm319">person</term> to disconnect or interfere with, any <term refersTo="#term-meter" id="trm320">meter</term> or any fittings thereof.</p>
+            </content>
+          </subsection>
+          <subsection id="section-33.2">
+            <num>(2)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm321">person</term> may wilfully damage any <term refersTo="#term-meter" id="trm322">meter</term> or any fittings thereof.</p>
+            </content>
+          </subsection>
+          <subsection id="section-33.3">
+            <num>(3)</num>
+            <content>
+              <p>No <term refersTo="#term-person" id="trm323">person</term> may use or permit to be used on any <term refersTo="#term-water_installation" id="trm324">water installation</term> any fitting, machine or appliance which causes damage to any <term refersTo="#term-meter" id="trm325">meter</term> or, in the opinion of the <term refersTo="#term-engineer" id="trm326">engineer</term>, is likely to cause damage thereto.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-34">
+          <num>34.</num>
+          <heading>Repairs to meters</heading>
+          <paragraph id="section-34.paragraph-0">
+            <content>
+              <p>If repairs to any <term refersTo="#term-meter" id="trm327">meter</term> is found to be necessary the <term refersTo="#term-engineer" id="trm328">engineer</term> must effect such repairs to such <term refersTo="#term-meter" id="trm329">meter</term> as soon as possible.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-35">
+          <num>35.</num>
+          <heading>Cost of maintenance of and repair of meters</heading>
+          <subsection id="section-35.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm330">engineer</term> must to the extent of ordinary wear and tear and at the expense of the <term refersTo="#term-municipality" id="trm331">municipality</term> maintain and repair any <term refersTo="#term-meter" id="trm332">meter</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-35.2">
+            <num>(2)</num>
+            <content>
+              <p>If any repairs to a <term refersTo="#term-meter" id="trm333">meter</term> are in the opinion of the <term refersTo="#term-engineer" id="trm334">engineer</term> not the result of ordinary wear and tear the <term refersTo="#term-consumer" id="trm335">consumer</term> is liable for the cost of such repairs, including the removal and reinstallation, and if necessary substitution.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-36">
+          <num>36.</num>
+          <heading>Quantity of water supplied to <term refersTo="#term-consumer" id="trm336">consumer</term></heading>
+          <subsection id="section-36.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-36.1.list1">
+                <listIntroduction>For purposes of assessing the quantity of water supplied to a <term refersTo="#term-consumer" id="trm337">consumer</term> during any period and measured by a <term refersTo="#term-meter" id="trm338">meter</term> over a specific period, it will be deemed, that—</listIntroduction>
+                <item id="section-36.1.list1.a">
+                  <num>(a)</num>
+                  <p>the quantity is represented by the difference between measurements taken at the beginning and end of such period;</p>
+                </item>
+                <item id="section-36.1.list1.b">
+                  <num>(b)</num>
+                  <p>the <term refersTo="#term-meter" id="trm339">meter</term> was accurate during such period; and</p>
+                </item>
+                <item id="section-36.1.list1.c">
+                  <num>(c)</num>
+                  <p>the entries in the records of the <term refersTo="#term-municipality" id="trm340">municipality</term> were correctly made;</p>
+                </item>
+              </blockList>
+              <p>provided that if water is supplied to, or taken by, a <term refersTo="#term-consumer" id="trm341">consumer</term> without its passing through a <term refersTo="#term-meter" id="trm342">meter</term>, the estimate by the <term refersTo="#term-engineer" id="trm343">engineer</term> of the quantity of such water will be deemed to be correct.</p>
+            </content>
+          </subsection>
+          <subsection id="section-36.2">
+            <num>(2)</num>
+            <content>
+              <p>Where water supplied to any <term refersTo="#term-premises" id="trm344">premises</term> is in any way taken by the <term refersTo="#term-consumer" id="trm345">consumer</term> without such water passing through any <term refersTo="#term-meter" id="trm346">meter</term>, the <term refersTo="#term-municipal_manager" id="trm347">municipal manager</term> may for the purpose of rendering an account, make an estimate, in accordance with subsection (3),  of the quantity of water supplied to the <term refersTo="#term-consumer" id="trm348">consumer</term> during the period that water is so taken by the <term refersTo="#term-consumer" id="trm349">consumer</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-36.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-36.3.list1">
+                <listIntroduction>For the purposes of subsection (2), an estimate of the quantity of water supplied to a <term refersTo="#term-consumer" id="trm350">consumer</term> must be based on the average monthly consumption of water on the <term refersTo="#term-premises" id="trm351">premises</term> registered over—</listIntroduction>
+                <item id="section-36.3.list1.a">
+                  <num>(a)</num>
+                  <p>three succeeding measuring periods after the date on which the irregularity referred to in subsection (2) was discovered and rectified, and/or</p>
+                </item>
+                <item id="section-36.3.list1.b">
+                  <num>(b)</num>
+                  <p>the period preceding the date referred to in paragraph (a) but not exceeding 12 months.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-36.4">
+            <num>(4)</num>
+            <content>
+              <p>Nothing in this By-law may be construed as imposing on the <term refersTo="#term-municipality" id="trm352">municipality</term> an obligation to cause any <term refersTo="#term-meter" id="trm353">meter</term> installed on any <term refersTo="#term-premises" id="trm354">premises</term> to be measured at the end of every month or any other fixed period, and the <term refersTo="#term-municipal_manager" id="trm355">municipal manager</term> may estimate the quantity of water supplied over any period during the interval between successive measurements of the <term refersTo="#term-meter" id="trm356">meter</term> and render an account to a <term refersTo="#term-consumer" id="trm357">consumer</term> for the quantity of water so estimated.</p>
+            </content>
+          </subsection>
+          <subsection id="section-36.5">
+            <num>(5)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm358">engineer</term> must, on receipt from the <term refersTo="#term-consumer" id="trm359">consumer</term> of written notice of not less than seven days and subject to payment of the fees, determined in terms of the <term refersTo="#term-Tariff_Policy_By-law" id="trm360">Tariff Policy By-law</term>, measure the quantity of water supplied to <term refersTo="#term-consumer" id="trm361">consumer</term> at a time or on a day other than that upon which it would normally be measured.</p>
+            </content>
+          </subsection>
+          <subsection id="section-36.6">
+            <num>(6)</num>
+            <content>
+              <p>If a contravention of section 33 occurs, the <term refersTo="#term-consumer" id="trm362">consumer</term> must pay to the <term refersTo="#term-municipality" id="trm363">municipality</term> the cost of such quantity of water as in the opinion of the <term refersTo="#term-engineer" id="trm364">engineer</term> was supplied to the <term refersTo="#term-consumer" id="trm365">consumer</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-36.7">
+            <num>(7)</num>
+            <content>
+              <p>Until such time as a <term refersTo="#term-meter" id="trm366">meter</term> has been installed in respect of water supplied to a <term refersTo="#term-consumer" id="trm367">consumer</term> the estimated consumption of that <term refersTo="#term-consumer" id="trm368">consumer</term> must be based on the average consumption of water supplied to the specific area within which the <term refersTo="#term-consumer" id="trm369">consumer</term>’s <term refersTo="#term-premises" id="trm370">premises</term> is situated, during a specific period.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-37">
+          <num>37.</num>
+          <heading>Alternative measurement</heading>
+          <subsection id="section-37.1">
+            <num>(1)</num>
+            <content>
+              <p>Where in the opinion of the <term refersTo="#term-Council" id="trm371">Council</term> it is not reasonably possible or cost effective to measure water supplied to each <term refersTo="#term-consumer" id="trm372">consumer</term> within a particular area, the <term refersTo="#term-Council" id="trm373">Council</term> may determine a basic tariff or charge in terms of the <term refersTo="#term-Tariff_Policy_By-law" id="trm374">Tariff Policy By-law</term>, to be paid by each <term refersTo="#term-consumer" id="trm375">consumer</term> within that area irrespective of actual consumption.</p>
+            </content>
+          </subsection>
+          <subsection id="section-37.2">
+            <num>(2)</num>
+            <content>
+              <p>A tariff or charge determined in terms of subsection (1) will be based on the estimated average consumption of water supplied to that area.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-38">
+          <num>38.</num>
+          <heading>Defective measurement</heading>
+          <subsection id="section-38.1">
+            <num>(1)</num>
+            <content>
+              <p>If a <term refersTo="#term-consumer" id="trm376">consumer</term> has reason to believe that a <term refersTo="#term-meter" id="trm377">meter</term> is defective, he or she may apply in writing for the <term refersTo="#term-meter" id="trm378">meter</term> to be tested and must at the same time deposit with the <term refersTo="#term-municipality" id="trm379">municipality</term> the amount determined in terms of the <term refersTo="#term-Tariff_Policy_By-law" id="trm380">Tariff Policy By-law</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm381">engineer</term> must upon lodging of the prescribed deposit arrange for the testing of the <term refersTo="#term-meter" id="trm382">meter</term> by a SABS approved testing method.</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-38.3.list1">
+                <listIntroduction>If the outcome of any test shows that a <term refersTo="#term-meter" id="trm383">meter</term> is—</listIntroduction>
+                <item id="section-38.3.list1.a">
+                  <num>(a)</num>
+                  <p>not defective, the <term refersTo="#term-municipality" id="trm384">municipality</term> will retain the deposit and the <term refersTo="#term-consumer" id="trm385">consumer</term> will be liable for any other amounts outstanding;</p>
+                </item>
+                <item id="section-38.3.list1.b">
+                  <num>(b)</num>
+                  <p>defective, the <term refersTo="#term-municipality" id="trm386">municipality</term> will refund the deposit and the charge for the water consumed during the three months preceding the disputed reading must be adjusted in proportion to the degree of error found: provided that where the <term refersTo="#term-meter" id="trm387">meter</term> has been installed for a period of less than six months, such adjustment must be over half such lesser period.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-38.4">
+            <num>(4)</num>
+            <content>
+              <p>In addition, if the <term refersTo="#term-meter" id="trm388">meter</term> is found to be defective, the <term refersTo="#term-engineer" id="trm389">engineer</term> must repair the <term refersTo="#term-meter" id="trm390">meter</term> or install another <term refersTo="#term-meter" id="trm391">meter</term> which is in good working order, without charge to the <term refersTo="#term-consumer" id="trm392">consumer</term>, unless the costs thereof are recoverable from the <term refersTo="#term-consumer" id="trm393">consumer</term> due to a contravention of section 33(1).</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.5">
+            <num>(5)</num>
+            <content>
+              <p>A <term refersTo="#term-consumer" id="trm394">consumer</term> is entitled, on giving the <term refersTo="#term-engineer" id="trm395">engineer</term> reasonable notice of his or her intention, to be present at the testing of any <term refersTo="#term-meter" id="trm396">meter</term> in which he is interested.</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.6">
+            <num>(6)</num>
+            <content>
+              <p>Any <term refersTo="#term-meter" id="trm397">meter</term> removed for testing by the <term refersTo="#term-engineer" id="trm398">engineer</term> must be retained intact and be available for inspection for a period of 3 months after testing.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-39">
+          <num>39.</num>
+          <heading>Failure of meters to register</heading>
+          <subsection id="section-39.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-39.1.list1">
+                <listIntroduction>If a <term refersTo="#term-meter" id="trm399">meter</term> is found to have ceased to register or to register correctly, the <term refersTo="#term-engineer" id="trm400">engineer</term> must repair or replace the <term refersTo="#term-meter" id="trm401">meter</term> and estimate the quantity of water for which a <term refersTo="#term-consumer" id="trm402">consumer</term> must pay—</listIntroduction>
+                <item id="section-39.1.list1.a">
+                  <num>(a)</num>
+                  <p>on the basis of the average monthly consumption of water, in respect of the <term refersTo="#term-premises" id="trm403">premises</term> served by such <term refersTo="#term-meter" id="trm404">meter</term>, during the three months prior to the last reading; or</p>
+                </item>
+              </blockList>
+              <blockList id="section-39.1.list3">
+                <listIntroduction>if this is not possible—</listIntroduction>
+                <item id="section-39.1.list3.b">
+                  <num>(b)</num>
+                  <p>on the basis of consumption of water in respect of such <term refersTo="#term-premises" id="trm405">premises</term> in the corresponding month of the previous year; or</p>
+                </item>
+              </blockList>
+              <blockList id="section-39.1.list5">
+                <listIntroduction>if this also is not possible—</listIntroduction>
+                <item id="section-39.1.list5.c">
+                  <num>(c)</num>
+                  <p>on the basis of the average monthly consumption of water, in respect of such <term refersTo="#term-premises" id="trm406">premises</term> over a period of three months after the date of the said repair or replacement.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-39.2">
+            <num>(2)</num>
+            <content>
+              <p>The period for which the <term refersTo="#term-consumer" id="trm407">consumer</term> must pay the quantity of water estimated in terms of subsection (1) extends from the date of the last reading of the <term refersTo="#term-meter" id="trm408">meter</term> prior to it having ceased to register, or to register correctly, up to the date of it having been repaired or replaced.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-40">
+          <num>40.</num>
+          <heading>No reduction of amount payable for water wasted</heading>
+          <paragraph id="section-40.paragraph-0">
+            <content>
+              <p>A <term refersTo="#term-consumer" id="trm409">consumer</term> is not entitled to a reduction of the amount payable in respect of water wasted or water losses in a <term refersTo="#term-water_installation" id="trm410">water installation</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+      </part>
+      <part id="part-6">
+        <num>6</num>
+        <heading>Water Installations</heading>
+        <section id="section-41">
+          <num>41.</num>
+          <heading>Provision and maintenance of water installations</heading>
+          <subsection id="section-41.1">
+            <num>(1)</num>
+            <content>
+              <p>An <term refersTo="#term-consumer" id="trm411">consumer</term> must provide and maintain his or her <term refersTo="#term-water_installation" id="trm412">water installation</term> at his or her own cost and except where permitted in terms of this By-law, must ensure that the installation is situated within the boundary of his or her <term refersTo="#term-premises" id="trm413">premises</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-41.2">
+            <num>(2)</num>
+            <content>
+              <p>Before doing work in connection with the maintenance of a portion of his or her <term refersTo="#term-water_installation" id="trm414">water installation</term>, which is situated outside the boundary of his <term refersTo="#term-premises" id="trm415">premises</term>, an <term refersTo="#term-owner" id="trm416">owner</term> must obtain the written consent of the <term refersTo="#term-engineer" id="trm417">engineer</term> or the <term refersTo="#term-owner" id="trm418">owner</term> of the land on which such portion is situated, as the case may be.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-42">
+          <num>42.</num>
+          <heading>Application for approval of <term refersTo="#term-installation_work" id="trm419">installation work</term></heading>
+          <subsection id="section-42.1">
+            <num>(1)</num>
+            <content>
+              <p>If a <term refersTo="#term-consumer" id="trm420">consumer</term> wishes to have <term refersTo="#term-installation_work" id="trm421">installation work</term> done, the <term refersTo="#term-consumer" id="trm422">consumer</term> must first obtain the written approval of the <term refersTo="#term-engineer" id="trm423">engineer</term>; provided that approval is not required in the case of water installations in dwelling units or installations where no <term refersTo="#term-fire_installation" id="trm424">fire installation</term> is required in terms of any law, or for the repair or replacement of an existing pipe or <term refersTo="#term-water_fitting" id="trm425">water fitting</term>, other than a fixed water heater and its associated protective devices.</p>
+            </content>
+          </subsection>
+          <subsection id="section-42.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-42.2.list1">
+                <listIntroduction>An application for the approval referred to in subsection (1) must be accompanied by</listIntroduction>
+                <item id="section-42.2.list1.a">
+                  <num>(a)</num>
+                  <p>the fee, if applicable; and</p>
+                </item>
+                <item id="section-42.2.list1.b">
+                  <num>(b)</num>
+                  <p>copies of the drawings as prescribed by the <term refersTo="#term-engineer" id="trm426">engineer</term>;</p>
+                </item>
+                <item id="section-42.2.list1.c">
+                  <num>(c)</num>
+                  <p>a certificate from a registered <term refersTo="#term-engineer" id="trm427">engineer</term> or registered plumber certifying that the installation has been designed in accordance with the appropriate SABS Code or, where compliance with that standard is impractical or impossible to achieve, has been designed on another basis acceptable to the <term refersTo="#term-engineer" id="trm428">engineer</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-42.3">
+            <num>(3)</num>
+            <content>
+              <p>The provisions of subsections (1) and (2) do not apply to a qualified plumber who replaces a fixed water heater or its associated protective devices.</p>
+            </content>
+          </subsection>
+          <subsection id="section-42.4">
+            <num>(4)</num>
+            <content>
+              <p>Any authority given in terms of subsection (1) lapses at the expiry of a period of twenty-four months after the first day of the month succeeding the month in which the authority is given.</p>
+            </content>
+          </subsection>
+          <subsection id="section-42.5">
+            <num>(5)</num>
+            <content>
+              <p>Where approval is required in terms of subsection (1), a complete set of approved drawings of <term refersTo="#term-installation_work" id="trm429">installation work</term> must be available at the site of the work at all times until such work has been completed.</p>
+            </content>
+          </subsection>
+          <subsection id="section-42.6">
+            <num>(6)</num>
+            <content>
+              <blockList id="section-42.6.list1">
+                <listIntroduction>If <term refersTo="#term-installation_work" id="trm430">installation work</term> has been done in contravention of subsections (1) and (2), the <term refersTo="#term-engineer" id="trm431">engineer</term> may order the <term refersTo="#term-owner" id="trm432">owner</term>—</listIntroduction>
+                <item id="section-42.6.list1.a">
+                  <num>(a)</num>
+                  <p>to comply with either or both subsections, as the case may be, within a specified period;</p>
+                </item>
+                <item id="section-42.6.list1.b">
+                  <num>(b)</num>
+                  <p>if the work is still in progress, to cease the work; and</p>
+                </item>
+                <item id="section-42.6.list1.c">
+                  <num>(c)</num>
+                  <p>to remove all such work as does not comply with this by-law.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-42.7">
+            <num>(7)</num>
+            <content>
+              <p>An <term refersTo="#term-installation_work" id="trm433">installation work</term> approved in terms of subsection (1), must inspected and a certificate of approval issued by the <term refersTo="#term-engineer" id="trm434">engineer</term>, before it can be put into service.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-43">
+          <num>43.</num>
+          <heading>Persons permitted to do installation and other work</heading>
+          <paragraph id="section-43.paragraph-0">
+            <content>
+              <p>No <term refersTo="#term-person" id="trm435">person</term> who is not a qualified plumber, in terms of regulation A18 of the <term refersTo="#term-NBR" id="trm436">NBR</term> may perform any work on a <term refersTo="#term-water_installation" id="trm437">water installation</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-44">
+          <num>44.</num>
+          <heading>Technical requirements for a <term refersTo="#term-water_installation" id="trm438">water installation</term></heading>
+          <subsection id="section-44.1">
+            <num>(1)</num>
+            <content>
+              <p>Notwithstanding the requirement that a certificate be issued in terms of section 42(2)(c), all water installations and all fixed electrical storage water heaters must comply with the appropriate SABS Codes.</p>
+            </content>
+          </subsection>
+          <subsection id="section-44.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-44.2.list1">
+                <listIntroduction>No <term refersTo="#term-person" id="trm439">person</term> may, without the prior written authority of the <term refersTo="#term-engineer" id="trm440">engineer</term> install or use a pipe or <term refersTo="#term-water_fitting" id="trm441">water fitting</term> in a <term refersTo="#term-water_installation" id="trm442">water installation</term> unless—</listIntroduction>
+                <item id="section-44.2.list1.a">
+                  <num>(a)</num>
+                  <p>it bears the appropriate mark of the South African Bureau of Standards; or</p>
+                </item>
+                <item id="section-44.2.list1.b">
+                  <num>(b)</num>
+                  <p>it bears a certification mark issued by the SABS to certify that the type of pipe or <term refersTo="#term-water_fitting" id="trm443">water fitting</term> complies with an SABS Mark specification or a provisional specification issued by the SABS, provided that no certification marks shall be regarded as valid if issued more than two years previously.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-44.3">
+            <num>(3)</num>
+            <content>
+              <p>All <term refersTo="#term-water_installation" id="trm444">water installation</term> pipes laid in the ground shall have a minimum cover of 400 mm, except where otherwise determined by the <term refersTo="#term-engineer" id="trm445">engineer</term>.</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part id="part-7">
+        <num>7</num>
+        <heading>Water Pollution, Restriction and Wasteful Use of Water</heading>
+        <section id="section-45">
+          <num>45.</num>
+          <heading>Consumer to prevent pollution of water</heading>
+          <paragraph id="section-45.paragraph-0">
+            <content>
+              <blockList id="section-45.paragraph-0.list1">
+                <listIntroduction>A <term refersTo="#term-consumer" id="trm446">consumer</term> must provide and maintain effective measures to prevent the entry of any substance or matter, which may be a danger to health or may adversely affect the potability of water or affect its fitness for use, or which will have a significant detrimental effect on the general quality of water supplied to the <term refersTo="#term-consumer" id="trm447">consumer</term> or others, into—</listIntroduction>
+                <item id="section-45.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>the <term refersTo="#term-water_supply_system" id="trm448">water supply system</term> or works; or</p>
+                </item>
+                <item id="section-45.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>any part of the <term refersTo="#term-water_installation" id="trm449">water installation</term> on his or her <term refersTo="#term-premises" id="trm450">premises</term>; or</p>
+                </item>
+                <item id="section-45.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>any water resource or aquifer.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-46">
+          <num>46.</num>
+          <heading>Water restrictions</heading>
+          <subsection id="section-46.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-46.1.list1">
+                <listIntroduction>The <term refersTo="#term-Council" id="trm451">Council</term> may by public notice, whenever there is a scarcity of bulk water available to it for distribution and supply to consumers, or for any other good cause—</listIntroduction>
+                <item id="section-46.1.list1.a">
+                  <num>(a)</num>
+                  <blockList id="section-46.1.list1.a.list0">
+                    <listIntroduction>prohibit or restrict the consumption of water in the whole or part of the municipal area—</listIntroduction>
+                    <item id="section-46.1.list1.a.list0.i">
+                      <num>(i)</num>
+                      <p>in general or for specified purposes;</p>
+                    </item>
+                    <item id="section-46.1.list1.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>during specified hours of the day or on specified days; and</p>
+                    </item>
+                    <item id="section-46.1.list1.a.list0.iii">
+                      <num>(iii)</num>
+                      <p>in a specified manner; and</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-46.1.list1.b">
+                  <num>(b)</num>
+                  <blockList id="section-46.1.list1.b.list1">
+                    <listIntroduction>despite the provisions of the <term refersTo="#term-Tariff_Policy_By-law" id="trm452">Tariff Policy By-law</term>, determine and impose—</listIntroduction>
+                    <item id="section-46.1.list1.b.list1.i">
+                      <num>(i)</num>
+                      <p>limits on the quantity of water that may be consumed over a specified period;</p>
+                    </item>
+                    <item id="section-46.1.list1.b.list1.ii">
+                      <num>(ii)</num>
+                      <p>fees additional to those prescribed in respect of the supply of water in excess of a limit contemplated in subparagraph (i); and/or</p>
+                    </item>
+                    <item id="section-46.1.list1.b.list1.iii">
+                      <num>(iii)</num>
+                      <p>a general surcharge on the fees in respect of the supply of water; and</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-46.1.list1.c">
+                  <num>(c)</num>
+                  <p>impose restrictions or prohibitions on the use or manner of use or disposition of an appliance by means of which water is used or consumed, or on the connection of such appliances to the <term refersTo="#term-water_installation" id="trm453">water installation</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-46.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm454">Council</term> may limit the application of the provisions of a notice contemplated in subsection (1) to specified areas and/or categories of <term refersTo="#term-consumer" id="trm455">consumer</term>, <term refersTo="#term-premises" id="trm456">premises</term> and activities, and may permit deviations and exemptions from, and the relaxation of, any of such provisions on reasonable grounds.</p>
+            </content>
+          </subsection>
+          <subsection id="section-46.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm457">engineer</term> may order a <term refersTo="#term-consumer" id="trm458">consumer</term> to, at the consumers own expense, take such measures, including the installation of meters and devices for restricting the ﬂow of water, as may in his or her opinion be necessary to ensure compliance with a notice published in terms of subsection (1).</p>
+            </content>
+          </subsection>
+          <subsection id="section-46.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-46.4.list1">
+                <listIntroduction>The <term refersTo="#term-engineer" id="trm459">engineer</term>—</listIntroduction>
+                <item id="section-46.4.list1.a">
+                  <num>(a)</num>
+                  <p>may discontinue or, for such period as he or she may deem fit limit, the supply of water to any <term refersTo="#term-premises" id="trm460">premises</term> in the event of a failure to comply with the terms of a notice referred to in subsection (1); and</p>
+                </item>
+                <item id="section-46.4.list1.b">
+                  <num>(b)</num>
+                  <p>is required, where the supply has been discontinued in terms of paragraph (a), to restore it only when the fee for discontinuation and reconnecting the supply has been paid.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-46.5">
+            <num>(5)</num>
+            <content>
+              <p>The provisions of this section shall also apply in respect of water supplied directly by the <term refersTo="#term-municipality" id="trm461">municipality</term> to consumers outside the municipal area, notwithstanding anything to the contrary in the conditions governing such supply, unless otherwise specified in the notice published in terms of subsection (1).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-47">
+          <num>47.</num>
+          <heading>Waste of water</heading>
+          <subsection id="section-47.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-47.1.list1">
+                <listIntroduction>No <term refersTo="#term-consumer" id="trm462">consumer</term> may on his or her <term refersTo="#term-premises" id="trm463">premises</term> permit—</listIntroduction>
+                <item id="section-47.1.list1.a">
+                  <num>(a)</num>
+                  <p>the purposeless or wasteful discharge of water from water fittings;</p>
+                </item>
+                <item id="section-47.1.list1.b">
+                  <num>(b)</num>
+                  <p>pipes or water fittings forming part of a <term refersTo="#term-water_installation" id="trm464">water installation</term> to leak;</p>
+                </item>
+                <item id="section-47.1.list1.c">
+                  <num>(c)</num>
+                  <p>the use of maladjusted or defective water fittings in a <term refersTo="#term-water_installation" id="trm465">water installation</term>;</p>
+                </item>
+                <item id="section-47.1.list1.d">
+                  <num>(d)</num>
+                  <p>an overﬂow of water from a <term refersTo="#term-water_installation" id="trm466">water installation</term> to persist; or</p>
+                </item>
+                <item id="section-47.1.list1.e">
+                  <num>(e)</num>
+                  <p>an inefficient use of water to persist.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-47.2">
+            <num>(2)</num>
+            <content>
+              <p>An <term refersTo="#term-consumer" id="trm467">consumer</term> must repair or replace any part of his or her <term refersTo="#term-water_installation" id="trm468">water installation</term> which is in such a state of disrepair that it is either causing or is likely to cause an occurrence listed in subsection (1).</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.3">
+            <num>(3)</num>
+            <content>
+              <p>Every <term refersTo="#term-consumer" id="trm469">consumer</term> must ensure that any equipment or plant connected to his or her <term refersTo="#term-water_installation" id="trm470">water installation</term> uses water in an efficient manner.</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm471">engineer</term> may, by written notice, prohibit the use by a <term refersTo="#term-consumer" id="trm472">consumer</term> of any equipment in a <term refersTo="#term-water_installation" id="trm473">water installation</term> if, in his or her opinion, its use of water is inefficient. Such equipment shall not be returned to use until its efficiency has been restored and a written application to do so has been approved by the <term refersTo="#term-engineer" id="trm474">engineer</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-48">
+          <num>48.</num>
+          <heading>Water demand management</heading>
+          <subsection id="section-48.1">
+            <num>(1)</num>
+            <content>
+              <p>Despite the provisions of section 47(2), no ﬂushing urinal that is not user-activated may be installed or continue to operate as part of any <term refersTo="#term-water_installation" id="trm475">water installation</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-48.2">
+            <num>(2)</num>
+            <content>
+              <p>All ﬂushing urinals that are not user-activated installed prior to the commencement of this By-law must be converted to useractivated urinals within three years of the commencement of this By-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-48.3">
+            <num>(3)</num>
+            <content>
+              <p>Any commercial vehicle washing facility or commercial laundry facility constructed after the adoption of this By-law must be constructed and operated in such a manner that 50% of the water used by such facility is recycled for re-use in the facility.</p>
+            </content>
+          </subsection>
+          <subsection id="section-48.4">
+            <num>(4)</num>
+            <content>
+              <p>No cistern designed to operate with a toilet pan, may be installed if it has a capacity greater than 6 litres and all cisterns must have a dual ﬂush capability.</p>
+            </content>
+          </subsection>
+          <subsection id="section-48.5">
+            <num>(5)</num>
+            <content>
+              <p>In any <term refersTo="#term-water_installation" id="trm476">water installation</term> where the plumbing has been designed to balance the water pressures on the hot and cold water supplies to the shower control valve, a shower head with a maximum ﬂow rate of greater than 10 litres per minute at a water pressure of 200 kPa may not be installed.</p>
+            </content>
+          </subsection>
+          <subsection id="section-48.6">
+            <num>(6)</num>
+            <content>
+              <p>All taps on wash hand basins intended for public use must be of the metering type with a maximum ﬂow not exceeding 2 litres per operation.</p>
+            </content>
+          </subsection>
+          <subsection id="section-48.7">
+            <num>(7)</num>
+            <content>
+              <p>Any irrigation system that uses water supplied from the <term refersTo="#term-water_supply_system" id="trm477">water supply system</term> with a maximum designed ﬂow rate exceeding 60 litres per minute must be fitted with a suitable water volume measuring device.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-49">
+          <num>49.</num>
+          <heading>Water Audit</heading>
+          <subsection id="section-49.1">
+            <num>(1)</num>
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm478">person</term> using more than 3 650 Kl per annum, excluding multiple dwelling units, must by not later than 1 August of each year undertake an annual water audit at his or her own cost.</p>
+            </content>
+          </subsection>
+          <subsection id="section-49.2">
+            <num>(2)</num>
+            <content>
+              <p>A copy of the audit must be available for inspection by officials from the <term refersTo="#term-municipality" id="trm479">municipality</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-49.3">
+            <num>(3)</num>
+            <content>
+              <blockList id="section-49.3.list1">
+                <listIntroduction>The audit must contain details in respect of—</listIntroduction>
+                <item id="section-49.3.list1.a">
+                  <num>(a)</num>
+                  <p>the amount of water used during the <term refersTo="#term-municipality" id="trm480">municipality</term>’s financial year;</p>
+                </item>
+                <item id="section-49.3.list1.b">
+                  <num>(b)</num>
+                  <p>the number of people living on the <term refersTo="#term-premises" id="trm481">premises</term>;</p>
+                </item>
+                <item id="section-49.3.list1.c">
+                  <num>(c)</num>
+                  <p>the number of people permanently working on the <term refersTo="#term-premises" id="trm482">premises</term>;</p>
+                </item>
+                <item id="section-49.3.list1.d">
+                  <num>(d)</num>
+                  <p>the seasonal variation in demand through monthly consumption figures;</p>
+                </item>
+                <item id="section-49.3.list1.e">
+                  <num>(e)</num>
+                  <p>the water pollution monitoring methods;</p>
+                </item>
+                <item id="section-49.3.list1.f">
+                  <num>(f)</num>
+                  <p>the current initiatives to manage demand for water;</p>
+                </item>
+                <item id="section-49.3.list1.g">
+                  <num>(g)</num>
+                  <p>the plans to manage the demand for water;</p>
+                </item>
+                <item id="section-49.3.list1.h">
+                  <num>(h)</num>
+                  <p>a comparison of the above factors with those reported in each of the previous three years (where available); and</p>
+                </item>
+                <item id="section-49.3.list1.i">
+                  <num>(i)</num>
+                  <p>estimates of consumption by various components of use.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part id="part-8">
+        <num>8</num>
+        <heading>Use of Water from Other Sources</heading>
+        <section id="section-50">
+          <num>50.</num>
+          <heading>Use of water from sources other than the <term refersTo="#term-water_supply_system" id="trm483">water supply system</term></heading>
+          <subsection id="section-50.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-50.1.list1">
+                <listIntroduction>Except with the prior consent of the <term refersTo="#term-engineer" id="trm484">engineer</term> and subject to such conditions as the <term refersTo="#term-engineer" id="trm485">engineer</term> may impose, no <term refersTo="#term-person" id="trm486">person</term> may for domestic, commercial or <term refersTo="#term-industrial_purposes" id="trm487">industrial purposes</term> use or permit the use of water obtained from a source other than—</listIntroduction>
+                <item id="section-50.1.list1.a">
+                  <num>(a)</num>
+                  <p>the <term refersTo="#term-water_supply_system" id="trm488">water supply system</term>, or</p>
+                </item>
+                <item id="section-50.1.list1.b">
+                  <num>(b)</num>
+                  <p>rain water tanks which are not connected to the <term refersTo="#term-water_installation" id="trm489">water installation</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-50.2">
+            <num>(2)</num>
+            <content>
+              <p>The provisions of subsection (1) do not exempt a <term refersTo="#term-person" id="trm490">person</term> requesting consent from obtaining the approval of any other authority required by any law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-50.3">
+            <num>(3)</num>
+            <content>
+              <p>Any <term refersTo="#term-person" id="trm491">person</term> requiring the consent referred to in subsection (1) must, at his or her own cost, provide the <term refersTo="#term-engineer" id="trm492">engineer</term> with proof to his or her satisfaction that the water from such other source complies or will comply with the requirements of the relevant SABS Code for drinking water, and any other requirement contained in this By-law or any other law applicable to the consumption of water or that the use of such water does not or will not constitute a danger to health.</p>
+            </content>
+          </subsection>
+          <subsection id="section-50.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm493">engineer</term> may take samples of water obtained from a source other than the <term refersTo="#term-water_supply_system" id="trm494">water supply system</term> and cause the samples to be tested for compliance with the requirements referred to in subsection (3).</p>
+            </content>
+          </subsection>
+          <subsection id="section-50.5">
+            <num>(5)</num>
+            <content>
+              <p>The fee for the taking and testing of the samples referred to in subsection (4) must be paid by the <term refersTo="#term-person" id="trm495">person</term> to whom approval to use the water from such other source was granted.</p>
+            </content>
+          </subsection>
+          <subsection id="section-50.6">
+            <num>(6)</num>
+            <content>
+              <blockList id="section-50.6.list1">
+                <listIntroduction>The <term refersTo="#term-engineer" id="trm496">engineer</term> may withdraw any consent given in terms of subsection (1) if, in the opinion of the <term refersTo="#term-engineer" id="trm497">engineer</term>—</listIntroduction>
+                <item id="section-50.6.list1.a">
+                  <num>(a)</num>
+                  <p>a condition imposed in terms of that subsection is breached; or</p>
+                </item>
+                <item id="section-50.6.list1.b">
+                  <num>(b)</num>
+                  <p>the water no longer conforms to the requirements referred to in subsection (2).</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-51">
+          <num>51.</num>
+          <heading>Boreholes</heading>
+          <subsection id="section-51.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-51.1.list1">
+                <listIntroduction>The <term refersTo="#term-engineer" id="trm498">engineer</term> may, by public notice, require—</listIntroduction>
+                <item id="section-51.1.list1.a">
+                  <num>(a)</num>
+                  <p>the <term refersTo="#term-owner" id="trm499">owner</term> of any <term refersTo="#term-premises" id="trm500">premises</term> upon which a <term refersTo="#term-borehole" id="trm501">borehole</term> exists or, if the <term refersTo="#term-owner" id="trm502">owner</term> is not in occupation of such <term refersTo="#term-premises" id="trm503">premises</term>, the <term refersTo="#term-occupier" id="trm504">occupier</term> thereof, to notify the <term refersTo="#term-municipality" id="trm505">municipality</term> of the existence of a <term refersTo="#term-borehole" id="trm506">borehole</term> on such <term refersTo="#term-premises" id="trm507">premises</term>, and provide it with such information in respect thereof as the <term refersTo="#term-engineer" id="trm508">engineer</term> may require; and</p>
+                </item>
+                <item id="section-51.1.list1.b">
+                  <num>(b)</num>
+                  <p>the <term refersTo="#term-owner" id="trm509">owner</term> or <term refersTo="#term-occupier" id="trm510">occupier</term> of any <term refersTo="#term-premises" id="trm511">premises</term> who intends to sink a <term refersTo="#term-borehole" id="trm512">borehole</term> on such <term refersTo="#term-premises" id="trm513">premises</term> to notify the <term refersTo="#term-municipality" id="trm514">municipality</term> of such intention before work in connection therewith is commenced, and to obtain any other authorisations in terms of the Environmental Impact Assessment Regulations or any other law, if applicable.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-51.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm515">engineer</term> may require the <term refersTo="#term-owner" id="trm516">owner</term> or <term refersTo="#term-occupier" id="trm517">occupier</term> of any <term refersTo="#term-premises" id="trm518">premises</term> who intends to sink a <term refersTo="#term-borehole" id="trm519">borehole</term> to undertake an environmental impact assessment for such intended <term refersTo="#term-borehole" id="trm520">borehole</term>, to the satisfaction of the <term refersTo="#term-engineer" id="trm521">engineer</term>, before being permitted to sink the <term refersTo="#term-borehole" id="trm522">borehole</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-51.3">
+            <num>(3)</num>
+            <content>
+              <p>Every <term refersTo="#term-owner" id="trm523">owner</term> or <term refersTo="#term-occupier" id="trm524">occupier</term> intending to sink or to operate a <term refersTo="#term-borehole" id="trm525">borehole</term> must indemnify the <term refersTo="#term-municipality" id="trm526">municipality</term> against any damages that may result howsoever arising as a consequence of the sinking or operation of the <term refersTo="#term-borehole" id="trm527">borehole</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-51.4">
+            <num>(4)</num>
+            <content>
+              <blockList id="section-51.4.list1">
+                <listIntroduction>The <term refersTo="#term-engineer" id="trm528">engineer</term> may by notice to an <term refersTo="#term-owner" id="trm529">owner</term> or <term refersTo="#term-occupier" id="trm530">occupier</term> or by public notice require owners and occupiers who have existing boreholes used for domestic, industrial and commercial purposes to—</listIntroduction>
+                <item id="section-51.4.list1.a">
+                  <num>(a)</num>
+                  <p>obtain approval from the <term refersTo="#term-municipality" id="trm531">municipality</term> in terms of section 49(1) for the use of a <term refersTo="#term-borehole" id="trm532">borehole</term>;</p>
+                </item>
+                <item id="section-51.4.list1.b">
+                  <num>(b)</num>
+                  <p>comply with any conditions imposed, either generally or specially, in respect of the use of a <term refersTo="#term-borehole" id="trm533">borehole</term>; and</p>
+                </item>
+                <item id="section-51.4.list1.c">
+                  <num>(c)</num>
+                  <p>pay a fee in respect of the use of such a <term refersTo="#term-borehole" id="trm534">borehole</term>.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-51.5">
+            <num>(5)</num>
+            <content>
+              <p>The provisions of this section do not exempt any <term refersTo="#term-person" id="trm535">person</term> from complying with the applicable provisions of the National Water Act, 1998 (<ref href="/za/act/1998/36">Act 36 of 1998</ref>) or any other relevant national legislation.</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part id="part-9">
+        <num>9</num>
+        <heading>Fire Installations</heading>
+        <section id="section-52">
+          <num>52.</num>
+          <heading>Approval of fire installations</heading>
+          <paragraph id="section-52.paragraph-0">
+            <content>
+              <p>Whereas fire installations are regulated by Part W of the <term refersTo="#term-NBR" id="trm536">NBR</term>, the <term refersTo="#term-engineer" id="trm537">engineer</term> may after consultation with the officer in charge of fire services, impose any conditions or requirements which may be deemed necessary, in terms of Part W.</p>
+            </content>
+          </paragraph>
+        </section>
+      </part>
+      <part id="part-10">
+        <num>10</num>
+        <heading>Legal Matters</heading>
+        <section id="section-53">
+          <num>53.</num>
+          <heading>Exemption from liability</heading>
+          <paragraph id="section-53.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-Council" id="trm538">Council</term> will not be liable for any damage to property caused by water ﬂowing from fittings left open when the water supply is re-instated, following an interruption in supply for any reason.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-54">
+          <num>54.</num>
+          <heading>Recovery of costs and fees</heading>
+          <paragraph id="section-54.paragraph-0">
+            <content>
+              <p>Every <term refersTo="#term-person" id="trm539">person</term> committing a breach of the provisions of this By-law shall be liable to compensate the Municipality for any loss or damage suffered or sustained by it in consequence of such breach.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-55">
+          <num>55.</num>
+          <heading>Delegation</heading>
+          <paragraph id="section-55.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-municipal_manager" id="trm540">municipal manager</term> and the <term refersTo="#term-engineer" id="trm541">engineer</term> may in writing delegate any power or duty conferred on the <term refersTo="#term-municipal_manager" id="trm542">municipal manager</term> or <term refersTo="#term-engineer" id="trm543">engineer</term> in terms of this By-law, to an official of the <term refersTo="#term-municipality" id="trm544">municipality</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-56">
+          <num>56.</num>
+          <heading>Offences and Penalties</heading>
+          <paragraph id="section-56.paragraph-0">
+            <content>
+              <blockList id="section-56.paragraph-0.list1">
+                <listIntroduction>Any <term refersTo="#term-person" id="trm545">person</term> who—</listIntroduction>
+                <item id="section-56.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>contravenes or fails to comply with any provisions of this By-law;</p>
+                </item>
+                <item id="section-56.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>fails to comply with any notice issued in terms of this By-law; or</p>
+                </item>
+                <item id="section-56.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>fails to comply with any lawful instruction given in terms of this By-law; or</p>
+                </item>
+                <item id="section-56.paragraph-0.list1.d">
+                  <num>(d)</num>
+                  <p>obstructs or hinders any authorised representative or employee of the <term refersTo="#term-Council" id="trm546">Council</term> in the execution of his or her duties under this By-law,</p>
+                </item>
+              </blockList>
+              <p>is guilty of an offence and liable on conviction to a fine.</p>
+            </content>
+          </paragraph>
+        </section>
+      </part>
+    </body>
+  </act>
+</akomaNtoso>

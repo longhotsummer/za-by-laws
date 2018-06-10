@@ -1,0 +1,435 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc033/act/by-law/2005/prevent-conrol-public-nuisances/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/prevent-conrol-public-nuisances"/>
+          <FRBRalias value="By-Law to Prevent and Control Public Nuisances"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc033/act/by-law/2005/prevent-conrol-public-nuisances/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/prevent-conrol-public-nuisances/eng@2005-10-03"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc033/act/by-law/2005/prevent-conrol-public-nuisances/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/prevent-conrol-public-nuisances/eng@2005-10-03"/>
+          <FRBRdate date="2018-02-04" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication number="6303" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" date="2005-10-03"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-authorised_employee" href="/ontology/term/this.eng.authorised_employee" showAs="authorised employee"/>
+        <TLCTerm id="term-domesticated_animal" href="/ontology/term/this.eng.domesticated_animal" showAs="domesticated animal"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-heavy_vehicle" href="/ontology/term/this.eng.heavy_vehicle" showAs="heavy vehicle"/>
+        <TLCTerm id="term-implement" href="/ontology/term/this.eng.implement" showAs="implement"/>
+        <TLCTerm id="term-municipality" href="/ontology/term/this.eng.municipality" showAs="municipality"/>
+        <TLCTerm id="term-person_in_charge_of_a_premises" href="/ontology/term/this.eng.person_in_charge_of_a_premises" showAs="person in charge of a premises"/>
+        <TLCTerm id="term-public_nuisance" href="/ontology/term/this.eng.public_nuisance" showAs="public nuisance"/>
+        <TLCTerm id="term-zoned" href="/ontology/term/this.eng.zoned" showAs="zoned"/>
+      </references>
+    </meta>
+    <preface>
+      <p>To regulate the prevention and control of public nuisances.</p>
+    </preface>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <paragraph id="section-1.paragraph-0" refersTo="#term-zoned">
+          <content>
+            <p>In this by-law, unless inconsistent with the context:—</p>
+            <p>"<def refersTo="#term-authorised_employee">authorised employee</def>" means an official in the employ of the <term refersTo="#term-municipality" id="trm0">municipality</term>, designated by the Municipal Manager;</p>
+            <p>"<def refersTo="#term-domesticated_animal">domesticated animal</def>" means an animal such as a dog, cat, fish or rodent, generally regarded as a pet;</p>
+            <p>"<def refersTo="#term-Council">Council</def>" means the council of the <term refersTo="#term-municipality" id="trm1">municipality</term>;</p>
+            <p>"<def refersTo="#term-heavy_vehicle">heavy vehicle</def>" means any vehicle or trailer with a tare of three tonnes or more;</p>
+            <p>"<def refersTo="#term-implement">implement</def>" means any machinery or equipment, whether selfpropelled or not;</p>
+            <p>"<def refersTo="#term-municipality">municipality</def>" means the Municipality of Cape Agulhas;</p>
+            <p>"<def refersTo="#term-person_in_charge_of_a_premises">person in charge of a premises</def>" means a registered owner of a property or business, an occupier, a manager or acting manager of a business or any other person who derives a benefit from the premises concerned;</p>
+            <p>"<def refersTo="#term-public_nuisance">public nuisance</def>" means any act, omission or condition which is offensive, which is injurious or dangerous to health, which materially interferes with the ordinary comfort, convenience, peace or quiet of the public or which adversely affects the safety of the public;</p>
+            <p>"<def refersTo="#term-zoned">zoned</def>" means a use right which may be exercised on premises in terms of the provisions of a town planning scheme, and includes any approval which may have been granted in respect of the particular premises in terms of any town planning legislation.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Public nuisances prohibited</heading>
+        <paragraph id="section-2.paragraph-0">
+          <content>
+            <p>A person may not cause a <term refersTo="#term-public_nuisance" id="trm2">public nuisance</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Declaration of public nuisances</heading>
+        <paragraph id="section-3.paragraph-0">
+          <content>
+            <p>A <term refersTo="#term-public_nuisance" id="trm3">public nuisance</term> is created by, but is not limited to—</p>
+            <blockList id="section-3.paragraph-0.list2">
+              <listIntroduction>Animals</listIntroduction>
+              <item id="section-3.paragraph-0.list2.a">
+                <num>(a)</num>
+                <p>the keeping of animals or reptiles, excluding domesticated animals, on premises unless the premises is in terms of an applicable town planning scheme <term refersTo="#term-zoned" id="trm4">zoned</term> as suitable for the keeping of such animals or reptiles;</p>
+              </item>
+              <item id="section-3.paragraph-0.list2.b">
+                <num>(b)</num>
+                <blockList id="section-3.paragraph-0.list2.b.list0">
+                  <listIntroduction>the actions or neglect of an owner or person in control of an animal, reptile or domesticated dog, that causes such animal to:—</listIntroduction>
+                  <item id="section-3.paragraph-0.list2.b.list0.i">
+                    <num>(i)</num>
+                    <p>enter upon public or private land other than the premises where it is kept, unless under proper control and, in the case of a dog, on a leash;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list2.b.list0.ii">
+                    <num>(ii)</num>
+                    <p>suffer from an infectious or contagious disease, or</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list2.b.list0.iii">
+                    <num>(iii)</num>
+                    <p>bark, howl, cry or moan incessantly.</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-3.paragraph-0.list2.c">
+                <num>(c)</num>
+                <p>the failure of a person in control of a dog on a street or public land, to remove the droppings of that dog.</p>
+              </item>
+              <item id="section-3.paragraph-0.list2.d">
+                <num>(d)</num>
+                <p>the keeping of pets in a manner that is unhygienic or disturbing.</p>
+              </item>
+            </blockList>
+            <blockList id="section-3.paragraph-0.list4">
+              <listIntroduction>Poultry and birds</listIntroduction>
+              <item id="section-3.paragraph-0.list4.e">
+                <num>(e)</num>
+                <p>the keeping of poultry or birds, with the exception of domesticated birds which are kept in cages or lofts, on premises unless the premises is in terms of an applicable town planning scheme <term refersTo="#term-zoned" id="trm5">zoned</term> as suitable for the keeping of poultry or birds;</p>
+              </item>
+              <item id="section-3.paragraph-0.list4.f">
+                <num>(f)</num>
+                <p>the keeping of domesticated birds which are kept in cages or lofts, in a manner that is unhygienic or disturbing.</p>
+              </item>
+            </blockList>
+            <blockList id="section-3.paragraph-0.list6">
+              <listIntroduction>Parking and servicing of vehicles</listIntroduction>
+              <item id="section-3.paragraph-0.list6.g">
+                <num>(g)</num>
+                <p>the overnight parking, outside of a garage, of more than one <term refersTo="#term-heavy_vehicle" id="trm6">heavy vehicle</term> or boat on premises which is <term refersTo="#term-zoned" id="trm7">zoned</term> for residential purposes;</p>
+              </item>
+              <item id="section-3.paragraph-0.list6.h">
+                <num>(h)</num>
+                <p>the storing, outside of a garage, of an <term refersTo="#term-implement" id="trm8">implement</term> on premises which is <term refersTo="#term-zoned" id="trm9">zoned</term> for residential purposes;</p>
+              </item>
+              <item id="section-3.paragraph-0.list6.i">
+                <num>(i)</num>
+                <p>the repairing, washing, maintenance or servicing of a <term refersTo="#term-heavy_vehicle" id="trm10">heavy vehicle</term>, boat or <term refersTo="#term-implement" id="trm11">implement</term>, outside of a garage, on premises which is <term refersTo="#term-zoned" id="trm12">zoned</term> for residential purposes or the washing, maintenance or servicing of a boat in such a way that the excess water pose a health risk;</p>
+              </item>
+              <item id="section-3.paragraph-0.list6.j">
+                <num>(j)</num>
+                <p>the parking of a vehicle, <term refersTo="#term-heavy_vehicle" id="trm13">heavy vehicle</term>, boat or trailer on premises in such a manner that a part of the vehicle, <term refersTo="#term-heavy_vehicle" id="trm14">heavy vehicle</term>, boat or trailer extends over the boundaries of the premises on which it is parked.</p>
+              </item>
+            </blockList>
+            <blockList id="section-3.paragraph-0.list8">
+              <listIntroduction>Fireworks</listIntroduction>
+              <item id="section-3.paragraph-0.list8.k">
+                <num>(k)</num>
+                <p>the letting off of a firework on or over private land in such a manner that the firework or part thereof may land on adjacent premises.</p>
+              </item>
+            </blockList>
+            <blockList id="section-3.paragraph-0.list10">
+              <listIntroduction>Businesses on residential premises</listIntroduction>
+              <item id="section-3.paragraph-0.list10.l">
+                <num>(l)</num>
+                <blockList id="section-3.paragraph-0.list10.l.list0">
+                  <listIntroduction>legally operating a business or engaging in similar activities on residential premises, notwithstanding any approvals granted by the <term refersTo="#term-Council" id="trm15">Council</term> in terms of town planning legislation, to the extent that:</listIntroduction>
+                  <item id="section-3.paragraph-0.list10.l.list0.i">
+                    <num>(i)</num>
+                    <p>the limitations and conditions determined by the <term refersTo="#term-Council" id="trm16">Council</term> when the application for the activity was originally approved in terms of legislation, are exceeded;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list10.l.list0.ii">
+                    <num>(ii)</num>
+                    <p>the storage of goods or materials on the premises is unsightly;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list10.l.list0.iii">
+                    <num>(iii)</num>
+                    <p>the operation of a pump, compressor, fan or similar machinery to the effect that a vibration is caused on other premises in the area;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list10.l.list0.iv">
+                    <num>(iv)</num>
+                    <p>the use of spray paints or other volatile substances that sprays, smells or gases enter onto other properties in the area;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list10.l.list0.v">
+                    <num>(v)</num>
+                    <p>the manufacture or activities related to the manufacture of goods or materials is causing a disturbance;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list10.l.list0.vi">
+                    <num>(vi)</num>
+                    <p>the frequency of deliveries or the calling of persons at the premises is causing a disturbance;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list10.l.list0.vii">
+                    <num>(vii)</num>
+                    <p>the frequency of loading or unloading of vehicles in the street or on the premises is causing a disturbance;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list10.l.list0.viii">
+                    <num>(viii)</num>
+                    <p>the gathering of workers on or near the premises is causing a disturbance, or</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list10.l.list0.ix">
+                    <num>(ix)</num>
+                    <p>the frequency of the arrival, departure or parking in the street of vehicles attached to the activities on the premises is causing a disturbance.</p>
+                  </item>
+                </blockList>
+              </item>
+            </blockList>
+            <blockList id="section-3.paragraph-0.list12">
+              <listIntroduction>Dilapidated land and buildings</listIntroduction>
+              <item id="section-3.paragraph-0.list12.m">
+                <num>(m)</num>
+                <blockList id="section-3.paragraph-0.list12.m.list0">
+                  <listIntroduction>buildings or vacant land that have become:</listIntroduction>
+                  <item id="section-3.paragraph-0.list12.m.list0.i">
+                    <num>(i)</num>
+                    <p>so unsightly, offensive or in a state of disrepair that the values of properties in the area are detrimentally affected;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list12.m.list0.ii">
+                    <num>(ii)</num>
+                    <p>a home for squatters or a shelter for undesirable elements;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list12.m.list0.iii">
+                    <num>(iii)</num>
+                    <p>overgrown with neglected lawns, trees, shrubs or other cultivated or uncultivated vegetation</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list12.m.list0.iv">
+                    <num>(iv)</num>
+                    <p>inundated with an unsightly accumulation of papers, cartons, garden refuse, rubble and/or other waste materials, or</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list12.m.list0.v">
+                    <num>(v)</num>
+                    <p>a depository for waste materials.</p>
+                  </item>
+                </blockList>
+              </item>
+            </blockList>
+            <blockList id="section-3.paragraph-0.list14">
+              <listIntroduction>Businesses</listIntroduction>
+              <item id="section-3.paragraph-0.list14.n">
+                <num>(n)</num>
+                <blockList id="section-3.paragraph-0.list14.n.list0">
+                  <listIntroduction>in relation to business premises—</listIntroduction>
+                  <item id="section-3.paragraph-0.list14.n.list0.i">
+                    <num>(i)</num>
+                    <p>the depositing of waste materials emanating from the activities on the premises in a street refuse bin;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list14.n.list0.ii">
+                    <num>(ii)</num>
+                    <p>the depositing of waste materials emanating from the activities on the premises on a part of the premises which is open to the street or sidewalk, unless it is in a container provided or approved by the <term refersTo="#term-Council" id="trm17">Council</term>;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list14.n.list0.iii">
+                    <num>(iii)</num>
+                    <p>the display of goods for sale on a part of the premises outside of a building, which is open to the street or sidewalk, but does not form part of the street or the sidewalk;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list14.n.list0.iv">
+                    <num>(iv)</num>
+                    <p>the parking of a vehicle on the premises in such a manner that part of the vehicle extends over a boundary of the premises;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list14.n.list0.v">
+                    <num>(v)</num>
+                    <p>a means of advertising or promotion on the premises that has a negative impact on persons in the street in the area;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list14.n.list0.vi">
+                    <num>(vi)</num>
+                    <p>a means of advertising or promotion that has the effect that a distraction or danger is caused for passing vehicular or pedestrian traffic, a gathering of persons is allowed to form in the vicinity of the premises, or that pedestrians are prevented from using the sidewalk in front of the premises;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list14.n.list0.vii">
+                    <num>(vii)</num>
+                    <p>a shop trolley attached to the business be moved further away from the business than the nearest parking areas normally utilised by the customers of the business;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list14.n.list0.viii">
+                    <num>(viii)</num>
+                    <p>shop trolleys attached to the business accumulating in a street or parking area to the extent that vehicular or pedestrian traffic is impeded or endangered;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list14.n.list0.ix">
+                    <num>(ix)</num>
+                    <p>a refrigerator, compressor, fan or other machinery, operating in such a manner that a disturbing vibration is caused on adjacent premises;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list14.n.list0.x">
+                    <num>(x)</num>
+                    <p>an increase in the frequency of deliveries or callers at the premises that other occupiers in the area are prevented from gaining normal access to their premises; and</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list14.n.list0.xi">
+                    <num>(xi)</num>
+                    <p>vehicles attached to the business parking in front of other premises in the area to the extent that the occupiers are prevented to proceed with the normal operation of their activities.</p>
+                  </item>
+                </blockList>
+              </item>
+            </blockList>
+            <blockList id="section-3.paragraph-0.list16">
+              <listIntroduction>Behaviour in streets, public places, etc</listIntroduction>
+              <item id="section-3.paragraph-0.list16.o">
+                <num>(o)</num>
+                <blockList id="section-3.paragraph-0.list16.o.list0">
+                  <listIntroduction>In relation to general behaviour on streets, parking bays, parking areas and in public places—</listIntroduction>
+                  <item id="section-3.paragraph-0.list16.o.list0.i">
+                    <num>(i)</num>
+                    <p>shouting, screaming, whistling or making any other noise to attract attention to such an extent that a nuisance is created;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list16.o.list0.ii">
+                    <num>(ii)</num>
+                    <p>bringing a vehicle to a stop or driving a vehicle in such a manner that pedestrian and vehicular traffic is impeded;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list16.o.list0.iii">
+                    <num>(iii)</num>
+                    <p>riding bicycles or similar devices in groups in such a manner that pedestrian and vehicular traffic is impeded;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list16.o.list0.iv">
+                    <num>(iv)</num>
+                    <p>pushing or parking trolleys or similar devices in such a manner that pedestrian and vehicular traffic is impeded;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list16.o.list0.v">
+                    <num>(v)</num>
+                    <p>walking or standing in groups in such a manner that other pedestrian traffic is impeded;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list16.o.list0.vi">
+                    <num>(vi)</num>
+                    <p>offering services or goods and articles for sale in intersections in such a manner that the attention of drivers of vehicles is distracted;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list16.o.list0.vii">
+                    <num>(vii)</num>
+                    <p>offering services or goods or articles for sale from the side of the road in such a manner that vehicular or pedestrian traffic is impeded or the attention of drivers of vehicles is distracted;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list16.o.list0.viii">
+                    <num>(viii)</num>
+                    <p>operating a vehicle drawn by animals at such times when, and on such streets where, a heavy traffic ﬂow is experienced;</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list16.o.list0.ix">
+                    <num>(ix)</num>
+                    <p>a person in an inebriated or drug-induced condition, and</p>
+                  </item>
+                  <item id="section-3.paragraph-0.list16.o.list0.x">
+                    <num>(x)</num>
+                    <p>a person acting in a disorderly manner.</p>
+                  </item>
+                </blockList>
+              </item>
+            </blockList>
+            <blockList id="section-3.paragraph-0.list18">
+              <listIntroduction>Display of offensive material</listIntroduction>
+              <item id="section-3.paragraph-0.list18.p">
+                <num>(p)</num>
+                <p>the display of anything which is visually offensive;</p>
+              </item>
+            </blockList>
+            <blockList id="section-3.paragraph-0.list20">
+              <listIntroduction>Causing radio and television interference</listIntroduction>
+              <item id="section-3.paragraph-0.list20.q">
+                <num>(q)</num>
+                <p>operating any device which interferes with radio and television reception.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Compliance notice</heading>
+        <subsection id="section-4.1">
+          <num>(1)</num>
+          <content>
+            <p>When an <term refersTo="#term-authorised_employee" id="trm18">authorised employee</term> finds that any person is contravening a provision of this by-law, or that as a result of the actions or neglect of any person, a condition has arisen that is causing a nuisance or has the potential to cause a nuisance to the public, such employee may issue a compliance notice to such person.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-4.2.list1">
+              <listIntroduction>The notice issued in terms of subsection (1) must state—</listIntroduction>
+              <item id="section-4.2.list1.a">
+                <num>(a)</num>
+                <p>the provision of the by-law that is being contravened or will be contravened if the condition is allowed to continue;</p>
+              </item>
+              <item id="section-4.2.list1.b">
+                <num>(b)</num>
+                <p>the measures that must be taken to rectify the condition, and</p>
+              </item>
+              <item id="section-4.2.list1.c">
+                <num>(c)</num>
+                <p>the time period in which the notice must be complied with.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Application</heading>
+        <subsection id="section-5.1">
+          <num>(1)</num>
+          <content>
+            <p>The provisions of this by-law do not derogate from the provisions of any other legislation which provides for the control of specific nuisances as defined in that legislation.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.2">
+          <num>(2)</num>
+          <content>
+            <p>Notwithstanding subsection (1) above, the provisions of any legislation relating to town planning are subject to this bylaw.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.3">
+          <num>(3)</num>
+          <content>
+            <p>This by-law also binds any organ of state.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Transitional arrangements</heading>
+        <paragraph id="section-6.paragraph-0">
+          <content>
+            <blockList id="section-6.paragraph-0.list1">
+              <listIntroduction>A person who can prove that an approval was granted in terms of any by-law contained in the schedule, may continue to act in terms of the approval granted in terms of that by-law, provided that:—</listIntroduction>
+              <item id="section-6.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>the conditions imposed in terms of the original approval will remain in force;</p>
+              </item>
+              <item id="section-6.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>the original approval will be valid only in respect of the premises for which it was granted, and</p>
+              </item>
+              <item id="section-6.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>no approval may be transferred from the original applicant to another person.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Offences and Penalties</heading>
+        <subsection id="section-7.1">
+          <num>(1)</num>
+          <content>
+            <p>A person who contravenes section 2, shall be guilty of an offence and on conviction liable for the payment of a fine.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.2">
+          <num>(2)</num>
+          <content>
+            <p>A person who fails to comply with a notice served in terms of subsection 4(2) or with any requirement imposed by an <term refersTo="#term-authorised_employee" id="trm19">authorised employee</term> in the exercise of his or her powers or the performance of his or her duties and functions thereunder shall be guilty of an offence and liable for the payment of a fine.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

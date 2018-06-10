@@ -1,0 +1,1704 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc033/act/by-law/2005/electricity-supply/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/electricity-supply"/>
+          <FRBRalias value="Electricity Supply By-law"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc033/act/by-law/2005/electricity-supply/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/electricity-supply/eng@2005-10-03"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc033/act/by-law/2005/electricity-supply/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/electricity-supply/eng@2005-10-03"/>
+          <FRBRdate date="2018-02-04" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-10-03" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" number="6303"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-accredited_person" href="/ontology/term/this.eng.accredited_person" showAs="accredited person"/>
+        <TLCTerm id="term-applicable_standard_speci_cation" href="/ontology/term/this.eng.applicable_standard_speci_cation" showAs="applicable standard speciﬁcation"/>
+        <TLCTerm id="term-certi_cate_of_compliance" href="/ontology/term/this.eng.certi_cate_of_compliance" showAs="certiﬁcate of compliance"/>
+        <TLCTerm id="term-consumer" href="/ontology/term/this.eng.consumer" showAs="consumer"/>
+        <TLCTerm id="term-credit_meter" href="/ontology/term/this.eng.credit_meter" showAs="credit meter"/>
+        <TLCTerm id="term-electrical_contractor" href="/ontology/term/this.eng.electrical_contractor" showAs="electrical contractor"/>
+        <TLCTerm id="term-electrical_installation" href="/ontology/term/this.eng.electrical_installation" showAs="electrical installation"/>
+        <TLCTerm id="term-engineer" href="/ontology/term/this.eng.engineer" showAs="engineer"/>
+        <TLCTerm id="term-high_voltage" href="/ontology/term/this.eng.high_voltage" showAs="high voltage"/>
+        <TLCTerm id="term-installation_work" href="/ontology/term/this.eng.installation_work" showAs="installation work"/>
+        <TLCTerm id="term-low_voltage" href="/ontology/term/this.eng.low_voltage" showAs="low voltage"/>
+        <TLCTerm id="term-medium_voltage" href="/ontology/term/this.eng.medium_voltage" showAs="medium voltage"/>
+        <TLCTerm id="term-meter" href="/ontology/term/this.eng.meter" showAs="meter"/>
+        <TLCTerm id="term-motor_rating" href="/ontology/term/this.eng.motor_rating" showAs="motor rating"/>
+        <TLCTerm id="term-municipal_area" href="/ontology/term/this.eng.municipal_area" showAs="municipal area"/>
+        <TLCTerm id="term-municipality" href="/ontology/term/this.eng.municipality" showAs="municipality"/>
+        <TLCTerm id="term-NRS" href="/ontology/term/this.eng.NRS" showAs="NRS"/>
+        <TLCTerm id="term-occupier" href="/ontology/term/this.eng.occupier" showAs="occupier"/>
+        <TLCTerm id="term-owner" href="/ontology/term/this.eng.owner" showAs="owner"/>
+        <TLCTerm id="term-point_of_consumption" href="/ontology/term/this.eng.point_of_consumption" showAs="point of consumption"/>
+        <TLCTerm id="term-point_of_control" href="/ontology/term/this.eng.point_of_control" showAs="point of control"/>
+        <TLCTerm id="term-point_of_metering" href="/ontology/term/this.eng.point_of_metering" showAs="point of metering"/>
+        <TLCTerm id="term-point_of_outlet" href="/ontology/term/this.eng.point_of_outlet" showAs="point of outlet"/>
+        <TLCTerm id="term-point_of_supply" href="/ontology/term/this.eng.point_of_supply" showAs="point of supply"/>
+        <TLCTerm id="term-premises" href="/ontology/term/this.eng.premises" showAs="premises"/>
+        <TLCTerm id="term-prepayment_meter" href="/ontology/term/this.eng.prepayment_meter" showAs="prepayment meter"/>
+        <TLCTerm id="term-regulations" href="/ontology/term/this.eng.regulations" showAs="regulations"/>
+        <TLCTerm id="term-SANS" href="/ontology/term/this.eng.SANS" showAs="SANS"/>
+        <TLCTerm id="term-safety_standard" href="/ontology/term/this.eng.safety_standard" showAs="safety standard"/>
+        <TLCTerm id="term-service_connection" href="/ontology/term/this.eng.service_connection" showAs="service connection"/>
+        <TLCTerm id="term-service_protective_device" href="/ontology/term/this.eng.service_protective_device" showAs="service protective device"/>
+        <TLCTerm id="term-standby_supply" href="/ontology/term/this.eng.standby_supply" showAs="standby supply"/>
+        <TLCTerm id="term-supply_mains" href="/ontology/term/this.eng.supply_mains" showAs="supply mains"/>
+        <TLCTerm id="term-supply_terminals" href="/ontology/term/this.eng.supply_terminals" showAs="supply terminals"/>
+        <TLCTerm id="term-tariff" href="/ontology/term/this.eng.tariff" showAs="tariff"/>
+        <TLCTerm id="term-Tariff_Policy_By-law" href="/ontology/term/this.eng.Tariff_Policy_By-law" showAs="Tariff Policy By-law"/>
+        <TLCTerm id="term-token" href="/ontology/term/this.eng.token" showAs="token"/>
+        <TLCTerm id="term-voltage" href="/ontology/term/this.eng.voltage" showAs="voltage"/>
+      </references>
+    </meta>
+    <body>
+      <chapter id="chapter-1">
+        <num>1</num>
+        <heading>General</heading>
+        <section id="section-1">
+          <num>1.</num>
+          <heading>Deﬁnitions</heading>
+          <subsection id="section-1.1" refersTo="#term-voltage">
+            <num>(1)</num>
+            <content>
+              <p>In this by-law, unless inconsistent with the context—</p>
+              <p>"<def refersTo="#term-accredited_person">accredited person</def>" means a person registered in terms of the regulations as an electrical tester for single phase, an installation electrician or a master installation electrician, as the case may be;</p>
+              <blockList id="section-1.1.list3" refersTo="#term-applicable_standard_speci_cation">
+                <listIntroduction>"<def refersTo="#term-applicable_standard_speci_cation">applicable standard speciﬁcation</def>" means the standard speciﬁcations—</listIntroduction>
+                <item id="section-1.1.list3.a">
+                  <num>(a)</num>
+                  <p>SANS 1019 Standard voltages, currents and insulation levels for electricity supply;</p>
+                </item>
+                <item id="section-1.1.list3.b">
+                  <num>(b)</num>
+                  <p>SANS 1607 Electromechanical watt-hour meters;</p>
+                </item>
+                <item id="section-1.1.list3.c">
+                  <num>(c)</num>
+                  <p>SANS 1524 Parts 0, 1 &amp;amp; 2—Electricity dispensing systems;</p>
+                </item>
+                <item id="section-1.1.list3.d">
+                  <num>(d)</num>
+                  <p>SANS IEC 60211 Maximum demand indicators, Class 1.0;</p>
+                </item>
+                <item id="section-1.1.list3.e">
+                  <num>(e)</num>
+                  <p>SANS IEC 60521 Alternating current electromechanical watt-hour meter (Classes 0.5, 1 &amp;amp; 2);</p>
+                </item>
+                <item id="section-1.1.list3.f">
+                  <num>(f)</num>
+                  <p>SANS 10142-1 Code of practice for the wiring of premises;</p>
+                </item>
+                <item id="section-1.1.list3.g">
+                  <num>(g)</num>
+                  <p>NRS 047 National Rationalised Speciﬁcation for the Electricity Supply—Quality of Service;</p>
+                </item>
+                <item id="section-1.1.list3.h">
+                  <num>(h)</num>
+                  <p>NRS 048 National Rationalised Speciﬁcation for the Electricity Supply—Quality of Supply; and</p>
+                </item>
+                <item id="section-1.1.list3.i">
+                  <num>(i)</num>
+                  <p>NRS 057 Electricity Metering: Minimum Requirements.</p>
+                </item>
+              </blockList>
+              <p>"<def refersTo="#term-certi_cate_of_compliance">certiﬁcate of compliance</def>" means a certiﬁcate issued in terms of the regulations in respect of an electrical installation or part of an electrical installation by an accredited person;</p>
+              <blockList id="section-1.1.list6" refersTo="#term-consumer">
+                <listIntroduction>"<def refersTo="#term-consumer">consumer</def>" in relation to premises means:</listIntroduction>
+                <item id="section-1.1.list6.a">
+                  <num>(a)</num>
+                  <p>any occupier thereof or any other person with whom the municipality has contracted to supply or is actually supplying electricity thereat; or</p>
+                </item>
+                <item id="section-1.1.list6.b">
+                  <num>(b)</num>
+                  <p>if such premises are not occupied, any person who has a valid existing agreement with the municipality for the supply of electricity to such premises; or</p>
+                </item>
+                <item id="section-1.1.list6.c">
+                  <num>(c)</num>
+                  <p>if there is no such person or occupier, the owner of the premises;</p>
+                </item>
+              </blockList>
+              <p>"<def refersTo="#term-credit_meter">credit meter</def>" means a meter where an account is issued subsequent to the consumption of electricity;</p>
+              <p>"<def refersTo="#term-electrical_contractor">electrical contractor</def>" means a person who undertakes to perform electrical installation work on behalf of any other person, but excludes an employee of such ﬁrst-mentioned person;</p>
+              <blockList id="section-1.1.list10" refersTo="#term-electrical_installation">
+                <listIntroduction>"<def refersTo="#term-electrical_installation">electrical installation</def>" means any machinery, in or on any premises, used for the transmission of electricity from a point of control to a point of consumption anywhere on the premises, including any article forming part of such an installation irrespective of whether or not it is part of the electrical circuit, but excluding—</listIntroduction>
+                <item id="section-1.1.list10.a">
+                  <num>(a)</num>
+                  <p>any machinery of the supplier related to the supply of electricity on the premises;</p>
+                </item>
+                <item id="section-1.1.list10.b">
+                  <num>(b)</num>
+                  <p>any machinery used for the transmission of electricity of which the voltage shall not exceed 50 V where such electricity is not derived from the main supply of a supplier;</p>
+                </item>
+                <item id="section-1.1.list10.c">
+                  <num>(c)</num>
+                  <p>any machinery which transmits electrical energy in telecommunication, television or radio circuits;</p>
+                </item>
+                <item id="section-1.1.list10.d">
+                  <num>(d)</num>
+                  <p>an electrical installation on a vehicle, vessel, train or aircraft;</p>
+                </item>
+              </blockList>
+              <p>"<def refersTo="#term-engineer">engineer</def>" means the official in charge of the electricity undertaking of the municipality or any other person duly authorised to perform this duty on his behalf;</p>
+              <p>"<def refersTo="#term-high_voltage">high voltage</def>" means the set of nominal voltage levels that are used in power systems for bulk transmission of electricity in the range of 44kVUn H 220 kV. [SANS 1019];</p>
+              <p>"<def refersTo="#term-installation_work">installation work</def>" means the installation, extension, modiﬁcation or repair of an electrical installation, including the connection of machinery at the supply terminals of such machinery;</p>
+              <p>"<def refersTo="#term-low_voltage">low voltage</def>" means the set of nominal voltage levels that are used for the distribution of electricity and whose upper limit is generally accepted to be an a.c. voltage of 1 000 V (or a d.c. voltage of 1 500 V). [SANS 1019];</p>
+              <p>"<def refersTo="#term-medium_voltage">medium voltage</def>" means the set of nominal voltage levels that lie above low voltage and below high voltage in the range of 1 kV Un H 44 kV. [SANS 1019];</p>
+              <p>"<def refersTo="#term-meter">meter</def>" means a device which records the demand and/or the electrical energy consumed;</p>
+              <p>"<def refersTo="#term-motor_rating">motor rating</def>" means the maximum continuous kW output of a motor as stated on the maker’s rating plate;</p>
+              <p>"<def refersTo="#term-municipal_area">municipal area</def>" means the area of juridiction of the municipality;</p>
+              <p>"<def refersTo="#term-municipality">municipality</def>" means the Municipality of Cape Agulhas;</p>
+              <p>"<def refersTo="#term-NRS">NRS</def>" means the National Rationalised Speciﬁcation for the Electricity Supply compiled by the Electricity Supply Liaison Committee and issued by South African Bureau of Standards;</p>
+              <blockList id="section-1.1.list22" refersTo="#term-occupier">
+                <listIntroduction>"<def refersTo="#term-occupier">occupier</def>" in relation to any premises means—</listIntroduction>
+                <item id="section-1.1.list22.a">
+                  <num>(a)</num>
+                  <p>any person in actual occupation of such premises;</p>
+                </item>
+                <item id="section-1.1.list22.b">
+                  <num>(b)</num>
+                  <p>any person legally entitled to occupy such premises;</p>
+                </item>
+                <item id="section-1.1.list22.c">
+                  <num>(c)</num>
+                  <p>in the case of such premises being subdivided and let to lodgers or various tenants, the person receiving the rent payable by such lodgers or tenants, whether on his own account or as agent for any person entitled thereto or interested therein, or</p>
+                </item>
+                <item id="section-1.1.list22.d">
+                  <num>(d)</num>
+                  <p>any person in control of such premises or responsible for the management thereof, and includes the agent of any such person when he/she is absent from the Republic of South Africa or his/her whereabouts are unknown;</p>
+                </item>
+              </blockList>
+              <p>"<def refersTo="#term-owner">owner</def>" in relation to premises means the person in whom is vested the legal title thereto;</p>
+              <p>"<def refersTo="#term-point_of_consumption">point of consumption</def>" means any point of outlet or the supply terminals of machinery which is not connected to a point of outlet and which converts electrical energy to another form of energy: Provided that in the case of machinery which has been installed for any speciﬁc purpose as a complete unit, the point of consumption shall be the supply terminals which have been provided on the unit of machinery for that purpose;</p>
+              <p>"<def refersTo="#term-point_of_control">point of control</def>" means the point at which the electrical installation on or in any premises can be switched off by a user or lessor from the electricity supplied from the point of supply;</p>
+              <p>"<def refersTo="#term-point_of_metering">point of metering</def>" means the point at which the consumer’s consumption of electricity is metered and which may be at the point of supply or at any other point on the distribution system of the municipality or the electrical installation of the consumer, as speciﬁed by the engineer; provided that it shall meter all of, and only, the consumer’s consumption of electricity;</p>
+              <p>"<def refersTo="#term-point_of_outlet">point of outlet</def>" means any termination of an electrical installation which has been provided for connecting any electrical machinery without the use of tools;</p>
+              <p>"<def refersTo="#term-point_of_supply">point of supply</def>" means the point determined by the engineer at which electricity is supplied to any premises by the municipality;</p>
+              <p>"<def refersTo="#term-premises">premises</def>" means any land or any building or structure above or below ground level and includes any vehicle, aircraft or vessel;</p>
+              <p>"<def refersTo="#term-prepayment_meter">prepayment meter</def>" means a meter that can be programmed to allow the ﬂow of pre-purchased amounts of energy in an electrical circuit;</p>
+              <p>"<def refersTo="#term-regulations">regulations</def>" means Regulations made in terms of the Occupational Health and Safety Act, 1993 (<ref href="/za/act/1993/85">Act 85 of 1993</ref>), as amended;</p>
+              <p>"<def refersTo="#term-SANS">SANS</def>" means a standard which has been set and issued by the South African Bureau of Standards in terms of the provisions of the Standards <ref href="/za/act/1993/29">Act, No. 29 of 1993</ref>;</p>
+              <p>"<def refersTo="#term-safety_standard">safety standard</def>" means the Code of Practice for the Wiring of Premises SANS 10142-1 incorporated in the regulations;</p>
+              <p>"<def refersTo="#term-service_connection">service connection</def>" means all cables and equipment required to connect the supply mains to the electrical installation of the consumer at the point of supply;</p>
+              <p>"<def refersTo="#term-service_protective_device">service protective device</def>" means any fuse or circuit breaker installed for the purpose of protecting the municipality’s equipment from overloads or faults occurring on the installation or on the internal service connection;</p>
+              <p>"<def refersTo="#term-standby_supply">standby supply</def>" means an alternative electricity supply not normally used by the consumer;</p>
+              <p>"<def refersTo="#term-supply_mains">supply mains</def>" means any part of the municipality’s electricity network;</p>
+              <p>"<def refersTo="#term-supply_terminals">supply terminals</def>", in relation to machinery installed as a complete unit, means the terminals or connection clamps on such machinery where the external conductors supplying the machinery with electricity are terminated or connected;</p>
+              <p>"<def refersTo="#term-tariff">tariff</def>" means the tariff of charges and fees for the supply of electricity, determined in terms of the municipality’s Tariff Policy By-law;</p>
+              <p>"<def refersTo="#term-Tariff_Policy_By-law">Tariff Policy By-law</def>" means the Tariff Policy By-law adopted by the municipality and published in the Provincial Gazette.</p>
+              <p>"<def refersTo="#term-token">token</def>" means the essential element of a prepayment metering system used to transfer information from a point of sale for electricity credit to a prepayment meter and vice versa; and</p>
+              <p>"<def refersTo="#term-voltage">voltage</def>" means the root-mean-square value of electrical potential between two conductors.</p>
+            </content>
+          </subsection>
+          <subsection id="section-1.2">
+            <num>(2)</num>
+            <content>
+              <p>All other terms used in this by-law shall, unless the context otherwise requires, have the meaning assigned thereto in the Electricity Act, 1987 (<ref href="/za/act/1987/41">Act 41 of 1987</ref>), as amended, or the Occupational Health and Safety Act, 1993 (<ref href="/za/act/1993/85">Act 85 of 1993</ref>), as amended.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-2">
+        <num>2</num>
+        <heading>General conditions of supply</heading>
+        <section id="section-2">
+          <num>2.</num>
+          <heading>Supply of Electricity by Municipality</heading>
+          <paragraph id="section-2.paragraph-0">
+            <content>
+              <p>Only the <term refersTo="#term-municipality" id="trm0">municipality</term> may supply or contract for the supply of electricity within the <term refersTo="#term-municipal_area" id="trm1">municipal area</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-3">
+          <num>3.</num>
+          <heading>Supply by agreement</heading>
+          <subsection id="section-3.1">
+            <num>(1)</num>
+            <content>
+              <p>No electricity supply will be given to any <term refersTo="#term-electrical_installation" id="trm2">electrical installation</term> on any <term refersTo="#term-premises" id="trm3">premises</term> unless the <term refersTo="#term-owner" id="trm4">owner</term> or <term refersTo="#term-occupier" id="trm5">occupier</term> of the <term refersTo="#term-premises" id="trm6">premises</term> has entered into an agreement with the <term refersTo="#term-municipality" id="trm7">municipality</term> for such supply.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.2">
+            <num>(2)</num>
+            <content>
+              <p>No person may use or is entitled to use an electricity supply from the <term refersTo="#term-municipality" id="trm8">municipality</term> unless or until such person has entered into an agreement with the <term refersTo="#term-municipality" id="trm9">municipality</term> for such supp ly.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.3">
+            <num>(3)</num>
+            <content>
+              <p>The agreement referred to in subsections (1) and (2) together with the provisions of this by-law governs the supply of electricity to any <term refersTo="#term-premises" id="trm10">premises</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.4">
+            <num>(4)</num>
+            <content>
+              <p>A person who uses an electricity supply without having entered into an agreement with the <term refersTo="#term-municipality" id="trm11">municipality</term> is liable for the cost of electricity used.</p>
+            </content>
+          </subsection>
+          <subsection id="section-3.5">
+            <num>(5)</num>
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm12">consumer</term> is liable for the payment of all fees in respect of the supply of electricity, until the agreement has been terminated in accordance with this By-law.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-4">
+          <num>4.</num>
+          <heading>Compliance with notices</heading>
+          <paragraph id="section-4.paragraph-0">
+            <content>
+              <p>Any person on whom a notice duly issued or given under this by-law is served shall, within the time specified in such notice, comply with its terms.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-5">
+          <num>5.</num>
+          <heading>Application for supply</heading>
+          <subsection id="section-5.1">
+            <num>(1)</num>
+            <content>
+              <p>A prospective <term refersTo="#term-consumer" id="trm13">consumer</term> must on a form provided by the <term refersTo="#term-municipality" id="trm14">municipality</term> apply for the supply of electricity.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.2">
+            <num>(2)</num>
+            <content>
+              <p>An applicant for the supply of electricity must indicate the estimated load, in kVA, required.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.3">
+            <num>(3)</num>
+            <content>
+              <p>An application for an electricity supply for a period of less than one year is regarded as an application for a temporary supply of electricity and will be considered at the discretion of the <term refersTo="#term-engineer" id="trm15">engineer</term> and subject to such conditions as he or she may deem</p>
+              <p>fit.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.4">
+            <num>(4)</num>
+            <content>
+              <p>An application for an electricity supply must be lodged with the <term refersTo="#term-municipality" id="trm16">municipality</term> at least ten working days before the supply is required.</p>
+            </content>
+          </subsection>
+          <subsection id="section-5.5">
+            <num>(5)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm17">engineer</term> may, before approving an application for the supply of electricity, inspect any electrical intallation to which such an application relates, with a view to establish whether such installation complies with the provisions of this by-law.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-6">
+          <num>6.</num>
+          <heading>Processing of requests for supply</heading>
+          <paragraph id="section-6.paragraph-0">
+            <content>
+              <p>Applications for the supply of electricity will be processed and the supply made available within the periods stipulated in <term refersTo="#term-NRS" id="trm18">NRS</term> 047.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-7">
+          <num>7.</num>
+          <heading>Wayleaves</heading>
+          <subsection id="section-7.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-municipality" id="trm19">municipality</term> may refuse to lay or erect a <term refersTo="#term-service_connection" id="trm20">service connection</term> above or below ground on any thoroughfare or land not vested in the <term refersTo="#term-municipality" id="trm21">municipality</term> or on any private property, unless and until the prospective <term refersTo="#term-consumer" id="trm22">consumer</term> have provided the <term refersTo="#term-engineer" id="trm23">engineer</term> with written permission from the <term refersTo="#term-owner" id="trm24">owner</term> of such private property or by the person who has legal title to such land or thoroughfare, as the case may be, authorising the laying or erection of a <term refersTo="#term-service_connection" id="trm25">service connection</term> thereon.</p>
+            </content>
+          </subsection>
+          <subsection id="section-7.2">
+            <num>(2)</num>
+            <content>
+              <p>If such permission is at any time withdrawn or if the private property or thoroughfare changes ownership and the new <term refersTo="#term-owner" id="trm26">owner</term> refuses to grant or continue such permission, the cost of any alteration required to be made to a <term refersTo="#term-service_connection" id="trm27">service connection</term> in order that the supply of electricity may be continued, and of any removal thereof which may become necessary in the circumstances, shall be borne by the <term refersTo="#term-consumer" id="trm28">consumer</term> to whose <term refersTo="#term-premises" id="trm29">premises</term> the supply of electricity is required to be continued.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-8">
+          <num>8.</num>
+          <heading>Municipality’s right of access to <term refersTo="#term-premises" id="trm30">premises</term></heading>
+          <paragraph id="section-8.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-occupier" id="trm31">occupier</term> of <term refersTo="#term-premises" id="trm32">premises</term> must give the <term refersTo="#term-engineer" id="trm33">engineer</term> or any duly authorised official of the <term refersTo="#term-municipality" id="trm34">municipality</term> access at all reasonable hours to the <term refersTo="#term-premises" id="trm35">premises</term> in order to read, inspect, install or repair any <term refersTo="#term-meter" id="trm36">meter</term> or <term refersTo="#term-service_connection" id="trm37">service connection</term> for the supply of electricity, or to disconnect, stop or restrict the supply of electricity.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-9">
+          <num>9.</num>
+          <heading>Obstruction of employees</heading>
+          <paragraph id="section-9.paragraph-0">
+            <content>
+              <blockList id="section-9.paragraph-0.list1">
+                <listIntroduction>No person may wilfully—</listIntroduction>
+                <item id="section-9.paragraph-0.list1.a">
+                  <num>(a)</num>
+                  <p>hinder, obstruct or interfere with an employee of the <term refersTo="#term-municipality" id="trm38">municipality</term> in the performance of any duty relating to this bylaw;</p>
+                </item>
+                <item id="section-9.paragraph-0.list1.b">
+                  <num>(b)</num>
+                  <p>refuse to furnish such information as the <term refersTo="#term-municipality" id="trm39">municipality</term> may reasonably require; or</p>
+                </item>
+                <item id="section-9.paragraph-0.list1.c">
+                  <num>(c)</num>
+                  <p>give to the <term refersTo="#term-municipality" id="trm40">municipality</term> any information which to his or her knowledge is false or misleading.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-10">
+          <num>10.</num>
+          <heading>Improper use</heading>
+          <subsection id="section-10.1">
+            <num>(1)</num>
+            <content>
+              <p>If the <term refersTo="#term-engineer" id="trm41">engineer</term> has reason to believe that a <term refersTo="#term-consumer" id="trm42">consumer</term> uses electricity for any purpose or deals with the electricity in any manner which interferes or is calculated to interfere in an improper or unsafe manner with the efficient supply of electricity to any other <term refersTo="#term-consumer" id="trm43">consumer</term>, the <term refersTo="#term-engineer" id="trm44">engineer</term> may, with or without notice, disconnect the electricity supply to such <term refersTo="#term-consumer" id="trm45">consumer</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-10.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm46">engineer</term> must restore the electicity supply as soon as the cause for the disconnection has been permanently remedied or removed and the <term refersTo="#term-consumer" id="trm47">consumer</term> has paid the relevant fee for the disconnection and reconnection, unless it can be shown that the <term refersTo="#term-consumer" id="trm48">consumer</term> did not use or deal with the electricity in an improper or unsafe manner.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-11">
+          <num>11.</num>
+          <heading>Tariffs, fees, availability charges and deposits</heading>
+          <subsection id="section-11.1">
+            <num>(1)</num>
+            <content>
+              <p>The tariffs, fees, availability charges and deposits in respect of services rendered by the <term refersTo="#term-municipality" id="trm49">municipality</term> in terms of this by-law, are determined in terms of the <term refersTo="#term-Tariff_Policy_By-law" id="trm50">Tariff Policy By-law</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-11.2">
+            <num>(2)</num>
+            <content>
+              <p>Any charge or fee determined by the <term refersTo="#term-municipality" id="trm51">municipality</term> for a service rendered in terms of this by-law, becomes due and payable on or before the due date specified in the <term refersTo="#term-Tariff_Policy_By-law" id="trm52">Tariff Policy By-law</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-12">
+          <num>12.</num>
+          <heading>Interest on overdue accounts</heading>
+          <subsection id="section-12.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-consumer" id="trm53">consumer</term> must pay interest on overdue accounts in respect of a service rendered in terms of the provisions of this by-law.</p>
+            </content>
+          </subsection>
+          <subsection id="section-12.2">
+            <num>(2)</num>
+            <content>
+              <p>Interest on overdue accounts is charged at a rate of interest determined in terms of the <term refersTo="#term-Tariff_Policy_By-law" id="trm54">Tariff Policy By-law</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-13">
+          <num>13.</num>
+          <heading>Resale of electricity</heading>
+          <subsection id="section-13.1">
+            <num>(1)</num>
+            <content>
+              <p>Unless otherwise authorised by the <term refersTo="#term-municipality" id="trm55">municipality</term>, no person may sell or supply electricity, supplied to his/her <term refersTo="#term-premises" id="trm56">premises</term> under an agreement with the <term refersTo="#term-municipality" id="trm57">municipality</term>, to any other person or persons for use on any other <term refersTo="#term-premises" id="trm58">premises</term>, or permit or suffer such resale or supply to take place.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.2">
+            <num>(2)</num>
+            <content>
+              <p>If electricity is resold for use upon the same <term refersTo="#term-premises" id="trm59">premises</term>, the electricity resold must be measured by a submeter of a type which has been approved by the South African Bureau of Standards and supplied, installed and programmed in accordance with the standards of the <term refersTo="#term-municipality" id="trm60">municipality</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-tariff" id="trm61">tariff</term>, rates and charges at which and the conditions of sale under which electricity is thus resold may not be less favourable to the purchaser than those that would have been payable and applicable had the purchaser been supplied directly with electricity by the <term refersTo="#term-municipality" id="trm62">municipality</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-13.4">
+            <num>(4)</num>
+            <content>
+              <p>A re-seller of electricity must furnish the purchaser with monthly accounts that are at least as detailed as the relevant billing information details provided by the <term refersTo="#term-municipality" id="trm63">municipality</term> to its electricity consumers.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-14">
+          <num>14.</num>
+          <heading>Right to disconnect supply</heading>
+          <subsection id="section-14.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm64">engineer</term> may disconnect the supply of electricity to any <term refersTo="#term-premises" id="trm65">premises</term> where any of the provisions of this by-law are being contravened, after notice has been given to the <term refersTo="#term-occupier" id="trm66">occupier</term> of its intention to do so, or, in the case of a grave risk, without notice.</p>
+            </content>
+          </subsection>
+          <subsection id="section-14.2">
+            <num>(2)</num>
+            <content>
+              <p>In the case where an installation has been illegally reconnected on a <term refersTo="#term-consumer" id="trm67">consumer</term>’s <term refersTo="#term-premises" id="trm68">premises</term> after having been previously legally disconnected by the <term refersTo="#term-municipality" id="trm69">municipality</term>, or in the case where the <term refersTo="#term-municipality" id="trm70">municipality</term>’s electrical equipment has been tampered with to prevent the full registration of consumption by the <term refersTo="#term-meter" id="trm71">meter</term>, the <term refersTo="#term-engineer" id="trm72">engineer</term> may physically remove the electricity supply from those <term refersTo="#term-premises" id="trm73">premises</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-15">
+          <num>15.</num>
+          <heading>Non-liability of the Municipality</heading>
+          <paragraph id="section-15.paragraph-0">
+            <content>
+              <p>The Municipality is not liable for any loss or damage, direct or consequential, suffered or sustained by a <term refersTo="#term-consumer" id="trm74">consumer</term> as a result of or arising from the cessation, interruption or any other abnormality of the supply of electricity, unless caused by negligence on the part of the <term refersTo="#term-municipality" id="trm75">municipality</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-16">
+          <num>16.</num>
+          <heading>Leakage of electricity</heading>
+          <paragraph id="section-16.paragraph-0">
+            <content>
+              <p>No rebate will be allowed on the account for electricity supplied and metered in respect of electricity wasted owing to leakage or any other fault in the <term refersTo="#term-electrical_installation" id="trm76">electrical installation</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-17">
+          <num>17.</num>
+          <heading>Failure of supply</heading>
+          <subsection id="section-17.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-municipality" id="trm77">municipality</term> will not attend to a failure of supply of electricity due to a fault in the <term refersTo="#term-electrical_installation" id="trm78">electrical installation</term> of the <term refersTo="#term-consumer" id="trm79">consumer</term>, except when such failure is due to the operation of the <term refersTo="#term-service_protective_device" id="trm80">service protective device</term> of the <term refersTo="#term-municipality" id="trm81">municipality</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-17.2">
+            <num>(2)</num>
+            <content>
+              <p>When any failure of supply of electricity is found to be due to a fault in the <term refersTo="#term-electrical_installation" id="trm82">electrical installation</term> of the <term refersTo="#term-consumer" id="trm83">consumer</term> or to the faulty operation of apparatus used in connection therewith, the <term refersTo="#term-municipality" id="trm84">municipality</term> may charge the <term refersTo="#term-consumer" id="trm85">consumer</term> the relevant fee for each restoration of the supply of electricity in addition to the cost of making good or repairing any damage which may have been done to the service main and <term refersTo="#term-meter" id="trm86">meter</term> by such fault or faulty operation.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-18">
+          <num>18.</num>
+          <heading>Sealed and locked apparatus</heading>
+          <paragraph id="section-18.paragraph-0">
+            <content>
+              <p>Where the <term refersTo="#term-municipality" id="trm87">municipality</term> has sealed or locked any <term refersTo="#term-meter" id="trm88">meter</term>, <term refersTo="#term-service_protective_device" id="trm89">service protective device</term> or other apparatus, whether or not belonging to the <term refersTo="#term-municipality" id="trm90">municipality</term>, no person other than an authorised official of the <term refersTo="#term-municipality" id="trm91">municipality</term>, may in any manner or for any reason whatsoever remove, break, deface, or tamper or otherwise interfere with any such seal or lock.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-19">
+          <num>19.</num>
+          <heading>Tampering with <term refersTo="#term-service_connection" id="trm92">service connection</term> or <term refersTo="#term-supply_mains" id="trm93">supply mains</term></heading>
+          <subsection id="section-19.1">
+            <num>(1)</num>
+            <content>
+              <p>No person may in any manner or for any reason whatsoever tamper or interfere with any <term refersTo="#term-meter" id="trm94">meter</term> or metering equipment or <term refersTo="#term-service_connection" id="trm95">service connection</term> or <term refersTo="#term-service_protective_device" id="trm96">service protective device</term> or <term refersTo="#term-supply_mains" id="trm97">supply mains</term> or any other equipment of the <term refersTo="#term-municipality" id="trm98">municipality</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-19.2">
+            <num>(2)</num>
+            <content>
+              <p>Where there is prima facie evidence that sub-section (1) has been contravened, the <term refersTo="#term-municipality" id="trm99">municipality</term> may disconnect the supply of electricity immediately and without prior notice to the <term refersTo="#term-consumer" id="trm100">consumer</term> and the <term refersTo="#term-consumer" id="trm101">consumer</term> is liable for all fees and charges for such disconnection.</p>
+            </content>
+          </subsection>
+          <subsection id="section-19.3">
+            <num>(3)</num>
+            <content>
+              <p>Where any person has contravened sub-section (1) and such contravention has resulted in the <term refersTo="#term-meter" id="trm102">meter</term> recording less than the true consumption, the <term refersTo="#term-municipality" id="trm103">municipality</term> may recover from the <term refersTo="#term-consumer" id="trm104">consumer</term> the full cost of the estimated consumption.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-20">
+          <num>20.</num>
+          <heading>Protection of Municipality’s <term refersTo="#term-supply_mains" id="trm105">supply mains</term></heading>
+          <subsection id="section-20.1">
+            <num>(1)</num>
+            <content>
+              <blockList id="section-20.1.list1">
+                <listIntroduction>No person may, except with the consent of the <term refersTo="#term-engineer" id="trm106">engineer</term> and subject to such conditions as he or she may impose—</listIntroduction>
+                <item id="section-20.1.list1.a">
+                  <num>(a)</num>
+                  <p>construct, erect or lay, or permit the construction, erection or laying of any building, structure or other object, or plant trees or vegetation over or in such a position or in such a manner as to interfere with or endanger the <term refersTo="#term-supply_mains" id="trm107">supply mains</term>;</p>
+                </item>
+                <item id="section-20.1.list1.b">
+                  <num>(b)</num>
+                  <p>excavate, open up or remove the ground above, next to, under or near any part of the <term refersTo="#term-supply_mains" id="trm108">supply mains</term>;</p>
+                </item>
+                <item id="section-20.1.list1.c">
+                  <num>(c)</num>
+                  <p>damage, endanger, remove or destroy, or do any act likely to damage, endanger or destroy any part of the <term refersTo="#term-supply_mains" id="trm109">supply mains</term>;</p>
+                </item>
+                <item id="section-20.1.list1.d">
+                  <num>(d)</num>
+                  <p>make any unauthorized connection to any part of the <term refersTo="#term-supply_mains" id="trm110">supply mains</term> or divert or cause to be diverted any electricity there from.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-20.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-20.2.list1">
+                <listIntroduction>The Engineer may—</listIntroduction>
+                <item id="section-20.2.list1.a">
+                  <num>(a)</num>
+                  <p>demolish, alter or otherwise deal with any building, structure or other thing constructed, erected or laid in contravention with this by-law;</p>
+                </item>
+                <item id="section-20.2.list1.b">
+                  <num>(b)</num>
+                  <p>fill in and make good any ground excavated or removed in contravention with this by-law;</p>
+                </item>
+                <item id="section-20.2.list1.c">
+                  <num>(c)</num>
+                  <p>repair and make good any damage done in contravention of this by-law or resulting from a contravention of this by-law; and</p>
+                </item>
+                <item id="section-20.2.list1.d">
+                  <num>(d)</num>
+                  <p>remove anything damaging, obstructing or endangering or likely to damage, obstruct, endanger or destroy any part of the electrical distribution system.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-20.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-municipality" id="trm111">municipality</term> may in the case of an emergency or disaster remove anything damaging, obstructing or endangering or likely to damage, obstruct, endanger or destroy any part of the electrical distribution system.</p>
+            </content>
+          </subsection>
+          <subsection id="section-20.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-owner" id="trm112">owner</term> or <term refersTo="#term-occupier" id="trm113">occupier</term> must cut or prune trees in the proximity of overhead lines or otherwise ensure that trees do not interfere with the conductors when the tree or its branch falls or is cut down, failing which the <term refersTo="#term-engineer" id="trm114">engineer</term> may after prior written notice, or at any time in an emergency, cut or trim the trees and may enter the property for this purpose.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-21">
+          <num>21.</num>
+          <heading>Prevention of tampering with <term refersTo="#term-service_connection" id="trm115">service connection</term> or <term refersTo="#term-supply_mains" id="trm116">supply mains</term></heading>
+          <paragraph id="section-21.paragraph-0">
+            <content>
+              <p>If the <term refersTo="#term-engineer" id="trm117">engineer</term> decides that it is necessary or desirable to take special precautions in order to prevent tampering with any portion of the <term refersTo="#term-supply_mains" id="trm118">supply mains</term>, <term refersTo="#term-service_connection" id="trm119">service connection</term> or <term refersTo="#term-service_protective_device" id="trm120">service protective device</term> or <term refersTo="#term-meter" id="trm121">meter</term> or metering equipment, the <term refersTo="#term-consumer" id="trm122">consumer</term> must either supply and install the necessary protection or pay the costs involved where such protection is supplied by the <term refersTo="#term-municipality" id="trm123">municipality</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-22">
+          <num>22.</num>
+          <heading>Unauthorised connections</heading>
+          <paragraph id="section-22.paragraph-0">
+            <content>
+              <p>No person other than a person authorised thereto by the <term refersTo="#term-engineer" id="trm124">engineer</term> in writing may connect, attempt to connect or cause or permit to be connected any <term refersTo="#term-electrical_installation" id="trm125">electrical installation</term> or part thereof to the <term refersTo="#term-supply_mains" id="trm126">supply mains</term> or <term refersTo="#term-service_connection" id="trm127">service connection</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-23">
+          <num>23.</num>
+          <heading>Unauthorised reconnections</heading>
+          <subsection id="section-23.1">
+            <num>(1)</num>
+            <content>
+              <p>No person other than a person authorised thereto by the <term refersTo="#term-engineer" id="trm128">engineer</term> in writing may reconnect, attempt to reconnect or cause or permit to be reconnected to the <term refersTo="#term-supply_mains" id="trm129">supply mains</term> or <term refersTo="#term-service_connection" id="trm130">service connection</term> any <term refersTo="#term-electrical_installation" id="trm131">electrical installation</term> or installations which has or have been disconnected by the <term refersTo="#term-municipality" id="trm132">municipality</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-23.2">
+            <num>(2)</num>
+            <content>
+              <p>Where the supply of electricity that has previously been disconnected is found to have been reconnected, the <term refersTo="#term-consumer" id="trm133">consumer</term> using the supply of electricity is liable for all charges for electricity consumed between the date of disconnection and the date the electricity supply was found to be reconnected and any other charges levied in this regard.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-24">
+          <num>24.</num>
+          <heading>Temporary disconnection and reconnection</heading>
+          <subsection id="section-24.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm134">engineer</term> may, at the request of the <term refersTo="#term-consumer" id="trm135">consumer</term>, temporarily disconnect and reconnect the supply of electricity to the <term refersTo="#term-consumer" id="trm136">consumer</term>’s <term refersTo="#term-electrical_installation" id="trm137">electrical installation</term> upon payment of the fee for each such disconnection and subsequent reconnection.</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.2">
+            <num>(2)</num>
+            <content>
+              <p>If the <term refersTo="#term-engineer" id="trm138">engineer</term> finds it necessary to effect a temporary disconnection and reconnection of the supply of electricity to a <term refersTo="#term-consumer" id="trm139">consumer</term>’s <term refersTo="#term-electrical_installation" id="trm140">electrical installation</term> and the <term refersTo="#term-consumer" id="trm141">consumer</term> is in no way responsible for bringing about this necessity, the Municipality may waive payment of the fee referred to in subsection (1).</p>
+            </content>
+          </subsection>
+          <subsection id="section-24.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm142">engineer</term> may without notice temporarily disconnect the supply of electricity to any <term refersTo="#term-premises" id="trm143">premises</term>, for the purpose of effecting repairs or carrying out tests or for any other legitimate purpose.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-25">
+          <num>25.</num>
+          <heading>Temporary supplies</heading>
+          <paragraph id="section-25.paragraph-0">
+            <content>
+              <p>If the <term refersTo="#term-engineer" id="trm144">engineer</term> is of the opinion that any temporary supply of electricity is interfering with the efficient and economical supply of electricity to other consumers, the ejngineer may at any time with notice, or under exceptional circumstances without notice, terminate such temporary supply and, the <term refersTo="#term-municipality" id="trm145">municipality</term> is not liable for any loss or damage suffered by the <term refersTo="#term-consumer" id="trm146">consumer</term> by such termination.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-26">
+          <num>26.</num>
+          <heading>Temporary work</heading>
+          <subsection id="section-26.1">
+            <num>(1)</num>
+            <content>
+              <p>No <term refersTo="#term-electrical_installation" id="trm147">electrical installation</term> requiring a temporary supply of electricity may be connected directly or indirectly to the <term refersTo="#term-supply_mains" id="trm148">supply mains</term>, except with the written permission of the <term refersTo="#term-engineer" id="trm149">engineer</term> and upon such terms and conditions as the <term refersTo="#term-engineer" id="trm150">engineer</term> may deem fit.</p>
+            </content>
+          </subsection>
+          <subsection id="section-26.2">
+            <num>(2)</num>
+            <content>
+              <p>A person requiring the permission referred to in subsection (1) must furnish full information as to the reasons for and nature of the temporary work.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-27">
+          <num>27.</num>
+          <heading>Load reduction</heading>
+          <subsection id="section-27.1">
+            <num>(1)</num>
+            <content>
+              <p>At times of peak load, or in an emergency, or when, in the opinion of the <term refersTo="#term-engineer" id="trm151">engineer</term>, it is necessary for any reason to reduce the load on the electricity supply system of the Municipality, the <term refersTo="#term-engineer" id="trm152">engineer</term> may without notice interrupt and, for such period as he or she may deem necessary, discontinue the electricity supply to any <term refersTo="#term-consumer" id="trm153">consumer</term>’s electrically operated thermal storage water heater or any specific appliance or the whole installation.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.2">
+            <num>(2)</num>
+            <content>
+              <p>The Municipality may install upon the <term refersTo="#term-premises" id="trm154">premises</term> of the <term refersTo="#term-consumer" id="trm155">consumer</term> such apparatus and equipment as may be necessary to give effect to the provisions of subsection (1), and any duly authorised official of the <term refersTo="#term-municipality" id="trm156">municipality</term> may at any reasonable time enter any <term refersTo="#term-premises" id="trm157">premises</term> for the purpose of installing, inspecting, testing adjusting and/or changing such apparatus and equipment.</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.3">
+            <num>(3)</num>
+            <content>
+              <p>Notwithstanding the provisions of sub-section (2), the <term refersTo="#term-consumer" id="trm158">consumer</term> or the <term refersTo="#term-owner" id="trm159">owner</term>, as the case may be, must, when installing an electrically operated water storage heater, provide such necessary accommodation and wiring as the Municipality may decide to facilitate the later installation of the apparatus and equipment referred to in sub-section (2).</p>
+            </content>
+          </subsection>
+          <subsection id="section-27.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-municipality" id="trm160">municipality</term> is not liable for any loss or damage directly or consequentially due to or arising from any interruption or discontinuance of the electricity supply in terms of subsection (1).</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-28">
+          <num>28.</num>
+          <heading>High, medium and <term refersTo="#term-low_voltage" id="trm161">low voltage</term> switchgear and equipment</heading>
+          <subsection id="section-28.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm162">consumer</term> must pay for the supply and installation of the switchgear, cables and equipment forming part of the <term refersTo="#term-service_connection" id="trm163">service connection</term> for the supply of electricity at either high, medium or <term refersTo="#term-low_voltage" id="trm164">low voltage</term>, unless otherwise approved by the <term refersTo="#term-engineer" id="trm165">engineer</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-28.2">
+            <num>(2)</num>
+            <content>
+              <p>All such equipment installed on the <term refersTo="#term-consumer" id="trm166">consumer</term>’s <term refersTo="#term-premises" id="trm167">premises</term> must be compatible with the <term refersTo="#term-municipality" id="trm168">municipality</term>’s electrical performance standards.</p>
+            </content>
+          </subsection>
+          <subsection id="section-28.3">
+            <num>(3)</num>
+            <content>
+              <p>No person may open, close, isolate, link or earth high or <term refersTo="#term-medium_voltage" id="trm169">medium voltage</term> switchgear or equipment without giving reasonable prior notice to the <term refersTo="#term-engineer" id="trm170">engineer</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-28.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm171">consumer</term>, who has high or <term refersTo="#term-medium_voltage" id="trm172">medium voltage</term> switchgear installed for the supply of electricity at medium or <term refersTo="#term-low_voltage" id="trm173">low voltage</term>, must advise the <term refersTo="#term-municipality" id="trm174">municipality</term> of the competent person appointed by the <term refersTo="#term-consumer" id="trm175">consumer</term> in terms of the <term refersTo="#term-regulations" id="trm176">regulations</term>, and of any changes made to such appointments.</p>
+            </content>
+          </subsection>
+          <subsection id="section-28.5">
+            <num>(5)</num>
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm177">consumer</term> must provide and install a <term refersTo="#term-low_voltage" id="trm178">low voltage</term> main switch and/or any other equipment required by the <term refersTo="#term-engineer" id="trm179">engineer</term> for the supply of electricity at <term refersTo="#term-low_voltage" id="trm180">low voltage</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-28.6">
+            <num>(6)</num>
+            <content>
+              <p>All earthing or testing of <term refersTo="#term-medium_voltage" id="trm181">medium voltage</term> switchgear connected to the <term refersTo="#term-municipality" id="trm182">municipality</term>’s network is undertaken by the <term refersTo="#term-engineer" id="trm183">engineer</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-29">
+          <num>29.</num>
+          <heading>Substation accommodation</heading>
+          <subsection id="section-29.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm184">engineer</term> may, on such conditions as may be deemed fit, require the <term refersTo="#term-owner" id="trm185">owner</term> to provide and maintain accommodation to be used as a substation, consisting of a separate room or rooms for the purpose of housing <term refersTo="#term-medium_voltage" id="trm186">medium voltage</term> cables and switchgear, transformers, <term refersTo="#term-low_voltage" id="trm187">low voltage</term> cables and switchgear and other equipment necessary for the supply of electricity requested by the <term refersTo="#term-owner" id="trm188">owner</term> or <term refersTo="#term-consumer" id="trm189">consumer</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-29.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-owner" id="trm190">owner</term> or <term refersTo="#term-consumer" id="trm191">consumer</term> must ensure that accommodation is situated at a point to which free, adequate and unrestricted access is available at all times for purposes connected with the operation and maintenance of the equipment.</p>
+            </content>
+          </subsection>
+          <subsection id="section-29.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-municipality" id="trm192">municipality</term> may supply its own networks from its own equipment installed in such accommodation, and if additional accommodation is required by the <term refersTo="#term-engineer" id="trm193">engineer</term>, such additional accommodation shall be provided by the applicant at the cost of the Municipality.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-30">
+          <num>30.</num>
+          <heading>Wiring diagram and specification</heading>
+          <subsection id="section-30.1">
+            <num>(1)</num>
+            <content>
+              <p>When more than one <term refersTo="#term-electrical_installation" id="trm194">electrical installation</term> or electricity supply from a common main or more than one distribution board or <term refersTo="#term-meter" id="trm195">meter</term> is required for any building or block of buildings, the wiring diagram of the circuits starting from the main switch and a specification must on request be supplied to the <term refersTo="#term-engineer" id="trm196">engineer</term> in duplicate for approval before the work commences.</p>
+            </content>
+          </subsection>
+          <subsection id="section-30.2">
+            <num>(2)</num>
+            <content>
+              <p>Where an <term refersTo="#term-electrical_installation" id="trm197">electrical installation</term> is to be supplied from a substation on the same <term refersTo="#term-premises" id="trm198">premises</term> on which the current is transformed from <term refersTo="#term-high_voltage" id="trm199">high voltage</term>, or from one of the substations of the <term refersTo="#term-municipality" id="trm200">municipality</term> through mains separate from the general distribution system, a complete specification and drawings for the plant to be installed by the <term refersTo="#term-consumer" id="trm201">consumer</term> must, if so required, be forwarded to the <term refersTo="#term-engineer" id="trm202">engineer</term> for approval before any material in connection therewith is ordered.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-31">
+          <num>31.</num>
+          <heading>Standby supply</heading>
+          <paragraph id="section-31.paragraph-0">
+            <content>
+              <p>No person is entitled to a <term refersTo="#term-standby_supply" id="trm203">standby supply</term> of electricity from the <term refersTo="#term-municipality" id="trm204">municipality</term> for any <term refersTo="#term-premises" id="trm205">premises</term> having a separate source of electricity supply, except with the written consent of the <term refersTo="#term-engineer" id="trm206">engineer</term> and subject to such terms and conditions as may be laid down by the <term refersTo="#term-engineer" id="trm207">engineer</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-32">
+          <num>32.</num>
+          <heading>Consumer’s emergency <term refersTo="#term-standby_supply" id="trm208">standby supply</term> equipment</heading>
+          <subsection id="section-32.1">
+            <num>(1)</num>
+            <content>
+              <p>No emergency standby equipment provided by a <term refersTo="#term-consumer" id="trm209">consumer</term> may be connected to any installation without the prior written approval of the <term refersTo="#term-engineer" id="trm210">engineer</term> and then upon such terms and conditions as the <term refersTo="#term-engineer" id="trm211">engineer</term> may deem fit.</p>
+            </content>
+          </subsection>
+          <subsection id="section-32.2">
+            <num>(2)</num>
+            <content>
+              <p>An application for approval in terms of subsection (1) must be in writing and must include a full specification of the equipment and a wiring diagram.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-3">
+        <num>3</num>
+        <heading>Responsibilities of consumers</heading>
+        <section id="section-33">
+          <num>33.</num>
+          <heading>Consumer to provide and maintain <term refersTo="#term-electrical_installation" id="trm212">electrical installation</term></heading>
+          <paragraph id="section-33.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm213">consumer</term> must at own cost install and maintain any <term refersTo="#term-electrical_installation" id="trm214">electrical installation</term> connected or to be connected to the <term refersTo="#term-supply_mains" id="trm215">supply mains</term>, and any additions or alterations thereto which may be made from time to time in accordance with this by-law and the <term refersTo="#term-regulations" id="trm216">regulations</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-34">
+          <num>34.</num>
+          <heading>Fault in <term refersTo="#term-electrical_installation" id="trm217">electrical installation</term></heading>
+          <subsection id="section-34.1">
+            <num>(1)</num>
+            <content>
+              <p>If any fault develops in the <term refersTo="#term-electrical_installation" id="trm218">electrical installation</term>, which threatens life or property, the <term refersTo="#term-consumer" id="trm219">consumer</term> must immediately disconnect the electricity supply, inform the <term refersTo="#term-municipality" id="trm220">municipality</term> and immediately take steps to remedy the fault.</p>
+            </content>
+          </subsection>
+          <subsection id="section-34.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm221">engineer</term> may require the <term refersTo="#term-consumer" id="trm222">consumer</term> to reimburse the <term refersTo="#term-municipality" id="trm223">municipality</term> for any expense incurred in connection with a fault in the <term refersTo="#term-electrical_installation" id="trm224">electrical installation</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-35">
+          <num>35.</num>
+          <heading>Discontinuance of use of supply</heading>
+          <paragraph id="section-35.paragraph-0">
+            <content>
+              <p>A <term refersTo="#term-consumer" id="trm225">consumer</term> who wishes the electricity supply to be discontinued, must give the <term refersTo="#term-municipality" id="trm226">municipality</term> at least two full working days’ written notice, failing which the <term refersTo="#term-consumer" id="trm227">consumer</term> will remain liable for all payments due for the supply of electricity until the expiration of two full working days after such notice has been given.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-36">
+          <num>36.</num>
+          <heading>Change of <term refersTo="#term-occupier" id="trm228">occupier</term></heading>
+          <subsection id="section-36.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-consumer" id="trm229">consumer</term> must, on vacating any <term refersTo="#term-premises" id="trm230">premises</term>, give the <term refersTo="#term-municipality" id="trm231">municipality</term> at least two working days’ written notice of his or her intention to discontinue using the electricity supply, failing which he or she shall remain liable for payment of such supply.</p>
+            </content>
+          </subsection>
+          <subsection id="section-36.2">
+            <num>(2)</num>
+            <content>
+              <p>If the new <term refersTo="#term-occupier" id="trm232">occupier</term> wishes to continue using the electricity supply, he or she must make application in accordance with the provisions of this by-law and must within two full working days from the date speciﬁed in the aforesaid application as the date when such supply is required, comply with the provisions of this by-law, failing which the supply will be disconnected, and the new <term refersTo="#term-occupier" id="trm233">occupier</term> will be liable for the electricity supply from the said date till such time as the supply is so disconnected.</p>
+            </content>
+          </subsection>
+          <subsection id="section-36.3">
+            <num>(3)</num>
+            <content>
+              <p>Where <term refersTo="#term-premises" id="trm234">premises</term> are ﬁtted with pre-payment meters any person occupying the <term refersTo="#term-premises" id="trm235">premises</term> at that time shall be deemed to be the <term refersTo="#term-consumer" id="trm236">consumer</term>. Until such time as an application is made by this person for a supply of electricity, in terms of this by-law, he or she will be liable for all charges and fees owed to the <term refersTo="#term-municipality" id="trm237">municipality</term> for that metering point as well as any outstanding charges and fees whether accrued by that person or not.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-37">
+          <num>37.</num>
+          <heading>Service apparatus</heading>
+          <subsection id="section-37.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm238">consumer</term> is responsible for the safe accommodation of any <term refersTo="#term-meter" id="trm239">meter</term>, <term refersTo="#term-service_protective_device" id="trm240">service protective device</term>, <term refersTo="#term-service_connection" id="trm241">service connection</term> or other apparatus of the <term refersTo="#term-municipality" id="trm242">municipality</term> on the <term refersTo="#term-premises" id="trm243">premises</term>, and must reimburse the <term refersTo="#term-municipality" id="trm244">municipality</term> for any costs incurred or loss suffered or damage sustained by the <term refersTo="#term-municipality" id="trm245">municipality</term> in respect thereof.</p>
+            </content>
+          </subsection>
+          <subsection id="section-37.2">
+            <num>(2)</num>
+            <content>
+              <p>If, during a period of disconnection of an installation from the <term refersTo="#term-supply_mains" id="trm246">supply mains</term>, the service main, metering equipment or any other service apparatus, being the property of the <term refersTo="#term-municipality" id="trm247">municipality</term> and having been previously used, have been removed without its permission or have been damaged so as to render reconnection dangerous, the <term refersTo="#term-owner" id="trm248">owner</term> or <term refersTo="#term-occupier" id="trm249">occupier</term> of the <term refersTo="#term-premises" id="trm250">premises</term>, as the case may be, during such period shall bear the cost of overhauling and/or replacing such equipment.</p>
+            </content>
+          </subsection>
+          <subsection id="section-37.3">
+            <num>(3)</num>
+            <content>
+              <p>Where there is a common metering position, the <term refersTo="#term-owner" id="trm251">owner</term> of the <term refersTo="#term-premises" id="trm252">premises</term> is responsible for the service equipment of the <term refersTo="#term-municipality" id="trm253">municipality</term> referred to in subsection (1).</p>
+            </content>
+          </subsection>
+          <subsection id="section-37.4">
+            <num>(4)</num>
+            <content>
+              <p>The amount payable under subsection (1) is determined by the <term refersTo="#term-engineer" id="trm254">engineer</term>, whose decision is ﬁnal and binding.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-4">
+        <num>4</num>
+        <heading>Specific conditions of supply</heading>
+        <section id="section-38">
+          <num>38.</num>
+          <heading>Service connection</heading>
+          <subsection id="section-38.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm255">consumer</term> must pay for a <term refersTo="#term-service_connection" id="trm256">service connection</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.2">
+            <num>(2)</num>
+            <content>
+              <p>Every part of a <term refersTo="#term-service_connection" id="trm257">service connection</term> laid or installed by the <term refersTo="#term-municipality" id="trm258">municipality</term>, remain the property of the <term refersTo="#term-municipality" id="trm259">municipality</term> and the <term refersTo="#term-municipality" id="trm260">municipality</term> is responsible for the maintenance of such <term refersTo="#term-service_connection" id="trm261">service connection</term> up to the <term refersTo="#term-point_of_supply" id="trm262">point of supply</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.3">
+            <num>(3)</num>
+            <content>
+              <p>A <term refersTo="#term-service_connection" id="trm263">service connection</term> is installed by the <term refersTo="#term-engineer" id="trm264">engineer</term> at the cost of the <term refersTo="#term-consumer" id="trm265">consumer</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.4">
+            <num>(4)</num>
+            <content>
+              <p>A <term refersTo="#term-service_connection" id="trm266">service connection</term> must be laid underground, whether the <term refersTo="#term-supply_mains" id="trm267">supply mains</term> are laid underground or erected overhead, unless an overhead <term refersTo="#term-service_connection" id="trm268">service connection</term> is speciﬁcally required by the <term refersTo="#term-engineer" id="trm269">engineer</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.5">
+            <num>(5)</num>
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm270">consumer</term> must provide, ﬁx and/or maintain on his <term refersTo="#term-premises" id="trm271">premises</term> such ducts, wireways, trenches, fastenings and clearance to overhead <term refersTo="#term-supply_mains" id="trm272">supply mains</term> as may be required by the <term refersTo="#term-engineer" id="trm273">engineer</term> for the installation of the <term refersTo="#term-service_connection" id="trm274">service connection</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.6">
+            <num>(6)</num>
+            <content>
+              <p>The conductor used for the <term refersTo="#term-service_connection" id="trm275">service connection</term> must have a cross-sectional area according to the size of the electrical supply but shall not be less than 10 mm2 (copper or copper equivalent), and all conductors shall have the same crosssectional area, unless otherwise approved by the <term refersTo="#term-engineer" id="trm276">engineer</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.7">
+            <num>(7)</num>
+            <content>
+              <p>Unless otherwise approved by the <term refersTo="#term-engineer" id="trm277">engineer</term>, the Municipality will only provide one <term refersTo="#term-service_connection" id="trm278">service connection</term> to each registered erf.</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.8">
+            <num>(8)</num>
+            <content>
+              <p>Any covers of a wireway carrying the supply circuit from the <term refersTo="#term-point_of_supply" id="trm279">point of supply</term> to the metering equipment must be made to accept the seals of the Municipality.</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.9">
+            <num>(9)</num>
+            <content>
+              <p>Within the meterbox, the service conductor or cable, as the case may be, must terminate in an unobscured position and the conductors must be visible throughout their length when cover plates, if present, are removed.</p>
+            </content>
+          </subsection>
+          <subsection id="section-38.10">
+            <num>(10)</num>
+            <content>
+              <p>In the case of blocks of buildings occupied by a number of individual consumers, separate wireways and conductors or cables must be laid from the common metering room or rooms to each individual <term refersTo="#term-consumer" id="trm280">consumer</term> in the blocks of buildings. Alternatively, if trunking is used, the conductors of the individual circuits must be clearly identiﬁed (tied together every 1,5 m) throughout their length.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-39">
+          <num>39.</num>
+          <heading>Metering accommodation</heading>
+          <subsection id="section-39.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm281">consumer</term> must provide accommodation in an approved position for the <term refersTo="#term-meter" id="trm282">meter</term> board and adequate conductors for the <term refersTo="#term-municipality" id="trm283">municipality</term>’s metering equipment, service apparatus and protective devices.</p>
+            </content>
+          </subsection>
+          <subsection id="section-39.2">
+            <num>(2)</num>
+            <content>
+              <p>The accommodation must be provided and maintained, to the satisfaction of the <term refersTo="#term-engineer" id="trm284">engineer</term>, at the cost of the <term refersTo="#term-consumer" id="trm285">consumer</term> or the <term refersTo="#term-owner" id="trm286">owner</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-39.3">
+            <num>(3)</num>
+            <content>
+              <p>The accommodation must be situated, in the case of credit meters, at a point to which free and unrestricted access may be had at all reasonable hours for the reading of meters, but at all times for purposes connected with the operation and maintenance of the service equipment.</p>
+            </content>
+          </subsection>
+          <subsection id="section-39.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm287">consumer</term> must give officials of the <term refersTo="#term-municipality" id="trm288">municipality</term> access at all reasonable hours for the inspection of prepayment meters.</p>
+            </content>
+          </subsection>
+          <subsection id="section-39.5">
+            <num>(5)</num>
+            <content>
+              <p>Where submetering equipment is installed, accommodation separate from the <term refersTo="#term-municipality" id="trm289">municipality</term>’s metering equipment must be provided.</p>
+            </content>
+          </subsection>
+          <subsection id="section-39.6">
+            <num>(6)</num>
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm290">consumer</term> or, in the case of a common <term refersTo="#term-meter" id="trm291">meter</term> position, the <term refersTo="#term-owner" id="trm292">owner</term> of the <term refersTo="#term-premises" id="trm293">premises</term> must provide adequate electric lighting in the space set aside for accommodating the metering equipment and service apparatus.</p>
+            </content>
+          </subsection>
+          <subsection id="section-39.7">
+            <num>(7)</num>
+            <content>
+              <p>Where in the opinion of the <term refersTo="#term-engineer" id="trm294">engineer</term> the position of the <term refersTo="#term-meter" id="trm295">meter</term>, <term refersTo="#term-service_connection" id="trm296">service connection</term>, protective devices or main distribution board is no longer readily accessible or becomes a cause of danger to life or property or in any way becomes unsuitable, the <term refersTo="#term-consumer" id="trm297">consumer</term> must at own cost and with due despatch relocate it to an approved position.</p>
+            </content>
+          </subsection>
+          <subsection id="section-39.8">
+            <num>(8)</num>
+            <content>
+              <p>The accommodation for the <term refersTo="#term-municipality" id="trm298">municipality</term>’s metering equipment and protective devices may only include the <term refersTo="#term-consumer" id="trm299">consumer</term>’s main switch and main protective devices. No apparatus other than that used in connection with the supply of electricity and use of electricity may be installed or stored in such accommodation unless approved.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-5">
+        <num>5</num>
+        <heading>Systems of supply</heading>
+        <section id="section-40">
+          <num>40.</num>
+          <heading>Load requirements</heading>
+          <subsection id="section-40.1">
+            <num>(1)</num>
+            <content>
+              <p>Supplies must be in alternating current as prescribed by the Electricity Act, 1987 (<ref href="/za/act/1987/41">Act 41 of 1987</ref>).</p>
+            </content>
+          </subsection>
+          <subsection id="section-40.2">
+            <num>(2)</num>
+            <content>
+              <p>The Engineer may require a <term refersTo="#term-consumer" id="trm300">consumer</term> to accept an electricity supply at <term refersTo="#term-high_voltage" id="trm301">high voltage</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-40.3">
+            <num>(3)</num>
+            <content>
+              <p>The frequency of the alternating current supply is 50 Hz.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-41">
+          <num>41.</num>
+          <heading>Load limitations</heading>
+          <subsection id="section-41.1">
+            <num>(1)</num>
+            <content>
+              <p>Where the estimated load, calculated in terms of the <term refersTo="#term-safety_standard" id="trm302">safety standard</term>, does not exceed 15 kVA, the <term refersTo="#term-electrical_installation" id="trm303">electrical installation</term> must be arranged for a two-wire single-phase supply of electricity, unless otherwise approved by the <term refersTo="#term-engineer" id="trm304">engineer</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-41.2">
+            <num>(2)</num>
+            <content>
+              <p>Where a three-phase four-wire supply of electricity is provided, the load must be approximately balanced over the three phases but the maximum out-of-balance load shall not exceed 15 kVA, unless otherwise approved by the <term refersTo="#term-engineer" id="trm305">engineer</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-41.3">
+            <num>(3)</num>
+            <content>
+              <p>No current-consuming appliance, inherently single phase in character, with a rating which exceeds 15 kVA may be connected to the <term refersTo="#term-electrical_installation" id="trm306">electrical installation</term> without the prior approval of the <term refersTo="#term-engineer" id="trm307">engineer</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-42">
+          <num>42.</num>
+          <heading>Interference with other persons’ electrical equipment</heading>
+          <subsection id="section-42.1">
+            <num>(1)</num>
+            <content>
+              <p>No person shall operate electrical equipment having load characteristics which, singly or collectively, give rise to <term refersTo="#term-voltage" id="trm308">voltage</term> variations, harmonic currents or voltages, or unbalanced phase currents which fall outside the <term refersTo="#term-applicable_standard_speci_cation" id="trm309">applicable standard speciﬁcation</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-42.2">
+            <num>(2)</num>
+            <content>
+              <p>The assessment of interference with other persons’ electrical equipment shall be carried out by means of measurements taken at the point of common coupling.</p>
+            </content>
+          </subsection>
+          <subsection id="section-42.3">
+            <num>(3)</num>
+            <content>
+              <p>Should it be established that undue interference is in fact occurring, the <term refersTo="#term-consumer" id="trm310">consumer</term> shall, at his/her own cost, install the necessary equipment to ﬁlter out the interference and prevent it reaching the <term refersTo="#term-supply_mains" id="trm311">supply mains</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-43">
+          <num>43.</num>
+          <heading>Supplies to motors</heading>
+          <paragraph id="section-43.paragraph-0">
+            <content>
+              <p>Unless otherwise approved by the <term refersTo="#term-engineer" id="trm312">engineer</term> the rating of motors shall be limited as follows:</p>
+            </content>
+          </paragraph>
+          <subsection id="section-43.1">
+            <num>(1)</num>
+            <content>
+              <p>Limited size for <term refersTo="#term-low_voltage" id="trm313">low voltage</term> motors—</p>
+              <p>The rating of a <term refersTo="#term-low_voltage" id="trm314">low voltage</term> single-phase motor is limited to 2 kW and/or the starting current shall may not exceed 70A. All motors exceeding these limits must be wound for three phases at <term refersTo="#term-low_voltage" id="trm315">low voltage</term> or such higher <term refersTo="#term-voltage" id="trm316">voltage</term> as may be required.</p>
+            </content>
+          </subsection>
+          <subsection id="section-43.2">
+            <num>(2)</num>
+            <content>
+              <p>Maximum starting and accelerating currents of three-phase alternating current motors—</p>
+              <p>The starting current of three-phase <term refersTo="#term-low_voltage" id="trm317">low voltage</term> motors permitted must be related to the capacity of the <term refersTo="#term-consumer" id="trm318">consumer</term>’s <term refersTo="#term-service_connection" id="trm319">service connection</term>, as follows:</p>
+              <table id="section-43.2.table2">
+                <tr>
+                  <th>
+                    <p>Insulated service cable, size in mm2, copper equivalent</p>
+                  </th>
+                  <th>
+                    <p>Maximum permissible starting current</p>
+                  </th>
+                  <th colspan="3">
+                    <p>Maximum <term refersTo="#term-motor_rating" id="trm320">motor rating</term> in kW</p>
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <p>mm²</p>
+                  </td>
+                  <td>
+                    <p>A</p>
+                  </td>
+                  <td>
+                    <p>Direct on line (6 × full-load current)</p>
+                  </td>
+                  <td>
+                    <p>Star/Delta (2,5 × full-load current)</p>
+                  </td>
+                  <td>
+                    <p>Other means (1,5 × full-load current)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p/>
+                  </td>
+                  <td>
+                    <p/>
+                  </td>
+                  <td>
+                    <p>kW</p>
+                  </td>
+                  <td>
+                    <p>kW</p>
+                  </td>
+                  <td>
+                    <p>kW</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>16</p>
+                  </td>
+                  <td>
+                    <p>72</p>
+                  </td>
+                  <td>
+                    <p>6</p>
+                  </td>
+                  <td>
+                    <p>13,5</p>
+                  </td>
+                  <td>
+                    <p>23</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>25</p>
+                  </td>
+                  <td>
+                    <p>95</p>
+                  </td>
+                  <td>
+                    <p>7,5</p>
+                  </td>
+                  <td>
+                    <p>18</p>
+                  </td>
+                  <td>
+                    <p>30</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>35</p>
+                  </td>
+                  <td>
+                    <p>115</p>
+                  </td>
+                  <td>
+                    <p>9</p>
+                  </td>
+                  <td>
+                    <p>22</p>
+                  </td>
+                  <td>
+                    <p>36,5</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>50</p>
+                  </td>
+                  <td>
+                    <p>135</p>
+                  </td>
+                  <td>
+                    <p>10</p>
+                  </td>
+                  <td>
+                    <p>25</p>
+                  </td>
+                  <td>
+                    <p>45</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>70</p>
+                  </td>
+                  <td>
+                    <p>165</p>
+                  </td>
+                  <td>
+                    <p>13</p>
+                  </td>
+                  <td>
+                    <p>31</p>
+                  </td>
+                  <td>
+                    <p>55</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>95</p>
+                  </td>
+                  <td>
+                    <p>200</p>
+                  </td>
+                  <td>
+                    <p>16</p>
+                  </td>
+                  <td>
+                    <p>38</p>
+                  </td>
+                  <td>
+                    <p>67</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>120</p>
+                  </td>
+                  <td>
+                    <p>230</p>
+                  </td>
+                  <td>
+                    <p>18</p>
+                  </td>
+                  <td>
+                    <p>46</p>
+                  </td>
+                  <td>
+                    <p>77</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>150</p>
+                  </td>
+                  <td>
+                    <p>260</p>
+                  </td>
+                  <td>
+                    <p>20</p>
+                  </td>
+                  <td>
+                    <p>52</p>
+                  </td>
+                  <td>
+                    <p>87</p>
+                  </td>
+                </tr>
+              </table>
+            </content>
+          </subsection>
+          <subsection id="section-43.3">
+            <num>(3)</num>
+            <content>
+              <p>Consumers supplied at <term refersTo="#term-medium_voltage" id="trm321">medium voltage</term>—</p>
+              <p>In an installation supplied at <term refersTo="#term-medium_voltage" id="trm322">medium voltage</term> the starting current of a <term refersTo="#term-low_voltage" id="trm323">low voltage</term> motor is limited to 1,5 times the rated full-load current of the transformer supplying such a motor. The starting arrangement for <term refersTo="#term-medium_voltage" id="trm324">medium voltage</term> motors is subject to the approval of the <term refersTo="#term-engineer" id="trm325">engineer</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-44">
+          <num>44.</num>
+          <heading>Power factor</heading>
+          <subsection id="section-44.1">
+            <num>(1)</num>
+            <content>
+              <p>If required by the <term refersTo="#term-engineer" id="trm326">engineer</term>, the power factor of any load must be maintained within the limits 0,85 lagging and 0,9 leading.</p>
+            </content>
+          </subsection>
+          <subsection id="section-44.2">
+            <num>(2)</num>
+            <content>
+              <p>Where, for the purpose of complying with sub-section (1), it is necessary to install power factor corrective devices, such corrective devices must be connected to the individual appliance terminals unless the correction of the power factor is automatically controlled.</p>
+            </content>
+          </subsection>
+          <subsection id="section-44.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm327">consumer</term> must, at his/her own cost, install such corrective devices.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-45">
+          <num>45.</num>
+          <heading>Protection</heading>
+          <paragraph id="section-45.paragraph-0">
+            <content>
+              <p>Electrical protective devices for motors must be of such a design as effectively to prevent sustained overcurrent and single phasing, where applicable.</p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+      <chapter id="chapter-6">
+        <num>6</num>
+        <heading>Measurement of electricity</heading>
+        <section id="section-46">
+          <num>46.</num>
+          <heading>Metering</heading>
+          <subsection id="section-46.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-municipality" id="trm328">municipality</term> must, at the <term refersTo="#term-consumer" id="trm329">consumer</term>’s cost in the form of a direct charge or fee, provide, install and maintain appropriately rated metering equipment at the <term refersTo="#term-point_of_metering" id="trm330">point of metering</term> for measuring the electricity supplied.</p>
+            </content>
+          </subsection>
+          <subsection id="section-46.2">
+            <num>(2)</num>
+            <content>
+              <p>Except in the case of prepayment meters, the electricity used by a <term refersTo="#term-consumer" id="trm331">consumer</term> during any metering period must be ascertained by the reading of the appropriate <term refersTo="#term-meter" id="trm332">meter</term> or meters supplied and installed by the <term refersTo="#term-municipality" id="trm333">municipality</term> and read at the end of such period except where the metering equipment is found to be defective, or the <term refersTo="#term-municipality" id="trm334">municipality</term> invokes the provisions of section 50(2) of this by-law, in which case the consumption for the period shall be estimated.</p>
+            </content>
+          </subsection>
+          <subsection id="section-46.3">
+            <num>(3)</num>
+            <content>
+              <p>Where the electricity used by a <term refersTo="#term-consumer" id="trm335">consumer</term> is charged at different <term refersTo="#term-tariff" id="trm336">tariff</term> rates, the consumption will be metered separately for each rate.</p>
+            </content>
+          </subsection>
+          <subsection id="section-46.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-municipality" id="trm337">municipality</term> may <term refersTo="#term-meter" id="trm338">meter</term> the supply to blocks of shops and ﬂats, tenement-houses and similar buildings for the buildings as a whole, or for individual units, or for groups of units.</p>
+            </content>
+          </subsection>
+          <subsection id="section-46.5">
+            <num>(5)</num>
+            <content>
+              <p>No alterations, repairs or additions or electrical connections of any description may be made on the supply side of the <term refersTo="#term-point_of_metering" id="trm339">point of metering</term> unless speciﬁcally approved in writing by the <term refersTo="#term-engineer" id="trm340">engineer</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-47">
+          <num>47.</num>
+          <heading>Accuracy of metering—</heading>
+          <subsection id="section-47.1">
+            <num>(1)</num>
+            <content>
+              <p>A <term refersTo="#term-meter" id="trm341">meter</term> must be conclusively presumed to be registering accurately if its error, when tested in the manner prescribed in sub-section (3) hereof, is found to be within the limits of error as provided for in the applicable standard speciﬁcations.</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.2">
+            <num>(2)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm342">engineer</term> may test the <term refersTo="#term-municipality" id="trm343">municipality</term>’s metering equipment.</p>
+              <blockList id="section-47.2.list2">
+                <listIntroduction>If it is established by test or otherwise that such metering equipment is defective, the <term refersTo="#term-municipality" id="trm344">municipality</term> will—</listIntroduction>
+                <item id="section-47.2.list2.a">
+                  <num>(a)</num>
+                  <p>in the case of a <term refersTo="#term-credit_meter" id="trm345">credit meter</term>, adjust the account rendered;</p>
+                </item>
+                <item id="section-47.2.list2.b">
+                  <num>(b)</num>
+                  <blockList id="section-47.2.list2.b.list0">
+                    <listIntroduction>in the case of prepayment meters,</listIntroduction>
+                    <item id="section-47.2.list2.b.list0.i">
+                      <num>(i)</num>
+                      <p>render an account where the <term refersTo="#term-meter" id="trm346">meter</term> has been under-registering, or</p>
+                    </item>
+                    <item id="section-47.2.list2.b.list0.ii">
+                      <num>(ii)</num>
+                      <p>issue a free <term refersTo="#term-token" id="trm347">token</term> where the <term refersTo="#term-meter" id="trm348">meter</term> has been over-registering, in accordance with the provisions of subsection (6).</p>
+                    </item>
+                  </blockList>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-47.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm349">consumer</term> may request that the metering equipment be tested by the <term refersTo="#term-municipality" id="trm350">municipality</term> on payment of the relevant fee. If the metering equipment is found not to comply with the system accuracy requirements as provided for in the applicable standard speciﬁcations, an adjustment in accordance with the provisions of sub-sections (2) and (6) will be made and the aforesaid fee shall be refunded.</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.4">
+            <num>(4)</num>
+            <content>
+              <p>In case of a dispute, the <term refersTo="#term-consumer" id="trm351">consumer</term> may at his or her own cost request that the metering equipment under dispute be tested by an approved independent testing authority, and the result of such test will be ﬁnal and binding on both parties.</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.5">
+            <num>(5)</num>
+            <content>
+              <p>Meters must be tested in the manner as provided for in the applicable standard speciﬁcations.</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.6">
+            <num>(6)</num>
+            <content>
+              <p>When an adjustment is made to the electricity consumption registered on a <term refersTo="#term-meter" id="trm352">meter</term> in terms of sub-section (2) or (3), such adjustment must either be based on the percentage error of the <term refersTo="#term-meter" id="trm353">meter</term> as determined by the test referred to in subsection (5) or upon a calculation by the <term refersTo="#term-municipality" id="trm354">municipality</term> from consumption data in its possession. Where applicable, due allowance shall be made, where possible, for seasonal or other variations which may affect the consumption of electricity.</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.7">
+            <num>(7)</num>
+            <content>
+              <p>When an adjustment is made as contemplated in subsection (6), the adjustment may not exceed a period of six months preceding the date on which the metering equipment was found to be inaccurate. The application of this section does not bar a <term refersTo="#term-consumer" id="trm355">consumer</term> from claiming back overpayment for any longer period where the <term refersTo="#term-consumer" id="trm356">consumer</term> is able to prove the claim in the normal legal process.</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.8">
+            <num>(8)</num>
+            <content>
+              <p>Where the actual load of a <term refersTo="#term-consumer" id="trm357">consumer</term> differs from the initial estimated load provided for under section 8(1) to the extent that the <term refersTo="#term-municipality" id="trm358">municipality</term> deems it necessary to alter or replace its metering equipment to match the load, the costs of such alteration or replacement must be borne by the <term refersTo="#term-consumer" id="trm359">consumer</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-47.9">
+            <num>(9)</num>
+            <content>
+              <blockList id="section-47.9.list0">
+                <item id="section-47.9.list0.a">
+                  <num>(a)</num>
+                  <blockList id="section-47.9.list0.a.list0">
+                    <listIntroduction>Prior to the <term refersTo="#term-municipality" id="trm360">municipality</term> making any upward adjustment to an account in terms of sub-section (6), the <term refersTo="#term-municipality" id="trm361">municipality</term> will—</listIntroduction>
+                    <item id="section-47.9.list0.a.list0.i">
+                      <num>(i)</num>
+                      <p>notify the <term refersTo="#term-consumer" id="trm362">consumer</term> in writing of the monetary value of the adjustment to be made and the reasons therefor;</p>
+                    </item>
+                    <item id="section-47.9.list0.a.list0.ii">
+                      <num>(ii)</num>
+                      <p>in such notiﬁcation provide sufficient particulars to enable the <term refersTo="#term-consumer" id="trm363">consumer</term> to submit representations thereon, and</p>
+                    </item>
+                    <item id="section-47.9.list0.a.list0.iii">
+                      <num>(iii)</num>
+                      <p>call upon the <term refersTo="#term-consumer" id="trm364">consumer</term> in such notice to provide it with reasons in writing, if any, within 21 days or such longer period as the Municipality may permit why his/her account should not be adjusted as notiﬁed.</p>
+                    </item>
+                  </blockList>
+                </item>
+                <item id="section-47.9.list0.b">
+                  <num>(b)</num>
+                  <p>Should the <term refersTo="#term-consumer" id="trm365">consumer</term> fail to make any representations during the period referred to in subsection 9(a)(iii) the <term refersTo="#term-municipality" id="trm366">municipality</term> may adjust the account as notiﬁed in subsection 9(a)(i).</p>
+                </item>
+                <item id="section-47.9.list0.c">
+                  <num>(c)</num>
+                  <p>The <term refersTo="#term-municipality" id="trm367">municipality</term> must consider any reasons provided by the <term refersTo="#term-consumer" id="trm368">consumer</term> in terms of subsection (9)(a) and must, if satisﬁed that a case has been made out therefor, adjust the account appropriately.</p>
+                </item>
+                <item id="section-47.9.list0.d">
+                  <num>(d)</num>
+                  <p>If a duly authorized official of the <term refersTo="#term-municipality" id="trm369">municipality</term> decides after having considered the representation made by the <term refersTo="#term-consumer" id="trm370">consumer</term> that such representations do not establish a case warranting an amendment to the monetary value established in terms of sub-section (6), the <term refersTo="#term-municipality" id="trm371">municipality</term> may adjust the account as notiﬁed in terms of subsection 9(a)(i), subject to the <term refersTo="#term-consumer" id="trm372">consumer</term>’s right to appeal the decision of the official in terms of section 62 of the Municipal Systems Act, 2000.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-48">
+          <num>48.</num>
+          <heading>Reading of credit meters</heading>
+          <subsection id="section-48.1">
+            <num>(1)</num>
+            <content>
+              <p>Unless otherwise prescribed, credit meters will normally be read at intervals of one month and the ﬁxed or minimum charges due in terms of the <term refersTo="#term-tariff" id="trm373">tariff</term> shall be assessed accordingly. The <term refersTo="#term-municipality" id="trm374">municipality</term> is not obliged to effect any adjustments to such charges.</p>
+            </content>
+          </subsection>
+          <subsection id="section-48.2">
+            <num>(2)</num>
+            <content>
+              <p>If for any reason the <term refersTo="#term-credit_meter" id="trm375">credit meter</term> cannot be read, an estimated account will be rendered and the electrical energy consumed will be adjusted in a subsequent account in accordance with the electrical energy actually consumed.</p>
+            </content>
+          </subsection>
+          <subsection id="section-48.3">
+            <num>(3)</num>
+            <content>
+              <p>When a <term refersTo="#term-consumer" id="trm376">consumer</term> vacates a property and a ﬁnal reading of the <term refersTo="#term-meter" id="trm377">meter</term> is not possible, an estimation of the consumption may be made and the ﬁnal account rendered accordingly.</p>
+            </content>
+          </subsection>
+          <subsection id="section-48.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-consumer" id="trm378">consumer</term> may upon payment of the relevant fee request a special reading of the <term refersTo="#term-meter" id="trm379">meter</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-48.5">
+            <num>(5)</num>
+            <content>
+              <p>If any calculating, reading or metering error is discovered in respect of any account rendered to a <term refersTo="#term-consumer" id="trm380">consumer</term>, the error will be corrected in subsequent accounts. Any such correction will only apply in respect of accounts for a period of 6 months preceding the date on which the error in the accounts was discovered, and shall be based on the actual tariffs applicable during the period; provided that a <term refersTo="#term-consumer" id="trm381">consumer</term> may claim back overpayment for any longer period where the <term refersTo="#term-consumer" id="trm382">consumer</term> is able to prove the claim in the normal legal process.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-49">
+          <num>49.</num>
+          <heading>Prepayment metering</heading>
+          <subsection id="section-49.1">
+            <num>(1)</num>
+            <content>
+              <p>No refund of the amount tendered for the purchase of electricity credit shall be given at the point of sale after initiation of the process by which the <term refersTo="#term-prepayment_meter" id="trm383">prepayment meter</term> <term refersTo="#term-token" id="trm384">token</term> is produced.</p>
+            </content>
+          </subsection>
+          <subsection id="section-49.2">
+            <num>(2)</num>
+            <content>
+              <p>Copies of previously issued tokens for the transfer of credit to the <term refersTo="#term-prepayment_meter" id="trm385">prepayment meter</term> may be issued at the request of the <term refersTo="#term-consumer" id="trm386">consumer</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-49.3">
+            <num>(3)</num>
+            <content>
+              <p>When a <term refersTo="#term-consumer" id="trm387">consumer</term> vacates any <term refersTo="#term-premises" id="trm388">premises</term> where a <term refersTo="#term-prepayment_meter" id="trm389">prepayment meter</term> is installed, the <term refersTo="#term-municipality" id="trm390">municipality</term> will not refund the <term refersTo="#term-consumer" id="trm391">consumer</term> for the credit remaining in the <term refersTo="#term-meter" id="trm392">meter</term>.</p>
+            </content>
+          </subsection>
+          <subsection id="section-49.4">
+            <num>(4)</num>
+            <content>
+              <p>The <term refersTo="#term-municipality" id="trm393">municipality</term> is not liable for the reinstatement of credit in a <term refersTo="#term-prepayment_meter" id="trm394">prepayment meter</term> lost due to tampering with, or the incorrect use or the abuse of, prepayment meters and/or tokens.</p>
+            </content>
+          </subsection>
+          <subsection id="section-49.5">
+            <num>(5)</num>
+            <content>
+              <p>The <term refersTo="#term-municipality" id="trm395">municipality</term> appoints vendors for the sale of credit for prepayment meters but does not guarantee the continued operation of any vendor.</p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter id="chapter-7">
+        <num>7</num>
+        <heading>Electrical contractors</heading>
+        <section id="section-50">
+          <num>50.</num>
+          <heading>Requirements supplementary to those in the Regulations</heading>
+          <subsection id="section-50.1">
+            <num>(1)</num>
+            <content>
+              <p>Where an application for a new or increased supply of electricity has been made to the <term refersTo="#term-municipality" id="trm396">municipality</term>, the <term refersTo="#term-engineer" id="trm397">engineer</term> may at his/her discretion accept notiﬁcation of the completion of any part of an <term refersTo="#term-electrical_installation" id="trm398">electrical installation</term>, the circuit arrangements of which permit the <term refersTo="#term-electrical_installation" id="trm399">electrical installation</term> to be divided up into well-deﬁned separate portions, and such part of the <term refersTo="#term-electrical_installation" id="trm400">electrical installation</term> may, at the discretion of the <term refersTo="#term-engineer" id="trm401">engineer</term>, be inspected, tested and connected to the <term refersTo="#term-supply_mains" id="trm402">supply mains</term> as though it were a complete installation.</p>
+            </content>
+          </subsection>
+          <subsection id="section-50.2">
+            <num>(2)</num>
+            <content>
+              <p>The examination, test and inspection that may be carried out at the discretion of the the <term refersTo="#term-engineer" id="trm403">engineer</term> in no way relieves the <term refersTo="#term-electrical_contractor" id="trm404">electrical contractor</term>/<term refersTo="#term-accredited_person" id="trm405">accredited person</term> or the user or <term refersTo="#term-owner" id="trm406">owner</term>, as the case may be, from his responsibility for any defect in the installation. Such examination, test and inspection shall not be taken under any circumstances (even where the <term refersTo="#term-electrical_installation" id="trm407">electrical installation</term> has been connected to the <term refersTo="#term-supply_mains" id="trm408">supply mains</term>) as indicating or guaranteeing in any way that the <term refersTo="#term-electrical_installation" id="trm409">electrical installation</term> has been carried out efficiently with the most suitable materials for the purpose or that it is in accordance with this by-law or the <term refersTo="#term-safety_standard" id="trm410">safety standard</term>, and the <term refersTo="#term-municipality" id="trm411">municipality</term> cannot be held responsible for any defect or fault in such <term refersTo="#term-electrical_installation" id="trm412">electrical installation</term>.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-51">
+          <num>51.</num>
+          <heading>Responsibility of Electrical Contractors</heading>
+          <paragraph id="section-51.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-municipality" id="trm413">municipality</term> is not responsible for the work done by the <term refersTo="#term-electrical_contractor" id="trm414">electrical contractor</term>/<term refersTo="#term-accredited_person" id="trm415">accredited person</term> on a <term refersTo="#term-consumer" id="trm416">consumer</term>’s <term refersTo="#term-premises" id="trm417">premises</term> nor for any loss or damage which may be occasioned by ﬁre or by any accident arising from the state of the wiring on the <term refersTo="#term-premises" id="trm418">premises</term>.</p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+      <chapter id="chapter-8">
+        <num>8</num>
+        <heading>General</heading>
+        <section id="section-52">
+          <num>52.</num>
+          <heading>Recovery of Cost</heading>
+          <paragraph id="section-52.paragraph-0">
+            <content>
+              <p>The <term refersTo="#term-municipality" id="trm419">municipality</term> may repair and make good any damage done in contravention of this by-law or resulting from a contravention of this by-law. The cost of any such work carried out by the <term refersTo="#term-municipality" id="trm420">municipality</term> which was necessary due to the contravention of this by-law, will be for the account of the person who acted in contravention of this by-law.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section id="section-53">
+          <num>53.</num>
+          <heading>Delegation of powers and duties</heading>
+          <subsection id="section-53.1">
+            <num>(1)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm421">engineer</term> may delegate any power or duty that have been conferred on the <term refersTo="#term-engineer" id="trm422">engineer</term> in terms of this by-law to any official of the council.</p>
+            </content>
+          </subsection>
+          <subsection id="section-53.2">
+            <num>(2)</num>
+            <content>
+              <blockList id="section-53.2.list1">
+                <listIntroduction>A delegation in terms of sub-section (1)—</listIntroduction>
+                <item id="section-53.2.list1.a">
+                  <num>(a)</num>
+                  <p>must be in writing;</p>
+                </item>
+                <item id="section-53.2.list1.b">
+                  <num>(b)</num>
+                  <p>is subject to any limitations, conditions and directions the <term refersTo="#term-engineer" id="trm423">engineer</term> may impose;</p>
+                </item>
+                <item id="section-53.2.list1.c">
+                  <num>(c)</num>
+                  <p>does not divest the <term refersTo="#term-engineer" id="trm424">engineer</term> of the responsibility concerning the exercise of the power or the performanse of the duty.</p>
+                </item>
+              </blockList>
+            </content>
+          </subsection>
+          <subsection id="section-53.3">
+            <num>(3)</num>
+            <content>
+              <p>The <term refersTo="#term-engineer" id="trm425">engineer</term> may amend or withdraw any delegation in terms of sub-section (1), but no such amendment or withdrawal shall invalidate anything done as a consequence of such delegation.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-54">
+          <num>54.</num>
+          <heading>Penalities</heading>
+          <subsection id="section-54.1">
+            <num>(1)</num>
+            <content>
+              <p>Any person who contravenes any of the provisions of sections 5, 7, 13, 14, 20, 25, 26, 27, 29 and 30 of this by-law is guilty of an offence.</p>
+            </content>
+          </subsection>
+          <subsection id="section-54.2">
+            <num>(2)</num>
+            <content>
+              <p>Any person who continues to commit an offence after notice has been served on him/her to cease committing such offence or after he/she has been convicted of such offence is guilty of a continuing offence.</p>
+            </content>
+          </subsection>
+          <subsection id="section-54.3">
+            <num>(3)</num>
+            <content>
+              <p>Any person convicted of an offence under this by-law for which no penalty is expressly provided is liable to a ﬁne not exceeding ten thousand rands or imprisonment for a period not exceed six months or to such imprisonment without the option of a ﬁne or to both such ﬁne and such imprisonment and, in the case of a continuing offence, to an additional ﬁne not exceeding two hundred rands or additional imprisonment for a period not exceeding ten days or to such additional imprisonment without the option of a ﬁne or to both such additional ﬁne and imprisonment for each day on which such offence is continued.</p>
+            </content>
+          </subsection>
+          <subsection id="section-54.4">
+            <num>(4)</num>
+            <content>
+              <p>Every person committing a breach of the provisions of this by-law must recompense the <term refersTo="#term-municipality" id="trm426">municipality</term> for any loss or damage suffered or sustained by it in consequence of such breach.</p>
+            </content>
+          </subsection>
+        </section>
+        <section id="section-55">
+          <num>55.</num>
+          <heading>Repeal</heading>
+          <paragraph id="section-55.paragraph-0">
+            <content>
+              <p>The By-laws speciﬁed in the ﬁrst column of Schedule 1 are hereby repealed to the extent set out in the second column of the Schedule.</p>
+            </content>
+          </paragraph>
+        </section>
+      </chapter>
+    </body>
+  </act>
+  <components>
+    <component id="component-schedule">
+      <doc name="schedule">
+        <meta>
+          <identification source="#slaw">
+            <FRBRWork>
+              <FRBRthis value="/za-wc033/act/by-law/2005/electricity-supply/schedule"/>
+              <FRBRuri value="/za-wc033/act/by-law/2005/electricity-supply"/>
+              <FRBRalias value="Schedule"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-wc033/act/by-law/2005/electricity-supply/eng@2005-10-03/schedule"/>
+              <FRBRuri value="/za-wc033/act/by-law/2005/electricity-supply/eng@2005-10-03"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-wc033/act/by-law/2005/electricity-supply/eng@2005-10-03/schedule"/>
+              <FRBRuri value="/za-wc033/act/by-law/2005/electricity-supply/eng@2005-10-03"/>
+              <FRBRdate date="2018-01-06" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule">
+            <heading>BY-LAWS REPEALED</heading>
+            <paragraph id="schedule.paragraph-0">
+              <content>
+                <table xmlns="http://www.akomantoso.org/2.0" id="schedule/schedule.paragraph-0.table0">
+                  <tr>
+                    <th>
+                      <p>TITLE OF BY-LAW</p>
+                    </th>
+                    <th>
+                      <p>EXTENT OF REPEAL</p>
+                    </th>
+                  </tr>
+                </table>
+              </content>
+            </paragraph>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>

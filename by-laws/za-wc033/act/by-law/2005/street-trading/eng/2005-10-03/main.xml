@@ -1,0 +1,550 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc033/act/by-law/2005/street-trading/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/street-trading"/>
+          <FRBRalias value="Street Trading By-Law"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc033/act/by-law/2005/street-trading/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/street-trading/eng@2005-10-03"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc033/act/by-law/2005/street-trading/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/street-trading/eng@2005-10-03"/>
+          <FRBRdate date="2018-02-04" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-10-03" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" number="6303"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-authorised_employee" href="/ontology/term/this.eng.authorised_employee" showAs="authorised employee"/>
+        <TLCTerm id="term-bay" href="/ontology/term/this.eng.bay" showAs="bay"/>
+        <TLCTerm id="term-council" href="/ontology/term/this.eng.council" showAs="council"/>
+        <TLCTerm id="term-declaration" href="/ontology/term/this.eng.declaration" showAs="declaration"/>
+        <TLCTerm id="term-municipality" href="/ontology/term/this.eng.municipality" showAs="municipality"/>
+        <TLCTerm id="term-municipal_manager" href="/ontology/term/this.eng.municipal_manager" showAs="municipal manager"/>
+        <TLCTerm id="term-political_structure" href="/ontology/term/this.eng.political_structure" showAs="political structure"/>
+        <TLCTerm id="term-permit" href="/ontology/term/this.eng.permit" showAs="permit"/>
+        <TLCTerm id="term-restricted_area" href="/ontology/term/this.eng.restricted_area" showAs="restricted area"/>
+        <TLCTerm id="term-street" href="/ontology/term/this.eng.street" showAs="street"/>
+        <TLCTerm id="term-Structures_Act" href="/ontology/term/this.eng.Structures_Act" showAs="Structures Act"/>
+        <TLCTerm id="term-trade" href="/ontology/term/this.eng.trade" showAs="trade"/>
+        <TLCTerm id="term-trader" href="/ontology/term/this.eng.trader" showAs="trader"/>
+      </references>
+    </meta>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <paragraph id="section-1.paragraph-0" refersTo="#term-trader">
+          <content>
+            <p>In this by-law, unless inconsistent with the context—</p>
+            <p>"<def refersTo="#term-authorised_employee">authorised employee</def>" means an employee of the <term refersTo="#term-municipality" id="trm0">municipality</term> authorised to perform the functions and duties of the <term refersTo="#term-authorised_employee" id="trm1">authorised employee</term> in terms of the provisions of this by-law;</p>
+            <p>"<def refersTo="#term-bay">bay</def>" means an area on a <term refersTo="#term-street" id="trm2">street</term>, the boundaries of which are clearly marked out, and allocated with a number which also appears on a plan approved by the <term refersTo="#term-council" id="trm3">council</term>;</p>
+            <p>"<def refersTo="#term-council">council</def>" means the <term refersTo="#term-council" id="trm4">council</term> of the <term refersTo="#term-municipality" id="trm5">municipality</term>;</p>
+            <p>"<def refersTo="#term-declaration">declaration</def>" means a notice published by the <term refersTo="#term-council" id="trm6">council</term> in the Official Gazette, in terms of which an area as defined in such <term refersTo="#term-declaration" id="trm7">declaration</term> is restricted for trading;</p>
+            <p>"<def refersTo="#term-municipality">municipality</def>" means the Municipality of Cape Agulhas;</p>
+            <p>"<def refersTo="#term-municipal_manager">municipal manager</def>" means the official appointed by the <term refersTo="#term-council" id="trm8">council</term> in the capacity of <term refersTo="#term-municipal_manager" id="trm9">municipal manager</term>;</p>
+            <p>"<def refersTo="#term-political_structure">political structure</def>" a committee of the <term refersTo="#term-council" id="trm10">council</term> or a ward committee, as contemplated by Chapter 4 of the <term refersTo="#term-Structures_Act" id="trm11">Structures Act</term>;</p>
+            <p>"<def refersTo="#term-permit">permit</def>" means an official approval in terms of which a <term refersTo="#term-trader" id="trm12">trader</term> is allowed to <term refersTo="#term-trade" id="trm13">trade</term> from a <term refersTo="#term-bay" id="trm14">bay</term> situated within a <term refersTo="#term-restricted_area" id="trm15">restricted area</term>, subject to such terms and conditions as may be imposed by the <term refersTo="#term-council" id="trm16">council</term>;</p>
+            <p>"<def refersTo="#term-restricted_area">restricted area</def>" means an area in which <term refersTo="#term-street" id="trm17">street</term> trading has been restricted by the Council in terms of a <term refersTo="#term-declaration" id="trm18">declaration</term>;</p>
+            <p>"<def refersTo="#term-street">street</def>" means any public road, <term refersTo="#term-street" id="trm19">street</term>, thoroughfare, parking <term refersTo="#term-bay" id="trm20">bay</term>, parking area, road or <term refersTo="#term-street" id="trm21">street</term> reserve, sidewalk, verge, bridge or drift;</p>
+            <p>"<def refersTo="#term-Structures_Act">Structures Act</def>" means the Local Government: Municipal <term refersTo="#term-Structures_Act" id="trm22">Structures Act</term>, 1998 (<ref href="/za/act/1998/117">Act 117 of 1998</ref>);</p>
+            <p>"<def refersTo="#term-trade">trade</def>" means the carrying on of a business, either by selling wares or by rendering a service to the public and "<term refersTo="#term-street" id="trm23">street</term> trading" has the same meaning;</p>
+            <p>"<def refersTo="#term-trader">trader</def>" means a person who trades on a <term refersTo="#term-street" id="trm24">street</term>;</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Application of this by-law</heading>
+        <subsection id="section-2.1">
+          <num>(1)</num>
+          <content>
+            <p>This by-law replaces the provisions of section 6A of the Businesses Act, <ref href="/za/act/1991/71">Act 71 of 1991</ref>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.2">
+          <num>(2)</num>
+          <content>
+            <p>This by-law does not derogate from the provisions of any other law relating to the licensing and control of undertakings that sell food to the public.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.3">
+          <num>(3)</num>
+          <content>
+            <p>The provisions of this by-law do not derogate from the terms of any lease agreement entered into by the <term refersTo="#term-council" id="trm25">council</term> in respect of a <term refersTo="#term-street" id="trm26">street</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.4">
+          <num>(4)</num>
+          <content>
+            <p>The provisions of this by-law do not apply in respect of any market or sale approved by the <term refersTo="#term-council" id="trm27">council</term> in a <term refersTo="#term-restricted_area" id="trm28">restricted area</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Restrictions on <term refersTo="#term-street" id="trm29">street</term> trading</heading>
+        <subsection id="section-3.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-3.1.list1">
+              <listIntroduction>No <term refersTo="#term-trader" id="trm30">trader</term> may <term refersTo="#term-trade" id="trm31">trade</term> contiguous to:—</listIntroduction>
+              <item id="section-3.1.list1.a">
+                <num>(a)</num>
+                <p>a building belonging to, or occupied by, the state or the <term refersTo="#term-municipality" id="trm32">municipality</term>;</p>
+              </item>
+              <item id="section-3.1.list1.b">
+                <num>(b)</num>
+                <p>a church or other place of worship;</p>
+              </item>
+              <item id="section-3.1.list1.c">
+                <num>(c)</num>
+                <p>a building declared as a monument in terms of legislation;</p>
+              </item>
+              <item id="section-3.1.list1.d">
+                <num>(d)</num>
+                <p>a building in which business is being carried on by any person who sells goods of the same nature or of such a similar nature to goods being sold by the <term refersTo="#term-trader" id="trm33">trader</term> concerned;</p>
+              </item>
+              <item id="section-3.1.list1.e">
+                <num>(e)</num>
+                <p>a building used for residential purposes.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-3.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-3.2.list1">
+              <listIntroduction>No <term refersTo="#term-trader" id="trm34">trader</term> may <term refersTo="#term-trade" id="trm35">trade</term> at a place where:—</listIntroduction>
+              <item id="section-3.2.list1.a">
+                <num>(a)</num>
+                <p>a fire hydrant or an entrance or exit to a building is obstructed;</p>
+              </item>
+              <item id="section-3.2.list1.b">
+                <num>(b)</num>
+                <p>vehicular and pedestrian traffic is obstructed or a traffic hazard is created;</p>
+              </item>
+              <item id="section-3.2.list1.c">
+                <num>(c)</num>
+                <p>any facility for the use of the general public is obstructed;</p>
+              </item>
+              <item id="section-3.2.list1.d">
+                <num>(d)</num>
+                <p>the visibility of a display window in business premises is obstructed;</p>
+              </item>
+              <item id="section-3.2.list1.e">
+                <num>(e)</num>
+                <p>traffic signs, road markings, notices or signs are obscured;</p>
+              </item>
+              <item id="section-3.2.list1.f">
+                <num>(f)</num>
+                <p>access to loading and parking bays, vehicles or other facilities for vehicular or pedestrian traffic is limited; or</p>
+              </item>
+              <item id="section-3.2.list1.g">
+                <num>(g)</num>
+                <p>free access to municipal service works is obstructed.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-3.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-3.3.list1">
+              <listIntroduction>No <term refersTo="#term-trader" id="trm36">trader</term> may at the stand where business is carried on:—</listIntroduction>
+              <item id="section-3.3.list1.a">
+                <num>(a)</num>
+                <p>stay overnight;</p>
+              </item>
+              <item id="section-3.3.list1.b">
+                <num>(b)</num>
+                <p>create a nuisance;</p>
+              </item>
+              <item id="section-3.3.list1.c">
+                <num>(c)</num>
+                <p>damage or deface the surface of a <term refersTo="#term-street" id="trm37">street</term> or any municipal property;</p>
+              </item>
+              <item id="section-3.3.list1.d">
+                <num>(d)</num>
+                <p>erect a structure other than an umbrella or portable sun screen;</p>
+              </item>
+              <item id="section-3.3.list1.e">
+                <num>(e)</num>
+                <p>create a hazard to traffic;</p>
+              </item>
+              <item id="section-3.3.list1.f">
+                <num>(f)</num>
+                <p>attach any object by any means to a building, <term refersTo="#term-street" id="trm38">street</term> furniture, structure, pavement, tree, lamp pole, electrical pole, telephone facility, post box, traffic sign, parking meter or bench;</p>
+              </item>
+              <item id="section-3.3.list1.g">
+                <num>(g)</num>
+                <p>make a fire without the written permission of the <term refersTo="#term-municipal_manager" id="trm39">municipal manager</term>;</p>
+              </item>
+              <item id="section-3.3.list1.h">
+                <num>(h)</num>
+                <p>fail to move or remove any goods after having been requested to do so by an <term refersTo="#term-authorised_employee" id="trm40">authorised employee</term>;</p>
+              </item>
+              <item id="section-3.3.list1.i">
+                <num>(i)</num>
+                <p>accumulate, dump, store or deposit any refuse or waste materials on any land, <term refersTo="#term-street" id="trm41">street</term> or premises other than in a refuse receptacle approved or provided by the <term refersTo="#term-council" id="trm42">council</term>;</p>
+              </item>
+              <item id="section-3.3.list1.j">
+                <num>(j)</num>
+                <p>allow an unclean or unsanitary condition to develop;</p>
+              </item>
+              <item id="section-3.3.list1.k">
+                <num>(k)</num>
+                <p>keep his or her goods in an unclean or unsanitary condition;</p>
+              </item>
+              <item id="section-3.3.list1.l">
+                <num>(l)</num>
+                <p>fail, at the conclusion of trading, all waste, packaging material, stock and equipment;</p>
+              </item>
+              <item id="section-3.3.list1.m">
+                <num>(m)</num>
+                <p>pose a threat or danger to public health or safety, or</p>
+              </item>
+              <item id="section-3.3.list1.n">
+                <num>(n)</num>
+                <p>fail to, at all times, carry on his or her person a copy of any written <term refersTo="#term-permit" id="trm43">permit</term> or authorisation issued in terms of this by-law and must, on request of an <term refersTo="#term-authorised_employee" id="trm44">authorised employee</term>, produce such authorisation.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Removal and impoundment</heading>
+        <subsection id="section-4.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-4.1.list1">
+              <listIntroduction>An <term refersTo="#term-authorised_employee" id="trm45">authorised employee</term> may remove and impound any goods that a <term refersTo="#term-trader" id="trm46">trader</term> failed or refused to remove from a place after having been requested to do so by the <term refersTo="#term-authorised_employee" id="trm47">authorised employee</term>, or which had been left there or abandoned—</listIntroduction>
+              <item id="section-4.1.list1.a">
+                <num>(a)</num>
+                <p>which the <term refersTo="#term-authorised_employee" id="trm48">authorised employee</term> reasonably suspects are used in connection with <term refersTo="#term-street" id="trm49">street</term> trading, or</p>
+              </item>
+              <item id="section-4.1.list1.b">
+                <num>(b)</num>
+                <p>which is found at a place where the business of <term refersTo="#term-street" id="trm50">street</term> trading is restricted in terms of this by-law and which is likely to constitute a contravention of any provision of this by-law.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-4.2.list1">
+              <listIntroduction>An <term refersTo="#term-authorised_employee" id="trm51">authorised employee</term> acting in terms of subsection (1) must—</listIntroduction>
+              <item id="section-4.2.list1.a">
+                <num>(a)</num>
+                <p>except in the case of goods that have been left or abandoned, issue to a <term refersTo="#term-trader" id="trm52">trader</term> a receipt for any goods so removed and impounded, and</p>
+              </item>
+              <item id="section-4.2.list1.b">
+                <num>(b)</num>
+                <p>forthwith deliver such goods to a place determined by the <term refersTo="#term-municipal_manager" id="trm53">municipal manager</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-4.3.list0">
+              <item id="section-4.3.list0.a">
+                <num>(a)</num>
+                <p>The owner of goods removed and impounded in terms of subsection (1) is, subject to the provisions of section 5, liable for any expenses incurred by the <term refersTo="#term-municipality" id="trm54">municipality</term>, and the <term refersTo="#term-municipality" id="trm55">municipality</term> may keep such goods until all such expenses have been paid or deal with the goods as contemplated in section 5, and</p>
+              </item>
+              <item id="section-4.3.list0.b">
+                <num>(b)</num>
+                <p>a certificate issued under the hand of the <term refersTo="#term-municipal_manager" id="trm56">municipal manager</term> is proof of any expenses incurred by the <term refersTo="#term-municipality" id="trm57">municipality</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Disposal of impounded goods</heading>
+        <subsection id="section-5.1">
+          <num>(1)</num>
+          <content>
+            <p>Any perishable goods impounded in terms of section 4(1) may at any time be sold or destroyed by the <term refersTo="#term-municipal_manager" id="trm58">municipal manager</term>, and the proceeds of a sale, less any expenses incurred by the <term refersTo="#term-municipal_manager" id="trm59">municipal manager</term>, must, upon presentation of the receipt contemplated by section 4(2), be paid to the owner; provided that if such proceeds are not claimed within three months of the date on which the goods concerned were sold, the proceeds will be forfeited to the <term refersTo="#term-municipality" id="trm60">municipality</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.2">
+          <num>(2)</num>
+          <content>
+            <p>The owner of goods impounded in terms of section 4(1), may, in the case where the goods were not destroyed or sold in terms of subsection (1), on production of the receipt contemplated by section 4(2), reclaim the goods; provided that if the goods remain unclaimed after three months, the <term refersTo="#term-municipal_manager" id="trm61">municipal manager</term> may sell the goods and the proceeds will be forfeited to the <term refersTo="#term-municipality" id="trm62">municipality</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.3">
+          <num>(3)</num>
+          <content>
+            <p>When goods are reclaimed in terms of subsection (2), any outstanding expenses incurred by the <term refersTo="#term-municipality" id="trm63">municipality</term> in connection with the removal and impoundment, must first be paid before the goods may be returned.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.4">
+          <num>(4)</num>
+          <content>
+            <p>In the event of the proceeds of any sale of goods contemplated by this by-law not being sufficient to defray the expenses incurred by the <term refersTo="#term-municipality" id="trm64">municipality</term>, the owner of such goods will remain liable for so much of such expenses as is not defrayed by the proceeds from the sale of such goods.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Declaration of <term refersTo="#term-restricted_area" id="trm65">restricted area</term></heading>
+        <subsection id="section-6.1">
+          <num>(1)</num>
+          <content>
+            <p>Council may declare any area as an area in which trading is restricted.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-6.2.list1">
+              <listIntroduction>No person may <term refersTo="#term-trade" id="trm66">trade</term> in a <term refersTo="#term-restricted_area" id="trm67">restricted area</term>:—</listIntroduction>
+              <item id="section-6.2.list1.a">
+                <num>(a)</num>
+                <blockList id="section-6.2.list1.a.list0">
+                  <listIntroduction>unless such person is in possession of:—</listIntroduction>
+                  <item id="section-6.2.list1.a.list0.i">
+                    <num>(i)</num>
+                    <p>a valid <term refersTo="#term-permit" id="trm68">permit</term> or</p>
+                  </item>
+                  <item id="section-6.2.list1.a.list0.ii">
+                    <num>(ii)</num>
+                    <p>a lease agreement with the <term refersTo="#term-council" id="trm69">council</term>, or similar authorisation issued by <term refersTo="#term-council" id="trm70">council</term> in respect of municipal land.</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-6.2.list1.b">
+                <num>(b)</num>
+                <p>in contravention of the conditions of a <term refersTo="#term-permit" id="trm71">permit</term> or the terms of a lease agreement.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Procedure for <term refersTo="#term-declaration" id="trm72">declaration</term> of a <term refersTo="#term-restricted_area" id="trm73">restricted area</term></heading>
+        <subsection id="section-7.1">
+          <num>(1)</num>
+          <content>
+            <p>Whenever the <term refersTo="#term-council" id="trm74">council</term> has reason to believe that the number of traders in a specific area have assumed, or have the potential to assume, such proportions that the need has arisen or may arise that trading in such area should be restricted, the <term refersTo="#term-council" id="trm75">council</term> may investigate the feasibility of such restriction.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-7.2.list1">
+              <listIntroduction>An investigation into the feasibility of restricting trading, must address the following:—</listIntroduction>
+              <item id="section-7.2.list1.a">
+                <num>(a)</num>
+                <blockList id="section-7.2.list1.a.list0">
+                  <listIntroduction>whether the number of traders in the area have, or may have the potential to negatively affect—</listIntroduction>
+                  <item id="section-7.2.list1.a.list0.i">
+                    <num>(i)</num>
+                    <p>the established businesses, residences, tourist potential and accessibility of shoppers to the area</p>
+                  </item>
+                  <item id="section-7.2.list1.a.list0.ii">
+                    <num>(ii)</num>
+                    <p>the movement of traffic and/or pedestrians in the area, and</p>
+                  </item>
+                  <item id="section-7.2.list1.a.list0.iii">
+                    <num>(iii)</num>
+                    <p>present or future planning and development of the area,</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-7.2.list1.b">
+                <num>(b)</num>
+                <p>whether more effective supervision or control of the area, will make a <term refersTo="#term-declaration" id="trm76">declaration</term> unnecessary;</p>
+              </item>
+              <item id="section-7.2.list1.c">
+                <num>(c)</num>
+                <p>whether the intended restriction will drive out of business a substantial number of traders;</p>
+              </item>
+              <item id="section-7.2.list1.d">
+                <num>(d)</num>
+                <p>the various options open to the <term refersTo="#term-council" id="trm77">council</term>, whether or not such an area is declared restricted;</p>
+              </item>
+              <item id="section-7.2.list1.e">
+                <num>(e)</num>
+                <blockList id="section-7.2.list1.e.list1">
+                  <listIntroduction>the preparation of a plan showing:—</listIntroduction>
+                  <item id="section-7.2.list1.e.list1.i">
+                    <num>(i)</num>
+                    <p>the position of the area concerned;</p>
+                  </item>
+                  <item id="section-7.2.list1.e.list1.ii">
+                    <num>(ii)</num>
+                    <p>if restricted, the number of traders to be allowed in such area, and</p>
+                  </item>
+                  <item id="section-7.2.list1.e.list1.iii">
+                    <num>(iii)</num>
+                    <p>locations where traders may be allowed, and</p>
+                  </item>
+                  <item id="section-7.2.list1.e.list1.iv">
+                    <num>(iv)</num>
+                    <p>if restricted, the criteria to be used for the allocation of bays;</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-7.2.list1.f">
+                <num>(f)</num>
+                <p>whether any traders belong to associations, and, if so, the names, membership and area of inﬂuence of such associations,</p>
+              </item>
+              <item id="section-7.2.list1.g">
+                <num>(g)</num>
+                <p>any other information which may have an inﬂuence in the consideration of the <term refersTo="#term-declaration" id="trm78">declaration</term> of such area, and</p>
+              </item>
+              <item id="section-7.2.list1.h">
+                <num>(h)</num>
+                <p>the views of any municipal structure, where applicable.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-7.3">
+          <num>(3)</num>
+          <content>
+            <p>If the <term refersTo="#term-council" id="trm79">council</term>, after considering the findings of the investigation, finds a need to restrict the area, it must instruct the municipal structure concerned to enter into a process of public participation and advise <term refersTo="#term-council" id="trm80">council</term> of the outcome thereof.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.4">
+          <num>(4)</num>
+          <content>
+            <p>The <term refersTo="#term-council" id="trm81">council</term> must consider the recommendations of the structure concerned, as well as every objection submitted to the structure/s concerned and the comments of the structure/s thereon, and will thereafter resolve on the <term refersTo="#term-declaration" id="trm82">declaration</term> of the area concerned, as well as the criteria for issuing permits.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.5">
+          <num>(5)</num>
+          <content>
+            <p>The <term refersTo="#term-declaration" id="trm83">declaration</term> will take effect on the date of publication in the Provincial Gazette.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.6">
+          <num>(6)</num>
+          <content>
+            <p>Copies of the notice of <term refersTo="#term-declaration" id="trm84">declaration</term> referred to in sub-section (5) above, must be posted at municipal offices selected by the <term refersTo="#term-municipal_manager" id="trm85">municipal manager</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Permits for <term refersTo="#term-street" id="trm86">street</term> trading in declared areas</heading>
+        <subsection id="section-8.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-council" id="trm87">council</term> will demarcate bays in a <term refersTo="#term-restricted_area" id="trm88">restricted area</term> in accordance with the plan contained in the <term refersTo="#term-declaration" id="trm89">declaration</term> contemplated in section 4(5).</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.2">
+          <num>(2)</num>
+          <content>
+            <p>Any person who wishes to <term refersTo="#term-trade" id="trm90">trade</term> in a demarcated <term refersTo="#term-bay" id="trm91">bay</term>, must apply on a form available at the municipal offices in or nearest to the declared area.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-8.3.list0">
+              <item id="section-8.3.list0.a">
+                <num>(a)</num>
+                <p>Applications for permits will be considered by the <term refersTo="#term-municipal_manager" id="trm92">municipal manager</term> in terms of criteria determined by the <term refersTo="#term-council" id="trm93">council</term> in the resolution taken in terms of section 7(4), and</p>
+              </item>
+              <item id="section-8.3.list0.b">
+                <num>(b)</num>
+                <p>Where the demand for bays exceeds the availability, a waiting list of applicants will be opened and bays will be allocated by the <term refersTo="#term-municipal_manager" id="trm94">municipal manager</term> in terms of the criteria.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-8.4">
+          <num>(4)</num>
+          <content>
+            <blockList id="section-8.4.list1">
+              <listIntroduction>Permits for bays are valid for one month and must contain at least the following</listIntroduction>
+              <item id="section-8.4.list1.a">
+                <num>(a)</num>
+                <p>the name, address, telephone number and identification number of the <term refersTo="#term-permit" id="trm95">permit</term> holder;</p>
+              </item>
+              <item id="section-8.4.list1.b">
+                <num>(b)</num>
+                <p>the number of the <term refersTo="#term-bay" id="trm96">bay</term>, the location of the <term refersTo="#term-bay" id="trm97">bay</term>, and the number of the map of the declared area;</p>
+              </item>
+              <item id="section-8.4.list1.c">
+                <num>(c)</num>
+                <p>the conditions in terms of which the <term refersTo="#term-permit" id="trm98">permit</term> was issued;</p>
+              </item>
+              <item id="section-8.4.list1.d">
+                <num>(d)</num>
+                <p>the signature of the official who issues the <term refersTo="#term-permit" id="trm99">permit</term>, and</p>
+              </item>
+              <item id="section-8.4.list1.e">
+                <num>(e)</num>
+                <p>the official date stamp of the office where the <term refersTo="#term-permit" id="trm100">permit</term> was issued.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Appointment of authorised officials and delegation</heading>
+        <subsection id="section-9.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-municipal_manager" id="trm101">municipal manager</term> may appoint municipal employees as authorised employees to carry out any duties in terms of this by-law.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-municipal_manager" id="trm102">municipal manager</term> may delegate any power or function conferred on him or her in terms of this by-law to any employee of the <term refersTo="#term-municipality" id="trm103">municipality</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Offences and penalties</heading>
+        <paragraph id="section-10.paragraph-0">
+          <content>
+            <blockList id="section-10.paragraph-0.list1">
+              <listIntroduction>Any person who—</listIntroduction>
+              <item id="section-10.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>contravenes any provision in this by-law or fails to comply with any condition imposed in terms thereof;</p>
+              </item>
+              <item id="section-10.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>threatens, resists, interferes with or obstructs any councillor, officer or <term refersTo="#term-authorised_employee" id="trm104">authorised employee</term> of the <term refersTo="#term-council" id="trm105">council</term> in the exercise or performance of his or her duties or functions in terms of this by-law, or</p>
+              </item>
+              <item id="section-10.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>deliberately furnishes false or misleading information to a councillor, officer or official of the <term refersTo="#term-council" id="trm106">council</term>, is guilty of an offence and liable on conviction to the payment of a fine.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

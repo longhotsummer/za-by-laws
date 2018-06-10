@@ -1,0 +1,465 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc033/act/by-law/2005/fencing-of-premises/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/fencing-of-premises"/>
+          <FRBRalias value="By-Law Relating to the Fencing of Premises"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc033/act/by-law/2005/fencing-of-premises/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/fencing-of-premises/eng@2005-10-03"/>
+          <FRBRdate date="2005-10-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc033/act/by-law/2005/fencing-of-premises/eng@2005-10-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2005/fencing-of-premises/eng@2005-10-03"/>
+          <FRBRdate date="2018-02-04" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication number="6303" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" date="2005-10-03"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-the_Act" href="/ontology/term/this.eng.the_Act" showAs="the Act"/>
+        <TLCTerm id="term-Council" href="/ontology/term/this.eng.Council" showAs="Council"/>
+        <TLCTerm id="term-engineer" href="/ontology/term/this.eng.engineer" showAs="engineer"/>
+        <TLCTerm id="term-erect" href="/ontology/term/this.eng.erect" showAs="erect"/>
+        <TLCTerm id="term-fence" href="/ontology/term/this.eng.fence" showAs="fence"/>
+        <TLCTerm id="term-municipality" href="/ontology/term/this.eng.municipality" showAs="municipality"/>
+        <TLCTerm id="term-occupier" href="/ontology/term/this.eng.occupier" showAs="occupier"/>
+        <TLCTerm id="term-NBR" href="/ontology/term/this.eng.NBR" showAs="NBR"/>
+        <TLCTerm id="term-premises" href="/ontology/term/this.eng.premises" showAs="premises"/>
+        <TLCTerm id="term-owner" href="/ontology/term/this.eng.owner" showAs="owner"/>
+        <TLCTerm id="term-Tariff_Policy_By-law" href="/ontology/term/this.eng.Tariff_Policy_By-law" showAs="Tariff Policy By-law"/>
+        <TLCTerm id="term-zoned" href="/ontology/term/this.eng.zoned" showAs="zoned"/>
+      </references>
+    </meta>
+    <preface>
+      <p>To control the erection of fences</p>
+    </preface>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <paragraph id="section-1.paragraph-0" refersTo="#term-zoned">
+          <content>
+            <p>In this by-law, unless inconsistent with the context:—</p>
+            <p>"<def refersTo="#term-the_Act">the Act</def>" means the National Building Standards and Building Regulations Act, <ref href="/za/act/1977/103">Act 103 of 1977</ref>;</p>
+            <p>"<def refersTo="#term-Council">Council</def>" means the municipal council of the <term refersTo="#term-municipality" id="trm0">municipality</term>;</p>
+            <p>"<def refersTo="#term-engineer">engineer</def>" means the person appointed by the <term refersTo="#term-municipality" id="trm1">municipality</term> to act as <term refersTo="#term-engineer" id="trm2">engineer</term> for the purpose of administering this by-law;</p>
+            <p>"<def refersTo="#term-erect">erect</def>" includes the making of alterations to a <term refersTo="#term-fence" id="trm3">fence</term>;</p>
+            <p>"<def refersTo="#term-fence">fence</def>" includes a boundary, garden or other freestanding wall;</p>
+            <p>"<def refersTo="#term-municipality">municipality</def>" means the Municipality of Cape Agulhas;</p>
+            <p>"<def refersTo="#term-occupier">occupier</def>" means any person in actual occupation of <term refersTo="#term-premises" id="trm4">premises</term> or having the charge or management thereof, without regard to the title under which he or she occupies it;</p>
+            <p>"<def refersTo="#term-NBR">NBR</def>" means any national building regulations promulgated in terms of <term refersTo="#term-the_Act" id="trm5">the Act</term>, and any South African Bureau of Standards Code of Practice for the application of the national building regulations;</p>
+            <p>"<def refersTo="#term-premises">premises</def>" means any piece of land, with or without improvements;</p>
+            <p>"<def refersTo="#term-owner">owner</def>" means the person in whom is vested the legal title to <term refersTo="#term-premises" id="trm6">premises</term> and includes an <term refersTo="#term-occupier" id="trm7">occupier</term>;</p>
+            <p>"<def refersTo="#term-Tariff_Policy_By-law">Tariff Policy By-law</def>", means the <term refersTo="#term-Tariff_Policy_By-law" id="trm8">Tariff Policy By-law</term> adopted by the <term refersTo="#term-municipality" id="trm9">municipality</term> and published in Provincial Gazette;</p>
+            <p>"<def refersTo="#term-zoned">zoned</def>" means a land use right which may be exercised on <term refersTo="#term-premises" id="trm10">premises</term> in terms of the provisions of a town planning scheme, and includes any approval which may have been granted in respect of the particular <term refersTo="#term-premises" id="trm11">premises</term> in terms of any town planning legislation.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Application of this by-law</heading>
+        <subsection id="section-2.1">
+          <num>(1)</num>
+          <content>
+            <p>This by-law binds an organ of state.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.2">
+          <num>(2)</num>
+          <content>
+            <p>The provisions of this by-law do not derogate from the provisions of any other legislation.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.3">
+          <num>(3)</num>
+          <content>
+            <p>Notwithstanding the provisions of subsection (1) above, the provisions of any legislation relating to town planning are subject to this by-law.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.4">
+          <num>(4)</num>
+          <content>
+            <p>The erection of a <term refersTo="#term-fence" id="trm12">fence</term> which falls within the definition of "building", in terms of the provisions of <term refersTo="#term-the_Act" id="trm13">the Act</term>, shall also be subject to compliance with the provisions of this by-law insofar as the provisions of the by-law are supplementary to the provisions of the <term refersTo="#term-NBR" id="trm14">NBR</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.5">
+          <num>(5)</num>
+          <content>
+            <p>Fences on <term refersTo="#term-premises" id="trm15">premises</term> <term refersTo="#term-zoned" id="trm16">zoned</term> for agricultural purposes and which do not constitute a boundary with public land, are exempted from compliance with the provisions of this by-law.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Erection of fences</heading>
+        <subsection id="section-3.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-3.1.list1">
+              <listIntroduction>No person may <term refersTo="#term-erect" id="trm17">erect</term> or cause to <term refersTo="#term-erect" id="trm18">erect</term> a <term refersTo="#term-fence" id="trm19">fence</term> on <term refersTo="#term-premises" id="trm20">premises</term>:—</listIntroduction>
+              <item id="section-3.1.list1.a">
+                <num>(a)</num>
+                <p>without the prior approval of the <term refersTo="#term-engineer" id="trm21">engineer</term>, and</p>
+              </item>
+              <item id="section-3.1.list1.b">
+                <num>(b)</num>
+                <p>otherwise than in accordance with this by-law.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-3.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-3.2.list1">
+              <listIntroduction>An application for the <term refersTo="#term-engineer" id="trm22">engineer</term>’s approval to <term refersTo="#term-erect" id="trm23">erect</term> a <term refersTo="#term-fence" id="trm24">fence</term>, must be:—</listIntroduction>
+              <item id="section-3.2.list1.a">
+                <num>(a)</num>
+                <p>submitted on a form provided by the <term refersTo="#term-engineer" id="trm25">engineer</term>;</p>
+              </item>
+              <item id="section-3.2.list1.b">
+                <num>(b)</num>
+                <p>accompanied by plans in duplicate, drawn in accordance with the scales stipulated in the <term refersTo="#term-NBR" id="trm26">NBR</term>, clearly indicating the position of the <term refersTo="#term-premises" id="trm27">premises</term> concerned, the foundation, the building materials to be used and the method of construction, together with adequate dimensions of the proposed <term refersTo="#term-fence" id="trm28">fence</term>;</p>
+              </item>
+              <item id="section-3.2.list1.c">
+                <num>(c)</num>
+                <p>accompanied by the appropriate fee determined in terms of the <term refersTo="#term-Tariff_Policy_By-law" id="trm29">Tariff Policy By-law</term>; and</p>
+              </item>
+              <item id="section-3.2.list1.d">
+                <num>(d)</num>
+                <p>in accordance with the specifications for the erection of fences, as contained in the Schedule to this by-law.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-3.3">
+          <num>(3)</num>
+          <content>
+            <p>If the <term refersTo="#term-engineer" id="trm30">engineer</term> has reason to believe that fencing of a <term refersTo="#term-premises" id="trm31">premises</term> will prevent a danger to persons or property, the <term refersTo="#term-engineer" id="trm32">engineer</term> may require from the <term refersTo="#term-owner" id="trm33">owner</term> of such <term refersTo="#term-premises" id="trm34">premises</term> to <term refersTo="#term-erect" id="trm35">erect</term> a boundary <term refersTo="#term-fence" id="trm36">fence</term> within a reasonable period of time.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Dilapidated, defaced and unsightly fences</heading>
+        <subsection id="section-4.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-4.1.list1">
+              <listIntroduction>An <term refersTo="#term-owner" id="trm37">owner</term> on whose <term refersTo="#term-premises" id="trm38">premises</term> a <term refersTo="#term-fence" id="trm39">fence</term> has been erected may not—</listIntroduction>
+              <item id="section-4.1.list1.a">
+                <num>(a)</num>
+                <blockList id="section-4.1.list1.a.list0">
+                  <listIntroduction>allow the <term refersTo="#term-fence" id="trm40">fence</term> to:—</listIntroduction>
+                  <item id="section-4.1.list1.a.list0.i">
+                    <num>(i)</num>
+                    <p>fall into a dilapidated or unsightly condition, or</p>
+                  </item>
+                  <item id="section-4.1.list1.a.list0.ii">
+                    <num>(ii)</num>
+                    <p>become a danger or potential danger to persons or property;</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-4.1.list1.b">
+                <num>(b)</num>
+                <p>deface, or allow the <term refersTo="#term-fence" id="trm41">fence</term> to be defaced by posters, placards or graffiti, or</p>
+              </item>
+              <item id="section-4.1.list1.c">
+                <num>(c)</num>
+                <p>affix or paint, or allow to be affixed or painted on the <term refersTo="#term-fence" id="trm42">fence</term>, advertising signs not approved in accordance with the <term refersTo="#term-Council" id="trm43">Council</term>’s by-law relating to outdoor advertising.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-engineer" id="trm44">engineer</term> may require from the <term refersTo="#term-owner" id="trm45">owner</term> of <term refersTo="#term-premises" id="trm46">premises</term> to repair, alter, remove or demolish a <term refersTo="#term-fence" id="trm47">fence</term> which has become defaced, dangerous, dilapidated or unsightly.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Ownership of fences</heading>
+        <subsection id="section-5.1">
+          <num>(1)</num>
+          <content>
+            <p>In cases where there is a dispute in regard to the ownership of a <term refersTo="#term-fence" id="trm48">fence</term>, and such ownership cannot be determined from municipal records, it will be incumbent upon the registered owners of the <term refersTo="#term-premises" id="trm49">premises</term> concerned to provide proof of ownership at own cost.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.2">
+          <num>(2)</num>
+          <content>
+            <p>If the owners fail to provide proof of ownership, the <term refersTo="#term-engineer" id="trm50">engineer</term> will appoint a land surveyor to determine the ownership of the <term refersTo="#term-fence" id="trm51">fence</term>, and recover the costs from the person who is proved to be the <term refersTo="#term-owner" id="trm52">owner</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.3">
+          <num>(3)</num>
+          <content>
+            <p>If the land surveyor finds the <term refersTo="#term-fence" id="trm53">fence</term> to be situated on the boundary of the properties concerned, the costs will be recovered from each <term refersTo="#term-owner" id="trm54">owner</term> concerned.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Delegation of powers and duties</heading>
+        <subsection id="section-6.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-engineer" id="trm55">engineer</term> may delegate any power or duty that have been conferred on the <term refersTo="#term-engineer" id="trm56">engineer</term> in terms of this by-law to any official of the <term refersTo="#term-municipality" id="trm57">municipality</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-6.2.list1">
+              <listIntroduction>A delegation in terms of sub-section (1)—</listIntroduction>
+              <item id="section-6.2.list1.a">
+                <num>(a)</num>
+                <p>must be in writing;</p>
+              </item>
+              <item id="section-6.2.list1.b">
+                <num>(b)</num>
+                <p>is subject to any limitations, conditions and directions the <term refersTo="#term-engineer" id="trm58">engineer</term> may impose;</p>
+              </item>
+              <item id="section-6.2.list1.c">
+                <num>(c)</num>
+                <p>does not divest the <term refersTo="#term-engineer" id="trm59">engineer</term> of the responsibility concerning the exercise of the power or the performance of the duty.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-6.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-engineer" id="trm60">engineer</term> may amend or withdraw any delegation in terms of sub-section (1), but no such amendment or withdrawal shall invalidate anything done as a consequence of such delegation.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Offences and penalties</heading>
+        <paragraph id="section-7.paragraph-0">
+          <content>
+            <p>Any person who contravenes or fails to comply with any provision of this by-law is guilty of an offence and liable on conviction to a fine.</p>
+          </content>
+        </paragraph>
+      </section>
+    </body>
+  </act>
+  <components>
+    <component id="component-schedule">
+      <doc name="schedule">
+        <meta>
+          <identification source="#slaw">
+            <FRBRWork>
+              <FRBRthis value="/za-wc033/act/by-law/2005/fencing-of-premises/schedule"/>
+              <FRBRuri value="/za-wc033/act/by-law/2005/fencing-of-premises"/>
+              <FRBRalias value="Schedule"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-wc033/act/by-law/2005/fencing-of-premises/eng@2005-10-03/schedule"/>
+              <FRBRuri value="/za-wc033/act/by-law/2005/fencing-of-premises/eng@2005-10-03"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-wc033/act/by-law/2005/fencing-of-premises/eng@2005-10-03/schedule"/>
+              <FRBRuri value="/za-wc033/act/by-law/2005/fencing-of-premises/eng@2005-10-03"/>
+              <FRBRdate date="2018-01-28" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule">
+            <heading>SPECIFICATIONS FOR THE ERECTION OF FENCES</heading>
+            <section id="section-1">
+              <num>1.</num>
+              <heading>General specifications for the erection of fences</heading>
+              <subsection id="section-1.1">
+                <num>(1)</num>
+                <content>
+                  <p>Fences must be erected within the boundaries of the premises of the owner and may not encroach on or project over any other property.</p>
+                </content>
+              </subsection>
+              <subsection id="section-1.2">
+                <num>(2)</num>
+                <content>
+                  <p>Except with the permission of the engineer, the maximum height of a fence may not exceed 2,1 m.</p>
+                </content>
+              </subsection>
+              <subsection id="section-1.3">
+                <num>(3)</num>
+                <content>
+                  <p>For the purpose of (2) above, the height of a fence is calculated from natural ground level. In cases where the natural ground level has been disturbed, natural ground level will be regarded as street or road level.</p>
+                </content>
+              </subsection>
+              <subsection id="section-1.4">
+                <num>(4)</num>
+                <content>
+                  <p>Where in the opinion of the engineer the proposed height of a fence may restrict the sight distance of traffic, may cause a danger of any kind, or restrict the light on adjacent properties, the engineer may require that the height of the fence be restricted to a height lower than the maximum of 2,1 m.</p>
+                </content>
+              </subsection>
+              <subsection id="section-1.5">
+                <num>(5)</num>
+                <content>
+                  <p>Corner splays must comply with the relevant design codes prescribed for streets and roads and should be cleared with the Chief Traffic Officer of the municipality before an application for the erection of a fence is submitted.</p>
+                </content>
+              </subsection>
+              <subsection id="section-1.6">
+                <num>(6)</num>
+                <content>
+                  <p>Except with the permission of the engineer, gates may not swing towards the street when opened.</p>
+                </content>
+              </subsection>
+              <subsection id="section-1.7">
+                <num>(7)</num>
+                <content>
+                  <p>Except with the permission of the engineer, no fence may be constructed from previously used materials.</p>
+                </content>
+              </subsection>
+              <subsection id="section-1.8">
+                <num>(8)</num>
+                <content>
+                  <p>Barbed wire and razor wire components may not be lower than 1,8 m from ground level.</p>
+                </content>
+              </subsection>
+            </section>
+            <section id="section-2">
+              <num>2.</num>
+              <heading>Fences that fall within the definition of "building" in the Act.</heading>
+              <paragraph id="section-2.paragraph-0">
+                <content>
+                  <blockList id="section-2.paragraph-0.list1">
+                    <listIntroduction>Fences in this category are subject to the provisions of the NBR and must in addition, comply with the following specifications:</listIntroduction>
+                    <item id="section-2.paragraph-0.list1.a">
+                      <num>(a)</num>
+                      <p>Concrete fences that form boundaries with streets and public land and must have the smooth side facing the street or public land.</p>
+                    </item>
+                    <item id="section-2.paragraph-0.list1.b">
+                      <num>(b)</num>
+                      <p>Plastered walls must be painted.</p>
+                    </item>
+                    <item id="section-2.paragraph-0.list1.c">
+                      <num>(c)</num>
+                      <p>Metal components of walls must either be galvanised or painted.</p>
+                    </item>
+                  </blockList>
+                </content>
+              </paragraph>
+            </section>
+            <section id="section-3">
+              <num>3.</num>
+              <heading>Fences that are constructed mainly from metal components</heading>
+              <subsection id="section-3.1">
+                <num>(1)</num>
+                <content>
+                  <p>Metal components must either be galvanised or painted.</p>
+                </content>
+              </subsection>
+              <subsection id="section-3.2">
+                <num>(2)</num>
+                <content>
+                  <p>Anchor posts must be set in concrete foundations which comply with the SABS Code of Practice for the application of the NBR, 0400 of 1999.</p>
+                </content>
+              </subsection>
+              <subsection id="section-3.3">
+                <num>(3)</num>
+                <content>
+                  <p>When components with sharpened ends are used, the sharpened ends must be at least 1,8 m from ground level.</p>
+                </content>
+              </subsection>
+            </section>
+            <section id="section-4">
+              <num>4.</num>
+              <heading>Wire fences</heading>
+              <subsection id="section-4.1">
+                <num>(1)</num>
+                <content>
+                  <p>Anchor posts must be set in concrete foundations which comply with the SABS Code of Practice for the application of the NBR, 0400 of 1999.</p>
+                </content>
+              </subsection>
+              <subsection id="section-4.2">
+                <num>(2)</num>
+                <content>
+                  <p>Subject to item 1(8), except in areas zoned for agricultural purposes, no barbed wire fences are allowed.</p>
+                </content>
+              </subsection>
+            </section>
+            <section id="section-5">
+              <num>5.</num>
+              <heading>Wooden fences</heading>
+              <subsection id="section-5.1">
+                <num>(1)</num>
+                <content>
+                  <p>Anchor posts must be set in concrete foundations which comply with the SABS Code of Practice for the application of the NBR, 0400 of 1999.</p>
+                </content>
+              </subsection>
+              <subsection id="section-5.2">
+                <num>(2)</num>
+                <content>
+                  <p>Wooden components must be free of splinters and either varnished, painted or treated with creosote.</p>
+                </content>
+              </subsection>
+              <subsection id="section-5.3">
+                <num>(3)</num>
+                <content>
+                  <p>No pole or split pole fences will be allowed on boundaries on streets, roads or public land.</p>
+                </content>
+              </subsection>
+              <subsection id="section-5.4">
+                <num>(4)</num>
+                <content>
+                  <p>When components with sharpened ends are used, the sharpened ends must be at least 1,8 m from ground level.</p>
+                </content>
+              </subsection>
+            </section>
+            <section id="section-6">
+              <num>6.</num>
+              <heading>Electric fences</heading>
+              <paragraph id="section-6.paragraph-0">
+                <content>
+                  <p>Fences in this category are subject to the provisions of the Electrical Machinery Regulations (GNR 1592, as amended), issued in terms of the Occupational Health and Safety Act, <ref href="/za/act/1993/85">Act 85 of 1993</ref>.</p>
+                </content>
+              </paragraph>
+            </section>
+            <section id="section-7">
+              <num>7.</num>
+              <heading>Hedges</heading>
+              <subsection id="section-7.1">
+                <num>(1)</num>
+                <content>
+                  <p>Hedges on boundaries on streets, roads and public land must be planted at least 1 m inside the boundary line and, in the case of fast-growing shrubs, at least 1,5 m inside the boundary line.</p>
+                </content>
+              </subsection>
+              <subsection id="section-7.2">
+                <num>(2)</num>
+                <content>
+                  <p>Hedges on boundaries on streets, roads and public land may not consist of plants which bear thorns, are liable to produce sharp branches or leaves or is poisonous to persons or animals.</p>
+                </content>
+              </subsection>
+            </section>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>
