@@ -1,0 +1,435 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc033/act/by-law/2015/house-shop/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2015/house-shop"/>
+          <FRBRalias value="Cape Agulhas Municipality House Shop By-law"/>
+          <FRBRdate date="2015-11-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc033/act/by-law/2015/house-shop/eng@2015-11-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2015/house-shop/eng@2015-11-03"/>
+          <FRBRdate date="2015-11-03" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc033/act/by-law/2015/house-shop/eng@2015-11-03/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2015/house-shop/eng@2015-11-03"/>
+          <FRBRdate date="2018-06-14" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication number="7521" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" date="2015-11-03"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-national_building_regulations" showAs="national building regulations" href="/ontology/term/this.eng.national_building_regulations"/>
+        <TLCTerm id="term-zoning_scheme_regulations" showAs="zoning scheme regulations" href="/ontology/term/this.eng.zoning_scheme_regulations"/>
+        <TLCTerm id="term-municipality" showAs="municipality" href="/ontology/term/this.eng.municipality"/>
+        <TLCTerm id="term-Council" showAs="Council" href="/ontology/term/this.eng.Council"/>
+        <TLCTerm id="term-municipal_manager" showAs="municipal manager" href="/ontology/term/this.eng.municipal_manager"/>
+        <TLCTerm id="term-house_shop" showAs="house shop" href="/ontology/term/this.eng.house_shop"/>
+        <TLCTerm id="term-approval_period" showAs="approval period" href="/ontology/term/this.eng.approval_period"/>
+        <TLCTerm id="term-authorised_official" showAs="authorised official" href="/ontology/term/this.eng.authorised_official"/>
+        <TLCTerm id="term-public_nuisance" showAs="public nuisance" href="/ontology/term/this.eng.public_nuisance"/>
+        <TLCTerm id="term-zoning_scheme" showAs="zoning scheme" href="/ontology/term/this.eng.zoning_scheme"/>
+      </references>
+    </meta>
+    <preface>
+      <p>
+        <remark status="editorial">[The municipality published a similar House Shop by-law on 2012-12-14. It is presumed that this by-law repeals the older by-law.]</remark>
+      </p>
+    </preface>
+    <preamble>
+      <p>WHEREAS section 156(2) and (5) of the Constitution provides that a municipality may make and administer by-laws for the effective administration of the matters which it has the right to administer, and to exercise any power concerning a matter reasonably necessary for, or incidental to, the effective performance of its functions;</p>
+      <p>AND WHEREAS Part B of Schedule 4 to the Constitution lists Municipal Planning as local government matters to the extent set out in section 155(6)(a) and (7);</p>
+      <p>AND WHEREAS the Cape Agulhas Municipality seeks to manage, control and regulate municipal land use planning and any matters connected therewith;</p>
+      <p>BE IT ENACTED by the Council of the Cape Agulhas Municipality, as follows:—</p>
+      <p>To identify, classify and regulate house shops within the authority’s area of Jurisdiction</p>
+    </preamble>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <paragraph id="section-1.paragraph-0">
+          <content>
+            <p>In this by-law, unless the context otherwise indicates:</p>
+            <p refersTo="#term-authorised_official">"<def refersTo="#term-authorised_official">authorised official</def>" means an employee of the <term refersTo="#term-Council" id="trm0">Council</term> appointed by the Municipal Manager to exercise the powers of an authorised official in terms of the provisions of this by-law;</p>
+            <p refersTo="#term-approval_period">"<def refersTo="#term-approval_period">approval period</def>" means a maximum of five years in terms of the Standard Bylaws for Municipal Land Use Planning, after which an extension for the period must be applied for;</p>
+            <p refersTo="#term-Council">"<def refersTo="#term-Council">Council</def>" means the municipal Council of the <term refersTo="#term-municipality" id="trm1">municipality</term>;</p>
+            <p refersTo="#term-house_shop">"<def refersTo="#term-house_shop">house shop</def>" means the operation of a retail business from a dwelling for the convenience of the immediate community by the registered owner of the dwelling, who must occupy the dwelling; provided that the primary use of the dwelling shall remain residential;</p>
+            <p refersTo="#term-municipal_manager">"<def refersTo="#term-municipal_manager">municipal manager</def>" means a person appointed by the <term refersTo="#term-Council" id="trm2">Council</term> in terms of the Local Government: Municipal Structures Act, 1998 (<ref href="/za/act/1998/117">Act 117 of 1998</ref>);</p>
+            <p refersTo="#term-municipality">"<def refersTo="#term-municipality">municipality</def>" means the Cape Agulhas Municipality;</p>
+            <p refersTo="#term-national_building_regulations">"<def refersTo="#term-national_building_regulations">national building regulations</def>" means the National Building Regulations promulgated in terms of the National Building Regulations and Building Standards Act, 1977 (<ref href="/za/act/1977/103">Act 103 of 1977</ref>);</p>
+            <p refersTo="#term-public_nuisance">"<def refersTo="#term-public_nuisance">public nuisance</def>" means any act, omission or condition which is offensive to the public, which is detrimental to or dangerous for public health, which materially interferes with the ordinary comfort, convenience peace or quiet of the public or which adversely affects the safety of the public;</p>
+            <p refersTo="#term-zoning_scheme">"<def refersTo="#term-zoning_scheme">zoning scheme</def>" means a zoning scheme promulgated in terms of the Land Use Planning Ordinance 15 of 1985 or the Integrated Zoning Scheme promulgated in terms of SPLUMA, 2013 (<ref href="/za/act/2013/16">Act 16 of 2013</ref>);</p>
+            <p refersTo="#term-zoning_scheme_regulations">"<def refersTo="#term-zoning_scheme_regulations">zoning scheme regulations</def>" means Section 7 and Section 8 of the Scheme Regulations in terms of the Land Use Planning Ordinance 15 of 1985 or the Integrated Zoning Scheme promulgated in terms of SPLUMA, 2013 (<ref href="/za/act/2013/16">Act 16 of 2013</ref>);</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Application of this by-law</heading>
+        <subsection id="section-2.1">
+          <num>(1)</num>
+          <content>
+            <p>This by-law is applicable to the entire area of jurisdiction of the Cape Agulhas Municipality.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.2">
+          <num>(2)</num>
+          <content>
+            <p>The provisions of this by-law do not derogate from the provisions of any other legislation.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Classification of house shops</heading>
+        <subsection id="section-3.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-3.1.list1">
+              <listIntroduction>House shops are classified as follows:</listIntroduction>
+              <item id="section-3.1.list1.a">
+                <num>(a)</num>
+                <p>a profit-seeking <term refersTo="#term-house_shop" id="trm3">house shop</term>;</p>
+              </item>
+              <item id="section-3.1.list1.b">
+                <num>(b)</num>
+                <p>a <term refersTo="#term-house_shop" id="trm4">house shop</term> with an identified shop area inside an existing dwelling;</p>
+              </item>
+              <item id="section-3.1.list1.c">
+                <num>(c)</num>
+                <p>a <term refersTo="#term-house_shop" id="trm5">house shop</term> where formal advertising takes place;</p>
+              </item>
+              <item id="section-3.1.list1.d">
+                <num>(d)</num>
+                <p>a <term refersTo="#term-house_shop" id="trm6">house shop</term> where goods are purchased and delivered;</p>
+              </item>
+              <item id="section-3.1.list1.e">
+                <num>(e)</num>
+                <p>a <term refersTo="#term-house_shop" id="trm7">house shop</term> where business hours are maintained;</p>
+              </item>
+              <item id="section-3.1.list1.f">
+                <num>(f)</num>
+                <p>a <term refersTo="#term-house_shop" id="trm8">house shop</term> where entertainment may be provided in the form of game machines and pool tables;</p>
+              </item>
+              <item id="section-3.1.list1.g">
+                <num>(g)</num>
+                <p>a <term refersTo="#term-house_shop" id="trm9">house shop</term> where the primary use of the premises is residential and the secondary use is for the purposes of a <term refersTo="#term-house_shop" id="trm10">house shop</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Applications for house shops</heading>
+        <subsection id="section-4.1">
+          <num>(1)</num>
+          <content>
+            <p>Only the registered owner of the property (and who resides on the property) may apply to operate a <term refersTo="#term-house_shop" id="trm11">house shop</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.2">
+          <num>(2)</num>
+          <content>
+            <p>Only the registered owner, who resides on the property, may operate the <term refersTo="#term-house_shop" id="trm12">house shop</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.3">
+          <num>(3)</num>
+          <content>
+            <p>An application for approval of a <term refersTo="#term-house_shop" id="trm13">house shop</term> shall be made in terms of SPLUMA, 2013, which application shall be for a departure.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4">
+          <num>(4)</num>
+          <content>
+            <blockList id="section-4.4.list1">
+              <listIntroduction>The following documents must accompany an application for a <term refersTo="#term-house_shop" id="trm14">house shop</term>:</listIntroduction>
+              <item id="section-4.4.list1.a">
+                <num>(a)</num>
+                <p>The fully completed application form;</p>
+              </item>
+              <item id="section-4.4.list1.b">
+                <num>(b)</num>
+                <p>A locality plan of the business component of the proposed <term refersTo="#term-house_shop" id="trm15">house shop</term>;</p>
+              </item>
+              <item id="section-4.4.list1.c">
+                <num>(c)</num>
+                <p>Proof of the written consent of all surrounding/adjacent owners for a <term refersTo="#term-house_shop" id="trm16">house shop</term> to be operated on the relevant premises;</p>
+              </item>
+              <item id="section-4.4.list1.d">
+                <num>(d)</num>
+                <p>A motivation by the applicant for the establishment of a <term refersTo="#term-house_shop" id="trm17">house shop</term> on the premises.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4.5">
+          <num>(5)</num>
+          <content>
+            <p>The application shall be advertised in the local newspaper(s) and per registered letter to directly adjacent property owners.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.6">
+          <num>(6)</num>
+          <content>
+            <p>The application shall only be advertised once the relevant application fee, as determined by <term refersTo="#term-Council" id="trm18">Council</term> from time to time, has been paid.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.7">
+          <num>(7)</num>
+          <content>
+            <p>The <term refersTo="#term-municipality" id="trm19">municipality</term> shall grant thirty days for comment on or objections to the proposed application.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.8">
+          <num>(8)</num>
+          <content>
+            <p>The Municipal Manager or his/her <term refersTo="#term-authorised_official" id="trm20">authorised official</term> shall consider the application and make a decision regarding the approval or nonapproval thereof.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.9">
+          <num>(9)</num>
+          <content>
+            <p>The applicant and objectors, if applicable, shall be notified in writing of the decision of the Municipal Manager or his/her <term refersTo="#term-authorised_official" id="trm21">authorised official</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.10">
+          <num>(10)</num>
+          <content>
+            <p>Objections in terms of Section 4(7) of this by-law shall be dealt with in terms of SPLUMA, 2013.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Requirements for a <term refersTo="#term-house_shop" id="trm22">house shop</term></heading>
+        <subsection id="section-5.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-5.1.list1">
+              <listIntroduction>House shops must meet the following requirements –</listIntroduction>
+              <item id="section-5.1.list1.a">
+                <num>(a)</num>
+                <p>The <term refersTo="#term-house_shop" id="trm23">house shop</term> may only be operated from a dwelling that complies with the Scheme Regulations applicable to the specific area and the National Building Regulations;</p>
+              </item>
+              <item id="section-5.1.list1.b">
+                <num>(b)</num>
+                <p>The business component of the <term refersTo="#term-house_shop" id="trm24">house shop</term> may not exceed more than 33% of the total floor area of the dwelling;</p>
+              </item>
+              <item id="section-5.1.list1.c">
+                <num>(c)</num>
+                <p>The erf from which the <term refersTo="#term-house_shop" id="trm25">house shop</term> is operated must contain a dwelling as a primary residential property;</p>
+              </item>
+              <item id="section-5.1.list1.d">
+                <num>(d)</num>
+                <p>The <term refersTo="#term-house_shop" id="trm26">house shop</term> may not be located within the road reserve;</p>
+              </item>
+              <item id="section-5.1.list1.e">
+                <num>(e)</num>
+                <p>The approval for the operation of the <term refersTo="#term-house_shop" id="trm27">house shop</term> may not result in less than 80% of the property in the specific street being nonresidential by nature;</p>
+              </item>
+              <item id="section-5.1.list1.f">
+                <num>(f)</num>
+                <p>In the case of a <term refersTo="#term-house_shop" id="trm28">house shop</term> being classified as a category two <term refersTo="#term-house_shop" id="trm29">house shop</term>, an application must be made for the rezoning of the relevant premises, but the fact that an application for rezoning must be submitted cannot be viewed as an automatic approval of the relevant rezoning application.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-5.2">
+          <num>(2)</num>
+          <content>
+            <p>Should any of the aforementioned provisions not be complied with or contravened, the <term refersTo="#term-Council" id="trm30">Council</term> reserves the right to withdraw the approval at any time.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Restrictions</heading>
+        <subsection id="section-6.1">
+          <num>(1)</num>
+          <content>
+            <p>Any alterations to the existing dwelling must blend in with the residential character of the area concerned.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.2">
+          <num>(2)</num>
+          <content>
+            <p>The business portion of the <term refersTo="#term-house_shop" id="trm31">house shop</term> may not be extended.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.3">
+          <num>(3)</num>
+          <content>
+            <p>All legislation, regulations and safety measures regarding the operation of the <term refersTo="#term-house_shop" id="trm32">house shop</term> and merchandise therein must be adhered to by the owner.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.4">
+          <num>(4)</num>
+          <content>
+            <p>The operation of the <term refersTo="#term-house_shop" id="trm33">house shop</term> may not cause a <term refersTo="#term-public_nuisance" id="trm34">public nuisance</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.5">
+          <num>(5)</num>
+          <content>
+            <p>No explosive or flammable substances may be kept or sold.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.6">
+          <num>(6)</num>
+          <content>
+            <p>Consent to operate a <term refersTo="#term-house_shop" id="trm35">house shop</term> is granted to the registered owner of the premises and is not transferable.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.7">
+          <num>(7)</num>
+          <content>
+            <p>The business activities may only take place between 06:00 and 22:00.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.8">
+          <num>(8)</num>
+          <content>
+            <blockList id="section-6.8.list1">
+              <listIntroduction>Should an applicant wish to erect advertising signage –</listIntroduction>
+              <item id="section-6.8.list1.a">
+                <num>(a)</num>
+                <p>an application must be submitted in advance to the <term refersTo="#term-municipality" id="trm36">municipality</term>;</p>
+              </item>
+              <item id="section-6.8.list1.b">
+                <num>(b)</num>
+                <p>only one unlighted sign or notice, no larger than 2 000 cm2 in extent, indicating the name of the owner, business and the nature thereof only, may be displayed;</p>
+              </item>
+              <item id="section-6.8.list1.c">
+                <num>(c)</num>
+                <p>the prior written approval of the <term refersTo="#term-municipality" id="trm37">municipality</term> must be obtained.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-6.9">
+          <num>(9)</num>
+          <content>
+            <p>Only the registered owners of the property may be involved in trading.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Non-liability of the <term refersTo="#term-municipality" id="trm38">municipality</term></heading>
+        <paragraph id="section-7.paragraph-0">
+          <content>
+            <p>The <term refersTo="#term-municipality" id="trm39">municipality</term> shall not be liable for any direct or consequential loss or damage suffered or sustained by the owner of the <term refersTo="#term-house_shop" id="trm40">house shop</term> premises as a result of or arising from the approval of the <term refersTo="#term-house_shop" id="trm41">house shop</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Compliance notices</heading>
+        <subsection id="section-8.1">
+          <num>(1)</num>
+          <content>
+            <p>Whenever a law enforcer finds that any person contravenes any provision of this by-law or that a situation arises which causes a <term refersTo="#term-public_nuisance" id="trm42">public nuisance</term> or which could possibly lead to a <term refersTo="#term-public_nuisance" id="trm43">public nuisance</term> as a result of any person’s actions or failure to act, such law enforcer may serve a fine of R2 000 on such a person.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-8.2.list1">
+              <listIntroduction>Should a notice be served, it must contain the following –</listIntroduction>
+              <item id="section-8.2.list1.a">
+                <num>(a)</num>
+                <p>The provision of the by-law that is being or will be contravened, should the situation be allowed to continue;</p>
+              </item>
+              <item id="section-8.2.list1.b">
+                <num>(b)</num>
+                <p>The measures to be taken to rectify the situation; and</p>
+              </item>
+              <item id="section-8.2.list1.c">
+                <num>(c)</num>
+                <p>The timeframe for compliance with the notice.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Application</heading>
+        <paragraph id="section-9.paragraph-0">
+          <content>
+            <p>The provisions of this by-law do not detract from the provisions of any other legislation in terms of which provision is made for the control of house shops as stipulated in that legislation.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Transitional arrangements</heading>
+        <subsection id="section-10.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-10.1.list1">
+              <listIntroduction>A person who can prove that the <term refersTo="#term-Council" id="trm44">Council</term> has already granted approval for the operation of a <term refersTo="#term-house_shop" id="trm45">house shop</term> at the time of implementation of this by-law may continue to act in accordance with the approval in terms of such by-law, provided that:</listIntroduction>
+              <item id="section-10.1.list1.a">
+                <num>(a)</num>
+                <p>The registered owner reapplies to the <term refersTo="#term-Council" id="trm46">Council</term> within six months of the proclamation of this by-law;</p>
+              </item>
+              <item id="section-10.1.list1.b">
+                <num>(b)</num>
+                <p>Approval is not transferred from the original applicant to another person; and</p>
+              </item>
+              <item id="section-10.1.list1.c">
+                <num>(c)</num>
+                <p>The owner of the <term refersTo="#term-house_shop" id="trm47">house shop</term> provides proof of the <term refersTo="#term-Council" id="trm48">Council</term>’s approval.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-11">
+        <num>11.</num>
+        <heading>Delegation</heading>
+        <paragraph id="section-11.paragraph-0">
+          <content>
+            <p>The Municipal Manager may delegate any power or function conferred on the Municipal Manager in terms of the provisions of this by-law in writing to an official of the <term refersTo="#term-municipality" id="trm49">municipality</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-12">
+        <num>12.</num>
+        <heading>Penalty clauses</heading>
+        <subsection id="section-12.1">
+          <num>(1)</num>
+          <content>
+            <p>A person who contravenes any provision of this by-law is guilty of an offense and a fine of R2 000 could be imposed on conviction.</p>
+          </content>
+        </subsection>
+        <subsection id="section-12.2">
+          <num>(2)</num>
+          <content>
+            <p>A person who fails to comply with a notice served in terms of Subsection 8 or fails to meet a requirement of an authorised employee during the exercise of his or her powers or the performance of his or her duties, is guilty of an offense and a fine could be imposed on conviction.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-13">
+        <num>13.</num>
+        <heading>Short title and commencement</heading>
+        <paragraph id="section-13.paragraph-0">
+          <content>
+            <p>This amended by-law is known as the Cape Agulhas Municipality House Shop By-law and comes into effect on the date of the publication thereof in the Provincial Gazette.</p>
+          </content>
+        </paragraph>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

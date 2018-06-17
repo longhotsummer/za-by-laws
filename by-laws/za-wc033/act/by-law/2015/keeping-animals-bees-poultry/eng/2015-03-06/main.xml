@@ -1,0 +1,1429 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc033/act/by-law/2015/keeping-animals-bees-poultry/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2015/keeping-animals-bees-poultry"/>
+          <FRBRalias value="Cape Agulhas Municipality Keeping of Animals, Bees and Poultry Bylaw"/>
+          <FRBRdate date="2015-03-06" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc033/act/by-law/2015/keeping-animals-bees-poultry/eng@2015-03-06/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2015/keeping-animals-bees-poultry/eng@2015-03-06"/>
+          <FRBRdate date="2015-03-06" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc033/act/by-law/2015/keeping-animals-bees-poultry/eng@2015-03-06/main"/>
+          <FRBRuri value="/za-wc033/act/by-law/2015/keeping-animals-bees-poultry/eng@2015-03-06"/>
+          <FRBRdate date="2018-05-08" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication number="7363" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" date="2015-03-06"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-Cat" showAs="Cat" href="/ontology/term/this.eng.Cat"/>
+        <TLCTerm id="term-Livestock" showAs="Livestock" href="/ontology/term/this.eng.Livestock"/>
+        <TLCTerm id="term-Prescribed" showAs="Prescribed" href="/ontology/term/this.eng.Prescribed"/>
+        <TLCTerm id="term-Pound" showAs="Pound" href="/ontology/term/this.eng.Pound"/>
+        <TLCTerm id="term-Nuisance" showAs="Nuisance" href="/ontology/term/this.eng.Nuisance"/>
+        <TLCTerm id="term-Poultry" showAs="Poultry" href="/ontology/term/this.eng.Poultry"/>
+        <TLCTerm id="term-Council" showAs="Council" href="/ontology/term/this.eng.Council"/>
+        <TLCTerm id="term-Keep_or_Keeping" showAs="Keep or Keeping" href="/ontology/term/this.eng.Keep_or_Keeping"/>
+        <TLCTerm id="term-Flat" showAs="Flat" href="/ontology/term/this.eng.Flat"/>
+        <TLCTerm id="term-Urban_area" showAs="Urban area" href="/ontology/term/this.eng.Urban_area"/>
+        <TLCTerm id="term-Public_Road" showAs="Public Road" href="/ontology/term/this.eng.Public_Road"/>
+        <TLCTerm id="term-Owner" showAs="Owner" href="/ontology/term/this.eng.Owner"/>
+        <TLCTerm id="term-Dog_breeder" showAs="Dog breeder" href="/ontology/term/this.eng.Dog_breeder"/>
+        <TLCTerm id="term-Animals" showAs="Animals" href="/ontology/term/this.eng.Animals"/>
+        <TLCTerm id="term-Wild_Animal" showAs="Wild Animal" href="/ontology/term/this.eng.Wild_Animal"/>
+        <TLCTerm id="term-Public_Place" showAs="Public Place" href="/ontology/term/this.eng.Public_Place"/>
+        <TLCTerm id="term-Keep" showAs="Keep" href="/ontology/term/this.eng.Keep"/>
+        <TLCTerm id="term-Authorised_Official" showAs="Authorised Official" href="/ontology/term/this.eng.Authorised_Official"/>
+        <TLCTerm id="term-Kennel" showAs="Kennel" href="/ontology/term/this.eng.Kennel"/>
+        <TLCTerm id="term-Pets" showAs="Pets" href="/ontology/term/this.eng.Pets"/>
+        <TLCTerm id="term-Pound_Master" showAs="Pound Master" href="/ontology/term/this.eng.Pound_Master"/>
+        <TLCTerm id="term-Premises" showAs="Premises" href="/ontology/term/this.eng.Premises"/>
+        <TLCTerm id="term-Approved" showAs="Approved" href="/ontology/term/this.eng.Approved"/>
+        <TLCTerm id="term-Animal" showAs="Animal" href="/ontology/term/this.eng.Animal"/>
+        <TLCTerm id="term-Dog" showAs="Dog" href="/ontology/term/this.eng.Dog"/>
+        <TLCTerm id="term-Municipality" showAs="Municipality" href="/ontology/term/this.eng.Municipality"/>
+        <TLCTerm id="term-Cattery" showAs="Cattery" href="/ontology/term/this.eng.Cattery"/>
+        <TLCTerm id="term-Director__Community_Services" showAs="Director: Community Services" href="/ontology/term/this.eng.Director__Community_Services"/>
+        <TLCTerm id="term-Law_Enforcement_Officer" showAs="Law Enforcement Officer" href="/ontology/term/this.eng.Law_Enforcement_Officer"/>
+        <TLCTerm id="term-Dwelling_house" showAs="Dwelling house" href="/ontology/term/this.eng.Dwelling_house"/>
+      </references>
+    </meta>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Introduction</heading>
+        <paragraph id="section-1.paragraph-0">
+          <content>
+            <p>The intention of this Bylaw is to allow the keeping of animals expected to be kept within the <term refersTo="#term-Council" id="trm0">Council</term> area within understood guidelines that can be administrated equitably and easily by <term refersTo="#term-Council" id="trm1">Council</term> Officers.</p>
+            <p><term refersTo="#term-Council" id="trm2">Council</term> acknowledges that animals are an important part of any community. There are, however, a number of issues of which we must be aware, especially where these concern the care, control and management responsibilities that we have as individuals and animal owners. The repercussions of poor management and inappropriate care can impact on neighbourhood amenity in terms of noise, odours, property damage, health and safety.</p>
+            <p>The Bylaw seeks to:</p>
+            <p>* Balance the rights of property owners and the rights of others to enjoy their own property free from external impacts of nuisance; and</p>
+            <p>* Ensure that animals kept on residential land are of an appropriate kind and in appropriate numbers and maintained in satisfactory conditions so as to not result in unhealthy of unsafe conditions and do not cause a nuisance to others.</p>
+            <p>Cape Agulhas <term refersTo="#term-Municipality" id="trm3">Municipality</term> makes this bylaw pursuant to the powers contained in the Local Structure <ref href="/za/act/1998/117">Act 117 of 1998</ref>.</p>
+            <p>This bylaw controls the keeping of pigs, horses, goats, cattle, birds, bees, poultry and other animals in localities where the keeping of them is, or is likely to become a nuisance or dangerous or injurious to the health of any person.</p>
+            <p>Short title and commencement</p>
+            <p>This bylaw may be cites as the Cape Agulhas <term refersTo="#term-Municipality" id="trm4">Municipality</term> Keeping of <term refersTo="#term-Animals" id="trm5">Animals</term>, Bees and <term refersTo="#term-Poultry" id="trm6">Poultry</term> Bylaw.</p>
+            <p>This law comes into force on the 1st day of ___.</p>
+            <p>
+              <remark status="editorial">[Enacted by-law does not indicate month or year of commencement. It is presumed to have come into force on the date of publication in the gazette, 2015-03-06.]</remark>
+            </p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Interpretation - Definitions</heading>
+        <paragraph id="section-2.paragraph-0">
+          <content>
+            <p>In this By-law, words used in the masculine gender include the feminine, the singular includes the plural and vice versa, the Afrikaans text prevails in the event of an inconsistency between the different texts and unless the context otherwise indicates:</p>
+          </content>
+        </paragraph>
+        <subsection id="section-2.2.1">
+          <num>2.1</num>
+          <content>
+            <p>To this By-law, unless the context otherwise indicates</p>
+            <p refersTo="#term-Animals">"<def refersTo="#term-Animals">Animals</def>" means any horses, mules, donkeys, cattle, pig, sheep, goats, indigenous mammals and other wild animals</p>
+            <p refersTo="#term-Animal">"<def refersTo="#term-Animal">Animal</def>" means any living stage of any member of the animal kingdom except human beings and in the case of any mammal, bird, fish or reptile includes the carcass.</p>
+            <p refersTo="#term-Approved">"<def refersTo="#term-Approved">Approved</def>" – by the <term refersTo="#term-Director__Community_Services" id="trm7">Director: Community Services</term> or such officer of <term refersTo="#term-Council" id="trm8">Council</term> who delegated by him/her to act on his/her behalf for the purpose of this bylaw.</p>
+            <p refersTo="#term-Authorised_Official">"<def refersTo="#term-Authorised_Official">Authorised Official</def>" means any official of the <term refersTo="#term-Council" id="trm9">Council</term> who has been authorised by the <term refersTo="#term-Council" id="trm10">Council</term> to administer, implement and enforce the provisions of this By-law;</p>
+            <p refersTo="#term-Cat">"<def refersTo="#term-Cat">Cat</def>" includes a male and a female cat;</p>
+            <blockList id="section-2.2.1.list7" refersTo="#term-Cattery">
+              <listIntroduction>"<def refersTo="#term-Cattery">Cattery</def>" means premises in or upon which –</listIntroduction>
+              <item id="section-2.2.1.list7.a">
+                <num>(a)</num>
+                <p>boarding facilities for cats are provided; or</p>
+              </item>
+              <item id="section-2.2.1.list7.b">
+                <num>(b)</num>
+                <p>cats are bred for commercial purposes.</p>
+              </item>
+            </blockList>
+            <blockList id="section-2.2.1.list9" refersTo="#term-Council">
+              <listIntroduction>"<def refersTo="#term-Council">Council</def>" means –</listIntroduction>
+              <item id="section-2.2.1.list9.a">
+                <num>(a)</num>
+                <p>the council of Cape Agulhas <term refersTo="#term-Municipality" id="trm11">Municipality</term> established by Provincial Notice No 6766 of 2000 dated 1 October 2000, as amended, exercising its legislative and executive authority through its municipal Council; or</p>
+              </item>
+              <item id="section-2.2.1.list9.b">
+                <num>(b)</num>
+                <p>its successor in title; or</p>
+              </item>
+              <item id="section-2.2.1.list9.c">
+                <num>(c)</num>
+                <p>a structure of person exercising a delegated power or carrying out an instruction, where any power in this By-law has been delegated or sub-delegated, or an instruction given, as contemplated in section 59 of the Local Government Municipal Systems act, 2000.</p>
+              </item>
+            </blockList>
+            <p refersTo="#term-Director__Community_Services">"<def refersTo="#term-Director__Community_Services">Director: Community Services</def>" means the person appointed as the Director: Community Services or such officer of <term refersTo="#term-Council" id="trm12">Council</term> as he/she delegates to act on his/her behalf.</p>
+            <p refersTo="#term-Dog">"<def refersTo="#term-Dog">Dog</def>" for the purpose of sections 3 and 4 means a dog over the age of six months;</p>
+            <p refersTo="#term-Dog">"<def refersTo="#term-Dog">Dog</def>" includes a male and a female dog;</p>
+            <p refersTo="#term-Dog_breeder">"<def refersTo="#term-Dog_breeder">Dog breeder</def>" means a person who is registered as a dog breeder with a registered dog breeders association approved by the <term refersTo="#term-Council" id="trm13">Council</term>.</p>
+            <p refersTo="#term-Dwelling_house">"<def refersTo="#term-Dwelling_house">Dwelling house</def>" means a single building designed for use as a residence for a single family.</p>
+            <p refersTo="#term-Flat">"<def refersTo="#term-Flat">Flat</def>" means a single dwelling unit in any residential building other than a dwelling house.</p>
+            <p refersTo="#term-Keep_or_Keeping">"<def refersTo="#term-Keep_or_Keeping">Keep or Keeping</def>" includes owning, looking after, caring for, being in charge, a custodian or in possession of any animal(s).</p>
+            <p refersTo="#term-Keep">"<def refersTo="#term-Keep">Keep</def>" in relation to a dog, includes to have such dog in possession, under control or in custody or to harbour such dog;</p>
+            <blockList id="section-2.2.1.list19" refersTo="#term-Kennel">
+              <listIntroduction>"<def refersTo="#term-Kennel">Kennel</def>" means premises in or upon which</listIntroduction>
+              <item id="section-2.2.1.list19.a">
+                <num>(a)</num>
+                <p>boarding facilities for dogs are provided; or</p>
+              </item>
+              <item id="section-2.2.1.list19.b">
+                <num>(b)</num>
+                <p>dogs are bred for commercial purposes.</p>
+              </item>
+            </blockList>
+            <p refersTo="#term-Law_Enforcement_Officer">"<def refersTo="#term-Law_Enforcement_Officer">Law Enforcement Officer</def>" means a Law Enforcement Officer appointed to such office by <term refersTo="#term-Council" id="trm14">Council</term>.</p>
+            <p refersTo="#term-Municipality">"<def refersTo="#term-Municipality">Municipality</def>" means the Municipality of Cape Agulhas established in terms of Section 12 of the Municipal Structures <ref href="/za/act/1998/117">Act, 117 of 1998</ref>, Provincial Notice 487 dated 22 September 2000 and includes political offices bearer, councillor, duly authorised agent thereof or any employee thereof acting in connection with this by-law by virtue of a power vested in the municipality and delegated or sub-delegated to such political structure, political office bearer, councillor, agent or employee;</p>
+            <p refersTo="#term-Nuisance">"<def refersTo="#term-Nuisance">Nuisance</def>" means, inter alia, any act, omission or condition which is, in the opinion of the local authority, detrimental to health or offensive or injuries or which materially interferes with the ordinary comfort or convenience of the public or adversely affects the safety of the public or which disturbs the quiet of the neighbourhood, and</p>
+            <p refersTo="#term-Nuisance">"<def refersTo="#term-Nuisance">Nuisance</def>" means, any act, omission or condition which is, in the opinion of the municipality, detrimental to health or offensive or injurious or which materiality interferes with the ordinary comfort or convenience of the public or adversely affects the safety of the public or which disturbs the quiet of the neighbourhood.</p>
+            <p refersTo="#term-Owner">"<def refersTo="#term-Owner">Owner</def>" in relation to any animal including, domestic animals and livestock means any person who keeps any type of animal or in his/her possession or care under his/her control or on whose private premises the animals is present.</p>
+            <p refersTo="#term-Pets">"<def refersTo="#term-Pets">Pets</def>" means any dogs, cats, guinea pig, hamsters, rabbits, chinchillas or birds not kept for breeding or business purposes; and any other word or expression, when used in this bylaw, shall have the meaning assigned thereto in the Municipal Ordinance,1974 (Ordinance 20 of 1974), or the Licences Ordinance, 1981 (Ordinance 17 of 1981).</p>
+            <p refersTo="#term-Poultry">"<def refersTo="#term-Poultry">Poultry</def>" shall mean only fowl, guinea fowl, chickens, geese, ducks, turkey, peacocks, pigeons, doves, turkeys, pheasants, swans, Muscovy duck, roosters and all other types of domestic or fancy exotic birds kept in aviaries, weather domesticated or wild.</p>
+            <p refersTo="#term-Pound">"<def refersTo="#term-Pound">Pound</def>" means a place designated by the <term refersTo="#term-Council" id="trm15">Council</term> in terms of any law or agreement for the impounding, sale and destruction of dogs or cat, or both; a place designated by the <term refersTo="#term-Council" id="trm16">Council</term> in terms of any law, and includes the premises of animal welfare organisations approved by council.</p>
+            <p refersTo="#term-Pound_Master">"<def refersTo="#term-Pound_Master">Pound Master</def>" means the person who has been appointed by the <term refersTo="#term-Council" id="trm17">Council</term> to be in charge of a pound.</p>
+            <p refersTo="#term-Premises">"<def refersTo="#term-Premises">Premises</def>" means any unit of land, whether built on or not and whether public or private.</p>
+            <p refersTo="#term-Premises">"<def refersTo="#term-Premises">Premises</def>" means any piece of land registered in a deeds registry as an erf, lot, plot, or stand as part of a township, and includes a stand or lot forming part of a piece of land laid out as a township, but not yet registered or a portion of such erf, stand or lot and includes residential sites outside townships provided by government departments, semigovernment institutions or industries.</p>
+            <p refersTo="#term-Prescribed">"<def refersTo="#term-Prescribed">Prescribed</def>" means prescribed by the <term refersTo="#term-Council" id="trm18">Council</term> from time to time by resolution;</p>
+            <p refersTo="#term-Public_Place">"<def refersTo="#term-Public_Place">Public Place</def>" means any beach, road, street, thoroughfare, bridge, overhead bridge, subway, foot pavement, footpath, sidewalk, lane, square, open space, garden, park, path, bus or taxi rank, enclosed space vested in the <term refersTo="#term-Council" id="trm19">Council</term> and includes any road, place or thoroughfare which is in the undisturbed use of the public of which the public have the right to use.</p>
+            <p refersTo="#term-Public_Place">"<def refersTo="#term-Public_Place">Public Place</def>" means any square, park, recreation ground, sports ground, lane, open space or enclosed place vested in the <term refersTo="#term-Municipality" id="trm20">Municipality</term> or other state authority or indicated as such on the Surveyor General’s records or utilized by the public or zoned as such in terms of the applicable zoning scheme or at any time declared or rendered such by the municipality or any other competent authority.</p>
+            <blockList id="section-2.2.1.list35" refersTo="#term-Public_Road">
+              <listIntroduction>"<def refersTo="#term-Public_Road">Public Road</def>" means any road, street or thoroughfare or any other place which is commonly used by the public or any section thereof or to which the public or any section thereof has a right of access, and includes(a) the verge of any such road, street or thoroughfare;</listIntroduction>
+              <item id="section-2.2.1.list35.b">
+                <num>(b)</num>
+                <p>any footpath, sidewalk or similar pedestrian portion of a road reserve;</p>
+              </item>
+              <item id="section-2.2.1.list35.c">
+                <num>(c)</num>
+                <p>any bridge, ferry or drift traversed by any such road, street or thoroughfare;</p>
+              </item>
+              <item id="section-2.2.1.list35.d">
+                <num>(d)</num>
+                <p>any other work or object belonging to such road, street or thoroughfare, footpath or sidewalk, and</p>
+              </item>
+              <item id="section-2.2.1.list35.e">
+                <num>(e)</num>
+                <p>any premises with or without structures thereon, used or set aside as a public parking area or public parking place for the parking or motor vehicles whether or not access to such a parking area or place is free of charge.</p>
+              </item>
+            </blockList>
+            <p refersTo="#term-Livestock">"<def refersTo="#term-Livestock">Livestock</def>" includes cattle, deer, donkeys, horses, sheep, goats and pigs and any other animal that the council by resolution from time to time determines to be stock for the purposes of this bylaw.</p>
+            <p refersTo="#term-Urban_area">"<def refersTo="#term-Urban_area">Urban area</def>" means all of the isthmus and the Central areas of Cape Agulhas as defined by the District Plan.</p>
+            <p refersTo="#term-Wild_Animal">"<def refersTo="#term-Wild_Animal">Wild Animal</def>" means any animal which is feral by nature or is undomesticated (for example an animal which was previously domesticated but is living in a wild state), and for the avoidance of doubt includes a cat, stoat, weasel, possum, deer, rabbit, pig, seagull and pigeon; but excludes birds hatched in captivity and animals that have been domesticated such as rabbits and cats.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.2.2">
+          <num>2.2</num>
+          <content>
+            <p>If any provision in this By-law vests or imposes any power, function or duty of the council in or any employee of the <term refersTo="#term-Council" id="trm21">Council</term> and such power, function of duty has in terms of section 81 (2) of the Local Government: Municipal Systems Act, 2000, or any other law, been assigned to a service provided, the reference to such employee must be read as a reference to the service provider or, where applicable, an employee of the service provider authorised by it.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Written permission</heading>
+        <paragraph id="section-3.paragraph-0">
+          <content>
+            <p>No person shall keep or permit to be kept on any premises or property any animals (excluding pets) without the written permission of the local authority, and such permission may be withdrawn if at any time a nuisance is caused or the requirements of this by-law are not complied with.</p>
+          </content>
+        </paragraph>
+        <subsection id="section-3.3.1">
+          <num>3.1</num>
+          <content>
+            <p>Number of animals</p>
+            <blockList id="section-3.3.1.list2">
+              <listIntroduction>For the purpose of controlling and restricting the keeping of animals within townships, local authorities may from time to time, by special resolution, determine the number, kinds and sex of animals that may be kept per unit area and the areas within which such animals shall be prohibited.</listIntroduction>
+              <item id="section-3.3.1.list2.3.1.1">
+                <num>3.1.1</num>
+                <p>Plans for structures to be approved</p>
+              </item>
+              <item id="section-3.3.1.list2.i">
+                <num>(i)</num>
+                <p>An application for permission to keep animals shall be accompanied by detailed site plan indicating all structures and fences, existing and proposed, on the premises.</p>
+              </item>
+              <item id="section-3.3.1.list2.ii">
+                <num>(ii)</num>
+                <p>Detailed plans and specifications shall be submitted to and approved by the local authority in respect in respect of all structures where animals are to be accommodated.</p>
+              </item>
+              <item id="section-3.3.1.list2.iii">
+                <num>(iii)</num>
+                <p>The number, kinds and sex of animals shall be indicated on the plan.</p>
+              </item>
+              <item id="section-3.3.1.list2.iv">
+                <num>(iv)</num>
+                <p>Not withstanding anything to the contrary contained in this by-law the local authority may refuse to approve the application and plans if, in its opinion, the property, owing to its location, situation or geographical features, is unsuitable for the keeping of animals thereon.</p>
+              </item>
+              <item id="section-3.3.1.list2.3.1.2">
+                <num>3.1.2</num>
+                <p>Structures shall comply with requirements</p>
+              </item>
+              <item id="section-3.3.1.list2.i">
+                <num>(i)</num>
+                <p>All structures housing animals shall be constructed in a workmanlike manner and of materials approved by the authority.</p>
+              </item>
+              <item id="section-3.3.1.list2.ii">
+                <num>(ii)</num>
+                <p>No structure shall be sited within a distance of 3 m from any dwelling and staff quarters or the boundary of a residential erf and 8 m from any road boundary.</p>
+              </item>
+              <item id="section-3.3.1.list2.iii">
+                <num>(iii)</num>
+                <p>Every part of the structure shall be properly maintained and painted as often as the local authority to be undesirable or objectionable by reason of its local authority may deem necessary.</p>
+              </item>
+              <item id="section-3.3.1.list2.iv">
+                <num>(iv)</num>
+                <p>No animals shall be kept in a structure or on land which is considered by the local authority to be undesirable to be undesirable or objectionable by reason of its locality, construction or manner of use.</p>
+              </item>
+              <item id="section-3.3.1.list2.3.1.3">
+                <num>3.1.3</num>
+                <p><term refersTo="#term-Premises" id="trm22">Premises</term> to be kept clean</p>
+              </item>
+              <item id="section-3.3.1.list2.i">
+                <num>(i)</num>
+                <p>All manure from animals shall be stored in a manner approved by the local authority and disposed of on a regular basis so as to prevent any nuisance from being created.</p>
+              </item>
+              <item id="section-3.3.1.list2.ii">
+                <num>(ii)</num>
+                <p>All feed shall be stored in a rodent-proof place.</p>
+              </item>
+              <item id="section-3.3.1.list2.iii">
+                <num>(iii)</num>
+                <p>The premises shall be kept in such condition as not to attract or provide shelter for rodents, parasites and insects.</p>
+              </item>
+              <item id="section-3.3.1.list2.3.1.4">
+                <num>3.1.4</num>
+                <p><term refersTo="#term-Animals" id="trm23">Animals</term> kept in an unsatisfactory manner</p>
+              </item>
+            </blockList>
+            <p>Whenever, in the opinion of the local authority, any animals kept on any premises, whether or not such premises have been approved by the local authority may by written notice require the owner or occupier of such premises, within a period to be stated in such notice but not less than 24 hours after the date of such notice, to remove the cause of and to abate such nuisance or danger to health and to carry out such work or do such things as the local authority may deem necessary for the said purpose.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.3.2">
+          <num>3.2</num>
+          <content>
+            <p>Application of by-law</p>
+            <p>The provisions of sections 4 and 4.10 of this by-law shall not apply to premises which is zoned for agricultural purposes, provided that a person keeping dogs on premises zoned for agricultural purposes shall not be exempted from compliance with any other provision of this by-law or any other legislation which may be applicable.</p>
+            <p>The provisions of section 4.10.10 shall not apply to a guide dog which is utilised to accompany a blind person.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Keeping of animals likely to cause nuisance or danger prohibited</heading>
+        <paragraph id="section-4.paragraph-0">
+          <content>
+            <p>No person shall within the Living or Business Environments as defined in the Cape Agulhas Municipal Area keep any animal, or permit or suffer any animal to remain on any property owned or occupied by that person, if, in the opinion of the <term refersTo="#term-Director__Community_Services" id="trm24">Director: Community Services</term> or a <term refersTo="#term-Law_Enforcement_Officer" id="trm25">Law Enforcement Officer</term>, there is a likelihood that the animal will cause or is causing a danger to any person, or injury to the health of any person.</p>
+          </content>
+        </paragraph>
+        <subsection id="section-4.4.1">
+          <num>4.1</num>
+          <content>
+            <blockList id="section-4.4.1.list1">
+              <listIntroduction>Keeping of animals</listIntroduction>
+              <item id="section-4.4.1.list1.4.1.1">
+                <num>4.1.1</num>
+                <p>Every person keeping an animal on private land shall ensure that the animal:</p>
+              </item>
+            </blockList>
+            <p>* does not cause a nuisance to any person;</p>
+            <blockList id="section-4.4.1.list4">
+              <listIntroduction>* is kept in conditions which are not offensive or injurious to health;</listIntroduction>
+              <item id="section-4.4.1.list4.4.1.2">
+                <num>4.1.2</num>
+                <p>If in the opinion of an authorised officer an animal kept on private land is causing or is likely to cause a nuisance, or is kept in conditions which are or are likely to be offensive or injurious to health, the authorised officer may issue a notice requiring the owner or the person in control of the animal or the owner or occupier of the private land, to take such actions as is considered necessary within any time specified to abate or prevent the nuisance of the conditions, which are or are likely to be offensive or injurious to health. A person issued with such a notice shall comply with the notice.</p>
+              </item>
+              <item id="section-4.4.1.list4.4.1.3">
+                <num>4.1.3</num>
+                <p>Every person keeping an animal on private land shall collect manure including soiled straw or litter bedding from animal enclosures and either keep it in fly proof bins of containers or shall bury it under at least 100mm of soil.</p>
+              </item>
+              <item id="section-4.4.1.list4.4.1.4">
+                <num>4.1.4</num>
+                <p>Every person keeping animals, other than cats and pigeons shall be responsible for ensuring that the animals are "confined" within the boundaries of the private land on which they are kept.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.2">
+          <num>4.2</num>
+          <content>
+            <blockList id="section-4.4.2.list1">
+              <listIntroduction><term refersTo="#term-Poultry" id="trm26">Poultry</term> keeping</listIntroduction>
+              <item id="section-4.4.2.list1.4.2.1">
+                <num>4.2.1</num>
+                <p>No person shall keep within the Living or Business Environments poultry, except in accordance with the following requirements.</p>
+              </item>
+              <item id="section-4.4.2.list1.4.2.2">
+                <num>4.2.2</num>
+                <p>Number of poultry permitted to be kept</p>
+              </item>
+            </blockList>
+            <p>* With the exception of pigeons, not more than 12 head of poultry shall be kept on any private land within the urban area without a permit from an authorised officer. An authorised officer may refuse or revoke this authority if the poultry house or run in question is considered to be likely to cause a nuisance or be injurious to health.</p>
+            <p>* An authorised officer may impose a limit on the number of pigeons kept on any private land if because of their number, the conditions in which they are kept or of any other reason they are considered to be causing a nuisance or to be offensive or injurious to health and if the person responsible for keeping those pigeons fails to comply with any reasonably request to abate or prevent that nuisance or the conditions which are injurious to health.</p>
+            <p>* Only 12 hens of poultry may be kept on premises when hens are confined to a henhouse and poultry run; or five hens when they are permitted to a free-range.</p>
+            <blockList id="section-4.4.2.list6">
+              <listIntroduction>* Plans for poultry houses/aviaries/lofts must be submitted and approved by council’s Building Control Officers in accordance with the National Building Regulations and Standards Act 1977; Zoning Regulations and the environmental Health By-Law prior to commencement of any construction thereof. The poultry house/aviary/loft must be constructed of suitable robust materials which are aesthetically pleasing and compatible with the norms of the surrounding area.</listIntroduction>
+              <item id="section-4.4.2.list6.4.2.3">
+                <num>4.2.3</num>
+                <p><term refersTo="#term-Poultry" id="trm27">Poultry</term> not to be a nuisance or health risk</p>
+              </item>
+            </blockList>
+            <p>* <term refersTo="#term-Poultry" id="trm28">Poultry</term>, in residential areas, must not be kept under such conditions as to create a nuisance or to be dangerous.</p>
+            <p>* <term refersTo="#term-Poultry" id="trm29">Poultry</term> yards must at all times be kept clean and free from offensive odours.</p>
+            <blockList id="section-4.4.2.list10">
+              <listIntroduction>* All reasonable precautions must be taken to ensure that rodents, insects and parasites are controlled in order to ensure that poultry yards do not become a breeding ground, for rodents and pests. Cause all poultry manure to be properly stored in a non-corrugated metal bin with a close-fitting cover or other container as approved by the municipality. Feed such poultry in a proper manner so as not to cause an nuisance or to attract rodents, flies or other vermin, and any residual food or other putrescible manner shall be removed at least once every day from the poultry-house and/or enclosed run.</listIntroduction>
+              <item id="section-4.4.2.list10.4.2.4">
+                <num>4.2.4</num>
+                <p>Removal of litter</p>
+              </item>
+            </blockList>
+            <p>No person shall place, throw, leave or allow to remain on any premises any poultry litter, refuse or manure in such manner or for such period as to favour the breeding of flies or attracts rodents or other vermin to such premises.</p>
+            <blockList id="section-4.4.2.list13">
+              <listIntroduction>The municipality may by notice in writing addressed to any person keeping or causing to be kept any poultry in a poultry-house and/or enclosed run, prohibit the use of any such poultry-house and/or enclosed run if in the opinion of the municipality, it is unfit, undesirable or objectionable by reason of its locality, construction or manner of use.</listIntroduction>
+              <item id="section-4.4.2.list13.4.2.5">
+                <num>4.2.5</num>
+                <p><term refersTo="#term-Poultry" id="trm30">Poultry</term> not to be kept near certain premises</p>
+              </item>
+            </blockList>
+            <p>* <term refersTo="#term-Poultry" id="trm31">Poultry</term> must not be kept within 1.5m (or such greater distance as the council may determine in a particular case) of any adjoining premises.</p>
+            <blockList id="section-4.4.2.list16">
+              <listIntroduction>* <term refersTo="#term-Poultry" id="trm32">Poultry</term> / Birds are not to be able to approach within 3 meters of a dwelling house, public building or premises where people are employed or where food is stored, prepared, manufactured or sold.</listIntroduction>
+              <item id="section-4.4.2.list16.4.2.6">
+                <num>4.2.6</num>
+                <p><term refersTo="#term-Poultry" id="trm33">Poultry</term> house requirements</p>
+              </item>
+            </blockList>
+            <p>A poultry house shall be provided and shall:</p>
+            <p>i. Be of sound construction;</p>
+            <p>ii. Have a floor of smooth concrete or other easily cleaned approved materials with a fall of 1 in 50 to the front;</p>
+            <p>iii. Have an enclosed run attached, provided that his shall not apply in the case of any pigeon loft or other pigeon enclosure;</p>
+            <p>iv. Have a rainproof roof;</p>
+            <p>v. Have a floor area of not less than 0.40 square metres for each bird;</p>
+            <p>vi. Have a height not less than 1 metre from floor to ceiling;</p>
+            <blockList id="section-4.4.2.list25">
+              <listIntroduction>vii. Plans must be submitted for approval.</listIntroduction>
+              <item id="section-4.4.2.list25.4.2.7">
+                <num>4.2.7</num>
+                <p>Location</p>
+              </item>
+            </blockList>
+            <p>The poultry house and run shall be located at least 3 metres from any occupied building and at least 1.5 metres from any public place, or boundary of adjoining premises.</p>
+            <blockList id="section-4.4.2.list28">
+              <listIntroduction>Lofts for racing pigeons shall generally meet the requirements of the Code of Conduct produced by Pigeon Racing Unions.</listIntroduction>
+              <item id="section-4.4.2.list28.4.2.8">
+                <num>4.2.8</num>
+                <p>Maintenance</p>
+              </item>
+            </blockList>
+            <p>Every poultry house and run shall be, to the satisfaction of an authorised officer:</p>
+            <p>i. Maintained in good repair;</p>
+            <p>ii. Maintained in a clean condition;</p>
+            <p>iii. Free from any offensive smell or overflow;</p>
+            <p>iv. Vermin and other pests must be controlled;</p>
+            <blockList id="section-4.4.2.list35">
+              <listIntroduction>v. Free from accumulations of manure and food.</listIntroduction>
+              <item id="section-4.4.2.list35.4.2.9">
+                <num>4.2.9</num>
+                <p>Roosters</p>
+              </item>
+            </blockList>
+            <p>No person shall keep within the living or business environment roosters without the prior approval of an authorised officer. Approval if given may be subject to conditions.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.3">
+          <num>4.3</num>
+          <content>
+            <p>Keeping of birds / doves</p>
+            <p>a. All aviaries and holding facilities must be constructed of appropriate materials and of a quality of construction and maintenance that is acceptable to <term refersTo="#term-Council" id="trm34">Council</term>, and be designed to be vermin proof, well ventilated, have an impervious surface and not cause or be likely to cause injury to birds.</p>
+            <p>b. All aviaries and facilities must be well maintained by the owner so as to avoid escape.</p>
+            <p>c. Careful regard must be given to the requirements of neighbours, especially the avoidance of excessive noise and odour.</p>
+            <p>d. Flooring must be constructed of an impervious material or in some external situations, sand or gravel with a rodent proof mesh underlay with fall of 1 in 50 to the front.</p>
+            <p>e. No animal trade may be conducted without prior concent.</p>
+            <p>f. Vermin proof storage facilities must be provided.</p>
+            <p>g. An adequate rodent and pest control program must be in place.</p>
+            <p>h. excessive noise and odour must be controlled by the use of sound proofing materials, distance and choice of bird species.</p>
+            <blockList id="section-4.4.3.list10">
+              <listIntroduction>i. <term refersTo="#term-Council" id="trm35">Council</term> will consider varying the criteria on a case-by-case basis, depending on the facilities provided by the owner, and after taking submissions of close neighbours into account.</listIntroduction>
+              <item id="section-4.4.3.list10.4.3.1">
+                <num>4.3.1</num>
+                <p>Other Birds</p>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.3.list12">
+              <listIntroduction>Include budgies, finches, etc. The Cape Agulhas <term refersTo="#term-Municipality" id="trm36">Municipality</term> only permits a person to keep 20 of these types of birds on their premises in total irrespective of species.</listIntroduction>
+              <item id="section-4.4.3.list12.4.3.2">
+                <num>4.3.2</num>
+                <p>Pet Shops and Vets</p>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.3.list14">
+              <listIntroduction>Some of those restrictions do not apply to pet shops or vets.</listIntroduction>
+              <item id="section-4.4.3.list14.4.3.3">
+                <num>4.3.3</num>
+                <p>Aviaries</p>
+              </item>
+            </blockList>
+            <p>If you wish to construct an aviary you must submit plans and get building approval.Any person wanting to construct an aviary should submit building plans and obtain consent from <term refersTo="#term-Council" id="trm37">Council</term> prior to constructing aviary/ies.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.4">
+          <num>4.4</num>
+          <content>
+            <p>Keeping of pigeons</p>
+            <p>a. The keeping of domestic pigeons by hobbyists and racing enthusiasts shall be permitted with the following control conditions apply in residential areas.</p>
+            <p>b. All pigeons must be housed in purpose built facilities and may not exceed 3.6m in height from the ground. <term refersTo="#term-Council" id="trm38">Council</term> consent may be required for the construction of lofts provided with a concrete floor with a fall on 1 in 50 to the front.</p>
+            <p>c. Enclosed housing must use deep litter or other appropriate substrate.</p>
+            <p>d. Rodents and other vermin must be vigorously controlled.</p>
+            <p>e. All offensive odours must be controlled.</p>
+            <p>f. All food must be stored in sealed vermin-proof containers and must not be left uncovered.</p>
+            <p>g. Pigeons must not be kept within 10 metres of any property used for the sale, preparation, handling or storage of food for sale and not nearer than 1.5m from any boundary.</p>
+            <p>h. Adequate protection from predators must be provided.</p>
+            <p>i. Positioning of pigeon lofts must be such that the amenity of adjoining premises is preserved, with no inconvenience or nuisance resulting from this activity of from flying birds.</p>
+            <p>j. Waste must be disposed of in a approved manner.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.5">
+          <num>4.5</num>
+          <content>
+            <p>Bee-keeping</p>
+            <p>Any person keeping bees or causing or permitting bees to be kept on private property must ensure that:</p>
+            <p>* The bees are kept in such conditions or sited in such a way as to create or be likely to create a nuisance or pose a danger to any person or animals;</p>
+            <p>* Where there is more than one beehive kept on private property , the consent of an authorised officer has to be obtained .(if it is within 500m of any houses).</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.6">
+          <num>4.6</num>
+          <content>
+            <blockList id="section-4.4.6.list1">
+              <listIntroduction><term refersTo="#term-Dog" id="trm39">Dog</term> kennels and catteries</listIntroduction>
+              <item id="section-4.4.6.list1.4.6.1">
+                <num>4.6.1</num>
+                <p>Requirements for premises</p>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.6.list3">
+              <listIntroduction>No person shall keep a kennel or cattery within a living area, requirements listed hereunder are to complied with:</listIntroduction>
+              <item id="section-4.4.6.list3.a">
+                <num>(a)</num>
+                <blockList id="section-4.4.6.list3.a.list0">
+                  <listIntroduction>Every dog or cat shall be kept in an enclosure complying with the following requirements:</listIntroduction>
+                  <item id="section-4.4.6.list3.a.list0.i">
+                    <num>(i)</num>
+                    <p>It shall be constructed of durable materials and the access thereto shall adequate for cleaning purposes.</p>
+                  </item>
+                  <item id="section-4.4.6.list3.a.list0.ii">
+                    <num>(ii)</num>
+                    <p>The floor shall be constructed of concrete or other durable and impervious material brought to a smooth finish and graded to a channel 100 mm wide, extending over the full width of the floor and situated within the enclosure, which channel shall be graded and shall drain into a gully connected to the local authority’s sewer system by means of an earthenware pipe or a pipe of any other approved material with a minimum diameter of 100 mm, or to another approved disposal system.</p>
+                  </item>
+                  <item id="section-4.4.6.list3.a.list0.iii">
+                    <num>(iii)</num>
+                    <p>A kerb 150mm high shall be provided along the entire length of the channel referred to in subparagraph (ii) and on the side thereof adjacent to the surrounding outside area, to prevent storm water from such area from entering the channel.</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-4.4.6.list3.b">
+                <num>(b)</num>
+                <blockList id="section-4.4.6.list3.b.list1">
+                  <listIntroduction>Every enclosure referred to in paragraph (a) shall contain a roofed shelter for the accommodation of dogs and cats which shall comply with the following requirements:</listIntroduction>
+                  <item id="section-4.4.6.list3.b.list1.i">
+                    <num>(i)</num>
+                    <p>Every wall shall be constructed of brick, stone, concrete or other durable material and shall have a smooth internal surface without cracks or open joints.</p>
+                  </item>
+                  <item id="section-4.4.6.list3.b.list1.ii">
+                    <num>(ii)</num>
+                    <p>The floor shall be of concrete or other impervious and durable material brought to a smooth finish without cracks or open joints, and the surface between the floor and the walls of a permanent structure shall be coved.</p>
+                  </item>
+                  <item id="section-4.4.6.list3.b.list1.iii">
+                    <num>(iii)</num>
+                    <p>Every shelter shall have adequate access thereto for the cleaning thereof and for determination.</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-4.4.6.list3.c">
+                <num>(c)</num>
+                <p>In case of dogs, a dog kennel of moulded asbestos or other similar material, which is movable and placed on a base constructed of concrete or other durable material with an easily cleaned finish, without cracks or open joints, may be provided instead of a shelter contemplated in paragraph (b), and if the base of such kennel is not rendered waterproof, a sleeping board which will enable the dog to keep dry shall be provided in every such kennel.</p>
+              </item>
+              <item id="section-4.4.6.list3.d">
+                <num>(d)</num>
+                <p>A concrete apron at least 1m wide shall be provided at the entrance of the enclosure over its full width, the apron to be graded for the drainage of water away from the enclosure.</p>
+              </item>
+              <item id="section-4.4.6.list3.e">
+                <num>(e)</num>
+                <p>A supply of potable water, adequate for drinking and cleaning purposes, shall be provided in or adjacent to the enclosure.</p>
+              </item>
+              <item id="section-4.4.6.list3.f">
+                <num>(f)</num>
+                <p>All food shall be stored in a rodent-proof store-room, and all loose food shall be stored in rodent-proof receptacles with close-fitting lids in such store-room.</p>
+              </item>
+              <item id="section-4.4.6.list3.g">
+                <num>(g)</num>
+                <p>At least 5m of clear, unobstructed space shall be provided between any shelter or enclosure and the nearest point of any dwelling, other building or structure used for human habitation or any place where food is stored or prepared for human consumption.</p>
+              </item>
+              <item id="section-4.4.6.list3.h">
+                <num>(h)</num>
+                <p>Separate isolation facilities for sick dogs and cats shall be provided to the satisfaction of the local authority.</p>
+              </item>
+              <item id="section-4.4.6.list3.i">
+                <num>(i)</num>
+                <p>If cages are provided for the keeping of cats, such cages shall be of durable, impervious material and constructed so as to be easily cleaned.</p>
+              </item>
+              <item id="section-4.4.6.list3.k">
+                <num>(k)</num>
+                <p>All kennels, enclousures or cages should be in a stste of good repair at all times and should be free from any dangerous materials that could cause possible injury to any animal.</p>
+              </item>
+              <item id="section-4.4.6.list3.l">
+                <num>(l)</num>
+                <p>All reasonable precautions must be taken to minimise the risk of escape.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.7">
+          <num>4.7</num>
+          <content>
+            <blockList id="section-4.4.7.list1">
+              <listIntroduction>Pet shops</listIntroduction>
+              <item id="section-4.4.7.list1.4.7.1">
+                <num>4.7.1</num>
+                <p>Requirements for premises</p>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.7.list3">
+              <listIntroduction>No person shall conduct the business of a pet shop upon any premises unless the premises are constructed and equipped in accordance with the following requirements:</listIntroduction>
+              <item id="section-4.4.7.list3.a">
+                <num>(a)</num>
+                <p>Every wall, including any partition of any building, shall be constructed of bricks, concrete or other durable material shall have a smooth internal surface and shall be painted with a light coloured washable paint or given some other approved finish.</p>
+              </item>
+              <item id="section-4.4.7.list3.b">
+                <num>(b)</num>
+                <p>The floor of any building shall be constructed of concrete or other durable and impervious material brought to a smooth finish.</p>
+              </item>
+              <item id="section-4.4.7.list3.c">
+                <num>(c)</num>
+                <p>The ceiling of any building shall be constructed of durable material, have a smooth finish, be dustproof and be painted with a light coloured washable paint.</p>
+              </item>
+              <item id="section-4.4.7.list3.d">
+                <num>(d)</num>
+                <p>Sanitary facilities shall be provided in terms of the National Building Regulations.</p>
+              </item>
+              <item id="section-4.4.7.list3.e">
+                <num>(e)</num>
+                <p>A rodent-proof store-room shall be provided to the satisfaction of the local authority.</p>
+              </item>
+              <item id="section-4.4.7.list3.f">
+                <num>(f)</num>
+                <p>Facilities for the washing of cages, trays and other equipment shall be provided to the satisfaction of the local authority.</p>
+              </item>
+              <item id="section-4.4.7.list3.g">
+                <num>(g)</num>
+                <p>If required, change room or locker facilities shall be provided to the satisfaction of the local authority.</p>
+              </item>
+              <item id="section-4.4.7.list3.h">
+                <num>(h)</num>
+                <p>No door, window or other opening in any wall of a building on the premises shall be within 2 m of any other door, window or other opening to any other building in which food is prepared, store or sold for human consumption or is consumed by humans.</p>
+              </item>
+              <item id="section-4.4.7.list3.i">
+                <num>(i)</num>
+                <blockList id="section-4.4.7.list3.i.list0">
+                  <listIntroduction>There shall be no direct access to any habitable room or any room which clothing or food for human consumption is stored.</listIntroduction>
+                  <item id="section-4.4.7.list3.i.list0.4.7.2">
+                    <num>4.7.2</num>
+                    <p>Business requirements</p>
+                  </item>
+                </blockList>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.7.list5">
+              <listIntroduction>Every person who conducts the business of a pet shop shall</listIntroduction>
+              <item id="section-4.4.7.list5.a">
+                <num>(a)</num>
+                <blockList id="section-4.4.7.list5.a.list0">
+                  <listIntroduction>Provide movable cages for the separate housing of animals, poultry or birds, and the following requirements shall be complied with:</listIntroduction>
+                  <item id="section-4.4.7.list5.a.list0.i">
+                    <num>(i)</num>
+                    <p>The cages shall be constructed entirely of metal or other durable, impervious material and shall be fitted with a removable metal tray below the floor thereof to facilitate cleaning.</p>
+                  </item>
+                  <item id="section-4.4.7.list5.a.list0.ii">
+                    <num>(ii)</num>
+                    <p>Every cage shall be free from any recess or cavity not readily accessible for cleaning and every tubular or hollow fitting used in connection therewith shall have its interior cavity sealed.</p>
+                  </item>
+                  <item id="section-4.4.7.list5.a.list0.iii">
+                    <num>(iii)</num>
+                    <p>If rabbits are kept in a cage, the metal tray referred to in subparagraph (i) shall drain into a removable receptacle.</p>
+                  </item>
+                  <item id="section-4.4.7.list5.a.list0.iv">
+                    <num>(iv)</num>
+                    <p>Every cage shall be fitted with drinking vessel kept filled with water and accessible to pets kept in the cage;</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-4.4.7.list5.b">
+                <num>(b)</num>
+                <p>Provide rodent-proof receptacles of impervious material with close-fitting lids in the store-room in which all pet food shall be stored;</p>
+              </item>
+              <item id="section-4.4.7.list5.c">
+                <num>(c)</num>
+                <p>Maintain the premises and every cage, tray, container, receptacle, basket and all apparatus, equipment and appliances used in connection with the pet shop in a clean, sanitary condition, free from vermin and in good repair;</p>
+              </item>
+              <item id="section-4.4.7.list5.d">
+                <num>(d)</num>
+                <p>Take effective measures to prevent the harbouring or breeding of, and to destroy, flies, cockroaches, rodents and other vermin, and to prevent offensive odours arising from the keeping of pets on the premises;</p>
+              </item>
+              <item id="section-4.4.7.list5.e">
+                <num>(e)</num>
+                <p>Provide suitable isolation facilities in which every pet which is or appears to be sick shall be kept whilst on the premises;</p>
+              </item>
+              <item id="section-4.4.7.list5.f">
+                <num>(f)</num>
+                <p>Ensure that there is a constant supply of potable water for drinking and cleaning purposes;</p>
+              </item>
+              <item id="section-4.4.7.list5.g">
+                <num>(g)</num>
+                <p>Ensure that the premises are at all times so ventilated as to ensure sufficient movement of air for the comfort and survival of the pets, and</p>
+              </item>
+              <item id="section-4.4.7.list5.h">
+                <num>(h)</num>
+                <p>Ensure that the number of pets per cage is not such that the free movement of such pets is impeded.</p>
+              </item>
+              <item id="section-4.4.7.list5.i">
+                <num>(i)</num>
+                <p>Ensure that no pets are kept in such manner as to expose them to direct sunlight for length of time, and take all reasonable precautions to minimise the risk of any pet escaping.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.8">
+          <num>4.8</num>
+          <content>
+            <blockList id="section-4.4.8.list1">
+              <listIntroduction>Pet salons</listIntroduction>
+              <item id="section-4.4.8.list1.4.8.1">
+                <num>4.8.1</num>
+                <p>Requirements for premises</p>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.8.list3">
+              <listIntroduction>No person shall conduct the business of a pet salon in or upon any premises unless the premises are constructed and equipped in accordance with the following requirements:</listIntroduction>
+              <item id="section-4.4.8.list3.a">
+                <num>(a)</num>
+                <p>A room shall be provided with a minimum floor area of 6,5m² for the washing, drying and clipping of dogs or cats.</p>
+              </item>
+              <item id="section-4.4.8.list3.b">
+                <num>(b)</num>
+                <p>The floor of such room shall be constructed of concrete or other durable, impervious material brought to a smooth finish and graded to a channel drained in terms of the National Building Regulations.</p>
+              </item>
+              <item id="section-4.4.8.list3.c">
+                <num>(c)</num>
+                <p>The surface between the floor and the wall of such room shall be coved and shall have a minimum radius of 75 mm.</p>
+              </item>
+              <item id="section-4.4.8.list3.d">
+                <num>(d)</num>
+                <p>Every internal wall surface shall be smooth-plastered and be painted with a lightcoloured washable paint.</p>
+              </item>
+              <item id="section-4.4.8.list3.e">
+                <num>(e)</num>
+                <blockList id="section-4.4.8.list3.e.list0">
+                  <listIntroduction>The room shall be equipped with</listIntroduction>
+                  <item id="section-4.4.8.list3.e.list0.i">
+                    <num>(i)</num>
+                    <p>a bath or similar facility with a constant supply of hot and cold water, drained in terms of the National Building Regulations;</p>
+                  </item>
+                  <item id="section-4.4.8.list3.e.list0.ii">
+                    <num>(ii)</num>
+                    <p>an impervious-topped table, and</p>
+                  </item>
+                  <item id="section-4.4.8.list3.e.list0.iii">
+                    <num>(iii)</num>
+                    <p>a refuse receptacle of impervious, durable material with a close-fitting lid for the storage of cut hair pending removal.</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-4.4.8.list3.f">
+                <num>(f)</num>
+                <blockList id="section-4.4.8.list3.f.list1">
+                  <listIntroduction>If cages are provided for the keeping of cats and kennels for the keeping of dogs, such cages and kennels shall be of durable material and constructed so as to be easily cleaned.</listIntroduction>
+                  <item id="section-4.4.8.list3.f.list1.4.8.2">
+                    <num>4.8.2</num>
+                    <p>Business requirement</p>
+                  </item>
+                </blockList>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.8.list5">
+              <listIntroduction>Every person who conducted the business of a pet salon shall</listIntroduction>
+              <item id="section-4.4.8.list5.a">
+                <num>(a)</num>
+                <p>Ensure that every cage, including its base, is of metal construction and movable;</p>
+              </item>
+              <item id="section-4.4.8.list5.b">
+                <num>(b)</num>
+                <p>Ensure that pesticide preparations, and preparations used for the washing of dogs and cats and the cleaning of equipment and materials are stored in separate metal cupboards;</p>
+              </item>
+              <item id="section-4.4.8.list5.c">
+                <num>(c)</num>
+                <p>Ensure that all tables used for the drying and grooming of dogs and cats are of metal with durable and impervious tops;</p>
+              </item>
+              <item id="section-4.4.8.list5.d">
+                <num>(d)</num>
+                <p>Maintain the premises and every cage, tray receptacle, basket and all apparatus, equipment and used in connection with the pet shop in a clean, sanitary condition, in good repair and free of vermin;</p>
+              </item>
+              <item id="section-4.4.8.list5.e">
+                <num>(e)</num>
+                <p>At all times keep every dog or cat inside the building on the premises, unless otherwise approved by the local authority.</p>
+              </item>
+              <item id="section-4.4.8.list5.f">
+                <num>(f)</num>
+                <p>Provide portable storage receptacles of impervious material with close-fitting lids for the storage of dogs and cat faeces, and</p>
+              </item>
+              <item id="section-4.4.8.list5.g">
+                <num>(g)</num>
+                <p>Remove all faeces and other waste matter from the enclosure and shelter at least once every 24 hours and place it in the receptacles referred to in paragraph (f).</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.9">
+          <num>4.9</num>
+          <content>
+            <blockList id="section-4.4.9.list1">
+              <listIntroduction>Cats</listIntroduction>
+              <item id="section-4.4.9.list1.4.9.1">
+                <num>4.9.1</num>
+                <p>An authorised officer may impose a limit on the number of cats which may be kept on private land (such limit being not more than 5) where:</p>
+              </item>
+            </blockList>
+            <p>* the council has received a complaint about the number of cats kept on the private land; and</p>
+            <p>* the officer considers that the number of cats creates or is likely to create a public health nuisance; and</p>
+            <blockList id="section-4.4.9.list5">
+              <listIntroduction>* the person keeping those cats fails to comply with any reasonable request of the officer to abate or prevent the nuisance created.</listIntroduction>
+              <item id="section-4.4.9.list5.4.9.2">
+                <num>4.9.2</num>
+                <p>Criteria</p>
+              </item>
+            </blockList>
+            <p>a. Those persons requiring to keep or hold on residential premises, more than five (5) cats must be authorised by <term refersTo="#term-Council" id="trm40">Council</term> to do so. <term refersTo="#term-Council" id="trm41">Council</term> officers will determine the suitability of the premises for the purpose and number of cats to be held. All cats kept in urban areas must be sterilised unless the cats are shown to be registered with any breeding institution, organisation or association.</p>
+            <p>b. The provision of adequate holding facilities must be in place, especially for all nonde-sexed male cat, and female cats.</p>
+            <p>c. Cats must not be permitted to create a nuisance in the form of noise nuisance or damaging the properties of others.</p>
+            <p>d. The owner must have the ability to control all odours and waste to the satisfaction of <term refersTo="#term-Council" id="trm42">Council</term>.</p>
+            <p>e. The health of all cats is to be monitored and appropriate veterinary treatment obtained in the event of illness.</p>
+            <p>f. Wildlife must be protected where possible from cats.</p>
+            <p>g. <term refersTo="#term-Council" id="trm43">Council</term> will consider varying the above criteria on a case-by-case basis, depending on the facilities provided by the owner, and after taking submissions of close neighbours into account. <term refersTo="#term-Cat" id="trm44">Cat</term> breeders may apply for permission from <term refersTo="#term-Council" id="trm45">Council</term> to vary the number of cats permitted on any property.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.10">
+          <num>4.10</num>
+          <content>
+            <p>Keeping of dogs</p>
+            <p>Purpose of By-Law</p>
+            <blockList id="section-4.4.10.list3">
+              <listIntroduction>To provide for the control over the amount of gogs that may be kept, the breeding with dogs, control over dogs by their owners, pounding of stray dogs and the prevention of nuisances through the keeping of dogs.</listIntroduction>
+              <item id="section-4.4.10.list3.4.10.1">
+                <num>4.10.1</num>
+                <p>Restriction on number of dogs</p>
+              </item>
+            </blockList>
+            <p>Subject to the provisions of subsection (2), no person may keep more than two dogs to be kept on any erf or premises without the prior written consent of the council.</p>
+            <p>Notwithstanding the provisions of subsection (1):</p>
+            <p>* Any person who, at the date of commencement of this of this By-law, is keeping a dog in contravention of subsection (1), may on application for a special permit issued by the <term refersTo="#term-Council" id="trm46">Council</term>, continues to keep such dog but may not replace any dog that dies or is lost or disposed of it would result in such a contravention;</p>
+            <blockList id="section-4.4.10.list8">
+              <listIntroduction>* the foregoing restriction does not apply to</listIntroduction>
+              <item id="section-4.4.10.list8.i">
+                <num>(i)</num>
+                <p>a dog breeder who has the written consent of the <term refersTo="#term-Council" id="trm47">Council</term> to keep such greater number of dogs as the <term refersTo="#term-Council" id="trm48">Council</term> may approve;</p>
+              </item>
+              <item id="section-4.4.10.list8.ii">
+                <num>(ii)</num>
+                <p>the holder of a permit issued by the <term refersTo="#term-Council" id="trm49">Council</term>;</p>
+              </item>
+              <item id="section-4.4.10.list8.iii">
+                <num>(iii)</num>
+                <p>the owner or manager or person in charge of a per shop;</p>
+              </item>
+              <item id="section-4.4.10.list8.iv">
+                <num>(iv)</num>
+                <p>the owner or person in charge of premises where guide dogs for the blind are being kept or trained, or</p>
+              </item>
+              <item id="section-4.4.10.list8.v">
+                <num>(v)</num>
+                <p>the owner or manager of a veterinary clinic or registered animal welfare Society;</p>
+              </item>
+              <item id="section-4.4.10.list8.vi">
+                <num>(vi)</num>
+                <p>premises zoned for agricultural purposes, shall be entitled to do so without any restrictions.</p>
+              </item>
+              <item id="section-4.4.10.list8.4.10.2">
+                <num>4.10.2</num>
+                <p>Registration of dogs</p>
+              </item>
+              <item id="section-4.4.10.list8.a">
+                <num>(a)</num>
+                <p>Every person who owns or keeps a dog shall register such dog with and shall pay to the <term refersTo="#term-Council" id="trm50">Council</term> an annual/tax as determined in terms of a resolution by <term refersTo="#term-Council" id="trm51">Council</term>.</p>
+              </item>
+              <item id="section-4.4.10.list8.b">
+                <num>(b)</num>
+                <p>The <term refersTo="#term-Council" id="trm52">Council</term> may from time to time deliver a prescribed form for the registration of dogs to any resident of the municipality, which such resident must complete fully and return to the <term refersTo="#term-Council" id="trm53">Council</term> without delay.</p>
+              </item>
+              <item id="section-4.4.10.list8.4.10.3">
+                <num>4.10.3</num>
+                <p>Dogs which may not be kept</p>
+              </item>
+            </blockList>
+            <p>No person may keep a dog</p>
+            <p>* which is wild, dangerous or fierce to such an extent that the dog is a danger to any person who legally enters upon the premises occupied by the owner of that dog, unless muzzled and held on a leash under control of some responsible person;</p>
+            <p>* which barks, whimpers or bowls to such an extent that it, or has another habit which, causes an unreasonable disturbance or nuisance to inhabitants to the neighbourhood;</p>
+            <p>* which suffers from an infectious disease, which, in the opinion of a veterinary surgeon, is of such a nature that such dog cannot be beneficially treated or boarded at a veterinary clinic;</p>
+            <p>* that poses a threat / danger to other annimals.</p>
+            <p>* which is starved or underfed or denied water or adequate shelter.</p>
+            <blockList id="section-4.4.10.list16">
+              <listIntroduction>* On premises that are not adequately fenced in such a manner that such dog is at all times confined to the premises.</listIntroduction>
+              <item id="section-4.4.10.list16.4.10.4">
+                <num>4.10.4</num>
+                <p>Dogs in public places</p>
+              </item>
+              <item id="section-4.4.10.list16.a">
+                <num>(a)</num>
+                <p>Subject to any provision to the contrary in this By-law or any other law, no person may bring a dog into any public place or allow it to be done if that dog</p>
+              </item>
+            </blockList>
+            <p>* is wild, dangerous or ferocious;</p>
+            <p>* is in a habit of charging at or chasing people or vehicles; or</p>
+            <blockList id="section-4.4.10.list20">
+              <listIntroduction>* is an unsterilized female dog which is on heat.</listIntroduction>
+              <item id="section-4.4.10.list20.b">
+                <num>(b)</num>
+                <p>No person may allow or cause to be allowed any dog to be in a public place unless it is kept on a leash under control of a responsible person.</p>
+              </item>
+              <item id="section-4.4.10.list20.c">
+                <num>(c)</num>
+                <blockList id="section-4.4.10.list20.c.list0">
+                  <listIntroduction>Any person in control of a dog in a public place, excluding a blind person who is led by a guide-dog, must remove any defecation or other offensive matter of such dog by placing it in a plastic bag or wrapper and dispose of it in a receptacle providing for the deposit of litter or refuse.</listIntroduction>
+                  <item id="section-4.4.10.list20.c.list0.4.10.5">
+                    <num>4.10.5</num>
+                    <p>Prohibited behaviour in respect of dogs</p>
+                  </item>
+                </blockList>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.10.list22">
+              <listIntroduction>No person may</listIntroduction>
+              <item id="section-4.4.10.list22.a">
+                <num>(a)</num>
+                <p>Without reasonable grounds,</p>
+              </item>
+            </blockList>
+            <p>* Incite a dog against a person, animal or bird, or</p>
+            <blockList id="section-4.4.10.list25">
+              <listIntroduction>* Allow a dog in hid or her custody or under his or her control to attack or put fear into any person, animal or bird,</listIntroduction>
+              <item id="section-4.4.10.list25.b">
+                <num>(b)</num>
+                <p>provoke a dog or harass or tease any dog.</p>
+              </item>
+              <item id="section-4.4.10.list25.c">
+                <num>(c)</num>
+                <p>terrify of cause distress or fear to any dog with fireworks or by any other means.</p>
+              </item>
+              <item id="section-4.4.10.list25.d">
+                <num>(d)</num>
+                <p>neglect or abuse a dog kept by him.</p>
+              </item>
+              <item id="section-4.4.10.list25.e">
+                <num>(e)</num>
+                <blockList id="section-4.4.10.list25.e.list0">
+                  <listIntroduction>as the owner or person in control of any shop or other place where food is prepared, sold or exposed for sale permit any dog to be or remain in or on such shop or place.</listIntroduction>
+                  <item id="section-4.4.10.list25.e.list0.4.10.6">
+                    <num>4.10.6</num>
+                    <p>Control of dogs</p>
+                  </item>
+                </blockList>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.10.list27">
+              <listIntroduction>No person shall</listIntroduction>
+              <item id="section-4.4.10.list27.a">
+                <num>(a)</num>
+                <p>permit any bitch on heat owned or kept by him or her to be in any public road or public place without supervision,</p>
+              </item>
+              <item id="section-4.4.10.list27.b">
+                <num>(b)</num>
+                <p>urge any dog to attack, worry or frighten any person or animal, except where necessary for the defence of such first-mentioned person or his or her property or of any other person;</p>
+              </item>
+              <item id="section-4.4.10.list27.c">
+                <num>(c)</num>
+                <blockList id="section-4.4.10.list27.c.list0">
+                  <listIntroduction>keep any dog which</listIntroduction>
+                  <item id="section-4.4.10.list27.c.list0.i">
+                    <num>(i)</num>
+                    <p>by barking, yelping, howling or whining;</p>
+                  </item>
+                  <item id="section-4.4.10.list27.c.list0.ii">
+                    <num>(ii)</num>
+                    <p>by having acquired the habit of charging any vehicles, animals, poultry, pigeons or persons outside any premises where it is kept, or</p>
+                  </item>
+                  <item id="section-4.4.10.list27.c.list0.iii">
+                    <num>(iii)</num>
+                    <p>by behaving in any other manner, interferes materially with the ordinary comfort, convenience, peace or quiet of neighbours, or</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-4.4.10.list27.d">
+                <num>(d)</num>
+                <blockList id="section-4.4.10.list27.d.list1">
+                  <listIntroduction>Permit any dog owned or kept by such person –</listIntroduction>
+                  <item id="section-4.4.10.list27.d.list1.i">
+                    <num>(i)</num>
+                    <p>to be in any public road or public place while suffering from mange or any other infectious or contagious diseases;</p>
+                  </item>
+                  <item id="section-4.4.10.list27.d.list1.ii">
+                    <num>(ii)</num>
+                    <p>which is ferocious, vicious or dangerous to be in any public road or public place, unless it is muzzled and held on a leash and under control of some responsible person;</p>
+                  </item>
+                  <item id="section-4.4.10.list27.d.list1.iii">
+                    <num>(iii)</num>
+                    <p>to trespass on private property;</p>
+                  </item>
+                  <item id="section-4.4.10.list27.d.list1.iv">
+                    <num>(iv)</num>
+                    <p>to constitute a hazard to traffic using any public road;</p>
+                  </item>
+                  <item id="section-4.4.10.list27.d.list1.v">
+                    <num>(v)</num>
+                    <p>to constitute or to his knowledge be likely to constitute a source of danger or injury to any person outside the premises on which such dog kept, or</p>
+                  </item>
+                  <item id="section-4.4.10.list27.d.list1.vi">
+                    <num>(vi)</num>
+                    <p>To be in any public road or public place except on leash and under control of some responsible person.</p>
+                  </item>
+                  <item id="section-4.4.10.list27.d.list1.4.10.7">
+                    <num>4.10.7</num>
+                    <p>Fencing of property</p>
+                  </item>
+                </blockList>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.10.list29">
+              <listIntroduction>No person shall keep a dog if the premises where such a dog is kept, is not properly and adequately fenced to keep such dog inside when it is not on a leash.</listIntroduction>
+              <item id="section-4.4.10.list29.4.10.8">
+                <num>4.10.8</num>
+                <p>Dogs shall not be a source of danger</p>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.10.list31">
+              <listIntroduction>Any person who keeps a dog on any premises shall keep such dog in such manner as not to be a source of danger to employees of the municipality entering upon such premises for the purpose of carrying out their duties. A notice to the effect that a dog is being kept on such premises shall be displayed in a conspicuous place.</listIntroduction>
+              <item id="section-4.4.10.list31.4.10.9">
+                <num>4.10.9</num>
+                <p>Removal of offensive matter</p>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.10.list33">
+              <listIntroduction>If any dog defecates in any public road or public place, any person in charge of such dog shall forthwith remove the excrement, place it in a plastic or paper bag or wrapper and dispose of it in a receptacle provided for the deposit of litter or refuse.</listIntroduction>
+              <item id="section-4.4.10.list33.4.10.10">
+                <num>4.10.10</num>
+                <p>Dogs on premises where food sold</p>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.10.list35">
+              <listIntroduction>Any person being the owner or person in control of any shop or other place where food is prepared, sold or exposed for sale, shall not permit any dog to be or remain in or on such shop or place.</listIntroduction>
+              <item id="section-4.4.10.list35.4.10.11">
+                <num>4.10.11</num>
+                <p>Seizure, impounding and destruction of dogs</p>
+              </item>
+              <item id="section-4.4.10.list35.i">
+                <num>(i)</num>
+                <p>Any dog, found in any public road or public place suffering from mange or any other infectious or contagious disease, or which is ferocious, vicious or dangerous, or which is badly injured, may be seized and destroyed by the municipality.</p>
+              </item>
+              <item id="section-4.4.10.list35.ii">
+                <num>(ii)</num>
+                <p>The municipality may seize and impound at a place designated by the municipality, any dog which is found in any public road or public place in contravention with the provisions of this by-law.</p>
+              </item>
+              <item id="section-4.4.10.list35.iv">
+                <num>(iv)</num>
+                <p>A dog impounded may be released to the owner of such dog upon payment of a fee determined by the municipality in addition to any costs, fines or taxes which may be outstanding in respect of such dog.</p>
+              </item>
+              <item id="section-4.4.10.list35.v">
+                <num>(v)</num>
+                <p>If a dog has been impounded and has not been claimed by its lawful owners within 72 hours the municipality reserves the right to deal with the dog as it deems fit, either by causing it to be humanely destroyed or releasing the dog for re-homing purposes.</p>
+              </item>
+              <item id="section-4.4.10.list35.4.10.12">
+                <num>4.10.12</num>
+                <p>Breeding of dogs</p>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.10.list37">
+              <listIntroduction>All bitches must be spayed unless the bitch is shown to be registered with a breeding institution, federation, association or organisation.</listIntroduction>
+              <item id="section-4.4.10.list37.4.10.13">
+                <num>4.10.13</num>
+                <p>Liability</p>
+              </item>
+            </blockList>
+            <p>The municipality shall not be liable for any injury suffered or disease contacted by or damage caused to any dog as a result of or during its seizure, impounding, detention or destruction in terms of this by-law.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.11">
+          <num>4.11</num>
+          <content>
+            <p>Wild <term refersTo="#term-Animals" id="trm54">Animals</term></p>
+            <p>No person shall keep a wild animal without a permit from an authorised officer. In deciding whether to grant permission, the council may consult with relevant persons or agencies such as the Ministry of Agriculture and Forestry and may impose terms and conditions on any permit or may decline the permit if the keeping of the animal is considered to be a potential nuisance or a threat to bio-security or public health or safety.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.12">
+          <num>4.12</num>
+          <content>
+            <blockList id="section-4.4.12.list1">
+              <listIntroduction>Pig keeping</listIntroduction>
+              <item id="section-4.4.12.list1.4.12.1">
+                <num>4.12.1</num>
+                <p>No person shall:</p>
+              </item>
+            </blockList>
+            <p>a. Areas where pig keeping is permitted</p>
+            <p><term refersTo="#term-Keep" id="trm55">Keep</term> any pigs in any part of the urban area without a permit from an authorised officer.</p>
+            <p>b. <term refersTo="#term-Nuisance" id="trm56">Nuisance</term> pollution</p>
+            <p><term refersTo="#term-Keep" id="trm57">Keep</term> any pigs in such a manner that they are likely to create a nuisance, or become injurious to health, or offensive, or in such a manner as to pollute or be likely to pollute any water.</p>
+            <blockList id="section-4.4.12.list7">
+              <listIntroduction>The bio-security (Meat and Food Waste for Pigs) Regulations 2005 prohibits the feeding to pigs of untreated meat, or food waste containing untreated meat, to reduce the risk of an outbreak of foot-and-mouth disease or other diseases.</listIntroduction>
+              <item id="section-4.4.12.list7.4.12.2">
+                <num>4.12.2</num>
+                <p>Pigsties</p>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.12.list9">
+              <listIntroduction>Without limiting clause 3.10.1 above no person shall keep any pigs except in accordance with the following requirements (Building plans must be submitted for approval):</listIntroduction>
+              <item id="section-4.4.12.list9.4.12.3">
+                <num>4.12.3</num>
+                <p>Sleeping pen roof:</p>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.12.list11">
+              <listIntroduction>Roofs of sleeping pens shall be provided and be watertight.</listIntroduction>
+              <item id="section-4.4.12.list11.4.12.4">
+                <num>4.12.4</num>
+                <p>Sleeping pen walls:</p>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.12.list13">
+              <listIntroduction>The walls of sleeping pens shall be constructed to prevent the accumulation of filth thereon and to provide a surface that is easily cleaned and impervious.</listIntroduction>
+              <item id="section-4.4.12.list13.4.12.5">
+                <num>4.12.5</num>
+                <p>Floors</p>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.12.list15">
+              <listIntroduction>Floors of sleeping and feeding pens shall be of concrete or other approved impervious material finished to a smooth even surface and graded to a fall on 1 in 25 to an approved outfall.</listIntroduction>
+              <item id="section-4.4.12.list15.4.12.6">
+                <num>4.12.6</num>
+                <p>Effluent disposal</p>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.12.list17">
+              <listIntroduction>All effluent from sleeping and feeding pens shall be disposed of in such a manner as to not create a health nuisance or the pollution of any waterway.</listIntroduction>
+              <item id="section-4.4.12.list17.4.12.7">
+                <num>4.12.7</num>
+                <p>Maintenance</p>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.12.list19">
+              <listIntroduction>The pigsty including runs, drains, catch pits and settling tanks shall be maintained in a clean condition.</listIntroduction>
+              <item id="section-4.4.12.list19.4.12.8">
+                <num>4.12.8</num>
+                <p>Housekeeping</p>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.12.list21">
+              <listIntroduction>Accumulated manure and offensive matter shall be removed and disposed of so as not to create a nuisance.</listIntroduction>
+              <item id="section-4.4.12.list21.4.12.9">
+                <num>4.12.9</num>
+                <p>Feeding areas</p>
+              </item>
+            </blockList>
+            <p>Troughs from which pigs are fed shall be watertight and able to be easily cleaned and shall be maintained in a clean condition.</p>
+            <blockList id="section-4.4.12.list24">
+              <listIntroduction>Troughs whether in feeding pens of elsewhere shall be placed on a smooth concrete slab with a raised nib wall all round and of sufficient size to prevent pollution of the area or ground surrounding the trough.</listIntroduction>
+              <item id="section-4.4.12.list24.4.12.10">
+                <num>4.12.10</num>
+                <p>Accumulation/storage of manure and offensive matter</p>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.12.list26">
+              <listIntroduction>No manure or offensive matter from pigsties or any swill be stacked, accumulated or stored in any place within 50 metres from any occupied building, or public place, or the boundary of any adjoining private land or in such a way as to give rise or likely to give rise to a nuisance, or be likely to be injurious to health or offensive.</listIntroduction>
+              <item id="section-4.4.12.list26.4.12.11">
+                <num>4.12.11</num>
+                <p>Transport, storage of pigswill</p>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.12.list28">
+              <listIntroduction>Pigswill shall be conveyed and stored in impervious receptacles, with close-fitting covers, to prevent the escape of odour and the swill, or access by flies.</listIntroduction>
+              <item id="section-4.4.12.list28.4.12.12">
+                <num>4.12.12</num>
+                <p>Pigswill storage area</p>
+              </item>
+            </blockList>
+            <p>Any storage area for pigswill shall be sited at least 50 metres from the edge of any watercourse and shall be located above the estimated 50 year return flood period level of the watercourse.</p>
+            <blockList id="section-4.4.12.list31">
+              <listIntroduction><term refersTo="#term-Council" id="trm58">Council</term> can provide information on the location of 50 year return flood period levels of watercourses.</listIntroduction>
+              <item id="section-4.4.12.list31.4.12.13">
+                <num>4.12.13</num>
+                <p>Maintenance of pigswill containers</p>
+              </item>
+            </blockList>
+            <p>Every vehicle, receptacle, cover or utensil in the handling of pigswill of pig feed of a perishable nature shall be thoroughly cleaned daily. The washing from these items shall be disposed of in such a manner that no direct or indirect discharge to any watercourse occurs.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.13">
+          <num>4.13</num>
+          <content>
+            <p>Dead <term refersTo="#term-Animals" id="trm59">Animals</term></p>
+            <p>No person shall:</p>
+            <p>* Leave, or permit, or suffer to remain any dead animal or vermin, or part thereof, on any land or body of water or premises that they own or occupy so as to create a nuisance.</p>
+            <p>* Bury any animal or part thereof of more than 20 kilograms body weight (other than on land with a minimum lot size of 3 hectares and which is located outside the urban area) without the approval of an authorised officer. Any animal or part thereof may be disposed of at the disposal facilities provided by the council for this purpose.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.14">
+          <num>4.14</num>
+          <content>
+            <blockList id="section-4.4.14.list1">
+              <listIntroduction>
+                <term refersTo="#term-Livestock" id="trm60">Livestock</term>
+              </listIntroduction>
+              <item id="section-4.4.14.list1.4.14.1">
+                <num>4.14.1</num>
+                <p><term refersTo="#term-Livestock" id="trm61">Livestock</term> Slaughter</p>
+              </item>
+            </blockList>
+            <blockList id="section-4.4.14.list3">
+              <listIntroduction>No person shall slaughter any livestock including livestock intended for human consumption for the purpose of selling to the public in any part of the urban area.</listIntroduction>
+              <item id="section-4.4.14.list3.4.14.2">
+                <num>4.14.2</num>
+                <p>Persons Exempted</p>
+              </item>
+            </blockList>
+            <p>Nothing in clause 4.14.1 shall apply to:</p>
+            <p>i. A veterinary surgeon registered under the Veterinary Surgeons Act 1956.</p>
+            <p>ii. An inspector appointed for the purpose of the <term refersTo="#term-Animals" id="trm62">Animals</term> Act 1967.</p>
+            <p>iii. An inspector appointed for the purposes of the <term refersTo="#term-Animal" id="trm63">Animal</term> Protection Act 1960.</p>
+            <blockList id="section-4.4.14.list9">
+              <listIntroduction>iv. Any person who is carrying out bona fide grazing of farming operations within the urban area and where consent has been granted in writing by an authorised officer to slaughter livestock.</listIntroduction>
+              <item id="section-4.4.14.list9.4.14.3">
+                <num>4.14.3</num>
+                <p>Any person who does any act contrary to clause 4.14.1 commits an offence notwithstanding:</p>
+              </item>
+            </blockList>
+            <p>i. That such slaughter is on any land or premises in the ownership or occupation of such person.</p>
+            <p>ii. Any meat derived from slaughter is not sold or intended for sale.</p>
+            <p>ii. The person is the owner of such livestock.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.15">
+          <num>4.15</num>
+          <content>
+            <p>Noise from <term refersTo="#term-Animals" id="trm64">Animals</term> or Birds</p>
+            <p>No person shall keep on any private land any noisy animal or bird which causes a nuisance to residents in the vicinity.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.16">
+          <num>4.16</num>
+          <content>
+            <p>Horses, Goats, Lama’s, Sheep, Donkey’s and cattle restricted</p>
+            <p>No person shall within the living or business environment as defined in Cape Agulhas Municipal Area keep any horse, goat, lama’s, sheep, donkeys, mules or cattle on any property except with the written consent of the <term refersTo="#term-Director__Community_Services" id="trm65">Director: Community Services</term>.</p>
+            <p>No person may keep any stallions, bulls, rams, Billy goats, or boars whitout the written approval of the <term refersTo="#term-Municipality" id="trm66">Municipality</term>. If permission is granted for the keeping of abovementioned livestock the animals must be confined in a secure adequately fenced area where all reasonable precautions have been taken to ensure that the animals do not pose a danger to any person/s or other animals.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.17">
+          <num>4.17</num>
+          <content>
+            <blockList id="section-4.4.17.list1">
+              <listIntroduction>Conditional consent, refusal and right of appeal</listIntroduction>
+              <item id="section-4.4.17.list1.4.17.1">
+                <num>4.17.1</num>
+                <p>The authorised officer may refuse to give consent under any of Clauses ……4.2.1, 4.2.2, 4.5, 4.9.1 and 4.9.2……………………… of this bylaw.</p>
+              </item>
+              <item id="section-4.4.17.list1.4.17.2">
+                <num>4.17.2</num>
+                <p>Any consent given under any of Clause …3.1.4……………………. of this bylaw may be given subject to such conditions as the <term refersTo="#term-Director__Community_Services" id="trm67">Director: Community Services</term> considers necessary to avoid nuisance or danger to any person, or injury to the health of any person.</p>
+              </item>
+              <item id="section-4.4.17.list1.4.17.3">
+                <num>4.17.3</num>
+                <p>Any consent given under Clauses 4.3.(i),4.9.2(g), 4.10.1………….. of this bylaw may be withdrawn at any time by written notice given by the <term refersTo="#term-Director__Community_Services" id="trm68">Director: Community Services</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.18">
+          <num>4.18</num>
+          <content>
+            <p>Unfenced land not permitted</p>
+            <p>No person shall de-pasture livestock on any property adjoining a public place other than on land that is fenced sufficiently to keep such livestock from that public place.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.19">
+          <num>4.19</num>
+          <content>
+            <p>Wandering <term refersTo="#term-Animals" id="trm69">Animals</term> – <term refersTo="#term-Livestock" id="trm70">Livestock</term> wandering on public land</p>
+            <p>Except as may be permitted in any other bylaw, no person being the owner of, or having the care or custody of, any animal shall permit such animal to wander or be at large without proper control on any public place.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.20">
+          <num>4.20</num>
+          <content>
+            <p>Removal of unauthorised works</p>
+            <p><term refersTo="#term-Council" id="trm71">Council</term> may remove or alter any breach of this bylaw:</p>
+            <p>i. Fowl house, fowl run, aviary or pigeon coop or any other structure used to house or contain birds of any nature if such is, or has been constructed or is maintained in a condition which is contrary to the terms of this bylaw.</p>
+            <p>ii. Pen, shed, cage or other structure used to house or contain any animal(s) or bee(s) which is, or has been, constructed or is maintained in a condition which is in breach of this bylaw.</p>
+            <p>iii. Structure where such is being used to house or contain any animal(s) or bee(s) on any property contrary to the terms of this bylaw.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.21">
+          <num>4.21</num>
+          <content>
+            <p>Fees</p>
+            <p><term refersTo="#term-Council" id="trm72">Council</term> may prescribe fees or charges payable for any authority, approval, permit of consent or inspection required of, applied for from or made by it or by the <term refersTo="#term-Director__Community_Services" id="trm73">Director: Community Services</term> or a Law enforcement Officer under this bylaw.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4.22">
+          <num>4.22</num>
+          <content>
+            <p>Offences</p>
+            <p>Every person who breaches this bylaw commits an offence.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Miscellaneous</heading>
+        <subsection id="section-5.5.1">
+          <num>5.1</num>
+          <content>
+            <p>Offences and penalties</p>
+            <blockList id="section-5.5.1.list2">
+              <listIntroduction>Any person who</listIntroduction>
+              <item id="section-5.5.1.list2.a">
+                <num>(a)</num>
+                <p>Contravenes or fails to comply with any provision of this By-law, or</p>
+              </item>
+              <item id="section-5.5.1.list2.b">
+                <num>(b)</num>
+                <p>Fails to comply with any notice issued for the purposes of this By-law; or</p>
+              </item>
+              <item id="section-5.5.1.list2.c">
+                <num>(c)</num>
+                <p>Fails to comply with any lawful instruction given for the purpose of this By-law; or</p>
+              </item>
+              <item id="section-5.5.1.list2.d">
+                <num>(d)</num>
+                <p>Obstructs or hinders any authorised official or employee of the <term refersTo="#term-Council" id="trm74">Council</term> in the execution of his or her duties under this By-law,</p>
+              </item>
+            </blockList>
+            <p>Is guilty of an offence and liable on conviction to a fine not exceeding five hundred rand or in default of payment to imprisonment for a period not exceeding three months and in the case of a continuing offence, to a further fine not exceeding R100 or in default of payment to imprisonment not exceeding one day for every day during the continuance of such offence after a written notice has been issued by the <term refersTo="#term-Council" id="trm75">Council</term> and served on the person concerned requiring the discontinuance of such offence</p>
+            <p>Any person who contravenes any of the provisions of this by-law or refuses to comply with any order lawfully given thereunder by the local authority shall be guilty of an offence and liable upon conviction to a penalty as prescribed in section 213(3) of the Municipal Ordinance, 1974 (Ordinance 20 of 1974), of the Divisional Councils Ordinance, 1976 (Ordinance 18 of 1976)</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Napier local area overlay zone</heading>
+        <subsection id="section-6.1">
+          <num>(1)</num>
+          <content>
+            <p>Development Rules</p>
+            <p><term refersTo="#term-Animals" id="trm76">Animals</term> may be kept within the area designated as the Napier Local Area Overlay zone as follows:</p>
+            <table id="section-6.1.table2">
+              <tr>
+                <th>
+                  <p>Designated Areas</p>
+                </th>
+                <th>
+                  <p>
+                    <term refersTo="#term-Animals" id="trm77">Animals</term>
+                  </p>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <p>Commonage &amp;amp; small holding</p>
+                </td>
+                <td>
+                  <p>Cattle, Lama’s, Pigs, Goats, Horses, Donkeys, <term refersTo="#term-Poultry" id="trm78">Poultry</term>, Birds and any other animals as may regarded appropriate by the <term refersTo="#term-Municipality" id="trm79">Municipality</term></p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>Bo-Dorp from Almond Street eastwards, and All of the above excluding pigs between Reservoir and Sarel Cilliers Street, including the erven on the northern side of Sarel Cilliers Street, and<eol/><eol/>Tamatiekraal: the area between Sarel Cilliers Street and Eskom Street, which is the area on both sides of the Klippedrift River.</p>
+                </td>
+                <td>
+                  <p>All of the above excluding pigs</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>Remainder of the Napier LAO Area</p>
+                </td>
+                <td>
+                  <p><term refersTo="#term-Poultry" id="trm80">Poultry</term> and bird same as in CAM Area.</p>
+                </td>
+              </tr>
+            </table>
+          </content>
+        </subsection>
+        <subsection id="section-6.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-6.2.list1">
+              <listIntroduction>The municipality may prescribe, for appropriate management and control purposes, additional regulations with regard to, but not restricted to:</listIntroduction>
+              <item id="section-6.2.list1.i">
+                <num>(i)</num>
+                <p>the number, and sex of animals that may be kept per square meter area;</p>
+              </item>
+              <item id="section-6.2.list1.ii">
+                <num>(ii)</num>
+                <p>health regulations for animals, and</p>
+              </item>
+              <item id="section-6.2.list1.iii">
+                <num>(iii)</num>
+                <p>rights of animals to have appropriate nutrition, shelter, space and nurturing.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-6.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-6.3.list1">
+              <listIntroduction>Urban agriculture may be practiced within the area designated as the Napier Local Area Overlay zone, provided that the <term refersTo="#term-Municipality" id="trm81">Municipality</term> may prescribe additional regulations with regard to but not restricted to:</listIntroduction>
+              <item id="section-6.3.list1.i">
+                <num>(i)</num>
+                <p>the use of pesticides and organic fertilizers, and</p>
+              </item>
+              <item id="section-6.3.list1.ii">
+                <num>(ii)</num>
+                <p>the storage of implements and produce.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-6.4">
+          <num>(4)</num>
+          <content>
+            <p>The size of the premises and not the zoning will depend on how many animals can be kept and will be as follow: (1 unit = 1 cattle, 1 horse, 1 donkey, 1 lama, 4 sheep or 4 goats).</p>
+            <table id="section-6.4.table1">
+              <tr>
+                <td>
+                  <p>1 000m2 – 3 000m2</p>
+                </td>
+                <td>
+                  <p>One Unit</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>3 001m2 – 4 500m2</p>
+                </td>
+                <td>
+                  <p>Two Unit</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>4 501m2 – 6 000m2</p>
+                </td>
+                <td>
+                  <p>Three Units</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>6 001m2 – 1 ha</p>
+                </td>
+                <td>
+                  <p>Four Units</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>1 ha– 3 ha</p>
+                </td>
+                <td>
+                  <p>Five Units</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>3 ha – 6 ha</p>
+                </td>
+                <td>
+                  <p>Eight Units</p>
+                </td>
+              </tr>
+            </table>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>
