@@ -1,0 +1,199 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="singleVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc011/act/by-law/2010/tariff/main"/>
+          <FRBRuri value="/za-wc011/act/by-law/2010/tariff"/>
+          <FRBRalias value="Tariff By-Law of the Matzikama Municipality"/>
+          <FRBRdate date="2010-09-10" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc011/act/by-law/2010/tariff/eng@2012-12-07/main"/>
+          <FRBRuri value="/za-wc011/act/by-law/2010/tariff/eng@2012-12-07"/>
+          <FRBRdate date="2012-12-07" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc011/act/by-law/2010/tariff/eng@2012-12-07/main"/>
+          <FRBRuri value="/za-wc011/act/by-law/2010/tariff/eng@2012-12-07"/>
+          <FRBRdate date="2018-07-09" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication number="6788" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" date="2010-09-10"/>
+      <lifecycle source="#OpenByLaws-org-za">
+        <eventRef id="amendment-2012-12-07" date="2012-12-07" type="amendment" source="#amendment-0-source"/>
+        <eventRef id="repeal-2015-07-10" date="2015-07-10" type="repeal" source="#repeal-source"/>
+      </lifecycle>
+      <references source="#this">
+        <TLCOrganization id="OpenByLaws-org-za" href="https://indigo.openbylaws.org.za" showAs="OpenByLaws.org.za"/>
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-Systems_Act" showAs="Systems Act" href="/ontology/term/this.eng.Systems_Act"/>
+        <TLCTerm id="term-municipality" showAs="municipality" href="/ontology/term/this.eng.municipality"/>
+        <TLCTerm id="term-municipal_council" showAs="municipal council" href="/ontology/term/this.eng.municipal_council"/>
+        <TLCTerm id="term-tariff" showAs="tariff" href="/ontology/term/this.eng.tariff"/>
+        <TLCTerm id="term-Constitution" showAs="Constitution" href="/ontology/term/this.eng.Constitution"/>
+        <TLCTerm id="term-Credit_Control_and_Debt_Collection_By_Law" showAs="Credit Control and Debt Collection By-Law" href="/ontology/term/this.eng.Credit_Control_and_Debt_Collection_By_Law"/>
+        <TLCTerm id="term-tariff_policy" showAs="tariff policy" href="/ontology/term/this.eng.tariff_policy"/>
+        <TLCTerm id="term-Municipal_Finance_Management_Act" showAs="Municipal Finance Management Act" href="/ontology/term/this.eng.Municipal_Finance_Management_Act"/>
+        <passiveRef id="amendment-0-source" href="/za-wc011/act/by-law/2012/tariff-amendment" showAs="Tariff Amendment By-law of Matzikama Municipality (1/2012)"/>
+        <passiveRef id="repeal-source" href="/za-wc011/act/by-law/2015/tariff" showAs="Tariff By-law of the Matzikama Municipality"/>
+      </references>
+    </meta>
+    <preface>
+      <p>The Matzikama Municipality herewith adopts the following by-law in terms of section 156(2) of the Constitution of the Republic of South Africa, 1996 and section 75 of the Local Government: Municipal Systems Act, 2000:</p>
+    </preface>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Preamble</heading>
+        <subsection id="section-1.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-1.1.list1">
+              <listIntroduction>The Municipality may in terms of section 229(1) of the <term refersTo="#term-Constitution" id="trm0">Constitution</term> impose:</listIntroduction>
+              <item id="section-1.1.list1.a">
+                <num>(a)</num>
+                <p>rates on property and surcharges on fees for services provided by or on behalf of the <term refersTo="#term-municipality" id="trm1">municipality</term>; and</p>
+              </item>
+              <item id="section-1.1.list1.b">
+                <num>(b)</num>
+                <p>other taxes, levies and duties, if authorised by national legislation.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-1.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-1.2.list1">
+              <listIntroduction>The <term refersTo="#term-municipality" id="trm2">municipality</term> may in terms of section 75A of the <term refersTo="#term-Systems_Act" id="trm3">Systems Act</term> -</listIntroduction>
+              <item id="section-1.2.list1.a">
+                <num>(a)</num>
+                <p>levy and recover fees, charges or tariffs in respect of any function or service of the <term refersTo="#term-municipality" id="trm4">municipality</term>; and</p>
+              </item>
+              <item id="section-1.2.list1.b">
+                <num>(b)</num>
+                <p>recover collection charges and interest on any outstanding amount.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-1.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-municipal_council" id="trm5">municipal council</term> must in terms of section 74(1) of the <term refersTo="#term-Systems_Act" id="trm6">Systems Act</term> adopt and implement a <term refersTo="#term-tariff_policy" id="trm7">tariff policy</term> on the levying of fees for municipal services provided by the <term refersTo="#term-municipality" id="trm8">municipality</term> itself or by way of service delivery agreements, and which complies with the provisions of the <term refersTo="#term-Systems_Act" id="trm9">Systems Act</term>, the <term refersTo="#term-Municipal_Finance_Management_Act" id="trm10">Municipal Finance Management Act</term> and with any other applicable legislation.</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.4">
+          <num>(4)</num>
+          <content>
+            <p>The <term refersTo="#term-municipal_council" id="trm11">municipal council</term> must in terms of section 75(1) of the <term refersTo="#term-Systems_Act" id="trm12">Systems Act</term> adopt a by-law to give effect to the implementation and enforcement of its <term refersTo="#term-tariff_policy" id="trm13">tariff policy</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.5">
+          <num>(5)</num>
+          <content>
+            <p>A by-law, contemplated in section 75(1) of the <term refersTo="#term-Systems_Act" id="trm14">Systems Act</term>, may in terms of section 75(2) differentiate between different categories of users, debtors, service providers, services, service standards, geographical areas and other matters as long as such differentiation does not amount to unfair discrimination.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Definitions</heading>
+        <paragraph id="section-2.paragraph-0">
+          <content>
+            <p>In this by-law, the English text prevails in the event of an inconsistency with the Afrikaans text and unless the context indicates otherwise:</p>
+            <p refersTo="#term-Constitution">"<def refersTo="#term-Constitution">Constitution</def>" means the Constitution of the Republic of South Africa, 1996;</p>
+            <p refersTo="#term-Credit_Control_and_Debt_Collection_By_Law">"<def refersTo="#term-Credit_Control_and_Debt_Collection_By_Law">Credit Control and Debt Collection By-Law</def>" means the <term refersTo="#term-municipality" id="trm15">municipality</term>’s Credit Control and Debt Collection By-Law as contemplated in sections 96(b), 97 and 98 of the <term refersTo="#term-Systems_Act" id="trm16">Systems Act</term>;</p>
+            <p refersTo="#term-Municipal_Finance_Management_Act">"<def refersTo="#term-Municipal_Finance_Management_Act">Municipal Finance Management Act</def>" means the Local Government: Municipal Finance Management Act, 2003 (<ref href="/za/act/2003/56">Act 56 of 2003</ref>);</p>
+            <p refersTo="#term-municipal_council">"<def refersTo="#term-municipal_council">municipal council</def>" means the municipal council of the <term refersTo="#term-municipality" id="trm17">municipality</term> contemplated in section 157(1) of the <term refersTo="#term-Constitution" id="trm18">Constitution</term>;</p>
+            <p refersTo="#term-municipality">"<def refersTo="#term-municipality">municipality</def>" means the Matzikama Municipality established in terms of section 12 of the Local Government: Municipal Structures <ref href="/za/act/1998/117">Act, No. 117 of 1998</ref>;</p>
+            <p refersTo="#term-Systems_Act">"<def refersTo="#term-Systems_Act">Systems Act</def>" means the Local Government: Municipal Systems Act, 2000, No. 32 of 2000;</p>
+            <p refersTo="#term-tariff">"<def refersTo="#term-tariff">tariff</def>" means moneys, fees or other charges which the <term refersTo="#term-municipality" id="trm19">municipality</term> may levy in respect of any function or service rendered by the <term refersTo="#term-municipality" id="trm20">municipality</term>, excluding rates levied by the <term refersTo="#term-municipality" id="trm21">municipality</term> in terms of the Local Government: Municipal Property Rates <ref href="/za/act/2004/6">Act, No. 6 of 2004</ref>; and</p>
+            <p refersTo="#term-tariff_policy">"<def refersTo="#term-tariff_policy">tariff policy</def>" means the policy of the <term refersTo="#term-municipality" id="trm22">municipality</term> as adopted by the <term refersTo="#term-municipal_council" id="trm23">municipal council</term> by resolution 7.2.4 of 29 May 2012.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Adoption and implementation of a <term refersTo="#term-tariff_policy" id="trm24">tariff policy</term></heading>
+        <subsection id="section-3.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-municipality" id="trm25">municipality</term> must adopt and implement a <term refersTo="#term-tariff_policy" id="trm26">tariff policy</term> on the levying of fees for a municipal service provided by the <term refersTo="#term-municipality" id="trm27">municipality</term> itself or by way of service delivery agreements, and which complies with the provisions of the <term refersTo="#term-Systems_Act" id="trm28">Systems Act</term>, the <term refersTo="#term-Municipal_Finance_Management_Act" id="trm29">Municipal Finance Management Act</term> and with any other applicable legislation.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-municipality" id="trm30">municipality</term> may not levy tariffs except in accordance with its <term refersTo="#term-tariff_policy" id="trm31">tariff policy</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Contents of a <term refersTo="#term-tariff_policy" id="trm32">tariff policy</term></heading>
+        <paragraph id="section-4.paragraph-0">
+          <content>
+            <blockList id="section-4.paragraph-0.list1">
+              <listIntroduction>The <term refersTo="#term-municipality" id="trm33">municipality</term>’s rates policy:</listIntroduction>
+              <item id="section-4.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>applies to all tariffs levied by the <term refersTo="#term-municipality" id="trm34">municipality</term> in accordance with its approved annual budget;</p>
+              </item>
+              <item id="section-4.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>reflects the principles contemplated in section 74(2) of the <term refersTo="#term-Systems_Act" id="trm35">Systems Act</term> and any additional principles for the levying of tariffs, which the <term refersTo="#term-municipal_council" id="trm36">municipal council</term> may determine;</p>
+              </item>
+              <item id="section-4.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>specifies the manner in which the principles contemplated in paragraph (b) should be introduced in terms of the <term refersTo="#term-tariff_policy" id="trm37">tariff policy</term>;</p>
+              </item>
+              <item id="section-4.paragraph-0.list1.d">
+                <num>(d)</num>
+                <p>specifies, for <term refersTo="#term-tariff" id="trm38">tariff</term> purposes, the grounds for differentiation, if any, between different categories of users, debtors, service providers, services, service standards, geographical areas and other matters as long as such differentiation does not amount to unfair discrimination; and</p>
+              </item>
+              <item id="section-4.paragraph-0.list1.e">
+                <num>(e)</num>
+                <p>includes such additional implementation mechanisms which the <term refersTo="#term-municipal_council" id="trm39">municipal council</term> may wish to introduce, supplementary to those provided for in the <term refersTo="#term-Credit_Control_and_Debt_Collection_By_Law" id="trm40">Credit Control and Debt Collection By-Law</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Enforcement of the <term refersTo="#term-tariff_policy" id="trm41">tariff policy</term></heading>
+        <paragraph id="section-5.paragraph-0">
+          <content>
+            <p>The <term refersTo="#term-municipality" id="trm42">municipality</term>’s <term refersTo="#term-tariff_policy" id="trm43">tariff policy</term> must be enforced by means of the <term refersTo="#term-Credit_Control_and_Debt_Collection_By_Law" id="trm44">Credit Control and Debt Collection By-Law</term> and Policy and any additional implementation mechanisms in accordance with its <term refersTo="#term-tariff_policy" id="trm45">tariff policy</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Repeal of by-laws</heading>
+        <paragraph id="section-6.paragraph-0">
+          <content>
+            <p>Any provision in a by-law, adopted by the <term refersTo="#term-municipality" id="trm46">municipality</term> or any of the disestablished municipalities that have been incorporated into the <term refersTo="#term-municipality" id="trm47">municipality</term>, which relates to any aspect provided for in this by-law is herewith repealed.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Short title and commencement</heading>
+        <paragraph id="section-7.paragraph-0">
+          <content>
+            <p>This By-law shall be called the Tariff By-Law of the Matzikama Municipality and shall come into operation on the date of publication thereof in the Provincial Gazette.</p>
+          </content>
+        </paragraph>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

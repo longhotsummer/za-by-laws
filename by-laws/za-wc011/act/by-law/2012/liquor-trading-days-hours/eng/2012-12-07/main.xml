@@ -1,0 +1,1111 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc011/act/by-law/2012/liquor-trading-days-hours/main"/>
+          <FRBRuri value="/za-wc011/act/by-law/2012/liquor-trading-days-hours"/>
+          <FRBRalias value="By-law on liquor trading days and hours of Matzikama Municipality (4/2012)"/>
+          <FRBRdate date="2012-12-07" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc011/act/by-law/2012/liquor-trading-days-hours/eng@2012-12-07/main"/>
+          <FRBRuri value="/za-wc011/act/by-law/2012/liquor-trading-days-hours/eng@2012-12-07"/>
+          <FRBRdate date="2012-12-07" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc011/act/by-law/2012/liquor-trading-days-hours/eng@2012-12-07/main"/>
+          <FRBRuri value="/za-wc011/act/by-law/2012/liquor-trading-days-hours/eng@2012-12-07"/>
+          <FRBRdate date="2018-07-09" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication number="7067" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" date="2012-12-07"/>
+      <lifecycle source="#OpenByLaws-org-za">
+        <eventRef id="repeal-2014-12-12" date="2014-12-12" type="repeal" source="#repeal-source"/>
+      </lifecycle>
+      <references source="#this">
+        <TLCOrganization id="OpenByLaws-org-za" href="https://indigo.openbylaws.org.za" showAs="OpenByLaws.org.za"/>
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-registered_premises" showAs="registered premises" href="/ontology/term/this.eng.registered_premises"/>
+        <TLCTerm id="term-place_of_entertainment" showAs="place of entertainment" href="/ontology/term/this.eng.place_of_entertainment"/>
+        <TLCTerm id="term-industrial_zones" showAs="industrial zones" href="/ontology/term/this.eng.industrial_zones"/>
+        <TLCTerm id="term-small_holding_or_rural_area" showAs="small holding or rural area" href="/ontology/term/this.eng.small_holding_or_rural_area"/>
+        <TLCTerm id="term-business_premises" showAs="business premises" href="/ontology/term/this.eng.business_premises"/>
+        <TLCTerm id="term-liquor" showAs="liquor" href="/ontology/term/this.eng.liquor"/>
+        <TLCTerm id="term-trading_days" showAs="trading days" href="/ontology/term/this.eng.trading_days"/>
+        <TLCTerm id="term-Authority" showAs="Authority" href="/ontology/term/this.eng.Authority"/>
+        <TLCTerm id="term-official" showAs="official" href="/ontology/term/this.eng.official"/>
+        <TLCTerm id="term-winery" showAs="winery" href="/ontology/term/this.eng.winery"/>
+        <TLCTerm id="term-business_zoned_areas" showAs="business zoned areas" href="/ontology/term/this.eng.business_zoned_areas"/>
+        <TLCTerm id="term-residential_area" showAs="residential area" href="/ontology/term/this.eng.residential_area"/>
+        <TLCTerm id="term-designated_liquor_officer" showAs="designated liquor officer" href="/ontology/term/this.eng.designated_liquor_officer"/>
+        <TLCTerm id="term-zoning_scheme" showAs="zoning scheme" href="/ontology/term/this.eng.zoning_scheme"/>
+        <TLCTerm id="term-premises" showAs="premises" href="/ontology/term/this.eng.premises"/>
+        <TLCTerm id="term-agricultural_zoned_areas" showAs="agricultural zoned areas" href="/ontology/term/this.eng.agricultural_zoned_areas"/>
+        <TLCTerm id="term-guest_accommodation_establishment" showAs="guest accommodation establishment" href="/ontology/term/this.eng.guest_accommodation_establishment"/>
+        <TLCTerm id="term-Responsible_Manager" showAs="Responsible Manager" href="/ontology/term/this.eng.Responsible_Manager"/>
+        <TLCTerm id="term-sports_and_community_clubs" showAs="sports and community clubs" href="/ontology/term/this.eng.sports_and_community_clubs"/>
+        <TLCTerm id="term-Liquor_License_Tribunal" showAs="Liquor License Tribunal" href="/ontology/term/this.eng.Liquor_License_Tribunal"/>
+        <TLCTerm id="term-selling_hours" showAs="selling hours" href="/ontology/term/this.eng.selling_hours"/>
+        <TLCTerm id="term-room_service_facility" showAs="room service facility" href="/ontology/term/this.eng.room_service_facility"/>
+        <TLCTerm id="term-Appeal_Tribunal" showAs="Appeal Tribunal" href="/ontology/term/this.eng.Appeal_Tribunal"/>
+        <TLCTerm id="term-hotel" showAs="hotel" href="/ontology/term/this.eng.hotel"/>
+        <TLCTerm id="term-Act" showAs="Act" href="/ontology/term/this.eng.Act"/>
+        <TLCTerm id="term-zoned" showAs="zoned" href="/ontology/term/this.eng.zoned"/>
+        <TLCTerm id="term-local_business_or_neighbourhood_business_area" showAs="local business or neighbourhood business area" href="/ontology/term/this.eng.local_business_or_neighbourhood_business_area"/>
+        <TLCTerm id="term-sparkling_wine" showAs="sparkling wine" href="/ontology/term/this.eng.sparkling_wine"/>
+        <TLCTerm id="term-licensee" showAs="licensee" href="/ontology/term/this.eng.licensee"/>
+        <TLCTerm id="term-sell" showAs="sell" href="/ontology/term/this.eng.sell"/>
+        <TLCTerm id="term-trading_hours" showAs="trading hours" href="/ontology/term/this.eng.trading_hours"/>
+        <TLCTerm id="term-Matzikama_Municipality" showAs="Matzikama Municipality" href="/ontology/term/this.eng.Matzikama_Municipality"/>
+        <passiveRef id="repeal-source" href="/za-wc011/act/by-law/2014/liquor-trading-days-hours" showAs="By-law on liquor trading days and hours of Matzikama Municipality"/>
+      </references>
+    </meta>
+    <preface>
+      <p>To provide for the control of undertakings selling liquor to the public in order to ensure a safe and healthy environment in the Matzikama municipal area; to provide for days and hours of trade in liquor by licensed undertakings that sell liquor to the public; and to provide for matters related thereto.</p>
+    </preface>
+    <preamble>
+      <p>WHEREAS a Municipality has the executive authority, in terms of Section 156(1)(a) read with Part B of Schedule 5 of the Constitution of the Republic of South Africa, 1996, to control undertakings that sell liquor to the public;</p>
+      <p>WHEREAS a Municipality may, in terms of Section 156(2) of the Constitution, make and administer by-laws for the effective administration of the matters which it has the right to administer;</p>
+      <p>WHEREAS a Municipality may, in terms of Section 11(3)(m) of the Local Government: Municipal System Act, 2000 (<ref href="/za/act/2000/32">Act 32 of 2000</ref>), pass by-laws and take decisions;</p>
+      <p>WHEREAS it is the intention of the Municipality to set trading days and hours for all licensed premises, business or outlets situated within the Matzikama municipal area that sell liquor to the public, in terms of Section 59(2) of the Western Cape Liquor Act, 2008 (<ref href="/za/act/2008/4">Act 4 of 2008</ref>);</p>
+      <p>AND NOW THEREFORE, BE IT ENACTED by the Council of the Matzikama Municipality, as follows:</p>
+    </preamble>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <subsection id="section-1.1">
+          <num>(1)</num>
+          <content>
+            <p>In this By-law, unless the context indicates otherwise;</p>
+            <p refersTo="#term-Act">"<def refersTo="#term-Act">Act</def>" means the Western Cape Liquor Act, 2008 (<ref href="/za/act/2008/4">Act 4 of 2008</ref>);</p>
+            <p refersTo="#term-agricultural_zoned_areas">"<def refersTo="#term-agricultural_zoned_areas">agricultural zoned areas</def>" means an area predominately <term refersTo="#term-zoned" id="trm0">zoned</term> agriculture or any other equivalent zoning, with purpose to promote and protect agricultural activity on a farm as an important economic, environmental and cultural resource, where limited provision is made for non-agricultural uses to provide owners with an opportunity to increase the economic potential of their properties, without causing a significant negative impact on the primary agricultural resource;</p>
+            <p refersTo="#term-Appeal_Tribunal">"<def refersTo="#term-Appeal_Tribunal">Appeal Tribunal</def>" means an Appeal Tribunal established in terms of section 25(1) of the <term refersTo="#term-Act" id="trm1">Act</term>;</p>
+            <p refersTo="#term-Authority">"<def refersTo="#term-Authority">Authority</def>" means the Western Cape Liquor Authority established by section 2(1) of the <term refersTo="#term-Act" id="trm2">Act</term>;</p>
+            <p refersTo="#term-business_premises">"<def refersTo="#term-business_premises">business premises</def>" means a property on which business is conducted and may include a restaurant, pub, bar or taverns or other building with similar uses, but exclude a <term refersTo="#term-place_of_entertainment" id="trm3">place of entertainment</term>, <term refersTo="#term-guest_accommodation_establishment" id="trm4">guest accommodation establishment</term>, <term refersTo="#term-hotel" id="trm5">hotel</term>, sports and community club;</p>
+            <p refersTo="#term-business_zoned_areas">"<def refersTo="#term-business_zoned_areas">business zoned areas</def>" means an area predominantly <term refersTo="#term-zoned" id="trm6">zoned</term> general business in terms of the Zoning Scheme, with the purpose to promote economic activity in a business district and development corridor, and includes a wide range of land uses such as business, residential and community uses;</p>
+            <p refersTo="#term-designated_liquor_officer">"<def refersTo="#term-designated_liquor_officer">designated liquor officer</def>" means a person designated as such in terms of section 73(1) of the <term refersTo="#term-Act" id="trm7">Act</term>;</p>
+            <p refersTo="#term-guest_accommodation_establishment">"<def refersTo="#term-guest_accommodation_establishment">guest accommodation establishment</def>" means <term refersTo="#term-premises" id="trm8">premises</term> uses as temporary residential accommodation for, and includes the provision of meals to, transient guests for compensation and includes a backpacker’s lodge, a bed-and-breakfast establishment, guest house and guest farm or lodge, as well as facilities for business meetings, conferences, events or training sessions of resident guests, but exclude a <term refersTo="#term-hotel" id="trm9">hotel</term>;</p>
+            <blockList id="section-1.1.list10" refersTo="#term-hotel">
+              <listIntroduction>"<def refersTo="#term-hotel">hotel</def>" means a property used as temporary residential accommodation for transient guests where lodging or meals are provided for compensation, and includes:</listIntroduction>
+              <item id="section-1.1.list10.a">
+                <num>(a)</num>
+                <p>a restaurant or restaurants forming part of a hotel;</p>
+              </item>
+              <item id="section-1.1.list10.b">
+                <num>(b)</num>
+                <p>conference and entertainment facilities that are subservient and ancillary to the dominant use of a <term refersTo="#term-premises" id="trm10">premises</term> as a hotel;</p>
+              </item>
+              <item id="section-1.1.list10.c">
+                <num>(c)</num>
+                <p><term refersTo="#term-premises" id="trm11">premises</term> which are licensed to <term refersTo="#term-sell" id="trm12">sell</term> alcoholic beverages for consumption on the property, but excludes an off-consumption facility, <term refersTo="#term-guest_accommodation_establishment" id="trm13">guest accommodation establishment</term>, dwelling house or dwelling unit;</p>
+              </item>
+            </blockList>
+            <p refersTo="#term-industrial_zones">"<def refersTo="#term-industrial_zones">industrial zones</def>" means an area predominantly <term refersTo="#term-zoned" id="trm14">zoned</term> industrial that accommodate all forms of industry, but do not include noxious or hazardous trade risk activities;</p>
+            <p refersTo="#term-licensee">"<def refersTo="#term-licensee">licensee</def>" means any person who is licensed to <term refersTo="#term-sell" id="trm15">sell</term> <term refersTo="#term-liquor" id="trm16">liquor</term> in terms of the <term refersTo="#term-Act" id="trm17">Act</term> and includes any licensed <term refersTo="#term-premises" id="trm18">premises</term>, businesses, outlet or land use activity from which <term refersTo="#term-liquor" id="trm19">liquor</term> is sold;</p>
+            <p refersTo="#term-liquor">"<def refersTo="#term-liquor">liquor</def>" means liquor as defined in Section 1 of the <term refersTo="#term-Act" id="trm20">Act</term>;</p>
+            <p refersTo="#term-Liquor_License_Tribunal">"<def refersTo="#term-Liquor_License_Tribunal">Liquor License Tribunal</def>" means the Liquor Tribunal as defined in Section 1 of the <term refersTo="#term-Act" id="trm21">Act</term>;</p>
+            <p refersTo="#term-local_business_or_neighbourhood_business_area">"<def refersTo="#term-local_business_or_neighbourhood_business_area">local business or neighbourhood business area</def>" means an area predominantly <term refersTo="#term-zoned" id="trm22">zoned</term> local business or mixed use or any other equivalent zoning, with the purposes to accommodate low density commercial and mixed use development serving local needs of convenience goods, personal service or small scale business nature or serve as an interface between general business, industrial and adjacent <term refersTo="#term-residential_area" id="trm23">residential area</term>;</p>
+            <p refersTo="#term-Matzikama_Municipality">"<def refersTo="#term-Matzikama_Municipality">Matzikama Municipality</def>" means the Matzikama Municipality established by the Establish Notice published in Provincial Notice No. 481 of 2000, as amended, and "Municipality" has a corresponding meaning;</p>
+            <p refersTo="#term-official">"<def refersTo="#term-official">official</def>" means any person authorized by the <term refersTo="#term-Authority" id="trm24">Authority</term> to perform the function of an officer under this By-law and includes any member of the South African Police Services and any person appointed in terms of the <term refersTo="#term-Act" id="trm25">Act</term>;</p>
+            <p refersTo="#term-premises">"<def refersTo="#term-premises">premises</def>" includes any place, land, building or conveyance or any part thereof which is registered or which is seeking to be registered to trade in <term refersTo="#term-liquor" id="trm26">liquor</term>;</p>
+            <p refersTo="#term-place_of_entertainment">"<def refersTo="#term-place_of_entertainment">place of entertainment</def>" means place use predominantly for commercial entertainment which may attract relatively large numbers of people, operate outside normal business hours or generate noise from music or revelry on a regular basis, and includes a cinema theatre, amusement park, dance hall, gymnasium, facility for betting, gambling hall, karaoke bar and night club;</p>
+            <p refersTo="#term-registered_premises">"<def refersTo="#term-registered_premises">registered premises</def>" means <term refersTo="#term-premises" id="trm27">premises</term> on or from which a <term refersTo="#term-licensee" id="trm28">licensee</term> conduct his or her business;</p>
+            <p refersTo="#term-residential_area">"<def refersTo="#term-residential_area">residential area</def>" means an area predominantly <term refersTo="#term-zoned" id="trm29">zoned</term> Residential 1, 2 or 3 or any other equivalent zoning, with the purpose of accommodate predominantly single-families in low and medium density neighbourhoods, as well as higher densities living accommodation and which include controlled opportunities for home employment, additional dwellings and low intensity mixed use development;</p>
+            <p refersTo="#term-Responsible_Manager">"<def refersTo="#term-Responsible_Manager">Responsible Manager</def>" means a manager that will take overall responsibility for the processing of <term refersTo="#term-liquor" id="trm30">liquor</term> license application and appeals;</p>
+            <p refersTo="#term-room_service_facility">"<def refersTo="#term-room_service_facility">room service facility</def>" means a mini bar or self-help facility or the consumption of <term refersTo="#term-liquor" id="trm31">liquor</term> in guest rooms and call-up service for residents guests;</p>
+            <p refersTo="#term-sell">"<def refersTo="#term-sell">sell</def>" includes supply, exchange, offer for sale, display for the purpose of sale or authorise, direct, or allow a sale;</p>
+            <p refersTo="#term-selling_hours">"<def refersTo="#term-selling_hours">selling hours</def>" means the time during which a <term refersTo="#term-licensee" id="trm32">licensee</term> is allowed to <term refersTo="#term-sell" id="trm33">sell</term> <term refersTo="#term-liquor" id="trm34">liquor</term> in terms of the Schedule;</p>
+            <p refersTo="#term-small_holding_or_rural_area">"<def refersTo="#term-small_holding_or_rural_area">small holding or rural area</def>" means an area predominantly <term refersTo="#term-zoned" id="trm35">zoned</term> Agriculture or any other equivalent zoning, with the purpose to accommodate smaller rural properties that may be used for agricultural purposes, but may also be used primarily as places of residence in a more country or rural setting;</p>
+            <p refersTo="#term-sparkling_wine">"<def refersTo="#term-sparkling_wine">sparkling wine</def>" means an effervescent wine resulting from the fermentation of grapes, whether by natural or artificial processes, and includes Champagne;</p>
+            <p refersTo="#term-sports_and_community_clubs">"<def refersTo="#term-sports_and_community_clubs">sports and community clubs</def>" means <term refersTo="#term-premises" id="trm36">premises</term> or facility used for the gathering of community or civic organisations or associations, sports clubs or other social or recreational clubs run mostly not or profit and may include community service clubs and community centres or similar amenities, but excludes a night club;</p>
+            <p refersTo="#term-trading_days">"<def refersTo="#term-trading_days">trading days</def>" means the days on which <term refersTo="#term-liquor" id="trm37">liquor</term> may be sold during <term refersTo="#term-trading_hours" id="trm38">trading hours</term>;</p>
+            <p refersTo="#term-trading_hours">"<def refersTo="#term-trading_hours">trading hours</def>" means the hours during which <term refersTo="#term-liquor" id="trm39">liquor</term> may be sold on <term refersTo="#term-trading_days" id="trm40">trading days</term>;</p>
+            <blockList id="section-1.1.list32" refersTo="#term-winery">
+              <listIntroduction>"<def refersTo="#term-winery">winery</def>" includes <term refersTo="#term-premises" id="trm41">premises</term> or facilities which are used in the production of wine and such <term refersTo="#term-premises" id="trm42">premises</term> and facilities include facilities for crushing grapes and fermentation and aging of wine, tasting rooms, barrel and storage rooms, bottling rooms, tank rooms, laboratories or offices and other accessory or ancillary facilities incidental to the production of wine, which may include:</listIntroduction>
+              <item id="section-1.1.list32.a">
+                <num>(a)</num>
+                <p>restaurants and other food services; or</p>
+              </item>
+              <item id="section-1.1.list32.b">
+                <num>(b)</num>
+                <p>subsidiary retail facilities to tours or visitors</p>
+              </item>
+            </blockList>
+            <p refersTo="#term-zoned">"<def refersTo="#term-zoned">zoned</def>" means zoned and zoning as the case may be in terms of the applicable <term refersTo="#term-zoning_scheme" id="trm43">zoning scheme</term> or any applicable law and "zoning" has a corresponding meaning;</p>
+            <p refersTo="#term-zoning_scheme">"<def refersTo="#term-zoning_scheme">zoning scheme</def>" means the zoning scheme applicable to the area and in force with the area of jurisdiction of the <term refersTo="#term-Matzikama_Municipality" id="trm44">Matzikama Municipality</term></p>
+          </content>
+        </subsection>
+        <subsection id="section-1.2">
+          <num>(2)</num>
+          <content>
+            <p>In this By-law, unless the context indicates otherwise, any word or expression to which a meaning has been assigned in the <term refersTo="#term-Act" id="trm45">Act</term> has that meaning read together with the applicable Land Use Scheme Regulations.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Purpose of By-law</heading>
+        <paragraph id="section-2.paragraph-0">
+          <content>
+            <p>The Municipality, acting in terms of the powers granted to it in the <term refersTo="#term-Act" id="trm46">Act</term>, adopts this By-law with the aim of regulating the hours during which <term refersTo="#term-liquor" id="trm47">liquor</term> may be sold and matters related thereto.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Application of by-law</heading>
+        <paragraph id="section-3.paragraph-0">
+          <content>
+            <blockList id="section-3.paragraph-0.list1">
+              <listIntroduction>This By-law applies to all <term refersTo="#term-premises" id="trm48">premises</term>, situated within the area of jurisdiction of the Municipality, on which a business in the trading of <term refersTo="#term-liquor" id="trm49">liquor</term>:</listIntroduction>
+              <item id="section-3.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>Those selling <term refersTo="#term-liquor" id="trm50">liquor</term> to the public for consumption on the licensed <term refersTo="#term-premises" id="trm51">premises</term>;</p>
+              </item>
+              <item id="section-3.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>Those selling <term refersTo="#term-liquor" id="trm52">liquor</term> to the public for consumption off the licensed <term refersTo="#term-premises" id="trm53">premises</term>; and</p>
+              </item>
+              <item id="section-3.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>Those selling <term refersTo="#term-liquor" id="trm54">liquor</term> to the public for consumption on and off the licensed <term refersTo="#term-premises" id="trm55">premises</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Public participation and duties of municipality</heading>
+        <subsection id="section-4.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-4.1.list1">
+              <listIntroduction>Upon receipt of a copy of the application to <term refersTo="#term-sell" id="trm56">sell</term> <term refersTo="#term-liquor" id="trm57">liquor</term> from the <term refersTo="#term-designated_liquor_officer" id="trm58">designated liquor officer</term> as contemplated in Section 37(4) of the <term refersTo="#term-Act" id="trm59">Act</term>, and in order to comply with the requirements of Section 40 of the <term refersTo="#term-Act" id="trm60">Act</term>, the Municipality must:</listIntroduction>
+              <item id="section-4.1.list1.a">
+                <num>(a)</num>
+                <p>allow the public to have access to the application by posting a copy of the application on all municipal notice boards; and</p>
+              </item>
+              <item id="section-4.1.list1.b">
+                <num>(b)</num>
+                <p>make available copies of such application when requested by a member of the public against payment of a fee as determined by the Municipality from time to time; and</p>
+              </item>
+              <item id="section-4.1.list1.c">
+                <num>(c)</num>
+                <p>subject to subsection (2), instruct the ward councillor in whose ward the proposed <term refersTo="#term-premises" id="trm61">premises</term> is situated to submit written comments.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-4.2.list1">
+              <listIntroduction>The ward councillor who receives an instruction as contemplated in subsection (1)(c) must, within 7 days:</listIntroduction>
+              <item id="section-4.2.list1.a">
+                <num>(a)</num>
+                <p>convene a ward committee meeting to solicit the ward committee members’ views with regard to the application that the applicant lodged with the Liquor Board;</p>
+              </item>
+              <item id="section-4.2.list1.b">
+                <num>(b)</num>
+                <p>convene a consultative meeting with community of the area within a radius of 100 metres of the <term refersTo="#term-premises" id="trm62">premises</term> that are sought to be registered to discuss and solicit their views with regard to the application that the applicant lodged with the Liquor Board;</p>
+              </item>
+              <item id="section-4.2.list1.c">
+                <num>(c)</num>
+                <p>compile and submit a report to the Director Corporate Services stipulating the date of the meetings referred to in subsections (2)(a) and (b), the time of the meetings, the original attendance register with the names and the addresses of the people who attended, indicate whether he or she objects to or recommends the application and what additional conditions he or she proposes, if any; and</p>
+              </item>
+              <item id="section-4.2.list1.d">
+                <num>(d)</num>
+                <p>attach the minutes of the meetings referred to in subsections (2)(a) and (b).</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4.3">
+          <num>(3)</num>
+          <content>
+            <p>The municipality must, within 7 days, of receipt of a ward councillor’s report consider such report and submit to the Board, within the prescribed period, the documents as contemplated in section 40 of the <term refersTo="#term-Act" id="trm63">Act</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.4">
+          <num>(4)</num>
+          <content>
+            <p>For the purpose of considering a report as contemplated in subsection (3), an <term refersTo="#term-official" id="trm64">official</term> may undertake such investigation or request such information as he or she may deem necessary for consideration by the Municipality, and must submit his or her findings to the Municipality.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.5">
+          <num>(5)</num>
+          <content>
+            <p>For the purpose of considering a report as contemplated in subsection (3), an <term refersTo="#term-official" id="trm65">official</term> may undertake such investigation or request such information as he or she may deem necessary for consideration by the <term refersTo="#term-Authority" id="trm66">Authority</term>, and must submit his or her findings to the <term refersTo="#term-Authority" id="trm67">Authority</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Trading days and hours for sale and consumption of <term refersTo="#term-liquor" id="trm68">liquor</term> on licensed <term refersTo="#term-premises" id="trm69">premises</term></heading>
+        <subsection id="section-5.1">
+          <num>(1)</num>
+          <content>
+            <p>A <term refersTo="#term-licensee" id="trm70">licensee</term> may <term refersTo="#term-sell" id="trm71">sell</term> <term refersTo="#term-liquor" id="trm72">liquor</term> for consumption on the licensed <term refersTo="#term-premises" id="trm73">premises</term> during any day of the week and hours of trade as set out in the Schedule and be reviewed by the Municipality from time to time.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.2">
+          <num>(2)</num>
+          <content>
+            <p>Despite subsection (1) a <term refersTo="#term-hotel" id="trm74">hotel</term> or <term refersTo="#term-guest_accommodation_establishment" id="trm75">guest accommodation establishment</term> licensed to <term refersTo="#term-sell" id="trm76">sell</term> <term refersTo="#term-liquor" id="trm77">liquor</term> may offer a <term refersTo="#term-room_service_facility" id="trm78">room service facility</term> at any time of day.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-5.3.list1">
+              <listIntroduction>Despite the provisions of this By-law, a <term refersTo="#term-licensee" id="trm79">licensee</term> as contemplated in subsection (1), may serve <term refersTo="#term-sparkling_wine" id="trm80">sparkling wine</term>:</listIntroduction>
+              <item id="section-5.3.list1.a">
+                <num>(a)</num>
+                <p>from 08H00 to 23H00 for seven days a week; and</p>
+              </item>
+              <item id="section-5.3.list1.b">
+                <num>(b)</num>
+                <p>as part of a meal; and</p>
+              </item>
+              <item id="section-5.3.list1.c">
+                <num>(c)</num>
+                <p>to guests who are part of an organised function where admittance is controlled.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Trading days and hours for sale of <term refersTo="#term-liquor" id="trm81">liquor</term> for consumption off licensed <term refersTo="#term-premises" id="trm82">premises</term></heading>
+        <paragraph id="section-6.paragraph-0">
+          <content>
+            <p>A <term refersTo="#term-licensee" id="trm83">licensee</term> may <term refersTo="#term-sell" id="trm84">sell</term> <term refersTo="#term-liquor" id="trm85">liquor</term> for consumption off the licensed <term refersTo="#term-premises" id="trm86">premises</term> during any day of the week and hours of trade as set out in the Schedule and be reviewed by the Municipality from time to time.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Transitional provisions</heading>
+        <subsection id="section-7.1">
+          <num>(1)</num>
+          <content>
+            <p>Subject to the provisions in the <term refersTo="#term-Act" id="trm87">Act</term>, <term refersTo="#term-trading_hours" id="trm88">trading hours</term> applicable to a <term refersTo="#term-liquor" id="trm89">liquor</term> license issued before the commencement of this By-law shall continue to apply until such license is renewed in terms of the <term refersTo="#term-Act" id="trm90">Act</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-trading_hours" id="trm91">trading hours</term> referred to in subsection (1) shall be valid until the license has lapsed as contemplated in Section 62(2) of the <term refersTo="#term-Act" id="trm92">Act</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Vicarious responsibility</heading>
+        <subsection id="section-8.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-8.1.list1">
+              <listIntroduction>If the manager, agent or employee of a <term refersTo="#term-licensee" id="trm93">licensee</term> sells <term refersTo="#term-liquor" id="trm94">liquor</term> in contravention of Section 5 and 6 of this By-law, the <term refersTo="#term-licensee" id="trm95">licensee</term> is deemed to have sold such <term refersTo="#term-liquor" id="trm96">liquor</term>, except where:</listIntroduction>
+              <item id="section-8.1.list1.a">
+                <num>(a)</num>
+                <p>the <term refersTo="#term-licensee" id="trm97">licensee</term> neither connived at, permitted or allowed such sale; and</p>
+              </item>
+              <item id="section-8.1.list1.b">
+                <num>(b)</num>
+                <p>the <term refersTo="#term-licensee" id="trm98">licensee</term> took such steps as he or she was reasonably able take in order to prevent the sale; and</p>
+              </item>
+              <item id="section-8.1.list1.c">
+                <num>(c)</num>
+                <p>the sale did not fall within the scope of the employment or authority of the manager, agent or employee.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-8.2">
+          <num>(2)</num>
+          <content>
+            <p>The fact that a <term refersTo="#term-licensee" id="trm99">licensee</term> has issued instructions prohibiting such sale is not in itself sufficient to prove that he or she took the steps required by subsection (1)(b).</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.3">
+          <num>(3)</num>
+          <content>
+            <p>When a <term refersTo="#term-licensee" id="trm100">licensee</term> is liable in terms of subsection (1) the manager, agent or employee is also liable therefore as if he or she was the <term refersTo="#term-licensee" id="trm101">licensee</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Appeal</heading>
+        <subsection id="section-9.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Appeal_Tribunal" id="trm102">Appeal Tribunal</term> must consider any appeal against, or an application for the review of a decision of the <term refersTo="#term-Authority" id="trm103">Authority</term> in terms of section 20(3) of the <term refersTo="#term-Act" id="trm104">Act</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.2">
+          <num>(2)</num>
+          <content>
+            <p>An applicant or interested and affected party who is aggrieved by a decision of the <term refersTo="#term-Authority" id="trm105">Authority</term> may, within the prescribed period after receiving reasons for a decision of the <term refersTo="#term-Authority" id="trm106">Authority</term>, lodge with the <term refersTo="#term-Authority" id="trm107">Authority</term> a notice of appeal or review as prescribed;</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Offences and Penalties</heading>
+        <subsection id="section-10.1">
+          <num>(1)</num>
+          <content>
+            <p>A <term refersTo="#term-licensee" id="trm108">licensee</term> who contravenes Section 5 and 6 of this By-law commits an offence.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.2">
+          <num>(2)</num>
+          <content>
+            <p>A <term refersTo="#term-licensee" id="trm109">licensee</term> who commits an offense referred to in subsection (1) is, on conviction, liable for a fine as the court may deem fit to impose or to a term of imprisonment not exceeding three years, or to both such fine or such imprisonment.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.3">
+          <num>(3)</num>
+          <content>
+            <p>Any person who commits a continuing offence shall be guilty of an offence for each day during which that person fails to comply with this By-law.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.4">
+          <num>(4)</num>
+          <content>
+            <p>A court convicting a person of an offence under this By-law may impose alternative sentencing in place of a fine or imprisonment.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-11">
+        <num>11.</num>
+        <heading>Repeal</heading>
+        <paragraph id="section-11.paragraph-0">
+          <content>
+            <p>The provisions of any By-laws previously promulgated by the Municipality or by any of the disestablished Municipalities now incorporated in the Municipality area hereby repealed as far as they relate to matters provided for in this By-law.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-12">
+        <num>12.</num>
+        <heading>Short title and commencement</heading>
+        <paragraph id="section-12.paragraph-0">
+          <content>
+            <p>This By-law shall be called the By-law on <term refersTo="#term-liquor" id="trm110">liquor</term> <term refersTo="#term-trading_days" id="trm111">trading days</term> and hours of <term refersTo="#term-Matzikama_Municipality" id="trm112">Matzikama Municipality</term> (4/2012) and shall come into operation on the date of publication thereof in the Provincial Gazette.</p>
+          </content>
+        </paragraph>
+      </section>
+    </body>
+  </act>
+  <components>
+    <component id="component-schedule">
+      <doc name="schedule">
+        <meta>
+          <identification source="#slaw">
+            <FRBRWork>
+              <FRBRthis value="/za-wc011/act/by-law/2012/liquor-trading-days-hours/schedule"/>
+              <FRBRuri value="/za-wc011/act/by-law/2012/liquor-trading-days-hours"/>
+              <FRBRalias value="Schedule"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-wc011/act/by-law/2012/liquor-trading-days-hours/eng@2012-12-07/schedule"/>
+              <FRBRuri value="/za-wc011/act/by-law/2012/liquor-trading-days-hours/eng@2012-12-07"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-wc011/act/by-law/2012/liquor-trading-days-hours/eng@2012-12-07/schedule"/>
+              <FRBRuri value="/za-wc011/act/by-law/2012/liquor-trading-days-hours/eng@2012-12-07"/>
+              <FRBRdate date="2018-07-05" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedule">
+            <paragraph id="schedule.paragraph-0">
+              <content>
+                <table xmlns="http://www.akomantoso.org/2.0" id="schedule/schedule.paragraph-0.table0">
+                  <tr>
+                    <th>
+                      <p>A</p>
+                    </th>
+                    <th>
+                      <p>Licence in terms of Section 33(a) of the Act for micro manufacturing and sale of liquor for consumption both on and off the premises</p>
+                    </th>
+                    <th>
+                      <p/>
+                    </th>
+                    <th>
+                      <p/>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                    <th>
+                      <p>TRADING DAYS AND HOURS</p>
+                    </th>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <th>
+                      <p>1. Small holding or rural areas</p>
+                    </th>
+                    <th>
+                      <p>On-consumption</p>
+                    </th>
+                    <th>
+                      <p>Off-consumption</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Cellars / wine makers / home distillers / winery boutiques</p>
+                    </td>
+                    <td>
+                      <p>11:00-23:00 Mon - Thur<eol/>11:00-02:00 Fri - Sat</p>
+                    </td>
+                    <td>
+                      <p>08:00-20:00 Mon - Fri<eol/>08:00-17:00 Sat</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <th>
+                      <p>2. Industrial zones</p>
+                    </th>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Cellars / wine makers / home distillers / winery boutiques</p>
+                    </td>
+                    <td>
+                      <p>11:00-20:00 Mon -Thur<eol/>11:00-02:00 Fri - Sat</p>
+                    </td>
+                    <td>
+                      <p>08:00-20:00 Mon - Fri<eol/>08:00-17:00 Sat</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <p>B</p>
+                    </th>
+                    <th>
+                      <p>Licence in terms of Section 33(b) of the Act for the sale of liquor for consumption on the premises</p>
+                    </th>
+                    <th>
+                      <p/>
+                    </th>
+                    <th>
+                      <p/>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <th>
+                      <p>1. Residential areas</p>
+                    </th>
+                    <th>
+                      <p>On-consumption</p>
+                    </th>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Pub / bar / tavern</p>
+                    </td>
+                    <td>
+                      <p>08:00-20:00 Mon - Fri<eol/>08:00-17:00 Sat</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Guest houses / backpacker's / lodges (whether conference facilities included or not)</p>
+                    </td>
+                    <td>
+                      <p>10:00-02:00 Mon - Sun</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Events &amp;amp; function centres</p>
+                    </td>
+                    <td>
+                      <p>10:00-00:00 Mon - Sun</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Hotel &amp; casino</p>
+                    </td>
+                    <td>
+                      <p>24 hours every day of the week</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <th>
+                      <p>2. Local neighbourhood and general business centres (business zoned area)</p>
+                    </th>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Pub / bar / tavern / restaurant / pub and grub</p>
+                    </td>
+                    <td>
+                      <p>08:00-00:00 Mon - Sat<eol/>10:00-21:00 Sun</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Guest houses/ backpacker's / lodges (whether conference facilities / events / function centres included or not)</p>
+                    </td>
+                    <td>
+                      <p>08:00-00:00 Mon-Sat<eol/>10:00-21:00 Sun</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Sports and community centres / service clubs / amenity facilities (excludes special events / temporary licences)</p>
+                    </td>
+                    <td>
+                      <p>08:00-00:00 Mon-Sat<eol/>10:00-21:00 Sun</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Night club / karaoke / place of entertainment / discotheque / jazz clubs / escort agency</p>
+                    </td>
+                    <td>
+                      <p>10:00-02:00 Mon - Sat</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Hotel &amp; casino</p>
+                    </td>
+                    <td>
+                      <p>24 hours every day of the week</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <th>
+                      <p>3. Industrial zones</p>
+                    </th>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Pub / bar / tavern / restaurant / pub and grub</p>
+                    </td>
+                    <td>
+                      <p>08:00-04:00 Mon - Sat<eol/>10:00-22:00 Sun</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Night club / karaoke / place of entertainment / discotheque / jazz clubs / escort agency</p>
+                    </td>
+                    <td>
+                      <p>10:00-04:00 Mon - Sat</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Sports and community centres / service clubs / amenity facilities (includes special events / temporary licenses)</p>
+                    </td>
+                    <td>
+                      <p>08:00-02:00 Mon - Sat<eol/>10:00-22:00 Sun</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Hotel &amp; casino</p>
+                    </td>
+                    <td>
+                      <p>24 hours every day of the week</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <th>
+                      <p>4. Small holding or rural areas</p>
+                    </th>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Pub / bar / tavern / pub and grub / restaurant</p>
+                    </td>
+                    <td>
+                      <p>08:00-20:00 Mon - Thur<eol/>08:00-00:00 Fri - Sat<eol/>10:00-20:00 Sun</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Guest houses / backpacker's / lodges (whether conference facilities / events / function centres included or not)</p>
+                    </td>
+                    <td>
+                      <p>08:00-00:00 Mon-Sat<eol/>10:00-02:00 Sun</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Sports and community centres / service clubs / amenity facilities (excludes special events / temporary licences)</p>
+                    </td>
+                    <td>
+                      <p>08:00-00:00 Mon-Sat<eol/>10:00-02:00 Sun</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Hotel &amp; casino</p>
+                    </td>
+                    <td>
+                      <p>24 hours every day of the week</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <p>C</p>
+                    </th>
+                    <th>
+                      <p>Licence in terms of Section 33(c) of the Act for the sale of liquor for consumption off the premises</p>
+                    </th>
+                    <th>
+                      <p/>
+                    </th>
+                    <th>
+                      <p/>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <th>
+                      <p>1. Residential areas</p>
+                    </th>
+                    <td>
+                      <p/>
+                    </td>
+                    <th>
+                      <p>Off-consumption</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Tavern / off-sales</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>08:00-20:00 Mon - Fri<eol/>08:00-17:00 Sat</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <th>
+                      <p>2. Local neighbourhood and general business centres (business zoned area)</p>
+                    </th>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Liquor or bottle stores / specialised wine shops / retail food store / off-sales</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>08:00-20:00 Mon - Fri<eol/>08:00-17:00 Sat</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Wholesaler</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>08:00-17:00 Mon - Sat</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <th>
+                      <p>3. Industrial zones</p>
+                    </th>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Liquor or bottle stores / specialised wine shops / retail food store / off-sales</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>08:00-20:00 Mon - Fri<eol/>08:00-17:00 Sat</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Wholesaler</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>08:00-17:00 Mon - Sat</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <p>D</p>
+                    </th>
+                    <th>
+                      <p>Licence in terms of Section 33(d) of the Act for the sale of liquor for consumption on and off the premises</p>
+                    </th>
+                    <th>
+                      <p/>
+                    </th>
+                    <th>
+                      <p/>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                    <th>
+                      <p>On-consumption</p>
+                    </th>
+                    <th>
+                      <p>Off-consumption</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Exceptional circumstances</p>
+                    </td>
+                    <td>
+                      <p>10:00-00:00 Mon -Thur<eol/>10:00-02:00 Fri - Sat<eol/>10:00-22:00 Sun</p>
+                    </td>
+                    <td>
+                      <p>09:00-20:00 Mon - Fri<eol/>08:00-14:00 Sat</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <p>E</p>
+                    </th>
+                    <th>
+                      <p>License in terms of Section 33(e) of the Act for the sale of liquor for consumption on and off the premises at a special event</p>
+                    </th>
+                    <th>
+                      <p/>
+                    </th>
+                    <th>
+                      <p/>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                    <th>
+                      <p>On-consumption</p>
+                    </th>
+                    <th>
+                      <p>Off-consumption</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Concert / festival / sporting events / entertainment event (As determined by event permit and / or liquor tribunal)</p>
+                    </td>
+                    <td>
+                      <p>10:00-23:00 Mon -Thur<eol/>10:00-00:00 Fri - Sat<eol/>10:00-20:00 Sun</p>
+                    </td>
+                    <td>
+                      <p>08:00-20:00 Mon - Fri<eol/>08:00-17:00 Sat</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <p>F</p>
+                    </th>
+                    <th>
+                      <p>A temporary licence in terms of Section 33(f) of the Act for the sale of liquor for consumption on and off the premises at a special event (see Section 48(1) of the Act)</p>
+                    </th>
+                    <th>
+                      <p/>
+                    </th>
+                    <th>
+                      <p/>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                    <th>
+                      <p>On-consumption</p>
+                    </th>
+                    <th>
+                      <p>Off-consumption</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>The days and hours will be the same as contained in this schedule depending on the type of licence and the location of event for which is applied for.</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p>Note: Determination of applicable location category<eol/>Where the location category as set out above is unclear or in dispute or difficult to determine areas which are not zoned homogenously (e.g. a business zoned premises in the middle of a residential zoned area). The actual zoning of the subject licensed premises will take precedence in order to determine the category.</p>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                    <td>
+                      <p/>
+                    </td>
+                  </tr>
+                </table>
+              </content>
+            </paragraph>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>

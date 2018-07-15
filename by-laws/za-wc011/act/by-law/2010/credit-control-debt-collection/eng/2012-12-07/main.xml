@@ -1,0 +1,386 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="singleVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc011/act/by-law/2010/credit-control-debt-collection/main"/>
+          <FRBRuri value="/za-wc011/act/by-law/2010/credit-control-debt-collection"/>
+          <FRBRalias value="Credit Control and Debt Collection By-Law of the Matzikama Municipality"/>
+          <FRBRdate date="2010-09-10" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc011/act/by-law/2010/credit-control-debt-collection/eng@2012-12-07/main"/>
+          <FRBRuri value="/za-wc011/act/by-law/2010/credit-control-debt-collection/eng@2012-12-07"/>
+          <FRBRdate date="2012-12-07" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc011/act/by-law/2010/credit-control-debt-collection/eng@2012-12-07/main"/>
+          <FRBRuri value="/za-wc011/act/by-law/2010/credit-control-debt-collection/eng@2012-12-07"/>
+          <FRBRdate date="2018-07-09" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication number="6788" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" date="2010-09-10"/>
+      <lifecycle source="#OpenByLaws-org-za">
+        <eventRef id="amendment-2012-12-07" date="2012-12-07" type="amendment" source="#amendment-0-source"/>
+      </lifecycle>
+      <references source="#this">
+        <TLCOrganization id="OpenByLaws-org-za" href="https://indigo.openbylaws.org.za" showAs="OpenByLaws.org.za"/>
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-user" showAs="user" href="/ontology/term/this.eng.user"/>
+        <TLCTerm id="term-Municipality" showAs="Municipality" href="/ontology/term/this.eng.Municipality"/>
+        <TLCTerm id="term-service" showAs="service" href="/ontology/term/this.eng.service"/>
+        <TLCTerm id="term-due_date" showAs="due date" href="/ontology/term/this.eng.due_date"/>
+        <TLCTerm id="term-arrangement" showAs="arrangement" href="/ontology/term/this.eng.arrangement"/>
+        <TLCTerm id="term-debtor" showAs="debtor" href="/ontology/term/this.eng.debtor"/>
+        <TLCTerm id="term-policy" showAs="policy" href="/ontology/term/this.eng.policy"/>
+        <TLCTerm id="term-Council" showAs="Council" href="/ontology/term/this.eng.Council"/>
+        <TLCTerm id="term-Municipal_Manager" showAs="Municipal Manager" href="/ontology/term/this.eng.Municipal_Manager"/>
+        <TLCTerm id="term-debt" showAs="debt" href="/ontology/term/this.eng.debt"/>
+        <passiveRef id="amendment-0-source" href="/za-wc011/act/by-law/2012/credit-control-debt-collection-amendment" showAs="Credit Control and Debt Collection Amendment By-law of Matzikama Municipality (3/2012)"/>
+      </references>
+    </meta>
+    <preface>
+      <p>In order to give effect to the Municipality’s credit control and debt collection policy, its implementation and enforcement, as required by section 98 of the Local Government: Municipal Systems Act, 2000 (<ref href="/za/act/2000/32">Act 32 of 2000</ref>) and to give effect to the duty imposed by section 96 of the Local Government: Municipal Systems Act, 2000 (<ref href="/za/act/2000/32">Act 32 of 2000</ref>) to collect all money that is due and payable to the Municipality, the Matzikama Municipality hereby adopts the following by-law in terms of section 75 of the Local Government: Municipal Systems Act, 2000 (<ref href="/za/act/2000/32">Act 32 of 2000</ref>) and section 156(2) of the Constitution of the Republic of South Africa, 1996:</p>
+    </preface>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <paragraph id="section-1.paragraph-0">
+          <content>
+            <p>Unless inconsistent with the context:</p>
+            <p refersTo="#term-arrangement">"<def refersTo="#term-arrangement">arrangement</def>" means a written agreement entered into between the <term refersTo="#term-Council" id="trm0">Council</term> and a <term refersTo="#term-debtor" id="trm1">debtor</term> where specific parameters for the payment of a <term refersTo="#term-debt" id="trm2">debt</term> are agreed to;</p>
+            <p refersTo="#term-Council">"<def refersTo="#term-Council">Council</def>" means the municipal council of the <term refersTo="#term-Municipality" id="trm3">Municipality</term>;</p>
+            <p refersTo="#term-debt">"<def refersTo="#term-debt">debt</def>" means any monies owing to the <term refersTo="#term-Council" id="trm4">Council</term> in respect of the rendering of services, and includes monies owing in regard to property rates.</p>
+            <p refersTo="#term-debtor">"<def refersTo="#term-debtor">debtor</def>" means any person who owes a <term refersTo="#term-debt" id="trm5">debt</term> to the <term refersTo="#term-Council" id="trm6">Council</term>;</p>
+            <blockList id="section-1.paragraph-0.list6" refersTo="#term-due_date">
+              <listIntroduction>"<def refersTo="#term-due_date">due date</def>" in the absence of any express agreement and in relation to-</listIntroduction>
+              <item id="section-1.paragraph-0.list6.a">
+                <num>(a)</num>
+                <p>rates, other than rates which are being paid by instalments, means the first day of July of the financial year for which such rate is determined, and</p>
+              </item>
+              <item id="section-1.paragraph-0.list6.b">
+                <num>(b)</num>
+                <p>any <term refersTo="#term-service" id="trm7">service</term> and rates which are being paid by instalments, means the date stipulated on the account and determined by the <term refersTo="#term-Council" id="trm8">Council</term> as the last date on which the account can be paid;</p>
+              </item>
+            </blockList>
+            <p refersTo="#term-Municipal_Manager">"<def refersTo="#term-Municipal_Manager">Municipal Manager</def>" means the person appointed by the <term refersTo="#term-Council" id="trm9">Council</term> as the Municipal Manager in terms of section 82 of the Local Government: Municipal Structures Act, 1998;</p>
+            <p refersTo="#term-Municipality">"<def refersTo="#term-Municipality">Municipality</def>" means the Municipality of Matzikama;</p>
+            <p refersTo="#term-policy">"<def refersTo="#term-policy">policy</def>" means the credit control and <term refersTo="#term-debt" id="trm10">debt</term> collection policy of the <term refersTo="#term-Council" id="trm11">Council</term> as adopted by resolution 7.2.4 of 29 May 2012;</p>
+            <p refersTo="#term-service">"<def refersTo="#term-service">service</def>" means any service rendered by the <term refersTo="#term-Council" id="trm12">Council</term>, in respect of which an account may be rendered; and</p>
+            <p refersTo="#term-user">"<def refersTo="#term-user">user</def>" means a person to whom <term refersTo="#term-Council" id="trm13">Council</term> provides a <term refersTo="#term-service" id="trm14">service</term> whether or not such a person has entered into an agreement with the <term refersTo="#term-Council" id="trm15">Council</term> for the supply of any <term refersTo="#term-service" id="trm16">service</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Accounts</heading>
+        <subsection id="section-2.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Municipal_Manager" id="trm17">Municipal Manager</term> will bill a <term refersTo="#term-user" id="trm18">user</term> at regular intervals, as set out in the <term refersTo="#term-policy" id="trm19">policy</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-Municipal_Manager" id="trm20">Municipal Manager</term> will post or hand deliver accounts to users before the <term refersTo="#term-due_date" id="trm21">due date</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Duty to collect debts</heading>
+        <paragraph id="section-3.paragraph-0">
+          <content>
+            <p>All debts owing to the <term refersTo="#term-Council" id="trm22">Council</term> will be collected in accordance with the <term refersTo="#term-policy" id="trm23">policy</term> and no deviation is permissible without amendment to the <term refersTo="#term-policy" id="trm24">policy</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Payment of accounts</heading>
+        <subsection id="section-4.1">
+          <num>(1)</num>
+          <content>
+            <p>A <term refersTo="#term-user" id="trm25">user</term> must before the <term refersTo="#term-due_date" id="trm26">due date</term> pay in full an account rendered.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.2">
+          <num>(2)</num>
+          <content>
+            <p>Accounts may be paid at any of the offices of the <term refersTo="#term-Council" id="trm27">Council</term> where a cash receipting facility is available.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Provision of services</heading>
+        <paragraph id="section-5.paragraph-0">
+          <content>
+            <p>Applications for services and the provision of new services will be dealt with as set out in the <term refersTo="#term-policy" id="trm28">policy</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Service agreement</heading>
+        <subsection id="section-6.1">
+          <num>(1)</num>
+          <content>
+            <p>Except as otherwise determined in the <term refersTo="#term-policy" id="trm29">policy</term>, no supply of services shall be given until a <term refersTo="#term-service" id="trm30">service</term> agreement has been entered into between the <term refersTo="#term-Council" id="trm31">Council</term> and the <term refersTo="#term-user" id="trm32">user</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-Municipal_Manager" id="trm33">Municipal Manager</term> is authorised to enter into a <term refersTo="#term-service" id="trm34">service</term> agreement with a <term refersTo="#term-user" id="trm35">user</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Deposits</heading>
+        <paragraph id="section-7.paragraph-0">
+          <content>
+            <p>The <term refersTo="#term-Council" id="trm36">Council</term> may require the payment of deposits for the provision of new services and the reconnection of services, or may adjust the amount of any existing deposit, as set out in the <term refersTo="#term-policy" id="trm37">policy</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Interest charges</heading>
+        <paragraph id="section-8.paragraph-0">
+          <content>
+            <p>The <term refersTo="#term-Municipal_Manager" id="trm38">Municipal Manager</term> will charge and recover interest in respect of any arrear <term refersTo="#term-debt" id="trm39">debt</term> as set out in the <term refersTo="#term-policy" id="trm40">policy</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Arrangements to pay arrears</heading>
+        <subsection id="section-9.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Municipal_Manager" id="trm41">Municipal Manager</term> may make arrangements with a <term refersTo="#term-debtor" id="trm42">debtor</term> to pay any arrear <term refersTo="#term-debt" id="trm43">debt</term> under conditions as set out in the <term refersTo="#term-policy" id="trm44">policy</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.2">
+          <num>(2)</num>
+          <content>
+            <p>Should any dispute arise as to the amount of the arrear <term refersTo="#term-debt" id="trm45">debt</term>, the <term refersTo="#term-debtor" id="trm46">debtor</term> must nevertheless continue to make regular payments, in terms of the <term refersTo="#term-arrangement" id="trm47">arrangement</term> until such time as the dispute has been settled.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-Municipal_Manager" id="trm48">Municipal Manager</term> is authorised to enter into agreements with a <term refersTo="#term-debtor" id="trm49">debtor</term> to formalise an <term refersTo="#term-arrangement" id="trm50">arrangement</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Authority to restrict or disconnect supply of services</heading>
+        <paragraph id="section-10.paragraph-0">
+          <content>
+            <p>The <term refersTo="#term-Municipal_Manager" id="trm51">Municipal Manager</term> may restrict or disconnect the supply of water, gas or electricity, or discontinue any other <term refersTo="#term-service" id="trm52">service</term> to the premises of any <term refersTo="#term-user" id="trm53">user</term> under conditions as set out in the <term refersTo="#term-policy" id="trm54">policy</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-11">
+        <num>11.</num>
+        <heading>Authority of <term refersTo="#term-Council" id="trm55">Council</term> to recover costs</heading>
+        <paragraph id="section-11.paragraph-0">
+          <content>
+            <blockList id="section-11.paragraph-0.list1">
+              <listIntroduction>The <term refersTo="#term-Municipal_Manager" id="trm56">Municipal Manager</term> must recover the following costs, in instances where such costs are incurred by or on behalf of the <term refersTo="#term-Council" id="trm57">Council</term>:</listIntroduction>
+              <item id="section-11.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>costs and administration fees where payments made to the <term refersTo="#term-Council" id="trm58">Council</term> by negotiable instruments are dishonoured by banks when presented for payment;</p>
+              </item>
+              <item id="section-11.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>legal and administration costs, including attorney-and-client costs and tracing fees incurred in the recovery of debts;</p>
+              </item>
+              <item id="section-11.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>disconnection and reconnection fees, where any <term refersTo="#term-service" id="trm59">service</term> has been disconnected as a result of non-compliance with these by-laws, and</p>
+              </item>
+              <item id="section-11.paragraph-0.list1.d">
+                <num>(d)</num>
+                <p>any losses the <term refersTo="#term-Council" id="trm60">Council</term> may suffer as a result of tampering with <term refersTo="#term-Council" id="trm61">Council</term> equipment or meters.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-12">
+        <num>12.</num>
+        <heading>Consolidation and crediting of accounts.</heading>
+        <paragraph id="section-12.paragraph-0">
+          <content>
+            <blockList id="section-12.paragraph-0.list1">
+              <listIntroduction>The <term refersTo="#term-Municipal_Manager" id="trm62">Municipal Manager</term> is authorised to-</listIntroduction>
+              <item id="section-12.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>consolidate any separate accounts of a <term refersTo="#term-debtor" id="trm63">debtor</term>; and</p>
+              </item>
+              <item id="section-12.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>credit a payment by such a <term refersTo="#term-debtor" id="trm64">debtor</term> against any account of that <term refersTo="#term-debtor" id="trm65">debtor</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-13">
+        <num>13.</num>
+        <heading>Appropriation of payments</heading>
+        <paragraph id="section-13.paragraph-0">
+          <content>
+            <p>The <term refersTo="#term-Municipal_Manager" id="trm66">Municipal Manager</term> is authorised to appropriate any payment by a <term refersTo="#term-user" id="trm67">user</term>, firstly to the costs referred to in section 11, secondly to any interest charges due, and thereafter to the outstanding amount.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-14">
+        <num>14.</num>
+        <heading>Attachment</heading>
+        <paragraph id="section-14.paragraph-0">
+          <content>
+            <p>The <term refersTo="#term-Municipal_Manager" id="trm68">Municipal Manager</term> may, in order to recover <term refersTo="#term-debt" id="trm69">debt</term>, as a last resort, attach the <term refersTo="#term-debtor" id="trm70">debtor</term>’s property.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-15">
+        <num>15.</num>
+        <heading>Claim on rental for property rates</heading>
+        <paragraph id="section-15.paragraph-0">
+          <content>
+            <p>The <term refersTo="#term-Municipal_Manager" id="trm71">Municipal Manager</term> must apply to a court for the attachment of any rent, due in respect of any rateable property, to cover in part or in full any amount in respect of property rates outstanding for a period longer than three months after the fixed date of payment in respect of such property.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-16">
+        <num>16.</num>
+        <heading>Full and final settlement payments</heading>
+        <subsection id="section-16.1">
+          <num>(1)</num>
+          <content>
+            <p>Any amount tendered in defrayment of a <term refersTo="#term-debt" id="trm72">debt</term>, will be accepted at any cash receiving office of the <term refersTo="#term-Council" id="trm73">Council</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-16.2">
+          <num>(2)</num>
+          <content>
+            <p>No offer of payment in full and final settlement of a <term refersTo="#term-debt" id="trm74">debt</term>, when such amount is less than the outstanding amount, shall be accepted, unless confirmed in writing by the <term refersTo="#term-Municipal_Manager" id="trm75">Municipal Manager</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-16.3">
+          <num>(3)</num>
+          <content>
+            <p>Notwithstanding subsection (2), the payment so offered shall nevertheless be credited against the <term refersTo="#term-debtor" id="trm76">debtor</term>’s account.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-17">
+        <num>17.</num>
+        <heading>Indigents</heading>
+        <paragraph id="section-17.paragraph-0">
+          <content>
+            <p>A <term refersTo="#term-debtor" id="trm77">debtor</term>, who can prove indigence, will be dealt with as set out in the <term refersTo="#term-policy" id="trm78">policy</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-18">
+        <num>18.</num>
+        <heading>Delegations.</heading>
+        <subsection id="section-18.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-Municipal_Manager" id="trm79">Municipal Manager</term> may delegate any power or duty conferred on the <term refersTo="#term-Municipal_Manager" id="trm80">Municipal Manager</term> in terms of this by-law to a member of the municipal staff.</p>
+          </content>
+        </subsection>
+        <subsection id="section-18.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-18.2.list1">
+              <listIntroduction>A delegation in terms of subsection (1)-</listIntroduction>
+              <item id="section-18.2.list1.a">
+                <num>(a)</num>
+                <p>must be in writing;</p>
+              </item>
+              <item id="section-18.2.list1.b">
+                <num>(b)</num>
+                <p>is subject to any limitations, conditions and directions the <term refersTo="#term-Municipal_Manager" id="trm81">Municipal Manager</term> may impose;</p>
+              </item>
+              <item id="section-18.2.list1.c">
+                <num>(c)</num>
+                <p>may include the power to sub-delegate a delegated power or duty;</p>
+              </item>
+              <item id="section-18.2.list1.d">
+                <num>(d)</num>
+                <p>does not divest the <term refersTo="#term-Municipal_Manager" id="trm82">Municipal Manager</term> of the responsibility concerning the exercise of the power or the performance of the duty.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-19">
+        <num>19.</num>
+        <heading>Application</heading>
+        <paragraph id="section-19.paragraph-0">
+          <content>
+            <p>This by-law does not apply to the lease of <term refersTo="#term-Council" id="trm83">Council</term>’s immovable property or any other immovable property administered by <term refersTo="#term-Council" id="trm84">Council</term> on behalf of an organ of state in another sphere of government, in so far as it relates to the collection of rental.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-20">
+        <num>20.</num>
+        <heading>Offences and penalties.</heading>
+        <paragraph id="section-20.paragraph-0">
+          <content>
+            <blockList id="section-20.paragraph-0.list1">
+              <listIntroduction>Any person who:</listIntroduction>
+              <item id="section-20.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>obstructs or hinders any councillor or official of the <term refersTo="#term-Council" id="trm85">Council</term> in the execution of his or her duties under this by-law;</p>
+              </item>
+              <item id="section-20.paragraph-0.list1.b">
+                <num>(b)</num>
+                <p>uses or interferes with <term refersTo="#term-Council" id="trm86">Council</term> equipment or consumption of services supplied;</p>
+              </item>
+              <item id="section-20.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>tampers with any <term refersTo="#term-Council" id="trm87">Council</term> equipment or breaks any seal on a meter;</p>
+              </item>
+              <item id="section-20.paragraph-0.list1.d">
+                <num>(d)</num>
+                <p>contravenes or fails to comply with the provisions of this by-law or the <term refersTo="#term-policy" id="trm88">policy</term>, or</p>
+              </item>
+              <item id="section-20.paragraph-0.list1.e">
+                <num>(e)</num>
+                <p>fails to comply with a notice served in terms of this by-law;</p>
+              </item>
+            </blockList>
+            <p>shall be guilty of an offence and liable on conviction to pay a fine.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-21">
+        <num>21.</num>
+        <heading>Short title and commencement</heading>
+        <paragraph id="section-21.paragraph-0">
+          <content>
+            <p>This By-law shall be called the Credit Control and Debt Collection By-Law of the Matzikama <term refersTo="#term-Municipality" id="trm89">Municipality</term> and shall come into operation on the date of publication thereof in the Provincial Gazette.</p>
+          </content>
+        </paragraph>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

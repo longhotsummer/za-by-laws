@@ -1,0 +1,754 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc011/act/by-law/2003/supervision-control-business-of-street-vendor-pedlar-hawker/main"/>
+          <FRBRuri value="/za-wc011/act/by-law/2003/supervision-control-business-of-street-vendor-pedlar-hawker"/>
+          <FRBRalias value="By-law for the Supervision and Control of Business of Street Vendor, Pedlar and Hawker"/>
+          <FRBRdate date="2003-04-04" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc011/act/by-law/2003/supervision-control-business-of-street-vendor-pedlar-hawker/eng@2003-04-04/main"/>
+          <FRBRuri value="/za-wc011/act/by-law/2003/supervision-control-business-of-street-vendor-pedlar-hawker/eng@2003-04-04"/>
+          <FRBRdate date="2003-04-04" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc011/act/by-law/2003/supervision-control-business-of-street-vendor-pedlar-hawker/eng@2003-04-04/main"/>
+          <FRBRuri value="/za-wc011/act/by-law/2003/supervision-control-business-of-street-vendor-pedlar-hawker/eng@2003-04-04"/>
+          <FRBRdate date="2018-07-09" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication number="5996" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" date="2003-04-04"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-officer" showAs="officer" href="/ontology/term/this.eng.officer"/>
+        <TLCTerm id="term-litter" showAs="litter" href="/ontology/term/this.eng.litter"/>
+        <TLCTerm id="term-formal_trading_sector" showAs="formal trading sector" href="/ontology/term/this.eng.formal_trading_sector"/>
+        <TLCTerm id="term-public_place" showAs="public place" href="/ontology/term/this.eng.public_place"/>
+        <TLCTerm id="term-sidewalk" showAs="sidewalk" href="/ontology/term/this.eng.sidewalk"/>
+        <TLCTerm id="term-street_trading" showAs="street trading" href="/ontology/term/this.eng.street_trading"/>
+        <TLCTerm id="term-appeal_committee" showAs="appeal committee" href="/ontology/term/this.eng.appeal_committee"/>
+        <TLCTerm id="term-informal_trading_committee" showAs="informal trading committee" href="/ontology/term/this.eng.informal_trading_committee"/>
+        <TLCTerm id="term-informal_trading_sector" showAs="informal trading sector" href="/ontology/term/this.eng.informal_trading_sector"/>
+        <TLCTerm id="term-local_authority_service" showAs="local authority service" href="/ontology/term/this.eng.local_authority_service"/>
+        <TLCTerm id="term-local_authority_service_works" showAs="local authority service works" href="/ontology/term/this.eng.local_authority_service_works"/>
+        <TLCTerm id="term-local_authority" showAs="local authority" href="/ontology/term/this.eng.local_authority"/>
+        <TLCTerm id="term-public_road" showAs="public road" href="/ontology/term/this.eng.public_road"/>
+        <TLCTerm id="term-nuisance" showAs="nuisance" href="/ontology/term/this.eng.nuisance"/>
+        <TLCTerm id="term-verge" showAs="verge" href="/ontology/term/this.eng.verge"/>
+        <TLCTerm id="term-street_trader" showAs="street trader" href="/ontology/term/this.eng.street_trader"/>
+        <TLCTerm id="term-property" showAs="property" href="/ontology/term/this.eng.property"/>
+        <TLCTerm id="term-the_Act" showAs="the Act" href="/ontology/term/this.eng.the_Act"/>
+      </references>
+    </meta>
+    <preamble>
+      <p>WHEREAS it is recognised that there is a need to create an environment in which the carrying on of the business of informal trading is permitted in public streets and public places, subject to the rights of all citizens as contained in the Constitution of the Republic of South Africa, 1996 (<ref href="/za/act/1996/1991">Act 1991 of 1996</ref>), and the provisions of the Businesses Act, 1991 (<ref href="/za/act/1991/71">Act 71 of 1991</ref>);</p>
+      <p>AND WHEREAS it is recognised that all active participants in the Matzikama municipal area are committed to creating conditions that will make street trading commercially viable and contribute to the economic activity and growth of the Western Cape economy;</p>
+      <p>AND WHEREAS the municipality must create an enabling environment for informal trading by the creation of an annual budget reflecting the estimates of revenue and expenditure relating specifically for the provision of basic services and infrastructure;</p>
+      <p>AND WHEREAS there shall be a concomitant duty on the informal sector to participate fully in the economic growth of the Matzikama municipal area and contribute to the tax base of Matzikama;</p>
+      <p>NOW THEREFORE this by-law is promulgated to facilitate the carrying on of that business and to provide for matters incidental thereto.</p>
+    </preamble>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <paragraph id="section-1.paragraph-0">
+          <content>
+            <p>In this by-law, unless the context indicates otherwise, a word or an expression contained herein shall have the meaning assigned thereto in the Businesses Act, 1991 (<ref href="/za/act/1991/71">Act 71 of 1991</ref>), and—</p>
+            <p refersTo="#term-appeal_committee">"<def refersTo="#term-appeal_committee">appeal committee</def>" means the appeal committee as constituted in terms of section 10 of this by-law;</p>
+            <p refersTo="#term-formal_trading_sector">"<def refersTo="#term-formal_trading_sector">formal trading sector</def>" means an association or associations representing the formal trading sector operating within the area of the <term refersTo="#term-local_authority" id="trm0">local authority</term> and acknowledged by the <term refersTo="#term-local_authority" id="trm1">local authority</term>;</p>
+            <p refersTo="#term-informal_trading_committee">"<def refersTo="#term-informal_trading_committee">informal trading committee</def>" means a committee consisting of two representatives of the <term refersTo="#term-informal_trading_sector" id="trm2">informal trading sector</term>, two representatives of the <term refersTo="#term-formal_trading_sector" id="trm3">formal trading sector</term>, one representative of the <term refersTo="#term-local_authority" id="trm4">local authority</term>, a representative from the Ratepayers Associations in the Matzikama municipal area (when aspects regarding Matzikama are considered), a representative from any other area falling outside the central business area and the main access roads to the central business area (when aspects regarding such areas are considered), and co-opted advisors nominated by the different sectors and accepted by the <term refersTo="#term-local_authority" id="trm5">local authority</term> or nominated by <term refersTo="#term-local_authority" id="trm6">local authority</term>;</p>
+            <p refersTo="#term-informal_trading_sector">"<def refersTo="#term-informal_trading_sector">informal trading sector</def>" means an association or associations representing street traders operating within the area of the <term refersTo="#term-local_authority" id="trm7">local authority</term> and acknowledged by the <term refersTo="#term-local_authority" id="trm8">local authority</term>;</p>
+            <p refersTo="#term-litter">"<def refersTo="#term-litter">litter</def>" means any receptacle, container or other object or matter discarded or abandoned by a <term refersTo="#term-street_trader" id="trm9">street trader</term> or his or her customers;</p>
+            <p refersTo="#term-local_authority">"<def refersTo="#term-local_authority">local authority</def>" means the municipality of Matzikama and includes a committee or employee of the local authority exercising powers or performing duties or functions delegated by the local authority;</p>
+            <p refersTo="#term-local_authority_service">"<def refersTo="#term-local_authority_service">local authority service</def>" means any service conducted by or on behalf of the <term refersTo="#term-local_authority" id="trm10">local authority</term> for the collection, conveyance, treatment or disposal of refuse, sewage or storm water or the manufacture, generation, impounding, storage, purification, distribution, conduction, transmission, conveyance, provision or supply of water, gas or electricity;</p>
+            <p refersTo="#term-local_authority_service_works">"<def refersTo="#term-local_authority_service_works">local authority service works</def>" means all works of whatsoever nature necessary or desirable for or incidental, supplementary or ancillary to any <term refersTo="#term-local_authority_service" id="trm11">local authority service</term> and includes any immovable <term refersTo="#term-property" id="trm12">property</term>, lake, spring, natural watercourse, machinery, plant or other thing of whatsoever nature used for or in connection with any such works or service;</p>
+            <p refersTo="#term-nuisance">"<def refersTo="#term-nuisance">nuisance</def>" means any conduct which bring about or may bring about a state of affairs or condition which constitutes a source of danger to others or their <term refersTo="#term-property" id="trm13">property</term> or which materially interferes with their ordinary comfort, convenience, peace or quiet;</p>
+            <blockList id="section-1.paragraph-0.list11" refersTo="#term-officer">
+              <listIntroduction>"<def refersTo="#term-officer">officer</def>" means—</listIntroduction>
+              <item id="section-1.paragraph-0.list11.a">
+                <num>(a)</num>
+                <p>a traffic officer appointed in terms of section 3(1)(a) of the Road Traffic Act, 1989 (<ref href="/za/act/1989/29">Act 29 of 1989</ref>);</p>
+              </item>
+              <item id="section-1.paragraph-0.list11.b">
+                <num>(b)</num>
+                <p>a member of the South African Police Service as defined in section 1 of the South African Police Service Act, 1995 (<ref href="/za/act/1995/68">Act 68 of 1995</ref>); or</p>
+              </item>
+              <item id="section-1.paragraph-0.list11.c">
+                <num>(c)</num>
+                <p>a peace officer contemplated in section 334(1)(a) of the Criminal Procedure Act, 1977 (<ref href="/za/act/1977/51">Act 51 of 1977</ref>);</p>
+              </item>
+            </blockList>
+            <p refersTo="#term-property">"<def refersTo="#term-property">property</def>" in relation to a <term refersTo="#term-street_trader" id="trm14">street trader</term>, means money, goods, a receptacle, a vehicle or a movable structure used or intended to be used in connection with the carrying on of his or her business as such;</p>
+            <blockList id="section-1.paragraph-0.list14" refersTo="#term-public_place">
+              <listIntroduction>"<def refersTo="#term-public_place">public place</def>" means a square, park, recreation ground, sports ground, a sanitary lane or open space which has or have—</listIntroduction>
+              <item id="section-1.paragraph-0.list14.i">
+                <num>(i)</num>
+                <p>in connection with a subdivision or layout of land into erven, lots or plots, been provided, reserved or set apart for use by the public or the owners or occupiers of these erven, lots or plots, whether or not it is shown on a general plan, or subdivision plan or diagram;</p>
+              </item>
+              <item id="section-1.paragraph-0.list14.ii">
+                <num>(ii)</num>
+                <p>at any time been dedicated to the public;</p>
+              </item>
+              <item id="section-1.paragraph-0.list14.iii">
+                <num>(iii)</num>
+                <p>been used without interruption by the public for a period of at least 30 years expiring after the thirty-first day of December 1959; or</p>
+              </item>
+              <item id="section-1.paragraph-0.list14.iv">
+                <num>(iv)</num>
+                <p>at any time been declared or rendered a public place by the <term refersTo="#term-local_authority" id="trm15">local authority</term> or another competent authority;</p>
+              </item>
+            </blockList>
+            <blockList id="section-1.paragraph-0.list16" refersTo="#term-public_road">
+              <listIntroduction>"<def refersTo="#term-public_road">public road</def>" means any road, street, thoroughfare or place (whether a thoroughfare or not) which is commonly used by the public or a section of the public or to which the public has a right of access and includes—</listIntroduction>
+              <item id="section-1.paragraph-0.list16.i">
+                <num>(i)</num>
+                <p>the <term refersTo="#term-verge" id="trm16">verge</term> of any such road, street or thoroughfare;</p>
+              </item>
+              <item id="section-1.paragraph-0.list16.ii">
+                <num>(ii)</num>
+                <p>any bridge, ferry or drift traversed by any such road, street or thoroughfare, and</p>
+              </item>
+              <item id="section-1.paragraph-0.list16.iii">
+                <num>(iii)</num>
+                <p>any other work or object forming part of or connected with or belonging to such road, street or thoroughfare;</p>
+              </item>
+            </blockList>
+            <p refersTo="#term-sidewalk">"<def refersTo="#term-sidewalk">sidewalk</def>" means that portion of a <term refersTo="#term-verge" id="trm17">verge</term> intended for the exclusive use of pedestrians;</p>
+            <p refersTo="#term-street_trader">"<def refersTo="#term-street_trader">street trader</def>" means a person who carries on the business of street vendor, pedlar or hawker and includes an employee of such a person and shall, for the purposes of this by-law also include such a person who trades in a <term refersTo="#term-public_road" id="trm18">public road</term> or <term refersTo="#term-public_place" id="trm19">public place</term>;</p>
+            <p refersTo="#term-street_trading">"<def refersTo="#term-street_trading">street trading</def>" includes the selling of goods or the supplying or offering to supply a service for reward as a <term refersTo="#term-street_trader" id="trm20">street trader</term> in a <term refersTo="#term-public_road" id="trm21">public road</term> or <term refersTo="#term-public_place" id="trm22">public place</term> but does not include the sale of newspapers only;</p>
+            <p refersTo="#term-the_Act">"<def refersTo="#term-the_Act">the Act</def>" means the Businesses Act, 1991 (<ref href="/za/act/1991/71">Act 71 of 1991</ref>), and</p>
+            <p refersTo="#term-verge">"<def refersTo="#term-verge">verge</def>" means that portion of a road, street or thoroughfare which is not the roadway.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>General conduct</heading>
+        <paragraph id="section-2.paragraph-0">
+          <content>
+            <p>A person carrying on the business of <term refersTo="#term-street_trader" id="trm23">street trader</term>—</p>
+          </content>
+        </paragraph>
+        <subsection id="section-2.1">
+          <num>(1)</num>
+          <content>
+            <p>may not place his or her <term refersTo="#term-property" id="trm24">property</term> on a <term refersTo="#term-public_road" id="trm25">public road</term> or <term refersTo="#term-public_place" id="trm26">public place</term> except for the purpose of commencing and conducting of trade;</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.2">
+          <num>(2)</num>
+          <content>
+            <p>must ensure that his or her <term refersTo="#term-property" id="trm27">property</term> does not cover an area which is greater than 3 metres in length and 2 metres in width on a <term refersTo="#term-public_road" id="trm28">public road</term> or <term refersTo="#term-public_place" id="trm29">public place</term> or such greater area as determined by the <term refersTo="#term-local_authority" id="trm30">local authority</term> after consultation with the <term refersTo="#term-informal_trading_committee" id="trm31">informal trading committee</term> in respect of any specific site;</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.3">
+          <num>(3)</num>
+          <content>
+            <p>may not obstruct access to a fire hydrant or any other designated facility or area demarcated solely for the use of emergency vehicles and services;</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.4">
+          <num>(4)</num>
+          <content>
+            <blockList id="section-2.4.list1">
+              <listIntroduction>may not carry on the business of <term refersTo="#term-street_trader" id="trm32">street trader</term> on a <term refersTo="#term-verge" id="trm33">verge</term> adjoining to—</listIntroduction>
+              <item id="section-2.4.list1.i">
+                <num>(i)</num>
+                <p>a church or other place of worship; or</p>
+              </item>
+              <item id="section-2.4.list1.ii">
+                <num>(ii)</num>
+                <p>a building declared to be a national monument under the National Heritage Resources Act, 1999 (<ref href="/za/act/1999/25">Act 25 of 1999</ref>); or</p>
+              </item>
+              <item id="section-2.4.list1.iii">
+                <num>(iii)</num>
+                <p>a building belonging to, or occupied solely by, the State or the <term refersTo="#term-local_authority" id="trm34">local authority</term>; or</p>
+              </item>
+              <item id="section-2.4.list1.iv">
+                <num>(iv)</num>
+                <p>other areas as identified from time to time by the <term refersTo="#term-local_authority" id="trm35">local authority</term> after consultation with the <term refersTo="#term-informal_trading_committee" id="trm36">informal trading committee</term>, and subject to section 6A(2)(a) of <term refersTo="#term-the_Act" id="trm37">the Act</term>,</p>
+              </item>
+            </blockList>
+            <p>except to the extent that the carrying on of such business is permitted by a notice or sign erected or displayed by the <term refersTo="#term-local_authority" id="trm38">local authority</term> and conducted in compliance therewith;</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.5">
+          <num>(5)</num>
+          <content>
+            <p>may not carry on the business of <term refersTo="#term-street_trader" id="trm39">street trader</term> on that half of a <term refersTo="#term-public_road" id="trm40">public road</term> adjoining a building used for residential purposes, if the owner or person in control or any occupier of the building objects to it;</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.6">
+          <num>(6)</num>
+          <content>
+            <p>may not carry on the business of <term refersTo="#term-street_trader" id="trm41">street trader</term> at a place where it substantially obstructs pedestrians in their use of a <term refersTo="#term-sidewalk" id="trm42">sidewalk</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.7">
+          <num>(7)</num>
+          <content>
+            <p>may not carry on the business of <term refersTo="#term-street_trader" id="trm43">street trader</term> at a place where it causes an obstruction to vehicular traffic;</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.8">
+          <num>(8)</num>
+          <content>
+            <p>may not carry on the business of a <term refersTo="#term-street_trader" id="trm44">street trader</term> without being in possession of written proof that he or she hired, or was otherwise allocated that stand or area by the <term refersTo="#term-local_authority" id="trm45">local authority</term> in an area set aside or demarcated for <term refersTo="#term-street_trading" id="trm46">street trading</term> by the <term refersTo="#term-local_authority" id="trm47">local authority</term> in terms of section 6A(3)(b) of <term refersTo="#term-the_Act" id="trm48">the Act</term>, and after consultation with the <term refersTo="#term-informal_trading_committee" id="trm49">informal trading committee</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.9">
+          <num>(9)</num>
+          <content>
+            <p>may not carry on the business of <term refersTo="#term-street_trader" id="trm50">street trader</term> in contravention of the terms and conditions of the lease or allocation to him or her of a stand contemplated in terms of section 6A(3)(c) of <term refersTo="#term-the_Act" id="trm51">the Act</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.10">
+          <num>(10)</num>
+          <content>
+            <p>may not carry on the business of <term refersTo="#term-street_trader" id="trm52">street trader</term> on a stand or at any area where it may obstruct the visibility of a display window of business premises, unless the <term refersTo="#term-local_authority" id="trm53">local authority</term>, after consultation with the <term refersTo="#term-informal_trading_committee" id="trm54">informal trading committee</term>, resolved to allocate a stall in front of such window or part of such window subject to the conditions, if any, in terms of section 6A(3)(c) of <term refersTo="#term-the_Act" id="trm55">the Act</term>;</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.11">
+          <num>(11)</num>
+          <content>
+            <p>must provide sufficient, approved, refuse receptacles, and</p>
+          </content>
+        </subsection>
+        <subsection id="section-2.12">
+          <num>(12)</num>
+          <content>
+            <p>may not, notwithstanding anything to the contrary, without the written permission of the <term refersTo="#term-local_authority" id="trm56">local authority</term>, carry on the business of a <term refersTo="#term-street_trader" id="trm57">street trader</term> on a place other than that identified by the <term refersTo="#term-local_authority" id="trm58">local authority</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>General restrictions</heading>
+        <subsection id="section-3.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-3.1.list1">
+              <listIntroduction>A person carrying on the business of <term refersTo="#term-street_trader" id="trm59">street trader</term> may not—</listIntroduction>
+              <item id="section-3.1.list1.a">
+                <num>(a)</num>
+                <blockList id="section-3.1.list1.a.list0">
+                  <listIntroduction>if the business is carried on in a <term refersTo="#term-public_road" id="trm60">public road</term> or <term refersTo="#term-public_place" id="trm61">public place</term>—</listIntroduction>
+                  <item id="section-3.1.list1.a.list0.i">
+                    <num>(i)</num>
+                    <p>sleep overnight at the place of such business; or</p>
+                  </item>
+                  <item id="section-3.1.list1.a.list0.ii">
+                    <num>(ii)</num>
+                    <p>erect an immovable structure for the purpose of providing shelter; or</p>
+                  </item>
+                  <item id="section-3.1.list1.a.list0.iii">
+                    <num>(iii)</num>
+                    <p>erect a movable structure for the purpose of providing shelter, other than a device which operates in the same manner and is shaped like an umbrella or a movable gazebo, provided it is aesthetically acceptable to the <term refersTo="#term-local_authority" id="trm62">local authority</term>,</p>
+                  </item>
+                </blockList>
+              </item>
+            </blockList>
+            <blockList id="section-3.1.list3">
+              <listIntroduction>without the prior written approval of the <term refersTo="#term-local_authority" id="trm63">local authority</term>;</listIntroduction>
+              <item id="section-3.1.list3.b">
+                <num>(b)</num>
+                <blockList id="section-3.1.list3.b.list0">
+                  <listIntroduction>carry on the business in such a manner that it—</listIntroduction>
+                  <item id="section-3.1.list3.b.list0.i">
+                    <num>(i)</num>
+                    <p>damages or defaces the surface of a <term refersTo="#term-public_road" id="trm64">public road</term> or <term refersTo="#term-public_place" id="trm65">public place</term> or public or private <term refersTo="#term-property" id="trm66">property</term>; or</p>
+                  </item>
+                  <item id="section-3.1.list3.b.list0.ii">
+                    <num>(ii)</num>
+                    <p>creates a traffic hazard;</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-3.1.list3.c">
+                <num>(c)</num>
+                <p>accumulate, dump, store or deposit or cause or permit to be accumulated, dumped, stored or deposited <term refersTo="#term-litter" id="trm67">litter</term> on land or premises or on a <term refersTo="#term-public_road" id="trm68">public road</term> or <term refersTo="#term-public_place" id="trm69">public place</term>, other than in a refuse receptacle approved by or provided by the <term refersTo="#term-local_authority" id="trm70">local authority</term>;</p>
+              </item>
+              <item id="section-3.1.list3.d">
+                <num>(d)</num>
+                <p>obstruct access to a <term refersTo="#term-local_authority_service" id="trm71">local authority service</term> or service works;</p>
+              </item>
+              <item id="section-3.1.list3.e">
+                <num>(e)</num>
+                <blockList id="section-3.1.list3.e.list1">
+                  <listIntroduction>obstruct access to—</listIntroduction>
+                  <item id="section-3.1.list3.e.list1.i">
+                    <num>(i)</num>
+                    <p>a pedestrian arcade or mall; or</p>
+                  </item>
+                  <item id="section-3.1.list3.e.list1.ii">
+                    <num>(ii)</num>
+                    <p>an entrance to or exit from a building;</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-3.1.list3.f">
+                <num>(f)</num>
+                <p>obstruct access to pedestrian crossings, parking or loading bays, or other facilities for vehicular or pedestrian traffic;</p>
+              </item>
+              <item id="section-3.1.list3.g">
+                <num>(g)</num>
+                <p>obstruct access to, or the use of, street furniture such as bus passenger benches or shelters and queuing lines, refuse disposal bins and other facilities designed for the use of the general public;</p>
+              </item>
+              <item id="section-3.1.list3.h">
+                <num>(h)</num>
+                <p>obscure a road traffic sign displayed in terms of the Road Traffic Act, 1989 (<ref href="/za/act/1989/29">Act 29 of 1989</ref>) as amended, or the National Road Traffic Act, (<ref href="/za/act/1996/93">Act 93 of 1996</ref>), and the regulations made thereunder or any marking, notice or sign displayed or made in terms of this by-law, and</p>
+              </item>
+              <item id="section-3.1.list3.i">
+                <num>(i)</num>
+                <p>display advertising signs, except on the allocated site.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Cleanliness and protection of public health</heading>
+        <subsection id="section-4.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-4.1.list1">
+              <listIntroduction>A street trader must—</listIntroduction>
+              <item id="section-4.1.list1.a">
+                <num>(a)</num>
+                <p>carry on his or her business in a manner so as not to be a danger or threat to public health or public safety;</p>
+              </item>
+              <item id="section-4.1.list1.b">
+                <num>(b)</num>
+                <p>at the request of an employee of the local authority, move his or her property in order to permit the cleaning of the surface of the area or of the site where he or she is trading, or for maintenance of local authority service works in the area of the site of trading;</p>
+              </item>
+              <item id="section-4.1.list1.c">
+                <num>(c)</num>
+                <p>keep the stand or area occupied by him or her, for the purpose of his or her business, as well as his or her property, in a clean and sanitary condition and free of litter;</p>
+              </item>
+              <item id="section-4.1.list1.d">
+                <num>(d)</num>
+                <p>if his or her activities involve the cooking or other preparation of food, take steps to ensure that no fat, grease or other substance drops or overflows onto the surface of a public road or public place or splashes against a building or other structure, and</p>
+              </item>
+              <item id="section-4.1.list1.e">
+                <num>(e)</num>
+                <p>not dump or discard any litter, fat or grease into any sewer or drain.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-4.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-4.2.list1">
+              <listIntroduction>The local authority must—</listIntroduction>
+              <item id="section-4.2.list1.a">
+                <num>(a)</num>
+                <p>ensure that the sites on which the street traders trade are cleaned and sanitised on a regular basis;</p>
+              </item>
+              <item id="section-4.2.list1.b">
+                <num>(b)</num>
+                <p>provide receptacles on the sites in order to facilitate the disposal of litter by the street traders, and</p>
+              </item>
+              <item id="section-4.2.list1.c">
+                <num>(c)</num>
+                <p>ensure that the receptacles are emptied on a regular basis in order to facilitate the cleaning of trading sites.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Trading in public places</heading>
+        <paragraph id="section-5.paragraph-0">
+          <content>
+            <p>A <term refersTo="#term-street_trader" id="trm83">street trader</term> may not carry on business in a <term refersTo="#term-public_place" id="trm84">public place</term> except with the prior written approval of the <term refersTo="#term-local_authority" id="trm85">local authority</term>, and which approval may not be unreasonably withheld, and may be granted subject to certain conditions.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Objects used for display of goods</heading>
+        <subsection id="section-6.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-6.1.list1">
+              <listIntroduction>A street trader must ensure that any structure, container, surface or other object used by him or her for the preparation, display, storage or transportation of goods—</listIntroduction>
+              <item id="section-6.1.list1.a">
+                <num>(a)</num>
+                <p>is maintained in good state of repair and in a clean and sanitary condition, and</p>
+              </item>
+              <item id="section-6.1.list1.b">
+                <num>(b)</num>
+                <p>is not placed or stacked so as to constitute a danger to any person, or is likely to injure a person.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Removal and impoundment</heading>
+        <subsection id="section-7.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-7.1.list1">
+              <listIntroduction>If a person carrying on the business of street trader, fails or refuses to comply with a written request, the content of which was explained to him or her, requesting that he or she removes his or her property, or if such a person leaves that property unsupervised for a period of more than three hours, an officer may remove and impound that property—</listIntroduction>
+              <item id="section-7.1.list1.a">
+                <num>(a)</num>
+                <p>which he or she reasonably suspects is being used or is intended to be used or has been used in or in connection with the carrying on of the business of a street trader; or</p>
+              </item>
+              <item id="section-7.1.list1.b">
+                <num>(b)</num>
+                <p>which he or she finds at a place where the carrying on of that business is restricted or prohibited in terms of this by-law, and which in his or her opinion constitutes an infringement of this by-law,</p>
+              </item>
+            </blockList>
+            <p>unless such person is authorised by the local authority to operate in such way.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-7.2.list1">
+              <listIntroduction>An officer acting in terms of these provisions must—</listIntroduction>
+              <item id="section-7.2.list1.a">
+                <num>(a)</num>
+                <p>except in the case of goods which have been left or abandoned, immediately issue to the person carrying on the business of street trader a detailed receipt for property so removed and impounded, and such receipt must contain adequate information as to where the property will be impounded and the procedure for reclaiming that property, and</p>
+              </item>
+              <item id="section-7.2.list1.b">
+                <num>(b)</num>
+                <p>immediately deliver such property to the local authority.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-7.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-7.3.list1">
+              <listIntroduction>Property removed and impounded as contemplated by section 6A of the Act—</listIntroduction>
+              <item id="section-7.3.list1.a">
+                <num>(a)</num>
+                <p>may, in the case of perishable property, be sold or destroyed by the local authority within a reasonable time after its impoundment; provided that the property must, subject to the provisions of subsection 7(4) of this by- law, at any time prior to its disposal, be returned to the owner at the request of and on proof of ownership by the owner to the local authority, and</p>
+              </item>
+              <item id="section-7.3.list1.b">
+                <num>(b)</num>
+                <p>must, subject to the provisions of subsection 7(4) of this by-law, in the case of property other than perishable property, be returned to the owner at the request of and on proof of ownership by the owner to the local authority within a period of one month from the date of impoundment.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-7.4">
+          <num>(4)</num>
+          <content>
+            <p>The local authority shall be entitled to keep the property until all reasonable expenses have been paid to it, failing which the property may be sold, or in the case of perishable goods, either be sold or destroyed by the local authority.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.5">
+          <num>(5)</num>
+          <content>
+            <p>In the case of a sale of impounded property by the local authority, the proceeds of the sale less the reasonable expenses incurred by the local authority in connection with the removal, impoundment or disposal of the property, must be paid to the person who was the owner of the property when it was impounded. If the owner fails to claim the proceeds within three months of the date on which the property was sold, the proceeds shall be forfeited to the local authority and shall be paid into a special fund created by the local authority dedicated to the development of the informal sector and matters ancillary thereto.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.6">
+          <num>(6)</num>
+          <content>
+            <p>If the proceeds of sale of property contemplated by this section is not sufficient to defray the reasonable expenses incurred by the local authority in connection with the property, the owner of such property that was removed and impounded or disposed of, as contemplated, shall be liable for all reasonable expenses incurred by the local authority in connection with the removal, impoundment or disposal.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Delegation of powers</heading>
+        <subsection id="section-8.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-local_authority" id="trm126">local authority</term> may delegate any of its powers in terms of this by-law, to an employee of the <term refersTo="#term-local_authority" id="trm127">local authority</term>, except the identification of areas in terms of section 2(4)(iv) of this by-law.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.2">
+          <num>(2)</num>
+          <content>
+            <blockList id="section-8.2.list1">
+              <listIntroduction>An employee acting in terms of a delegated power, referred to in subsection (1) may—</listIntroduction>
+              <item id="section-8.2.list1.a">
+                <num>(a)</num>
+                <p>consult the <term refersTo="#term-informal_trading_committee" id="trm128">informal trading committee</term> regarding any matter or policy before he or she takes a decision in that matter;</p>
+              </item>
+              <item id="section-8.2.list1.b">
+                <num>(b)</num>
+                <p>give instructions to any other employee acting under his or her control, to deal with a matter delegated to him or her;</p>
+              </item>
+              <item id="section-8.2.list1.c">
+                <num>(c)</num>
+                <p>refer any matter, together with the comments of the <term refersTo="#term-informal_trading_committee" id="trm129">informal trading committee</term>, to the relevant committee of the council of the <term refersTo="#term-local_authority" id="trm130">local authority</term> for a decision, and that committee must then take a decision.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Appeals</heading>
+        <subsection id="section-9.1">
+          <num>(1)</num>
+          <content>
+            <p>A person who feels aggrieved by a decision of the <term refersTo="#term-local_authority" id="trm131">local authority</term>, may appeal against the decision to an <term refersTo="#term-appeal_committee" id="trm132">appeal committee</term> in accordance with the provisions set out herein.</p>
+          </content>
+        </subsection>
+        <subsection id="section-9.2">
+          <num>(2)</num>
+          <content>
+            <p>A person who feels aggrieved by a decision of the <term refersTo="#term-local_authority" id="trm133">local authority</term> must, within 10 days of having received notification of the <term refersTo="#term-local_authority" id="trm134">local authority</term>’s decision, notify the <term refersTo="#term-local_authority" id="trm135">local authority</term> and the chairperson of the <term refersTo="#term-appeal_committee" id="trm136">appeal committee</term> in writing of an intention to appeal against the decision.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Constitution of Appeal Committee</heading>
+        <subsection id="section-10.1">
+          <num>(1)</num>
+          <content>
+            <p>The Member of the Executive Council responsible for Economic Affairs may, with the concurrence of the <term refersTo="#term-local_authority" id="trm137">local authority</term>, designate as members of the <term refersTo="#term-appeal_committee" id="trm138">appeal committee</term> representatives of the street vendors, pedlars or hawkers and any other interested persons.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-appeal_committee" id="trm139">appeal committee</term> shall consist of a maximum of six members of which at least two members must be representatives referred to in subsection (1).</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.3">
+          <num>(3)</num>
+          <content>
+            <p>The members of the <term refersTo="#term-appeal_committee" id="trm140">appeal committee</term> must appoint one member to act as chairperson.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.4">
+          <num>(4)</num>
+          <content>
+            <p>If the chairperson is of the opinion that a particular person is able to assist the <term refersTo="#term-appeal_committee" id="trm141">appeal committee</term>, that person may be co-opted to the <term refersTo="#term-appeal_committee" id="trm142">appeal committee</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.5">
+          <num>(5)</num>
+          <content>
+            <p>A person so co-opted may not vote at a meeting of the <term refersTo="#term-appeal_committee" id="trm143">appeal committee</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.6">
+          <num>(6)</num>
+          <content>
+            <p>The chairperson must, within 10 days of receipt of the notice of appeal, notify the aggrieved person of the date, time and place of the meeting of the <term refersTo="#term-appeal_committee" id="trm144">appeal committee</term> at which that person’s presence is required.</p>
+          </content>
+        </subsection>
+        <subsection id="section-10.7">
+          <num>(7)</num>
+          <content>
+            <p>The aggrieved person who has received notice in terms of subsection (6), must personally appear at the meeting, and may appoint a legal representative or any other person to appear on his or her behalf.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-11">
+        <num>11.</num>
+        <heading>Procedure at appeal meetings</heading>
+        <subsection id="section-11.1">
+          <num>(1)</num>
+          <content>
+            <p>The chairperson must determine the procedure at the meeting.</p>
+          </content>
+        </subsection>
+        <subsection id="section-11.2">
+          <num>(2)</num>
+          <content>
+            <p>All members must be present at the meeting of the <term refersTo="#term-appeal_committee" id="trm145">appeal committee</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-11.3">
+          <num>(3)</num>
+          <content>
+            <blockList id="section-11.3.list1">
+              <listIntroduction>A person present at the meeting may—</listIntroduction>
+              <item id="section-11.3.list1.a">
+                <num>(a)</num>
+                <p>be called upon by the chairperson to give evidence;</p>
+              </item>
+              <item id="section-11.3.list1.b">
+                <num>(b)</num>
+                <p>be called upon by the chairperson to produce to the <term refersTo="#term-appeal_committee" id="trm146">appeal committee</term> a document or other <term refersTo="#term-property" id="trm147">property</term> which is in that person’s possession or under that person’s control; or</p>
+              </item>
+              <item id="section-11.3.list1.c">
+                <num>(c)</num>
+                <p>be questioned by the <term refersTo="#term-appeal_committee" id="trm148">appeal committee</term> concerning the matter at hand.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-11.4">
+          <num>(4)</num>
+          <content>
+            <p>A decision of the <term refersTo="#term-appeal_committee" id="trm149">appeal committee</term> shall be taken by a majority of votes and if there is an equality of votes, the chairperson shall have the casting vote in addition to a deliberative vote.</p>
+          </content>
+        </subsection>
+        <subsection id="section-11.5">
+          <num>(5)</num>
+          <content>
+            <blockList id="section-11.5.list1">
+              <listIntroduction>The <term refersTo="#term-appeal_committee" id="trm150">appeal committee</term>, having considered the evidence presented may—</listIntroduction>
+              <item id="section-11.5.list1.a">
+                <num>(a)</num>
+                <p>refuse the appeal; or</p>
+              </item>
+              <item id="section-11.5.list1.b">
+                <num>(b)</num>
+                <p>uphold the appeal; and</p>
+              </item>
+            </blockList>
+            <p>take any other steps that it may think fit.</p>
+          </content>
+        </subsection>
+        <subsection id="section-11.6">
+          <num>(6)</num>
+          <content>
+            <blockList id="section-11.6.list1">
+              <listIntroduction>The <term refersTo="#term-appeal_committee" id="trm151">appeal committee</term> must as soon as is practicable—</listIntroduction>
+              <item id="section-11.6.list1.a">
+                <num>(a)</num>
+                <p>notify the aggrieved person of its decision in writing, and</p>
+              </item>
+              <item id="section-11.6.list1.b">
+                <num>(b)</num>
+                <p>furnish the aggrieved person with written reasons for the decision.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-12">
+        <num>12.</num>
+        <heading>Application</heading>
+        <paragraph id="section-12.paragraph-0">
+          <content>
+            <p>The by-law contained in this Schedule is applicable in the Matzikama municipality’s area of jurisdiction.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-13">
+        <num>13.</num>
+        <heading>Repeal</heading>
+        <paragraph id="section-13.paragraph-0">
+          <content>
+            <p>In terms of section 3(2) of the Business Amendment Act, 1993 (<ref href="/za/act/1993/186">Act 186 of 1993</ref>), the Regulation on Street Vendors, Pedlars or Hawkers proclaimed by the former Administrators by virtue of Provincial Notice 404 of 28 August 1992 in Provincial Gazette 4764, is repealed to the extent that it is applicable to the council’s area of jurisdiction, with the exception of regulations 6(4)(a) and (b) and 7.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-14">
+        <num>14.</num>
+        <heading>Offences</heading>
+        <subsection id="section-14.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-14.1.list1">
+              <listIntroduction>A person who—</listIntroduction>
+              <item id="section-14.1.list1.a">
+                <num>(a)</num>
+                <p>contravenes or fails to comply with any provisions of this by-law;</p>
+              </item>
+              <item id="section-14.1.list1.b">
+                <num>(b)</num>
+                <p>ignores, disregards or disobeys a notice, sign or marking displayed or erected for the purpose of this by-law;</p>
+              </item>
+              <item id="section-14.1.list1.c">
+                <num>(c)</num>
+                <p>contravenes or fails to comply with any approval or condition granted or imposed in terms of this by-law;</p>
+              </item>
+              <item id="section-14.1.list1.d">
+                <num>(d)</num>
+                <p>fails to comply with a written request to move or remove his or her <term refersTo="#term-property" id="trm152">property</term>;</p>
+              </item>
+              <item id="section-14.1.list1.e">
+                <num>(e)</num>
+                <p>deliberately furnishes false or misleading information to an <term refersTo="#term-officer" id="trm153">officer</term> or an employee of the <term refersTo="#term-local_authority" id="trm154">local authority</term>; or</p>
+              </item>
+              <item id="section-14.1.list1.f">
+                <num>(f)</num>
+                <p>threatens, resist, interferes with or obstructs an <term refersTo="#term-officer" id="trm155">officer</term> or employee of the <term refersTo="#term-local_authority" id="trm156">local authority</term> in the performance of his or her powers, duties or functions under this by-law,</p>
+              </item>
+            </blockList>
+            <p>is guilty of an offence, and on conviction is liable to a fine not exceeding one thousand rand (R1 000,00) or imprisonment for a period not exceeding three (3) months.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-15">
+        <num>15.</num>
+        <heading>Language</heading>
+        <paragraph id="section-15.paragraph-0">
+          <content>
+            <p>In case of a dispute in interpretation between different translations of this by-law, the English translation will take precedence.</p>
+          </content>
+        </paragraph>
+      </section>
+    </body>
+  </act>
+  <components>
+    <component id="component-schedulesofprinciples">
+      <doc name="schedulesofprinciples">
+        <meta>
+          <identification source="#slaw">
+            <FRBRWork>
+              <FRBRthis value="/za-wc011/act/by-law/2003/supervision-control-business-of-street-vendor-pedlar-hawker/schedulesofprinciples"/>
+              <FRBRuri value="/za-wc011/act/by-law/2003/supervision-control-business-of-street-vendor-pedlar-hawker"/>
+              <FRBRalias value="Schedules of principles"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRcountry value="za"/>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/za-wc011/act/by-law/2003/supervision-control-business-of-street-vendor-pedlar-hawker/eng@2003-04-04/schedulesofprinciples"/>
+              <FRBRuri value="/za-wc011/act/by-law/2003/supervision-control-business-of-street-vendor-pedlar-hawker/eng@2003-04-04"/>
+              <FRBRdate date="1980-01-01" name="Generation"/>
+              <FRBRauthor href="#council"/>
+              <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/za-wc011/act/by-law/2003/supervision-control-business-of-street-vendor-pedlar-hawker/eng@2003-04-04/schedulesofprinciples"/>
+              <FRBRuri value="/za-wc011/act/by-law/2003/supervision-control-business-of-street-vendor-pedlar-hawker/eng@2003-04-04"/>
+              <FRBRdate date="2018-07-04" name="Generation"/>
+              <FRBRauthor href="#slaw"/>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <mainBody>
+          <article id="schedulesofprinciples">
+            <paragraph id="schedulesofprinciples.paragraph-0">
+              <content>
+                <p>In accordance with the provisions of the Businesses Act, 1991 (<ref href="/za/act/1991/71">Act 71 of 1991</ref>) and the by-laws and regulations promulgated in terms thereof, the following principles shall apply—</p>
+                <p>1. Legislation shall provide a framework to allow street traders to operate as legitimate contributors to the economic activity and growth of Matzikama.</p>
+                <p>2. Street traders must have the freedom to trade in an open economy and pursue a livelihood as contributors to the economy of Matzikama.</p>
+                <p>3. Street traders must have equal access to market opportunities.</p>
+                <p>4. Street traders must be treated as entrepreneurs engaged in formal economic activity, however, the historical background from which the sector has emerged and the specific logistical problems associated with the sector, must be born in mind.</p>
+                <p>5. Street traders must have the freedom to associate and constitute themselves into bodies and organisations of their choice, provided that they are formally constituted and have a recognised membership.</p>
+                <p>6. Street traders must contribute to the creation of a growing and expanding economy.</p>
+                <p>7. Street traders must assist in the promotion of participation in the growth and development of Matzikama with particular attention to the advancement of historically disadvantaged entrepreneurs and groups.</p>
+                <p>8. Street traders must contribute to the creation of viable employment opportunities.</p>
+                <p>9. Street traders must contribute to the protection of the environment and the proper planning and development of the economy of Matzikama.</p>
+                <p>10. Street traders must operate within the legal framework and contribute to the tax base of the local authority.</p>
+                <p>11. Street traders and the local authority must accept the principle of negotiation and fairness in the resolution of conflict.</p>
+                <p>12. Street traders must contribute to the promotion of a clean and healthy environment and the protection of public health and safety.</p>
+              </content>
+            </paragraph>
+          </article>
+        </mainBody>
+      </doc>
+    </component>
+  </components>
+</akomaNtoso>

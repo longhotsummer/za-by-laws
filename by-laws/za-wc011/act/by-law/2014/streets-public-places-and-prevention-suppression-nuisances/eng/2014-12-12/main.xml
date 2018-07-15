@@ -1,0 +1,547 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc011/act/by-law/2014/streets-public-places-and-prevention-suppression-nuisances/main"/>
+          <FRBRuri value="/za-wc011/act/by-law/2014/streets-public-places-and-prevention-suppression-nuisances"/>
+          <FRBRalias value="By-law relating to Streets, Public Places and the Prevention and Suppression of Nuisances of Matzikama Municipality"/>
+          <FRBRdate date="2014-12-12" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc011/act/by-law/2014/streets-public-places-and-prevention-suppression-nuisances/eng@2014-12-12/main"/>
+          <FRBRuri value="/za-wc011/act/by-law/2014/streets-public-places-and-prevention-suppression-nuisances/eng@2014-12-12"/>
+          <FRBRdate date="2014-12-12" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc011/act/by-law/2014/streets-public-places-and-prevention-suppression-nuisances/eng@2014-12-12/main"/>
+          <FRBRuri value="/za-wc011/act/by-law/2014/streets-public-places-and-prevention-suppression-nuisances/eng@2014-12-12"/>
+          <FRBRdate date="2018-07-09" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication number="7339" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" date="2014-12-12"/>
+      <references source="#this">
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-person" showAs="person" href="/ontology/term/this.eng.person"/>
+        <TLCTerm id="term-decently" showAs="decently" href="/ontology/term/this.eng.decently"/>
+        <TLCTerm id="term-public_place" showAs="public place" href="/ontology/term/this.eng.public_place"/>
+        <TLCTerm id="term-motor_vehicle" showAs="motor vehicle" href="/ontology/term/this.eng.motor_vehicle"/>
+        <TLCTerm id="term-neighbourhood" showAs="neighbourhood" href="/ontology/term/this.eng.neighbourhood"/>
+        <TLCTerm id="term-unseemly" showAs="unseemly" href="/ontology/term/this.eng.unseemly"/>
+        <TLCTerm id="term-zoned" showAs="zoned" href="/ontology/term/this.eng.zoned"/>
+        <TLCTerm id="term-Council" showAs="Council" href="/ontology/term/this.eng.Council"/>
+        <TLCTerm id="term-street" showAs="street" href="/ontology/term/this.eng.street"/>
+        <TLCTerm id="term-premises" showAs="premises" href="/ontology/term/this.eng.premises"/>
+        <TLCTerm id="term-occupier" showAs="occupier" href="/ontology/term/this.eng.occupier"/>
+        <TLCTerm id="term-owner" showAs="owner" href="/ontology/term/this.eng.owner"/>
+        <TLCTerm id="term-zoning_scheme" showAs="zoning scheme" href="/ontology/term/this.eng.zoning_scheme"/>
+        <TLCTerm id="term-Matzikama_Municipality" showAs="Matzikama Municipality" href="/ontology/term/this.eng.Matzikama_Municipality"/>
+        <TLCTerm id="term-official" showAs="official" href="/ontology/term/this.eng.official"/>
+      </references>
+    </meta>
+    <preface>
+      <p>To control streets and public places and prevent and suppress nuisances in order to ensure a safe and healthy environment in the Matzikama municipal area; and to provide for matters related thereto.</p>
+    </preface>
+    <preamble>
+      <p>WHEREAS a Municipality has the executive authority, in terms of Section 156(1)(a) read with Part B of Schedule 5 of the Constitution of the Republic of South Africa, 1996, to control public nuisances, municipal roads and public places;</p>
+      <p>WHEREAS a Municipality may, in terms of Section 156(2) of the Constitution, make and administer by-laws for the effective administration of the matters which it has the right to administer;</p>
+      <p>WHEREAS a Municipality may, in terms of Section 11(3)(m) of the Local Government: Municipal Systems Act, 2000 (<ref href="/za/act/2000/32">Act 32 of 2000</ref>), pass by-laws and take decisions;</p>
+      <p>AND NOW THEREFORE, BE IT ENACTED by the Council of the Matzikama Municipality, as follows:</p>
+    </preamble>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Definitions</heading>
+        <subsection id="section-1.1">
+          <num>(1)</num>
+          <content>
+            <p>In this By-law, unless the context indicates otherwise;</p>
+            <p refersTo="#term-Council">"<def refersTo="#term-Council">Council</def>" means the Municipal Council of the Municipality as elected or its delegated in terms of the Local Government: Municipal Systems Act, <ref href="/za/act/2000/32">Act 32 of 2000</ref>;</p>
+            <p refersTo="#term-decently">"<def refersTo="#term-decently">decently</def>" means in a manner which is considered to be of an acceptable standard, respectable and morally behavior to any other <term refersTo="#term-person" id="trm0">person</term></p>
+            <p refersTo="#term-Matzikama_Municipality">"<def refersTo="#term-Matzikama_Municipality">Matzikama Municipality</def>" means the Matzikama Municipality established by the Establish Notice published in Provincial Notice No. 481 of 2000, as amended, and "Municipality" has a corresponding meaning;</p>
+            <p refersTo="#term-motor_vehicle">"<def refersTo="#term-motor_vehicle">motor vehicle</def>" means a vehicle designed or adapted for propulsion or haulage on a road by means of fuel, gas or electricity, including a trailer or an agricultural or other implement designed or adapted to be drawn by such vehicle and include vehicles designed or adapted to transport passengers;</p>
+            <p refersTo="#term-neighbourhood">"<def refersTo="#term-neighbourhood">neighbourhood</def>" means the area near to the action/place;</p>
+            <p refersTo="#term-official">"<def refersTo="#term-official">official</def>" means any <term refersTo="#term-person" id="trm1">person</term> authorized by the Municipality to perform the function of an officer under this By-law and includes any member of the South African Police Services and any <term refersTo="#term-person" id="trm2">person</term> appointed in terms of the applicable legislation (e.g. Peace Officer) and "Officer" has a corresponding meaning;</p>
+            <p refersTo="#term-occupier">"<def refersTo="#term-occupier">occupier</def>" means a <term refersTo="#term-person" id="trm3">person</term> in actual occupation and legally entitled to occupy and/or in charge of or responsible for the management of any <term refersTo="#term-premises" id="trm4">premises</term> and includes the agent (authorize lawyer) of any such <term refersTo="#term-person" id="trm5">person</term>.</p>
+            <p refersTo="#term-owner">"<def refersTo="#term-owner">owner</def>" means the <term refersTo="#term-person" id="trm6">person</term> in whom the legal title to any immovable property is vested;</p>
+            <blockList id="section-1.1.list10" refersTo="#term-person">
+              <listIntroduction>"<def refersTo="#term-person">person</def>" means a natural person or a juristic person which may include –</listIntroduction>
+              <item id="section-1.1.list10.a">
+                <num>(a)</num>
+                <p>any person in charge or managing the <term refersTo="#term-premises" id="trm7">premises</term>;</p>
+              </item>
+              <item id="section-1.1.list10.b">
+                <num>(b)</num>
+                <p>any body of persons corporate or unincorporated,</p>
+              </item>
+              <item id="section-1.1.list10.c">
+                <num>(c)</num>
+                <p>any company incorporated or registered as such under any law or any village management board, or like authority.</p>
+              </item>
+            </blockList>
+            <p refersTo="#term-premises">"<def refersTo="#term-premises">premises</def>" include any erf, plot, place, land (with or without building/s), building or conveyance or any part thereof;</p>
+            <p refersTo="#term-public_place">"<def refersTo="#term-public_place">public place</def>" means any parking area, recreational area, area of relaxation, sport grounds, beach, open place, unused or vacant municipal land, cemetery, places at any time been dedicated to the public or at any time been declared or rendered as such by the Municipality or other competent authority;</p>
+            <p refersTo="#term-street">"<def refersTo="#term-street">street</def>" means any road (public and private which included a footpath and pavement) or thoroughfare commonly use by the public, which is proclaimed according by the local authority and or indicated as such on a diagram ;</p>
+            <p refersTo="#term-unseemly">"<def refersTo="#term-unseemly">unseemly</def>" means behaviour which is not polite and/or not suitable for a particular place, occasion and or situation;</p>
+            <p refersTo="#term-zoned">"<def refersTo="#term-zoned">zoned</def>" means zoned and zoning as the case may be in terms of the applicable <term refersTo="#term-zoning_scheme" id="trm8">zoning scheme</term> or any applicable law and "zoning" has a corresponding meaning;</p>
+            <p refersTo="#term-zoning_scheme">"<def refersTo="#term-zoning_scheme">zoning scheme</def>" means the zoning scheme applicable to the area in force with the area of jurisdiction of the <term refersTo="#term-Matzikama_Municipality" id="trm9">Matzikama Municipality</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.2">
+          <num>(2)</num>
+          <content>
+            <p>In this By-law, unless the context indicates otherwise, any word or expression to which a meaning has been assigned in the applicable legislation and can read together with the By-law on liquor trading days end hours of <term refersTo="#term-Matzikama_Municipality" id="trm10">Matzikama Municipality</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Purpose of By-law</heading>
+        <paragraph id="section-2.paragraph-0">
+          <content>
+            <p>The Municipality, acting in terms of the powers granted to it in the Act, adopts this By-law with the aim of controlling of streets and public places and prevent and suppress nuisances.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Application of By-law</heading>
+        <paragraph id="section-3.paragraph-0">
+          <content>
+            <p>This By-law applies to the promulgated area situated within the area of jurisdiction of the Municipality.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Disturbance of the peace</heading>
+        <subsection id="section-4.1">
+          <num>(1)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm11">person</term> shall disturb the public peace in any <term refersTo="#term-public_place" id="trm12">public place</term> by making <term refersTo="#term-unseemly" id="trm13">unseemly</term> noises or by cursing, shouting, roaring, wrangling, or quarrelling, or by collecting a crowd, or by fighting or challenging to fight, or by striking with or brandishing or using in a threatening manner any stick or other weapon, or by any other riotous, violent or <term refersTo="#term-unseemly" id="trm14">unseemly</term> behavior or disrupt the public peace in the <term refersTo="#term-neighbourhood" id="trm15">neighbourhood</term> of such <term refersTo="#term-premises" id="trm16">premises</term> by making therein of thereon any <term refersTo="#term-unseemly" id="trm17">unseemly</term> noise, shouting, cursing, quarrelling, wrangling or singing at any time of the day of night.</p>
+          </content>
+        </subsection>
+        <subsection id="section-4.2">
+          <num>(2)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm18">person</term> shall, in any <term refersTo="#term-public_place" id="trm19">public place</term>, use any abusive or threatening language or use a physical threatening and intimidating attitude or commit any act which is liable or calculated to cause a breach of the peace.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Subject to obtaining prior written approval of the <term refersTo="#term-Council" id="trm20">Council</term></heading>
+        <subsection id="section-5.1">
+          <num>(1)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm21">person</term> shall advertise any wares or services in any <term refersTo="#term-public_place" id="trm22">public place</term> by means of any megaphone, loudspeakers or other similar device, or ringing of bells in such manner to constitute a public nuisance in the <term refersTo="#term-neighbourhood" id="trm23">neighbourhood</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.2">
+          <num>(2)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm24">person</term> shall disturb the public peace in or on any private or public <term refersTo="#term-premises" id="trm25">premises</term>, or disrupt the public peace in the <term refersTo="#term-neighbourhood" id="trm26">neighbourhood</term> of such <term refersTo="#term-premises" id="trm27">premises</term> by the continuous playing of musical instruments, radios or the like or by the continuous or over-loud use of loudspeakers, or the like.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.3">
+          <num>(3)</num>
+          <content>
+            <p>Any itinerant vocalist or musician performing in any <term refersTo="#term-public_place" id="trm28">public place</term> shall, when so required by any officer or by any <term refersTo="#term-person" id="trm29">person</term> residing in the <term refersTo="#term-neighbourhood" id="trm30">neighbourhood</term> where such vocalist or musician is performing, depart from such <term refersTo="#term-neighbourhood" id="trm31">neighbourhood</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.4">
+          <num>(4)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm32">person</term> shall discharge fireworks and/or light any bonfire in any public space, without prior written permission of the <term refersTo="#term-Council" id="trm33">Council</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.5">
+          <num>(5)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm34">person</term> shall, without lawful cause, discharge any firearm or air gun within the Municipality, provided that this By-law shall not apply to any persons engaged in authorized target practice in places set aside for that purpose or to any <term refersTo="#term-person" id="trm35">person</term> to whom written permission to do so has been given by the <term refersTo="#term-Council" id="trm36">Council</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.6">
+          <num>(6)</num>
+          <content>
+            <blockList id="section-5.6.list1">
+              <listIntroduction>No <term refersTo="#term-person" id="trm37">person</term> shall carry any knife, dagger or other dangerous weapon or any other lethal weapon in any <term refersTo="#term-public_place" id="trm38">public place</term>, provided that this By-law shall not apply to the following:</listIntroduction>
+              <item id="section-5.6.list1.a">
+                <num>(a)</num>
+                <blockList id="section-5.6.list1.a.list0">
+                  <listIntroduction/>
+                  <item id="section-5.6.list1.a.list0.i">
+                    <num>(i)</num>
+                    <p>any <term refersTo="#term-person" id="trm39">person</term> in the Military, Traffic, Security or Police Service when on duty;</p>
+                  </item>
+                  <item id="section-5.6.list1.a.list0.ii">
+                    <num>(ii)</num>
+                    <p>any security officer or police officer;</p>
+                  </item>
+                  <item id="section-5.6.list1.a.list0.iii">
+                    <num>(iii)</num>
+                    <p>any <term refersTo="#term-person" id="trm40">person</term> who shall have obtained from the police a written exemption from the operation of this By-law, which exemption the police are hereby authorized to grant.</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-5.6.list1.b">
+                <num>(b)</num>
+                <p>No <term refersTo="#term-person" id="trm41">person</term> armed with lethal weapons shall be permitted to congregate in any part of the Municipality for any purpose or in any manner liable or calculated to cause a breach of the peace.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-5.7">
+          <num>(7)</num>
+          <content>
+            <p>Any <term refersTo="#term-person" id="trm42">person</term> shall without the prior permission of the <term refersTo="#term-Council" id="trm43">Council</term>, occupy for human habitation a caravan, tent or other similar shelter of any description/material except on an authorized camping or caravan site provided that a caravan, tent or shelter parked or erected on a building site on which building works is taking place with all the necessary ablution and toilet facilities, may be used for the temporary accommodation of the workers on a building site for a maximum period not exceeding 60 days.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.8">
+          <num>(8)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm44">person</term> shall hold any auction and/or sale in any <term refersTo="#term-street" id="trm45">street</term> or in or from any doorway, window or other opening of any <term refersTo="#term-premises" id="trm46">premises</term> abutting on any <term refersTo="#term-street" id="trm47">street</term> or <term refersTo="#term-public_place" id="trm48">public place</term> without the prior written consent of the <term refersTo="#term-Council" id="trm49">Council</term> and then only subject to such conditions as may be imposed in such consent.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.9">
+          <num>(9)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm50">person</term> shall display any poster or banner on any lamp pole, road sign, garbage container or similar structure or trees abutting on any <term refersTo="#term-street" id="trm51">street</term> or <term refersTo="#term-public_place" id="trm52">public place</term> without the prior written consent of the <term refersTo="#term-Council" id="trm53">Council</term> and then only subject to such conditions as may be imposed in such consent.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.10">
+          <num>(10)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm54">person</term> shall collect or attempt to collect money/goods from door- to-door without original proof of the organization/project for which the money/goods are collected.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.11">
+          <num>(11)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm55">person</term> shall place or deposit any slops, trimmings of hedges, fences or trees or any garden or other refuse or waste material of any kind (<term refersTo="#term-motor_vehicle" id="trm56">motor vehicle</term> wrecks, building material, goods, etc.) on any <term refersTo="#term-street" id="trm57">street</term> or public places unless mentioned is placed in approved boxes receptacles for the purpose of removal by the <term refersTo="#term-Council" id="trm58">Council</term>’s employers or contractors without the prior written consent of the <term refersTo="#term-Council" id="trm59">Council</term> and then only subject to such conditions as may be imposed in such consent.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.12">
+          <num>(12)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm60">person</term> other than a duly authorized Municipal Official shall plant a tree or a shrub in a <term refersTo="#term-street" id="trm61">street</term> or in any way cut down or breaks or damage or mark or paint a tree or a shrub in a <term refersTo="#term-street" id="trm62">street</term> or remove it there from, except with the prior permission of the Municipality.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.13">
+          <num>(13)</num>
+          <content>
+            <blockList id="section-5.13.list0">
+              <item id="section-5.13.list0.a">
+                <num>(a)</num>
+                <p>No <term refersTo="#term-person" id="trm63">person</term>, other than a <term refersTo="#term-person" id="trm64">person</term> appointed for the purpose by a registered welfare or church or non organization which has been authorized by the <term refersTo="#term-Council" id="trm65">Council</term> to cause a collection of money to be taken or to hold a sale on its behalf in any <term refersTo="#term-public_place" id="trm66">public place</term> or <term refersTo="#term-street" id="trm67">street</term>, shall collect or attempt to collect money or hold such sale in any <term refersTo="#term-public_place" id="trm68">public place</term> and/or <term refersTo="#term-street" id="trm69">street</term>.</p>
+              </item>
+              <item id="section-5.13.list0.b">
+                <num>(b)</num>
+                <blockList id="section-5.13.list0.b.list0">
+                  <listIntroduction>Every welfare or church or non profitable organization desiring to obtain the authority of the <term refersTo="#term-Council" id="trm70">Council</term> for any such collection or sale on his behalf shall, make a written application to the <term refersTo="#term-Council" id="trm71">Council</term> therefore, and shall, if required by the <term refersTo="#term-Council" id="trm72">Council</term>, forward the following documents:</listIntroduction>
+                  <item id="section-5.13.list0.b.list0.i">
+                    <num>(i)</num>
+                    <p>the certificate of the relevant registration;</p>
+                  </item>
+                  <item id="section-5.13.list0.b.list0.ii">
+                    <num>(ii)</num>
+                    <p>a copy of its balance sheet for the preceding financial year.</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-5.13.list0.c">
+                <num>(c)</num>
+                <p>The <term refersTo="#term-Council" id="trm73">Council</term> upon receipt of any such application, may either grant the application or refuse it. If granted, the authority shall be subject to such conditions as the <term refersTo="#term-Council" id="trm74">Council</term> may prescribe.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-5.14">
+          <num>(14)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm75">person</term> shall make or cause to be made an excavation or dig or cause to be dug a pit, trench or hole in a <term refersTo="#term-street" id="trm76">street</term> or <term refersTo="#term-public_place" id="trm77">public place</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-5.15">
+          <num>(15)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm78">person</term> shall cleanse or wash any vehicle or any offensive article or utensil in any <term refersTo="#term-street" id="trm79">street</term> of <term refersTo="#term-public_place" id="trm80">public place</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Offences against decency and morality</heading>
+        <subsection id="section-6.1">
+          <num>(1)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm81">person</term> shall, in any <term refersTo="#term-public_place" id="trm82">public place</term> or <term refersTo="#term-street" id="trm83">street</term>, commit any indecent or immoral gesture or act or willfully and obscenely expose his <term refersTo="#term-person" id="trm84">person</term> or wash or urinate or defecate, spit or perform any sexual act.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.2">
+          <num>(2)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm85">person</term> shall appear in any <term refersTo="#term-public_place" id="trm86">public place</term> or on <term refersTo="#term-street" id="trm87">street</term> nude except where or when designated by the Municipality if not, a <term refersTo="#term-person" id="trm88">person</term> must be <term refersTo="#term-decently" id="trm89">decently</term> clothed at all times.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.3">
+          <num>(3)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm90">person</term> shall be or appear in any <term refersTo="#term-public_place" id="trm91">public place</term> or <term refersTo="#term-street" id="trm92">street</term> in a state of intoxication.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.4">
+          <num>(4)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm93">person</term> shall in any <term refersTo="#term-public_place" id="trm94">public place</term> or <term refersTo="#term-street" id="trm95">street</term> consume any liquor or carry opened liquor or consumes or abuse drugs or any intoxicating substance or engages in gambling.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.5">
+          <num>(5)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm96">person</term> shall write, print or draw any obscene or indecent words or figures in any <term refersTo="#term-public_place" id="trm97">public place</term>, <term refersTo="#term-street" id="trm98">street</term> or upon any wall, door, window or other part of <term refersTo="#term-premises" id="trm99">premises</term> in or within sight of any <term refersTo="#term-public_place" id="trm100">public place</term>, nor use any foul, obscene or indecent language in any <term refersTo="#term-public_place" id="trm101">public place</term> within the hearing of any <term refersTo="#term-person" id="trm102">person</term> therein.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.6">
+          <num>(6)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm103">person</term> shall litter upon any <term refersTo="#term-public_place" id="trm104">public place</term> or <term refersTo="#term-street" id="trm105">street</term>, which might in any way endanger the safety of pedestrians, or pollute the environment.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.7">
+          <num>(7)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm106">person</term> shall be loitering outside on <term refersTo="#term-street" id="trm107">street</term> or any <term refersTo="#term-public_place" id="trm108">public place</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.8">
+          <num>(8)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm109">person</term> shall be begging outside business, residents or any other <term refersTo="#term-premises" id="trm110">premises</term> or on <term refersTo="#term-street" id="trm111">street</term> or any <term refersTo="#term-public_place" id="trm112">public place</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.9">
+          <num>(9)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm113">person</term> shall allow any goods or other article, whether they be his own property or in his charge or custody to be or remain in or on any <term refersTo="#term-street" id="trm114">street</term>, so as to cause obstruction or inconvenience to the passage of any <term refersTo="#term-person" id="trm115">person</term> for a longer time than may be necessary for loading and unloading, and in no case after receipt of a notice requiring him to remove mentioned (same) given by any security officer of authorized <term refersTo="#term-official" id="trm116">official</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.10">
+          <num>(10)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm117">person</term> shall, for trading or any other purpose, place any goods, wares or articles on any stand or support on or overhanging or protruding over any pavement or <term refersTo="#term-street" id="trm118">street</term>, nor place such goods, wares or articles upon any pavement, nor place, fix or hang such goods, wares or articles upon any verandah post, stays or ceiling on or over any <term refersTo="#term-street" id="trm119">street</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.11">
+          <num>(11)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm120">person</term> shall carry on or take part in any trade or calling nor open, unpack or pack any cases, furniture, goods, materials or merchandise in any <term refersTo="#term-street" id="trm121">street</term> or <term refersTo="#term-public_place" id="trm122">public place</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.12">
+          <num>(12)</num>
+          <content>
+            <p>No driver or <term refersTo="#term-person" id="trm123">person</term> in control of a heavy <term refersTo="#term-motor_vehicle" id="trm124">motor vehicle</term> shall park or leave such <term refersTo="#term-motor_vehicle" id="trm125">motor vehicle</term> parked overnight in a developed <term refersTo="#term-public_place" id="trm126">public place</term> or in a <term refersTo="#term-public_place" id="trm127">public place</term> in a residential area.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.13">
+          <num>(13)</num>
+          <content>
+            <p>No driver or <term refersTo="#term-person" id="trm128">person</term> in control of a <term refersTo="#term-motor_vehicle" id="trm129">motor vehicle</term> or passenger in the <term refersTo="#term-motor_vehicle" id="trm130">motor vehicle</term> shall permit any amplified noise en emanate from the <term refersTo="#term-motor_vehicle" id="trm131">motor vehicle</term> such that it is audible at a distance of more than 50 metres.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.14">
+          <num>(14)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm132">person</term> shall place any flowerpot or box or other heavy article in any window or upon any window-sill in any building abutting on any <term refersTo="#term-street" id="trm133">street</term> unless proper precaution are taken to prevent such object from being blown or falling into or on to such <term refersTo="#term-street" id="trm134">street</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.15">
+          <num>(15)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm135">person</term> shall allow any erf to be overgrowth of trees, bush, weeds, grass, dirty, neglected or infested with rodents, snakes, mosquitoes, flies, ticks, bugs or other insects harmful to health, or allow any offensive odours or gases to emanate from such erf or that material of whatsoever nature been accumulated dumped, stored or deposit on any erf;</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.16">
+          <num>(16)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm136">person</term> shall allow any building or structure (includes fencing) or any portion thereof on any erf to fall into a dilapidated, neglected or unsightly state, or fail to maintain the roof-water disposal system, pipes, sewers, drains, water fittings, waste water fittings, water closet fittings and all other appurtenances forming part of or attached to any building of structure in good and sound repair;</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.17">
+          <num>(17)</num>
+          <content>
+            <p>A <term refersTo="#term-person" id="trm137">person</term> shall not allow on his/her <term refersTo="#term-premises" id="trm138">premises</term> any tree, bush, scrub and/or or roots which creates a disturbance or a nuisance to the neighbours by impacting on structures, light, noise by scratching on roofs etc.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.18">
+          <num>(18)</num>
+          <content>
+            <blockList id="section-6.18.list0">
+              <item id="section-6.18.list0.a">
+                <num>(a)</num>
+                <p>No <term refersTo="#term-person" id="trm139">person</term>, being the <term refersTo="#term-owner" id="trm140">owner</term> or <term refersTo="#term-occupier" id="trm141">occupier</term> of any <term refersTo="#term-premises" id="trm142">premises</term> abutting on any <term refersTo="#term-street" id="trm143">street</term> shall permit any tree, branch or scrub growing on such <term refersTo="#term-premises" id="trm144">premises</term> to overhang or extend onto such <term refersTo="#term-street" id="trm145">street</term> in such manner as to cause an obstruction or discomfort to the public, or to come into contact of to be likely to come into contact with any wire, pole or public work in or over such <term refersTo="#term-street" id="trm146">street</term>, nor permit the roots of any such tree or shrub to grow to such an extent that they cause or are likely to cause, any damage to the surface or any <term refersTo="#term-street" id="trm147">street</term> or to any drain, sewer, water main, underground cable or pipe laid in or under the surface of such <term refersTo="#term-street" id="trm148">street</term>.</p>
+              </item>
+              <item id="section-6.18.list0.b">
+                <num>(b)</num>
+                <p>The <term refersTo="#term-owner" id="trm149">owner</term> or <term refersTo="#term-occupier" id="trm150">occupier</term> of any such <term refersTo="#term-premises" id="trm151">premises</term> shall upon receipt of a notice signed by the Municipal Manager requiring him to cut down or back or remove any such tree or shrub or the roots thereof within a time specified, and if such <term refersTo="#term-owner" id="trm152">owner</term> or <term refersTo="#term-occupier" id="trm153">occupier</term> shall fail to comply with such notice within such time specified therein the <term refersTo="#term-Council" id="trm154">Council</term> may cause such tree or shrub or the roots thereof to be cut down or back or removed, and may recover the cost of executing such work from such <term refersTo="#term-owner" id="trm155">owner</term> or <term refersTo="#term-occupier" id="trm156">occupier</term>.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-6.19">
+          <num>(19)</num>
+          <content>
+            <p>Every <term refersTo="#term-person" id="trm157">person</term> engaged in building operations, road construction or construction work of any nature shall provide adequate sanitary accommodation for himself and his/her employees to the satisfaction of and in accordance with any requirements specified by the <term refersTo="#term-Council" id="trm158">Council</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.20">
+          <num>(20)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm159">person</term> shall throw or deposit or permit to be thrown or deposit any plastic bottles, plastic bags, paper, cartons, broken glass or any fruit or vegetable peelings, or any refuse upon any <term refersTo="#term-street" id="trm160">street</term> and/or <term refersTo="#term-public_place" id="trm161">public place</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.21">
+          <num>(21)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm162">person</term> shall befoul, misuse or damage any public infrastructure or any public building or <term refersTo="#term-public_place" id="trm163">public place</term> or public entertainment.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.22">
+          <num>(22)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm164">person</term> shall solicit aims in any <term refersTo="#term-street" id="trm165">street</term> or <term refersTo="#term-public_place" id="trm166">public place</term> or endeavour by the exposure of wounds, sores, injuries or deformities or the production of begging letters to obtain alms.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.23">
+          <num>(23)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm167">person</term> shall dry or spread washing, bedding or other items in a <term refersTo="#term-public_place" id="trm168">public place</term> or on a fence on the boundary of a <term refersTo="#term-street" id="trm169">street</term> except where conditions in informal settlements are such that it is not possible to do otherwise.</p>
+          </content>
+        </subsection>
+        <subsection id="section-6.24">
+          <num>(24)</num>
+          <content>
+            <p>No <term refersTo="#term-person" id="trm170">person</term> shall sleep in a stationary <term refersTo="#term-motor_vehicle" id="trm171">motor vehicle</term> except in dire emergency or where such <term refersTo="#term-person" id="trm172">person</term> is the driver of a public transportation <term refersTo="#term-motor_vehicle" id="trm173">motor vehicle</term> and not reside in a <term refersTo="#term-motor_vehicle" id="trm174">motor vehicle</term> for longer than twenty-four hours.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Numbering of houses and display of <term refersTo="#term-street" id="trm175">street</term> numbers</heading>
+        <paragraph id="section-7.paragraph-0">
+          <content>
+            <p>The Municipality may, by written notice –</p>
+          </content>
+        </paragraph>
+        <subsection id="section-7.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-7.1.list0">
+              <item id="section-7.1.list0.a">
+                <num>(a)</num>
+                <p>allow any number to any <term refersTo="#term-premises" id="trm176">premises</term> in any <term refersTo="#term-street" id="trm177">street</term> and direct the <term refersTo="#term-owner" id="trm178">owner</term> of such <term refersTo="#term-premises" id="trm179">premises</term> to display the number allowed to the <term refersTo="#term-premises" id="trm180">premises</term> and may also, in exceptional circumstances, prescribe the position where it is to be displayed, and the <term refersTo="#term-owner" id="trm181">owner</term> or <term refersTo="#term-occupier" id="trm182">occupier</term> of such <term refersTo="#term-premises" id="trm183">premises</term> shall, within 30 days of the date of such notice affix the allowed number on the <term refersTo="#term-premises" id="trm184">premises</term> in accordance with such notice provided that any such number displayed on the <term refersTo="#term-premises" id="trm185">premises</term> shall be clearly visible and legible from a height of 1,5m above the centre line of the adjacent road of carriageway; and</p>
+              </item>
+              <item id="section-7.1.list0.b">
+                <num>(b)</num>
+                <p>renumber any <term refersTo="#term-premises" id="trm186">premises</term>, in exceptional circumstances, direct the <term refersTo="#term-owner" id="trm187">owner</term> of such <term refersTo="#term-premises" id="trm188">premises</term> to display the number allowed to the <term refersTo="#term-premises" id="trm189">premises</term> within 60 days of the date of such notice affix.</p>
+              </item>
+              <item id="section-7.1.list0.c">
+                <num>(c)</num>
+                <p>direct any <term refersTo="#term-owner" id="trm190">owner</term> to replace or repaint any digit of such number which has become illegible, obliterated or defaced.</p>
+              </item>
+            </blockList>
+          </content>
+        </subsection>
+        <subsection id="section-7.2">
+          <num>(2)</num>
+          <content>
+            <p>If the <term refersTo="#term-owner" id="trm191">owner</term> of any <term refersTo="#term-premises" id="trm192">premises</term> fails to comply with any directive in terms of a notice contemplated in subsection (1), the Municipality may cause such directive to be executed and the <term refersTo="#term-owner" id="trm193">owner</term> shall be liable for the cost incurred by the Municipality in having the directive executed and/or the tariff approved in the budget of the Municipality.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.3">
+          <num>(3)</num>
+          <content>
+            <p>A statement signed by <term refersTo="#term-official" id="trm194">official</term> of the Municipality stating that the <term refersTo="#term-owner" id="trm195">owner</term> failed to comply with a directive in terms of a notice contemplated in subsection (1) and specifying the cost incurred by the Municipality in executing such directive, shall be sufficient in proof of the facts stated therein for purposes of summary judgement.</p>
+          </content>
+        </subsection>
+        <subsection id="section-7.4">
+          <num>(4)</num>
+          <content>
+            <p>The Municipality may at its discretion allocate a number to a portion of <term refersTo="#term-premises" id="trm196">premises</term>, other than a building, or to vacant land which borders on a <term refersTo="#term-street" id="trm197">street</term>, and the provisions of subsections (1) and (2) shall apply mutatis mutandis in respect of such portion of <term refersTo="#term-premises" id="trm198">premises</term> or such vacant land.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-8">
+        <num>8.</num>
+        <heading>Offences and Penalties</heading>
+        <subsection id="section-8.1">
+          <num>(1)</num>
+          <content>
+            <blockList id="section-8.1.list1">
+              <listIntroduction>Any <term refersTo="#term-person" id="trm199">person</term> who contravenes or fails to comply with any –</listIntroduction>
+              <item id="section-8.1.list1.a">
+                <num>(a)</num>
+                <p>provision of this By-law;</p>
+              </item>
+              <item id="section-8.1.list1.b">
+                <num>(b)</num>
+                <p>condition or instruction served in connection with this By-law; or</p>
+              </item>
+              <item id="section-8.1.list1.c">
+                <num>(c)</num>
+                <p>written notice from an authorised <term refersTo="#term-official" id="trm200">official</term>,</p>
+              </item>
+            </blockList>
+            <p>on conviction, and subject to penalties prescribed in terms of any other law, is guilty of a first, second and/or third category offence.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.2">
+          <num>(2)</num>
+          <content>
+            <p>A <term refersTo="#term-person" id="trm201">person</term> who is guilty of an offence may be sentenced up to a maximum of two (2) years imprisonment and/or a fine and/or community service.</p>
+          </content>
+        </subsection>
+        <subsection id="section-8.3">
+          <num>(3)</num>
+          <content>
+            <p>A court which sentences any <term refersTo="#term-person" id="trm202">person</term> to community service for an offence in terms of this By-law must impose a form of community service which benefits the environment and/or community if it is possible for the offender to serve such a sentence in the circumstances.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-9">
+        <num>9.</num>
+        <heading>Appeal</heading>
+        <paragraph id="section-9.paragraph-0">
+          <content>
+            <p>A <term refersTo="#term-person" id="trm203">person</term> whose rights are affected by a decision of the municipality may appeal against that decision by giving written notice of the appeal and the reasons therefore in terms of section 62 of the Local Government: Municipal Systems Act, <ref href="/za/act/2000/32">Act 32 of 2000</ref> to the municipal manager within 21 days of the date of notification of the decision.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-10">
+        <num>10.</num>
+        <heading>Repeal</heading>
+        <paragraph id="section-10.paragraph-0">
+          <content>
+            <p>The provisions of any By-laws previously promulgated by the Municipality or by any of the disestablished Municipalities now incorporated in the Municipality area hereby repealed as far as they relate to matters provided for in this By-law.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-11">
+        <num>11.</num>
+        <heading>Short title and commencement</heading>
+        <paragraph id="section-11.paragraph-0">
+          <content>
+            <p>This By-law shall be called the By-law relating to Streets, Public Places and the Prevention and Suppression of Nuisances of <term refersTo="#term-Matzikama_Municipality" id="trm204">Matzikama Municipality</term>, and shall come into operation on the date of publication thereof in the Provincial Gazette.</p>
+          </content>
+        </paragraph>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

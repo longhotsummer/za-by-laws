@@ -1,0 +1,183 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.akomantoso.org/2.0" xsi:schemaLocation="http://www.akomantoso.org/2.0 akomantoso20.xsd">
+  <act contains="singleVersion">
+    <meta>
+      <identification source="#slaw">
+        <FRBRWork>
+          <FRBRthis value="/za-wc011/act/by-law/2010/property-rates/main"/>
+          <FRBRuri value="/za-wc011/act/by-law/2010/property-rates"/>
+          <FRBRalias value="Property Rates By-Law of the Matzikama Municipality"/>
+          <FRBRdate date="2010-09-10" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRcountry value="za"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/za-wc011/act/by-law/2010/property-rates/eng@2012-12-07/main"/>
+          <FRBRuri value="/za-wc011/act/by-law/2010/property-rates/eng@2012-12-07"/>
+          <FRBRdate date="2012-12-07" name="Generation"/>
+          <FRBRauthor href="#council"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/za-wc011/act/by-law/2010/property-rates/eng@2012-12-07/main"/>
+          <FRBRuri value="/za-wc011/act/by-law/2010/property-rates/eng@2012-12-07"/>
+          <FRBRdate date="2018-07-09" name="Generation"/>
+          <FRBRauthor href="#slaw"/>
+        </FRBRManifestation>
+      </identification>
+      <publication number="6788" name="Western Cape Provincial Gazette" showAs="Western Cape Provincial Gazette" date="2010-09-10"/>
+      <lifecycle source="#OpenByLaws-org-za">
+        <eventRef id="amendment-2012-12-07" date="2012-12-07" type="amendment" source="#amendment-0-source"/>
+      </lifecycle>
+      <references source="#this">
+        <TLCOrganization id="OpenByLaws-org-za" href="https://indigo.openbylaws.org.za" showAs="OpenByLaws.org.za"/>
+        <TLCOrganization id="slaw" href="https://github.com/longhotsummer/slaw" showAs="Slaw"/>
+        <TLCOrganization id="council" href="/ontology/organization/za/council" showAs="Council"/>
+        <TLCTerm id="term-municipality" showAs="municipality" href="/ontology/term/this.eng.municipality"/>
+        <TLCTerm id="term-Property_Rates_Act" showAs="Property Rates Act" href="/ontology/term/this.eng.Property_Rates_Act"/>
+        <TLCTerm id="term-rates_policy" showAs="rates policy" href="/ontology/term/this.eng.rates_policy"/>
+        <TLCTerm id="term-municipal_council" showAs="municipal council" href="/ontology/term/this.eng.municipal_council"/>
+        <TLCTerm id="term-rates" showAs="rates" href="/ontology/term/this.eng.rates"/>
+        <TLCTerm id="term-Constitution" showAs="Constitution" href="/ontology/term/this.eng.Constitution"/>
+        <TLCTerm id="term-Credit_Control_and_Debt_Collection_By_Law" showAs="Credit Control and Debt Collection By-Law" href="/ontology/term/this.eng.Credit_Control_and_Debt_Collection_By_Law"/>
+        <passiveRef id="amendment-0-source" href="/za-wc011/act/by-law/2012/property-rates-amendment" showAs="Property Rates Amendment By-law of Matzikama Municipality (2/2012)"/>
+      </references>
+    </meta>
+    <preface>
+      <p>The Matzikama Municipality herewith adopts the following by-law in terms of section 156(2) of the Constitution of the Republic of South Africa, 1996 and section 6 of the Local Government: Municipal Property Rates Act, 2004:</p>
+    </preface>
+    <body>
+      <section id="section-1">
+        <num>1.</num>
+        <heading>Preamble</heading>
+        <subsection id="section-1.1">
+          <num>(1)</num>
+          <content>
+            <p>The <term refersTo="#term-municipality" id="trm0">municipality</term> may impose <term refersTo="#term-rates" id="trm1">rates</term> on property and surcharges on fees for services provided by or on behalf of the <term refersTo="#term-municipality" id="trm2">municipality</term> in terms of section 229(1) of the <term refersTo="#term-Constitution" id="trm3">Constitution</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-municipal_council" id="trm4">municipal council</term> must adopt a policy on the levying of <term refersTo="#term-rates" id="trm5">rates</term> on rateable property in the <term refersTo="#term-municipality" id="trm6">municipality</term> in terms of section 3 of the <term refersTo="#term-Property_Rates_Act" id="trm7">Property Rates Act</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.3">
+          <num>(3)</num>
+          <content>
+            <p>The <term refersTo="#term-municipal_council" id="trm8">municipal council</term> must adopt a by-law to give effect to the implementation of its <term refersTo="#term-rates_policy" id="trm9">rates policy</term> in terms of section 6(1) of the <term refersTo="#term-Property_Rates_Act" id="trm10">Property Rates Act</term>.</p>
+          </content>
+        </subsection>
+        <subsection id="section-1.4">
+          <num>(4)</num>
+          <content>
+            <p>The <term refersTo="#term-municipal_council" id="trm11">municipal council</term> may in section 6(2) of the <term refersTo="#term-Property_Rates_Act" id="trm12">Property Rates Act</term> differentiate between different categories of properties and different categories of owners of properties liable for the payment of <term refersTo="#term-rates" id="trm13">rates</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-2">
+        <num>2.</num>
+        <heading>Definitions</heading>
+        <paragraph id="section-2.paragraph-0">
+          <content>
+            <p>In this by-law, the Afrikaans text prevails in the event of an inconsistency with the English text and unless the context indicates otherwise:</p>
+            <p refersTo="#term-Constitution">"<def refersTo="#term-Constitution">Constitution</def>" means the Constitution of the Republic of South Africa, 1996;</p>
+            <p refersTo="#term-Credit_Control_and_Debt_Collection_By_Law">"<def refersTo="#term-Credit_Control_and_Debt_Collection_By_Law">Credit Control and Debt Collection By-Law</def>" means the <term refersTo="#term-municipality" id="trm14">municipality</term>’s Credit Control and Debt Collection By-Law as contemplated in sections 96(b), 97 and 98 of the Local Government: Municipal Systems <ref href="/za/act/2000/32">Act, No. 32 of 2000</ref>;</p>
+            <p refersTo="#term-municipal_council">"<def refersTo="#term-municipal_council">municipal council</def>" means the municipal council of the <term refersTo="#term-municipality" id="trm15">municipality</term> as contemplated in section 157(1) of the <term refersTo="#term-Constitution" id="trm16">Constitution</term>;</p>
+            <p refersTo="#term-municipality">"<def refersTo="#term-municipality">municipality</def>" means the Matzikama Municipality established in terms of section 12 of the Local Government: Municipal Structures <ref href="/za/act/1998/117">Act, No. 117 of 1998</ref>;</p>
+            <p refersTo="#term-Property_Rates_Act">"<def refersTo="#term-Property_Rates_Act">Property Rates Act</def>" means the Local Government: Municipal Property Rates <ref href="/za/act/2004/6">Act, No.6 of 2004</ref>;</p>
+            <p refersTo="#term-rates">"<def refersTo="#term-rates">rates</def>" means municipal rates on property as contemplated in section 229 of the <term refersTo="#term-Constitution" id="trm17">Constitution</term>; and</p>
+            <p refersTo="#term-rates_policy">"<def refersTo="#term-rates_policy">rates policy</def>" the policy of the <term refersTo="#term-municipality" id="trm18">municipality</term> as adopted by the <term refersTo="#term-municipal_council" id="trm19">municipal council</term> by resolution 7.2.4 of 29 May 2012.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-3">
+        <num>3.</num>
+        <heading>Adoptions and implementation of the <term refersTo="#term-rates_policy" id="trm20">rates policy</term></heading>
+        <subsection id="section-3.1">
+          <num>(1)</num>
+          <content>
+            <p>The provisions of the <term refersTo="#term-rates_policy" id="trm21">rates policy</term> apply to the levying of <term refersTo="#term-rates" id="trm22">rates</term> on all rateable property.</p>
+          </content>
+        </subsection>
+        <subsection id="section-3.2">
+          <num>(2)</num>
+          <content>
+            <p>The <term refersTo="#term-municipality" id="trm23">municipality</term> may not levy a rate except in accordance with its <term refersTo="#term-rates_policy" id="trm24">rates policy</term>.</p>
+          </content>
+        </subsection>
+      </section>
+      <section id="section-4">
+        <num>4.</num>
+        <heading>Contents of the <term refersTo="#term-rates_policy" id="trm25">rates policy</term></heading>
+        <paragraph id="section-4.paragraph-0">
+          <content>
+            <blockList id="section-4.paragraph-0.list1">
+              <listIntroduction>The <term refersTo="#term-municipality" id="trm26">municipality</term>’s <term refersTo="#term-rates_policy" id="trm27">rates policy</term>:</listIntroduction>
+              <item id="section-4.paragraph-0.list1.a">
+                <num>(a)</num>
+                <p>applies to all <term refersTo="#term-rates" id="trm28">rates</term> levied by the <term refersTo="#term-municipality" id="trm29">municipality</term> in accordance with its approved annual budget;</p>
+              </item>
+              <item id="section-4.paragraph-0.list1.b">
+                <num>(b)</num>
+                <blockList id="section-4.paragraph-0.list1.b.list0">
+                  <listIntroduction>complies with the requirements in respect of:</listIntroduction>
+                  <item id="section-4.paragraph-0.list1.b.list0.i">
+                    <num>(i)</num>
+                    <p>the adoption and contents of a <term refersTo="#term-rates_policy" id="trm30">rates policy</term> as contemplated in section 3 of the <term refersTo="#term-Property_Rates_Act" id="trm31">Property Rates Act</term>;</p>
+                  </item>
+                  <item id="section-4.paragraph-0.list1.b.list0.ii">
+                    <num>(ii)</num>
+                    <p>the process of community participation as contemplated in section 4 of the <term refersTo="#term-Property_Rates_Act" id="trm32">Property Rates Act</term>; and</p>
+                  </item>
+                  <item id="section-4.paragraph-0.list1.b.list0.iii">
+                    <num>(iii)</num>
+                    <p>the annual review of the <term refersTo="#term-rates_policy" id="trm33">rates policy</term> as contemplated in section 5 of the <term refersTo="#term-Property_Rates_Act" id="trm34">Property Rates Act</term>;</p>
+                  </item>
+                </blockList>
+              </item>
+              <item id="section-4.paragraph-0.list1.c">
+                <num>(c)</num>
+                <p>specifies additional principles, criteria and measures in accordance with the <term refersTo="#term-Property_Rates_Act" id="trm35">Property Rates Act</term> for the levying of <term refersTo="#term-rates" id="trm36">rates</term>, which the <term refersTo="#term-municipal_council" id="trm37">municipal council</term> may determine;</p>
+              </item>
+              <item id="section-4.paragraph-0.list1.d">
+                <num>(d)</num>
+                <p>specifies the manner in which the principles contemplated in paragraph (c) should be introduced in terms of the <term refersTo="#term-rates_policy" id="trm38">rates policy</term>; and</p>
+              </item>
+              <item id="section-4.paragraph-0.list1.e">
+                <num>(e)</num>
+                <p>includes additional implementation mechanisms which the <term refersTo="#term-municipal_council" id="trm39">municipal council</term> may wish to introduce, supplementary to those provided for in the <term refersTo="#term-Credit_Control_and_Debt_Collection_By_Law" id="trm40">Credit Control and Debt Collection By-Law</term> and Policy.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-5">
+        <num>5.</num>
+        <heading>Enforcement of the <term refersTo="#term-rates_policy" id="trm41">rates policy</term></heading>
+        <paragraph id="section-5.paragraph-0">
+          <content>
+            <p>The <term refersTo="#term-municipality" id="trm42">municipality</term>’s <term refersTo="#term-rates_policy" id="trm43">rates policy</term> must be enforced by means of the <term refersTo="#term-Credit_Control_and_Debt_Collection_By_Law" id="trm44">Credit Control and Debt Collection By-Law</term> and any additional implementation mechanisms in accordance with its <term refersTo="#term-rates_policy" id="trm45">rates policy</term>.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-6">
+        <num>6.</num>
+        <heading>Repeal of by-laws</heading>
+        <paragraph id="section-6.paragraph-0">
+          <content>
+            <p>Any provision in a by-law, adopted by the <term refersTo="#term-municipality" id="trm46">municipality</term> or any of the disestablished municipalities that have been incorporated into the <term refersTo="#term-municipality" id="trm47">municipality</term>, which relates to any aspect provided for in this by-law is herewith repealed.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section id="section-7">
+        <num>7.</num>
+        <heading>Short title and commencement</heading>
+        <paragraph id="section-7.paragraph-0">
+          <content>
+            <p>This By-law shall be called the Property Rates By-Law of the Matzikama Municipality and shall come into operation on the date of publication thereof in the Provincial Gazette.</p>
+          </content>
+        </paragraph>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>
